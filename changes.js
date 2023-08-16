@@ -14,7 +14,23 @@ async function saveToRequestLog(requestLog, requestLogPath) {
     await fs.writeFile(requestLogPath, JSON.stringify(requestLog, null, 4));
 }
 
+async function fetchVersionOverview() {
+    const url = 'https://sapui5.hana.ondemand.com/versionoverview.json';
+    try {
+        const { data } = await axios.get(url);
+        await fs.writeFile(path.join(__dirname, 'versionoverview.json'), JSON.stringify(data, null, 4));
+        console.log('versionoverview.json updated successfully.');
+    } catch (error) {
+        console.error(`Failed to fetch versionoverview.json: ${error.message}`);
+    }
+}
+
 async function main() {
+    try {
+        this.fetchVersionOverview();
+    } catch (error) {
+        
+    }
     const requestLogPath = path.join(__dirname, 'requestLog.json');
     let requestLog = {};
 
