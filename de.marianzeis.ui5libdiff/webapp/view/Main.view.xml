@@ -24,11 +24,12 @@
 					<core:Item text="{select>value}" key="{select>key}"/>
 				</m:Select>
 				<m:Text text="Filter for FIX or FEATURE" />
-				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="400px" selectionChange="handleVersionChange">
+				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="600px" selectionChange="handleVersionChange">
 					<m:items>
 						<m:SegmentedButtonItem text="All" key="ALL"/>
 						<m:SegmentedButtonItem text="Only Fixes" key="FIX" />
 						<m:SegmentedButtonItem text="Only Features" key="FEATURE" />
+						<m:SegmentedButtonItem text="Only Deprecated" key="DEPRECATED" />
 					</m:items>
 				</m:SegmentedButton>
 			</layout:VerticalLayout>
