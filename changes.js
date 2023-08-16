@@ -43,7 +43,6 @@ async function main() {
 
         for (const library of libraries) {
             const formattedLibrary = library.replace(/\./g, '/');
-            //const url = `https://ui5.sap.com/${highestPatchVersions[version]}/test-resources/${formattedLibrary}/relnotes/changes-${version}.json`;
             const url = `https://ui5.sap.com/test-resources/${formattedLibrary}/relnotes/changes-${version}.json`;
 
             const shouldRequest = !requestLog[version] || 
@@ -66,7 +65,11 @@ async function main() {
                         console.error(`Error fetching ${url}: ${err.message}`);
                     }
                     // Indicate in the requestLog that this URL returned a 404
+                    if (!requestLog[version]) {
+                        requestLog[version] = {};
+                    }
                     requestLog[version][library] = '404';
+                    
                 }
 
                 // Save to requestLog after every request (regardless of the try-catch outcome)
