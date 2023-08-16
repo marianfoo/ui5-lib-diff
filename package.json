@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm  --filter de.marianzeis.ui5libdiff build:opt",
+    "changes": "node changes.js",
+    "parseChanges": "node parseChanges.js",
+    "parseChangesSelect": "node parseChangesSelect.js"
   },
   "author": "",
   "license": "ISC",
