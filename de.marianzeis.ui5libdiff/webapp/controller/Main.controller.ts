@@ -132,11 +132,11 @@ export default class Main extends BaseController {
 			const uniqueChanges: Change[] = [];
 			const seenChanges = new Set<string>();
 	
-			for (const change of this.sortChanges(changes)) {
+			for (const change of this.sortChanges(changes)) { // we retain sorting changes based on their text
 				const changeString = JSON.stringify({
 					type: change.type,
 					text: change.text
-					// Version intentionally omitted from stringification to prevent duplicate changes across different versions
+					// Version intentionally omitted from stringification 
 				});
 	
 				if (!seenChanges.has(changeString)) {
@@ -149,6 +149,14 @@ export default class Main extends BaseController {
 				library, 
 				changes: uniqueChanges 
 			};
+		}).sort((a, b) => {
+			if (a.library === 'deprecated') {
+				return -1;
+			} else if (b.library === 'deprecated') {
+				return 1;
+			} else {
+				return a.library.localeCompare(b.library); // sort by library name
+			}
 		});
 	}
 	
