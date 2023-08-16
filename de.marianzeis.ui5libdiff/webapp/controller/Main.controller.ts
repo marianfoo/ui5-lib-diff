@@ -5,6 +5,7 @@ import JSONModel from "sap/ui/model/json/JSONModel";
 interface Change {
     type: "FEATURE" | "FIX" | "DEPRECATED";
     text: string;
+    version?: string;  // add this line to include an optional version property
 }
 
 
@@ -91,25 +92,41 @@ export default class Main extends BaseController {
 	}
 	
 	sortChanges(changes: Change[]): Change[] {
+		const sortBy = this.getView().byId("SegmentedButtonSort").getSelectedKey()
 		return changes.sort((a, b) => {
-			if (a.type === 'DEPRECATED' && b.type !== 'DEPRECATED') {
-				return -1;
-			} else if (a.type !== 'DEPRECATED' && b.type === 'DEPRECATED') {
-				return 1;
-			} else if (a.type === 'FEATURE' && b.type !== 'FEATURE') {
-				return -1;
-			} else if (a.type !== 'FEATURE' && b.type === 'FEATURE') {
-				return 1;
-			} else {
-				// Check for undefined or null text before comparing
+			if (sortBy === "type") {
+				if (a.type === 'DEPRECATED' && b.type !== 'DEPRECATED') {
+					return -1;
+				} else if (a.type !== 'DEPRECATED' && b.type === 'DEPRECATED') {
+					return 1;
+				} else if (a.type === 'FEATURE' && b.type !== 'FEATURE') {
+					return -1;
+				} else if (a.type !== 'FEATURE' && b.type === 'FEATURE') {
+					return 1;
+				} else {
+					// when types are the same, default to sorting by text
+					if (!a.text || !b.text) {
+						console.warn('Undefined or null text detected:', a, b);
+						return 0; 
+					}
+					return a.text.localeCompare(b.text);
+				}
+			} else if (sortBy === "text") {
 				if (!a.text || !b.text) {
 					console.warn('Undefined or null text detected:', a, b);
-					return 0; // you can also decide other logic when text is undefined
+					return 0; 
 				}
 				return a.text.localeCompare(b.text);
+			} else {  // sortBy === "version"
+				if (!a.version || !b.version) {
+					console.warn('Undefined or null version detected:', a, b);
+					return 0;
+				}
+				return this.compareVersionDesc(a.version, b.version);
 			}
 		});
 	}
+	
 	
 	
 	
@@ -207,6 +224,18 @@ export default class Main extends BaseController {
 			versionFrom: v1,
 			versionTo: v2
 		};
+	}
+
+	compareVersionDesc(v1: string, v2: string): number {
+		const parts1 = v1.split('.').map(Number);
+		const parts2 = v2.split('.').map(Number);
+		
+		for (let i = 0; i < parts1.length && i < parts2.length; i++) {
+			if (parts1[i] > parts2[i]) return -1;
+			if (parts1[i] < parts2[i]) return 1;
+		}
+		
+		return parts2.length - parts1.length;
 	}
 	
 }

@@ -10,7 +10,8 @@
     "changes": "node changes.js",
     "parseChanges": "node parseChanges.js",
     "parseChangesSelect": "node parseChangesSelect.js",
-    "deprecated": "node deprecated.js"
+    "deprecated": "node deprecated.js",
+    "fetchData": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated"
   },
   "author": "",
   "license": "ISC",
