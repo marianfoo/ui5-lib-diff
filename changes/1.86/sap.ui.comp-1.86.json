@@ -1,0 +1,373 @@
+{
+    "1.86.0": {
+        "date": "January 2021",
+        "notes": [
+            {
+                "id": "120772eb8a6154bf206577dfe87c5bc8e622f200",
+                "type": "FIX",
+                "text": " SmartField: Removed duplicate request for description"
+            },
+            {
+                "id": "1949a05c522d1e2bd86a6efc74e8ded6c30b2c4c",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Hide filters by default"
+            },
+            {
+                "id": "a6e0b271d76eab319ac69e22650e0f02f52889ce",
+                "type": "FIX",
+                "text": " SmartField: Improve text arrangement requests"
+            },
+            {
+                "id": "c1f3c2004a56596ba34b0fb67fe3427c25633629",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: alignement with v4"
+            },
+            {
+                "id": "4bf70c69f5817539ad3fc1ceea464426180dfb17",
+                "type": "FIX",
+                "text": " SmartFilterBar: DateRangeType handles dates with years from 1-99",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080454042"
+                    }
+                ]
+            },
+            {
+                "id": "38327651d708ba0ca24a72d14805245079d4f04a",
+                "type": "FIX",
+                "text": " SmartFilterBar: associateValueLists corrected for hidden fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080446862"
+                    }
+                ]
+            },
+            {
+                "id": "3c21fa6763e89106dfd3d0012ed347b500f93943",
+                "type": "FEATURE",
+                "text": " SmartTable: experimental enableAutoColumnWidth property added"
+            },
+            {
+                "id": "7f6ea471f491e317c0e5c94fe27e855dd919473a",
+                "type": "FIX",
+                "text": " TextArrangement: formatValue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080446262"
+                    }
+                ]
+            },
+            {
+                "id": "47a514292004759789631cde782dd144a3705f15",
+                "type": "FEATURE",
+                "text": " SmartField: remove DisplayComboBox class"
+            },
+            {
+                "id": "9ad2a96a127d673b8a5eb96c12a9093ceae12430",
+                "type": "FEATURE",
+                "text": " SmartTable: Customization Option for ShowDetails functionality"
+            },
+            {
+                "id": "0ca25929edd031501551d265e238861543287bb6",
+                "type": "FEATURE",
+                "text": " SmartField: remove DisplayComboBox class"
+            },
+            {
+                "id": "5ff819a71307d396ac72c64b1cdaab085945b8b8",
+                "type": "FIX",
+                "text": " SmartFilterBar: Removed additional filterChange event on token with textArrangement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008250482020"
+                    }
+                ]
+            },
+            {
+                "id": "6347ca35a516b57f2ae1c8873db3aa2ed4f38503",
+                "type": "FIX",
+                "text": " SmartField: checkValuesValidity promise returns EDM Property name",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080418010"
+                    }
+                ]
+            },
+            {
+                "id": "6d6df0524520ce3fe68259ebc4cc1a8870bdc1b6",
+                "type": "FEATURE",
+                "text": "SmartField: Text in Edit Mode Source correctly treat text Entities with Compound Keys"
+            },
+            {
+                "id": "9d3755b257641e79b08facf4baf3d65aca7d7e32",
+                "type": "FIX",
+                "text": " SmartField: Fixed description text when taking care of text annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080411446"
+                    }
+                ]
+            },
+            {
+                "id": "849bf6f34af6e717cbb3885d5353af47ed947fd9",
+                "type": "FIX",
+                "text": " TextArrangementDelagate: Unnecessary call to server removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080389849"
+                    }
+                ]
+            },
+            {
+                "id": "bfb7bb60c825be3bb545bdde218dab86c9944ded",
+                "type": "FIX",
+                "text": " TextArrangementDelagate: Unnecessary call to server removed"
+            },
+            {
+                "id": "6ac809ffd8edeed99b165ae776568de68c2d1671",
+                "type": "FIX",
+                "text": " TextArrangementDelagate: Unnecessary call to server removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080389849"
+                    }
+                ]
+            },
+            {
+                "id": "d87bfc5fad22f07e708af8554f67c88804222908",
+                "type": "FEATURE",
+                "text": " SmartField: remove DisplayComboBox class"
+            },
+            {
+                "id": "996aeb9a8ec8ceb0d34fed99d2362cb667b2cd70",
+                "type": "FIX",
+                "text": " SmartField: Fixed description text when taking care of text annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080411446"
+                    }
+                ]
+            },
+            {
+                "id": "d9a9039f7ccfd5eb74a41464aadefc7d9ed32566",
+                "type": "FEATURE",
+                "text": " SmartField: remove DisplayComboBox class"
+            },
+            {
+                "id": "67cee81c0ff3ab8f28b4b15fb76897212c32ce6b",
+                "type": "FIX",
+                "text": " SFBMultiInput: setTokens updates the Filter model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008250482020"
+                    }
+                ]
+            },
+            {
+                "id": "ac3aea7d169fd638873a063fbdad420bfab066b5",
+                "type": "FEATURE",
+                "text": " SmartField: Support for the textDirection property added"
+            },
+            {
+                "id": "03dd396b496a44e901556761c85b3f273c409b82",
+                "type": "FIX",
+                "text": " TextArrangement: Throw ValidateException with message",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080400802"
+                    }
+                ]
+            },
+            {
+                "id": "4a110b1b86ac14d3983a03a663d28baa26f15cd5",
+                "type": "FIX",
+                "text": " ValueHelpDialog: setExcludeRangeOperations fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080382571"
+                    }
+                ]
+            },
+            {
+                "id": "3342715aecfefab531ed63534cb41d37bd6fed6a",
+                "type": "FIX",
+                "text": " SmartField: Reacts to named model in certain configuration",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070437664"
+                    }
+                ]
+            },
+            {
+                "id": "858f3a874cac3b898998bb09bcfbbb1e56a40cf6",
+                "type": "FEATURE",
+                "text": " comp.FilterBar: remove the old adapt filters dialog"
+            },
+            {
+                "id": "9bc644db0c6be6f3c0fb02c3bfe15815d07126b0",
+                "type": "FIX",
+                "text": " SmartField: Fixed discription text when taking care of text annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080411446"
+                    }
+                ]
+            },
+            {
+                "id": "9212d1133a5dc76f2bb87902b616e57433acf02a",
+                "type": "FIX",
+                "text": " SmartField: Fixed discription text when taking care of text annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080406903"
+                    }
+                ]
+            },
+            {
+                "id": "d6c902078a2dbd4e8347bf97f1a6c5d95000167c",
+                "type": "FIX",
+                "text": " FilterBar: Remove unneeded tooltip",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080396551"
+                    }
+                ]
+            },
+            {
+                "id": "71413c247355e66a401aeba1ca83024a8d6740c0",
+                "type": "FIX",
+                "text": " ValueListProvider: correct suggestion column visualization",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080385253"
+                    }
+                ]
+            },
+            {
+                "id": "57862bbdc16ea7d9043f489048c1012edb2b9188",
+                "type": "FEATURE",
+                "text": " comp.VariantManagement: replace remove icon"
+            },
+            {
+                "id": "1a41ca40bc72e04b2a33861429676b748f5aef46",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement ValidateException",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070468152"
+                    }
+                ]
+            },
+            {
+                "id": "78c3a344c1eed615463549d5cd05bf428fc96fb4",
+                "type": "FIX",
+                "text": " sap.ui.comp.SmartTable: Export button accessibility includes the shortcut hint",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070312517"
+                    }
+                ]
+            },
+            {
+                "id": "5f6f4e06c90f7ffa60bb53da9aa420c35eaeb543",
+                "type": "FEATURE",
+                "text": " SmartField: Edit mode value help now uses sap:text when available"
+            },
+            {
+                "id": "e5c5e16f51df71f6c48a3645d44f67b0a5b8a01e",
+                "type": "FIX",
+                "text": " TextArrangement: parsingValue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070441026"
+                    }
+                ]
+            },
+            {
+                "id": "9f87c5bc9db1de888b86c2d3a76e84482c2a6c5b",
+                "type": "FIX",
+                "text": " comp.VariantManagement: correction for manage views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070497103"
+                    }
+                ]
+            },
+            {
+                "id": "ae5d6d548273fb12fe1f07a0279b2e28fd844c21",
+                "type": "FIX",
+                "text": " SmartFilterBar: Delay in ValuehelpDialog enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980260469"
+                    }
+                ]
+            },
+            {
+                "id": "72c62563cbf4d474071a34b019a998833016e07a",
+                "type": "FIX",
+                "text": " SmartFilterBar: Select triggers search on 'Enter' keyup",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070492755"
+                    }
+                ]
+            },
+            {
+                "id": "6a086cb25c573e8cb7b0d3ebe638203bce001b88",
+                "type": "FIX",
+                "text": " ValueListProvider: correct exceptions on model refresh",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070505020"
+                    }
+                ]
+            },
+            {
+                "id": "a9b004bbd87a9d0d5aaddbdbce25e03bfff3f7e7",
+                "type": "FIX",
+                "text": " oDataControlFactory: ModelContextChange handling improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007623982020"
+                    }
+                ]
+            },
+            {
+                "id": "230800b72341e598ad0b82d357607dd54b70e753",
+                "type": "FIX",
+                "text": " BaseValueListProvider: Empty string for key value is now handled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070303700"
+                    }
+                ]
+            }
+        ]
+    }
+}

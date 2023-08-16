@@ -1,0 +1,233 @@
+{
+    "1.80.0": {
+        "date": "June 2020",
+        "notes": [
+            {
+                "id": "27d681fa5c4385622b37189fdd07b63a83fd8536",
+                "type": "FIX",
+                "text": " SmartField: Text in display mode handles binding context change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070130308"
+                    }
+                ]
+            },
+            {
+                "id": "69d03c4efc3c53d8c16837f3262f3d0d6bc704e1",
+                "type": "FIX",
+                "text": " SmartField: UoM display mode fixed scale from type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070256920"
+                    }
+                ]
+            },
+            {
+                "id": "22ca0c54d62fc8f45a116380a9f39cb82e1ce997",
+                "type": "FIX",
+                "text": " BaseValueListProvider: Now Define Conditions doesn't set Out parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080134060"
+                    }
+                ]
+            },
+            {
+                "id": "dd87efab936e87286dc3f085bf02330a21563bc9",
+                "type": "FIX",
+                "text": " FilterProvider: Time range handle 12:00:00 AM fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070162260"
+                    }
+                ]
+            },
+            {
+                "id": "213a2194167d7d915f3441795045e28ea63f72dc",
+                "type": "FIX",
+                "text": " SmartField: Text arrangement in display mode failing request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080185890"
+                    }
+                ]
+            },
+            {
+                "id": "5dc08e13d9af2dc07ebad0c4f53e0e0a93944eaa",
+                "type": "FIX",
+                "text": " SmartField: textInEditModeSource lifecycle fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080159141"
+                    }
+                ]
+            },
+            {
+                "id": "1c09d7a2a5a02f79712445726663034545e268ec",
+                "type": "FIX",
+                "text": " TextArrangementDelegate: Prevent exception binding type is missing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080179981"
+                    }
+                ]
+            },
+            {
+                "id": "2354bb2cc46eb60c98884d398307aab1e377c810",
+                "type": "FEATURE",
+                "text": " SmartTable: Popover for multi-unit UoMs added",
+                "references": []
+            },
+            {
+                "id": "a32c54c7c927bbd8bccfa5ebf053352b97ecf6bf",
+                "type": "FIX",
+                "text": " HistoryValuesProvider: prevent saving object data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070247500"
+                    }
+                ]
+            },
+            {
+                "id": "c10402ec66410504048f25e40ac05485ed2af4cd",
+                "type": "FIX",
+                "text": " SmartField: maximum call stack error fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080189893"
+                    }
+                ]
+            },
+            {
+                "id": "9e712405f49bb150db6a8d51f1cfdf4e3950992d",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Indicates if tokens are modified",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970534940"
+                    }
+                ]
+            },
+            {
+                "id": "16262e7b81428cee4f6aedb4c9ce26dc6e403c9f",
+                "type": "FIX",
+                "text": " comp.VariantManagement: remove css style when placed in a ToolBar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070195927"
+                    }
+                ]
+            },
+            {
+                "id": "0baa4a09af5181c671628c495068315e9a45e2a3",
+                "type": "FIX",
+                "text": " DateRangeType: DATERANGE operation fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080177231"
+                    }
+                ]
+            },
+            {
+                "id": "f9c1d200479c1e2c2e0e4fd2a58859cbbb20235c",
+                "type": "FIX",
+                "text": " SmartField: Empty value fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080205246"
+                    }
+                ]
+            },
+            {
+                "id": "8045a06514b9dbf6e05050d65d4ade4fc04f77e1",
+                "type": "FIX",
+                "text": " SmartField: Text in edit mode source fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080167558"
+                    }
+                ]
+            },
+            {
+                "id": "c3acdf2d3e095d8932bd158045b5d41328065adb",
+                "type": "FIX",
+                "text": " SmartField: UoM ariaLabelledBy fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070056047"
+                    }
+                ]
+            },
+            {
+                "id": "224fcb832b816c1b6342651d1c8e20a541c0d606",
+                "type": "FIX",
+                "text": " SmartFilterBar: Edm.DateTimeOffset handling fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003876282020"
+                    }
+                ]
+            },
+            {
+                "id": "939942c93a5e8f5bb4bd34e045dd8ec8337ff1f2",
+                "type": "FIX",
+                "text": " FilterBar: Remove tooltip of Go button to not read twice",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070164619"
+                    }
+                ]
+            },
+            {
+                "id": "7bd61a227ae17d07392b932020fd4389739ada62",
+                "type": "FIX",
+                "text": " TokenParser: exclude operation fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070038982"
+                    }
+                ]
+            },
+            {
+                "id": "baf87a31c41229096580dcdf9dc7664836f1e17b",
+                "type": "FIX",
+                "text": " ValueHelpDialog: remove css class to fix focus",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080158434"
+                    }
+                ]
+            },
+            {
+                "id": "b08bae9341d4a59c67eeea5dc364acecec5e8d47",
+                "type": "FIX",
+                "text": " ValueListProvider: add check if control is destroyed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080175726"
+                    }
+                ]
+            }
+        ]
+    }
+}

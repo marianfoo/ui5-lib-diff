@@ -1,0 +1,48 @@
+{
+    "1.50.0": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "7bd2cf36e14694fb8aab69c530e82b0fd3151747",
+                "type": "FEATURE",
+                "text": "[Analytical Chart] Be able to clear scales set via scale API",
+                "references": []
+            },
+            {
+                "id": "c9f21589ef3fa1cf8872e0e9a26dec33ad982910",
+                "type": "FEATURE",
+                "text": "dynamic scale",
+                "references": []
+            },
+            {
+                "id": "faa78340b4478a0f039a4b5c7de7bfc153c55d24",
+                "type": "FIX",
+                "text": "cache 'dataPointStyle' when calling setVizProperties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780157555"
+                    }
+                ]
+            },
+            {
+                "id": "60b1e82c4e39e54959c1314cab016b887107232b",
+                "type": "FIX",
+                "text": "cache 'legend' when calling setVizProperties.",
+                "references": []
+            },
+            {
+                "id": "68f02fbb61d989d4b1f98abc8199647b25a6f244",
+                "type": "FIX",
+                "text": "pass thumb position of scrollbar as ratio when calc paging",
+                "references": []
+            },
+            {
+                "id": "b217d3a860a5c3957f33b728f725db162c9c274b",
+                "type": "FIX",
+                "text": "return empty structure when calling getSelectedDataPoints() before instance is created",
+                "references": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "1.112.0": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "c60f3733c5c565437ddd752c499433d4471f3811",
+                "type": "FIX",
+                "text": " Support for render order and selectable properties"
+            },
+            {
+                "id": "fdf4c0b540ef81e76c1f40d6191f71371d87e263",
+                "type": "FIX",
+                "text": " Fix to only recompute node bounding boxes when necessary."
+            },
+            {
+                "id": "7ea30bdf5383a686fa3f4793712d0e86df7b69ff",
+                "type": "FIX",
+                "text": " Fix area measurements in High Performance Mode"
+            },
+            {
+                "id": "0ca5cace6f8e3442357a518f75014fff55c071d4",
+                "type": "FIX",
+                "text": " Fix loading multiple vds4 files in High Performance Rendering mode"
+            },
+            {
+                "id": "1a89ee2021db15da3736335b811b5287b850ab9c",
+                "type": "FIX",
+                "text": " Remove non-existent properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008512592022"
+                    }
+                ]
+            },
+            {
+                "id": "30f111be4330f9017dc0d4d7d48c924d3f7c9480",
+                "type": "FIX",
+                "text": " Render bounding box before overlays"
+            },
+            {
+                "id": "79903f87e9deeb73b0b30b63e9b77d36148f9918",
+                "type": "FIX",
+                "text": " Proper parenting of DrawerToolbar container"
+            },
+            {
+                "id": "f8c55789ba9c56c9781ef72a9fc90a456d6eadb0",
+                "type": "FIX",
+                "text": " Nodes incorrectly inheriting parent visibility"
+            },
+            {
+                "id": "72f3542d18099dc1d7f43bdd2637c537a437b8f8",
+                "type": "FEATURE",
+                "text": " High performance rendering"
+            },
+            {
+                "id": "e80a00dfcf7700f21b8a50339452cc7fa0bdbdc6",
+                "type": "FIX",
+                "text": " Disable node transition animation."
+            },
+            {
+                "id": "3261d2ca05ee4b5467a0882a608607879870bdbe",
+                "type": "FEATURE",
+                "text": " Use three.js built as a UI5 module"
+            }
+        ]
+    }
+}

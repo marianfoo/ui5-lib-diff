@@ -1,0 +1,42 @@
+{
+    "1.56.0": {
+        "date": "February 2018",
+        "notes": [
+            {
+                "id": "a0f848fe2c1cc72495fe909373715be6fde66ceb",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.BulletMicroChart - Fix bar length rendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000522322018"
+                    }
+                ]
+            },
+            {
+                "id": "c2b3c922e234f55e2fd1f80a28822952998e77ab",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.AreaMicroChart: Hide min/max labels in case the truncation occurs",
+                "references": []
+            },
+            {
+                "id": "30e5bcef116ff5d64c117c1f7436b0eda7b3ab0e",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.StackedBarMicroChart: Calculate correct label color on theme change",
+                "references": []
+            },
+            {
+                "id": "82922ffba932834d32529799c659c43d0d81c6d9",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart: No Data placeholder displayed whenever a Microchart is not supplied with the data.",
+                "references": []
+            },
+            {
+                "id": "42c9db44e26901ff7348d73f0cbbe84e036175e2",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart: Change No Data placeholder label to lower case \"No data\"",
+                "references": []
+            }
+        ]
+    }
+}

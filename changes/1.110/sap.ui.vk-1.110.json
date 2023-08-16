@@ -1,0 +1,137 @@
+{
+    "1.110.0": {
+        "date": "January 2023",
+        "notes": [
+            {
+                "id": "0c6282f4d05a1388b6e19269e8a34851d2735db9",
+                "type": "FIX",
+                "text": " Annotations visibility before model is loaded"
+            },
+            {
+                "id": "3594836f728ce6f3a1d242c599c040b3d9d0114d",
+                "type": "FIX",
+                "text": " Check which annotation id to use"
+            },
+            {
+                "id": "8d62f90256e009c0b51c148b75042283d7c7ea0c",
+                "type": "FIX",
+                "text": " Annotations creation issues"
+            },
+            {
+                "id": "e4d992652bb81ecb055206bf2a1bc0ad8410370e",
+                "type": "FIX",
+                "text": " scene: bounding box calculation"
+            },
+            {
+                "id": "d25d83c1d2e1f5624e36c8f731df6f05c1d65daf",
+                "type": "FIX",
+                "text": " Do not create extra instances of loaders"
+            },
+            {
+                "id": "86bd6214ba676e4c8e7b8a71681b77399bce3e06",
+                "type": "FIX",
+                "text": " Re-create animation sequence after downloading its update"
+            },
+            {
+                "id": "297b61cbd5107d20d3a429337cccf570c689195e",
+                "type": "FIX",
+                "text": " Use normals from file instead of building them"
+            },
+            {
+                "id": "1fe480f8c6376874dde61f3ffa3156d999b59697",
+                "type": "FIX",
+                "text": " Improve annotation visibility on dark themes"
+            },
+            {
+                "id": "0033c5c84c34baa141674a3d1c70401a4e34bfbe",
+                "type": "FIX",
+                "text": " Don't recreate annotation reference node"
+            },
+            {
+                "id": "7f68749ce2b162f62ed047efc88b045e4b30bdbb",
+                "type": "FIX",
+                "text": " Missing linecaps for SVG drawings"
+            },
+            {
+                "id": "767de3b015e6d1d39053af7e40d211420cb21f50",
+                "type": "FIX",
+                "text": " Switching view before end of camera flight animation"
+            },
+            {
+                "id": "8e116299fee72c7b08cbbdb7be1abe63f8d295f1",
+                "type": "FIX",
+                "text": " Incorrect line positions in SVG rendering of path"
+            },
+            {
+                "id": "a652bdb959608199f08ab515da06239cb6004f17",
+                "type": "FIX",
+                "text": " Three.js 0.147 crashes"
+            },
+            {
+                "id": "6ef8184075438db61196b2d4a701eb643e0fedbb",
+                "type": "FIX",
+                "text": " Use individual observer configuration per RedlineElement in collaboration"
+            },
+            {
+                "id": "41545d3c95c7a9d88104a92a3c2115dd49817485",
+                "type": "FIX",
+                "text": " DrawerToolbar: incorrect navigation mode issue"
+            },
+            {
+                "id": "dd7284c25922150a7c8e7f3e4f7bd34c2c458bc5",
+                "type": "FIX",
+                "text": " AxisAngleRotationTool: incorrect axis of rotation"
+            },
+            {
+                "id": "cbd3d34dbe8997b56a36a4e20aece68312d51ea3",
+                "type": "FIX",
+                "text": " viewport: deactivate tools in svg viewport when it exits"
+            },
+            {
+                "id": "ac2ca7d077484d2c92798d6a3f8a8420b8547144",
+                "type": "FIX",
+                "text": " element: each node should do _updateColor from itself, not from the bound this."
+            },
+            {
+                "id": "c8404208baaed7b53d2c4eaa24fca5ea64fb8d39",
+                "type": "FIX",
+                "text": " RedlineElementText incorrect location"
+            },
+            {
+                "id": "cb2ee4ea53acfaab446a8bdf66114d67a22b33a1",
+                "type": "FIX",
+                "text": " Handle HTML entities in annotation text"
+            },
+            {
+                "id": "9c45ee363bc288a02b8a8e9f60347656aa8a538c",
+                "type": "FIX",
+                "text": " Zoom factor returned infinity"
+            },
+            {
+                "id": "b61f291b1efb465d4008f2b28632d8620ddc33ef",
+                "type": "FIX",
+                "text": " Always write viewport show all hotspots tint color to defs"
+            },
+            {
+                "id": "ba5b9cd4912e8c1cc85889795e046c0f3f7561e2",
+                "type": "FIX",
+                "text": " Line width of 1px was reset to 0 in pane."
+            },
+            {
+                "id": "ff9f85954df57e6cf5e8d186a88989d226bbef0f",
+                "type": "FIX",
+                "text": " Destroy RedlineElementLine if it has no length"
+            },
+            {
+                "id": "66d935dfda74f72afefaccd3eff606d8b30bc067",
+                "type": "FIX",
+                "text": " Only handle event if measurement is clicked"
+            },
+            {
+                "id": "cfca526eeaa4a783fcbf1ee1493de566dc23813d",
+                "type": "FIX",
+                "text": " View navigation mode and dimension support issue"
+            }
+        ]
+    }
+}

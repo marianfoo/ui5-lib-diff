@@ -1,0 +1,29 @@
+{
+    "1.106.0": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "fd1d6878f159c5ff07cef3daae142a5b9b807405",
+                "type": "FIX",
+                "text": " We have added null check for SelectionVariant object in _parseFromObject function",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280145817"
+                    }
+                ]
+            },
+            {
+                "id": "b02663cfd9cd96a7e2c1814a7c53fbc3108f2ff2",
+                "type": "FIX",
+                "text": " We've deprecated storeInnerAppstate and replaced it with storeInnerAppStateAsync",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280116507"
+                    }
+                ]
+            }
+        ]
+    }
+}

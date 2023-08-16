@@ -1,0 +1,207 @@
+{
+    "1.112.0": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "a12a41dcae9e8a762478a29f71cc3792e2fd4e7d",
+                "type": "FIX",
+                "text": " We've resolved an issue where navigation to an object page wasn't carried out for actions in Changeset mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044872"
+                    }
+                ]
+            },
+            {
+                "id": "af741acd2d0f904f7860185ea7cfd43749d0e551",
+                "type": "FIX",
+                "text": " We now correctly handle the console error log when the focus is set on a table row on mobile devices",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280199939"
+                    }
+                ]
+            },
+            {
+                "id": "5d703488a2dd7cbf7dca22c257ec5bd24e80d326",
+                "type": "FIX",
+                "text": " Navigation via a breadcrumb link now also works when the semantic keys contain special characters like a forward slash ('/')",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280194690"
+                    }
+                ]
+            },
+            {
+                "id": "5b52e4c80b114481bb44dce9fbc37c3fcce9fdec",
+                "type": "FEATURE",
+                "text": " We now provide a 'Validate' button as part of a split button on the object page for mobile devices"
+            },
+            {
+                "id": "c0603d35f1e8c5a25151e169920f588f4eb886cd",
+                "type": "FIX",
+                "text": " Revert for: We've resolved an issue where error messages weren't displayed for incorrect entries in the flexible programming model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380035908"
+                    }
+                ]
+            },
+            {
+                "id": "c8e11695a216300f377ff95d8a982b55b679b12c",
+                "type": "FIX",
+                "text": " We've resolved an issue where error messages weren't displayed for incorrect entries in the flexible programming model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380035908"
+                    }
+                ]
+            },
+            {
+                "id": "410dcd99056919a57caa4ffe54f8f20c83b94b45",
+                "type": "FEATURE",
+                "text": " The QuickView now displays an illustrated message when a link is clicked for which there are no target applications"
+            },
+            {
+                "id": "1808bc4a6bd4a822053aa721bca82d921de199d1",
+                "type": "FEATURE",
+                "text": " We've added the property allowedValues to the api.json"
+            },
+            {
+                "id": "a7e84a1eb930ecd174b32d0250154aa860a9df68",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the handling of the EditState",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380027951"
+                    }
+                ]
+            },
+            {
+                "id": "df16fea1c24b3fe6383804fe5ecef0a72b118980",
+                "type": "FIX",
+                "text": " We've resolved an issue regarding the 'Related Apps' button not appearing even after setting showRelatedApps to 'true'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380034835"
+                    }
+                ]
+            },
+            {
+                "id": "ff6412569671500ef80ae16365e200c88e2b859d",
+                "type": "FEATURE",
+                "text": " We've improved the lazy loading behavior of the object page"
+            },
+            {
+                "id": "fb94a3324ba956345661bc2f67b0d3f90ec1d61f",
+                "type": "FIX",
+                "text": " We've resolved an issue related to an action not being hidden in the header of an object page when the path-based UI.Hidden annotation was provided",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044482"
+                    }
+                ]
+            },
+            {
+                "id": "cddbb4df18fd1a0a5a68a4f5ae9c55339c2f0508",
+                "type": "FIX",
+                "text": " We now ensure a list report with multiple views and a control variant is displayed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000961772023"
+                    }
+                ]
+            },
+            {
+                "id": "9b7cf4ca0314b007e2dbbd33bdb601e708906597",
+                "type": "FEATURE",
+                "text": " We've enhanced the menu of the 'Related Apps' button on the object page to include the intents passed from the My Inbox app"
+            },
+            {
+                "id": "5dd3aa649beabbe60531f4dd9c4bce46163d8cad",
+                "type": "FIX",
+                "text": " We've improved the behavior of the value help selection for keys that aren't unique",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270160633"
+                    }
+                ]
+            },
+            {
+                "id": "611073ccbd6395e5ce29bec2a136d79e30bcf268",
+                "type": "FIX",
+                "text": " We've resolved an issue related to mixed content in a subsection on an object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000761372023"
+                    }
+                ]
+            },
+            {
+                "id": "9bc9c3b4886bdbb747c3f2d48a6f81bfb8e1172a",
+                "type": "FEATURE",
+                "text": " You can now use the filter option in the personalization dialog of charts"
+            },
+            {
+                "id": "39e664777c69fbf133826f06c54c6ad9d1acd725",
+                "type": "FIX",
+                "text": " We've resolved an issue related to a new variant not being loaded correctly after it was saved in a subobject page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380010974"
+                    }
+                ]
+            },
+            {
+                "id": "9a33edd4c16f45a8838866c6146e39b780a1101c",
+                "type": "FIX",
+                "text": " Related apps are now refreshed correctly when navigating back from another application using the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380036485"
+                    }
+                ]
+            },
+            {
+                "id": "c440344b27576912f9be009d1bc32895ed9e7220",
+                "type": "FEATURE",
+                "text": " We now provide consistent handling of the fallback logic in the list report and analytical list page if the PresentationVariant has no visualization"
+            },
+            {
+                "id": "03fce5f5a6fb416edc266ace4aee22cfac2af13a",
+                "type": "FIX",
+                "text": " We now ensure that table filtering for properties with a 1:n navigation in their navigation path isn't possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380003560"
+                    }
+                ]
+            },
+            {
+                "id": "0f78a578c1d289225f80328e746fa1eaeeaa2462",
+                "type": "FIX",
+                "text": " We now always show the footer if there is only one action with not simply true/false for the UI.Hidden annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380021825"
+                    }
+                ]
+            }
+        ]
+    }
+}

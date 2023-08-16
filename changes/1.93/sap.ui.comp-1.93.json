@@ -1,0 +1,306 @@
+{
+    "1.93.0": {
+        "date": "July 2021",
+        "notes": [
+            {
+                "id": "cfeea563cf29c1e965d087c630c989229e35c40a",
+                "type": "FIX",
+                "text": " SmartField: Fixed UoM with fixed list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180284563"
+                    }
+                ]
+            },
+            {
+                "id": "3b8bbf0582862be995ae14f4bd3858fb63a62241",
+                "type": "FIX",
+                "text": " SmartField: Fired change event for invalid unit value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180283958"
+                    }
+                ]
+            },
+            {
+                "id": "488a492933c5855e92b27cc52fa1c995687a223a",
+                "type": "FIX",
+                "text": " SmartField: Fixed unit parsing when the type is changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180284563"
+                    }
+                ]
+            },
+            {
+                "id": "20bcba0d11f89daf15902fba079dac9106b5252a",
+                "type": "FIX",
+                "text": " SmartField: Fixed mandatory UoM not visible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180284101"
+                    }
+                ]
+            },
+            {
+                "id": "a3dfe6c85a7d43bcc1aa27b0b323c3d5ae45168f",
+                "type": "FIX",
+                "text": " SmartVariantManagement: support new way of vendor standard variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180299558"
+                    }
+                ]
+            },
+            {
+                "id": "874e9efb1bd52ea2a84cc3f7a59008975ba8dfb3",
+                "type": "FIX",
+                "text": " ValueListProvider: store dates in Recently Used MultiInput",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180281681"
+                    }
+                ]
+            },
+            {
+                "id": "c179e5d8337d958b61a951971f720272c4ee0c52",
+                "type": "FIX",
+                "text": " SmartField: validation error message improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180215674"
+                    }
+                ]
+            },
+            {
+                "id": "15f6372ab413dc0e2d8db8ebced83cc4911814c1",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Go button is rendered correctly when there is no basic search",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180301318"
+                    }
+                ]
+            },
+            {
+                "id": "ab224c9bcf34962b8f1862b6979e942d6c768827",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Basic Search is now correctly positioned",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180297785"
+                    }
+                ]
+            },
+            {
+                "id": "8891b4627a1a12d2e889067bb22ce8a2989e8394",
+                "type": "FIX",
+                "text": " SmartFilterBar: removed duplicated items in ranges",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180125239"
+                    }
+                ]
+            },
+            {
+                "id": "83fcfac8e828694a54150a4ccd97bf7a49668810",
+                "type": "FIX",
+                "text": " SmartFilterBar: DateTimeOffset intervals are now working with variants",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180140677"
+                    }
+                ]
+            },
+            {
+                "id": "a9954fd70cccf3462cb822e8778d7c642ace23c4",
+                "type": "FIX",
+                "text": " TextArrangementDelegate: description request filters fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180082621"
+                    }
+                ]
+            },
+            {
+                "id": "08db654330ed8fd89b7c9b87f3fb98034e330057",
+                "type": "FIX",
+                "text": " SmartField: ACC issue when UoM in SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180199456"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180231085"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180225282"
+                    }
+                ]
+            },
+            {
+                "id": "93b9747adf4c1cc86f618d921e8dadb71c334044",
+                "type": "FIX",
+                "text": " SmartField: In Parameters are now considered for type Edm.Boolean",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003362352021"
+                    }
+                ]
+            },
+            {
+                "id": "44f2028455489b7df2f698f85cb035c786fd91ef",
+                "type": "FEATURE",
+                "text": " SmartField: Date is formatted when rendered as a link"
+            },
+            {
+                "id": "ae532eb22ae2c57c989739a1579514adc59e945a",
+                "type": "FIX",
+                "text": " FilterBar: Selecting from suggestions is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "21701636751"
+                    }
+                ]
+            },
+            {
+                "id": "fb99b82a264f3b6b1c6df3ef0f9a4afdc270ad81",
+                "type": "FIX",
+                "text": " SmartChart: Fixed issue where a SmartChart located inside a VBox would not get rendered when screen space is too small in Firefox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180189446"
+                    }
+                ]
+            },
+            {
+                "id": "14cba98350b86369334602c8080f745e6fb13677",
+                "type": "FIX",
+                "text": " SmartFiled: UoM taking care of contextEditable in table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180266069"
+                    }
+                ]
+            },
+            {
+                "id": "0520aa782708b6c021f070905f10b09bbaed404e",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Focus is lost when all tokens are removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180132240"
+                    }
+                ]
+            },
+            {
+                "id": "57dcb0c188f5778ddfdd26f0767fe33b26dce149",
+                "type": "FIX",
+                "text": " comp.VariantManagement: correct aria level",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180253711"
+                    }
+                ]
+            },
+            {
+                "id": "8a16cd8782416cfaff663c933893228baf7fe3fe",
+                "type": "FIX",
+                "text": " P13nConditionPanel: Combobox now can handle items with empty key",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180254919"
+                    }
+                ]
+            },
+            {
+                "id": "18fa9c091fc2e692c42758a69f565a424f71c02b",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Operators in condition panel are corrected for DateTime interval",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180242180"
+                    }
+                ]
+            },
+            {
+                "id": "18c594d97d73da3d28c4793c4999118c3f781f73",
+                "type": "FIX",
+                "text": " SmartField: UoM in fixed list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180252071"
+                    }
+                ]
+            },
+            {
+                "id": "a8f814ef59f4765006fa0ac8df3b91ff85f0658b",
+                "type": "FIX",
+                "text": " ValueHelpDialog: adjust height and width  on smaller screens",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180234170"
+                    }
+                ]
+            },
+            {
+                "id": "136811f359a7714554bb35a7896e591ebb70d561",
+                "type": "FIX",
+                "text": " P13nConditionalPanel: Fixed incorrect range validation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004409812021"
+                    }
+                ]
+            },
+            {
+                "id": "5501da8af904f725b5cc6220453b19c3c2a4c488",
+                "type": "FIX",
+                "text": " SmartTable: Enable designtime changes for certain inner elements",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180247934"
+                    }
+                ]
+            },
+            {
+                "id": "9687850e31c0af88e343faaa58baa101b080be68",
+                "type": "FIX",
+                "text": " ODataControlFactory: multiplied request fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180182816"
+                    }
+                ]
+            }
+        ]
+    }
+}

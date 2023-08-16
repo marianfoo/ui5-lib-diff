@@ -1,0 +1,171 @@
+{
+    "1.113.0": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "dca708430d8c00db8b38393f64184c2aa3542deb",
+                "type": "FIX",
+                "text": " Empty rows are now displayed correctly when modifying dynamic InsertRestrictions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370030026"
+                    }
+                ]
+            },
+            {
+                "id": "d739b12d70b05c23245b156bd20509e6f1452ca9",
+                "type": "FIX",
+                "text": " We now log a warning in case there is a DataFieldForAction with a missing action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370029850"
+                    }
+                ]
+            },
+            {
+                "id": "2cd150c8803c28dbdd192401c5880e60c108f67a",
+                "type": "FIX",
+                "text": " Number or Date data properties which have a TextArrangement annotation that is not 'TextSeparate' are now left-aligned",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370012290"
+                    }
+                ]
+            },
+            {
+                "id": "6fca888170f1612be16306596a6917a8937e2421",
+                "type": "FIX",
+                "text": " TreeTable search now doesn't use the initialExpansionLevel value, if defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370014021"
+                    }
+                ]
+            },
+            {
+                "id": "a3ad2e633919467d246379d31d7ee7c867d26a2e",
+                "type": "FIX",
+                "text": " We now manage the side effects on a field added by flex changes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370023979"
+                    }
+                ]
+            },
+            {
+                "id": "1e84945b42aadc1c71c7cdcbc4d97eff2dff0c12",
+                "type": "FIX",
+                "text": " We no longer apply a static sizeLimit when exporting analytical and tree tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370024251"
+                    }
+                ]
+            },
+            {
+                "id": "abe791a2ea7f289868e405e205ffc5f8ae5ec5ee",
+                "type": "FIX",
+                "text": " The Form building block now supports the conditional visibility of connected fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370010738"
+                    }
+                ]
+            },
+            {
+                "id": "e5b9123127a2e3a77fcbbff8495b38072391fcc1",
+                "type": "FIX",
+                "text": " We now ensure that a table where InlineCreationRows is enabled doesn't show empty rows if there are InsertRestrictions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370021006"
+                    }
+                ]
+            },
+            {
+                "id": "295df5bdd9c126d26e7a042aef479cfc75b34714",
+                "type": "FIX",
+                "text": " SAP Fiori elements now properly evaluates the sort restrictions on value help collections",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380041431"
+                    }
+                ]
+            },
+            {
+                "id": "42fd04b5c767e3a20ef5734ef4e2573e0d03e5ac",
+                "type": "FIX",
+                "text": " SAP Fiori elements now displays the technical name of the column in case no label is defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370016753"
+                    }
+                ]
+            },
+            {
+                "id": "7c504c11171baed9a1837658e634412fc2e0b528",
+                "type": "FEATURE",
+                "text": " You can now use a reference facet to point to a table on an object page, and use the 'Show More' button to make the table visible"
+            },
+            {
+                "id": "e209419a2c646273b1798f9933b84712188b451b",
+                "type": "FIX",
+                "text": " We've now changed the width calculation for ConnectedField to flexibly adjust",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044849"
+                    }
+                ]
+            },
+            {
+                "id": "ea5dba8b61367b565b58bb7bf8727fa5ed4fbb0a",
+                "type": "FIX",
+                "text": " We've added a safety check to the TargetMapping to create TypeConfig constraints",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370007752"
+                    }
+                ]
+            },
+            {
+                "id": "30720747a8a68c4e3e5f8c82670a7597ec2f4474",
+                "type": "FEATURE",
+                "text": " We've enhanced the semantic operators for DateTime-based fields and now also support hours and minutes"
+            },
+            {
+                "id": "fc8ffd27f93f0c5ddead973bcc31c2bade506ad9",
+                "type": "FIX",
+                "text": " We now handle the DataFieldWithUrl annotation correctly so the link is opened in the same browser window without any 'sameorigin' constraint",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370003719"
+                    }
+                ]
+            },
+            {
+                "id": "2f56d1b2398b43a20e1f4f3515397b131dda8bde",
+                "type": "FIX",
+                "text": " We now avoid reading undefined value help metadata",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380024827"
+                    }
+                ]
+            }
+        ]
+    }
+}

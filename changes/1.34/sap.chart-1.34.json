@@ -1,0 +1,111 @@
+{
+    "1.34.0": {
+        "date": "November 2015",
+        "notes": [
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Support pagination mode in Analytic Chart (it's by default off). Currently it's experimental only with several restrictions (i.e. selection, mobile support, zoom, keyboard navigation). ",
+                "references": []
+            },
+            {
+                "id": "fbd323f84c0e9d41ad2e723d17dc557a88cc0ee3",
+                "type": "FEATURE",
+                "text": "CVOM Fiori wave 11 for UI5 1.34.0",
+                "references": []
+            },
+            {
+                "id": "d0a7473faaa864c5f075bc228bb78a71ea86c609",
+                "type": "FEATURE",
+                "text": "sap.chart",
+                "references": []
+            },
+            {
+                "id": "681aa277e8e7b14ebbd9992c89503d162ce6422b",
+                "type": "FEATURE",
+                "text": "sap.chart - API improvement",
+                "references": []
+            },
+            {
+                "id": "94b8f9b0dd62a26514e47d934e54bf27facd0260",
+                "type": "FEATURE",
+                "text": "sap.chart - Fiori Wave 11 pagination",
+                "references": []
+            },
+            {
+                "id": "29bad7f4f17f6e5fa0728c5a5710f62fdde2869b",
+                "type": "FEATURE",
+                "text": "sap.viz - Fiori wave11 features",
+                "references": []
+            },
+            {
+                "id": "70ab203f7b122fe5aaca9439987f1297a284c1be",
+                "type": "FEATURE",
+                "text": "sap.viz 5.23 improvement including Analytical Chart Selection API, ChartFormatter and demos",
+                "references": []
+            },
+            {
+                "id": "975ad7d6bb10eb3b7fb64c6b92782f7a0d5aa4e7",
+                "type": "FIX",
+                "text": "Chart Types are changed and QUnit test case should be updated.",
+                "references": []
+            },
+            {
+                "id": "6718a2b73474d06eca8f34a2059241c4884f04ec",
+                "type": "FIX",
+                "text": "fix UT failure caused by the change of dataReceived event of Binding.",
+                "references": []
+            },
+            {
+                "id": "e12ac48e64af77242fb0efa4fa6c19147abae699",
+                "type": "FIX",
+                "text": "sap.viz bug fixes.",
+                "references": []
+            }
+        ]
+    },
+    "1.34.2": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "672130ae5f56ea5b8b1dedab8103e725b44430f0",
+                "type": "FEATURE",
+                "text": "In Analytic Chart, support multiple and single selection mode.",
+                "references": []
+            },
+            {
+                "id": "6631c39c08ec296915438854dca7783a18148e6e",
+                "type": "FEATURE",
+                "text": "make sap.chart.Chart.getChartTypes private.",
+                "references": []
+            }
+        ]
+    },
+    "1.34.3": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "612de8a93e711f261f51c1a39c36f9580a40b6f1",
+                "type": "FIX",
+                "text": "Fix oBinding.getTotalSize() type issue in pagination for sap.chart.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670007934"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.34.4": {
+        "date": "February 2016",
+        "notes": [
+            {
+                "id": "c2161499b451b0ea93ec1b36a3f7f515edff18e7",
+                "type": "FIX",
+                "text": "Analytical Chart loading animation broke",
+                "references": []
+            }
+        ]
+    }
+}

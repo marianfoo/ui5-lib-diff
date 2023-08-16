@@ -1,0 +1,230 @@
+{
+    "1.92.0": {
+        "date": "June 2021",
+        "notes": [
+            {
+                "id": "f619c6652a52ae1d522e1b7557e828c226ead053",
+                "type": "FEATURE",
+                "text": " SmartTable: provide global customData setting to configure preserveDecimals for Edm.Decimal, Currency and Unit formatters"
+            },
+            {
+                "id": "bc3dce85ee06237651303f784f514f34257b8361",
+                "type": "FIX",
+                "text": " DateRangeType: \"from\" \"to\" date validation fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003712442021"
+                    }
+                ]
+            },
+            {
+                "id": "c03e7845043e5e374d0ee77146369a751483d0f8",
+                "type": "FIX",
+                "text": " DateRangeType: \"from\" \"to\" date validation fixed"
+            },
+            {
+                "id": "16dbe8666e7d0078243971f122a50fcb399ba387",
+                "type": "FIX",
+                "text": " DateRangeType: \"from\" \"to\" date validation fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003712442021"
+                    }
+                ]
+            },
+            {
+                "id": "43f115da6702f5c10bc1180b7cfbb69a5df0e582",
+                "type": "FIX",
+                "text": " SmartField: CheckValuesValidity improved robustness",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180234442"
+                    }
+                ]
+            },
+            {
+                "id": "0b5263f86c71abbbd05b5fcac5951f46dbfd4d59",
+                "type": "FIX",
+                "text": " SmartField: Fixed UoM with TextArrangement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180220087"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180223342"
+                    }
+                ]
+            },
+            {
+                "id": "93564afe60a05b8d89df2cf5bbc0cf03c8acdeb5",
+                "type": "FIX",
+                "text": " SmartFilterBar: tooltip from @i18n model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180181521"
+                    }
+                ]
+            },
+            {
+                "id": "152f8caad12fa390a0f3313ffaa5b11a8315f1e2",
+                "type": "FIX",
+                "text": " FilterBar: Filters are now correctly reset when VariantManagement is not visible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170138817"
+                    }
+                ]
+            },
+            {
+                "id": "a197b824be2e07e6d2c1426feb9783f86539495e",
+                "type": "FIX",
+                "text": " FilterBar: Check if the getValueState exist when restoring the control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180225052"
+                    }
+                ]
+            },
+            {
+                "id": "387f3d088f562bab7b8e740b5f4d3d9e72826ee7",
+                "type": "FIX",
+                "text": " SmartField: Fixed UoM validation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180188864"
+                    }
+                ]
+            },
+            {
+                "id": "32833de89fe76fbb0e5c0bf28ef0beed5883e8ec",
+                "type": "FIX",
+                "text": " SmartField: Added correct type in the model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180206621"
+                    }
+                ]
+            },
+            {
+                "id": "96f15a4b666bc2484e02a16c82698697f99a1b1f",
+                "type": "FIX",
+                "text": " BaseValueListProvider: _onAnnotationLoad fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180217601"
+                    }
+                ]
+            },
+            {
+                "id": "c56af4116770928feda95639df56889254081f20",
+                "type": "FIX",
+                "text": " P13nFilterPanel: ComboBox is now supported for fixed values in Chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180214429"
+                    }
+                ]
+            },
+            {
+                "id": "5adcf9593508603d0a3c646dd4b355c607605ec4",
+                "type": "FIX",
+                "text": " SmartTable: Use monospaced font only for unit part",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180216104"
+                    }
+                ]
+            },
+            {
+                "id": "7064ed0de202cd3d92de1daa7ee3b2ec4eac44fb",
+                "type": "FIX",
+                "text": " SmartField: Fixed UoM formatting when Unit is undefined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180213511"
+                    }
+                ]
+            },
+            {
+                "id": "fa1992abbc60c341fd355c4db708e790710ed77a",
+                "type": "FIX",
+                "text": " BaseValueListProvider: _onAnnotationLoad fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180207503"
+                    }
+                ]
+            },
+            {
+                "id": "cff29998b342951d573aab7f334c202c8a8954d9",
+                "type": "FIX",
+                "text": " SmartField: Get the correct control onValidation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180188864"
+                    }
+                ]
+            },
+            {
+                "id": "494716866c4b8ca331a7fbcc07722dc5d870a473",
+                "type": "FIX",
+                "text": " comp.VariantManagement: enhance acc announcement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170049638"
+                    }
+                ]
+            },
+            {
+                "id": "17feeb15763aeaec30aac3404ae41db566e82340",
+                "type": "FIX",
+                "text": " FilterBar: ValueState is now restored when Adapt Filters dialog is closed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180183172"
+                    }
+                ]
+            },
+            {
+                "id": "d2ead42cae492304a3a7683cdf32dab12ce815c9",
+                "type": "FIX",
+                "text": " SmartField: Added correct type in the model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180185151"
+                    }
+                ]
+            },
+            {
+                "id": "6562e79880a8589695e03ef214c7d6b6010bcb98",
+                "type": "FIX",
+                "text": " SmartField: UoM with SuppressUnit setting",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180185636"
+                    }
+                ]
+            }
+        ]
+    }
+}

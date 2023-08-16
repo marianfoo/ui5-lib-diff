@@ -1,0 +1,348 @@
+{
+    "1.106.0": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "badd74da40407ca76e642238012cbd7adae48d9e",
+                "type": "FIX",
+                "text": " A quick view now shows the correct data after displaying another quick view before",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280160441"
+                    }
+                ]
+            },
+            {
+                "id": "1d4ad90dd27ecfbfe7416c91cee14230b322c2f5",
+                "type": "FEATURE",
+                "text": " We now provide the possibility to use a default action handler for menu buttons in list reports, object page headers, and forms"
+            },
+            {
+                "id": "b0b0a4f0c4cea26328cf485342d5e69f872bd73a",
+                "type": "FIX",
+                "text": " We've updated the handling of a separator when processing the target entity",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280162139"
+                    }
+                ]
+            },
+            {
+                "id": "fe4b802ed8cf1b05a8f7cd3d48f1e7baf2034a4c",
+                "type": "FEATURE",
+                "text": " We've added further features to the building blocks for tables and columns"
+            },
+            {
+                "id": "567acb93a614d47f97ea5b7c55c2e65164e58ab6",
+                "type": "FIX",
+                "text": " The 'filter bar' building block is now generated properly if a metaPath is used that doesn't depend on the contextPath",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280140763"
+                    }
+                ]
+            },
+            {
+                "id": "927ebf8fb6237606f7fc9e9585f1ceaeb4e59950",
+                "type": "FIX",
+                "text": " We now don't show a description for the header if you haven't defined one",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280149312"
+                    }
+                ]
+            },
+            {
+                "id": "d9d6d5fcd938a8f95d0f07654ac1f6a0f0faaed8",
+                "type": "FIX",
+                "text": " The default value for a semantic date is now correctly set for the property of the navigation entity set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280149845"
+                    }
+                ]
+            },
+            {
+                "id": "f3daccfdb85b6fc7db10d10d29e2468c01a7e131",
+                "type": "FIX",
+                "text": " We have fixed the applyNavigationParameters controller extension",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280140596"
+                    }
+                ]
+            },
+            {
+                "id": "25597998e066ec3af2f1577a53cd53877324ed9b",
+                "type": "FEATURE",
+                "text": " We've enabled the handling of side effects for mass edit"
+            },
+            {
+                "id": "33372b0182a4185321ae8639cfd6dee44b611d31",
+                "type": "FIX",
+                "text": " We've fixed the visibility behavior of the HeaderInfo if the header is editable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280142010"
+                    }
+                ]
+            },
+            {
+                "id": "36664b91787bfb00091e7e0c1427cab147c3e954",
+                "type": "FIX",
+                "text": " The UI.Hidden annotation now works correctly with reference facets pointing to another entity set via a navigation path",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280144773"
+                    }
+                ]
+            },
+            {
+                "id": "1383b3599239dbf4bf51d2bfc12ecd6eac8b5310",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 has replaced the deprecated AggregatedProperties with AggregatedProperty"
+            },
+            {
+                "id": "ed8a8174c1076f62212a157dad1409e18542c39e",
+                "type": "FIX",
+                "text": " UI.hidden annotation now works correctly for the header.info property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280149123"
+                    }
+                ]
+            },
+            {
+                "id": "55e2c4bd97381ffe310d50d6d77f305f3d65cbb0",
+                "type": "FIX",
+                "text": " We now remove the text arrangement property when #textOnly is used from the column's propertyInfo object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280137173"
+                    }
+                ]
+            },
+            {
+                "id": "f8b03a17f2cd366c43c9fe5adb48bfafc5824f80",
+                "type": "FIX",
+                "text": " Pressing the ESC key in a dialog now has the same result as clicking the Cancel button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280133523"
+                    }
+                ]
+            },
+            {
+                "id": "bd3f350499760679e71b90ace7ad3e4974913c88",
+                "type": "FIX",
+                "text": " We no longer clear transition messages when a simple table refresh is done"
+            },
+            {
+                "id": "4866e04fee9ab957dfe01e830a91fb550dd6aed1",
+                "type": "FEATURE",
+                "text": " we now support for semantic date range default values that require operators with parameters"
+            },
+            {
+                "id": "bb65668e1d0109fcb45a8e91d0f6bd2daeb145d1",
+                "type": "FIX",
+                "text": " The title of an object page linked to a ConnectedFields is now displayed properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280140875"
+                    }
+                ]
+            },
+            {
+                "id": "f50e99933f817f177d62180953b7f5f7afbf6cf0",
+                "type": "FIX",
+                "text": " We now provide some space between a table and a chart in analytical list pages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280101233"
+                    }
+                ]
+            },
+            {
+                "id": "398c6780cf98ccc406306885cbc9ad16477e79d0",
+                "type": "FIX",
+                "text": " We've resolved the issue related to adding a field to a form on a subobject page for key user adaptation"
+            },
+            {
+                "id": "5c3563ffaa08f098550a79e127929f8a54beb5a6",
+                "type": "FIX",
+                "text": " A semantic link now works correctly even when a dynamic semantic object has unavailable actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280130100"
+                    }
+                ]
+            },
+            {
+                "id": "94666b50ba9bbdfed97786a87dfb5b63ee2af29c",
+                "type": "FIX",
+                "text": " The value state of mandatory filter fields now reacts to input sent via the ExtensionAPI.setFilterValues() method",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280110522"
+                    }
+                ]
+            },
+            {
+                "id": "cd7a648fe28f05f5f26a977546a07a3853483e86",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now displays a DataPoint with a semantic object properly in the object page header"
+            },
+            {
+                "id": "06ca667be1cc10d4873a3e0a7aa43ddb8bb8e4f8",
+                "type": "FEATURE",
+                "text": " Customers can now override the action name in the action parameter dialog"
+            },
+            {
+                "id": "9167eb4b021bd9562bc34cdc7dd887d6555c84ca",
+                "type": "FIX",
+                "text": " SAP Fiori elements for OData V4 now automatically sets the height of charts to 100% in a chart-only view",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270018895"
+                    }
+                ]
+            },
+            {
+                "id": "10217e13d379ffee8ff2587046a962671aed78c2",
+                "type": "FIX",
+                "text": " We now remove transition messages from the message model when a user navigates back from a draft page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180398141"
+                    }
+                ]
+            },
+            {
+                "id": "e9c57b4c4373771871a7b005ada7e186ad5666b5",
+                "type": "FIX",
+                "text": " When a semantic object is defined with a path, the unavailable actions of the semantic object now work properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280130100"
+                    }
+                ]
+            },
+            {
+                "id": "135258c567b4cc4ffd785a6b3036d45e4a1fb570",
+                "type": "FIX",
+                "text": " SAP Fiori elements now enables you to filter on a table for navigation properties in the LineItem",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170295934"
+                    }
+                ]
+            },
+            {
+                "id": "debef7af22ace7c19135a9d007aa2353bd7be84d",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now supports custom navigation using a 1:1 association"
+            },
+            {
+                "id": "bd298d540460dfb932673d050ccf1e85a1f457e4",
+                "type": "FIX",
+                "text": " When changing a variant, SAP Fiori elements for OData V4 now updates the app state only if the variant isn't applied automatically",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280086575"
+                    }
+                ]
+            },
+            {
+                "id": "2e2e6ebe07f0cec98e0f747e08125f2de307ba9e",
+                "type": "FEATURE",
+                "text": " You can now mark custom filter fields as 'mandatory' by setting the 'required' property in the manifest.json"
+            },
+            {
+                "id": "7dea0a8d56bffda7b84720bfb938cd9c3e56735c",
+                "type": "FIX",
+                "text": " If the creation of a new object fails in a table using the flexible column layout, the object is no longer shown in the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280117541"
+                    }
+                ]
+            },
+            {
+                "id": "30a870c405ddb37d93a3390cbb4cc07b85390f3f",
+                "type": "FIX",
+                "text": " After selecting items in object page 'a' and navigating to object page 'b', the selection is now cleared as expected when you return to object page 'a'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280112422"
+                    }
+                ]
+            },
+            {
+                "id": "f7424430643f2ff2a167e6234e469c97e22bd305",
+                "type": "FIX",
+                "text": " The previous binding changes are being reset and destroyed before a new binding is created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280041447"
+                    }
+                ]
+            },
+            {
+                "id": "6a99b5d32b98cb51de25ff670f0c196bbc67740b",
+                "type": "FIX",
+                "text": " A table in an object page using the flexible column layout is now updated when a new object is created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280113762"
+                    }
+                ]
+            },
+            {
+                "id": "1851646d237333c17aa1fbee6ce767d34191e704",
+                "type": "FIX",
+                "text": " In the object page, the issue where error message popover was not working automatically has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280105666"
+                    }
+                ]
+            },
+            {
+                "id": "12b648f179cf081a01a10302ae196b14580a3276",
+                "type": "FIX",
+                "text": " ObjectPage FlexBox: Rendering type adjusted to Bare to allow long words to display properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270106759"
+                    }
+                ]
+            }
+        ]
+    }
+}

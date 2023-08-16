@@ -1,0 +1,278 @@
+{
+    "1.109.0": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "e12bfc0e433e9a146a76b4fbe73f2433567d9604",
+                "type": "FIX",
+                "text": " Clicking the ‘Confirmation Action’ button now triggers the related action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270180073"
+                    }
+                ]
+            },
+            {
+                "id": "bcd4d4b25ee3f83b7986e6f92bc14fd20eff3cc0",
+                "type": "FEATURE",
+                "text": " The VariantManagement.Control is now enabled by default on the object page"
+            },
+            {
+                "id": "eaaa3111f3ea6c74898c94dbd0012fd839ae1046",
+                "type": "FEATURE",
+                "text": " We now ensure the column width in a table is reevaluated when switching from display mode to edit mode"
+            },
+            {
+                "id": "e7079bfcce5f632ee2c815b33679c3ce12479772",
+                "type": "FEATURE",
+                "text": " We've improved the grouping of messages in the message view and the message dialog"
+            },
+            {
+                "id": "d9630d34c77db58a1fa28de1165a76e79078b9cd",
+                "type": "FEATURE",
+                "text": " By default, we now use the label annotation of the property as the title of the value help dialog, only for context-dependent value helps we use the label annotation of the ValueList"
+            },
+            {
+                "id": "5ef77d04fdd8c8748af641f055fe1445592a7fff",
+                "type": "FIX",
+                "text": " External navigation now works correctly even for huge data sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270147302"
+                    }
+                ]
+            },
+            {
+                "id": "05e19b153712f22386df39d75150b0f06c48b2eb",
+                "type": "FEATURE",
+                "text": " We're now using illustrated messages with specific texts depending on the type of error that occurs"
+            },
+            {
+                "id": "24486840dd5c1fb60b0ba46f62fdfde28caae891",
+                "type": "FIX",
+                "text": " When opening the quick view for a DataField that has a semantic object, we now display its Text annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270171769"
+                    }
+                ]
+            },
+            {
+                "id": "de475945b1511780f10aa3dcbb74794791ffed62",
+                "type": "FIX",
+                "text": " We now submit the pending changes correctly before navigating to the next context via the paginator",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270166220"
+                    }
+                ]
+            },
+            {
+                "id": "5e98346ea7c026bcb8e0557d83df82278a72a082",
+                "type": "FIX",
+                "text": " The screen reader now also reads custom messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270153242"
+                    }
+                ]
+            },
+            {
+                "id": "f17d2c97a27c2afcdef4c14450709db6f49c4019",
+                "type": "FEATURE",
+                "text": ": The title in the shell bar is now automatically adapted when you use the flexible column layout"
+            },
+            {
+                "id": "62f7f0ce1f04f94d2a5a072eeffd6713fb890963",
+                "type": "FIX",
+                "text": " We now ensure the message strip remains closed and doesn't reappear when scrolling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270169581"
+                    }
+                ]
+            },
+            {
+                "id": "6fc664e3ea65541ce8774135ca81bb522de620b8",
+                "type": "FIX",
+                "text": " We now ensure that the annotation value is no longer considered during xAppState navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270154030"
+                    }
+                ]
+            },
+            {
+                "id": "7d75e716e064f6dbf3c98ae5382208290c1a6f0e",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now provides a hook to initialize feature toggles"
+            },
+            {
+                "id": "ea211ff8d63654c487fd2305fcba4736f57f893a",
+                "type": "FIX",
+                "text": " The FilterBar is now connected to the Table building block at the correct point in time",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270152532"
+                    }
+                ]
+            },
+            {
+                "id": "a91e13dc20fb0e921a6e70df1ee780b1ff136f1f",
+                "type": "FEATURE",
+                "text": ": The counter in the message button now adds up all messages, and inherits the icon and semantic color of the highest severity type"
+            },
+            {
+                "id": "f8d63621f81a856faf4479d6f8688af13e7946da",
+                "type": "FEATURE",
+                "text": " We now provide an option to display a custom message in the message strip above the list report table"
+            },
+            {
+                "id": "a83cdd59869f63713ed2f847a30fd6f789a59c36",
+                "type": "FEATURE",
+                "text": " You can now use the Share to Microsoft Teams option"
+            },
+            {
+                "id": "86f6abdf418911eeec22205884df6e3a0bdad85b",
+                "type": "FIX",
+                "text": " The filterBar API now correctly handles filters with an undefined value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270135274"
+                    }
+                ]
+            },
+            {
+                "id": "e41de3791eb06f8014dee707de3025b57ddcc535",
+                "type": "FEATURE",
+                "text": " We've added a method to the FilterBar building block and the ListReport.ExtensionAPI that gets all active filters"
+            },
+            {
+                "id": "47462e317f4a7bcb31948c11229581c5996fabe0",
+                "type": "FIX",
+                "text": " We now support the usage of constant values in the HeaderInfo title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270131307"
+                    }
+                ]
+            },
+            {
+                "id": "3c9a7827adcbc4a91a8ff00e566e41a600f28dc5",
+                "type": "FEATURE",
+                "text": " We now pass the values of semantic date fields during external navigation"
+            },
+            {
+                "id": "7f9151e521c3577b885710a7ba8156b6b49f71dd",
+                "type": "FEATURE",
+                "text": " You can now merge user setting values from SAP Fiori launchpad with default values from annotations or the manifest"
+            },
+            {
+                "id": "93c81ecdf4a2a50da46084811ec5a6acc4d9603f",
+                "type": "FEATURE",
+                "text": ": In the object page and subobject page we now provide keyboard shortcuts to trigger forward path actions, that is, primary actions, such as 'Edit'"
+            },
+            {
+                "id": "3288501413ee9f23f523e5a0d3d0720e30b122a8",
+                "type": "FEATURE",
+                "text": " We now provide scrollable header facets on mobile devices"
+            },
+            {
+                "id": "3ab504979bb4f4651d5f17c21dd745ae6555d7af",
+                "type": "FEATURE",
+                "text": ": In the list report we now provide keyboard shortcuts to trigger forward path actions, that is, primary actions, such as 'Go'"
+            },
+            {
+                "id": "562e36c411788d13070aa8222f23dbb032460203",
+                "type": "FEATURE",
+                "text": " We now provide an option to skip the 'Create' pop-up dialog for new actions in specific cases"
+            },
+            {
+                "id": "286b69c51069944b63313155f9acddb5bb1a81fb",
+                "type": "FIX",
+                "text": " We now ensure a list report with multiple views and no filter bar is displayed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270142080"
+                    }
+                ]
+            },
+            {
+                "id": "e8b7618135f8252f0c73fceb512d979ece81add9",
+                "type": "FIX",
+                "text": " When navigating to an ObjectPage that has LongRunners requests, we now ensure that no data from previous contexts is displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270133052"
+                    }
+                ]
+            },
+            {
+                "id": "640a556c6fdc320bc194df2687609d09fcfdc40a",
+                "type": "FEATURE",
+                "text": " You can now execute the PrepareAction or global side effects by pressing Enter in draft mode"
+            },
+            {
+                "id": "0f7578458c62ec6a308437f1101a316a45cc4443",
+                "type": "FIX",
+                "text": " A grid table on an object page now has the correct number of rows",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270066593"
+                    }
+                ]
+            },
+            {
+                "id": "acbbcce1e4e518b6c98aadb75c66b94ecc1cef9b",
+                "type": "FIX",
+                "text": " We now ensure to always show the correct information for a quick view, even if a dynamic semantic object is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270124039"
+                    }
+                ]
+            },
+            {
+                "id": "c61ff1e38319b4505266bc8af49bf057aff681c7",
+                "type": "FEATURE",
+                "text": " You can now render semantically connected fields as a link to allow for navigation using these fields"
+            },
+            {
+                "id": "c94b41944a5d408e2b87f04004014479d6a842e7",
+                "type": "FIX",
+                "text": " We now use HeaderInfo annotations in the MessageBox of the 'Mass Edit' dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270113810"
+                    }
+                ]
+            },
+            {
+                "id": "5901f2ba2c3c07bf1445d50e837697ebaf193c6b",
+                "type": "FIX",
+                "text": " We now ensure that the message dialog remains open if there are back-end errors for unbound and static actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270129811"
+                    }
+                ]
+            }
+        ]
+    }
+}

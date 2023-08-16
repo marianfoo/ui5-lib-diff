@@ -1,0 +1,205 @@
+{
+    "1.95.0": {
+        "date": "September 2021",
+        "notes": [
+            {
+                "id": "1e761e97ad5dce35f24fef3937e5c373a0c0ae1d",
+                "type": "FIX",
+                "text": " Use correct Value Help ID to check if Value Help exists",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170173774"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170184189"
+                    }
+                ]
+            },
+            {
+                "id": "a963f7f81a1aadc683159d88435a6413051af85b",
+                "type": "FIX",
+                "text": " The visual filter in the 'Adapt Filters' dialog has been replaced with a regular filter field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170204347"
+                    }
+                ]
+            },
+            {
+                "id": "c03d5ff40775ae57150c22715914454914a873a0",
+                "type": "FIX",
+                "text": " You can now hide FieldGroups in edit mode on header facets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170204733"
+                    }
+                ]
+            },
+            {
+                "id": "c97626e8b682fd5fae6579c9cdea2f2cfd0e24a8",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now offers a binding refresh in SAP Fiori apps with the keep alive mode"
+            },
+            {
+                "id": "11b9e461dbfc3bdaa2bb0282184a726257a28ce3",
+                "type": "FIX",
+                "text": " Sort restrictions on value help are now properly considered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "21702039292"
+                    }
+                ]
+            },
+            {
+                "id": "67f4f4b48835a5002bf7ceed025cb25dc5302856",
+                "type": "FEATURE",
+                "text": " In a SelectionVariant you can now define multiple SelectOptions for the same PropertyPath"
+            },
+            {
+                "id": "2472744ea27616ed51aedbbf1e175c03c27502da",
+                "type": "FEATURE",
+                "text": " Visual filters are now supported for a parameterized entity set that is different from the main entity set"
+            },
+            {
+                "id": "24f804a9107f72207ee29e50bfa7167c36060a48",
+                "type": "FIX",
+                "text": " OperationAvailable is now ignored if the corresponding action and table are from different entitySets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170189572"
+                    }
+                ]
+            },
+            {
+                "id": "0f8238b90bb244cdc5fe17791eb4df4690e6361f",
+                "type": "FEATURE",
+                "text": " The display of error messages has been improved"
+            },
+            {
+                "id": "a89961b87ec44832a7c2b34411237688b871640b",
+                "type": "FEATURE",
+                "text": ": You can now define multiple views of a chart in the list report"
+            },
+            {
+                "id": "1806394f1e1ab111c0e20ac03b0a7c26d017edd7",
+                "type": "FEATURE",
+                "text": " Users can now select values outside of charts from within the visual filter bar using the value help dialog"
+            },
+            {
+                "id": "a2c9e68e2634542cdf38434f99e0ba7fe91d6635",
+                "type": "FEATURE",
+                "text": " Case insensitive filtering has been enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180365327"
+                    }
+                ]
+            },
+            {
+                "id": "21df25c4ff6066498fc150204ac8a99e7873bbb0",
+                "type": "FIX",
+                "text": " The progress indicator now correctly displays the percentage value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180343064"
+                    }
+                ]
+            },
+            {
+                "id": "aafa82d04211809e920ebe22e8ab02f83e524e0c",
+                "type": "FEATURE",
+                "text": " Case insensitive filtering on filter bar is now available"
+            },
+            {
+                "id": "c65261e5e8f1729ad5f009238e6fbb9ecd484009",
+                "type": "FEATURE",
+                "text": " Case insensitive filtering on table columns is now available"
+            },
+            {
+                "id": "60eb99f790a3e0ab143163ab16c96fc253f93ac6",
+                "type": "FIX",
+                "text": " The mouseover tooltip on filter fields is now enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180366334"
+                    }
+                ]
+            },
+            {
+                "id": "b34804bfbe84ac7121f8b4e0a84780eb46af3f92",
+                "type": "FIX",
+                "text": " A direct navigation is now provided if there is only one target application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180240577"
+                    }
+                ]
+            },
+            {
+                "id": "4af739701d8fa915f88227c276154bf637e1791d",
+                "type": "FIX",
+                "text": " The filter bar and table of the value help are now destroyed when users leave the application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180373096"
+                    }
+                ]
+            },
+            {
+                "id": "f62161fa83f1fcd4a62ed9393590b188b319283b",
+                "type": "FIX",
+                "text": " You can now change the value of the field 'Editing Status' using ENTER",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180337506"
+                    }
+                ]
+            },
+            {
+                "id": "99f65619b7dddb687cf5d1093ee17e7ce8ccd43e",
+                "type": "FIX",
+                "text": " A side effect underlying a field value update is now triggered as long as the value is valid against the client side",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170169811"
+                    }
+                ]
+            },
+            {
+                "id": "b39f9062837630eaec6278699950e5f194cb47c6",
+                "type": "FIX",
+                "text": " Side effects are now supported for the Checkbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180361817"
+                    }
+                ]
+            },
+            {
+                "id": "f89fddad26105ff492fb8c2782db6fa44c69d2a0",
+                "type": "FIX",
+                "text": " Value help in parameters now correctly filter the values even if the filters are not visible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180347742"
+                    }
+                ]
+            }
+        ]
+    }
+}

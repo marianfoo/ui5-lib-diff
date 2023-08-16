@@ -1,0 +1,332 @@
+{
+    "1.99.0": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "5bb69e45d8165a33a575ff9322cd59fb51b7eb92",
+                "type": "FIX",
+                "text": " A field with a currency in a form is now properly aligned with its unit",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280016943"
+                    }
+                ]
+            },
+            {
+                "id": "1be7c895f6644c2d24eafcec50f18221155f3a00",
+                "type": "FEATURE",
+                "text": " You can now display MultiValueField in Tables for a DataField that uses a 1:n navigation in the value path"
+            },
+            {
+                "id": "28c75a5c1d84c7f47ae9f4b6908c5d17cb371716",
+                "type": "FEATURE",
+                "text": " The 'Field' building block now also supports the length definition for MultiLine text fields"
+            },
+            {
+                "id": "f6bcb5f79ce5daf4b9654785e560b1d9564e1253",
+                "type": "FEATURE",
+                "text": " Semantic dates now use the dynamic date range control for the SingleValue"
+            },
+            {
+                "id": "c8fd47b5ecc8ffb50b2fdaa6a0b821da0b52e06f",
+                "type": "FIX",
+                "text": " The visualSettings of table properties are now properly calculated even if the associated columns are not displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280039948"
+                    }
+                ]
+            },
+            {
+                "id": "3fa01973aea3ad5bd46a1be16102986cbb7806c7",
+                "type": "FIX",
+                "text": " The column width is now correctly set for columns containing static unit or currency",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280025741"
+                    }
+                ]
+            },
+            {
+                "id": "ec89b9fd732309d78bf0a63be61df0940db2cff2",
+                "type": "FEATURE",
+                "text": " We have added a getSelectedContexts method and a selectionChange event to the table building block"
+            },
+            {
+                "id": "f0cb6c115caec434e45146956d02deefdbfcd3df",
+                "type": "FIX",
+                "text": " SAP Fiori elements now uses escape single quotes in the tooltips of visual filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280019764"
+                    }
+                ]
+            },
+            {
+                "id": "b927349db6830fc9417dcd68a89405f5297f2929",
+                "type": "FIX",
+                "text": " OUT parameters are no longer applied to invisible fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180426222"
+                    }
+                ]
+            },
+            {
+                "id": "ffabce9bc828be4421c5e632ea4c3adff86e9f12",
+                "type": "FIX",
+                "text": " Adding a row to a table now works as expected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280013729"
+                    }
+                ]
+            },
+            {
+                "id": "86d32cec4b45e39ee210c6ae5d47663845a07af1",
+                "type": "FEATURE",
+                "text": " You can now use the search field in charts in the list report and analytical list page"
+            },
+            {
+                "id": "ea1756501218ff694f5c5ed391497ecca2ed0b32",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now hides the aggregated amount when the aggregated field has a criticality annotation and the aggregated data doesn't have a matching currency or unit"
+            },
+            {
+                "id": "175fb6a6ddc3054c63de1872f61419751e915e97",
+                "type": "FIX",
+                "text": " Highlighting line items based on their criticality now also works correctly for newly created rows",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180433207"
+                    }
+                ]
+            },
+            {
+                "id": "149e3fc5f2131ea933a1a223aacaceefd7aad450",
+                "type": "FEATURE",
+                "text": " The EditFlow API is now publicly available and the experimental status is removed"
+            },
+            {
+                "id": "490f2f0c1e505f93a49bddfcb6719987488697e2",
+                "type": "FEATURE",
+                "text": " The building block for the filter bar now provides custom filters"
+            },
+            {
+                "id": "be60fcfbf3e9ac6157e7671939ff564e24abcd21",
+                "type": "FEATURE",
+                "text": " Semantic dates now use the dynamic date range control"
+            },
+            {
+                "id": "d95e0a218fb2b7c4c1525c3544d4454ad541791b",
+                "type": "FIX",
+                "text": " The progress bar now shows the correct value for the currency, even if it is hard coded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170237164"
+                    }
+                ]
+            },
+            {
+                "id": "b158f1fa896b996a89e61aef58346df2ef5cb545",
+                "type": "FEATURE",
+                "text": " Applications can now use the Mass Edit feature in list reports"
+            },
+            {
+                "id": "7873933656132f274e6c5c010ae576102acafbbe",
+                "type": "FIX",
+                "text": " For navigation property, the InOut parameters on value help in filter bar are ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170260063"
+                    }
+                ]
+            },
+            {
+                "id": "4881380e788608fa4f1751692dc5117238a835e9",
+                "type": "FEATURE",
+                "text": " ETags for file upload are now supported"
+            },
+            {
+                "id": "5728c21024a198d122c2f0fa5c8dfce0eeecd9de",
+                "type": "FIX",
+                "text": " The delete button is now visible in List Report Table for non-draft applications if the bound entity is deletable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180415519"
+                    }
+                ]
+            },
+            {
+                "id": "10aa545d19a4b1b8258c1b8006b8d639660ff52b",
+                "type": "FEATURE",
+                "text": " Column width calculation in tables has been disabled on phone"
+            },
+            {
+                "id": "83dc0411cc859ada9f0bb2743090465d40266951",
+                "type": "FIX",
+                "text": " The 'Draft' indicator is now set correctly after you have selected an item in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180422226"
+                    }
+                ]
+            },
+            {
+                "id": "e7d0738e032786a03ac1d096b05dafae4a412c98",
+                "type": "FIX",
+                "text": " Facet hidden annotation are now set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170316605"
+                    }
+                ]
+            },
+            {
+                "id": "fe7e6511344f59aa15d581aba3f584c00e05a3ef",
+                "type": "FEATURE",
+                "text": " Constraints regarding the MIME type and file size are now considered during file upload"
+            },
+            {
+                "id": "fca0dba1af3dd786fa1b35f55cf829eb269f8d71",
+                "type": "FIX",
+                "text": " The display of semantic links is now set correctly in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180402805"
+                    }
+                ]
+            },
+            {
+                "id": "7033df36d65ededd70a12afb42de4524d65a01e0",
+                "type": "FEATURE",
+                "text": " Navigation to a semantic object has been enabled for DataPoints on the object page"
+            },
+            {
+                "id": "ac6c9ff21f4ec50b3d560e0cbdb492c90167745b",
+                "type": "FEATURE",
+                "text": " The list report now stores/restores the table personalization into the iAppState"
+            },
+            {
+                "id": "d491d1bd674cb9ea042f6270f1d1206138952df2",
+                "type": "FIX",
+                "text": " The console error that occurred when a 'stream' column was added to a table has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170309199"
+                    }
+                ]
+            },
+            {
+                "id": "6dee94892af1174e0249a6cd64d1c566547c7746",
+                "type": "FEATURE",
+                "text": " The building block for the filter bar now provides default filter values"
+            },
+            {
+                "id": "bad3ff5fe8dc01e3f61bc344cf4559990560f918",
+                "type": "FIX",
+                "text": " Column tooltips are now correctly displayed in the 'Settings' dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170309258"
+                    }
+                ]
+            },
+            {
+                "id": "4c6a9fd31717aa6547db09afb2e08e13281bb74d",
+                "type": "FIX",
+                "text": " The Contact.Communication card now uses the Contact.Communication.label annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170304370"
+                    }
+                ]
+            },
+            {
+                "id": "1e23ffd7112095886bcf239058e1e9543907b28f",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the MultiValueField when using a DataField that has a 1:1 with a 1:n navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170248261"
+                    }
+                ]
+            },
+            {
+                "id": "ce2c9f1e3be676a8083d3823bee8d43dbf1d3139",
+                "type": "FIX",
+                "text": " Columns now support the property type 'binary'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180381903"
+                    }
+                ]
+            },
+            {
+                "id": "cea6e821da62fffded3800767bb2426735d164be",
+                "type": "FEATURE",
+                "text": " In the list report, the search field is now also available when you use an analytical table"
+            },
+            {
+                "id": "9ed0eb754813331ba4025013771eca29d3145363",
+                "type": "FIX",
+                "text": " Within a table, the label of a field is now properly aligned with its value"
+            },
+            {
+                "id": "19690c83b199a0cfc7ab38295100a4642b066ff6",
+                "type": "FEATURE",
+                "text": " Side effects are now available for Edm.Stream properties"
+            },
+            {
+                "id": "05b51e9d945e2f4c5673209f1ffa0f785f811d9a",
+                "type": "FIX",
+                "text": " The default alignment of dates and currencies has been changed to \"sap.ui.core.HorizontalAlign.Right\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170227320"
+                    }
+                ]
+            },
+            {
+                "id": "3f8b8e0efb820a3a08bdd760ce779c3118b26bf6",
+                "type": "FEATURE",
+                "text": " The number of items is now displayed in the table toolbar in analytical cases"
+            },
+            {
+                "id": "5cebd3888dd18df96ee7f299d95a07500594af17",
+                "type": "FIX",
+                "text": " The unit of measure is now correctly displayed in the progress bar"
+            },
+            {
+                "id": "59b1529139e82cf6cf3f087addcf205b01a57872",
+                "type": "FIX",
+                "text": " The Multi-Input Field now correctly deals with DeleteRestrictions to ensure it is editable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170265072"
+                    }
+                ]
+            }
+        ]
+    }
+}

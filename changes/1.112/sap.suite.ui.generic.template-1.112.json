@@ -1,0 +1,153 @@
+{
+    "1.112.0": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "I515210403435788546055501bdc60fa42e58d2df",
+                "type": "FEATURE",
+                "text": "For the object page, list report and the analytical list page, a new controller framework extension method 'beforeSmartLinkPopoverOpensExtension' has been introduced"
+            },
+            {
+                "id": "I1227adbf737393558e8e891d86053bd0a8ca6074",
+                "type": "FEATURE",
+                "text": "For the list report, the 'Select All' functionality is now introduced"
+            },
+            {
+                "id": "Ic4555b85db66a71ad0ee17e5aeaa63e48cf42b4d",
+                "type": "FEATURE",
+                "text": "Group Skipping F6 that was not working in a meaningful order is now fixed"
+            },
+            {
+                "id": "Iaede575e418ed12e12e62f136a6f4fc0178a5884",
+                "type": "FEATURE",
+                "text": "In the object page header, the 'Lightbox Control' is now introduced for expanded avatar"
+            },
+            {
+                "id": "Icc96047780b1f5ee0eba39420d8b9ef84b93202c",
+                "type": "FEATURE",
+                "text": "Navigation menu entry is now enhanced that is corresponding to the root page"
+            },
+            {
+                "id": "I3460904b8e9b1903b0a7aa1fe2a9b470aeea9b55",
+                "type": "FIX",
+                "text": "'modifyStartupExtension' changes in the filter bar are now retained post refresh",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270140942"
+                    }
+                ]
+            },
+            {
+                "id": "I69edc9cfd8f9aa4030ae4ff65666236e5cf39cd2",
+                "type": "FIX",
+                "text": "In a table, the fullscreen button is now enabled by default",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001087972023"
+                    }
+                ]
+            },
+            {
+                "id": "Ib623d20be8dd9f157349b50be62cac9fe64fdd2e",
+                "type": "FIX",
+                "text": "The share MenuButton is now hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380037792"
+                    }
+                ]
+            },
+            {
+                "id": "Ib98d30002420ee8b84b5a78b9b9825261dac35d5",
+                "type": "FIX",
+                "text": "To read the object page header, the ariaDescribedBy has been added for screen readers",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380015694"
+                    }
+                ]
+            },
+            {
+                "id": "I4d531158956ff61af0bdc62ab1c98b29a6d0a09e",
+                "type": "FIX",
+                "text": "In the analytical list page, the OK button on the select filters dialog is now emphasized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380036367"
+                    }
+                ]
+            },
+            {
+                "id": "Iabe26326faa3132ba66a6bd0e3d40013de7b42e6",
+                "type": "FIX",
+                "text": "The placeholder is now removed when an app is launched in the RTA mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380036979"
+                    }
+                ]
+            },
+            {
+                "id": "If41e83e5b06b3303a4253d56687ef2671fb3cf1c",
+                "type": "FIX",
+                "text": "In the analytical list page, the CSS class for dynamic page content wrapper for the belize theme is now removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270030063"
+                    }
+                ]
+            },
+            {
+                "id": "I751e6da66b520e6747712c2063edf424852fff86",
+                "type": "FIX",
+                "text": "In the list report, focus handling for addCards functionality is now improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270176838"
+                    }
+                ]
+            },
+            {
+                "id": "I5328bb117f6f1a2a55a360fc0c9c2f20342bf8b9",
+                "type": "FIX",
+                "text": "For the non-draft apps, the focus handling logic is now improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270174921"
+                    }
+                ]
+            },
+            {
+                "id": "I0e1fe441d7563e3a1abbb399fc71cd435eaac5df",
+                "type": "FIX",
+                "text": "In the VF dropdown, the focus is now set on OK",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380033935"
+                    }
+                ]
+            },
+            {
+                "id": "I98361cad8d1f519d794ac12cf6037381bd92a74d",
+                "type": "FIX",
+                "text": "In the list report, the navigation mode within key user is now supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370001748"
+                    }
+                ]
+            }
+        ]
+    }
+}

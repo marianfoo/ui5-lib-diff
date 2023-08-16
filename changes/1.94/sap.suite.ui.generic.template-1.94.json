@@ -1,0 +1,186 @@
+{
+    "1.94.0": {
+        "date": "Aug 2021",
+        "notes": [
+            {
+                "id": "Ie50cf40102259a5d63fafb32bb6e49a40e3d256e",
+                "type": "FEATURE",
+                "text": "Grouping in message popover is enhanced such that the grouping is done by section and table."
+            },
+            {
+                "id": "I61d92bf71c22e3f7b2bd006246c59e5f053c7284",
+                "type": "FEATURE",
+                "text": "OP: Improved the sorting of newly created table rows in  a draftwith inline-create so that they are always on top starting with the newest."
+            },
+            {
+                "id": "I78284d5f365fdd0ee8bcb58b20bb3508682bc917",
+                "type": "FEATURE",
+                "text": "ALP:Support of UoM texts"
+            },
+            {
+                "id": "I9b849942d41ec41dc579b41688f81d6548bd9ef0",
+                "type": "FEATURE",
+                "text": "LR: Enhancing No Data Text for Smart Table and Smart Chart & OP: Enhancement of the No data text for empty tables in OP"
+            },
+            {
+                "id": "Ia293cff8d718b30f0a89d0acc58e48c90e0b459d",
+                "type": "FIX",
+                "text": "Fixed the bug of broken navigation after back navigation.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180330405"
+                    }
+                ]
+            },
+            {
+                "id": "I6008f9196126dbfa30a6b44e8d0b81f8a72b27ce",
+                "type": "FIX",
+                "text": "Placeholder UI not being removed in master detail layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180358396"
+                    }
+                ]
+            },
+            {
+                "id": "If861d5240e22599d742b9e481c54d0bbe1a7a038",
+                "type": "FIX",
+                "text": "Placeholders not removed on external navigation with mandatory filters not filled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180371689"
+                    }
+                ]
+            },
+            {
+                "id": "I72ab494521d8f490e86bfa880ff03833d41dbb75",
+                "type": "FIX",
+                "text": "simplify/small fix in routing helper",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170173036"
+                    }
+                ]
+            },
+            {
+                "id": "Id610d9a25904bda2d1929c111d6e3dc1a36b9c28",
+                "type": "FIX",
+                "text": "ALP: Fix for placeholder not removed when mandatory filters are not filled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180372416"
+                    }
+                ]
+            },
+            {
+                "id": "Ie5cc135cb9e99d8ebd0cfae28534d36b116e0844",
+                "type": "FIX",
+                "text": "LR: default date range filter not displaying when other filter default values are set"
+            },
+            {
+                "id": "Ic7535048e57ad4033457a1807fca21fff30860d7",
+                "type": "FIX",
+                "text": "LROP: reintroduce binding for record type Communication.Contact",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180379338"
+                    }
+                ]
+            },
+            {
+                "id": "I68b5179c04803740ee546b4f20d29e30848a2275",
+                "type": "FIX",
+                "text": "When discarding a create draft while navigating away to another app in keep-alive mode and then coming back the user should be taken to the LR",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180330405"
+                    }
+                ]
+            },
+            {
+                "id": "I83222185ae6ba219800389e94ba8e14293d508a5",
+                "type": "FIX",
+                "text": "LR: Call restoreCustomAppStateDataExtension for compatibility",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180371689"
+                    }
+                ]
+            },
+            {
+                "id": "Ibcaa1a484623e1893fb706827e9a03c5498a403f",
+                "type": "FIX",
+                "text": "Resolve issues when navigating between different task types in myInbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180312721"
+                    }
+                ]
+            },
+            {
+                "id": "I45dda1e3eb017b90883b44f9f1f875988e219138",
+                "type": "FIX",
+                "text": "OP:Resolve navigation issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180325975"
+                    }
+                ]
+            },
+            {
+                "id": "I9196440cbd105371a13faeecea5246abc5b82089",
+                "type": "FIX",
+                "text": "Removing draft discard popup for inline and determining action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170188895"
+                    }
+                ]
+            },
+            {
+                "id": "If2986506b56b9847ac2aa27d4170457a93b253d9",
+                "type": "FIX",
+                "text": "OP:Part1 Resolve issue of focus being set in the wrong section",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180267588"
+                    }
+                ]
+            },
+            {
+                "id": "I37fca815eb54ed3c76254eb659db0bbe1d10f3cc",
+                "type": "FIX",
+                "text": "Fix navigation issues in large tree tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170200645"
+                    }
+                ]
+            },
+            {
+                "id": "I476da32762979c659c347b6faf7f191d86712c0e",
+                "type": "FIX",
+                "text": "LR: Allow filtering with the filter type 'contains' in table settings for string fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170198678"
+                    }
+                ]
+            }
+        ]
+    }
+}

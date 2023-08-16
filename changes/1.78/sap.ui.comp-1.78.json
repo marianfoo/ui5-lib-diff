@@ -1,0 +1,177 @@
+{
+    "1.78.0": {
+        "date": "April 2020",
+        "notes": [
+            {
+                "id": "dd02479a8e6628493204713e69d21a52f2d1ba6b",
+                "type": "FIX",
+                "text": " ValueListProvider: change the check for adding grouping items",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070160754"
+                    }
+                ]
+            },
+            {
+                "id": "85b02ad7add669ffead29465ee7dd2f666f29870",
+                "type": "FIX",
+                "text": " comp.VariantManagemnt: fix changes on vendor entities",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070150938"
+                    }
+                ]
+            },
+            {
+                "id": "7fcc00de975349713024076a533771babcfb2a3c",
+                "type": "FIX",
+                "text": " ValueListProvider: use oDataModel directly in some conditions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070183398"
+                    }
+                ]
+            },
+            {
+                "id": "3dc870aca3394e13c143ec55cbfb9f10544ecdac",
+                "type": "FEATURE",
+                "text": " SmartField/SmartFilterBar: Support In/Out parameters for fixed values",
+                "references": []
+            },
+            {
+                "id": "ad3e63358e69a38a971c782dc26ce1d046018b89",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Support of negative numbers in  'Today -X/+Y days' added",
+                "references": []
+            },
+            {
+                "id": "1999eee06024c045e02ca6cc7099ee35c2d82c1a",
+                "type": "FIX",
+                "text": " ValueListProvider: correct blank rows in suggestions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070163946"
+                    }
+                ]
+            },
+            {
+                "id": "7a5a667a119a3174723bcedb93dab3d0b6fac3c3",
+                "type": "FIX",
+                "text": " ValueListProvider: prevent closing multiinput/multicombobox on select values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070195647"
+                    }
+                ]
+            },
+            {
+                "id": "d76ccfdf83e1d8e35f5b2a06298a2dab76cf3543",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Correct date conversion is implemented",
+                "references": []
+            },
+            {
+                "id": "ad50d0d0708dd3e52f17e2aec87758f20e6d938b",
+                "type": "FEATURE",
+                "text": " ValueListProvider: create history opt out dialog",
+                "references": []
+            },
+            {
+                "id": "8d5930dd14622fbe34219ebf0e726703ab2b1436",
+                "type": "FIX",
+                "text": " Revert \"[FIX] SmartField: TextArrangement in display mode with non-fixed value list\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070208357"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070207674"
+                    }
+                ]
+            },
+            {
+                "id": "a1d8f477f1c8eb87e9013d6a9ed3067bf7cd1961",
+                "type": "FIX",
+                "text": " SmartField: Propagate the value to inner control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000282098 2020"
+                    }
+                ]
+            },
+            {
+                "id": "784039c5e043f62b74c7a1b5bf7ffe9011429081",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement in display mode with non-fixed value list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070130308"
+                    }
+                ]
+            },
+            {
+                "id": "6c67223b9656c2de63a9b3fb5d26ad194d26e8ae",
+                "type": "FIX",
+                "text": " SmartLink: beforeNavigation improvements",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070088953"
+                    }
+                ]
+            },
+            {
+                "id": "cb93650054f443a07a98767e7b8d311f05c39f87",
+                "type": "FIX",
+                "text": " ValueListProvider: consider description when filter suggestions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070208164"
+                    }
+                ]
+            },
+            {
+                "id": "9d415567a702940d7605ee0008b0eafba4db299e",
+                "type": "FIX",
+                "text": " ValueListProvider: enable wildfire search in suggestions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070204361"
+                    }
+                ]
+            },
+            {
+                "id": "43444afb14afe67b9b0bf9d256f1c3a8c28cab21",
+                "type": "FIX",
+                "text": " ValueListProvider: prevent showing recently used when rerender",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070178847"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070195078"
+                    }
+                ]
+            },
+            {
+                "id": "7be8ec0b79e778f37f819e1e67d836bec462070a",
+                "type": "FIX",
+                "text": " ValueListProvider: revert prevent showing recently used when rerender",
+                "references": []
+            }
+        ]
+    }
+}

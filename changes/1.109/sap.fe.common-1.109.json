@@ -1,0 +1,55 @@
+{
+    "1.109.0": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "e7079bfcce5f632ee2c815b33679c3ce12479772",
+                "type": "FEATURE",
+                "text": " We've improved the grouping of messages in the message view and the message dialog"
+            },
+            {
+                "id": "a49873b3fb6d351688fd8e6764e81f79e219bbf8",
+                "type": "FIX",
+                "text": ": We now display the correct title of an object page after an error was caused by a field for which a side effect is configured",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270127595"
+                    }
+                ]
+            },
+            {
+                "id": "a91e13dc20fb0e921a6e70df1ee780b1ff136f1f",
+                "type": "FEATURE",
+                "text": ": The counter in the message button now adds up all messages, and inherits the icon and semantic color of the highest severity type"
+            },
+            {
+                "id": "f8d63621f81a856faf4479d6f8688af13e7946da",
+                "type": "FEATURE",
+                "text": " We now provide an option to display a custom message in the message strip above the list report table"
+            },
+            {
+                "id": "e36cbd7f3959ffa6ea7fff13687f5bf8c6f8462c",
+                "type": "FIX",
+                "text": " We now correctly set the focus on the field that corresponds to the message used in the messageButton menu",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270135274"
+                    }
+                ]
+            },
+            {
+                "id": "e8b7618135f8252f0c73fceb512d979ece81add9",
+                "type": "FIX",
+                "text": " When navigating to an ObjectPage that has LongRunners requests, we now ensure that no data from previous contexts is displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270133052"
+                    }
+                ]
+            }
+        ]
+    }
+}

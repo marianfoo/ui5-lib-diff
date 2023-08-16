@@ -1,0 +1,63 @@
+{
+    "1.50.0": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "526255568a6db7b24aba204dffb7b4a1163dbe66",
+                "type": "FIX",
+                "text": "ActionUtil: Typo for valuelistType",
+                "references": []
+            },
+            {
+                "id": "4ee665eacdb4c5571df5ee0bb8e6cb02f7e0218b",
+                "type": "FIX",
+                "text": "BaseController: Additional check for changes before submission",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780171820"
+                    }
+                ]
+            },
+            {
+                "id": "a994ed4220e81f30bf59ea69083ef14fc17792ca",
+                "type": "FIX",
+                "text": "BaseController: Ignore Draft properties for Action's key checks",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770153168"
+                    }
+                ]
+            },
+            {
+                "id": "0b7acbf0360b25841faf813181274a42e6515032",
+                "type": "FIX",
+                "text": "FunctionImport: sap:value-list is not evaluated in FunctionImport",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780212236"
+                    }
+                ]
+            },
+            {
+                "id": "9bf4e90bdb9f2b6ebfcc72fed85ba422b8df2dd3",
+                "type": "FIX",
+                "text": "ModelUtil: Validate EntitySet name before DraftEnablement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780227144"
+                    }
+                ]
+            },
+            {
+                "id": "9d743fd8a87503e98229c4a46540e7d080aeae2e",
+                "type": "FIX",
+                "text": "Stopped multiple batch requests in case of faulty Odata message target",
+                "references": []
+            }
+        ]
+    }
+}

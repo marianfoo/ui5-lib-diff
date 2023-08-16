@@ -1,0 +1,58 @@
+{
+    "1.40.0": {
+        "date": "June 2016",
+        "notes": [
+            {
+                "id": "74b0e5b5240577ea30912a5bcdba8a0a2ca9a517",
+                "type": "FEATURE",
+                "text": "SelectionVariant: Method getPropertyNames() added",
+                "references": []
+            },
+            {
+                "id": "f0e1744b834b1b53ceec888ea40ea787edbc6274",
+                "type": "FIX",
+                "text": "ActionUtil shows also Out Parameter of Function Import in Dialog",
+                "references": []
+            },
+            {
+                "id": "a420009d836e254185cef0a8853c2a831189a0a4",
+                "type": "FIX",
+                "text": "BaseController _submitChanges doesn't submit w/o context",
+                "references": []
+            },
+            {
+                "id": "152abbdb29417b2873f028d99a40642092d63e9e",
+                "type": "FIX",
+                "text": "deleteEntities does not handle errors",
+                "references": []
+            }
+        ]
+    },
+    "1.40.2": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "f73a237b924c331edb955aaf7a6c0236350c831f",
+                "type": "FIX",
+                "text": "NavigationHandler: simplify/correct the navigation check",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680064637"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.40.3": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "107ace0b557b1a9ffa64303e02f206657b183373",
+                "type": "FIX",
+                "text": "sap.ui.generic...AppComponent: load dependent library",
+                "references": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "1.30.0": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "93b8ce920ab06a742806152f0dd6cebcfb5a0710",
+                "author": "Frank Otto <frank.otto@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Icon in lane header is centered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570299156"
+                    }
+                ]
+            },
+            {
+                "id": "bbab767ff39f06c5ebb505f39191e2604b9f5141",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Set default status text for node status PlannedNegative"
+            }
+        ]
+    },
+    "1.30.2": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "3d6cebf2784e9be0c4eed95742069aac2f966866",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "Fix",
+                "text": "sap.suite.ui.commons.ChartContainer: New public method added"
+            },
+            {
+                "id": "4cc8d24a1ed5c2e4baec4c80c73f00b9459275e3",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Space keyboard handling corrected"
+            },
+            {
+                "id": "571581a0ace52f318f744671b2bff3f09c8df3b6",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Issues for Timeline and ChartContainer corrected"
+            }
+        ]
+    },
+    "1.30.3": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "dd53c9bcdc584c24292041c68d4717fe3ce076b0",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Chart disappear issue fixed when toggle chart with full screen button"
+            },
+            {
+                "id": "ceb0d61db7b1555a564abb5229ef72747888c40f",
+                "author": "Ruben Agullo Cordoba <ruben.agullo.cordoba@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Issue in IE solved, when clicking on the last node in scrollable examples. The handling of the focus was completely changed and a fake element is not used anymore. Focus is set now to the TD element"
+            },
+            {
+                "id": "2e047044033915b88b24efbd6d803a0cb424df32",
+                "author": "Markus Konrad <markus.konrad@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Offset issue on Android Browser and iOS Safari has been corrected"
+            },
+            {
+                "id": "1ed4c874a8874d281d987f74ffd261d4ccd46df6",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.TimelineItem: Property field Text binding corrected"
+            }
+        ]
+    },
+    "1.30.4": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "c542a5054c7deefebb457c63e860534fcf694132",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Screen Reader support for cursor navigation has been corrected"
+            },
+            {
+                "id": "e30128d72b8a6a9f78a33f93b3f0279c445b3a57",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Aria text generation for undefined text elements has been fixed"
+            },
+            {
+                "id": "3cbc3007ca57046f0a428dfebb230212fae9d635",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Remove jumping of page if SPACE was pressed"
+            },
+            {
+                "id": "c43d4fd9bbab97e09b2d6dad3b8c3f0a1c659ebf",
+                "author": "Markus Konrad <markus.konrad@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Wrong amount of parents for Screen Reader support has been corrected"
+            },
+            {
+                "id": "d1274bf1723a4e3b2ea709ced85bdb22697628d9",
+                "author": "Ruben Agullo Cordoba <ruben.agullo.cordoba@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Keyboard navigation when clicking on a button has been fixed"
+            },
+            {
+                "id": "79f7c7dd35c37dc3abf3c6923486375060ec555d",
+                "author": "Ruben Agullo Cordoba <ruben.agullo.cordoba@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Double-click in Chevrons on Chrome corrected"
+            },
+            {
+                "id": "cab272066e7b6d685f44cd6212b531661edf6e8c",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Issues for Timeline and ChartContainer corrected"
+            }
+        ]
+    },
+    "1.30.6": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "ddf73c95ab8daec6de8533a1785d19e3388f84fe",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.TimelineItem: Mozilla Firefox text selection issue corrected"
+            },
+            {
+                "id": "6eef9f6b81f2ad58a1604acc85177268ac83569c",
+                "author": "Evgeny Fedorchenko <evgeny.fedorchenko@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.HeaderContainer: Problem with cell width resolved"
+            }
+        ]
+    },
+    "1.30.8": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "d48b6c4e09737637953211c5f5c8e0b8851c4f32",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Issue with updateModel() for merged lanes solved"
+            },
+            {
+                "id": "16f5aaa629875dd7f52919c2d91bfe72565bdcb2",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Modification done to get rid off dump issues without sapTabbable fields from KPI"
+            },
+            {
+                "id": "36e697daf32b80304002ac65267014bc3062f639",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Header state is displayed according to the provided lane states",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580078293"
+                    }
+                ]
+            },
+            {
+                "id": "abe9f35b42157d41244ec780373023de32743c08",
+                "author": "Evgeny Fedorchenko <evgeny.fedorchenko@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.MicroAreaChart: Processing of empty labels corrected"
+            },
+            {
+                "id": "4fdcd6972248d828d559eccb6d8942e2b9c7e780",
+                "author": "Evgeny Fedorchenko <evgeny.fedorchenko@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.NumericContent: Processing of dots in scaling factor corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580049686"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.30.9": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "aaaa6a937fb89d045350755d4363b132e893df5c",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.NumericContent: Default behavior for indicator restored"
+            },
+            {
+                "id": "5ad6bba413b1cd720cc67f304f49e577bcdede60",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Issue with no item data focus fixed when shift + tab and shift + f6 on keyboard clicked"
+            }
+        ]
+    }
+}

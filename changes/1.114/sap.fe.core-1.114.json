@@ -1,0 +1,573 @@
+{
+    "1.114.0": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "4c4d81c7885f7d74815e7d6922109759ef55d8aa",
+                "type": "FIX",
+                "text": " Custom columns in a list report table no longer cause an error when using the mass edit functionality",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370048601"
+                    }
+                ]
+            },
+            {
+                "id": "ce8dc17f1bacc564d6a141cbbeb53b8138dab7ec",
+                "type": "FIX",
+                "text": " We now ensure a draft record is discarded before the active record is deleted to avoid inconsistencies with back-end information",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370027467"
+                    }
+                ]
+            },
+            {
+                "id": "0708eee924c687cde7701d45176b9c550f66338c",
+                "type": "FIX",
+                "text": " We have resolved a timing issue with side effects for virtual field groups",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370050787"
+                    }
+                ]
+            },
+            {
+                "id": "ea79e46a56c731b7d1b79b04d14e2f8904b2c473",
+                "type": "FEATURE",
+                "text": " We now provide an option for application developers to freeze the first n columns in a grid and analytical table. You can now freeze the first columns in a table so that they don't move when scrolling the table horizontally"
+            },
+            {
+                "id": "1afc269b241cdaa3ea66e0398c9e5cd10a732aa8",
+                "type": "FIX",
+                "text": " We now correctly handle the criticality annotation when the navigation target is set in the manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002179482023"
+                    }
+                ]
+            },
+            {
+                "id": "df4fff387c96c686729e1dc09dc528de19f7553a",
+                "type": "FEATURE",
+                "text": " You can now create Integration cards from the analytical list page and add them to the Insights section"
+            },
+            {
+                "id": "ccb466e833c594c05d60842607df5a644ff81754",
+                "type": "FEATURE",
+                "text": " You can now disable the option AddCardToInsights in the manifest"
+            },
+            {
+                "id": "945f071a98d6243e5a4514d6794df5271c3f4046",
+                "type": "FEATURE",
+                "text": " We now offer a 'Share as card' option in Microsoft Teams"
+            },
+            {
+                "id": "a65cae984e28a73307b645e961d4d9859bc1e7c4",
+                "type": "FEATURE",
+                "text": " We now support the creation of insights cards from list report tables."
+            },
+            {
+                "id": "8bcd0126b6dee0e25e37c678918305b1e46d6d8c",
+                "type": "FEATURE",
+                "text": " In collaboration mode, when the user wants to navigate to a draft that no longer exists, we now redirect to the version that was saved by another user in the meantime"
+            },
+            {
+                "id": "5cffcfd5cdd27bbd8c40dbf06657e3e548556cc0",
+                "type": "FIX",
+                "text": " We now ensure the list report table doesn't remain in the busy state after closing the group message dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370024162"
+                    }
+                ]
+            },
+            {
+                "id": "3064fb387cb0a0920d136efcc582534bb16d6849",
+                "type": "FIX",
+                "text": " We've now removed the empty content container from Parameterized Filter Bar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370033930"
+                    }
+                ]
+            },
+            {
+                "id": "f2a46910bfd28ca26936b52e86b811171c9e26cd",
+                "type": "FIX",
+                "text": " We now provide backward compatibility for Aggregation.Aggregatable annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380037110"
+                    }
+                ]
+            },
+            {
+                "id": "f0198fee1dd4e56f659534c63b141d55aa14b940",
+                "type": "FIX",
+                "text": " We now ensure that the description title does not appear on the message dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370034603"
+                    }
+                ]
+            },
+            {
+                "id": "5951e9122049f2afc5fa918e06716a19e77685af",
+                "type": "FEATURE",
+                "text": " We no longer show the busy indicator when a user clicks the ‘Apply’ button on a subobject page"
+            },
+            {
+                "id": "b7ace074381ba97ace11ef32a9fac1b327f139c7",
+                "type": "FIX",
+                "text": " We've resolved the issue related to displaying the Delete button on the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370000636"
+                    }
+                ]
+            },
+            {
+                "id": "1545c85876ec614b254ed2577ef38c7b3c9d5c22",
+                "type": "FIX",
+                "text": " We now process the InitialLoad setting correctly for control-level variant management",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370039824"
+                    }
+                ]
+            },
+            {
+                "id": "ed80880d382c929a89bcd2cea532a8e359859471",
+                "type": "FIX",
+                "text": " The computed fields label within an empty table row is now empty",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370034408"
+                    }
+                ]
+            },
+            {
+                "id": "221e3c354d0565cc381756057873c02f8d3f079f",
+                "type": "FIX",
+                "text": ": Enhanced changeset logic to avoid showing technical messages with incomplete details in strict handling scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370023680"
+                    }
+                ]
+            },
+            {
+                "id": "4e97fb185ba7ba6e05b845146fefe72351426c5f",
+                "type": "FIX",
+                "text": " You can now delete draft-enabled entities with no delete restrictions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370015807"
+                    }
+                ]
+            },
+            {
+                "id": "781b245906825e057e6b727a840b4262143a933d",
+                "type": "FEATURE",
+                "text": " We've now enabled the filtering on draft-related properties by default"
+            },
+            {
+                "id": "64823269258608bad533d9e524620f9347ab668b",
+                "type": "FIX",
+                "text": " Failed requests are properly discarded when canceling a draft in the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044672"
+                    }
+                ]
+            },
+            {
+                "id": "305047b6a556a45bd81f2847d1f3118ad058960d",
+                "type": "FIX",
+                "text": " We now ensure that URL parameters are correctly encoded while navigating using a breadcrumb link or shell navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370032378"
+                    }
+                ]
+            },
+            {
+                "id": "f9375eee3c207e13fe42b552ca76edec2324f816",
+                "type": "FIX",
+                "text": " We now correctly display the DataFieldWithUrl annotation on a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370020288"
+                    }
+                ]
+            },
+            {
+                "id": "19424a97f97d8513fa7143d5b5de54478f77bf7a",
+                "type": "FEATURE",
+                "text": " We now support SideEffects with multiple SourceProperties for the MultiValueField in a virtual field group"
+            },
+            {
+                "id": "59503dfb0712d04ecb53908573bea69ee807c52f",
+                "type": "FIX",
+                "text": " Clicking Cancel in the confirmation popup for critical actions on an object page now ensures the user returns to the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370034589"
+                    }
+                ]
+            },
+            {
+                "id": "c087c4bf63a7b7c9a6fba68efcc2e339541e4e43",
+                "type": "FEATURE",
+                "text": " We now provide triggerSearch as a public API for the FilterBar building block"
+            },
+            {
+                "id": "1410fac7d61d1db19cca6970cf776c1ec8e730bc",
+                "type": "FIX",
+                "text": " The table row items in a list report are now navigable as expected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370007390"
+                    }
+                ]
+            },
+            {
+                "id": "74a0fa600d1936f6f3b918cdba4cc182f454b56e",
+                "type": "FIX",
+                "text": " We now ensure that we check the required conditions from the FilterBar along with inParameters for visual filter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370009387"
+                    }
+                ]
+            },
+            {
+                "id": "9de2b0f69a586d908e34365cf4eec66c4e2187aa",
+                "type": "FIX",
+                "text": " We now show the label instead of the technical name in a message when the inParameter value is missing for a visual filter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370009423"
+                    }
+                ]
+            },
+            {
+                "id": "9792be831a0e03ec31c5f53d7ab818e2b4398324",
+                "type": "FEATURE",
+                "text": " The Continue button of create actions is now always enabled"
+            },
+            {
+                "id": "eb56fb88d342d403f2dcd09af2e472e1f430c83d",
+                "type": "FIX",
+                "text": " We now show the Draft discarded message toast only for draft enabled applications",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370029964"
+                    }
+                ]
+            },
+            {
+                "id": "7ce523caf6e2cfe6115ff52453eb80e8c9add9f1",
+                "type": "FIX",
+                "text": " We've now added the commonly used currencies and modified the sample names of the filter bar in the flexible programming model explorer",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370033930"
+                    }
+                ]
+            },
+            {
+                "id": "579c1425e57f18eeecd2337df29373f05749ea6c",
+                "type": "FIX",
+                "text": " The error message that used to come up while discarding a new object in sticky mode is not displayed now",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370011547"
+                    }
+                ]
+            },
+            {
+                "id": "5ecdc351bff93753c60b23b99b42b5bc7d56a7e7",
+                "type": "FIX",
+                "text": " Creation row now works as expected when a dynamic updateRestriction is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370033088"
+                    }
+                ]
+            },
+            {
+                "id": "8f992afc20414d732b791087773ddbe06588d130",
+                "type": "FIX",
+                "text": " We now support the usage of placeholders in the action parameter dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370011936"
+                    }
+                ]
+            },
+            {
+                "id": "044f9499b1ebd6e850970c1edb507af1ecc43b56",
+                "type": "FIX",
+                "text": " We now manage the runtime building block with an event associated to a CommandExecution to ensure tooltips are correctly displayed for all buttons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370021013"
+                    }
+                ]
+            },
+            {
+                "id": "af781de96f52a715842c5dc7c678b2d8919b9113",
+                "type": "FIX",
+                "text": " You can now overwrite specific keys using the custom i18n approach",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370004987"
+                    }
+                ]
+            },
+            {
+                "id": "968af9764be600070834b755cad767e75cf00dae",
+                "type": "FIX",
+                "text": "We now display the correct header title for the message popover in the singular form",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370024577"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.1": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "75380465bdf672078739b7133ada1950acef96c9",
+                "type": "FIX",
+                "text": " We now consider user-specific default values in the ‘create’ action parameter dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370050777"
+                    }
+                ]
+            },
+            {
+                "id": "ff9c5b897899b908ea0ecb4a48a89447e6e81e7c",
+                "type": "FIX",
+                "text": " We have resolved an issue with the contextPath when using the loadFragment extension method",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380073756"
+                    }
+                ]
+            },
+            {
+                "id": "0c659dbec3fde7e2ccf478bc2fd4f8f5f88a788e",
+                "type": "FIX",
+                "text": " We now ensure that the Add Card to Insights option is hidden in by default when a user shares using Microsoft Teams",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380054998"
+                    }
+                ]
+            },
+            {
+                "id": "32e33e7147dd381fb28e85dd1b264e7989bde880",
+                "type": "FIX",
+                "text": " We now set the property labels for contacts on the table's personalization dialog correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "1415c46fa6695abab95b9abbda7e3e935b8b3de2",
+                "type": "FIX",
+                "text": " We now ensure that the Property labels that are visible in the personalization dialog of a table are set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "c709f58feb47dedeeb703b321a442dbabcb5fd53",
+                "type": "FIX",
+                "text": " We now highlight the recommended field if it is empty and remove highlighting if it has a value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380051293"
+                    }
+                ]
+            },
+            {
+                "id": "ce7852ea1afcd2a172ab3c00b52e086c6333bf39",
+                "type": "FIX",
+                "text": " We now support the $Apply expression using fillUriTemplate and decodeUri",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380059940"
+                    }
+                ]
+            },
+            {
+                "id": "f2190da7ea6f8aaea30fd25ab2830b6dee34bfdf",
+                "type": "FIX",
+                "text": " We have resolved an issue with templating the actionCommand",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370068110"
+                    }
+                ]
+            },
+            {
+                "id": "d39dbb229d9fdebd5d526e8d5feb5d9e4df9e867",
+                "type": "FIX",
+                "text": " The sap.insights library is now loaded dynamically",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380052090"
+                    }
+                ]
+            },
+            {
+                "id": "8cb42f3f7a0028fc6c292e107b264f7119cb08cb",
+                "type": "FIX",
+                "text": " We now support dynamic expressions for hidden annotations of DataFieldForAction and DataFieldForIntentBasedNavigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002665132023"
+                    }
+                ]
+            },
+            {
+                "id": "94239fccfd049a480b0a615e95b202f933c2b561",
+                "type": "FIX",
+                "text": " We now support the $Apply expression using fillUriTemplate and decodeUri",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380055928"
+                    }
+                ]
+            },
+            {
+                "id": "03334521282e4c3940c1e99a0e05f617e64febfb",
+                "type": "FIX",
+                "text": " We now ensure that the sticky session is managed properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380048202"
+                    }
+                ]
+            },
+            {
+                "id": "f4e0a1380506d566825c50f2869d2012dc3165b9",
+                "type": "FIX",
+                "text": " The Card Preview in the Add Card to Insights dialog now supports the text arrangement of the table columns and unit-of-measure type columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380048611"
+                    }
+                ]
+            },
+            {
+                "id": "7ba200a901d977332f68b18cc9a05667d96c4ffb",
+                "type": "FIX",
+                "text": " Transition errors are now removed before submitting the open changes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370060874"
+                    }
+                ]
+            },
+            {
+                "id": "1171626fbea84b91ffd57fd88aabe442884130cc",
+                "type": "FIX",
+                "text": " We now ensure a sticky session is discarded properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380046239"
+                    }
+                ]
+            },
+            {
+                "id": "4adbd96c8163776d89812d37a3f8a4c20fad8d71",
+                "type": "FIX",
+                "text": " We now ensure the draftIndicator of a property is shown correctly when used in a field group",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370069238"
+                    }
+                ]
+            },
+            {
+                "id": "920963dc9013b33eb3b3e28ee58fb69f0c76294e",
+                "type": "FIX",
+                "text": " We now ensure that the initial appstate is applied properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370075219"
+                    }
+                ]
+            },
+            {
+                "id": "edaf69a1bf60a9bdbb1c115df17581dba64013f8",
+                "type": "FIX",
+                "text": " We now ensure that the additional properties in the onAfterBinding method that binds the data works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370064031"
+                    }
+                ]
+            }
+        ]
+    }
+}

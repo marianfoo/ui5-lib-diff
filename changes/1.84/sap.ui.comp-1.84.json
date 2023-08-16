@@ -1,0 +1,536 @@
+{
+    "1.84.0": {
+        "date": "October 2020",
+        "notes": [
+            {
+                "id": "361d6862e3babfe75732323237ba038e26ff1812",
+                "type": "FEATURE",
+                "text": " SmartField/SmartFilterBar: ComboBox and MultiComboBox now support history of recently entered values"
+            },
+            {
+                "id": "0492f3878a189bc31fcbfda87ba90b62bd8f08bc",
+                "type": "FIX",
+                "text": " SmartField: Modification of externally provided dateFormatSettings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070396210"
+                    }
+                ]
+            },
+            {
+                "id": "22135adfbac477adf22167a905225a8f174b689a",
+                "type": "FIX",
+                "text": " SmartField: ValueListNoValidation and isDigitalSequence",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070401847"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070382656"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070352331"
+                    }
+                ]
+            },
+            {
+                "id": "9d14d9b6e63e2bbed2dd21ecf5e25e4c022219a8",
+                "type": "FIX",
+                "text": " TextArrangementDelagate: Unnecessary call to server removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070408990"
+                    }
+                ]
+            },
+            {
+                "id": "5a14fc8dd11c6dd4cb7abb358872b4a9b1c3c6ea",
+                "type": "FIX",
+                "text": " FilterBar: Add id of Reset button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070408675"
+                    }
+                ]
+            },
+            {
+                "id": "e0760900c91935b9faffcb31739efe6e6bcf6902",
+                "type": "FIX",
+                "text": " SmartFilterBar: hasValueHelpDialog now works",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080370723"
+                    }
+                ]
+            },
+            {
+                "id": "4ff84e6a691da43844842af6983785906f4ad7a4",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Initial focus is now set on the Search field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080310171"
+                    }
+                ]
+            },
+            {
+                "id": "acb8a9251589a1b543a05b1062f4c6fdb409259a",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Recently entered values history can now be switched off"
+            },
+            {
+                "id": "f6e824e61f9e8f98d12d534af7860c21e4032eb3",
+                "type": "FIX",
+                "text": " comp.FilterBar: correction for mandatory in adapt filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070397481"
+                    }
+                ]
+            },
+            {
+                "id": "31dae6aa85ef886c89f527975531f58ec8782e04",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: alignment with V4"
+            },
+            {
+                "id": "46a0ffa57707e3d7ea0ca2f4de6d7fcb4cd39a75",
+                "type": "FEATURE",
+                "text": " SmartField: Recently entered values history can now be switched off"
+            },
+            {
+                "id": "1e94d1c23ed3104d5e5f05a6d5b7371c17ecaca9",
+                "type": "FIX",
+                "text": " SmartField: clientSideMandatoryCheck is now propagated to currency fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070382392"
+                    }
+                ]
+            },
+            {
+                "id": "fd969b32c15cd2208dd2bbf523c9d2b2a499ebbb",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Add counters to dialog tabs"
+            },
+            {
+                "id": "425dc7401c4364afe0278ae38993d861ca53eeb4",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: alignment with V4"
+            },
+            {
+                "id": "6835046419524f2c762bcd8bf3c022a1323ac98c",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: alignment with V4"
+            },
+            {
+                "id": "abf36fd6ad6816becb23863c81f4d7eb04e8a99f",
+                "type": "FIX",
+                "text": " SmartField: ValueListNoValidation error with multiple descriptions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070351224"
+                    }
+                ]
+            },
+            {
+                "id": "50d5f938b6fc63432d50b26e6aefd89d055c958b",
+                "type": "FIX",
+                "text": " SmartFilterBar: Adapt Filters count is fixed for MultiComboBox added as custom field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080226373"
+                    }
+                ]
+            },
+            {
+                "id": "25752c9930cfb45f9f506896769a53441484a4d2",
+                "type": "FIX",
+                "text": " NumericText: Mandatory check is called when parsing value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080359147"
+                    }
+                ]
+            },
+            {
+                "id": "89ea94e968457da79af959203fdca0f8e51bb831",
+                "type": "FIX",
+                "text": " TextArrangementDelegate: value parsing fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070284192"
+                    }
+                ]
+            },
+            {
+                "id": "1744a845bbe3516551b075ab2e475628e6e85786",
+                "type": "FIX",
+                "text": " FilterBar in ValueHelpDialog shows hidden filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070370747"
+                    }
+                ]
+            },
+            {
+                "id": "5c17f83e61f0842d281809414d38296113817b95",
+                "type": "FIX",
+                "text": " ODataControlFactory: Validate for navigation before the creation of request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080290967"
+                    }
+                ]
+            },
+            {
+                "id": "632f81157407203915a7a3773766245843ada749",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog - title and filter bar redesign"
+            },
+            {
+                "id": "34d8ebd69fd4fd925584e51e9d4d22d366daa745",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: alignment with V4"
+            },
+            {
+                "id": "ea233f26b646c9f80203eabef44c10c7baec8340",
+                "type": "FIX",
+                "text": " DateTimeUtil: from/to UTC fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070044749"
+                    }
+                ]
+            },
+            {
+                "id": "aa1a080d8b4de3b672ecef12c3a65e7b2885dacd",
+                "type": "FIX",
+                "text": " SmartField: Revert due to regression"
+            },
+            {
+                "id": "e0c5932802d4dc0d35cd7513157bdc0d86d395fb",
+                "type": "FIX",
+                "text": " FilterProvider: Fixed _fireEvent to send mParams",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070355754"
+                    }
+                ]
+            },
+            {
+                "id": "c442004bf22781dcb2031611bbad7701de53f5ff",
+                "type": "FIX",
+                "text": " SmartField/SmartFilterBar: Add busy indicator until data is fetched for In Params",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070355498"
+                    }
+                ]
+            },
+            {
+                "id": "69963da23a25a3b152f19f0bf09cf5d2897cba96",
+                "type": "FIX",
+                "text": " comp.VariantManagement: enhancing favorites acc texts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080247616"
+                    }
+                ]
+            },
+            {
+                "id": "dd9afde252346c94aad2a15b63c5198a4fb0d94b",
+                "type": "FIX",
+                "text": " SmartField: Error with more than 1 result for TextArrangement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070351224"
+                    }
+                ]
+            },
+            {
+                "id": "08063bbc785ce538ad3d0728c709809182f9fa0f",
+                "type": "FIX",
+                "text": " SmartField: Unbinding property value is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070352570"
+                    }
+                ]
+            },
+            {
+                "id": "7c162155d19eaa45cc8c2f52fa84d50f5770442b",
+                "type": "FIX",
+                "text": " ValueListProvider: InParams are now considered on initial loading",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070302963"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080289090"
+                    }
+                ]
+            },
+            {
+                "id": "403bf35966d2285a8100cfb24e24cf53453fd6d8",
+                "type": "FIX",
+                "text": " SmartField: TextInEditModeSource value can't call toUpperCase() when it's null",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070342747"
+                    }
+                ]
+            },
+            {
+                "id": "307939f5987ed39979c3f213f533a29c2dc09645",
+                "type": "FIX",
+                "text": " SmartField: TextInEditModeSource ValueList not changing value is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070287814"
+                    }
+                ]
+            },
+            {
+                "id": "511bf6892342f99588fe2a06098b410b78c34ad4",
+                "type": "FIX",
+                "text": " SmartFilterBar: Label colon's margins are now correct in French",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080192354"
+                    }
+                ]
+            },
+            {
+                "id": "4731358ec767b9a37368afdaffb4ce2ad911d15a",
+                "type": "FIX",
+                "text": " SmartFilterBar: Fixed parsing of Edm.Time",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080376399"
+                    }
+                ]
+            },
+            {
+                "id": "de60ae01508fbec466691eabecee7048cc4dbdd9",
+                "type": "FIX",
+                "text": " comp.VariantManagement: resetting default does not remove fav flag",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070264928"
+                    }
+                ]
+            },
+            {
+                "id": "5a8d7eff098e9ae0609bec8e4f973cb8e9a9e976",
+                "type": "FIX",
+                "text": " VariantConverterFrom: edm.Time conversion fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080337473"
+                    }
+                ]
+            },
+            {
+                "id": "e38c8d3f31fd078febe6df98d72e1640764c3216",
+                "type": "FIX",
+                "text": " SmartField: sKey undefined when deleting a record",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070306210"
+                    }
+                ]
+            },
+            {
+                "id": "6ea3128373dcd61b38a2d97a362784f72bd5f52e",
+                "type": "FIX",
+                "text": " comp.FilterBar: Adapt Filters dialog uses internally a named model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070286980"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070275257"
+                    }
+                ]
+            },
+            {
+                "id": "e5d792be26e5573c98c95c6464d2d3162ae81385",
+                "type": "FIX",
+                "text": " DateRangeType: Compared sematic date range",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080357539"
+                    }
+                ]
+            },
+            {
+                "id": "a5716d357156b8f63131045d3ac3deacd45e985f",
+                "type": "FEATURE",
+                "text": " Display visualization for Smart Multi Input"
+            },
+            {
+                "id": "5e6b2527b8c9d145499088d30868aa925878948e",
+                "type": "FIX",
+                "text": "sap.m.SmartField: Display ComboBox renderer",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080377696"
+                    }
+                ]
+            },
+            {
+                "id": "7bc4fde8c1da885ae5262e4442620e87cfde9cad",
+                "type": "FIX",
+                "text": " DateRangeType: Fixed creating of the range without value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080304811"
+                    }
+                ]
+            },
+            {
+                "id": "d60830567892e92217f0bc8dd544b272aa44193f",
+                "type": "FIX",
+                "text": " comp.FilterBar: enhancing the docu for property 'useToolbar'.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080255953"
+                    }
+                ]
+            },
+            {
+                "id": "ea3e1df288582029c1f6891eb688a7bdd2f5f173",
+                "type": "FIX",
+                "text": " comp.VariantManagement:  provide a tooltip to the button control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070276665"
+                    }
+                ]
+            },
+            {
+                "id": "67089d0c382005ff2d838d830cb485e0ff10b192",
+                "type": "FIX",
+                "text": " comp.FilterBar: handling for newly added filter items enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070281302"
+                    }
+                ]
+            },
+            {
+                "id": "53f134f1f787933a411baf674cf16ee4d2c8d6b2",
+                "type": "FIX",
+                "text": " ValueListProvider: disable recently used for MultiComboBox/ComboBox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080269518"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080246400"
+                    }
+                ]
+            },
+            {
+                "id": "2972aa9bdd4127cffd89ab0eef76e673e06aebf2",
+                "type": "FIX",
+                "text": " comp.FilterBar: correction for the cancel behavior",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080356499"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080352629"
+                    }
+                ]
+            },
+            {
+                "id": "e702ce21578ee715574769774ef630920ad8b0f3",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Delay in ValueList calls"
+            },
+            {
+                "id": "ce0bdfd831fdae8fed9aeeac512e0ec0eae3832e",
+                "type": "FEATURE",
+                "text": " SmartField: textInEditModeSource property is now \"stable\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "7c3efb521d8b040fafcfa57d09bdb233ad9b26e5",
+                "type": "FIX",
+                "text": " ValueListProvider: correct suggestions on auto select",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070200256"
+                    }
+                ]
+            },
+            {
+                "id": "d60b1468f02e1e08965e3dcdd7adc81dea6c6337",
+                "type": "FEATURE",
+                "text": " SmartField: ValueListNoValidation added to TextInEditModeSource"
+            },
+            {
+                "id": "d69aa1a5ab0bbecaca07a6846374a1a45b420cdd",
+                "type": "FIX",
+                "text": " FilterBar: enable some properties on mobile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376600003689582020"
+                    }
+                ]
+            }
+        ]
+    }
+}

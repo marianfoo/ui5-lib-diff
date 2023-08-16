@@ -1,0 +1,38 @@
+{
+    "1.105.0": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "23342361367632eaf2c0532adf43a9c0981f171f",
+                "type": "FEATURE",
+                "text": " sap.ndc: Integrate with the physical scanning of Zebra device when the button is loaded within Zebra Enterprise Browser"
+            },
+            {
+                "id": "823d6520f8174c27febb07c3c2f0850550ed05c6",
+                "type": "FIX",
+                "text": " sap.ndc: The type of Barcode input dialog 'OK' button is set as emphasized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280118829"
+                    }
+                ]
+            },
+            {
+                "id": "00837515730ad2a8c866f7ab3421e5597748d3dc",
+                "type": "FIX",
+                "text": " sap.ndc: For accessibility, add the title into Scanning Dialog and the tooltip into Barcode Scanner Button.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270108046"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270108047"
+                    }
+                ]
+            }
+        ]
+    }
+}

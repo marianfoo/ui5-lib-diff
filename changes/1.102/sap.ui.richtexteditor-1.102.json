@@ -1,0 +1,61 @@
+{
+    "1.102.0": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "d3ee39f3796f472d7c59871a2bc3e5b8fb3316a3",
+                "type": "FEATURE",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Option to remove buttons from the button groups",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "a9a77337efa78106cfa8ac82c32612ec223769b9",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.ToolbarWrapper: QUnit now passing in FF",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270014448"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.4": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "ae485dac25f3afe4703510642c3c4a80708b9a79",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Alt+F10 is now focusing the first visible element in the toolbar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270021648"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.8": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "bd3a2a092d7dd4b55e1a9c8f9600790178e1c8e9",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Adjust failing test dependant on browser behavior",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270111082"
+                    }
+                ]
+            }
+        ]
+    }
+}

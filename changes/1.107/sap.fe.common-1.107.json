@@ -1,0 +1,29 @@
+{
+    "1.107.0": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "f35cdc4c7b2f6047a6f0642a9a4b900f223b2da3",
+                "type": "FIX",
+                "text": " We no longer display a clickable link in the message dialog if the error occurs in a hidden column of a table in an object page for which no navigation is configured",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280168899"
+                    }
+                ]
+            },
+            {
+                "id": "a23427404cb83a325ea6ec33a3881c918959cdcb",
+                "type": "FIX",
+                "text": " Even without column information, the corresponding error message is now displayed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280134870"
+                    }
+                ]
+            }
+        ]
+    }
+}

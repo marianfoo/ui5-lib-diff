@@ -1,0 +1,211 @@
+{
+    "1.65.0": {
+        "date": "March 2019",
+        "notes": [
+            {
+                "id": "403df1242094ab83a5040cfe665ebc601cae1894",
+                "type": "FIX",
+                "text": "DateRangeType: Support SmartFilterBar's live mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970074566"
+                    }
+                ]
+            },
+            {
+                "id": "71ec213716398235e6e49f391056401dcd4b5ebe",
+                "type": "FIX",
+                "text": "SmartField ODataControlFactory: Improve Performance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880514853"
+                    }
+                ]
+            },
+            {
+                "id": "ef3f7d55569af6b44bbc41dcf06d9f3eb6693047",
+                "type": "FIX",
+                "text": "SmartField: \"visible\" not ignored when set via setVisible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970146223"
+                    }
+                ]
+            },
+            {
+                "id": "86d829c9b614101167c0aea8e05d260a44b33328",
+                "type": "FIX",
+                "text": "comp ObjectStatus: Enhance documentation of crititcality",
+                "references": []
+            },
+            {
+                "id": "3c3d3d93c214d94ccb677ae03f588c3d9b4cb625",
+                "type": "FEATURE",
+                "text": "sap_fiori_3: comp + mdc libraries",
+                "references": []
+            },
+            {
+                "id": "1185bf311a0f345c810bf1d19098f2e26981bae9",
+                "type": "FIX",
+                "text": "SmartMultiEdit: Fix handling of fixed-values fields without text annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980079768"
+                    }
+                ]
+            },
+            {
+                "id": "fda94352d8980fcc82076c6d156822f5df6b3cac",
+                "type": "FIX",
+                "text": "VariantManagement: Open Popover on Keyup",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980059440"
+                    }
+                ]
+            },
+            {
+                "id": "9fab10a08b1c20fa932f43faff624a32ff3e0226",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmultiedit.Field : Fixed early field validation.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980059028"
+                    }
+                ]
+            },
+            {
+                "id": "7caf96e77a29610acbe4a68b9cfe5678bc5748d9",
+                "type": "FEATURE",
+                "text": "SmartTable: UI.DataFieldDefault annotation now supported",
+                "references": []
+            },
+            {
+                "id": "1e691a7fdac5c4e0d52fdab635baa314017b6db3",
+                "type": "FIX",
+                "text": "SmartField: Do not use ValueListProvider when showSuggestion=false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001768202019"
+                    }
+                ]
+            },
+            {
+                "id": "67883f3d73a100bb54bc653a8d31e46fb022f78d",
+                "type": "FIX",
+                "text": "SmartField: Formatting of GUIDs fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980069522"
+                    }
+                ]
+            },
+            {
+                "id": "56e833bc4f1d8faaf06e331ecc61ecf2666abcce",
+                "type": "FIX",
+                "text": "SmartField: ValuHelp fixed when AutoExpand feature is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970169149"
+                    }
+                ]
+            },
+            {
+                "id": "34c14153cee93e884efc3bd0a5fd6d117ee115b8",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmultiinput.SmartMultiInput: Prevent addition of extra token",
+                "references": []
+            },
+            {
+                "id": "3cf2504ceec8486759329c77a3ce775989de70b6",
+                "type": "FIX",
+                "text": "FilterBar: ignore groups with non visible filter items",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980008806"
+                    }
+                ]
+            },
+            {
+                "id": "54f1fbfbbc1e045113d26936f68946a34b6e0350",
+                "type": "FIX",
+                "text": "FilterProvider: consider in param passed as value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970139010"
+                    }
+                ]
+            },
+            {
+                "id": "99e5508b0fb48ff70c261116bf3ba12c20bb6831",
+                "type": "FIX",
+                "text": "FilterProvider: correction for Edm.Boolean token display",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980089208"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1980032194"
+                    }
+                ]
+            },
+            {
+                "id": "8c17329d9f15aeb235b3108d00d254cd4aeadc4d",
+                "type": "FIX",
+                "text": "VariantConverterTo: fix single interval Edm.DateTimeOffset",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980138445"
+                    }
+                ]
+            },
+            {
+                "id": "ac5f6c6bb6baf76d22248f4ab74b47b3b9ef88df",
+                "type": "FIX",
+                "text": "FilterBar: fix for filter visibility when a SPV is applied",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001929622019"
+                    }
+                ]
+            },
+            {
+                "id": "b7d7885eff426fee82f449159ff14c568ca82868",
+                "type": "FIX",
+                "text": "FilterBar: token completion occurs after clear operation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970175788"
+                    }
+                ]
+            },
+            {
+                "id": "098b51f32578637c877e60cc099670c8f5067cb8",
+                "type": "FIX",
+                "text": "ValueHelpDialog: wrong IDs for P13nItems",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980129751"
+                    }
+                ]
+            }
+        ]
+    }
+}

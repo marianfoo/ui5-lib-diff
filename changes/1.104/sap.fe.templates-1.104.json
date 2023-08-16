@@ -1,0 +1,224 @@
+{
+    "1.104.0": {
+        "date": "June 2022",
+        "notes": [
+            {
+                "id": "cd25c639bf7cee2a47511a8528053f4ba68fcb40",
+                "type": "FEATURE",
+                "text": " The form building block now accepts custom form elements that are defined inline"
+            },
+            {
+                "id": "266d1f141b9a221ffea7d78dbbc791bbcfcbe800",
+                "type": "FIX",
+                "text": " The enablement for continue button in creation dialog now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280094744"
+                    }
+                ]
+            },
+            {
+                "id": "5236e3b864b8bc0c6a6362f1b3d33d89ce510982",
+                "type": "FEATURE",
+                "text": " You can now use our customization settings to keep a draft version of your app when a forward navigation is triggered without displaying a confirmation popup"
+            },
+            {
+                "id": "20e8f20a63a3aa16230ddf675b0b235847bf9b07",
+                "type": "FIX",
+                "text": " The Continue button is now only activated once all mandatory fields are filled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280087689"
+                    }
+                ]
+            },
+            {
+                "id": "86346ba3d81df1d2a70a2215db84a84439878422",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports semantic objects in navigation properties and the display of their quick view facets"
+            },
+            {
+                "id": "475d2137962894d74094ad6a4d0e1e078fa83596",
+                "type": "FEATURE",
+                "text": " We now automatically delete untouched drafts without a confirmation popup"
+            },
+            {
+                "id": "c8a377cf4329133ec86bb43483d62c5165ed0435",
+                "type": "FIX",
+                "text": " The Breadcrumb titles now take into account the underlying TextArrangement annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270104062"
+                    }
+                ]
+            },
+            {
+                "id": "2b13dca20d74dcab75db6fbb9967cdbbf63355da",
+                "type": "FIX",
+                "text": " We've now enabled filtering on object page tables for DataFieldWithIntentBasedNavigation and DataFieldWithAction",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270075436"
+                    }
+                ]
+            },
+            {
+                "id": "af73145766ab73b106949f78eab9fc5981fd6d84",
+                "type": "FIX",
+                "text": " We've removed the duplicate error messages that appeared when a user refreshed a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270097540"
+                    }
+                ]
+            },
+            {
+                "id": "94ad1743f81c811891cd9f7f8a546c43cea5abcb",
+                "type": "FIX",
+                "text": " We now ensure users navigate back to the original app after deleting an object in another app where flexible column layout isn't enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270055414"
+                    }
+                ]
+            },
+            {
+                "id": "603f017b1925119bf28699149f266c0438508966",
+                "type": "FIX",
+                "text": " SAP Fiori elements now updates the tables in a list report when a new entity is created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270101450"
+                    }
+                ]
+            },
+            {
+                "id": "7e7b8b7a55e0a94291e79b426473f8f3078cc26f",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now handles the required properties of InsertRestriction and UpdateRestriction"
+            },
+            {
+                "id": "1655708df497561911783d5ec9b12c3f614cf296",
+                "type": "FIX",
+                "text": " We've changed from 'array' to 'single' startup parameters to avoid console errors",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270106987"
+                    }
+                ]
+            },
+            {
+                "id": "3ce4a8f24b6146ef7a5623799ac8b3ade7dbdc40",
+                "type": "FIX",
+                "text": " We've improved the areaShrinkRatio to avoid resolution issues",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270098738"
+                    }
+                ]
+            },
+            {
+                "id": "1ce56c510425bc94500702ef7c479bd284e7880d",
+                "type": "FIX",
+                "text": " We've enhanced the screen reader capabilities to read out the menu for toggling the draft button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270095788"
+                    }
+                ]
+            },
+            {
+                "id": "3a08bb58694442c1c77292e08c451b9a50e57e85",
+                "type": "FIX",
+                "text": " The label for a connected field can now contain a complex expression",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170170456"
+                    }
+                ]
+            },
+            {
+                "id": "07e81e8e12d9eef379a23410b94fc029339bad38",
+                "type": "FIX",
+                "text": " We're now expanding the dynamic page header once we change the layout of the filter bar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270096045"
+                    }
+                ]
+            },
+            {
+                "id": "3237d8d0454bb23b5e15a0328b406d30d8c4bd30",
+                "type": "FIX",
+                "text": " The pageReady event is now fired only after all tables were populated with data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270094029"
+                    }
+                ]
+            },
+            {
+                "id": "db005b9d887ee26062b275a01b967d43c1fc57e3",
+                "type": "FIX",
+                "text": " We're now ensuring the correct section is directly displayed on an object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270081717"
+                    }
+                ]
+            },
+            {
+                "id": "441de94371a4e06646d1152211725ce999804275",
+                "type": "FIX",
+                "text": " The labels of connected fields can now be read by the screen reader",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270037966"
+                    }
+                ]
+            },
+            {
+                "id": "21dbf611597793f485637963542867403daf4687",
+                "type": "FIX",
+                "text": " We're now ensuring the datatype of the filter field matches the datatype of the target",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270060355"
+                    }
+                ]
+            },
+            {
+                "id": "0a9f003d306becbfb4e6bc3cf094afed718cd875",
+                "type": "FIX",
+                "text": " The message for the field containing the error on the UI isn't removed until the entry is correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270044399"
+                    }
+                ]
+            },
+            {
+                "id": "b340b8c3f7e50895c186b5a31db34f812b29d3b5",
+                "type": "FIX",
+                "text": " We've corrected the behavior of the dataloss popup when navigating while there are input errors BCP: 2270045115"
+            }
+        ]
+    }
+}

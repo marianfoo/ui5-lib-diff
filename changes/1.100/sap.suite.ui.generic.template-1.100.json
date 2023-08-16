@@ -1,0 +1,167 @@
+{
+    "1.100.0": {
+        "date": "Feb 2022",
+        "notes": [
+            {
+                "id": "I58d4edcb1d09197ba00f2d5c026bec93e010e98a",
+                "type": "FEATURE",
+                "text": "Support for optional parameters of a parametrized oData service"
+            },
+            {
+                "id": "Icca87d84f972ac6f070c14f495c5a07a7ac5829d",
+                "type": "FEATURE",
+                "text": "Creation of static/dynamic tile considering custom semantic date range field"
+            },
+            {
+                "id": "If13e94368482efcb762643ceac9a2499a066ea55",
+                "type": "FEATURE",
+                "text": "Ensure whitespace is also visualized in LR and OP"
+            },
+            {
+                "id": "I8bc92ac86890f6291d924687530a92b13cd4934d",
+                "type": "FEATURE",
+                "text": "Correct tab should selected when an OP is shown in Multi-View Application"
+            },
+            {
+                "id": "I23575b34fff9eb65f2312964be1effdcc8098073",
+                "type": "FEATURE",
+                "text": "Allow hybrid view mode on tablet devices"
+            },
+            {
+                "id": "I6d25ea9961492cccde362fa69842517bc0fa4e18",
+                "type": "FEATURE",
+                "text": " Improvements in app state handling"
+            },
+            {
+                "id": "I99135d0bd0b2c7878682eb2ebd81fda090e3392b",
+                "type": "FEATURE",
+                "text": " Option to ignore certain fields from mass edit dialog"
+            },
+            {
+                "id": "I229551605721409432262cb5be467725b81dbb77",
+                "type": "FEATURE",
+                "text": "Implementation of the dateSettings for all date fields"
+            },
+            {
+                "id": "I031a4c7b429fdf6cf50ef6316a827625a7a0309f",
+                "type": "FIX",
+                "text": "improvment of  navigation to message target"
+            },
+            {
+                "id": "Ic0f59e7eb0d6122f022ca976483a92cbe5914c2e",
+                "type": "FIX",
+                "text": "allow all actions in Op for IFrame during design time",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280076362"
+                    }
+                ]
+            },
+            {
+                "id": "Ida5bbe221ff2741546edb86597b097b26538e022",
+                "type": "FIX",
+                "text": "Allow combining fields in SmartForm in OP",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280081540"
+                    }
+                ]
+            },
+            {
+                "id": "I0d158edda541a0891bcfd8311a0ccb6d1c073023",
+                "type": "FIX",
+                "text": "negate paginator buttons in all scenarios where a draft is discarded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280039301"
+                    }
+                ]
+            },
+            {
+                "id": "I7881778e89bc25d01ef9ff8f53c6d4c85c0e141b",
+                "type": "FIX",
+                "text": "Intent-Based Navigation for Semantic Key on Sub Object Page ",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280039819"
+                    }
+                ]
+            },
+            {
+                "id": "I693eb2aa2c60b78ba1b2583b78e25c2ee429b64c",
+                "type": "FIX",
+                "text": "variants Handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280075023"
+                    }
+                ]
+            },
+            {
+                "id": "I43b2c687b8503c1548fd5f4b20a9066ffb4e7e55",
+                "type": "FIX",
+                "text": "Avoid erroneous setting of standard variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280037073"
+                    }
+                ]
+            },
+            {
+                "id": "Iee52ef5cd7b12f4e91ba2b8b3be00a98a1fb7e12",
+                "type": "FIX",
+                "text": "user experience improved in visibility condition based on headerInfo title and description availability",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280006340"
+                    }
+                ]
+            },
+            {
+                "id": "Ia40c852c647a0d2773e01e99f29cb404baa71bf9",
+                "type": "FIX",
+                "text": "improvment of cross navigation in create",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280076697"
+                    }
+                ]
+            },
+            {
+                "id": "I5c09fab30969883cc0f37b46254ab9624e7080e6",
+                "type": "FIX",
+                "text": "Hide avatar in header title when object is in edit mode and header is in expanded mode.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170322031"
+                    }
+                ]
+            },
+            {
+                "id": "I8bafe9ab731521bd0a9e6414efd750ed30b5f6a2",
+                "type": "FIX",
+                "text": "Temporarily display export to excel button by default in op"
+            },
+            {
+                "id": "I4662d0200c337a7a81ab5eed4844896bcbd72fb2",
+                "type": "FIX",
+                "text": "improvement of  DraftAdministrativeData of sub entities, due to limitations in Unmanaged RAP",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280032691"
+                    }
+                ]
+            }
+        ]
+    }
+}

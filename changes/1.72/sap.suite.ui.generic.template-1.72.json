@@ -1,0 +1,140 @@
+{
+    "1.72.0": {
+        "date": "October 2019",
+        "notes": [
+            {
+                "id": "d94987aefe734d848e9253c144f6aae486a8ecc4",
+                "type": "FEATURE",
+                "text": "OP: Save and continue editing feature has been added"
+            },
+            {
+                "id": "a9462721fa67df8b36d2661490aef67eaabc9c34",
+                "type": "FEATURE",
+                "text": "LR: Keyboard shortcuts enabled"
+            },
+            {
+                "id": "b7044d9c52fe52df07f4665500f4327c987f4b74",
+                "type": "FEATURE",
+                "text": "ALP: Offer shortcuts for action commands"
+            },
+            {
+                "id": "d078963e975f52f9f3d52839aaec8df9e429a426",
+                "type": "FEATURE",
+                "text": "OP: Non-draft save option to stay on object page"
+            },
+            {
+                "id": "fcf7535fe177df3965fc9bd073b00731c555878a",
+                "type": "FEATURE",
+                "text": "Adapted the improved group header format of the smart table. The existing group header formatting logic for sap.m.table and analytical table has been removed"
+            },
+            {
+                "id": "9db4799d42eba98a514aee14d3062f7d5d528dd0",
+                "type": "FEATURE",
+                "text": "ALP: Support semantics yearmonth and year for visual filter"
+            },
+            {
+                "id": "63f422de4602d10a4fddae3a7717d3fd7b5ed5ae",
+                "type": "FEATURE",
+                "text": "LR: Handle count calls for multiple views with parameterized entity sets"
+            },
+            {
+                "id": "936909ee18d061877cccf75cc7b2e5dde74f0722",
+                "type": "FEATURE",
+                "text": "OP: Group messages in message popover according to object page sections"
+            },
+            {
+                "id": "db56e41c8cf94c7edd5f6482d8bd7490a87fe542",
+                "type": "FEATURE",
+                "text": "OP: Accessibility gaps have been resolved"
+            },
+            {
+                "id": "da72d0d6daa79578e5a78f287fc28ac5f8912680",
+                "type": "FIX",
+                "text": "LR/ALP: Suppress unwanted semantical error messages in list report and analytical list page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970453660"
+                    }
+                ]
+            },
+            {
+                "id": "5f021af73c689fb0218142d8b18163823b7dc8db",
+                "type": "FIX",
+                "text": "OP: Save and edit flow fixed in create mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970457067"
+                    }
+                ]
+            },
+            {
+                "id": "2f9045515df5553662a8179ea1171372479f0def",
+                "type": "FIX",
+                "text": "Fix issues with requests being transformed into canonical requests although this is unwanted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970399395"
+                    }
+                ]
+            },
+            {
+                "id": "a68d39b334d544cbd18e5471b7e1628e5986f8f0",
+                "type": "FIX",
+                "text": "Ensure that data is loaded for all columns in flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980405260"
+                    }
+                ]
+            },
+            {
+                "id": "4df0ed549613887d0f3b3a0e54012f25f65bce53",
+                "type": "FIX",
+                "text": "OP: Improved handling of side-effects in non-draft save scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980351206"
+                    }
+                ]
+            },
+            {
+                "id": "e267d163f3b0e89ecac2dc61aea77511be9253aa",
+                "type": "FIX",
+                "text": "Ensure the use of canonical requests when new entities are created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970486863"
+                    }
+                ]
+            },
+            {
+                "id": "71a6ec434df8d1854c5592c740ffaaa11670b4ab",
+                "type": "FIX",
+                "text": "Ensure call of callback functions to check for unsaved data for all active views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970513211"
+                    }
+                ]
+            },
+            {
+                "id": "72402904968bbe31d6939c56ba42ce29666b3fd1",
+                "type": "FIX",
+                "text": "OP: Close button now works even after coming back from an external navigation or a refresh",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970470125"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "1.112.0": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "3df84eb869a3d680080bf97e8c29f2230e15290a",
+                "type": "FIX",
+                "text": " sap.ndc: If the size of image file is very large, the barcode cannot be decoded.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370011774"
+                    }
+                ]
+            },
+            {
+                "id": "3845c1306dfe11e3ebdf1b9fb3485857963d3fca",
+                "type": "FIX",
+                "text": " sap.ndc: The UI information of Barcode Scanner Button is read twice.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380015107"
+                    }
+                ]
+            }
+        ]
+    }
+}

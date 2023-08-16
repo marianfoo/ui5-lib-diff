@@ -1,0 +1,954 @@
+{
+    "1.28.0": {
+        "date": "January 2015",
+        "notes": [
+            {
+                "id": "adba0c5bfdc8cc7036e3eeab117aaa3e7b4503ac",
+                "type": "FEATURE",
+                "text": "Default handling for KeyField on FilterPanel",
+                "references": []
+            },
+            {
+                "id": "87cdc4fe04b82f463f3dad2ed25264e53c5241cc",
+                "type": "FEATURE",
+                "text": "OData fields selector for key-user adaptation added",
+                "references": []
+            },
+            {
+                "id": "47c7088654c7d0034c2fee100c3ec162a1af14ae",
+                "type": "FEATURE",
+                "text": "SmartField: Change Event",
+                "references": []
+            },
+            {
+                "id": "ae4e375e7468b38eca16b739a6fbb3ddcf78cb8e",
+                "type": "FEATURE",
+                "text": "SmartField: Configuration Properties",
+                "references": []
+            },
+            {
+                "id": "a7718ea6d92bc34daa4598ba581e9fe1f34e773f",
+                "type": "FEATURE",
+                "text": "SmartField: Currency Handling",
+                "references": []
+            },
+            {
+                "id": "39eb40a8f45b1e1ce87877dfe6b50998eafd72c6",
+                "type": "FEATURE",
+                "text": "SmartField: EntitySetFound Event",
+                "references": []
+            },
+            {
+                "id": "b41dcd3b2aeb3da2ed5844b73d200cf35cc5b30b",
+                "type": "FEATURE",
+                "text": "SmartField: JSON Model Support",
+                "references": []
+            },
+            {
+                "id": "5b052bbf74b13ac99e109c714ad44bd9e599d358",
+                "type": "FEATURE",
+                "text": "SmartField: Standard Properties",
+                "references": []
+            },
+            {
+                "id": "8b20ef9248dc03f39fc6c7958548c19ed35004e5",
+                "type": "FEATURE",
+                "text": "SmartField: Support for Edm Date and Time Types",
+                "references": []
+            },
+            {
+                "id": "e6626c1cc0dbe82f8de87322ee4838a3cdf7f14f",
+                "type": "FEATURE",
+                "text": "SmartField: Support for Numeric Types and Currency",
+                "references": []
+            },
+            {
+                "id": "12e55d67f15e9e4d38a5b57514ef963e11ad0c7b",
+                "type": "FEATURE",
+                "text": "SmartField: Support for OData Complex Types",
+                "references": []
+            },
+            {
+                "id": "f037f42faa4f9ea9cabb884e71edda33b805a473",
+                "type": "FEATURE",
+                "text": "SmartField: Support for Value Help and Type Ahead",
+                "references": []
+            },
+            {
+                "id": "cd2a85479d791ef56cfc69a1dab7467c9e4cb1f2",
+                "type": "FEATURE",
+                "text": "SmartField: Value Help Support and Toggle Edit/Display",
+                "references": []
+            },
+            {
+                "id": "436358acfd703adacdbe437abb5cf1710ddb2a30",
+                "type": "FEATURE",
+                "text": "SmartTable: Added option to specify a custom binding path for the table and enabled option to do automatic binding on initialise",
+                "references": []
+            },
+            {
+                "id": "74a3a91df2c6f0ebc1ccd5b2dd934f982b7918a1",
+                "type": "FEATURE",
+                "text": "Enabled Grouping in Perso controller and GroupController",
+                "references": []
+            },
+            {
+                "id": "63f6d09cc62102535685e54a0e57ca2c02c56c1b",
+                "type": "FEATURE",
+                "text": "Enabled semantic object based link generation",
+                "references": []
+            },
+            {
+                "id": "6aefd3d8f236afc030628c448330315cc6b497f3",
+                "type": "FEATURE",
+                "text": "filterbar: Clear & Restore on FilterBar",
+                "references": []
+            },
+            {
+                "id": "a0057dec4be066a3cab4dd8172b3f94626674a1e",
+                "type": "FEATURE",
+                "text": "filterbar: Adding the event beforeSuiteVariantFetched",
+                "references": []
+            },
+            {
+                "id": "272b3f85ba832cbcb633ac8daeba0baef7d500ef",
+                "type": "FEATURE",
+                "text": "filterbar: Enhancing phone compatibility",
+                "references": []
+            },
+            {
+                "id": "132829b3dbe8df8e8638086fa3d6df4b155d8e96",
+                "type": "FEATURE",
+                "text": "filterbar: Reimplement set/getCurrentVariant as pure data setter/getter",
+                "references": []
+            },
+            {
+                "id": "292bff5e5f5f56f012ca376b2b7ebd4fb7cfd574",
+                "type": "FEATURE",
+                "text": "sap.ui.com.genericnavigationpopover.GenericNavigationPopover: Very first version of popover which displays a list of links",
+                "references": []
+            },
+            {
+                "id": "0546f5138b71d9cf8626616ad929eca1c3cf8f87",
+                "type": "FEATURE",
+                "text": "sap.ui.com.smartform.XXX: HorizontalLayout",
+                "references": []
+            },
+            {
+                "id": "72438af9a90157d34f22897b60dccf9e8bf33b87",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.genericnavigationpopover.SmartLink: New link control which opens the navigation popover",
+                "references": []
+            },
+            {
+                "id": "8860ae85553dfa7aff8d8bc26cdf4514748a6f79",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.navpopover: Refactored content from sap.ui.comp.genericnavigationpopover to navpopover",
+                "references": []
+            },
+            {
+                "id": "b816216c0db7c7b1bc03cb4ab4ef99be968d0582",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.navpopover.NavigationPopover: New association: ExtraContent displays additional content in the popover",
+                "references": []
+            },
+            {
+                "id": "ea934e5dade6a6de6c1ffe318cb1a295abfdbbe5",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.navpopover.SemanticObjectController: Aggregates eventhandling for several SmartLinks",
+                "references": []
+            },
+            {
+                "id": "68060b974172f800a5481236790d2ccbbd60b7c3",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartform.SmartForm: Label determined from Metadata",
+                "references": []
+            },
+            {
+                "id": "70125bf81b14f149d367302d2dae15483e472c86",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartform.SmartForm: New property ignoredFields to ignore fields available in OData service",
+                "references": []
+            },
+            {
+                "id": "76b9e21717b15ec950f11563cf3737ed47fb56a0",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartform.SmartForm: Optional panel",
+                "references": []
+            },
+            {
+                "id": "a7ec308e6d7a379c823898f4a2c8512c97d17667",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartform.SmartForm: GetVisibleProperties for OData Request",
+                "references": []
+            },
+            {
+                "id": "719035e53578e9304145ab0f448217629f4428e2",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartform.SmartForm: New smart control",
+                "references": []
+            },
+            {
+                "id": "287b3383ee212e4278cb7bfafbb8b400c4a033cf",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smarttable.SmartTable: CurrentVariantId Property",
+                "references": []
+            },
+            {
+                "id": "0e36b03c5dd54acaf74525679202b3b8ae580755",
+                "type": "FEATURE",
+                "text": "smart field: Adding Change-event handling",
+                "references": []
+            },
+            {
+                "id": "3a56547317e8e981b098ae40d9f74b4641ca2df7",
+                "type": "FEATURE",
+                "text": "smart field: Consider display-format='UpperCase'",
+                "references": []
+            },
+            {
+                "id": "1e0b0487041ccee3c6c0ad7d78f5a05a74733ed1",
+                "type": "FEATURE",
+                "text": "smart variants: Get/set current variant id",
+                "references": []
+            },
+            {
+                "id": "e26429c4626f11780e258ae450c66071a1a9756a",
+                "type": "FEATURE",
+                "text": "smart variants: Display error in case of problems handling variants",
+                "references": []
+            },
+            {
+                "id": "56d332fd9d76008a69c9298ba898c7e72752e4a0",
+                "type": "FEATURE",
+                "text": "smart variants: Support for suite variant format",
+                "references": []
+            },
+            {
+                "id": "c90ec06f0cef3958cf2d7cc849f59ab0717b983d",
+                "type": "FIX",
+                "text": "filterbar: Adding phone support",
+                "references": []
+            },
+            {
+                "id": "a98f633f303d35692e66659a3d6d7868211a273e",
+                "type": "FIX",
+                "text": "GroupElement.control: Default aggregation elements",
+                "references": []
+            },
+            {
+                "id": "50da2fe6571f26d67b9899058fbd69662d829d07",
+                "type": "FIX",
+                "text": "SmartTable: Corrected select query parameter handling for visible columns",
+                "references": []
+            },
+            {
+                "id": "b2fbfa3c4b5674d57aa138e886be0096b588b68d",
+                "type": "FIX",
+                "text": "ValueHelpDialog: Define Condition Btn",
+                "references": []
+            },
+            {
+                "id": "2da88323b0e15a9f959a7560841871822d87778d",
+                "type": "FIX",
+                "text": "CSS corrections for ValueHelpDialog",
+                "references": []
+            },
+            {
+                "id": "5366fd7056c141836f258a43aa58cd6e5c849eac",
+                "type": "FIX",
+                "text": "filterBar: Do not trigger filterChange-event when creating Filters-Dialog",
+                "references": []
+            },
+            {
+                "id": "fecf15c5be5849b19b03030bc5c8dd44c16ed053",
+                "type": "FIX",
+                "text": "filterbar: Further visual design adoptions; advanced area is by default collapsed",
+                "references": []
+            },
+            {
+                "id": "1d0e8a4138b72f41d2509b1ff81f514f75aed795",
+                "type": "FIX",
+                "text": "filterbar: Display searchfield and Search-button on smart devices",
+                "references": []
+            },
+            {
+                "id": "b88c3476d1bdc46b5b1765d8c56d2acc18876e78",
+                "type": "FIX",
+                "text": "filterbar: Consider initial setting of visibleInFilterBar also for non grouped filters",
+                "references": []
+            },
+            {
+                "id": "3162ae297b179fb69200600336bb0e53599d47e7",
+                "type": "FIX",
+                "text": "filterbar: Correction for _CUSTOM field handling",
+                "references": []
+            },
+            {
+                "id": "79564e580fdca16be75a1f7918ae836df869b03e",
+                "type": "FIX",
+                "text": "filterbar: Changing initial call to expand filterbar area",
+                "references": []
+            },
+            {
+                "id": "6a909d8aaeac1f50d0c6287e4c5284370cb7fac3",
+                "type": "FIX",
+                "text": "filterbar: Correction for date field conversion",
+                "references": []
+            },
+            {
+                "id": "9f61a0b68715c35a9b9d449dff731ea55bc92e1b",
+                "type": "FIX",
+                "text": "filterbar: Correction for setDataSuiteFormat",
+                "references": []
+            },
+            {
+                "id": "39b10fd73a5ec3822549b96a33922ebff9edcb72",
+                "type": "FIX",
+                "text": "filterbar: Do not trigger change event when dialog is constructed",
+                "references": []
+            },
+            {
+                "id": "3a0383eec79ca1d243f0adcf7ac1e7150d3032e0",
+                "type": "FIX",
+                "text": "filterbar: Dynamic mandatory handling fixed",
+                "references": []
+            },
+            {
+                "id": "37054b97be8f1785a5550da2cf384527d6d861af",
+                "type": "FIX",
+                "text": "filterbar: GetCurrentVariant with flag indication all filters",
+                "references": []
+            },
+            {
+                "id": "30e9a2a597907e05ff06010f6e72b5a555f8a789",
+                "type": "FIX",
+                "text": "filterbar: Maintaining the since property",
+                "references": []
+            },
+            {
+                "id": "1bae25865d6255f9558bc856057edd2dd6c85062",
+                "type": "FIX",
+                "text": "filterbar: Renaming set/getCurrentVariant to set/getDataSuiteFormat",
+                "references": []
+            },
+            {
+                "id": "24d1b22b250d00cb43cf6c24e86b95a4a38ab3fe",
+                "type": "FIX",
+                "text": "personalization.Controller: 'Reset' function without VariantManagement",
+                "references": []
+            },
+            {
+                "id": "7e3a31ee36509696d6269aaf0d446fd784f1cbb7",
+                "type": "FIX",
+                "text": "personalization.Controller: Fix of 'Reset'",
+                "references": []
+            },
+            {
+                "id": "192ca7e8a0e55dbe6be8ab85380c64e7d77373bb",
+                "type": "FIX",
+                "text": "personalization.Controller: Veto",
+                "references": []
+            },
+            {
+                "id": "44caefbced4e59577f8d63ba08c2b423c64e02e0",
+                "type": "FIX",
+                "text": "personalization.FilterController: Cancel of filter work now",
+                "references": []
+            },
+            {
+                "id": "7e363693af56b44a9b6ac168265f521585104917",
+                "type": "FIX",
+                "text": "personalization.XXXController: Sort, group and filter panels are shown also for sap.m.Table",
+                "references": []
+            },
+            {
+                "id": "273a00333865c84c602962f9bffed59c785df97b",
+                "type": "FIX",
+                "text": "sap.ui.com.smartform.SmartForm.control: Create content in obBeforeRendering",
+                "references": []
+            },
+            {
+                "id": "f1dab0b651e6c7a1a5aa495b165a405963de0c69",
+                "type": "FIX",
+                "text": "sap.ui.comp.navpopover: PrefetchNavigationData and removed own App link",
+                "references": []
+            },
+            {
+                "id": "0e5309fa9703808b87ce5ac6900e608d46c5ddc9",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.GroupElement: Label for EntityType with Namespace",
+                "references": []
+            },
+            {
+                "id": "5949bd4923850d5427310bd87483c46f7ecdb5f4",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.GroupElement: Tooltip",
+                "references": []
+            },
+            {
+                "id": "0ec31a6c7d8f1aa04e4c360ceaef4bcdc7bdac54",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.Group[Element] - Apply setVisible to form",
+                "references": []
+            },
+            {
+                "id": "e95fb4802db203ae64001d8b10f5d8ff2e3b144c",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.SmartForm: Label determination",
+                "references": []
+            },
+            {
+                "id": "a9442d9cc4f132bca0c1333e95d5cedb2f50b6d6",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.SmartForm: Label for complex types now available",
+                "references": []
+            },
+            {
+                "id": "a69bd06273da178f0c7647bddc6ba7584e2d0a22",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.SmartForm: Label update",
+                "references": []
+            },
+            {
+                "id": "c1b808c90c04f76afcff169445f90c6d0997b016",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.SmartForm: Remove persistencyKey",
+                "references": []
+            },
+            {
+                "id": "926889f86e8ff0a9ec3b19e750686dc18044a5f7",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.SmartForm: Remove superfluous span",
+                "references": []
+            },
+            {
+                "id": "ec1fccfc3297bf6a46b8e96a3dcd94ad580f5e99",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.SmartForm: Support rendering without binding",
+                "references": []
+            },
+            {
+                "id": "f183c956aa33ba4ddd68cd58d7a3c03dd68194c8",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.SmartFormRenderer: Handle empty aggregations",
+                "references": []
+            },
+            {
+                "id": "0793315f23096a6672d2f4adc5d2b13425ad1ecf",
+                "type": "FIX",
+                "text": "sap.ui.comp.smarttable.SmartTable: FetchVariant returns empty Object if no variant was set",
+                "references": []
+            },
+            {
+                "id": "e228468bbdd70362c21e7c714ad8020a2dd53f48",
+                "type": "FIX",
+                "text": "sap.ui.comp.smarttable.SmartTable: Fix regarding setting of costomData \"p13nData\"",
+                "references": []
+            },
+            {
+                "id": "f919b05c27dcd2b5f5cf83f99ac937cc2147b3a7",
+                "type": "FIX",
+                "text": "sap.ui.comp.smarttable.SmartTable: Fix testsuite example",
+                "references": []
+            },
+            {
+                "id": "99b62326041a9f1d853540e5ef955f5662f4505f",
+                "type": "FIX",
+                "text": "sap.ui.comp.smarttable.SmartTable: Typo for initialiseMetadata",
+                "references": []
+            },
+            {
+                "id": "5144f31b780bc22bd40359b7e667c092b5cda920",
+                "type": "FIX",
+                "text": "sap.ui.comp.variants.VariantManagement: Ellipsis on Internet Explorer 10 in Table - Cozy mode",
+                "references": []
+            },
+            {
+                "id": "dc7c7c9accd750d704adb05307c2c5a61e293de2",
+                "type": "FIX",
+                "text": "sap.ui.comp.variants.VariantManagement: Enable rename on OK on manage Dialog, lifecycle support flag, updated explored example",
+                "references": []
+            },
+            {
+                "id": "b57abad171c90ef4e1541319e799748bb3950ff6",
+                "type": "FIX",
+                "text": "sap.ui.comp.variants.VariantManagement: Only ask for transport if there is none",
+                "references": []
+            },
+            {
+                "id": "f830380e122f41ca865b8412b838c085096473be",
+                "type": "FIX",
+                "text": "smart variant control: Correct association 'control' handling",
+                "references": []
+            },
+            {
+                "id": "0cb256ca5f59aa1ba56f58169b8ce34e7e8a9a93",
+                "type": "FIX",
+                "text": "smart variant control: Fix behaviour if it is not initialized, but suite variant is applied",
+                "references": []
+            },
+            {
+                "id": "4e70dadf4f90ea368e1cad9d48bf83926db7effd",
+                "type": "FIX",
+                "text": "Using new GroupedColumn function of AnalyticalTable",
+                "references": []
+            },
+            {
+                "id": "553b302a0d4605599c2c7830090d18627bbc09fd",
+                "type": "FEATURE",
+                "text": "First Version of SmartField",
+                "references": []
+            },
+            {
+                "id": "c2175a0af2c1562c6b088b23dd94117543b80042",
+                "type": "FEATURE",
+                "text": "SmartField: Field-Control Implementation",
+                "references": []
+            },
+            {
+                "id": "10b6047450ebb43d27a28ed63f62af7cd168c44b",
+                "type": "FEATURE",
+                "text": "Configurable Control Type for Smart Field",
+                "references": []
+            },
+            {
+                "id": "35b988afbaa5c50ebc0d850ccc0b4fc4a80b596b",
+                "type": "FEATURE",
+                "text": "Configurable Date Settings for SmartField",
+                "references": []
+            },
+            {
+                "id": "b7ddedeba051abe523ec5d91e73c8555e05ade85",
+                "type": "FEATURE",
+                "text": "Introduced maxLength Property on SmartField",
+                "references": []
+            },
+            {
+                "id": "bdf7f50c0dbdac6c4e682304b94d15e0bfd51bc6",
+                "type": "FEATURE",
+                "text": "ShowValueHelp and ShowSuggestion Properties for Smart Field",
+                "references": []
+            },
+            {
+                "id": "c617d1c1f9383fc40737de25f858f23f3981eeaf",
+                "type": "FEATURE",
+                "text": "SmartField: Bind to Navigation Properties",
+                "references": []
+            },
+            {
+                "id": "1d7f9df177a56b167804888c381ec246e3fb85f4",
+                "type": "FEATURE",
+                "text": "SmartField: Internal content aggregation is now hidden",
+                "references": []
+            },
+            {
+                "id": "41784d236850a057aa2d9d6ec89c9ca9fc0a6289",
+                "type": "FEATURE",
+                "text": "SmartFilter: Enabled validation for decimal fields",
+                "references": []
+            },
+            {
+                "id": "25d79f4cb73a564e122f979e7cb14692b2847b0e",
+                "type": "FEATURE",
+                "text": "SmartTable: Switched on enableBusyIndicator handling for all tables",
+                "references": []
+            },
+            {
+                "id": "097922b45d2cd1ef6bc7be7526b17684ebe6dade",
+                "type": "FEATURE",
+                "text": "SmartTable: Added dataReceived event to notify data load",
+                "references": []
+            },
+            {
+                "id": "9697a907e1e8ce07fc6868385c244f6a057f4858",
+                "type": "FEATURE",
+                "text": "SmartTable: Added event to notify after a variant is applied",
+                "references": []
+            },
+            {
+                "id": "5de938300250a4487912592ee14b7e1770e3e610",
+                "type": "FEATURE",
+                "text": "SmartTable: Added event to notify after variant is saved",
+                "references": []
+            },
+            {
+                "id": "af0f6d3acb692b0110f17c09ee4fb78a8377e000",
+                "type": "FEATURE",
+                "text": "SmartTable: Added option to toggle editable property",
+                "references": []
+            },
+            {
+                "id": "6fd3009613e0030466613b539e2545f7eb73b3db",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartform.Group: Aggregation layout to set layoutData on FormContainer",
+                "references": []
+            },
+            {
+                "id": "f43491d3b34c0d2628c0f3361b2d118022812b07",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartform.SmartForm: New aggregation customToolbar for user defined toolbar",
+                "references": []
+            },
+            {
+                "id": "7422f7fc744a4de6b8a9378c2d41dbab8e6c5471",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartform.SmartForm: Check button",
+                "references": []
+            },
+            {
+                "id": "720182744ee54887281b678ef8d911de1f9119b1",
+                "type": "FEATURE",
+                "text": "smart field: Added explored example",
+                "references": []
+            },
+            {
+                "id": "246f10b36fca4aaa3bc7d80d941ac8e4f39f9aa9",
+                "type": "FEATURE",
+                "text": "smart field: Provide initialise event to indicate that the meta data is loaded",
+                "references": []
+            },
+            {
+                "id": "089941efdd5f89fdeb7334a82b2e7cc36b4ae28e",
+                "type": "FEATURE",
+                "text": "smart label: Assign smart field via setLabelFor",
+                "references": []
+            },
+            {
+                "id": "5262b3788b843a0be7d4f75af36adbde8accad4d",
+                "type": "FEATURE",
+                "text": "smart label: Iinitial release",
+                "references": []
+            },
+            {
+                "id": "0afe4da883b2997418ffbb69571fabaae9bbbcfa",
+                "type": "FEATURE",
+                "text": "smart variant: New event afterSave to indicate that variant was saved",
+                "references": []
+            },
+            {
+                "id": "22d20f36921bf1c935426074442fe347a73283b6",
+                "type": "FIX",
+                "text": "ColumnsController : New/changed columnsItems get additional undefined properties",
+                "references": []
+            },
+            {
+                "id": "fcd9c96347122a4032e85f24705809d3e095926e",
+                "type": "FIX",
+                "text": "FilterProvider: Create proper filters for main entity when a fully qualified entity name is specified",
+                "references": []
+            },
+            {
+                "id": "9dc780eab4a106d4e40b74cb0584931a205d61d0",
+                "type": "FIX",
+                "text": "GroupContoller: Fixed the order of table checks",
+                "references": []
+            },
+            {
+                "id": "ba8343e60953d6093999f64a600795f4fef1a1b0",
+                "type": "FIX",
+                "text": "SmartField: DateFormat Settings and Object Binding",
+                "references": []
+            },
+            {
+                "id": "41438c10b7ac832395ba3dc35e7b026c70d8ebe4",
+                "type": "FIX",
+                "text": "SmartTable: Removed variant handling when no persistency key is",
+                "references": []
+            },
+            {
+                "id": "a1daff57c1a08aafc9b4eef0cf47f1ff8556975c",
+                "type": "FIX",
+                "text": "ValueHelpProvider: BasicSearch text wasn't considered in initial query",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570015403"
+                    }
+                ]
+            },
+            {
+                "id": "31c0689c25f8ed9e1ccf7fba1d1a5aa6dd601011",
+                "type": "FIX",
+                "text": "filterbar: Handle escape of filters dialog",
+                "references": []
+            },
+            {
+                "id": "a76cc9d5ea36f35262e6acc70f98b71b36757110",
+                "type": "FIX",
+                "text": "filterbar: Remove Close-button from Filters-Dialog",
+                "references": []
+            },
+            {
+                "id": "6a5d73b7b1b7ca8b581d53f4750690a2e52f5085",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.SmartForm: Rendering of Adaptation Mode Button",
+                "references": []
+            },
+            {
+                "id": "8c06d96a964ad71f89173b098fef711cf72f8ba8",
+                "type": "FIX",
+                "text": "smart variants: Correction for executeOnSelection during variant update",
+                "references": []
+            }
+        ]
+    },
+    "1.28.1": {
+        "date": "March 2015",
+        "notes": [
+            {
+                "id": "5a79d408c1762fe4cc0538607a740a0ebc84ecd7",
+                "type": "FIX",
+                "text": "Replace call for getControlId by getId on Managed Object",
+                "references": []
+            },
+            {
+                "id": "2381d0d577af65df8a66e146a419311f4fce97cb",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartform.SmartForm: Unit test after fl change",
+                "references": []
+            }
+        ]
+    },
+    "1.28.2": {
+        "date": "March 2015",
+        "notes": [
+            {
+                "id": "c78f3d16061c1b01d4ddc699c887a2751aa7338a",
+                "type": "FIX",
+                "text": "FilterBar: Determine initial assigned filter count",
+                "references": []
+            },
+            {
+                "id": "1a021dde34f262954c595bf6e94d04adee9a085a",
+                "type": "FIX",
+                "text": "FilterBar: The visibility of the Restore-button on filters dialog is now only dependant on the 'showRestoreButton' property",
+                "references": []
+            },
+            {
+                "id": "27c82935ec6d5172f9b4a3a2785f98b388fb720d",
+                "type": "FIX",
+                "text": "filterbar: Fixed timing on the tab event process and the focus on mobile devices",
+                "references": []
+            }
+        ]
+    },
+    "1.28.3": {
+        "date": "March 2015",
+        "notes": [
+            {
+                "id": "493b9130b779936d4b4c8064e577e18c532457fc",
+                "type": "FIX",
+                "text": "SmartForm: Controls without label in SmartForm personalization dialog hidden",
+                "references": []
+            },
+            {
+                "id": "208ac3ef5750ef4957a6259bb08e61d97c877c1f",
+                "type": "FIX",
+                "text": "Dialog is now properly destroyed on internally triggered close (esc key)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570027296"
+                    }
+                ]
+            },
+            {
+                "id": "847baade968cf3ca0385c5060be283d45c027de5",
+                "type": "FIX",
+                "text": "SmartField: Amount Composite Type corrected",
+                "references": []
+            },
+            {
+                "id": "c87ad92f7d76749cba0cfdede8d0c4807c10cf22",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartfield.type.AbapBool: JSDoc comment (again)",
+                "references": []
+            },
+            {
+                "id": "767d3c26c3e818ce5147e717f45488338b53fbe4",
+                "type": "FIX",
+                "text": "SmartField: onChange handling reworked",
+                "references": []
+            },
+            {
+                "id": "a4cc7fb89a379d07458bc6de67cad704a7907498",
+                "type": "FIX",
+                "text": "Smart variants: STANDARD variant is now able to handle custom filters",
+                "references": []
+            },
+            {
+                "id": "81cbd9228132400421cdf04a473793e683f85a4d",
+                "type": "FIX",
+                "text": "Variant suite format: Suite values alyways return as null or string",
+                "references": []
+            }
+        ]
+    },
+    "1.28.4": {
+        "date": "April 2015",
+        "notes": [
+            {
+                "id": "e768c4e1e8c88412cdadb089c8deef49f39ee221",
+                "type": "FIX",
+                "text": "smart variants: Message box is no longer displayed in case of an error with the persistency",
+                "references": []
+            }
+        ]
+    },
+    "1.28.5": {
+        "date": "April 2015",
+        "notes": [
+            {
+                "id": "8aff7f2f37219c48bdcb22e24d08e26ee04ae53f",
+                "type": "FEATURE",
+                "text": "FilterBar: Cancel event added",
+                "references": []
+            },
+            {
+                "id": "3b89f7891874f13782e29f773d1cedae524fdc70",
+                "type": "FIX",
+                "text": "SmartForm: Invisible controls are no longer hidden in personalization dialog",
+                "references": []
+            },
+            {
+                "id": "e76b815a58ab7d05b726689efb587c624632a597",
+                "type": "FIX",
+                "text": "SmartField: FieldControl for visibility corrected",
+                "references": []
+            }
+        ]
+    },
+    "1.28.6": {
+        "date": "May 2015",
+        "notes": [
+            {
+                "id": "bcf64ff3df38846569b262ea12a795b2f873c10a",
+                "type": "FIX",
+                "text": "XML templates enabled again for sap.me, comp, richtexteditor",
+                "references": []
+            }
+        ]
+    },
+    "1.28.8": {
+        "date": "May 2015",
+        "notes": [
+            {
+                "id": "f76f9cc1e73cd60b03351c727c57a3463b02356d",
+                "type": "FIX",
+                "text": "sap.ui.comp.navpopover.NavigationPopover: Changed placement to auto in order to fix placement issue on small screens",
+                "references": []
+            }
+        ]
+    },
+    "1.28.10": {
+        "date": "June 2015",
+        "notes": [
+            {
+                "id": "ec71765e9e0b85135afe868aac7db33265b61bc6",
+                "type": "FIX",
+                "text": "sap.ui.comp.smarttable.SmartTable: Set filter and sorter property",
+                "references": []
+            }
+        ]
+    },
+    "1.28.11": {
+        "date": "July 2015",
+        "notes": [
+            {
+                "id": "127a06551f06a63905f1570d8404504058e2315f",
+                "type": "FIX",
+                "text": "sap.ui.comp.navpopover.SmartLink: Link is renderered as text if no navigation targets are available",
+                "references": []
+            }
+        ]
+    },
+    "1.28.13": {
+        "date": "August 2015",
+        "notes": [
+            {
+                "id": "84feda61fd5d12caa30ede4f8cb71cbf7ce84306",
+                "type": "FIX",
+                "text": "FilterBar : adding event beforeVariantFetch",
+                "references": []
+            },
+            {
+                "id": "8c08ac1f6c581637316cbafda04ba1f09fef67d9",
+                "type": "FIX",
+                "text": "sap.ui.comp.personalization.SortController: Deleted initial sort item is re-appears after 'Restore'",
+                "references": []
+            }
+        ]
+    },
+    "1.28.16": {
+        "date": "August 2015",
+        "notes": [
+            {
+                "id": "e2391be59c86ff6d7d9734bbd8adc24a46925f4b",
+                "type": "FIX",
+                "text": "VariantManagement: set min-width to save dialog",
+                "references": []
+            }
+        ]
+    },
+    "1.28.18": {
+        "date": "September 2015",
+        "notes": [
+            {
+                "id": "8e4f912e0373718449eb83c06f94d785ef623a0a",
+                "type": "FIX",
+                "text": "sap.ui.comp.xController: localization",
+                "references": []
+            }
+        ]
+    },
+    "1.28.19": {
+        "date": "September 2015",
+        "notes": [
+            {
+                "id": "161390de2747aff9eb681e4af46db2a2a34412f6",
+                "type": "FIX",
+                "text": "SmartTable: calculate filter path correctly for responsive table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580101543"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.21": {
+        "date": "October 2015",
+        "notes": [
+            {
+                "id": "021330729820121380443aedcc022edc8839f640",
+                "type": "FIX",
+                "text": "sap.ui.comp.navpopover.SmartLink - fixed css for condensed mode in table",
+                "references": []
+            }
+        ]
+    },
+    "1.28.22": {
+        "date": "November 2015",
+        "notes": [
+            {
+                "id": "01df1a1dee0825d0aad3098c1d62c86a4940a3e5",
+                "type": "FIX",
+                "text": "VariantManagement: display complete texts in SaveAs dialog",
+                "references": []
+            }
+        ]
+    },
+    "1.28.26": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "c5f0dd391d3f7ffc885172e86d1806189b6d8e70",
+                "type": "FIX",
+                "text": "sap.ui.comp.personalization.GroupController - apply of grouped columns to (analytical) table has now right order",
+                "references": []
+            }
+        ]
+    }
+}

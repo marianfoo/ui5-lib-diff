@@ -1,0 +1,76 @@
+{
+    "1.115.0": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "a202cf614dadcf8f6d2ad71e2fe70faf7bf310b8",
+                "type": "FEATURE",
+                "text": " We are now validating mandatory fields in FilterBar building block via triggerSearch API and returning back a promise to inform that triggerSearch() handling is complete"
+            },
+            {
+                "id": "b1247d77f10ef1a87edd7fe3243a6214abc10882",
+                "type": "FEATURE",
+                "text": " We have refactored the commonUtil method addExternalStateFiltersToSelectionVariant for converting filter conditions to selection variant format"
+            },
+            {
+                "id": "a1538e56ece5032ebff31da3516e50d04f6167a8",
+                "type": "FEATURE",
+                "text": " We now ensure that each column in a table has a tooltip"
+            },
+            {
+                "id": "8d931aed461cea004ffaad9c5189cac4cd4ae878",
+                "type": "FEATURE",
+                "text": " We now support the consumption of the triggerSearch API"
+            },
+            {
+                "id": "68b23b90858115d7b08316ea3301246f9044db08",
+                "type": "FIX",
+                "text": " In apps using flexible column layout, we now ensure scrolling on a table also works correctly if the table has groupings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003062952023"
+                    }
+                ]
+            },
+            {
+                "id": "30868bb57f52f75395ef6e6d3cfc7e6981667b83",
+                "type": "FEATURE",
+                "text": " We now support binding paths for metadata in the manifest, enabling you to specify the header texts of custom columns"
+            },
+            {
+                "id": "a82504352cebafb13c0709de1ac0a81a8833c3b3",
+                "type": "FIX",
+                "text": " We now ensure the message strip is removed when users change from Edit to Display mode (and the other way around)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370062942"
+                    }
+                ]
+            },
+            {
+                "id": "d0a5a97cd8e5e6e3c5615a1c3d9bb099ab3d5e45",
+                "type": "FIX",
+                "text": " We now reflect the insertRestrictions for a FieldGroup and DataField when using empty rows mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370067004"
+                    }
+                ]
+            },
+            {
+                "id": "7dfa356b6e689e135e2b239be8efa961a4626be4",
+                "type": "FIX",
+                "text": " We now ensure that the ariaLabelledBy attribute for fields in a table is set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370048585"
+                    }
+                ]
+            }
+        ]
+    }
+}

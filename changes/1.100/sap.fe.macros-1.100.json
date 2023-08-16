@@ -1,0 +1,372 @@
+{
+    "1.100.0": {
+        "date": "March 2022",
+        "notes": [
+            {
+                "id": "765d953ef34b0de459e01e8010215b8cc4e40ffc",
+                "type": "FIX",
+                "text": " The DraftIndicator fragment now uses the correct formatter function",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001432112022"
+                    }
+                ]
+            },
+            {
+                "id": "ff7fc38792739331743ee2535c860a1e4d47756b",
+                "type": "FEATURE",
+                "text": " We've enhanced the 'Action' building block: You can now group actions in a dropdown menu"
+            },
+            {
+                "id": "3ec63b86d53030ac56d2a1dd023b05004ad06596",
+                "type": "FEATURE",
+                "text": " You can now use singletons to implement restrictions on tables on the object page"
+            },
+            {
+                "id": "79bdb3b369f79c50e0951b7bd93f23dc4060e7f8",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the annotations DataFieldWithIntentBasedNavigation and DataFieldWithAction"
+            },
+            {
+                "id": "8a62c4ecbb4719fcd1402e8ee950e778e3607211",
+                "type": "FEATURE",
+                "text": " You can now hide action parameters by using a dynamic expression"
+            },
+            {
+                "id": "7462cab96c5f4f430f09ef40f4b473cdc2fcca78",
+                "type": "FIX",
+                "text": " The setFilterValues function now works correctly with semantic date operators",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280064776"
+                    }
+                ]
+            },
+            {
+                "id": "63c5492fd4d3f9066ddcbd511af4b5f0ead68a5f",
+                "type": "FIX",
+                "text": " SAP Fiori elements now sets the default width of custom columns based on their header content",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270003577"
+                    }
+                ]
+            },
+            {
+                "id": "17fc3c06f32d109c0e1bced4977174120ca79a21",
+                "type": "FIX",
+                "text": " SAP Fiori elements now provides the correct column labels when exporting a table to a spreadsheet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280067535"
+                    }
+                ]
+            },
+            {
+                "id": "5e4b5d6d3b8b0976c13720e6dbf9d072effc0ee9",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly sets the width of columns containing a ValueHelp icon",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280071903"
+                    }
+                ]
+            },
+            {
+                "id": "c7da7d0c98e20d4586e04164f237e75055f59387",
+                "type": "FIX",
+                "text": " Amounts with a corresponding currency are now correctly exported to a spreadsheet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280037825"
+                    }
+                ]
+            },
+            {
+                "id": "2e51a15096d82df145265bc19c32179752410abe",
+                "type": "FIX",
+                "text": " Decimals are now correctly displayed in DataPoints when using the NumberOfFractionalDigits annotation"
+            },
+            {
+                "id": "45e3e723efd50cdfa52d1effeb81cf14b8eff1a0",
+                "type": "FIX",
+                "text": " The DataPoint now correctly displays the related unit if the value uses a 1:1 navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280069818"
+                    }
+                ]
+            },
+            {
+                "id": "5625388611570d0cb36bd73b7cd64ed097163571",
+                "type": "FEATURE",
+                "text": " We've enhanced the 'Action' building block to support the requiresSelection property"
+            },
+            {
+                "id": "fb3749e3993ae5b776e7586e80cdb98c976a820a",
+                "type": "FIX",
+                "text": " The value help now works correctly when you add a field to a column",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280078675"
+                    }
+                ]
+            },
+            {
+                "id": "feb64d5235b4003c91c80323d2b31b03455dc56f",
+                "type": "FIX",
+                "text": " Parameters are now correctly passed to custom extensions in the links of quick views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280047368"
+                    }
+                ]
+            },
+            {
+                "id": "4ef5470249b0500a746204e32c68f18f7ae5035b",
+                "type": "FIX",
+                "text": " Key user adaptation for table is no longer available if VariantManagement has been disabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180422487"
+                    }
+                ]
+            },
+            {
+                "id": "29feca7464ce9d7e52021675a7317945e50e7d7e",
+                "type": "FIX",
+                "text": " The input value is now properly formatted when there is a unit or a currency",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280071897"
+                    }
+                ]
+            },
+            {
+                "id": "92dd9d5feea8a32176ac472eaa6e50be8915e9bc",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the 'Importance' property for custom columns"
+            },
+            {
+                "id": "ce86dbc28b5af7cc6e50f40703cfa48fa97b0a9e",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements has now added an API to send and remove messages in the 'Table' and 'Field' building blocks"
+            },
+            {
+                "id": "83a47f0df20d4019167ca1852d10232f4416a39a",
+                "type": "FIX",
+                "text": " Adding and removing custom filters in the flexible programming model now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280052087"
+                    }
+                ]
+            },
+            {
+                "id": "134e93e8298f4644683ea6c7ca5e235e533b2e6e",
+                "type": "FIX",
+                "text": " For navigation property, the InOut parameters on value help in filter bar are ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170260063"
+                    }
+                ]
+            },
+            {
+                "id": "c359e694dfdc562289541ceb37506ceed630fbf7",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays fields that contain a 1:1 navigation in quick views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180382557"
+                    }
+                ]
+            },
+            {
+                "id": "f3ea2aa77d7830f243b32c0df994a596a139a4c3",
+                "type": "FIX",
+                "text": " A hard-coded unit now displays the correct units and dates on the user interface",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170237164"
+                    }
+                ]
+            },
+            {
+                "id": "db8464db1334b015fdaa84355ccbd274c0c6f8eb",
+                "type": "FIX",
+                "text": " The parameterized service apps have been corrected and are now up and running again",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280045198"
+                    }
+                ]
+            },
+            {
+                "id": "7ece58065bf0216452464baab2d12c6dd6296de1",
+                "type": "FEATURE",
+                "text": " You can now hide the filter bar on a list report to enable a worklist"
+            },
+            {
+                "id": "73372a806ffdc6aa7baaed9d0ba84b2fa6277b0d",
+                "type": "FIX",
+                "text": " The FieldControl annotation now correctly displays the field if the annotation is set dynamically in the back end",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170331565"
+                    }
+                ]
+            },
+            {
+                "id": "1da99a3b44e03de3e5c29bcdddf05b616a4aab2e",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the currency inside a DataPoint",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280039812"
+                    }
+                ]
+            },
+            {
+                "id": "ccea0787cc74993c84f03804d7c29efaa49494a4",
+                "type": "FIX",
+                "text": " The width for column with unit is now properly calculted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280039989"
+                    }
+                ]
+            },
+            {
+                "id": "5963b77c74df91168d1a321649cb8437b5491536",
+                "type": "FEATURE",
+                "text": " The PropertyName within a SelectionOptions property of the SelectionVariant UI annotation can now be defined with a navigation property"
+            },
+            {
+                "id": "21e29b3214f9d3b061a6adde7847f89d9f85b62d",
+                "type": "FEATURE",
+                "text": " You can now define a ValueListForValidation annotation with a conditional expression binding"
+            },
+            {
+                "id": "13365b4c62c2a8e92a6ff704c8c68a4ed64987a6",
+                "type": "FEATURE",
+                "text": " The custom validation function is now also available when a user pastes data into a table"
+            },
+            {
+                "id": "5bb69e45d8165a33a575ff9322cd59fb51b7eb92",
+                "type": "FIX",
+                "text": " A field with a currency in a form is now properly aligned with its unit",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280016943"
+                    }
+                ]
+            },
+            {
+                "id": "1be7c895f6644c2d24eafcec50f18221155f3a00",
+                "type": "FEATURE",
+                "text": " You can now display MultiValueField in Tables for a DataField that uses a 1:n navigation in the value path"
+            },
+            {
+                "id": "28c75a5c1d84c7f47ae9f4b6908c5d17cb371716",
+                "type": "FEATURE",
+                "text": " The 'Field' building block now also supports the length definition for MultiLine text fields"
+            },
+            {
+                "id": "f6bcb5f79ce5daf4b9654785e560b1d9564e1253",
+                "type": "FEATURE",
+                "text": " Semantic dates now use the dynamic date range control for the SingleValue"
+            },
+            {
+                "id": "c8fd47b5ecc8ffb50b2fdaa6a0b821da0b52e06f",
+                "type": "FIX",
+                "text": " The visualSettings of table properties are now properly calculated even if the associated columns are not displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280039948"
+                    }
+                ]
+            },
+            {
+                "id": "3fa01973aea3ad5bd46a1be16102986cbb7806c7",
+                "type": "FIX",
+                "text": " The column width is now correctly set for columns containing static unit or currency",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280025741"
+                    }
+                ]
+            },
+            {
+                "id": "ec89b9fd732309d78bf0a63be61df0940db2cff2",
+                "type": "FEATURE",
+                "text": " We have added a getSelectedContexts method and a selectionChange event to the table building block"
+            },
+            {
+                "id": "f0cb6c115caec434e45146956d02deefdbfcd3df",
+                "type": "FIX",
+                "text": " SAP Fiori elements now uses escape single quotes in the tooltips of visual filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280019764"
+                    }
+                ]
+            },
+            {
+                "id": "b927349db6830fc9417dcd68a89405f5297f2929",
+                "type": "FIX",
+                "text": " OUT parameters are no longer applied to invisible fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180426222"
+                    }
+                ]
+            },
+            {
+                "id": "ffabce9bc828be4421c5e632ea4c3adff86e9f12",
+                "type": "FIX",
+                "text": " Adding a row to a table now works as expected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280013729"
+                    }
+                ]
+            },
+            {
+                "id": "86d32cec4b45e39ee210c6ae5d47663845a07af1",
+                "type": "FEATURE",
+                "text": " You can now use the search field in charts in the list report and analytical list page"
+            },
+            {
+                "id": "ea1756501218ff694f5c5ed391497ecca2ed0b32",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now hides the aggregated amount when the aggregated field has a criticality annotation and the aggregated data doesn't have a matching currency or unit"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1052 @@
+{
+    "1.40.0": {
+        "date": "June 2016",
+        "notes": [
+            {
+                "id": "ac7a739239c0da869b351a742ea715fc29e248e9",
+                "type": "FEATURE",
+                "text": "FilterBar: adding css for belize_plus",
+                "references": []
+            },
+            {
+                "id": "8a1ee3f7d6516324c91da26bf73337bef05872cf",
+                "type": "FEATURE",
+                "text": "FilterBar: collapse if no filters are initially visible",
+                "references": []
+            },
+            {
+                "id": "1af4e68189960d8523ddcd59a944bfb27e85265f",
+                "type": "FEATURE",
+                "text": "PageVariant: tutorial example added",
+                "references": []
+            },
+            {
+                "id": "c4e3b4d777f07a3ef2857437f2d8a89e9ac04b2b",
+                "type": "FEATURE",
+                "text": "SmartChart: New property for visibility of Variant Management",
+                "references": []
+            },
+            {
+                "id": "fc4e7f6ce2b1e10e13f50133676ab002a42bdabb",
+                "type": "FEATURE",
+                "text": "SmartChart: New property showChartTooltip",
+                "references": []
+            },
+            {
+                "id": "32c8414fe12e0f6f5bd8b910649e8738930597a7",
+                "type": "FEATURE",
+                "text": "SmartControls: add API to check if control is initialised",
+                "references": []
+            },
+            {
+                "id": "33b3a51ccb96b7be5aa4e8bddc96483b78cd2438",
+                "type": "FEATURE",
+                "text": "SmartControls: support statically hidden columns in F4/suggest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670334322"
+                    }
+                ]
+            },
+            {
+                "id": "2585b6ec832d124d53793150beb55c2ec414cf14",
+                "type": "FEATURE",
+                "text": "SmartField: New ObjectStatus property",
+                "references": []
+            },
+            {
+                "id": "878112ff5169fcd7f8ac8c27053f90a8beea7eb0",
+                "type": "FEATURE",
+                "text": "SmartField: provide stable id for inner controls",
+                "references": []
+            },
+            {
+                "id": "9d0047dcf06b1e18cc3603867a0018517137cc25",
+                "type": "FEATURE",
+                "text": "SmartFilter: enable V4 support with entitySet property",
+                "references": []
+            },
+            {
+                "id": "fc072954206d5fddddc0346c02ff00985a0d5e57",
+                "type": "FEATURE",
+                "text": "SmartFilterBar: enable date input from clipboard",
+                "references": []
+            },
+            {
+                "id": "ef576c8c4c1f87c2565965f55e3e3e47a99ea7cb",
+                "type": "FEATURE",
+                "text": "SmartFilterBar: enable live mode",
+                "references": []
+            },
+            {
+                "id": "ab7114370bc661be5e6a2c1e74e75f9c694d2845",
+                "type": "FEATURE",
+                "text": "SmartFilterBar: provide a stable id for the basic search field",
+                "references": []
+            },
+            {
+                "id": "cece768abb96fa0e6d673bb0b1abd65d991e57a3",
+                "type": "FEATURE",
+                "text": "SmartFilterBar: set focus on first erroneous filter field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670348833"
+                    }
+                ]
+            },
+            {
+                "id": "b5c778a0cd6025f9298a1f9f89e0dbe020e1b7d3",
+                "type": "FEATURE",
+                "text": "SmartTable: enable dynamic switch between display/edit mode",
+                "references": []
+            },
+            {
+                "id": "978973596e700ed314679c0384c11d3d4dbdc9cb",
+                "type": "FEATURE",
+                "text": "SmartTable: support qualifiers for list relevant annotations",
+                "references": []
+            },
+            {
+                "id": "6b1bb8485d9f6f84725b43d87d10fb20c44b98f3",
+                "type": "FEATURE",
+                "text": "VariantManagement: re-selection on the current variant",
+                "references": []
+            },
+            {
+                "id": "03f4b36c636f92c0029fb333acdc201c1371d86a",
+                "type": "FEATURE",
+                "text": "comp less Files for sap_belize Change 17",
+                "references": []
+            },
+            {
+                "id": "0e4314f197ba05c9b72ace39c573d1a239a62ebd",
+                "type": "FEATURE",
+                "text": "comp less Files for sap_belize Change 18",
+                "references": []
+            },
+            {
+                "id": "bc84f5b1c12183f708d697250da59f77287938d9",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartmicrochart.SmartAreaMicroChart: ChartBindingPath corrected",
+                "references": []
+            },
+            {
+                "id": "2fc62a9e9809c2929218d9a4e24f8db0dca68aab",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartmicrochart.SmartAreaMicroChart: Title, Description and Unit are set",
+                "references": []
+            },
+            {
+                "id": "82c9a83bdf184b4f14cf61ca8c6029aaa1f7f655",
+                "type": "FIX",
+                "text": "FilterBar: set the initialized flag correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670327958"
+                    }
+                ]
+            },
+            {
+                "id": "517884df5e95f5a5751d42587405b74763e2110b",
+                "type": "FIX",
+                "text": "FilterBar: consider RTL orientation for 'Add to Filter Bar' title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670324471"
+                    }
+                ]
+            },
+            {
+                "id": "3dc622ac7d1e889b2b48a41c5b13f9dda4eeff60",
+                "type": "FIX",
+                "text": "FilterBar: consider visibility of filters for variants",
+                "references": []
+            },
+            {
+                "id": "c5c873dedb4e25818d260ab7d4e8850f69c59690",
+                "type": "FIX",
+                "text": "FilterBar: destroy VariantManagement when dynamic page is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680052358"
+                    }
+                ]
+            },
+            {
+                "id": "2c6b284267c0083504fa631fb848d8e65a03f787",
+                "type": "FIX",
+                "text": "FilterBar: fix for basic search set in page variant scenario",
+                "references": []
+            },
+            {
+                "id": "74d423de2e3a8fee3c99f965e576492fb6685aa5",
+                "type": "FIX",
+                "text": "FilterBar: get rid of memory leak",
+                "references": []
+            },
+            {
+                "id": "aad8ed0a9f29aa2e8ca7d7933ca1c411cedf7d85",
+                "type": "FIX",
+                "text": "FilterBar: minor ui enhancements for the filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680032208"
+                    }
+                ]
+            },
+            {
+                "id": "eba9faa7564dc605d5f366d2c89aa97365bd13ea",
+                "type": "FIX",
+                "text": "FilterBar: on phones display only count of filters with value",
+                "references": []
+            },
+            {
+                "id": "62b728049277858783cd7fe93c395614f6df4218",
+                "type": "FIX",
+                "text": "FilterBar: provide a fixed filters dialog height",
+                "references": []
+            },
+            {
+                "id": "f13519ab22c0b37ccd12f8c3663be53918968710",
+                "type": "FIX",
+                "text": "FilterBar: remove contentWidth in Filter-dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670264796"
+                    }
+                ]
+            },
+            {
+                "id": "fa550976deccd35ebb9f92d8a4150072383fd286",
+                "type": "FIX",
+                "text": "FilterBar:fix for when variant save was canceled in filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670342256"
+                    }
+                ]
+            },
+            {
+                "id": "b242a2e04ae1fbbc752042a6e32f93a7a0e8572c",
+                "type": "FIX",
+                "text": "FilterItem: correction for labelTooltip via binding",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670160121"
+                    }
+                ]
+            },
+            {
+                "id": "1e4cee8e84a604d4827cbd824c4693b1584ff188",
+                "type": "FIX",
+                "text": "FiltrBar: adaption for the dynamic page support",
+                "references": []
+            },
+            {
+                "id": "735403d8ff976ae7f6b93c4599f2bad2face6e51",
+                "type": "FIX",
+                "text": "Fix label issue in combining a combined field with another field",
+                "references": []
+            },
+            {
+                "id": "7e02ee1a06ef5ba5cd4db1e232bcb3a5c53caa6d",
+                "type": "FIX",
+                "text": "PageVariant: do not rebind Table/Chart during applyVariant call",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670231634"
+                    }
+                ]
+            },
+            {
+                "id": "67264db98a24b76e1cae244f81318a910390901c",
+                "type": "FIX",
+                "text": "SmartChart: Check for inner chart instance in setShowChartTooltip",
+                "references": []
+            },
+            {
+                "id": "abd50de11cfd9c5ecbcb728a54cc9572eda29a94",
+                "type": "FIX",
+                "text": "SmartChart: Display measure unit for details list item",
+                "references": []
+            },
+            {
+                "id": "dff54d4242b5810c368aa2041b3e72830f4ec617",
+                "type": "FIX",
+                "text": "SmartChart: Remove content from drill-in page before setting drill-in list.",
+                "references": []
+            },
+            {
+                "id": "80520ca9a51b81a78c757258e03414e5bd29bd07",
+                "type": "FIX",
+                "text": "SmartControls: retrieve data  in F4 after SmartFilter initialises",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670289491"
+                    }
+                ]
+            },
+            {
+                "id": "a795ee2714c022e5356bf1dbabe33a1c9e7e9ac3",
+                "type": "FIX",
+                "text": "SmartField: Additional properties now also propagated to inner controls that already have been created",
+                "references": []
+            },
+            {
+                "id": "507c4ed36127a6b60e55d8705c0052ff050b9a76",
+                "type": "FIX",
+                "text": "SmartField: Creation of UOM fields issue solved",
+                "references": []
+            },
+            {
+                "id": "c8dc4bfae597a4f99ea79b0882b32bfc187e3d73",
+                "type": "FIX",
+                "text": "SmartField: Factory destroy issue solved",
+                "references": []
+            },
+            {
+                "id": "8fa5e542df85faebb4c117d100e0d651cb6bd016",
+                "type": "FIX",
+                "text": "SmartField: Formatter for editable, visible and mandatory now can handle destroyed FieldControl",
+                "references": []
+            },
+            {
+                "id": "380a29d5efc193c2cbf88ab2f0bf357606cef0fb",
+                "type": "FIX",
+                "text": "SmartField: Press event can now be used in combination with url property",
+                "references": []
+            },
+            {
+                "id": "83f6242b29b9bf6238f8b3ddc64b2f4ec27f80b9",
+                "type": "FIX",
+                "text": "SmartField: Read-only drop down list box refresh issue solved",
+                "references": []
+            },
+            {
+                "id": "a7d423140a46670ec7ea063548cf2607e06e229f",
+                "type": "FIX",
+                "text": "SmartField: Setter/Getter will now be destroyed on change of context binding",
+                "references": []
+            },
+            {
+                "id": "3ae14e677361fe8cb1e620a88d9d4ae302c8c708",
+                "type": "FIX",
+                "text": "SmartField: Unit is now set as ARIA label for measurement",
+                "references": []
+            },
+            {
+                "id": "872fe8ee35dc454337cadc0d2c6291a640bf1cef",
+                "type": "FIX",
+                "text": "SmartField: added check for factory existence",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670335728"
+                    }
+                ]
+            },
+            {
+                "id": "bb5a188a81b4c073d082557c28248bada8d491ca",
+                "type": "FIX",
+                "text": "SmartField: client side mandatory check is default",
+                "references": []
+            },
+            {
+                "id": "17648c3e55a1e3b425741c80bc7946c67d256216",
+                "type": "FIX",
+                "text": "SmartField: consider UoM formatter even when uomVisible = false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670320931"
+                    }
+                ]
+            },
+            {
+                "id": "c8247ceca11457ee11b33b4d9f94193f81b0d5f3",
+                "type": "FIX",
+                "text": "SmartField: enable UTC DateTime conversion on ValueHelps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670252769"
+                    }
+                ]
+            },
+            {
+                "id": "9da801db2900f54d3620dbb1c4595b2b6e33e342",
+                "type": "FIX",
+                "text": "SmartField: inner stable id correction",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680040640"
+                    }
+                ]
+            },
+            {
+                "id": "5866a83b2436d4b810594c88e96342ad7a2b0350",
+                "type": "FIX",
+                "text": "SmartField: support for property based TextArrangement annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670338852"
+                    }
+                ]
+            },
+            {
+                "id": "8831e299409484ce64acf2819ea0058bb135bcae",
+                "type": "FIX",
+                "text": "SmartField: supress rerender of smartfield (combobox)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680052358"
+                    }
+                ]
+            },
+            {
+                "id": "607c833888dc9196dd6f51c37c303e80978f9793",
+                "type": "FIX",
+                "text": "SmartFilter: use dummy text while validating from OData Date type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670197848"
+                    }
+                ]
+            },
+            {
+                "id": "562a0b5a6fc5aa787592f66a6400a98b9b437ecf",
+                "type": "FIX",
+                "text": "SmartFilterBar: provide stable id for smart variant management",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680001782"
+                    }
+                ]
+            },
+            {
+                "id": "07452bb89fe9bf0f03f5ab85fc113fb4f9b75667",
+                "type": "FIX",
+                "text": "SmartForm/GroupElement: Padding is now added between elements in horizontal layout",
+                "references": []
+            },
+            {
+                "id": "053e6614a041e7675cbd6ff9a88e6b013288a50c",
+                "type": "FIX",
+                "text": "SmartForm: Colon is now added after label for horizontal layout",
+                "references": []
+            },
+            {
+                "id": "fb887a985374be9d62b247b02d5a79f639ed0474",
+                "type": "FIX",
+                "text": "SmartForm: Fields are now alligned correctly for horizontal layout",
+                "references": []
+            },
+            {
+                "id": "6fdd9c5a6a6987a64b3a5b5d6ccd7a4fd8e9587b",
+                "type": "FIX",
+                "text": "SmartLabel: Label text is now updated when property textLabel of SmartField control is changed",
+                "references": []
+            },
+            {
+                "id": "8985d7de6d98b00afdd1c98ad56ceb671fb2990c",
+                "type": "FIX",
+                "text": "SmartLabel: Required is now updated when property mandatory of SmartField control is changed",
+                "references": []
+            },
+            {
+                "id": "7201ef41186b7b00a1b5874d2aebdb73fcb22ca2",
+                "type": "FIX",
+                "text": "SmartLabel: corrections for label obtainment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670249444"
+                    }
+                ]
+            },
+            {
+                "id": "1fd65745037d3de0be6daf2fe932a26c16d7208e",
+                "type": "FIX",
+                "text": "SmartTable/Chart: check for pageVariant during perso appliance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680063203"
+                    }
+                ]
+            },
+            {
+                "id": "3c1cdf56d3813a17f0bd8b105cd0df51c45889ff",
+                "type": "FIX",
+                "text": "SmartTable: always create ObjectIdentifier for SemanticKey fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680043300"
+                    }
+                ]
+            },
+            {
+                "id": "98edde6fd6a77ad20601d717af2bf3ab0360558f",
+                "type": "FIX",
+                "text": "SmartTable: display numeric and date fields right-aligned in LTR",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670254679"
+                    }
+                ]
+            },
+            {
+                "id": "9223736c99128b85a20fe439b925afebfa93aecf",
+                "type": "FIX",
+                "text": "SmartTable: force state updates based on ListBinding change reason",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670138211"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670253986"
+                    }
+                ]
+            },
+            {
+                "id": "b012e73367c865e47591dfe338dcfca8f1d19956",
+                "type": "FIX",
+                "text": "SmartVariant: correction for storing the app standard variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670217306"
+                    }
+                ]
+            },
+            {
+                "id": "6c71d0583fd268517b4702108bcd76a9c09e844f",
+                "type": "FIX",
+                "text": "SmartVariantManagement: correction for setCurrentVariantId",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670283277"
+                    }
+                ]
+            },
+            {
+                "id": "6224c12cb4685e25e9e30692808ffddd4c320982",
+                "type": "FIX",
+                "text": "SmartVariantManagement: set the author of a newly created variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670323316"
+                    }
+                ]
+            },
+            {
+                "id": "8b2bb26bf95e9cb7ff4e2bc45a877952405cde57",
+                "type": "FIX",
+                "text": "SmartvariantManagement: correction for executeOnSelection",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670231634"
+                    }
+                ]
+            },
+            {
+                "id": "ee2638ef9f157a9e9841fb0ba05817be54c90e37",
+                "type": "FIX",
+                "text": "ValueListProvider: set the templateShareable flag to 'false'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670327909"
+                    }
+                ]
+            },
+            {
+                "id": "f28bd5985f64e4f5f21f5167ec5185d962b6cc15",
+                "type": "FIX",
+                "text": "VariantManagement: keep mod state when changed by managed dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670301513"
+                    }
+                ]
+            },
+            {
+                "id": "b155199f64880d2a0fb7da2568ddeeea58e8594c",
+                "type": "FIX",
+                "text": "sap.ui.comp.SmartBullectMicroChart: flickering unit of measure label has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670250064"
+                    }
+                ]
+            },
+            {
+                "id": "13b9dc832120126be3f7ce0591ab6f35b8c3ea78",
+                "type": "FIX",
+                "text": "sap.ui.comp.SmartMicroChart: Data binding refresh enhanced",
+                "references": []
+            },
+            {
+                "id": "af95495be06ed090270752a8c7937cbde0ce8015",
+                "type": "FIX",
+                "text": "sap.ui.comp.SmartMicroChart: Property support \"enableAutoBinding\" fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670228685"
+                    }
+                ]
+            },
+            {
+                "id": "001c2d5a002cbd9b3027c203a91cc0ab3dc96d68",
+                "type": "FIX",
+                "text": "sap.ui.comp.SmartMicroChart: fix type handling to improve ODataModel compatibility",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670234431"
+                    }
+                ]
+            },
+            {
+                "id": "381186f9bc455b6a7728d6e8dc9189089ca80c79",
+                "type": "FIX",
+                "text": "sap.ui.comp.navpopover.SmartLink - mainNavigationId is not overwritten after calling of show()",
+                "references": []
+            },
+            {
+                "id": "f949d1fa4050199a568d3136bb82ed6f13950041",
+                "type": "FIX",
+                "text": "sap.ui.comp.personalization.Controller - AlreadyKnown snapshot has to store date in internal format",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670037841"
+                    }
+                ]
+            },
+            {
+                "id": "2283ccf20b3cc3907419c7ef6a8a5d05f78f63a6",
+                "type": "FIX",
+                "text": "sap.ui.comp.personalization.SortController and GroupController - 'None' removed from 'item' aggregation",
+                "references": []
+            },
+            {
+                "id": "c4ffde23ddc85df9eaadb94c7df41cdfc7284c52",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmicrochart.SmartBulletMicroChart: ChartBindingPath corrected",
+                "references": []
+            },
+            {
+                "id": "c5e9dcaee03116011b5df2ff6cbc2d2f1a787209",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmicrochart.SmartBulletMicroChart: Support of hard coded MinimumValue and MaximumValue",
+                "references": []
+            },
+            {
+                "id": "66072c5edd4d6dfe0825459a8df3c333bb038c5d",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmicrochart.SmartBulletMicroChart: support criticality aligned with vocabulary definition",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670349731"
+                    }
+                ]
+            },
+            {
+                "id": "2030633ece8683b141b3812bffa50c5a5b8fbf62",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmicrochart.SmartMicroChart: QUnit test for bindElement fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680063502"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.40.1": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "18341bf6e345cd1913a28109158e6a29e51b6f55",
+                "type": "FEATURE",
+                "text": "SmartChart: support qualifiers for chart relevant annotations",
+                "references": []
+            },
+            {
+                "id": "b8553b4fb1073e985732bf085a7d5198dbeabd46",
+                "type": "FEATURE",
+                "text": "SmartFilterBar: support UI.SelectionFields annotation",
+                "references": []
+            },
+            {
+                "id": "5d1ecc23109ca986f4f54fad9ff528c756c2a29e",
+                "type": "FIX",
+                "text": "SmartField: Association ariaLabelledBy is now considered for UOM fields",
+                "references": []
+            },
+            {
+                "id": "7fc399d6991b5e6fa19848e4865b69d69465e416",
+                "type": "FIX",
+                "text": "SmartField: Change event of ComboBox is now also exposed",
+                "references": []
+            },
+            {
+                "id": "f237c289ae28d5bdb443f56efdd81e2abc3b6678",
+                "type": "FIX",
+                "text": "SmartLabel: Reset binding for required after destroying FieldControl",
+                "references": []
+            },
+            {
+                "id": "4fe43b7b55b1b38c8f9f39e1d355577a1570c4f9",
+                "type": "FIX",
+                "text": "SmartTable: cleanup unused table template controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680072222"
+                    }
+                ]
+            },
+            {
+                "id": "87a4f90be47b562308a4318f678115a7ed006183",
+                "type": "FIX",
+                "text": "SmartTable: create toolbar content, only if control is initialised",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680080119"
+                    }
+                ]
+            },
+            {
+                "id": "71ba9b0a34ea89d8a5490ff426e379a96214c953",
+                "type": "FIX",
+                "text": "sap.ui.comp.SmartMicroChart: Documentation for Title and Description updated",
+                "references": []
+            },
+            {
+                "id": "f88fcb357c28f9dd3343943ecc71349e67911288",
+                "type": "FIX",
+                "text": "sap.ui.comp.navpopover.NavigationPopoverHandler - defaultValue for 'contactAnnotationPath' changed",
+                "references": []
+            },
+            {
+                "id": "dc8d140dd754f2b57b392554bf613c37dcfa7b0a",
+                "type": "FIX",
+                "text": "sap.ui.comp.navpopover.SemanticObjectController - semantic object with empty list is valid case",
+                "references": []
+            },
+            {
+                "id": "a73b1522e30212931256455b14b8b0b7861827e2",
+                "type": "FIX",
+                "text": "sap.ui.comp.navpopover.SmartLink - fire innerNavigate event also on direct navigation",
+                "references": []
+            },
+            {
+                "id": "555d0ff0481bc5bf0f057777312ac2e5d5d085de",
+                "type": "FIX",
+                "text": "sap.ui.comp.navpopover.Util - 'type' of PhoneNumberType and EmailAddressType is not mandatory",
+                "references": []
+            },
+            {
+                "id": "cd2dcb9b73feb55a7096ecc7a818bb9630f3b33f",
+                "type": "FIX",
+                "text": "sap.ui.comp.navpopover.Util - check for ODataModel",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680092625"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.40.2": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "fc7f99f829055df36e54ab193d805988ac0effe3",
+                "type": "FIX",
+                "text": "FilterBar: Cancel in Filters dialog should nor reset the variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680101515"
+                    }
+                ]
+            },
+            {
+                "id": "5df103549fd0422bb2f725bcf39c38bdb191673a",
+                "type": "FIX",
+                "text": "FilterBar: adapt the new design for the phone scenario",
+                "references": []
+            },
+            {
+                "id": "f2fca0de84f6e009038b7e0141007f47a4e924e8",
+                "type": "FIX",
+                "text": "FilterBar: added padding for the buttons in dyn page scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680056873"
+                    }
+                ]
+            },
+            {
+                "id": "71ed3e751a02a2232d7f43adee321e2bc90b79c7",
+                "type": "FIX",
+                "text": "FilterBar: enhanced solution for the search field aria labeling",
+                "references": []
+            },
+            {
+                "id": "eeabfa7c28fcee21928e0a419e9309cb4a93230d",
+                "type": "FIX",
+                "text": "FilterBar: initialise event is now triggered again in UI2 mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680128059"
+                    }
+                ]
+            },
+            {
+                "id": "2e24a96479d5893c66ad9317c50fe692c9266fe8",
+                "type": "FIX",
+                "text": "FilterBar: more specific style class for filter labels",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680060475"
+                    }
+                ]
+            },
+            {
+                "id": "c248d21ef29ee34b27290fe21605fa3c7d6a3bad",
+                "type": "FIX",
+                "text": "FilterBar: remove aria-labeled for the basic search filter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680100941"
+                    }
+                ]
+            },
+            {
+                "id": "0f2970deed9501904fa0e5896417aef5dd60ab3d",
+                "type": "FIX",
+                "text": "SmartChart: wrong type used for Measure/Dimension-Role",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680101774"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1680101775"
+                    }
+                ]
+            },
+            {
+                "id": "bcf009b3365c6b3955c5d147abc8f5e93cebc7a3",
+                "type": "FIX",
+                "text": "SmartField: Binding is now restored when field control is destroyed",
+                "references": []
+            },
+            {
+                "id": "ab3e56b15d8096500ec595a5a67ac47480ec54b3",
+                "type": "FIX",
+                "text": "SmartField: Issue with restoring FieldControl formatters is now solved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680109182"
+                    }
+                ]
+            },
+            {
+                "id": "75d9c761e82d45f3704876d8e2240ebbfe5ea8e3",
+                "type": "FIX",
+                "text": "SmartField: adding a fail safe check in the visibility formatter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680080450"
+                    }
+                ]
+            },
+            {
+                "id": "8e429f6f22b2785ef62f3471defd58e9f7c0cccb",
+                "type": "FIX",
+                "text": "SmartLabel: Non SmartField use case issue solved",
+                "references": []
+            },
+            {
+                "id": "0b8a4bac6b3124f9307ad1fb96f452cad6dc697c",
+                "type": "FIX",
+                "text": "VariantManagement: use 'em' as max-width dimension",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680100569"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.40.3": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "158db1a97a03dcb35ddb14c721062f5d50da8ac8",
+                "type": "FIX",
+                "text": "FilterBar: Select Filters-dialog without explicit content height",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680145781"
+                    }
+                ]
+            },
+            {
+                "id": "19bbbe86531c0c63e799248682209c80e3363582",
+                "type": "FIX",
+                "text": "FilterBar: consider page variants during setDataSuiteFormat call",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680111124"
+                    }
+                ]
+            },
+            {
+                "id": "e4b90ac311cdd8afc222654a905414e55a1d36ca",
+                "type": "FIX",
+                "text": "FilterBar: ensure filter loaded during setDataSuiteFormat",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680111124"
+                    }
+                ]
+            },
+            {
+                "id": "618ce14a4fba321b4f04f5d12a2631632130a92c",
+                "type": "FIX",
+                "text": "FilterBar: provide an APi for retrieving the filter label",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580207628"
+                    }
+                ]
+            },
+            {
+                "id": "ee0eb5c9f5316a58f84f2e03deaa014d02eb8d2c",
+                "type": "FIX",
+                "text": "SmartChart: do not change the page variant visibility",
+                "references": []
+            },
+            {
+                "id": "29e027330f87c58eb25f6f0b8851d9ea31395275",
+                "type": "FIX",
+                "text": "SmartField: Additional ARIA label will now only be added for unit of measure field",
+                "references": []
+            },
+            {
+                "id": "eb731de10df3bc2b185f0c7d59e17612864b9375",
+                "type": "FIX",
+                "text": "SmartFilter/ControlConfiguration: correct index handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680148986"
+                    }
+                ]
+            },
+            {
+                "id": "bbdec0d34a81a6bb4c999e74ac179de59eba7195",
+                "type": "FIX",
+                "text": "SmartFilterBar/ControlConfiguration: move enum types to library",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680138977"
+                    }
+                ]
+            },
+            {
+                "id": "c7cb06de56bdbd6f0efcb571338b6632cd3d359b",
+                "type": "FIX",
+                "text": "SmartLabel: delay updateLabel call until inner controls are created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680092665"
+                    }
+                ]
+            },
+            {
+                "id": "0af00d5aff48953b0c86b0d3d4a3a99e45e20718",
+                "type": "FIX",
+                "text": "SmartVariant: correction for the variant downport check",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680154795"
+                    }
+                ]
+            },
+            {
+                "id": "41f2ce866d42384a4ad7fe447f35c54031d658a7",
+                "type": "FIX",
+                "text": "sap.ui.comp.personalization.Controller : invalidate sap.ui.table.Table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680047425"
+                    }
+                ]
+            },
+            {
+                "id": "fe24faab4799b91f1d57b430f97e3a5e237e2fb6",
+                "type": "FIX",
+                "text": "variantManagement: default variant flag was lost in UI2 scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670330137"
+                    }
+                ]
+            }
+        ]
+    }
+}

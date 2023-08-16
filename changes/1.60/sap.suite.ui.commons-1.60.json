@@ -1,0 +1,136 @@
+{
+    "1.60.0": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "ec6e717d2488cfec74c388c5cee22635eb9562ed",
+                "text": "sap.suite.ui.commons.Timeline Fixed scrolling in Safari and the time filter, so it's no longer applied unless selected explicitly.",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "884f53d757b4daf4c5b6f0a17bb3648b79af54b0",
+                "text": "sap.suite.ui.commons.TAccount Panel content events&management",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "105eda69e56d0256416ffa4f7b3def0bc6a4f44b",
+                "text": "sap.suite.ui.commons.CalculationBuilder Variables categorization, custom operators, string constants",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "2cc54075944670de1fcbbcde92c92d3f8b4c4318",
+                "text": "sap.suite.ui.commons.ChartContainer: Toggle of ZoomIn and ZoomOut Button on reaching Threshold value.",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "6092b113edfbc83409326d03e087f39038b53873",
+                "text": "TAccountItemProperty: add visible property and add renderer",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "e198820a1f53746978e9994d3a20204dd6d9888a",
+                "text": "sap.suite.ui.commons.taccount.TAccountItem.js: provide a new subtitle property",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "bcd5aabfe5bf7d3274da2820e5dd26f35d9e3d35",
+                "text": "sap.suite.ui.commons.taccount.TAccountItem.js: color can now be defined through CSS",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "80f482f0fb483ea0ad9ebff77deb1c19e651cf4c",
+                "text": "sap.suite.ui.commons.TimelineItem : Refractored to support dateTime property with converted string value in local language.",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004024322018"
+                    }
+                ]
+            },
+            {
+                "id": "567d4e20ef8ee7e327bd877ec8be765ddef553f8",
+                "text": "sap.suite.ui.commons.statusindicator: add new class LibraryShape",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "0412e947727298de2ea8afdc177f73094d4754be",
+                "text": "sap.suite.ui.commons.TimelineItem.js: Missing \"sap-icon//\" in TimeLineControl.",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "7a6d0dfa43ed239e092669ed42e7e3990c8c4e3a",
+                "text": "sap.suite.ui.commons.themes.base.NetworkNode.less: No Strong focus for Button Focus circle and Box Focus in Network Graph.",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "80684b0552d82f1a6160d75e12335120f8fe1e85",
+                "text": "sap.suite.ui.controls.networkgraph.Graph Nodes are rendered using HTML instead of SVG",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "eca8115c2f26af3a68e88c8ddbc8ac427983bef1",
+                "text": "Timeline: Add userAction parameter to press event",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "7c31cb29fbd0318cbc532ff92a17ed73b0dd8733",
+                "text": "NetworkGraph action buttons are not read in IE & Jaws",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "460df7fe3877e1e23f6fa59c42028c7a323799e9",
+                "text": "sap.suite.ui.commons.NoteTakerCard: Fix unsafe use of target _blank",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "0e04f2be90082b485b060843a7cceb77f1b56edf",
+                "text": "sap.suite.ui.commons.networkgraph: Network Graph Control Extensions - Patch 1",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "fb3230534f0bb351d391423c239f770df726403b",
+                "text": "Fixes falling tests of deprecated versions of microchart controls",
+                "type": "FIX",
+                "references": []
+            }
+        ]
+    },
+    "1.60.3": {
+        "date": "March 2019",
+        "notes": [
+            {
+                "id": "aebb533781a148bb1ca302ba78ac6cc804ca2e9c",
+                "text": "sap.suite.ui.commons.NetworkGraph: Fixed issue when MiniMap width/height gets customized",
+                "type": "FIX",
+                "references": []
+            }
+        ]
+    },
+    "1.60.5": {
+        "date": "April 2019",
+        "notes": [
+            {
+                "id": "2c07aed8d999496a320d2cfdd2cc2f9f13a869b1",
+                "text": "Timeline - fix custom range filter",
+                "type": "FIX",
+                "references": []
+            }
+        ]
+    }
+}

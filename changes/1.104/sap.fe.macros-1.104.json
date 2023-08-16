@@ -1,0 +1,450 @@
+{
+    "1.104.0": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "0fddeb364bede99d1418c26c31e67bf5925ee414",
+                "type": "FIX",
+                "text": " We've removed the 'undefined' property from a fragment part",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280114697"
+                    }
+                ]
+            },
+            {
+                "id": "8c0776a985d5ab5cec893dc7b5a6255bdde0213a",
+                "type": "FIX",
+                "text": " We've removed the vertical line that was visible at the end of the table toolbar in analytical list page apps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280101233"
+                    }
+                ]
+            },
+            {
+                "id": "30afb642f6b2e36a7e651d9c673af502a9c6267c",
+                "type": "FIX",
+                "text": " PresentationVariant definition are now correctly supported by MacroTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280109923"
+                    }
+                ]
+            },
+            {
+                "id": "8ba4c8c8c4e8df68c4ccd9c261409c091be9b85b",
+                "type": "FIX",
+                "text": " Using a dynamic field control in SAP Fiori elements, currencies that are set to readonly are now correctly displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280101885"
+                    }
+                ]
+            },
+            {
+                "id": "cd25c639bf7cee2a47511a8528053f4ba68fcb40",
+                "type": "FEATURE",
+                "text": " The form building block now accepts custom form elements that are defined inline"
+            },
+            {
+                "id": "90a581c5c12cab0c3958343add5074a274799910",
+                "type": "FEATURE",
+                "text": " For Edm.Stream, @UI.IsImage is now supported"
+            },
+            {
+                "id": "eb66c5ae8d77823d9046b532b369f782b21f33a7",
+                "type": "FIX",
+                "text": " A link from DataFieldWithURL is now opened in the same tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004085382022"
+                    }
+                ]
+            },
+            {
+                "id": "0e26ea3294d5542da264d7156eba181492ab2663",
+                "type": "FIX",
+                "text": " The width for a FieldGroup containing buttons is now correctly calculated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280097226"
+                    }
+                ]
+            },
+            {
+                "id": "1d145a7f38b730d09613b2ba3470f2f6ce606663",
+                "type": "FIX",
+                "text": " SAP Fiori elements now ensures the screen reader reads all labels of the fields within a form used inside a column",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280101598"
+                    }
+                ]
+            },
+            {
+                "id": "919153b3d32385b226dcafc78b8650aed2a9a37a",
+                "type": "FIX",
+                "text": ": SAP Fiori elements now correctly supports changes made to the page VariantManagement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280098428"
+                    }
+                ]
+            },
+            {
+                "id": "2286a93576e2e1917fdc1f5626525f246b58c638",
+                "type": "FIX",
+                "text": " You can now correctly edit currencies and units with a decimal property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280096267"
+                    }
+                ]
+            },
+            {
+                "id": "86346ba3d81df1d2a70a2215db84a84439878422",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports semantic objects in navigation properties and the display of their quick view facets"
+            },
+            {
+                "id": "ad508b69935cc0212f3361f675024af03d5c17ca",
+                "type": "FIX",
+                "text": " Situation Handling now works in all tables as well as in entity sets with parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280093857"
+                    }
+                ]
+            },
+            {
+                "id": "ccc873bad3bb1a573fc3c1c901d011ef13c06f2a",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly determines the DisplayMode for a FilterField",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280084870"
+                    }
+                ]
+            },
+            {
+                "id": "7125a8b9bb8b95489f2b0499071c0d5fab7fa6e9",
+                "type": "FIX",
+                "text": " SAP Fiori elements now refreshes the Edm.Stream property after the upload",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280087645"
+                    }
+                ]
+            },
+            {
+                "id": "135e69aaaf4fdc1f1467b1c39f32b72d23581fb9",
+                "type": "FIX",
+                "text": " When pressing the link of an ObjectIdentifier column, the opened dialog is now correctly positioned",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280082802"
+                    }
+                ]
+            },
+            {
+                "id": "c8a377cf4329133ec86bb43483d62c5165ed0435",
+                "type": "FIX",
+                "text": " The Breadcrumb titles now take into account the underlying TextArrangement annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270104062"
+                    }
+                ]
+            },
+            {
+                "id": "b6857e246dda0fb60a73f0b512de4d9a703e7073",
+                "type": "FIX",
+                "text": " The QuickView now uses the correct log API",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280088526"
+                    }
+                ]
+            },
+            {
+                "id": "1c785054a88ba0f060486fbe1934b05f43a00efb",
+                "type": "FIX",
+                "text": " Connected fields are now rendered properly in edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003401382022"
+                    }
+                ]
+            },
+            {
+                "id": "68aff68a4f82f4e7a9b61fa9cdad32b0bd61451f",
+                "type": "FIX",
+                "text": " We now trigger a new GET request whenever a user clicks the Go button in a filter bar of a value help dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270102660"
+                    }
+                ]
+            },
+            {
+                "id": "2b0e7283e3036c18467e034be76aa196e3123322",
+                "type": "FIX",
+                "text": ": We've adapted the settings for actions in the manifest.json to consider actions in the Menu button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270104424"
+                    }
+                ]
+            },
+            {
+                "id": "19fc756af16cdb7f6042bc62cba485eba117d7b4",
+                "type": "FIX",
+                "text": " SAP Fiori elements now ensures currencies of aggregated properties are right-aligned",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280082771"
+                    }
+                ]
+            },
+            {
+                "id": "af001125f977d592d48a681feb7b0428f23731fd",
+                "type": "FIX",
+                "text": " We've corrected the space between the visual filter bar and the variantManagement control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270104189"
+                    }
+                ]
+            },
+            {
+                "id": "5e8484a9a2648366fbfdce8e7d5c6dc799cfac0f",
+                "type": "FIX",
+                "text": " Calendar patterns for stringCalendar patterns for string dimensions in micro charts now work correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270102310"
+                    }
+                ]
+            },
+            {
+                "id": "f27860b0448f9b4633f06bb19db934354915c1c9",
+                "type": "FIX",
+                "text": " SAP Fiori Elements now checks for filter restrictions on entity sets and navigation properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270004571"
+                    }
+                ]
+            },
+            {
+                "id": "af73145766ab73b106949f78eab9fc5981fd6d84",
+                "type": "FIX",
+                "text": " We've removed the duplicate error messages that appeared when a user refreshed a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270097540"
+                    }
+                ]
+            },
+            {
+                "id": "7e7b8b7a55e0a94291e79b426473f8f3078cc26f",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now handles the required properties of InsertRestriction and UpdateRestriction"
+            },
+            {
+                "id": "3b85bff193c8de057705ece90c4a6093d80a6c3c",
+                "type": "FIX",
+                "text": " If filters are maintained in the settings dialog of a table, we now ensure that filtervalues are displayed as defined by their TextArrangement annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270094884"
+                    }
+                ]
+            },
+            {
+                "id": "3a08bb58694442c1c77292e08c451b9a50e57e85",
+                "type": "FIX",
+                "text": " The label for a connected field can now contain a complex expression",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170170456"
+                    }
+                ]
+            },
+            {
+                "id": "19376d32cda2349e93fdb4868ceed7852f0d28d1",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly uses case-insensitive search when a user types in input using the value help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270098468"
+                    }
+                ]
+            },
+            {
+                "id": "2cb49a6ff2a2beaf438557ea18aac765e9542011",
+                "type": "FIX",
+                "text": " We've corrected the format issue on the visual filter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270084550"
+                    }
+                ]
+            },
+            {
+                "id": "c4762abfef7ee6d3c9265a80b0d63fc23e50070d",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the DataPoint where the property Value is accessed via a 1:1 navigation and has a description",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270097790"
+                    }
+                ]
+            },
+            {
+                "id": "bbd48a6f0cd3292789eb756e39b24f3b3765e611",
+                "type": "FIX",
+                "text": " SAP Fiori elements now shows an emptyIndicator if a field is rendered as a sap.m.ObjectStatus with an empty value BCP: 2270094064 Change-Id: I48e0de9faf9da0a755ff14c65f53f878dbf471f7"
+            },
+            {
+                "id": "0e2cb11e4a36a22e2ada68a77125a83f2c68d5cf",
+                "type": "FIX",
+                "text": " We've corrected the space between the visual filter bar and the Go button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270084550"
+                    }
+                ]
+            },
+            {
+                "id": "b01a36d481d6b02bc28e16ebd090bacbd7e2da25",
+                "type": "FIX",
+                "text": " A semantic object now correctly handles a path in its PropertyValue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270088070"
+                    }
+                ]
+            },
+            {
+                "id": "441de94371a4e06646d1152211725ce999804275",
+                "type": "FIX",
+                "text": " The labels of connected fields can now be read by the screen reader",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270037966"
+                    }
+                ]
+            },
+            {
+                "id": "5ed6758bdd0b1b8e2f9935807ec5dc9b3962476c",
+                "type": "FIX",
+                "text": " We've fixed an issue relating to criticality 5 and DataPoints",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270090244"
+                    }
+                ]
+            },
+            {
+                "id": "21dbf611597793f485637963542867403daf4687",
+                "type": "FIX",
+                "text": " We're now ensuring the datatype of the filter field matches the datatype of the target",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270060355"
+                    }
+                ]
+            },
+            {
+                "id": "64576558a1118e67039f77cc151599af76f111c4",
+                "type": "FIX",
+                "text": " SAP Fiori elements for OData V4 has adapted the behavior of fields on tables that have semantic keys with draft indicators",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270025928"
+                    }
+                ]
+            },
+            {
+                "id": "42f46125f6a7f5ef5877d1c66ff6866aef0a5ee2",
+                "type": "FIX",
+                "text": " A value help dialog now allows you to also filter on hidden values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270059762"
+                    }
+                ]
+            },
+            {
+                "id": "c93c679bdb4d1543bfa4d52af2db7e72d9838fc0",
+                "type": "FIX",
+                "text": " We've fixed an issue relating to side effects in combination with columns added via table settings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270052277"
+                    }
+                ]
+            },
+            {
+                "id": "9d3fafc7953c7da9d1923dbb867e72c8d13efee4",
+                "type": "FIX",
+                "text": " The value help table no longer shows hidden columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270072805"
+                    }
+                ]
+            },
+            {
+                "id": "8b13806fe1f7e031442bb4c065058bb1131269e7",
+                "type": "FIX",
+                "text": " We're no longer showing a locked indicator in a user's own draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270072948"
+                    }
+                ]
+            }
+        ]
+    }
+}

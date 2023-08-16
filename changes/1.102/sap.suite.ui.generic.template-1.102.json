@@ -1,0 +1,124 @@
+{
+    "1.102.0": {
+        "date": "April 2022",
+        "notes": [
+            {
+                "id": "Id819632a1e40ab7dae725eb902fb8e7861eb4c73",
+                "type": "FEATURE",
+                "text": "Date range control can now be rendered for date type parameter of a parameterized entity set"
+            },
+            {
+                "id": "I4c82e479a423eddfee7de8e0a69e0aa367a9b797",
+                "type": "FEATURE",
+                "text": "Draft handling has been now been improved"
+            },
+            {
+                "id": "I0a7b51e2541a273ec0a1feb7373111e8bfe307e7",
+                "type": "FEATURE",
+                "text": "Generic copy action is now implemented"
+            },
+            {
+                "id": "I82e2b802c2dcc5eed128eb741df95848389a6f5b",
+                "type": "FEATURE",
+                "text": "Content-ID for preferred mode Edit has been introduced"
+            },
+            {
+                "id": "I0f788ac81b2eaf2c41764688fcbdfeedc9e76143",
+                "type": "FEATURE",
+                "text": "Header facets have been improved for empty fields, that is for plain text and key value"
+            },
+            {
+                "id": "Ia8978621aad487d1066e97d045575e3f3495cfb8",
+                "type": "FEATURE",
+                "text": "Multiple empty table rows in edit mode has been supported"
+            },
+            {
+                "id": "Icfe22c0540a266f5aa31d8d4ab934617da1a86bb",
+                "type": "FEATURE",
+                "text": "Custom message in multiview scenario has been added"
+            },
+            {
+                "id": "Ieef60315b96540899e1b0777911348fb963a5765",
+                "type": "FEATURE",
+                "text": "Key board shortcut enabled for custum action button"
+            },
+            {
+                "id": "Ief508b2705f23957b706a5824ea8297d49dace99",
+                "type": "FIX",
+                "text": "FilterExpressionRestriction for semantic date picker has been included",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000256942022"
+                    }
+                ]
+            },
+            {
+                "id": "I17d80f5ca8303fb0d4b5f242956d49d67dd76cb9",
+                "type": "FIX",
+                "text": "Consider path for InsertRestriction now shows the paste button in the table toolbar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180423929"
+                    }
+                ]
+            },
+            {
+                "id": "I1e1bb7b0df59943657529f1044acff72c52c1cfb",
+                "type": "FIX",
+                "text": "An application does not stay busy now in case an external navigation is done expanding",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "CS20220003020071"
+                    }
+                ]
+            },
+            {
+                "id": "I4a77dc7396d112af3f38b071675aa38c28c4a464",
+                "type": "FIX",
+                "text": "Rectified fetching of variants in case of multi views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270073680"
+                    }
+                ]
+            },
+            {
+                "id": "Ief39da690be9c51e90938713e526465db5f27426",
+                "type": "FIX",
+                "text": "Console data clean up enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270055196"
+                    }
+                ]
+            },
+            {
+                "id": "I30f0653a404a1389c9aee0e551187d7f9e7334bb",
+                "type": "FIX",
+                "text": "Upon discarding a draft, it is ensured that the draft information from the client is removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270017213"
+                    }
+                ]
+            },
+            {
+                "id": "I6a8a9ebe489fb6f32edcf6a1467c2678bc8eb728",
+                "type": "FIX",
+                "text": "Variant changes during design time are now allowed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270062800"
+                    }
+                ]
+            }
+        ]
+    }
+}

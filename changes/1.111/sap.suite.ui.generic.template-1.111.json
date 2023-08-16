@@ -1,0 +1,93 @@
+{
+    "1.111.0": {
+        "date": "January 2023",
+        "notes": [
+            {
+                "id": "I605accce1c09ddbff6cc31a4e16b83a38125422d",
+                "type": "FEATURE",
+                "text": "Content-ID for OData actions has been introduced"
+            },
+            {
+                "id": "I83004308b4bdd9659ac1d650dd25fd1fae63afcd",
+                "type": "FEATURE",
+                "text": "The 'Add Cards to Insights' button can now be hidden in the list report"
+            },
+            {
+                "id": "I19343e1f19fccb4288212120aefb29f75828cd9a",
+                "type": "FEATURE",
+                "text": "Inline Creation Rows is now hidden on the edit mode"
+            },
+            {
+                "id": "I0444e9c54d7c8fc2e0f9ebc1592b50a18212def1",
+                "type": "FIX",
+                "text": "For the object page, the issue that occurred while clicking on the message popover is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380000888"
+                    }
+                ]
+            },
+            {
+                "id": "I8dcb576a6a81481370bd3ce8aa969d89d749de46",
+                "type": "FIX",
+                "text": "For the validation use case, the function import is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380025341"
+                    }
+                ]
+            },
+            {
+                "id": "I054b0ff8f51c674b0192eac225497da151dfa003",
+                "type": "FIX",
+                "text": "The date field values that are in selectionvariant supporting the semantic date range filters are now formattable"
+            },
+            {
+                "id": "I39d3de355bfcdc7c0aa97dda19647da059e5534b",
+                "type": "FIX",
+                "text": "Placeholder removal within UI5 application is now enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380021448"
+                    }
+                ]
+            },
+            {
+                "id": "Id6fb8cc1d5d50d5e0c705b2c946b4700453fa8fd",
+                "type": "FIX",
+                "text": "While formatting the item text for multiple views, the null check is now added to facetID",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380012153"
+                    }
+                ]
+            },
+            {
+                "id": "I97efbd9ccc73952abe090807dc6c48bc51ac7279",
+                "type": "FIX",
+                "text": "In the analytical list page, the correct propertyName is now returned in case a given property doesn't belong to a given entity set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006334602022"
+                    }
+                ]
+            },
+            {
+                "id": "I71e51e5edfef981a57281e4b8718e998c76afa0f",
+                "type": "FIX",
+                "text": "In the object page, if discarding is aborted, the focus is now set to the Cancel button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270182429"
+                    }
+                ]
+            }
+        ]
+    }
+}

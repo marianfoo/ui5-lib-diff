@@ -1,0 +1,211 @@
+{
+    "1.112.0": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "51f278e5d2bb707671f7fbe60f3394e39f20994b",
+                "type": "FIX",
+                "text": " SmartField: Object page is blocked in busy mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370010007"
+                    }
+                ]
+            },
+            {
+                "id": "40cf98e76dd10f3b621774f4b398f3559959a064",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: DynamicDateRange option enhancement"
+            },
+            {
+                "id": "4781283c1b095ab65ed30536f20a6445006b318c",
+                "type": "FIX",
+                "text": " P13nConditionPanel: Fields of Between condition are now in correct order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000755832023"
+                    }
+                ]
+            },
+            {
+                "id": "d0f9c53f5f2a74215e9acb6473b9b028c440dbe4",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Focus is now correct after show all filters button is pressed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380018763"
+                    }
+                ]
+            },
+            {
+                "id": "1cdbf8ef15577464baa02eaef8ba3a14a232cf36",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement Description fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380032667"
+                    }
+                ]
+            },
+            {
+                "id": "79dd1711d4ea5ddc6e40980bbd86f5e7be91ec3f",
+                "type": "FIX",
+                "text": " ValueHelpDialog: tokenRemove event is now fired when removing all selected tokens",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370000509"
+                    }
+                ]
+            },
+            {
+                "id": "cb12039abe97f6a18c90fe63bfcff005ca17f109",
+                "type": "FIX",
+                "text": " SmartField: ValueList fixed-list fix"
+            },
+            {
+                "id": "a3f9291d2fb4d550b6f987ceea1765d8cb336b78",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001371562023"
+                    }
+                ]
+            },
+            {
+                "id": "3c201a9f0b81f5fe0baa1bf115d8dfa5bbd4e7e1",
+                "type": "FIX",
+                "text": " SmartField: Processing keys selected from value lists",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001371562023"
+                    }
+                ]
+            },
+            {
+                "id": "499484510b3eddf43a061b55527826e9ea11d9c9",
+                "type": "FIX",
+                "text": " SmartField: descriptionOnly with maxLength constraint is now respected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380033269"
+                    }
+                ]
+            },
+            {
+                "id": "df44d2235ab600345a34820a7714a02cb5a71253",
+                "type": "FIX",
+                "text": " SmartField: _isValueInitial fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380011618"
+                    }
+                ]
+            },
+            {
+                "id": "4284a27ad2a0bd02954c1ce3df2fd854793aabed",
+                "type": "FIX",
+                "text": " Personalization: Reset functionality is now working correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001170842023"
+                    }
+                ]
+            },
+            {
+                "id": "84d4943ca87ca0c7c6fad8f8b245f030a4e5fc38",
+                "type": "FIX",
+                "text": " SmartField: textInEditModeSource deleted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380006084"
+                    }
+                ]
+            },
+            {
+                "id": "d0863cc9dc5f988067c087bd6bfd25eb1c8e7fd9",
+                "type": "FIX",
+                "text": " ValueListProvider: correct logic for checking uniqueness of suggestions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001104582023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280203342"
+                    }
+                ]
+            },
+            {
+                "id": "1297c8ebe44929b7036ba5a8f17a145ba1380a47",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380002144"
+                    }
+                ]
+            },
+            {
+                "id": "033d8e07f57a207ec26c8f625cb1b8a39aec1ea6",
+                "type": "FIX",
+                "text": " FilterController: MultiInput is now attached to correct event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001184312023"
+                    }
+                ]
+            },
+            {
+                "id": "738b4ead3db04596b00e9fffc1fc8b039cb74939",
+                "type": "FIX",
+                "text": " FilterPanel: SmartChart can now filter correctly with dropdown fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380022977"
+                    }
+                ]
+            },
+            {
+                "id": "22398bd5b3c51581b23da8bd925a52022496d138",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Single Select removes leftmost column"
+            },
+            {
+                "id": "4827a3928a29a82708378a26b0c63bce8c546671",
+                "type": "FIX",
+                "text": " SmartField: changeModelValue is no longer fired twice for same value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000343552023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000312992023"
+                    }
+                ]
+            },
+            {
+                "id": "2271ee805ccae7a5cb1b6d9741250b9661166f97",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: TextArrangement of popover"
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+<mvc:View controllerName="de.marianzeis.ui5libdiff.controller.Main" displayBlock="true"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.uxap"
+	xmlns:layout="sap.ui.layout"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:m="sap.m" core:require="{
+		formatter: 'de/marianzeis/ui5libdiff/model/formatter'
+	}">
+
+	<ObjectPageLayout id="ObjectPageLayout" upperCaseAnchorBar="false" sections="{changes>/}">
+		<headerTitle>
+			<ObjectPageHeader objectTitle="Compare UI5 Versions">
+			</ObjectPageHeader>
+		</headerTitle>
+
+		<headerContent>
+			<layout:VerticalLayout>
+				<m:Text text="Select your libraries you want to compare"/>
+				<m:Select id="versionFromSelect" items="{select>/}" change="handleVersionChange" forceSelection="false">
+					<core:Item text="{select>value}" key="{select>key}"/>
+				</m:Select>
+				<m:Select id="versionToSelect" items="{select>/}" change="handleVersionChange" forceSelection="false" >
+					<core:Item text="{select>value}" key="{select>key}"/>
+				</m:Select>
+				<m:Text text="Filter for FIX or FEATURE" />
+				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="400px" selectionChange="handleVersionChange">
+					<m:items>
+						<m:SegmentedButtonItem text="All" key="ALL"/>
+						<m:SegmentedButtonItem text="Only Fixes" key="FIX" />
+						<m:SegmentedButtonItem text="Only Features" key="FEATURE" />
+					</m:items>
+				</m:SegmentedButton>
+			</layout:VerticalLayout>
+		</headerContent>
+
+		<sections>
+			<ObjectPageSection titleUppercase="false" title="{changes>library}" >
+				<subSections>
+					<ObjectPageSubSection titleUppercase="false">
+							<m:Panel
+								headerText="{changes>library}"
+								content="{path: 'changes>changes', templateShareable: false}"
+								expandable="true"
+								expanded="true"
+								class="sapUxAPObjectPageSubSectionAlignContent"
+								width="auto">
+								<m:Text width="100%" text="[{changes>version}] [{changes>type}] {changes>text}"/>
+							</m:Panel>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+		</sections>
+
+	</ObjectPageLayout>
+
+</mvc:View>

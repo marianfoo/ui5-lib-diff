@@ -1,0 +1,236 @@
+{
+    "1.90.0": {
+        "date": "May 2021",
+        "notes": [
+            {
+                "id": "c5cbbacca619cb594dc3320e0e6db9c6ea7d0b9c",
+                "type": "FIX",
+                "text": " SmartChart: Fixed certain date types being ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170132911"
+                    }
+                ]
+            },
+            {
+                "id": "a93d1919b5c961b49e783f7469322965b80bc837",
+                "type": "FIX",
+                "text": " ValueHelpDialog: open method changes reverted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170138981"
+                    }
+                ]
+            },
+            {
+                "id": "d77a44de1a273d6e9143a2b625afb8e8e53c814d",
+                "type": "FIX",
+                "text": " SmartFilterBar: Taking care of TextArrangement annotation standalone",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170135759"
+                    }
+                ]
+            },
+            {
+                "id": "9b4443ddcdc08f3255764baf0b53e59c177a178d",
+                "type": "FIX",
+                "text": " P13nConditionPanel: Include filters issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002751942021"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002727462021"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002920282021"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002693142021"
+                    }
+                ]
+            },
+            {
+                "id": "d2a996adabbbce1438e224117f5d985432cda0f2",
+                "type": "FIX",
+                "text": " SmartField: Fixed currency display formatter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170133793"
+                    }
+                ]
+            },
+            {
+                "id": "ea0c2a69b6ab99e36a94fd306c0919e62572615e",
+                "type": "FIX",
+                "text": " SmartField: Value list out parameters included in description request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180082621"
+                    }
+                ]
+            },
+            {
+                "id": "3ce400213b2e4a634c5469aaa7f5ad568d28aebe",
+                "type": "FIX",
+                "text": " SmartField: Value list out parameters included in description request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180082621"
+                    }
+                ]
+            },
+            {
+                "id": "a462673a618f531ad3145c4ff0add1db242f3e5a",
+                "type": "FEATURE",
+                "text": " SmartField: UI Hidden annotation is now supported with path"
+            },
+            {
+                "id": "95b022eb537774e06e8145a3c454a38b71b576f0",
+                "type": "FIX",
+                "text": " SmartVariantManagement: emphasize Save button in roles dialog"
+            },
+            {
+                "id": "406fad1f8c0fb831faf6c3455d059554a11b8d52",
+                "type": "FIX",
+                "text": " NavigationContainer: improve sanity check",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170128978"
+                    }
+                ]
+            },
+            {
+                "id": "0c9e99e8f4c818d4575ae445d89f89d188ba5b09",
+                "type": "FIX",
+                "text": " SmartFilterBar: Initial focus is now correctly set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170002259"
+                    }
+                ]
+            },
+            {
+                "id": "473c9ff8d8d56919ebeeef09826343716d748a0f",
+                "type": "FEATURE",
+                "text": " SmartTable: amount columns visualization adapted"
+            },
+            {
+                "id": "f6586392cd5e0bcbfab0d38e4757e87f6edc308a",
+                "type": "FIX",
+                "text": " FilterBar: Adapt Filters Reset handling fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170056968"
+                    }
+                ]
+            },
+            {
+                "id": "f7befff9542997e6e8d1fd723704fec24b9eeae8",
+                "type": "FEATURE",
+                "text": " P13nFilterPanel: ComboBox is now supported for fixed values"
+            },
+            {
+                "id": "f183c1a1424952ea8b68c5688dad35129f55030a",
+                "type": "FIX",
+                "text": " FilterProvider: Token text fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170104502"
+                    }
+                ]
+            },
+            {
+                "id": "5397e2cf42b49ca590786560a891f00a0ca0af65",
+                "type": "FEATURE",
+                "text": " SmartField: Currency with customList is now supported"
+            },
+            {
+                "id": "598bf9cc7202b1f2eb5d41d6a2a98b168ce321c4",
+                "type": "FIX",
+                "text": " SmartVariantManagement: yet anther fix for apply auto on standard",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170116029"
+                    }
+                ]
+            },
+            {
+                "id": "93fce95e1ddb4265079d142b1a5ad9d83ff66fed",
+                "type": "FIX",
+                "text": " SmartTable: Calling deactivateColumns before table is initialized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170119047"
+                    }
+                ]
+            },
+            {
+                "id": "b8e42dbb0e51900245fb50c9d2ff9577eb9a533e",
+                "type": "FIX",
+                "text": " SmartVariantManagement: standard variant exec on select handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170116029"
+                    }
+                ]
+            },
+            {
+                "id": "a2a734962d9ddca73cd1f584d7fa663e3b87fe4a",
+                "type": "FIX",
+                "text": " SmartField: ComboBox setEnteredValue handle empty string value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170016849"
+                    }
+                ]
+            },
+            {
+                "id": "da550091d05d56ae1ed4877838d56f3c50604d57",
+                "type": "FIX",
+                "text": " NavigatioPopoverHandler: fix for beforeNavigationCallback in case of direct navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170022321"
+                    }
+                ]
+            },
+            {
+                "id": "4e9596ec4c6ca9a5a49a505bbd8d99be576b32f1",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct _retrieveCurrentSelectionSet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170093654"
+                    }
+                ]
+            },
+            {
+                "id": "744706b29df6ee9cafecca7b0bfecfd2acbb3eaf",
+                "type": "FIX",
+                "text": " SmartChart: Fixed jumping screen issues in fullscreen mode"
+            }
+        ]
+    }
+}

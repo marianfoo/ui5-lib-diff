@@ -1,0 +1,170 @@
+{
+    "1.52.0": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "f4f88d7e3406f99951c12490554c6907adbb6da5",
+                "text": "sap.suite.ui.commons.ChartContainer: Standard padding class support corrected",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770412561"
+                    }
+                ]
+            },
+            {
+                "id": "2e725bc1b57b9d697928a999ebb19994ee79524f",
+                "text": "sap.suite.ui.commons.ProcessFlow: Performance of connection label CSS selector improved",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780322731"
+                    }
+                ]
+            },
+            {
+                "id": "e13300d77629702de72c7d4ff9fb1c95516764a8",
+                "text": "sap.suite.ui.commons.ChartContainer: Aggregation handling of ToolbarSpacer corrected",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770332611"
+                    }
+                ]
+            },
+            {
+                "id": "e268ca7c2e29bcca29d451f5245ddb6bc3498563",
+                "text": "sap.suite.ui.commons.ProcessFlow: Native scrolling on iOS fully enabled",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780339421"
+                    }
+                ]
+            },
+            {
+                "id": "f1182b25e7884a9c4417f19fc03ef1ae3fb45e10",
+                "text": "sap.suite.ui.commons.Timeline: Wrong library dependencies fixed",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780356266"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.1": {
+        "date": "October 2017",
+        "notes": [
+            {
+                "id": "c4944a9c4c508308ad189210c363b7141de6050c",
+                "text": "sap.suite.ui.commons.ChartContainer: Infinite loop in re-rendering solved",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770486812"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.4": {
+        "date": "January 2018",
+        "notes": [
+            {
+                "id": "d5206f0f5f28a384e266e910c5c8393eca844b44",
+                "text": "sap.suite.ui.commons.Timeline: Fix URL for default line icon",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770157311"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.5": {
+        "date": "April 2018",
+        "notes": [
+            {
+                "id": "c3a2c9d1039c74eb4fb1ae62a41c5e025c181c51",
+                "text": "sap.suite.ui.commons.Timeline : GrowingThreshold value to be taken as length this was not working if GrowingThreshold was set dynamically in controller.",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870075648"
+                    }
+                ]
+            },
+            {
+                "id": "d97a2fe749ab4c424cb2303b004a839855f32840",
+                "text": "sap.suite.ui.commons.networkgraph: fixed web workers for layout wrappers",
+                "type": "FIX",
+                "references": []
+            }
+        ]
+    },
+    "1.52.6": {
+        "date": "June 2018",
+        "notes": [
+            {
+                "id": "e39f948343021da31d6e7b64ac66748f0c5712ba",
+                "text": "sap.suite.ui.commons.Timeline : Model should be taken from content aggregation otherwise incorrect model is fetched if multiple named models are available for the control.",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870103756."
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.8": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "980f22326794da81aef4df18e39425f6069dc18b",
+                "text": "sap.suite.ui.commons.NoteTakerCard: Fix unsafe use of target _blank",
+                "type": "FIX",
+                "references": []
+            }
+        ]
+    },
+    "1.52.9": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "4e6762ee7c535c2b270b00bf46c8ca726fb29562",
+                "text": "sap.suite.ui.commons.networkgraph.Graph fixed the issue where max-width was indefinitely growing when graph refreshing",
+                "type": "FIX",
+                "references": []
+            }
+        ]
+    },
+    "1.52.10": {
+        "date": "September 2018",
+        "notes": [
+            {
+                "id": "8fd5ef57552733eb636c6c88d347795e6a724531",
+                "text": "sap.suite.ui.commons.TimelineItem : Refractored to support dateTime property with converted string value in local language.",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004024322018"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "1.60.0": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "d397cdc09a142dbe1286200fd3c34117083db33a",
+                "type": "FEATURE",
+                "text": "NavigationHandler: do not wait for xapp state to be written",
+                "references": []
+            },
+            {
+                "id": "999ad5ac48ddaf17513db008ee7991f1c96dc2c8",
+                "type": "FIX",
+                "text": "NavigationHandler: provide a backward compatible solution",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880518775"
+                    }
+                ]
+            },
+            {
+                "id": "5d881ff95a61697160379d0211e4eb44a9f1ff29",
+                "type": "FEATURE",
+                "text": "SmartFilterBar: support for isSensitive annotation",
+                "references": []
+            },
+            {
+                "id": "2101c343aa29738e22b2a52290410c367b3898f4",
+                "type": "FIX",
+                "text": "NavigationHandler: do not apply inner app data to xapp data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870335113"
+                    }
+                ]
+            },
+            {
+                "id": "4d48d0faeecc3d17fbd893ca1d8ae7b058d7eeb1",
+                "type": "FIX",
+                "text": "NavigationHandler: with context urls, when enhancing sel. variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870350304"
+                    }
+                ]
+            },
+            {
+                "id": "1aff5ab88ad5e9164c894f18716a637386a10c12",
+                "type": "FIX",
+                "text": "NavigationHandler/FilterProvider check for v2 ODataModel",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870370953"
+                    }
+                ]
+            },
+            {
+                "id": "6aca184604cdc762637999fca1ddc0174c7714d3",
+                "type": "FIX",
+                "text": "NavigationHandler: remove sensitive data from request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870356006"
+                    }
+                ]
+            },
+            {
+                "id": "8a5940e5b775836cdef1a87d79de3f2d293f8b15",
+                "type": "FIX",
+                "text": "NavigationHandler: enhance check for empty oMetaModel",
+                "references": []
+            },
+            {
+                "id": "f5ca0077bb1405bbe59d36728627497d0b836a60",
+                "type": "FEATURE",
+                "text": "NavigationHandler: Set a model for sensitive data verification",
+                "references": []
+            },
+            {
+                "id": "7ce5bbadc49f5a25ff390902827856741658350a",
+                "type": "FIX",
+                "text": "NavigationHandler: enhance the check for loaded metadata",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870406669"
+                    }
+                ]
+            },
+            {
+                "id": "f627d06dbf0443df8b45a3e87c83f33111729c5c",
+                "type": "FIX",
+                "text": "ActionUtil: Width of generated TextArea control adjusted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004184252018"
+                    }
+                ]
+            },
+            {
+                "id": "f016f60a19157986dd817ba810bf3b399c1cbf8b",
+                "type": "FIX",
+                "text": "NavigationHandler: IsSensitive changes to IsPotentiallySensitive",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880545336"
+                    }
+                ]
+            },
+            {
+                "id": "d2cb592f7b23e8d4b2ee633f4f6eaaeccf803935",
+                "type": "FIX",
+                "text": "NavigationHandler: enhance check for sensitive data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880559206"
+                    }
+                ]
+            }
+        ]
+    }
+}

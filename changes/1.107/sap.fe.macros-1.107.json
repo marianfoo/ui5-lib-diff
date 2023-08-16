@@ -1,0 +1,341 @@
+{
+    "1.107.0": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "4ebecfcb865ef13fbee838b48a683063b44ce7cb",
+                "type": "FIX",
+                "text": " We now ensure the selected items are processed correctly in a value help dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280170427"
+                    }
+                ]
+            },
+            {
+                "id": "f87c7feccb61735360cca15fd7090be74db38b6e",
+                "type": "FIX",
+                "text": " We no longer throw an error when there is at least one custom aggregate and no dynamic measures in the chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270118161"
+                    }
+                ]
+            },
+            {
+                "id": "789562aea7618e0d17a02feb494e6f3f6f24efc3",
+                "type": "FEATURE",
+                "text": " You can now define the layout property used by the form building block"
+            },
+            {
+                "id": "2dd71a853c6767664a80a18cec19693dce99c17b",
+                "type": "FIX",
+                "text": " The delete action now works when the title or description within the HeaderInfo uses dynamic expression",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280160389"
+                    }
+                ]
+            },
+            {
+                "id": "f3f7599e16c36b61a7cc213b2f62e3a18d18c022",
+                "type": "FIX",
+                "text": " The semantic keys now is showing correct text arrangement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280160172"
+                    }
+                ]
+            },
+            {
+                "id": "9c4df699849b0ffba5f5d305dacd1ad2514560d4",
+                "type": "FIX",
+                "text": " In a delete message, the issue with duplicate identifiers for the same key and description is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280170844"
+                    }
+                ]
+            },
+            {
+                "id": "555f0ae15cd71f62fb9114214726f2f5865f0997",
+                "type": "FIX",
+                "text": " We now properly export the columns that contain dynamic date time values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270056209"
+                    }
+                ]
+            },
+            {
+                "id": "b6e8689ffee51075fd63bb2fc82bba8ebac09da1",
+                "type": "FIX",
+                "text": " The QuickView now correctly displays the QuickViewFacets when there is only one direct application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270112589"
+                    }
+                ]
+            },
+            {
+                "id": "728ff758fe84b246ef7c4fe1abc2861a9e8b2721",
+                "type": "FIX",
+                "text": " We now support sorting of lineItems that have contacts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280172311"
+                    }
+                ]
+            },
+            {
+                "id": "c65cdfa9a1f9025b7e3447e79734d730b8c4153d",
+                "type": "FIX",
+                "text": " You can now navigate as expected to an object page after using a value help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280149137"
+                    }
+                ]
+            },
+            {
+                "id": "39b2103b5c04afb0975117a486caa43e6ba2a332",
+                "type": "FIX",
+                "text": " The pageReady event is now fired for an object page containing a filter bar, a table and a chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280155418"
+                    }
+                ]
+            },
+            {
+                "id": "36e9a23b9243a4dbc30fa8bdbac4e63ad1b28fab",
+                "type": "FIX",
+                "text": " We now add either the aggregatable or the groupable prefix to the sort condition",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280159808"
+                    }
+                ]
+            },
+            {
+                "id": "f748d3a4a0fb0e739006eebaf8be8f47da06f835",
+                "type": "FIX",
+                "text": " The Table and FilterBar building blocks now work correctly in custom sections of an object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280140763"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280148549"
+                    }
+                ]
+            },
+            {
+                "id": "b8e5b4a926254451e4386c0fb4f21c91805bbd96",
+                "type": "FIX",
+                "text": " We now ensure that the \"availability\" property of the line item annotation in a table is set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280159663"
+                    }
+                ]
+            },
+            {
+                "id": "fa93fbff16bcd7723148d726e1c45daec0cda76d",
+                "type": "FIX",
+                "text": " We now set the wrapping property for the link and text controls in a grid table to 'false'"
+            },
+            {
+                "id": "badd74da40407ca76e642238012cbd7adae48d9e",
+                "type": "FIX",
+                "text": " A quick view now shows the correct data after displaying another quick view before",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280160441"
+                    }
+                ]
+            },
+            {
+                "id": "a54bc214dcc2046e4586119d8cb424d94df8baed",
+                "type": "FIX",
+                "text": " The date is now properly formatted in a table group header"
+            },
+            {
+                "id": "61eb0647b9bce633e9e413e74aa24652fb880119",
+                "type": "FIX",
+                "text": " We now avoid empty value helps if there is no internal binding context",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280161524"
+                    }
+                ]
+            },
+            {
+                "id": "1d4ad90dd27ecfbfe7416c91cee14230b322c2f5",
+                "type": "FEATURE",
+                "text": " We now provide the possibility to use a default action handler for menu buttons in list reports, object page headers, and forms"
+            },
+            {
+                "id": "fe4b802ed8cf1b05a8f7cd3d48f1e7baf2034a4c",
+                "type": "FEATURE",
+                "text": " We've added further features to the building blocks for tables and columns"
+            },
+            {
+                "id": "b6e5b8bf7a3545d7fc083cc71ae639df3c9171eb",
+                "type": "FEATURE",
+                "text": " You can now display up to 6 columns in forms"
+            },
+            {
+                "id": "567acb93a614d47f97ea5b7c55c2e65164e58ab6",
+                "type": "FIX",
+                "text": " The 'filter bar' building block is now generated properly if a metaPath is used that doesn't depend on the contextPath",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280140763"
+                    }
+                ]
+            },
+            {
+                "id": "25597998e066ec3af2f1577a53cd53877324ed9b",
+                "type": "FEATURE",
+                "text": " We've enabled the handling of side effects for mass edit"
+            },
+            {
+                "id": "159e4da54bc29d5941dfd630d600b88b14a9f039",
+                "type": "FIX",
+                "text": " The filter restrictions for the edm.Date property now work correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280116999"
+                    }
+                ]
+            },
+            {
+                "id": "36664b91787bfb00091e7e0c1427cab147c3e954",
+                "type": "FIX",
+                "text": " The UI.Hidden annotation now works correctly with reference facets pointing to another entity set via a navigation path",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280144773"
+                    }
+                ]
+            },
+            {
+                "id": "c6deb36ec06087bf7ecfac6c3c4806a54dbb1fc6",
+                "type": "FIX",
+                "text": " SAP Fiori elements now supports low resolution on quick filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280144712"
+                    }
+                ]
+            },
+            {
+                "id": "5111476b046b29368a9874994196cd29243ba1de",
+                "type": "FIX",
+                "text": " We've fixed an issue relating to side effects in combination with columns added via table settings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280137459"
+                    }
+                ]
+            },
+            {
+                "id": "1383b3599239dbf4bf51d2bfc12ecd6eac8b5310",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 has replaced the deprecated AggregatedProperties with AggregatedProperty"
+            },
+            {
+                "id": "70599a5448512b5b1244d2c65327d1e26f87d5b0",
+                "type": "FIX",
+                "text": " We now correctly apply SemanticObjectMappings when navigating via a SemanticObject that is dynamic",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280145046"
+                    }
+                ]
+            },
+            {
+                "id": "55e2c4bd97381ffe310d50d6d77f305f3d65cbb0",
+                "type": "FIX",
+                "text": " We now remove the text arrangement property when #textOnly is used from the column's propertyInfo object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280137173"
+                    }
+                ]
+            },
+            {
+                "id": "bd3f350499760679e71b90ace7ad3e4974913c88",
+                "type": "FIX",
+                "text": " We no longer clear transition messages when a simple table refresh is done"
+            },
+            {
+                "id": "eb3dab69e0b3a26613e7917b3d02f9777135d177",
+                "type": "FIX",
+                "text": " The content of a quick view facet with a navigation path in an analytical list page is now displayed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280135737"
+                    }
+                ]
+            },
+            {
+                "id": "bb65668e1d0109fcb45a8e91d0f6bd2daeb145d1",
+                "type": "FIX",
+                "text": " The title of an object page linked to a ConnectedFields is now displayed properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280140875"
+                    }
+                ]
+            },
+            {
+                "id": "398c6780cf98ccc406306885cbc9ad16477e79d0",
+                "type": "FIX",
+                "text": " We've resolved the issue related to adding a field to a form on a subobject page for key user adaptation"
+            },
+            {
+                "id": "5c3563ffaa08f098550a79e127929f8a54beb5a6",
+                "type": "FIX",
+                "text": " A semantic link now works correctly even when a dynamic semantic object has unavailable actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280130100"
+                    }
+                ]
+            },
+            {
+                "id": "42cf99ead92f67b457af71ab42f83420df6722b3",
+                "type": "FIX",
+                "text": " We now read default values of parameters of unbound actions"
+            }
+        ]
+    }
+}

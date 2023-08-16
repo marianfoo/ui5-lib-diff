@@ -1,0 +1,310 @@
+{
+    "1.116.0": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "c4c8a2d3dbdf5fd31b272d6f95849dc4eb6fc917",
+                "type": "FEATURE",
+                "text": " Non-nullable number fields now have 0 as the default value when the value of the field is deleted"
+            },
+            {
+                "id": "2e1513cf6745e4f96018089672d5348fd5e50bec",
+                "type": "FIX",
+                "text": " We now ensure that the insights service loads the sap.insights.CardHelper library dynamically",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380052090"
+                    }
+                ]
+            },
+            {
+                "id": "09b2c15039f561b37ef763b6671d82a338a88840",
+                "type": "FIX",
+                "text": " We now ensure that the Add Card to Insights option is hidden in by default when a user shares using Microsoft Teams",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380054998"
+                    }
+                ]
+            },
+            {
+                "id": "11f6e9885d1ed8786a8127a5362be7d3147d9fe7",
+                "type": "FEATURE",
+                "text": " The card preview in the 'Add Card to Insights' dialog now supports semantic colors and semantic icons for table columns"
+            },
+            {
+                "id": "e6f792753f99a8f2d3ba14592724e9c96ab44c9f",
+                "type": "FIX",
+                "text": " We now don't support the use of custom aggregates as options to filter the chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370051568"
+                    }
+                ]
+            },
+            {
+                "id": "243f2640aaf8cf89a6da2cab3c8b731decf7a0d6",
+                "type": "FIX",
+                "text": " The valueList table is now properly rendered on small screens",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370071580"
+                    }
+                ]
+            },
+            {
+                "id": "e557e43ac0e74d3a48710f08d05c8cf0b543f2f9",
+                "type": "FIX",
+                "text": " When using inline creation mode, we now ensure only one new empty row is created when data is entered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380074461"
+                    }
+                ]
+            },
+            {
+                "id": "b85cf04dcf51b078c8ddc1ca2576ed8e8724f046",
+                "type": "FEATURE",
+                "text": " We've removed the duplicate label under the Define Conditions tab from the value help dialog of the filter field"
+            },
+            {
+                "id": "4653a9e26fa05b0b1311178f7fd0cfac0b3e2cc0",
+                "type": "FIX",
+                "text": " We have resolved an issue with calculating the width of a type-ahead list in a value help field with multiple values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370077166"
+                    }
+                ]
+            },
+            {
+                "id": "0a07f9e702f78e5ce2f285dad5d3cd4f9934a65c",
+                "type": "FIX",
+                "text": " We've updated the code so that the batch calls sent can be grouped and result in improved UI performance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380050093"
+                    }
+                ]
+            },
+            {
+                "id": "6b103c73a544bcecf9b3caa8856f126e40d6c727",
+                "type": "FIX",
+                "text": " We now ensure that xAppState is applied when the UI.SelectionFields isn't configured in the manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380066297"
+                    }
+                ]
+            },
+            {
+                "id": "013702d41cb9adf3b1c63d06f5cda56978449b78",
+                "type": "FIX",
+                "text": " The DataFieldWithUrl annotation now works correctly within a QuickViewFacets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003669092023"
+                    }
+                ]
+            },
+            {
+                "id": "870e7c9863f487601e9b0d5fcf2546ed28722510",
+                "type": "FEATURE",
+                "text": " You can now change the position of the standard actions in the table toolbar"
+            },
+            {
+                "id": "eb65839a0420b260fa16185de5c83fca02816085",
+                "type": "FEATURE",
+                "text": " Creating setSelectionVariant API and FPM example of usage"
+            },
+            {
+                "id": "8cf7bd5da8ad99851be8d5e08ab434ce23faf5ec",
+                "type": "FIX",
+                "text": " We now ensure that annotation-based and custom elements are rendered in the order they are defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047604"
+                    }
+                ]
+            },
+            {
+                "id": "de87b570269240c079a7947314899aef45c34b1e",
+                "type": "FIX",
+                "text": " We now ensure you can see the expanded version of the tree table even after you remove a column from the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370045709"
+                    }
+                ]
+            },
+            {
+                "id": "d54aaf02b40dba1181fe098d0dd6ee55462df8de",
+                "type": "FIX",
+                "text": " We now ensure that the Property labels that are visible in the personalization dialog of a table are set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "3d350901b0109e1098bdbcd25af3c8a58da3d951",
+                "type": "FIX",
+                "text": " We now highlight the recommended field if it is empty and remove highlighting if it has a value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380051293"
+                    }
+                ]
+            },
+            {
+                "id": "0dd13cd0a46895d5c077c6867968e4d7f93a43e0",
+                "type": "FEATURE",
+                "text": " In apps using inline creation mode, a table now has only one empty row by default and a second empty row is added as soon as the user enters data in the first empty row"
+            },
+            {
+                "id": "ed88ea1a5141347fa2479bc61553da4025f15eb8",
+                "type": "FIX",
+                "text": " Tooltips in the table personalization dialog are now translated properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380053179"
+                    }
+                ]
+            },
+            {
+                "id": "329ead1aee352d8db106c55ec8eaaf0d0d6ec1e8",
+                "type": "FEATURE",
+                "text": " We now provide type ahead support in Define Conditions tab of value help dialog"
+            },
+            {
+                "id": "f91da85a54557b0bff7df5b723cd5d0c9b8e7365",
+                "type": "FEATURE",
+                "text": " We now provide getSelectionVariant as a public API for the FilterBar building block"
+            },
+            {
+                "id": "b0b150d680a85b134d0710f6ffde9513067a9045",
+                "type": "FIX",
+                "text": " We've now removed the unwanted console errors which occur during the context creation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380046279"
+                    }
+                ]
+            },
+            {
+                "id": "6012ef9b07baa27e8f9974d783259232f54bedce",
+                "type": "FIX",
+                "text": " We now use the BindingContext of the control instead of the ValueHelp to avoid errors due to a timing issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380057227"
+                    }
+                ]
+            },
+            {
+                "id": "6c020b0129618eb91fbe64897747f04735a10938",
+                "type": "FIX",
+                "text": " We now ensure that non-filterable properties are excluded from the filter options for the chart.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370057753"
+                    }
+                ]
+            },
+            {
+                "id": "35d7d2a48ecc58ecb9af02436312ef011b87b023",
+                "type": "FIX",
+                "text": " The DataField label is now hidden inside a column if the UI.Hidden annotation evaluates to true",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370055600"
+                    }
+                ]
+            },
+            {
+                "id": "5302284ae3cbd09fab9f9fd80006db5a9d90c5e1",
+                "type": "FIX",
+                "text": " We have resolved an issue with templating the actionCommand",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370068110"
+                    }
+                ]
+            },
+            {
+                "id": "840bcd99c5b448ee24bcefec8e2a9ffec25c7db9",
+                "type": "FIX",
+                "text": " The sap.insights library is now loaded dynamically",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380052090"
+                    }
+                ]
+            },
+            {
+                "id": "bb1eff8a611e593ab51563753328c1cd5642f2e4",
+                "type": "FIX",
+                "text": " For apps using flexible column layout, we now correctly update the count of the quick filters in the list report table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270109895"
+                    }
+                ]
+            },
+            {
+                "id": "820a9f1fc836a3ecafe4a23d9b4228c07468b8e8",
+                "type": "FIX",
+                "text": " A Table building block used in a list report and without a filter bar now loads data correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380056522"
+                    }
+                ]
+            },
+            {
+                "id": "92f0a72cd3a81350ff745626de85e55a54ffaf0d",
+                "type": "FEATURE",
+                "text": " You can now override the keys for the \"Create\" (M_COMMON_TABLE_CREATE) and \"Delete\" (M_COMMON_TABLE_DELETE) buttons in a table"
+            },
+            {
+                "id": "4e4a14685de4440da6a906c5e1401a62aa17614c",
+                "type": "FIX",
+                "text": " We now avoid adding the 'V4:true' constraints twice for an Edm.DateTimeOffset property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001564842023"
+                    }
+                ]
+            },
+            {
+                "id": "dedb6966756204226bcaf238543df6e6275f8912",
+                "type": "FEATURE",
+                "text": " We now use a popup to show which user has locked a field in a collaborative draft"
+            }
+        ]
+    }
+}

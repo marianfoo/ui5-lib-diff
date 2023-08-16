@@ -1,0 +1,511 @@
+{
+    "1.56.0": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "ef83d4d0dfdd786ebc198d55d72b98f65b388501",
+                "type": "FIX",
+                "text": "The expand chart now shown on correct row",
+                "references": []
+            },
+            {
+                "id": "0719d591e061f00853c91837c94949392c1edddf",
+                "type": "FIX",
+                "text": "Fix for incorrect vertical scroll bar width calculating",
+                "references": []
+            },
+            {
+                "id": "9d7209be31e5899ffb544de8a1c013b5d02792d4",
+                "type": "FIX",
+                "text": "sap.gantt - ignore relationship aggregation in designtime",
+                "references": []
+            },
+            {
+                "id": "9506a188a8a4060c04ab63787007e87d49d050e2",
+                "type": "FIX",
+                "text": "Background and close button now displayed",
+                "references": []
+            },
+            {
+                "id": "d7ccf3176c22b6e2b3d6f7719bc86b1b6c7b49b3",
+                "type": "FIX",
+                "text": "Fix bird issue in group aggregation of Gantt 2.0",
+                "references": []
+            },
+            {
+                "id": "a875dfa44aa26274813bdc5b010cebe970a66b0a",
+                "type": "FIX",
+                "text": "fix double click issue for MacOS",
+                "references": []
+            },
+            {
+                "id": "3aa82711949e123500382311a32f8a23ca4bfadf",
+                "type": "FIX",
+                "text": "add qunit for GanttPopoverExtension",
+                "references": []
+            },
+            {
+                "id": "8fdeffc5a86bf8a4dd0f53e3d32d5a4fbcb22a11",
+                "type": "FIX",
+                "text": "1.60_RT_1.0:Drag on drop - ghost is incorrect in safari",
+                "references": []
+            },
+            {
+                "id": "05e0e99b4ec62eb0c8d838ac2392c813303113b9",
+                "type": "FIX",
+                "text": "Remote duplicated id test failure fixed.",
+                "references": []
+            },
+            {
+                "id": "19d3406d9995a29b6392f02d53e4b534684aa4ab",
+                "type": "FIX",
+                "text": "Set stroke for a shape",
+                "references": []
+            },
+            {
+                "id": "38b4e4b09d8deffa4a4f9f4d75d25ed4e49bd5f1",
+                "type": "FIX",
+                "text": "Right click event is not triggered in MAC chrome",
+                "references": []
+            },
+            {
+                "id": "df529c7d098c562480f2e7cb7f1e0f8177dfb681",
+                "type": "FIX",
+                "text": "1.60_RT:Resize triggering area is too wide",
+                "references": []
+            },
+            {
+                "id": "f8d795882eb95feec06fe655c1498e39343f17d4",
+                "type": "FIX",
+                "text": "1.60_RT:Resize error",
+                "references": []
+            },
+            {
+                "id": "6b4e85e06d9c55828860fef78f8cea4e9bd199c6",
+                "type": "FIX",
+                "text": "fix text rtl issue",
+                "references": []
+            },
+            {
+                "id": "4d30ab9928131bfd6db6f816e42ec6dc6d5f8fcd",
+                "type": "FIX",
+                "text": "getSelectedRows rowindex error",
+                "references": []
+            },
+            {
+                "id": "833d23ae7634b13a883f90e47a14f167b748ba22",
+                "type": "FIX",
+                "text": "1.60_RT: Dragging shadow display error",
+                "references": []
+            },
+            {
+                "id": "23a91ede8f937ad7a4916552b22ec3b57a4cf5f8",
+                "type": "FIX",
+                "text": "L-Shape display error fixed",
+                "references": []
+            },
+            {
+                "id": "95c0f7727f4b2d92acddc6050d6e293c0ceb104a",
+                "type": "FIX",
+                "text": "getSelectedRows performance issue",
+                "references": []
+            },
+            {
+                "id": "7ee5e01cfb6e6a33485c6c6e1053fcee5e9aeb6a",
+                "type": "FIX",
+                "text": "Solve the unstable issue caused by toolbar ut failure",
+                "references": []
+            },
+            {
+                "id": "211228499955601ce8de681869d57431554e4c2e",
+                "type": "FIX",
+                "text": "binding mousemove with jquery.on",
+                "references": []
+            },
+            {
+                "id": "d01a3df77347a18d582d1b16941a9fe053e49c6d",
+                "type": "FIX",
+                "text": " 1.60 RT: date format in D&D popover",
+                "references": []
+            },
+            {
+                "id": "3dbabc2e2f24e8cc0a6a3c55b36487b70bb2749f",
+                "type": "FIX",
+                "text": " unresizable shape can be resized",
+                "references": []
+            },
+            {
+                "id": "891c71357e32da62ef5505ce80bf65acc225ec8d",
+                "type": "FIX",
+                "text": "Stepwise disable the setVH method",
+                "references": []
+            },
+            {
+                "id": "ee86275d4d54a542da8a7d0fc4e09270f8f5291f",
+                "type": "FIX",
+                "text": "Unable to change zoom control type fixed",
+                "references": []
+            },
+            {
+                "id": "ff6041cff62b0a9342b06c0a0c4b6b8c8fab9756",
+                "type": "FIX",
+                "text": "Clean up some error messages in browser console",
+                "references": []
+            },
+            {
+                "id": "b08cf5cb01af1a4b3d7f1fe4df31100d23a56ec1",
+                "type": "FIX",
+                "text": "fix GanttConnectExtension qunit error, remove JSON.stringify from qunit.",
+                "references": []
+            },
+            {
+                "id": "feb034fca887c2b039878b6e68a4c9592c4b8097",
+                "type": "FIX",
+                "text": "Remove logging for performance issue.",
+                "references": []
+            },
+            {
+                "id": "928893a905fafa409358ed8a89aed6a4456ea2f6",
+                "type": "FIX",
+                "text": "GANTT1.0 ACC: shape display in HCB mode",
+                "references": []
+            },
+            {
+                "id": "a1c96427af82be748b4321516e734995fd3da24f",
+                "type": "FIX",
+                "text": "update time in popover when autoscroll",
+                "references": []
+            },
+            {
+                "id": "1ce3d49d45367ba4e9cc23de42dc3a4241e06f22",
+                "type": "FIX",
+                "text": "Slider UI element label added",
+                "references": []
+            },
+            {
+                "id": "ef0627c30ce0db89dff221ff9dbf493bbaa0b86b",
+                "type": "FIX",
+                "text": "Fix the correct zoom level in Toolbar",
+                "references": []
+            },
+            {
+                "id": "35e45c6c6d1721223eaa3e24d4e3c882734a3301",
+                "type": "FIX",
+                "text": "Rectangle zoom keyboard event fired",
+                "references": []
+            },
+            {
+                "id": "e1677ef6c065ceea1cb74c7c30cbde539cb3d9ed",
+                "type": "FIX",
+                "text": "Safari: target handler not consistent as other browser",
+                "references": []
+            },
+            {
+                "id": "e7158cd3b2ce44a5a368da805c7b3867d26eaffa",
+                "type": "FIX",
+                "text": "Toolbar selected item fixed",
+                "references": []
+            },
+            {
+                "id": "055056de0e5f1acf653a2d028b97698f2894c90f",
+                "type": "FIX",
+                "text": "Fix zoom regression of Gantt 2.0",
+                "references": []
+            },
+            {
+                "id": "a10502f5d03c6537af0e7eece239c490cf79fff7",
+                "type": "FIX",
+                "text": "Zoom sync regression fixd",
+                "references": []
+            },
+            {
+                "id": "cb86199b2ce50a89eec1f6c6629230808b0e9b4c",
+                "type": "FIX",
+                "text": "Fix Gantt 2.0 zoom slider issue",
+                "references": []
+            },
+            {
+                "id": "33786d706296b778e744c3e0dd24eae449443a46",
+                "type": "FIX",
+                "text": "comment for performance test",
+                "references": []
+            },
+            {
+                "id": "468d52a8e2a175c4c8650f33bac09d0c514ee9bc",
+                "type": "FIX",
+                "text": "GANTT2.0 Text truncation issue",
+                "references": []
+            },
+            {
+                "id": "4f373c2cdde0d033a952781cc514846bfe399306",
+                "type": "FIX",
+                "text": "Modify the Toolbar and AxistimeStrategy",
+                "references": []
+            },
+            {
+                "id": "b9fc135d92007f20933bdcf0274f02de15c64437",
+                "type": "FIX",
+                "text": "use clientY for elementFromPoint",
+                "references": []
+            },
+            {
+                "id": "ebc385d46b1e678ff8a570e40280fdf73fff5c2d",
+                "type": "FIX",
+                "text": "scroll to bottom, zoom in/out issue fixed",
+                "references": []
+            },
+            {
+                "id": "c4997dc32c2f5d1da4fe4cae044f2aaee006b5f4",
+                "type": "FIX",
+                "text": "simple.DimensionLegend use right class name",
+                "references": []
+            },
+            {
+                "id": "59f8f55b5597bb54d0a42c386da59f105cc12c28",
+                "type": "FIX",
+                "text": "List Legend text color now show correct in hcb",
+                "references": []
+            },
+            {
+                "id": "4f8cfbd152f840e63cb7aea3e8041eb73dccb25e",
+                "type": "FIX",
+                "text": "Fix auto scrolling issue when operating time period zoom",
+                "references": []
+            },
+            {
+                "id": "24221f59bb724e4ce21aaf758a2e8561e173b6eb",
+                "type": "FIX",
+                "text": "Fix _handleSelectionChange function",
+                "references": []
+            },
+            {
+                "id": "e81db2d37a29e14108276428b07a6d2fddd0c967",
+                "type": "FIX",
+                "text": "Time period zoom cursor disappeared issue fixed",
+                "references": []
+            },
+            {
+                "id": "730011fb493d20c87a44d9f231ef24965c059ef8",
+                "type": "FIX",
+                "text": "use default color of BaseText",
+                "references": []
+            },
+            {
+                "id": "bca3ab19c4d4f1165b4f4a51ad024bf798a05886",
+                "type": "FIX",
+                "text": "change text color back to black",
+                "references": []
+            },
+            {
+                "id": "fd0a31e2cb656fc1e1e6bd80ed4b74abd474ea94",
+                "type": "FIX",
+                "text": "No custom zooming strategy presented in test page",
+                "references": []
+            },
+            {
+                "id": "bc4e85ed99dcb699397e24a81ab45c53b4dad12f",
+                "type": "FIX",
+                "text": "use less variable replace color",
+                "references": []
+            },
+            {
+                "id": "6dd5c21345c89a635f44da9a532bd7c02c936af9",
+                "type": "FIX",
+                "text": "Bird eye buffer issue fixed",
+                "references": []
+            },
+            {
+                "id": "61c9c15c583ef6e5bdcf4ecc24deb3b3e6de3d9b",
+                "type": "FIX",
+                "text": "Cursor line is incorrect at stepWiseZooming",
+                "references": []
+            },
+            {
+                "id": "a798a9c259eafb04beb0f60af6310ad327a14782",
+                "type": "FIX",
+                "text": "Fix header aligned issue for stepWiseZooming in RTL mode",
+                "references": []
+            },
+            {
+                "id": "aab24e33682086763e146edb8e3cd4f22c64b70d",
+                "type": "FEATURE",
+                "text": "Disable Quick View when d&d",
+                "references": []
+            },
+            {
+                "id": "56fda5e87440bd598dae808c4ce798fc64b25b23",
+                "type": "FIX",
+                "text": "cursor line and row hover effect depend on mouseleave event.",
+                "references": []
+            },
+            {
+                "id": "9dc0e3da08c7e09dc29c9026db2ba1eeeac5b2a6",
+                "type": "FIX",
+                "text": "horizontal scroll bar will not disappear",
+                "references": []
+            },
+            {
+                "id": "44a6dc782c4b1c455506451d8db091a081cefdd6",
+                "type": "FIX",
+                "text": "Zoom slider step backwards sometimes",
+                "references": []
+            },
+            {
+                "id": "b06aef26ed05a00fb842ea734db04678ab17308a",
+                "type": "FIX",
+                "text": "Fix expand chart text in RTL mode",
+                "references": []
+            },
+            {
+                "id": "71694e7b9bba23b072833e2eb453a823b45cec48",
+                "type": "FIX",
+                "text": "Svg mouse leave case for quick view added.",
+                "references": []
+            },
+            {
+                "id": "7b4fe395eef9727083fa012377dd5626efd497d6",
+                "type": "FIX",
+                "text": "Fix can not deselect shapes when click expanded chart area",
+                "references": []
+            },
+            {
+                "id": "2212db9ef4c172a3c96d6c713649be1ca712d71a",
+                "type": "FIX",
+                "text": "in RTL mode, in chart area hovered table row is not highlighted.",
+                "references": []
+            },
+            {
+                "id": "304509b9b43212c7345bce045113d07230c2963c",
+                "type": "FIX",
+                "text": "get shapeDataName from binding context path",
+                "references": []
+            },
+            {
+                "id": "af84c0bb160667967b700214091654b6fd33baf8",
+                "type": "FIX",
+                "text": "Hover on chart area, hovered table row  is not highlighted.",
+                "references": []
+            },
+            {
+                "id": "2dd9c32a1fe57069b8cb2329e65cff3a4cf48cc2",
+                "type": "FIX",
+                "text": "Fix RTL at IE",
+                "references": []
+            },
+            {
+                "id": "71cfdb4253c22134fde63e8587b8a52d4c7d7093",
+                "type": "FIX",
+                "text": "show cursor on svg",
+                "references": []
+            },
+            {
+                "id": "fd1dee35d1a16fdd9f944ff974e70a7e0a161c08",
+                "type": "FIX",
+                "text": "auto scroll can not stop",
+                "references": []
+            },
+            {
+                "id": "73ce1110d95175892b4f4e0aac5db69ff0bf7567",
+                "type": "FIX",
+                "text": "Row index corrected when scroll down",
+                "references": []
+            },
+            {
+                "id": "d8b25d6287c5d373190a70c04c339bf41dedc897",
+                "type": "FEATURE",
+                "text": "Time zoom buttons enhancement",
+                "references": []
+            },
+            {
+                "id": "e9bc6557b304dc3e0e557edb31761e5c8046b1d4",
+                "type": "FIX",
+                "text": "Fix RTL at edge",
+                "references": []
+            },
+            {
+                "id": "58a7629b453da5a427cc599e6d67995e82c44c8a",
+                "type": "FIX",
+                "text": "Fix resize outline when autoscroll",
+                "references": []
+            },
+            {
+                "id": "f7882b2caa4fdf70d123e9628f3e7fb5293f3e55",
+                "type": "FEATURE",
+                "text": "Mouse Wheel feature in stepwise",
+                "references": []
+            },
+            {
+                "id": "7e34472beb69a6b6c2a0838cbd75a09639447109",
+                "type": "FIX",
+                "text": "FullScreenStrategy initial horizon issue fixed",
+                "references": []
+            },
+            {
+                "id": "0897898be52e376afdaf1a6dd47d6627496426eb",
+                "type": "FIX",
+                "text": "Time popover may be lost when drag across gantt charts in Gantt 1.0",
+                "references": []
+            },
+            {
+                "id": "c2612b5e738cf061ac11292fcf1c1b6e04f687b1",
+                "type": "FEATURE",
+                "text": "set Zoom Control Type",
+                "references": []
+            },
+            {
+                "id": "e2a4853ace9f55d7372ea751c3173efb9d2aa9f9",
+                "type": "FIX",
+                "text": "Fix container unit test",
+                "references": []
+            },
+            {
+                "id": "c52eb7ffca84d6ab152fc3d0cdd8d70b9314698c",
+                "type": "FIX",
+                "text": "Always 2 calls when clicking",
+                "references": []
+            },
+            {
+                "id": "4f013e38ca5fee7bea9e40e85d4e1b24a42ea62e",
+                "type": "FIX",
+                "text": "ContainerToolbar refactoring",
+                "references": []
+            },
+            {
+                "id": "77f3e705a374ef2f23ee074bf3e97bf851cf8a8a",
+                "type": "FIX",
+                "text": "Remove hardcoded url for Gantt 2.0",
+                "references": []
+            },
+            {
+                "id": "7772c68bf47fb27fdb96c8a5053cfa726f33152b",
+                "type": "FIX",
+                "text": "Remove hardcoded url for Gantt 1.0",
+                "references": []
+            },
+            {
+                "id": "64b58cc78de83e83ac9f30c1394575697b2afb72",
+                "type": "FIX",
+                "text": "Gantt 2.0: D&D text color change",
+                "references": []
+            },
+            {
+                "id": "cfb7762c4eec8993c343cd36997cb79e1a80beba",
+                "type": "FIX",
+                "text": "Fix rendering in stepwise",
+                "references": []
+            },
+            {
+                "id": "21793fa584be774f487826ac42f6bf3e78a7e65a",
+                "type": "FEATURE",
+                "text": "ULC & UBC",
+                "references": []
+            },
+            {
+                "id": "d721b755a0eb4323d281ab9e8bcaaa6d3e164f88",
+                "type": "FIX",
+                "text": "Fix scrollExtention",
+                "references": []
+            }
+        ]
+    }
+}

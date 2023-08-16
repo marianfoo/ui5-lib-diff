@@ -1,0 +1,229 @@
+{
+    "1.116.0": {
+        "date": "June 2023",
+        "notes": [
+            {
+                "id": "a383f93a310b1688ad26f076576247f358a94f1f",
+                "type": "FIX",
+                "text": " CEP Search: add apps w/o visualizations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380074220"
+                    }
+                ]
+            },
+            {
+                "id": "0be217caa9a279945ae685b44cadac426df25efa",
+                "type": "FIX",
+                "text": " line-height for search dropdown list box"
+            },
+            {
+                "id": "73236be292acf26e0fda1fbc6ff46fa1e11f9020",
+                "type": "FIX",
+                "text": " navigation to external CEP search app",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380074217"
+                    }
+                ]
+            },
+            {
+                "id": "196f78f007d2db8f029fb242c1887461277da695",
+                "type": "FEATURE",
+                "text": " Keep alive Iframe cache for legacy frameworks - phase #2"
+            },
+            {
+                "id": "5d68cdf815729239a273b7c12ac781db41bf974d",
+                "type": "FIX",
+                "text": " wrong event triggered in s/cube app",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380074013"
+                    }
+                ]
+            },
+            {
+                "id": "12a0f12d3d106ab0018a107368a1c01ccb2289d0",
+                "type": "FEATURE",
+                "text": " Keep alive Iframe cache for legacy frameworks - phase #1"
+            },
+            {
+                "id": "a20e3e06146ac5cd82a0fa69c8702e65c6506b01",
+                "type": "FIX",
+                "text": " SearchCEPAdapter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380074088"
+                    }
+                ]
+            },
+            {
+                "id": "a389b0aac03775eab3423ee4cd3ec5b3488e4acd",
+                "type": "FIX",
+                "text": " S/Cube error when closing keep alive app",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380074013"
+                    }
+                ]
+            },
+            {
+                "id": "3ce9d4e0c7dbb4f6b2e91f4fb93c539f45eabfa7",
+                "type": "FIX",
+                "text": " CEP Search control - displaying apps subtitles"
+            },
+            {
+                "id": "213f6c75c3602de9809305f4cac4519bf2335729",
+                "type": "FIX",
+                "text": " Add support for the sap.ushell.Container.attachLogoutEvent() API in cFLP",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002351802023"
+                    }
+                ]
+            },
+            {
+                "id": "5271eba87c2b7d4ee91787cb2cc5379a48839ef8",
+                "type": "FIX",
+                "text": " only set BCP-47 language in common bootstrap",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380072963"
+                    }
+                ]
+            },
+            {
+                "id": "9a8dbafb06f3b0f3870f6a1c42aa9a8b007441aa",
+                "type": "FIX",
+                "text": " S/Cube - wrong entry shown in the recent activity",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380060251"
+                    }
+                ]
+            },
+            {
+                "id": "718131b0d0de62bd784413b668b33666cb7da714",
+                "type": "FIX",
+                "text": " S/Cube - wrong title shown for application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380060251"
+                    }
+                ]
+            },
+            {
+                "id": "8fa21ae0b0df376b04065c9074ef2cb2933a85f0",
+                "type": "FIX",
+                "text": " S/Cube - save as tile option not availeble",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380057409"
+                    }
+                ]
+            },
+            {
+                "id": "92cf176cc29ce35761e07223e8fa7c601c9bf275",
+                "type": "FIX",
+                "text": " appstate not saved in s/cube BTP apps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380068389"
+                    }
+                ]
+            },
+            {
+                "id": "7a1592bd6d4685815b14a48cf945cd017e9e046b",
+                "type": "FIX",
+                "text": " S/Cube - borwser back does not nevigate to previous screen",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380053627"
+                    }
+                ]
+            },
+            {
+                "id": "1275d1015e33cd7091288192e209b98b40908721",
+                "type": "FIX",
+                "text": " S/Cube - special hash links in app does not navigate correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380059940"
+                    }
+                ]
+            },
+            {
+                "id": "5e6246774042e9818260305bc3159ae6ad465555",
+                "type": "FIX",
+                "text": " S/Cube - application not opened with duplicate id",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380062593"
+                    }
+                ]
+            },
+            {
+                "id": "669882f6d1f48fe1bc64f4bb6fdaaa950958e765",
+                "type": "FIX",
+                "text": " S/Cube - title of BTP app not shown correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380060251"
+                    }
+                ]
+            },
+            {
+                "id": "3a088ee92f301ea2c543035815ba1d67cbcd81c4",
+                "type": "FIX",
+                "text": " can not get real app intent in s/cube",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380056161"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380055619"
+                    }
+                ]
+            },
+            {
+                "id": "bc2bf6adb0a9d765259a7f7f963699c0e05cf873",
+                "type": "FIX",
+                "text": " UserDefaultParam loading plugin service safely",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370066310"
+                    }
+                ]
+            },
+            {
+                "id": "8e8a3b0a3cb005b277a5a86bf4d298d6a0a06e90",
+                "type": "FIX",
+                "text": " WorkpageBuilder return undefined for url navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380058804"
+                    }
+                ]
+            }
+        ]
+    }
+}

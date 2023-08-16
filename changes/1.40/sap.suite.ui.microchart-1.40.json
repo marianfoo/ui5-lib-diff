@@ -1,0 +1,63 @@
+{
+    "1.40.0": {
+        "date": "June 2016",
+        "notes": [
+            {
+                "id": "d1e7dce8c3eb83c985e091373380a22169f8e487",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart: Fiori 2.0 design implemented (Belize theme)",
+                "references": []
+            },
+            {
+                "id": "3c1eb80afc648a7933badfd28d55e680459542c5",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart: Fiori 2.0 design implemented (Belize Plus theme)",
+                "references": []
+            },
+            {
+                "id": "a3e98114ad242ee5779eeb9fa1d4dae9696463c1",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.AreaMicroChart: Color calculation for empty targetValue property stabilized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680033343"
+                    }
+                ]
+            },
+            {
+                "id": "ebb3890d588006c5860178aeed2f77726426b062",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.AreaMicroChart: improve CSS dependent rendering to avoid miss rendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670263734"
+                    }
+                ]
+            },
+            {
+                "id": "1af74c83d3026f5df5d8e8de3bce38ca445969ac",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.BulletMicroChart: CSS-dependent rendering improved to avoid incorrect rendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670263735"
+                    }
+                ]
+            },
+            {
+                "id": "02c98e5e72072bebf76d03acf607c76ea2ac29df",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.ComparisonMicroChart: Fix UTF character handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670279252"
+                    }
+                ]
+            }
+        ]
+    }
+}

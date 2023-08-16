@@ -1,0 +1,212 @@
+{
+    "1.48.0": {
+        "date": "January 2017",
+        "notes": [
+            {
+                "id": "bd2f168357e49f1c342a17bfa6f7cf7aabcbbacc",
+                "author": "Mingxin Fu <mingxin.fu@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Visible property of custom icons in ChartContainer improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770186596"
+                    }
+                ]
+            },
+            {
+                "id": "a8b192ef9f11e42c23de5cc28dae8296630f7026",
+                "author": "Mingxin Fu <mingxin.fu@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.ChartContainer: SelectionDetails popover added"
+            },
+            {
+                "id": "eabe323da1283e8225e2188a4232bfd09171adb3",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Interaction behavior on highlighted path corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770107084"
+                    }
+                ]
+            },
+            {
+                "id": "60e6f7cc45518c56639676d02e9fcdc8963d10e0",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Select event on item selection change was added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770016401"
+                    }
+                ]
+            },
+            {
+                "id": "2f00cbb8c349ace3f3ac126cf85860df979ffc28",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.util.DateUtils: Prevent browser notification for long running script",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000067618 2017"
+                    }
+                ]
+            },
+            {
+                "id": "2a6793f5e9f99ae0d8a7241e39a30076d42910b5",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Design of a group header improved"
+            }
+        ]
+    },
+    "1.48.1": {
+        "date": "May 2017",
+        "notes": [
+            {
+                "id": "23581bafbccb1a15b68888b88c76cd08b1a56213",
+                "author": "Dominic Holzwarth <dominic.holzwarth@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Chart selection no longer moves to overflow area if there is enough space",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770259420"
+                    }
+                ]
+            },
+            {
+                "id": "5d5363f7dc33e5eca1deda85a93d9048e6355167",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Toolbar transparency in full screen corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770259151"
+                    }
+                ]
+            },
+            {
+                "id": "1b08bdaaf9d74152aa42588450e01f5b1a791c1f",
+                "author": "Mingxin Fu <mingxin.fu@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Improved transition from full screen to normal view in Edge browser",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770186689"
+                    }
+                ]
+            },
+            {
+                "id": "80f273a08ccf49756544f61513c357c3e5c3bd8a",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Toolbar background adapted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770221806"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.48.2": {
+        "date": "May 2017",
+        "notes": [
+            {
+                "id": "a221b96852217ab2fb00f4c6346c1d1aae5ff123",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Label on highlighted path enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770232812"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.48.3": {
+        "date": "June 2017",
+        "notes": [
+            {
+                "id": "1ab9e018834e16a805b1584d634ebb8d33daccc0",
+                "text": "sap.suite.ui.commons.Timeline: Fix the rendering of an empty timeline when the Show More button is visible",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780148704"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.48.4": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "29349433609634210b496c0300db5b0388626735",
+                "author": "Libor Pisa <libor.pisa@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Redundant scrollbar removed from vertical timelines, that do not require scrolling"
+            }
+        ]
+    },
+    "1.48.5": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "32f8498485b6d685deda307dd72183a59256743c",
+                "text": "sap.suite.ui.commons.Timeline: Fix wrong library dependencies",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780356266"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.48.6": {
+        "date": "August 2017",
+        "notes": [
+            {
+                "id": "08c5532cabf91648982335d96255f83d9d7e820c",
+                "text": "sap.suite.ui.commons.ProcessFlow: Native scrolling on iOS fully enabled",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780339421"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.48.7": {
+        "date": "September 2017",
+        "notes": [
+            {
+                "id": "93c808885d3dd0668cb12ae34d982ab618590019",
+                "text": "sap.suite.ui.commons.ProcessFlow: Performance of connection label CSS selector improved",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780322731"
+                    }
+                ]
+            }
+        ]
+    }
+}

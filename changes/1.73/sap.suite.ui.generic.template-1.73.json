@@ -1,0 +1,169 @@
+{
+    "1.73.0": {
+        "date": "November 2019",
+        "notes": [
+            {
+                "id": "12c974cc83a3cdcf1bf4b946dc67346e6865e7cd",
+                "type": "FEATURE",
+                "text": "LR: Supporting flexibility for parameterized entity set in case of multi-entity set scenarios"
+            },
+            {
+                "id": "e0147995fd335f387a9a5f758419a34c603f87de",
+                "type": "FEATURE",
+                "text": "ALP: Support VisualFilter flexible height"
+            },
+            {
+                "id": "936909ee18d061877cccf75cc7b2e5dde74f0722",
+                "type": "FEATURE",
+                "text": "OP: Group message in message popover according to object page sections"
+            },
+            {
+                "id": "676244b881ce8003114af03617e3e39413bad1cf",
+                "type": "FEATURE",
+                "text": "OP: Save selected table variants"
+            },
+            {
+                "id": "1f15b174489f42f4d631c4fe53cc00be32ea4ad5",
+                "type": "FEATURE",
+                "text": "OP: Message handling for tabbed mode"
+            },
+            {
+                "id": "66cda85b89bc3619666a35f93a1b2d4962dfe28d",
+                "type": "FEATURE",
+                "text": "Offer a more specific Delete Confirmation dialog"
+            },
+            {
+                "id": "1f6a72373d010afcac70ba0aaa29560e6d973422",
+                "type": "FIX",
+                "text": "LR: Prevent header collapsing for worklist with multiple views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980360193"
+                    }
+                ]
+            },
+            {
+                "id": "72402904968bbe31d6939c56ba42ce29666b3fd1",
+                "type": "FIX",
+                "text": "OP: Close button now works even after coming back from an external navigation or a refresh",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970470125"
+                    }
+                ]
+            },
+            {
+                "id": "c781a133365b6e5532d3e91740c499a2c1917d0a",
+                "type": "FIX",
+                "text": "LR: Keyboard shortcut for table delete trigger validation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970544784"
+                    }
+                ]
+            },
+            {
+                "id": "bd490d82dfb29eae9df7a2cbc00d0dc08bdd7b23",
+                "type": "FIX",
+                "text": "LROP: Delete command changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970569148"
+                    }
+                ]
+            },
+            {
+                "id": "5a357cf9cdc720873062f2ebb31a7ccbd0d57a81",
+                "type": "FIX",
+                "text": "LROP: Correct treatment of fully specified empty values in outbound parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970546377"
+                    }
+                ]
+            },
+            {
+                "id": "5bc947b4b10ffbfb0d4078905453c94dbf5d399d",
+                "type": "FIX",
+                "text": "OP: Corrected error messages in message dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006014332019"
+                    }
+                ]
+            },
+            {
+                "id": "e9d9c09bb8232cafff69f193237646cdb481f523",
+                "type": "FIX",
+                "text": "OP: Avoid accumulation of error messages in non-draft scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980323264"
+                    }
+                ]
+            },
+            {
+                "id": "7f712813b9b48dc7bd89a52228adda674907dd26",
+                "type": "FIX",
+                "text": "OP: Save button removed from confirmation popup in case of errors",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970556001"
+                    }
+                ]
+            },
+            {
+                "id": "8b74137a9d89f0b9b9be6b4ef8e3702d91ce5503",
+                "type": "FIX",
+                "text": "Clear the selection in a UI table after record deletion",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970335799"
+                    }
+                ]
+            },
+            {
+                "id": "6d456aa0323f1b9a08853bb727f24eb239c9c927",
+                "type": "FIX",
+                "text": "OP: Correct handling of DataFieldForAction when label points to an i18n property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980406324"
+                    }
+                ]
+            },
+            {
+                "id": "2ac42d7e4b6edc8446f34878698d5e06b95e54d2",
+                "type": "FIX",
+                "text": "LROP: Provide context also for unbound actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970513474"
+                    }
+                ]
+            },
+            {
+                "id": "567f6a3e8833da618e7454acdb1435510da2cd57",
+                "type": "FIX",
+                "text": "[OP]: Sort messages in messagePopover according to type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980432550"
+                    }
+                ]
+            }
+        ]
+    }
+}

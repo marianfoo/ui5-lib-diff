@@ -1,0 +1,285 @@
+{
+    "1.74.0": {
+        "date": "November 2019",
+        "notes": [
+            {
+                "id": "5fad58e06d33fdeeb06fe4ca1b5700b7691e55af",
+                "type": "FIX",
+                "text": " SmartField: Currency formatting improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970577471"
+                    }
+                ]
+            },
+            {
+                "id": "24385b60ac45416eabc2c83b1a90235c96dd3564",
+                "type": "FIX",
+                "text": " SmartMultiInput: Handle create/delete when using deferred processing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980429472"
+                    }
+                ]
+            },
+            {
+                "id": "3377c216ef95300668221341ab52c69a205580d8",
+                "type": "FIX",
+                "text": " SmartField: Currency field uncaught exception fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980461191"
+                    }
+                ]
+            },
+            {
+                "id": "55ac9c2490c4e8767a714463da043434ffd61a06",
+                "type": "FIX",
+                "text": " SmartField: Decimal formatting in display mode fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000347388 2019"
+                    }
+                ]
+            },
+            {
+                "id": "fcf01a93c9b246befe02d34ada2f46b58b466a0c",
+                "type": "FIX",
+                "text": " SmartField: StringDate parsing added check for a valid date",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980442299"
+                    }
+                ]
+            },
+            {
+                "id": "fb3f29fab376f457aea081bdaa37da7aef6f7b28",
+                "type": "FIX",
+                "text": " SmartField: textInEditSource mode lifecycle fetch id and description issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970217313"
+                    }
+                ]
+            },
+            {
+                "id": "7790665fb3a6c460d8f85fdba12f594369e7010a",
+                "type": "FIX",
+                "text": " SmartFilterBar: save _CUSTOM data with array values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970568368"
+                    }
+                ]
+            },
+            {
+                "id": "2cd22fd7f3dd23f97adc5699ecb21b4df5cb9489",
+                "type": "FIX",
+                "text": " VariantConvertFrom/To: Add safety check for array values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980466008"
+                    }
+                ]
+            },
+            {
+                "id": "dc58ed26d72056d5ad46694dc10230177e1f4e1b",
+                "type": "FEATURE",
+                "text": " sap.ui.comp: new sap_fiori_3_hcb and sap_fiori_3_hcw themes",
+                "references": []
+            },
+            {
+                "id": "38234213c025b65b7a51af1489d344d1e7398730",
+                "type": "FIX",
+                "text": " ACC: SmartMultiEdit: Mark required fields with asterisk",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970601258"
+                    }
+                ]
+            },
+            {
+                "id": "abb0d6033572c962b1c47c116093bcf20c1069d7",
+                "type": "FIX",
+                "text": " sap.ui.comp.FilterBar: RemoveFilterItem and RemoveFilterGroupItem methods fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980431009"
+                    }
+                ]
+            },
+            {
+                "id": "ac381997c81e4870dc0434403a4a0cdfb5bf6c77",
+                "type": "FIX",
+                "text": " sap.ui.comp.ValueHelpDialog: Filter type-ahead list in the Define Conditions tab with the other input fields parameters.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980446855"
+                    }
+                ]
+            },
+            {
+                "id": "bb2e7721fb351c92badd3da3a4d6a57ef27988f2",
+                "type": "FIX",
+                "text": " ODataControlFactory: Uncaught exception when currency is empty fixed",
+                "references": []
+            },
+            {
+                "id": "0ac921ccd4e8fbcd7caac14d23bfc4205918b769",
+                "type": "FIX",
+                "text": " sap.ui.comp.smartfield.SmartField: Allow textLabel property to be changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970633296"
+                    }
+                ]
+            },
+            {
+                "id": "ce1e70f15d48a7fe046667a604f6b6cbbc550a2e",
+                "type": "FIX",
+                "text": " sap.ui.comp.smartfield.SmartField: Allow textLabel property to be changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980511201"
+                    }
+                ]
+            },
+            {
+                "id": "60e94ea2f35e6d6073216ed1ad2fffd3ea1235f0",
+                "type": "FEATURE",
+                "text": " Smart Filter Bar: Support Fiscal Annotations",
+                "references": []
+            },
+            {
+                "id": "f8fe84a8e7ec5de5d3409b5dd2e49a5e2b65e558",
+                "type": "FEATURE",
+                "text": " SmartField: Fiscal annotation support",
+                "references": []
+            },
+            {
+                "id": "c47ebdb16f6dec2ef92998b7efc0de765f5f22e0",
+                "type": "FEATURE",
+                "text": " SmartFilterBar, TableP13n, ValueHelpDialog new exclude operations",
+                "references": []
+            },
+            {
+                "id": "25cb34b17e06268089f99877e157427416ce5744",
+                "type": "FIX",
+                "text": " FilterBar: On pressing ctrl+A select all checkbox filters and be able to add them, not only the first one.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1940740258"
+                    }
+                ]
+            },
+            {
+                "id": "f1b2e10c80f348211d497662733b37d89c38ea20",
+                "type": "FIX",
+                "text": " ODataControlFactory: Fire change event on currency change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980534313"
+                    }
+                ]
+            },
+            {
+                "id": "28dee553ff4333d95c98df6bce84459a9018549f",
+                "type": "FIX",
+                "text": " ODataType: isCalendarDate setting",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080003657"
+                    }
+                ]
+            },
+            {
+                "id": "f074dbe753c39419afabccabadf05f3a119cdc47",
+                "type": "FIX",
+                "text": " SmartField type currency fails to save amount value in model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980469969"
+                    }
+                ]
+            },
+            {
+                "id": "0700307eb3c0a3c8469300e64f1bd3f2f373be45",
+                "type": "FIX",
+                "text": " SmartField: UoM's unit field is removed from ariaLabelledBy of the UoM's amount field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980512273"
+                    }
+                ]
+            },
+            {
+                "id": "985d1fcd34ab535f58bd5e876d0c56c653608a5e",
+                "type": "FIX",
+                "text": " SmartFilterBar: VariantManagement operations will not be evaluated as filters for custom controls fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970554351"
+                    }
+                ]
+            },
+            {
+                "id": "d6195dc2f18eed0bdeb23336151ba1735b919de4",
+                "type": "FIX",
+                "text": " SmartForm: ContextEditable set wrong on SmartFields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080016295"
+                    }
+                ]
+            },
+            {
+                "id": "3930e7a4b33531d0e1266c6fe46ac6d4f32c7043",
+                "type": "FIX",
+                "text": " SmartVariantManagement: cleanup dependant changes when a variant is deleted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080010806"
+                    }
+                ]
+            },
+            {
+                "id": "b73d972187dcf8feab7e6b0e00d2f6174661a516",
+                "type": "FIX",
+                "text": " ValueHelpDialog: correct header paddings",
+                "references": []
+            },
+            {
+                "id": "4f498824cabbdc66e8bf06ab90f3deef077d62c4",
+                "type": "FIX",
+                "text": " VariantManagement: use a different placement for popover",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080011672"
+                    }
+                ]
+            }
+        ]
+    }
+}

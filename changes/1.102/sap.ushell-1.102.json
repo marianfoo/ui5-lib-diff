@@ -1,0 +1,83 @@
+{
+    "1.102.0": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "320ff0718de7e38e0b9e5c620be38ec385b8b85f",
+                "type": "FIX",
+                "text": " Component.active() is not called in AppRuntime",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270064884"
+                    }
+                ]
+            },
+            {
+                "id": "be08b71a0bfc689b66083d504254291070572290",
+                "type": "FIX",
+                "text": " Fix the gap between the Tiles - Space and Classic Mode"
+            },
+            {
+                "id": "09008d744fca64ba3125dc664faf3a920bc83a55",
+                "type": "FIX",
+                "text": " SendAsEmail from iframe generates a wrong URL",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270069900"
+                    }
+                ]
+            },
+            {
+                "id": "d5f3c465d7942ab142a925799b92667394f7ee90",
+                "type": "FIX",
+                "text": " Async registerDirtyStateProvider handling - send the navigation context correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270081525"
+                    }
+                ]
+            },
+            {
+                "id": "4549e3aaf9e6d56853bad0e1f1d2ee84e106c7cc",
+                "type": "FEATURE",
+                "text": " horizon theme for search"
+            },
+            {
+                "id": "9c5535198b12c2a70a6f765177443612ced07e09",
+                "type": "FIX",
+                "text": " Notifications UI: Date renders formatted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270062699"
+                    }
+                ]
+            },
+            {
+                "id": "36180817dcc40525ab4800850b927ecb629bc334",
+                "type": "FIX",
+                "text": " ACC-264.1 Appearance Tab section: Associated label not announced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180408328"
+                    }
+                ]
+            },
+            {
+                "id": "aefe6a39ba552f47e11e5b1254c922ce6ce5c5f5",
+                "type": "FIX",
+                "text": " AllMyApps View: Avoid Truncation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070359514"
+                    }
+                ]
+            }
+        ]
+    }
+}

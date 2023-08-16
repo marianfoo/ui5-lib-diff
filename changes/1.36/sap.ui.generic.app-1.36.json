@@ -1,0 +1,145 @@
+{
+    "1.36.0": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "8e28c24b713b944d65a3a335497b69cb9bcb53cb",
+                "type": "FEATURE",
+                "text": "AppComponent: migrated from POC to UI5 lib",
+                "references": []
+            },
+            {
+                "id": "2df336485c1f9d41764d88898bde408274dcdea6",
+                "type": "FEATURE",
+                "text": "GenericApp: adding the navigation service",
+                "references": []
+            },
+            {
+                "id": "71db73f832793f695623f33a5955a948bb12d409",
+                "type": "FEATURE",
+                "text": "NavigationService: support for multi-valued startup parameters",
+                "references": []
+            },
+            {
+                "id": "de27a653f57f1143c65e99515065a8ae49537585",
+                "type": "FEATURE",
+                "text": "Transaction Controller Migration",
+                "references": []
+            },
+            {
+                "id": "06b1421d285ec9ef82619414a16e704839c85153",
+                "type": "FEATURE",
+                "text": "sap.ui.generic.app: NavigationController - migration",
+                "references": []
+            },
+            {
+                "id": "780a84a177f90a454086fe3e8de9cd13b7c93c29",
+                "type": "FEATURE",
+                "text": "sap.ui.generic.app: navigation via deep linking",
+                "references": []
+            },
+            {
+                "id": "2afa289d5d7a26ba14473401f619f8f40c3dd126",
+                "type": "FIX",
+                "text": "ApplicationController: Correction Busy Animation Handling",
+                "references": []
+            },
+            {
+                "id": "ef72689833a8fbc6d81466d813e987816ec8b6f9",
+                "type": "FIX",
+                "text": "NavigationService: consider template component",
+                "references": []
+            },
+            {
+                "id": "738b3d91d939a4a80acc95bb0c08f2ebf7cd783b",
+                "type": "FIX",
+                "text": "NavigationService: corrections for default state handling",
+                "references": []
+            },
+            {
+                "id": "8780b4e29e3e61230a289823461734dae848478b",
+                "type": "FIX",
+                "text": "SmartTemplates: Corrections",
+                "references": []
+            },
+            {
+                "id": "a26ac851f02f9dc58998dc7455773144c402b1ca",
+                "type": "FIX",
+                "text": "sap.ui.generic.app - NavigationController: onDeactivate handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580062546"
+                    }
+                ]
+            },
+            {
+                "id": "ede91bb13f6c6c6fa1ccc385f114f6d333b5e475",
+                "type": "FIX",
+                "text": "sap.ui.generic.app.NavigationController: unbind during create",
+                "references": []
+            },
+            {
+                "id": "8fac3431e24c30e9641f8fba6d1f6df01f737a16",
+                "type": "FIX",
+                "text": "sap.ui.generic.app: remove hardcoded id's used by routing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570774617"
+                    }
+                ]
+            },
+            {
+                "id": "76a563b58280493d91cd28d921612efe1d0f208f",
+                "type": "FIX",
+                "text": "Harmonize oAppData in parseNavigation for all NavTypes",
+                "references": []
+            }
+        ]
+    },
+    "1.36.1": {
+        "date": "February 2016",
+        "notes": [
+            {
+                "id": "827d37a8d438dd94b8c3db20e8ceef9df0f3c2b4",
+                "type": "FIX",
+                "text": "AppComponent: No error message for metadata request",
+                "references": []
+            }
+        ]
+    },
+    "1.36.4": {
+        "date": "March 2016",
+        "notes": [
+            {
+                "id": "78eb8b0d17e50d508aeb17835feb0155060d5665",
+                "type": "FIX",
+                "text": "NavigationHandler: consider navigation based on a ui component",
+                "references": []
+            }
+        ]
+    },
+    "1.36.6": {
+        "date": "April 2016",
+        "notes": [
+            {
+                "id": "d5ef55bbf99f5ebca157afab147ddac434e34488",
+                "type": "FIX",
+                "text": "NavigationHandler: Browser hash now determined via HashChanger singleton",
+                "references": []
+            },
+            {
+                "id": "9944e0bcf4b0c6c0a88b01f6fe043f52d59f75ab",
+                "type": "FIX",
+                "text": "fiori parameter call without object page check",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670141890"
+                    }
+                ]
+            }
+        ]
+    }
+}

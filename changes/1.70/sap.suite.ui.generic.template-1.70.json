@@ -1,0 +1,109 @@
+{
+    "1.70.0": {
+        "date": "August 2019",
+        "notes": [
+            {
+                "id": "afe50e0a8cdc925d1edf83acfdecea209d6e4213",
+                "type": "FIX",
+                "text": "OP: Auto scroll when object page is loading",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970400876"
+                    }
+                ]
+            },
+            {
+                "id": "52d73ee740f14857284b6ed396e7d4535fbd36f1",
+                "type": "FIX",
+                "text": "LROP: Fix concatenation of query parameters in navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970395399"
+                    }
+                ]
+            },
+            {
+                "id": "d2b2a0c08830b2bb334f5232ff48f2086539521b",
+                "type": "FIX",
+                "text": "LROP: Primary actions in dialogs are emphasized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970418212, 1970365429"
+                    }
+                ]
+            },
+            {
+                "id": "cd8c534fe4cc38da5b5d6cf218830b426278af9a",
+                "type": "FEATURE",
+                "text": "LR: Support designtime and change handlers for grid and analytical table - Moved and removed columns"
+            },
+            {
+                "id": "021781c67344821c40e402d7f2cd888710686dd0",
+                "type": "FEATURE",
+                "text": "OP: Support all table types in sections/subsections on object page"
+            },
+            {
+                "id": "c64d305a884e94e8d5dc31bd08b901236e572579",
+                "type": "FIX",
+                "text": "LR: Use gridTable as a fallback if the main entitySet is analytical, but the non-analytical entitySet is also used in QuickVariantSelectionX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970418824"
+                    }
+                ]
+            },
+            {
+                "id": "e4ac14954bea337748b12993b3e3ad9ecc05a0e5",
+                "type": "FIX",
+                "text": "OP: Smart table shows only 25 entries",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970425395"
+                    }
+                ]
+            },
+            {
+                "id": "7d6230c027ef3e9efaaca841d7748ff1a48b6006",
+                "type": "FIX",
+                "text": "LROP: Do not show null values in the table grouping header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970369378"
+                    }
+                ]
+            },
+            {
+                "id": "61182bfedc187f7ec13e14515804d79d8f4d0770",
+                "type": "FIX",
+                "text": "OP: formateError with ' character in toast message on the object page"
+            },
+            {
+                "id": "37d9ab8db8d13b11f3936281ff9f99283beb974a",
+                "type": "FEATURE",
+                "text": "OP: Enable MultiSelectionPlugin for tables"
+            },
+            {
+                "id": "744e0b8acff457a951977dfc211ad3625b3292d4",
+                "type": "FEATURE",
+                "text": "OP: Toast message for saved object should not appear if no changes were made"
+            },
+            {
+                "id": "33774735eaf17ded734b18b96e9d201974328317",
+                "type": "FIX",
+                "text": "OP: Edit button does not switch to edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970432107"
+                    }
+                ]
+            }
+        ]
+    }
+}

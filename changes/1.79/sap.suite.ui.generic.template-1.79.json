@@ -1,0 +1,163 @@
+{
+    "1.79.0": {
+        "date": "June 2020",
+        "notes": [
+            {
+                "id": "3e7b7807f0bd818eb6ecf263a39d274a430d23cc",
+                "type": "FEATURE",
+                "text": "OP: Changed semantic color of footer message button"
+            },
+            {
+                "id": "46d8ade06065f720e3bca680286130611446a0da",
+                "type": "FEATURE",
+                "text": "OP: Added an option to configure multiple semantic objects for Related Apps button"
+            },
+            {
+                "id": "3da34a1c80e563086eb12b2a1a67309f80d2193c",
+                "type": "FEATURE",
+                "text": "OP: Optimized object page behavior"
+            },
+            {
+                "id": "799d278d8850d38b9caa8563b5cf48e93207fc83",
+                "type": "FEATURE",
+                "text": "LROP: Updated confirmation message for Delete"
+            },
+            {
+                "id": "3a6558e97619cdfad0c2edaf0012d2e45cb4c75d",
+                "type": "FEATURE",
+                "text": "OP: Enhanced the performance of New Draft object creation"
+            },
+            {
+                "id": "eba3e02eb4cdcefa6a12ceaaea5f0fd282029ce1",
+                "type": "FIX",
+                "text": "OP: Fixed visibility issues for side-content",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980349967"
+                    }
+                ]
+            },
+            {
+                "id": "32f7102e313c84a6d878166aa11ba69586c418a4",
+                "type": "FIX",
+                "text": "LR: Set the property preserveHeaderStateOnScroll of DynamicPage to False for all table types",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080133174"
+                    }
+                ]
+            },
+            {
+                "id": "454baa4ce38189bfa870299b9a361c86da02eb01",
+                "type": "FIX",
+                "text": "Added a null check for Smart Filter Bar during multi-context navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080142872"
+                    }
+                ]
+            },
+            {
+                "id": "9e122b62f134ec2131d4c20cd0dbf7f8e620c89d",
+                "type": "FIX",
+                "text": "Enhanced the behavior for accepting '()' included values in Smartfield",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070005954"
+                    }
+                ]
+            },
+            {
+                "id": "99d11f9896316837a05e07fcd9f986a837ec1a3a",
+                "type": "FIX",
+                "text": "OP: Updated initialization of hidden columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070219991"
+                    }
+                ]
+            },
+            {
+                "id": "3917846bdab4ba01cca10fa48bde6d96ce201af5",
+                "type": "FIX",
+                "text": "Updated the texts for activation confirmation popup",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070248645"
+                    }
+                ]
+            },
+            {
+                "id": "c70fbf29fd1e7b466c3c70407a6ccf1dfc29056f",
+                "type": "FIX",
+                "text": "LR: Removed Show/Hide Filter button from header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070052233"
+                    }
+                ]
+            },
+            {
+                "id": "80ea1c20ea0deb64a0a777078d6f61dfe71a7551",
+                "type": "FIX",
+                "text": "OP: Fixed the translation issue for i18n texts DELETE_WITH_WARNINGS in confirmation pop-up"
+            },
+            {
+                "id": "89fdb9d1d07a6f6cf8e1542e5794f17bb802dc4a",
+                "type": "FIX",
+                "text": "OP: Provided Promise in extensionAPI.onCustomStateChange ",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "277676"
+                    }
+                ]
+            },
+            {
+                "id": "fe5a6698577658b4a29527d4f2a2c443def5318c",
+                "type": "FIX",
+                "text": "LR: Harmonized the noData text in table and chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070146034"
+                    }
+                ]
+            },
+            {
+                "id": "79ef4962ed1eea3d310556b158d75a4aa25caef1",
+                "type": "FIX",
+                "text": "OP: set demand popin for responsive table"
+            },
+            {
+                "id": "d7c8e60472c2496ba422463166b8190ea792f7a6",
+                "type": "FIX",
+                "text": "LR: With the introduction of Semantic Date Range feature support in Smart Filter Bar, setting the index property for the fields was missed in the modified code. This leads to a problem where all these filters started to have a default index value of -1 and was placed before Editing Status field in the filter bar. The same has been added here.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070179298"
+                    }
+                ]
+            },
+            {
+                "id": "89bb25047f11aa92d192245bd3a9fcb7a93483e8",
+                "type": "FIX",
+                "text": "Trigger page data load event while switching from a Create page to another in non-draft scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070206023"
+                    }
+                ]
+            }
+        ]
+    }
+}

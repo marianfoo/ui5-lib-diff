@@ -1,0 +1,169 @@
+{
+    "1.76.0": {
+        "date": "February 2020",
+        "notes": [
+            {
+                "id": "fe35de1d37f1f9139f5e6e4a02b94afc7053b43e",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Added support for FetchValues in ValueList annotation",
+                "references": []
+            },
+            {
+                "id": "941ed436e4bd1e2d28ef5aa7378371b1d8b6b7c2",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Alphabetical sort order of fields in Adapt Filters dialog",
+                "references": []
+            },
+            {
+                "id": "2753b4424e27cabfe45f1fda2ddf235bf3ba7bdf",
+                "type": "FIX",
+                "text": " FilterBar: Fixed asterisk symbol to be after the colon symbol",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070009345"
+                    }
+                ]
+            },
+            {
+                "id": "0ae6c416fea8c9b5a4de8c1db63958c05bdafdc2",
+                "type": "FIX",
+                "text": " FilterProvider: FilterDefaultValue false is now correctly displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080124673"
+                    }
+                ]
+            },
+            {
+                "id": "32d06ca26297ece58994313e48c77b44b7726049",
+                "type": "FIX",
+                "text": " SmartField: Currency scale digits parsing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980534255"
+                    }
+                ]
+            },
+            {
+                "id": "807298042188b4a3ef595629bd32ec101267af57",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Selected items in the table to be selected after research",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080030560"
+                    }
+                ]
+            },
+            {
+                "id": "5668eaa8bf6382b9106f5a456a78a01903422ff2",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Table deselect fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080088649"
+                    }
+                ]
+            },
+            {
+                "id": "9c9a5a6a1c4c2ac98a4c4cba4a2e772d54111652",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Table inactive with in-parameter and auto filtering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070009951"
+                    }
+                ]
+            },
+            {
+                "id": "68f7e9ab324ccdbfec15c9126785d68cc0dcb273",
+                "type": "FIX",
+                "text": " SmartField: checkValuesValidity with currency and semi-valid field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980534255"
+                    }
+                ]
+            },
+            {
+                "id": "c526f6dda67a86f6c414d3a8469498df7e155cc5",
+                "type": "FIX",
+                "text": " SmartMultiEdit - getting value of GenderWithoutText changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970221613"
+                    }
+                ]
+            },
+            {
+                "id": "bd479b88c31dcce8dda8580cb2c0d3596913e799",
+                "type": "FIX",
+                "text": " SmartfilterBar: colon removed from basic search label",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070029716"
+                    }
+                ]
+            },
+            {
+                "id": "35aead1c4c22af4252b7d3e48dca5a09c72b0afb",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Add hidden filters to the query result from OData",
+                "references": []
+            },
+            {
+                "id": "9c447fde6ceea7c3924fd058cbecd6c9956eda1e",
+                "type": "FIX",
+                "text": " FiscalFormat: Years parsing fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080086270"
+                    }
+                ]
+            },
+            {
+                "id": "fa08dee836b0866937b3fee7bc46cb41981957f0",
+                "type": "FIX",
+                "text": " SmartField: In edit mode the currency code is now aligned with the amount",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070002973"
+                    }
+                ]
+            },
+            {
+                "id": "03a9b1b0c8de2806ba23b76ae31ece60423e12a5",
+                "type": "FIX",
+                "text": " SmartTable: Allow adaptation for custom toolbar content",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070014689"
+                    }
+                ]
+            },
+            {
+                "id": "49aeb5c3a6542dda00c2f31d8608090f05195d40",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Typing is prevented for interval types",
+                "references": []
+            },
+            {
+                "id": "b35812494dcc8f030e22076b38cc7234a12c6445",
+                "type": "FEATURE",
+                "text": " SmartForm: Indicator for empty Fields",
+                "references": []
+            }
+        ]
+    }
+}

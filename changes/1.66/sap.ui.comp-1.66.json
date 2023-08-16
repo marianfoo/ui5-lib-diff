@@ -1,0 +1,150 @@
+{
+    "1.66.0": {
+        "date": "April 2019",
+        "notes": [
+            {
+                "id": "c84e62b668f66a049d3557c961abec900bf22ff2",
+                "type": "FIX",
+                "text": "JSDoc: incorporate feedback from SDK feedback channel (2019/3)",
+                "references": []
+            },
+            {
+                "id": "878542afa18c6812fc60480b87d7c65a698d6348",
+                "type": "FIX",
+                "text": "SmartField: .setValueState() and .setValueStateText() methods fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870336568"
+                    }
+                ]
+            },
+            {
+                "id": "864cd4f7a283bb1593e52d65f7eee66ee5b354e8",
+                "type": "FIX",
+                "text": "SmartField: Alignment of UoM fields in tables fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970115846"
+                    }
+                ]
+            },
+            {
+                "id": "ef866f0f35ff7d28880c7f335980eac69bbbd5d2",
+                "type": "FIX",
+                "text": "SmartField: Conversion error for EDM Byte type fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980093715"
+                    }
+                ]
+            },
+            {
+                "id": "45d436960d65a507a72c434a7c1791770a051815",
+                "type": "FIX",
+                "text": "FilterBar: clear value error state after data suite appliance",
+                "references": []
+            },
+            {
+                "id": "42d359fbdc07c02238950e3d0e349dc2af97649b",
+                "type": "FIX",
+                "text": "UiState: consider lineItem for Visualization of SPV",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001929622019"
+                    }
+                ]
+            },
+            {
+                "id": "924422e6b9678f9301c4d2b0ab11b1c15fb231eb",
+                "type": "FIX",
+                "text": "SmartField: Incorrect validation error message fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980194246"
+                    }
+                ]
+            },
+            {
+                "id": "925cd21401ca8172c04b032cadf82ada58583e3c",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmultiedit.Field : Fix for field validation issue.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980045930"
+                    }
+                ]
+            },
+            {
+                "id": "48e5530fbbaad53d1dec43cacba09b30bc1da4de",
+                "type": "FEATURE",
+                "text": "SmartTable: Alignment for some Calendar annotations supported",
+                "references": []
+            },
+            {
+                "id": "3e72509a1bc2b2c315c610ad3361f2d301dff9e4",
+                "type": "FIX",
+                "text": "FilterBar: sample enhancement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980215640"
+                    }
+                ]
+            },
+            {
+                "id": "8a0ea9da2505f67771eac00c06d467a806470b43",
+                "type": "FIX",
+                "text": "SmartField: Changes to the configuration aggregation are now always considered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001794342019"
+                    }
+                ]
+            },
+            {
+                "id": "6fbef9b00a9a2c2faf4ca8126d91b269c07e6482",
+                "type": "FIX",
+                "text": "VariantManagement: minor css adaption",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980217782"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1980217646"
+                    }
+                ]
+            },
+            {
+                "id": "b1f1c27bf0f4271320f08bd4c0bbc9716ea6a61d",
+                "type": "FIX",
+                "text": "SmartField: Date formatting issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980216671"
+                    }
+                ]
+            },
+            {
+                "id": "a2d4705e3f1734fdd5fb2060ccd8042dda685111",
+                "type": "FIX",
+                "text": "ValueListProvider.js : avoid Filter with values.length>maxLength",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980070123"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "1.32.0": {
+        "date": "October 2015",
+        "notes": [
+            {
+                "id": "2187043",
+                "author": "Martin Wegmann <martin.wegmann@sap.com>",
+                "type": "FEATURE",
+                "text": "Recalculating Metadata and Resetting Cache Buster Information for SAPUI5 Apps and Components (UI Add-On 2.0 for SAP NetWeaver SP01 or Higher): To recalculate the metadata and to reset the cache buster information, you now can add '/do-update-meta-data' to the URL of your app or component. This replaces '/resetcachebuster' (which is deprecated, but still supported). For more information, see 'SAPUI5 Application Index' in the application help and SAP Note 2187043.",
+                "references": [
+                    {
+                        "type": "SAP Note",
+                        "reference": "2187043"
+                    }
+                ]
+            },
+            {
+                "id": "UI Add-On 2.0 SP01: App Index Includes Distribution Layer",
+                "author": "Matthias Schmalz <matthias.schmalz@sap.com>",
+                "type": "FEATURE",
+                "text": "SAPUI5 Application Index (UI Add-On 2.0 for SAP NetWeaver, SP01 and Higher): The index calculation also includes the SAPUI5 distribution layer. For more information, see 'SAPUI5 Application Index' in the SAP Library.",
+                "references": [
+                    {
+                        "type": "SAP Support Package",
+                        "reference": "UI Add-On 2.0 SP01 for SAP NetWeaver"
+                    }
+                ]
+            },
+            {
+                "id": "UI Add-On 2.0 SP01: URL app_index",
+                "author": "Matthias Schmalz <matthias.schmalz@sap.com>",
+                "type": "FIX",
+                "text": "SAPUI5 Application Index REST API (UI Add-On 2.0 for SAP NetWeaver, SP01 and Higher): URL for access was changed to .../sap/bc/ui2/app_index. For more information, see 'Securing  the SAPUI5 Repository' in the SAP Library.",
+                "references": [
+                    {
+                        "type": "SAP Support Package",
+                        "reference": "UI Add-On 2.0 SP01 for SAP NetWeaver"
+                    }
+                ]
+            },
+            {
+                "id": "UI Add-On 2.0 SP01: App Index Calculation considers Transport Requests",
+                "author": "Markus Wilmer <markus.wilmer@sap.com>, Martin Wegmann <martin.wegmann@sap.com>",
+                "type": "FEATURE",
+                "text": "SAPUI5 Application Index (UI Add-On 2.0 for SAP NetWeaver, SP01 and Higher): transport requests checked before calculation in report /UI5/APP_INDEX_CALCULATE. For more information, see 'SAPUI5 Application Index' in the application help.",
+                "references": [
+                    {
+                        "type": "SAP Support Package",
+                        "reference": "UI Add-On 2.0 SP01 for SAP NetWeaver"
+                    }
+                ]
+            },
+            {
+                "id": "2245332-1.32",
+                "author": "Martin Wegmann <martin.wegmann@sap.com>",
+                "type": "FEATURE",
+                "text": "Automatic Usage of Whitelist Service for Clickjacking Framing Protection in SAPUI5 Apps (UI Add-On for SAP NetWeaver 1.0 SP15 and 2.0 SP02 or Higher, and Corresponding SAP NetWeaver Releases): If configured, the whitelist service for clickjacking framing protection is used to guard SAPUI5 apps. For more information, see SAP Note 2245332. This feature requires the SAPUI5 core 1.34, 1.32.7, or 1.28.22 or higher.",
+                "references": [
+                    {
+                        "type": "SAP Note",
+                        "reference": "2245332"
+                    }
+                ]
+            }
+        ]
+    }
+}

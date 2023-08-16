@@ -1,0 +1,197 @@
+{
+    "1.115.0": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "9fc89b7964b7c9983cf475a94bad5a27960df4ef",
+                "type": "FIX",
+                "text": " We now ensure the draftIndicator of a property is shown correctly when used in a field group",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370069238"
+                    }
+                ]
+            },
+            {
+                "id": "f9725e50d3432a69e7457852f22a8de5e176dbb2",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now enables you to get the FilterBar building block in the SelectionVariant format"
+            },
+            {
+                "id": "a202cf614dadcf8f6d2ad71e2fe70faf7bf310b8",
+                "type": "FEATURE",
+                "text": " We are now validating mandatory fields in FilterBar building block via triggerSearch API and returning back a promise to inform that triggerSearch() handling is complete"
+            },
+            {
+                "id": "b1247d77f10ef1a87edd7fe3243a6214abc10882",
+                "type": "FEATURE",
+                "text": " We have refactored the commonUtil method addExternalStateFiltersToSelectionVariant for converting filter conditions to selection variant format"
+            },
+            {
+                "id": "de72cce6caefa7e6b7a6198eed52c2458ff4898a",
+                "type": "FIX",
+                "text": " When retrieving the filter value we now consider the binding context in case no value help data is available",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370020907"
+                    }
+                ]
+            },
+            {
+                "id": "a1538e56ece5032ebff31da3516e50d04f6167a8",
+                "type": "FEATURE",
+                "text": " We now ensure that each column in a table has a tooltip"
+            },
+            {
+                "id": "ede4a31b07b493228cc87cc8d0812c7241983f50",
+                "type": "FIX",
+                "text": " We now ensure correct navigation to an app if the link target is a primary action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370027536"
+                    }
+                ]
+            },
+            {
+                "id": "4d735d9f1b71e17ba3415e5211390fad89b003c9",
+                "type": "FIX",
+                "text": " We now show the filters applied to the insights cards in the preview of My Home",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370068031"
+                    }
+                ]
+            },
+            {
+                "id": "30868bb57f52f75395ef6e6d3cfc7e6981667b83",
+                "type": "FEATURE",
+                "text": " We now support binding paths for metadata in the manifest, enabling you to specify the header texts of custom columns"
+            },
+            {
+                "id": "9a1b281b50849c937787b092e78ec9587a2cdeca",
+                "type": "FIX",
+                "text": " We now refresh the avatar immediately after a file upload",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380029158"
+                    }
+                ]
+            },
+            {
+                "id": "590b7d4377d1c9e566b1c77b4aa28cb9f8f07f15",
+                "type": "FIX",
+                "text": " We now only show the first 15 records of the list report table on insight cards",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370059220"
+                    }
+                ]
+            },
+            {
+                "id": "81dc13a9f1860e9f6eaac00abb809d294564e68b",
+                "type": "FIX",
+                "text": " We now ensure the value help is correctly opened when you're using the Field building block",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370063925"
+                    }
+                ]
+            },
+            {
+                "id": "d0a5a97cd8e5e6e3c5615a1c3d9bb099ab3d5e45",
+                "type": "FIX",
+                "text": " We now reflect the insertRestrictions for a FieldGroup and DataField when using empty rows mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370067004"
+                    }
+                ]
+            },
+            {
+                "id": "7dfa356b6e689e135e2b239be8efa961a4626be4",
+                "type": "FIX",
+                "text": " We now ensure that the ariaLabelledBy attribute for fields in a table is set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370048585"
+                    }
+                ]
+            },
+            {
+                "id": "785921c1cb83eedcc0d65370089aa1cb9d94334a",
+                "type": "FIX",
+                "text": " We now ensure that the Settings dialog of the table always opens when clicked",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370058774"
+                    }
+                ]
+            },
+            {
+                "id": "4a0779d9c157f8f8ba177320a0486d96a13bfdec",
+                "type": "FIX",
+                "text": " We now ensure that DataFieldWithUrl also works correctly when it is annotated with a criticality",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003126412023"
+                    }
+                ]
+            },
+            {
+                "id": "c557e0167c7ea4c2db3dc2b4bdadca34c9bb7bf8",
+                "type": "FIX",
+                "text": " Data from the creation row is now persisted to changes on the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370059891"
+                    }
+                ]
+            },
+            {
+                "id": "0e5bb7c71b50b237c7370eaac8687dc8bd99d28e",
+                "type": "FIX",
+                "text": " You can now define nullable SelectOptions in a SelectionVariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370061421"
+                    }
+                ]
+            },
+            {
+                "id": "66d72b73364dd378dacdf9c785eb1c1091aaf980",
+                "type": "FIX",
+                "text": " We now correctly handle the navigation path when evaluating the filter conditions in the value list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370041163"
+                    }
+                ]
+            },
+            {
+                "id": "5db856788060da1c05d9999f454b31a519b842df",
+                "type": "FIX",
+                "text": " We now correctly handle the table context when switching between normal mode and full screen mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370052051"
+                    }
+                ]
+            }
+        ]
+    }
+}

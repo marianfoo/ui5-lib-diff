@@ -1,0 +1,290 @@
+{
+    "1.62.0": {
+        "date": "December 2018",
+        "notes": [
+            {
+                "id": "80cf085fddc7feee91094aae290de39dbc458c38",
+                "type": "FIX",
+                "text": "SmartForm: improve error message for incorrect values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870443353"
+                    }
+                ]
+            },
+            {
+                "id": "bb5cec70d5322b84145d1899b6f5477de011201e",
+                "type": "FEATURE",
+                "text": "HarveyBallMicroChart: Rework to comply with new responsive behaviour and UX guideliness",
+                "references": []
+            },
+            {
+                "id": "235af9637093b36acf8b4945c10e14e20c5f2955",
+                "type": "FEATURE",
+                "text": "SmartTable: Sort icon is now rendered on the sorted columns",
+                "references": []
+            },
+            {
+                "id": "b5e7f6db5d3f189c82e3e9991bdf006ab28f0b06",
+                "type": "FIX",
+                "text": "Controller: check incoming columnKeys",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006346622018"
+                    }
+                ]
+            },
+            {
+                "id": "25138520cafde1ab2ced6fc1103d51094f04424e",
+                "type": "FIX",
+                "text": "DateRangeType: date range for option not read out",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870481313"
+                    }
+                ]
+            },
+            {
+                "id": "8a5c42e61b49549a7380fa440f8e7724429009c3",
+                "type": "FIX",
+                "text": "FilterBar: fix for correct inner function categorization",
+                "references": []
+            },
+            {
+                "id": "0551ec2c97563ca5371bdc83a44a05550420a0d3",
+                "type": "FIX",
+                "text": "FilterBar: remove memory leak in Toolbar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970026312"
+                    }
+                ]
+            },
+            {
+                "id": "997bc1fd9c837691d02d363132e58ef6546fa51b",
+                "type": "FIX",
+                "text": "FilterBar: restore & cancel -> sent filter change event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870523816"
+                    }
+                ]
+            },
+            {
+                "id": "9f311d10a57c6371e425ff127358ac8eaf4599a6",
+                "type": "FIX",
+                "text": "FilterBar: unit test correction for tablet scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870540059"
+                    }
+                ]
+            },
+            {
+                "id": "4125e9a8f6a7a88bf1159c07fa34dced5eb345eb",
+                "type": "FIX",
+                "text": "FilterProvider: for annotation based default filter values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870524641"
+                    }
+                ]
+            },
+            {
+                "id": "55224a694ca70bb4a10c18167745a8a74be690d4",
+                "type": "FIX",
+                "text": "SmartChart: Focus in ZoomButtons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870461405"
+                    }
+                ]
+            },
+            {
+                "id": "1d2e1c99a0c076cc3f6e9febea45e75dc9796686",
+                "type": "FIX",
+                "text": "SmartChart: Roles not recognized for non-analytical service",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970025189"
+                    }
+                ]
+            },
+            {
+                "id": "74e57ca421e18d941f5a017212719443ee3a60ad",
+                "type": "FIX",
+                "text": "SmartChart: Typo in explored sample",
+                "references": []
+            },
+            {
+                "id": "ade7060c76ac353c075006db611e944efbfea6a7",
+                "type": "FIX",
+                "text": "SmartField TextInEditModeSource (ValueList)",
+                "references": []
+            },
+            {
+                "id": "8daae589238155bb8bc5b96c99f15898dc40a3e9",
+                "type": "FIX",
+                "text": "SmartField: Do not bind the \"visible\", \"editable\" and \"mandatory\" properties if already bound",
+                "references": []
+            },
+            {
+                "id": "1acdda53a22bbab9186f00a596f0ddfaec10e7af",
+                "type": "FIX",
+                "text": "SmartField: Don't try to load the value list annotation unnecessarily",
+                "references": []
+            },
+            {
+                "id": "e9c91e57b86d9d3efd98a731ce36369792a6a974",
+                "type": "FIX",
+                "text": "SmartField: Padding of amount field adjusted when currency field is invisible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880664737"
+                    }
+                ]
+            },
+            {
+                "id": "5e9c934e7ef531eb4b67d6e3d276b821f684bc3b",
+                "type": "FIX",
+                "text": "SmartFilterBar: destroy FilterProvider at earliest point",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870528640"
+                    }
+                ]
+            },
+            {
+                "id": "af7358db51937e5279b050cec808cfbcf1d2edbe",
+                "type": "FIX",
+                "text": "SmartFilterBar: mandatory non-visible filter applying variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870505654"
+                    }
+                ]
+            },
+            {
+                "id": "3701db021c7a3c8ae2539b52847fe58565fced7d",
+                "type": "FIX",
+                "text": "SmartFilterBar: remove validation text, once the value was cleared",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970006434"
+                    }
+                ]
+            },
+            {
+                "id": "c64a0e2406af5ae81c4de343d4e8088e13df7d45",
+                "type": "FIX",
+                "text": "SmartFilterBar: setEntitySet can now be used",
+                "references": []
+            },
+            {
+                "id": "5190cdc10617299f392b8ba330e72efa5f5256d3",
+                "type": "FIX",
+                "text": "SmartMultiEdit: Fix Smart Field initialization for non creatable entities",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870468061"
+                    }
+                ]
+            },
+            {
+                "id": "e3f8ea24fd20fce6621978866376fa249883b3df",
+                "type": "FIX",
+                "text": "SmartMultiEdit: Fix Smart Field initialization for non creatable entities",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870468061"
+                    }
+                ]
+            },
+            {
+                "id": "243f4802f60d897a0e680aa795468920adfda89b",
+                "type": "FIX",
+                "text": "SmartTable: minor spacing & alignment issues corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880715482"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1880698134"
+                    }
+                ]
+            },
+            {
+                "id": "f091e9ada4a0f68cb165485668a5de1ca6ac38da",
+                "type": "FIX",
+                "text": "ValueHelpDialog: Token ID invalid",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870506830"
+                    }
+                ]
+            },
+            {
+                "id": "7ae4a1cd584be8cb34fa1e4bed0fbbd99f40b521",
+                "type": "FIX",
+                "text": "ValueHelpDialog: table set from outside ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870558884"
+                    }
+                ]
+            },
+            {
+                "id": "053bbfc9d402601796fd21554d5ec25d17ef4882",
+                "type": "FIX",
+                "text": "VariantManagement: different way to handle invisible field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870547437"
+                    }
+                ]
+            },
+            {
+                "id": "0701b344c1439894b4d86482615c3dff7dc7b131",
+                "type": "FIX",
+                "text": "VariantManagement: moving acc information to static area",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880559932"
+                    }
+                ]
+            },
+            {
+                "id": "da71708b4b348206ec394f65f23ce3cd2bdd8545",
+                "type": "FIX",
+                "text": "sap.ui.rta Reveal of group elements with label",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006603032018"
+                    }
+                ]
+            }
+        ]
+    }
+}

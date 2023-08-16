@@ -1,0 +1,85 @@
+{
+    "1.50.0": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "3bebf79b92278a422fe5e7ec0d4a9031f4d5c008",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.AreaMicroChart: Whole space used in case of label truncation",
+                "references": []
+            },
+            {
+                "id": "6c902102bee5c9f79f0fe810ff3336ec2fb79a2e",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart: Semantic color added to Interactive Charts",
+                "references": []
+            },
+            {
+                "id": "f33c9868528e21649700beee4a6ba972f0dbfba3",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.AreaMicroChart: Layouting canvas element as block independent from browser",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770021275"
+                    }
+                ]
+            },
+            {
+                "id": "c800868b31cc21235ba58ecfab2f32a0757225cd",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.InteractiveBarChart: Bar display for big values with auto-scaling corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770259372"
+                    }
+                ]
+            },
+            {
+                "id": "98329536eb64f85d2454fcf401a4bdff4f0dd47f",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.InteractiveDonutChart: Display of tooltip corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770245060"
+                    }
+                ]
+            },
+            {
+                "id": "9bbbf8be95c26ad686a6da640c768bc2891305f7",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.InteractiveDonutChart: Display of tooltip in MS Edge corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770285428"
+                    }
+                ]
+            },
+            {
+                "id": "98777f27554e8b9b1c99958700ac4532c1eef1e4",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.InteractiveLineChart: Hover display of columns corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780255025"
+                    }
+                ]
+            },
+            {
+                "id": "c8a75c0e915b6b1259c7385c919b560471e89320",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.StackedBarMicroChart: Stop click event propagation when chart has press event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770246328"
+                    }
+                ]
+            }
+        ]
+    }
+}

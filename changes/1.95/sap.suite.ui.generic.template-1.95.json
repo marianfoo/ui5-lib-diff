@@ -1,0 +1,115 @@
+{
+    "1.94.0": {
+        "date": "Sept 2021",
+        "notes": [
+            {
+                "id": "I1c546dcb29392403961ae02e24b8e5374f29897d",
+                "type": "FEATURE",
+                "text": "ALP : To support MultiTable in ALP"
+            },
+            {
+                "id": "Ic1c0cf5bbf83166d6b0b66a2d6d096743945d37f",
+                "type": "FEATURE",
+                "text": "LR: Added navigation chevron and navigation row indicator to smart list"
+            },
+            {
+                "id": "I82feb4b18d718739de857ad8ce10a34d72ecce54",
+                "type": "FEATURE",
+                "text": "OP: Implenetation of Summary Line instead of the Collapsed Header in small screen devices"
+            },
+            {
+                "id": "I4b2ef6d47a587d542104ee09b8d44bb9be98f06a",
+                "type": "FEATURE",
+                "text": "Consumption of UI5 API for placeholder"
+            },
+            {
+                "id": "I3b3f6b0c3df048e9abcaf2719db6cd3d05f34bfb",
+                "type": "FIX",
+                "text": "LR/OP: Set keep alive refresh behaviour for navigation trigerred from quick view content area",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180315897"
+                    }
+                ]
+            },
+            {
+                "id": "Iddbc86b9813ad954e492f1f6ce62467d4745746f",
+                "type": "FIX",
+                "text": "To add entityset property to SVM",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004507512021"
+                    }
+                ]
+            },
+            {
+                "id": "I3bb23baf6fa20e47e1226dbc12e477921f082089",
+                "type": "FIX",
+                "text": "OP: Subsection stable ID handling for BeforeSubSection and AfterSubSection",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180301516"
+                    }
+                ]
+            },
+            {
+                "id": "I8561649983cbcb7ee84201cd0c7da6e2167b39ae",
+                "type": "FIX",
+                "text": "Support for multiple arguments in ST_GENERIC_NOT_PROCESSED_RECORDS",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180121557"
+                    }
+                ]
+            },
+            {
+                "id": "Iadb48b81736e8879552b3c623086e8f941b31f9c",
+                "type": "FIX",
+                "text": "OP: Paginator Button is working correctly with discard draft popup feature",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180319342"
+                    }
+                ]
+            },
+            {
+                "id": "I5a4350e970a044ba704bdb2accb700d88b7054f6",
+                "type": "FIX",
+                "text": "OP: Ensure that drafts that have been cancelled within an app are not readdressed when coming back from another app in keep-alive mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180330405"
+                    }
+                ]
+            },
+            {
+                "id": "I1bc040e2a4989e131f9c1c17a390c01d3410c582",
+                "type": "FIX",
+                "text": "LR: adapt filters in key user scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180228274"
+                    }
+                ]
+            },
+            {
+                "id": "Ibf473ee2819445648565f5efb0a3f9528fe77999",
+                "type": "FIX",
+                "text": "DataFieldForIntentBasedNavigation using Action defined via Path",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180301641"
+                    }
+                ]
+            }
+        ]
+    }
+}

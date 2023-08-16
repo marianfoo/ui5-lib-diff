@@ -1,0 +1,34 @@
+{
+    "1.103.0": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "0a9f003d306becbfb4e6bc3cf094afed718cd875",
+                "type": "FIX",
+                "text": " The message for the field containing the error on the UI isn't removed until the entry is correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270044399"
+                    }
+                ]
+            },
+            {
+                "id": "00d1c94e2461890a67aefb562fd5108b99fbfbc0",
+                "type": "FIX",
+                "text": " A front-end message is now properly displayed in case there's an error in the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270083377"
+                    }
+                ]
+            },
+            {
+                "id": "402842f74fcc1e2cea5a6103cdf00dbbace0c39f",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the synchronization of data between pages when using the flexible column layout"
+            }
+        ]
+    }
+}

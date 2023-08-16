@@ -1,0 +1,491 @@
+{
+    "1.52.0": {
+        "date": "August 2017",
+        "notes": [
+            {
+                "id": "88ec4b28c827b7a1da144dd59de3507ed0ec4d1b",
+                "type": "FEATURE",
+                "text": "LR: Smart chart is now supported"
+            },
+            {
+                "id": "28b10504a149d57b26add93b7334bbf7b61b888c",
+                "type": "FEATURE",
+                "text": "ALP: Visual filter: Value help selection added"
+            },
+            {
+                "id": "899fe095681994f0261f289faaaad1f39d8b71b9",
+                "type": "FEATURE",
+                "text": "OP: When saving, confirmation popup is shown if there are warnings"
+            },
+            {
+                "id": "e1eece354f7e9a556378470edc4cba8f96c1bcc0",
+                "type": "FEATURE",
+                "text": "ALP: Trigger creation of new iAppState supported"
+            },
+            {
+                "id": "88856d81ba44f638f0195ed73be20a27cb11db1b",
+                "type": "FEATURE",
+                "text": "OP: App-internal linking between entities is now available"
+            },
+            {
+                "id": "2f6cd5a937fcd6c30de665f619fe3278ff351443",
+                "type": "FEATURE",
+                "text": "LROP: Messaging for context-dependent actions"
+            },
+            {
+                "id": "2edc4447a3fb869e2c2f2093aab312bb7c5c0e99",
+                "type": "FEATURE",
+                "text": "ALP: Mobile devices supported"
+            },
+            {
+                "id": "dbd4887001833c4260adf968eee4b26b5a1fd7ab",
+                "type": "FIX",
+                "text": "LR: Unwanted data selection on application start is suppressed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000464623 2017"
+                    }
+                ]
+            },
+            {
+                "id": "56b4e2a9aa93b41db95ad3b3d0b949566cdf6db7",
+                "type": "FEATURE",
+                "text": "LROP: Users can start the app with (preferred) mode 'create' and already provide input for dedicated fields"
+            },
+            {
+                "id": "0c00a507cc1a1bccdcda784adc285bab11990cbb",
+                "type": "FEATURE",
+                "text": "OP: Provide a header extension point"
+            },
+            {
+                "id": "92a3cb696e1b72a6182c0edcc5ff872309ba018c",
+                "type": "FEATURE",
+                "text": "LROP: Semantic highlighting of rows"
+            },
+            {
+                "id": "7ae91eafc50b30ded20477587f25863e9fa91b0a",
+                "type": "FEATURE",
+                "text": "ALP: Navigation from KPI Card"
+            },
+            {
+                "id": "bb18e5354727b5a4584d0ec7ae6c3f92b236c3b7",
+                "type": "FIX",
+                "text": "OP: Label replaced with smart label in header datapoint",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770371552"
+                    }
+                ]
+            },
+            {
+                "id": "bbb1cd710bf7e2f59bfacd933cae0de1c2c3eab9",
+                "type": "FEATURE",
+                "text": "OP: Hide toast messages when cancelling draft"
+            },
+            {
+                "id": "68950c0e3902c6bd528b3404a4b488da8cb27e73",
+                "type": "FEATURE",
+                "text": "LROP: Introduce mConsiderObjectsAsDeleted"
+            },
+            {
+                "id": "107e6aaebc7727a81ce4355b64b2fdb0ad522604",
+                "type": "FEATURE",
+                "text": "OP: Extension API attachAfterDelete is now available for deleting enabled smart tables on object page."
+            },
+            {
+                "id": "ce89a99ef5e0621b1696585c7e9d7addd08ba32d",
+                "type": "FEATURE",
+                "text": "LR: Allow developers of extensions to trigger the creation of a new iAppState"
+            },
+            {
+                "id": "50b255547b3da6cee13b0b13e9cffc0e00cff35a",
+                "type": "FIX",
+                "text": "LR: Toggle filter button is hidden, and external navigation is handled for worklist",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770406840"
+                    }
+                ]
+            },
+            {
+                "id": "a1fd9a7594eea51743acf709f7bc248156df771f",
+                "type": "FIX",
+                "text": "LROP: Group header label corrected"
+            },
+            {
+                "id": "aa417cf244cddd8126747214d1e8d56cab81242d",
+                "type": "FIX",
+                "text": "OP: Search field value persisting issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770324607"
+                    }
+                ]
+            },
+            {
+                "id": "9ce5800acd638930424e359eb7c2268c857f5124",
+                "type": "FIX",
+                "text": "OP: navToListOnSave parameter can be used to allow navigation to list report after draft activation"
+            },
+            {
+                "id": "5df53c447a895c5bc6b69e32630cc05bfb6c9e8e",
+                "type": "FIX",
+                "text": "LR: UiState API now fetches filters from URL parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770411537"
+                    }
+                ]
+            },
+            {
+                "id": "931d3187121316e593484ecfcc69321f8d1f540d",
+                "type": "FEATURE",
+                "text": "ALP: New chart qualifier added for content area"
+            },
+            {
+                "id": "d73f2c6ebb4f2d50e33e4fe234cbb08643769c7b",
+                "type": "FIX",
+                "text": "LROP: invokeActions API now handles transient messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770349466"
+                    }
+                ]
+            },
+            {
+                "id": "c03d52f6f6bd561bdf755455f7b57a08178a204c",
+                "type": "FEATURE",
+                "text": "LR: Replace use of dataSuiteFormat APIs with the new UIStateVariant API for smart filter bar"
+            },
+            {
+                "id": "bd8168c542aa4ced9ffe70c60e316dacc99aec04",
+                "type": "FIX",
+                "text": "OP: Start each editing session with a blank draft saving indicator"
+            },
+            {
+                "id": "c687bee691b1c568bf0e688cc0a0586a8a092301",
+                "type": "FIX",
+                "text": "LROP: Fix for the progress indicator to display non string values.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770351134"
+                    }
+                ]
+            },
+            {
+                "id": "d680b5912f8ee3968e22da686d3730b49311a238",
+                "type": "FEATURE",
+                "text": "LR: Highlighting of draft items"
+            },
+            {
+                "id": "fb6f07a1646f7ff7d637eca6b8e7db4154ec1218",
+                "type": "FIX",
+                "text": "LR: Fix for page variant not found error when variantManagementHidden is true",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770386284"
+                    }
+                ]
+            },
+            {
+                "id": "128f4a29378498b4e6bc569efe2b422374b1ebf3",
+                "type": "FEATURE",
+                "text": "ALP: Support for direct navigation to Object Page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770380541"
+                    }
+                ]
+            },
+            {
+                "id": "d468ca1888915ac873739c4a0df986148c5ab211",
+                "type": "FEATURE",
+                "text": "ALP: Support for requiresSelection buttons on table and chart"
+            },
+            {
+                "id": "2bbdca2a20491b001fd70f648b5b80cb3faa1056",
+                "type": "FIX",
+                "text": "LR : Now handling deletion of active entities with non zero UUIDs while deleting the corresponding draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770360688"
+                    }
+                ]
+            },
+            {
+                "id": "9fc01679356caa6df6614c65e44eddc56783b0d7",
+                "type": "FIX",
+                "text": "OP: Object page header's left padding in FCL fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780395910"
+                    }
+                ]
+            },
+            {
+                "id": "b407a87c3ec462db44e09667b8f4287a33cb9bfc",
+                "type": "FIX",
+                "text": "LROP: Added error message when editing not authorized object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770324146"
+                    }
+                ]
+            },
+            {
+                "id": "6db1b153f03d03001d14767eeedd8fea574e5dd8",
+                "type": "FIX",
+                "text": "OP: Support side effects in conjunction with inline create"
+            },
+            {
+                "id": "3355ab75038aa7376e7aa6cf5e38fc06a5f43406",
+                "type": "FEATURE",
+                "text": "Co-Pilot: Adding LESS support to QC & QV"
+            },
+            {
+                "id": "1436bed4850c6dfab91de1978a32741c6cadd41c",
+                "type": "FIX",
+                "text": "LR: Fix for variant ID overwriting filter selections on appState",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780225744"
+                    }
+                ]
+            },
+            {
+                "id": "8e6a2280793997d0b35b15634ff2e130a4e3e732",
+                "type": "FEATURE",
+                "text": "ALP: Quick View Card now supported in smart table"
+            },
+            {
+                "id": "4a0a901b1f28ec98900fb685accf6b95a87c118a",
+                "type": "FIX",
+                "text": "OP: Update restriction check was added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770320335"
+                    }
+                ]
+            },
+            {
+                "id": "853a791ec27fa15c1e9d85385dcb9ef2fa0dc21d",
+                "type": "FIX",
+                "text": "LR: Date/time format set to medium for semantic key column.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780356960"
+                    }
+                ]
+            },
+            {
+                "id": "953044e69791efa241391b60e3138bf80596972d",
+                "type": "FIX",
+                "text": "LR: CondensedTableLayout mode for analytical table corrected"
+            },
+            {
+                "id": "77c9a77657bb0e4150060a999c4d4bed9f109662",
+                "type": "FIX",
+                "text": "LROP: Fixed the translation issue in Hindi"
+            },
+            {
+                "id": "f4dc2d7009e79e1fd2858a117232a78470156fa5",
+                "type": "FIX",
+                "text": "QC: Create Button size fix for QC",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780324757"
+                    }
+                ]
+            },
+            {
+                "id": "0c56bf0ca5e6af2f090afc51da0f5aa2cceadcc2",
+                "type": "FIX",
+                "text": "LROP: Correct refresh behaviour of list report after creating no entities",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780291970"
+                    }
+                ]
+            },
+            {
+                "id": "7b4bd90f17658c52cd73e64a654121541664026e",
+                "type": "FIX",
+                "text": "LR: External navigation chevron is hidden in case of ALP.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780407359"
+                    }
+                ]
+            },
+            {
+                "id": "9b38e7aca250be4388d393333d4460c09ad9ab08",
+                "type": "FIX",
+                "text": "LROP: Text arrangement for smart table group headers corrected. ",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780314330"
+                    }
+                ]
+            },
+            {
+                "id": "0fcc2d3a8c7220a054f50aeddc22fdf0b334d00f",
+                "type": "FIX",
+                "text": "LR: Allow navigation to object page when LR and OP entity sets are different",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780283982"
+                    }
+                ]
+            },
+            {
+                "id": "74019424afbe2db02b89ad5ba8aa752d5b625fee",
+                "type": "FEATURE",
+                "text": "OP: Save button: navigate back to list after saving the object"
+            },
+            {
+                "id": "6b006904d7cebb1673cf40da18041fe8e8c2d3d6",
+                "type": "FIX",
+                "text": "LROP: Tolerance towards empty annotations increased ",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000375415 2017"
+                    }
+                ]
+            },
+            {
+                "id": "1e81829f22e328bd4aaeb7dd976b2b5858e5673a",
+                "type": "FIX",
+                "text": "QC: Tooltip support for Lineitem",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780180590"
+                    }
+                ]
+            },
+            {
+                "id": "798e06037e5a5892af54cb3c4ac198c39a1ef4ec",
+                "type": "FEATURE",
+                "text": "OP: Shortcut to add a new entry in tables"
+            },
+            {
+                "id": "cfb9174c208710535febc72dcaeaff708b5ece83",
+                "type": "FIX",
+                "text": "LROP: Quick view: top title area and contact title area corrections",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780348770"
+                    }
+                ]
+            },
+            {
+                "id": "1d156b557059becb4c6ac7c828e5c864732711c1",
+                "type": "FIX",
+                "text": "LROP: Quick view: main navigation link",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780337897"
+                    }
+                ]
+            },
+            {
+                "id": "c3943c2c2c4f5750af6de2c81955a78334244196",
+                "type": "FEATURE",
+                "text": "LROP: Quick view: Enriched the smart link navigation popover with contact data"
+            },
+            {
+                "id": "467307400ff10f7a1c87046e3cf27bfa91c14fcf",
+                "type": "FIX",
+                "text": "LROP: Changes for parsing datatype decimal for progress indicator."
+            },
+            {
+                "id": "d8d68b14423fdbdcd30c9ab2db97e29226b447b9",
+                "type": "FIX",
+                "text": "OP: Subobject page Edit button text corrected ",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780296175"
+                    }
+                ]
+            },
+            {
+                "id": "a2cbf0d4d7fc9f7b6cb0116e1e367f8498b425e5",
+                "type": "Feature",
+                "text": "LROP: During creation/editing of draft app, no popover is displayed when there are no changes"
+            },
+            {
+                "id": "6f7d3f1cdab9c6a3c533c4ee4f38c0df220cdb9e",
+                "type": "FIX",
+                "text": "OP: The processing of side effect annotations during inline delete was corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780152025"
+                    }
+                ]
+            },
+            {
+                "id": "a69323927bb8280d7cc3b455ab69e69c2e4e6491",
+                "type": "FIX",
+                "text": "LROP: Improve update of item pages after draft activation.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780275464"
+                    }
+                ]
+            },
+            {
+                "id": "e88ebd62c7a5bad6b26bbcf62131a2cb74bf90ba",
+                "type": "FIX",
+                "text": "QC: ACC Mandatory fields are read properly in IE",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780148822"
+                    }
+                ]
+            },
+            {
+                "id": "68f75d51d714c74df2f5d01a94779967a2f12c28",
+                "type": "FEATURE",
+                "text": "LROP: Support deep linking to each possible point in hierarchy"
+            },
+            {
+                "id": "8bbbeabff616b13111f648821e6e540f568859f4",
+                "type": "FIX",
+                "text": "OP: Radio button is shown in table if delete restrictons do not exist",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780347143"
+                    }
+                ]
+            }
+        ]
+    }
+}

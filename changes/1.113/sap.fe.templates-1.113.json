@@ -1,0 +1,110 @@
+{
+    "1.113.0": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "c2807f719fd692c5291a57995ad537c878334c24",
+                "type": "FIX",
+                "text": " We've now disabled the variant management by default at the control level on the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "fe4ccd74bb37ab3bc7cb110d3fb75636eb1cd0d3",
+                "type": "FIX",
+                "text": " We now correctly display a visible table in an object page that has multiple sections",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370006873"
+                    }
+                ]
+            },
+            {
+                "id": "484dc853a609facd031b7e8bcca0758eb50cfd4f",
+                "type": "FEATURE",
+                "text": " The initializeFeatureToggles hook that implements feature toggles now supports async execution"
+            },
+            {
+                "id": "3e9ec05b2abc0bec4fbe537796ba0c6f8f4e1ccd",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the date time format used in the data of a freestyle app with an outbound navigation configuration",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370024451"
+                    }
+                ]
+            },
+            {
+                "id": "6174de3462e8f72e6f3366c47ae282aebbee0d85",
+                "type": "FIX",
+                "text": " We now always provide a message box to users after they entered invalid data in a user input field of the filter bar and tried to load the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380035908"
+                    }
+                ]
+            },
+            {
+                "id": "1a5b62acdfc9391b3cae4b9b07ef82e746cd32fe",
+                "type": "FIX",
+                "text": " SAP Fiori elements now enables you to filter on a table using navigation properties as part of the LineItem",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380041906"
+                    }
+                ]
+            },
+            {
+                "id": "42fd04b5c767e3a20ef5734ef4e2573e0d03e5ac",
+                "type": "FIX",
+                "text": " SAP Fiori elements now displays the technical name of the column in case no label is defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370016753"
+                    }
+                ]
+            },
+            {
+                "id": "41632f0059f2d42b3fe66089a37c747fa06bceed",
+                "type": "FIX",
+                "text": " We've resolved an issue where navigation to an object page wasn't carried out for actions in Changeset mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044872"
+                    }
+                ]
+            },
+            {
+                "id": "7c504c11171baed9a1837658e634412fc2e0b528",
+                "type": "FEATURE",
+                "text": " You can now use a reference facet to point to a table on an object page, and use the 'Show More' button to make the table visible"
+            },
+            {
+                "id": "50bb4893d52eff02e6b1134092108daa8d00b240",
+                "type": "FIX",
+                "text": " Focus is now properly restored when a user clicks 'Apply' on the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380010898"
+                    }
+                ]
+            },
+            {
+                "id": "30720747a8a68c4e3e5f8c82670a7597ec2f4474",
+                "type": "FEATURE",
+                "text": " We've enhanced the semantic operators for DateTime-based fields and now also support hours and minutes"
+            }
+        ]
+    }
+}

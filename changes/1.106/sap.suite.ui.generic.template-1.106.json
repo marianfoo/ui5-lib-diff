@@ -1,0 +1,179 @@
+{
+    "1.105.0": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "Ia3f73db1c0fecc800eacb808904aa41aeb5a9ab3",
+                "type": "FEATURE",
+                "text": "Content-ID referencing for function import - create has been introduced"
+            },
+            {
+                "id": "I071dcc08d5ae3816a7af97a163cde7a81202b011",
+                "type": "FEATURE",
+                "text": "Value help for side effects has been added"
+            },
+            {
+                "id": "I39c7e79bdf427f5d84a239c3bcd91011d98c7a29",
+                "type": "FEATURE",
+                "text": "Client side validations are now possible against the value help entity set"
+            },
+            {
+                "id": "Ic305f9e4e77c673d7eb9bd2a3fe3432c862b439b",
+                "type": "FEATURE",
+                "text": "UX default for the Discovery mode or the Persistence mode has been implemented"
+            },
+            {
+                "id": "Ie1f532c3039ee16f7c5abbea88b48c04f2d47334",
+                "type": "FEATURE",
+                "text": "Global side effects are now triggered on defined entities"
+            },
+            {
+                "id": "Ibf04926df945522aa01121bb203f8675eb99ef2d",
+                "type": "FEATURE",
+                "text": "ForceGlobalRefresh is now set as false by default"
+            },
+            {
+                "id": "I897605750da1a7fa75f46e10aa3b5c2193f71bac",
+                "type": "FEATURE",
+                "text": "PreparationAction is now called upon pressing Enter"
+            },
+            {
+                "id": "If2cf2b830ce8ff0b3b2a62505eea3f2a7b789c55",
+                "type": "FEATURE",
+                "text": "The navigation from canvas pages has been improved"
+            },
+            {
+                "id": "I6ed0a18b5cd158c07bcd169fc80997a984600f76",
+                "type": "FIX",
+                "text": "Toast messages are now displayed for success or info messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280164026"
+                    }
+                ]
+            },
+            {
+                "id": "I96f94dc84e5d22dc57f8af9da22a4e2b8999ed5e",
+                "type": "FIX",
+                "text": "The issues with empty action of smart chart are now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280149606"
+                    }
+                ]
+            },
+            {
+                "id": "I800cbc8af0b741d472b88742af1a8da1ff9a1c73",
+                "type": "FIX",
+                "text": "VBox is now removed if there is no subtitle in the object page header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280102622"
+                    }
+                ]
+            },
+            {
+                "id": "I64b523a8dcb7f04128cb81433412934f4e9c8556",
+                "type": "FIX",
+                "text": "Header is now collapsed upon variant change in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280134577"
+                    }
+                ]
+            },
+            {
+                "id": "I1a2c1c65806847ad7a4d55e917d36049af7b1c8d",
+                "type": "FIX",
+                "text": "Promises are now resolved for DirectEdit scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280124880"
+                    }
+                ]
+            },
+            {
+                "id": "I014610c251b4f0a830244fd4c6c87e70e2e9aac7",
+                "type": "FIX",
+                "text": "Flexible column layout now works better on tablets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280084143"
+                    }
+                ]
+            },
+            {
+                "id": "I0246f47a957090ac48811ad9d7165e0448436d9c",
+                "type": "FIX",
+                "text": "Header is now collapsed upon variant change in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280134577"
+                    }
+                ]
+            },
+            {
+                "id": "I762135f9e5eed25c7c90a76c969b5301c38f7f64",
+                "type": "FIX",
+                "text": "The object page does not unbind views when validation message appears on other view",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280095603"
+                    }
+                ]
+            },
+            {
+                "id": "Ibf28d24b096daca4da46f8d3c90d2ecbb18cae4b",
+                "type": "FIX",
+                "text": "Integration of Fiori Elements apps now works better in myInbox for fast change or the refresh of data to be displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270090643"
+                    }
+                ]
+            },
+            {
+                "id": "I2ce55bcf23bf5614dd0baa86232b2f6cd8ec23a6",
+                "type": "FIX",
+                "text": "Whitespaces are now handled correctly within links",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270042830"
+                    }
+                ]
+            },
+            {
+                "id": "Id2e72baaf3ac9529dd870addba6535f22301b808",
+                "type": "FIX",
+                "text": "Parameters are now aptly evaluated during external navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280119596"
+                    }
+                ]
+            },
+            {
+                "id": "I2cbb9310ee4b0a5a7261af9c6c0d3dfbeed8a12f",
+                "type": "FIX",
+                "text": "Null pointer exceptions are now avoided during the navigation within myInbox scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280133744"
+                    }
+                ]
+            }
+        ]
+    }
+}

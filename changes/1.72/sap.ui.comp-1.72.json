@@ -1,0 +1,133 @@
+{
+    "1.72.0": {
+        "date": "September 2019",
+        "notes": [
+            {
+                "id": "4150cf07880422e70d11afe71478e77440a0cb65",
+                "type": "FEATURE",
+                "text": " SmartTable: keyboard shortcuts enabled",
+                "references": []
+            },
+            {
+                "id": "11c0392d981d47281e9aad635c21ae63a26731d7",
+                "type": "FIX",
+                "text": " Controller: remove size limit for internal model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "504248"
+                    }
+                ]
+            },
+            {
+                "id": "94aed757a0fb8aec96b0c3a6d998583ecd6d3935",
+                "type": "FIX",
+                "text": " FilterProvider: Convert time values to Edm.Time before formatting",
+                "references": []
+            },
+            {
+                "id": "b49ca3452f41147a1e55fa13d148e07129153d18",
+                "type": "FIX",
+                "text": " SmartField: getValue improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980361992"
+                    }
+                ]
+            },
+            {
+                "id": "07e9853540fe26a57ca3e43dc4e745dc1c8afb92",
+                "type": "FEATURE",
+                "text": " Controller: provide an api for fixed columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980236150"
+                    }
+                ]
+            },
+            {
+                "id": "fab0c31a55f18b2b40b2d3c9ac58b88a38f4a526",
+                "type": "FEATURE",
+                "text": " SmartField: Add support for RecommendationList annotation",
+                "references": []
+            },
+            {
+                "id": "2ec8942c92d40e08ef86008d77c753a5953a90b9",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Empty for dates",
+                "references": []
+            },
+            {
+                "id": "b938dd450f589141f983bf268815fc0b038afa01",
+                "type": "FIX",
+                "text": " FilterBar: check also for entity type as group information",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "617758"
+                    }
+                ]
+            },
+            {
+                "id": "2c868b7f54396266ba79e907ed61ce187c86ed99",
+                "type": "FIX",
+                "text": " SemanticObjectController: fix for unnecessary invalidation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970193708"
+                    }
+                ]
+            },
+            {
+                "id": "8b34cd48d3615994c34bac4cd8cdb7259574c41d",
+                "type": "FIX",
+                "text": " SmartField: Get rid of broken copy of object binding on SmartField",
+                "references": []
+            },
+            {
+                "id": "883ee0ab737b7ed82b3cba64f7cd45770d2b2b8a",
+                "type": "FIX",
+                "text": " SmartField: Propagate the value to inner control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970475737"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1970281962"
+                    }
+                ]
+            },
+            {
+                "id": "e80b348db8ace9b9d42a3b1b2ef1557d3750f40a",
+                "type": "FIX",
+                "text": " SmartField: Propagate the value to inner control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970475737"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1970281962"
+                    }
+                ]
+            },
+            {
+                "id": "b3520f8ab7b2de559e9cd401bdbf3e3b43c3c4db",
+                "type": "FIX",
+                "text": " SmartMultiEdit flexibility (AddMultiEditFields.revertChange function)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970507050"
+                    }
+                ]
+            }
+        ]
+    }
+}

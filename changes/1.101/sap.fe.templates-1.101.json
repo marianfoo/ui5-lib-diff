@@ -1,0 +1,166 @@
+{
+    "1.101.0": {
+        "date": "March 2022",
+        "notes": [
+            {
+                "id": "91002ec15e4559d3e60221ab20996bb60cd265b1",
+                "type": "FEATURE",
+                "text": " V4:FE In SAP Fiori elements for OData V4, you can now use the new dynamic date range control for DateTime fields in the filter bar"
+            },
+            {
+                "id": "51d0928a20611d147f0a4e084541ed48a6d91426",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now supports charts based on draft-enabled entity sets"
+            },
+            {
+                "id": "e997f87ca30f63e0a2941746ec6356944ad37486",
+                "type": "FEATURE",
+                "text": " You can now define the visibility of a view when you're using multiple table mode in a list report"
+            },
+            {
+                "id": "49d20e18e7c39ca129bf35136b5f9fcb56d80156",
+                "type": "FIX",
+                "text": " A filter field with a default value in the filter bar is now only shown if it is part of the selection fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280076159"
+                    }
+                ]
+            },
+            {
+                "id": "05c6c3af1b381a4a8226f43fe2b849e6c289ac36",
+                "type": "FIX",
+                "text": " The focus is now set correctly on the cell of a table also in full-screen mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270029852"
+                    }
+                ]
+            },
+            {
+                "id": "6d46eff7dd3df56dc6138df9a4e7721ce00e3b1b",
+                "type": "FIX",
+                "text": " Draft handling is now processed correctly using flexible column layout when navigating to another object in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270039446"
+                    }
+                ]
+            },
+            {
+                "id": "1f1d787ad66092bc689533d103b7de05ab85b534",
+                "type": "FIX",
+                "text": " Alignment and overlapping issues in the object page header upon resize have been corrected"
+            },
+            {
+                "id": "40e79cac05cb2a6a9649c1cd591a390bc8fb0575",
+                "type": "FEATURE",
+                "text": " In an FCL application the 3rd column isn't closed anymore when editing, saving or canceling"
+            },
+            {
+                "id": "1664ac0bcbdcba8b484a16602b6541f6422fb34e",
+                "type": "FIX",
+                "text": " Quick views now contain the correct navigation targets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280067674"
+                    }
+                ]
+            },
+            {
+                "id": "67a069a30fbf477eaead6414b54419eed5d67c48",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the property 'Importance' for building block columns"
+            },
+            {
+                "id": "4e3311d0c0605b45f5f294ce9c04de222757a45f",
+                "type": "FIX",
+                "text": " After using the \"Save as Tile\" function and clicking on the new app, it now opens in the same tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280079269"
+                    }
+                ]
+            },
+            {
+                "id": "8be914258482a8e0c4202f884e7b1686fda7021b",
+                "type": "FIX",
+                "text": " The DraftIndicator status is now displayed as the last element in a FieldGroup"
+            },
+            {
+                "id": "765d953ef34b0de459e01e8010215b8cc4e40ffc",
+                "type": "FIX",
+                "text": " The DraftIndicator fragment now uses the correct formatter function",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001432112022"
+                    }
+                ]
+            },
+            {
+                "id": "3ec63b86d53030ac56d2a1dd023b05004ad06596",
+                "type": "FEATURE",
+                "text": " You can now use singletons to implement restrictions on tables on the object page"
+            },
+            {
+                "id": "79bdb3b369f79c50e0951b7bd93f23dc4060e7f8",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the annotations DataFieldWithIntentBasedNavigation and DataFieldWithAction"
+            },
+            {
+                "id": "ea9aceeb9afa5190af6b543523003624e2e848de",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now displays a confirmation popup for actions that trigger a warning with response code 412"
+            },
+            {
+                "id": "487800b846fe08c26a97c176dee0e9f54470dbd6",
+                "type": "FEATURE",
+                "text": " Switching to edit mode now checks if there's a side effect with a trigger action"
+            },
+            {
+                "id": "e60e781063a9e5fa862138d945b149106ebcbad2",
+                "type": "FIX",
+                "text": " The message popup no longer opens in a message page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280041541"
+                    }
+                ]
+            },
+            {
+                "id": "92dd9d5feea8a32176ac472eaa6e50be8915e9bc",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the 'Importance' property for custom columns"
+            },
+            {
+                "id": "685bd394d4145d5eaf2067d8e3b3cd29f46b90a5",
+                "type": "FIX",
+                "text": " We ensured, that the message strip for ignored filter fields on the list report also works correctly if the text to be displayed contains apostrophs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280049603"
+                    }
+                ]
+            },
+            {
+                "id": "1ce9886cfb6fc96ec2229adeb54047607859ba73",
+                "type": "FIX",
+                "text": " The Create dialog for immutable fields now works correctly in case of errors",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280047255"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "1.101.0": {
+        "date": "March 2022",
+        "notes": [
+            {
+                "id": "Ic815a2049f2ba6f5bcd0f4f919fd5990ea5f38c5",
+                "type": "FEATURE",
+                "text": "Extension API is now implemented to set custom message on ALP table"
+            },
+            {
+                "id": "I49183f03dc3785df00c97827c1fb35048e0aa6bc",
+                "type": "FEATURE",
+                "text": "Partial processing has been introduced for the multi edit feature"
+            },
+            {
+                "id": "Ibec0d2ab84badd6efe74f22d493cd3a66bb12e90",
+                "type": "FEATURE",
+                "text": "AddressType in the Contact Facet annotation has been supported"
+            },
+            {
+                "id": "I1fd89bdbfcad03c4559b0bc3ed7ee1d9d338f292",
+                "type": "FEATURE",
+                "text": "An option to show appropriate message in the message bar above the list report table is now available"
+            },
+            {
+                "id": "I49e9e176ed0bfa53fad398f2698a1ef4f5417786",
+                "type": "FEATURE",
+                "text": "DynamicDateRange for DateTimeInterval is now supported"
+            },
+            {
+                "id": "Iccb8bfd181dcf518c7d71a63c720d835c1265004",
+                "type": "FEATURE",
+                "text": "Confirmation dialog for warnings is now displayed in draft activation, if the messages come as transient message"
+            },
+            {
+                "id": "I8ce161fd81fe30111b732cecabdb4217f1f7fff5",
+                "type": "FEATURE",
+                "text": "There is an optional feature to improve the order on header facet"
+            },
+            {
+                "id": "Ie344db4936189d8c1bd5d4f16d3923c56908cca6",
+                "type": "FEATURE",
+                "text": "Side effect support of 1:1 associated fields is now added"
+            },
+            {
+                "id": "I08e614ff073314881b6c6b0ceeb42ef60eb04c18",
+                "type": "FEATURE",
+                "text": "Option for xxtension section in multi edit dialog for mass change is now added"
+            },
+            {
+                "id": "I55862204ef71f69bc88c79fe2259f7cb83656991",
+                "type": "FEATURE",
+                "text": "HeaderContainer for Phones/Tablets is now available"
+            },
+            {
+                "id": "I15e4424b8033a23a31d013b4253cd66f05e5c395",
+                "type": "FIX",
+                "text": "The create button text in case of createWithFilters has been corrected"
+            },
+            {
+                "id": "Id849c0885753e6f5149b90758ca8d265d6eae16d",
+                "type": "FIX",
+                "text": "Fetching of variants in case of multi views is now rectified"
+            },
+            {
+                "id": "I50e59bbdff7add955231012b102b0c11f31f73d2",
+                "type": "FIX",
+                "text": "The toast message is not displayed during the successful creation of an object using the dialog"
+            },
+            {
+                "id": "I2fc22116cfb65e34279a8c1dcbd9dd90dae8a682",
+                "type": "FIX",
+                "text": "Condition has been added for getting selected tab in scenario of quickVariantSelectionX"
+            },
+            {
+                "id": "I80331efd055bcd7f6cbf26f9ff2fb07eb8a3ecbd",
+                "type": "FIX",
+                "text": "The appcomponent name have been formatted by replacing dots to slash as sap.ui.require.toUrl expects only slashes"
+            },
+            {
+                "id": "I1d78b04959a617653ffe300d024c3e5c7cd8b450",
+                "type": "FIX",
+                "text": "Share button is disabled in create scenario when user is Jam Active"
+            },
+            {
+                "id": "Ifabe38b984626780a2cee2863a739b0b4236c2c8",
+                "type": "FIX",
+                "text": "For Designtime, UI adaptation is now allowed for the controls that added themselves"
+            },
+            {
+                "id": "Ic4ab2807681243eccc84fbdaf259b83058d1a1bd",
+                "type": "FIX",
+                "text": "Filter items that are not required are not instantiated anymore",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270023121"
+                    }
+                ]
+            }
+        ]
+    }
+}

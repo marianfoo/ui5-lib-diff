@@ -1,0 +1,202 @@
+{
+    "1.93.0": {
+        "date": "June 2021",
+        "notes": [
+            {
+                "id": "If6692a4e668b308c08498dd93c581182360db6fd",
+                "type": "FEATURE",
+                "text": "LROP:navigateInternal extension API is enhanced to take the display/edit mode."
+            },
+            {
+                "id": "I9eafba0d3a5a2926a68f5cb7b4e3f1e0ae4425d2",
+                "type": "FEATURE",
+                "text": "LR/ALP: Consume the public API of the Dynamic Page to store the pin status to the iAppState"
+            },
+            {
+                "id": "Ib08a671f1681fe7e374a4b820d0fa60f4d054e87",
+                "type": "FEATURE",
+                "text": "ALP: UX enhancements to support time series annotations for Date fields"
+            },
+            {
+                "id": "I0cdc7c445db2029f1711ae21ffc813603c4c6c98",
+                "type": "FEATURE",
+                "text": "LR/ALP: History in SFB for ComboBox"
+            },
+            {
+                "id": "I956c25a4d815bb3587213dd8e82cc0e981595f23",
+                "type": "FEATURE",
+                "text": "LROP: Introduced flexibility to refresh entity set on app restore in sap-keep-alive mode"
+            },
+            {
+                "id": "I9b33d0fb812d570e81a626723da371cb9ad6a1ba",
+                "type": "FIX",
+                "text": "LR/ALP/OP: Do not call stStart of Canvas/Reuse components before the corresponding page is getting visible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180283603"
+                    }
+                ]
+            },
+            {
+                "id": "I1a9d6dc4a100a9e849f3b5dd79d4fba188ad4e26",
+                "type": "FIX",
+                "text": "Responsive table should not loose selection when using paginator button on a sub page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180203860"
+                    }
+                ]
+            },
+            {
+                "id": "I02cf90778b644242b238dfaafb02b80f49f1f043",
+                "type": "FIX",
+                "text": "LR: Load data automatically when the app is reached via cross-app navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180260920"
+                    }
+                ]
+            },
+            {
+                "id": "I74b1b56ac4a173194091eac179cbf8bcb453dadd",
+                "type": "FIX",
+                "text": "LR: Search optimization",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004432532021"
+                    }
+                ]
+            },
+            {
+                "id": "I5dd4c691b01172cf299bb8322444d6ce14736ad9",
+                "type": "FIX",
+                "text": "LR : Wait for table initialization before rebinding table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180186383"
+                    }
+                ]
+            },
+            {
+                "id": "Ic60e440b79c9a06b8a9573249f5ac9c5c6560479",
+                "type": "FIX",
+                "text": "Transform DateTime Parameters only in create mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170130448"
+                    }
+                ]
+            },
+            {
+                "id": "I4b32bc7b19c8c2338a12c489222ca832312d99ae",
+                "type": "FIX",
+                "text": "discard draft pop up for external navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180255448"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.93.1": {
+        "date": "Sep 2021",
+        "notes": [
+            {
+                "id": "I23578c4c160e6760fc23dfe2166334d895c27c72",
+                "type": "FIX",
+                "text": "On launch of the tile, application is in continuous loading state is now resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170223927"
+                    }
+                ]
+            },
+            {
+                "id": "If2986506b56b9847ac2aa27d4170457a93b253d9",
+                "type": "FIX",
+                "text": "The issue of focus being set in the wrong section on Object Page is now resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180267588"
+                    }
+                ]
+            },
+            {
+                "id": "Ibcaa1a484623e1893fb706827e9a03c5498a403f",
+                "type": "FIX",
+                "text": "Issues while navigating between different task types in myInbox is now resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180312721"
+                    }
+                ]
+            },
+            {
+                "id": "I5d63fbb579fd7b78b248e381cdcdf40714873014",
+                "type": "FIX",
+                "text": "Navigation stops at placeholder screen is now resolved ",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170173631"
+                    }
+                ]
+            },
+            {
+                "id": "I98fe282cfb74263e4b5fefaf7a4d8430ed6ddd86",
+                "type": "FIX",
+                "text": "On Analytical List Page , navigation stops at placeholder screen is now resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180372416"
+                    }
+                ]
+            },
+            {
+                "id": "I887da5365eee30529a2156a5ab72014b081b7030",
+                "type": "FIX",
+                "text": "In the keep alive mode, the placeholders are not going to come up in the list report now if back navigation is triggered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180372572"
+                    }
+                ]
+            },
+            {
+                "id": "I3bb23baf6fa20e47e1226dbc12e477921f082089",
+                "type": "FIX",
+                "text": "In the object page, subsection stable ID handling is now possible for BeforeSubSection and AfterSubSection",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180301516"
+                    }
+                ]
+            },
+            {
+                "id": "Iadb48b81736e8879552b3c623086e8f941b31f9c",
+                "type": "FIX",
+                "text": "In the object page, the paginator button is now working correctly with the discard draft popup feature",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180319342"
+                    }
+                ]
+            }
+        ]
+    }
+}

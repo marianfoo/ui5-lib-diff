@@ -1,0 +1,743 @@
+{
+    "1.102.0": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "a7862ff4226188e492a50bc6b25828aeefb51721",
+                "type": "FIX",
+                "text": " The image icon in a responsive table now has the correct margin",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270005463"
+                    }
+                ]
+            },
+            {
+                "id": "0baec91aba78b624305ad4f8902ace1c5728704e",
+                "type": "FIX",
+                "text": " We're now using internationalization on Boolean properties to ensure correct translation when exporting a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170301935"
+                    }
+                ]
+            },
+            {
+                "id": "3eb1911e8c74a065c15391763340cb6fc8204833",
+                "type": "FEATURE",
+                "text": " You can now enable keyboard shortcuts for custom actions in your application"
+            },
+            {
+                "id": "231aafe803d39b6408aa8da40fce34e5e88e3dc8",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now supports visual filter charts that are based on draft-enabled entity sets"
+            },
+            {
+                "id": "2769771c4c63f3760bc76b511d6d5072394d8e41",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now displays an icon for Situation Handling"
+            },
+            {
+                "id": "b1c7ce1ac20ba9e3ca32f3ad9feee3b657ae9796",
+                "type": "FIX",
+                "text": " We've changed some generic texts to reflect updates made to the data loss popup"
+            },
+            {
+                "id": "eecf811c501e1d6b73680b9cb092b5ff7d1047ba",
+                "type": "FIX",
+                "text": " We've changed some generic texts to reflect updates made to the data loss popup"
+            },
+            {
+                "id": "ca269327386c32e5c395e1930c106a1dbfc866a6",
+                "type": "FIX",
+                "text": " SAP Fiori elements now ensures the action enablement is in place when actions are triggered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270057417"
+                    }
+                ]
+            },
+            {
+                "id": "f9265bb2adf80e8ef1159c902becbb21b36a3488",
+                "type": "FEATURE",
+                "text": " We've changed texts in the draft data loss popups for the create and save case"
+            },
+            {
+                "id": "6755ac31d0d551d41dde5e8c1828ecbfade3ee93",
+                "type": "FIX",
+                "text": " We've extended the default length of specific texts to provide enough space for translation"
+            },
+            {
+                "id": "cf5be721ca5c560283cc9ac529308db406cca127",
+                "type": "FIX",
+                "text": " SAP Fiori elements now also processes actions with InvocationGrouping Type 'Isolated' sequentially in list reports"
+            },
+            {
+                "id": "4c29fef098a0bd59023414f63989cdbdca38172c",
+                "type": "FEATURE",
+                "text": " We've renamed the 'Cancel' button in the footer of the object page to 'Discard Draft'"
+            },
+            {
+                "id": "e514df4825d5e7da00712b9cd2842cf0937b22ca",
+                "type": "FIX",
+                "text": " Non-nullable properties are now correctly supported in fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270044357"
+                    }
+                ]
+            },
+            {
+                "id": "d6df3af00c00c934992b94bf9c010d5f68013f7a",
+                "type": "FEATURE",
+                "text": " You can now group the data in a responsive table according to a property"
+            },
+            {
+                "id": "19eda66493c2acf778a89907c11e82bac02c0f90",
+                "type": "FEATURE",
+                "text": " After some usability testing we've now improved our handling of drafts - further improvements"
+            },
+            {
+                "id": "e752438de57f91d683f5cfe3cb2ffc2b8b7a83f0",
+                "type": "FEATURE",
+                "text": " Personalization changes of chart are now stored/restored from iAppstate"
+            },
+            {
+                "id": "67279ed19daf3f250d54c2d99195a183deb62e01",
+                "type": "FIX",
+                "text": " The Timezone property for the DateTimeOffset is now correctly displayed in tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270064756"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270056209"
+                    }
+                ]
+            },
+            {
+                "id": "402842f74fcc1e2cea5a6103cdf00dbbace0c39f",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the synchronization of data between pages when using the flexible column layout"
+            },
+            {
+                "id": "f459985a496b18734dff66b8cbead3ef36010446",
+                "type": "FEATURE",
+                "text": " We've enhanced the 'Action' building block to support the 'enabled' property"
+            },
+            {
+                "id": "c260c0037268987d52ae77716afdcc402d82d650",
+                "type": "FIX",
+                "text": " The standard implementation of onPageReady is now called again in case of an extension of the object page controller",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270074495"
+                    }
+                ]
+            },
+            {
+                "id": "e4c9cd6ae1bdb8845279aa597a130d4c375e10cc",
+                "type": "FIX",
+                "text": " The converter context now contains the correct data model path for filter fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270073861"
+                    }
+                ]
+            },
+            {
+                "id": "2e11427cb41278d376548e39e378b3dbc40acba4",
+                "type": "FIX",
+                "text": " SAP Fiori elements now also parses the applysupported annotation from the EntityType",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270075849"
+                    }
+                ]
+            },
+            {
+                "id": "f428f7f857722b59fb0608dd6ba5f8a6162854d6",
+                "type": "FIX",
+                "text": " SAP Fiori elements now considers the qualifier of the chart to construct the ID",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270069772"
+                    }
+                ]
+            },
+            {
+                "id": "a53d053217a1a589acec5a8eb7de5db692872c17",
+                "type": "FIX",
+                "text": " SAP Fiori elements now displays a proper error message for empty non-nullable fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270046846"
+                    }
+                ]
+            },
+            {
+                "id": "3bc4049d9818ed3d9b636e746892d9ac7859e6f9",
+                "type": "FIX",
+                "text": " When you click the OK button in the 'Session Expired' dialog you now correctly return to the previous page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270072956"
+                    }
+                ]
+            },
+            {
+                "id": "83248108f1d49b985491e8f4b391b3cf383140d6",
+                "type": "FIX",
+                "text": " A link in the title of a quick view now contains the correct parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270067985"
+                    }
+                ]
+            },
+            {
+                "id": "4c15d163b1274f409127d3abe99e6babb0e1ffb3",
+                "type": "FIX",
+                "text": " A new table row is now always added at the beginning of a table"
+            },
+            {
+                "id": "44a15de975d40c52b97ac5fc41b3cfed0fd6e711",
+                "type": "FIX",
+                "text": " We've removed an unnecessary '/Sibling' OData query",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270070275"
+                    }
+                ]
+            },
+            {
+                "id": "b65972298174560924941dbd07874d5c2b0473d8",
+                "type": "FIX",
+                "text": " We've removed unbound transition messages when there is a 409 error conflict",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270065454"
+                    }
+                ]
+            },
+            {
+                "id": "fcb8d2a5c530df6d74574a088001df1ec87645dc",
+                "type": "FIX",
+                "text": " Filtering for blanks is now parsed correctly in the propertyInfo",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270058080"
+                    }
+                ]
+            },
+            {
+                "id": "146424122077bf6e541f7e68f513dc7e80a49eed",
+                "type": "FIX",
+                "text": " We've corrected the handling of cancel actions for popups relating to 412 warnings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270009752"
+                    }
+                ]
+            },
+            {
+                "id": "f0c81111a8e0f0320494e221df97397dbaad7da5",
+                "type": "FIX",
+                "text": " We've fixed an issue that resulted in a table not loading correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270067161"
+                    }
+                ]
+            },
+            {
+                "id": "c3173708796c028cb227794fddd09a36b337039c",
+                "type": "FEATURE",
+                "text": " You can now format a DataPoint of type DateTimeOffset with a specific timezone"
+            },
+            {
+                "id": "da0d30c4454fd03907f547e3926dc191d98c135e",
+                "type": "FIX",
+                "text": " We are providing the Date, To, From, and From/To custom operators again for semantic dates",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270016857"
+                    }
+                ]
+            },
+            {
+                "id": "5f701852a7f22ee392dce26d73b757b4deb784da",
+                "type": "FIX",
+                "text": " We've now emphasized the primary action button 'Leave Page'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280080454"
+                    }
+                ]
+            },
+            {
+                "id": "b450577c6bf51ae614c4b347ffdeabdf25d54334",
+                "type": "FEATURE",
+                "text": " After some usability testing we've now improved our handling of drafts"
+            },
+            {
+                "id": "a3da55fba80eed8f5072363c2d8937412963c572",
+                "type": "FIX",
+                "text": " We've made some corrections to our custom filter support",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180410603"
+                    }
+                ]
+            },
+            {
+                "id": "4b07274f528c1ebbe5cebe033a947b6e685c048b",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the DataPoint if its unit is set to %",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270052624"
+                    }
+                ]
+            },
+            {
+                "id": "701ec772a54d13cc110b926a5023919ab5a014cf",
+                "type": "FIX",
+                "text": " Semantic object mapping now works correctly for semantic links",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270023425"
+                    }
+                ]
+            },
+            {
+                "id": "412f957ffe33e3f066fce7b2bf6ee89ddb8e55be",
+                "type": "FEATURE",
+                "text": " You can now format the DateTimeOffset with a specified timezone"
+            },
+            {
+                "id": "936bfa4fa4b26da970393519bf569ffca32acc97",
+                "type": "FIX",
+                "text": " You can now use the Capabilities.NavigationRestrictions on NavigationProperties with containsTarget set to true (containments)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280076065"
+                    }
+                ]
+            },
+            {
+                "id": "91002ec15e4559d3e60221ab20996bb60cd265b1",
+                "type": "FEATURE",
+                "text": " V4:FE In SAP Fiori elements for OData V4, you can now use the new dynamic date range control for DateTime fields in the filter bar"
+            },
+            {
+                "id": "51d0928a20611d147f0a4e084541ed48a6d91426",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now supports charts based on draft-enabled entity sets"
+            },
+            {
+                "id": "e997f87ca30f63e0a2941746ec6356944ad37486",
+                "type": "FEATURE",
+                "text": " You can now define the visibility of a view when you're using multiple table mode in a list report"
+            },
+            {
+                "id": "49d20e18e7c39ca129bf35136b5f9fcb56d80156",
+                "type": "FIX",
+                "text": " A filter field with a default value in the filter bar is now only shown if it is part of the selection fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280076159"
+                    }
+                ]
+            },
+            {
+                "id": "6d46eff7dd3df56dc6138df9a4e7721ce00e3b1b",
+                "type": "FIX",
+                "text": " Draft handling is now processed correctly using flexible column layout when navigating to another object in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270039446"
+                    }
+                ]
+            },
+            {
+                "id": "6c50242e61584119adf52c4b6a99b9fef504965a",
+                "type": "FEATURE",
+                "text": " The filter bar of the value help dialog is now expanded by default under certain conditions"
+            },
+            {
+                "id": "9078f876d650381c3e8915e1177a409557f560d1",
+                "type": "FIX",
+                "text": " The visibility of the footer bar is now calculated correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270015822"
+                    }
+                ]
+            },
+            {
+                "id": "40e79cac05cb2a6a9649c1cd591a390bc8fb0575",
+                "type": "FEATURE",
+                "text": " In an FCL application the 3rd column isn't closed anymore when editing, saving or canceling"
+            },
+            {
+                "id": "87b8527af40bc534dc0233b8502ea24823752b79",
+                "type": "FIX",
+                "text": " Once an OP table action or all actions within sub OP are performed, refresh the action context",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001725022022"
+                    }
+                ]
+            },
+            {
+                "id": "fdec946e3b9c05f6e3a3dee3620260f753857752",
+                "type": "FIX",
+                "text": " SAP Fiori elements for OData V4 now provides filtering on tables on the object page by default"
+            },
+            {
+                "id": "96252644d9c96ee57323888ff828ede04268a7db",
+                "type": "FEATURE",
+                "text": " We've enhanced the 'Table' building block to support the isSearchable property"
+            },
+            {
+                "id": "1db50713eb6f1d6c0044879d342e26674f006a40",
+                "type": "FIX",
+                "text": " The FieldControl annotations within ConnectedFields are now taken into account to indicate mandatory fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270013538"
+                    }
+                ]
+            },
+            {
+                "id": "5711299b72a5cc9eefab6d9cd3ef4ab78845b4d3",
+                "type": "FIX",
+                "text": " You can now dynamically set the visibility of a custom subsection in the manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270007410"
+                    }
+                ]
+            },
+            {
+                "id": "67a069a30fbf477eaead6414b54419eed5d67c48",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the property 'Importance' for building block columns"
+            },
+            {
+                "id": "86995e970c96bcceaaf617cda6c850eba17ff042",
+                "type": "FEATURE",
+                "text": " The UI.Importance of a newly added column is now properly evaluated"
+            },
+            {
+                "id": "b148d93d72f42fb0e8b12eb6f725a26c802211d9",
+                "type": "FIX",
+                "text": " The 'Continue' button in the 'Create' dialog is now disabled in case there are UI validation errors",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280043747"
+                    }
+                ]
+            },
+            {
+                "id": "8be914258482a8e0c4202f884e7b1686fda7021b",
+                "type": "FIX",
+                "text": " The DraftIndicator status is now displayed as the last element in a FieldGroup"
+            }
+        ]
+    },
+    "1.102.1": {
+        "date": "June 2022",
+        "notes": [
+            {
+                "id": "dbb5d3a85674544ef5d6f84ff10dd730aa6fd2c3",
+                "type": "FIX",
+                "text": " We now trigger a side effect request on draft properties only if the cache of the binding is missing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270081067"
+                    }
+                ]
+            },
+            {
+                "id": "0ed1bb4ff9c01adf765c3e65e10b22aeefc455aa",
+                "type": "FIX",
+                "text": " We've fixed the undefined additional text that was added to a message box",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280102660"
+                    }
+                ]
+            },
+            {
+                "id": "556c099306d15c9b80122fff5245ad65e17b426c",
+                "type": "FIX",
+                "text": " Multiple deletion is now possible for draft records",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270104900"
+                    }
+                ]
+            },
+            {
+                "id": "bded5e5c9d0e461f2bb0d856610877ab0a139f2c",
+                "type": "FIX",
+                "text": " We've removed unnecessary queries when refreshing a list report that uses flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280086456"
+                    }
+                ]
+            },
+            {
+                "id": "70c0fc10d04a0edcee485c0261989588e2c65553",
+                "type": "FIX",
+                "text": " SAP Fiori elements now properly loads back-end messages in applications using flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280084728"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270091338"
+                    }
+                ]
+            },
+            {
+                "id": "d8b81e7ceb741b45c619d9b51516c59a0b621ac5",
+                "type": "FIX",
+                "text": " Removing sensitive data now works correctly before showing the QuickView popover",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280085684"
+                    }
+                ]
+            },
+            {
+                "id": "761544b30ee273e8bdc8e60a1a72985d8301c70a",
+                "type": "FIX",
+                "text": " SAP Fiori elements now ensures strict handling is only enabled for actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280086319"
+                    }
+                ]
+            },
+            {
+                "id": "f83e88e0ace6d263f8a0123fc40b1787d210936e",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly navigates to a newly created item when using the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280085641"
+                    }
+                ]
+            },
+            {
+                "id": "cc499b7e666dea30b7724466be0a4c463ea60978",
+                "type": "FIX",
+                "text": " We've corrected the enablement of the action button when an action is triggered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270057417"
+                    }
+                ]
+            },
+            {
+                "id": "0378c02edbb720d2904680bba08276c2be5f6aae",
+                "type": "FIX",
+                "text": " We're now ensuring the properties of actions are refreshed when SAP_Messages are added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270089895"
+                    }
+                ]
+            },
+            {
+                "id": "048307465d982b818cd7a1469ddc5cae8928ed37",
+                "type": "FIX",
+                "text": " The decision if a property is filterable now also considers the HiddenFilter annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270092994"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.2": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "6c87929d08db8d1552e677318c2250aa3a893730",
+                "type": "FIX",
+                "text": " The DTS file generation for sap.fe now contains the correct code",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280118606"
+                    }
+                ]
+            },
+            {
+                "id": "e944cd85e15c9cc91a7a68b62371efc288300948",
+                "type": "FIX",
+                "text": " The error message text that's displayed in case of concurrent edits has been updated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280102660"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.3": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "133aace1e7696873701f2a359f4d65f460444fb6",
+                "type": "FIX",
+                "text": " A table in an object page using the flexible column layout is now updated when a new object is created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280117541"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280113762"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.4": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "4f951e52a944fca177120dd8e3f99d8883fcaacd",
+                "type": "FIX",
+                "text": " We now read default values of parameters of unbound actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005127072022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.5": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "35ca353752bfb3eb16c99010ad5cd4b3dda2e752",
+                "type": "FIX",
+                "text": " correction of documentation and types for SAP Fiori elements for OData v4 extensions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "c83a1059a7a613ff7b4c3501f2781d7b40ec8efb",
+                "type": "FIX",
+                "text": " The Table and FilterBar building blocks now work correctly in custom sections of an object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280140763"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280148549"
+                    }
+                ]
+            },
+            {
+                "id": "98008679f54a3c0ef5c5b42748e80215b3d3feb8",
+                "type": "FIX",
+                "text": " We now support sorting of lineItems that have contacts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280172311"
+                    }
+                ]
+            },
+            {
+                "id": "aa24512a3af8a5353ff5f6ba926ec2c95e707465",
+                "type": "FIX",
+                "text": " The pageReady event is now fired for an object page containing a filter bar, a table and a chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280155418"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.6": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "33f6c585faa05edfb48c46e2e2419ac9733d5444",
+                "type": "FIX",
+                "text": " We now ensure the Table building blocks in a subobject page work correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270128755"
+                    }
+                ]
+            }
+        ]
+    }
+}

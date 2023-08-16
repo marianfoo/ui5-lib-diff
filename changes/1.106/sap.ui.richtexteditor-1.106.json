@@ -1,0 +1,51 @@
+{
+    "1.106.0": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "868e3bcebf216aadaa749ea405c743e74d3f53c4",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Adjust failing test dependant on browser behavior",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270111082"
+                    }
+                ]
+            },
+            {
+                "id": "293f0e72ca8a18ef67253424f87d9d34a9c5eb6b",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.ToolbarWrapper: prevent exception when adding button group",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280165563"
+                    }
+                ]
+            },
+            {
+                "id": "67c6ff7ba846499d7581a76089e7165cd8c3c1b8",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Alt+F10 is now focusing the first visible element in the toolbar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270021648"
+                    }
+                ]
+            },
+            {
+                "id": "f82e8285dd3222108667e488a5aac0d1a18f54aa",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Primary button actions are now emphasized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280118392"
+                    }
+                ]
+            }
+        ]
+    }
+}

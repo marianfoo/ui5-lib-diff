@@ -1,0 +1,500 @@
+{
+    "1.98.0": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "7fe72c2ad2c0806287ca3a3de138053eb3baf2e8",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280005161"
+                    }
+                ]
+            },
+            {
+                "id": "cc6286d29cca1091135b5f2335d2ae621dfaed2a",
+                "type": "FIX",
+                "text": " SmartField: getDataProperty fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280009649"
+                    }
+                ]
+            },
+            {
+                "id": "c0248b78e1933da9db17204c058b8d8ad55e4e70",
+                "type": "FIX",
+                "text": " SmartField: Fixed editable unit when amount has setting updatable=false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070264666"
+                    }
+                ]
+            },
+            {
+                "id": "bd81e50a1c591fcaf5274494aa3c2e437f2dcb55",
+                "type": "FIX",
+                "text": " FilterBar: Update determining filter by name",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280003659"
+                    }
+                ]
+            },
+            {
+                "id": "b4912121116f9d090d66a51fb8800ff7b76648d3",
+                "type": "FIX",
+                "text": " SmartField: JSONControlFactory fix"
+            },
+            {
+                "id": "1e6b6ef4127bb74e8e0d65c86670d0e32eb4eb2f",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: PresentationVariant/SortOrder annotation is now supported"
+            },
+            {
+                "id": "eeb9ab00b18bed292c298ee2c37630ee5e080c9d",
+                "type": "FIX",
+                "text": " ValueListProvider: correct out behavior with hidden fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009013082021"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180426176"
+                    }
+                ]
+            },
+            {
+                "id": "42741ee6a1476433db1e5848a54384818eec7027",
+                "type": "FIX",
+                "text": " DateRangeType: Fixed showing of the text when the default value is 0",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180400040"
+                    }
+                ]
+            },
+            {
+                "id": "984b6fefc35609d97f7f2b6467c9cf83ca92b6b4",
+                "type": "FIX",
+                "text": " SmartField: validation of unit and currency improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170235676"
+                    }
+                ]
+            },
+            {
+                "id": "627cdc5c3d75973a8a84e1d661dae10b68f63384",
+                "type": "FIX",
+                "text": " SmartField: Added Padding between unit and measure",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170285010"
+                    }
+                ]
+            },
+            {
+                "id": "fbb42f1ff53a79717b15079ad45b9b474125f25a",
+                "type": "FIX",
+                "text": " TextArrangementDelegate: busy indicator fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180385959"
+                    }
+                ]
+            },
+            {
+                "id": "fc90755eb09e003882792353d061f76a05aeab77",
+                "type": "FIX",
+                "text": " SmartField: RTA start error is resolved"
+            },
+            {
+                "id": "a7445cd22cdcaaef6e5d00b0d6ce0be98edfeeab",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement description update",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180425642"
+                    }
+                ]
+            },
+            {
+                "id": "d8968c1f50efef8c77c18b5f01ac76d73828efed",
+                "type": "FIX",
+                "text": " SmartField: Label for RTA is retrieved for non-initialised fields"
+            },
+            {
+                "id": "42e7b4c710968968e274499e7e20b8d4940db591",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: New operations for single date range"
+            },
+            {
+                "id": "ce5fe26113bb3d1315b0708e167f622a7d717649",
+                "type": "FIX",
+                "text": " SmartFilterBar: SFBMultinput token creation enchancement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170291330"
+                    }
+                ]
+            },
+            {
+                "id": "79768bac28604b9820315bae69eeffc06f53f23e",
+                "type": "FIX",
+                "text": " SmartFilterBar: initialized event fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170330914"
+                    }
+                ]
+            },
+            {
+                "id": "57382730a20413cd22eaef69fa474791b48be2c4",
+                "type": "FEATURE",
+                "text": " SmartField: Editable and mandatory setters are now optimized"
+            },
+            {
+                "id": "de70da257399ea7b470f92ec535c5130cf1f8b20",
+                "type": "FEATURE",
+                "text": " SmartField: Global TextArrangement value list caching for non-fixed list SmartFields implemented"
+            },
+            {
+                "id": "4bea64982482d514bf4b4e1f2268e4cfb882bb07",
+                "type": "FIX",
+                "text": " ValueListProvider: remove duplicates from suggestions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180329871"
+                    }
+                ]
+            },
+            {
+                "id": "a31410809f65f618b56b3940e61021ce94bc562e",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog - whitespace characters visualization"
+            },
+            {
+                "id": "c9aa25da5913b5f19ceb49ff4f1ae528ac51b99a",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: sorting is now removed when search is used"
+            },
+            {
+                "id": "d82b6026947b450264fa3601fd5058eb8d2086d3",
+                "type": "FIX",
+                "text": " SmartFilterBar: Refresh filters count when associateValueLists is called in case of ComboBox control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170281835"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170251863"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180388286"
+                    }
+                ]
+            },
+            {
+                "id": "b7048e669285d1bbad6ae7587421e0a35959ff5b",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Enabled Dynamic Date for single date control"
+            },
+            {
+                "id": "041c3e13b88240e0d95f1635eca1ae043294399b",
+                "type": "FIX",
+                "text": " comp.VariantManagement: consider vendor standard variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170299662"
+                    }
+                ]
+            },
+            {
+                "id": "67a7c57db1f4276aab1855cc66dfa37f0799e74d",
+                "type": "FIX",
+                "text": " SmartField: In parameters can now work with Boolean fields with value false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008375082021"
+                    }
+                ]
+            },
+            {
+                "id": "68b72abf930ebad656489d0f467a7c5c284f673f",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement displayOnly error message improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180215674"
+                    }
+                ]
+            },
+            {
+                "id": "4fc2b8808d4f1c19816799a306126b85c6e83dbd",
+                "type": "FIX",
+                "text": " SmartFilterBar: Refresh filters count when associateValueLists is called in case of ComboBox control"
+            },
+            {
+                "id": "8f10bfea34e1ad7d6d671400c1d7347d76f68513",
+                "type": "FIX",
+                "text": " SmartFilterBar: Refresh filters count when associateValueLists is called in case of ComboBox control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170281835"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170251863"
+                    }
+                ]
+            },
+            {
+                "id": "ffb702f76a44f9182fcf15850b59b7ff150648d0",
+                "type": "FIX",
+                "text": " DateRangeType: correct SPECIFICMONTH operation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180384629"
+                    }
+                ]
+            },
+            {
+                "id": "b595c62448ea5a2ce9b8f587d306e08b209951d8",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement filters for empty compound keys"
+            },
+            {
+                "id": "a3bc9c1a387579ff7388c9888bf0d8a18a2e09c6",
+                "type": "FEATURE",
+                "text": " DateRangeType: add defaultOption through XML view"
+            },
+            {
+                "id": "b393695645abe3b206e996c960ca45c17dd1832c",
+                "type": "FIX",
+                "text": " SmartFilterBar: Revert refresh filters count when associateValueLists is called in case of ComboBox control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180382305"
+                    }
+                ]
+            },
+            {
+                "id": "e46b9a8cddda71dd069ea0230500a7b783abaf94",
+                "type": "FIX",
+                "text": " BaseValueListProvider: prevent two tokens created when navigating",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170288345"
+                    }
+                ]
+            },
+            {
+                "id": "95550949f6cd0d25711703b72f2f18ac27231652",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement description requests caching",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170225018"
+                    }
+                ]
+            },
+            {
+                "id": "e815950f3ac8306b128c4fe583033e3c3702e703",
+                "type": "FEATURE",
+                "text": " SmartTable: New property customizeConfig added"
+            },
+            {
+                "id": "13cadfc16ad8eb1c23cd95fa893b3120ef3bad1e",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: New date-to-year-end option added to DateRangeType"
+            },
+            {
+                "id": "e957393d22a07b88c6909d54d65dd7ebeab764f5",
+                "type": "FEATURE",
+                "text": " SmartField: Only Value helps marked as relevant are now shown"
+            },
+            {
+                "id": "ebf5dcae8782a756520699b0e6a55a29292fd2b3",
+                "type": "FIX",
+                "text": " DateRangeType: correct default value when semantic date is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170315282"
+                    }
+                ]
+            },
+            {
+                "id": "6ca8d3be6b8e6c56b8528f8ee3d2e1ce64c218e1",
+                "type": "FIX",
+                "text": " SmartFilterBar: Refresh filters count when associateValueLists is called in case of ComboBox control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170281835"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170251863"
+                    }
+                ]
+            },
+            {
+                "id": "03074cf8b6d30a387083edaeb5650a483feabce6",
+                "type": "FIX",
+                "text": " SmartField: Ignore named models propagated to the control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170226806"
+                    }
+                ]
+            },
+            {
+                "id": "306cdc62938d8ebf63ff4e66c8b79b51a8c3a926",
+                "type": "FIX",
+                "text": " SmartField: Javascript exception on description request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170284106"
+                    }
+                ]
+            },
+            {
+                "id": "addac206585d715a1dedb2fbef20ee8d118be0c0",
+                "type": "FEATURE",
+                "text": " SmartTable: Rendering whitespaces for String content enabled"
+            },
+            {
+                "id": "5005e1c34300c80816dca6a359fd0e85fb37df7d",
+                "type": "FIX",
+                "text": " SmartField: AriaLabelledBy in SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170305354"
+                    }
+                ]
+            },
+            {
+                "id": "1415df47fa787d4d8e5103ee7a1ccd78089a55d6",
+                "type": "FEATURE",
+                "text": " Smart Table/Chart: uiStateChange event added"
+            },
+            {
+                "id": "4200077f94b11b04727e125d9dd89cbaad26d3a6",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Revert Context-dependent VHD support is now introduced\""
+            },
+            {
+                "id": "b9bc8d35be4a85ad975f6045fd0c1869bb96f216",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: whitespaces characters visualized in read-only mode"
+            },
+            {
+                "id": "3597914dd627720f142831c8575f98ed9f3a44a7",
+                "type": "FEATURE",
+                "text": " DateRangeType: Switch to new implementation"
+            },
+            {
+                "id": "9755f2ada090017b00224ade72668029a5f56a46",
+                "type": "FIX",
+                "text": " ValueHelpDIalog: Aria- count of tokens added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070313093"
+                    }
+                ]
+            },
+            {
+                "id": "3a040e454fac4728f417637252ecac6fa48b5c0a",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Context-dependent VHD support is now introduced"
+            },
+            {
+                "id": "1bd1a4a7b183fc45b4e25c00a4aff1dcdb3d13d7",
+                "type": "FIX",
+                "text": " SmartField: Async model write not taken into account when out-parameters are applied",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180082621"
+                    }
+                ]
+            },
+            {
+                "id": "b1ba980ac0b074b940d497eb31dce963c6f7a019",
+                "type": "FIX",
+                "text": " P13nConditionPanel: correct handle ComboBox change event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170172533"
+                    }
+                ]
+            },
+            {
+                "id": "bca3399d4a7556cf00b4bcf7f74f32b374eaa968",
+                "type": "FIX",
+                "text": " SmartTable: Determination of custom columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170274000"
+                    }
+                ]
+            },
+            {
+                "id": "69340faaf999e82e6e79d352f4e10f960c6b91fb",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Dialog is no longer dangling on specific resolution",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170196827"
+                    }
+                ]
+            },
+            {
+                "id": "c736223aa200770875c9d85b523ceb5f06de4b91",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Border is now removed for Items and Conditions tokenizer",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170245073"
+                    }
+                ]
+            }
+        ]
+    }
+}

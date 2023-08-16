@@ -1,0 +1,90 @@
+{
+    "1.48.0": {
+        "date": "April 2017",
+        "notes": [
+            {
+                "id": "10d6b4918c3b7e8bc26c3999ba89ec9338534f4c",
+                "type": "FEATURE",
+                "text": "sap.viz : BITSDC2-5086 Time Axis - Highlight period of time based on \"End of Period\"",
+                "references": []
+            },
+            {
+                "id": "eabfd5668c1be054c3006d2d59f7500e05d35fa0",
+                "type": "FEATURE",
+                "text": "sap.viz : implement stable color for BITSDC2-4858",
+                "references": []
+            },
+            {
+                "id": "727b3321220d6760534e7fbf143eed3dcde98b54",
+                "type": "FEATURE",
+                "text": "Refactor data workflow in Analytical Chart & Vizframe",
+                "references": []
+            },
+            {
+                "id": "1d79eec103afc7c42fcfcd6d72d0fddb515c186c",
+                "type": "FEATURE",
+                "text": "Semantic pattern for Bullet",
+                "references": []
+            },
+            {
+                "id": "d3c7095bf75b0866181e347344b5428206c7d25d",
+                "type": "FEATURE",
+                "text": "[Fiori] Show error message of invalid date format",
+                "references": []
+            },
+            {
+                "id": "77c9c87c780382eb7b0d707e5586ac76bab6c3d9",
+                "type": "FEATURE",
+                "text": "sap.viz : BITSDC2-4919 Align with UI5 regarding hybrid device in IE",
+                "references": []
+            },
+            {
+                "id": "b7d298d5fe4eb41d05887d40680af2aa25c0197e",
+                "type": "FEATURE",
+                "text": "sap.viz : Refine popover in Periodic Waterfall and return more info for Chart Container Popover",
+                "references": []
+            },
+            {
+                "id": "a1ca3d3b4119cd5cae62d4a832c8598cef28b6f3",
+                "type": "FEATURE",
+                "text": "show no data when binding has error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780114494"
+                    }
+                ]
+            },
+            {
+                "id": "9332d252e91e799b05c9c4352c9fadbd60ff02a1",
+                "type": "FEATURE",
+                "text": "[Fiori]Add more default format",
+                "references": []
+            },
+            {
+                "id": "8897187bae60441da448cff11fe337a11426cba4",
+                "type": "FEATURE",
+                "text": "[Fiori]UI5 Explored - Expose new features of 1708",
+                "references": []
+            },
+            {
+                "id": "fab210e19bc81193a36aab4a00b8288354a33029",
+                "type": "FIX",
+                "text": "Fix theme's reference issue.",
+                "references": []
+            },
+            {
+                "id": "9c4bcd1f980d90dd1e59d6d79f1bb0c2220292b0",
+                "type": "FIX",
+                "text": "If the time axis levels is set to DAY but the data set contains data point at the HOUR level, (i-e not at 00:00:00 or not as Jan 3, 2014), then we should ignore the property forceToShowFirstLastData.",
+                "references": []
+            },
+            {
+                "id": "35a943a703958ddfaa09711ea6f3ecad3389703b",
+                "type": "FEATURE",
+                "text": "Handle combination usage of Semantic Pattern and Colorings",
+                "references": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "1.117.0": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "84897063381ab3746189f81dd742779b9e781551",
+                "type": "FIX",
+                "text": " FilterBar: reset now works as expected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280144245"
+                    }
+                ]
+            },
+            {
+                "id": "7be51256266f2d50b079e9070535b6a26ad0e5f1",
+                "type": "FEATURE",
+                "text": " SmartField: Implement a user friendly behavior for non-nullable numeric fields"
+            },
+            {
+                "id": "218324c410fb443f696ec9d7d8f810468ad37445",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Options to expand FilterBar and show all filters for SmartField in SmartTable"
+            },
+            {
+                "id": "7c8ab9b8fdaddb26850d48671e8b4aabcd73d799",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Support for analytical parameters"
+            },
+            {
+                "id": "bbea80d18002cb19e5b6a3f6237d1c9908168d02",
+                "type": "FIX",
+                "text": " SmartField: Test journeys split",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380097342"
+                    }
+                ]
+            },
+            {
+                "id": "daead10e37e7dddb50ea2ddb3ee191effa974b0b",
+                "type": "FIX",
+                "text": ": SmartFilterBar/P13N: correct token creation when ':' is in the text",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380077114"
+                    }
+                ]
+            },
+            {
+                "id": "1e642a23796915cd03e83eff1b33df1c6d5ca05d",
+                "type": "FIX",
+                "text": " SmartField: Test Action improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380097342"
+                    }
+                ]
+            },
+            {
+                "id": "523f7060bdc4bbc959bcef0d347fa15d87209b82",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Support for analytical parameters"
+            },
+            {
+                "id": "a7edd6c8f62f69374286e18109bc70e652c57a0e",
+                "type": "FIX",
+                "text": " SmatField: unstable tests fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380097342"
+                    }
+                ]
+            },
+            {
+                "id": "d99de10a14aa485eb4b94dd5827dc5185c286610",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Now Search is functional on smaller screens",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370001502"
+                    }
+                ]
+            },
+            {
+                "id": "5dfc0b22abc934a3a00fa73774924f5c662a3107",
+                "type": "FIX",
+                "text": " SmartFilterBar: Text is correctly turned to upper case on paste",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005245052023"
+                    }
+                ]
+            },
+            {
+                "id": "7275c3a22886474c880127e7b06dfd7aad2b10c2",
+                "type": "FIX",
+                "text": " SmartControls: Samples dependencies are now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380098709"
+                    }
+                ]
+            },
+            {
+                "id": "e6ca9c39736aa9de4caefc667157a9b3892fd83c",
+                "type": "FIX",
+                "text": " SmartFilterBar: Initialized event fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380094657"
+                    }
+                ]
+            },
+            {
+                "id": "9ba64a36ad5788b270fa2b0b3f5b6562c4c4af76",
+                "type": "FIX",
+                "text": " SmartFilterBar: Initialized event is now fired correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380094229"
+                    }
+                ]
+            },
+            {
+                "id": "3a977d82035ed5dc5d04330362942ebfd8652922",
+                "type": "FIX",
+                "text": " ValueHelpDialog: ColumnMenu content is visible as expected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380077742"
+                    }
+                ]
+            },
+            {
+                "id": "b0605163318e3485ce8c0e6b21d41f4f20b6116a",
+                "type": "FIX",
+                "text": " ValueHelpDialog: table title has only one title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380076767"
+                    }
+                ]
+            },
+            {
+                "id": "1622eadb2dbbe48583f46db059182733ec08fa11",
+                "type": "FIX",
+                "text": " FilterBar: BasicSearch now has correct min width",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270168106"
+                    }
+                ]
+            },
+            {
+                "id": "23eb7ba7acd935688c28ea9f94275a3cc7c9fa93",
+                "type": "FIX",
+                "text": " SmartFilterBar: Initialized fired before fixed list filters ready",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002666472023"
+                    }
+                ]
+            },
+            {
+                "id": "dffcf99183c438083892daac6197921a24675eb1",
+                "type": "FIX",
+                "text": " SmartField: Support rule showing false positives"
+            },
+            {
+                "id": "dc340a787d0220aeec37a95703c3c7e0efa1d54f",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Column sorting is now working with boolean type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380078260"
+                    }
+                ]
+            },
+            {
+                "id": "025c3a0f4bba1477eac3b7ad5caca9febd46ae76",
+                "type": "FIX",
+                "text": " SmartMultiEdit: isComposite edge case handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004317562023"
+                    }
+                ]
+            },
+            {
+                "id": "a6b26d06e0b38eb1623e1749ded44b2b7550e0ed",
+                "type": "FIX",
+                "text": " ValueHelpDialog: isDigitSequence is now respected for table items",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004110822023"
+                    }
+                ]
+            },
+            {
+                "id": "60f9609a58f8d13c66f5dc2fafd340fb5bbcb85a",
+                "type": "FIX",
+                "text": " DateRangeType: correct SPECIFICMONTH to use number instead of Date",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380049659"
+                    }
+                ]
+            },
+            {
+                "id": "3186bd02d0cbf30c74a4e1ac35c8b4eb76540061",
+                "type": "FIX",
+                "text": " ValueHelpDialog: correct columns on mobile when TextArrangement is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002472722023"
+                    }
+                ]
+            },
+            {
+                "id": "91e90dcabb90783098ecd7f3a57e867df364d544",
+                "type": "FIX",
+                "text": " SmartField: AriaLabelledBy is correctly added for currency fields in SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370018208"
+                    }
+                ]
+            },
+            {
+                "id": "5a99f4ecd16d184e282fa17aa51458404e750187",
+                "type": "FEATURE",
+                "text": " ValueListProvider: Empty string for ValueListParameterConstant parameters"
+            },
+            {
+                "id": "dd6a0436c3547213e28eb9c54a345999bf7f2d29",
+                "type": "FIX",
+                "text": " ValueListProvider: correct uniqueness detection when TextArrangement is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380069973"
+                    }
+                ]
+            }
+        ]
+    }
+}

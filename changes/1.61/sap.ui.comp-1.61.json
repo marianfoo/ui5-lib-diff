@@ -1,0 +1,295 @@
+{
+    "1.61.0": {
+        "date": "October 2018",
+        "notes": [
+            {
+                "id": "09f0f0e110c6e408e3a165293490676ac6167da8",
+                "type": "FIX",
+                "text": "FilterBar: display filters for phone scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880629157"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1880609327"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1880624897"
+                    }
+                ]
+            },
+            {
+                "id": "6cc4fdac90171ee44c5cf2dd83a671d3aaaed8c0",
+                "type": "FIX",
+                "text": "SmartField: Function calls to .setUomVisible() are not ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870386724"
+                    }
+                ]
+            },
+            {
+                "id": "4780b0df5ac1fb8ffcb001e6671743cbed9274f3",
+                "type": "FIX",
+                "text": "SmartTable: Active Column header focus on action corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880642842"
+                    }
+                ]
+            },
+            {
+                "id": "5e62cd65ffb1b2b26773718f7734d0c77367540f",
+                "type": "FEATURE",
+                "text": "SmartTable: Column width for TextArrangement optimized",
+                "references": []
+            },
+            {
+                "id": "7e4307458980556306fe5f79f3f1f3a2bef58181",
+                "type": "FEATURE",
+                "text": "SmartTable: Remember export user settings",
+                "references": []
+            },
+            {
+                "id": "36e30f0c4dc4700cd887f30bf099301140dabcd5",
+                "type": "FIX",
+                "text": "SmartTable: fieldChange event for SmartToggle scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880660577"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1870162360"
+                    }
+                ]
+            },
+            {
+                "id": "c7fec40dd326fc89b757031b17ac506a12ddb82d",
+                "type": "FIX",
+                "text": "sap.ui.comp - changehandler bugfix",
+                "references": []
+            },
+            {
+                "id": "3466d5adfb9ba647e5e74c9bf7e3dfad3f282c1b",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmicrochart: Fixed SmartMicroChart sample",
+                "references": []
+            },
+            {
+                "id": "b7fd9e36fab7625d5745fd6fe0078200313f983f",
+                "type": "FEATURE",
+                "text": "SmartField: UI.RecommendationState annotation supported",
+                "references": []
+            },
+            {
+                "id": "5ca5d10a64bf94e256b22a8c45dc4a86ce35c998",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.ColumnMicroChart: Show X axis labels when allowColumnLabels property is set",
+                "references": []
+            },
+            {
+                "id": "c692b9387407c9835b648296a49c326e86425657",
+                "type": "FIX",
+                "text": "SmartField: Incorrect parsing exception raised when field control not initialised fixed",
+                "references": []
+            },
+            {
+                "id": "245f6710b682cd09be6dd2e2c808eb7eeb959e20",
+                "type": "FIX",
+                "text": "SmartForm: use stable IDs for labels created by GroupElement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880706126"
+                    }
+                ]
+            },
+            {
+                "id": "7e22412d55a37c2d73303faa908d9583ae2f41d9",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartfield.type.Decimal: Check for existence of the field control instance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880590685"
+                    }
+                ]
+            },
+            {
+                "id": "19dec24be517f18c9b6eb8c2946af2bad9607e9d",
+                "type": "FIX",
+                "text": "sap.ui.comp: GroupElement Label is correctly set after undo",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880639761"
+                    }
+                ]
+            },
+            {
+                "id": "09cf3659593f564fbd2aee0903bc235d056e9bbc",
+                "type": "FIX",
+                "text": "FilterBar: use control tooltip in add/remove dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870451478"
+                    }
+                ]
+            },
+            {
+                "id": "4592885a5ca6374cdb354d70ba20c2f47ade94ba",
+                "type": "FIX",
+                "text": "FilterProvider: make condition type info check more robust",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870462323"
+                    }
+                ]
+            },
+            {
+                "id": "2409dbfe43a720e300dc5b9ca730156c545ecffa",
+                "type": "FIX",
+                "text": "SmartField: Function calls to .bindProperty() are not longer ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880503798"
+                    }
+                ]
+            },
+            {
+                "id": "86b08bc103ac2b299040c1b960956b5e4f8cd99d",
+                "type": "FIX",
+                "text": "SmartField: uomEditState property is marked as hidden with JSDoc",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880735358"
+                    }
+                ]
+            },
+            {
+                "id": "2956d841da83ddb1862e94bf27be6ffe5051f890",
+                "type": "FIX",
+                "text": "SmartLabel: Visibility issue of the label fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880730599"
+                    }
+                ]
+            },
+            {
+                "id": "a06b0fbe90aaa0ee216d12cc1ff59afac5ac1764",
+                "type": "FIX",
+                "text": "ValueHelpDialog: Enable SelectAll behavior again",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005890272018"
+                    }
+                ]
+            },
+            {
+                "id": "5951bf81d793b961f06b5378e0c8fd9d530b5ef3",
+                "type": "FIX",
+                "text": "sample.smartmultiinput.withoutBinding: Stopped mock server running in the example in the onExit method to prevent failures of ExploredSamples tests",
+                "references": []
+            },
+            {
+                "id": "847a6788690071dc346f008f62d8879223fb77ae",
+                "type": "FEATURE",
+                "text": "SmartField: Metadata checked for enabling of editable text arrangement",
+                "references": []
+            },
+            {
+                "id": "792c5e203d2e24660884e73922c75ed7afed93e9",
+                "type": "FIX",
+                "text": "FilterBar: control tooltip  on add/remove filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880732817"
+                    }
+                ]
+            },
+            {
+                "id": "2f526be25bbdcd74a451393c123e944536e1feba",
+                "type": "FIX",
+                "text": "SmartChart: Edm.DateTimeOffset not translated to TimeDimension",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880708759"
+                    }
+                ]
+            },
+            {
+                "id": "2e0c5c0039f18a21def34ead87699d8e5ad9bd37",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmultiinput.SmartMultiInput: Show N-more button in read mode when there are too many tokens to show",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880638001"
+                    }
+                ]
+            },
+            {
+                "id": "96dd06f02bffd532b28ceec4b1b0a8a888060018",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartmicrochart.SmartDeltaMicroChart: Added new control",
+                "references": []
+            },
+            {
+                "id": "a9d72b04007268931f2ec93796fd5105ee68621d",
+                "type": "FEATURE",
+                "text": "sap.ui.export.Spreadsheet - beforeSave event added",
+                "references": []
+            },
+            {
+                "id": "44b814ae31deb15d6c37d1061a731a18cd8e1bd5",
+                "type": "FIX",
+                "text": "FilterProvider: interval DateTimeOffset correction",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880690466"
+                    }
+                ]
+            },
+            {
+                "id": "9eaeb3e69f8dac029043162febd445f380a88da1",
+                "type": "FIX",
+                "text": "SmartField: Do not bind the \"visible\", \"editable\" and \"mandatory\" properties if already bound",
+                "references": []
+            },
+            {
+                "id": "accb32058f4c0d086d598254621637db4e1f6794",
+                "type": "FIX",
+                "text": "SmartField: Scale of currencies taken into account for input validation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880625960"
+                    }
+                ]
+            },
+            {
+                "id": "d662b766a1bf389900dfefa7e53181a33536df03",
+                "type": "FIX",
+                "text": "smartmultiedit/Field: set validateTokenExistence default to true",
+                "references": []
+            }
+        ]
+    }
+}

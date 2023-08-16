@@ -1,0 +1,138 @@
+{
+    "1.58.0": {
+        "date": "May 2018",
+        "notes": [
+            {
+                "id": "07066a6b525a07554f0e9c148fe30d615d2f7ed9",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart: Fix micro charts alignment in Safari",
+                "references": []
+            },
+            {
+                "id": "f46ce683c757535c04cac683e71c2a0ffbacc5bc",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart: Fix position of \"No data\" text in IE",
+                "references": []
+            },
+            {
+                "id": "5d4c07b3c9068f14d9cfba252038ede18ca25427",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.InteractiveDonutChartSegment: No Focus on all four sides for Legends within chart.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870297848"
+                    }
+                ]
+            },
+            {
+                "id": "7cae8e6d8c7a7b4b09e8ff7dae53268c480e99c9",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart: Information about control added Aria-label",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870025937"
+                    }
+                ]
+            },
+            {
+                "id": "50af61a937c84af40a3ee7dafb4428c95a88f1bf",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.InteractiveBarChart: Zero label handling",
+                "references": []
+            },
+            {
+                "id": "085bb8eef3316ef9107a6e3540b084fcba469f5b",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.ComparisonMicroChartRenderer : set the empty div element as unfocusable so that focus does not get trapped inside header container.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880272461"
+                    }
+                ]
+            },
+            {
+                "id": "8677dd399fc8ab9da01fa1afda717fef2de227e4",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.InteractiveBarChart: Value not visible in sap_belize_hcw theme and Focus issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880331844"
+                    }
+                ]
+            },
+            {
+                "id": "cc755dfa7d69dc724e7d7d98c8bccb6f4c538682",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.InteractiveDonutChart : Fixed the qunits which were getting failed because of browser dependencies.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880308660"
+                    }
+                ]
+            },
+            {
+                "id": "8022bdc4e92a207ce70edf78367b9b6a5d5543ca",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.BulletMicroChart: Rework Bullet Microchart to comply with the specification",
+                "references": []
+            },
+            {
+                "id": "14866298fc43f36d885744bdf261afa30426df20",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.InteractiveBarChart : Not rendering in compact density mode so added check on after rendering of control to see class \"sapUiSizeCompact\" is applied and render accordingly also interactiveness of bars are maintained correctly.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880368928"
+                    }
+                ]
+            },
+            {
+                "id": "44efbab5b677a6e133567001eb6997770cee3d71",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.StackedBarMicroChart: Rework StackedBarMicrochart to comply with the specification and add a smart variant for this control",
+                "references": []
+            },
+            {
+                "id": "00e3f736032a7bc92570281417ec635a349967c7",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart: Update MicroChart explored samples",
+                "references": []
+            },
+            {
+                "id": "2cb66591a1a73d0bab09cb970b0fba32f676a7e1",
+                "type": "FIX",
+                "text": "Revert sap.suite.ui.microchart.InteractiveDonutChartSegment: Unit of Value missing in InteractiveDonutChart.\"",
+                "references": []
+            },
+            {
+                "id": "b93c44dbee2baff7022bfbd55359f2443ff8ba37",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.ComparisionMicroChartRenderer: No space between negetive value and Unit of Value.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870269234"
+                    }
+                ]
+            },
+            {
+                "id": "c32a36aceb8e8098018b433abf250d8d480e3044",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.InteractiveDonutChartSegment: Unit of Value missing in InteractiveDonutChart.",
+                "references": []
+            },
+            {
+                "id": "786d541ce97fbe15487f772d4715cfbdb12d376d",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.themes.sap_belize_hcw.InteractiveBarChart.less:Value outside Bar not visible in HCW theme",
+                "references": []
+            }
+        ]
+    }
+}

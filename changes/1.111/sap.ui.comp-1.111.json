@@ -1,0 +1,202 @@
+{
+    "1.111.0": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "507d6ec9f58f257fe2406adeec71b50d742fbeef",
+                "type": "FIX",
+                "text": " FilterProvider: Do not set value to empty string",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009451472022"
+                    }
+                ]
+            },
+            {
+                "id": "15eedab3f970aaa5f69a8373771df8f114d838a9",
+                "type": "FIX",
+                "text": " SmartField: UI.DoNotCheckScaleOfMeasuredQuantity annotation is now properly respected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380018441"
+                    }
+                ]
+            },
+            {
+                "id": "130088c38d2622a253a9aeacc70698173d550dc7",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Initial focus enhancement.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280182063"
+                    }
+                ]
+            },
+            {
+                "id": "94f88a063d5981766557d5b5538968197613c922",
+                "type": "FIX",
+                "text": " SmartField: TextArrangementDelegate type fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380019677"
+                    }
+                ]
+            },
+            {
+                "id": "4cf6d771fa356e133ae2d77dd8615df6b0384554",
+                "type": "FIX",
+                "text": " VariantConverterTo: Exclude sign is now correct for multiple ranges",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280202243"
+                    }
+                ]
+            },
+            {
+                "id": "db6718b8266099bc2346ad7c4d8888986f644d9d",
+                "type": "FIX",
+                "text": " ColumnsController: Columns in the SmartTable are now in the correct order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280176824"
+                    }
+                ]
+            },
+            {
+                "id": "5a5052f3713c793e72db27cb95e3e36e414c0c59",
+                "type": "FIX",
+                "text": " SmartFilterBar: Typing is now allowed for interval string fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000343552023"
+                    }
+                ]
+            },
+            {
+                "id": "c834140c015c0fdc75782286a8c685607b176ae5",
+                "type": "FIX",
+                "text": " SmartFilterBar: Adapt filters aria-labelledBy enhancement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280155398"
+                    }
+                ]
+            },
+            {
+                "id": "a2313904ab078f14ff8d554b8745c66639020699",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280193062"
+                    }
+                ]
+            },
+            {
+                "id": "7879dc9902b1041a900450a993906e3daf132e65",
+                "type": "FEATURE",
+                "text": " SmartTable: 'clientSideMandatoryCheck' customizeConfig support enabled"
+            },
+            {
+                "id": "15b7b3322a02f365ffb0b60e9c18d2abb2fc8a14",
+                "type": "FIX",
+                "text": " SmartFilterBar: DynamicDateRange control is now reset from the adapt filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270119449"
+                    }
+                ]
+            },
+            {
+                "id": "22bda8fe0f464e8bf6e5c4ac607e025bba672b8c",
+                "type": "FIX",
+                "text": " Personalization: Initial sorters are now correctly calculated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009205912022"
+                    }
+                ]
+            },
+            {
+                "id": "27c6eb808c53bd7a625586b3ac5d5ca5d7dee4ac",
+                "type": "FIX",
+                "text": " TextArrangement: wrong description fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270146766"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.111.3": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "aa10e6c11b4d2e3867685de0c8d2a026ca2c2228",
+                "type": "FIX",
+                "text": " SmartField: Unstable test fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370026214"
+                    }
+                ]
+            },
+            {
+                "id": "5bc797764aec980f41135fc009ae29404c7a8774",
+                "type": "FIX",
+                "text": " SmartLink: fix for failing Firefox test",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370026248"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.111.5": {
+        "date": "June 2023",
+        "notes": [
+            {
+                "id": "fc890d975929d49cf0ef57d1b036ddf481abbdef",
+                "type": "FIX",
+                "text": " SmartVariantManagement: move 'save' event before variant save",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370049901"
+                    }
+                ]
+            },
+            {
+                "id": "6924a3775d95c40058bcebf44934cdf98d053b90",
+                "type": "FIX",
+                "text": " SmartFilterBar: REVERT creates a token when a valid value is pasted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370063148"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003037622023"
+                    }
+                ]
+            }
+        ]
+    }
+}

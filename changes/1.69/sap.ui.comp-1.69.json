@@ -1,0 +1,198 @@
+{
+    "1.69.0": {
+        "date": "July 2019",
+        "notes": [
+            {
+                "id": "30b19d9e7a9d8a6c79ea778d2cf3ca8282d33528",
+                "type": "FIX",
+                "text": "SmartFilterBar: Proper custom data dateFormatSettings handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003898302019"
+                    }
+                ]
+            },
+            {
+                "id": "5ff3be0b880af37d5d7fd75d609f3db8f73494ca",
+                "type": "FIX",
+                "text": "SmartMultiEdit: Fix validation error for unchanged fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970322009"
+                    }
+                ]
+            },
+            {
+                "id": "b92f80e8230115507123f33be76226582501e868",
+                "type": "FIX",
+                "text": "smartfield/FieldControl: Mandatory state issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970321937"
+                    }
+                ]
+            },
+            {
+                "id": "740f9779fcbdbb1b9681e5012da7260f6efa3c78",
+                "type": "FEATURE",
+                "text": "SmartTable: Sorting with multiple currencies improved",
+                "references": []
+            },
+            {
+                "id": "3f5f17a63759e379a67255c1ddbba0e25a72b885",
+                "type": "FIX",
+                "text": "DateRangeType: change parameter for new date instance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870207678"
+                    }
+                ]
+            },
+            {
+                "id": "b47e9daaa6e5fab1466fca847ff14cf96f1556a6",
+                "type": "FIX",
+                "text": "FilterBar: clear __bValidatingToken flag when 'Restore' is pressed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970290524"
+                    }
+                ]
+            },
+            {
+                "id": "24bc0384f5567d5d5cd069a25b32f59b04aa6c1b",
+                "type": "FIX",
+                "text": "SmartField: Unnecessary HTTP request when calling .checkValuesValidity() prevented",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970321980"
+                    }
+                ]
+            },
+            {
+                "id": "9962c60f7bc9c10b62182759d2f2e0faee0f8df2",
+                "type": "FIX",
+                "text": "SmartFilterBar: yet an additional way to prohibit rta",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970282426"
+                    }
+                ]
+            },
+            {
+                "id": "b41d33a140450aeff1744730a031a0208a2f8c07",
+                "type": "FIX",
+                "text": "ValueListProvider: add Hyphenated wrapping to table headers",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970225963"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1980273119"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1980189774"
+                    }
+                ]
+            },
+            {
+                "id": "61c9b5508ff678b81648767aba18171b8c79de14",
+                "type": "FIX",
+                "text": "SmartField: textInEditModeSource unwanted error state if no value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970338535"
+                    }
+                ]
+            },
+            {
+                "id": "9778ba5ee88a0245ee89ba7f7c0f3800a4cee36a",
+                "type": "FIX",
+                "text": "SmartFilterBar.designtime correction based on rta input",
+                "references": []
+            },
+            {
+                "id": "5294123e3d003f33baf75630f05f76a6c7221c91",
+                "type": "FIX",
+                "text": "SmartFilterBar: consider FB is not added to a component",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970378940"
+                    }
+                ]
+            },
+            {
+                "id": "53dada28f58ae837224b1164b6de5ef60590aa78",
+                "type": "FIX",
+                "text": "SmartFilterBar: wait for flex changes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970356895"
+                    }
+                ]
+            },
+            {
+                "id": "a978944fdfac7797b4bbb91443cf9d3c7b19d5a2",
+                "type": "FIX",
+                "text": "smartMultiEdit: incorrectly formats decimal numbers when entered with %",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980153817"
+                    }
+                ]
+            },
+            {
+                "id": "fbe0b884c18f41b6daace1284090e417759c121a",
+                "type": "FEATURE",
+                "text": "SmartFilterBar: Validation for single input fields",
+                "references": []
+            },
+            {
+                "id": "617746df4ec293648f4633043bf940ff43375992",
+                "type": "FIX",
+                "text": "SmartChart: Add sapContrastPlus class to fullScreenDialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970252898"
+                    }
+                ]
+            },
+            {
+                "id": "506385991db608dd86cadc9128948dbe5df54b0c",
+                "type": "FIX",
+                "text": "SmartField: Visibility state of the UoM field fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970375171"
+                    }
+                ]
+            },
+            {
+                "id": "8bf5bcdbcaa1a71ac9043f18a1e31272083832be",
+                "type": "FIX",
+                "text": "SmartField: Visibility state of the UoM field fixed (follow-up)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970391261"
+                    }
+                ]
+            }
+        ]
+    }
+}

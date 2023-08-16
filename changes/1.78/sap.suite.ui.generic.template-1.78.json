@@ -1,0 +1,277 @@
+{
+    "1.78.0": {
+        "date": "May 2020",
+        "notes": [
+            {
+                "id": "44d78105b2972c1ab5c2f718dc46d8494293e6cc",
+                "type": "FEATURE",
+                "text": "LR: Creation of an IappState on app launch irrespective of the filter(s) set or load behaviour of the application"
+            },
+            {
+                "id": "2193099aac2a8f6c7a0d3433e968bf346cccf143",
+                "type": "FEATURE",
+                "text": "ALP: Default load behaviour change"
+            },
+            {
+                "id": "75b3a8ef2c790d5864b30c25b38316369c267d59",
+                "type": "FEATURE",
+                "text": "ALP: Easy way to set InParammeters to Visual Filters"
+            },
+            {
+                "id": "da97102b72c28b4296bbeef6ee69ed3fdd43a8da",
+                "type": "FEATURE",
+                "text": "ALP:Update No Data texts for different scenarios for Smart Chart Scenarios only"
+            },
+            {
+                "id": "965753316bac4598f99dbe40df2023e59accf54d",
+                "type": "FEATURE",
+                "text": "OP: manifest property to use Variant Management (chart)"
+            },
+            {
+                "id": "00d0402d3cf7c2726dc1acb4470a240319b37b96",
+                "type": "FEATURE",
+                "text": "OP: UI.Importance annotations in Form"
+            },
+            {
+                "id": "31c7ca96482fc186e5dd7106ed145af9b10e6d78",
+                "type": "FIX",
+                "text": "Navigation menu should work correctly also if parameters are present Temporary solution until FLP provides a better api",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970475472"
+                    }
+                ]
+            },
+            {
+                "id": "2519e0a8c7430efff02d8af78a22810571b1a799",
+                "type": "FIX",
+                "text": "Fire PageDataLoaded event on OP in FCL Non-Draft create scenarios if 2 columns are already open",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070206023"
+                    }
+                ]
+            },
+            {
+                "id": "377213e5cc3a30aa9d7a7fa3472356c88bb98e35",
+                "type": "FIX",
+                "text": "OP: Ignore reference facet pointing to invalid navigation property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070199842"
+                    }
+                ]
+            },
+            {
+                "id": "b8b87628f3ba11a6519748f7b11606c8ad2954d1",
+                "type": "FIX",
+                "text": "Warning text corrected for data loss popup while navigating",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070169020"
+                    }
+                ]
+            },
+            {
+                "id": "bbe4033fa992a89d6ef8c20aef42899dcbea38a2",
+                "type": "FIX",
+                "text": "LR: Show standard variant in case of navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070112258"
+                    }
+                ]
+            },
+            {
+                "id": "78e4796735e3170683b92b86cfde4836ee49496c",
+                "type": "FIX",
+                "text": "OP Improve lazy loading behavior of reuse components",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080114714"
+                    }
+                ]
+            },
+            {
+                "id": "6a0319d25634ae202d19b073d062b9a146257a91",
+                "type": "FIX",
+                "text": "OP Save button not working in draft apps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070154557"
+                    }
+                ]
+            },
+            {
+                "id": "75d18fdad095e21afc005c88fa6e09da32d425e5",
+                "type": "FIX",
+                "text": "appModulePath of demo app is corrected to make it compatible with sap.ui.require.toUrl method",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070067856"
+                    }
+                ]
+            },
+            {
+                "id": "889ff2ce2cdeb3f7b148d06395e8220b73b5ae94",
+                "type": "FIX",
+                "text": "Consider manifest settings for autoload in case of live mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070161922"
+                    }
+                ]
+            },
+            {
+                "id": "f1ea798e036c1a9c703abe497c8070fb3c7292d0",
+                "type": "FIX",
+                "text": "LR: Defaulting for tableSettings in case of QuickVariantSectionX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070157364"
+                    }
+                ]
+            },
+            {
+                "id": "72ca9db7f89143469c4e1dd0049c96534730d5c9",
+                "type": "FIX",
+                "text": "OP: Allow empty or unknown target in reference facet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070157364"
+                    }
+                ]
+            },
+            {
+                "id": "7a968d8270122c85f4ebe019bc1ced40e8434313",
+                "type": "FIX",
+                "text": "OP: Action buttons not appearing in first level reference facets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070013401"
+                    }
+                ]
+            },
+            {
+                "id": "4691dca18a7caaa1489daf8d267f25e1ef020e1f",
+                "type": "FIX",
+                "text": "OP: Make sure that message indicator in tables is updated correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070134988"
+                    }
+                ]
+            },
+            {
+                "id": "98e8914f9226ce76c038dd33f56417dc41ed3fe8",
+                "type": "FIX",
+                "text": "OP: Allow empty collection facet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070157364"
+                    }
+                ]
+            },
+            {
+                "id": "0c45e7eba82585a013ed360ef70f438a304a9b4d",
+                "type": "FIX",
+                "text": "LROP: Update No Data texts in i18 properties.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070156793"
+                    }
+                ]
+            },
+            {
+                "id": "4485cf1d310b98dadbe4ca43d6d38acf8e50fef8",
+                "type": "FIX",
+                "text": "OP: Adapt visibility of columns in edit mode if field control is updated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080128572"
+                    }
+                ]
+            },
+            {
+                "id": "edf125a42dc5e002c95b29b46493b248e3438c5e",
+                "type": "FIX",
+                "text": "Adding selection change for smartMultiInput",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070073270"
+                    }
+                ]
+            },
+            {
+                "id": "a7bfed731098545579cda5268f06a2858915644c",
+                "type": "FIX",
+                "text": "OP: Added missing condition to suppress the column in the personalization dialog for column of type DataFieldWithNavigationPath. As of now, the column can be seen twice in the personalization",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070134538"
+                    }
+                ]
+            },
+            {
+                "id": "cfbb3b53097769c089df6942a7281db906acbdec",
+                "type": "FIX",
+                "text": "Remove _metadata parameters from parameters passed to external navigation for multi contexts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980424570"
+                    }
+                ]
+            },
+            {
+                "id": "76340560cf01d7fdc658128f543c515b6a491bbb",
+                "type": "FIX",
+                "text": "OP: Direct navigation to object page in cross-app navigation for non-draft create mode reestablished"
+            },
+            {
+                "id": "291541fda13138dc001f3bcfc27547756f34b341",
+                "type": "FIX",
+                "text": "OP: Layout changes in non-draft FCL scenarios should not modify entries in Create screens"
+            },
+            {
+                "id": "b8adbceb8e5d4d0b578559ebf9dab698d89a31e2",
+                "type": "FIX",
+                "text": "OP: Correct caching of state applied on startup"
+            },
+            {
+                "id": "f1dc10eb2ee58b5d3817a50bc194ca009e9aa768",
+                "type": "FIX",
+                "text": "LR Table should not be blurred when variant is changed in multi view scenario"
+            },
+            {
+                "id": "5c8c595bd6a6e8defd6c72bff688faffc75aca51",
+                "type": "FIX",
+                "text": "OP: In non-draft create scenarios state messages should appear in the message popover",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970614206"
+                    }
+                ]
+            }
+        ]
+    }
+}

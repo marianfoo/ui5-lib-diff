@@ -1,0 +1,378 @@
+{
+    "1.113.0": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "6cc72483957cec42d3e7abd56494d5205e0483ed",
+                "type": "FIX",
+                "text": " Creation row now works as expected when a dynamic updateRestriction is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370033088"
+                    }
+                ]
+            },
+            {
+                "id": "b239f6b4ddeeb2df82e717ea90b47fd9a5d90338",
+                "type": "FIX",
+                "text": " You can now execute bound function calls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370021073"
+                    }
+                ]
+            },
+            {
+                "id": "fe4ccd74bb37ab3bc7cb110d3fb75636eb1cd0d3",
+                "type": "FIX",
+                "text": " We now correctly display a visible table in an object page that has multiple sections",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370006873"
+                    }
+                ]
+            },
+            {
+                "id": "39555573b37653610d7b466fec12f8e1f063f3f7",
+                "type": "FIX",
+                "text": " The FieldControl annotation is no longer considered on non-updatable entities",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370010645"
+                    }
+                ]
+            },
+            {
+                "id": "2e63896ceb4f2ec6299836d2a0a685ac292279a8",
+                "type": "FIX",
+                "text": " We now ensure that DateTimeOffset filter fields show the correct list of operators, based on the operator configuration settings specified in the manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370017321"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370017251"
+                    }
+                ]
+            },
+            {
+                "id": "484dc853a609facd031b7e8bcca0758eb50cfd4f",
+                "type": "FEATURE",
+                "text": " The initializeFeatureToggles hook that implements feature toggles now supports async execution"
+            },
+            {
+                "id": "e4b9185c1e052fb7cd67d167435b29df331a53ee",
+                "type": "FIX",
+                "text": " We now ensure that users can still download and display documents after deleting an instance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370020024"
+                    }
+                ]
+            },
+            {
+                "id": "672ab49b9cf5f1f958579d930025dc0ac0fbae68",
+                "type": "FIX",
+                "text": " The action in the action parameter dialog is now disabled if the input is invalid",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370002875"
+                    }
+                ]
+            },
+            {
+                "id": "e5b9123127a2e3a77fcbbff8495b38072391fcc1",
+                "type": "FIX",
+                "text": " We now ensure that a table where InlineCreationRows is enabled doesn't show empty rows if there are InsertRestrictions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370021006"
+                    }
+                ]
+            },
+            {
+                "id": "93a9cf5b4a86a04d23aa48b3f81fdbaa6c471b00",
+                "type": "FIX",
+                "text": " We now also manage a non-meaningful ID on a facet ",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380038633"
+                    }
+                ]
+            },
+            {
+                "id": "43fb5a654f3d8f8438e5a8258d937450e74af4a0",
+                "type": "FIX",
+                "text": " We've fixed an issue with hiding data visualization titles for subsections that might be hidden dynamically",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370016650"
+                    }
+                ]
+            },
+            {
+                "id": "3f9e7b624ed40b6b775dd90433f2adaf88c363dd",
+                "type": "FIX",
+                "text": " In the list report of a multi-view app, we now provide a console error log when a selection variant is missing in a selection presentation variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001150312023"
+                    }
+                ]
+            },
+            {
+                "id": "e2b9ed9196e0edbcc857e83e7ea1edfc15c02337",
+                "type": "FIX",
+                "text": " The progress indicator now shows the correct data in the header facet of an object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370008548"
+                    }
+                ]
+            },
+            {
+                "id": "5e7d98b2e5ac9f6e2a5bcbe4dfd9ed42891ac24a",
+                "type": "FIX",
+                "text": " We now provide a message toast when a draft document is discarded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380030678"
+                    }
+                ]
+            },
+            {
+                "id": "66af4c548e42368fc26a595741d4db48ec6dfe3c",
+                "type": "FIX",
+                "text": " We now show the context for a 412 Precondition Failed warning message",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370002111"
+                    }
+                ]
+            },
+            {
+                "id": "a636413cfb32d07ecec8ca7c9219e7fac3d84024",
+                "type": "FIX",
+                "text": " We now remove sensitive data from the semantic attribute related to the entitySet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370017818"
+                    }
+                ]
+            },
+            {
+                "id": "1a5b62acdfc9391b3cae4b9b07ef82e746cd32fe",
+                "type": "FIX",
+                "text": " SAP Fiori elements now enables you to filter on a table using navigation properties as part of the LineItem",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380041906"
+                    }
+                ]
+            },
+            {
+                "id": "1e8926c8697846de2767150dd3d23bb0f7a919fe",
+                "type": "FIX",
+                "text": " We've removed an unnecessary OData query that was sent when a draft document was saved in an app using the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380045400"
+                    }
+                ]
+            },
+            {
+                "id": "211f54cacb0a170a71c6e3fe0d64325702df0227",
+                "type": "FIX",
+                "text": " We've resolved an issue related to a 412 Precondition Failed error for the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370017265"
+                    }
+                ]
+            },
+            {
+                "id": "41632f0059f2d42b3fe66089a37c747fa06bceed",
+                "type": "FIX",
+                "text": " We've resolved an issue where navigation to an object page wasn't carried out for actions in Changeset mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044872"
+                    }
+                ]
+            },
+            {
+                "id": "7c504c11171baed9a1837658e634412fc2e0b528",
+                "type": "FEATURE",
+                "text": " You can now use a reference facet to point to a table on an object page, and use the 'Show More' button to make the table visible"
+            },
+            {
+                "id": "a88c3fcab20629e332ebc815f01c46f96b50e78a",
+                "type": "FIX",
+                "text": " We now ensure the manifest parameters 'allowedActions' are correctly handled for additional semantic objects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370006196"
+                    }
+                ]
+            },
+            {
+                "id": "99600b4a9bf89226f8c4850f3d9e7614108da53b",
+                "type": "FIX",
+                "text": "We now consider the path from the current context to compile the function object for a function import",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380027401"
+                    }
+                ]
+            },
+            {
+                "id": "fb6869b308061259c75c6261bcf2837edf662fb8",
+                "type": "FIX",
+                "text": " The value help's type-ahead functionality now works as expected when the initial automatic focus is put on a field directly after a user created a new table row",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380029077"
+                    }
+                ]
+            },
+            {
+                "id": "2abc55ac2a42212abab47bb6c290fa4f128b13ef",
+                "type": "FIX",
+                "text": " We now evaluate OperationAvailable for unbound and static actions on tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380035231"
+                    }
+                ]
+            },
+            {
+                "id": "1ea1aa25ca396a14a6e213c2a61078d2acebdd36",
+                "type": "FIX",
+                "text": " We're now setting a fixed width for the action dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380033468"
+                    }
+                ]
+            },
+            {
+                "id": "50bb4893d52eff02e6b1134092108daa8d00b240",
+                "type": "FIX",
+                "text": " Focus is now properly restored when a user clicks 'Apply' on the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380010898"
+                    }
+                ]
+            },
+            {
+                "id": "ea5dba8b61367b565b58bb7bf8727fa5ed4fbb0a",
+                "type": "FIX",
+                "text": " We've added a safety check to the TargetMapping to create TypeConfig constraints",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370007752"
+                    }
+                ]
+            },
+            {
+                "id": "30720747a8a68c4e3e5f8c82670a7597ec2f4474",
+                "type": "FEATURE",
+                "text": " We've enhanced the semantic operators for DateTime-based fields and now also support hours and minutes"
+            },
+            {
+                "id": "87fc557a0ebf74d0250dbc557192a56e5a020613",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the enablement of standard actions on tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380045409"
+                    }
+                ]
+            },
+            {
+                "id": "a8f6f07482bb46c6322576ceca15b7ad14bf27d7",
+                "type": "FIX",
+                "text": " We now use cozy mode to ensure the correct content density on touch-enabled devices",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370004464"
+                    }
+                ]
+            },
+            {
+                "id": "b9d6b8fc5d57603c7378382b60bbca20eb3729ad",
+                "type": "FIX",
+                "text": " We now ensure that the validation of optional parameters in action dialogs is completed before the action is started",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380039180"
+                    }
+                ]
+            },
+            {
+                "id": "6919490362770c8ed3de2934991c597ec042e4da",
+                "type": "FIX",
+                "text": " We no longer render the visual filter in case there's a range restriction to ensure the app loads correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370006753"
+                    }
+                ]
+            },
+            {
+                "id": "80a696ff51e0623fba55a31e8f245f6d07d53bea",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the message details not appearing in the message dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380027959"
+                    }
+                ]
+            },
+            {
+                "id": "ed9ab355c98539ce65f5de62edfb7b2313a7b13e",
+                "type": "FIX",
+                "text": " We correctly set undefined titles of sections as type undefined and therefore don't break the Screenreader",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270137238"
+                    }
+                ]
+            }
+        ]
+    }
+}

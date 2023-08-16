@@ -1,0 +1,103 @@
+{
+    "1.52.0": {
+        "date": "October 2017",
+        "notes": [
+            {
+                "id": "89cc6fc0f09278bf59410573aab4e842b5a420fb",
+                "type": "FEATURE",
+                "text": "DraftController: Enhance method createNewDraftEntity.",
+                "references": []
+            },
+            {
+                "id": "c7e638db402f477b044a73779b340eda442ce8e3",
+                "type": "FEATURE",
+                "text": "DraftController: Improve documentation and error handling",
+                "references": []
+            },
+            {
+                "id": "ae71e15e3ae9f967e91b5830c4f285eb4b54ac5e",
+                "type": "FEATURE",
+                "text": "LROP: Context Dependent Actions: Messaging",
+                "references": []
+            },
+            {
+                "id": "040c2cdb5aab6b224a5b3804f43c0621abda09db",
+                "type": "FEATURE",
+                "text": "NavigationHandler: consider navigation mode 'explace'",
+                "references": []
+            },
+            {
+                "id": "93ad7dedabf2333cf1bdb748146cb0b8a871da78",
+                "type": "FEATURE",
+                "text": "NavigationHandler: do not wait for inner state when navigating",
+                "references": []
+            },
+            {
+                "id": "adab40bccfcd583111058390c6adc945de78bc8e",
+                "type": "FIX",
+                "text": "BaseController: Check for at least one not-aborted Request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780319095"
+                    }
+                ]
+            },
+            {
+                "id": "5b2ae8d2d9990dac8fc18a03e3d315b3c1160ea3",
+                "type": "FIX",
+                "text": "BaseController: For no request in batch group also submit",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780378511"
+                    }
+                ]
+            },
+            {
+                "id": "9b280f5e6b209b1426922341671f367ef843c976",
+                "type": "FIX",
+                "text": "BaseController: Model is not informed in case of implicit error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780335799"
+                    }
+                ]
+            },
+            {
+                "id": "58965d32090fadd356075cb71871a05cec74974e",
+                "type": "FIX",
+                "text": "BaseController: _checkSubmit validates also GET requests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780344131"
+                    }
+                ]
+            },
+            {
+                "id": "08602b0880a3c6bb17c4775a9852e46da3d25e8e",
+                "type": "FIX",
+                "text": "DraftController: Prepare and Validate only on inactive Instances",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780293261"
+                    }
+                ]
+            },
+            {
+                "id": "b0d2b31cc9ec66431300a8e6e43a0122c2d84a9e",
+                "type": "FIX",
+                "text": "FunctionImport: SideEffect called for wrong context",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780327659"
+                    }
+                ]
+            }
+        ]
+    }
+}

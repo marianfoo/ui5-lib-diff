@@ -1,0 +1,201 @@
+{
+    "1.36.0": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "3e1ebba143b6b91d4795bd82fbeeb6eb0d9c7834",
+                "type": "FEATURE",
+                "text": "Inbox: custom attributes client side sorting with oLingo library",
+                "references": []
+            },
+            {
+                "id": "3346296c91b6d762a22f87fbb01130edcc5f11cd",
+                "type": "FIX",
+                "text": "Fix response function of InboxMockServer.",
+                "references": []
+            },
+            {
+                "id": "ff84b8b6bd85acfd36d314c73d915645e3b8738c",
+                "type": "FIX",
+                "text": "Fix response function of InboxMockServer.",
+                "references": []
+            },
+            {
+                "id": "1c5bd75a0839770a39c65972c6802aca2a044fe1",
+                "type": "FIX",
+                "text": "Inbox - invalid SystemInfoCollection request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580235687/2015"
+                    }
+                ]
+            },
+            {
+                "id": "616b2f79e100cfab66e256b414f88cd4cbdf5c58",
+                "type": "FIX",
+                "text": "Inbox : Tasks not displayed correctly after clicking on refresh",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570460445"
+                    }
+                ]
+            },
+            {
+                "id": "6365f91e37227c26c5d28c3fd8725c1941fe5662",
+                "type": "FIX",
+                "text": "Inbox: ACC issues described in:",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580169447"
+                    }
+                ]
+            },
+            {
+                "id": "1235b877bc270a45494981f405f5be4547d1dac9",
+                "type": "FIX",
+                "text": "Inbox: Accessability issues mentioned in incidents:",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580169447"
+                    }
+                ]
+            },
+            {
+                "id": "6c4ad1b2001358d41c1073008758752b13c7e388",
+                "type": "FIX",
+                "text": "Inbox: BPM Item custom attribute sorted in different order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570466922"
+                    }
+                ]
+            },
+            {
+                "id": "8c6fe3827fbd693ff42eea002b5249f1df436674",
+                "type": "FIX",
+                "text": "Inbox: BPMInbox opens task with different theme",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "653368"
+                    }
+                ]
+            },
+            {
+                "id": "2a62b3bc80ee6b39e8515c0384f1b704a8922a3b",
+                "type": "FIX",
+                "text": "Inbox: Empty Substitution Profile leads to none processing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580196201/2015"
+                    }
+                ]
+            },
+            {
+                "id": "48ae2a897eeab5c045e1af57df57caccc113746c",
+                "type": "FIX",
+                "text": "Inbox: Focus is not on first UI of the \"Create substitution rule\" pop up",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580169713"
+                    }
+                ]
+            },
+            {
+                "id": "b0835be11626462e443e0962d933b14b4d9aea07",
+                "type": "FIX",
+                "text": "Inbox: Multiple selection does not work correctly in BPM Inbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570155139"
+                    }
+                ]
+            },
+            {
+                "id": "fa5908189254ca07ea6fd59a44b99b1c44575a8a",
+                "type": "FIX",
+                "text": "Inbox: N:NWTC:BT:M: Stream View not loading the second time",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570029104"
+                    }
+                ]
+            },
+            {
+                "id": "7c89dd2dfaf31ecc864db08b084f0984a0147ef6",
+                "type": "FIX",
+                "text": "Inbox: Pre-Filtering in BPM Inbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "49387"
+                    }
+                ]
+            },
+            {
+                "id": "e18c03b11fa6d45118f5abbbc42896a3d3410ce6",
+                "type": "FIX",
+                "text": "Inbox: Tooltip and icons of the Execution Link in TableView inconsistent",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570471782"
+                    }
+                ]
+            },
+            {
+                "id": "6e43b250b2501893baef3dc4e15aea347f4433af",
+                "type": "FIX",
+                "text": "Inbox: substitution rules not distinguishable in Unified Inbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570443473"
+                    }
+                ]
+            },
+            {
+                "id": "12324518e21f01fd710c4e315bcb7bab2b1b3414",
+                "type": "FIX",
+                "text": "Substitution rules with profile - incorrect date format with JSON payload",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580196206/2015"
+                    }
+                ]
+            },
+            {
+                "id": "d8c227d43bbe3ce992fdd260b29cbcf950364693",
+                "type": "FIX",
+                "text": "Introduced sap-inbox-overlay=true",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "133485"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.3": {
+        "date": "February 2016",
+        "notes": [
+            {
+                "id": "7dcec9b7c51aa967e3bb5bcc980b2369692c2cef",
+                "type": "FIX",
+                "text": "Inbox: Display notification \"No data available\" when there is data in Inbox.",
+                "references": []
+            }
+        ]
+    }
+}

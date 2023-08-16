@@ -1,0 +1,279 @@
+{
+    "1.113.0": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "4cb8d504c9050a3ca4db41fb16542ee4f4f39839",
+                "type": "FEATURE",
+                "text": " SmartField: Support for Common.IsTimezone annotation"
+            },
+            {
+                "id": "0adda1eca354fc765028d537bd8b8894c8a3f034",
+                "type": "FIX",
+                "text": " SmartField: improved change event firing - revert"
+            },
+            {
+                "id": "d00237e1b9708f466372343ae2c75ceb0d0a4475",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Tokens \"text\" property value fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370023455"
+                    }
+                ]
+            },
+            {
+                "id": "f64343051fb64c30b794a0dcd10c93c4df2e591a",
+                "type": "FEATURE",
+                "text": "  ValueListProvider: disable suggestions from FLP settings"
+            },
+            {
+                "id": "c1a543b86b2f77bb2f1818e0d55ca3bba381e03f",
+                "type": "FIX",
+                "text": " smartMultiInput: unhandled case if selected row has value as 0",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370020526"
+                    }
+                ]
+            },
+            {
+                "id": "745166ca879b10063c04b3909fdc5db114981c6f",
+                "type": "FIX",
+                "text": " SmartField: Improve accessibility for UoM",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380019602"
+                    }
+                ]
+            },
+            {
+                "id": "b8af3e0158312c07c56300cf9ee86aa38a431fc6",
+                "type": "FIX",
+                "text": " SmartLink onPress: close popover if open",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370003118"
+                    }
+                ]
+            },
+            {
+                "id": "1f3b2aef2a48035a7cb9991193c4bdb2fb4219d3",
+                "type": "FIX",
+                "text": " SmartField: improved change event firing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370019076"
+                    }
+                ]
+            },
+            {
+                "id": "4a4da6a57403b7e41e426e7c2edf6acfc8841fd9",
+                "type": "FIX",
+                "text": " SmartLink: fix for failing Firefox test",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370026248"
+                    }
+                ]
+            },
+            {
+                "id": "adc9bbf29d399e6be1f3bf2ef0485653bf1c4d5f",
+                "type": "FIX",
+                "text": " FilterController: FilterProperty is used for creating filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370012037"
+                    }
+                ]
+            },
+            {
+                "id": "0a097700c0642f8ae83948b6788531133ea3489e",
+                "type": "FIX",
+                "text": " SmartField: Unstable test fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370026214"
+                    }
+                ]
+            },
+            {
+                "id": "a9187598248aae759eaed9d4948d5c4e0d09da0e",
+                "type": "FIX",
+                "text": " SmartField: refreshDataState now clears changeModelValue suppression flag",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370025462"
+                    }
+                ]
+            },
+            {
+                "id": "1e02d7eae54274b8afd5c414cb9f2444e3dea217",
+                "type": "FIX",
+                "text": " ValueListProvider: prevent search from single field text arrangement validate call",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370012575"
+                    }
+                ]
+            },
+            {
+                "id": "c83fb490d01af5165e1856b9b112773aa3542832",
+                "type": "FIX",
+                "text": " ValueListProvider: correct validation request when max length is exceeded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380012736"
+                    }
+                ]
+            },
+            {
+                "id": "6e38cf48d44a172c95ad7c037e0f3ea27e28174d",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: New column header menu in GridTable"
+            },
+            {
+                "id": "c9b9205a4e395633536f4e56d6d04601b143013d",
+                "type": "FIX",
+                "text": " ValueHelpDialog: initial count when used with SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270180407"
+                    }
+                ]
+            },
+            {
+                "id": "0e8c5ec2fb5a3781f59d5f5e06abd38cc7b4fe73",
+                "type": "FIX",
+                "text": " DateRangeType: correctly set value to Paramater fields when DateRangeType is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380023495"
+                    }
+                ]
+            },
+            {
+                "id": "7d7ba6cbcee0147c400043612e55ccdacc32e131",
+                "type": "FEATURE",
+                "text": " SmartField – supports FieldControl as optional"
+            },
+            {
+                "id": "3bd6bed30dceb2648931268bf2d2720b60aafa28",
+                "type": "FIX",
+                "text": " ColumnsController: Columns order is now fixed"
+            },
+            {
+                "id": "99effa8e2756be12bd5ec71fd01b381375b9ce14",
+                "type": "FIX",
+                "text": " DateRangeType: stop throwing exception when custom option defaultValues are numbers",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044289"
+                    }
+                ]
+            },
+            {
+                "id": "5476c2f0c35397ce4963ff00c57e0699079a680c",
+                "type": "FIX",
+                "text": " SmartField: changeModelValue event suppression is now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370004371"
+                    }
+                ]
+            },
+            {
+                "id": "25c66a0528e2105bbd3a8c0d42cfa71c43bad665",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement parsing of white spaces fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006647422022"
+                    }
+                ]
+            },
+            {
+                "id": "1e1083396e2bea37d7c2eafa7a3133064917aa23",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct date convert if integer values are used in DynamicDateRange",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370017296"
+                    }
+                ]
+            },
+            {
+                "id": "b83de86ffefa50a5e40d62de02bfeed517b7000f",
+                "type": "FIX",
+                "text": " SmartField: ariaLabelledBy is no longer added for span elements",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380019608"
+                    }
+                ]
+            },
+            {
+                "id": "1768fb1a1fa3ec20c69526b14b6b29fac92725da",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement description path fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380032667"
+                    }
+                ]
+            },
+            {
+                "id": "406ad79c721791ae7cb6aaef1e4a277e7afbb811",
+                "type": "FIX",
+                "text": " sap.ui.comp.microChart.SmartColumnMicroChart : Screen keeps on loading because of trying to set a property of null object. This is rectified with a check on null object.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280198735"
+                    }
+                ]
+            },
+            {
+                "id": "1c382e55a2ee369ca7474345b6103c27c4574fdc",
+                "type": "FIX",
+                "text": " SmartField: Object page is blocked in busy mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370010007"
+                    }
+                ]
+            },
+            {
+                "id": "f6664fa9daac800cb143d8c593019553ef2b073c",
+                "type": "FIX",
+                "text": " FilterPanel: Filters now respect displayBehavior of the ControlConfiguration of the SmartFilterBar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001302162023"
+                    }
+                ]
+            }
+        ]
+    }
+}

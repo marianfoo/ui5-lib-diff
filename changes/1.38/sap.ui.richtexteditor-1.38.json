@@ -1,0 +1,153 @@
+{
+    "1.38.0": {
+        "date": "April 2016",
+        "notes": [
+            {
+                "id": "a80584f5ae3b2a56cad5e580d92470d6d50720e2",
+                "type": "FIX",
+                "text": "RichTextEditor: Fixed issues with language fallback",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580042697"
+                    }
+                ]
+            },
+            {
+                "id": "0959ca7e12dd0946f6fa5fc8eeaea1c87a0c1903",
+                "type": "FIX",
+                "text": "RichTextEditor: Harden against external re-rendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570835846"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670097686"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670041461"
+                    }
+                ]
+            },
+            {
+                "id": "270b723c0cb2ff8ce3f9937cfc0c6a56ccefdd23",
+                "type": "FIX",
+                "text": "RichTextEditor: Re-Render on Safari and ResizeHandler Problems",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580097459"
+                    }
+                ]
+            },
+            {
+                "id": "6db63036e4c84b4d4262ca7463b8eecac211d5fd",
+                "type": "FIX",
+                "text": "RichTextEditor: Resize Correctly After Editor is Shown",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670047554"
+                    }
+                ]
+            },
+            {
+                "id": "f81c87332dd36800b9a1dcb9552c8371fcfc3d37",
+                "type": "FIX",
+                "text": "RichTextEditor: Resizing Problem in Firefox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670047554"
+                    }
+                ]
+            },
+            {
+                "id": "03315cfb8bc3b2bde73d7ef31aba1e82aad58a62",
+                "type": "FIX",
+                "text": "RichTextEditor: Support language \"no\" in TinyMCE4",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376600002296202015"
+                    }
+                ]
+            },
+            {
+                "id": "fcc9a9d2fef323cd9b040c206f3644063bba4136",
+                "type": "FIX",
+                "text": "RichTextEditor: Upgrade to 3.5.11 and 4.2.6 Enterprise Version",
+                "references": []
+            },
+            {
+                "id": "ee23f58a40d885afc0206e4a7ab9851ef92861b7",
+                "type": "FIX",
+                "text": "TinyMCE4 Upgrade: Allow Focus in Nested Modal PopUps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570854624"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670034709"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.38.1": {
+        "date": "May 2016",
+        "notes": [
+            {
+                "id": "95f3ef8aea30b71f2b21433e3dc01936c8f2b940",
+                "type": "FIX",
+                "text": "RichTextEditor: Reduced Number of Initializations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580170403"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670047554"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670071388"
+                    }
+                ]
+            },
+            {
+                "id": "38f8c8cb14bc8201704ecf6f31912f7955ff1880",
+                "type": "FIX",
+                "text": "RichTextEditor: TinyMCE3 show initial value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001130642016"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.38.3": {
+        "date": "June 2016",
+        "notes": [
+            {
+                "id": "d1ca90277f38504097b233725ec47dc6e8993517",
+                "type": "FIX",
+                "text": "RichTextEditor: Exceptions in IE 11 QUnit Test",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670320477"
+                    }
+                ]
+            }
+        ]
+    }
+}

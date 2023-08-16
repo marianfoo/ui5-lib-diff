@@ -1,0 +1,154 @@
+{
+    "1.115.0": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "Ia0a0533b27e95dd9d5ad8da102eb94e7b11884d2",
+                "type": "FEATURE",
+                "text": "You can now dynamically show or hide the inline creation rows when the creatable path value changes in the object page"
+            },
+            {
+                "id": "I088a3636c73cf25f7ed2c18c2463f66a71d13fcb",
+                "type": "FEATURE",
+                "text": "The appstate handling for AddCardtoInsights is now supported in analytical list page, list report and object page"
+            },
+            {
+                "id": "Ief62d6b04d3eee1eb70bd2821840829c54ae43ea",
+                "type": "FEATURE",
+                "text": "We now provide support for date field column in an integration card within list report and analytical list page"
+            },
+            {
+                "id": "I0d1e30de681a98199ae91550b0549b74a22a5605",
+                "type": "FIX",
+                "text": "We've now removed the strict handling from DiscardAction function import call in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370058055"
+                    }
+                ]
+            },
+            {
+                "id": "I02df5d1bde252cfa6786ce13c90f1c41c8b6e41a",
+                "type": "FIX",
+                "text": "We've now added a busy indicator before the the draft synchronization call in securedExecution extension API in order to ensure that any message returned from the corresponding MERGE request is displayed on the UI",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370077416"
+                    }
+                ]
+            },
+            {
+                "id": "I0c6075653f4de78e40b51af629c4e0dbb5919d17",
+                "type": "FIX",
+                "text": "The 'Add Card to Insights' functionality has been disabled for the multi-view application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380050042"
+                    }
+                ]
+            },
+            {
+                "id": "I4955e06cafbfd19686885308eab6786d6f66e8da",
+                "type": "FIX",
+                "text": "We've have now fixed the technical limitations occurring while creating cards for the Insights section of My Home in SAP S/4HANA Cloud",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047241"
+                    }
+                ]
+            },
+            {
+                "id": "I35484f99d178476272c618624b525c9f22cd1f2d",
+                "type": "FIX",
+                "text": "The field control value is now considered for the file uploader control inside a table in the list report and object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370031144"
+                    }
+                ]
+            },
+            {
+                "id": "I279e5cbb7dee3fd95a996f5cbc8b4c78eaea0389",
+                "type": "FIX",
+                "text": "We now ensure that an empty string passes as a root key in an external navigation scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370050095"
+                    }
+                ]
+            },
+            {
+                "id": "I8b9c09a45a2eef21a5d93eb714643fa61ffae612",
+                "type": "FIX",
+                "text": "We now restrict the compact filter VH calls in the visual filter mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370068929"
+                    }
+                ]
+            },
+            {
+                "id": "I5fd33f10d15bb9b76432cda642cb3388850186f9",
+                "type": "FIX",
+                "text": "The semantic date values are now read correctly from the change files generated using UI Adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370052705"
+                    }
+                ]
+            },
+            {
+                "id": "I871576ed32eab7d9f1dc865cdf5b962d97a0f308",
+                "type": "FIX",
+                "text": "We've now removed the additional VBox class sapMTableContentMargin",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370030168"
+                    }
+                ]
+            },
+            {
+                "id": "Ie0d258f9ae89809bf69207f9575b795a38a1b033",
+                "type": "FIX",
+                "text": "We've now eliminated draft synchronization for non draft apps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370071118"
+                    }
+                ]
+            },
+            {
+                "id": "Ib8745c5a74f6ad9b7a59997c984c1edb6af183c7",
+                "type": "FIX",
+                "text": "The exportEvent is now considered where userExportSettings is not present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370068023"
+                    }
+                ]
+            },
+            {
+                "id": "I32b5d2df7ea87a9da0ccf8122a9a58c50d00a513",
+                "type": "FIX",
+                "text": "We've now added the ariaDescribedBy in the share button for screen readers to read the header in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380030077"
+                    }
+                ]
+            }
+        ]
+    }
+}

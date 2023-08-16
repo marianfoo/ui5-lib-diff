@@ -1,0 +1,273 @@
+{
+    "1.80.0": {
+        "date": "July 2020",
+        "notes": [
+            {
+                "id": "7e876d52d62433cf67c68026d6deac1d0f391f3a",
+                "type": "FEATURE",
+                "text": "OP: SAP:Icons is now supported in form"
+            },
+            {
+                "id": "31abed210afa026ea69106bbf2519fbd7d7c6595",
+                "type": "FEATURE",
+                "text": "OP: Decimal formatter is now supported for UI.DataPoint"
+            },
+            {
+                "id": "0f52979453593003edefce8ff112bc9caf9eace6",
+                "type": "FEATURE",
+                "text": "Replaced deprecated sap.f.Avatar with sap.m.sample.Avatar"
+            },
+            {
+                "id": "524e134e6c3eda75cee98a90ad63bbcc63a5876d",
+                "type": "FEATURE",
+                "text": "LR OP: UI.Importance annotation supported for sap.m.table in FCL"
+            },
+            {
+                "id": "D3b7cfcc0f6a0e80aacbf6fb13563d33ef974429",
+                "type": "FEATURE",
+                "text": "User defined input fields supported on object page table toolbar"
+            },
+            {
+                "id": "59a3d94941ac82d66a640f704590e79138d1f0b7",
+                "type": "FIX",
+                "text": "Provided a fallback option to framework key for facet to read section settings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080231218"
+                    }
+                ]
+            },
+            {
+                "id": "a40d7fce9cb69763b051a312a01aa5adee67ea15",
+                "type": "FIX",
+                "text": "Improved communication of SAP Fiori elements framework code with router to prevent duplication of template components creation.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080223386"
+                    }
+                ]
+            },
+            {
+                "id": "d9c54f7ae100f2060c475cdafd2a415c0d535d31",
+                "type": "FIX",
+                "text": "State messages for tables are not requested if message scope is set to Business Object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070141533"
+                    }
+                ]
+            },
+            {
+                "id": "e39c8684e793dcc51a73485d239faf22d752dcb3",
+                "type": "FIX",
+                "text": "LR: Fixed the greying out of list report table on load of the application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080202116"
+                    }
+                ]
+            },
+            {
+                "id": "7759ac66ba50fbdd16805ba8d0b43522dad08929",
+                "type": "FIX",
+                "text": "ALP: Corect selection mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080200964"
+                    }
+                ]
+            },
+            {
+                "id": "9bd022d25089545c43b812def51c4d624aa986c7",
+                "type": "FIX",
+                "text": "[LR]: Set tabs properly in list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001131642020"
+                    }
+                ]
+            },
+            {
+                "id": "71618ccf685cfdf70f112987e6baca22a591d476",
+                "type": "FIX",
+                "text": "LROP: Update criticality indicator when criticality changes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080178968"
+                    }
+                ]
+            },
+            {
+                "id": "68115324cc94681e1630980b864a3cdf11f8e48b",
+                "type": "FIX",
+                "text": "Use facetId to read settings in manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080197445,2080197083"
+                    }
+                ]
+            },
+            {
+                "id": "ba2403ab8ada3618b43ee4ce84fb9ff3ae3f128b",
+                "type": "FIX",
+                "text": "OP: Added tolerance for wrong annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080195958"
+                    }
+                ]
+            },
+            {
+                "id": "3739d4c526d3b50751206e27e6f519a3a2b480f0",
+                "type": "FIX",
+                "text": "OP: UI.Importance and UI.Hidden annotation support moved to smartfield level",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080182175,2080142448"
+                    }
+                ]
+            },
+            {
+                "id": "ebf072d48130d66fd5651ba2d116537e073371f2",
+                "type": "FIX",
+                "text": "DeleteRestrictions supported for table selection mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080183261"
+                    }
+                ]
+            },
+            {
+                "id": "4a313969aadc2648e2c156a0a9b134f456b9391d",
+                "type": "FIX",
+                "text": "Table message strip is hidden in Display mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070157829"
+                    }
+                ]
+            },
+            {
+                "id": "6de241a026da7521c7177d60da6bdc256b0537c8",
+                "type": "FIX",
+                "text": "Fixed timezone for Sales Order No Extension list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080167686"
+                    }
+                ]
+            },
+            {
+                "id": "d627df73ab782a80a0499529b1ae6631bfbdc3be",
+                "type": "FIX",
+                "text": "DataFieldForAction buttons are now hidden for non-draft apps in Create mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080138340"
+                    }
+                ]
+            },
+            {
+                "id": "ebf0447aae60039df1c6d24b4b28fa0650671817",
+                "type": "FIX",
+                "text": "OP: Edit button is now hidden when app is in Edit mode"
+            },
+            {
+                "id": "2d3e9e1b53ad7b9629b9cf996070f165654f9706",
+                "type": "FIX",
+                "text": "Corrected selection mode for SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070247613"
+                    }
+                ]
+            },
+            {
+                "id": "62420ed0269ba5264fae05eb41704cce840455ab",
+                "type": "FIX",
+                "text": "Revert [FIX]: SemanticObjectUnavailableActions annotation supported for Related Apps"
+            },
+            {
+                "id": "dfab1e2217cbb8d065fcee05d4858f9a9b614bc0",
+                "type": "FIX",
+                "text": "SemanticObjectUnavailableActions annotation supported for Related Apps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080167294"
+                    }
+                ]
+            },
+            {
+                "id": "e06bd9593dd69fe59b862dceb8bf2596cf579a7a",
+                "type": "FIX",
+                "text": "OP: Fixed null check in visibility logic of Edit button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080170220"
+                    }
+                ]
+            },
+            {
+                "id": "ec12c325b3ef54050965f10cbad6c51caa58ea67",
+                "type": "FIX",
+                "text": "Removed overlay when LR table is in initial state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080133284"
+                    }
+                ]
+            },
+            {
+                "id": "eba3e02eb4cdcefa6a12ceaaea5f0fd282029ce1",
+                "type": "FIX",
+                "text": "OP: Fixed visibility issues with side-content",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980349967"
+                    }
+                ]
+            },
+            {
+                "id": "32f7102e313c84a6d878166aa11ba69586c418a4",
+                "type": "FIX",
+                "text": "LR: Fixed the issue where preserveHeaderStateOnScroll of DynamicPage was set to false for all table types",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "080133174"
+                    }
+                ]
+            },
+            {
+                "id": "454baa4ce38189bfa870299b9a361c86da02eb01",
+                "type": "FIX",
+                "text": "Added a null check for SFB during multi-context navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080142872"
+                    }
+                ]
+            }
+        ]
+    }
+}

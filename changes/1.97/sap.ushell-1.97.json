@@ -1,0 +1,132 @@
+{
+    "1.97.0": {
+        "date": "November 2021",
+        "notes": [
+            {
+                "id": "95ec0cfe4be027edbdf09132f0aec35f6168bebe",
+                "type": "FEATURE",
+                "text": " Enable keep alive functionality in cFLP"
+            },
+            {
+                "id": "6e503fe2bd0178ac75a1e226370c91c677ef6ea6",
+                "type": "FIX",
+                "text": " Keep Alive app B is not destroyed when navigating back to App A.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170286536"
+                    }
+                ]
+            },
+            {
+                "id": "5c0e776225d56f5055dc47da358cd4c2ef9bfa5f",
+                "type": "FIX",
+                "text": " Remove redundent key generation on delete of stateful application from blue box cache",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170281614"
+                    }
+                ]
+            },
+            {
+                "id": "a0eb8430280f0e36080786d9e5a9f9b33ad075ff",
+                "type": "FIX",
+                "text": " update changed property in User object"
+            },
+            {
+                "id": "c71ecfcffa37b66f1f8f03bc8048a92b702c2076",
+                "type": "FIX",
+                "text": " customer app can not change language in AppRuntime",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007225662021"
+                    }
+                ]
+            },
+            {
+                "id": "d1b69abd05f142c3e0208ae04087f14ab748cb49",
+                "type": "FIX",
+                "text": " last line in table cut in AppRuntime",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007233132021"
+                    }
+                ]
+            },
+            {
+                "id": "f259220df07b064837d17f544992940ff142fc24",
+                "type": "FIX",
+                "text": " Horizon theme not selected in some cases"
+            },
+            {
+                "id": "bcc58a9611802e7963ded9b06c738029b35d86c7",
+                "type": "FIX",
+                "text": " Entering app via AppFinder deactivates tab mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006611462021"
+                    }
+                ]
+            },
+            {
+                "id": "7c199ac98afbd9a279f5c3e191b71c3519d65627",
+                "type": "FIX",
+                "text": " uri.transform: Handle \"no path\" case",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006967492021"
+                    }
+                ]
+            },
+            {
+                "id": "90eb9976102f1c663dbf671be41273cf89b49b4e",
+                "type": "FIX",
+                "text": " Fixing the reflection of spaces mode to the application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170259754"
+                    }
+                ]
+            },
+            {
+                "id": "fc27826562dccabb6520424fb8c0cc0d2e29f803",
+                "type": "FIX",
+                "text": " remove superfluous set tile focus",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170264388"
+                    }
+                ]
+            },
+            {
+                "id": "ee9502d554067ec349a495e95c497d9f8b786c19",
+                "type": "FIX",
+                "text": " support isInitialNavigationAsync in AppRuntime",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005124912021"
+                    }
+                ]
+            },
+            {
+                "id": "14549f3633a52450d41f57583b021a6f4ea1cd28",
+                "type": "FIX",
+                "text": " Ushell Title Menu: adapt icon placement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170259669"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "1.34.0": {
+        "date": "November 2015",
+        "notes": [
+            {
+                "id": "3e1ebba143b6b91d4795bd82fbeeb6eb0d9c7834",
+                "type": "FEATURE",
+                "text": "Inbox: custom attributes client side sorting with oLingo library",
+                "references": []
+            },
+            {
+                "id": "1c5bd75a0839770a39c65972c6802aca2a044fe1",
+                "type": "FIX",
+                "text": "Inbox - invalid SystemInfoCollection request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580235687/2015"
+                    }
+                ]
+            },
+            {
+                "id": "6c4ad1b2001358d41c1073008758752b13c7e388",
+                "type": "FIX",
+                "text": "Inbox: BPM Item custom attribute sorted in different order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570466922"
+                    }
+                ]
+            },
+            {
+                "id": "2a62b3bc80ee6b39e8515c0384f1b704a8922a3b",
+                "type": "FIX",
+                "text": "Inbox: Empty Substitution Profile leads to none processing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580196201/2015"
+                    }
+                ]
+            },
+            {
+                "id": "48ae2a897eeab5c045e1af57df57caccc113746c",
+                "type": "FIX",
+                "text": "Inbox: Focus is not on first UI of the \"Create substitution rule\" pop up",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580169713"
+                    }
+                ]
+            },
+            {
+                "id": "e18c03b11fa6d45118f5abbbc42896a3d3410ce6",
+                "type": "FIX",
+                "text": "Inbox: Tooltip and icons of the Execution Link in TableView inconsistent",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570471782"
+                    }
+                ]
+            },
+            {
+                "id": "12324518e21f01fd710c4e315bcb7bab2b1b3414",
+                "type": "FIX",
+                "text": "Substitution rules with profile - incorrect date format with JSON payload",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580196206/2015"
+                    }
+                ]
+            }
+        ]
+    }
+}

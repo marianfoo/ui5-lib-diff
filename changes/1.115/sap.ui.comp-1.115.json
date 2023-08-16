@@ -1,0 +1,288 @@
+{
+    "1.115.0": {
+        "date": "June 2023",
+        "notes": [
+            {
+                "id": "d95b152305df74366a6807589edafed0afd189fd",
+                "type": "FIX",
+                "text": " SmartLabel: run-time error fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380046946"
+                    }
+                ]
+            },
+            {
+                "id": "046419381a39f788ab553e97adcfa85165957cdc",
+                "type": "FIX",
+                "text": " SmartField: ensure the dataProperty is provided",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380056383"
+                    }
+                ]
+            },
+            {
+                "id": "11b64f869a5288e6d9c4e6d54e5f4c9d057790f3",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Table title is correctly read out",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370074528"
+                    }
+                ]
+            },
+            {
+                "id": "669a69adc66987b7575cd9657501b8e5a02a8bd0",
+                "type": "FEATURE",
+                "text": " Smart filter bar/Filter bar: Support input of numeric fields on mobile devices"
+            },
+            {
+                "id": "0a8f0b98798ddadbbc2f9a55927439063eb208ab",
+                "type": "FIX",
+                "text": " SmartField: improvement of invalidating the TextArrangement description",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370077337"
+                    }
+                ]
+            },
+            {
+                "id": "ca67e50a8174127d8d54621320c87e7f564efd97",
+                "type": "FIX",
+                "text": " SmartField: ValueList with additional InParams",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280192728"
+                    }
+                ]
+            },
+            {
+                "id": "4b799dc4bf300b6454f5eb61e4537d1aa609dc03",
+                "type": "FEATURE",
+                "text": " SmartField/SmartFilterBar: Error message for empty mandatory fields improved"
+            },
+            {
+                "id": "54c73b282ff38e4d949abd07410f05f744051425",
+                "type": "FIX",
+                "text": " SmartField: ComboBox selection reset",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370054655"
+                    }
+                ]
+            },
+            {
+                "id": "7c13f8d971f2f3ff218e855e9e9bf71c8ffcd002",
+                "type": "FIX",
+                "text": " SmartFilterBar: Correct Hint text visibility when useToolbar is set to false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003848812023"
+                    }
+                ]
+            },
+            {
+                "id": "66d1669ab862ed5e30a1686dc1daa35affbc9073",
+                "type": "FIX",
+                "text": " SmartFilterBar: Invalid filters are now excluded from the filter data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270151258"
+                    }
+                ]
+            },
+            {
+                "id": "871ecf9b0e29d5775180ea285fbc85941d271589",
+                "type": "FIX",
+                "text": " SmartField: changeModelValue not triggered when unit of measurement changes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370029074"
+                    }
+                ]
+            },
+            {
+                "id": "d36c67cfc3074ac4760883e5d54ae0194ffab7da",
+                "type": "FIX",
+                "text": " SmartField: change event firing for UoM is now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002467862023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003936362023"
+                    }
+                ]
+            },
+            {
+                "id": "d4ac77eee3ba8f6da37a3bc2f4bc7eff0d10951a",
+                "type": "FIX",
+                "text": " comp.ValueHelpDialog: sap_belize_plus Title contrast fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002263532023"
+                    }
+                ]
+            },
+            {
+                "id": "b268a828fe1ee28514c631276870d285ec9b63cd",
+                "type": "FIX",
+                "text": " ValueHelpDialog: filter value as in param for MultiComboBox is now handled correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280125535"
+                    }
+                ]
+            },
+            {
+                "id": "75cd85ef230bc7acae6096fefa8c751d4f074410",
+                "type": "FIX",
+                "text": " SmartVariantManagement: move 'save' event before variant save",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370049901"
+                    }
+                ]
+            },
+            {
+                "id": "bc14aa4e364f1e55e873669044ff3e7f9d82320e",
+                "type": "FIX",
+                "text": " SmartField: The description is shown properly for default GUID",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007557582022"
+                    }
+                ]
+            },
+            {
+                "id": "45cae9f5d3b58355c1f3a9dbc805cf103c04bdfa",
+                "type": "FIX",
+                "text": " SmartFilterBar: REVERT Invalid filters are now excluded from the filter data"
+            },
+            {
+                "id": "25e281eb51ae0d3c612a4ab46acf5b3ed0cb4a29",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Ok button now does not cut off text in Arabic",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370063191"
+                    }
+                ]
+            },
+            {
+                "id": "f7e6ea23376537b7c6f02039a00ed7712b30f2aa",
+                "type": "FEATURE",
+                "text": " SmartField: Support input of numeric fields on mobile devices"
+            },
+            {
+                "id": "b2b32723dfdba87139305e14b013ac89bb50ee39",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Duplicated label is removed from Define Conditions tab"
+            },
+            {
+                "id": "d1720b727ea2fdea66ad2c8952c2bd8e7764c48b",
+                "type": "FIX",
+                "text": " SmartFilterBar: REVERT creates a token when a valid value is pasted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370063148"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003037622023"
+                    }
+                ]
+            },
+            {
+                "id": "92b54f0938848c0ffa04ec46b0f8342c8d84cd89",
+                "type": "FIX",
+                "text": " ValueHelpDialog: ColumnMenu items now have correct labels"
+            },
+            {
+                "id": "f1ed1c8c70d7a27f98751418d8280bda1e018b2d",
+                "type": "FIX",
+                "text": " SmartFilterBar: Invalid filters are now excluded from the filter data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270151258"
+                    }
+                ]
+            },
+            {
+                "id": "0fceb5a376bdce035b34c3849dcdfaca89f6be28",
+                "type": "FIX",
+                "text": " SmartField: Display control when in SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270165847"
+                    }
+                ]
+            },
+            {
+                "id": "07c57dbf22e2e7003920c19e5437c7e955df2814",
+                "type": "FIX",
+                "text": " ValueListProvider: do not filter out suggestions returned from service",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000597582023"
+                    },
+                    {
+                        "type": "BCp",
+                        "reference": "002075129500008932302022"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170013873"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180093567"
+                    }
+                ]
+            },
+            {
+                "id": "e3b99dfeff90abdebb92c03827e31493fe0d978b",
+                "type": "FIX",
+                "text": " SmartTable: Ignore hidden columns from quick actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370049498"
+                    }
+                ]
+            },
+            {
+                "id": "f7c9fe22f839a1b09a7309c9e9d34ec3f050e157",
+                "type": "FIX",
+                "text": " SmartField: Improve accessibility for UoM",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380019602"
+                    }
+                ]
+            }
+        ]
+    }
+}

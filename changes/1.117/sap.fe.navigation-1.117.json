@@ -1,0 +1,28 @@
+{
+    "1.117.0": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "8fd2d22dd2386875067fb43b47b589793eb7ceca",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now supports semantic date operators as filters for dynamic tiles"
+            },
+            {
+                "id": "4407b5bffa511a13a29db193994dea19b60ae4bf",
+                "type": "FEATURE",
+                "text": " We now correctly handle the count mismatch of dynamic tiles in the Save as Tile feature"
+            },
+            {
+                "id": "b111c939edf822697ea7bd469066ab9ba974d17e",
+                "type": "FIX",
+                "text": " We’ve added additional validations to VALIDATE_SIGN and VALIDATE_OPTION  for exact matches in the SelectionVariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380078623"
+                    }
+                ]
+            }
+        ]
+    }
+}

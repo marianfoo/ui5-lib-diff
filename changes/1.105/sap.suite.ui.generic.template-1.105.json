@@ -1,0 +1,184 @@
+{
+    "1.105.0": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "Ifccd6cb2f94390de8b6ae30478615e9c882cd1e4",
+                "type": "FEATURE",
+                "text": "Content-ID referencing for callUnboundAction has been introduced"
+            },
+            {
+                "id": "Ic165d35f4f6ebc3e688058c4d44cc5a2b794b497",
+                "type": "FEATURE",
+                "text": "In the warning popup, title and action button names are now changed"
+            },
+            {
+                "id": "If1cf55bcfaf233bb2823ac73c9684035b734103f",
+                "type": "FEATURE",
+                "text": "There is now an option to define new keyboard shortcuts for DataFieldForAction and DataFieldForIntentBasedNavigation actions"
+            },
+            {
+                "id": "I5ddbcee4ae06069eb4f00c4752b5da075f66c508",
+                "type": "FEATURE",
+                "text": "The appstate is now deactivated in UI adaptation"
+            },
+            {
+                "id": "I897605750da1a7fa75f46e10aa3b5c2193f71bac",
+                "type": "FEATURE",
+                "text": "PreparationAction now gets enabled when you press Enter"
+            },
+            {
+                "id": "I5da387408489b212e75041f38ed6173b2ccb31f5",
+                "type": "FEATURE",
+                "text": "Additional $count is now suppressed while expanding tree node, or during the loading of more rows in the responsive table"
+            },
+            {
+                "id": "I9ec9092dbed6a9f3b5e0fa91521ab03a2dfe52cf",
+                "type": "FIX",
+                "text": "Inline creation rows have been enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280115878"
+                    }
+                ]
+            },
+            {
+                "id": "Ibcf536c09135e34ee92eb2f8d32ed5e9026700c1",
+                "type": "FIX",
+                "text": "Side effect execution for multi input field has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270072763"
+                    }
+                ]
+            },
+            {
+                "id": "I6c20d82eb8f4af95972c4fcc65077b1947daec1b",
+                "type": "FIX",
+                "text": "Object marker's visibility has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280121549"
+                    }
+                ]
+            },
+            {
+                "id": "I396cf51b5030b22ccb81e84157b9df4f21ecf6f4",
+                "type": "FIX",
+                "text": "The issues while triggering selection in navigation action have been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280127181"
+                    }
+                ]
+            },
+            {
+                "id": "Ibd5989d4619eee7ab3520eb1109018f27cfe2e78",
+                "type": "FIX",
+                "text": "Side effect execution for multi input field has been improved"
+            },
+            {
+                "id": "I9bcae4a2b16c1e4f43facc458e8d1dca13c9d661",
+                "type": "FIX",
+                "text": "Correct escaping in stable IDs have been implemented"
+            },
+            {
+                "id": "I9cad38a6c4f0cdbf08dbaaeba4dd4b4f137b74c3",
+                "type": "FIX",
+                "text": "A fix have been provided for mParameters.expand in case of content ID referencing for callUnboundAction"
+            },
+            {
+                "id": "If76d40f0f4a1f423ff9f450716a09651da1bb25d",
+                "type": "FIX",
+                "text": "An additional check is now provided for the field object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280128388"
+                    }
+                ]
+            },
+            {
+                "id": "I1c440c822ee4e167d6bba806ecf44764d93970a5",
+                "type": "FIX",
+                "text": "Datafield with links can now be a part of text arrangement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280095044"
+                    }
+                ]
+            },
+            {
+                "id": "I068a5816f6630a2c4435c4581f11c526fad1034a",
+                "type": "FIX",
+                "text": "Side effects can now be implemented for SmartMultiInput field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280111111"
+                    }
+                ]
+            },
+            {
+                "id": "I7f82d8f47034dd2e683558817c645b01bf8f3146",
+                "type": "FIX",
+                "text": "ObjectPageHeaderActionButton is now available for the combine functionality",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280121885"
+                    }
+                ]
+            },
+            {
+                "id": "I213beac0b88d2d2745d03d082a20ef1398bf7be7",
+                "type": "FIX",
+                "text": "For the Create scenario, the 412 warning message popups have been introduced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280120933"
+                    }
+                ]
+            },
+            {
+                "id": "I2cbb9310ee4b0a5a7261af9c6c0d3dfbeed8a12f",
+                "type": "FIX",
+                "text": "The issues with the null pointer exceptions while navigating in myInbox have been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280133744"
+                    }
+                ]
+            },
+            {
+                "id": "I3d09316861d4f008e4a6e983cd6cadafa6e9ed0f",
+                "type": "FIX",
+                "text": "The multi edit button enablement has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280128097"
+                    }
+                ]
+            },
+            {
+                "id": "I380e637f0af566375885a812f0ffebbb7b96f02a",
+                "type": "FIX",
+                "text": "Placeholder screen for perceived performance has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280126318"
+                    }
+                ]
+            }
+        ]
+    }
+}

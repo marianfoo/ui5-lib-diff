@@ -1,0 +1,64 @@
+{
+    "1.44.0": {
+        "date": "October 2016",
+        "notes": [
+            {
+                "id": "3a765b072343b2dcccb56093d0f9c8215f77235f",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.RadialMicroChart: Support of different chart sizes added",
+                "references": []
+            },
+            {
+                "id": "2f8c4221b680e2ee786ed4dbf89f1a3d57b07fcf",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.StackedBarMicroChart: New control created",
+                "references": []
+            },
+            {
+                "id": "f6b42446b403d96ed9bbd1abf8bb1740e790ac5c",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.ComparisonMicroChart: KPIs not showing in IE fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680114549"
+                    }
+                ]
+            },
+            {
+                "id": "488a9c890820ee08aa023b7451328920d28687dc",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.ComparisonMicroChart: Tooltip handling is changed to solve screen reader issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680113972"
+                    }
+                ]
+            },
+            {
+                "id": "384461531df21b4f5744acf63d9818310ca7c1d7",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.RadialMicroChart: Display in GenericTile after Device orientation change corrected",
+                "references": []
+            },
+            {
+                "id": "7039a64f5e308fc4797176ba4cad57729540ee8a",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.RadialMicroChart: Vertical position of value label enhanced",
+                "references": []
+            },
+            {
+                "id": "7e5d12669e22db810dad3c3853d7438b5b9935b2",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart: Rendering behavior during initialization of the controls corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680181274"
+                    }
+                ]
+            }
+        ]
+    }
+}

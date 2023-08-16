@@ -1,0 +1,557 @@
+{
+    "1.56.0": {
+        "date": "May 2018",
+        "notes": [
+            {
+                "id": "ac5f3b1581f9aaa797d9174cb4b05f2cc0c5b871",
+                "type": "FIX",
+                "text": "OP: executeSideEffects extension.API now triggers global refresh if no side effects were specified",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870112265"
+                    }
+                ]
+            },
+            {
+                "id": "7164ea49f6a73fd154f39539e3bb1dfb76f6b447",
+                "type": "FIX",
+                "text": "LR: Added null check for header text visibility"
+            },
+            {
+                "id": "70b2130bf243c6ccfea2f9f213d052dbea6bb64f",
+                "type": "FIX",
+                "text": "OP: Missing icons in Contact section corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870212077"
+                    }
+                ]
+            },
+            {
+                "id": "0720449046c898a99dc8e673079acd99abbe1fec",
+                "type": "FIX",
+                "text": "OP: Timing of side effects and draft merge improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870241596"
+                    }
+                ]
+            },
+            {
+                "id": "bf58e25d36ed8751d0dcc8185960ffba54f30c27",
+                "type": "FEATURE",
+                "text": "ALP: Support for invoke actions extension API"
+            },
+            {
+                "id": "fb7d61e319228d4189fb9b9c1079417c97181f47",
+                "type": "FIX",
+                "text": "Improved jsdoc for ExtensionAPI securedExecution"
+            },
+            {
+                "id": "712ec2fa401bf30654fba727619d9028389b22b8",
+                "type": "FIX",
+                "text": "OP: Deletion of items from tables fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870234763"
+                    }
+                ]
+            },
+            {
+                "id": "f585076844b5cf9b152d0250ef1656e2826a9974",
+                "type": "FEATURE",
+                "text": "LROP: Extension point beforeDelete and beforeLineItemDelete"
+            },
+            {
+                "id": "9499a16dd50675f0271ad5bbd188dfcd0b957ab2",
+                "type": "FIX",
+                "text": "OP: DataFieldForIntentBasedNavigation for form actions fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870205837"
+                    }
+                ]
+            },
+            {
+                "id": "e44a916b6047e01f348dda3de1ef5ea519b3c56d",
+                "type": "FEATURE",
+                "text": "LR: Different entity sets in multiple views mode are supported"
+            },
+            {
+                "id": "ac80f23928a09817e63888c435465f1127b10a70",
+                "type": "FEATURE",
+                "text": "LROP: Enable extension point for attachBeforeDelete"
+            },
+            {
+                "id": "b566d07f4973e911d95028f5c87fd35ad0f5a70c",
+                "type": "FIX",
+                "text": "OP: Handling of global side effect has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870186222"
+                    }
+                ]
+            },
+            {
+                "id": "7ce9c33bbac2da4b06ae2f72f587960aa2eb2d45",
+                "type": "FIX",
+                "text": "Handling after user cancels an action improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870191162"
+                    }
+                ]
+            },
+            {
+                "id": "066839973ea1c731110e9478a7d38d2644903e73",
+                "type": "FEATURE",
+                "text": "OP: Enable navigation to the root page via extension API"
+            },
+            {
+                "id": "b864fc04ceedd71bf40da523510d5c33260e4f22",
+                "type": "FEATURE",
+                "text": "ALP: Changes in filter dialog should not be applied to filterbar before user confirmation"
+            },
+            {
+                "id": "c5f1e4c2f86b2cc9dcf1d0896325a26179acc2e0",
+                "type": "FEATURE",
+                "text": "LR: Default title for unnamed objects"
+            },
+            {
+                "id": "7ecb1691df578ba7307252266f57d76efdd7143c",
+                "type": "FEATURE",
+                "text": "LR: Handling the value of the P_DisplayCurrency parameter enabled"
+            },
+            {
+                "id": "d4c6360e150b9f5ab87c2cde4eece421cef006b8",
+                "type": "FEATURE",
+                "text": "OP: UI.Hidden annotation is now supported for UI.DataField records within UI.FieldGroup, UI.Identification, UI.LineItem"
+            },
+            {
+                "id": "f05d56fe66bba6cf31126fde69ff6670565b8011",
+                "type": "FIX",
+                "text": "OP: Refresh after draft activation improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870032069"
+                    }
+                ]
+            },
+            {
+                "id": "0062a3c0bd4f3a2334de6ba1cafc812111a4194d",
+                "type": "FEATURE",
+                "text": "LROP: Considering analytical parameters in SAP Fiori elements"
+            },
+            {
+                "id": "96c081fc9bbb45526ebd50ccf4add599023e0936",
+                "type": "FEATURE",
+                "text": "OP: ReplaceSubSection extension provided"
+            },
+            {
+                "id": "94fc1d8e325c46c0ceffff6e4a8cea03771e7959",
+                "type": "FIX",
+                "text": "LR: Data loading issue in worklist is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870150212"
+                    }
+                ]
+            },
+            {
+                "id": "1de6f83a95df68c654b8c46313b551e01f4c764e",
+                "type": "FIX",
+                "text": "LROP: Formatting for grouped numbers fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880033473"
+                    }
+                ]
+            },
+            {
+                "id": "3b96f66b244824e52040921835685a6ae8af39af",
+                "type": "FIX",
+                "text": "LR: External chart navigation for multiple entity sets enabled"
+            },
+            {
+                "id": "c35297d4ed2f16ececce74fb8b9a03166bb39fbc",
+                "type": "FIX",
+                "text": "LR: External navigation for charts in multiple views supported"
+            },
+            {
+                "id": "c64ce1a1e7978b93325b0ce79c8672f92eb97ea8",
+                "type": "FIX",
+                "text": "OP: Extra rebind table calls filtered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870004592"
+                    }
+                ]
+            },
+            {
+                "id": "5eb6df84a470014f10e047eb125a303b067908fa",
+                "type": "FEATURE",
+                "text": "OP: Before and after extensions for sub-sections are now allowed"
+            },
+            {
+                "id": "8a8f95ac49d5b3e78f21702559dd9b80f7ed6acf",
+                "type": "FEATURE",
+                "text": "LR: Sticky header enabled for responsive tables"
+            },
+            {
+                "id": "1ecf2949948c3b621faa124877fed483651bbcfc",
+                "type": "FIX",
+                "text": "LROP: Custom data values for progress indicator corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880146965"
+                    }
+                ]
+            },
+            {
+                "id": "bc259417342da6890b1e648981b1c3e2547354a0",
+                "type": "FEATURE",
+                "text": "ALP: Ignore Hidden & Hidden Filters in Visual Filters"
+            },
+            {
+                "id": "b1f3ae340cbb0b160e3501a00319f01dd33079fb",
+                "type": "FEATURE",
+                "text": "ALP: To implement onSaveAsTileExtension"
+            },
+            {
+                "id": "9c0db1f59aae91578d8944510252b79590bda05d",
+                "type": "FIX",
+                "text": "LR: Flexible column layout issue for tree tables is fixed"
+            },
+            {
+                "id": "3a2ee51dda5509b59c8fb26eb741ae87f373c150",
+                "type": "FIX",
+                "text": "OP: Visibility of HeaderTitle as string in edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870026248"
+                    }
+                ]
+            },
+            {
+                "id": "1e9745a684fefb4e0c6a376b15dffbffa2de8c05",
+                "type": "FIX",
+                "text": "LROP: sap.ui.table based tables should not flicker",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880239278"
+                    }
+                ]
+            },
+            {
+                "id": "0db8fde2b3f524f823937b3ff8f1ac340dd2c89f",
+                "type": "FIX",
+                "text": "LR: Enable external navigation for SmartChart in multiple views"
+            },
+            {
+                "id": "517673b8efc299275eff9360f2f9fed2abf9af06",
+                "type": "FIX",
+                "text": "OP: The determination of the navigation menu subtitle has been improved"
+            },
+            {
+                "id": "33c919ae24532fde90847eb76d3166c5d505e854",
+                "type": "FEATURE",
+                "text": "LR: Provide option to harmonize filtering in list report"
+            },
+            {
+                "id": "94f485f8f63ecdaa7e08994e197f005d10c986bb",
+                "type": "FIX",
+                "text": "OP: When the binding for title or subtitle refers to fields types as date or time, the title formatting has been improved.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880146275"
+                    }
+                ]
+            },
+            {
+                "id": "a8097f2adc5f21a3fcc3eedd4829f03c3a1f5409",
+                "type": "FIX",
+                "text": "LR: Refresh of list report after object page was deleted in flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880204559"
+                    }
+                ]
+            },
+            {
+                "id": "5c3c04ad573cc66c90ae1c3e5ab8c4c6a89d55cd",
+                "type": "FIX",
+                "text": "OP: Header padding fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870026382"
+                    }
+                ]
+            },
+            {
+                "id": "6a370a2ee908f79f9cc93274120f51ad61ddacd3",
+                "type": "FEATURE",
+                "text": "ALP: Allow for fixed values in visual filter chart"
+            },
+            {
+                "id": "21cfc5c9564fac71262f94cc4688cbcd1b9d4344",
+                "type": "FIX",
+                "text": "LR: Handling of unaccessible app state has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880205240, 1880179719"
+                    }
+                ]
+            },
+            {
+                "id": "8d9a75fbbb33c3d69f1ac46905e52f21b533a983",
+                "type": "FIX",
+                "text": "When the ID used for the reuse component contained string '::', some reuse component functions were not working properly. This has now been fixed."
+            },
+            {
+                "id": "571509053b7116a13f9be9247d56381cdd7638d6",
+                "type": "FEATURE",
+                "text": "ALP: Added DataFieldWithIntentBasedNavigation annotation"
+            },
+            {
+                "id": "9517c885aa93d32c2b6397a02bc641bb6db6f16b",
+                "type": "FIX",
+                "text": "OP: UI.Hidden annotation is now not supported for hiding smart forms within sections"
+            },
+            {
+                "id": "d20bf2e0e1e20f5477eb11cd993ad81e861623c6",
+                "type": "FIX",
+                "text": "LR: Export to excel has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000122456 2018"
+                    }
+                ]
+            },
+            {
+                "id": "5c0143826101a20223bed83e4195f9caa94d4d7e",
+                "type": "FIX",
+                "text": "LR: Optimized navigation to list report when cancelling a new draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870016669"
+                    }
+                ]
+            },
+            {
+                "id": "d01e71be2969be35858f56db2e8af03522fc1dcc",
+                "type": "FIX",
+                "text": "LROP: Width of Cancel button in ShareSheet in mobile mode fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880166784"
+                    }
+                ]
+            },
+            {
+                "id": "01c70028f6852c7a59f4855fd650b8cbe3554f0e",
+                "type": "FIX",
+                "text": "OP: Alignment in subsection of object page optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880158112"
+                    }
+                ]
+            },
+            {
+                "id": "ab3047ee606bfd6f3ef97bfb7a3169629624d790",
+                "type": "FIX",
+                "text": "OP: Deletion of different subobjects optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880221003"
+                    }
+                ]
+            },
+            {
+                "id": "afc8d580406518c6395dd3ca8ecea062d9e5ff63",
+                "type": "FIX",
+                "text": "LR: Refresh of list report binding when switching the tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880204559"
+                    }
+                ]
+            },
+            {
+                "id": "8b2d346452a6d2b3819fe973485d5260be56be2a",
+                "type": "FEATURE",
+                "text": "ALP:Added support for filtering on table columns"
+            },
+            {
+                "id": "0f195580a7ecbf252fe5196d988ea36886b995d7",
+                "type": "FIX",
+                "text": "OP Title for new objects in non-draft scenario must be determined correctly"
+            },
+            {
+                "id": "8ee2344ee3ecf5ee5a5660748b40df1f7e1421bf",
+                "type": "FIX",
+                "text": "LR: Issue related to marking variant dirty in worklist is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880070345"
+                    }
+                ]
+            },
+            {
+                "id": "232ba222e9fd44fc5a656219fd1f64a1d37a9496",
+                "type": "FIX",
+                "text": "LR: Data selection for draft-enabled services with disabled filter on edit state has been improved"
+            },
+            {
+                "id": "86e743a3d54462c0af7928033b3ca6eaa03b6a0f",
+                "type": "FIX",
+                "text": "OP: Enablement of custom actions has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880221035"
+                    }
+                ]
+            },
+            {
+                "id": "a0dbc91bc0f7bc2d1bd2be369403fea613977597",
+                "type": "FEATURE",
+                "text": "ALP: Added error handling in KPI Tags"
+            },
+            {
+                "id": "bc51904f1e5935cb737c30392a8a6d64fedee4e1",
+                "type": "FIX",
+                "text": "LR: Usage of condensed mode for analytical, grid, and tree tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880188467"
+                    }
+                ]
+            },
+            {
+                "id": "5beffb1d91e98c92a3d34fd62f56021ed23a749c",
+                "type": "FIX",
+                "text": "LROP: Display of custom actions corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880203450"
+                    }
+                ]
+            },
+            {
+                "id": "fe28b75b0ded51e11d76dcfbad0dc1e88c1dae82",
+                "type": "FIX",
+                "text": "LR/ALP: Determining actions in LR/ALP optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780469708"
+                    }
+                ]
+            },
+            {
+                "id": "4599cf309ffe4a3fe74f9eee9c92cea6fdfbe9b8",
+                "type": "FIX",
+                "text": "LR: Issue related to marking variant dirty is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880070345"
+                    }
+                ]
+            },
+            {
+                "id": "230336397456dcdb1683d9583b49d8e11267b6c4",
+                "type": "FIX",
+                "text": "LR: disable internal navigation with different entitySets"
+            },
+            {
+                "id": "fbedb5e2ba544fd7c08d8a287e1206e43e05061b",
+                "type": "FIX",
+                "text": "OP: App-internal linking: EntitySet is readable now",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880192035"
+                    }
+                ]
+            },
+            {
+                "id": "54abf98a1c41badea651bc9e2c5c4f976582bb6d",
+                "type": "FIX",
+                "text": "LR, ALP: Error handling for delete improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780420772"
+                    }
+                ]
+            },
+            {
+                "id": "72758d61d4072d358b21180e1b67360c9d29ce25",
+                "type": "FIX",
+                "text": "Error handling in case of wrong EntitySet in manifest improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880117026"
+                    }
+                ]
+            },
+            {
+                "id": "025a8ac9f26c9985836a1f54c40b65577473e542",
+                "type": "FIX",
+                "text": "LROP: Display format of progress indicator fixed when target value is null",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880154072"
+                    }
+                ]
+            },
+            {
+                "id": "aa8facb3b8de05881edd06cd6ebfa8f96a405048",
+                "type": "FIX",
+                "text": "LR: Restoring state of page header in multiple tabs scenario is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780457677"
+                    }
+                ]
+            },
+            {
+                "id": "40bf5af058b347daca60c0f89c1eb30f22d5c802",
+                "type": "FEATURE",
+                "text": "ALP: Support lazy loading of visual filter"
+            }
+        ]
+    }
+}

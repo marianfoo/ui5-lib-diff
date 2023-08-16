@@ -1,0 +1,221 @@
+{
+    "1.85.0": {
+        "date": "November 2020",
+        "notes": [
+            {
+                "id": "6afe21c701c3857798fe36db77e951f6e6c6c908",
+                "type": "FIX",
+                "text": " DateRangeType: Duplicated label anouncement is now removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070475123"
+                    }
+                ]
+            },
+            {
+                "id": "1d42e0d46204d3f6236b2bd4115a5619823a0472",
+                "type": "FIX",
+                "text": " ValueListProvider: remove unwanted header when suggestions are closed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080133074"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007417252020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007601232020"
+                    }
+                ]
+            },
+            {
+                "id": "370c74c11c4c61ede0414395526c23a87b4b3902",
+                "type": "FIX",
+                "text": " DateRangeType: Parsing zero values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070465124"
+                    }
+                ]
+            },
+            {
+                "id": "f36b274e5a7c8f588ac418a218f3c41ff51cfa65",
+                "type": "FIX",
+                "text": " ValueListProvider: correctly handle getFilterData when suspended",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070479064"
+                    }
+                ]
+            },
+            {
+                "id": "c2d83e23bf24fd95eb9dde63e1e3cf7b603e8e4a",
+                "type": "FEATURE",
+                "text": " ValueListProvider: Recently used now considers language change"
+            },
+            {
+                "id": "af90738c5469c85d7f4996796fe00ed79de1a354",
+                "type": "FIX",
+                "text": "TextArrangementDelegate: Busy indicator no longer appears when value is deleted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070433829"
+                    }
+                ]
+            },
+            {
+                "id": "6c058d14921d992191b06c0e7d9163cebf69b221",
+                "type": "FIX",
+                "text": " VariantConverterFrom: Fixed conversion of sting date",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070443223"
+                    }
+                ]
+            },
+            {
+                "id": "2fd6c7c543ba3f8b2647d60c74900022308f7fa0",
+                "type": "FIX",
+                "text": " SmartMultiInput MultiComboBox scenario - Delete local context of specific token, instead of deleting all local contexts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070249177"
+                    }
+                ]
+            },
+            {
+                "id": "712290d911260b645aae7ab36c3ff021878ddb71",
+                "type": "FIX",
+                "text": " SmartField: ValueLIstNoValidation with TextArrangement=TextOnly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070450690"
+                    }
+                ]
+            },
+            {
+                "id": "d7b2bd634339034d091be6265ba845723ef92d3b",
+                "type": "FIX",
+                "text": " SmartFilterBar: showSuggestion is now set to false if there is no ValueList",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070449819"
+                    }
+                ]
+            },
+            {
+                "id": "9373172dc8440e1f98f69fdc6d56743695f782fd",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct suspend/resume setFilterData"
+            },
+            {
+                "id": "85a597993d891fd98df87a787b7ff56a6fa93b2e",
+                "type": "FIX",
+                "text": " FilterBar: adapt filters only creates entries for expanded groups",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070405737"
+                    }
+                ]
+            },
+            {
+                "id": "8b6b76222b78d8ae22c0d115094ad4abcc52196e",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Validation is added for Between operator",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007128042020"
+                    }
+                ]
+            },
+            {
+                "id": "6a29cb5514d7487a2abf8981e5ffd52ca8cc6e64",
+                "type": "FEATURE",
+                "text": " SmartField: Update ObjectStatus icons"
+            },
+            {
+                "id": "4ac89985ca55106af5405a25fa3edf7286598028",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Common.ValueListParameterConstant is now supported"
+            },
+            {
+                "id": "bb0ecdeeca1a6727d67f39ef03ddcb07d881535a",
+                "type": "FEATURE",
+                "text": " VariantManagement: creating variants prohibited"
+            },
+            {
+                "id": "7914a13e91e854f5c8d5ad09941b1638e744ccd0",
+                "type": "FIX",
+                "text": " FilterProvider: Copy-paste of multiple tokens fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070368064"
+                    }
+                ]
+            },
+            {
+                "id": "424f78917655b17a4d8f7c19c4d733722a7200f8",
+                "type": "FEATURE",
+                "text": " SmartVariantManagement: New text for standard variant added"
+            },
+            {
+                "id": "e2759692eeded30ec3ff66a403c4c4da74e22df8",
+                "type": "FIX",
+                "text": " comp.FilterBar: no filterChange, after ENTER in filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070433599"
+                    }
+                ]
+            },
+            {
+                "id": "644dd1201148edc3a1a266532c16f046c9e46b90",
+                "type": "FIX",
+                "text": " SmartField: setting FieldGroupIds improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070392361"
+                    }
+                ]
+            },
+            {
+                "id": "7eea6fc12e1147e213064fa166f4492d3e5470f1",
+                "type": "FIX",
+                "text": " ValueListProvider: ValueHelp dialog grayed out table fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070305180"
+                    }
+                ]
+            },
+            {
+                "id": "fe5c520542cd9409f51173f35f772a03164c48e1",
+                "type": "FIX",
+                "text": " SmartField: Add ariaLabelledBy for currency inside table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070307927"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "1.63.0": {
+        "date": "January 2019",
+        "notes": [
+            {
+                "id": "4b1766c9f698cc5cfc125332ebc5277771603364",
+                "type": "FIX",
+                "text": "FilterBar: fix issue with overlay on chart/table after reset",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870546320"
+                    }
+                ]
+            },
+            {
+                "id": "b6872d9f15c24c50f88f0d0f71e45b41a1dab90b",
+                "type": "FIX",
+                "text": "SmartFilterBar: Default Value Handling of Edm.DateTime Properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000145372019"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002028376500000048362019"
+                    }
+                ]
+            },
+            {
+                "id": "2e5b9fcbbd2dbea55e6905c17cc12a7b53184be6",
+                "type": "FIX",
+                "text": "SmartFilterBar: enhance check for assigned values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970053162"
+                    }
+                ]
+            },
+            {
+                "id": "325a43351777d5d2da5406d54eafd1fc32aba8be",
+                "type": "FIX",
+                "text": "SmartVariantManagement: fix typpo in setCurrentVariantId method",
+                "references": []
+            },
+            {
+                "id": "d7fa1bc4584395c85e2911fe1254c7015de3fa99",
+                "type": "FIX",
+                "text": "ValueHelpDialog / P13NFilterPanel: DateTime Handling Improvement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970048418"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1870472254"
+                    }
+                ]
+            },
+            {
+                "id": "b017591b6086297b9e7314e60baf7b85b5be09de",
+                "type": "FIX",
+                "text": "ValueHelpDialog: DateTime type value handling",
+                "references": []
+            },
+            {
+                "id": "65b03ec1b6bbd2d77a2e63017ab6340b9933754f",
+                "type": "FIX",
+                "text": "smartmultiedit/Field.js: check if annotations exist",
+                "references": []
+            },
+            {
+                "id": "791ecf7daba3a115a05c92c1afaa763fdf854334",
+                "type": "FIX",
+                "text": "FilterBar: correction for phone scenario check",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970079133"
+                    }
+                ]
+            },
+            {
+                "id": "07768b4e782dd4fc22b4becdc17c9502f5584333",
+                "type": "FIX",
+                "text": "SmartChart: Change legend visibility button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970082697"
+                    }
+                ]
+            },
+            {
+                "id": "3803404db657bd23e8009325b82a4ea0a034a1da",
+                "type": "FIX",
+                "text": "SmartField: Dropdown selection issue for NUMC fields fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870098544"
+                    }
+                ]
+            },
+            {
+                "id": "ad2c8aa765447183ad66d3ffe2807adba910460f",
+                "type": "FIX",
+                "text": "SmartField: Exception when the textInEditModeSource=\"NavigationProperty\" fixed",
+                "references": []
+            },
+            {
+                "id": "636f75c7c7a7c7dd4a236ed318c17665c596ef52",
+                "type": "FIX",
+                "text": "SmartField: FieldControl/Mandatory annotation interpreted in all cases",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870505874"
+                    }
+                ]
+            },
+            {
+                "id": "6f19a4f12d2a8d59c780b701a47e953eed196959",
+                "type": "FIX",
+                "text": "SmartField: Prevent filter request to be sent for non-filterable field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970021117"
+                    }
+                ]
+            },
+            {
+                "id": "9203c5dda163aea9e40f9d535ab47a45dd6057e0",
+                "type": "FIX",
+                "text": "VariantManagement: Remove delaying setTimeout() calls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970042439"
+                    }
+                ]
+            },
+            {
+                "id": "0d647306b76e6455416fc6ab9eaba671a0f19da4",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmultiinput.SmartMultiInput: Use unique stable id for tokens with binding context",
+                "references": []
+            },
+            {
+                "id": "d13a8e2bda564d6cf62303f45c88bfd597a39576",
+                "type": "FEATURE",
+                "text": "MDCChart: FullScreen",
+                "references": []
+            },
+            {
+                "id": "579c592bdf8f11437349bfafc0ab6675be7169df",
+                "type": "FIX",
+                "text": "FilterBar : Sorting of Filters on the \"Select Filters\" Popup",
+                "references": []
+            },
+            {
+                "id": "114af98a116fa0c791f80bd95f7ae42fd23fad78",
+                "type": "FIX",
+                "text": "Personalization: new opa test introduced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000436522019"
+                    }
+                ]
+            },
+            {
+                "id": "eaa1fef98231b9588dbc58f8a699118b37557ef8",
+                "type": "FIX",
+                "text": "SmartField Suggest List: Enable Wrapping, disable Tooltips",
+                "references": []
+            },
+            {
+                "id": "1a8fd6ba9197137f1846a03ffe4c2598195975ee",
+                "type": "FIX",
+                "text": "UIState: Texts for one property are now merged in \"ValueTexts\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970082707"
+                    }
+                ]
+            },
+            {
+                "id": "87be2f4fbbfb48653631468919d29734d7c00fb6",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmultiinput.SmartMultiInput: Destroy removed tokens",
+                "references": []
+            },
+            {
+                "id": "6d0263cb964f1441b784b22a6ccf437796933d8f",
+                "type": "FIX",
+                "text": "FilterBar: REVERT Sorting of Filters on the \"Select Filters\" Popup\"",
+                "references": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "1.56.0": {
+        "date": "February 2018",
+        "notes": [
+            {
+                "id": "2520bb3fd1a84375d3d7a70e8b5707b881cf2215",
+                "type": "FIX",
+                "text": "ActionUtil, MessageUtil: Add library dependency",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880193560"
+                    }
+                ]
+            },
+            {
+                "id": "de5187c1ff86c2cf5da863e88861a74c6bb1299d",
+                "type": "FIX",
+                "text": "BaseController: Allow usage of a ODataModel w/o batch mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880096536"
+                    }
+                ]
+            },
+            {
+                "id": "bbcda9a6870099ee17faef5397131b8781ad0e46",
+                "type": "FIX",
+                "text": "NavigationHandler: remove delayed hashChange",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880176804"
+                    }
+                ]
+            },
+            {
+                "id": "ca8b0c65ac7931bcc4f64dbbd2165bd1ca9683d7",
+                "type": "FIX",
+                "text": "sap.ui.generic..BaseController: checkSubmit gives true too often",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870033596"
+                    }
+                ]
+            },
+            {
+                "id": "b566d48d56fbf248fd42fb3ce3fef85194094b6f",
+                "type": "FIX",
+                "text": "ActionUtil: Model data now changed via setProperty",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870028922"
+                    }
+                ]
+            },
+            {
+                "id": "574c715203e8bda3ff399fa61e597638de2cc117",
+                "type": "FIX",
+                "text": "ApplicationController: Execute unspecific SideEffects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870112265"
+                    }
+                ]
+            },
+            {
+                "id": "5701912044545e905926948a8d4a2a63f743e22b",
+                "type": "FIX",
+                "text": "NavigationHandler: throw exception if shell is not available",
+                "references": []
+            },
+            {
+                "id": "9606ef25938c7455d418b1c252c3cfaaea5d0261",
+                "type": "FIX",
+                "text": "ApplicationController: Better detection for global SideEffects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870178025"
+                    }
+                ]
+            },
+            {
+                "id": "369b25a5d0b79aec2d7746c1b3256e16fe30e1f3",
+                "type": "FIX",
+                "text": "DraftController: Orchestrate Prepare and Activate Calls",
+                "references": []
+            },
+            {
+                "id": "bd0ccb9f7b594e75e84da0978eacf1336b2bf55b",
+                "type": "FIX",
+                "text": "LROP: Inital focus of dialog changed to improve the accessibility",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870015719"
+                    }
+                ]
+            },
+            {
+                "id": "9d4fe7f645cfb7ccd8b86aeca1c464170976b700",
+                "type": "FIX",
+                "text": "NavigationHandler: passing bImmediatehashReplacement = true",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870173130"
+                    }
+                ]
+            },
+            {
+                "id": "3a2cbeb373ad775fe86a1a9a10de5b1d4c6507fc",
+                "type": "FIX",
+                "text": "Removing response for triggerSubmitChanges in case of NonDraft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870233827"
+                    }
+                ]
+            }
+        ]
+    }
+}

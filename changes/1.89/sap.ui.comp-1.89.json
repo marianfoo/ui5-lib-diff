@@ -1,0 +1,180 @@
+{
+    "1.89.0": {
+        "date": "April 2021",
+        "notes": [
+            {
+                "id": "e769af7f33dcef85a7c4ed308392c83f5db93882",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: SmartFilterBar initially expanded in certain cases"
+            },
+            {
+                "id": "b8fb9ffb14904c599e66a0e66fba134fbd29ba9f",
+                "type": "FEATURE",
+                "text": " SmartField: sap.m.ExpandableText is now used for text area in display mode"
+            },
+            {
+                "id": "87a6e49563494a122e49e2ebc1e5bec2b3f43900",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct getAllFilterItems when true is passed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170079177"
+                    }
+                ]
+            },
+            {
+                "id": "16b000b7187331938cc0eb923f2989daa91f02d2",
+                "type": "FIX",
+                "text": " comp.P13nDialog: Fields are now correctly changed when there are multiple filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170069102"
+                    }
+                ]
+            },
+            {
+                "id": "8f1a306b35f672cb53fd6775d8721ce37c832a17",
+                "type": "FIX",
+                "text": " DateRangeType: update before filterbar's search event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170055307"
+                    }
+                ]
+            },
+            {
+                "id": "a936e5d8c785cf7e102e8b269fe7aba167c05ad0",
+                "type": "FIX",
+                "text": " the variant list opens on ENTER",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001230292021"
+                    }
+                ]
+            },
+            {
+                "id": "0f84222b629a55d196bf08e33d3800f51d4d1c99",
+                "type": "FIX",
+                "text": " SmartTable: Width calculation for unit fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170074050"
+                    }
+                ]
+            },
+            {
+                "id": "965555aa6e49b62ad94b09ef33ba7ea1103129a5",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Error handling in Define Conditions for NUMC fields"
+            },
+            {
+                "id": "0f1717db170e96d8ff9033049af0763b0a407b5c",
+                "type": "FIX",
+                "text": " SmartFilterBar: ignore the 'partOfCurrentVariant'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170043562"
+                    }
+                ]
+            },
+            {
+                "id": "370fb6be7fc9f5da5172ae65fc842b2fd465074c",
+                "type": "FIX",
+                "text": " SmartTable: Editing without table provider should not throw error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170037750"
+                    }
+                ]
+            },
+            {
+                "id": "941ae062ae90e38df4b8525831349a6516aafcc5",
+                "type": "FIX",
+                "text": " valueHelpDialog: Fix focus after removing all tokens",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180132240"
+                    }
+                ]
+            },
+            {
+                "id": "0ef9a1ad0decc6c92366befd0b2ee013ae044f3e",
+                "type": "FIX",
+                "text": " VariantMangement: corrections related to acessibility",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170049256"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170049251"
+                    }
+                ]
+            },
+            {
+                "id": "aaf234d252e362628d3e5e78fd1b4810c073be85",
+                "type": "FIX",
+                "text": " SmartFilterBar: Analytic parameter can be optional",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008883952020"
+                    }
+                ]
+            },
+            {
+                "id": "891a05b0d7efe0870b4b77592acc8ffa26f9b0cd",
+                "type": "FIX",
+                "text": " SmartField: Fix list not to show default GUID when is not in the list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180109398"
+                    }
+                ]
+            },
+            {
+                "id": "6f9b00cc6476a613d2fddc489f2eade4c265ec91",
+                "type": "FIX",
+                "text": " SmartField: Loaded discription in case TextArrangment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170005255"
+                    }
+                ]
+            },
+            {
+                "id": "2a4efd55be020bdb042be3173033ce0223a0bca1",
+                "type": "FIX",
+                "text": " SmartField: Currency in upper case is now correctly displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180082478"
+                    }
+                ]
+            },
+            {
+                "id": "8cc57517187370f132cee889f5baa58bdca9c48c",
+                "type": "FIX",
+                "text": " FilterBar: Fields in the Adapt Filters dialog are now sorted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170027990"
+                    }
+                ]
+            }
+        ]
+    }
+}

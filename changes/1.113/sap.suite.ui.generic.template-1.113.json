@@ -1,0 +1,70 @@
+{
+    "1.113.0": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "Id9ab941e9693594878eccc024e9cba230196a698",
+                "type": "FEATURE",
+                "text": "In the list repot, object page and analytical list page, all the Edm.datatypes are now supported as keys and in navigation cases (internal navigation)"
+            },
+            {
+                "id": "I33d55affff6685627a25500e928406cc8e2eb2fd",
+                "type": "FEATURE",
+                "text": "In the analytical list page and list report, the analytical parameters are now included in the 'Filters' section of table export"
+            },
+            {
+                "id": "Ic4555b85db66a71ad0ee17e5aeaa63e48cf42b4d",
+                "type": "FEATURE",
+                "text": "Table data export is now enhanced in the analytical list page, list report and object page"
+            },
+            {
+                "id": "I87580d141a3b45a75a7f31165208c0837555af62",
+                "type": "FEATURE",
+                "text": "In the object page, the draft automatic save has been enhanced"
+            },
+            {
+                "id": "I125cd7bc81e15119c48c4fc95e407b961efcec69",
+                "type": "FEATURE",
+                "text": "The state messages are not requested anymore while merging a draft in the object page"
+            },
+            {
+                "id": "I56778d423c510e0d98aea753a153a898566221c9",
+                "type": "FIX",
+                "text": "The focus is now on the first editable field in case of the 'copy' scenarios, even if the persistence mode is set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370018209"
+                    }
+                ]
+            },
+            {
+                "id": "I65cb9c5904f05abc636c21bd32f02eecab784449",
+                "type": "FIX",
+                "text": "The list report card navigation is disabled"
+            },
+            {
+                "id": "Ibe7938e1e2275c3c96fcb3590820e33b79eb1924",
+                "type": "FIX",
+                "text": "The header is now expanded upon the initial launch of the app",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376700049958342023"
+                    }
+                ]
+            },
+            {
+                "id": "I091346400745d071dd8bd6262b77cd4413efdf60",
+                "type": "FIX",
+                "text": "Header data refresh is now considered as side effects in the execution order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370010206"
+                    }
+                ]
+            }
+        ]
+    }
+}

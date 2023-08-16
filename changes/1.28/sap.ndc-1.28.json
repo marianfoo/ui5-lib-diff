@@ -1,0 +1,76 @@
+{
+    "1.28.0": {
+        "date": "January 2015",
+        "notes": []
+    },
+    "1.28.1": {
+        "date": "March 2015",
+        "notes": [
+            {
+                "id": "67a01d6209300e2b36f9743f019780beb3cf51a1",
+                "type": "FIX",
+                "text": "sap.ndc.BarcodeScannerButton: Extension Point besides Scan Icon button doesn't work",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580015568"
+                    }
+                ]
+            },
+            {
+                "id": "dca539c9cc288977c2b4e75d6c0f7684ff2cc473",
+                "type": "FIX",
+                "text": "sap.ndc.BarcodeScannerButton: Missing padding in barcode dialog box",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580005922"
+                    }
+                ]
+            },
+            {
+                "id": "b38e0f1362aa2b477745c319d571eb5e76991464",
+                "type": "FIX",
+                "text": "sap.ndc.BarcodeScannerButton: Camera scanner not working in standard fiori client",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580013478"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.5": {
+        "date": "April 2015",
+        "notes": [
+            {
+                "id": "e6ff83c05b85ceb61f0cc93a67d1698022584b58",
+                "type": "FIX",
+                "text": "BarcodeScannerButton: Internet Explorer 11.09 no longer displays white screen because of CustomEvent",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570033560"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.19": {
+        "date": "September 2015",
+        "notes": [
+            {
+                "id": "2cb8f274df1b3d0a0f04f5cb1d39d3d4176764ea",
+                "type": "FIX",
+                "text": "BarcodeScannerButton: unable to set button width",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570522814"
+                    }
+                ]
+            }
+        ]
+    }
+}

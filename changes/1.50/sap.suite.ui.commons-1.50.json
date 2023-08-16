@@ -1,0 +1,146 @@
+{
+    "1.50.0": {
+        "date": "May 2017",
+        "notes": [
+            {
+                "id": "ca733fe02c660d63facf1c57309f53cd20b865e8",
+                "text": "sap.suite.ui.commons.StatusIndicator: Control added",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "5d964d5240aaab222d47ab4a7712244ef24818ae",
+                "text": "sap.suite.ui.commons.networkgraph.Graph: Control added",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "6a1d821e79ce5e80db049470769122fa29b64b87",
+                "text": "sap.suite.ui.commons: Gold Reflection theme deprecated",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "8d38a056304c63858f50742c4e2fb4f28cefaf4f",
+                "text": "sap.suite.ui.commons.Timeline: Redundant scrollbar removed from vertical timelines, that do not require scrolling",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "e59ff60e8bcfd9c9d88abc2e2d35e0f66e9c4513",
+                "text": "sap.suite.ui.commons.Timeline: Rendering of empty Timeline with Show More button corrected",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780148704"
+                    }
+                ]
+            },
+            {
+                "id": "1209b3a9fa3893fdf4b868269d36cc4c5e2cd247",
+                "text": "sap.suite.ui.commons.ProcessFlow: Label on highlighted path enabled",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770232812"
+                    }
+                ]
+            },
+            {
+                "id": "210c7656f3a62f1c7f95784e417b0dad73b479ed",
+                "text": "sap.suite.ui.commons.ChartContainer: Chart selection no longer moves to overflow area if there is enough space",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770259420"
+                    }
+                ]
+            },
+            {
+                "id": "c196fcd8b77497011355295cd0b8c2f9f3e1e101",
+                "text": "sap.suite.ui.commons.ChartContainer: Toolbar transparency in fullscreen corrected",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770259151"
+                    }
+                ]
+            },
+            {
+                "id": "db542c90d9a134002abfc48b869dc0ec885ba326",
+                "text": "sap.suite.ui.commons.ChartContainer: Full screen to normal view in Edge browser improved",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770186689"
+                    }
+                ]
+            },
+            {
+                "id": "55e1ba36fecd2dbf5d4ba86af75c5e5125d8e4ea",
+                "text": "sap.suite.ui.commons: Deprecated controls excluded from library-preload files",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "7c42c3de6f45e126fd33f59740f8f0c76d808057",
+                "text": "sap.suite.ui.commons.ChartContainer: Toolbar background adapted",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770221806"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.50.1": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "da3ff62b05549dfc883b0e88d353d97439b7af17",
+                "text": "sap.suite.ui.commons.Timeline: Library dependencies corrected",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780356266"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.50.2": {
+        "date": "August 2017",
+        "notes": [
+            {
+                "id": "7072d9f2edc3fc7f2be988ee902d312308414c7f",
+                "text": "sap.suite.ui.commons.ProcessFlow: Performance of connection label CSS selector improved",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780322731"
+                    }
+                ]
+            },
+            {
+                "id": "e36f9c67732c2760d82fb00301c1ea4098500515",
+                "text": "sap.suite.ui.commons.ProcessFlow: Native scrolling on iOS fully enabled",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780339421"
+                    }
+                ]
+            }
+        ]
+    }
+}

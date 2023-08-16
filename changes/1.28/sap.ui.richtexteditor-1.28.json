@@ -1,0 +1,253 @@
+{
+    "1.28.0": {
+        "date": "January 2015",
+        "notes": [
+            {
+                "id": "61728efb0185446d47f15041032ddfdeecf5862f",
+                "type": "FEATURE",
+                "text": "RichtextEditor: Version TinyMCE 4 updated to 4.1.7.",
+                "references": []
+            },
+            {
+                "id": "029676f34f68972b08c6dda6633b826417e1485e",
+                "type": "FIX",
+                "text": "RichTextEditor: Only set content if TinyMCE is rendered.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1482019849"
+                    }
+                ]
+            },
+            {
+                "id": "4b64ed4d4341d143fd948e74a31ab98401c384af",
+                "type": "FIX",
+                "text": "RichTextEditor: TinyMCE 3 reattached when rendered in Popup.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1482019849"
+                    }
+                ]
+            },
+            {
+                "id": "ee6486649c979d63413e305bc8a8586cc355b2bc",
+                "type": "FIX",
+                "text": "RichTextEditor: Regain control of textarea after invalidation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570006546"
+                    }
+                ]
+            },
+            {
+                "id": "6793dce0d9670a37d7d801a432ff59b5a9d55119",
+                "type": "FIX",
+                "text": "RichTextEditor: TinyMCE 4: Prevent focus stealing on rerendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1472012005"
+                    }
+                ]
+            },
+            {
+                "id": "2bcc17061f84523940c7c8f4075759ecfd193905",
+                "type": "FIX",
+                "text": "RichtextEditor: Editor type added to documentation.",
+                "references": []
+            },
+            {
+                "id": "2810640a0988bd7d6fc77cba92349b60f120cdc1",
+                "type": "FIX",
+                "text": "Richtexteditor:  Setting of null/undefined value allowed.",
+                "references": []
+            },
+            {
+                "id": "456628c19e48061e593280e6419ce3e119bbda21",
+                "type": "FIX",
+                "text": "RichTextEditor: Register popups only in TinyMCE3",
+                "references": []
+            },
+            {
+                "id": "1d467c66bb7df4e6feff0e4f0a7d41efd7cec03b",
+                "type": "FIX",
+                "text": "RichTextEditor: Workaround for Firefox exception on DOM access",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570013336"
+                    }
+                ]
+            },
+            {
+                "id": "5e9e2538d273071d3e5793a63c1dd602463cd1a5",
+                "type": "FIX",
+                "text": "RichtextEditor: TinyMCE3 - removeControl fails on Internet Explorer < 11",
+                "references": []
+            }
+        ]
+    },
+    "1.28.3": {
+        "date": "March 2015",
+        "notes": [
+            {
+                "id": "b80445b11911d522983f1bd9a84a1d30c5420936",
+                "type": "FIX",
+                "text": "RichTextEditor: Reinitialize is now called only once per stack",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1472002361"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.5": {
+        "date": "April 2015",
+        "notes": [
+            {
+                "id": "d7664f64ef51b54953ba3be7e50884c84086d49a",
+                "type": "FIX",
+                "text": "RichTextEditor: Language fallback for TinyMCE4 solved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570028541"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.6": {
+        "date": "May 2015",
+        "notes": [
+            {
+                "id": "bcf64ff3df38846569b262ea12a795b2f873c10a",
+                "type": "FIX",
+                "text": "XML templates enabled again for sap.me, comp, richtexteditor",
+                "references": []
+            },
+            {
+                "id": "c68a8b227da77a9c50df607f1ef7839d734110bb",
+                "type": "FIX",
+                "text": "RichTextEditor: Re-Rendering bug and debug sources fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570148361"
+                    }
+                ]
+            },
+            {
+                "id": "ad908e9d0fd626a2c31d040028a7ecfa97e63d9e",
+                "type": "FIX",
+                "text": "RichTextEditor: Wait for TinyMCE initialization implemented",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570032847"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1570139903"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.8": {
+        "date": "May 2015",
+        "notes": [
+            {
+                "id": "4d72532f270886da271b26cb5708d5f37213692f",
+                "type": "FIX",
+                "text": "RichTextEditor: TinyMCE4 Language support and fallback",
+                "references": []
+            }
+        ]
+    },
+    "1.28.10": {
+        "date": "June 2015",
+        "notes": [
+            {
+                "id": "b0178f1185cbd4ff6d00aaf079876293352ba0fb",
+                "type": "FIX",
+                "text": "RichTextEditor: TinyMCE4 - Tooltip and Image drop",
+                "references": []
+            }
+        ]
+    },
+    "1.28.14": {
+        "date": "August 2015",
+        "notes": [
+            {
+                "id": "2c9f1b72f38c11fb4a7a4479122aded80e7e6108",
+                "type": "FIX",
+                "text": "RichTextEditor: Correctly Resize Editor Frame",
+                "references": []
+            }
+        ]
+    },
+    "1.28.19": {
+        "date": "September 2015",
+        "notes": [
+            {
+                "id": "019e198c1bf541a9faed8399c64fd39c74984e3e",
+                "type": "FIX",
+                "text": "RichTextEditor: Fixed issues with language fallback",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580042697"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.21": {
+        "date": "October 2015",
+        "notes": [
+            {
+                "id": "e1670d7dc5168dff28bbfc301173838bf6a319b9",
+                "type": "FIX",
+                "text": "RichTextEditor: Re-Render on Safari and ResizeHandler Problems",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580097459"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.23": {
+        "date": "November 2015",
+        "notes": [
+            {
+                "id": "f7c379d1b37397dc9806285bcbd6d786592c3d48",
+                "type": "FIX",
+                "text": "RichTextEditor: Upgrade to 3.5.11 and 4.2.6 Enterprise Version",
+                "references": []
+            }
+        ]
+    },
+    "1.28.24": {
+        "date": "December 2015",
+        "notes": [
+            {
+                "id": "e5ee9f8b9b9348020176f9cb61e9d25051118b7e",
+                "type": "FIX",
+                "text": "RichTextEditor: Support language \"no\" in TinyMCE4",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376600002296202015"
+                    }
+                ]
+            }
+        ]
+    }
+}

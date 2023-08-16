@@ -1,0 +1,226 @@
+{
+    "1.60.0": {
+        "date": "October 2018",
+        "notes": [
+            {
+                "id": "58a63086c3df7ba826f50fd6abb292e86024103a",
+                "type": "FIX",
+                "text": "OP: Object title is now considered in delete dialog box, if provided",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880635379"
+                    }
+                ]
+            },
+            {
+                "id": "e56a479babdb8fcae4367e39ae9272ce759d0347",
+                "type": "FEATURE",
+                "text": "OP: Visual appearance of dynamic header has been optimized"
+            },
+            {
+                "id": "17b23284b81d25cf496cacf069e890cde5564198",
+                "type": "FEATURE",
+                "text": "LR: Option to display the active version for items in draft-enabled apps"
+            },
+            {
+                "id": "7604c56a32a52ab5c34f3a24a20b2defaff7f256",
+                "type": "FIX",
+                "text": "OP: Multi-select is now supported for analytical tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870443084"
+                    }
+                ]
+            },
+            {
+                "id": "bd3243fecbfb735981fd67506e4ea213f556ffa1",
+                "type": "FEATURE",
+                "text": "LROP: Show additional content area when navigation links are available"
+            },
+            {
+                "id": "c718e32176ee0ea21461097bf33750c49f8da0c9",
+                "type": "FIX",
+                "text": "LROP: QuickView handling has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870345033"
+                    }
+                ]
+            },
+            {
+                "id": "69ad64bc3df8d536222694c74a725902772c4f1f",
+                "type": "FEATURE",
+                "text": "ALP: Compact filter supports default values of SelectionVariant"
+            },
+            {
+                "id": "d0e6ca652e14829ec3ffa14754bd32804a4e688d",
+                "type": "FEATURE",
+                "text": "ALP: Correct handling for Edm.DateTime fields"
+            },
+            {
+                "id": "c83ea9457640d13cc10faa2b437d4214c6416d8f",
+                "type": "FEATURE",
+                "text": "OP: Support for app developers: Organize extension code for several object pages"
+            },
+            {
+                "id": "02f1812a54736415fb55a11ea3fdb470bf56b8ae",
+                "type": "FIX",
+                "text": "OP: Restrict popin display for analytical tables"
+            },
+            {
+                "id": "6ea3bc81953074bee14c719caf24c1f35264aaaf",
+                "type": "FIX",
+                "text": "OP: Navigation within the flexible column layout has been optimized"
+            },
+            {
+                "id": "c32402204110f30e10ebb3fe48c291daca5d1e55",
+                "type": "FIX",
+                "text": "URL for email body corrected for Share Email function",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870415629"
+                    }
+                ]
+            },
+            {
+                "id": "3fac19beda11c8ae7a133c795b49d8f3fdf32cad",
+                "type": "FEATURE",
+                "text": "ALP: Handling UI.Hidden for VF measure and dimension"
+            },
+            {
+                "id": "d3c56006a01ed1e7bd55dc49f27cc579c0c20bec",
+                "type": "FEATURE",
+                "text": "ALP: Contact annotation supported for the quick view card"
+            },
+            {
+                "id": "f248f82cafd180ee85d5541ea01978564ec0ded3",
+                "type": "FIX",
+                "text": "LR: Display of draft indicator in multiple views corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870330058"
+                    }
+                ]
+            },
+            {
+                "id": "b5ea3c5e6bc01f0d874d6e2a21230d40ce37a4ec",
+                "type": "FIX",
+                "text": "OP: Inline create has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870390639, 1870381926, 1870382593"
+                    }
+                ]
+            },
+            {
+                "id": "c7373e0b51420b04b99f458b5346f705b1336bf1",
+                "type": "FIX",
+                "text": "OP: Calling API for removal of variant ID from apps not using variant management optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870365400"
+                    }
+                ]
+            },
+            {
+                "id": "002702907712ed65908e86e4fb515df4cee25c4f",
+                "type": "FIX",
+                "text": "Do not render column type for custom columns"
+            },
+            {
+                "id": "fc672f5d785c837e66caba690c79a81a9cefb49d",
+                "type": "FEATURE",
+                "text": "LR/ALP: Improvement for deep linking"
+            },
+            {
+                "id": "fce82dae9cb192e3cc7715774cf181740902e023",
+                "type": "FIX",
+                "text": ": Support Smart Multiinput in non-draft applications",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870355202"
+                    }
+                ]
+            },
+            {
+                "id": "0fddb8af3ff579a09298ab60077de6c63b15c986",
+                "type": "FIX",
+                "text": "LROP: Grouping for navigation properties fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880245739"
+                    }
+                ]
+            },
+            {
+                "id": "3213d95653c6f63acd1b0a1bf495f01eb536c191",
+                "type": "FEATURE",
+                "text": "OP: Sticky header and toolbar now available in responsive tables"
+            },
+            {
+                "id": "fe539a96b0d28275293f4e7bdc10e02f87d6fc67",
+                "type": "FIX",
+                "text": "OP: Table toolbar button enablement has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880517754"
+                    }
+                ]
+            },
+            {
+                "id": "844226b1f6f828ae2143c7a05b839a31372e6a1c",
+                "type": "FIX",
+                "text": "SemanticObject QV link parameter is converted into a string",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880469667, 1880527693"
+                    }
+                ]
+            },
+            {
+                "id": "49d08f05a21b59f8497f03805bece063122065ae",
+                "type": "FIX",
+                "text": "OP: Optimized the option of changing to edit mode in flexible column layout with three columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880488142"
+                    }
+                ]
+            },
+            {
+                "id": "6bd16f54975c835fd57490049ed1cd6665f4a204",
+                "type": "FIX",
+                "text": "Navigation in flexible column layout improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880464068"
+                    }
+                ]
+            },
+            {
+                "id": "978ce235f3905e793eae14041907659ef7d022c0",
+                "type": "FIX",
+                "text": "OP: Pagination improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880409587"
+                    }
+                ]
+            }
+        ]
+    }
+}

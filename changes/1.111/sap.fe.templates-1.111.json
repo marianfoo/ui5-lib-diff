@@ -1,0 +1,368 @@
+{
+    "1.111.0": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "03dfd881ad67bc253f23b212dad81ed823f8a228",
+                "type": "FIX",
+                "text": " We now ensure that table filtering for properties with a 1:n navigation in their navigation path isn't possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380003560"
+                    }
+                ]
+            },
+            {
+                "id": "1ba2039fc67e0242d8dd965bfdbd3e9134ff970d",
+                "type": "FIX",
+                "text": " We've fixed an issue related to the menu button not rendering when an annotation-based action was added as a menu item",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380024211"
+                    }
+                ]
+            },
+            {
+                "id": "a6e18fe5f4ae70dec76577f7d6f626576ede3494",
+                "type": "FEATURE",
+                "text": " When using empty rows mode, we now provide an option to not show the empty rows in edit mode"
+            },
+            {
+                "id": "923fc6141e5cf0a41e2cbd43337bc22c33896312",
+                "type": "FEATURE",
+                "text": " We've enhanced the Chart building block so you can now add a header, the headerVisible and headerLevel properties, as well as XML-based custom actions"
+            },
+            {
+                "id": "666d84d0a0c5dd56073ef2356318166d7b67a2c6",
+                "type": "FEATURE",
+                "text": " We now offer a formatter to hide parts of the DateTimeWithTimezone stamp in custom fields"
+            },
+            {
+                "id": "0d0ccd5350b4fb5349b89cfcfaca2f53851ef985",
+                "type": "FIX",
+                "text": " We now ensure correct enablement of the 'Delete' button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280185437"
+                    }
+                ]
+            },
+            {
+                "id": "690f2a8d24f62d4ace3834728e0fafbbd8e8cb86",
+                "type": "FIX",
+                "text": ": You can now hide the 'Share' building block in SAP Fiori Elements",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280194431"
+                    }
+                ]
+            },
+            {
+                "id": "9ca02ce34547ee8ebf9c36e6a546016a778f61ad",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the 'Delete' button not working correctly for draft items without doing a refresh of the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280195010"
+                    }
+                ]
+            },
+            {
+                "id": "4c363fb66af4e065cc381e75e617a43772ea033d",
+                "type": "FIX",
+                "text": " We now ensure that AggregatableProperties are not allowed for filtering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280189102"
+                    }
+                ]
+            },
+            {
+                "id": "1497300c9e9627c2e6fd49a7276db1757bb846f6",
+                "type": "FIX",
+                "text": " We now check for the availability of filterItems before setting the focus on the first one",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380008406"
+                    }
+                ]
+            },
+            {
+                "id": "72b9ad0ec052cd7899186f989215c8d8b766138e",
+                "type": "FIX",
+                "text": " We've resolved an issue related to an enhanced i18n text not appearing in the SAP Fiori elements for OData V4 application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280190097"
+                    }
+                ]
+            },
+            {
+                "id": "1d1d013e7b4104b22f458171e6c417c024c75407",
+                "type": "FIX",
+                "text": " The object page is now correctly refreshed if you create or activate a draft using custom actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009173822022"
+                    }
+                ]
+            },
+            {
+                "id": "bd1943b51b010181c54763321c5ba17b905e356d",
+                "type": "FIX",
+                "text": " The table personalization dialog is now visible on a list report table with multiple views when no visualization is defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380006743"
+                    }
+                ]
+            },
+            {
+                "id": "66a4cceb2d11fafd2dae93bbe2a189011ed2c417",
+                "type": "FIX",
+                "text": " In an app using the flexible column layout, closing the maximized third column now shows the first two columns side by side",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380004829"
+                    }
+                ]
+            },
+            {
+                "id": "e3ca9d4e1da04ce7a3207f0000ea0307425c2279",
+                "type": "FEATURE",
+                "text": ": We now provide a 'Copy' button on the list report and the object page that creates a new object using the exact data of the currently selected object"
+            },
+            {
+                "id": "14366aa7b4e30786dee9098e0713c0ba375b1317",
+                "type": "FIX",
+                "text": " We now ensure a list report with multiple views refreshes the view counts when the table is refreshed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380004300"
+                    }
+                ]
+            },
+            {
+                "id": "49ad0a787880d67ba262b2018f2bd8e6d0a68b1b",
+                "type": "FEATURE",
+                "text": " Correct store/restore of control state via iAppState using the delta logic"
+            },
+            {
+                "id": "3c20624c3955a1f658242e957e441b5ca0296fbc",
+                "type": "FEATURE",
+                "text": " We now provide an Edit button on the subobject page"
+            },
+            {
+                "id": "b836659810cbab77760ffc639017bc7e2fe32b24",
+                "type": "FEATURE",
+                "text": " We now use the label annotation of the DataField, and for context-dependent value helps the label of the value list as the title of the value help dialog"
+            },
+            {
+                "id": "7984c5e87296fb120a3213da5c6043dbbb027c2e",
+                "type": "FIX",
+                "text": " We now support filtering on tables that have multi-level navigation properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280175163"
+                    }
+                ]
+            },
+            {
+                "id": "ed0dc793fb93fc2d1cdf1d43b45a95cb95fc1d1d",
+                "type": "FIX",
+                "text": " We now show the empty indicator for MultiLineText on the object page header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280195388"
+                    }
+                ]
+            },
+            {
+                "id": "6f13b5e9f3d615fb9b5101c613a535ef2d00d200",
+                "type": "FEATURE",
+                "text": " You can now activate a 'Clear' button in the manifest of the list report that enables users to clear all filter fields"
+            },
+            {
+                "id": "ffff7f497369d8ef5a8399e97993f2dd47e6e173",
+                "type": "FEATURE",
+                "text": " We've implemented the persistence mode on the object page, which ensures the selected table and chart settings are retained during navigation"
+            },
+            {
+                "id": "55d7d044c231476cda545925bd893c35fcf9ae51",
+                "type": "FIX",
+                "text": " We no longer check if custom aggregates are part of AggregatableProperties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280184493"
+                    }
+                ]
+            },
+            {
+                "id": "581684ec865fbf2e15d8c594e78e26a2a9c44ec6",
+                "type": "FEATURE",
+                "text": " You can now display an icon or image in a DataFieldWithUrl"
+            },
+            {
+                "id": "bbe4b2e38b5b753e65fe66609ea4278b2102415d",
+                "type": "FIX",
+                "text": " When users click Cancel in a sticky application, we now ensure only those actions are available for which users have the necessary authorization",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270163641"
+                    }
+                ]
+            },
+            {
+                "id": "d63a0dad30db9380ea13a908f69f1d0a4bedd588",
+                "type": "FIX",
+                "text": " We now fixed an issue with action enablement on tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270136819"
+                    }
+                ]
+            },
+            {
+                "id": "23d27a35fd8b9e9c1199361b61569fd3c97ed82b",
+                "type": "FEATURE",
+                "text": " We now show the subtitle and the icon of the app in the navigation menu as defined in the application's manifest"
+            },
+            {
+                "id": "a9b9f10e01050a78b64ac8fd87f5e1b6b67d96c0",
+                "type": "FIX",
+                "text": " The column width is now properly calculated on devices with a small screen",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270153247"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280175476"
+                    }
+                ]
+            },
+            {
+                "id": "853e3616ed57492e0848caf60c62d295784c2ea5",
+                "type": "FIX",
+                "text": " Labels on the object page header are no longer truncated on devices with a small screen",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270189619"
+                    }
+                ]
+            },
+            {
+                "id": "fe0f998eec830dda1a9356bccefd13ec089ffbdb",
+                "type": "FIX",
+                "text": " We've corrected the message handling for the action parameter dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270165716"
+                    }
+                ]
+            },
+            {
+                "id": "1893a2221475cf89a5e741f7566c242aab3b1366",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the Export to PDF functionality when a column with DataFieldForAction was used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280175260"
+                    }
+                ]
+            },
+            {
+                "id": "fbb59148b9a50c3c80d975543d70e4a19ba72047",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the failing navigation to an object page on the successful creation of a record",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270172048"
+                    }
+                ]
+            },
+            {
+                "id": "333aebfb59d856642f3d788db92ae6e9bc8b84f5",
+                "type": "FIX",
+                "text": " We've resolved the issue related to the filtering and criticality of the VisualFilter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270187588"
+                    }
+                ]
+            },
+            {
+                "id": "8d5e7329d38e438e837860571cf3f9cd2fedf868",
+                "type": "FIX",
+                "text": " You can now use the manifest to overwrite actions used in forms",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270163018"
+                    }
+                ]
+            },
+            {
+                "id": "bf3d09fe6e7e34d8680e803faddeefbd091f6d2b",
+                "type": "FIX",
+                "text": " The Table building block no longer loads data on initialization if a filterBar is associated.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270152532"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.111.3": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "f3f4aebba43b5379f6cc40c6af3237d67dd33907",
+                "type": "FIX",
+                "text": " We now correctly display a visible table in an object page that has multiple sections",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370006873"
+                    }
+                ]
+            },
+            {
+                "id": "23da320771a2295e84e91ea9317aaf9d84f3795b",
+                "type": "FIX",
+                "text": " We’ve resolved the issue related to the appearance of i18n keys in the filter summary of the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370020121"
+                    }
+                ]
+            }
+        ]
+    }
+}

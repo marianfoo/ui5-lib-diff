@@ -1,0 +1,81 @@
+{
+    "1.48.0": {
+        "date": "April 2017",
+        "notes": [
+            {
+                "id": "1fff1fc14e6768fa85eca16f6f3a4889a8478de5",
+                "type": "FEATURE",
+                "text": "ActionUtil: Confirmation Popup: app-specific message texts",
+                "references": []
+            },
+            {
+                "id": "3d6648c68333679804b5a454adcb83070b0450e7",
+                "type": "FEATURE",
+                "text": "NavigationHandler: new function for storing inner app state",
+                "references": []
+            },
+            {
+                "id": "d88ceb51cf80f79a31165e6b01f4cdad4ad74f1b",
+                "type": "FEATURE",
+                "text": "-Grouped list for transient messages FIORITECHP1- 4090",
+                "references": []
+            },
+            {
+                "id": "ac17f037e4d4a72249dfa93f6afb98a1441ba589",
+                "type": "FIX",
+                "text": "ActionUtil.js: FunctionName not taken provided for App Controller",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770081823"
+                    }
+                ]
+            },
+            {
+                "id": "d111bf551988c777a172694faa9357be6dac828e",
+                "type": "FIX",
+                "text": "ActionUtil: Change to call to instance call",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770175112"
+                    }
+                ]
+            },
+            {
+                "id": "04149b184de7be4f61e38a95ed17e73efec3a607",
+                "type": "FIX",
+                "text": "ActionUtil: invalid function call removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770175112"
+                    }
+                ]
+            },
+            {
+                "id": "8a9d8308ae0097f422790ffdee11a03ef16a2b9f",
+                "type": "FIX",
+                "text": "Clean up model changes in case of unsuccessful create",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770060444"
+                    }
+                ]
+            },
+            {
+                "id": "ef4dbac538a0f5bf3bd7dee807521861820554ef",
+                "type": "FIX",
+                "text": "NavigationHandler: replacing promise with jQuery.Deferred promise",
+                "references": []
+            },
+            {
+                "id": "20fe1acbaf38fffe28ea8df1957fead0504b16e6",
+                "type": "FIX",
+                "text": "Transient Message Grouping",
+                "references": []
+            }
+        ]
+    }
+}

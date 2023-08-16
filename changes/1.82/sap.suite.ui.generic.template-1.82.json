@@ -1,0 +1,248 @@
+{
+    "1.82.0": {
+        "date": "September 2020",
+        "notes": [
+            {
+                "id": "Ca5e48398fa9e557f38345aa4e656f738725a4eb",
+                "type": "FEATURE",
+                "text": "ALP: Provided an option to hide chart type changes and 'Sort Order' button in SAPUI5 Visual Editor."
+            },
+            {
+                "id": "267ce4df48f3c4b92ba521745d747ebf7298872c",
+                "type": "FEATURE",
+                "text": "Provided stable IDs"
+            },
+            {
+                "id": "d519f2bf4caca0695b43c7acda6e29259a27b0d9",
+                "type": "FEATURE",
+                "text": "extensionAPI.invokeActions() supports ChangeSet processing"
+            },
+            {
+                "id": "34f2f70a46fd7e440c201507f2d759bf710ac92b",
+                "type": "FEATURE",
+                "text": "OP: Icons in smart form now support semantic color."
+            },
+            {
+                "id": "337845f993ac200de7f150b90605365cf7cc6d4f",
+                "type": "FEATURE",
+                "text": "[LR]:Removed ExcludeFromNavigationContext IsPotentiallySensitive"
+            },
+            {
+                "id": "4245b83eb0269e2f1661e8a2bb4960fd9ab10a8e",
+                "type": "FEATURE",
+                "text": "List Report: Enhanced support for NewAction in draft enabled apps."
+            },
+            {
+                "id": "9976daa0501dedc05e5c0aeac1bd1696182ce3e4",
+                "type": "FEATURE",
+                "text": "Provide a new BeforeSaveExtension."
+            },
+            {
+                "id": "7d3854ce7654fc9c9b8d3cc1ce1c87814e9e3555",
+                "type": "FEATURE",
+                "text": "OP: In create mode, the 'Save' button is replaced by 'Create' button."
+            },
+            {
+                "id": "da4a8187969aa800c2411600bed46216eb23df36",
+                "type": "FEATURE",
+                "text": "LR/ALP: In list reports and analytical list pages, the 'Export to Excel' button is now available by default."
+            },
+            {
+                "id": "7fcca049098147a3601c0f0427b3b8fbdef7b0eb",
+                "type": "FEATURE",
+                "text": "OP: Enhanced the performance of 'New Draft' object creation."
+            },
+            {
+                "id": "3e7b7807f0bd818eb6ecf263a39d274a430d23cc",
+                "type": "FEATURE",
+                "text": "OP: Changed the semantic color of footer message button."
+            },
+            {
+                "id": "482926377ec5d65c0a6359a6c93d0757044d42e2",
+                "type": "FIX",
+                "text": "LR: Resolved the loading  of 'Manage Products'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080171713"
+                    }
+                ]
+            },
+            {
+                "id": "186a8bb16b8c7b8a9ae426d457164485e9ed4492",
+                "type": "FIX",
+                "text": "OP: IconUrl with path annotation is now supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004993422020"
+                    }
+                ]
+            },
+            {
+                "id": "88e6a44e2971bfadc81d7ca71a8424713569298d",
+                "type": "FIX",
+                "text": "ALP: Adapt filters dialog is now editable."
+            },
+            {
+                "id": "65d86fe4a703ca2e3d78cffd1bfecf07db7484ef",
+                "type": "FIX",
+                "text": "OP: Group Header Title is now read out for Links",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080168359"
+                    }
+                ]
+            },
+            {
+                "id": "bb54800b04953303ed4b1c84d4135abd4b34f886",
+                "type": "FIX",
+                "text": "extensionAPI: NavigationController.navigateInternal works for contexts that contain deep path.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080235475"
+                    }
+                ]
+            },
+            {
+                "id": "30a8e7f9e8a884917efcf3d03bd0e5b47dd8d8b1",
+                "type": "FIX",
+                "text": "Corrected inline delete behavior of object page tables in Edit and Display modes.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080323471"
+                    }
+                ]
+            },
+            {
+                "id": "64a37ec4a6e4b7b7fc27b4507d904665993d7c78",
+                "type": "FIX",
+                "text": "Corrected error filter behavior of smartTables on object page for newly created draft entries.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080309872"
+                    }
+                ]
+            },
+            {
+                "id": "a8a2287332b531650388a251919d7dd6da219b83",
+                "type": "FIX",
+                "text": "Correctly handle two consecutive non-draft create operations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080341034"
+                    }
+                ]
+            },
+            {
+                "id": "c5c01045b3c51b246c0125f34871f26e0450a914",
+                "type": "FIX",
+                "text": "OP: Delete from Smart MultiInput now displays correct toast message.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080311902"
+                    }
+                ]
+            },
+            {
+                "id": "d24917da83fb953634500d8a371a25ef737712d7",
+                "type": "FIX",
+                "text": "Resolved the assertion error for NOITEMS_LR_SMARTTABLE",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080114670"
+                    }
+                ]
+            },
+            {
+                "id": "dbefcafd2047092f788e221e4c970549db330b38",
+                "type": "FIX",
+                "text": "OP: Header Data Point title is now read out",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080236980,2080304337"
+                    }
+                ]
+            },
+            {
+                "id": "6e00cf379810b141a73bcaeed5212b66f75672d7",
+                "type": "FIX",
+                "text": "OP: Fixed multi-level navigation paths in AnnotationPath property.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080330228"
+                    }
+                ]
+            },
+            {
+                "id": "6baa82461db3468943d3407bbcc989b5ad8daf38",
+                "type": "FIX",
+                "text": "Related Apps feature: Ensured to only exclude actions that are associated with semantic object of the URL.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080314235"
+                    }
+                ]
+            },
+            {
+                "id": "f963631a8bde22be26046748b8a696e34037ab83",
+                "type": "FIX",
+                "text": "OP: Fixed focus on selectedSection's first editableInput.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070241743"
+                    }
+                ]
+            },
+            {
+                "id": "205b6cb79a67998c6f09e84a8686c31899cbfb05",
+                "type": "FIX",
+                "text": "[LR][ALP]: Applied sort order (in sap-xapp-state) to target LR and ALP.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080321013"
+                    }
+                ]
+            },
+            {
+                "id": "fc42fd198fbd8c850251481c3178ac6a6fec7b2e",
+                "type": "FIX",
+                "text": "OP: Corrected navigation path for main object page when navigationProperty is defined.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080265985"
+                    }
+                ]
+            },
+            {
+                "id": "fee5e72d35be2ee9a7df52fbc991a56538c372d5",
+                "type": "FIX",
+                "text": "LR: Ensured 'Share' button never overflows in the overflow toolbar.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070224593"
+                    }
+                ]
+            },
+            {
+                "id": "d463674fd5be433b4082f3c7d993b6a85611dd4f",
+                "type": "FIX",
+                "text": "[LROP]: Modified max-length of i18n keys for 412 delete scenario."
+            }
+        ]
+    }
+}

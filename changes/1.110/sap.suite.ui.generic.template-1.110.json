@@ -1,0 +1,312 @@
+{
+    "1.110.0": {
+        "date": "December 2022",
+        "notes": [
+            {
+                "id": "Ib557e2348f0c53c1c06424075487d2350464f7f4",
+                "type": "FEATURE",
+                "text": "Validate button now gets displayed on the screens of tablets and mobile devices providing an option to trigger the PreparationAction"
+            },
+            {
+                "id": "Id58f12697e97e0d463399d6fb5d54eab446f0c7a",
+                "type": "FEATURE",
+                "text": "In the analytical list page, dirty changes are now discarded before starting UI adaptation"
+            },
+            {
+                "id": "Id47788f71e2267ed74928a4588e390e3a6760f13",
+                "type": "FEATURE",
+                "text": "In the card preview, displaying of the top 15 records is now implemented"
+            },
+            {
+                "id": "I37e53b5bd9be2576a06c56f2e4ec5147e4695526",
+                "type": "FEATURE",
+                "text": "In the list report and object page, dirty changes are now discarded before starting UI adaptation"
+            },
+            {
+                "id": "Ic2b56bdbf6bb8b888dda49a055dcfd9288f25d54",
+                "type": "FEATURE",
+                "text": "For the last selected row in a table, the navigation indicator now remains hidden and the selection indicator is displayed. Also, 'SingleSelectMaster' is used instead of 'None'"
+            },
+            {
+                "id": "I466e56acd8376b5956ffcf32d51bc043ae84104d",
+                "type": "FIX",
+                "text": "Discard popup title text is now changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270133152"
+                    }
+                ]
+            },
+            {
+                "id": "I20906229eb6ad495fce63c513e43a6570a133a0b",
+                "type": "FIX",
+                "text": "To handle false conditions, datatype correction is now completed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004478932022"
+                    }
+                ]
+            },
+            {
+                "id": "I2296764b96f5deb030ef6da7ff78beced2892731",
+                "type": "FIX",
+                "text": "Renaming actions and IconTabFilter using UI Adaptation is now allowed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280179974"
+                    }
+                ]
+            },
+            {
+                "id": "I2fbd1b26ab6538e8b6bcb117cde5073b4b680474",
+                "type": "FIX",
+                "text": "In a single batch call in the object page, the table refresh and message refresh is now included",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270129641"
+                    }
+                ]
+            },
+            {
+                "id": "I803322529bcd7384999d7739282a47a4da9de747",
+                "type": "FIX",
+                "text": "MessageSortingHandler can now deal with dedicated messages that are no longer in MessageModel",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280197912"
+                    }
+                ]
+            },
+            {
+                "id": "I7a831658898f4d0aa8f7a0cfd8076e09a4049492",
+                "type": "FIX",
+                "text": "'Save as Tile' now appears along with the ushell",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270139719"
+                    }
+                ]
+            },
+            {
+                "id": "I665e10b36a91991a42602963aedbda0f3548c44e",
+                "type": "FIX",
+                "text": "batchGroupId for message refresh has been changed to 'Changes'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270129641"
+                    }
+                ]
+            },
+            {
+                "id": "I18c748d3fb75a71c2e943df301f1b5f55024c0cb ",
+                "type": "FIX",
+                "text": "Draft administrative data of active version are invalidated on cross app navigation with edit is now ensured",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270156756"
+                    }
+                ]
+            },
+            {
+                "id": "Ic8bc721622c0e78e962fdc2f75a7159ffa0c2d65",
+                "type": "FIX",
+                "text": "The behaviour when coming back to an app which has activated a draft while leaving is now corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270136359"
+                    }
+                ]
+            },
+            {
+                "id": "I710e943606cf2c901b2a356ae7eacd028979674a",
+                "type": "FIX",
+                "text": "Generic transient error message is the 412 warning scenario is now suppressed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280184429"
+                    }
+                ]
+            },
+            {
+                "id": "Iff3919814cbffb0550e7dc76a109e261f816e016",
+                "type": "FIX",
+                "text": "Custom configuration from fragment for filter fields is now considered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280129257"
+                    }
+                ]
+            },
+            {
+                "id": "If240552bdefd073d3d0c60b3323a2677c98066d1",
+                "type": "FIX",
+                "text": "In the list report and object page, GET and COUNT requests that are in the same batch request within the quick variant selection are now merged",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280184251"
+                    }
+                ]
+            },
+            {
+                "id": "I6dda535a1a268025c11e6c4c551aa0866f7fbfcb",
+                "type": "FIX",
+                "text": "The placeholder is now removed in case of coming back to a known page, even if the back navigation is not used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270116143"
+                    }
+                ]
+            },
+            {
+                "id": "I246341b22be6fe44c7261d2d5c66b72a79feb923",
+                "type": "FIX",
+                "text": "In the message dialog header, success title and an icon in message are now displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280181773"
+                    }
+                ]
+            },
+            {
+                "id": "I96fa444a3d9b4c47f3b6597589a367bf88fec522",
+                "type": "FIX",
+                "text": "Maximum length of the translation text for no data text on the table is now correctly set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280179479"
+                    }
+                ]
+            },
+            {
+                "id": "Iaed77f766ad4b6d7dedd0ef2d691ca885c80dafb",
+                "type": "FIX",
+                "text": "GET and COUNT requests in a same batch request are now merged",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270109207"
+                    }
+                ]
+            },
+            {
+                "id": "I8e0ba9365e2e6808985485770e16ea312c552fdc",
+                "type": "FIX",
+                "text": "Transient error messages along with the state info messages are now displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280174249"
+                    }
+                ]
+            },
+            {
+                "id": "I74b1c6fce33d60bf1aedfd4957c875050f0b5006",
+                "type": "FIX",
+                "text": "If not required in the object page, the PreparationAction is now skipped",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270113169"
+                    }
+                ]
+            },
+            {
+                "id": "I74b1c6fce33d60bf1aedfd4957c875050f0b5006",
+                "type": "FIX",
+                "text": "In the object page, focus handling for SmartTables is now improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270158662"
+                    }
+                ]
+            },
+            {
+                "id": "I39f1b8bb0a2557306922a319c848a9381c1e000a",
+                "type": "FIX",
+                "text": "Respective semantic date values are now set by the application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270155364"
+                    }
+                ]
+            },
+            {
+                "id": "Id3ea5868cb2035f194308e4debfaf02a29262c9a",
+                "type": "FIX",
+                "text": "On table and popups, the validation messages are now correctly handled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280175251"
+                    }
+                ]
+            },
+            {
+                "id": "I27ec525c2f0eb44bb1e4e5c721c4323e4efc578b",
+                "type": "FIX",
+                "text": "In the sub object page, the error coming up while clicking apply is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270165622"
+                    }
+                ]
+            },
+            {
+                "id": "I46e54711307a8e2e18f7136c61e763188735226f",
+                "type": "FIX",
+                "text": "Placeholder on back navigation is now removed in flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270143507"
+                    }
+                ]
+            },
+            {
+                "id": "I4354f058ea3422636bd46f31ab5666cabf7378d1",
+                "type": "FIX",
+                "text": "In the list report and object page, error icon for error message box within the header is now added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270160461"
+                    }
+                ]
+            },
+            {
+                "id": "I0cb8f1b299b840a81db94e4790d52a50933c36a3",
+                "type": "FIX",
+                "text": "The column objects are now pushed in the same order as they are received from personalization"
+            },
+            {
+                "id": "I893e14b86e243e708b692f795d19d1a00e099483",
+                "type": "FIX",
+                "text": "In the sub object page, the locked indicator is now displayed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280102523"
+                    }
+                ]
+            }
+        ]
+    }
+}

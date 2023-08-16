@@ -1,0 +1,36 @@
+{
+    "1.34.0": {
+        "date": "November 2015",
+        "notes": [
+            {
+                "id": "2df336485c1f9d41764d88898bde408274dcdea6",
+                "type": "FEATURE",
+                "text": "GenericApp: adding the navigation service",
+                "references": []
+            },
+            {
+                "id": "71db73f832793f695623f33a5955a948bb12d409",
+                "type": "FEATURE",
+                "text": "NavigationService: support for multi-valued startup parameters",
+                "references": []
+            },
+            {
+                "id": "2afa289d5d7a26ba14473401f619f8f40c3dd126",
+                "type": "FIX",
+                "text": "ApplicationController: Correction Busy Animation Handling",
+                "references": []
+            },
+            {
+                "id": "a26ac851f02f9dc58998dc7455773144c402b1ca",
+                "type": "FIX",
+                "text": "sap.ui.generic.app - NavigationController: onDeactivate handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580062546"
+                    }
+                ]
+            }
+        ]
+    }
+}

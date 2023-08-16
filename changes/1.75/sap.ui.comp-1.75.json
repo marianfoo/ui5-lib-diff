@@ -1,0 +1,193 @@
+{
+    "1.75.0": {
+        "date": "January 2020",
+        "notes": [
+            {
+                "id": "3beac01ae8b5a5c71a1b4372694e9378f0ce838c",
+                "type": "FIX",
+                "text": " SmartFilterBar: Handling of default values for Fiscal fields",
+                "references": []
+            },
+            {
+                "id": "cb38e5f6715cc7b89dd5711de794e2ce482fa8e5",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Retrieving description for keys is implemented",
+                "references": []
+            },
+            {
+                "id": "6cd815a745ae364521ae65e33c9dd3c318ad7db0",
+                "type": "FIX",
+                "text": " FilterBar: does not throw an exception if token text is not escaped",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680241716"
+                    }
+                ]
+            },
+            {
+                "id": "e1bd2fc9a2b0cc497d9706dc8e177f0348db0f3e",
+                "type": "FIX",
+                "text": " SmartField: Add dateFormatSettings for type Edm.Time",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980483082"
+                    }
+                ]
+            },
+            {
+                "id": "648fbbfea1c3f47ccea9722d7d3a99d64146005f",
+                "type": "FIX",
+                "text": " SmartFilterBar: Fiscal annotation sample cleanup",
+                "references": []
+            },
+            {
+                "id": "4eb41d9751eab30d7ace9c146700ffb61f665a07",
+                "type": "FIX",
+                "text": " SmartFilterBar: Scrolling while managing filters in adapt filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020283766 0000389086 2019"
+                    }
+                ]
+            },
+            {
+                "id": "d8353765e7d2d7ed082d6cedc5bfc0f109544c7a",
+                "type": "FIX",
+                "text": " SmartLink: fix for personalisation restore",
+                "references": []
+            },
+            {
+                "id": "8bf78a47b26a0afacc99419748b55de5b8814efd",
+                "type": "FIX",
+                "text": " sap.ui.comp.SmartTable - Reserved keywords",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080025761"
+                    }
+                ]
+            },
+            {
+                "id": "5c9f0de2b4b3f525fb8d7a24ace2aa92adf788c7",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: UseDateRangeType can be modified from UI adaptation implemented",
+                "references": []
+            },
+            {
+                "id": "d6a64dc7aac5d180b6daa818eafac23d1c120141",
+                "type": "FEATURE",
+                "text": " SmartLink: beforeNavigationCallback property added",
+                "references": []
+            },
+            {
+                "id": "94a89965cf660588ed74afd250a74f2278150cc3",
+                "type": "FIX",
+                "text": " SmartField: Propagate the formatted value to inner control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080006909"
+                    }
+                ]
+            },
+            {
+                "id": "194a59adc7d1bebef8a208775cb659d7d13407a3",
+                "type": "FIX",
+                "text": " ValueHelpDialog Panel ToggleButton focus and hover fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980409948"
+                    }
+                ]
+            },
+            {
+                "id": "2fb4cb1142edcfc14f93be998a5a77162b6458b4",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Min width of Boolean fields in the table increased",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080056307"
+                    }
+                ]
+            },
+            {
+                "id": "8a17175a6ad2aba89629d85103047a835a33dfce",
+                "type": "FIX",
+                "text": " fix unit test for sap.ui.comp.SmartMultiEdit.Field - keep focus on active control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970221613"
+                    }
+                ]
+            },
+            {
+                "id": "ab73edd92696b235a528384f523805c7f9a8be46",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Different columns can be defined in typeahead",
+                "references": []
+            },
+            {
+                "id": "04958429f1f19d6a40719cc8a6d160d44a7693a8",
+                "type": "FIX",
+                "text": " SmartFilterBar: Now reacts on change in the customData of custom filter fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080076900"
+                    }
+                ]
+            },
+            {
+                "id": "8930999c8f9d8c5ae2274f87be2fe39da9cdc11e",
+                "type": "FIX",
+                "text": " SmartFilterBar: remove 300ms delay from triggerSearch",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970448411"
+                    }
+                ]
+            },
+            {
+                "id": "65c5f97d86dfa85f20eb1503eafe129b71fe37e7",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Corrected label of the variant management title in case of i18n",
+                "references": []
+            },
+            {
+                "id": "2f02a9f6a11c23d4e568dfcfa0ee4f8757525d9d",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Corrected tooltip of the table columns in case of i18n",
+                "references": []
+            },
+            {
+                "id": "4a3887216687fd95724d402aba0ba4c308dc4ce0",
+                "type": "FIX",
+                "text": " comp.SmartVariantManagementUi2 - docu enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080067013"
+                    }
+                ]
+            },
+            {
+                "id": "1960ea2640e1ea1b3c19ed7c28d6855ac8786687",
+                "type": "FIX",
+                "text": " comp.VariantManagement: enhance variant name checks",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080105498"
+                    }
+                ]
+            }
+        ]
+    }
+}

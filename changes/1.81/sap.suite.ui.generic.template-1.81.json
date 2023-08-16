@@ -1,0 +1,242 @@
+{
+    "1.81.0": {
+        "date": "August 2020",
+        "notes": [
+            {
+                "id": "ffdc39a3454336b874ed5891a77b859044fc47ca",
+                "type": "FEATURE",
+                "text": "ALP: Enabled creation of different types of tiles when semantic date range filter field is available"
+            },
+            {
+                "id": "ce428e539637166839e4672ecf824322db23d2cd",
+                "type": "FEATURE",
+                "text": "LR: User default filters are merged with standard variant defaults from vendor layer"
+            },
+            {
+                "id": "d8645bee88b2017f4c6196714223cf5a6c24b4ea",
+                "type": "FEATURE",
+                "text": "[LR][OP]: Restricted draft deletion when ActiveObject delete is disabled"
+            },
+            {
+                "id": "4b79380ccb4b91b161bc5d09731999c645f57ab5",
+                "type": "FEATURE",
+                "text": "OP: Enabled sub-object creation through dialog for non-draft object pages"
+            },
+            {
+                "id": "fea49ff4d48a56e212af7765ab63b07100605b73",
+                "type": "FEATURE",
+                "text": "Enabled filtering of Erroneous rows in smartTables of object page"
+            },
+            {
+                "id": "0ecfd6eae4c52e5a645487423b0a38c36656038d",
+                "type": "FEATURE",
+                "text": "LR: Enabled creation of different kinds of tiles when semantic date range filter field is available."
+            },
+            {
+                "id": "f74cea18466c53fba0dbb18f3c7a940965eaf112",
+                "type": "FEATURE",
+                "text": "[LR][OP]: Support now provided for 412 warning message in deletion from LR, and transient message in deletion from OP."
+            },
+            {
+                "id": "a23286a7eaa3123aa99eeef61787f882e274b088",
+                "type": "FEATURE",
+                "text": "[LR][ALP] - A sort order (in sap-xapp-state) is now applied in LR and ALP while navigating from an OVP table card"
+            },
+            {
+                "id": "ef68facf50c62ce123090649762ee60fac0d0bb4",
+                "type": "FEATURE",
+                "text": "[LR][OP]: Provided an option for external navigation to any Object Page of an app with multiple entity sets"
+            },
+            {
+                "id": "855f627cba753c0a6442eea46e653d57196fadff",
+                "type": "FEATURE",
+                "text": "ALP: Show data label in smartchart"
+            },
+            {
+                "id": "062958d0b5b1693b2dd3627699fff98510d6d252",
+                "type": "FEATURE",
+                "text": "ALP: Semantic date range is now supported"
+            },
+            {
+                "id": "f714458b0e6795b39089104641b159184842d07b",
+                "type": "FEATURE",
+                "text": "[LR]:Semantic date range is supported with equal operator"
+            },
+            {
+                "id": "e6cd0512ecf8be02a19ebc3cf762804a1aa58fef",
+                "type": "FEATURE",
+                "text": "[LROP][ALP]: added FeError for the framework"
+            },
+            {
+                "id": "60ce12f332e189dc5b719d59dc0e0799b8241420",
+                "type": "FIX",
+                "text": "LR: Filtering by information is now possible in LR",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080158432"
+                    }
+                ]
+            },
+            {
+                "id": "c6ddbe90bcc2bb7ad66e9ad6dc7b6f102f68ff48",
+                "type": "FIX",
+                "text": "LR: Provided a fallback option for CreatedByUser when CreatedByUserDescription is not available in the delete confirmation dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080241464"
+                    }
+                ]
+            },
+            {
+                "id": "82276f87a2967da1fdade3333a65a583135a712c",
+                "type": "FIX",
+                "text": "OP: Improved refreshing of messages associated to a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080184179"
+                    }
+                ]
+            },
+            {
+                "id": "b625b83cab6f4d8ec28f46cd7ac0864c5b38d567",
+                "type": "FIX",
+                "text": "Filter bar now do not expand when variant is updated with Config Apply Automatically property set to False.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080248225"
+                    }
+                ]
+            },
+            {
+                "id": "018f1b0d7452b7f9bb45f9ca640e3b2801a4fc00",
+                "type": "FIX",
+                "text": "OP: Fixed the IE compatibility issue while creating a random stable ID for facets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080227029"
+                    }
+                ]
+            },
+            {
+                "id": "688d582da8b42d290f6376e9b06392864bed40e4",
+                "type": "FIX",
+                "text": "Navigations are now robust against conflicting parallel navigation requests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080250262"
+                    }
+                ]
+            },
+            {
+                "id": "44881251f9923581f49e7a60e695d320d3fe0cd5",
+                "type": "FIX",
+                "text": "OP: Provided a solution for useColumnLayoutForSmartForm manifest setting issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080201909"
+                    }
+                ]
+            },
+            {
+                "id": "5bdaae0e743b217608491174d625a0b45ff6fd0b",
+                "type": "FIX",
+                "text": "Ensured that ghost apps do not change URLs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080253981"
+                    }
+                ]
+            },
+            {
+                "id": "1c744fa33a01597014ffc801d469088dca9cdbf0",
+                "type": "FIX",
+                "text": "Enabled correct evaluation of EditableFieldFor annotation"
+            },
+            {
+                "id": "9927d9e8cc586dc383c9a36572275386cac1edf4",
+                "type": "FIX",
+                "text": "OP: Enabled correct selection mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080222421,2080197445"
+                    }
+                ]
+            },
+            {
+                "id": "30c537ec2a6e3cf3a26f932923cffe00151f735b",
+                "type": "FIX",
+                "text": "Fixed timing issues between FlexibleColumnLayoutSemanticHelper and NavigationController",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080212197"
+                    }
+                ]
+            },
+            {
+                "id": "ba8032cf0a0f3c241550a7b7584049f201f987f7",
+                "type": "FIX",
+                "text": "OP: Disabled the blocking of UI when global side-effect call fails",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070139529"
+                    }
+                ]
+            },
+            {
+                "id": "6cd6d351a59753a0545975d835c407da0082aa67",
+                "type": "FIX",
+                "text": "securedExecution now works correctly with sideEffects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080186723"
+                    }
+                ]
+            },
+            {
+                "id": "35335f2512b18881fbb4106fb027c0ec6a700ebd",
+                "type": "FIX",
+                "text": "Enabled inline PresentationVariant in SelectionPresentationVariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080222421"
+                    }
+                ]
+            },
+            {
+                "id": "59a3d94941ac82d66a640f704590e79138d1f0b7",
+                "type": "FIX",
+                "text": "Provided a fallback to framework key for facet to read section settings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080231218"
+                    }
+                ]
+            },
+            {
+                "id": "a40d7fce9cb69763b051a312a01aa5adee67ea15",
+                "type": "FIX",
+                "text": "Improved communication of SAP Fiori Elements framework code with router to prevent duplication  of template components",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080223386"
+                    }
+                ]
+            }
+        ]
+    }
+}

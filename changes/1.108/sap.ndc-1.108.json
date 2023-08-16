@@ -1,0 +1,50 @@
+{
+    "1.108.0": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "f31c8a1d48f791284ccbe5d4f4fdbc7fd28a6e50",
+                "type": "FIX",
+                "text": " sap.ndc: QRcode cannot be scanned on iOS16.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270149292"
+                    }
+                ]
+            },
+            {
+                "id": "0654f4b5a4ecc23002bb4a464ecc6869890e2630",
+                "type": "FIX",
+                "text": " sap.ndc: Add the SAP Note 2402585 link into UI5 Docs for barcode scanning",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270135090"
+                    }
+                ]
+            },
+            {
+                "id": "e56afdf4325eb2dd9f8fdef86c59ea2987ec1879",
+                "type": "FIX",
+                "text": " sap.ndc: Improve the performance of barcode scanner"
+            }
+        ]
+    },
+    "1.108.3": {
+        "date": "January 2023",
+        "notes": [
+            {
+                "id": "5bf06a5a64fc8ece6be4515fb8b9e7a5ae5f87a3",
+                "type": "FIX",
+                "text": " sap.ndc: fix wide-angle lens problem and use ZXing-CPP to scan barcode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280199507"
+                    }
+                ]
+            }
+        ]
+    }
+}

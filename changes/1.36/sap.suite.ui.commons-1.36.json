@@ -1,0 +1,347 @@
+{
+    "1.36.0": {
+        "date": "November 2015",
+        "notes": [
+            {
+                "id": "56f6ccfcc972e72f443cf4dd51b6509659d359f9",
+                "author": "Sylvia Strack <sylvia.strack@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: First button of segmented button is highlighted by default",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570877230"
+                    }
+                ]
+            },
+            {
+                "id": "fcf3445ddbd606239bce183d3bd284c1ce407aca",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Changed chart is displayed after fullscreen mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570882547"
+                    }
+                ]
+            },
+            {
+                "id": "5499fefadb03436a2bd8ab3453d53c69d3335550",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: customIcons removed after deletion",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570876090"
+                    }
+                ]
+            },
+            {
+                "id": "492cc49468caa06c4a8040e03f664f619465bc8c",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Positioning of full screen popup adapted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570862948"
+                    }
+                ]
+            },
+            {
+                "id": "9fb9be27d336404aadad0e90f526597c22a5b133",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Listbox adpated because of screen reader issues"
+            },
+            {
+                "id": "6b5512416117d40b32ce5a40202089b39eb64384",
+                "author": "Petr Stribrny <petr.stribrny@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.ChartContainer: JSDoc of aggregation content updated"
+            },
+            {
+                "id": "3d037c34be1479dc8f1373d7cdf462131aaed6b4",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.TimelineRenderer: Screen renderer for showMore button corrected"
+            },
+            {
+                "id": "d2cb6647f00bda1415fa7ee18d806c9ea6111aff",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.FeedTile: Fix border radius aligned in relation to different tile content",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580175682"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.1": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "79e8fa5bf7c6b10dda3e97657a3599e31fa71965",
+                "author": "Mingxin Fu <mingxin.fu@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Segmented chart buttons rendered properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670037152"
+                    }
+                ]
+            },
+            {
+                "id": "fc6500c11dceac5ab380f99751351e525bf2c72a",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.UnifiedThingInspector: Text colors for KPI tiles changed to meet accessibility requirements",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670009961"
+                    }
+                ]
+            },
+            {
+                "id": "0640c758b60721fe47d14cae057968e60a89cd66",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Width of filter dialog width adjusted"
+            },
+            {
+                "id": "02b8316bae4f1fa869ecc2a04ea01939d7040f9a",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: User selection for Safari browser fixed"
+            },
+            {
+                "id": "4a476111f3f247c5103d7f7c6b88a2e7b5c6e620",
+                "author": "Razvan Harsan <razvan.harsan@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Business focus is possible now on multiple nodes"
+            },
+            {
+                "id": "ef8857015d18d17487e8942f82ae742ccaf051b6",
+                "author": "Ruben Agullo Cordoba <ruben.agullo.cordoba@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Icon in Connection Label centered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670022751"
+                    }
+                ]
+            },
+            {
+                "id": "62b11a8af268f024cb103e1e32e0c1328d37bbad",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.VerticalNavigationBar: Screen reader support for navigation item added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570837122"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.2": {
+        "date": "February 2016",
+        "notes": [
+            {
+                "id": "c4e91ecf170802e07e367a94d354c0bc3bdd9b4f",
+                "author": "Dominic Holzwarth <dominic.holzwarth@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.ChartContainer: New API method getSelectedContent added"
+            }
+        ]
+    },
+    "1.36.3": {
+        "date": "February 2016",
+        "notes": [
+            {
+                "id": "2252714b3ade46a970744b4a9b319177cea12079",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Handling of ProcessFlowConnectionLabel has been adpated in case of reusing existing ProcessFlowConnectionLabel instances"
+            }
+        ]
+    },
+    "1.36.4": {
+        "date": "March 2016",
+        "notes": [
+            {
+                "id": "d4e548977b0e168991cd16c4c9c0dd3c33e5f4ef",
+                "author": "Sylvia Strack <sylvia.strack@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Chart heights in full screen mode and normal mode corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670121532"
+                    }
+                ]
+            },
+            {
+                "id": "5d35499c22e094cb042642a2b8be4750134538ff",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Highlight behavior on segmented buttons corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670148654"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.5": {
+        "date": "April 2016",
+        "notes": [
+            {
+                "id": "acfab96a2ff6dff858c1a028049ae5a3815374c6",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: User selection across all browsers fixed"
+            },
+            {
+                "id": "247ec5b945c1080a771dcb708df091113bb9cbd9",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Correct button is selected via switchChart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670195643"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.6": {
+        "date": "April 2016",
+        "notes": [
+            {
+                "id": "0adfb4ce1dd2ed16850edf1a2016c58e53fb470a",
+                "author": "Bohdan Pukalskyi <bohdan.pukalskyi@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Additional scrollbars for VizFrame content removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670263109"
+                    }
+                ]
+            },
+            {
+                "id": "53aedf5856e249b395a16146f4fb65c7da65eda8",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Height of horizontal Timeline adjusted"
+            },
+            {
+                "id": "84e3f1797a7f70441e6b3f4fde7cca67ac5730d3",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Dependency management corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670192444"
+                    }
+                ]
+            },
+            {
+                "id": "761938278eb1985675423d09272a4b603049a24d",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Customizing of tooltip for icon added"
+            }
+        ]
+    },
+    "1.36.8": {
+        "date": "May 2016",
+        "notes": [
+            {
+                "id": "0818e4093ca7d6ee16afb4385f41c53657e2aaa9",
+                "author": "Bohdan Pukalskyi <bohdan.pukalskyi@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Button access provided that committed the press event to custom icons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670327549"
+                    }
+                ]
+            },
+            {
+                "id": "09180fb08e74c5aad0a17d73dfeedbf6fc4c46ff",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.HeaderContainer: Showing or hiding arrows adapted in case of resizing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670326137"
+                    }
+                ]
+            },
+            {
+                "id": "29c9ec10ab5b77a89cfa46df1058e9d3f383e316",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: User handling improved for non-visible content",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670283884"
+                    }
+                ]
+            },
+            {
+                "id": "c19f22b7054684f129058927528412ee2d52162e",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.HeaderContainer: Scrolling with arrows adapted for IE",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670310279"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.9": {
+        "date": "Juni 2016",
+        "notes": [
+            {
+                "id": "7df00869b639eb7d3f34fa2fea67d9b8dcf53587",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Colors for neutral and planned state corrected"
+            },
+            {
+                "id": "88f5ede603cb2690801372c252c7ea0fc2bd95ee",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Dynamic adjustment of content height in full screen mode on mobile devices corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680026875"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "1.81.0": {
+        "date": "July 2020",
+        "notes": [
+            {
+                "id": "4c8aa93f99a4361bfe3ce8bef6523207bb53e5ce",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Analytical parameters handled in filter",
+                "references": []
+            },
+            {
+                "id": "3ccb6ceae9edfaadb52c2d9bea2054816c2f3554",
+                "type": "FEATURE",
+                "text": " comp.VariantManagement: key user enablement",
+                "references": []
+            },
+            {
+                "id": "5db0a7015f344efab94ef917c6863b625495b4f5",
+                "type": "FIX",
+                "text": " FilterBar: removeFilterGroupItem now removes fields from basic group",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004128912020"
+                    }
+                ]
+            },
+            {
+                "id": "4bd32bd170b8fabc5305ccd7cb13fcf4beba996c",
+                "type": "FIX",
+                "text": " SmartField: textInEditModeSource stability in extension point",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080167558"
+                    }
+                ]
+            },
+            {
+                "id": "b5bfa41eccd4c2be8da255b225a596ac5a9a85ce",
+                "type": "FIX",
+                "text": " SmartFilterBar: get/set FilterData consistancy fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070228548"
+                    }
+                ]
+            },
+            {
+                "id": "54f71752e6bb3eca9a39d4519d11475a10242e1f",
+                "type": "FIX",
+                "text": " DateRangeType: Validation improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070253128"
+                    }
+                ]
+            },
+            {
+                "id": "fc3de2c23b5bd0d5e63e5ae0fb1e49dbe9f27061",
+                "type": "FIX",
+                "text": " DateRangeType: dates validation improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080148071"
+                    }
+                ]
+            },
+            {
+                "id": "dd848c6938595831be83602e9b4bcebecbc2e98b",
+                "type": "FIX",
+                "text": " ValueListProvider: properly provide select param when recently used is disabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070237103"
+                    }
+                ]
+            },
+            {
+                "id": "8ba4f90aa54896d5ed84878c5bb98764c5023893",
+                "type": "FEATURE",
+                "text": " SmartField: enable changeModelValue for all types",
+                "references": []
+            },
+            {
+                "id": "a314b1a14b9c58719a3af03f3cab96bd4e382160",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Semantic date range value implementation.",
+                "references": []
+            },
+            {
+                "id": "9922fa244cf3f15abe4b87b86d2df6d304f083b5",
+                "type": "FEATURE",
+                "text": " SmartForm: Asynchronous validation mode added",
+                "references": []
+            },
+            {
+                "id": "90484a8ac95da0c7a9d953061d37a1a325242382",
+                "type": "FEATURE",
+                "text": " SmartTable: Shortcut hints enabled",
+                "references": []
+            },
+            {
+                "id": "72dd4c6554f150af4c26f1271a64572925f605ec",
+                "type": "FEATURE",
+                "text": " TextArrangement: parseValue trims right whitespace",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080167558"
+                    }
+                ]
+            },
+            {
+                "id": "bd362baeec403fc3d3e699a9a0cb33021657e2d8",
+                "type": "FEATURE",
+                "text": " sap.ui.comp.filterbar.FilterBar: Show shortcut hint for search",
+                "references": []
+            },
+            {
+                "id": "c3ccb9effe625b8b26b719e85eb84c20b7ceffd1",
+                "type": "FIX",
+                "text": " SmartField: TextArrangment with UpperCase fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080167558"
+                    }
+                ]
+            },
+            {
+                "id": "a797f5c213ce2d1bb51658e85ac8689657afd447",
+                "type": "FIX",
+                "text": " SmartFilterBar: Basic Search is now destroyed on mobile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004928942020"
+                    }
+                ]
+            },
+            {
+                "id": "6ef22995db51bc2834926ff0edc585f626b31e9a",
+                "type": "FIX",
+                "text": " SmartFilterBar: Exclude Operator fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2040461540"
+                    }
+                ]
+            },
+            {
+                "id": "c2118b6c2dc68fc517a94b62bb43ef6f8bd8f4d6",
+                "type": "FIX",
+                "text": " TextArrangement: parseValue method exception fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080298225"
+                    }
+                ]
+            },
+            {
+                "id": "6270c12f0b208ea507add88958e3599ff9f902ae",
+                "type": "FIX",
+                "text": " ValueListProvider: rebind suggestions aggregation if unbinded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080137158"
+                    }
+                ]
+            }
+        ]
+    }
+}

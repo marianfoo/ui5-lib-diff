@@ -1,0 +1,86 @@
+{
+    "1.36.0": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "05bb0bf7342488dad054e631a0a58574a185b200",
+                "type": "FEATURE",
+                "text": "sap.me.Calendar add support for islamic calendar",
+                "references": []
+            },
+            {
+                "id": "b1b38f67c537bc261cef68ab26069ecb58c82b04",
+                "type": "FIX",
+                "text": "Fiori Team Calendar not displaying public holidays correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "012002523100007381472015"
+                    }
+                ]
+            },
+            {
+                "id": "79b47c1005e0ce0d52a14cc7cb4da29fd8b4b9b1",
+                "type": "FIX",
+                "text": "Issue with the display of a public holiday",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "012002523100009197442015"
+                    }
+                ]
+            },
+            {
+                "id": "8ef66d820c3ef036bbf2fe466246a8fe9f587ae9",
+                "type": "FIX",
+                "text": "sap.me.Calendar: fix the contrast ration for sap_hcb theme",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570032579"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1570032761"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.4": {
+        "date": "March 2016",
+        "notes": [
+            {
+                "id": "619eeedaafae9af754f5240fd708981ed4cf9594",
+                "type": "FIX",
+                "text": "sap.me.OverlapCalendar issues",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "012002523100000736432016"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "012002523100001141662016"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.5": {
+        "date": "March 2016",
+        "notes": [
+            {
+                "id": "cf884c717a59d05a2f0ecdae3fd8ab4fa70488e4",
+                "type": "FIX",
+                "text": "Fiori applications do not consider TISLCAL adjustment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "012002523100001800472016"
+                    }
+                ]
+            }
+        ]
+    }
+}

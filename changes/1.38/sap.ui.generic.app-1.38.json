@@ -1,0 +1,125 @@
+{
+    "1.38.0": {
+        "date": "April 2016",
+        "notes": [
+            {
+                "id": "61bcb1a42489ee23f47b746af0562c2298cc71e5",
+                "type": "FEATURE",
+                "text": "BaseController /  Queue: Use \"endless\" Queue in ST apps",
+                "references": []
+            },
+            {
+                "id": "f60bdd3b23bddf0455d71289ba92a7b1abea69a1",
+                "type": "FEATURE",
+                "text": "DraftContext: PreserveChanges new API func for Draft handling",
+                "references": []
+            },
+            {
+                "id": "2df336485c1f9d41764d88898bde408274dcdea6",
+                "type": "FEATURE",
+                "text": "GenericApp: adding the navigation service",
+                "references": []
+            },
+            {
+                "id": "71db73f832793f695623f33a5955a948bb12d409",
+                "type": "FEATURE",
+                "text": "NavigationService: support for multi-valued startup parameters",
+                "references": []
+            },
+            {
+                "id": "84665a837a34f14129ced81b3c0ca30a5a0c8c19",
+                "type": "FEATURE",
+                "text": "Support PreserveChanges for Edit (performance enhancement)",
+                "references": []
+            },
+            {
+                "id": "0b0c24e0d48030f96f576c04285c0fb8500a6880",
+                "type": "FEATURE",
+                "text": "gen.app TransactionController: deleteEntity with Path",
+                "references": []
+            },
+            {
+                "id": "c5d3524e3b050ae6497b39d0dc7f091516a6427a",
+                "type": "FEATURE",
+                "text": "sap.ui.generic TransactionController: add deleteEntities",
+                "references": []
+            },
+            {
+                "id": "227435dab9aecde63c26a4773e9baf6173df3711",
+                "type": "FEATURE",
+                "text": "NavigationController: enable navigating to aggregation paths",
+                "references": []
+            },
+            {
+                "id": "ee97be70f62ce933ea741c5786e8c41671dad273",
+                "type": "FIX",
+                "text": "AppComponent: No error message for metadata request",
+                "references": []
+            },
+            {
+                "id": "2afa289d5d7a26ba14473401f619f8f40c3dd126",
+                "type": "FIX",
+                "text": "ApplicationController: Correction Busy Animation Handling",
+                "references": []
+            },
+            {
+                "id": "e9890e7100db4bdc3e1bc9adea318b6dcfaf66c9",
+                "type": "FIX",
+                "text": "NavigationHandler: Browser hash now determined via HashChanger singleton",
+                "references": []
+            },
+            {
+                "id": "b942a729dfbdd4d85ecb8c87279675b22442410a",
+                "type": "FIX",
+                "text": "NavigationHandler: consider navigation based on a ui component",
+                "references": []
+            },
+            {
+                "id": "ef72689833a8fbc6d81466d813e987816ec8b6f9",
+                "type": "FIX",
+                "text": "NavigationService: consider template component",
+                "references": []
+            },
+            {
+                "id": "738b3d91d939a4a80acc95bb0c08f2ebf7cd783b",
+                "type": "FIX",
+                "text": "NavigationService: corrections for default state handling",
+                "references": []
+            },
+            {
+                "id": "e169ce92c38f396ca35a27250205a1342d406be2",
+                "type": "FIX",
+                "text": "sap.ui.gen...TransactionController: Action Callbacks not called",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670206783"
+                    }
+                ]
+            },
+            {
+                "id": "a26ac851f02f9dc58998dc7455773144c402b1ca",
+                "type": "FIX",
+                "text": "sap.ui.generic.app - NavigationController: onDeactivate handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580062546"
+                    }
+                ]
+            },
+            {
+                "id": "5c8fd2fda4f99b70e1db43dee389cf095a70c5e7",
+                "type": "FIX",
+                "text": "sap.ui.generic.app testsuite.qunit.html: fix for device dectection",
+                "references": []
+            },
+            {
+                "id": "76a563b58280493d91cd28d921612efe1d0f208f",
+                "type": "FIX",
+                "text": "Harmonize oAppData in parseNavigation for all NavTypes",
+                "references": []
+            }
+        ]
+    }
+}

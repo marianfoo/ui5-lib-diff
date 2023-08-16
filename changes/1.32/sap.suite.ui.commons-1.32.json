@@ -1,0 +1,594 @@
+{
+    "1.32.0": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "1d0ba4c3d4b396999f5f97bc8a65c0dcc091331b",
+                "author": "Eduard Klimenko <eduard.klimenko@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.NumericContent: Sizes changed"
+            },
+            {
+                "id": "0301cab329525fb11a27aaa2445548eaea8b70a6",
+                "author": "Evgeny Fedorchenko <evgeny.fedorchenko@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.NumericContent: Layout without margin fixed"
+            },
+            {
+                "id": "3ecf7b021207a933876ff5da337b86ae3d8783e6",
+                "author": "Evgeny Fedorchenko <evgeny.fedorchenko@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.NumericContent: Property name changed"
+            },
+            {
+                "id": "2376efff852094c09db17af6e655a18564d15655",
+                "author": "Evgeny Fedorchenko <evgeny.fedorchenko@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.UnifiedThingInspector: ARIA issue fixed"
+            },
+            {
+                "id": "4b0527f781d42f11a817bd6b8246bdbca13d013b",
+                "author": "Evgeny Fedorchenko <evgeny.fedorchenko@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ColumnMicroChart: Issue with disappearing column solved"
+            },
+            {
+                "id": "ee68d803cac6697e85aabf14a1336ee32d8644c8",
+                "author": "Evgeny Fedorchenko <evgeny.fedorchenko@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.NumericContent: New property withoutMargin introduced"
+            },
+            {
+                "id": "2bcde01c8f47482a1488a7445e1f293bc22f1357",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.ProcessFlow: Aggregated nodes have been implemented"
+            }
+        ]
+    },
+    "1.32.1": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "27ca866cc618161f8aabf97a6685c23e1c2e40e6",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.TimelineItem: Mozilla Firefox text selection issue"
+            }
+        ]
+    },
+    "1.32.3": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "65f688ee08ac1e15107b45b0a0a27e78dfd12dde",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Modification done to get rid off dump issues without sapTabbable fields from KPI"
+            },
+            {
+                "id": "aca0f7a4c8a8a4ffad9f47e1c1e9db0dfeb45d8f",
+                "author": "Markus Konrad <markus.konrad@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.ProcessFlow: Connection labels have been implemented"
+            },
+            {
+                "id": "b4797fcc902154ab665380e23b6e153ce64b73bd",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Public adjustUI method added"
+            },
+            {
+                "id": "a8f92b80e29afa699353ef8f2ef4cae80ebbf357",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Header state is displayed according to the provided lane states",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580078293"
+                    }
+                ]
+            },
+            {
+                "id": "128df2d823ea7f91d7a3b2a3f9427702bed9a6f8",
+                "author": "Evgeny Fedorchenko <evgeny.fedorchenko@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.MicroAreaChart: Processing of empty labels corrected"
+            },
+            {
+                "id": "3ad8c99cc67bcdf87fa56565b8e327abd3ee2237",
+                "author": "Evgeny Fedorchenko <evgeny.fedorchenko@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.NumericContent: Processing of dots in scaling factor corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580049686"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.32.4": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "3720fb27fe671cf5965dc10651a34003df49d9c1",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.NumericContent: Default behavior for indicator restored"
+            },
+            {
+                "id": "bcc62ed4a43168b47c4015cb9fee93cc9011b7e0",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Issue with no item data focus fixed when shift + tab and shift + f6 on keyboard clicked"
+            },
+            {
+                "id": "19ebffdc299516ca2a5226de5dbb18c7db2d9474",
+                "author": "Markus Konrad <markus.konrad@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Screen reader support for ProcessFlowConnectionLabels has been implemented"
+            },
+            {
+                "id": "dfaf7c567c2ecab2e695c1812ae900ab9d3cb205",
+                "author": "Markus Konrad <markus.konrad@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Style for connection labels adapted"
+            },
+            {
+                "id": "f16f9e03ad31d51921da237be6a5f9008461a352",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.ProcessFlow: Samples for connection connection labels enhanced"
+            },
+            {
+                "id": "91ac26db62ad2baaf8314d5c11296efc402827c6",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Issue with updateModel() for merged lanes solved"
+            }
+        ]
+    },
+    "1.32.5": {
+        "date": "2015",
+        "notes": [
+            {
+                "id": "f39b37446e16d240c0452dab7b22234112ffd2b1",
+                "author": "Petr Stribrny <petr.stribrny@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.GenericTile: Display tooltip correctly"
+            },
+            {
+                "id": "a38a0d313953264d777534d709a5e9c52c53b56c",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Horizontal select issue fixed"
+            },
+            {
+                "id": "532470d1576ab667b305f4fcb8434b55875f4d59",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Automatic scrolling issue resolved"
+            },
+            {
+                "id": "44c88ecd0ac0ddb9364d2b0443381d164189cb1d",
+                "author": "Markus Konrad <markus.konrad@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Style for connection labels adapted"
+            },
+            {
+                "id": "96f83490feea25f987a99a7610eb71e79c55c8c7",
+                "author": "Petr Stribrny <petr.stribrny@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ComparisonChart: Correct tab sequence"
+            },
+            {
+                "id": "67c7111b6a9c38577147347ac0265eb0c38d58d8",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.HeaderCell: Improved fixed width and height dependency",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580126683"
+                    }
+                ]
+            },
+            {
+                "id": "ea61c788d07c6cbb156908da0043819ed8591558",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Connection Label Icon event handling corrected"
+            }
+        ]
+    },
+    "1.32.6": {
+        "date": "November 2015",
+        "notes": [
+            {
+                "id": "80ecaa216eba41cad43cd9600b720cef9c874559",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: showIcons toggle issue fixed"
+            },
+            {
+                "id": "661ae539a0058cc2404147aea4b193f5513107cc",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Issue with merged lanes in complex process flow solved"
+            },
+            {
+                "id": "0533a7c0afeaefb44bd8527f19fe22b17e7e9989",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Word wrap issues fixed"
+            },
+            {
+                "id": "60dd8a93811f4fe44c6160dcb2f1cb29932ed2bd",
+                "author": "Petr Stribrny <petr.stribrny@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.HeaderContainer: Focus handling in HCB corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580142275"
+                    }
+                ]
+            },
+            {
+                "id": "3c1493d92f8118b15ed5b6243f368d8b835aeca4",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Display of very complex process flows enabled"
+            },
+            {
+                "id": "3330877102a6dae0b9ce110c80ae1801c6895679",
+                "author": "Ruben Agullo Cordoba <ruben.agullo.cordoba@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Event handling for connection labels corrected"
+            },
+            {
+                "id": "1be9065a8c89d55a032e2868cd005d74fe5ec6b4",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Display of special process flows enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580192654"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.32.7": {
+        "date": "December 2015",
+        "notes": [
+            {
+                "id": "a98fe0ddbc2db5364549024c367490466a775b56",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Screen renderer for Show More button corrected"
+            },
+            {
+                "id": "54e48bb078748c8c5a6b469e4c56b5d739700682",
+                "author": "Petr Stribrny <petr.stribrny@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.GenericTile: Focus rendering improved"
+            },
+            {
+                "id": "12c00b70a47c71407e468dc1ac4c54bbfd061df4",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.FeedTile: Border radius aligned in relation to different size of tile content",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580175682"
+                    }
+                ]
+            },
+            {
+                "id": "7dca0c5f06bf63e16702ed668b50834b48b679c1",
+                "author": "Petr Stribrny <petr.stribrny@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.GenericTile: Tooltip rendering adapted"
+            },
+            {
+                "id": "6655e8117335713d6b7a2dc516486864f08cb282",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Click on Last button and scroll back to top adapted"
+            },
+            {
+                "id": "596a172fc464fe54f9a87ba9eefbf527980b499a",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Nodes do no longer overlap connections"
+            }
+        ]
+    },
+    "1.32.8": {
+        "date": "December 2015",
+        "notes": [
+            {
+                "id": "11dc258533d25760a9941515d08ee99289058ac5",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Positioning of full screen popup adapted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570862948"
+                    }
+                ]
+            },
+            {
+                "id": "f7612c4fcc31db8b1730cb2398c3a5cfde8b7e2d",
+                "author": "Bohdan Pukalskyi <bohdan.pukalskyi@sap.com>",
+                "type": "FIX",
+                "text": "sap.m.GenericTile: Decreased number of rows in title if displaying Devanagari characters adapted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580162176"
+                    }
+                ]
+            },
+            {
+                "id": "40bbd6ad3ce51fd05cc239555f4b0c67490e3cce",
+                "author": "Petr Stribrny <petr.stribrny@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.ChartContainer: JSDoc of aggregation content updated"
+            },
+            {
+                "id": "94a4ebe8e13f14fdd66164ced6d2ca31c74ca780",
+                "author": "Daniel Chang <daniel.chang@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Screen reader announcement for listbox adapted"
+            }
+        ]
+    },
+    "1.32.9": {
+        "date": "December 2015",
+        "notes": [
+            {
+                "id": "4f7ad16a0c46a5894d1fdea35daa4548bd8e6449",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: First button of segmented button is highlighted by default",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570877230"
+                    }
+                ]
+            },
+            {
+                "id": "63a98594678b457584e3e827f6c0824bca5ec5cd",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Changed chart is displayed after fullscreen mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570882547"
+                    }
+                ]
+            },
+            {
+                "id": "97090b28fecba852809f20996eacb4a6d460e043",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: customIcons removed after deletion",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570876090"
+                    }
+                ]
+            },
+            {
+                "id": "dc1c38ddcb498132a2570c3f6fe7fef45b8d12c4",
+                "author": "Bohdan Pukalskyi <bohdan.pukalskyi@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.TileContent: Reliability of tooltip handling mechanism improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0120025231 0001030175 2015"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.32.10": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "e54df353afd52640b44eba3d9f580e4b9f5b3006",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: User selection for Safari browser fixed"
+            },
+            {
+                "id": "b41e9f5020e004f6ef9bcec0d93cb004bd112c55",
+                "author": "Sylvia Strack <sylvia.strack@sap.com>",
+                "type": "FIX",
+                "text": "sap.m.NumericContent: Icon size corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670038127"
+                    }
+                ]
+            },
+            {
+                "id": "587aad4c35c8d3ea8c81cb0c06017f1b2de447d6",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.UnifiedThingInspector: Text colors for KPI tile changed to meet accessibility requirements",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670009961"
+                    }
+                ]
+            },
+            {
+                "id": "I88074e935e4399a983016af6612cd2acee9fbec5",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.VerticalNavigationBar: Screen reader support for navigation item added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570837122"
+                    }
+                ]
+            },
+            {
+                "id": "I9ee57271f7ad673b72d10eebf1009f6c830f8451",
+                "author": "Mingxin Fu <mingxin.fu@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Segmented chart buttons rendered properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670037152"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.32.11": {
+        "date": "February 2016",
+        "notes": [
+            {
+                "id": "ebb3739f53a9f2b9babaad65314aaf66bc99a084",
+                "author": "Petr Stribrny <petr.stribrny@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.FacetOverview: Focus rendering improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670011319"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.32.12": {
+        "date": "March 2016",
+        "notes": [
+            {
+                "id": "0183a953d161f37002d89e9fc7b11e7da86e9b1e",
+                "author": "Tatiana Medvedeva <tatiana.medvedeva@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.BulletChart: Actual value in tooltip added in delta mode"
+            },
+            {
+                "id": "33b1cb66c22c0246a6d7b5a5e195264a08590877",
+                "author": "Ruben Agullo Cordoba <ruben.agullo.cordoba@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Icon in ProcessFlowConnectionLabel centered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670022751"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.32.13": {
+        "date": "March 2016",
+        "notes": [
+            {
+                "id": "da5f091cb15aa81ff743366325466550c539b051",
+                "author": "Sylvia Strack <sylvia.strack@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Chart heights in full screen mode and normal mode corrected"
+            },
+            {
+                "id": "82240b2bdd755461141fbc86bff9688e2a3b2a15",
+                "author": "Tatiana Medvedeva <tatiana.medvedeva@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.HeaderContainer: Display of scrolling arrow corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670133695"
+                    }
+                ]
+            },
+            {
+                "id": "478e9e944056b891dbf16c42ac647ab6769c567f",
+                "author": "Mingxin Fu <mingxin.fu@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Scrolling support improved"
+            },
+            {
+                "id": "216343a354ed1efc1a54f5de55da7b6f089f8776",
+                "author": "Razvan Harsan <razvan.harsan@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Tab order to next or previous active element corrected"
+            }
+        ]
+    },
+    "1.32.14": {
+        "date": "March 2016",
+        "notes": [
+            {
+                "id": "cc60b55ebf3b8c2b5a97ad2e0bf113927aa4dd6b",
+                "author": "Bohdan Pukalskyi <bohdan.pukalskyi@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.HarveyBallMicroChart: Behavior improved if total scale is not provided",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670125274"
+                    }
+                ]
+            },
+            {
+                "id": "bc3421b03f4d79cd2762aead769cc0ee0a45df5f",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: User selection across all browsers fixed"
+            },
+            {
+                "id": "ce9621ed06f06bbca5c108e5be26d70d129b7817",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Text selection property for all browsers fixed"
+            },
+            {
+                "id": "a3a0b1cc68e37f8eb8c3999a7d52584c00778a95",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Correct button is selected via switchChart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670195643"
+                    }
+                ]
+            },
+            {
+                "id": "8db6e706a0b6cc1a5b76b603b6bfd6a39db44e79",
+                "author": "Mingxin Fu <mingxin.fu@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.GenericTile: Accessibility for screen reader improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580245957"
+                    }
+                ]
+            }
+        ]
+    }
+}

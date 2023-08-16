@@ -1,0 +1,111 @@
+{
+    "1.70.0": {
+        "date": "August 2019",
+        "notes": [
+            {
+                "id": "ba48569ef6fc7562652079fc3508ff70ac5fc2c8",
+                "type": "FIX",
+                "text": "Controller: improve event handling after close",
+                "references": []
+            },
+            {
+                "id": "891038023e85a3add6e5af05c01f1ce398cd4cc3",
+                "type": "FEATURE",
+                "text": "SmartTable: InfoToolbar option for table filters introduced",
+                "references": []
+            },
+            {
+                "id": "9d1167548d8803db5c6bc808d4e1958844012e8c",
+                "type": "FIX",
+                "text": "BaseValueListProvider: support for Edm.DateTime IN-parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970211944"
+                    }
+                ]
+            },
+            {
+                "id": "201856503687869d1160e76000766ee32ae3d9e0",
+                "type": "FIX",
+                "text": "SmartField: .checkValuesValidity() method handles success cases",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970372606"
+                    }
+                ]
+            },
+            {
+                "id": "bd40d3893327e2d63c4bb6cd2d551ba52d20e76b",
+                "type": "FIX",
+                "text": "SmartTable: Usage of type for editable date fields corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970338029"
+                    }
+                ]
+            },
+            {
+                "id": "31571ce7afe0b79f9e2e30eba0dfcf006288fb4f",
+                "type": "FEATURE",
+                "text": " FilterBar: Empty for string fields now handles \"null\" values",
+                "references": []
+            },
+            {
+                "id": "ec4f6f294385452a315183bfea099fe3deb896fd",
+                "type": "FIX",
+                "text": " SmartFieldTypes.opa.qunit.js: Time zones no longer break Opa tests",
+                "references": []
+            },
+            {
+                "id": "ab5e7e3129dce57618d2aedcddd14fb953cf7d20",
+                "type": "FIX",
+                "text": " SmartTable: Error in exclude filtering from Personalization Dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980318719"
+                    }
+                ]
+            },
+            {
+                "id": "8f1c062a0914af852c0dc49cf906b2231cd3a7e9",
+                "type": "FEATURE",
+                "text": " SmartVariantManagement: consider the change creation system",
+                "references": []
+            },
+            {
+                "id": "a579a8e0a92b5bc922bf8499f47951f385ccd250",
+                "type": "FIX",
+                "text": " FilterBar: changing behavior when cloning VariantManagement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980333887"
+                    }
+                ]
+            },
+            {
+                "id": "cc34ca2aae88dc57a784bb7cd7978007f8208b40",
+                "type": "FIX",
+                "text": " FilterProvider: check non-analytical parameters for custom field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "348458"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "435636"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "499540"
+                    }
+                ]
+            }
+        ]
+    }
+}

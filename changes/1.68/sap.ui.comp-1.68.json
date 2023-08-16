@@ -1,0 +1,276 @@
+{
+    "1.68.0": {
+        "date": "June 2019",
+        "notes": [
+            {
+                "id": "9a56a50ff4b0b3dba0be70b55a55eebcfd384d0c",
+                "type": "FIX",
+                "text": "FilterProvider: correction for numeric interval filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970218444"
+                    }
+                ]
+            },
+            {
+                "id": "fb45c8ee6c3ed120531e1df62e0923ef6c81dc66",
+                "type": "FIX",
+                "text": "SmartChart: Check for existing dim or measure before assigning sorters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980302126"
+                    }
+                ]
+            },
+            {
+                "id": "77cc72dfc96c77514ec52f917d22a482a824febb",
+                "type": "FIX",
+                "text": "smartfield/FieldControl: Editable state issue fixed when the binding context is unknown",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970202197"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1980256679"
+                    }
+                ]
+            },
+            {
+                "id": "c49614c43cf36b372d51a8ae208df48e34f4796c",
+                "type": "FEATURE",
+                "text": "VariantManagement: support asynch fetchVariant calls",
+                "references": []
+            },
+            {
+                "id": "1bbfb82701b7d2c9313b50c5bde0afb9b90c356a",
+                "type": "FIX",
+                "text": "SmartField: Time formatting issue fixed (@Common.Text and @Common.SemanticObject annotations combined)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970236005"
+                    }
+                ]
+            },
+            {
+                "id": "de0412b6173b80482e8b3636164d482c468c2c03",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartfilterbar.SmartFilterBar: add meaningful error  messages for date fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000370482019"
+                    }
+                ]
+            },
+            {
+                "id": "691b3fb3564814a0a538afe151388affd5a8a440",
+                "type": "FIX",
+                "text": "smartMultiEdit: fix test case",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970221613"
+                    }
+                ]
+            },
+            {
+                "id": "d21f91e7704a8c28e65c324462b2fb660618977d",
+                "type": "FIX",
+                "text": "smartMultiEdti: do not truncate leading zeros in string type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970225226"
+                    }
+                ]
+            },
+            {
+                "id": "3aa45df605301fddf42705888c81c8e285bb1c71",
+                "type": "FIX",
+                "text": "DateRangeType: correct padding of From/To labels",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970221078"
+                    }
+                ]
+            },
+            {
+                "id": "88f156b77d8d63036f1d3cf199ff996db37cf649",
+                "type": "FIX",
+                "text": "FilterProvider: consider boolean false filters as assigned values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970196712"
+                    }
+                ]
+            },
+            {
+                "id": "0c439dfd1d023d8157d4a1f80ac735cf04fc3c7d",
+                "type": "FIX",
+                "text": "FilterProvider: correction for regression",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970263453"
+                    }
+                ]
+            },
+            {
+                "id": "82464944581d99749df84d73dc3617451ed01f53",
+                "type": "FIX",
+                "text": "SmartFilterBar: custom checkbox control stop trigger search on 'Enter' keyup",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870454033"
+                    }
+                ]
+            },
+            {
+                "id": "358e91a57c6bdca8360973d389a5d609b48751a2",
+                "type": "FIX",
+                "text": "SmartTable: width of unit in Currency/UoM fields updated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980282461"
+                    }
+                ]
+            },
+            {
+                "id": "fae74095a0b7a4440bb3241945f4b82761317b67",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartfilterbar.SmartFilterBar: does not throw an exception if token text is not escaped",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970202639"
+                    }
+                ]
+            },
+            {
+                "id": "57fed837b0570c7259de9e6c1b49a602e098936a",
+                "type": "FIX",
+                "text": "smartfield/ODataTypes: Formatting issue of JPY currencies fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980097317"
+                    }
+                ]
+            },
+            {
+                "id": "e4758b8350c5b11de74d119d21937ff066833d17",
+                "type": "FIX",
+                "text": "FilterBar: clear __bValidatingToken flag when 'Cancel' is pressed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980286718"
+                    }
+                ]
+            },
+            {
+                "id": "3aa1ca96ce793926a3aa4d353e1d531515a5b39d",
+                "type": "FIX",
+                "text": "FilterBar: escape stable IDs for select filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970282035"
+                    }
+                ]
+            },
+            {
+                "id": "d6471ba0d980165f567d110278814d292ecd9eab",
+                "type": "FIX",
+                "text": "FilterBar: generate select filters items with stable IDs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970222559"
+                    }
+                ]
+            },
+            {
+                "id": "9a606f671045d37e6032852297dc18370b50f6ff",
+                "type": "FIX",
+                "text": "SmartChart: Change point in time for adjusting height",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970254550"
+                    }
+                ]
+            },
+            {
+                "id": "ec692577e759a29aacaad16681fa1be6a906d0e0",
+                "type": "FIX",
+                "text": "SmartFilterBar: Restore variant when 'Cancel' in AdaptFilters Dialog is pressed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970281577"
+                    }
+                ]
+            },
+            {
+                "id": "0430897ee8fbb79a6cea96ed31ebe2a80d929438",
+                "type": "FIX",
+                "text": "SmartLink: Assertion error on composite binding of link",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980245820"
+                    }
+                ]
+            },
+            {
+                "id": "e4cfbd25cd4c685862e652587db6ed88cb00d41f",
+                "type": "FIX",
+                "text": "SmartVariantManagement: correction obtaining standard content",
+                "references": []
+            },
+            {
+                "id": "ed0d64a9c706a907a0d96a18ba78e466535e0756",
+                "type": "FIX",
+                "text": "VariantManagement: hyphenate the columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980206226"
+                    }
+                ]
+            },
+            {
+                "id": "aaaf6d5c4d8686dd78774d8c86db1f5ecf178a0c",
+                "type": "FIX",
+                "text": "smartfield/ODataHelper: Runtime exception fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970263633"
+                    }
+                ]
+            },
+            {
+                "id": "493fb9aefbe7dc28ecf5cfca88bb8179cfc81baf",
+                "type": "FIX",
+                "text": "smartmultiedit: fix currency field validation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970264804"
+                    }
+                ]
+            }
+        ]
+    }
+}

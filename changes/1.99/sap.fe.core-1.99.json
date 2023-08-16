@@ -1,0 +1,512 @@
+{
+    "1.99.0": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "76c4243f3869403b45ea8ec9b212fe387c8f17be",
+                "type": "FEATURE",
+                "text": " We have made further improvements to the handling of errors of type 503"
+            },
+            {
+                "id": "1be7c895f6644c2d24eafcec50f18221155f3a00",
+                "type": "FEATURE",
+                "text": " You can now display MultiValueField in Tables for a DataField that uses a 1:n navigation in the value path"
+            },
+            {
+                "id": "28c75a5c1d84c7f47ae9f4b6908c5d17cb371716",
+                "type": "FEATURE",
+                "text": " The 'Field' building block now also supports the length definition for MultiLine text fields"
+            },
+            {
+                "id": "f6bcb5f79ce5daf4b9654785e560b1d9564e1253",
+                "type": "FEATURE",
+                "text": " Semantic dates now use the dynamic date range control for the SingleValue"
+            },
+            {
+                "id": "3fa01973aea3ad5bd46a1be16102986cbb7806c7",
+                "type": "FIX",
+                "text": " The column width is now correctly set for columns containing static unit or currency",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280025741"
+                    }
+                ]
+            },
+            {
+                "id": "ec89b9fd732309d78bf0a63be61df0940db2cff2",
+                "type": "FEATURE",
+                "text": " We have added a getSelectedContexts method and a selectionChange event to the table building block"
+            },
+            {
+                "id": "c4ebf38c75cb9e984a4500672349d7e036c0a34a",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the avatar based on the HeaderInfo",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280031580"
+                    }
+                ]
+            },
+            {
+                "id": "7601e161178fe51eb0cf27bf54bb99074f17eea8",
+                "type": "FIX",
+                "text": " We have removed the duplicate 503 error message for the patch service",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170327750"
+                    }
+                ]
+            },
+            {
+                "id": "48e445370966787548da4aa0388656909b60fec1",
+                "type": "FIX",
+                "text": " After scrolling through a table, the message indicator is now set on the row containing the error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280022816"
+                    }
+                ]
+            },
+            {
+                "id": "effac84b2d08e289257ae494126faa066b439130",
+                "type": "FIX",
+                "text": " The Draft Confirmation popover is no longer displayed when navigating back from a custom subobject page based on the component sap.fe.core.fpm",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180407074"
+                    }
+                ]
+            },
+            {
+                "id": "86d32cec4b45e39ee210c6ae5d47663845a07af1",
+                "type": "FEATURE",
+                "text": " You can now use the search field in charts in the list report and analytical list page"
+            },
+            {
+                "id": "eb49b5defe50692b903ea092e75b62a1693343f3",
+                "type": "FIX",
+                "text": " The documentation for custom hooks has been updated"
+            },
+            {
+                "id": "175fb6a6ddc3054c63de1872f61419751e915e97",
+                "type": "FIX",
+                "text": " Highlighting line items based on their criticality now also works correctly for newly created rows",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180433207"
+                    }
+                ]
+            },
+            {
+                "id": "0e20b489c4ac0fb61e19326b8ea172fb86a5fc01",
+                "type": "FIX",
+                "text": " The delete message is now updated correctly also if no description is provided for the HeaderInfo",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280005331"
+                    }
+                ]
+            },
+            {
+                "id": "6c6c4568a8e92c41c1300389ee7541c7534f3a28",
+                "type": "FIX",
+                "text": " The Draft Confirmation popover is no longer displayed when navigating back from a custom object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180407074"
+                    }
+                ]
+            },
+            {
+                "id": "5cee6bd5a8254f02a5e05a476787ced319def6be",
+                "type": "FIX",
+                "text": " The amount fields are now correctly aligned within the pop-in of the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180397155"
+                    }
+                ]
+            },
+            {
+                "id": "c285727469d8855b994dce71541e9d74d7320351",
+                "type": "FIX",
+                "text": " The correct error message is now displayed for ETag-related errors",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180415634"
+                    }
+                ]
+            },
+            {
+                "id": "149e3fc5f2131ea933a1a223aacaceefd7aad450",
+                "type": "FEATURE",
+                "text": " The EditFlow API is now publicly available and the experimental status is removed"
+            },
+            {
+                "id": "490f2f0c1e505f93a49bddfcb6719987488697e2",
+                "type": "FEATURE",
+                "text": " The building block for the filter bar now provides custom filters"
+            },
+            {
+                "id": "be60fcfbf3e9ac6157e7671939ff564e24abcd21",
+                "type": "FEATURE",
+                "text": " Semantic dates now use the dynamic date range control"
+            },
+            {
+                "id": "d95e0a218fb2b7c4c1525c3544d4454ad541791b",
+                "type": "FIX",
+                "text": " The progress bar now shows the correct value for the currency, even if it is hard coded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170237164"
+                    }
+                ]
+            },
+            {
+                "id": "b158f1fa896b996a89e61aef58346df2ef5cb545",
+                "type": "FEATURE",
+                "text": " Applications can now use the Mass Edit feature in list reports"
+            },
+            {
+                "id": "6514158945ff77cf57c8d03758727145b25865ea",
+                "type": "FIX",
+                "text": " SideEffects for actions now request the correct path expressions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170332124"
+                    }
+                ]
+            },
+            {
+                "id": "44890af40e39897fae19b862a4adf7a747410d2c",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now provides hooks for your custom code before standard actions are executed"
+            },
+            {
+                "id": "16a787dceaa6b9c806dd11f07f26c2714a1667c8",
+                "type": "FIX",
+                "text": " The issue related to malformed queries on subobject pages has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180402182"
+                    }
+                ]
+            },
+            {
+                "id": "8d19b0ac0984c96fe64ff5dbed49e8f4baa3e68d",
+                "type": "FIX",
+                "text": " sap.ui.Integration files are now loaded only when necessary",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180391454"
+                    }
+                ]
+            },
+            {
+                "id": "60700b5920d48582e43c3ee907792ca9bb57fe32",
+                "type": "FIX",
+                "text": " The shared email link for cFLP apps is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170230319"
+                    }
+                ]
+            },
+            {
+                "id": "521ca5261e77d5795602355c2d914f85b8c5f148",
+                "type": "FIX",
+                "text": " The issues relating to the 'Share' button have been resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170267078"
+                    }
+                ]
+            },
+            {
+                "id": "6fc09bea7bd7079a505accb939e47542f66458ad",
+                "type": "FIX",
+                "text": " Evaluate enabled properties from the manifest for menu actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180418123"
+                    }
+                ]
+            },
+            {
+                "id": "45e6dd9a2e19d35dd9f1ee0337551c58646df72a",
+                "type": "FIX",
+                "text": " Progress bar graphical display is now correct when displayed value switches to zero",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180402161"
+                    }
+                ]
+            },
+            {
+                "id": "5728c21024a198d122c2f0fa5c8dfce0eeecd9de",
+                "type": "FIX",
+                "text": " The delete button is now visible in List Report Table for non-draft applications if the bound entity is deletable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180415519"
+                    }
+                ]
+            },
+            {
+                "id": "5b8c1469acab1cc98e70c59cb9cc6aa5a59419ca",
+                "type": "FIX",
+                "text": " A wrong annotation column key referenced in the manifest no longer prevents the application from starting",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180406547"
+                    }
+                ]
+            },
+            {
+                "id": "e8e70fa1a51548babb6e3d07a18d6ac812c50464",
+                "type": "FIX",
+                "text": " SAP Fiori elements now properly supports SelectionPresentationVariant with multiple Ranges",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180415475"
+                    }
+                ]
+            },
+            {
+                "id": "a41d066615069075689807a9098d92cb65825690",
+                "type": "FIX",
+                "text": " You can now correctly set the visibility for subsection titles",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180408045"
+                    }
+                ]
+            },
+            {
+                "id": "10aa545d19a4b1b8258c1b8006b8d639660ff52b",
+                "type": "FEATURE",
+                "text": " Column width calculation in tables has been disabled on phone"
+            },
+            {
+                "id": "835a0888f46e6d889b5013606e7c51ddd1f1f4a2",
+                "type": "FEATURE",
+                "text": " The button to enable fullscreen mode for a table is now available by default on mobile devices"
+            },
+            {
+                "id": "e7d0738e032786a03ac1d096b05dafae4a412c98",
+                "type": "FIX",
+                "text": " Facet hidden annotation are now set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170316605"
+                    }
+                ]
+            },
+            {
+                "id": "fca0dba1af3dd786fa1b35f55cf829eb269f8d71",
+                "type": "FIX",
+                "text": " The display of semantic links is now set correctly in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180402805"
+                    }
+                ]
+            },
+            {
+                "id": "110e34e93df15ae151b97f2c1056065e095dcdac",
+                "type": "FIX",
+                "text": " The support of dynamic expressions in facets is set now correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170282639"
+                    }
+                ]
+            },
+            {
+                "id": "ac6c9ff21f4ec50b3d560e0cbdb492c90167745b",
+                "type": "FEATURE",
+                "text": " The list report now stores/restores the table personalization into the iAppState"
+            },
+            {
+                "id": "6dee94892af1174e0249a6cd64d1c566547c7746",
+                "type": "FEATURE",
+                "text": " The building block for the filter bar now provides default filter values"
+            },
+            {
+                "id": "cf0c4356aab04cdcaf5f0edc58c00dc9d6b19247",
+                "type": "FIX",
+                "text": " Based on the settings you make in the SAP Fiori launchpad, external navigation now opens in a new tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007350822021"
+                    }
+                ]
+            },
+            {
+                "id": "db014b00f0c174862cbcc9548156b15ef42f9620",
+                "type": "FIX",
+                "text": " The issue related to the duplication of a newly created item in flexible column mode has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170219776"
+                    }
+                ]
+            },
+            {
+                "id": "777ccf9a442fffed954d97ad6907538592c5d289",
+                "type": "FIX",
+                "text": " A SideEffect is now requested only if really required"
+            },
+            {
+                "id": "bad3ff5fe8dc01e3f61bc344cf4559990560f918",
+                "type": "FIX",
+                "text": " Column tooltips are now correctly displayed in the 'Settings' dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170309258"
+                    }
+                ]
+            },
+            {
+                "id": "9bf9d4990429d5f993b75648579886061b164826",
+                "type": "FIX",
+                "text": " Further improvements were made for action dialogs using the preferredMode create/createWith parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170326311"
+                    }
+                ]
+            },
+            {
+                "id": "be1117510cd4ee273eb2f9579a459463180df829",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now enables you to navigate to a different internal target"
+            },
+            {
+                "id": "2735847eb6956bdeb5e76120f5200c355f4de6c1",
+                "type": "FIX",
+                "text": " The missing key 'Warning' has been added to the messageBundle.properties file to enable translation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170314917"
+                    }
+                ]
+            },
+            {
+                "id": "1e23ffd7112095886bcf239058e1e9543907b28f",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the MultiValueField when using a DataField that has a 1:1 with a 1:n navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170248261"
+                    }
+                ]
+            },
+            {
+                "id": "ce2c9f1e3be676a8083d3823bee8d43dbf1d3139",
+                "type": "FIX",
+                "text": " Columns now support the property type 'binary'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180381903"
+                    }
+                ]
+            },
+            {
+                "id": "5f9ad0add514a92470be64bd6ac4c854caa48b91",
+                "type": "FIX",
+                "text": " Applications can now define an individual title for action dialogs using the preferredMode create/createWith parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170326311"
+                    }
+                ]
+            },
+            {
+                "id": "cea6e821da62fffded3800767bb2426735d164be",
+                "type": "FEATURE",
+                "text": " In the list report, the search field is now also available when you use an analytical table"
+            },
+            {
+                "id": "9ed0eb754813331ba4025013771eca29d3145363",
+                "type": "FIX",
+                "text": " Within a table, the label of a field is now properly aligned with its value"
+            },
+            {
+                "id": "19690c83b199a0cfc7ab38295100a4642b066ff6",
+                "type": "FEATURE",
+                "text": " Side effects are now available for Edm.Stream properties"
+            },
+            {
+                "id": "091959bf20a06ec10387683f6c253cd0b3374896",
+                "type": "FIX",
+                "text": " Dynamic expression now correctly respect operator precedence"
+            },
+            {
+                "id": "5cebd3888dd18df96ee7f299d95a07500594af17",
+                "type": "FIX",
+                "text": " The unit of measure is now correctly displayed in the progress bar"
+            },
+            {
+                "id": "2d72cf999be1c361a8072b9e42b8e7bd660f0a78",
+                "type": "FEATURE",
+                "text": " Navigation to an app by clicking on the header of a KPI card is now supported"
+            },
+            {
+                "id": "279c23061aaa126378e4998cf4935071bef52dfa",
+                "type": "FIX",
+                "text": " The Create Button on the List Report table is now visible if insertion is switched off and external creation is maintained",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170323614"
+                    }
+                ]
+            },
+            {
+                "id": "9d0f27019e9b5ce00ad91dcace905826acc44981",
+                "type": "FIX",
+                "text": " When you discard a newly created draft in a list report, the navigation now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170246068"
+                    }
+                ]
+            }
+        ]
+    }
+}

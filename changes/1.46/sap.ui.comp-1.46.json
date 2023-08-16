@@ -1,0 +1,686 @@
+{
+    "1.46.0": {
+        "date": "January 2017",
+        "notes": [
+            {
+                "id": "4a60c209179fc6862a8b4d27d6bb6403105c5635",
+                "type": "FEATURE",
+                "text": "FilterBar: enhancements to the explored sample",
+                "references": []
+            },
+            {
+                "id": "9c814fd31278ee4fa3d5227fda69dc80b9d88e65",
+                "type": "FEATURE",
+                "text": "FilterBar: remove trailing colons",
+                "references": []
+            },
+            {
+                "id": "96cee2eea3ca674c48954693313d42a2e0fd641b",
+                "type": "FEATURE",
+                "text": "SmartChart, SmartTable: introduced fullScreenToggled event",
+                "references": []
+            },
+            {
+                "id": "b2045cb1a11bd2f06a721f145a18ebc36d1038cc",
+                "type": "FEATURE",
+                "text": "SmartChart: New property noData",
+                "references": []
+            },
+            {
+                "id": "4b948b96d2ebea40d70989d6c980d8613012b870",
+                "type": "FEATURE",
+                "text": "SmartField: Support DateTimePicker for Edm.DateTime",
+                "references": []
+            },
+            {
+                "id": "dee71b6de5b5d6e685e9008f6ceb06db350f1db6",
+                "type": "FEATURE",
+                "text": "SmartField: Support FieldControl control state hidden if  used in SmartTable control",
+                "references": []
+            },
+            {
+                "id": "ba913815420b08c05a688b0350b288ce3fc69cdb",
+                "type": "FEATURE",
+                "text": "SmartField: e-mail, phone number and URL annotations now supported",
+                "references": []
+            },
+            {
+                "id": "92ef2e42785de56afe6ff3327f25ff37a1c98dce",
+                "type": "FEATURE",
+                "text": "SmartField: support for ValueListWithFixedValues annotations",
+                "references": []
+            },
+            {
+                "id": "1f8f95c1b48129b0757acbb566b45a9de4e5bab2",
+                "type": "FEATURE",
+                "text": "SmartFilterBar:  create DateRangeTypes for DateRangeSelection controls",
+                "references": []
+            },
+            {
+                "id": "f8914024340eecafb72d3c9579da2be323703b15",
+                "type": "FEATURE",
+                "text": "SmartFilterBar: enable default values for Date/Time filters via the configuration",
+                "references": []
+            },
+            {
+                "id": "92f24e000a8474768965895a02f8c8bb79a7de8f",
+                "type": "FEATURE",
+                "text": "SmartFilterBar: provide verification APIs",
+                "references": []
+            },
+            {
+                "id": "a0ba38b70f7a11640008cebc015e2f3f530fe261",
+                "type": "FEATURE",
+                "text": "SmartVariantManagement: routes the select event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680266404"
+                    }
+                ]
+            },
+            {
+                "id": "0fdcb909a78dcdbd04dd7edf0458d04cb61b2ccb",
+                "type": "FEATURE",
+                "text": "VariantManagement: only relevant columns will be shown in manage dialog",
+                "references": []
+            },
+            {
+                "id": "b8d52abf4cb0abb04ee92fda32c2b1562d654267",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartfield.SmartField: support for ABAP NUMC types",
+                "references": []
+            },
+            {
+                "id": "6dcd7b282333e9def7772594c4d7ed0be770404e",
+                "type": "FIX",
+                "text": "ControlProvider: consider parent path if field control is defined in an association",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680290883"
+                    }
+                ]
+            },
+            {
+                "id": "aa8e043f90096c2210e529297339ac6f66b1c61b",
+                "type": "FIX",
+                "text": "Enable unit tests again",
+                "references": []
+            },
+            {
+                "id": "8afcb5d5dc083b31fd956aab36b29ce907c926b3",
+                "type": "FIX",
+                "text": "FilterBar: OPA test correction",
+                "references": []
+            },
+            {
+                "id": "d7c7681c2344d0ef77aee0f465ce90e485befb81",
+                "type": "FIX",
+                "text": "FilterBar: adding null check during the restore handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680345126"
+                    }
+                ]
+            },
+            {
+                "id": "df4df73d75d2942e8c055f2ce0c5529b273196f7",
+                "type": "FIX",
+                "text": "FilterBar: better responsive behavior on desktop with toolbar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670562317"
+                    }
+                ]
+            },
+            {
+                "id": "9a19667cfe4a47063de83d5e3b23fc688cf544ba",
+                "type": "FIX",
+                "text": "FilterBar: check for mandatory before leaving filters dialog with 'Go'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780030173"
+                    }
+                ]
+            },
+            {
+                "id": "a76453fd0edb6f7e84bc4dc0a13b32990569ac37",
+                "type": "FIX",
+                "text": "FilterBar: consider delay creation of VariantManagement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670493268"
+                    }
+                ]
+            },
+            {
+                "id": "300f58e25cf586707a0614c8bbfa35d7f7b717fd",
+                "type": "FIX",
+                "text": "FilterBar: consider hidden filters when calling getAllFilterItems",
+                "references": []
+            },
+            {
+                "id": "fbd65b300048ef446abb4a0344a899b8d27e1f0c",
+                "type": "FIX",
+                "text": "FilterBar: consider hiddenFilter annotation also for value help",
+                "references": []
+            },
+            {
+                "id": "8ab2c4b78528cbbda55284754c8275093959361b",
+                "type": "FIX",
+                "text": "FilterBar: consider mandatory parameter when checking for filters dialog close",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780030173"
+                    }
+                ]
+            },
+            {
+                "id": "eb50452fe85f844c36caf6b5a82a753e0b1ee72e",
+                "type": "FIX",
+                "text": "FilterBar: enable Restore, whenever a filter was changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780022460"
+                    }
+                ]
+            },
+            {
+                "id": "3a8f08e3aa5435a607bb39484e81ab74382d23dd",
+                "type": "FIX",
+                "text": "FilterBar: filters dialog close on Go",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780030173"
+                    }
+                ]
+            },
+            {
+                "id": "31ae8b373b206a5bf7937e7b30934a5d2e199811",
+                "type": "FIX",
+                "text": "FilterBar: fix for reset behavior, when no perso key is set",
+                "references": []
+            },
+            {
+                "id": "01c654d2e7c6dfd913ed6927007513ee79d3e279",
+                "type": "FIX",
+                "text": "FilterBar: ignore hidden filters, when returning all filters",
+                "references": []
+            },
+            {
+                "id": "91e014f678053f7bff4b5298fda5840fccf523d9",
+                "type": "FIX",
+                "text": "FilterBar: in case of usage as SmartFilterBar ignore the group name check",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680256463"
+                    }
+                ]
+            },
+            {
+                "id": "b71afa8f818699e24a3434d6e624a8d376b1b2df",
+                "type": "FIX",
+                "text": "FilterBar: recalculate filter width for the new design",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670540667"
+                    }
+                ]
+            },
+            {
+                "id": "0a15ceec3356dd248644de55b3d05d37df93cc16",
+                "type": "FIX",
+                "text": "FilterBar: remove always erroneous value after cancel",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680293869"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1680293412"
+                    }
+                ]
+            },
+            {
+                "id": "fc7d608355f204e62fe14024734b39ade69af3a1",
+                "type": "FIX",
+                "text": "FilterBar: remove duplicate aria-labelledby entries in filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670520495"
+                    }
+                ]
+            },
+            {
+                "id": "5c0100d96745c70364876a3e4a68d4b3a322e411",
+                "type": "FIX",
+                "text": "FilterBar: set focus while executing the filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670513282"
+                    }
+                ]
+            },
+            {
+                "id": "df56fcec868f4e9944383392531c965a6c77febc",
+                "type": "FIX",
+                "text": "FilterProvider: adapt to change in sap.m.Tokenizer",
+                "references": []
+            },
+            {
+                "id": "f7b0077c2e303dadbdc4e42b78307ad764d25159",
+                "type": "FIX",
+                "text": "Fix bug in SplitField when control has alternative id",
+                "references": []
+            },
+            {
+                "id": "1ea0b858f6e394eca155459884b90fa6ca806567",
+                "type": "FIX",
+                "text": "FullScreenUtil: Fix when pressing ESC the control disappeared",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670531651"
+                    }
+                ]
+            },
+            {
+                "id": "e1d47628c8ea04e547a942da9d0c9832bc19ee77",
+                "type": "FIX",
+                "text": "RTA triggered from Dialog can't be closed in FLP",
+                "references": []
+            },
+            {
+                "id": "17f2868d7d86b1e5c64bec86b4c16bcf574ca604",
+                "type": "FIX",
+                "text": "RTA: Split duplicate id issue",
+                "references": []
+            },
+            {
+                "id": "2f1bbef1330fa935141ea1eed8cea110e73bc5c4",
+                "type": "FIX",
+                "text": "Revise change handler for Combine/Split",
+                "references": []
+            },
+            {
+                "id": "638fb31307e506d5c000be0fcf21e52c439508d4",
+                "type": "FIX",
+                "text": "Set \"editable\" statically to false for smartfield.DisplayComboBox",
+                "references": []
+            },
+            {
+                "id": "c9d6d71ad91ce24415ff314c9684ff48a9feda82",
+                "type": "FIX",
+                "text": "SmartField - UOM alignment issue in SmartForm solved",
+                "references": []
+            },
+            {
+                "id": "ee56b2fd1c5c2f4569ddf5517517f2ef0baea6d2",
+                "type": "FIX",
+                "text": "SmartField: Read-only ComboBox tooltip issue solved",
+                "references": []
+            },
+            {
+                "id": "54122df869de3f5bb5af03242aade44a93c4cda9",
+                "type": "FIX",
+                "text": "SmartField: Unit of measure is now returned correctly if unit is read-only",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680271011"
+                    }
+                ]
+            },
+            {
+                "id": "958b35808c6e8696c1ec420a43a9788015be804a",
+                "type": "FIX",
+                "text": "SmartField: fix exception when the value of the wrapping property is propagated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780008081"
+                    }
+                ]
+            },
+            {
+                "id": "1f4cc88717847a7f2f9104e9c35480743d3d7a93",
+                "type": "FIX",
+                "text": "SmartField: fix vertical alignment issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780037689"
+                    }
+                ]
+            },
+            {
+                "id": "0d1daed405887ca73aa68f90e496b57164dcf4d9",
+                "type": "FIX",
+                "text": "SmartField: propagate the value of the wrapping property to the inner control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680344532"
+                    }
+                ]
+            },
+            {
+                "id": "f46a27f1f99c5f6949481e0308a5430ea0ae63ec",
+                "type": "FIX",
+                "text": "SmartField: sap:updatable-path annotation is now ignored during creation of new object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680255610"
+                    }
+                ]
+            },
+            {
+                "id": "24f6a50bbfb2bed7924835e3ce6e05d778b3bfb7",
+                "type": "FIX",
+                "text": "SmartField: sap:updatable-path annotation is now ignored during creation of new object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680255610"
+                    }
+                ]
+            },
+            {
+                "id": "7bf2005932b71bcf7e137d8fd383294339eddeb6",
+                "type": "FIX",
+                "text": "SmartField: sets the width of the multi line text to \"100%\" in the table context",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680145413"
+                    }
+                ]
+            },
+            {
+                "id": "6de8c7d226e014c777fa9a975e079930438ce37a",
+                "type": "FIX",
+                "text": "SmartFilterBar: correction for parameters of datetime types",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680297269"
+                    }
+                ]
+            },
+            {
+                "id": "66bec4db051b973001445bd56ed63d2bfc051441",
+                "type": "FIX",
+                "text": "SmartFilterBar: correction for the ClearErroneusControlValues",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780022538"
+                    }
+                ]
+            },
+            {
+                "id": "83ab872ada5673a3605510bfee9f752ed9198a9a",
+                "type": "FIX",
+                "text": "SmartFilterBar: ignore non visible analytical parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680298351"
+                    }
+                ]
+            },
+            {
+                "id": "99c1fcb0f714d4dd4c2f6f60e1c08b46a8a76d05",
+                "type": "FIX",
+                "text": "SmartForm/GroupElement: Empty label string issue solved",
+                "references": []
+            },
+            {
+                "id": "c95c1dbc0eb459f96975ed1ad820619628bac2d3",
+                "type": "FIX",
+                "text": "SmartForm: GroupElement label is now being destroyed when all elements are removed",
+                "references": []
+            },
+            {
+                "id": "50442d47655b7d00e5081631a42d7c516ab62ede",
+                "type": "FIX",
+                "text": "SmartForm: Issue with setting label to empty string solved",
+                "references": []
+            },
+            {
+                "id": "bc8ab6e0a8144320ad361c9b79b9a4046ec7e193",
+                "type": "FIX",
+                "text": "SmartForm: Layout data issue if useHorizontalLayout solved",
+                "references": []
+            },
+            {
+                "id": "60880b1da72a8da574c1819fbdec1fd1a76c897b",
+                "type": "FIX",
+                "text": "SmartLabel: aria-labelledby issue for complex SmartFields solved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670532656"
+                    }
+                ]
+            },
+            {
+                "id": "5acf2964d3d9c66c0d6cac8530841323f6b24136",
+                "type": "FIX",
+                "text": "SmartTable: busyIndicator and personalisation handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670249470"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1680268232"
+                    }
+                ]
+            },
+            {
+                "id": "dc7570d70cf46ad4c1ff7a1216ec428d65ac4fd2",
+                "type": "FIX",
+                "text": "SmartTable: consider requestAtLeastFields even if they're hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670346677"
+                    }
+                ]
+            },
+            {
+                "id": "2c13003a24955197443698e3e5546633a649db49",
+                "type": "FIX",
+                "text": "SmartTable: redo bindArrgregation when a column is made visible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670487035"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670424907"
+                    }
+                ]
+            },
+            {
+                "id": "cd4bc8de3995689965df75d0171efa3d29a95b1b",
+                "type": "FIX",
+                "text": "SmartVariantManagement: resetting internal variable when removeAllPersonalizableControls is executed.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780035442"
+                    }
+                ]
+            },
+            {
+                "id": "983d4b775fddf0de795930121a306bd144c6ccfd",
+                "type": "FIX",
+                "text": "ValueHelpProvider: fix for supportMultiSelect  assignment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670487235"
+                    }
+                ]
+            },
+            {
+                "id": "9d4920530cb69e4288f053a95b1641bb3ffd27d7",
+                "type": "FIX",
+                "text": "VariantConvertTo: correction for numeric value in data suite format",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670505784"
+                    }
+                ]
+            },
+            {
+                "id": "761445649d779f58990f6e29c9f0f8c2b4a98c17",
+                "type": "FIX",
+                "text": "VariantManagement: better error message when empty name entered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680249801"
+                    }
+                ]
+            },
+            {
+                "id": "e3f54b1c47ab19229a9032d8263cf09440c2a32e",
+                "type": "FIX",
+                "text": "VariantManagement: remove unneeded checks",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680289259"
+                    }
+                ]
+            },
+            {
+                "id": "efb97fc9043a76846c2dd31d07a118e3874fa310",
+                "type": "FIX",
+                "text": "execute destroy of inner models for VariantManagement. FilterBar and FilterProvider.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670536000"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670536501"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670536502"
+                    }
+                ]
+            },
+            {
+                "id": "70a73956174e0586652285d6361a187b5db54ed6",
+                "type": "FIX",
+                "text": "fix 2 minor bugs",
+                "references": []
+            },
+            {
+                "id": "28a8b6055c64219ea85a03df44785446a299b685",
+                "type": "FIX",
+                "text": "sap.ui.comp.config.condition.DateRangeType: always invalid",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680367775"
+                    }
+                ]
+            },
+            {
+                "id": "106dd57600df8d9b812125de4fb6f1ddad21cdb9",
+                "type": "FIX",
+                "text": "sap.ui.comp.odata.MetadataAnalyser: check for UI.IsImageURL",
+                "references": []
+            },
+            {
+                "id": "0b68de106230f7df806dfc6802c9951bcf59c60e",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartchart.SmartChart: Remove unnecessary fn call",
+                "references": []
+            },
+            {
+                "id": "04f424de09336118ca8005fb15be2a39e3cf549c",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartfield.SmartField: calling .destroy() should not throw an error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670517125"
+                    }
+                ]
+            },
+            {
+                "id": "bd5c3dd8e29b0252708d208fc50c1319c4f16b37",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmicrochart.SmartMicroChart: Explored example description corrected",
+                "references": []
+            },
+            {
+                "id": "6952efe644f51698e9835845f1e4558664fb732f",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmicrochart.SmartMicroChart: Usages of ResourceModel for associated labels corrected",
+                "references": []
+            },
+            {
+                "id": "c15d159845ec079d18f7236471d773dcdf7e9e1b",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmicrochart.SmartMicroChart: isResponsive property handling for SmartRadialMicroChart corrected",
+                "references": []
+            },
+            {
+                "id": "d1072b685562a464b5002178dfd50083040602a2",
+                "type": "FIX",
+                "text": "smartform.GroupElement: insertAggregation/addAggregation is now processed correctly",
+                "references": []
+            },
+            {
+                "id": "2e4e67c612dee6d6abff04c34513f8b4843bd72b",
+                "type": "FIX",
+                "text": "DimeasureController: Fix for reference to P13nChartSelectionPanel",
+                "references": []
+            },
+            {
+                "id": "aefa81e91fd0ea602547df42884744cf4781e7bb",
+                "type": "FIX",
+                "text": "SmartChart: Fix for Details button counter in RTL mode",
+                "references": []
+            },
+            {
+                "id": "eaafbb94e08d657bd05b08aa944d9177fb9fa820",
+                "type": "FIX",
+                "text": "SmartChart: Provide new details button translation texts",
+                "references": []
+            },
+            {
+                "id": "fbe12064d1e5e2d42764d9c096a66ff309e5a66b",
+                "type": "FEATURE",
+                "text": "SmartField: Support DateTimePicker for Edm.DateTimeOffset",
+                "references": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,200 @@
+{
+    "1.90.0": {
+        "date": "May 2021",
+        "notes": [
+            {
+                "id": "I533bb4ed4310aac0ec6beeba7c1df70ebf9f2674",
+                "type": "FEATURE",
+                "text": "Introduced draft data loss popup"
+            },
+            {
+                "id": "I9eb5298ea514d10df3e0c81ddff01b95845d9353",
+                "type": "FEATURE",
+                "text": "ALP: Added functionality to configure multiple views on a table"
+            },
+            {
+                "id": "Ie3ac250c7fac3d51db24640a041503840f340943",
+                "type": "FEATURE",
+                "text": "ALP: Option added to store table and chart personalization settings in appState"
+            },
+            {
+                "id": "I0f721b2b3183b47e9f3fe6e91c1c84ad9fe7a561",
+                "type": "FEATURE",
+                "text": "Added preloading of an object page for create scenario without a list report populate"
+            },
+            {
+                "id": "I6b148aba485d8b227220224e53e5456b49b61966",
+                "type": "FEATURE",
+                "text": "LROP/ALP: Improved perceived performance screens with switch"
+            },
+            {
+                "id": "I7b101a7811d037f3f5ac9cc571a32e3f0124cbeb",
+                "type": "FEATURE",
+                "text": "LR: Standard list and object list now supported"
+            },
+            {
+                "id": "Iaf71cad2b82688632baea7a2ffb7ee7f93bd0c43",
+                "type": "FEATURE",
+                "text": "OP: Semantically connected fields can now be arranged side by side"
+            },
+            {
+                "id": "I04f46ecdb86b67511ffc964a06f571d809ae9e14",
+                "type": "FEATURE",
+                "text": "LR: Default data load behavior enhanced"
+            },
+            {
+                "id": "I9331139c1db4378a0b138e9acc32eba3451ed7fe",
+                "type": "FEATURE",
+                "text": "OP: Updated NodeExtensibility to provide an option to add customNode"
+            },
+            {
+                "id": "Ia4bad5dc7128ecc32540b33f62bf1bf7322ffa9d",
+                "type": "FIX",
+                "text": "Ghostapp changed to not send message page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070370874"
+                    }
+                ]
+            },
+            {
+                "id": "I8ef0af089caffcfdfa4ae4e2406fd0f4bd395983",
+                "type": "FIX",
+                "text": "OP: Re-enabled defaulting logic for visibility of groups",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170034093"
+                    }
+                ]
+            },
+            {
+                "id": "Ia1cd72dcdafe872eef7b883a2b8a1070c705ab84",
+                "type": "FIX",
+                "text": "LR/OP: i18n text handling for Create Dialog is improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170107391"
+                    }
+                ]
+            },
+            {
+                "id": "I97544d73f8b5965ce7ed1779facce47955f2ae0f",
+                "type": "FIX",
+                "text": "OP: Improved back navigation behavior in certain FCL scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170067377"
+                    }
+                ]
+            },
+            {
+                "id": "Ic2562e4290dc5019559aa0a07328b89b3d42d09a",
+                "type": "FIX",
+                "text": "LR : Added the check for null pointer in parameterized entity set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170112391"
+                    }
+                ]
+            },
+            {
+                "id": "Iff2d61c2630ea23712e16f7604c6bb9ad1bbbfc1",
+                "type": "FIX",
+                "text": "Resolving of extensionAPI.onCustomStateChange promise updated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170081461"
+                    }
+                ]
+            },
+            {
+                "id": "I73988723839e6d934f50ada27cbb672027f265cf",
+                "type": "FIX",
+                "text": "Improved back navigation after a Create draft is activated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170067377"
+                    }
+                ]
+            },
+            {
+                "id": "I70ddcda98d787b8ee00c07d4f80b2d30eacbfead",
+                "type": "FIX",
+                "text": "OP: Enhanced 'Save as Tile' functionality for draft scenarios"
+            },
+            {
+                "id": "Ibf53ef8b00913b6144c7936a11ec0527e6e68f06",
+                "type": "FIX",
+                "text": "LR/OP: Updated popups to appear only for non-draft apps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170128511"
+                    }
+                ]
+            },
+            {
+                "id": "Iab9af400a2862724b9b63dbdb5b2966e22589c9b",
+                "type": "FIX",
+                "text": "Optimized Ghostapp to support consoles",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170110939"
+                    }
+                ]
+            },
+            {
+                "id": "I332021d8c7f35def9d55d9626246b10055d8ae9c",
+                "type": "FIX",
+                "text": "Added discardDraft popup option in secured execution",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170119176"
+                    }
+                ]
+            },
+            {
+                "id": "I4520513f6c1ca8b907527a1b6c4cd5f536e78301",
+                "type": "FIX",
+                "text": "Disabled Cancel button when discard popover is shown in non-draft case",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170144226"
+                    }
+                ]
+            },
+            {
+                "id": "If378bdb7a32107a1c0c073e488c5c81528574aab",
+                "type": "FIX",
+                "text": "Updated table to use the entire available space on the initial load of the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170103636"
+                    }
+                ]
+            },
+            {
+                "id": "Ic340d5357708e9b6d163d2bd3c2443f5b6f1df9d",
+                "type": "FIX",
+                "text": "LR/OP: Client side validation added for Create with dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170132372"
+                    }
+                ]
+            }
+        ]
+    }
+}

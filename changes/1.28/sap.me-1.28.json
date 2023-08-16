@@ -1,0 +1,116 @@
+{
+    "1.28.0": {
+        "date": "January 2015",
+        "notes": [
+            {
+                "id": "f9ea177a78c771e70854eff31b685edd4225ee49",
+                "type": "FIX",
+                "text": "Selecting disabled date for Internet Explorer 10 or lower is now prevented",
+                "references": []
+            },
+            {
+                "id": "e73e581283be030393e8660f97640fcd50923578",
+                "type": "FEATURE",
+                "text": "BarcodeScannerButton: Imported into sap.me package.",
+                "references": []
+            },
+            {
+                "id": "c8319709d465c541fe47ad1852733c1914b27416",
+                "type": "FIX",
+                "text": "BarcodeScannerButton: Changed fallback dialog title.",
+                "references": []
+            },
+            {
+                "id": "72d7ca94fb3fbf3cfdcb1110fed57c536bcf52b1",
+                "type": "FIX",
+                "text": "BarcodeScannerButton: Fix uilib-sample test page bootstrap - had to ad sap.m to bootstraping code.",
+                "references": []
+            }
+        ]
+    },
+    "1.28.6": {
+        "date": "May 2015",
+        "notes": [
+            {
+                "id": "bcf64ff3df38846569b262ea12a795b2f873c10a",
+                "type": "FIX",
+                "text": "XML templates enabled again for sap.me, comp, richtexteditor",
+                "references": []
+            }
+        ]
+    },
+    "1.28.13": {
+        "date": "August 2015",
+        "notes": [
+            {
+                "id": "2c9c14a5246fba9928532b590e6d245ff0138b41",
+                "type": "FEATURE",
+                "text": "sap.me.Calendar: Add support for islamic calendar",
+                "references": []
+            }
+        ]
+    },
+    "1.28.26": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "f36e30a8b038ce0134357f06db0eecdf3ab3f968",
+                "type": "FIX",
+                "text": "Fiori Team Calendar not displaying public holidays correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "012002523100007381472015"
+                    }
+                ]
+            },
+            {
+                "id": "164f656ac5a3ec4ea7e262e54d5b086ed76ab3ab",
+                "type": "FIX",
+                "text": "Issue with the display of a public holiday",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "012002523100009197442015"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.30": {
+        "date": "March 2016",
+        "notes": [
+            {
+                "id": "c663de70c53a99cc496adb8fc7f001a1e04e6cd8",
+                "type": "FIX",
+                "text": "sap.me.OverlapCalendar issues",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "012002523100000736432016"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "012002523100001141662016"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.31": {
+        "date": "March 2016",
+        "notes": [
+            {
+                "id": "918b71105bbdfab11c9132d2d85dc111214e835f",
+                "type": "FIX",
+                "text": "Fiori applications do not consider TISLCAL adjustment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "012002523100001800472016"
+                    }
+                ]
+            }
+        ]
+    }
+}

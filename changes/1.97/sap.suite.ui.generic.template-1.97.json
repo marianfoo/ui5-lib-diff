@@ -1,0 +1,146 @@
+{
+    "1.97.0": {
+        "date": "Nov 2021",
+        "notes": [
+            {
+                "id": "I8bf78140057e028fbeec93db3a77bc880ef2130c",
+                "type": "FEATURE",
+                "text": "Provide designtime defining allowed UI changes"
+            },
+            {
+                "id": "Id9279621dc603abc8fefb92d08259e36eb1e7e16",
+                "type": "FEATURE",
+                "text": "ClearAll feature introduced in responsive table"
+            },
+            {
+                "id": "Idbd383358baaceef557d20049046a1ddbd02c3b2",
+                "type": "FEATURE",
+                "text": "ALP: Possibility to fix the colors of the legends based on the dimension values smart chart"
+            },
+            {
+                "id": "Iccab644183612c27f1aef104664fc8d68bea0642",
+                "type": "FEATURE",
+                "text": "ALP: Checkboxes for the visual filters should be moved to the left side"
+            },
+            {
+                "id": "I6044476e10c075a5bb6029f9d3d278493ad82f48",
+                "type": "FEATURE",
+                "text": "OP: Provided option to open desired object page in external navigation for a multi entity set scenario"
+            },
+            {
+                "id": "Iace7a9e3f6ffe6ba1fea73241a7382ed1534779e",
+                "type": "FEATURE",
+                "text": "LR: Set standard variant to dirty in case of a user default value set from FLP"
+            },
+            {
+                "id": "Ic3ba438922a9e44aa484d4580e7d8483e14139d3",
+                "type": "FEATURE",
+                "text": "LR: Collapse the filterbar once the Go button is clicked in mobile phones"
+            },
+            {
+                "id": "Ic49c4f1be5afef55a2de7a7210dad14ee112c177",
+                "type": "FIX",
+                "text": "Returned dummy handler for currently not supported controls from PresentationControlHandlerFactory",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170271392"
+                    }
+                ]
+            },
+            {
+                "id": "I746d87d19f0e04640f46ebfcba9ff93d90e4f479",
+                "type": "FIX",
+                "text": "Shell navigation to visited root pages should not bring placeholder screens",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170297956"
+                    }
+                ]
+            },
+            {
+                "id": "I3c49fc26dde9490539c57ad94ae2c7b88c403f8f",
+                "type": "FIX",
+                "text": "Placeholders are to be removed when LR component is reloaded from shell or bookmark",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170280305"
+                    }
+                ]
+            },
+            {
+                "id": "I5e4d7f4b427e20e905c58e5a6de19091ab5ac0fa",
+                "type": "FIX",
+                "text": "OP: Error while invoking the Function Import from the OP header action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170285666"
+                    }
+                ]
+            },
+            {
+                "id": "I36431e913209450a4de1b954c3ccbc00ae991859",
+                "type": "FIX",
+                "text": "LR: Create Button is not working",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170226163"
+                    }
+                ]
+            },
+            {
+                "id": "I03a5e8c195f56aaacbeb3e7750179ef5527cabbc",
+                "type": "FIX",
+                "text": "LR:Encoding sValue for all FilterParam types for the path for a parameterized entityset",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170261898"
+                    }
+                ]
+            },
+            {
+                "id": "Ic8b64ef12e20745bbb3190492470184a7e130cff",
+                "type": "FIX",
+                "text": "LR-Rating indicator alignment issue fix with vbox renderType as Bare"
+            },
+            {
+                "id": "I595350e5bd146b84a33ee6d8c30feee2283a7aff",
+                "type": "FIX",
+                "text": "Remove placeholders if the applying app state fails.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170280305"
+                    }
+                ]
+            },
+            {
+                "id": "Iba3c571597ccd6450729b4c0cc5bda026ce5f8f5",
+                "type": "FIX",
+                "text": "LR:Returned correct TemplateSortOrder",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170251319"
+                    }
+                ]
+            },
+            {
+                "id": "I59f81bef94560ee6493415d57ea505606afcbda5",
+                "type": "FIX",
+                "text": "LR:In a multi entity set configuration, possibility to resolve parameterised entity set binding path.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170264106"
+                    }
+                ]
+            }
+        ]
+    }
+}

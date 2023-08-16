@@ -1,0 +1,791 @@
+{
+    "1.58.0": {
+        "date": "May 2018",
+        "notes": [
+            {
+                "id": "1d56724886221bb8188edffe8c764c4f728819ce",
+                "type": "FEATURE",
+                "text": "Provide quickinfo text as tooltip on the filter item",
+                "references": []
+            },
+            {
+                "id": "6d27d4dcb041a805a0accec63aa7b9e22b6dc9ad",
+                "type": "FIX",
+                "text": "FilterBar: consider mandatory filters in value help dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870223274"
+                    }
+                ]
+            },
+            {
+                "id": "ff2c6112200c040dbb8c52f1f202aa4ab503c028",
+                "type": "FIX",
+                "text": "SmartField: JavaScript error in RTL mode fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870164318"
+                    }
+                ]
+            },
+            {
+                "id": "74db71848be6828115994a733bdbdf417d708d67",
+                "type": "FIX",
+                "text": "SmartField: Strict comparison for validation of GUIDs avoided",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870199823"
+                    }
+                ]
+            },
+            {
+                "id": "4bbc50c16fb199ac9440164c043c4c40ed35c551",
+                "type": "FIX",
+                "text": "SmartVariantManagement: correction for the save event docu",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870217298"
+                    }
+                ]
+            },
+            {
+                "id": "bf85e7d04ea9a3eafdb574ee8a07b046e45fca60",
+                "type": "FIX",
+                "text": "ValueListProvider: do not display empty key in braces",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870245862"
+                    }
+                ]
+            },
+            {
+                "id": "ee7739c0389a70c3ff1b2398522a400c46cd575d",
+                "type": "FEATURE",
+                "text": "MetadataAnalyser: use EntitySet for filter grouping",
+                "references": []
+            },
+            {
+                "id": "d7f99bf1ae2406a9a352fd61ffa2767e1cd865af",
+                "type": "FEATURE",
+                "text": "Sample with different date/time filters",
+                "references": []
+            },
+            {
+                "id": "5d1e7fb0025e4e2564af5cea60f4d81224644561",
+                "type": "FEATURE",
+                "text": "SmartTable: Non-measure(analytical) cells in sum/group hidden",
+                "references": []
+            },
+            {
+                "id": "eb2d633fa33e61785385a07e98b2cebe46cd2b27",
+                "type": "FIX",
+                "text": "BaseValueListProvider: enable in-params from navigation properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870241904"
+                    }
+                ]
+            },
+            {
+                "id": "06c9da0f21f173a2cc4161a0d72f25349697420d",
+                "type": "FIX",
+                "text": "SmartField: documentation of the getEmbeddedSmartField method fixed",
+                "references": []
+            },
+            {
+                "id": "a77214409b45ad7daef679abed4ebb80f92585bb",
+                "type": "FIX",
+                "text": "SmartField: line height of UoM field fixed (cozy mode)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870189684"
+                    }
+                ]
+            },
+            {
+                "id": "f4e51cd52b778d39b2e5a3cf86f9787e1f96a183",
+                "type": "FIX",
+                "text": "sap.ui.comp - SplitFields in SmartForm GroupElements erases labels",
+                "references": []
+            },
+            {
+                "id": "bf9b2d1ea36f29e24c1831e27029f1f47af9ec9b",
+                "type": "FEATURE",
+                "text": "SmartField: ValueListWithFixedValues annotation for numeric properties supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870168882"
+                    }
+                ]
+            },
+            {
+                "id": "b3ddffb6c48c6d99ec7b94e6e94a34f6b87e32ee",
+                "type": "FIX",
+                "text": "SmartChart: Recreation of breadcrumb links",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880196328"
+                    }
+                ]
+            },
+            {
+                "id": "d7a2675572fe150fb269c3d084e58df1c9f188c8",
+                "type": "FIX",
+                "text": "SmartField: minimum width of unit of measure field in display mode corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870298682"
+                    }
+                ]
+            },
+            {
+                "id": "c0581d4403d4612b5f8604515e6a058434f3c812",
+                "type": "FIX",
+                "text": "sap.ui.comp - Add revertData() to CombineFields change handler",
+                "references": []
+            },
+            {
+                "id": "6601d312ecf405010c5255188ff9b170450e0dc6",
+                "type": "FIX",
+                "text": "SmartField: Mandatory validation handling harmonized",
+                "references": []
+            },
+            {
+                "id": "9ca05263006fc6a6e4ec3cd6524d4a52341dc172",
+                "type": "FIX",
+                "text": "SmartVariantManagement: Support Flex Standard variant in AppVar",
+                "references": []
+            },
+            {
+                "id": "e5ba769e5a7ea7d1f70f6e0e122ad8a6a0084c23",
+                "type": "FIX",
+                "text": "FilterBar: error with advanced filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880276842"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1880267248"
+                    }
+                ]
+            },
+            {
+                "id": "91f4de7e360498e7142d29b4b2989fd0a2b0ea41",
+                "type": "FIX",
+                "text": "ODataControlFactory: correction of 3396939",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880289427"
+                    }
+                ]
+            },
+            {
+                "id": "3ece5766a5d61a5834520b0608fa37c3d4bb9482",
+                "type": "FIX",
+                "text": "SmartField: DateFormatSettings not propagated to display control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880257547"
+                    }
+                ]
+            },
+            {
+                "id": "fd6af1c68ff4b511a000fc3e0bec6d0369724ad6",
+                "type": "FEATURE",
+                "text": "MetadataAnalyser: use EntitySet for filter grouping",
+                "references": []
+            },
+            {
+                "id": "146f84457a6a1ed3fd20256d2460e0dc30f15db8",
+                "type": "FEATURE",
+                "text": "SmartTable: Property to set initial no data text added",
+                "references": []
+            },
+            {
+                "id": "e40767365a243fa0390704603a2e9a79d67c9e45",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartmultiinput.SmartMultiInput: Added new method setRangeData",
+                "references": []
+            },
+            {
+                "id": "dd22afb51205da19b54af71b5d08961f9286ac52",
+                "type": "FIX",
+                "text": "FilterBar: display all filters in filters dialog in case of error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870292298"
+                    }
+                ]
+            },
+            {
+                "id": "49a9e28bfc31bf3d6239cac280ad650a57962024",
+                "type": "FIX",
+                "text": "FilterProvider: ignore non tokens when filter is MultiComboBox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880300502"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1870172750"
+                    }
+                ]
+            },
+            {
+                "id": "fa0ee34a763cfcc281232e99dcd6d52b27dc7058",
+                "type": "FIX",
+                "text": "MetadataAnalyser: use EntitySet for filter grouping",
+                "references": []
+            },
+            {
+                "id": "3ce8be3b87e0a5541e90338002fe5c29cfe3ec64",
+                "type": "FIX",
+                "text": "SmartField: AccessibilityState not read out for UOM fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880294765"
+                    }
+                ]
+            },
+            {
+                "id": "41d643ac7e7b64054d43281d07c74571dcc6ad50",
+                "type": "FIX",
+                "text": "SmartFilterBar: correction in passing entity info to filter item",
+                "references": []
+            },
+            {
+                "id": "4d61cb54a93223aff033a56727d6881876bb5534",
+                "type": "FIX",
+                "text": "SmartMultiEdit: Fixes date parsing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880255032"
+                    }
+                ]
+            },
+            {
+                "id": "55ff054c7c54d7a718fbb97f20a965b706ce67c8",
+                "type": "FIX",
+                "text": "ValueHelpDialog: max size for the collective search control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880229808"
+                    }
+                ]
+            },
+            {
+                "id": "2e94fbdee12c405f34afdc114593077a07b8c664",
+                "type": "FIX",
+                "text": "VariantConverterFrom: correction for date filter handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880290904"
+                    }
+                ]
+            },
+            {
+                "id": "4f5b19539a1944a1b510e1c1a96bbfb71d029ab7",
+                "type": "FIX",
+                "text": "sap.ui.comp.qunit.smartmultiedit.SmartMultiEdit.qunit : Since UTC paramter was not added in control for date formatter have set both actual and expected value to be same so that qunit does not fail when executed in local time zone.",
+                "references": []
+            },
+            {
+                "id": "4be5f543e913e88b80f239cd903a5f5f1a9801f6",
+                "type": "FEATURE",
+                "text": "SmartVariantManagement: consider showShare based on Settings",
+                "references": []
+            },
+            {
+                "id": "142567490ad8a2dda620bed11085b41c4f6ce7cc",
+                "type": "FIX",
+                "text": "FilterBar: display 'add to FB' title only when filters are visible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880272169"
+                    }
+                ]
+            },
+            {
+                "id": "a715b72ef35e18fc6fc42c4442c5887dbac0ae7b",
+                "type": "FIX",
+                "text": "FilterProvider: enhance check for empty filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880271654"
+                    }
+                ]
+            },
+            {
+                "id": "8e2d6ebbf143e7b0311d511b2da3bac70e8048de",
+                "type": "FIX",
+                "text": "SmartField: MERGE on navigation property issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880296799"
+                    }
+                ]
+            },
+            {
+                "id": "f665339af6192ee3f01286ed15831afa939674dd",
+                "type": "FIX",
+                "text": "SmartField: Text input field is now displayed on IE11",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880315980"
+                    }
+                ]
+            },
+            {
+                "id": "35172a6b99041c007c5b923ad15e854a85e6e303",
+                "type": "FIX",
+                "text": "SmartFilterBar: retrigger search when in status pending",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880332980"
+                    }
+                ]
+            },
+            {
+                "id": "f67794bc5dc31aa34dd716c49bad78868adf3982",
+                "type": "FEATURE",
+                "text": "Smart- Table/Chart: Overriding events via BindingInfo enabled",
+                "references": []
+            },
+            {
+                "id": "212e005818308aef37529c9ea9adc7b0e4662236",
+                "type": "FIX",
+                "text": "FilterBar: apply value state without clearing the value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880347517"
+                    }
+                ]
+            },
+            {
+                "id": "16f76d30395be2c817833c3cc07175eb37039419",
+                "type": "FIX",
+                "text": "FilterBar: remove basic search invisible text element",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880270971"
+                    }
+                ]
+            },
+            {
+                "id": "19aa6b17ace92c6120bb375c33696222f5a4ef32",
+                "type": "FIX",
+                "text": "MetadataAnalyser: Annotation 'hidden' maps to 'visible = false'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870091077"
+                    }
+                ]
+            },
+            {
+                "id": "49914def586c28154c9dab3cba134f09e649a720",
+                "type": "FIX",
+                "text": "SmartChart: Clearer description of fetchVariant function",
+                "references": []
+            },
+            {
+                "id": "d6c882309069e637ddc9538adecdfbe55e883e09",
+                "type": "FEATURE",
+                "text": "FilterBar: support only AlignedFLowLayout",
+                "references": []
+            },
+            {
+                "id": "93a68904c04c7c8938dd93f5cd9533a53865e31d",
+                "type": "FEATURE",
+                "text": "SmartTable: Adapt NoData Texts",
+                "references": []
+            },
+            {
+                "id": "e9cceb828ff7c3a680d5a915cf1b5efd84ad651b",
+                "type": "FIX",
+                "text": "FilterBar: consider RTL when positioning 'Show On Filter Bar'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880258151"
+                    }
+                ]
+            },
+            {
+                "id": "67b3247ab5a35ba5da7c547c2d16d540e55dc98c",
+                "type": "FIX",
+                "text": "FilterBar: instancespecific designtime behaviour",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870140263"
+                    }
+                ]
+            },
+            {
+                "id": "1d3bfc47bde9e21c6dcdb303ce4b624152bb1323",
+                "type": "FIX",
+                "text": "SmartFilterBar: fix Edm.DateTimeOffset handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880349124"
+                    }
+                ]
+            },
+            {
+                "id": "0f5c815155bd9b1d52cb651fc264511882a6e2d5",
+                "type": "FEATURE",
+                "text": "SmartVariantManagement: load flex library asynchron",
+                "references": []
+            },
+            {
+                "id": "6827c3dcea78fc75ab0339474236834feef656e8",
+                "type": "FIX",
+                "text": "FilterBar: consider filterBarExpanded property with new layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880414092"
+                    }
+                ]
+            },
+            {
+                "id": "f37ca465a0fb40b0fef18f2e9a0caf7aa7b25421",
+                "type": "FIX",
+                "text": "FilterBar: handling of hint text in toolbar scenario",
+                "references": []
+            },
+            {
+                "id": "757cde4e2d891de789d6273f01810ed7341765b2",
+                "type": "FIX",
+                "text": "SmartChart: Incorrect sequence in creation of breadcrumbs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880394399"
+                    }
+                ]
+            },
+            {
+                "id": "181add13deb8c462635c54e11fbf11152f801d9c",
+                "type": "FIX",
+                "text": "SmartField: Cozy mode in the Demo Kit sample fixed",
+                "references": []
+            },
+            {
+                "id": "697dac3425c9da64725ba96d58a445da6471f796",
+                "type": "FIX",
+                "text": "SmartField: Missing validation of mandatory sap.m.Select fields fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880161112"
+                    }
+                ]
+            },
+            {
+                "id": "725e72421d2a2e7d512b5002bfd6db4921e1eceb",
+                "type": "FIX",
+                "text": "SmartField: maximum width of the UoM fixed (Cozy mode)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880337929"
+                    }
+                ]
+            },
+            {
+                "id": "eb8c703eb02630f5d6c75ab29dd0c228720bfbd4",
+                "type": "FIX",
+                "text": "SmartLabel: react on the SmartField control visibility changes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880303379"
+                    }
+                ]
+            },
+            {
+                "id": "144e3f87bb5b44dae9091f8433a6963f75d13a7c",
+                "type": "FIX",
+                "text": "[FEATURE] FilterBar: correction for filter width",
+                "references": []
+            },
+            {
+                "id": "604071279050341a7d8a26eaca4bd8781862b94b",
+                "type": "FIX",
+                "text": "Filter/ValueHelpProvider: adapt to new date/time handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880363463"
+                    }
+                ]
+            },
+            {
+                "id": "a2ef845d75740c6685cc17bdd379cb07613f8b1b",
+                "type": "FIX",
+                "text": "FilterBar: in scenarios with toolbar adapt filter max width",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880428220"
+                    }
+                ]
+            },
+            {
+                "id": "3105a806328bd8e04357e29dd5419f315d99b93b",
+                "type": "FIX",
+                "text": "FilterBar: re-enable colons behind label",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880435036"
+                    }
+                ]
+            },
+            {
+                "id": "80fce3879a3b9cb330fb737f882d71fd49bc27e8",
+                "type": "FIX",
+                "text": "FilterBar: remove inner assignment of dialog size",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880265686"
+                    }
+                ]
+            },
+            {
+                "id": "67b536c871dfba2fc800bea32c8ac7ea59c72a10",
+                "type": "FIX",
+                "text": "FilterBar: show filter area only when not collapsed",
+                "references": []
+            },
+            {
+                "id": "972dd9a38333bddc453dad4ac67500398d1c2aae",
+                "type": "FIX",
+                "text": "FilterBar: unit test correction for phone scenarios",
+                "references": []
+            },
+            {
+                "id": "634c15b38c830040c5fab7ec65fd731fe916fc97",
+                "type": "FIX",
+                "text": "SmartVariantManagement: tempor. load flex sync",
+                "references": []
+            },
+            {
+                "id": "cfad6c5656077cac4a907b61cebbb3f3c57643be",
+                "type": "FIX",
+                "text": "SmartVariantMangement: also in error cases, visualize the control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880423723"
+                    }
+                ]
+            },
+            {
+                "id": "13b51c26f38a54258823901a99cebb143539772d",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmultiinput.SmartMultiInput: Fixed initialization of SmartMultiInput in display mode",
+                "references": []
+            },
+            {
+                "id": "ff759eee18eefd1709eb8135bddeacda85f5f453",
+                "type": "FEATURE",
+                "text": "SmartTable: Column actions in responsive table enabled",
+                "references": []
+            },
+            {
+                "id": "132f054c985eadea12ee702bc4c0fbfdc08e6935",
+                "type": "FIX",
+                "text": "ChartProvider: Determine data formatter for every field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880338433"
+                    }
+                ]
+            },
+            {
+                "id": "2a13f8dbd95548f4600e58353280657c42bf704a",
+                "type": "FIX",
+                "text": "FilterBar: do not check for dialog open when positioning title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880452650"
+                    }
+                ]
+            },
+            {
+                "id": "44069f6c41aad625ce4a94ef4ffd395ea0942cda",
+                "type": "FIX",
+                "text": "FilterProvider: correction in generateFilters for stringDate types",
+                "references": []
+            },
+            {
+                "id": "ce915667d44a0a02e25d9849d7dc77287821d8e8",
+                "type": "FIX",
+                "text": "MetadataAnalyser: setting entity set and type for each property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880447207"
+                    }
+                ]
+            },
+            {
+                "id": "addd8efa57c8a20e3fd286e7925a1393b47c97d6",
+                "type": "FIX",
+                "text": "comp.ODataType: Mapping for FilterDefaultValues changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880426556"
+                    }
+                ]
+            },
+            {
+                "id": "38acb91503c684b558fe5c06d4efca91c88e7a58",
+                "type": "FIX",
+                "text": "sap.ui.comp.smartmultiinput.SmartMultiInput: Fixed firing of tokenUpdate event",
+                "references": []
+            },
+            {
+                "id": "5fa3ad58e0c65618953151f153994d5765bf0bdc",
+                "type": "FIX",
+                "text": "valueHelpProvider: enhance check for Date object",
+                "references": []
+            },
+            {
+                "id": "44efbab5b677a6e133567001eb6997770cee3d71",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.StackedBarMicroChart: Rework StackedBarMicrochart to comply with the specification and add a smart variant for this control",
+                "references": []
+            },
+            {
+                "id": "44e4951facea37cf73b31106062dfbc3e49a4e97",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartmicrochart.SmartComparisonMicroChart: Added smart variant of ComparisonMicroChart",
+                "references": []
+            },
+            {
+                "id": "f3f7695c067d2f17f8a1095785f87a91e8f72afa",
+                "type": "FIX",
+                "text": "FilterBar: reactivate setContentWidth/High of adapt dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880483854"
+                    }
+                ]
+            },
+            {
+                "id": "9e2bd90b67c6d1c521dec69684837f8a3b682e6d",
+                "type": "FIX",
+                "text": "FormatUtil.js : parseDateTimeOffsetInterval does not return array",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880478799"
+                    }
+                ]
+            },
+            {
+                "id": "61dd20ae2618f65007c619c29b61be5e7a8f1149",
+                "type": "FIX",
+                "text": "SmartChart: Align metadata to OData annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880419712"
+                    }
+                ]
+            },
+            {
+                "id": "692132b12ad61819a542d11c06daeba710bcee02",
+                "type": "FIX",
+                "text": "SmartChart: Align metadata to OData annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880419712"
+                    }
+                ]
+            },
+            {
+                "id": "19d3966987376d80eb204213d4e880af9706f129",
+                "type": "FIX",
+                "text": "SmartField: UoM amount field overflows a table cell fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880487842"
+                    }
+                ]
+            },
+            {
+                "id": "69c37c4f57081456041f874d7dc11d1dcfc678e4",
+                "type": "FIX",
+                "text": "ValueHelpDialog Header Color fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880348074"
+                    }
+                ]
+            },
+            {
+                "id": "f0524dc8f316331876556c790c7bd165cf4362d6",
+                "type": "FIX",
+                "text": "ValueHelpDialog.css : horizontal scrollbar removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880452400"
+                    }
+                ]
+            },
+            {
+                "id": "b45d1604d19e2838c48f1e779799d90323934768",
+                "type": "FIX",
+                "text": "ValueHelpDialog.js: single selection on phone",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003706992018"
+                    }
+                ]
+            }
+        ]
+    }
+}

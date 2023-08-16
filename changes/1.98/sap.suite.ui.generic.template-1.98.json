@@ -1,0 +1,234 @@
+{
+    "1.97.0": {
+        "date": "Dec 2021",
+        "notes": [
+            {
+                "id": "I9097544b40fbf998c4c1e60b002983f7a3daecb5",
+                "type": "FEATURE",
+                "text": "Custom action support for mass edit is now available in the list report"
+            },
+            {
+                "id": "Iec632dc89e8192cd899ec86483fc0a5d052fa92f",
+                "type": "FEATURE",
+                "text": "RTA mode has been restricted while creating delivery variants"
+            },
+            {
+                "id": "Ic88f7b37c8cd3a33ce46cd17c18b64c55f67e0e9",
+                "type": "FEATURE",
+                "text": "File uploader support is now available in the object page"
+            },
+            {
+                "id": "Iad5a7772c6d6b7e2d6d42a9deea29639d3487070",
+                "type": "FEATURE",
+                "text": "In the analytical list page, adapt filter within visual filter mode implements mandatory selection within the adapt filter of compact filter"
+            },
+            {
+                "id": "Ibeee65309de66c58e7e1bac8e0ed2126494c00be",
+                "type": "FEATURE",
+                "text": "In the list report, multiple selection edit is possible within Flexible Column Layout apps"
+            },
+            {
+                "id": "Idc9c96b18e00b6ff8a8535d7db091115feeb77bb",
+                "type": "FEATURE",
+                "text": "In the object page, 'Create Mandatory' field entry is now enforced "
+            },
+            {
+                "id": "Ieb757a0b29ff0c1ab7066230f8778d23754d14cc",
+                "type": "FEATURE",
+                "text": "Added support of Common.DefaultValuesFunction annotation for draft scenarios is now available"
+            },
+            {
+                "id": "I303492498e4abf4ea76feaaa2278059d68af8878",
+                "type": "FEATURE",
+                "text": "In the object page, Smart MultiInput control is now supported"
+            },
+            {
+                "id": "I6f4cdee30cd404837a1c419c36d29657e10cd198",
+                "type": "FEATURE",
+                "text": "Duplicate columns in personalization suppressed"
+            },
+            {
+                "id": "I0db5ffd0ec90a815487e7b7291eede19b8a59436",
+                "type": "FEATURE",
+                "text": "In the object page, decimal formatter for UI.DataPoint is now supported"
+            },
+            {
+                "id": "Id6e481cf21b20baf9aa033e794e2dd121a94eca9",
+                "type": "FEATURE",
+                "text": "For personalization changes, use of correct event is required"
+            },
+            {
+                "id": "If7e321bbb19e146f134d9aa2304cd5b2cd05c184",
+                "type": "FEATURE",
+                "text": "ShowDraftToggle is now enhanced"
+            },
+            {
+                "id": "I933bbdfe52109759ee1c39c1f5dba8283e9d42f1",
+                "type": "FEATURE",
+                "text": "In the object page, navigation to the target control of a message even on a successor page is now possible"
+            },
+            {
+                "id": "I3794c9366183e40919dd21468a479b47b6b7b484",
+                "type": "FEATURE",
+                "text": "ShowDraftToggle is now enhanced"
+            },
+            {
+                "id": "I70b5fa2b9d4df80f2ddd11a88c20b2dd7157de64",
+                "type": "FEATURE",
+                "text": "Direct edit for draft and non-draft now enabled"
+            },
+            {
+                "id": "Ib6efa9a2bab21f495897dfd0d453f53de91c9dfe",
+                "type": "FEATURE",
+                "text": "Changes have been adopted for OPA(One-Page Acceptance test) from the analytical list page for Smart Chart P13N dialog"
+            },
+            {
+                "id": "I700024037d81bfe2c2cc40db3fbf96c2559f0325",
+                "type": "FIX",
+                "text": "An error message is now displayed when an object is non editable in multiedit"
+            },
+            {
+                "id": "I0bd5d89ed00973ef845ad7a4783a0aeca19d31ea",
+                "type": "FIX",
+                "text": "The case of parsing service being undefined is handeled now",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170233667"
+                    }
+                ]
+            },
+            {
+                "id": "I48ce1e00ede55a9909cfb55756868cec13cea004",
+                "type": "FIX",
+                "text": "The issue with the quick filter sending wrong request while navigating from another page is now resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170259989"
+                    }
+                ]
+            },
+            {
+                "id": "Ie1c4f3c5ac7ef3744d31468fe395f86f1152f3fd",
+                "type": "FIX",
+                "text": "In the object page, binding of the smart Multiinput control with editable property of table's model now possible"
+            },
+            {
+                "id": "I6984163408e3b29c32430ada6b923e191a775627",
+                "type": "FIX",
+                "text": "In the object page, Save as tile stores iAppState Info",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170273788"
+                    }
+                ]
+            },
+            {
+                "id": "Ic96d83212cc984f689c483c769f9a3460461d327",
+                "type": "FIX",
+                "text": "Flickering issue with the create popup dialog is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170319895"
+                    }
+                ]
+            },
+            {
+                "id": "I98398eb7629960a5e24953343e0a394f44f77a5c",
+                "type": "FIX",
+                "text": "Issue with the default values for semantic date is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170299081"
+                    }
+                ]
+            },
+            {
+                "id": "I0fedf2786685c6c75970d84cb88d44b78ef03cc2",
+                "type": "FIX",
+                "text": "The hanging issue while returning to the list view after the creation of app is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180398269"
+                    }
+                ]
+            },
+            {
+                "id": "Iccb4edcb5e6561bf6745850a6dfb67d9435d424d",
+                "type": "FIX",
+                "text": "In the list report, the loading error for the application is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180390042"
+                    }
+                ]
+            },
+            {
+                "id": "Idb4d2d0d9956e8a6cc1df0b23db04a50069323b7",
+                "type": "FIX",
+                "text": "Internal Filtering of selectOption in oSFBSelectionVariant is now possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170323610"
+                    }
+                ]
+            },
+            {
+                "id": "I47f76189a96e31a789a7fa2979252fa82626e1e0",
+                "type": "FIX",
+                "text": "The issue with SmartFilters not being adaptable for key users is now resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180397439"
+                    }
+                ]
+            },
+            {
+                "id": "I2c24fdc70ad1f13e4588bf0d0a9c9c2506a7340c",
+                "type": "FIX",
+                "text": "In the object page, loading data on edit is ensured",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170325555"
+                    }
+                ]
+            },
+            {
+                "id": "I3c4bfb596d50fea186511c184e86c5e461604565",
+                "type": "FIX",
+                "text": "On the object page, extra '/' has been removed from the sort and filter property p13nData in case you don't have sNavigation"
+            },
+            {
+                "id": "Ie077f8279af6c06bb30b199da77e8655c165a494",
+                "type": "FIX",
+                "text": "Navigation issues where a draft is created by a 'copy' function and then discarded, is now resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170327321"
+                    }
+                ]
+            },
+            {
+                "id": "Ib409e0c8491cbf4e99181ee10a5bee8ba9705fec",
+                "type": "FIX",
+                "text": "Designtime for changes checked by RTA automation tests are now enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170327054"
+                    }
+                ]
+            }
+        ]
+    }
+}

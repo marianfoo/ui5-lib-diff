@@ -1,0 +1,137 @@
+{
+    "1.48.0": {
+        "date": "April 2017",
+        "notes": [
+            {
+                "id": "10d6b4918c3b7e8bc26c3999ba89ec9338534f4c",
+                "type": "FEATURE",
+                "text": "sap.viz : BITSDC2-5086 Time Axis - Highlight period of time based on \"End of Period\"",
+                "references": []
+            },
+            {
+                "id": "eabfd5668c1be054c3006d2d59f7500e05d35fa0",
+                "type": "FEATURE",
+                "text": "sap.viz : implement stable color for BITSDC2-4858",
+                "references": []
+            },
+            {
+                "id": "727b3321220d6760534e7fbf143eed3dcde98b54",
+                "type": "FEATURE",
+                "text": "Refactor data workflow in Analytical Chart & Vizframe",
+                "references": []
+            },
+            {
+                "id": "1d79eec103afc7c42fcfcd6d72d0fddb515c186c",
+                "type": "FEATURE",
+                "text": "Semantic pattern for Bullet",
+                "references": []
+            },
+            {
+                "id": "855428eb2487cc5409fd606235c91f4ff859bf59",
+                "type": "FEATURE",
+                "text": "[ErrorHandling] handle error of semantic coloring",
+                "references": []
+            },
+            {
+                "id": "d3c7095bf75b0866181e347344b5428206c7d25d",
+                "type": "FEATURE",
+                "text": "[Fiori] Show error message of invalid date format",
+                "references": []
+            },
+            {
+                "id": "b7d298d5fe4eb41d05887d40680af2aa25c0197e",
+                "type": "FEATURE",
+                "text": "sap.viz : Refine popover in Periodic Waterfall and return more info for Chart Container Popover",
+                "references": []
+            },
+            {
+                "id": "4321764fd9bb4caf8bd556761a14ae2c5f005747",
+                "type": "FEATURE",
+                "text": "sap.viz : [Analytical Chart] API for Value Axis Scaling",
+                "references": []
+            },
+            {
+                "id": "a1ca3d3b4119cd5cae62d4a832c8598cef28b6f3",
+                "type": "FEATURE",
+                "text": "show no data when binding has error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780114494"
+                    }
+                ]
+            },
+            {
+                "id": "5ee5d0639087eb8dd34f8b59b7295be2b06f69e0",
+                "type": "FEATURE",
+                "text": "[Analytical Chart] [Semantic Color]  Semantic color - adjustable threshold",
+                "references": []
+            },
+            {
+                "id": "9332d252e91e799b05c9c4352c9fadbd60ff02a1",
+                "type": "FEATURE",
+                "text": "[Fiori]Add more default format",
+                "references": []
+            },
+            {
+                "id": "8897187bae60441da448cff11fe337a11426cba4",
+                "type": "FEATURE",
+                "text": "[Fiori]UI5 Explored - Expose new features of 1708",
+                "references": []
+            },
+            {
+                "id": "c135b5ab60e2223c48b2f292c710f023fb95d9b9",
+                "type": "FIX",
+                "text": "Fix JS error of Bullet.getAvailableChartType.",
+                "references": []
+            },
+            {
+                "id": "93b98cc054f313e846681ec538e6613d8904b5a4",
+                "type": "FIX",
+                "text": "Fix continues time series with semantic pattern issue.",
+                "references": []
+            },
+            {
+                "id": "4869570dba2705f4746caf0b3360e8e054e27cf5",
+                "type": "FIX",
+                "text": "UT error.",
+                "references": []
+            },
+            {
+                "id": "383a147f4e0a1d37e2930c5f520c4806df8afe08",
+                "type": "FIX",
+                "text": "ValueAxisScaleUtils: Replace Number.isFinite() with isFinite()",
+                "references": []
+            },
+            {
+                "id": "015e0bd015ecbd1311e52a17f1b9b594bfb5c320",
+                "type": "FIX",
+                "text": "add TimeDimension related information in addDimension API",
+                "references": []
+            },
+            {
+                "id": "ebb8ee8a713638edfa2de8fce27025ce1a51df6c",
+                "type": "FIX",
+                "text": "fix issue in non-analytical odata binding",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780095963"
+                    }
+                ]
+            },
+            {
+                "id": "92ddae59eb93548f33353fbf05aaa78fc8ccd8dd",
+                "type": "FIX",
+                "text": ": bugs UI5",
+                "references": []
+            },
+            {
+                "id": "35a943a703958ddfaa09711ea6f3ecad3389703b",
+                "type": "FEATURE",
+                "text": "Handle combination usage of Semantic Pattern and Colorings",
+                "references": []
+            }
+        ]
+    }
+}

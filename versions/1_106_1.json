@@ -1,0 +1,4407 @@
+{
+  "name": "SAPUI5 Distribution",
+  "version": "1.106.1",
+  "buildTimestamp": "202209280536",
+  "scmRevision": "",
+  "gav": "com.sap.ui5.dist:sapui5-sdk-dist:1.106.1:war",
+  "libraries": [
+    {
+      "name": "sap.ui.core",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:core:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.core",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.apf",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070943",
+      "scmRevision": "",
+      "gav": "com.sap.apf:apf-lib:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.apf",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.commons": {},
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.commons": {
+              "lazy": true
+            },
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {},
+            "sap.ui.fl": {
+              "lazy": true
+            },
+            "sap.ui.generic.app": {
+              "lazy": true
+            },
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {},
+            "sap.ui.unified": {},
+            "sap.ui.ux3": {
+              "lazy": true
+            },
+            "sap.ushell": {},
+            "sap.viz": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ca.scfld.md",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070942",
+      "scmRevision": "",
+      "gav": "com.sap.ca:scfld.md:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ca.scfld.md",
+      "deprecated": true,
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ca.ui": {},
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ca.ui",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070942",
+      "scmRevision": "",
+      "gav": "com.sap.ca:ui:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ca.ui",
+      "deprecated": true,
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.chart",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:chart:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.chart",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.viz": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.collaboration",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070833",
+      "scmRevision": "",
+      "gav": "com.sap.collaboration:collaboration-commons:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.collaboration",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.suite.ui.commons": {},
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.commons": {
+              "lazy": true
+            },
+            "sap.ui.comp": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ui.ux3": {
+              "lazy": true
+            },
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.esh.search.ui",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070825",
+      "scmRevision": "",
+      "gav": "com.sap.esh:sap.esh.search.ui:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.esh.search.ui",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.m": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.commons": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.export": {},
+            "sap.ui.layout": {},
+            "sap.ui.richtexteditor": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ui.vbm": {},
+            "sap.ui.vk": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.f",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:fiori:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.f",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.fe.common",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070843",
+      "scmRevision": "",
+      "gav": "com.sap.uxeng:sap.fe.common:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.fe.common",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.fe.core",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070843",
+      "scmRevision": "",
+      "gav": "com.sap.uxeng:sap.fe.core:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.fe.core",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.fe.navigation": {},
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.fe.macros",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070843",
+      "scmRevision": "",
+      "gav": "com.sap.uxeng:sap.fe.macros:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.fe.macros",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.fe.core": {},
+            "sap.fe.navigation": {},
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.core": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {},
+            "sap.ui.unified": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.fe.navigation",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070843",
+      "scmRevision": "",
+      "gav": "com.sap.uxeng:sap.fe.navigation:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.fe.navigation",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.fe.placeholder",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070843",
+      "scmRevision": "",
+      "gav": "com.sap.uxeng:sap.fe.placeholder:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.fe.placeholder",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.fe.templates",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070843",
+      "scmRevision": "",
+      "gav": "com.sap.uxeng:sap.fe.templates:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.fe.templates",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.collaboration": {},
+            "sap.f": {},
+            "sap.fe.common": {},
+            "sap.fe.core": {},
+            "sap.fe.macros": {},
+            "sap.fe.navigation": {},
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.commons": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.commons": {
+              "lazy": true
+            },
+            "sap.ui.comp": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {},
+            "sap.ui.unified": {},
+            "sap.ui.ux3": {
+              "lazy": true
+            },
+            "sap.uxap": {
+              "lazy": true
+            },
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.fe.test",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070843",
+      "scmRevision": "",
+      "gav": "com.sap.uxeng:sap.fe.test:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.fe.test",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.fe.tools",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070843",
+      "scmRevision": "",
+      "gav": "com.sap.uxeng:sap.fe.tools:1.106.0:jar",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.feedback.ui",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070941",
+      "scmRevision": "",
+      "gav": "com.sap.feedback:sap.feedback.ui:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.feedback.ui",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ushell": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.fiori",
+      "version": "1.106.1",
+      "buildTimestamp": "202209280536",
+      "scmRevision": "",
+      "gav": "com.sap.ui5.dist:fiori-lib:1.106.1:jar",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.1"
+      ]
+    },
+    {
+      "name": "sap.gantt",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070801",
+      "scmRevision": "",
+      "gav": "com.sap.gantt:gantt.lib:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.gantt",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.dt": {},
+            "sap.ui.export": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {},
+            "sap.ui.unified": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.insights",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070820",
+      "scmRevision": "",
+      "gav": "com.sap.suite:insights-lib:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.insights",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.landvisz",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061550",
+      "scmRevision": "",
+      "gav": "com.sap.lm.uiext.landvisz:sap.landvisz:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.landvisz",
+      "themes": [
+        "base",
+        "sap_bluecrystal",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.commons": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.ux3": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.m",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:mobile:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.m",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.makit",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:makit:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.makit",
+      "deprecated": true,
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.me",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:mobile-ext:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.me",
+      "deprecated": true,
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ndc",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:ndc:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ndc",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ovp",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070943",
+      "scmRevision": "",
+      "gav": "com.sap.ovp:ovp-lib:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ovp",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.macros": {
+              "lazy": true
+            },
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.insights": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.dt": {},
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.rta": {},
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.viz": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.rules.ui",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061549",
+      "scmRevision": "",
+      "gav": "com.sap.rules:sap.rules.ui:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.rules.ui",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.sac.df",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070953",
+      "scmRevision": "",
+      "gav": "com.sap.sac:com.sap.sac.df:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.sac.df",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.m": {},
+            "sap.sac.grid": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.table": {},
+            "sap.ui.unified": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.sac.grid",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070953",
+      "scmRevision": "",
+      "gav": "com.sap.sac:com.sap.sac.grid:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.sac.grid",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.suite.ui.commons",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070820",
+      "scmRevision": "",
+      "gav": "com.sap.suite:suite-ui-commons:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.suite.ui.commons",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.commons": {
+              "lazy": true
+            },
+            "sap.ui.comp": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ui.ux3": {
+              "lazy": true
+            },
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.suite.ui.generic.template",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070954",
+      "scmRevision": "",
+      "gav": "com.sap.suite.ui.generic.template:sap.suite.ui.generic.template:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.suite.ui.generic.template",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ushell": {},
+            "sap.uxap": {
+              "lazy": true
+            },
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.suite.ui.microchart",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.suite:suite-ui-microchart:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.suite.ui.microchart",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.tnt",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:tnt:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.tnt",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.codeeditor",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:codeeditor:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.codeeditor",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.commons",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:commons:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.commons",
+      "deprecated": true,
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.comp",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:comp:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ui.comp",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.fl": {
+              "lazy": true
+            },
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.demoapps",
+      "version": "1.106.1",
+      "buildTimestamp": "202209280536",
+      "scmRevision": "",
+      "gav": "com.sap.ui5.dist:sap.ui.demoapps:1.106.1:jar",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.comp": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.generic.app": {
+              "lazy": true
+            },
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ushell": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.1"
+      ]
+    },
+    {
+      "name": "sap.ui.documentation",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:documentation-uilib:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.documentation",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.dt",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:dt:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.dt",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.export",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:export:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ui.export",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.fl",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:fl:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.fl",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.generic.app",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070909",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:generic-app:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ui.generic.app",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.ui.comp": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.generic.template",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070909",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:generic-template:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ui.generic.template",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.fl": {
+              "lazy": true
+            },
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.integration",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:integration:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.integration",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.layout",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:layout:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.layout",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.mdc",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:mdc:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.mdc",
+      "themes": [
+        "base"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.richtexteditor",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:richtexteditor:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ui.richtexteditor",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.rta",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:rta:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.rta",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.dt": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.server.abap",
+      "version": "1.106.1",
+      "buildTimestamp": "202209280536",
+      "scmRevision": "",
+      "gav": "com.sap.ui5.dist:sap.ui.server.abap:1.106.1:jar",
+      "themes": [],
+      "patchHistory": [
+        "1.106.0",
+        "1.106.1"
+      ]
+    },
+    {
+      "name": "sap.ui.server.java",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:resource:1.106.0:jar",
+      "themes": [],
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.suite",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:suite:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.suite",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.support",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:support:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.support",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.table",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:table:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.table",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {},
+            "sap.ui.unified": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.testrecorder",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:testrecorder:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.testrecorder",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.unified",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:unified:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.unified",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.ux3",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:ux3:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.ux3",
+      "deprecated": true,
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.commons": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.vbm",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070801",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:vbm:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ui.vbm",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.commons": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.vk",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070810",
+      "scmRevision": "",
+      "gav": "com.sap.ui5.vizkit:sap.ui.vk:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ui.vk",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.richtexteditor": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ui.vbm": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.vtm",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070820",
+      "scmRevision": "",
+      "gav": "com.sap.ui5.vtm:sap.ui.vtm:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.ui.vtm",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.webc.common",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:webc.common:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.webc.common",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.webc.fiori",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:webc.fiori:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.webc.fiori",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {},
+            "sap.ui.webc.common": {},
+            "sap.ui.webc.main": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ui.webc.main",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:webc.main:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.ui.webc.main",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {},
+            "sap.ui.webc.common": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.uiext.inbox",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:inbox:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.uiext.inbox",
+      "deprecated": true,
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {
+              "lazy": true
+            },
+            "sap.ui.commons": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {},
+            "sap.ui.ux3": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.ushell",
+      "version": "1.106.1",
+      "buildTimestamp": "202209280432",
+      "scmRevision": "",
+      "gav": "com.sap.ushell:ushell-lib:1.106.1:jar",
+      "npmPackageName": "@sapui5/sap.ushell",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.comp": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.generic.app": {
+              "lazy": true
+            },
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.1"
+      ]
+    },
+    {
+      "name": "sap.ushell_abap",
+      "version": "1.106.1",
+      "buildTimestamp": "202209280432",
+      "scmRevision": "",
+      "gav": "com.sap.ushell:ushell_abap:1.106.1:jar",
+      "npmPackageName": "@sapui5/sap.ushell_abap",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.comp": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.fl": {
+              "lazy": true
+            },
+            "sap.ui.generic.app": {
+              "lazy": true
+            },
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ushell": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.1"
+      ]
+    },
+    {
+      "name": "sap.uxap",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.uxap:uxap-uilib:1.106.0:jar",
+      "npmPackageName": "@openui5/sap.uxap",
+      "themes": [
+        "base",
+        "sap_hcb"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.viz",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:viz:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.viz",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw",
+        "sap_platinum"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.webanalytics.core",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061549",
+      "scmRevision": "",
+      "gav": "com.sap.webanalytics:sap.webanalytics.core:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.webanalytics.core",
+      "themes": [],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.zen.commons",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070953",
+      "scmRevision": "",
+      "gav": "com.sap.ip.bi.zen.rt.phx:com.sap.ip.bi.zen.rt.zencopy.phx:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.zen.commons",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.zen.crosstab",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070953",
+      "scmRevision": "",
+      "gav": "com.sap.ip.bi.zen.rt.phx:com.sap.ip.bi.zen.rt.components.crosstab.phx:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.zen.crosstab",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.commons": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "sap.zen.dsh",
+      "version": "1.106.0",
+      "buildTimestamp": "202209070953",
+      "scmRevision": "",
+      "gav": "com.sap.ip.bi.zen.rt:com.sap.ip.bi.zen.rt.dsh.phx:1.106.0:jar",
+      "npmPackageName": "@sapui5/sap.zen.dsh",
+      "themes": [
+        "base",
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus",
+        "sap_bluecrystal",
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw",
+        "sap_hcb",
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.macros": {
+              "lazy": true
+            },
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.insights": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.ovp": {},
+            "sap.sac.df": {},
+            "sap.sac.grid": {},
+            "sap.suite.ui.commons": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.commons": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.dt": {},
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.rta": {},
+            "sap.ui.table": {},
+            "sap.ui.unified": {},
+            "sap.ui.ux3": {
+              "lazy": true
+            },
+            "sap.ui.vbm": {},
+            "sap.viz": {},
+            "sap.zen.commons": {},
+            "sap.zen.crosstab": {}
+          }
+        }
+      },
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "themelib_sap_belize",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:themelib_sap_belize:1.106.0:jar",
+      "npmPackageName": "@openui5/themelib_sap_belize",
+      "themes": [
+        "sap_belize",
+        "sap_belize_hcb",
+        "sap_belize_hcw",
+        "sap_belize_plus"
+      ],
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "themelib_sap_bluecrystal",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:themelib_sap_bluecrystal:1.106.0:jar",
+      "npmPackageName": "@openui5/themelib_sap_bluecrystal",
+      "themes": [
+        "sap_bluecrystal"
+      ],
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "themelib_sap_fiori_3",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:themelib_sap_fiori_3:1.106.0:jar",
+      "npmPackageName": "@openui5/themelib_sap_fiori_3",
+      "themes": [
+        "sap_fiori_3",
+        "sap_fiori_3_dark",
+        "sap_fiori_3_hcb",
+        "sap_fiori_3_hcw"
+      ],
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    },
+    {
+      "name": "themelib_sap_horizon",
+      "version": "1.106.0",
+      "buildTimestamp": "202209061340",
+      "scmRevision": "",
+      "gav": "com.sap.ui5:themelib_sap_horizon:1.106.0:jar",
+      "npmPackageName": "@openui5/themelib_sap_horizon",
+      "themes": [
+        "sap_horizon",
+        "sap_horizon_dark",
+        "sap_horizon_hcb",
+        "sap_horizon_hcw"
+      ],
+      "patchHistory": [
+        "1.106.0",
+        "1.106.0"
+      ]
+    }
+  ],
+  "components": {
+    "SAPWebAnalyticsFLPPlugin": {
+      "hasOwnPreload": true,
+      "library": "sap.webanalytics.core",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      }
+    },
+    "sap.apf.base": {
+      "library": "sap.apf",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.commons": {},
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.commons": {
+              "lazy": true
+            },
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {},
+            "sap.ui.fl": {
+              "lazy": true
+            },
+            "sap.ui.generic.app": {
+              "lazy": true
+            },
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ui.ux3": {
+              "lazy": true
+            },
+            "sap.ushell": {},
+            "sap.viz": {}
+          }
+        }
+      }
+    },
+    "sap.apf.modeler": {
+      "library": "sap.apf",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.commons": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.table": {},
+            "sap.ui.unified": {}
+          }
+        }
+      }
+    },
+    "sap.fe.core.fpm": {
+      "hasOwnPreload": true,
+      "library": "sap.fe.core",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.fe.core": {},
+            "sap.fe.macros": {},
+            "sap.fe.navigation": {},
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.core": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {},
+            "sap.ui.unified": {}
+          }
+        }
+      }
+    },
+    "sap.fe.templates.AnalyticalListPage": {
+      "library": "sap.fe.templates",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.fe.core": {},
+            "sap.fe.macros": {},
+            "sap.fe.navigation": {},
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.core": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {},
+            "sap.ui.unified": {}
+          }
+        }
+      }
+    },
+    "sap.fe.templates.ListReport": {
+      "library": "sap.fe.templates",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.fe.core": {},
+            "sap.fe.macros": {},
+            "sap.fe.navigation": {},
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.core": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {},
+            "sap.ui.unified": {}
+          }
+        }
+      }
+    },
+    "sap.fe.templates.ObjectPage": {
+      "library": "sap.fe.templates",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.fe.macros": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {},
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.uxap": {}
+          }
+        }
+      }
+    },
+    "sap.feedback.ui.flpplugin": {
+      "hasOwnPreload": true,
+      "library": "sap.feedback.ui",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.comp": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.generic.app": {
+              "lazy": true
+            },
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ushell": {}
+          }
+        }
+      }
+    },
+    "sap.ovp.app": {
+      "library": "sap.ovp",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.macros": {
+              "lazy": true
+            },
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.insights": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.dt": {},
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.rta": {},
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.viz": {}
+          }
+        }
+      }
+    },
+    "sap.sac.df.InACard": {
+      "library": "sap.sac.df",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.macros": {
+              "lazy": true
+            },
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.insights": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.ovp": {},
+            "sap.sac.df": {},
+            "sap.sac.grid": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.dt": {},
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.rta": {},
+            "sap.ui.table": {},
+            "sap.ui.unified": {},
+            "sap.viz": {}
+          }
+        }
+      }
+    },
+    "sap.suite.ui.generic.template.AnalyticalListPage": {
+      "library": "sap.suite.ui.generic.template",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.generic.template": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {},
+            "sap.ui.unified": {},
+            "sap.ushell": {},
+            "sap.uxap": {
+              "lazy": true
+            },
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.suite.ui.generic.template.Canvas": {
+      "library": "sap.suite.ui.generic.template",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.generic.template": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {},
+            "sap.ui.unified": {},
+            "sap.ushell": {},
+            "sap.uxap": {
+              "lazy": true
+            },
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.suite.ui.generic.template.ListReport": {
+      "library": "sap.suite.ui.generic.template",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.generic.template": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {},
+            "sap.ui.unified": {},
+            "sap.ushell": {},
+            "sap.uxap": {
+              "lazy": true
+            },
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.suite.ui.generic.template.ObjectPage": {
+      "library": "sap.suite.ui.generic.template",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.generic.template": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {},
+            "sap.ui.unified": {},
+            "sap.ushell": {},
+            "sap.uxap": {},
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.suite.ui.generic.template.QuickCreate": {
+      "library": "sap.suite.ui.generic.template",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.generic.template": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.generic.template": {},
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {},
+            "sap.ui.unified": {},
+            "sap.ushell": {},
+            "sap.uxap": {},
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.suite.ui.generic.template.QuickView": {
+      "library": "sap.suite.ui.generic.template",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.generic.template": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.generic.template": {},
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {},
+            "sap.ui.unified": {},
+            "sap.ushell": {},
+            "sap.uxap": {},
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.suite.ui.generic.template.app.blankAnalyticalListPage": {
+      "library": "sap.suite.ui.generic.template",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.generic.template": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ushell": {},
+            "sap.uxap": {},
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ui.documentation.sdk": {
+      "library": "sap.ui.documentation",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.m": {},
+            "sap.tnt": {},
+            "sap.ui.codeeditor": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.uxap": {}
+          }
+        }
+      }
+    },
+    "sap.ui.documentation.sdk.cookieSettingsDialog": {
+      "hasOwnPreload": true,
+      "library": "sap.ui.documentation",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ui.fl.support.apps.contentbrowser.app": {
+      "hasOwnPreload": true,
+      "library": "sap.ui.fl",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ui.fl.variants.context": {
+      "hasOwnPreload": true,
+      "library": "sap.ui.fl",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ui.rta.appContexts": {
+      "hasOwnPreload": true,
+      "library": "sap.ui.rta",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ui.rta.appVariant.manageApps": {
+      "hasOwnPreload": true,
+      "library": "sap.ui.rta",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.dt": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {},
+            "sap.ui.rta": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.appRuntime.ui5.plugins.rtaAgent": {
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.appRuntime.ui5.plugins.rtaShell": {
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.fl": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.appRuntime.ui5.plugins.waAgent.Component": {
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      }
+    },
+    "sap.ushell.components.appfinder": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.contentFinderAppSearch": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.homeApp.error": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.homepage": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.pages": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.shell.MenuBar": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.shell.Search": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.shell.Settings.userDefaults": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.suite.ui.microchart": {
+              "lazy": true
+            },
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.fl": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.tiles.cdm.applauncher": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.tiles.cdm.applauncherdynamic": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.workPageBuilder": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.f": {},
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {},
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.components.workPageRuntime": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.plugins.appwarmup": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.ui.core": {}
+          }
+        }
+      }
+    },
+    "sap.ushell.plugins.ghostapp": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.collaboration": {
+              "lazy": true
+            },
+            "sap.esh.search.ui": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.m": {},
+            "sap.suite.ui.commons": {
+              "lazy": true
+            },
+            "sap.suite.ui.generic.template": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.export": {
+              "lazy": true
+            },
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.integration": {
+              "lazy": true
+            },
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.table": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ushell": {},
+            "sap.uxap": {},
+            "sap.viz": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.plugins.rta": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.dt": {
+              "lazy": true
+            },
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.rta": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.plugins.rta-personalize": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.m": {},
+            "sap.ui.core": {},
+            "sap.ui.dt": {
+              "lazy": true
+            },
+            "sap.ui.layout": {
+              "lazy": true
+            },
+            "sap.ui.rta": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            }
+          }
+        }
+      }
+    },
+    "sap.ushell.renderers.fiori2.search.searchComponent": {
+      "hasOwnPreload": true,
+      "library": "sap.ushell",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.esh.search.ui": {},
+            "sap.f": {},
+            "sap.m": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.commons": {
+              "lazy": true
+            },
+            "sap.ui.core": {},
+            "sap.ui.export": {},
+            "sap.ui.layout": {},
+            "sap.ui.richtexteditor": {
+              "lazy": true
+            },
+            "sap.ui.unified": {
+              "lazy": true
+            },
+            "sap.ui.vbm": {},
+            "sap.ui.vk": {}
+          }
+        }
+      }
+    },
+    "sap.zen.dsh.fioriwrapper": {
+      "hasOwnPreload": true,
+      "library": "sap.zen.dsh",
+      "manifestHints": {
+        "dependencies": {
+          "libs": {
+            "sap.chart": {
+              "lazy": true
+            },
+            "sap.f": {},
+            "sap.fe.macros": {
+              "lazy": true
+            },
+            "sap.fe.navigation": {
+              "lazy": true
+            },
+            "sap.fe.placeholder": {},
+            "sap.insights": {
+              "lazy": true
+            },
+            "sap.m": {},
+            "sap.ovp": {},
+            "sap.sac.df": {},
+            "sap.sac.grid": {},
+            "sap.suite.ui.commons": {},
+            "sap.suite.ui.microchart": {},
+            "sap.ui.commons": {},
+            "sap.ui.comp": {},
+            "sap.ui.core": {},
+            "sap.ui.dt": {},
+            "sap.ui.fl": {},
+            "sap.ui.generic.app": {},
+            "sap.ui.layout": {},
+            "sap.ui.mdc": {
+              "lazy": true
+            },
+            "sap.ui.rta": {},
+            "sap.ui.table": {},
+            "sap.ui.unified": {},
+            "sap.ui.ux3": {
+              "lazy": true
+            },
+            "sap.ui.vbm": {},
+            "sap.viz": {},
+            "sap.zen.commons": {},
+            "sap.zen.crosstab": {},
+            "sap.zen.dsh": {}
+          }
+        }
+      }
+    }
+  },
+  "themes": [
+    {
+      "name": "sap_hcb",
+      "libraries": [
+        "sap.ui.core",
+        "sap.ca.ui",
+        "sap.esh.search.ui",
+        "sap.f",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.landvisz",
+        "sap.m",
+        "sap.me",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.tnt",
+        "sap.ui.codeeditor",
+        "sap.ui.commons",
+        "sap.ui.comp",
+        "sap.ui.dt",
+        "sap.ui.export",
+        "sap.ui.fl",
+        "sap.ui.integration",
+        "sap.ui.layout",
+        "sap.ui.rta",
+        "sap.ui.suite",
+        "sap.ui.table",
+        "sap.ui.unified",
+        "sap.ui.ux3",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.uxap",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh"
+      ]
+    },
+    {
+      "name": "sap_belize_hcb",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_belize"
+      ]
+    },
+    {
+      "name": "sap_horizon",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_horizon"
+      ]
+    },
+    {
+      "name": "sap_fiori_3_hcw",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_fiori_3"
+      ]
+    },
+    {
+      "name": "sap_belize_plus",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_belize"
+      ]
+    },
+    {
+      "name": "sap_horizon_hcb",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_horizon"
+      ]
+    },
+    {
+      "name": "sap_fiori_3_dark",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_fiori_3"
+      ]
+    },
+    {
+      "name": "sap_bluecrystal",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.landvisz",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_bluecrystal"
+      ]
+    },
+    {
+      "name": "sap_fiori_3",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_fiori_3"
+      ]
+    },
+    {
+      "name": "sap_horizon_hcw",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_horizon"
+      ]
+    },
+    {
+      "name": "sap_fiori_3_hcb",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_fiori_3"
+      ]
+    },
+    {
+      "name": "sap_platinum",
+      "libraries": [
+        "sap.viz"
+      ]
+    },
+    {
+      "name": "sap_belize",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_belize"
+      ]
+    },
+    {
+      "name": "sap_belize_hcw",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_belize"
+      ]
+    },
+    {
+      "name": "sap_horizon_dark",
+      "libraries": [
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.export",
+        "sap.ui.richtexteditor",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh",
+        "themelib_sap_horizon"
+      ]
+    },
+    {
+      "name": "base",
+      "libraries": [
+        "sap.ui.core",
+        "sap.ca.ui",
+        "sap.collaboration",
+        "sap.esh.search.ui",
+        "sap.f",
+        "sap.fe.placeholder",
+        "sap.fiori",
+        "sap.gantt",
+        "sap.landvisz",
+        "sap.m",
+        "sap.makit",
+        "sap.me",
+        "sap.ovp",
+        "sap.rules.ui",
+        "sap.sac.df",
+        "sap.sac.grid",
+        "sap.suite.ui.commons",
+        "sap.suite.ui.generic.template",
+        "sap.suite.ui.microchart",
+        "sap.tnt",
+        "sap.ui.codeeditor",
+        "sap.ui.commons",
+        "sap.ui.comp",
+        "sap.ui.documentation",
+        "sap.ui.dt",
+        "sap.ui.export",
+        "sap.ui.fl",
+        "sap.ui.integration",
+        "sap.ui.layout",
+        "sap.ui.mdc",
+        "sap.ui.richtexteditor",
+        "sap.ui.rta",
+        "sap.ui.suite",
+        "sap.ui.table",
+        "sap.ui.unified",
+        "sap.ui.ux3",
+        "sap.ui.vbm",
+        "sap.ui.vk",
+        "sap.ui.vtm",
+        "sap.uiext.inbox",
+        "sap.ushell",
+        "sap.uxap",
+        "sap.viz",
+        "sap.zen.commons",
+        "sap.zen.crosstab",
+        "sap.zen.dsh"
+      ]
+    }
+  ],
+  "supportedThemes": [
+    "sap_belize",
+    "sap_belize_hcb",
+    "sap_belize_hcw",
+    "sap_belize_plus",
+    "sap_fiori_3",
+    "sap_fiori_3_dark",
+    "sap_fiori_3_hcb",
+    "sap_fiori_3_hcw",
+    "sap_horizon",
+    "sap_horizon_dark",
+    "sap_horizon_hcb",
+    "sap_horizon_hcw"
+  ]
+}

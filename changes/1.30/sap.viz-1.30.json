@@ -1,0 +1,227 @@
+{
+    "1.30.0": {
+        "date": "April 2015",
+        "notes": [
+            {
+                "id": "070a202716b215a49c5c984cb682adf9244ab828",
+                "type": "FEATURE",
+                "text": "Added a ChartDemo App",
+                "references": []
+            },
+            {
+                "id": "85206e1c9c21804d5700387569c1e005d0b7d845",
+                "type": "FIX",
+                "text": "Data label visibility will get updated during zooming in/out when dataLabel.hideWhenOverlap is set to TRUE.",
+                "references": []
+            },
+            {
+                "id": "eac9c67e8838dcd94c97449d85d733d9429ee24b",
+                "type": "FIX",
+                "text": "JSdoc: Increased memory and excluded all native sap.viz resources",
+                "references": []
+            },
+            {
+                "id": "bdf16cc99fcf09a970712a7d93a2e584d7acde88",
+                "type": "FIX",
+                "text": "VizFrame type set to a particular type correctly",
+                "references": []
+            },
+            {
+                "id": "ec38c3a7407e0572ff3e6e605b62da980323c43e",
+                "type": "FIX",
+                "text": "Hiding time_bubble chart with width '0%' throws an error by setting container DOM to 'display:none'",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Expose new charts in UI5 VizFrame: Dual Bar",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Expose new charts in UI5 VizFrame: Dual Column",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Expose new charts in UI5 VizFrame: Dual Line",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Expose new charts in UI5 VizFrame: Donut",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Expose new charts in UI5 VizFrame: Heatmap",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Expose new charts in UI5 VizFrame: Time Series Line",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Expose new charts in UI5 VizFrame: Time Series Bubble",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Expose new charts in UI5 VizFrame: Time Series Scatter",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Charting Features: Support multiple series and hierarchical category axis in Bullet",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Charting Features: For Bubble & Scatter, set the range of visible data set",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Charting Features: Be able to customize scrollbar's border and padding",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Charting Features: Be able to customize default size & paddings for bars",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Charting Features: Be able to set semantic color for an entire line",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Charting Features: Be able to use [+] and [-] to zoom in and out",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Screen reader support on Internet Explorer/Windows",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Support dimension identity and displayValue in UI5 VizFrame",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Enhance existing selection API to support customized category & series selection",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "One single Template to work with all UI5 themes",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "New API to close popover",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "In UI5 VizFrame, remove category axis tickers when not necessary",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "Update the auto-coloring of data label to be black for light background, and white for dark background",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "Improve shape of legend marker in UI5 VizFrame",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "Increase space between bars and their value labels",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "For bars or columns, always respect max data point size no matter the scroll bar is available or not",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "Be able to extend the first category axis label to the blank area on left when label is rotated and scroll bar is not available",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "New property noninteractiveMode in interaction to replace existing general.thumbnailMode",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "Improve popover position to have default placement type",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "Improve VizFrame demonstration in UI",
+                "references": []
+            }
+        ]
+    },
+    "1.30.1": {
+        "date": "June 2015",
+        "notes": [
+            {
+                "id": "a92f77de5bbee6d972ff3421a27d0c8592f82a58",
+                "type": "FIX",
+                "text": "Fixed cvom issues in UI5 1.30",
+                "references": []
+            }
+        ]
+    },
+    "1.30.2": {
+        "date": "June 2015",
+        "notes": [
+            {
+                "id": "936b5c662b8d788f840860cce4fc1bff536f9ed1",
+                "type": "FIX",
+                "text": "Viz Chart Wrappers: fix generation of default values",
+                "references": []
+            }
+        ]
+    }
+}

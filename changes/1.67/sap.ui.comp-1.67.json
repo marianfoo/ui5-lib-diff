@@ -1,0 +1,264 @@
+{
+    "1.67.0": {
+        "date": "May 2019",
+        "notes": [
+            {
+                "id": "73bc11c1ebd73f874a341105db6f91b888d545c7",
+                "type": "FIX",
+                "text": "FilterProvider: Adapt time part of date objects according to property metadata",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980232515"
+                    }
+                ]
+            },
+            {
+                "id": "d2923fbdea3962488c4cb2bb083ba0767d0f03a7",
+                "type": "FIX",
+                "text": "FilterBar: \"more filters\" title read out twice",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980265510"
+                    }
+                ]
+            },
+            {
+                "id": "bbbc0350da6bd416a12a9eb39d600530e96a58ca",
+                "type": "FIX",
+                "text": "SmartField: False positive issue in .checkValuesValidity() method fixed",
+                "references": []
+            },
+            {
+                "id": "aa295e6343d0a69fdef9cf7c8911f36e648f69e7",
+                "type": "FIX",
+                "text": "SmartField: ISOCurrency annotation interpretation fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980277852"
+                    }
+                ]
+            },
+            {
+                "id": "644e15517e40284c9bf37e5a877c08c921102568",
+                "type": "FIX",
+                "text": "SmartMultiEdit: Formatting SmartField value",
+                "references": []
+            },
+            {
+                "id": "acd65fc18d61e08a6d43114b5ee3ca4d4b369ba9",
+                "type": "FIX",
+                "text": "VariantManagement: \"Select view\" read out twice",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980265264"
+                    }
+                ]
+            },
+            {
+                "id": "061f5287fdeb53af95093caece68504114c1f1e9",
+                "type": "FIX",
+                "text": "BaseValueListProvider.js : outParameter handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980182849"
+                    }
+                ]
+            },
+            {
+                "id": "f1a4bb16f7bcde1e827486eb3079303c4f5b2133",
+                "type": "FIX",
+                "text": "FilterBar: better alignment of the searchfield in filters-dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980222055"
+                    }
+                ]
+            },
+            {
+                "id": "96bc3cf93e60a68f9f1253f6d2e072d0914e26c8",
+                "type": "FIX",
+                "text": "SmartChart: Set Toolbar height to 3rem (alignment with table)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980292349"
+                    }
+                ]
+            },
+            {
+                "id": "1e3f689427f19c1db70bc5d7321e8579b9a75261",
+                "type": "FIX",
+                "text": "SmartField: Propagate Binding mode to inner controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980261903"
+                    }
+                ]
+            },
+            {
+                "id": "46b66c79bb2c3a4ade8319260bcae607688af06a",
+                "type": "FIX",
+                "text": "SmartField: Time formatting issue in display mode fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980303513"
+                    }
+                ]
+            },
+            {
+                "id": "13c0b2c612dc1d30105bd95b1549171096d95615",
+                "type": "FIX",
+                "text": "SmartField: Value of editable, mandatory and visible properties are not longer ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980304332"
+                    }
+                ]
+            },
+            {
+                "id": "16b2915ad0a4576baceea322e2b8efb2877801d5",
+                "type": "FIX",
+                "text": "SmartFilterBar: fix for checking if a Edm.Boolean filter is set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980211559"
+                    }
+                ]
+            },
+            {
+                "id": "da27ce909a86f7785b4ce73964ecf37648d43dc8",
+                "type": "FIX",
+                "text": "sap.ui.comp: Fixed broken standalone tests, added coverage configuration",
+                "references": []
+            },
+            {
+                "id": "d5a7949fe8f02baf012b71f2e48b728dbe91c140",
+                "type": "FIX",
+                "text": "sap.ui.comp: Moved all QUnit tests into qunit folder",
+                "references": []
+            },
+            {
+                "id": "bede0d2e5345fb41af716a4bc875e93370214b95",
+                "type": "FEATURE",
+                "text": "NavigationHandler: exclude all measures from the navigation",
+                "references": []
+            },
+            {
+                "id": "b652bcd15bd517c874ffa3a40d3317d5127eb456",
+                "type": "FEATURE",
+                "text": "SmartTable: Formatting for group headers enabled",
+                "references": []
+            },
+            {
+                "id": "170682333f91a81b1cca8998003458384232c1e5",
+                "type": "FIX",
+                "text": "ChartWrapper.js: provides getModel function",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880668099"
+                    }
+                ]
+            },
+            {
+                "id": "bcb9cee6f51f16412a1eb4ca9520bdfc65947413",
+                "type": "FIX",
+                "text": "SmartChart: Handle empty filter correctly in _getChartPersonalisationData",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980303275"
+                    }
+                ]
+            },
+            {
+                "id": "3ad221cfe1c97ace2248bf66e5c79e12a8ce5403",
+                "type": "FIX",
+                "text": "SmartField: Initialise event is fired after the control is fully initialized as before",
+                "references": []
+            },
+            {
+                "id": "86297b434a5838296b0a3030e32fe57838628acf",
+                "type": "FIX",
+                "text": "SmartField: Inner control visibility issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970182133"
+                    }
+                ]
+            },
+            {
+                "id": "3daf0841df1219ada7ac60134946db1e02cecd64",
+                "type": "FIX",
+                "text": "SmartField: Non-key fields ValueListParameterOut supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980279133"
+                    }
+                ]
+            },
+            {
+                "id": "1a33641d93303aa61a81c81a039ff242b172cb3f",
+                "type": "FIX",
+                "text": "ValueListProvider.js : accessing the row Data from the row.model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002549922019"
+                    }
+                ]
+            },
+            {
+                "id": "53a863ab9aa7f7314483159425736658db2eeb2a",
+                "type": "FIX",
+                "text": "sap.ui.comp.filterbar.FilterBar: correct setUiState method when only replace is passed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980261830"
+                    }
+                ]
+            },
+            {
+                "id": "5c7bfc5f14363c023c00c2532ece06100a591859",
+                "type": "FIX",
+                "text": "sap.ui.comp: Split testsuite.qunit.html into more specific testsuites",
+                "references": []
+            },
+            {
+                "id": "f92923a66a51bf171dded796571aa53962240f81",
+                "type": "FIX",
+                "text": "smartfield/FieldControl: Reset issue of editable, mandatory and visible property fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970183463"
+                    }
+                ]
+            },
+            {
+                "id": "666b98366a3255d2446f56eda3b4e4cadef41d00",
+                "type": "FIX",
+                "text": "smartmultiedit: parse decimals as string",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980153817"
+                    }
+                ]
+            }
+        ]
+    }
+}

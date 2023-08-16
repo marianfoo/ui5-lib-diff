@@ -1,0 +1,208 @@
+{
+    "1.65.1": {
+        "date": "Apr 2019",
+        "notes": [
+            {
+                "id": "79fca3c5a537cd81a3241c2c9f605fb0fbfb98ce",
+                "text": "GanttChart 2.0: Not visible settings items in Toolbar",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980241090"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.65.3": {
+        "date": "July 2019",
+        "notes": [
+            {
+                "id": "ca96b27a131a87c494b4be3fb8f395ab6f7ed5fb",
+                "text": "Gantt 2.0: Prevent hover highlighting on multiple rows caused by scrolling",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000312413 2019"
+                    }
+                ]
+            },
+            {
+                "id": "1e36a7c01abd67f421cf5577116a5560f17ec4b2",
+                "text": "GanttChart: SAP UI5 Gantt does not load",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0120050409 0000011793 2019"
+                    }
+                ]
+            },
+            {
+                "id": "b899ecf6029e5f0f7b786d115c748f3759679eb6",
+                "text": "Gantt 1.0: Fix dependency loading error",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0120050410 0000055765 2019"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.65.4": {
+        "date": "Sep 2019",
+        "notes": [
+            {
+                "id": "8303ad6d898721e5608d30ff5237a2c4f1e68426",
+                "text": "Tooltip of Settings button should be \"Settings\"",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980291915"
+                    }
+                ]
+            },
+            {
+                "id": "0859066572fcb24099c6d7e145e5cd56888e154c",
+                "text": "Gantt 2.0: Fix enum imports",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0120050410 0000073977 2019"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000503530 2019"
+                    }
+                ]
+            },
+            {
+                "id": "34530b52709a9b4a71eb833ec2abb25d7c0e078e",
+                "text": "Gantt 1.0: Bird Eye on row",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970230194"
+                    }
+                ]
+            },
+            {
+                "id": "ae725f8ca0e339f2ca12fb96187fed6a23029bb5",
+                "text": "Gantt 1.0: Fix enum imports",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970510887"
+                    }
+                ]
+            },
+            {
+                "id": "b5ccfd93b514279a4addf50edfc800dfff8fd78d",
+                "text": "Gantt 2.0: Fix destroying of default objects of total horizon",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003990232019"
+                    }
+                ]
+            },
+            {
+                "id": "e83dc08b5085917b156e7b399170593bcb7c4d40",
+                "text": "Gantt 1 - Composite controls purged after added as custom toolbar items",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980120703"
+                    }
+                ]
+            },
+            {
+                "id": "048cb30d5a2f5c9a5726be14168d2ea4255a7844",
+                "text": "Gantt: Destroy toolbar items to prevent memory leaks and duplicate ids",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000399023 2019"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.65.5": {
+        "date": "Nov 2019",
+        "notes": [
+            {
+                "id": "8b13b18ac75f31628000d9f6646b7d7798fca3ac",
+                "text": "Gantt 2.0: Make all shapes share one 2D context",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000316951 2019"
+                    }
+                ]
+            },
+            {
+                "id": "0e44d88b49d015f199966c89809eddb0726c8a95",
+                "text": "Gantt 2.0: Fixes mialignment between table and gantt chart",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "1027058054a1bd0bfc2409039eb4342fad3e26d1",
+                "text": "Missing settings button text",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980457778"
+                    }
+                ]
+            },
+            {
+                "id": "ed7a15829e1662028c383d5a26fd7c4d8b3fd972",
+                "text": "Gantt 2.0: Provide visibleHorizonUpdate event",
+                "type": "FIX",
+                "references": []
+            }
+        ]
+    },
+    "1.65.6": {
+        "date": "Jan 2020",
+        "notes": [
+            {
+                "id": "b0233fa944395875a7a1019677ff5e5c5bfbe007",
+                "text": "GanttChart 1: fix toolbar custom items position",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980262113"
+                    }
+                ]
+            },
+            {
+                "id": "380ca18faa7e6f33d24f9292ee61c0525ed05046",
+                "text": "Gantt 2.0: Make relationships visible on all themes",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970299657"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,304 @@
+{
+    "1.105.0": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "94666b50ba9bbdfed97786a87dfb5b63ee2af29c",
+                "type": "FIX",
+                "text": " The value state of mandatory filter fields now reacts to input sent via the ExtensionAPI.setFilterValues() method",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280110522"
+                    }
+                ]
+            },
+            {
+                "id": "cd7a648fe28f05f5f26a977546a07a3853483e86",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now displays a DataPoint with a semantic object properly in the object page header"
+            },
+            {
+                "id": "06ca667be1cc10d4873a3e0a7aa43ddb8bb8e4f8",
+                "type": "FEATURE",
+                "text": " Customers can now override the action name in the action parameter dialog"
+            },
+            {
+                "id": "9167eb4b021bd9562bc34cdc7dd887d6555c84ca",
+                "type": "FIX",
+                "text": " SAP Fiori elements for OData V4 now automatically sets the height of charts to 100% in a chart-only view",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270018895"
+                    }
+                ]
+            },
+            {
+                "id": "10217e13d379ffee8ff2587046a962671aed78c2",
+                "type": "FIX",
+                "text": " We now remove transition messages from the message model when a user navigates back from a draft page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180398141"
+                    }
+                ]
+            },
+            {
+                "id": "e9c57b4c4373771871a7b005ada7e186ad5666b5",
+                "type": "FIX",
+                "text": " When a semantic object is defined with a path, the unavailable actions of the semantic object now work properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280130100"
+                    }
+                ]
+            },
+            {
+                "id": "135258c567b4cc4ffd785a6b3036d45e4a1fb570",
+                "type": "FIX",
+                "text": " SAP Fiori elements now enables you to filter on a table for navigation properties in the LineItem",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170295934"
+                    }
+                ]
+            },
+            {
+                "id": "debef7af22ace7c19135a9d007aa2353bd7be84d",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now supports custom navigation using a 1:1 association"
+            },
+            {
+                "id": "bd298d540460dfb932673d050ccf1e85a1f457e4",
+                "type": "FIX",
+                "text": " When changing a variant, SAP Fiori elements for OData V4 now updates the app state only if the variant isn't applied automatically",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280086575"
+                    }
+                ]
+            },
+            {
+                "id": "2e2e6ebe07f0cec98e0f747e08125f2de307ba9e",
+                "type": "FEATURE",
+                "text": " You can now mark custom filter fields as 'mandatory' by setting the 'required' property in the manifest.json"
+            },
+            {
+                "id": "7dea0a8d56bffda7b84720bfb938cd9c3e56735c",
+                "type": "FIX",
+                "text": " If the creation of a new object fails in a table using the flexible column layout, the object is no longer shown in the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280117541"
+                    }
+                ]
+            },
+            {
+                "id": "30a870c405ddb37d93a3390cbb4cc07b85390f3f",
+                "type": "FIX",
+                "text": " After selecting items in object page 'a' and navigating to object page 'b', the selection is now cleared as expected when you return to object page 'a'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280112422"
+                    }
+                ]
+            },
+            {
+                "id": "f7424430643f2ff2a167e6234e469c97e22bd305",
+                "type": "FIX",
+                "text": " The previous binding changes are being reset and destroyed before a new binding is created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280041447"
+                    }
+                ]
+            },
+            {
+                "id": "6a99b5d32b98cb51de25ff670f0c196bbc67740b",
+                "type": "FIX",
+                "text": " A table in an object page using the flexible column layout is now updated when a new object is created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280113762"
+                    }
+                ]
+            },
+            {
+                "id": "1851646d237333c17aa1fbee6ce767d34191e704",
+                "type": "FIX",
+                "text": " In the object page, the issue where error message popover was not working automatically has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280105666"
+                    }
+                ]
+            },
+            {
+                "id": "12b648f179cf081a01a10302ae196b14580a3276",
+                "type": "FIX",
+                "text": " ObjectPage FlexBox: Rendering type adjusted to Bare to allow long words to display properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270106759"
+                    }
+                ]
+            },
+            {
+                "id": "cd25c639bf7cee2a47511a8528053f4ba68fcb40",
+                "type": "FEATURE",
+                "text": " The form building block now accepts custom form elements that are defined inline"
+            },
+            {
+                "id": "266d1f141b9a221ffea7d78dbbc791bbcfcbe800",
+                "type": "FIX",
+                "text": " The enablement for continue button in creation dialog now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280094744"
+                    }
+                ]
+            },
+            {
+                "id": "5236e3b864b8bc0c6a6362f1b3d33d89ce510982",
+                "type": "FEATURE",
+                "text": " You can now use our customization settings to keep a draft version of your app when a forward navigation is triggered without displaying a confirmation popup"
+            },
+            {
+                "id": "20e8f20a63a3aa16230ddf675b0b235847bf9b07",
+                "type": "FIX",
+                "text": " The Continue button is now only activated once all mandatory fields are filled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280087689"
+                    }
+                ]
+            },
+            {
+                "id": "86346ba3d81df1d2a70a2215db84a84439878422",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports semantic objects in navigation properties and the display of their quick view facets"
+            },
+            {
+                "id": "475d2137962894d74094ad6a4d0e1e078fa83596",
+                "type": "FEATURE",
+                "text": " We now automatically delete untouched drafts without a confirmation popup"
+            }
+        ]
+    },
+    "1.105.1": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "f1657a13e001431939ba075ec5bbd21ddbc87fbb",
+                "type": "FIX",
+                "text": " The pageReady event is now fired for an object page containing a filter bar, a table and a chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270115472"
+                    }
+                ]
+            },
+            {
+                "id": "8ebd87408eedac3b174155b1d38c39259724a10d",
+                "type": "FIX",
+                "text": " Navigation via a breadcrumb link now also works when the dimension names contain special characters like a forward slash ('/')",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280168478"
+                    }
+                ]
+            },
+            {
+                "id": "cbc88ce5337f972886b972135bb099a0e0b1dc6a",
+                "type": "FIX",
+                "text": " The API documentation is now again displayed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280169576"
+                    }
+                ]
+            },
+            {
+                "id": "dfed1f2d69f0b9d225e614f6ba94cfda9b08eb80",
+                "type": "FIX",
+                "text": " We've resolved the issue related to adding a field to a form on a subobject page for key user adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280159021"
+                    }
+                ]
+            },
+            {
+                "id": "f1cb4a09608938a0d4a3f1ab951b348640047881",
+                "type": "FIX",
+                "text": " We've fixed the visibility behavior of the HeaderInfo if the header is editable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280142010"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.105.2": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "bd35c33b2264e62bfa119fd9cda406a4e35ba7d9",
+                "type": "FIX",
+                "text": " We now only show a description in the header of an object page if you've defined one",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280160899"
+                    }
+                ]
+            },
+            {
+                "id": "2c8a6c066181da31037ff924301c1adf7c37d018",
+                "type": "FIX",
+                "text": " correction of documentation and types for SAP Fiori elements for OData v4 extensions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "1.105.3": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "70f945468b39c9841d23ad89c21dfc7c7398c62c",
+                "type": "FIX",
+                "text": " We now ensure a list report with multiple views and no filter bar is displayed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270190420"
+                    }
+                ]
+            }
+        ]
+    }
+}

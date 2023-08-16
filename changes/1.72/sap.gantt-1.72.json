@@ -1,0 +1,40 @@
+{
+    "1.72.1": {
+        "date": "Dec 2019",
+        "notes": [
+            {
+                "id": "78549c9e3d62af0951055ab9844676d8c189fd4e",
+                "text": "sap.gantt: Add support for Quartz Dark theme",
+                "type": "FEATURE",
+                "references": []
+            }
+        ]
+    },
+    "1.72.2": {
+        "date": "Dec 2019",
+        "notes": [
+            {
+                "id": "3ab0ab40cb43a44cf3ad00131a08deab530a18d8",
+                "text": "Gantt 2.0: Zoom slider",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980473652"
+                    }
+                ]
+            },
+            {
+                "id": "d09f93b0dea8527ddba8cbadc421ae6cf8094b32",
+                "text": "sap.gantt.simple.ContainerToolbar should call parent's exit method",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980522393"
+                    }
+                ]
+            }
+        ]
+    }
+}

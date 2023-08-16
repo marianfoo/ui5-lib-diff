@@ -1,0 +1,241 @@
+{
+    "1.32.0": {
+        "date": "August 2015",
+        "notes": [
+            {
+                "id": "149f2d9bc23ae396cd14c16cef183355465ebd02",
+                "type": "FEATURE",
+                "text": "sap.viz:  Fiori Wave10 Features",
+                "references": []
+            },
+            {
+                "id": "1fce133b6f47aab90b803550cd1327f3b6155daf",
+                "type": "FEATURE",
+                "text": "sap.viz: New libs AnalyticalChart",
+                "references": []
+            },
+            {
+                "id": "c0f38415404994747ad10a856a57f13734a77d84",
+                "type": "FEATURE",
+                "text": "support raw dataset for extension chart",
+                "references": []
+            },
+            {
+                "id": "e75ab309df86ec19cee557b54bb656085bc12b0d",
+                "type": "FIX",
+                "text": "BindAggregation with length settings.",
+                "references": []
+            },
+            {
+                "id": "41fa8e4e63c1e8a064b4a7fa3d8ae3710e5a1708",
+                "type": "FIX",
+                "text": "Viz Chart Wrappers: fix generation of default values",
+                "references": []
+            },
+            {
+                "id": "667ff9f7ca3f34e9cbabb8c1f2030659d11b7192",
+                "type": "FIX",
+                "text": "fix demo page",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Expose new chart, Time Series Column, in UI5 VizFrame.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Enable categorical look in time axis. And be able to responsively switch between categorical look and continuous look.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Time axis: localization of each individual level.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Be able to adjust scale of scatter & bubble & line for better visual effect.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Make UI5 formatter ease to use in UI5 VizFrame.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Improve scrollbar display.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Improve column chart performance under volume data.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Improve first line display of popover in UI5 VizFrame.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Support translation for ar,bg,ca,cs,da,de,el,en,es,et,fi,fr,he,hi,hr,hu,it,ja,ko,lt,lv,nl,no,pl,pt,ro,ru,sh,sk,sl,sv,th,tr,uk,vi,zf,zh.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "In SAPUI5, developers can use its own custom data model for creating CVOM extension. So the extension data model is not limited to CrossTable or FlatTable any more. ",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "sap.chart.Chart control (new UI5 control), which wraps some basic analytic logic on top of VizFrame.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "sap.chart.Chart - APIs to do drill down/up.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "sap.chart.Chart - Support chart type switch.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Change color legend marker to 14*14 by default.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Improve small chart performance.",
+                "references": []
+            }
+        ]
+    },
+    "1.32.1": {
+        "date": "September 2015",
+        "notes": [
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "sap.chart.Chart - APIs to do series/category selection.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Improve VizFrame demonstration in UI5 Explorer.",
+                "references": []
+            }
+        ]
+    },
+    "1.32.2": {
+        "date": "September 2015",
+        "notes": [
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "If dom element is invisible, function getBBox works on Firefox.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "In Pie, a very small value will be shown as 0% when data label is on.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "For empty dataset, not change properties of fix scale to [0,1].",
+                "references": []
+            },
+            {
+                "id": "4df1c178ab79d0abb7cc61d640c6aeba34bc33e6",
+                "type": "FIX",
+                "text": "sap.viz bug fixes.",
+                "references": []
+            }
+        ]
+    },
+    "1.32.4": {
+        "date": "October 2015",
+        "notes": [
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "Value axis scale is correctly calculated when values are small.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "Fix legend truncation issue for Chrome version 45.0.2454.85 and above.",
+                "references": []
+            }
+        ]
+    },
+    "1.32.9": {
+        "date": "December 2015",
+        "notes": [
+            {
+                "id": "9a0615df039159133cc9ded004a13da662495391",
+                "type": "FIX",
+                "text": "Mobile scrollbar size prop didn't apply",
+                "references": []
+            }
+        ]
+    },
+    "1.32.10": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "a6fc67fbe9e3544919dab891eec4dea3d1202d4c",
+                "type": "FIX",
+                "text": "Deliver \"Optimize data point stroke display\" back to 1.32 branch.",
+                "references": []
+            }
+        ]
+    },
+    "1.32.11": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "Chrome 48+ svg \"getTransformToElement\" remove issue.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FIX",
+                "text": "When draw bar, set '0' to extra data if no stroke exists",
+                "references": []
+            },
+            {
+                "id": "9bf5b93e5efdfdc2f3df8ca5965258b46fba0649",
+                "type": "FIX",
+                "text": "sap.viz bug fixing for UI5 1.32",
+                "references": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "1.99.0": {
+        "date": "Feb 2022",
+        "notes": [
+            {
+                "id": "I229551605721409432262cb5be467725b81dbb77",
+                "type": "FEATURE",
+                "text": "dateSettings now work well for all date fields"
+            },
+            {
+                "id": "I99135d0bd0b2c7878682eb2ebd81fda090e3392b",
+                "type": "FEATURE",
+                "text": "Certain fields can be ignored from the mass edit dialog"
+            },
+            {
+                "id": " I6d25ea9961492cccde362fa69842517bc0fa4e18",
+                "type": "FEATURE",
+                "text": "LR:App state handling is now improved"
+            },
+            {
+                "id": "Ibc4527579d1249518fd6c1f198701fab8f473bd2",
+                "type": "FEATURE",
+                "text": "OP:Save and Next option is available in the object page"
+            },
+            {
+                "id": "Ib9afbacb31b5696a82beda88d4d66966edd579f3",
+                "type": "FEATURE",
+                "text": "OP:DataFieldWithUrl is now available in the header section of the object page"
+            },
+            {
+                "id": "I63e1f844032edae2912fd55a285a8ab5ed107a5b",
+                "type": "FEATURE",
+                "text": "ALP:In the analytical list page, preloading of object page component is now possible "
+            },
+            {
+                "id": "I16259fab82cd26f2a49d4bdeb41965945ee906c0",
+                "type": "FEATURE",
+                "text": "The iapp state handling has now been improved"
+            },
+            {
+                "id": "I8b1f24a2f1312f7a332ca60bd072199f8f1e1428",
+                "type": "FEATURE",
+                "text": "User experience is improved while focusing on a table related to a message"
+            },
+            {
+                "id": "Ia0d4661fd73b65050a7d88a190d4a62d50e68a9f",
+                "type": "FEATURE",
+                "text": "OP:In the object page, variant management and dynamic header are decoupled"
+            },
+            {
+                "id": "Id744fce2daab4558804abc745b13858f3b799b59",
+                "type": "FEATURE",
+                "text": "Demo kit for multi table is available in the analytical list page"
+            },
+            {
+                "id": "I031a4c7b429fdf6cf50ef6316a827625a7a0309f",
+                "type": "FIX",
+                "text": "Issues with the navigation to message target, in case where only a table is available as message target, are now fixed"
+            },
+            {
+                "id": "I5c09fab30969883cc0f37b46254ab9624e7080e6",
+                "type": "FIX",
+                "text": "Header title can now be hidden when an object is in edit mode and header is in expanded mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170322031"
+                    }
+                ]
+            },
+            {
+                "id": "I07d4bb07e55e0cbbca5d144f94acce9eb1ef3439",
+                "type": "FIX",
+                "text": "controlIds array can now be defined in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280045461"
+                    }
+                ]
+            },
+            {
+                "id": "If7f609eda409b988335ec63ebaa6cb3f2d3f3564",
+                "type": "FIX",
+                "text": "In the object page, the error occurring while a table facet was being annotated without a line item, is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280038057"
+                    }
+                ]
+            },
+            {
+                "id": "If615ffc00c10d39e6567dad96f20d41466681de4",
+                "type": "FIX",
+                "text": "All necessary expands are now part of the header request even when the object page is being loaded for the second time",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280004888"
+                    }
+                ]
+            },
+            {
+                "id": "Ib768fd0ffcfb120035576e244008e75ce0f646ef",
+                "type": "FIX",
+                "text": "Issues with create with filters in non-Draft applications when date fields are passed to the creation are now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006824032021"
+                    }
+                ]
+            },
+            {
+                "id": "Ib80c2fe836e1253eb3aaf364e2f19c81984683e4",
+                "type": "FIX",
+                "text": "The CSS class that were not required are now removed from the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170294285"
+                    }
+                ]
+            },
+            {
+                "id": "I72b2f96473b5d8163e4f5afa244943c707cb3384",
+                "type": "FIX",
+                "text": "Smart MultiIpnut is now respecting the editable property of the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280029215"
+                    }
+                ]
+            },
+            {
+                "id": "I71334a632aad516349961839605fe57d183e00a3",
+                "type": "FIX",
+                "text": "The state of smartmultiedit fields are now reset to initial state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170315620"
+                    }
+                ]
+            },
+            {
+                "id": "I524883b1f40ee84472aaa9c4baa28aecf865cdcb",
+                "type": "FIX",
+                "text": "Re-arrangement of sections in the anchor bar using UI adaptation is now allowed in the Designtime for the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280021507"
+                    }
+                ]
+            },
+            {
+                "id": "Ib673d6b433aacabd4aa890b61f24bdc199278c1f",
+                "type": "FIX",
+                "text": "Rename action for title is now allowed in Designtime for the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280021507"
+                    }
+                ]
+            },
+            {
+                "id": "Ibab58840e1b42b02521673b6acff40fe84df2ad3",
+                "type": "FIX",
+                "text": "Move action for OverflowToolbar is now allowed in Designtime"
+            },
+            {
+                "id": "Iaa353fe49721a82a5cd2a031ab4f201218f3bbf0",
+                "type": "FIX",
+                "text": "Semantic Key for non-draft use case can now be ignored"
+            },
+            {
+                "id": "I642ba608f31523608cc5d8b9a6d85677def0cea6",
+                "type": "FIX",
+                "text": "Content-id is to be used after confirmation popup in strict mode"
+            },
+            {
+                "id": "Iad5846c581268f8e11005997f44719f1df2b17f5",
+                "type": "FIX",
+                "text": "Duplicate IDs are to be avoided for extension actions in multiple views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280019004"
+                    }
+                ]
+            },
+            {
+                "id": "I313147a1a6c66bfea93258b39c4336881859f1c0",
+                "type": "FIX",
+                "text": "The startup parameters are now evaluated correctly when reaching an app using the forward navigation for the second time",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170279631"
+                    }
+                ]
+            },
+            {
+                "id": "Iadddaf45113b4cafd580a937bce2531ed98c1dba",
+                "type": "FIX",
+                "text": "Stable ID provided for group and group elements for mass-edit dialouge",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180428041"
+                    }
+                ]
+            },
+            {
+                "id": "Id42c541af2d52330d854b537aec8bafa9d77f1b3",
+                "type": "FIX",
+                "text": "The robustness issues while triggering an external navigation twice are now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180344963"
+                    }
+                ]
+            },
+            {
+                "id": "I65fdd03c1416fea6f936e142cb050f0656939fc3",
+                "type": "FIX",
+                "text": "The issue in updating stream in case of file uploader is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280013539"
+                    }
+                ]
+            }
+        ]
+    }
+}

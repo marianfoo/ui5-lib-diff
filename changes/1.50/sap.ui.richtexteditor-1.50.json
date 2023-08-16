@@ -1,0 +1,78 @@
+{
+    "1.50.0": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "bb13bd64befeb6ba952519e7e8a14c5959e79d33",
+                "type": "FEATURE",
+                "text": "RichTextEditor: Add user-defined controls to the Custom toolbar",
+                "references": []
+            },
+            {
+                "id": "f5084da22454f120d531b87f96247aca914a4282",
+                "type": "FEATURE",
+                "text": "RichTextEditor: Implemented table integration",
+                "references": []
+            },
+            {
+                "id": "a31f81720ee2fb27b8a648b106d8f628f01bc30e",
+                "type": "FIX",
+                "text": "RichTextEditor: Fix several browser issues after update",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770285295"
+                    }
+                ]
+            },
+            {
+                "id": "ae192bc991d50cdc4785f9ce118fc6b0918cad5e",
+                "type": "FIX",
+                "text": "RichTextEditor: Provide button tooltips",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780206697"
+                    }
+                ]
+            },
+            {
+                "id": "edf503b6c1d47c919f2aa5516a9c3c5b2cd81ede",
+                "type": "FIX",
+                "text": "RichTextEditor: TinyMCE's undo manager now works consistently",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001250712017"
+                    }
+                ]
+            },
+            {
+                "id": "759ca98e4960dec8ed37304885a6cf25466a013c",
+                "type": "FIX",
+                "text": "RichTextEditor: Update TinyMCE to version 4.5.7",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770226400"
+                    }
+                ]
+            },
+            {
+                "id": "537a049a668f2856014eeabede5a9d2ea4b21679",
+                "type": "FIX",
+                "text": "sap.ui.richtexteditor.RichTextEditor: removeContent wrapper does not throw exception",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780265234"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1780258863"
+                    }
+                ]
+            }
+        ]
+    }
+}

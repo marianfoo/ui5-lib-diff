@@ -1,0 +1,58 @@
+{
+    "1.32.0": {
+        "date": "August 2015",
+        "notes": [
+            {
+                "id": "780a84a177f90a454086fe3e8de9cd13b7c93c29",
+                "type": "FEATURE",
+                "text": "sap.ui.generic.app: Navigation via deep linking",
+                "references": []
+            },
+            {
+                "id": "8780b4e29e3e61230a289823461734dae848478b",
+                "type": "FIX",
+                "text": "SmartTemplates: Corrections",
+                "references": []
+            },
+            {
+                "id": "ede91bb13f6c6c6fa1ccc385f114f6d333b5e475",
+                "type": "FIX",
+                "text": "sap.ui.generic.app.NavigationController: unbind during create",
+                "references": []
+            },
+            {
+                "id": "8fac3431e24c30e9641f8fba6d1f6df01f737a16",
+                "type": "FIX",
+                "text": "sap.ui.generic.app: Remove hardcoded id's used by routing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570774617"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.32.2": {
+        "date": "September 2015",
+        "notes": [
+            {
+                "id": "c27fd66dfd472263d9fcf227894a2d6408d4a642",
+                "type": "FIX",
+                "text": "sap.ui.generic.app: NavigationController: onDeactivate handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580062546"
+                    }
+                ]
+            },
+            {
+                "id": "9d3197b4066f476debab37c78bb691c7ca8076a6",
+                "type": "FIX",
+                "text": "sap.ui.generic.app: Remove sample example from demokit",
+                "references": []
+            }
+        ]
+    }
+}

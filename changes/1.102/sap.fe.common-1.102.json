@@ -1,0 +1,82 @@
+{
+    "1.102.0": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "00d1c94e2461890a67aefb562fd5108b99fbfbc0",
+                "type": "FIX",
+                "text": " A front-end message is now properly displayed in case there's an error in the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270083377"
+                    }
+                ]
+            },
+            {
+                "id": "402842f74fcc1e2cea5a6103cdf00dbbace0c39f",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the synchronization of data between pages when using the flexible column layout"
+            },
+            {
+                "id": "3954991d46bedf8342470944d6e04fc0ce554e16",
+                "type": "FIX",
+                "text": " The row reference is now displayed properly in the message popover when a client-side error arises in the first column of a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170230338"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.1": {
+        "date": "June 2022",
+        "notes": [
+            {
+                "id": "129642ecf2fb735cd08134999c4a0320156948a5",
+                "type": "FIX",
+                "text": " The message for the field containing the error on the UI isn't removed until the entry is correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270083377"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.2": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "6c87929d08db8d1552e677318c2250aa3a893730",
+                "type": "FIX",
+                "text": " The DTS file generation for sap.fe now contains the correct code",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280118606"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.3": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "b74e167007ebd81fc625fce9b44cd26300416d0d",
+                "type": "FIX",
+                "text": " We've solved the issue relating to the error message popover on an object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280105666"
+                    }
+                ]
+            }
+        ]
+    }
+}

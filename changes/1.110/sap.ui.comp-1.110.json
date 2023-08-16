@@ -1,0 +1,446 @@
+{
+    "1.110.0": {
+        "date": "January 2023",
+        "notes": [
+            {
+                "id": "d87c47ae0d3824e22f3437938924a96df0a90d8f",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280193062"
+                    }
+                ]
+            },
+            {
+                "id": "66f5dbd8a5b84b3ac954cf79899b227219d55cff",
+                "type": "FEATURE",
+                "text": " SmartField: Added TextArrangement default configuration"
+            },
+            {
+                "id": "f72f641b939ac8dcf35913d2882a8a1e01cd1c66",
+                "type": "FIX",
+                "text": " ValueList: close recently used popover on value select",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270168576"
+                    }
+                ]
+            },
+            {
+                "id": "f1768fb4d8ed6c9d7ed88baffcfe34d80ec0e110",
+                "type": "FIX",
+                "text": " SmartForm: Еnhanced logging for SemanticallyConnectedField",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270135366"
+                    }
+                ]
+            },
+            {
+                "id": "cbf5dcf70ce1a35d1c5a403c427187bfc92ef60d",
+                "type": "FIX",
+                "text": " SmartMultiInput : MultiComboBox keys will reset/update on updation of SmartMultiInput Binding",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280182708"
+                    }
+                ]
+            },
+            {
+                "id": "4c219e56a7fd6d038837fae57a1064e1db03477d",
+                "type": "FIX",
+                "text": " FilterPanel: Single filters can now select from suggestions"
+            },
+            {
+                "id": "50bebb524ce83d896d2748ad38b6c56f5e1e3962",
+                "type": "FEATURE",
+                "text": " SmartField: Combobox text arrangement of popover"
+            },
+            {
+                "id": "63347b0ecf91ac9c230e0065a5ff1020ab4a1009",
+                "type": "FEATURE",
+                "text": " ValueListProvider: provide disable suggestions option"
+            },
+            {
+                "id": "2c1279630098de18701bc4dd53dd32c581de85bb",
+                "type": "FIX",
+                "text": " SmartMultiEdit: Fallback to key when text path not present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280161638"
+                    }
+                ]
+            },
+            {
+                "id": "b486b462d66db5f8af96311b16aecac8482822e8",
+                "type": "FIX",
+                "text": " SmartField: suppress Common.Text mechanism",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270138044"
+                    }
+                ]
+            },
+            {
+                "id": "5a38eff09e10b7104c9b8a47cc44e2ffe8b6bb76",
+                "type": "FIX",
+                "text": " SmartField: UoM is now rendered correctly when amount is non editable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270148200"
+                    }
+                ]
+            },
+            {
+                "id": "3c4ca07cdaddf1a39b0662a9151114f043bda400",
+                "type": "FIX",
+                "text": " ValueHelpProvider: Absolute Path is now correctly encoded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270175735"
+                    }
+                ]
+            },
+            {
+                "id": "606035f5c1823ea38e550b17fb7f8b19ae4d03b8",
+                "type": "FIX",
+                "text": " SmartField: Changing modes no longer force text arrangement fetch",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280180885"
+                    }
+                ]
+            },
+            {
+                "id": "e7d854eea8284a293e9a8ef90c55917af8d36a86",
+                "type": "FIX",
+                "text": " sap.ui.comp: fix download version of various demokit samples"
+            },
+            {
+                "id": "30881e7d558783dd7b75ba455048e1ea08829772",
+                "type": "FIX",
+                "text": " ValueListProvider: ComboBox valueState is now correctly reset",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280080375"
+                    }
+                ]
+            },
+            {
+                "id": "0889a3fbf5e7ce4331cbd1b84f777b02d40453ba",
+                "type": "FIX",
+                "text": " ODataControlFactory: _createEdmDisplay fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280178205"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280178249"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280178109"
+                    }
+                ]
+            },
+            {
+                "id": "24338092c639046cd6f7ef202ca75a2aec8f0bab",
+                "type": "FIX",
+                "text": " ControlProvider: V4 value list annotation is now prioritized over V2",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280173232"
+                    }
+                ]
+            },
+            {
+                "id": "dcbfde08d84ace9b33259ce27327c3b4d1ef947e",
+                "type": "FIX",
+                "text": "ValueHelpDialog: Initial focus enhancement.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270151973"
+                    }
+                ]
+            },
+            {
+                "id": "50ef26fe6a18314bee3b49bc98cb96e129c75cb1",
+                "type": "FEATURE",
+                "text": " SmartTable: enable new ColumnMenu without UrlParameters"
+            },
+            {
+                "id": "313938f32320ed51ba34a631b2ba1de833f80e18",
+                "type": "FIX",
+                "text": " SmartField: Common.Text in ValueList mode"
+            },
+            {
+                "id": "7e9e8d2bb7f3f0557f5a52dd9ab2e13a92366898",
+                "type": "FIX",
+                "text": " FilterPanel: Request is now correct for DateTimeOffset intervals with condition equal",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270160780"
+                    }
+                ]
+            },
+            {
+                "id": "dac08142d5ed7e87907eb4ea5e59e4ae2a08ef3c",
+                "type": "FEATURE",
+                "text": " SmartField: Improves the behavior of default text arrangement for drop down fields"
+            },
+            {
+                "id": "510f0fe396d661cf40a06422c0ee5e9e44589d1d",
+                "type": "FEATURE",
+                "text": " P13n - Store Show/Hide button state"
+            },
+            {
+                "id": "9e0f24715a705895412c2d80f2294058819e398b",
+                "type": "FIX",
+                "text": " FilterPanel: Filters from navigation properties are now working correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270177854"
+                    }
+                ]
+            },
+            {
+                "id": "909307353149d745045f8d550d325f28cfbc12c5",
+                "type": "FEATURE",
+                "text": " SmartField: Single value field - Handling empty keys"
+            },
+            {
+                "id": "ef63cd241f307c2c5f0e56a96e985d6e590eaf18",
+                "type": "FIX",
+                "text": " FilterPanel: Filters are now created when SmartTable is bound to the EntitySet of the Analytical Parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376700043591102022"
+                    }
+                ]
+            },
+            {
+                "id": "597ccd62ca2bb2cd1d8c86ddb504a116e10a58b9",
+                "type": "FIX",
+                "text": " SmartField's textArrangement works correctly with Common.Text set initially",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270160667"
+                    }
+                ]
+            },
+            {
+                "id": "673b1fc29e145322eab53e88f154bcfec31cda46",
+                "type": "FIX",
+                "text": " SmartFilterBar: Prevent initial focus on search",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280093815"
+                    }
+                ]
+            },
+            {
+                "id": "b18fe356fb7adeaebb17c814f14db8b8a7287245",
+                "type": "FIX",
+                "text": " SmartFilterBar: creates a token when a valid value is pasted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270175006"
+                    }
+                ]
+            },
+            {
+                "id": "ddfd8e0680790641183aec5185af723fec45993a",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Remove tooltip from table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270147628"
+                    }
+                ]
+            },
+            {
+                "id": "a8f0a7bb28b6481f8686292fab413cd7c02cca91",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct validation for single filter fields when maxLength is exceeded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270042400"
+                    }
+                ]
+            },
+            {
+                "id": "6f9d46f9c7b9a7ac056f768f12d91d840f8fa5e9",
+                "type": "FIX",
+                "text": " SmartFilterBar: analytical parameters are now taken properly as IN parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270163312"
+                    }
+                ]
+            },
+            {
+                "id": "479043cc495e9c9b573bc34cb5d9582954f518d4",
+                "type": "FIX",
+                "text": " SmartField: Busy indicator behaves properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270170506"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270173922"
+                    }
+                ]
+            },
+            {
+                "id": "1c1a24f0184f68e7ea81f36f3d01daf1242a6797",
+                "type": "FIX",
+                "text": " ODataModelUtil: service metadata loading fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270147376"
+                    }
+                ]
+            },
+            {
+                "id": "c6f2957247e3b6a3b50e08040ec4d3c64bac0ac4",
+                "type": "FIX",
+                "text": " FilterPanel: Filter now works after column is added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270162850"
+                    }
+                ]
+            },
+            {
+                "id": "294acb924346d7077ea65843e4baaca8d7276736",
+                "type": "FIX",
+                "text": " SmartTable: Empty filters should not create nestings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270163244"
+                    }
+                ]
+            },
+            {
+                "id": "a5ba0120dc48db36bb7db8b6aa369eb19269810c",
+                "type": "FIX",
+                "text": " FilterPanel: Duplicate id's error is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270167230"
+                    }
+                ]
+            },
+            {
+                "id": "86d4a00125dcef4f69fc421b87b2932569e2a1b3",
+                "type": "FIX",
+                "text": " SmartField: CompositeType exception is resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270161283"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270163301"
+                    }
+                ]
+            },
+            {
+                "id": "d12c288b0954a4b39c99ffc229c6538de3781e9f",
+                "type": "FIX",
+                "text": " SmartFilterBar: _validateState should check DynamicDateRange field valueState",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170253757"
+                    }
+                ]
+            },
+            {
+                "id": "faab12408b439a42a2b8831a815b2d3c974bfad7",
+                "type": "FIX",
+                "text": " SmartMultiEdit:Fix for wrong filter param in validation call and wrong value set when suggestion option is selected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270152481"
+                    }
+                ]
+            },
+            {
+                "id": "3f7e7703a13e06ea47f54888dcbb42d1f66bdb27",
+                "type": "FIX",
+                "text": " SmartForm: propagation of custom data now respects precedence",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270118842"
+                    }
+                ]
+            },
+            {
+                "id": "f9a97a05425828cbdb5d526a07cfaec21ce83ecd",
+                "type": "FIX",
+                "text": " SmartFilterBar: Matches pattern warning message now fixed"
+            },
+            {
+                "id": "d1a9f79c91e66332dcebc368d762f945ea8b5d8b",
+                "type": "FIX",
+                "text": " ValueList: fix suggestion when one property has multiple words",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270138268"
+                    }
+                ]
+            },
+            {
+                "id": "263b5470a84f2b288bdd97410bcfadb7465842c2",
+                "type": "FIX",
+                "text": " SmartForm: Duplicate title is removed when form is expandable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270134335"
+                    }
+                ]
+            },
+            {
+                "id": "e339eab5ef6812d1fb267c73e874ca2a4040400d",
+                "type": "FIX",
+                "text": " SmartField: Stabilize OPA test"
+            }
+        ]
+    }
+}

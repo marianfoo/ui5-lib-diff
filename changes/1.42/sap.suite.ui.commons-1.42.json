@@ -1,0 +1,288 @@
+{
+    "1.42.0": {
+        "date": "June 2016",
+        "notes": [
+            {
+                "id": "1e9d89db09a9bcf85ecea60ccbdce01474016c40",
+                "author": "Mingxin Fu <mingxin.fu@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.HeaderContainer: Keyboard navigation when leaving and returning to the control enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680118024"
+                    }
+                ]
+            },
+            {
+                "id": "ee4b1917d6689c40dead2c3e362b0e98581331b0",
+                "author": "Razvan Harsan <razvan.harsan@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.ProcessFlow: Critical state implemented"
+            },
+            {
+                "id": "b5bc01a786e7c1f94f5c28421c0aa33c6106cb49",
+                "author": "Petr Stribrny <petr.stribrny@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Full Screen button implemented as toggle button"
+            },
+            {
+                "id": "2bf8fb3df44bb65f8575a8056798d703c616d040",
+                "author": "Tatiana Medvedeva <tatiana.medvedeva@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Icon alignment for compact mode updated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000240647 2016"
+                    }
+                ]
+            },
+            {
+                "id": "c2b2ed48386b36d7e64e5de2c4cc073a526d66ae",
+                "author": "Srujani Rondla <srujani.rondla@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Belize theme updated"
+            },
+            {
+                "id": "920b88674d1aa30c4b776cfdd7734a99f52c218d",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.HeaderCell: HeaderCell and HeaderCellItem deprecated"
+            },
+            {
+                "id": "ba45418b23396b8124fed53042569262a3ec9bb2",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Toolbar height for compact mode updated"
+            },
+            {
+                "id": "1f047565047bcf6f08a5c2afb4f0ee6821a91426",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Control dependency management adapted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680168574"
+                    }
+                ]
+            },
+            {
+                "id": "b1e472c8640cc51b18f3525e095e9c67028aab3c",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Use case of unconnected root nodes enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000231621 2016"
+                    }
+                ]
+            },
+            {
+                "id": "d009515b725ff56d992c4c7e14a2ab9161a72aa0",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Property for double-sided timeline added and UI rendering updated"
+            },
+            {
+                "id": "d6e03cbd582fba737be02ad699b8233474fcdb98",
+                "author": "Srujani Rondla <srujani.rondla@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Panel background color for Belize theme modified"
+            },
+            {
+                "id": "446af27eea912362a75b5eda36ade511e78c072e",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Visual bugs for Belize theme corrected"
+            },
+            {
+                "id": "360d5b4c35ab762250c81aae0e7d62bdd6760fdc",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Keyboard handling for grouping property added"
+            },
+            {
+                "id": "e406c7abfa6bda7dd1c846e69d0f5524e249b19f",
+                "author": "Sylvia Strack <sylvia.strack@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Runtime error which occured if no node was focused removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680092933"
+                    }
+                ]
+            },
+            {
+                "id": "14bf28b0d8ec4478ea1787d85abd66a805eab368",
+                "author": "Mingxin Fu <mingxin.fu@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Title Control is used for ChartContainer title instead of Label Control"
+            }
+        ]
+    },
+    "1.42.1": {
+        "date": "August 2016",
+        "notes": [
+            {
+                "id": "50797d2258dfa02b4dcc741d41a73ce9e0fb5c9e",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.HeaderContainer: Behavior of resize handler in MS Edge adapted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670052541"
+                    }
+                ]
+            },
+            {
+                "id": "373bd3950bcaa8ea4f095fb2dacd9edf27f78ed1",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Tooltip for full screen button adapted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670380978"
+                    }
+                ]
+            },
+            {
+                "id": "66f12f109bf0d58d9fbc860af8fa4baf1d25c017",
+                "author": "Sylvia Strack <sylvia.strack@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Exit function of ProcessFlowConnectionLabel corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680222997"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000284717 2016"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.42.2": {
+        "date": "September 2016",
+        "notes": [
+            {
+                "id": "98b801aa2eb4a427ae5357a5dae65ab7fd3445c4",
+                "author": "Petr Stribrny <petr.stribrny@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.UnifiedThingInspector: Control aligned with sap_belize theme"
+            }
+        ]
+    },
+    "1.42.3": {
+        "date": "October 2016",
+        "notes": [
+            {
+                "id": "65b2af422049383a8f394331404bc92e126a2b8f",
+                "author": "Bohdan Pukalskyi <bohdan.pukalskyi@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Registration for resize handler on mobile devices added to cover cases when the ChartContainer height is modified after rendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670442023"
+                    }
+                ]
+            },
+            {
+                "id": "90ae320290fe4e37aa742836358afaa9d9b287c9",
+                "author": "Marco Vieth <marco.vieth@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.UnifiedThingInspector: Control aligned with themes"
+            }
+        ]
+    },
+    "1.42.4": {
+        "date": "October 2016",
+        "notes": [
+            {
+                "id": "f56d5eeb3747090e4884a5f877d34c16fa1db53b",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Screenreader reading text twice corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670524252"
+                    }
+                ]
+            },
+            {
+                "id": "7c27c37b73d6d6ca97892fac26cb5d9ef020f5fa",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Rendering with invisible items corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670545250"
+                    }
+                ]
+            },
+            {
+                "id": "ed191b2209676944dcaf18fc48391b631e3c464c",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Scrollbar is not visible when it is disabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670519261"
+                    }
+                ]
+            },
+            {
+                "id": "54c489896b52ca263950de38c880d3f28da9c5bb",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.HeaderCell: Deprecation version corrected"
+            },
+            {
+                "id": "0aaecb9e03c3b772742b315b94a9225223ed66e2",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Text selection of TimelineItem on touch screen displays improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670436464"
+                    }
+                ]
+            },
+            {
+                "id": "6f2e3fd827c6fe91167cfe28cdc293e33e904650",
+                "author": "Shweta Sugnani <shweta.sugnani@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons: Belize Plus color and icon alignment adjusted"
+            }
+        ]
+    },
+    "1.42.5": {
+        "date": "November 2016",
+        "notes": [
+            {
+                "id": "de70ce8764611c5c7ac49e75de64026e23f3b804",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Focus handling for non-scrollable ProcessFlow improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670562744"
+                    }
+                ]
+            }
+        ]
+    }
+}

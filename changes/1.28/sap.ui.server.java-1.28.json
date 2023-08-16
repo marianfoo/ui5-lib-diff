@@ -1,0 +1,112 @@
+{
+    "1.28.0": {
+        "date": "January 2015",
+        "notes": [
+            {
+                "id": "63e4ecdc4c97da6116aedfbbb5cd998410e3c3f5",
+                "type": "FIX",
+                "text": "ResourceServlet: CORS headers for initial cachebuster request added",
+                "references": []
+            },
+            {
+                "id": "e6fc65d5da88aa8fb67efa1da53419dc02e7ec56",
+                "type": "FIX",
+                "text": "ResourceServlet: Fixed the CORS handling (Vary header)",
+                "references": []
+            },
+            {
+                "id": "e55cd5cbf61fe63186e39cea665e4a5c35869f3d",
+                "type": "FEATURE",
+                "text": "Preload: Automated split of merged files now supported",
+                "references": []
+            }
+        ]
+    },
+    "1.28.1": {
+        "date": "March 2015",
+        "notes": [
+            {
+                "id": "56d8bcbdf9129ee80642b1a14559098d1fe5a78f",
+                "type": "FIX",
+                "text": "Preload: fix NPE during Component-preload.js generation",
+                "references": []
+            }
+        ]
+    },
+    "1.28.8": {
+        "date": "May 2015",
+        "notes": [
+            {
+                "id": "b47661c30da6a81b4b9dd63497dc1677110f4504",
+                "type": "FIX",
+                "text": "ResourceServlet: Closing the JAR handles ensured",
+                "references": []
+            }
+        ]
+    },
+    "1.28.15": {
+        "date": "August 2015",
+        "notes": [
+            {
+                "id": "4b7df72805a0e19e6e4bbbc0b0e5ec2544dd6e1a",
+                "type": "FIX",
+                "text": "Bug fixed in SupportTool",
+                "references": []
+            }
+        ]
+    },
+    "1.28.16": {
+        "date": "August 2015",
+        "notes": [
+            {
+                "id": "4b7df72805a0e19e6e4bbbc0b0e5ec2544dd6e1a",
+                "type": "FIX",
+                "text": ": Bug fixed in SupportTool",
+                "references": []
+            }
+        ]
+    },
+    "1.28.26": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "de72a11f986de758635c2f33b62ae147fdb2f10c",
+                "type": "FIX",
+                "text": "AppCacheBusterFilter: prevent access of hidden servlet paths",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570894487"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.28.34": {
+        "date": "May 2016",
+        "notes": [
+            {
+                "id": "fd225c1643148a819dd992d7090becdd494e2262",
+                "type": "FIX",
+                "text": "MultiVersionFilter: usage of LRUCache as resource cache",
+                "references": []
+            }
+        ]
+    },
+    "1.28.36": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "bfab89467cd77bd0a72341e2f0ec476e9c32ceaa",
+                "type": "FIX",
+                "text": "MultiVersionFilter: add 304 support for versioned resources",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001579232016"
+                    }
+                ]
+            }
+        ]
+    }
+}

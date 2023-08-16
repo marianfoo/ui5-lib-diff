@@ -1,0 +1,354 @@
+{
+    "1.114.0": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "57e36c85ddb4cfd9ce415db725ffa6d9e3e7be77",
+                "type": "FIX",
+                "text": " We've resolved an issues related to the changing of data of a connected field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370031760"
+                    }
+                ]
+            },
+            {
+                "id": "2716157a57e3eb2587103e4b47b9235f223ea1fd",
+                "type": "FEATURE",
+                "text": " A data field within an empty row of a table is now kept in display mode when the underlying property is listed under the NonInsertableProperties annotation"
+            },
+            {
+                "id": "ccb466e833c594c05d60842607df5a644ff81754",
+                "type": "FEATURE",
+                "text": " You can now disable the option AddCardToInsights in the manifest"
+            },
+            {
+                "id": "9b01a5f30dc7b8ff9adfc0f9be8b93d92735b66c",
+                "type": "FIX",
+                "text": " We have resolved an issue with enabling the Delete button on an object page table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380023090"
+                    }
+                ]
+            },
+            {
+                "id": "945f071a98d6243e5a4514d6794df5271c3f4046",
+                "type": "FEATURE",
+                "text": " We now offer a 'Share as card' option in Microsoft Teams"
+            },
+            {
+                "id": "a65cae984e28a73307b645e961d4d9859bc1e7c4",
+                "type": "FEATURE",
+                "text": " We now support the creation of insights cards from list report tables."
+            },
+            {
+                "id": "8bcd0126b6dee0e25e37c678918305b1e46d6d8c",
+                "type": "FEATURE",
+                "text": " In collaboration mode, when the user wants to navigate to a draft that no longer exists, we now redirect to the version that was saved by another user in the meantime"
+            },
+            {
+                "id": "5951e9122049f2afc5fa918e06716a19e77685af",
+                "type": "FEATURE",
+                "text": " We no longer show the busy indicator when a user clicks the ‘Apply’ button on a subobject page"
+            },
+            {
+                "id": "b7ace074381ba97ace11ef32a9fac1b327f139c7",
+                "type": "FIX",
+                "text": " We've resolved the issue related to displaying the Delete button on the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370000636"
+                    }
+                ]
+            },
+            {
+                "id": "1545c85876ec614b254ed2577ef38c7b3c9d5c22",
+                "type": "FIX",
+                "text": " We now process the InitialLoad setting correctly for control-level variant management",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370039824"
+                    }
+                ]
+            },
+            {
+                "id": "7ba9d7c69b94ae9cd173f29f43815de565865228",
+                "type": "FIX",
+                "text": " Empty rows are now displayed in the creation mode until the editMode is fully computed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370033962"
+                    }
+                ]
+            },
+            {
+                "id": "4e97fb185ba7ba6e05b845146fefe72351426c5f",
+                "type": "FIX",
+                "text": " You can now delete draft-enabled entities with no delete restrictions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370015807"
+                    }
+                ]
+            },
+            {
+                "id": "f137cc12ea1a680001608998cf5e09ed5b51f984",
+                "type": "FIX",
+                "text": " The target for the 'Requested Quantity' message is now set properly in the sub-object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370034652"
+                    }
+                ]
+            },
+            {
+                "id": "781b245906825e057e6b727a840b4262143a933d",
+                "type": "FEATURE",
+                "text": " We've now enabled the filtering on draft-related properties by default"
+            },
+            {
+                "id": "305047b6a556a45bd81f2847d1f3118ad058960d",
+                "type": "FIX",
+                "text": " We now ensure that URL parameters are correctly encoded while navigating using a breadcrumb link or shell navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370032378"
+                    }
+                ]
+            },
+            {
+                "id": "0125ef0f7c39987024f52b0c2f30563e1d27fbe0",
+                "type": "FIX",
+                "text": " We've now disabled the variant management by default at the control level on the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "91245063d0a92033d3dab7083d55c26d298634aa",
+                "type": "FIX",
+                "text": " We now ensure that the ARIA popup for the Discard Draft button on the object page is added only when the dialog appears",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370005302"
+                    }
+                ]
+            },
+            {
+                "id": "19424a97f97d8513fa7143d5b5de54478f77bf7a",
+                "type": "FEATURE",
+                "text": " We now support SideEffects with multiple SourceProperties for the MultiValueField in a virtual field group"
+            },
+            {
+                "id": "59503dfb0712d04ecb53908573bea69ee807c52f",
+                "type": "FIX",
+                "text": " Clicking Cancel in the confirmation popup for critical actions on an object page now ensures the user returns to the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370034589"
+                    }
+                ]
+            },
+            {
+                "id": "9792be831a0e03ec31c5f53d7ab818e2b4398324",
+                "type": "FEATURE",
+                "text": " The Continue button of create actions is now always enabled"
+            },
+            {
+                "id": "1fca58de49980eae2ffa347a46838c2f05b94fa6",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the enablement of the Delete button in a table after a SideEffect request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380023090"
+                    }
+                ]
+            },
+            {
+                "id": "58ff691b6e9e0a82f2d4fa05791c72a422c44239",
+                "type": "FIX",
+                "text": " We've added the landmark information for the footer of the object page, which is required for the screen reader",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370005220"
+                    }
+                ]
+            },
+            {
+                "id": "044f9499b1ebd6e850970c1edb507af1ecc43b56",
+                "type": "FIX",
+                "text": " We now manage the runtime building block with an event associated to a CommandExecution to ensure tooltips are correctly displayed for all buttons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370021013"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.1": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "75380465bdf672078739b7133ada1950acef96c9",
+                "type": "FIX",
+                "text": " We now consider user-specific default values in the ‘create’ action parameter dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370050777"
+                    }
+                ]
+            },
+            {
+                "id": "ff9c5b897899b908ea0ecb4a48a89447e6e81e7c",
+                "type": "FIX",
+                "text": " We have resolved an issue with the contextPath when using the loadFragment extension method",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380073756"
+                    }
+                ]
+            },
+            {
+                "id": "0c659dbec3fde7e2ccf478bc2fd4f8f5f88a788e",
+                "type": "FIX",
+                "text": " We now ensure that the Add Card to Insights option is hidden in by default when a user shares using Microsoft Teams",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380054998"
+                    }
+                ]
+            },
+            {
+                "id": "b23fa735bf748f8d26c121a4df2fd4457ce687a1",
+                "type": "FIX",
+                "text": " If the app state is transient, we set getSuspendedSelection back to false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003768422023"
+                    }
+                ]
+            },
+            {
+                "id": "4fa8ce6a264a791d76b141b2991b0cd9b6be30ed",
+                "type": "FIX",
+                "text": " Pressing Enter when the focus is set on a transient row containing the default values now executes the PrepareAction",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370069535"
+                    }
+                ]
+            },
+            {
+                "id": "1415c46fa6695abab95b9abbda7e3e935b8b3de2",
+                "type": "FIX",
+                "text": " We now ensure that the Property labels that are visible in the personalization dialog of a table are set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "c709f58feb47dedeeb703b321a442dbabcb5fd53",
+                "type": "FIX",
+                "text": " We now highlight the recommended field if it is empty and remove highlighting if it has a value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380051293"
+                    }
+                ]
+            },
+            {
+                "id": "d5bef49e467340da8150c40eab8eaaa263a8b44d",
+                "type": "FIX",
+                "text": " You can now execute the PrepareAction or global side effects by pressing Enter in the draft mode on a transient row",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380058201"
+                    }
+                ]
+            },
+            {
+                "id": "98f149ae18aaf37a6c8ff4084d4dd0ec96fbe35b",
+                "type": "FIX",
+                "text": " We now clear recommended values only if the previous context and the current context are different REVERT",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "d3bdd5735922cd43537eda9b993cb75e7b311ab6",
+                "type": "FIX",
+                "text": " We now clear recommended values only if the previous context and the current context are different",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380046312"
+                    }
+                ]
+            },
+            {
+                "id": "03334521282e4c3940c1e99a0e05f617e64febfb",
+                "type": "FIX",
+                "text": " We now ensure that the sticky session is managed properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380048202"
+                    }
+                ]
+            },
+            {
+                "id": "e9f6c3da4e0897b73ad25d84e1cd2eb7710e8a7d",
+                "type": "FIX",
+                "text": " We now ensure the message strip is removed when users change from Edit to Display mode (and the other way around)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370062942"
+                    }
+                ]
+            },
+            {
+                "id": "5199200a445e4feb45d2b34e63263f5ea4606183",
+                "type": "FIX",
+                "text": " We have now added the changes to highlight the fields as Information if it has recommendations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370074051"
+                    }
+                ]
+            }
+        ]
+    }
+}

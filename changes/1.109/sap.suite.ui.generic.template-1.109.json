@@ -1,0 +1,152 @@
+{
+    "1.109.0": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "I7d9afeeee29db9f79581a761f72714343f7166e4",
+                "type": "FEATURE",
+                "text": "You can now define the title and the button label for NewAction with parameters"
+            },
+            {
+                "id": "Ia6bfb19f3f98f35c36e2de2f70b87b59b662658b",
+                "type": "FEATURE",
+                "text": "In object page, the structuring of messages in the message popover is now improved"
+            },
+            {
+                "id": "I9a7787d2015102db52fe23a4876ad7984e9ebc88",
+                "type": "FEATURE",
+                "text": "For smart control in the object page, variant management is now enabled by default"
+            },
+            {
+                "id": "I37e53b5bd9be2576a06c56f2e4ec5147e4695526",
+                "type": "FEATURE",
+                "text": "Microsoft Teams share option is now integrated for list report, object page and analytical list page"
+            },
+            {
+                "id": "I893e14b86e243e708b692f795d19d1a00e099483",
+                "type": "FIX",
+                "text": "Locked indicator is now displayed correctly on the subobject pages in the object pagee",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280102523"
+                    }
+                ]
+            },
+            {
+                "id": "I9c209cedc1d51876626588115dff713378f1c825",
+                "type": "FIX",
+                "text": "The defaultTextInEditModeSource property is now added in the SmartForm Level to avoid console log in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270118842"
+                    }
+                ]
+            },
+            {
+                "id": "Ic97ff19b18c9aa3179a876c4c7fd98deecae4530",
+                "type": "FIX",
+                "text": "In the list report and object page, filters are now created with the instances of model. Also, oDialog is now removed from the calling function's parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270128628"
+                    }
+                ]
+            },
+            {
+                "id": "Ibca28a54faeb8f8058ae487334e9e96f76a6a761",
+                "type": "FIX",
+                "text": "'Add to Insights' is now hidden in the analytical list page"
+            },
+            {
+                "id": "I82f48b3a016b84ab25e301e39c08df78d8fe940e",
+                "type": "FIX",
+                "text": "The 'Add to My Home' option is now moved to the overflow and additional checks have been added to make this option appear on the responsive table"
+            },
+            {
+                "id": "I989fa276b44e7d16a42c3281577f895afb099a59",
+                "type": "FIX",
+                "text": "For lazy loading in the object page, the embedded component in the existing section is now initialized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270127704"
+                    }
+                ]
+            },
+            {
+                "id": "I95d36b1b9009a324a3cd58d607a416e13fe81f18",
+                "type": "FIX",
+                "text": "Dependency that was causing safetynet issue is now removed"
+            },
+            {
+                "id": "I2ad8536390df76f7df965ed098cc317c8a98888a ",
+                "type": "FIX",
+                "text": "Invisible button occupying space and causing OPA failures is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270165262"
+                    }
+                ]
+            },
+            {
+                "id": "I2fd2f77bafeda083283f7f97b1f03172a3591bcd",
+                "type": "FIX",
+                "text": "For the navigation from overview page to list report, NavigationSortOrder is now corrected for when the sortOrder is not available in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "202210250346"
+                    }
+                ]
+            },
+            {
+                "id": "I27fff8bcdaa8b6b7d6f95204212124f64db0dc32",
+                "type": "FIX",
+                "text": "Namespace has been added to the Fiori elements link for the list report and object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270117449"
+                    }
+                ]
+            },
+            {
+                "id": "I647a5a3090944bfd08b2f57ae95844ba19d86993",
+                "type": "FIX",
+                "text": "In the object page, the action message dialog title and text is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280127598"
+                    }
+                ]
+            },
+            {
+                "id": "I5f2e0bf9462abccec9a15429ed2b7a6f9cb1179e",
+                "type": "FIX",
+                "text": "For object page, css class is now removed to reduce additional padding in the object page section",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270156903"
+                    }
+                ]
+            },
+            {
+                "id": "Idb7bef1b46823ca72a8f9412a295860fba0adcc9",
+                "type": "FIX",
+                "text": "The draft discard popup now appears even when another object is being displayed in between within the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270137479"
+                    }
+                ]
+            }
+        ]
+    }
+}

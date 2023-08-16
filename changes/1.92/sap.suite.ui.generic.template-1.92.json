@@ -1,0 +1,119 @@
+{
+    "1.92.0": {
+        "date": "June 2021",
+        "notes": [
+            {
+                "id": "Ia844e7a7502821b88a1b7e7ea385977e4cbe58fb",
+                "type": "FEATURE",
+                "text": "LR: Smart table is refreshed upon back navigation from external create object page for applications with sap-keep-alive configuration"
+            },
+            {
+                "id": "I56da7f21e238ebd77e8d4e086b11deb0ada3a014",
+                "type": "FEATURE",
+                "text": "Auto refresh alignment and performance improvement with Overview Pages."
+            },
+            {
+                "id": "I574902eedc72075f0ac2892b7778a23b6708834f",
+                "type": "FEATURE",
+                "text": "Record type DataFieldWithNavigationPath now shows descriptive text and ID"
+            },
+            {
+                "id": "I56e8540c30185fd77edc820c8bcef728ea2ec389",
+                "type": "FEATURE",
+                "text": "LR: Support Context-Independent actions WITH parameters in sap.ui.generic.app"
+            },
+            {
+                "id": "I31774e4905644e82fc4156640a9c343de1e37714",
+                "type": "FEATURE",
+                "text": "LR: Object creation through dialog enabled in the list report with multiple views."
+            },
+            {
+                "id": "Ia793aa47ebf83a57377f7f6d4af20a26f36ca5f7",
+                "type": "FEATURE",
+                "text": "LROP : Replace the access to document.URL in all places of FE"
+            },
+            {
+                "id": "Id6ff3819ab47fa7b251d55048df6ed5df85fe12b",
+                "type": "FIX",
+                "text": "OP:Node extensibility iterate manifest when under pages structure",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180182231"
+                    }
+                ]
+            },
+            {
+                "id": "I66aa13b1cecbd22adb90392458e6c51b2342073c",
+                "type": "FIX",
+                "text": "OP: Added undefined check for smartControl variable before calling fnGetGenericMultipleViewsHandler function",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180198184"
+                    }
+                ]
+            },
+            {
+                "id": "I94dd280cfc35123d3f99637bed1689038590345e",
+                "type": "FIX",
+                "text": "Analytical table do not define sort and filter property when communication contact has navigation property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180141800"
+                    }
+                ]
+            },
+            {
+                "id": "I7a7b560c7f4d0379f4788e6ba5746201e3bc0849",
+                "type": "FIX",
+                "text": "LR/OP: Column width calculation for the columns with navigation property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180207256"
+                    }
+                ]
+            },
+            {
+                "id": "I6b1d79b4ec969702dd1bc3bcda4b363f5580224b",
+                "type": "FIX",
+                "text": "OP: tolerance for wrong facet record types",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003562552021"
+                    }
+                ]
+            },
+            {
+                "id": "I22aaaea93048eda9d68b09b3f8d98ab0d21112bc",
+                "type": "FIX",
+                "text": "Dont create appState while application is in initial state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180148860"
+                    }
+                ]
+            },
+            {
+                "id": "I99789fc5393a2d6ada883392d1c9ae2b0f4b4239",
+                "type": "FIX",
+                "text": "OP Ensure that table is refreshed after action call",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180169226"
+                    }
+                ]
+            },
+            {
+                "id": "I39b0e21d3aabe5e61656c16d2ab3383b9e174d93",
+                "type": "FIX",
+                "text": "OP: Trigger Side effect on structural changes in non-draft"
+            }
+        ]
+    }
+}

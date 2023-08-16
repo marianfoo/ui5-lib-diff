@@ -1,0 +1,320 @@
+{
+    "1.89.0": {
+        "date": "April 2021",
+        "notes": [
+            {
+                "id": "I64f3b425d1273a67d387e5b9e4d97f2c83019663",
+                "type": "FEATURE",
+                "text": "ALP: Default value of semantic date field added"
+            },
+            {
+                "id": "Ied9b007abb58f23cb5de15e8c0c255170877cadd",
+                "type": "FEATURE",
+                "text": "LR: Default value of semantic date field added"
+            },
+            {
+                "id": "Ia953d67a3a3c85918cdb91abb7ff30c42286a4b5",
+                "type": "FEATURE",
+                "text": "LR: Default value of semantic date field added"
+            },
+            {
+                "id": "I994c3c4e0108e2fb081cfcb0301ca56d7afa7a0f",
+                "type": "FEATURE",
+                "text": "OP: 'Share' functionality for draft objects has been hidden"
+            },
+            {
+                "id": "I50783de243796e370bffa30d098eb5705d30e553",
+                "type": "FEATURE",
+                "text": "Content-ID referencing during draft activation now introduced"
+            },
+            {
+                "id": "I9a2af0543d6a02747b5a63d476cedaa8b9cb030a",
+                "type": "FEATURE",
+                "text": "Smart forms are now validated before executing side effects"
+            },
+            {
+                "id": "I666f671862b10cab90881cb44d999eb40c289d35",
+                "type": "FEATURE",
+                "text": "LR: Default value of semantic date field added"
+            },
+            {
+                "id": "Iceb09e406eb5ccad86453f0c05b5f324bc0dd0f6",
+                "type": "FEATURE",
+                "text": "LR: Default value of semantic date field added"
+            },
+            {
+                "id": "I1de00bcac6e2793e1a14d4ccf8cefbe807028dac",
+                "type": "FEATURE",
+                "text": "ALP:  Content area auto refreshed after every X milliseconds"
+            },
+            {
+                "id": "Ia31c5486b620e737c7fc2030063bce52021578f7",
+                "type": "FEATURE",
+                "text": "Filter bar updated so as not to collapse in desktop devices during start of an app"
+            },
+            {
+                "id": "Ief41734b417809c20a417d0a4420a05109aadbc9",
+                "type": "FIX",
+                "text": "OP: Promise added to extensionAPI.onCustomStateChange",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170081461"
+                    }
+                ]
+            },
+            {
+                "id": "Ib234f6351398bbcc2052c12ad7efbd7a0b2f1c6b",
+                "type": "FIX",
+                "text": "LR: iAppState handled via statePreserver",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170042597"
+                    }
+                ]
+            },
+            {
+                "id": "Ifc377dbefdd7cc5bc0f4bb60fc3b015bccdd891b",
+                "type": "FIX",
+                "text": "OP: Focus of avatar control improved to cover all four sides",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180128629"
+                    }
+                ]
+            },
+            {
+                "id": "Ic495531346bb8039563923b2fadde57a1466fa5a",
+                "type": "FIX",
+                "text": "LR: Transforming date parameter ignored on startup when the value does not contain time",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170061163"
+                    }
+                ]
+            },
+            {
+                "id": "I395384d44daa168200283dc2b027ec1661364f2e",
+                "type": "FIX",
+                "text": "Superfluous console error has been removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170032708"
+                    }
+                ]
+            },
+            {
+                "id": "I48b4c668b1cd6ce8ec485d7ef1320fa924e5c23a",
+                "type": "FIX",
+                "text": "OP: Invalid facet annotation tolerated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170078095"
+                    }
+                ]
+            },
+            {
+                "id": "Icb96c9b384231fffac2ea9e3d304765f02756c9c",
+                "type": "FIX",
+                "text": "OP: Unknown targets no longer fallback to SmartForm",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170078095"
+                    }
+                ]
+            },
+            {
+                "id": "Ica27830d94009e2aeafc95d61a532c82aee182ca",
+                "type": "FIX",
+                "text": "Navigation enhanced to not break when CrossAppNavService returns no data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180134661"
+                    }
+                ]
+            },
+            {
+                "id": "Id0c7295ef62c29f9f98da69eed341e6e74bd1d7f",
+                "type": "FIX",
+                "text": "LR/OP/ALP: Enhanced reducing entitySet functionality to avoid errors when quickview entity is switched off and removed from metadata",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170062709"
+                    }
+                ]
+            },
+            {
+                "id": "Iafe8848a1c3c5519c0b2dd4b82fa09c4b113943a",
+                "type": "FIX",
+                "text": "OP: Actions in reference facets for UI.Identification ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170059467"
+                    }
+                ]
+            },
+            {
+                "id": "Ib6a1ed07dcb74319d3b766011ccfc60e35ae5695",
+                "type": "FIX",
+                "text": "OP: Tolerance improved for broken reference facet annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170070379"
+                    }
+                ]
+            },
+            {
+                "id": "I3ac0823d066c4a5b5e848f1f7f4747ab323d1bc3",
+                "type": "FIX",
+                "text": "OP: Cross navigation from table items fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170032675"
+                    }
+                ]
+            },
+            {
+                "id": "Ib506e6f3c6522ba5b8d9e56643796a0ed2934721",
+                "type": "FIX",
+                "text": "LR: Appropriate column width is now set for semantic key fields if sap:text is defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170007503"
+                    }
+                ]
+            },
+            {
+                "id": "Ibd4a0c6a617d1bb0482f7744e07be3bf0e37ab8c",
+                "type": "FIX",
+                "text": "LR: Enhancements made to not take over rendering draft indicator column in non-draft apps/objects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170048214"
+                    }
+                ]
+            },
+            {
+                "id": "Ibc9a3f88c9048cc968eb40fed5ad0716b14f33fe",
+                "type": "FIX",
+                "text": "OP: Applicable path of custom determining actions considered for footer visibility",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970383029"
+                    }
+                ]
+            },
+            {
+                "id": "Ie512e4d455bec81da4befa32d0121b1dcd063b8f",
+                "type": "FIX",
+                "text": "OP: Promise returned by DiscardEditHandler enhanced to function correctly"
+            },
+            {
+                "id": "I50ec0807bf54fbd95db74ae663d07a070a73c66c",
+                "type": "FIX",
+                "text": "Master detail floorplan should work again"
+            },
+            {
+                "id": "I5a1c15c0b634ea89630073b3ced2fc72f41e76ce",
+                "type": "FIX",
+                "text": "LR/OP: Binding parameters added to the table derived from dynamic semantic object and action properties for DataFieldWithIntentBasedNavigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170056337"
+                    }
+                ]
+            },
+            {
+                "id": "I80fa70aa81ae75b5da83228ee354f3a82a8cf439",
+                "type": "FIX",
+                "text": "LR: 'Apply variant' functionality is now passed during navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000185400 2021"
+                    }
+                ]
+            },
+            {
+                "id": "Iba5b16720a65c3c5cd44078a0211813ec884054c",
+                "type": "FIX",
+                "text": "Ensured arialabelledby is not added every time the dialog is opened",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170026781"
+                    }
+                ]
+            },
+            {
+                "id": "I248204294653d77e612decbde64f7fee5b71238c",
+                "type": "FIX",
+                "text": "LR/OP: Support provided for dynamic semantic object and action values for DataFieldWithIBN",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180114525"
+                    }
+                ]
+            },
+            {
+                "id": "Ide05bf593d9698282103151eabba7e99f4db5b15",
+                "type": "FIX",
+                "text": "Draft cancellation improved to open newly created item in flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170014622"
+                    }
+                ]
+            },
+            {
+                "id": "I96be92f6620773acca5d12c6135511b6bafbce2a",
+                "type": "FIX",
+                "text": "LR: Overlay not set in case of live mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180112399"
+                    }
+                ]
+            },
+            {
+                "id": "Ia282152325d9d596fceda612abf94ab218dd3775",
+                "type": "FIX",
+                "text": "OP: Extension provided for FieldGroups containing only actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170020485"
+                    }
+                ]
+            },
+            {
+                "id": "Id74817a1876d1c1611e6468755227709747179fc",
+                "type": "FIX",
+                "text": "Column width set to auto only when 'enableAutoColumnWidthForSmartTable' is set False",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170031469"
+                    }
+                ]
+            }
+        ]
+    }
+}

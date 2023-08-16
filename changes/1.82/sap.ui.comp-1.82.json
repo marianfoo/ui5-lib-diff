@@ -1,0 +1,177 @@
+{
+    "1.82.0": {
+        "date": "August 2020",
+        "notes": [
+            {
+                "id": "a46e742dcb1c752a385cb82e0ce88f86a0ecbbda",
+                "type": "FIX",
+                "text": " SmartField: handle uncaught error in the console",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080288476"
+                    }
+                ]
+            },
+            {
+                "id": "b43888d0bc081d9280cf9e6b89c1d5db0afc6f37",
+                "type": "FIX",
+                "text": " ValueListProvider: prevent binding suggestion aggregation if already bound",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080313436"
+                    }
+                ]
+            },
+            {
+                "id": "3a9b163184fa6cb4a8c8a6853a343c7359875b8e",
+                "type": "FIX",
+                "text": " SmartField: Fired change event when textInEditModeSource enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080337523"
+                    }
+                ]
+            },
+            {
+                "id": "35ae896cee6b8dc36005644e55bddf1779e56370",
+                "type": "FIX",
+                "text": " SmartField: Removed duplicated Value List request in display mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080167558"
+                    }
+                ]
+            },
+            {
+                "id": "c33577d9d7f5da79f5f8c5bfde78a52643747f73",
+                "type": "FIX",
+                "text": " ValueListProvider: bind suggestion aggregation as late as possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080157784"
+                    }
+                ]
+            },
+            {
+                "id": "ac8877703ca8cc387e68af2379ce0223304788be",
+                "type": "FIX",
+                "text": " ValueListProvider: consider inParams for fields in recently used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005321372020"
+                    }
+                ]
+            },
+            {
+                "id": "b794f41310dc045e64af5662cbf7c5a119aa4e24",
+                "type": "FIX",
+                "text": "SmartField: TextInEditModeSource and FieldControl supported simultaneously",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080300573"
+                    }
+                ]
+            },
+            {
+                "id": "c83f8a3ebe9cea18ed783e138b65a2d9ad92f6a4",
+                "type": "FEATURE",
+                "text": " Chart: Some calendar and fiscal annotations supported",
+                "references": []
+            },
+            {
+                "id": "d467aef8d98524ceb8f67e77505b0b671c169eb2",
+                "type": "FEATURE",
+                "text": " SmartForm: Default textInEditModeSource can be set for all SmartFields",
+                "references": []
+            },
+            {
+                "id": "0d2e0d957915076fb80dffd6a5c484310f87a90c",
+                "type": "FEATURE",
+                "text": " comp.FilterBar: new adapt filters dialog",
+                "references": []
+            },
+            {
+                "id": "624353d0e769696c8e70a287d4409e7658dbb974",
+                "type": "FIX",
+                "text": " SmartField: Pass type as a string to a binding fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080352507"
+                    }
+                ]
+            },
+            {
+                "id": "0e446e6210c5f95966b22d3e084dbec275850e3b",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Token can be added if key is not encoded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000500363 2020"
+                    }
+                ]
+            },
+            {
+                "id": "96e3ec0a8e13b3518e7af573c3a84e7d812b16c6",
+                "type": "FIX",
+                "text": " ValueListProvider: consider inParams for suggestion filtering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080348235"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005321372020"
+                    }
+                ]
+            },
+            {
+                "id": "8a30dbbf1f27a6dc1e7c6956b55ad1d956228f60",
+                "type": "FIX",
+                "text": " ValueListProvider: bind ComboBox/MultiCombobox when data is fetched",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080359660"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080358835"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080341418"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080358764"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080348788"
+                    }
+                ]
+            },
+            {
+                "id": "060cc7c1bdd65f38657fad033d02d5cb2ddb24d8",
+                "type": "FIX",
+                "text": " ValueListProvider: prevent showing recently used if suggestions are already opened",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080206235"
+                    }
+                ]
+            }
+        ]
+    }
+}

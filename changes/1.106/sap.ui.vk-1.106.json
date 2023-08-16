@@ -1,0 +1,129 @@
+{
+    "1.106.0": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "6ff1bf8cce27848bb4b5444ff7c104f4da6e80fd",
+                "type": "FIX",
+                "text": " Follow VIT viewport selection pattern to get the closest entity or visible element."
+            },
+            {
+                "id": "966202b311f8649b35636b56d7e44fc33574e4e1",
+                "type": "FIX",
+                "text": " Disable mipmaps for MeshBasicMaterial"
+            },
+            {
+                "id": "09e2d75c2e1827c82f621b9f809dd0cd483afe8c",
+                "type": "FIX",
+                "text": " Redline Tool issue with zoom/pan"
+            },
+            {
+                "id": "506984a9ce8a196ae5acaf43eb0046f104028731",
+                "type": "FIX",
+                "text": " Show face area even when it is not selected"
+            },
+            {
+                "id": "5201c03633c12afc78f7a72c6f4d07214a499c0c",
+                "type": "FIX",
+                "text": " Remove threejs warning for empty()"
+            },
+            {
+                "id": "1930d73955fb3790cae839bdf8abd67c5639b9c6",
+                "type": "FIX",
+                "text": " Panel header text screen reading repetition.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270053587"
+                    }
+                ]
+            },
+            {
+                "id": "929031c79ad74513a3c0ce79cb924fbb6ce1004c",
+                "type": "FIX",
+                "text": " Check for viewport after byId() calls"
+            },
+            {
+                "id": "0f28059077d30a1a73aa3eb24eb9432954aba0e9",
+                "type": "FIX",
+                "text": " Incorrect part position in animation sequence with merged components"
+            },
+            {
+                "id": "4f298b44e808d5cc0d2f0396496c80d9e06e3546",
+                "type": "FIX",
+                "text": " THREE.Raycaster issue with orthographic camera"
+            },
+            {
+                "id": "29057133b56c91ac1cce36a39aaba4d64a1a9104",
+                "type": "FIX",
+                "text": " Animated objects displacement issue"
+            },
+            {
+                "id": "d5a35f3d29846656e7b1f1dd4a830975aba12de1",
+                "type": "FIX",
+                "text": " Increase angle measurement precision for face to face measurements"
+            },
+            {
+                "id": "5e4af2a430abfb3b88d6a472294b333da1304b4d",
+                "type": "FIX",
+                "text": " Fix angle measurement highlighting color"
+            },
+            {
+                "id": "4d05cdf4383785dea0fd6938bdade3996324986f",
+                "type": "FEATURE",
+                "text": " Add measurement serialization to collaboration"
+            },
+            {
+                "id": "4520355f53f846546b71173b132803b72a3d95e8",
+                "type": "FIX",
+                "text": " Fix undo on area measurement placement"
+            },
+            {
+                "id": "0e0fdab3fccb9ab8ad50f9722b87aa0da2f825c7",
+                "type": "FIX",
+                "text": " Angle measurement 3rd feature"
+            },
+            {
+                "id": "2d434e29e637e933fb96433d32ef80516556d2a0",
+                "type": "FIX",
+                "text": " Fix dependency on VBI from Overlay",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270081632"
+                    }
+                ]
+            },
+            {
+                "id": "954e492066052d1e718e6f4433cb1c0d09a957bf",
+                "type": "FIX",
+                "text": " Fix angle measurement crash in some scenes and area self intersection test"
+            },
+            {
+                "id": "1dae0bdbb3114bbfbaa625386a70a744f39456c5",
+                "type": "FIX",
+                "text": " 3D markers in 3D -  allows markers to move"
+            },
+            {
+                "id": "93710c013231a48097f59c020bff92c947c6d20a",
+                "type": "FEATURE",
+                "text": " Angle and area measurements"
+            },
+            {
+                "id": "670e4dca543070ea3f30bc3c87bdb20ee55f9d55",
+                "type": "FIX",
+                "text": " Do not rename an element node when it is an only child of an entity"
+            },
+            {
+                "id": "6d79af3c6acbe03ae9cebbe8abd39ae2beb7c272",
+                "type": "FIX",
+                "text": " SVG viewport: camera position in collaboration"
+            },
+            {
+                "id": "9241052056e1ba9ee41ece52f3df8c2b24398a8f",
+                "type": "FEATURE",
+                "text": " Preserve measurement features"
+            }
+        ]
+    }
+}

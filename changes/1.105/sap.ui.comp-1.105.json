@@ -1,0 +1,566 @@
+{
+    "1.105.0": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "4dfaa513790473d73098f62f0bc52d0313876ea8",
+                "type": "FIX",
+                "text": " comp.SmartVariantManagement: consider late variant title binding",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280143290"
+                    }
+                ]
+            },
+            {
+                "id": "9a6cbec39e3fed34ca2ac342e6ab5da97de83ba6",
+                "type": "FIX",
+                "text": " SmartFilterBar: DynamicDateRange clear incorrect input value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280138327"
+                    }
+                ]
+            },
+            {
+                "id": "cd252bc9449e18ac5b462d4731a30881b81f7f59",
+                "type": "FIX",
+                "text": " comp.FilterBar: correct reset handling when no VM is declared",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280141024"
+                    }
+                ]
+            },
+            {
+                "id": "14339895bde9dbb334538b2da6b6a34403daa5e6",
+                "type": "FIX",
+                "text": " comp.SmartVariantManagement : consider design time mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280141057"
+                    }
+                ]
+            },
+            {
+                "id": "54448caae631d02e6087322af3d7f18f78d1aab2",
+                "type": "FIX",
+                "text": " SmartTable: Auto Column Size - Consider Metadata and p13nData settings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280133416"
+                    }
+                ]
+            },
+            {
+                "id": "d0ce388fe89ca3e22f55aee26ab45ce7e9ca8f05",
+                "type": "FIX",
+                "text": "  SmartFilterBar: Shows correct date in DynamicDateRange",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280138168"
+                    }
+                ]
+            },
+            {
+                "id": "9be3a2da65688a5576769648ea44fac258a01d2c",
+                "type": "FIX",
+                "text": " SmartFilterBar: filterDefaultValue can now work with single-value filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270074398"
+                    }
+                ]
+            },
+            {
+                "id": "b2bd814d57044353bd6cef54ee86bfc487069306",
+                "type": "FIX",
+                "text": " SmartField: editable formatter fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280138847"
+                    }
+                ]
+            },
+            {
+                "id": "4605136a6edef921c418b5644fcf6bb6c1565505",
+                "type": "FIX",
+                "text": " comp.SVM: support stable IDs in manage views dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280136904"
+                    }
+                ]
+            },
+            {
+                "id": "f399323288880074cf7fa68fbeb8caa3ad4b5723",
+                "type": "FEATURE",
+                "text": " Value Help Dialog/Type: Result table is with optimized column width"
+            },
+            {
+                "id": "d3103a2ed1c4c5e615b80a2e2798799c75d7335b",
+                "type": "FIX",
+                "text": " comp.SVM: optimize modification handling during save",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280135359"
+                    }
+                ]
+            },
+            {
+                "id": "f621bbcf95a40d1007853b79a7fb47008b20cd1b",
+                "type": "FEATURE",
+                "text": " SmartField: clientSideMandatoryCheck improvement for strings"
+            },
+            {
+                "id": "ec26308cc4d77065f350035e80da2af55039d19b",
+                "type": "FIX",
+                "text": " SmartFilterBar: correctly restore custom semantic date option",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280131157"
+                    }
+                ]
+            },
+            {
+                "id": "e9bdb7fac94e5bcea3ea32f792d2eafa16cde853",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct padding for Date controls in Horizon theme",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280092209"
+                    }
+                ]
+            },
+            {
+                "id": "f4c831b4c4e5f013155e52532f0a8e32772bee6b",
+                "type": "FIX",
+                "text": " comp.SmartVM: argument not passed to the inner VM control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280134686"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280134696"
+                    }
+                ]
+            },
+            {
+                "id": "52cf96d46e19f251f5f1abb54f363bca185d5897",
+                "type": "FEATURE",
+                "text": " SmartFilterBar - add custom-field button during UI adaptation at runtime is now available"
+            },
+            {
+                "id": "1ce04d31188382db77c9ec7613f639f75e579625",
+                "type": "FIX",
+                "text": " SmartFilterBar/FilterBar: buttons with text no longer have tooltips",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280086917"
+                    }
+                ]
+            },
+            {
+                "id": "db3ba7b2b6d2892dcde9770ebcbf58dbf6f64881",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct single date fields issue with timezones semantic dates",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280129342"
+                    }
+                ]
+            },
+            {
+                "id": "06f33615a056df10f17f295e1d7088f79ca9ec2d",
+                "type": "FIX",
+                "text": " SmartTable: Respect leadingProperty on Column for Auto Size Calculation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280133416"
+                    }
+                ]
+            },
+            {
+                "id": "eb751181c7f0e07bed96ec7ea62b47e3f3f50939",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct filter query for single date fields with timezones",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280129342"
+                    }
+                ]
+            },
+            {
+                "id": "dacd258e995c199824db99f6866a746a26597f20",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct timezone issue select day before",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280121373"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280129342"
+                    }
+                ]
+            },
+            {
+                "id": "b10298cc9f8d30d38b106675b5e71326d43b4ed8",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct timezone issues",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280129342"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280121373"
+                    }
+                ]
+            },
+            {
+                "id": "c81a29fa183a48b987d25f149fd669c652bffd53",
+                "type": "FIX",
+                "text": " SmartFilterbar: correctly detect single filter fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280116984"
+                    }
+                ]
+            },
+            {
+                "id": "9f1b149cec72ee2daab02d7406c8610cc60adf6f",
+                "type": "FIX",
+                "text": " SmartField: editable formatter fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280118738"
+                    }
+                ]
+            },
+            {
+                "id": "18f7e629eb6cc7efac4f7c1ecadf20f81c1c33f7",
+                "type": "FIX",
+                "text": " SmartFilterBar / FilterBar: text for filters with values is now consistent with V4",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270005266"
+                    }
+                ]
+            },
+            {
+                "id": "ed043b225a6155a96e864cc7873808a4115cb60e",
+                "type": "FIX",
+                "text": " TextArrangementGuid: formatValue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270084826"
+                    }
+                ]
+            },
+            {
+                "id": "4afa7ac9b7433ad7b6b66d4a1081c7d8445724eb",
+                "type": "FEATURE",
+                "text": " SmartField: In/Out parameters are now supported for Select control"
+            },
+            {
+                "id": "81dcba57c21425f59174dd0c970a570ff786f352",
+                "type": "FIX",
+                "text": " SmartField: editable formatter fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280120616"
+                    }
+                ]
+            },
+            {
+                "id": "7f98f8823e09aadb74bebad8fbd96aced1f03593",
+                "type": "FIX",
+                "text": " FilterController - display-format annotation is now respected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002594982022"
+                    }
+                ]
+            },
+            {
+                "id": "4fcb07abfb4f756b2101c090b074179254aa3153",
+                "type": "FIX",
+                "text": " FilterItem: correct getControl return type documentation"
+            },
+            {
+                "id": "7088ba63e46e11bbcdbb5d13c41a294f13d621ba",
+                "type": "FIX",
+                "text": " personalization.Controller: MessageStrip enhancement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270105746"
+                    }
+                ]
+            },
+            {
+                "id": "4a183955a0416d27ad81a13c566113016d4697c5",
+                "type": "FIX",
+                "text": " SmartField: editable formatter fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270084158"
+                    }
+                ]
+            },
+            {
+                "id": "2d4afbda87aaf2213fda2c2a7fc9ecd5623ab983",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct suggestions binding when relevant valuelist is changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280095861"
+                    }
+                ]
+            },
+            {
+                "id": "7df3a62a3d12925bbd596b44446d8007aeab99fd",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct exception in DynamicDateRange",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280104484"
+                    }
+                ]
+            },
+            {
+                "id": "341bb92732f7897ef8585413e7817672f802cf51",
+                "type": "FIX",
+                "text": " Smart Field: Set the correct annotation path from configdata",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280088086"
+                    }
+                ]
+            },
+            {
+                "id": "7ff41c5ea2f9b9e25918b048b729e4a85f19407e",
+                "type": "FIX",
+                "text": " SmartFilterBar: Shows correct date in DynamicDateRange",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280106052"
+                    }
+                ]
+            },
+            {
+                "id": "7742c9a0855d2418dea8c538d3b0acf4238e81f0",
+                "type": "FEATURE",
+                "text": " Smart Filter Bar: Supports specifying the FLP time zone for a filter"
+            },
+            {
+                "id": "eec36320a42714c456214744844433e5ffc0f7d8",
+                "type": "FIX",
+                "text": " SmartField editable state when binding context changes fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280096736"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270084158"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270076144"
+                    }
+                ]
+            },
+            {
+                "id": "6d71d3b078ecf8b965b89792dc14a16cd9b3fb31",
+                "type": "FIX",
+                "text": " SmartField: Editable unit when has setting updatable or field-control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270065863"
+                    }
+                ]
+            },
+            {
+                "id": "561187119757fb3000fe27c4a8433a04bde8b38b",
+                "type": "FIX",
+                "text": " SmartFilterBar: Shows correct date in DynamicDateRange",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280097093"
+                    }
+                ]
+            },
+            {
+                "id": "db9277adc14dc8ea6601751d3a897fb65ddda0db",
+                "type": "FIX",
+                "text": " SmartFilterBar: single filter field correctly gets the second value set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270086716"
+                    }
+                ]
+            },
+            {
+                "id": "4c9fd08bbb590d87e8d05323009427397f34c3f3",
+                "type": "FIX",
+                "text": " SmartField: base controls creation fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270101528"
+                    }
+                ]
+            },
+            {
+                "id": "e6f65bd706aefc8703972a6f0f7c986cfadc4b0f",
+                "type": "FIX",
+                "text": " ValueHelpDialog: SortOrder is now working correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270075164"
+                    }
+                ]
+            },
+            {
+                "id": "48f8608f361b8bd58503b42d513fe0e13109707c",
+                "type": "FIX",
+                "text": " SmartField: absolute path to value list entity is now encoded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "270102541"
+                    }
+                ]
+            },
+            {
+                "id": "429f0bafd841143511aedd2fc601dca4ef790736",
+                "type": "FIX",
+                "text": " SmartTable: minimum width is set for the unit field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270089162"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.105.1": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "4d3637e3dfcc938f3e6cfc3dcce94a4ab584a2b5",
+                "type": "FIX",
+                "text": " SmartField: mandatory check for Edm.Guid is now working properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280152349"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005526742022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.105.2": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "ac6857946e295dadf130854acc88fbd1f593a470",
+                "type": "FIX",
+                "text": " Personalization: Fiscal dates can now be stored in SmartVariants",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007271802022"
+                    }
+                ]
+            },
+            {
+                "id": "9905ccd67ce662c4682e59cdf898c514e60eb21f",
+                "type": "FIX",
+                "text": " SmartField with ComboBox params now correctly passed on change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005722492022"
+                    }
+                ]
+            },
+            {
+                "id": "54122e1c9ac24865839399b0594aa340052c7957",
+                "type": "FIX",
+                "text": " SmartField: ComboBox change event fired twice now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005722492022"
+                    }
+                ]
+            },
+            {
+                "id": "bfa37c83c660a80a22de5218e26d33b54d7cf035",
+                "type": "FIX",
+                "text": " FilterProvider: ValueList is now associated correctly on suppress",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006625882022"
+                    }
+                ]
+            },
+            {
+                "id": "6587fa1d2144cf5859d249232d332802165a61a9",
+                "type": "FIX",
+                "text": " SmartVariantManagement: fix duplicate id issue creating a new view",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270127554"
+                    }
+                ]
+            }
+        ]
+    }
+}

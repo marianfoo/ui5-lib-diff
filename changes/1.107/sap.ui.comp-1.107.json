@@ -1,0 +1,313 @@
+{
+    "1.107.0": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "a62c068fcd9a2ab3e0ce3b053d7564fc4466498a",
+                "type": "FEATURE",
+                "text": " SmartField: Fixed-list fields validation"
+            },
+            {
+                "id": "ad782b199cd18ade4d388433e3839423ce0c897c",
+                "type": "FIX",
+                "text": " ODataControlFactory: _formatText now correctly handle whitespace characters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270042830"
+                    }
+                ]
+            },
+            {
+                "id": "75d2fd581a6017944aa08a24462aff54e09b7d54",
+                "type": "FIX",
+                "text": " SmartField: destroy base controls on bindingContext remove"
+            },
+            {
+                "id": "68ec6b66a4dcc8ed4b5e2672652c57ce8d2fba05",
+                "type": "FIX",
+                "text": " HistoryValuesProvider: correct event listener for Input",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270118303"
+                    }
+                ]
+            },
+            {
+                "id": "576b9e56701ed1cdb96e1e2cebc1fb8bf0246219",
+                "type": "FEATURE",
+                "text": " ValueListProvider: Separators for tables in tabular suggestions"
+            },
+            {
+                "id": "4a2f94aef06d05ab26979c77106c1c77dc8782ba",
+                "type": "FIX",
+                "text": " SmartField: destroy base controls on bindingContext remove",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270122565"
+                    }
+                ]
+            },
+            {
+                "id": "df70382a93d9e57242dfa420f4d27d6391d9411e",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Inform the user that a Support for 'Matches Pattern' is not available"
+            },
+            {
+                "id": "3cdb35e58e45d4f81f15ab59ba6140b7cf932c0a",
+                "type": "FIX",
+                "text": " SmartFilterBar: parsing date or time type fields with no metadata is now corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280139741"
+                    }
+                ]
+            },
+            {
+                "id": "096f4eec6329c0cf09d7fb03592058346fe0e3bd",
+                "type": "FIX",
+                "text": " ValueListProvider: correct recently used when it is shared",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280169534"
+                    }
+                ]
+            },
+            {
+                "id": "449fc16ffe4e503fb6793fa7ed4c8f95bc1c66c6",
+                "type": "FIX",
+                "text": " SmartField: emptyIndicator is now not rendered if the inner control has implemented emptyIndicatorMode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280164461"
+                    }
+                ]
+            },
+            {
+                "id": "360cc359f6fe1fb1057008b3fb7cfd26780d8c82",
+                "type": "FIX",
+                "text": " ValueList/ValueHelpDialog: correct TextArrangement in table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270109655"
+                    }
+                ]
+            },
+            {
+                "id": "d7ec2d4fcc64edad60906c0f2518ce183b6a4b8b",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct focus handling for DynamicDateRange",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270064547"
+                    }
+                ]
+            },
+            {
+                "id": "ad5e70db19bffacea3b6d97afe10b2791517b085",
+                "type": "FIX",
+                "text": " DimeasureController: getDataSuiteFormatSnapshot fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280128597"
+                    }
+                ]
+            },
+            {
+                "id": "ebcbd7a9d0983c3960184dfa93b4a417942407e4",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: add context of firing of search event"
+            },
+            {
+                "id": "3cd1e2f63cd6ac3487f427945dd9d5df5031e31b",
+                "type": "FIX",
+                "text": " SmartFilterBar: Label height is now consistent",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280161747"
+                    }
+                ]
+            },
+            {
+                "id": "e70100b97403882e7b8c414b86d2186e8b1501a7",
+                "type": "FIX",
+                "text": " Controller: AnalyticalTable not sync on properly on group change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280121667"
+                    }
+                ]
+            },
+            {
+                "id": "52a0b3ff11ef850f44a66ddf9509a8926d72a776",
+                "type": "FIX",
+                "text": " BaseValueList: suggestions filtering fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280161305"
+                    }
+                ]
+            },
+            {
+                "id": "337426b209c6896251d71eb69c7708a02da9167b",
+                "type": "FIX",
+                "text": " SmartField: MetaModel exception handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280166543"
+                    }
+                ]
+            },
+            {
+                "id": "c2bb682836a3f4fa314385efa136463c81197d14",
+                "type": "FEATURE",
+                "text": " SmartField: new TextInEditModeSource ValueListWarning mode"
+            },
+            {
+                "id": "d92c4db8017d164144bd8f07b2608fcdc5b8c638",
+                "type": "FIX",
+                "text": " ColumnsController: reordering column indexes fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280003591"
+                    }
+                ]
+            },
+            {
+                "id": "13884af99a5b6dec519a09c8fd38bc8605c5d40f",
+                "type": "FIX",
+                "text": " ColumnsController: reordering column indexes fixed"
+            },
+            {
+                "id": "a9c6b6191e559a2c5a3af0c66d562b090c162ce7",
+                "type": "FIX",
+                "text": " ColumnsController: reordering column indexes fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280003591"
+                    }
+                ]
+            },
+            {
+                "id": "6ab2eb00e5c154c49f0ecb401297a859c94a289a",
+                "type": "FIX",
+                "text": " ControlProvider: Show correct formatted value of NumericText",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270067707"
+                    }
+                ]
+            },
+            {
+                "id": "18f9ce6079157683db66ab5ebc6c800fdd089000",
+                "type": "FIX",
+                "text": " SmartField: Init by SmartMultiEdit fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270108278"
+                    }
+                ]
+            },
+            {
+                "id": "a011710ed7b30ec76b1146b4c228e73cb50027cb",
+                "type": "FEATURE",
+                "text": " SmartField: Wait for RTA changes"
+            },
+            {
+                "id": "869a4d6a6ed99d23a9746036b5cdafc6ca4a6b06",
+                "type": "FIX",
+                "text": " sap.ui.comp.p13n.P13nConditionPanel: buttons are now with proper alignment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280136416"
+                    }
+                ]
+            },
+            {
+                "id": "f8638f1aeb7d2ffb8075fe8ea692abad8d1daf44",
+                "type": "FIX",
+                "text": " SmartField: Metadata initialization",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280138418"
+                    }
+                ]
+            },
+            {
+                "id": "0775ca08ae97fa5951c6f8ee08047bb2ea4a9b08",
+                "type": "FEATURE",
+                "text": " SmartField: ensure that amount values in forms are right aligned in edit mode"
+            },
+            {
+                "id": "7bd3eb58a22d369c913b08d4d3f5e4090ab8deed",
+                "type": "FIX",
+                "text": " SmartField: mandatory check for Edm.Guid is now working properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280152349"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005526742022"
+                    }
+                ]
+            },
+            {
+                "id": "134bd10516623563eb27d1d599d6c72b18b59a69",
+                "type": "FEATURE",
+                "text": " SmartTable - add custom-field button during UI adaptation at runtime is now available"
+            },
+            {
+                "id": "cf1f9fe7acbcc32336a7881a64b7f7819bf37835",
+                "type": "FEATURE",
+                "text": " ValueList/ValueHelpDialog: support TextArrangement annotation for columns"
+            },
+            {
+                "id": "c1cf50b316af5868553c978db957cc73d71422e6",
+                "type": "FIX",
+                "text": " SmartFilterBar: filterDefaultValue can now work with single-value filters for parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270074398"
+                    }
+                ]
+            },
+            {
+                "id": "1548dd6c0ecb66bfdaedcfba0a476e0523371334",
+                "type": "FIX",
+                "text": " comp.SmartVariantManagement: support for title refresh",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280146113"
+                    }
+                ]
+            },
+            {
+                "id": "e1c59b1d46ddc0682e6ed054835b20bba2f7971d",
+                "type": "FEATURE",
+                "text": " SmartField: Adapt UI enabled"
+            }
+        ]
+    }
+}

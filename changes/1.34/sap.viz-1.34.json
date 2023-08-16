@@ -1,0 +1,209 @@
+{
+    "1.34.0": {
+        "date": "November 2015",
+        "notes": [
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Be able to display parts of a line with different format.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "For color legend, add an option to use new legend marker for the lines.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Support label selection in time series charts.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Be able to display first & last date only in time axis.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Use UI5 localization for combination of chunks for time series charts in Fiori.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Add an option to customize color of parent levels’ labels in time axis.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "New properties for consumers to be able to align category axis of a chart with other element in the page.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Support legendGroup.respectPlotPosition in Heatmap.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Expose basic Waterfall in UI5 VizFrame.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "For Vertical Bullet, draw the target marker horizontally in legend as well to align with that in plot area.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Align Pie or Donut in the middle vertically, when legend is at the bottom or top.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Adjust the layout of the last value axis label a little when it’s going to exceed chart to avoid its being cut off.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Improve general padding of chart in Fiori.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Change timestamp to understandable words in screen reader.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "legend.groupByShape takes effect to normal color legend items only, but not the items impacted by property dataPointStyle.",
+                "references": []
+            },
+            {
+                "id": "fbd323f84c0e9d41ad2e723d17dc557a88cc0ee3",
+                "type": "FEATURE",
+                "text": "CVOM Fiori wave 11 for UI5 1.34.0",
+                "references": []
+            },
+            {
+                "id": "94b8f9b0dd62a26514e47d934e54bf27facd0260",
+                "type": "FEATURE",
+                "text": "sap.chart - Fiori Wave 11 pagination",
+                "references": []
+            },
+            {
+                "id": "29bad7f4f17f6e5fa0728c5a5710f62fdde2869b",
+                "type": "FEATURE",
+                "text": "sap.viz - Fiori wave11 features",
+                "references": []
+            },
+            {
+                "id": "70ab203f7b122fe5aaca9439987f1297a284c1be",
+                "type": "FEATURE",
+                "text": "sap.viz 5.23 improvement including Analytical Chart Selection API, ChartFormatter and demos",
+                "references": []
+            },
+            {
+                "id": "63c35d0501ddb144e4dde713cb6a6ea7bbc1c444",
+                "type": "FEATURE",
+                "text": "sap.viz add new demos in UI5 Explorer",
+                "references": []
+            },
+            {
+                "id": "015dd19b23905e3c7a55c099e35bd3ce9d381fcc",
+                "type": "FIX",
+                "text": "Demo page issue. Fix chart popver's destroy issue. Popover's layout issue in RTL mode.",
+                "references": []
+            },
+            {
+                "id": "6d63a177f2aae93f3e56f5b1d15f1ed7df62805e",
+                "type": "FIX",
+                "text": "Fix memory leak when destroy. Incident ID: 1570533917",
+                "references": []
+            },
+            {
+                "id": "ef482e9f363e7efe4df54745b1d3655267517dfe",
+                "type": "FIX",
+                "text": "VizFrame error message rendering",
+                "references": []
+            },
+            {
+                "id": "c9d0c92f74a447fe0f0978a08e4da67aca39ca68",
+                "type": "FIX",
+                "text": "VizFrame error message rendering",
+                "references": []
+            },
+            {
+                "id": "e12ac48e64af77242fb0efa4fa6c19147abae699",
+                "type": "FIX",
+                "text": "sap.viz bug fixes.",
+                "references": []
+            },
+            {
+                "id": "a6bd5c4bc83e4726da4d562bc935809aaecdf35c",
+                "type": "FIX",
+                "text": "sap.viz bug fixing",
+                "references": []
+            },
+            {
+                "id": "295689eaa681d2eb62b0c5d397adfbafcfd51239",
+                "type": "FIX",
+                "text": ": analytical shart should have the unit in the popover.",
+                "references": []
+            }
+        ]
+    },
+    "1.34.1": {
+        "date": "December 2015",
+        "notes": [
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Be able to customize display name of semantic rule in tooltip or popover.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "For legend in Line chart, use large marker if only color is specified in semantic rule.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "In Bullet, properties defined in “others” of plotArea.dataPointStyle always take effect like other chart types.",
+                "references": []
+            },
+            {
+                "id": "",
+                "type": "FEATURE",
+                "text": "Update color palette in dual charts.",
+                "references": []
+            }
+        ]
+    },
+    "1.34.4": {
+        "date": "February 2016",
+        "notes": [
+            {
+                "id": "e9d9406288ed1a3e44c2808d04593b242c3d03e0",
+                "type": "FIX",
+                "text": "Fix zero line issue after zooming.",
+                "references": []
+            }
+        ]
+    }
+}

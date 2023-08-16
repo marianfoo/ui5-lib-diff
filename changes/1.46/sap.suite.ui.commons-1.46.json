@@ -1,0 +1,222 @@
+{
+    "1.46.0": {
+        "date": "October 2016",
+        "notes": [
+            {
+                "id": "fa2b7cc8bc634fe42415358ff768db67d19da8ba",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Dimensions selector arrangement in custom toolbar corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780006048"
+                    }
+                ]
+            },
+            {
+                "id": "74cfe873fc17a1ab2ddaddcc126c1be652c1988e",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.Timeline: Time range selector added"
+            },
+            {
+                "id": "d0d6ca482ee21d69061f35742a7d41bbe78e18f7",
+                "author": "Smitha C Patil <smitha.c.patil@sap.com>",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.commons.ProcessFlow: getLane and getNode methods added"
+            },
+            {
+                "id": "8986f75e54321fb05fa94ce07c2a3d6913013514",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Multiline text rendering improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680285680"
+                    }
+                ]
+            },
+            {
+                "id": "a2bc7a5d5d92289b0a4c25d1c80b21926f2b0c04",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Hide reply link in TimelineItems with disabled social feature and custom actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670535601"
+                    }
+                ]
+            },
+            {
+                "id": "14cf1108d1e187a5d91295e51a52e7501df6b6ef",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Focus handling for non-scrollable ProcessFlow improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670562744"
+                    }
+                ]
+            },
+            {
+                "id": "f1d8f05d218a3f1d65ca421099718710e1269251",
+                "author": "Sylvia Strack <sylvia.strack@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Automatic height adjustment for Internet Explorer and Firefox corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670570396"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670570750"
+                    }
+                ]
+            },
+            {
+                "id": "d7270b5ebc68bc7b872a9d72778f12a1c402f80e",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ProcessFlow: Screen reader reading text twice corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670524252"
+                    }
+                ]
+            },
+            {
+                "id": "e6ffdc3ce632a1ebe98a34bfb703155e518a5230",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Rendering of the Timeline control with invisible items corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670545250"
+                    }
+                ]
+            },
+            {
+                "id": "f306fd06377736493f0158d9b25cf725cf60a041",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Scrollbar is not shown when it is disabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670519261"
+                    }
+                ]
+            },
+            {
+                "id": "0b5900b5eaf105f72d3b45048abdd439ba0491d9",
+                "author": "Pia Kinkel <pia.kinkel@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.HeaderCell: Deprecation version corrected"
+            },
+            {
+                "id": "73934e6937281c25d10ed1dd13eb74ad879607fb",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Text selection of TimelineItem on touch screen displays improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670436464"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.46.1": {
+        "date": "January 2017",
+        "notes": [
+            {
+                "id": "f8878e564791c6ac8e2a9b344a96916efc1e3dcc",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Design of a group header improved"
+            },
+            {
+                "id": "0a1757f378e74bd64c3db239ffb8df578fcdc046",
+                "author": "Mingxin Fu <mingxin.fu@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons: Use mvc namespace instead of core namespace in Explored page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780072057"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.46.2": {
+        "date": "February 2017",
+        "notes": [
+            {
+                "id": "56b88422e79d3acf521a283475d25b9d3b53eeda",
+                "author": "Vaclav Vopenka <vaclav.vopenka@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.Timeline: Select event on item selection change was added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770016401"
+                    }
+                ]
+            },
+            {
+                "id": "86727ed179145182ac399badd6f7ff7e7f5d307a",
+                "author": "Oliver Rooke <oliver.rooke@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.util.DateUtils: Prevent browser notification for long running script",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000067618 2017"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.46.4": {
+        "date": "May 2017",
+        "notes": [
+            {
+                "id": "0e70537628e2fa97cc39638f80f45b4a5e9b5461",
+                "text": "sap.suite.ui.commons.ChartContainer: Full screen to normal view in Edge browser improved",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770186689"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.46.5": {
+        "date": "May 2017",
+        "notes": [
+            {
+                "id": "58b4f62533960fb51438093317d0b1ce02ed62b8",
+                "author": "Dominic Holzwarth <dominic.holzwarth@sap.com>",
+                "type": "FIX",
+                "text": "sap.suite.ui.commons.ChartContainer: Chart selection no longer moves to overflow area if there is enough space",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770259420"
+                    }
+                ]
+            }
+        ]
+    }
+}

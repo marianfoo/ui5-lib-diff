@@ -1,0 +1,178 @@
+{
+    "1.101.0": {
+        "date": "April 2022",
+        "notes": [
+            {
+                "id": "cb4e70d4cb4a171e5e363f77e63d19f4d23590e8",
+                "type": "FEATURE",
+                "text": " CEP Search Service control"
+            },
+            {
+                "id": "67b72f9ebc63d75245d64fccb3a661e91342ae1e",
+                "type": "FIX",
+                "text": " Incorrect code process for CRM apps (WCF) in stateful container system + keep alive",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270055618"
+                    }
+                ]
+            },
+            {
+                "id": "759a0fef69c3cf63341de4541f71ade556eeb709",
+                "type": "FIX",
+                "text": " User Settings - Activites: Let text wrap",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280066626"
+                    }
+                ]
+            },
+            {
+                "id": "46b121fc7ef92e09909ef513c6048c5b2cf63f62",
+                "type": "FIX",
+                "text": " Settings Dialog: Enable Esc key for Selects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280066901"
+                    }
+                ]
+            },
+            {
+                "id": "f7aa513130ad63012b403f662eb4147874b1f2fd",
+                "type": "FIX",
+                "text": " ACC-264.1: Label ist not associated to the ComboBox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280066628"
+                    }
+                ]
+            },
+            {
+                "id": "9384be06d612cdef13c16697fad9c0c31c5b0b05",
+                "type": "FIX",
+                "text": "ACC-264.1 MeArea Button: UI type doesn't read correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180369981"
+                    }
+                ]
+            },
+            {
+                "id": "d2b168beb01537791c682738ac5f56224c3414a9",
+                "type": "FIX",
+                "text": " Globalization issues in Settings Dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270024500"
+                    }
+                ]
+            },
+            {
+                "id": "384c42be7f1ff023e4efc986a8857c3d1596814c",
+                "type": "FIX",
+                "text": " CrossAppNav: transient flag and global conf",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270035022"
+                    }
+                ]
+            },
+            {
+                "id": "c13eb5e3d339b39f6454e8c25cefaf854d7c5f2c",
+                "type": "FIX",
+                "text": " 'triggerEmail' in AppRuntime does not change appstate to persistant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001164082022"
+                    }
+                ]
+            },
+            {
+                "id": "d4c4da374d3abe78555ba0c10dd9d952d7fee166",
+                "type": "FIX",
+                "text": " AboutDialog: Adapt announced Header Levels",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180408382"
+                    }
+                ]
+            },
+            {
+                "id": "8e7f63ec43acca8448eecb34f7e734e21179980f",
+                "type": "FIX",
+                "text": " PostMessageAPI: Remove deactivation of Hasher",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080421496"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180422893"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180422895"
+                    }
+                ]
+            },
+            {
+                "id": "7198102d14972c09e26da4bcdd674799779c6c54",
+                "type": "FEATURE",
+                "text": " Add subject input field to the Contact Support dialog"
+            },
+            {
+                "id": "f3a197f3a5062d5b8802ed976e7bf958f6e7c0cb",
+                "type": "FIX",
+                "text": " sap.ushell - rta get closed on appClosed event inside iframe"
+            },
+            {
+                "id": "3f0ca3466af0ab179f0de530cbde0a89ad23b572",
+                "type": "FIX",
+                "text": " Neo applications, integrated in cFLP, should be opened in letter box as configured",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001569552022"
+                    }
+                ]
+            },
+            {
+                "id": "f497c58b4f2e6af077640ed79666bdd6ba8bf66d",
+                "type": "FIX",
+                "text": " application opened/closed events are not triggered in AppRuntime",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270021855"
+                    }
+                ]
+            },
+            {
+                "id": "483973fd6488d0371f93c69bc65e62cabcb4650f",
+                "type": "FIX",
+                "text": " ActionTile: Add Callback to Save Handler",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270014000"
+                    }
+                ]
+            },
+            {
+                "id": "15a9c6ff636c85ecec020abca6d2d4cf2dde866b",
+                "type": "FEATURE",
+                "text": " Adapt Anchor Navigation to SAP Horizon Morning & Evening Theme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "1.108.0": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "f7034d6d8b4ab1c7127b563daa5ee414ccc653f8",
+                "type": "FEATURE",
+                "text": " sap.m.PlanningCalendar: primaryCalendarType property introduced"
+            },
+            {
+                "id": "45109b020b66c55edd009cdc973a29ffd663f8a0",
+                "type": "FIX",
+                "text": " sap.ui.unified.FileUploader: adjust property setters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270125938"
+                    }
+                ]
+            },
+            {
+                "id": "a9e590b668c9dfd51c3ab7eb0bcf7b1fcb52e9b0",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust day of the week announcement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004825022022"
+                    }
+                ]
+            },
+            {
+                "id": "45902b2e165ee593c51c8ab7d38c03ef5c052a7c",
+                "type": "FIX",
+                "text": " sap.m.DateRangeSelection: adjust week selection",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280164558"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.2": {
+        "date": "December 2022",
+        "notes": [
+            {
+                "id": "325596480659c3c99b161f1037da2901b3254225",
+                "type": "FIX",
+                "text": " sap.ui.unified.calendar.MonthsRow: apply focus on a propper day",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008327852022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.3": {
+        "date": "January 2023",
+        "notes": [
+            {
+                "id": "ccff210a914ddaa364877bb4b862d2d4889eaee2",
+                "type": "FIX",
+                "text": " sap.ui.unified.calendar.MonthPicker: adjust failing unit tests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "7e709d59b7cb1df60246c1eb2bdb2e60e25834e4",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: adjustment at more link press event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009425452022"
+                    }
+                ]
+            },
+            {
+                "id": "1902bf76827cc702990644be1da3c344a3177839",
+                "type": "FIX",
+                "text": " sap.ui.unified.Menu: fixed space before menu items without icons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280155051"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.5": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "69e17465e3c96da54fc2c3ef918ec9ef659c4f34",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust focus handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004860722022"
+                    }
+                ]
+            }
+        ]
+    }
+}

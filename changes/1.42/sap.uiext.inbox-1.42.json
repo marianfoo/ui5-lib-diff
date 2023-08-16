@@ -1,0 +1,52 @@
+{
+    "1.42.0": {
+        "date": "August 2016",
+        "notes": [
+            {
+                "id": "801a0cc03abd084c14985b996086d08a9b40b34a",
+                "type": "FEATURE",
+                "text": "Inbox: Inbox control is deprecated. Second atempt.",
+                "references": []
+            },
+            {
+                "id": "6bb15bb734a43b52de6cf99b18a11fe649968edc",
+                "type": "FIX",
+                "text": "Demokit: removing of the hardcoded IP",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670290310"
+                    }
+                ]
+            },
+            {
+                "id": "f3467f4796c86cfea76f9c7708a757a42a60d659",
+                "type": "FIX",
+                "text": "Inbox: Catches \"JSON.parse\" error, which resulted in continual \"loading\" mode for Unified Inbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002007974700001189222016"
+                    }
+                ]
+            },
+            {
+                "id": "e9528f9366189554dfdcdb529a780e7af0300225",
+                "type": "FIX",
+                "text": "Inbox: Message \"No data available\" is not deleted from Notifications.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "128371"
+                    }
+                ]
+            },
+            {
+                "id": "5f66262d4dcb56591a833e9d7ed8ed3934e1c012",
+                "type": "FIX",
+                "text": "Issue with languages when opening Manager Self-Service tasks",
+                "references": []
+            }
+        ]
+    }
+}

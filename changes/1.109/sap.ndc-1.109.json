@@ -1,0 +1,34 @@
+{
+    "1.109.0": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "57b806f4d71b6830b625ca9541e239aa4995eb4d",
+                "type": "FEATURE",
+                "text": " sap.ndc: Handle GS1 barcode"
+            },
+            {
+                "id": "f31c8a1d48f791284ccbe5d4f4fdbc7fd28a6e50",
+                "type": "FIX",
+                "text": " sap.ndc: QRcode cannot be scanned on iOS16.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270149292"
+                    }
+                ]
+            },
+            {
+                "id": "0654f4b5a4ecc23002bb4a464ecc6869890e2630",
+                "type": "FIX",
+                "text": " sap.ndc: Add the SAP Note 2402585 link into UI5 Docs for barcode scanning",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270135090"
+                    }
+                ]
+            }
+        ]
+    }
+}

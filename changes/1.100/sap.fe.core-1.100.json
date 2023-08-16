@@ -1,0 +1,326 @@
+{
+    "1.100.0": {
+        "date": "March 2022",
+        "notes": [
+            {
+                "id": "ff7fc38792739331743ee2535c860a1e4d47756b",
+                "type": "FEATURE",
+                "text": " We've enhanced the 'Action' building block: You can now group actions in a dropdown menu"
+            },
+            {
+                "id": "c917cf7a8652dc6cb114a8a03b82f06fb376da3b",
+                "type": "FIX",
+                "text": " The warning text on an object page for the deletion of an object is now correctly displayed even if no description has been defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280065018"
+                    }
+                ]
+            },
+            {
+                "id": "3ec63b86d53030ac56d2a1dd023b05004ad06596",
+                "type": "FEATURE",
+                "text": " You can now use singletons to implement restrictions on tables on the object page"
+            },
+            {
+                "id": "79bdb3b369f79c50e0951b7bd93f23dc4060e7f8",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the annotations DataFieldWithIntentBasedNavigation and DataFieldWithAction"
+            },
+            {
+                "id": "8a62c4ecbb4719fcd1402e8ee950e778e3607211",
+                "type": "FEATURE",
+                "text": " You can now hide action parameters by using a dynamic expression"
+            },
+            {
+                "id": "7462cab96c5f4f430f09ef40f4b473cdc2fcca78",
+                "type": "FIX",
+                "text": " The setFilterValues function now works correctly with semantic date operators",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280064776"
+                    }
+                ]
+            },
+            {
+                "id": "ea9aceeb9afa5190af6b543523003624e2e848de",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now displays a confirmation popup for actions that trigger a warning with response code 412"
+            },
+            {
+                "id": "909cd2d8bdc08fed12e3a4362c3c474adf88262b",
+                "type": "FIX",
+                "text": " The 'Invalid Fields Array' is now cleared when messages are empty",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280039473"
+                    }
+                ]
+            },
+            {
+                "id": "07c6125768a405365f9863f58d465b5a498db9c1",
+                "type": "FIX",
+                "text": " SAP Fiori elements now displays a message page if the metadata isn't loaded correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280072106"
+                    }
+                ]
+            },
+            {
+                "id": "8bb5d9dcaf262ee547950411870252908a6e60e3",
+                "type": "FIX",
+                "text": " The persistent cache provided by SAP Fiori elements on a custom page now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280074941"
+                    }
+                ]
+            },
+            {
+                "id": "c7da7d0c98e20d4586e04164f237e75055f59387",
+                "type": "FIX",
+                "text": " Amounts with a corresponding currency are now correctly exported to a spreadsheet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280037825"
+                    }
+                ]
+            },
+            {
+                "id": "5625388611570d0cb36bd73b7cd64ed097163571",
+                "type": "FEATURE",
+                "text": " We've enhanced the 'Action' building block to support the requiresSelection property"
+            },
+            {
+                "id": "487800b846fe08c26a97c176dee0e9f54470dbd6",
+                "type": "FEATURE",
+                "text": " Switching to edit mode now checks if there's a side effect with a trigger action"
+            },
+            {
+                "id": "a2eb1cd525abf88c892d8e1889f82137714b0b18",
+                "type": "FIX",
+                "text": " We've restored the correct ordering of the fields in the filter bar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280074987"
+                    }
+                ]
+            },
+            {
+                "id": "29feca7464ce9d7e52021675a7317945e50e7d7e",
+                "type": "FIX",
+                "text": " The input value is now properly formatted when there is a unit or a currency",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280071897"
+                    }
+                ]
+            },
+            {
+                "id": "92dd9d5feea8a32176ac472eaa6e50be8915e9bc",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports the 'Importance' property for custom columns"
+            },
+            {
+                "id": "ce86dbc28b5af7cc6e50f40703cfa48fa97b0a9e",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements has now added an API to send and remove messages in the 'Table' and 'Field' building blocks"
+            },
+            {
+                "id": "d86974edb4c8fc9607dd3d0f436c9bf0a48fa72f",
+                "type": "FIX",
+                "text": " View caching now works properly even if no ETag is provided",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280064615"
+                    }
+                ]
+            },
+            {
+                "id": "07ab5db589d1393869945e616821a633b009cc71",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the draft indicator for semantic key fields after adapting the column width",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180405180"
+                    }
+                ]
+            },
+            {
+                "id": "83a47f0df20d4019167ca1852d10232f4416a39a",
+                "type": "FIX",
+                "text": " Adding and removing custom filters in the flexible programming model now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280052087"
+                    }
+                ]
+            },
+            {
+                "id": "1ce9886cfb6fc96ec2229adeb54047607859ba73",
+                "type": "FIX",
+                "text": " The Create dialog for immutable fields now works correctly in case of errors",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280047255"
+                    }
+                ]
+            },
+            {
+                "id": "c6d24ebe0d230f7cc5992a41d7b62315afc7f86f",
+                "type": "FEATURE",
+                "text": " Providing the same operators as V2 for new Dynamic Date Range Control"
+            },
+            {
+                "id": "e5a9e8e117f8e8d0bbe339cfb2971502edd7bd13",
+                "type": "FEATURE",
+                "text": " The PropertyName within a SelectionOptions property of the SelectionVariant UI annotation can now be defined with a complex property"
+            },
+            {
+                "id": "db8464db1334b015fdaa84355ccbd274c0c6f8eb",
+                "type": "FIX",
+                "text": " The parameterized service apps have been corrected and are now up and running again",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280045198"
+                    }
+                ]
+            },
+            {
+                "id": "7ece58065bf0216452464baab2d12c6dd6296de1",
+                "type": "FEATURE",
+                "text": " You can now hide the filter bar on a list report to enable a worklist"
+            },
+            {
+                "id": "73372a806ffdc6aa7baaed9d0ba84b2fa6277b0d",
+                "type": "FIX",
+                "text": " The FieldControl annotation now correctly displays the field if the annotation is set dynamically in the back end",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170331565"
+                    }
+                ]
+            },
+            {
+                "id": "5963b77c74df91168d1a321649cb8437b5491536",
+                "type": "FEATURE",
+                "text": " The PropertyName within a SelectionOptions property of the SelectionVariant UI annotation can now be defined with a navigation property"
+            },
+            {
+                "id": "13365b4c62c2a8e92a6ff704c8c68a4ed64987a6",
+                "type": "FEATURE",
+                "text": " The custom validation function is now also available when a user pastes data into a table"
+            },
+            {
+                "id": "ffde8e9d121504b59aafb634fb6dcdceb192f427",
+                "type": "FEATURE",
+                "text": " In sticky mode, custom \"create\" actions now result in the object page opening in edit mode"
+            },
+            {
+                "id": "76c4243f3869403b45ea8ec9b212fe387c8f17be",
+                "type": "FEATURE",
+                "text": " We have made further improvements to the handling of errors of type 503"
+            },
+            {
+                "id": "1be7c895f6644c2d24eafcec50f18221155f3a00",
+                "type": "FEATURE",
+                "text": " You can now display MultiValueField in Tables for a DataField that uses a 1:n navigation in the value path"
+            },
+            {
+                "id": "28c75a5c1d84c7f47ae9f4b6908c5d17cb371716",
+                "type": "FEATURE",
+                "text": " The 'Field' building block now also supports the length definition for MultiLine text fields"
+            },
+            {
+                "id": "f6bcb5f79ce5daf4b9654785e560b1d9564e1253",
+                "type": "FEATURE",
+                "text": " Semantic dates now use the dynamic date range control for the SingleValue"
+            },
+            {
+                "id": "3fa01973aea3ad5bd46a1be16102986cbb7806c7",
+                "type": "FIX",
+                "text": " The column width is now correctly set for columns containing static unit or currency",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280025741"
+                    }
+                ]
+            },
+            {
+                "id": "ec89b9fd732309d78bf0a63be61df0940db2cff2",
+                "type": "FEATURE",
+                "text": " We have added a getSelectedContexts method and a selectionChange event to the table building block"
+            },
+            {
+                "id": "c4ebf38c75cb9e984a4500672349d7e036c0a34a",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the avatar based on the HeaderInfo",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280031580"
+                    }
+                ]
+            },
+            {
+                "id": "7601e161178fe51eb0cf27bf54bb99074f17eea8",
+                "type": "FIX",
+                "text": " We have removed the duplicate 503 error message for the patch service",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170327750"
+                    }
+                ]
+            },
+            {
+                "id": "48e445370966787548da4aa0388656909b60fec1",
+                "type": "FIX",
+                "text": " After scrolling through a table, the message indicator is now set on the row containing the error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280022816"
+                    }
+                ]
+            },
+            {
+                "id": "effac84b2d08e289257ae494126faa066b439130",
+                "type": "FIX",
+                "text": " The Draft Confirmation popover is no longer displayed when navigating back from a custom subobject page based on the component sap.fe.core.fpm",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180407074"
+                    }
+                ]
+            },
+            {
+                "id": "86d32cec4b45e39ee210c6ae5d47663845a07af1",
+                "type": "FEATURE",
+                "text": " You can now use the search field in charts in the list report and analytical list page"
+            },
+            {
+                "id": "eb49b5defe50692b903ea092e75b62a1693343f3",
+                "type": "FIX",
+                "text": " The documentation for custom hooks has been updated"
+            }
+        ]
+    }
+}

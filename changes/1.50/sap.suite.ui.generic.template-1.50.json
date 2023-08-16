@@ -1,0 +1,671 @@
+{
+    "1.50.0": {
+        "date": "August 2017",
+        "notes": [
+            {
+                "id": "811f95cac37308d6599180a93cb9bc113d651ed7",
+                "type": "FEATURE",
+                "text": "LROP: Enablement of master detail pattern"
+            },
+            {
+                "id": "d12c7277dda0092bc9370e7193835f1a3b041fa1",
+                "type": "FIX",
+                "text": "LR: Filter construction for table tabs corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780287841"
+                    }
+                ]
+            },
+            {
+                "id": "75ee885b120984258c9247b09e927f1e28ceb03b",
+                "type": "FIX",
+                "text": "LROP: Successful draft deletion shows correct message",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780101314"
+                    }
+                ]
+            },
+            {
+                "id": "0b7605af04a4fb132eae9e8bb2b63cd980c4d1f6",
+                "type": "FEATURE",
+                "text": "OP: Progress bar and rating indicator footer text is now left aligned"
+            },
+            {
+                "id": "6e28803a4a1393427f19e0b64dfd4d2ab68a4abb",
+                "type": "FEATURE",
+                "text": "LROP: Quick view: Enriched smart link navigation popover with additional data"
+            },
+            {
+                "id": "57b72981870549b114d619a9162ad858ab267e3f",
+                "type": "FIX",
+                "text": "LR: Correctly enabled toolbar button visibility for table tabs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780305110"
+                    }
+                ]
+            },
+            {
+                "id": "85b20d6ef96dba9b2ff2f216c4cd1a492ea3cbf9",
+                "type": "FEATURE",
+                "text": "ALP: Corrections to visual filter item sort order"
+            },
+            {
+                "id": "09bca8009567cea2b0abdf9c0c37163f04c59bf8",
+                "type": "FIX",
+                "text": "LR: Display of full name instead of technical name in delete popup",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780260139"
+                    }
+                ]
+            },
+            {
+                "id": "603e463a01961267f9e6e816b37adffdf4cd9df8",
+                "type": "Feature",
+                "text": "LROP:Provided option for vertical alignment in responsive table"
+            },
+            {
+                "id": "a1c36820e070cf2010012d1861b339e1005744e6",
+                "type": "FIX",
+                "text": "OP: Radio button in table is hidden now if no action on table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780250093"
+                    }
+                ]
+            },
+            {
+                "id": "77f87ab35eb18246d05b386b6370870c48293b92",
+                "type": "FEATURE",
+                "text": "LR: Suppress chevron when external navigation not supported."
+            },
+            {
+                "id": "e493710b80f156e2350e884574f844096957ee62",
+                "type": "FIX",
+                "text": "OP: Avoid that the draft hangs up, when several create drafts are cancelled.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780278861"
+                    }
+                ]
+            },
+            {
+                "id": "ab596d5074c2617c6fe9d691175915cc7e252385",
+                "type": "FIX",
+                "text": "LROP: Nested error messages are correctly shown on UI",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780225619, 1770140213"
+                    }
+                ]
+            },
+            {
+                "id": "f074534e65502020b16a2de6a7e752e0fed3a2a7",
+                "type": "FIX",
+                "text": "LR: Automatically start selection if list report is reached via cross-app navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770260894"
+                    }
+                ]
+            },
+            {
+                "id": "82783dc2860d4f7d1c0997f7ef3c71a2b9ef6b25",
+                "type": "FIX",
+                "text": "LR: Ensure that Execute on Select is always considered correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780225084"
+                    }
+                ]
+            },
+            {
+                "id": "2a56324cb1c302d69b8b98ce28df3cfc864b8933",
+                "type": "FEATURE",
+                "text": "OP: Micro chart footer text is now left aligned"
+            },
+            {
+                "id": "a784b1bea0e944969b78754c9ca9c04baa04092c",
+                "type": "FEATURE",
+                "text": "LROP: Improvement of non-draft edit flow"
+            },
+            {
+                "id": "3a62036af89e1be63ad1e084caafe53b45e63b14",
+                "type": "Feature",
+                "text": "LR: Option to enable worklist floorplan has been implemented"
+            },
+            {
+                "id": "1b4fa14e4b536bdde81e7972c0674c5b1acce312",
+                "type": "FEATURE",
+                "text": "ALP: Display currency handling functionality enhanced for empty value in the navigation context scenario"
+            },
+            {
+                "id": "a00e1615708c216f795c3faef6377d36a72c6953",
+                "type": "FEATURE",
+                "text": "OP: Support onListNavigation extension point for object page list item"
+            },
+            {
+                "id": "6d19fd7dea8f3525f7f4d44122aedb188b8ec276",
+                "type": "FEATURE",
+                "text": "ALP: Semantic colors in visual filters implemented"
+            },
+            {
+                "id": "93a425c3be2af53ba10c76cb3791062e8115ee8e",
+                "type": "FEATURE",
+                "text": "ALP: Use Median not Mean for Scaling VF when no scale is provided"
+            },
+            {
+                "id": "541ae906a540c91373d790b8c0049b440b3198bd",
+                "type": "FEATURE",
+                "text": "OP: Extension API to set ancestor page(s) to dirty"
+            },
+            {
+                "id": "6050dbd254aedfe3be8d4b032f8d6c4af0448794",
+                "type": "FEATURE",
+                "text": "ALP: Minimum Chart Height defined to improve usability of charts"
+            },
+            {
+                "id": "1da5854f92334ff74f92b4c21f05ac353882e8ee",
+                "type": "FEATURE",
+                "text": "ALP: Support for global actions"
+            },
+            {
+                "id": "e61af549a77eafc8b3426239727b36ac5b12c6f3",
+                "type": "FEATURE",
+                "text": "ALP: Flexible Column Layout implemented"
+            },
+            {
+                "id": "a4d14e29b6dc6f5f4c11103e23fea4eb0d87dee0",
+                "type": "FIX",
+                "text": "OP: Text arrangement in header corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780226242"
+                    }
+                ]
+            },
+            {
+                "id": "4abdaa4830fdb508a5585ca833f2df5a8888e206",
+                "type": "FIX",
+                "text": "LROP: Refresh of smart tables optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780230557"
+                    }
+                ]
+            },
+            {
+                "id": "37dfd074b58dd6b9dcb87646cbc3a003ee87734d",
+                "type": "FEATURE",
+                "text": "OP: New draft rows highlighted in table"
+            },
+            {
+                "id": "12d39264987e702e1d6384445f0acb2aa9cbc304",
+                "type": "FEATURE",
+                "text": "ALP: Adapt Filters button repositioned for better usability"
+            },
+            {
+                "id": "25cf555a60126fc154d9b5fe79ccc9f4aa5adc61",
+                "type": "Feature",
+                "text": "LR: Support global actions with extension point"
+            },
+            {
+                "id": "0c306553a0682d09e58eee69b7855286be30301a",
+                "type": "FIX",
+                "text": "LR: Display of double IDs corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780202850"
+                    }
+                ]
+            },
+            {
+                "id": "1871378583826b6e4813eca8b6d7dbcedbe979d9",
+                "type": "FEATURE",
+                "text": "ALP Table: Descriptor settings added for table usage in content area"
+            },
+            {
+                "id": "78b5a2ed80cab24c40171556c55f7b09eb7f4cdd",
+                "type": "FEATURE",
+                "text": "ALP: Error State: Application loading enhanced to exclude compact filter mandatory fields"
+            },
+            {
+                "id": "9ae7a31803af8f698fac5022ec2b844110877594",
+                "type": "FEATURE",
+                "text": "OP: Tree table is supported"
+            },
+            {
+                "id": "4ff8ebe7332e2403495747f7fd92233df04d8c2c",
+                "type": "FIX",
+                "text": "OP: Wrap link text in contact list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780188573"
+                    }
+                ]
+            },
+            {
+                "id": "c0ec6829011f54da4492009211a55127402b5778",
+                "type": "FIX",
+                "text": "LROP: Screen reader support for delete confirmation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780161086"
+                    }
+                ]
+            },
+            {
+                "id": "8052136e490eb810428da49a97cbcf658959ea26",
+                "type": "FEATURE",
+                "text": "ALP: Visual Filter-Support for TextArrangement annotation"
+            },
+            {
+                "id": "8750ab4f6776ddb38f2144d6eebee39ed0f3b359",
+                "type": "FIX",
+                "text": "LR: Display of fields with text arrangement corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780146571"
+                    }
+                ]
+            },
+            {
+                "id": "90040c797e08114c98b30487adc93d74f7411251",
+                "type": "FEATURE",
+                "text": "OP: Improved usage concept for SAP Fiori elements reuse components"
+            },
+            {
+                "id": "f9c8b9944b9fc79cf16af928bb41bb19a6a84f51",
+                "type": "FIX",
+                "text": "OP: Filter for tables with inline create optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780143108"
+                    }
+                ]
+            },
+            {
+                "id": "6502fbb92fa18458824b7cc61ce8b0679ce870af",
+                "type": "FIX",
+                "text": "LR: Display of not supported intents corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770270549"
+                    }
+                ]
+            },
+            {
+                "id": "ff71f3a40051d178444213bdefdccd3e2abfcf59",
+                "type": "FEATURE",
+                "text": "QC: QC changed with new visual design"
+            },
+            {
+                "id": "7838ee1c2f9a8780ea3dd6e653b9302db6a12292",
+                "type": "FIX",
+                "text": "LR: Refresh with default presentation variant optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780148449"
+                    }
+                ]
+            },
+            {
+                "id": "cb81141e39f1dba6c6156edd02720d696f2051dc",
+                "type": "FEATURE",
+                "text": "OP: Charts of same entity type supported using qualifier"
+            },
+            {
+                "id": "29a242006b586ff1ddf24c5c679d4624b8c0f88d",
+                "type": "FEATURE",
+                "text": "ALP: Visual Filter Title area enhanced"
+            },
+            {
+                "id": "db67d34eff1e7fd0b69a9a8fb2a59c96737c5c74",
+                "type": "FIX",
+                "text": "LR: Alignment of text in semantic key column corrected"
+            },
+            {
+                "id": "0810d680bc8faf2319fce3d642c7b99d01f51a4c",
+                "type": "FEATURE",
+                "text": "ALP: Support for inline parameter on action buttons"
+            },
+            {
+                "id": "30d163d2d336f6affe29fe1a7cf73f8e89557a92",
+                "type": "FIX",
+                "text": "LR: Bullet chart rendering issue corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770236395"
+                    }
+                ]
+            },
+            {
+                "id": "237f7039978d48bbac9634aebcb03adbbf7b8075",
+                "type": "FIX",
+                "text": "LR: Display of duplicate numbers corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770259292"
+                    }
+                ]
+            },
+            {
+                "id": "334f66b82d05acbdc48c3bbeec7f1192563f1d3a",
+                "type": "FIX",
+                "text": "OP: Related apps are now displayed in alphabetical order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770251716"
+                    }
+                ]
+            },
+            {
+                "id": "4db938de59b8790f261f6b483fd4b225c1835ce3",
+                "type": "FIX",
+                "text": "LR: Initialization of filterbar optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770060462"
+                    }
+                ]
+            },
+            {
+                "id": "c7331a0aa39209d8239be087b8d2aa746a7b5e53",
+                "type": "FIX",
+                "text": "OP: Added selection mode in display mode for non-draft apps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770245913"
+                    }
+                ]
+            },
+            {
+                "id": "174d551a310fce69bda88daa33161cd780af6dbc",
+                "type": "FIX",
+                "text": "LROP: Deep linking can now be controlled via a switch in the target app manifest"
+            },
+            {
+                "id": "c3a61f6c72519781156a7999ba3e9008284cdad7",
+                "type": "FIX",
+                "text": "LROP: URL corrected for share E-Mail",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770019338"
+                    }
+                ]
+            },
+            {
+                "id": "583b25a443f054fdf74f68d016578ce571e82dec",
+                "type": "FIX",
+                "text": "LR: Display of link popup corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770230654"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.50.1": {
+        "date": "August 2017",
+        "notes": [
+            {
+                "id": "a5041c19372269ec3d606d078648c49a9601491e",
+                "type": "FIX",
+                "text": "LROP: Corrected external navigation in case of analytical list page target.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780407359"
+                    }
+                ]
+            },
+            {
+                "id": "0b54fdeb90e3c1b1579ebe42e298d5d9433030b5",
+                "type": "FIX",
+                "text": "LR: Counts for segmented buttons corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780361993"
+                    }
+                ]
+            },
+            {
+                "id": "5fe31110da360069579b543306a73da5a2e88453",
+                "type": "FIX",
+                "text": "LROP: Quick view: top title area main navigation link improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780348770"
+                    }
+                ]
+            },
+            {
+                "id": "1cc4e3a4ff4717d9f8d6333f507b77186c13e5ba",
+                "type": "FEATURE",
+                "text": "LROP: Quick view: Enriched the smart link navigation popover with contact data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780352454"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.50.2": {
+        "date": "September 2017",
+        "notes": [
+            {
+                "id": "497443d055100c6b6e486124355eb284ac14f6bc",
+                "type": "FIX",
+                "text": "LROP: Quick view: Improved the contact expand",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780352454"
+                    }
+                ]
+            },
+            {
+                "id": "21ad1a60bfb7b49760c75a016e36da36414d8ffe",
+                "type": "FIX",
+                "text": "LROP: Correct refresh behavior of ListReport after creating of entities",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780291970"
+                    }
+                ]
+            },
+            {
+                "id": "89942514d579af8ee960e9f152825c5fce59776b",
+                "type": "FIX",
+                "text": "LR: Evaluation of selection variant filters generalized"
+            },
+            {
+                "id": "493aacfd6f8502e8830066bba9715fe695406b1c",
+                "type": "FIX",
+                "text": "LROP: Allow navigation to object page when LR and OP entity sets are different",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780283982"
+                    }
+                ]
+            },
+            {
+                "id": "ea7b3e56d6ee1e1a74383bd616655134dd20a40b",
+                "type": "FIX",
+                "text": "LROP: Tolerance towards empty annotations increased",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000375415 2017"
+                    }
+                ]
+            },
+            {
+                "id": "b51d8877f1ffcaebdb289e1299a34e485dc85bd3",
+                "type": "FIX",
+                "text": "QC: Tooltip support for line item",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780180590"
+                    }
+                ]
+            },
+            {
+                "id": "b01413e4e71f3833d8067ab6a75bd0770be99632",
+                "type": "FIX",
+                "text": "LR: Evaluation of search value for table tabs corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780366165"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.50.3": {
+        "date": "October 2017",
+        "notes": [
+            {
+                "id": "8fda44bb1b544f16ef38bc70788b9e293ee5ba10",
+                "type": "FIX",
+                "text": "LR: Suppress unwanted data selection on application start",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000464623 2017"
+                    }
+                ]
+            },
+            {
+                "id": "ce377569f83244496393849fb312bf7f3cc87f10",
+                "type": "FIX",
+                "text": "Removing redundant code for the fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770406748"
+                    }
+                ]
+            },
+            {
+                "id": "86dd5dbdeff8dc9b794997b1268d30b5207df9fd",
+                "type": "FIX",
+                "text": "LR: Toggle filter button is hidden, and external navigation is handled for worklist",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770406840"
+                    }
+                ]
+            },
+            {
+                "id": "d7c4003af81b3a10975ae1064f8ea0c99d9167ff",
+                "type": "FIX",
+                "text": "ActionSheet popover flickering issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770406748"
+                    }
+                ]
+            },
+            {
+                "id": "f9954fd7802a1edd95650c9ef98caa02f22b40d7",
+                "type": "FIX",
+                "text": "LR: Fix for page variant not found error when variantManagementHidden is true",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770386284"
+                    }
+                ]
+            },
+            {
+                "id": "66dfd9590933cb8afdab4c5f93a96dc5e641d71a",
+                "type": "FIX",
+                "text": "LR: Now handling deletion of active entities with non zero UUIDs while deleting the corresponding draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770360688"
+                    }
+                ]
+            },
+            {
+                "id": "4c595d42085ad72165a9ee639f472f3f053b41af",
+                "type": "FIX",
+                "text": "LROP: added error message when editing not authorized objects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770324146"
+                    }
+                ]
+            },
+            {
+                "id": "b0db49872455ed5073f2a6b380975ca1c1c41016",
+                "type": "FIX",
+                "text": "LR: Fix for variant ID overwriting filter selections on appState",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780225744"
+                    }
+                ]
+            },
+            {
+                "id": "820ec4b3695dee75617a1bbe8008c16202529179",
+                "type": "FIX",
+                "text": "OP: Support side effects in conjunction with inline create"
+            },
+            {
+                "id": "be3b4d333371c836c851b785f68ac80d4000e7bb",
+                "type": "FIX",
+                "text": "LROP: Text arrangement for smart table group headers corrected.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780314330"
+                    }
+                ]
+            }
+        ]
+    }
+}

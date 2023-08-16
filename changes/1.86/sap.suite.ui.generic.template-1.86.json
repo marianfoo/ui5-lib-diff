@@ -1,0 +1,303 @@
+{
+    "1.86.0": {
+        "date": "January 2021",
+        "notes": [
+            {
+                "id": "Iabaa6188213ca5327c6c39316845a1230cad5696",
+                "type": "FEATURE",
+                "text": "Support provided to reduce entity in metadata.xml when feature toggle is switched off"
+            },
+            {
+                "id": "I17bac2c5803fec91ba3db566a61114098aabc655",
+                "type": "FEATURE",
+                "text": "Improved perceived performance"
+            },
+            {
+                "id": "I01ccf936608a7501da1dd8d1070392d9f943b655",
+                "type": "FEATURE",
+                "text": "OP: Added a flag for persistence mode"
+            },
+            {
+                "id": "I286d7c95669e3d676984ea51c103845ffea73fb0",
+                "type": "FEATURE",
+                "text": "Optimized preloading of the object page component"
+            },
+            {
+                "id": "5287b780786da20a4923faa1c520f219906e3c7a",
+                "type": "FEATURE",
+                "text": "LROP: Improved handling of response code 423 for locked objects"
+            },
+            {
+                "id": "Iaf13f24da16882d869f2ae631263e8888026728c",
+                "type": "FEATURE",
+                "text": "ALP: Support provided for the new adapt filter dialog"
+            },
+            {
+                "id": "If879ed85257e9c245800bcb8cca886dd52335cc6",
+                "type": "FEATURE",
+                "text": "ALP: Option provided to mark a variant non-dirty on the initial load of an app"
+            },
+            {
+                "id": "Ie81a2e84679ff6c67762867e8e82007b05457fb6",
+                "type": "FEATURE",
+                "text": "LR & ALP: Support provided for correct handling of ApplyAutomatically option in standard variant"
+            },
+            {
+                "id": "Ie0bde7a7f157919d9e6f0625ced71e229dbbe2c9",
+                "type": "FEATURE",
+                "text": "ALP: Option provided to mark a variant non-dirty on the initial load of an app"
+            },
+            {
+                "id": "Iec6e78ac055987baa437348e65cbe8f1a4775472",
+                "type": "FEATURE",
+                "text": "LR: Support provided for default filter values from the selection variant annotation"
+            },
+            {
+                "id": "I7e4085677c8fb83e7e3b5d385ce9b137503b1fec",
+                "type": "FIX",
+                "text": "LROP: Added wrapping type property, which is either semantic key, title, or description, in the table column",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070359183"
+                    }
+                ]
+            },
+            {
+                "id": "Ic992598bee9b70a168ae6055048210c9a3aa19b0",
+                "type": "FIX",
+                "text": "LROP: Added type information in the p13n data of table columns with contact popup",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070454534"
+                    }
+                ]
+            },
+            {
+                "id": "I37c946db1313bb368fdc702c977b3268ab81db6a",
+                "type": "FIX",
+                "text": "Ensured external navigation via Create mode is not blocked if the target app is FCL",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070402053"
+                    }
+                ]
+            },
+            {
+                "id": "I97114be9f8d9a7523e8f6c908e374aeaadb0cd0e",
+                "type": "FIX",
+                "text": "OP: Allowed multiple reference facets that are not part of preview",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070491483"
+                    }
+                ]
+            },
+            {
+                "id": "Ic422508c648340d0f5654f2fb73cba95337d0915",
+                "type": "FIX",
+                "text": "Restored the variant state on app start up with iAppState"
+            },
+            {
+                "id": "I263fe8159e7ac54c7988d6ed8255444f50f61b3a",
+                "type": "FIX",
+                "text": "OP: Extra check added for table/chart header titles with property as a string",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080381333"
+                    }
+                ]
+            },
+            {
+                "id": "Ibcfccf4660806281e4d409be82d5a6597dcbd483",
+                "type": "FIX",
+                "text": "OP: oState was changed into instance variable, so that all object page must have unique instance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070469090"
+                    }
+                ]
+            },
+            {
+                "id": "Ia3f2364d321e13408abfeb84ed37d70eb1a4df42",
+                "type": "FIX",
+                "text": "Corrected undefined draft GUID being passed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070288687"
+                    }
+                ]
+            },
+            {
+                "id": "I863b36c9a1348a6bfc0b8821bbaf9fc94cf1f153",
+                "type": "FIX",
+                "text": "OP: Rendered extensionPoint SmartFormExtension for broken target",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080407470"
+                    }
+                ]
+            },
+            {
+                "id": "Ie4049d990d17a3a64a74c380b947ce1706ad022d",
+                "type": "FIX",
+                "text": "OP: Provided BeforeFacet and AfterFacet extensions for broken reference facets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080411843"
+                    }
+                ]
+            },
+            {
+                "id": "I7cdee8f1d3901ce107d49c218e73c66d1f008501",
+                "type": "FIX",
+                "text": "LROP: Set 'Create with Dialog' to visible as False in initial load in order to overcome accessibility issues",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080396316"
+                    }
+                ]
+            },
+            {
+                "id": "I5da2bdbc7cd42af3fb5d9812b61c4243626af1ce",
+                "type": "FIX",
+                "text": "OP: Improved tolerance for broken reference facet annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080411546"
+                    }
+                ]
+            },
+            {
+                "id": "Ib2569d828167ebb8d893f58dff607087d20cd380",
+                "type": "FIX",
+                "text": "LR/OP: Column with Charts was Suppressed to avoid duplicate columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070485149"
+                    }
+                ]
+            },
+            {
+                "id": "I1189c2554613aa8690a443bd3c8e16821e214fed",
+                "type": "FIX",
+                "text": "OP: Improved table variant for object page tables to set properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080384362"
+                    }
+                ]
+            },
+            {
+                "id": "I3c40a9bfa810b42055fb397fac8959e750950f2a",
+                "type": "FIX",
+                "text": "Fixed the inconsistent behaviors while closing mass edit dialog with ESC key",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080432087"
+                    }
+                ]
+            },
+            {
+                "id": "Iae002b22a329bfa2bef80929793b0e3762a1a17d",
+                "type": "FIX",
+                "text": "LROP: Added fit content as True for UI tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080428922"
+                    }
+                ]
+            },
+            {
+                "id": "If6a6c57530467456fb8fa352bca9ddd36f1c0b75",
+                "type": "FIX",
+                "text": "Optimization provided to correctly inform reuse components about their visibility in non-draft create scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070300490"
+                    }
+                ]
+            },
+            {
+                "id": "I28e50688ab3e2c797a56f9db5810780ff8f62d27",
+                "type": "FIX",
+                "text": "LR: Fix provided to not create an overlay when saving filters as a new variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080298519"
+                    }
+                ]
+            },
+            {
+                "id": "I2a9b318ebc9fb8fe15f7c124dc589b1e09085d51",
+                "type": "FIX",
+                "text": "OP: Introduced setEscapeHandler property to handle clicking of ESC key during 'Create with Dialog' scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080450351"
+                    }
+                ]
+            },
+            {
+                "id": " Ia319002f5fb09653cd2baf382c0ecb94d63635b1",
+                "type": "FIX",
+                "text": "ALP: Provided changes to fitConent=true, along with the changes for vbox"
+            },
+            {
+                "id": "I9b712ec23421339c2da55f10871cc7ebf25e60bf",
+                "type": "FIX",
+                "text": "OP: Fix provided to not initialize infoObjects for missing controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080464335"
+                    }
+                ]
+            },
+            {
+                "id": "Ieb78fa34861bd955381a8b42a42a085a4f2a4cfa",
+                "type": "FIX",
+                "text": "OP: Fixed wrong mixing of composite and expression binding",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080464677"
+                    }
+                ]
+            },
+            {
+                "id": "I60c8316224d1732eea660ece9c0a7bd8f788c97d",
+                "type": "FIX",
+                "text": "OP: Corrected IDs for extension facets"
+            },
+            {
+                "id": "I222a1fe21c98a89e38c6aab295665eec726a75a4",
+                "type": "FIX",
+                "text": "OP: Associated link with its text in the contact popup of an object page header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070298445"
+                    }
+                ]
+            }
+        ]
+    }
+}

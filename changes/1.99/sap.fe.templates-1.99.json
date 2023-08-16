@@ -1,0 +1,324 @@
+{
+    "1.99.0": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "5bb69e45d8165a33a575ff9322cd59fb51b7eb92",
+                "type": "FIX",
+                "text": " A field with a currency in a form is now properly aligned with its unit",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280016943"
+                    }
+                ]
+            },
+            {
+                "id": "1be7c895f6644c2d24eafcec50f18221155f3a00",
+                "type": "FEATURE",
+                "text": " You can now display MultiValueField in Tables for a DataField that uses a 1:n navigation in the value path"
+            },
+            {
+                "id": "28c75a5c1d84c7f47ae9f4b6908c5d17cb371716",
+                "type": "FEATURE",
+                "text": " The 'Field' building block now also supports the length definition for MultiLine text fields"
+            },
+            {
+                "id": "c4ebf38c75cb9e984a4500672349d7e036c0a34a",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the avatar based on the HeaderInfo",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280031580"
+                    }
+                ]
+            },
+            {
+                "id": "6dfc689bc98b201e6a2b1a8df11b4f0b4b14f053",
+                "type": "FIX",
+                "text": " Error handling is now included for a chain of promises when a user saves a document",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000390322022"
+                    }
+                ]
+            },
+            {
+                "id": "7601e161178fe51eb0cf27bf54bb99074f17eea8",
+                "type": "FIX",
+                "text": " We have removed the duplicate 503 error message for the patch service",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170327750"
+                    }
+                ]
+            },
+            {
+                "id": "1d9aae326a0ddee22d3ba1aa21a92c2277c2d598",
+                "type": "FEATURE",
+                "text": " The filter bar is now hidden after a user presses the Go button on a mobile phone"
+            },
+            {
+                "id": "7e7d3d6e6e3c8f9b20e68d2035dbf9e25c82ff65",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now provides the snappedTitleOnMobile for object pages used on a mobile phone"
+            },
+            {
+                "id": "a3f4fce387a2062600f995997a54fbfb87c87ec2",
+                "type": "FIX",
+                "text": " A browser console error that occurred on the title hierarchy has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180423604"
+                    }
+                ]
+            },
+            {
+                "id": "86d32cec4b45e39ee210c6ae5d47663845a07af1",
+                "type": "FEATURE",
+                "text": " You can now use the search field in charts in the list report and analytical list page"
+            },
+            {
+                "id": "175fb6a6ddc3054c63de1872f61419751e915e97",
+                "type": "FIX",
+                "text": " Highlighting line items based on their criticality now also works correctly for newly created rows",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180433207"
+                    }
+                ]
+            },
+            {
+                "id": "6c6c4568a8e92c41c1300389ee7541c7534f3a28",
+                "type": "FIX",
+                "text": " The Draft Confirmation popover is no longer displayed when navigating back from a custom object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180407074"
+                    }
+                ]
+            },
+            {
+                "id": "c285727469d8855b994dce71541e9d74d7320351",
+                "type": "FIX",
+                "text": " The correct error message is now displayed for ETag-related errors",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180415634"
+                    }
+                ]
+            },
+            {
+                "id": "149e3fc5f2131ea933a1a223aacaceefd7aad450",
+                "type": "FEATURE",
+                "text": " The EditFlow API is now publicly available and the experimental status is removed"
+            },
+            {
+                "id": "490f2f0c1e505f93a49bddfcb6719987488697e2",
+                "type": "FEATURE",
+                "text": " The building block for the filter bar now provides custom filters"
+            },
+            {
+                "id": "b158f1fa896b996a89e61aef58346df2ef5cb545",
+                "type": "FEATURE",
+                "text": " Applications can now use the Mass Edit feature in list reports"
+            },
+            {
+                "id": "0a761a6c13501a6c4fef37773cb4fe8300e1e056",
+                "type": "FIX",
+                "text": " The link in the MessagePopover now triggers the focus on the field containing the error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180433207"
+                    }
+                ]
+            },
+            {
+                "id": "d82b032a5440637f3dd848b2e9c3c6e3e24c7a3c",
+                "type": "FIX",
+                "text": " The property \"Initials\" is now supported in the title of an object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170323402"
+                    }
+                ]
+            },
+            {
+                "id": "60700b5920d48582e43c3ee907792ca9bb57fe32",
+                "type": "FIX",
+                "text": " The shared email link for cFLP apps is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170230319"
+                    }
+                ]
+            },
+            {
+                "id": "5b8c1469acab1cc98e70c59cb9cc6aa5a59419ca",
+                "type": "FIX",
+                "text": " A wrong annotation column key referenced in the manifest no longer prevents the application from starting",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180406547"
+                    }
+                ]
+            },
+            {
+                "id": "e7d0738e032786a03ac1d096b05dafae4a412c98",
+                "type": "FIX",
+                "text": " Facet hidden annotation are now set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170316605"
+                    }
+                ]
+            },
+            {
+                "id": "7033df36d65ededd70a12afb42de4524d65a01e0",
+                "type": "FEATURE",
+                "text": " Navigation to a semantic object has been enabled for DataPoints on the object page"
+            },
+            {
+                "id": "110e34e93df15ae151b97f2c1056065e095dcdac",
+                "type": "FIX",
+                "text": " The support of dynamic expressions in facets is set now correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170282639"
+                    }
+                ]
+            },
+            {
+                "id": "7ed82642885065a7a8de177f30b8982a456551ca",
+                "type": "FEATURE",
+                "text": " The getBindingContext is now available in the ExtensionAPI for the object page"
+            },
+            {
+                "id": "ac6c9ff21f4ec50b3d560e0cbdb492c90167745b",
+                "type": "FEATURE",
+                "text": " The list report now stores/restores the table personalization into the iAppState"
+            },
+            {
+                "id": "cf0c4356aab04cdcaf5f0edc58c00dc9d6b19247",
+                "type": "FIX",
+                "text": " Based on the settings you make in the SAP Fiori launchpad, external navigation now opens in a new tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007350822021"
+                    }
+                ]
+            },
+            {
+                "id": "db014b00f0c174862cbcc9548156b15ef42f9620",
+                "type": "FIX",
+                "text": " The issue related to the duplication of a newly created item in flexible column mode has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170219776"
+                    }
+                ]
+            },
+            {
+                "id": "be1117510cd4ee273eb2f9579a459463180df829",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now enables you to navigate to a different internal target"
+            },
+            {
+                "id": "5f9ad0add514a92470be64bd6ac4c854caa48b91",
+                "type": "FIX",
+                "text": " Applications can now define an individual title for action dialogs using the preferredMode create/createWith parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170326311"
+                    }
+                ]
+            },
+            {
+                "id": "cea6e821da62fffded3800767bb2426735d164be",
+                "type": "FEATURE",
+                "text": " In the list report, the search field is now also available when you use an analytical table"
+            },
+            {
+                "id": "05b51e9d945e2f4c5673209f1ffa0f785f811d9a",
+                "type": "FIX",
+                "text": " The default alignment of dates and currencies has been changed to \"sap.ui.core.HorizontalAlign.Right\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170227320"
+                    }
+                ]
+            },
+            {
+                "id": "3f8b8e0efb820a3a08bdd760ce779c3118b26bf6",
+                "type": "FEATURE",
+                "text": " The number of items is now displayed in the table toolbar in analytical cases"
+            },
+            {
+                "id": "f88f62cf49a8f94be8d60bac0ec295b702bc45a6",
+                "type": "FIX",
+                "text": " SAP Fiori elements now updates the IconTabBar counts on a list report when a new entity is created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170328178"
+                    }
+                ]
+            },
+            {
+                "id": "668d11663be5d65df70d9fd69389909c720e3557",
+                "type": "FIX",
+                "text": " SAP Fiori elements now disables the quick filters on the table only when the FilterBar conditions are changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170312585"
+                    }
+                ]
+            },
+            {
+                "id": "2d72cf999be1c361a8072b9e42b8e7bd660f0a78",
+                "type": "FEATURE",
+                "text": " Navigation to an app by clicking on the header of a KPI card is now supported"
+            },
+            {
+                "id": "279c23061aaa126378e4998cf4935071bef52dfa",
+                "type": "FIX",
+                "text": " The Create Button on the List Report table is now visible if insertion is switched off and external creation is maintained",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170323614"
+                    }
+                ]
+            },
+            {
+                "id": "9d0f27019e9b5ce00ad91dcace905826acc44981",
+                "type": "FIX",
+                "text": " When you discard a newly created draft in a list report, the navigation now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170246068"
+                    }
+                ]
+            }
+        ]
+    }
+}

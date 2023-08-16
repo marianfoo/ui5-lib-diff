@@ -1,0 +1,453 @@
+{
+    "1.105.0": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "a50097e2ae8ad2219ee4278066ac2888c97b574b",
+                "type": "FEATURE",
+                "text": " We now use the new value help control in table and filter setting dialogs"
+            },
+            {
+                "id": "da326cbd140bb26c0ef705336dd633bb90c15862",
+                "type": "FIX",
+                "text": " We now show the correct title in an action parameter dialog when the action label is undefined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280141181"
+                    }
+                ]
+            },
+            {
+                "id": "94666b50ba9bbdfed97786a87dfb5b63ee2af29c",
+                "type": "FIX",
+                "text": " The value state of mandatory filter fields now reacts to input sent via the ExtensionAPI.setFilterValues() method",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280110522"
+                    }
+                ]
+            },
+            {
+                "id": "cd7a648fe28f05f5f26a977546a07a3853483e86",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now displays a DataPoint with a semantic object properly in the object page header"
+            },
+            {
+                "id": "ab36774435d9292a5fd14b859104ce480dcdda5d",
+                "type": "FEATURE",
+                "text": " The type-ahead feature now highlights all entries beginning with your search string"
+            },
+            {
+                "id": "351b1e248cc9d3a01fad6a793b1d29720c053b56",
+                "type": "FIX",
+                "text": " We now display the correct i18n text also in 'Delete' scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280115885"
+                    }
+                ]
+            },
+            {
+                "id": "9167eb4b021bd9562bc34cdc7dd887d6555c84ca",
+                "type": "FIX",
+                "text": " SAP Fiori elements for OData V4 now automatically sets the height of charts to 100% in a chart-only view",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270018895"
+                    }
+                ]
+            },
+            {
+                "id": "fbc9006b9637f6ce4adac40ffaa611929de03596",
+                "type": "FIX",
+                "text": " We now pass the correct component to the API of the CacheHandlerServiceFactory",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270021471"
+                    }
+                ]
+            },
+            {
+                "id": "e9c57b4c4373771871a7b005ada7e186ad5666b5",
+                "type": "FIX",
+                "text": " When a semantic object is defined with a path, the unavailable actions of the semantic object now work properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280130100"
+                    }
+                ]
+            },
+            {
+                "id": "135258c567b4cc4ffd785a6b3036d45e4a1fb570",
+                "type": "FIX",
+                "text": " SAP Fiori elements now enables you to filter on a table for navigation properties in the LineItem",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170295934"
+                    }
+                ]
+            },
+            {
+                "id": "b8d2001cd52553852eb23403d2ed9682edffaad4",
+                "type": "FIX",
+                "text": " You can now correctly save a variant (using 'Save View') after removing a column",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270103510"
+                    }
+                ]
+            },
+            {
+                "id": "d7acbfa3f9d9a49d6a96ff32512eb84d404a1ec6",
+                "type": "FIX",
+                "text": " SAP Fiori elements for OData V4 now supports table visualization even if no lineItem annotations have been defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280114335"
+                    }
+                ]
+            },
+            {
+                "id": "2e2e6ebe07f0cec98e0f747e08125f2de307ba9e",
+                "type": "FEATURE",
+                "text": " You can now mark custom filter fields as 'mandatory' by setting the 'required' property in the manifest.json"
+            },
+            {
+                "id": "2f7b17d28f8cc2abca4c3243e5110ee2321fae01",
+                "type": "FIX",
+                "text": " The issue relating to the console error that occurred when adding a custom filter has been resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280097031"
+                    }
+                ]
+            },
+            {
+                "id": "447f60056411a6de21bc40daff3029f7eea7b443",
+                "type": "FIX",
+                "text": " The issue related to the calculation of the column width has been resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280120627"
+                    }
+                ]
+            },
+            {
+                "id": "b24faba35b74c43ac2741600a47c9f3dba83c29a",
+                "type": "FIX",
+                "text": " Customers can now provide their own custom texts for critical inline actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004464442022"
+                    }
+                ]
+            },
+            {
+                "id": "6322fa8424039962829200fb6a7a36fbfd1aad05",
+                "type": "FIX",
+                "text": " The issue related to the separator in the object page header has been resolved.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280122403"
+                    }
+                ]
+            },
+            {
+                "id": "7b470052795ff35c6661bcb3615e9d43886b7d3d",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now supports the TextArrangement annotation for the 'Group' label in responsive tables"
+            },
+            {
+                "id": "3ea49925d22bbfc2b87830b50c0376345688f83a",
+                "type": "FIX",
+                "text": " Whenever a table is bound, the bindingUpdated is now properly fired",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270094029"
+                    }
+                ]
+            },
+            {
+                "id": "ddca26d6395141d4ca7e3f112b7cd1ff9925424b",
+                "type": "FIX",
+                "text": " Editing numbers with units having a value help no longer shows invalid error message",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280117482"
+                    }
+                ]
+            },
+            {
+                "id": "8c0776a985d5ab5cec893dc7b5a6255bdde0213a",
+                "type": "FIX",
+                "text": " We've removed the vertical line that was visible at the end of the table toolbar in analytical list page apps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280101233"
+                    }
+                ]
+            },
+            {
+                "id": "30afb642f6b2e36a7e651d9c673af502a9c6267c",
+                "type": "FIX",
+                "text": " PresentationVariant definition are now correctly supported by MacroTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280109923"
+                    }
+                ]
+            },
+            {
+                "id": "8ba4c8c8c4e8df68c4ccd9c261409c091be9b85b",
+                "type": "FIX",
+                "text": " Using a dynamic field control in SAP Fiori elements, currencies that are set to readonly are now correctly displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280101885"
+                    }
+                ]
+            },
+            {
+                "id": "cd25c639bf7cee2a47511a8528053f4ba68fcb40",
+                "type": "FEATURE",
+                "text": " The form building block now accepts custom form elements that are defined inline"
+            },
+            {
+                "id": "90a581c5c12cab0c3958343add5074a274799910",
+                "type": "FEATURE",
+                "text": " For Edm.Stream, @UI.IsImage is now supported"
+            },
+            {
+                "id": "eb66c5ae8d77823d9046b532b369f782b21f33a7",
+                "type": "FIX",
+                "text": " A link from DataFieldWithURL is now opened in the same tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004085382022"
+                    }
+                ]
+            },
+            {
+                "id": "0e26ea3294d5542da264d7156eba181492ab2663",
+                "type": "FIX",
+                "text": " The width for a FieldGroup containing buttons is now correctly calculated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280097226"
+                    }
+                ]
+            },
+            {
+                "id": "1d145a7f38b730d09613b2ba3470f2f6ce606663",
+                "type": "FIX",
+                "text": " SAP Fiori elements now ensures the screen reader reads all labels of the fields within a form used inside a column",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280101598"
+                    }
+                ]
+            },
+            {
+                "id": "919153b3d32385b226dcafc78b8650aed2a9a37a",
+                "type": "FIX",
+                "text": ": SAP Fiori elements now correctly supports changes made to the page VariantManagement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280098428"
+                    }
+                ]
+            },
+            {
+                "id": "2286a93576e2e1917fdc1f5626525f246b58c638",
+                "type": "FIX",
+                "text": " You can now correctly edit currencies and units with a decimal property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280096267"
+                    }
+                ]
+            },
+            {
+                "id": "86346ba3d81df1d2a70a2215db84a84439878422",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now supports semantic objects in navigation properties and the display of their quick view facets"
+            },
+            {
+                "id": "ad508b69935cc0212f3361f675024af03d5c17ca",
+                "type": "FIX",
+                "text": " Situation Handling now works in all tables as well as in entity sets with parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280093857"
+                    }
+                ]
+            },
+            {
+                "id": "ccc873bad3bb1a573fc3c1c901d011ef13c06f2a",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly determines the DisplayMode for a FilterField",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280084870"
+                    }
+                ]
+            },
+            {
+                "id": "7125a8b9bb8b95489f2b0499071c0d5fab7fa6e9",
+                "type": "FIX",
+                "text": " SAP Fiori elements now refreshes the Edm.Stream property after the upload",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280087645"
+                    }
+                ]
+            },
+            {
+                "id": "135e69aaaf4fdc1f1467b1c39f32b72d23581fb9",
+                "type": "FIX",
+                "text": " When pressing the link of an ObjectIdentifier column, the opened dialog is now correctly positioned",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280082802"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.105.1": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "027247d4dd87d4fb12604d07afaf4a4933031273",
+                "type": "FIX",
+                "text": " We now support false Boolean values as inParameters to be used as filters in F4 help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270118228"
+                    }
+                ]
+            },
+            {
+                "id": "ff5d09ef30a7294feb3cfa69a9cac188d981e113",
+                "type": "FIX",
+                "text": " You can now navigate as expected to an object page after using a value help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006578112022"
+                    }
+                ]
+            },
+            {
+                "id": "558449087e815576af7837dd117d305e7de2a149",
+                "type": "FIX",
+                "text": " We now support false Boolean values as inParameters to be used as filters in F4 help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270118228"
+                    }
+                ]
+            },
+            {
+                "id": "f1657a13e001431939ba075ec5bbd21ddbc87fbb",
+                "type": "FIX",
+                "text": " The pageReady event is now fired for an object page containing a filter bar, a table and a chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270115472"
+                    }
+                ]
+            },
+            {
+                "id": "094eaf3a0d6b6e3f03679ce72d1836d08fbf8ed7",
+                "type": "FIX",
+                "text": " We now support sorting of lineItems that have contacts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280172311"
+                    }
+                ]
+            },
+            {
+                "id": "52741a3ccaeb859b900b83106781e323d04e2c64",
+                "type": "FIX",
+                "text": " We now avoid empty value helps if there is no internal binding context",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280161524"
+                    }
+                ]
+            },
+            {
+                "id": "dfed1f2d69f0b9d225e614f6ba94cfda9b08eb80",
+                "type": "FIX",
+                "text": " We've resolved the issue related to adding a field to a form on a subobject page for key user adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280159021"
+                    }
+                ]
+            },
+            {
+                "id": "0f26dc4862db45389d7286d58707697dd00276a9",
+                "type": "FIX",
+                "text": " We've fixed an issue relating to side effects in combination with columns added via table settings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280137459"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.105.3": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "b446a16f4b841b61afb8f9daa8da8fb9993aeada",
+                "type": "FIX",
+                "text": " We now ensure that the \"availability\" property of the line item annotation in a table is set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270180341"
+                    }
+                ]
+            }
+        ]
+    }
+}

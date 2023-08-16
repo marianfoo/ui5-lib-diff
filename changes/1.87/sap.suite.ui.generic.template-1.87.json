@@ -1,0 +1,170 @@
+{
+    "1.87.0": {
+        "date": "February 2021",
+        "notes": [
+            {
+                "id": "I389189dce006b1e9ce4a64cb37e84d76f04fc335",
+                "type": "FEATURE",
+                "text": "LROP: Default value of UI.Importance property of table columns is changed from High to None, except for semantic key fields"
+            },
+            {
+                "id": "I886f3b7d0c7f90ac5b7acfc077322e9fb9471ab0",
+                "type": "FEATURE",
+                "text": "OP: Current page now closes on clicking the Apply button in FCL layout"
+            },
+            {
+                "id": "I31e04891997e39a9905af68125e1fc932757f6c8",
+                "type": "FEATURE",
+                "text": "Tooltips can now be added to avatar"
+            },
+            {
+                "id": "I166e1bddeca8a039cb9b9cd748371cefaa928970",
+                "type": "FEATURE",
+                "text": "ALP: Visual filter now supports time series"
+            },
+            {
+                "id": "I438bb0c85ad8c4b4bcc0c1ae95bfd7061a46bfb3",
+                "type": "FIX",
+                "text": "Improved intent based navigation handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070457529"
+                    }
+                ]
+            },
+            {
+                "id": "Icde07166e0212e5fc5312044c6d0f69a8f3dd07a",
+                "type": "FIX",
+                "text": "OP: Handling of ETag messages during non-draft save scenario improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180020524"
+                    }
+                ]
+            },
+            {
+                "id": "Ic0047b5b0eee8970d0de38f639dcb5c10f0b6d5a",
+                "type": "FIX",
+                "text": "Values for relevant fields appear in the results even while navigating across multiple tabs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080421437"
+                    }
+                ]
+            },
+            {
+                "id": "I0375edbc7a47e30f6ff2fdd96d7820784053df58",
+                "type": "FIX",
+                "text": "Extra save button removed from variant select view",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080380946"
+                    }
+                ]
+            },
+            {
+                "id": "I912e72b5e9b07afd9db0ec8706d2c156c310ca41",
+                "type": "FIX",
+                "text": "OP: Binding path for navigation in edit mode is now made absolute",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180048693"
+                    }
+                ]
+            },
+            {
+                "id": "I7bd8d5af3d453c8fec5c2e6e65e67b2220d446bb",
+                "type": "FIX",
+                "text": "OP: Single smart form provided for all field groups",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180015872"
+                    }
+                ]
+            },
+            {
+                "id": "I253e6131838c4bf70932a8c248295c73afc3c0e0",
+                "type": "FIX",
+                "text": "LR: Intialization optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180032924"
+                    }
+                ]
+            },
+            {
+                "id": "I1f262bbd667f7ecd36e4a03c34b3d5c2e7b818a8",
+                "type": "FIX",
+                "text": "Placeholder to remove with FE-DATA-LOADED",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180031717"
+                    }
+                ]
+            },
+            {
+                "id": "Id8145b2b2334b6ab4c6fd8202c6be0baa5a3136c",
+                "type": "FIX",
+                "text": "OP: Text arrangement for DataPoint type improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2030246718"
+                    }
+                ]
+            },
+            {
+                "id": "Idfe2449511f2e6cdad23ca3f34d1d166688fa28a",
+                "type": "FIX",
+                "text": "Optimized apps to start even when shell environment is missing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070402598"
+                    }
+                ]
+            },
+            {
+                "id": "Id9e8b44bd0e6068c03d709a6a7a560dd64df4e31",
+                "type": "FIX",
+                "text": "OP: persistTechnicalMessages property switched off in compatibility mode of messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080422057"
+                    }
+                ]
+            },
+            {
+                "id": "I6e3e1c4dab42c387b1b21712b7fae0f6f61181c2",
+                "type": "FIX",
+                "text": "OP: Discard draft now works if a create draft subobject page is opened in FCL",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000208752021"
+                    }
+                ]
+            },
+            {
+                "id": "I843754782808d497cafbd73fbef1977cdac78722",
+                "type": "FIX",
+                "text": "OP: Removed superfluous bindings that cause issues when navigating to outdated objects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080411111"
+                    }
+                ]
+            }
+        ]
+    }
+}

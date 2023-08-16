@@ -1,0 +1,258 @@
+{
+    "1.87.0": {
+        "date": "February 2021",
+        "notes": [
+            {
+                "id": "8207eb2510d50849bd311a22e9a321f78fbcc560",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Validation is added for Between operator for fiscal dates",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180044608"
+                    }
+                ]
+            },
+            {
+                "id": "4121c77a0423dc8ec2c2f3ba28783210247d91d3",
+                "type": "FIX",
+                "text": " FiscalDate: Started taking care of display-format= 'NonNegative'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180062036"
+                    }
+                ]
+            },
+            {
+                "id": "e1aca23b61505eca85922ea63b5fa7f28e831894",
+                "type": "FIX",
+                "text": " SmartField: Unresolved promise in TextArrangementDelegate",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080389115"
+                    }
+                ]
+            },
+            {
+                "id": "bacd9b3b65e3732f951fbec3c53cf98351e120fd",
+                "type": "FIX",
+                "text": " SmartTable: enableAutoColumnWidth for edit scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180060218"
+                    }
+                ]
+            },
+            {
+                "id": "92ecd5095ac44cddf4a6bb7287f159dea666081c",
+                "type": "FEATURE",
+                "text": " SmartForm: Importance property is now supported"
+            },
+            {
+                "id": "df3338f9b513a3993e66e14ccabe635a23f89d75",
+                "type": "FIX",
+                "text": " FilterBar: Adapt Filters list view now does not show invisible filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180035382"
+                    }
+                ]
+            },
+            {
+                "id": "4e3fa88d52a098e71e70d4f9310c2ebac1e97c30",
+                "type": "FEATURE",
+                "text": " SmartVariantManagement: restrict variant deletion & renaming"
+            },
+            {
+                "id": "418434a20359bb7f5e0a4f767f1f53c8381770cf",
+                "type": "FEATURE",
+                "text": " SmartField: Incorrect values entered in ComboBox are now handled"
+            },
+            {
+                "id": "2a7dfc7ae0b6bcadf4d68cc433a8cd6688f446db",
+                "type": "FIX",
+                "text": " Fixed SmartChart not applying variant change before inner chart is bound",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000261602021"
+                    }
+                ]
+            },
+            {
+                "id": "429d9ec55fbe1c312847afd10c67b4548de105c7",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Change ariaLabelled with ariaDescribed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180006408"
+                    }
+                ]
+            },
+            {
+                "id": "73c499f56bc099d7c561f85c9e177abe98acc480",
+                "type": "FIX",
+                "text": " SmartField: isUpperCase moved to String type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070476791"
+                    }
+                ]
+            },
+            {
+                "id": "e951d818821eca8ac8090b7f1e253101db7101a4",
+                "type": "FIX",
+                "text": " SmartField: TextDirection does not change text-align of the field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008310392020"
+                    }
+                ]
+            },
+            {
+                "id": "032095e207108a863ad8aa56461e65934fb8acbc",
+                "type": "FEATURE",
+                "text": " Support side effects execution upon addition or deletion of a token from SmartMultiInput",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080205660"
+                    }
+                ]
+            },
+            {
+                "id": "9d89e127186b53ffbed79e5777aaee0dac7275df",
+                "type": "FIX",
+                "text": " SmartField: sap:updatable-path and navigationProperty",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070456716"
+                    }
+                ]
+            },
+            {
+                "id": "6e4289c05e2896759b7589108e86fa7ae6edbab9",
+                "type": "FIX",
+                "text": " SmartField: change event params fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180034447"
+                    }
+                ]
+            },
+            {
+                "id": "5e5feee32d9df9d9a291e087b5bce571c9db0bb5",
+                "type": "FEATURE",
+                "text": " comp.SmartVariantManagement: usage of loadVariants FL-API"
+            },
+            {
+                "id": "122053fc0530d1e73820b180332e5af90898a890",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Initial focus on TabBarItem",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080396248"
+                    }
+                ]
+            },
+            {
+                "id": "91d2791a920cbcee4ac203d653c68037a95db6f1",
+                "type": "FIX",
+                "text": " SmartField: isUpperCase moved to String type"
+            },
+            {
+                "id": "3250833c1b77cbf1b82816b71dc93d2923e3c831",
+                "type": "FEATURE",
+                "text": " SmartTable: enableAutoColumnWidth isn't experimental any more"
+            },
+            {
+                "id": "2a3b2fcb096b738b2de1bf227ea91374200528a1",
+                "type": "FIX",
+                "text": " FilterBar: Search is now triggered when clear button is pressed in Live mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080451041"
+                    }
+                ]
+            },
+            {
+                "id": "cdee1f4c0d538d1e35dcc8fb68d924b4bc1e09d5",
+                "type": "FIX",
+                "text": " SmartField: isUpperCase moved to String type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070476791"
+                    }
+                ]
+            },
+            {
+                "id": "7cafb7827b74becec8c1299fe6e12b2313f26aeb",
+                "type": "FEATURE",
+                "text": " SmartField: Constants support for \"fixed-list\""
+            },
+            {
+                "id": "a8a15c1d82eaab27d34c161f9e33ab3d8de2fc07",
+                "type": "FEATURE",
+                "text": " VariantManagement: Standard variant author customizable"
+            },
+            {
+                "id": "23c194a53197b7591883af153d4803ce5aaadf56",
+                "type": "FIX",
+                "text": " SmartField: remove DisplayComboBox class"
+            },
+            {
+                "id": "666bfdbe848311eb69da17ff81d5c7e24e70c6c6",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement remove substringof from request with compound keys"
+            },
+            {
+                "id": "055cd7b259fed48d5b0892144d9896fe90e919df",
+                "type": "FEATURE",
+                "text": " SmartVariantManagement: Admin Configuration for User Options"
+            },
+            {
+                "id": "38051bb57e0a3c8260ae76539ff2b99320f98798",
+                "type": "FIX",
+                "text": " Build: Unstable test"
+            },
+            {
+                "id": "6987d1b2dc8d30383b0860d772b87c5f2b70eeb1",
+                "type": "FIX",
+                "text": " SmartField: remove DisplayComboBox class"
+            },
+            {
+                "id": "98a34b0cf847895383074c3c0f245041f3075da6",
+                "type": "FIX",
+                "text": " AdaptFiltersDialog: Deselecting filters properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070484906"
+                    }
+                ]
+            },
+            {
+                "id": "76ef342731e2970c405b18aaa1bbde0de8e44bce",
+                "type": "FIX",
+                "text": " SmartField: remove DisplayComboBox class"
+            },
+            {
+                "id": "85f19a0e7e52ea28f5befca85708296e65b30164",
+                "type": "FEATURE",
+                "text": " VariantManagement: Manage Views Dialog - Change \"OK\" to \"Save\""
+            }
+        ]
+    }
+}

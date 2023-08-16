@@ -1,0 +1,278 @@
+{
+    "1.112.0": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "e7dc672f7964f91379239e1836fa27421f8186b1",
+                "type": "FIX",
+                "text": " We now ensure that the label of the chart measure is shown in the Chart building block if a custom aggregate is used as measure",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370004896"
+                    }
+                ]
+            },
+            {
+                "id": "40f3e9d93f760e7ca647e232a1bf32b515eafad8",
+                "type": "FIX",
+                "text": " We now ensure that the visual filter shows only a single selection when single value restrictions are applied for the filter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370005739"
+                    }
+                ]
+            },
+            {
+                "id": "dee65e5dd70cd6b40a000cb4bacaeb28aabfa4ae",
+                "type": "FIX",
+                "text": " We've fixed another issue with additional properties not being requested on tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380023849"
+                    }
+                ]
+            },
+            {
+                "id": "f895166df57dec3a1642b213f38cbf45bb2a5d8a",
+                "type": "FIX",
+                "text": " We now ensure that the separator is shown correctly when no unit of measure and no scale factor is defined in the annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370003548"
+                    }
+                ]
+            },
+            {
+                "id": "4ae31943867096d35f751dba30ffcb5561a8f201",
+                "type": "FIX",
+                "text": " We now ensure that compact filters are loaded correctly when no chart visualization is defined in the presentation variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370003498"
+                    }
+                ]
+            },
+            {
+                "id": "45adba64bbfcbb345e5796ae42d969b005e02d1b",
+                "type": "FEATURE",
+                "text": " Applications can now exclude form fields and filter fields from key user adaptation and personalization by using UI.AdaptationHidden"
+            },
+            {
+                "id": "c0603d35f1e8c5a25151e169920f588f4eb886cd",
+                "type": "FIX",
+                "text": " Revert for: We've resolved an issue where error messages weren't displayed for incorrect entries in the flexible programming model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380035908"
+                    }
+                ]
+            },
+            {
+                "id": "c8e11695a216300f377ff95d8a982b55b679b12c",
+                "type": "FIX",
+                "text": " We've resolved an issue where error messages weren't displayed for incorrect entries in the flexible programming model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380035908"
+                    }
+                ]
+            },
+            {
+                "id": "410dcd99056919a57caa4ffe54f8f20c83b94b45",
+                "type": "FEATURE",
+                "text": " The QuickView now displays an illustrated message when a link is clicked for which there are no target applications"
+            },
+            {
+                "id": "1808bc4a6bd4a822053aa721bca82d921de199d1",
+                "type": "FEATURE",
+                "text": " We've added the property allowedValues to the api.json"
+            },
+            {
+                "id": "ded0cc73648507a620e0bdceeed1577a47800f88",
+                "type": "FIX",
+                "text": " Apps now load faster, since we now process the metamodel incrementally and only when needed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "a7e84a1eb930ecd174b32d0250154aa860a9df68",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the handling of the EditState",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380027951"
+                    }
+                ]
+            },
+            {
+                "id": "e945d2e08f30e441ac9859a00035660f18231a38",
+                "type": "FIX",
+                "text": " We now load visual filters correctly if measure attributes are not defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370001526"
+                    }
+                ]
+            },
+            {
+                "id": "6dbb105f4d86e7ad5f3fab0b32520af59199d14c",
+                "type": "FIX",
+                "text": " We now ensure that the Share button always remains outside the overflow toolbar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380010595"
+                    }
+                ]
+            },
+            {
+                "id": "ff6412569671500ef80ae16365e200c88e2b859d",
+                "type": "FEATURE",
+                "text": " We've improved the lazy loading behavior of the object page"
+            },
+            {
+                "id": "f1a2097bd68dc42035025db0d47f60ae99aa1543",
+                "type": "FEATURE",
+                "text": " The Filter Bar building block now displays the parameter fields also if the service is parameterized"
+            },
+            {
+                "id": "4bff397ad71f7a1a9936df9c1e018f978aba48b1",
+                "type": "FIX",
+                "text": " We now hide the value help when a visual filter has a dropdown menu",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380026700"
+                    }
+                ]
+            },
+            {
+                "id": "b5ea75ae821223971930e5cb78a7c3c96a8568d0",
+                "type": "FEATURE",
+                "text": " We now support strict handling for actions in Changeset mode"
+            },
+            {
+                "id": "2fc6cf28b791263ff16ef22734a0143e073292df",
+                "type": "FIX",
+                "text": " We now ensure that the chart menu action is disabled in the Chart building block if the enabled property is set to 'false'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380037445"
+                    }
+                ]
+            },
+            {
+                "id": "5dd3aa649beabbe60531f4dd9c4bce46163d8cad",
+                "type": "FIX",
+                "text": " We've improved the behavior of the value help selection for keys that aren't unique",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270160633"
+                    }
+                ]
+            },
+            {
+                "id": "9bc9c3b4886bdbb747c3f2d48a6f81bfb8e1172a",
+                "type": "FEATURE",
+                "text": " You can now use the filter option in the personalization dialog of charts"
+            },
+            {
+                "id": "4cf300af09c7fa01a4426a9b88179b7d340933f2",
+                "type": "FIX",
+                "text": " SAP Fiori elements now properly exports large amounts of data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000625952023"
+                    }
+                ]
+            },
+            {
+                "id": "7aed4559b67d82b049b1ff951e92bdbe31ddd3f9",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the navigation not working correctly for a semantic object with a single link",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380016953"
+                    }
+                ]
+            },
+            {
+                "id": "15c0ed3714cc955e496cff876782a65a7357c807",
+                "type": "FIX",
+                "text": " We now ensure that the chart action is hidden in the Chart building block if it is annotated as UI.Hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380028828"
+                    }
+                ]
+            },
+            {
+                "id": "1808544796f6772405d4069d28eef2cf0a7afd92",
+                "type": "FIX",
+                "text": " rowHighting now works properly when creating a new item in a table in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380026210"
+                    }
+                ]
+            },
+            {
+                "id": "57772207c5e913ea91cff1cbe6a9ce69c97bcc8d",
+                "type": "FIX",
+                "text": " We've improved the text determination for a default parameter in the action parameter dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380021970"
+                    }
+                ]
+            },
+            {
+                "id": "c440344b27576912f9be009d1bc32895ed9e7220",
+                "type": "FEATURE",
+                "text": " We now provide consistent handling of the fallback logic in the list report and analytical list page if the PresentationVariant has no visualization"
+            },
+            {
+                "id": "76de0d6b28f238c5f09cc5c9ac6e5bb6f08886a9",
+                "type": "FIX",
+                "text": " We now ensure that you can't mark the same property as both a dimension (groupable) and a measure (aggregatable) with a custom aggregation method",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380020416"
+                    }
+                ]
+            },
+            {
+                "id": "03fce5f5a6fb416edc266ace4aee22cfac2af13a",
+                "type": "FIX",
+                "text": " We now ensure that table filtering for properties with a 1:n navigation in their navigation path isn't possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380003560"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "1.91.0": {
+        "date": "May 2021",
+        "notes": [
+            {
+                "id": "023f45f3b121e98a041c2e2bc51b875dff7ea565",
+                "type": "FEATURE",
+                "text": " Documentation for form element macro and examples for the Flexible Programming Model explorer"
+            },
+            {
+                "id": "1ef1e69f00c60678f5084fa89c299a749ec666b8",
+                "type": "FEATURE",
+                "text": " The \"onBeforeSave\" hook in the editFlow controller is provided to intercept the 'save' action"
+            },
+            {
+                "id": "5db5e9aa1bbfb4be07c7163fedb7cbb6e332a8fe",
+                "type": "FEATURE",
+                "text": " The address facet in the header of the object page is now supported"
+            },
+            {
+                "id": "4e8edcb12134c0ab23ceb6ada7d8d64f1ba8838f",
+                "type": "FEATURE",
+                "text": " Provides the ControllerExtension for the EditFlow"
+            },
+            {
+                "id": "228c96e6b58b8e211e6231e20b20e7e7e50c5e28",
+                "type": "FEATURE",
+                "text": ": Provides controller extension for message handling"
+            },
+            {
+                "id": "946f6efb0ffae0827262abeb70173b51d4058ec7",
+                "type": "FEATURE",
+                "text": " Provides the implementation for the message macro"
+            },
+            {
+                "id": "52b8909b44e84a843583e1172ab62cb773d64704",
+                "type": "FEATURE",
+                "text": " Controller extension for SideEffects is provided"
+            },
+            {
+                "id": "faa7ee93fc17553473949cf6b9aa55da3f3e52e0",
+                "type": "FEATURE",
+                "text": " Filtering is now possible on the FilterBar with navigation properties for additional entity sets"
+            },
+            {
+                "id": "5d326b5ac742347e6f3fcad44a805bba15dc85d9",
+                "type": "FIX",
+                "text": " The side content is now closed when a new object page instance is opened",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180132309"
+                    }
+                ]
+            },
+            {
+                "id": "a6a4ac15e1635bf5ed0b7c8d051affef8f63e24b",
+                "type": "FEATURE",
+                "text": ": change resource values after UA sync"
+            },
+            {
+                "id": "9591823e18d21f0221a86b41266f4c279c11479d",
+                "type": "FIX",
+                "text": " The algorithm to determine action visibility has been improved for header and footer actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170109645"
+                    }
+                ]
+            },
+            {
+                "id": "70428c2f798ea3abdfe8260ce513797ea1ed1c2f",
+                "type": "FIX",
+                "text": " The algorithm to determine action enablement has been improved to deal with `undefined` values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170093646"
+                    }
+                ]
+            },
+            {
+                "id": "a5b37e02664d165419cecf36f2faf196e4a68f46",
+                "type": "FIX",
+                "text": " Text resources for missing mandatory parameters in the dialog have been updated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170009788"
+                    }
+                ]
+            }
+        ]
+    }
+}

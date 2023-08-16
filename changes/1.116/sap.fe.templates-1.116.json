@@ -1,0 +1,219 @@
+{
+    "1.116.0": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "5ab8de53c8e38815469442b7a17b6f6cc7839e97",
+                "type": "FIX",
+                "text": " The avatar of the object page header now has a tooltip property for the screen reader",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370069297"
+                    }
+                ]
+            },
+            {
+                "id": "09b2c15039f561b37ef763b6671d82a338a88840",
+                "type": "FIX",
+                "text": " We now ensure that the Add Card to Insights option is hidden in by default when a user shares using Microsoft Teams",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380054998"
+                    }
+                ]
+            },
+            {
+                "id": "b85cf04dcf51b078c8ddc1ca2576ed8e8724f046",
+                "type": "FEATURE",
+                "text": " We've removed the duplicate label under the Define Conditions tab from the value help dialog of the filter field"
+            },
+            {
+                "id": "936fc106d827f15e051d833af4c02d71f3cefe36",
+                "type": "FIX",
+                "text": " Pressing Enter when the focus is set on a transient row containing the default values now executes the PrepareAction",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370069535"
+                    }
+                ]
+            },
+            {
+                "id": "52bb904b28c1f2c268a031a04739da50c7391124",
+                "type": "FIX",
+                "text": " If the app state is transient, we set getSuspendedSelection back to false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370070021"
+                    }
+                ]
+            },
+            {
+                "id": "870e7c9863f487601e9b0d5fcf2546ed28722510",
+                "type": "FEATURE",
+                "text": " You can now change the position of the standard actions in the table toolbar"
+            },
+            {
+                "id": "eb65839a0420b260fa16185de5c83fca02816085",
+                "type": "FEATURE",
+                "text": " Creating setSelectionVariant API and FPM example of usage"
+            },
+            {
+                "id": "8cf7bd5da8ad99851be8d5e08ab434ce23faf5ec",
+                "type": "FIX",
+                "text": " We now ensure that annotation-based and custom elements are rendered in the order they are defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047604"
+                    }
+                ]
+            },
+            {
+                "id": "d54aaf02b40dba1181fe098d0dd6ee55462df8de",
+                "type": "FIX",
+                "text": " We now ensure that the Property labels that are visible in the personalization dialog of a table are set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "0dd13cd0a46895d5c077c6867968e4d7f93a43e0",
+                "type": "FEATURE",
+                "text": " In apps using inline creation mode, a table now has only one empty row by default and a second empty row is added as soon as the user enters data in the first empty row"
+            },
+            {
+                "id": "9de7031dc36e10e186b6a27f1c76c50ec258af29",
+                "type": "FIX",
+                "text": " Confirmation messages for critical actions on forms can now be overwritten with custom text",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380049042"
+                    }
+                ]
+            },
+            {
+                "id": "0d301a97cd2132d01b9030a29b1d044b0f9851b4",
+                "type": "FIX",
+                "text": " You can now execute the PrepareAction or global side effects by pressing Enter in the draft mode on a transient row",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380058201"
+                    }
+                ]
+            },
+            {
+                "id": "b11d27ee2ea19ea4e7afcabed24d3ae1b0648870",
+                "type": "FIX",
+                "text": " We now set the handleValidation property to true in component-based apps using analytical list page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370042593"
+                    }
+                ]
+            },
+            {
+                "id": "760fd224ba9c804cfa211149bf75558906bdde81",
+                "type": "FIX",
+                "text": " We now clear recommended values only if the previous context and the current context are different",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380046312"
+                    }
+                ]
+            },
+            {
+                "id": "220363980c311d5bede4151f227e256b5b04d0e3",
+                "type": "FIX",
+                "text": " The filter toggle button is now hidden by default if the app is launched on a mobile device",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047002"
+                    }
+                ]
+            },
+            {
+                "id": "6874d2a6c15734174348785247dab3228c6bdbae",
+                "type": "FIX",
+                "text": " The ‘adaptShareMetadata’ controller extension is now called correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380050460"
+                    }
+                ]
+            },
+            {
+                "id": "853aa62bb23aa791bf9bc82759b84ad4d600da46",
+                "type": "FIX",
+                "text": " We now ensure that the Property labels that are visible in the personalization dialog of a table are set correctly\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "2831a033c22bdf97b8bffd8f34240343dd1693e7",
+                "type": "FIX",
+                "text": " We now ensure that the Property labels that are visible in the personalization dialog of a table are set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "f9fe3a514d666fef33c5da9242959a10d225a4cf",
+                "type": "FIX",
+                "text": " We now ensure the ‘Escape’ key properly ends the process of creating an item in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370048005"
+                    }
+                ]
+            },
+            {
+                "id": "9c69cfff6c263f1f0bc15e08380642b535ca78d2",
+                "type": "FIX",
+                "text": " We now consider user-specific default values in the ‘create’ action parameter dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370050777"
+                    }
+                ]
+            },
+            {
+                "id": "71174c74200706bca5b8edf3b70f9bab7f60b58f",
+                "type": "FIX",
+                "text": " We now support dynamic expressions for hidden annotations of DataFieldForAction and DataFieldForIntentBasedNavigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002665132023"
+                    }
+                ]
+            },
+            {
+                "id": "92f0a72cd3a81350ff745626de85e55a54ffaf0d",
+                "type": "FEATURE",
+                "text": " You can now override the keys for the \"Create\" (M_COMMON_TABLE_CREATE) and \"Delete\" (M_COMMON_TABLE_DELETE) buttons in a table"
+            }
+        ]
+    }
+}

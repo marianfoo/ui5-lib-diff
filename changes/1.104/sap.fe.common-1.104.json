@@ -1,0 +1,29 @@
+{
+    "1.104.0": {
+        "date": "June 2022",
+        "notes": [
+            {
+                "id": "3709e04581c9dd11ebc593c669d66933d4f92e37",
+                "type": "FIX",
+                "text": " The error message is now shown correctly when row information is not available",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270091752"
+                    }
+                ]
+            },
+            {
+                "id": "0a9f003d306becbfb4e6bc3cf094afed718cd875",
+                "type": "FIX",
+                "text": " The message for the field containing the error on the UI isn't removed until the entry is correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270044399"
+                    }
+                ]
+            }
+        ]
+    }
+}

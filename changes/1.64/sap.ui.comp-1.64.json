@@ -1,0 +1,169 @@
+{
+    "1.64.0": {
+        "date": "February 2019",
+        "notes": [
+            {
+                "id": "db1c881a48b1a0975b8b2ef272c48ca3fd6d7d80",
+                "type": "FEATURE",
+                "text": "DateRangeType: Add \"Date\" as new Condition",
+                "references": []
+            },
+            {
+                "id": "e4cd933488f501b940220faf605377c9dbcb9b03",
+                "type": "FIX",
+                "text": "Controller: update dirty flag after select of the standard variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870572957"
+                    }
+                ]
+            },
+            {
+                "id": "8db256129b19786fbf08adeb8de13f7eb6c55f98",
+                "type": "FIX",
+                "text": "MetadataAnalyser: Check for Common FilterExpressionRestrictions",
+                "references": []
+            },
+            {
+                "id": "cd0f369f11e981d4123b6e8fe1204976dd3dd596",
+                "type": "FIX",
+                "text": "SmartField: Referential constraint check fixed",
+                "references": []
+            },
+            {
+                "id": "bf08e06915b18ad443e983f04e969612253ff4c6",
+                "type": "FIX",
+                "text": "FilterProvider: enhancing check for in-parameter as hidden filter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970139010"
+                    }
+                ]
+            },
+            {
+                "id": "197162255cf63b42dde33e49a277344ec0b968a7",
+                "type": "FIX",
+                "text": "SmartChart: Let title act as label for the chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870495827"
+                    }
+                ]
+            },
+            {
+                "id": "d063bc311dea50ab50254128b4f6032dadd9daa0",
+                "type": "FIX",
+                "text": "SmartTable: change event for $expand list corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970007629"
+                    }
+                ]
+            },
+            {
+                "id": "b01d867c82f9892930efb6858807d56e643eb94e",
+                "type": "FEATURE",
+                "text": "SmartField: New .checkValuesValidity() method added",
+                "references": []
+            },
+            {
+                "id": "46406dab447ae4f5a4832c4476e2b7d0e4f71f6c",
+                "type": "FIX",
+                "text": "FilterProvider: fix for multi-valued isCalendarDate filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006058172018"
+                    }
+                ]
+            },
+            {
+                "id": "b62d3cb00f792928ffbb455351c847c548b597da",
+                "type": "FIX",
+                "text": "SmartChart: Set Toolbar height to 3rem (alignment with table)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870448120"
+                    }
+                ]
+            },
+            {
+                "id": "6c31243372804cf4f7315ce84efe66ad716e6516",
+                "type": "FIX",
+                "text": "SmartChart: Show Tooltips of Dimensions in \"View By\" List",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980013358"
+                    }
+                ]
+            },
+            {
+                "id": "6e71250cc4c8ca2da41578d72c1cddae9a817e54",
+                "type": "FIX",
+                "text": "SmartChart: Zoom Buttons should be disabled initially",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970171978"
+                    }
+                ]
+            },
+            {
+                "id": "2f2d35fd9822f3c63076fc7576830bd20beb7678",
+                "type": "FIX",
+                "text": "SmartField: Unnecessary toggling of inner controls prevented",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780483007"
+                    }
+                ]
+            },
+            {
+                "id": "d9477ae33c93b6faa611e4fd1df344f1637cc41c",
+                "type": "FIX",
+                "text": "ValueHelp / BaseValueListProvider: Support NavProps for In Params",
+                "references": []
+            },
+            {
+                "id": "62ed6fb2ec0ea6c23c6da6be8d98c98d802f8b67",
+                "type": "FIX",
+                "text": "FilterProvider: if token is created by tokenizer, remove flag",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980028078"
+                    }
+                ]
+            },
+            {
+                "id": "0e85e786f57b93035b4cc6cc9873ec2e29d44ff4",
+                "type": "FIX",
+                "text": "SmartTable/ControlProvider: Date format for DateTimeOffset ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980013584"
+                    }
+                ]
+            },
+            {
+                "id": "550de3ec8eae077c7fd93a5b4f4a9fe37e7378b1",
+                "type": "FIX",
+                "text": "ValueHelp in SmartControls: DateTimeOffset Range Handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000528702019"
+                    }
+                ]
+            }
+        ]
+    }
+}

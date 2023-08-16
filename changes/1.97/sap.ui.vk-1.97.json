@@ -1,0 +1,264 @@
+{
+    "1.97.0": {
+        "date": "November 2021",
+        "notes": [
+            {
+                "id": "ef07cbef28ee5f48505e31f71787eb5e74bca451",
+                "type": "FIX",
+                "text": " CreateRectangleTool, CreateEllipseTool: viewport selection issue"
+            },
+            {
+                "id": "d1413be4b8e3fe044333173d2bb1d9d7fde62fa3",
+                "type": "FIX",
+                "text": " Fix loading parameteric objects in undo/redo operations"
+            },
+            {
+                "id": "f5c98d8e1596781b081bbfb303b8a6d9f6bfb0a3",
+                "type": "FIX",
+                "text": " CreatePathTool: right mouse button issue"
+            },
+            {
+                "id": "fe9e2c452f3ccd9e9e1e35214ca40bda7c4e5b16",
+                "type": "FIX",
+                "text": " Fix null-pointer crash in AnimationPlayer"
+            },
+            {
+                "id": "14d38bdf2055c209ecf7861f0fc39b11b29f0be0",
+                "type": "FIX",
+                "text": " Marker symbols rendering issue"
+            },
+            {
+                "id": "c9b58c677a8f26c9071fa07ac20693bc1ee8a99a",
+                "type": "FIX",
+                "text": " Skip camera animation when activating collaboration"
+            },
+            {
+                "id": "b5ad1717777337206db81ef885d8b14e8c6a90cd",
+                "type": "FIX",
+                "text": " Apply Material to selected objects will only Apply Diffuse Color and Not Reflection"
+            },
+            {
+                "id": "1ce6bd0ecebbe92fa6db963e5c5df1be204b56ef",
+                "type": "FIX",
+                "text": " Viewport.getObjectImage of symbol node"
+            },
+            {
+                "id": "70506d76d049b23e37cb7c6055648ae7b62367c1",
+                "type": "FIX",
+                "text": " Fix radial explosion animation generation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170305123"
+                    }
+                ]
+            },
+            {
+                "id": "57f0ae4ca48b8f4da31e3f4c9d617aa6337530fb",
+                "type": "FIX",
+                "text": " RedlineTool and DrawerToolbar compatibility issue"
+            },
+            {
+                "id": "bc1501ccf6f107738a4cec98c5c3f82c4de0c041",
+                "type": "FIX",
+                "text": " Redline elements disappearing on hover"
+            },
+            {
+                "id": "2b9cfdec3819f497a0cc555dde32d6f2af8ae54c",
+                "type": "FIX",
+                "text": " RedlineTool: missing requirements for text editing"
+            },
+            {
+                "id": "1ebd6a88cab5572eeaa4ab58e64b3ee35988e99b",
+                "type": "FIX",
+                "text": " Explode tool: Calculation of animation track data fixed"
+            },
+            {
+                "id": "dc00a69ce669bf1f586b277f70632bd04e49f9a9",
+                "type": "FIX",
+                "text": " Hotspot selection colour incorrect after showing and hiding all hotspots"
+            },
+            {
+                "id": "94389e036c5d266608d85c169c6313d5b1ad1f3c",
+                "type": "FIX",
+                "text": " Material without id"
+            },
+            {
+                "id": "30ed49d72af1d0c2d9d05fa9703b632861698a0e",
+                "type": "FIX",
+                "text": " Rectangular selection of skipIt and closed nodes"
+            },
+            {
+                "id": "38240ec04d1d20b07c63ea08f033195e9d478f13",
+                "type": "FIX",
+                "text": " ExplodeTool JSON generation updated."
+            },
+            {
+                "id": "007a05ebe514091c23a7fb46855f030502c71695",
+                "type": "FIX",
+                "text": " Do not select skipIt nodes with rect select tool"
+            },
+            {
+                "id": "fdfd5385da1ca0062ec1441f660508fe55e804ce",
+                "type": "FIX",
+                "text": " RedlineTool and collaboration issues"
+            },
+            {
+                "id": "2606f4c298e80418391e511854ce19b07200c25b",
+                "type": "FIX",
+                "text": " Snapping issues"
+            },
+            {
+                "id": "ec0c88c24ec5c11db32ef912e9b748e53343de4b",
+                "type": "FEATURE",
+                "text": " Add a per-view flag for auto-play animations"
+            },
+            {
+                "id": "3fdee5ddb40603e1f63913f748473b67e96ecf3b",
+                "type": "FIX",
+                "text": " update material color when do replacement"
+            },
+            {
+                "id": "5f8ca751b9bf4b2239dd215003763416c39dcd7b",
+                "type": "FEATURE",
+                "text": " Find nodes by usageId path"
+            },
+            {
+                "id": "bd2b70eacd51b143138d4e6b745b59b57ae738c2",
+                "type": "FIX",
+                "text": " safe check on ViewStateManager"
+            },
+            {
+                "id": "cf7abc153784cc9a81ecf3d158b790c6daa6777e",
+                "type": "FIX",
+                "text": " Allow explosion of animated (joint children) nodes"
+            },
+            {
+                "id": "62eebf59b32ae578d905e24fcb435e863b9cc0f6",
+                "type": "FIX",
+                "text": " LineBasicMaterial without id"
+            },
+            {
+                "id": "111145bb62e4dc519aea52f13cbf98b214267e97",
+                "type": "FIX",
+                "text": " Do not update viewInfo if export is called during view activation"
+            },
+            {
+                "id": "67c0a0db59cd5c2710f67bc6a5952acc21162207",
+                "type": "FIX",
+                "text": " Prevent existing animations from adding into exploded views"
+            },
+            {
+                "id": "edcf4865cfff09375b9726e3e6e1aacb19e8f8a9",
+                "type": "FEATURE",
+                "text": " includeUsageId content resource parameter"
+            },
+            {
+                "id": "7236076d0a3fc9dee045bc2f6ddd8e04d024c0f5",
+                "type": "FIX",
+                "text": " Camera view property set to null"
+            },
+            {
+                "id": "18310bfdf53c1a41a1dc1e41516517a1261cbcbd",
+                "type": "FEATURE",
+                "text": " Redline text editing"
+            },
+            {
+                "id": "44b1065491604dc4d3fe441f63e2b122333e5bce",
+                "type": "FIX",
+                "text": " Incorrect handling of named content resource"
+            },
+            {
+                "id": "eaf3728ff8fd57b0f293dd73881995a2fb249221",
+                "type": "FIX",
+                "text": " Increase redline hittest tolerance"
+            },
+            {
+                "id": "15118c263399f69b90e6e06a4c0f9db434f866fe",
+                "type": "FIX",
+                "text": " Correct ExplodeTool view transformation generation"
+            },
+            {
+                "id": "eab60b66a0a1dd9eefb7aeb9cdd4b0da6f2927a5",
+                "type": "FIX",
+                "text": " Get rid of synchronous library loading"
+            },
+            {
+                "id": "00cb16951166c9bcaf31640c3297c194b2306a7c",
+                "type": "FEATURE",
+                "text": " Add replaceMaterialOnNodes functionality"
+            },
+            {
+                "id": "2fde52f24daa726c061578294e17598024344b80",
+                "type": "FIX",
+                "text": " Deactivate tools on viewport exit"
+            },
+            {
+                "id": "0a542e0e8aa688a9e470bf8567fda54fbc7ccb27",
+                "type": "FEATURE",
+                "text": " sap.ui.vk: new sap_horizon theme"
+            },
+            {
+                "id": "d1b8d1ab17b42274d981571a1b6233c2a76786eb",
+                "type": "FEATURE",
+                "text": " Reimplement RedlineElementText as HTML text"
+            },
+            {
+                "id": "9fe96e4263025761334b0bc77eb79fcbb7bc41d0",
+                "type": "FEATURE",
+                "text": " Svg dx, dy text parameters support"
+            },
+            {
+                "id": "7006a7864f4bda9bf290ddeb8cea521b857494a9",
+                "type": "FEATURE",
+                "text": " RedlineTool support by NativeViewport"
+            },
+            {
+                "id": "767e020710c09d174a480a31e5474825218683ed",
+                "type": "FIX",
+                "text": " Correct explode animation orientation for non-trivial cases"
+            },
+            {
+                "id": "0d3d5c4cf6668663d334eb49906373647d6c00c8",
+                "type": "FIX",
+                "text": " Collaboration model position not saved if panned/zoomed in redline mode"
+            },
+            {
+                "id": "44d7b42f16b91d3dacee1934108af688de3d0796",
+                "type": "FIX",
+                "text": " avoid different height on annotation"
+            },
+            {
+                "id": "6dae8dae4bdbc419c67633a5d840355d6bc015d7",
+                "type": "FIX",
+                "text": " using id for annotation only"
+            },
+            {
+                "id": "2216c0faf06044503d42f95f71dd201eb32a0a29",
+                "type": "FIX",
+                "text": " Fix Text Annotation (notes and labels) rendering in DVL",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002337852021"
+                    }
+                ]
+            },
+            {
+                "id": "05c2ff10272a1cfcd4cc44d1223d3a3f68332a18",
+                "type": "FIX",
+                "text": " 2D image hotspot creation issue"
+            },
+            {
+                "id": "84326c071a64c19f13881e2085188c45e8da38f2",
+                "type": "FEATURE",
+                "text": " Image annotations render order"
+            },
+            {
+                "id": "517987e4b2710eec5f3e19006118c49899c7c012",
+                "type": "FEATURE",
+                "text": " Support arrow line rendering in the RelineElementLine"
+            }
+        ]
+    }
+}

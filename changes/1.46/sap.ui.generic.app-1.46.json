@@ -1,0 +1,69 @@
+{
+    "1.46.0": {
+        "date": "January 2017",
+        "notes": [
+            {
+                "id": "1a500ef13cf670ad420ae92307f50aae25f8ed61",
+                "type": "FEATURE",
+                "text": "Changes related to Non-Side effects",
+                "references": []
+            },
+            {
+                "id": "a98a643cfb31d0fbc66a5a7c1fad06e466ad08b8",
+                "type": "FIX",
+                "text": "NavigationHandler: add presentationVariant also to the xapp state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670517259"
+                    }
+                ]
+            },
+            {
+                "id": "b55b1f28807ca7463dbc9658b84e779d95bbc794",
+                "type": "FIX",
+                "text": "NavigationHandler: correction for a wrong spelling",
+                "references": []
+            },
+            {
+                "id": "30e9ecdc78f814c18977cfdce369a89f13434379",
+                "type": "FIX",
+                "text": "NavigationHandler: if appData === null is passed, do not overwrite the last state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670501021"
+                    }
+                ]
+            },
+            {
+                "id": "6726f19a1034fd32da4f07235a2427e23abecc05",
+                "type": "FIX",
+                "text": "NavigationService: enhanced behavior when navigate is executed with an empty innerAppData object",
+                "references": []
+            },
+            {
+                "id": "36adbe2d482c681016d63bb44053c52a1d8d7434",
+                "type": "FIX",
+                "text": "Navigationhandler: Browser hash now determined via HashChanger singleton",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680340759"
+                    }
+                ]
+            },
+            {
+                "id": "e78da9377edd645babb93ff2f398d6919eedb9da",
+                "type": "FIX",
+                "text": "sap.ui.generic.app: changeSetId 'SideEffects' introduced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670519946"
+                    }
+                ]
+            }
+        ]
+    }
+}

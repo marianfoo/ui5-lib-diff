@@ -1,0 +1,534 @@
+{
+    "1.84.0": {
+        "date": "November 2020",
+        "notes": [
+            {
+                "id": "6eba005536f4b0ef26f56a866d3ac5458b59578b",
+                "type": "FEATURE",
+                "text": "OP: Enabled table toolbar button on an object page"
+            },
+            {
+                "id": "028abb7d42971285e33f6d63ac83080a9959b518",
+                "type": "FEATURE",
+                "text": "LROP : Used aria-haspopup (Aria 1.1) for better accessibility"
+            },
+            {
+                "id": "cd57d9f4b910225756fcc229c2fb03a1421e06d4",
+                "type": "FEATURE",
+                "text": "Enabled passing of multi contexts in external navigation without any parameters"
+            },
+            {
+                "id": "39d361d15afc1371fdc045fb68e426a197291f5a",
+                "type": "FEATURE",
+                "text": "OP: Provided an option to retrieve descriptive texts for SmartFields in Display mode from the resource path mentioned in ValueList annotation"
+            },
+            {
+                "id": "4f22ea99bf85da228232461d8d510e9b3f5daa4e",
+                "type": "FEATURE",
+                "text": "ALP: Merged user default filters with standard variant defaults from vendor layer"
+            },
+            {
+                "id": "2943cfecb42eec66ffc47862fac315f78e684e55",
+                "type": "FEATURE",
+                "text": "Provide a meaningful e-Tag message"
+            },
+            {
+                "id": "7070638926fb3a61c7e61f12e168ddb9a33031bf",
+                "type": "FEATURE",
+                "text": "Removed properties marked with annotations UI.ExcludeFromNavigationContext or PersonalData.IsPotentiallySensitive from the navigation context when navigating through a smart link"
+            },
+            {
+                "id": "d9be67109f636ef53d56af97467d1dd6d4cda126",
+                "type": "FEATURE",
+                "text": "ALP: Support provided for parameter based visual filters"
+            },
+            {
+                "id": "01c8d86499c1fb6d9320b066668914bf9303521c",
+                "type": "FEATURE",
+                "text": "ALP: ariaHasPopup updated with multiple changes"
+            },
+            {
+                "id": "d56c63f7d89a379cb4bddaf0e40f627188948e31",
+                "type": "FEATURE",
+                "text": "ALP: Calls are postponed from value list compact filter drop-down"
+            },
+            {
+                "id": "798ecd9a807cc8bfbf44a68170dff39c21c0237a",
+                "type": "FEATURE",
+                "text": "ALP: Visual filter dropdown now supports In Parameters."
+            },
+            {
+                "id": "0a8d4be5b5d86c7318ad9179b6237d6ea3b1a183",
+                "type": "FEATURE",
+                "text": "Clubbed header calls while editing drafts"
+            },
+            {
+                "id": "d89dd3f5d91584243fa6518b992a1b20c869e454",
+                "type": "FEATURE",
+                "text": "Ignore passing blank values in SV while navigating to external app"
+            },
+            {
+                "id": "04a5f142f618f5fdf97d1fc8d11313fdc3e7fd8e",
+                "type": "FIX",
+                "text": "Altered response structure for custom action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070339027"
+                    }
+                ]
+            },
+            {
+                "id": "bd250d4343a3ea312e46d3c714e07858534b61aa",
+                "type": "FIX",
+                "text": "Fixed safety net issue caused due to undefined technical details in messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070404290"
+                    }
+                ]
+            },
+            {
+                "id": "0363839f03b3517cc0ffa6463b6f4f3cbf8fb164",
+                "type": "FIX",
+                "text": "OP: Re-added tolerance for wrong annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070388639"
+                    }
+                ]
+            },
+            {
+                "id": "ea2588c3a7f040b62b5169cf963cd81fd5e7b091",
+                "type": "FIX",
+                "text": "LR: Refactored code for TextArrangement visibility changes in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070380687"
+                    }
+                ]
+            },
+            {
+                "id": "4aeb0c102a0c202b53923f60441511b11ec5dc7f",
+                "type": "FIX",
+                "text": "Updated TextArrangement visibility in list report tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080346018"
+                    }
+                ]
+            },
+            {
+                "id": "0d95f31e7714d08a59c8d1aa068d0a0cc5c1b5d4",
+                "type": "FIX",
+                "text": "LROP: New check added for column header during popup display is not available for DataFieldForIntentBasedNavigation and DataFieldForAction",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070365544"
+                    }
+                ]
+            },
+            {
+                "id": "bcbef7d3464197b93e45206a94815e429d6aeab2",
+                "type": "FIX",
+                "text": "OP: Fallback possible to read settings defined for a section",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080214657"
+                    }
+                ]
+            },
+            {
+                "id": "ddb0ffd410b90bd8201a05eb15fa6e38adae608e",
+                "type": "FIX",
+                "text": "LR: Table is not blurred when adapt filter dialog is cancelled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070327708"
+                    }
+                ]
+            },
+            {
+                "id": "d9a48d90f870c9a7b6d7cb0772a68623e811e310",
+                "type": "FIX",
+                "text": "ALP: Set Smartchart height to 50vH",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2040472772 2040628355 2030375081"
+                    }
+                ]
+            },
+            {
+                "id": "d4aba7287dfdf64d5c766038e44d78f0be526ce0",
+                "type": "FIX",
+                "text": "LR: Re-enabled 'Execute on Select' with user default values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070323842"
+                    }
+                ]
+            },
+            {
+                "id": "1cabb0b33edb3f7c46e77a9c603a8cab18ee3fb7",
+                "type": "FIX",
+                "text": "OP: Fixed horizontal alignment issue of chart title in the header section",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070324164"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.1": {
+        "date": "November 2020",
+        "notes": [
+            {
+                "id": "I5bdccaa3b53730a5d3b9176472a525509f07d3bf",
+                "type": "FIX",
+                "text": "LROP:  List refresh stuck after deleting the last item from a GridTable now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070417675"
+                    }
+                ]
+            },
+            {
+                "id": "I66f5b76a5aeaa580fdfc4384b02919a8e9c0f7c7",
+                "type": "FIX",
+                "text": "LR/ALP: Sorters applied from the presentationVariant object of navigation context to table or chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070409088"
+                    }
+                ]
+            },
+            {
+                "id": "Ibc5e35cb5707b9ff5996054be16e82d48c8c58d2",
+                "type": "FIX",
+                "text": "Fixed incorrect context binding for non-draft create scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070427236"
+                    }
+                ]
+            },
+            {
+                "id": "Ic992598bee9b70a168ae6055048210c9a3aa19b0",
+                "type": "FIX",
+                "text": "LROP: Type information added in the p13n data of table columns with contact popup",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070454534"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.2": {
+        "date": "December 2020",
+        "notes": [
+            {
+                "id": "I37c946db1313bb368fdc702c977b3268ab81db6a",
+                "type": "FIX",
+                "text": "External navigation via Create mode is now possible if target app has flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070402053"
+                    }
+                ]
+            },
+            {
+                "id": "I1edf242d71a0baeceb28bccc93eae803482c9549",
+                "type": "FIX",
+                "text": "OData models not used since SmartField working is affected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070437664"
+                    }
+                ]
+            },
+            {
+                "id": "I8bb4f9cda91672d58a7957c3178620b95f006932",
+                "type": "FIX",
+                "text": "Corrected access to device information",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070466161"
+                    }
+                ]
+            },
+            {
+                "id": "I5da2bdbc7cd42af3fb5d9812b61c4243626af1ce",
+                "type": "FIX",
+                "text": "OP: Improved tolerance for broken reference facet annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080411546"
+                    }
+                ]
+            },
+            {
+                "id": "I7cdee8f1d3901ce107d49c218e73c66d1f008501",
+                "type": "FIX",
+                "text": "LROP: Create with Dialog set to visible false during initial load to solve accessibility issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080396316"
+                    }
+                ]
+            },
+            {
+                "id": "I521181777b65e17d69793338854f9fe82da1ad38",
+                "type": "FIX",
+                "text": "document.location.hash now available in the adaption project",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070402598"
+                    }
+                ]
+            },
+            {
+                "id": "If6a6c57530467456fb8fa352bca9ddd36f1c0b75",
+                "type": "FIX",
+                "text": "Reuse component informed about its visibility correctly in non-draft Create scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070300490"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.3": {
+        "date": "January 2021",
+        "notes": [
+            {
+                "id": "I1d8b0feaa56f787528917ebc16ae5e37e65ea452",
+                "type": "FIX",
+                "text": "OP: Added dateFormatSettings for smart charts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080384264"
+                    }
+                ]
+            },
+            {
+                "id": "I2a9b318ebc9fb8fe15f7c124dc589b1e09085d51",
+                "type": "FIX",
+                "text": "OP: Introduced setEscapeHandler to handle click of Escape button in Create with Dialog scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080450351"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.4": {
+        "date": "February 2021",
+        "notes": [
+            {
+                "id": "Idfe2449511f2e6cdad23ca3f34d1d166688fa28a",
+                "type": "FIX",
+                "text": "Launch issue of SAP Fiori elements based apps due to missing shell environment solved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070402598"
+                    }
+                ]
+            },
+            {
+                "id": "I843754782808d497cafbd73fbef1977cdac78722",
+                "type": "FIX",
+                "text": "OP: Removed superfluous bindings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080411111"
+                    }
+                ]
+            },
+            {
+                "id": "I6e3e1c4dab42c387b1b21712b7fae0f6f61181c2",
+                "type": "FIX",
+                "text": "OP: Discard draft possible if a Create draft subobject page is open in flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000208752021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.5": {
+        "date": "March 2021",
+        "notes": [
+            {
+                "id": "I3941e1fd3f6ce22ffcfc490aebb0eddafd987dc6",
+                "type": "FIX",
+                "text": "LR: Restore from old appState is now possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001300492021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.9": {
+        "date": "April 2021",
+        "notes": [
+            {
+                "id": "I968801b2a2fb5ab52596782259dfd014105e0a8b",
+                "type": "FIX",
+                "text": "LR: Added a check for null pointer in parameterized entity set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170125556"
+                    }
+                ]
+            },
+            {
+                "id": "Icdeacdd431d6bf9e5115809cd889bf122c20e86a",
+                "type": "FIX",
+                "text": "ALP: Improved Adapt Filter dialog functionality in Smart Filter Bar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170150081"
+                    }
+                ]
+            },
+            {
+                "id": "Iff2d61c2630ea23712e16f7604c6bb9ad1bbbfc1",
+                "type": "FIX",
+                "text": "OP: Corrected resolution of extensionAPI.onCustomStateChange promise",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170081461"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.10": {
+        "date": "May 2021",
+        "notes": [
+            {
+                "id": "Ib30034a46c7c54392c7a672bc0091acd248661b0",
+                "type": "FIX",
+                "text": "OP: Optimized smart micro chart in object page table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180111317"
+                    }
+                ]
+            },
+            {
+                "id": "I15154b77dffb590c98c30579c6518d63f57736b8",
+                "type": "FIX",
+                "text": "Client side validation added for create with dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170132372"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.11": {
+        "date": "July 2021",
+        "notes": [
+            {
+                "id": "I6b1d79b4ec969702dd1bc3bcda4b363f5580224b",
+                "type": "FIX",
+                "text": "Fiori Supplier application execution error is now resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003562552021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.14": {
+        "date": "Oct 2021",
+        "notes": [
+            {
+                "id": "Ib7eebb924353c3b9e9db62890e0ee29fccbb8e76",
+                "type": "FIX",
+                "text": "Upon the initial load of the app, the user defined variants are marked clean",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170186008"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.16": {
+        "date": "Jan 2022",
+        "notes": [
+            {
+                "id": "I939e468fa0c54d44441d3ec46c134ab229e16711",
+                "type": "FIX",
+                "text": "For non-existing sections, the robustness of MultipleViewsHandler is now improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007481902021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.17": {
+        "date": "Feb 2022",
+        "notes": [
+            {
+                "id": "Ib768fd0ffcfb120035576e244008e75ce0f646ef",
+                "type": "FIX",
+                "text": "Issues with 'create With Filters' in non-Draft applications, when date fields are passed to the creation, are now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006824032021"
+                    }
+                ]
+            }
+        ]
+    }
+}

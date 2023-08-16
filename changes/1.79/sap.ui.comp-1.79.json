@@ -1,0 +1,431 @@
+{
+    "1.79.0": {
+        "date": "May 2020",
+        "notes": [
+            {
+                "id": "d75f798c799e4f852b42f327fa047e45056e22de",
+                "type": "FEATURE",
+                "text": " SmartTable: Show/Hide Details for ResponsiveTable",
+                "references": []
+            },
+            {
+                "id": "9095b798950c518612fe2b6e088ecb7ae72733d1",
+                "type": "FIX",
+                "text": " ValueListProvider: correct exception when value is selected in ComboBox",
+                "references": []
+            },
+            {
+                "id": "2b4cacfdfd41e7cb1d044e2c93b58d19743fbf5e",
+                "type": "FIX",
+                "text": " FilterItem: Inner control and label are now destroyed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000266964 2020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000226182 2020"
+                    }
+                ]
+            },
+            {
+                "id": "2fb634ca46ebe6e4edc944e8aa076864e28c3745",
+                "type": "FIX",
+                "text": " FilterProvider: fix filters order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070148283"
+                    }
+                ]
+            },
+            {
+                "id": "e843b2f27b1ea5e852e3c194f715b7dabfac148e",
+                "type": "FIX",
+                "text": " FiscalFormat: Fiscal day format pattern improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070224372"
+                    }
+                ]
+            },
+            {
+                "id": "a0d5965fbf2d3a4bcc52ccc36e3075cda46f7b70",
+                "type": "FIX",
+                "text": " HistoryOptOutProvider: correct registration of the history opt out button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070220384"
+                    }
+                ]
+            },
+            {
+                "id": "fbd6438980f9dce0713f86b81e970228867f0c41",
+                "type": "FIX",
+                "text": " SmartFilterBar: Fixed DateRangeType filter operations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070225425"
+                    }
+                ]
+            },
+            {
+                "id": "d1a76d5aa68eda4c70767095c00738f10ee55059",
+                "type": "FIX",
+                "text": " SmartFilterBar: Interval filter fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000191737 2020"
+                    }
+                ]
+            },
+            {
+                "id": "36be021a45238b8c34674dae7ae27bbbd6dd705f",
+                "type": "FIX",
+                "text": " SmartFilterBar: Set SelectOption by ControlConfiguration",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070205983"
+                    }
+                ]
+            },
+            {
+                "id": "f611ca04428b118ec4a4c6fb8a73e6e594347a28",
+                "type": "FIX",
+                "text": " SmartForm: Empty fields indicator refactored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070176212"
+                    }
+                ]
+            },
+            {
+                "id": "7e20873c943f8bdd7d6f22fa4762930fe8dfdbf2",
+                "type": "FIX",
+                "text": " SmartTable: Empty filter can now be added to string type column",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2040209293"
+                    }
+                ]
+            },
+            {
+                "id": "2656d735bf91e91bcff2bad32ffdd705b2ed35b1",
+                "type": "FIX",
+                "text": " ValueListProvider: fix suggestions filtering in all result columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070227432"
+                    }
+                ]
+            },
+            {
+                "id": "4b6cf02c556e173023f718f83da8f7c0ca71592e",
+                "type": "FIX",
+                "text": " ValueListProvider: prevent fetchData to set suggestions if control is destroyed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070223237"
+                    }
+                ]
+            },
+            {
+                "id": "375c274d08f4956814c95fa49b0e2e833da9bb1c",
+                "type": "FIX",
+                "text": " ValueListProvider: set key to the suggestion group header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070224132"
+                    }
+                ]
+            },
+            {
+                "id": "df63c341434b867405dda3a273d32213427f83f6",
+                "type": "FIX",
+                "text": "BaseValueListProvider: Text values are now loaded in filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070139884"
+                    }
+                ]
+            },
+            {
+                "id": "8278a8e7522054bfa31e2dcf405c214693f32c43",
+                "type": "FIX",
+                "text": " BaseValueListProvider: Formatting of NUMC fields is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070185160"
+                    }
+                ]
+            },
+            {
+                "id": "68ab28782b59296da6070b5aaa8d8784d440289c",
+                "type": "FIX",
+                "text": " FiscalPeriod: Pattern fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000330136 2020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000334446 2020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000326800 2020"
+                    }
+                ]
+            },
+            {
+                "id": "ea5c352c5385848122a30eadc99fa6fc91e1cd01",
+                "type": "FIX",
+                "text": " SmartField: Invalidate on setEnabled is enabled/disabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070010443"
+                    }
+                ]
+            },
+            {
+                "id": "d2cd41b8f3e17e761aca93cf8d373d0680e71c35",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement in display mode with value list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070130308"
+                    }
+                ]
+            },
+            {
+                "id": "c4f661dca03304b6f7ca39986dcd524d4bd8823c",
+                "type": "FIX",
+                "text": " SmartField: UOM CSS issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080101753"
+                    }
+                ]
+            },
+            {
+                "id": "a249c281b035c09310eade2c014d5c47b58323e2",
+                "type": "FIX",
+                "text": " SmartFilterBar: Fixed DateRangeType filter operations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070225105"
+                    }
+                ]
+            },
+            {
+                "id": "176951162cfebdf98a1024c68d12d9367250669b",
+                "type": "FIX",
+                "text": " SmartFilterBar: TextArrangement in display mode Safety Net fixes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070248001"
+                    }
+                ]
+            },
+            {
+                "id": "e6db88b1bc0ab5c6ad1960ff05e54e64538ac7b4",
+                "type": "FIX",
+                "text": " SmartForm: Empty fields indicator refactored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070235207"
+                    }
+                ]
+            },
+            {
+                "id": "039c71be8dba8cb06672dccfc369c02615a9e161",
+                "type": "FEATURE",
+                "text": " SmartTable: HTML5.CssDefaults annotation supported",
+                "references": []
+            },
+            {
+                "id": "9fcd1fa8eed87be12f7c1c347f4f745dd3c5eacc",
+                "type": "FIX",
+                "text": " SmartField: Edm.DateTimeOffset UTC flag handling in display mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070218971"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000307076 2020"
+                    }
+                ]
+            },
+            {
+                "id": "9c5fc1d91d819394b5ba077e7d8b5d9ed0ea7bc5",
+                "type": "FIX",
+                "text": " SmartField: OPA tests improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080136380"
+                    }
+                ]
+            },
+            {
+                "id": "deea8b1ca982eec6da618ad5a5808abc800054f9",
+                "type": "FIX",
+                "text": " SmartField: Text in display mode with value list fixes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070130308"
+                    }
+                ]
+            },
+            {
+                "id": "b491189f88a28385ec1729415c23c5fa2a1618c0",
+                "type": "FIX",
+                "text": " ValueListProvider: Option to disable history per specific field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070248992"
+                    }
+                ]
+            },
+            {
+                "id": "73bc683945cf8991817b224c92ef4666b6c1da55",
+                "type": "FIX",
+                "text": " ValueListProvider: correct exception when sap.m.Select is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070251962"
+                    }
+                ]
+            },
+            {
+                "id": "deb6b0a8cd009c498e036225b9624802b0cd3163",
+                "type": "FIX",
+                "text": " ValueListProvider: prevent exception if it is destroyed before history data comes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070187261"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070251962"
+                    }
+                ]
+            },
+            {
+                "id": "562591122c0d6ba2a32a69875afa8673a08286fb",
+                "type": "FIX",
+                "text": " SmartField: Date format inconsistency fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080139056"
+                    }
+                ]
+            },
+            {
+                "id": "efd905022682a4a153bf2e7ce32eb4ac1bb8dc16",
+                "type": "FIX",
+                "text": " SmartField: Exception for missing method thrown",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080146231"
+                    }
+                ]
+            },
+            {
+                "id": "9bb9d400a77ca42e33cbd06b2e0d9cb7a53bca75",
+                "type": "FIX",
+                "text": " SmartField: Improved robustness with Text in display mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070130308"
+                    }
+                ]
+            },
+            {
+                "id": "f0b2e5401ac9ca2845a0255b0cecb9bbfea6ddff",
+                "type": "FIX",
+                "text": " SmartField: Listener called after control is destroyed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080151113"
+                    }
+                ]
+            },
+            {
+                "id": "7f8ec5f832796b57cb392f011a06d9c1ea49524f",
+                "type": "FIX",
+                "text": " SmartFilterBar: Comboboxes are now grayed out correctly in Adapt Filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070195931"
+                    }
+                ]
+            },
+            {
+                "id": "4b595b291b1d48442e7b6aa5ae278bd9233dfc59",
+                "type": "FIX",
+                "text": " SmartLink: fixed an issue in the text handling of link data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070259440"
+                    }
+                ]
+            },
+            {
+                "id": "962bf97a3321abd1f6f9ed1ff0616af359d8b3a7",
+                "type": "FIX",
+                "text": " ValueListProvider: prevent showing suggestions on focus in",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070195078"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080131976"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070229533"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070259474"
+                    }
+                ]
+            }
+        ]
+    }
+}

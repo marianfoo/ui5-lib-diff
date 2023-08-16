@@ -1,0 +1,33 @@
+{
+    "1.104.0": {
+        "date": "June 2022",
+        "notes": [
+            {
+                "id": "00837515730ad2a8c866f7ab3421e5597748d3dc",
+                "type": "FIX",
+                "text": " sap.ndc: For accessibility, add the title into Scanning Dialog and the tooltip into Barcode Scanner Button.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270108046"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270108047"
+                    }
+                ]
+            },
+            {
+                "id": "d046f158b91d685ee86446cd001b1161653c032a",
+                "type": "FIX",
+                "text": " sap.ndc: Add new properties: frameRate and zoom into sap.ndc.BarcodeScannerButton to improve the success rate of scanning.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280086691"
+                    }
+                ]
+            }
+        ]
+    }
+}

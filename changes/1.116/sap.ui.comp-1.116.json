@@ -1,0 +1,186 @@
+{
+    "1.116.0": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "4c90a87c96c62e67fc49b8b7d7c0c3361262b614",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Support for analytical parameters"
+            },
+            {
+                "id": "de1952ead7d033bb7475914dd6db27372d232a71",
+                "type": "FIX",
+                "text": " SmartFilterBar: Validation improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380074584"
+                    }
+                ]
+            },
+            {
+                "id": "3b8faf2e1b35723b34fddb3cb449642724a77bce",
+                "type": "FEATURE",
+                "text": " Smart controls: Introduces new type to support isCalendar* annotation"
+            },
+            {
+                "id": "084b1c7229829ddb6a2bba7315539b6a033e56cc",
+                "type": "FIX",
+                "text": " SmartForm: Semantically connected fields in display mode are now rendered correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270074703"
+                    }
+                ]
+            },
+            {
+                "id": "b9ac3333efed6d38e8092839d3c233869bbe54e7",
+                "type": "FEATURE",
+                "text": " SmartTable: New property headerStyle added"
+            },
+            {
+                "id": "bcf9142c47e57d786c8d9581b364c20d3647d55f",
+                "type": "FIX",
+                "text": " SmartField: ComboBox zero Guid formatting",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380018446"
+                    }
+                ]
+            },
+            {
+                "id": "07f49a2c1a9ebea437215607887b07ad8fa98434",
+                "type": "FEATURE",
+                "text": " SmartField: Aligned the space between amount-currency or amount-UoM"
+            },
+            {
+                "id": "8df0b223d3947de09479d8c4f8c9260ca86ee77a",
+                "type": "FIX",
+                "text": " SmartField: Support Common.isTimezone is now working with textInEditModeSource",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380055764"
+                    }
+                ]
+            },
+            {
+                "id": "542d8aa5d9b20861f4480bcaa43a51c2deaa13af",
+                "type": "FIX",
+                "text": " FilterBar: applyVariant now respects given order of items as argument",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380061926"
+                    }
+                ]
+            },
+            {
+                "id": "bb1f3395868d27ce61db15e5a6762d1cc59010c9",
+                "type": "FIX",
+                "text": " FilterController: correctly restore dtoffset fields when low is used.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370074160"
+                    }
+                ]
+            },
+            {
+                "id": "8ab4044e88c065d24b52a0fe4032d71ccee60102",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement description only fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370053807"
+                    }
+                ]
+            },
+            {
+                "id": "4fd7f7a63e56a8a962abf729ad64433246b11a16",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Options to expand FilterBar and show all filters are added"
+            },
+            {
+                "id": "215f1075b93f3405fb24e9db4004ef7abae77bef",
+                "type": "FIX",
+                "text": " SmartLabel: run-time error fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380046946"
+                    }
+                ]
+            },
+            {
+                "id": "bdacc9a9e24d8e0de4319532ce9af8a267a12042",
+                "type": "FIX",
+                "text": " SmartFilterBar: make ControlConfiguration's timezone property with highest priority",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380057067"
+                    }
+                ]
+            },
+            {
+                "id": "52974b9c2b11c9925da380b5dcf344fefbd3680b",
+                "type": "FIX",
+                "text": " SmartField: ComboBox TextArrangement description fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370065092"
+                    }
+                ]
+            },
+            {
+                "id": "bedf40d557a6e84fa6f7b197673d51c8bf47581c",
+                "type": "FIX",
+                "text": "Smart field: Support input of numeric fields in table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380055896"
+                    }
+                ]
+            },
+            {
+                "id": "fde58facb11220aaef5fadf33d98b0dbbd917e03",
+                "type": "FIX",
+                "text": " SmartField: ensure the dataProperty is provided",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380056383"
+                    }
+                ]
+            },
+            {
+                "id": "102d2d176c7b87d6eec52242f9cd6f62215f6abe",
+                "type": "FIX",
+                "text": "Smart controls: Support input of numeric fields on tablet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380055896"
+                    }
+                ]
+            },
+            {
+                "id": "633a60af5eafdc85b1a93bd8bc1d4a16c6037186",
+                "type": "FIX",
+                "text": " FilterPanel: Filters are now removed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370026349"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "1.88.0": {
+        "date": "March 2021",
+        "notes": [
+            {
+                "id": "397459212e705ffbec39f05a6a47a0e70a8b4c4c",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Event fired after VHD annotation of all fields is loaded"
+            },
+            {
+                "id": "0d00dd2351ee897f6df4a9dacb30fbb7743c3334",
+                "type": "FEATURE",
+                "text": " Smartform: SemanticGroupElement is now introduced"
+            },
+            {
+                "id": "82ebb33e82550cbbec1cec24b5ad9e42cb0ccc6a",
+                "type": "FEATURE",
+                "text": " P13nDialog: Adoption of the new design of the P13nConditionPanel"
+            },
+            {
+                "id": "730f19cdb32e839ef69f9bbbbb31f37d16d7032a",
+                "type": "FEATURE",
+                "text": " SmartField/SmartFilterBar: Highlighting of Type Ahead Suggestions"
+            },
+            {
+                "id": "bf2a0a772c2ec7467fb3ee47c037d313f3bd258a",
+                "type": "FIX",
+                "text": " SmartField edit state: restore previous behavior when association multiplicity is \"*\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180136971"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170006896"
+                    }
+                ]
+            },
+            {
+                "id": "7dc94b8cbbd63775897fb7c7456a24aa8899e561",
+                "type": "FIX",
+                "text": " valuehelpdialog.P13nConditionPanel: dataChange event fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001286792021"
+                    }
+                ]
+            },
+            {
+                "id": "fe67e20c248a04184e2af4e3426edb1f56d81ecb",
+                "type": "FIX",
+                "text": " comp.FilterBar: consider also invisible filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080432940"
+                    }
+                ]
+            },
+            {
+                "id": "40229484608aa0570952a4d9892a5bf573e7388c",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Handled delete from the keyboard",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180132514"
+                    }
+                ]
+            },
+            {
+                "id": "d4a5ad25769ccde6dfc845a38ec63cb1d4dcbb86",
+                "type": "FIX",
+                "text": " SmartField: Improved non-negative in display mode with TextArrangement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180054330"
+                    }
+                ]
+            },
+            {
+                "id": "fcc5f9c7110529b0c50651139cff5f87b640cccc",
+                "type": "FIX",
+                "text": " SmartTable: Do not use \"auto\" width for calculated column widths",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180108571"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180112105"
+                    }
+                ]
+            },
+            {
+                "id": "0220d4f30bd45ee33b394c5d92ba86ebc8400bcc",
+                "type": "FIX",
+                "text": " SmartChart: Fixed SmartChart disappearing on low screen heights after maximize",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180076915"
+                    }
+                ]
+            },
+            {
+                "id": "38dad4bff90cf267c52879d8036b27dd296c0100",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: alignement with v4"
+            },
+            {
+                "id": "18e239fa73314abb775733cff7774ad0d6559d39",
+                "type": "FIX",
+                "text": " FilterBar: correct basicSearch association",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180086074"
+                    }
+                ]
+            },
+            {
+                "id": "9128d28a0e7f9249f70f1ffd25997e694a0711fb",
+                "type": "FIX",
+                "text": " SmartField: setFieldGroupIds improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180079541"
+                    }
+                ]
+            },
+            {
+                "id": "20a34d7429114a848433ee30c621db1f220d0c37",
+                "type": "FIX",
+                "text": " SmartForm: Importance is now hiding fields with CSS",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180107657"
+                    }
+                ]
+            },
+            {
+                "id": "ea99fdec7f023bc41bee3f12b9a010f7602a00c8",
+                "type": "FIX",
+                "text": " SmartTable: Resize button must be visible for columns on mobile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180105650"
+                    }
+                ]
+            },
+            {
+                "id": "7dbda5b38363b7e4821a649fdd5b92ff595e1507",
+                "type": "FIX",
+                "text": " SmartField: Currency formatting in forms improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980457528"
+                    }
+                ]
+            },
+            {
+                "id": "3a20c2d1061b571a76c25e4e171b3fc83daae390",
+                "type": "FEATURE",
+                "text": " Smart-Table/Chart: support ui adaptation"
+            },
+            {
+                "id": "30c4f630a98d173832930c18225e954699615b9a",
+                "type": "FIX",
+                "text": " ValueListProvider: store dates in Recently Used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080375911"
+                    }
+                ]
+            },
+            {
+                "id": "4c9fba318c5ee79fc59f8ebd6e4d3b098c893acf",
+                "type": "FIX",
+                "text": " SmartTable: If maxLength is not defined then use %75 of max width",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180090029"
+                    }
+                ]
+            }
+        ]
+    }
+}

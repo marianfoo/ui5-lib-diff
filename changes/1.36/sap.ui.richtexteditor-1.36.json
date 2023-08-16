@@ -1,0 +1,213 @@
+{
+    "1.36.0": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "7dd0fb9fa370ebfc00b2e27f7e0d6fd7ea7b6606",
+                "type": "FIX",
+                "text": "RichTextEditor: Call reinitialize only once per stack",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1472002361"
+                    }
+                ]
+            },
+            {
+                "id": "35fd10155a212d1503b2f6af73ea3a7d257db47b",
+                "type": "FIX",
+                "text": "RichTextEditor: Correctly Resize Editor Frame",
+                "references": []
+            },
+            {
+                "id": "a80584f5ae3b2a56cad5e580d92470d6d50720e2",
+                "type": "FIX",
+                "text": "RichTextEditor: Fixed issues with language fallback",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580042697"
+                    }
+                ]
+            },
+            {
+                "id": "a8380b402037e4f6e5948ddde182388ed58a6786",
+                "type": "FIX",
+                "text": "RichTextEditor: Language Fallback for TinyMCE4",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570028541"
+                    }
+                ]
+            },
+            {
+                "id": "270b723c0cb2ff8ce3f9937cfc0c6a56ccefdd23",
+                "type": "FIX",
+                "text": "RichTextEditor: Re-Render on Safari and ResizeHandler Problems",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580097459"
+                    }
+                ]
+            },
+            {
+                "id": "73d90b67df892e94e1a54e8027a70ae90fc3af0a",
+                "type": "FIX",
+                "text": "RichTextEditor: Re-Rendering bug and debug sources",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570148361"
+                    }
+                ]
+            },
+            {
+                "id": "03315cfb8bc3b2bde73d7ef31aba1e82aad58a62",
+                "type": "FIX",
+                "text": "RichTextEditor: Support language \"no\" in TinyMCE4",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376600002296202015"
+                    }
+                ]
+            },
+            {
+                "id": "11d1dec058923be38ab275a70727501fae2a83c8",
+                "type": "FIX",
+                "text": "RichTextEditor: TinyMCE4 - Tooltip and Image drop",
+                "references": []
+            },
+            {
+                "id": "ce0dfe8cde13a66aa36228879b2a24a4083a93d1",
+                "type": "FIX",
+                "text": "RichTextEditor: TinyMCE4 Language support and fallback",
+                "references": []
+            },
+            {
+                "id": "fcc9a9d2fef323cd9b040c206f3644063bba4136",
+                "type": "FIX",
+                "text": "RichTextEditor: Upgrade to 3.5.11 and 4.2.6 Enterprise Version",
+                "references": []
+            },
+            {
+                "id": "7875f7c507dbd50949f31a540daf040e9a1ced37",
+                "type": "FIX",
+                "text": "RichTextEditor: Wait for TinyMCE initialization",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570032847"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1570139903"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.3": {
+        "date": "February 2016",
+        "notes": [
+            {
+                "id": "ebdf8be64c8fc25ca7a19302f473cb141c0cd14d",
+                "type": "FIX",
+                "text": "RichTextEditor: Resizing Problem in Firefox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670047554"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.5": {
+        "date": "March 2016",
+        "notes": [
+            {
+                "id": "40528016492ea0443017e10a83fb51cd3e6c9937",
+                "type": "FIX",
+                "text": "RichTextEditor: Harden against external re-rendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570835846"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670097686"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670041461"
+                    }
+                ]
+            },
+            {
+                "id": "05033cf7730b94edf5413069cec7edca99b9f7ca",
+                "type": "FIX",
+                "text": "RichTextEditor: Resize Correctly After Editor is Shown",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670047554"
+                    }
+                ]
+            },
+            {
+                "id": "c27eb82f84de4bf7c1385970b97b717611b51993",
+                "type": "FIX",
+                "text": "TinyMCE4 Upgrade: Allow Focus in Nested Modal PopUps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570854624"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670034709"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.36.9": {
+        "date": "May 2016",
+        "notes": [
+            {
+                "id": "a99cee21147961135d2916ae49a398972340c89a",
+                "type": "FIX",
+                "text": "RichTextEditor: Reduced Number of Initializations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580170403"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670047554"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670071388"
+                    }
+                ]
+            },
+            {
+                "id": "6ac65967cda1b8b3e3ee26f15168fef44d7d7670",
+                "type": "FIX",
+                "text": "RichTextEditor: TinyMCE3 show initial value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001130642016"
+                    }
+                ]
+            }
+        ]
+    }
+}

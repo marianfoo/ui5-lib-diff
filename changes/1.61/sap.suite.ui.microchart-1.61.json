@@ -1,0 +1,70 @@
+{
+    "1.61.0": {
+        "date": "October 2018",
+        "notes": [
+            {
+                "id": "91b5e93d69418385af346e72a5109688139ec571",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.qunit : Corrected qunits which were failing.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880565908"
+                    }
+                ]
+            },
+            {
+                "id": "1753bb28c725c48e9ac863993a1a16f666b6e4c6",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.RadialMicroChart : Mark the event for components that needs to know if the event was handled by the RadialMicroChart.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880639248"
+                    }
+                ]
+            },
+            {
+                "id": "5ca5d10a64bf94e256b22a8c45dc4a86ce35c998",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.ColumnMicroChart: Show X axis labels when allowColumnLabels property is set",
+                "references": []
+            },
+            {
+                "id": "34e00f880c7fd89bb8f8d8443873616547c70c3f",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.InteractiveLineChart Secondary labels for items",
+                "references": []
+            },
+            {
+                "id": "18740b32d361698cce3b76974a65982c176f2e21",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.ColumnMicroChart: Column labels position in IE",
+                "references": []
+            },
+            {
+                "id": "61221662a7613309767950e05cbf7aa5e03894a3",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.LineMicroChart: Fixed tests for Microsoft Edge browser",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880596092"
+                    }
+                ]
+            },
+            {
+                "id": "014e60ce1af1cf891ce1e60e2ed966f4488ed4aa",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.microchart.DeltaMicroChart: Rework to comply with new responsive behavior and UX guidelines",
+                "references": []
+            },
+            {
+                "id": "96dd06f02bffd532b28ceec4b1b0a8a888060018",
+                "type": "FEATURE",
+                "text": "sap.ui.comp.smartmicrochart.SmartDeltaMicroChart: Added new control",
+                "references": []
+            }
+        ]
+    }
+}

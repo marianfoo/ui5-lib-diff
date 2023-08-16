@@ -1,0 +1,45 @@
+{
+    "1.107.0": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "c5e4965f722c8467670537d3aaa52c7f52eb104b",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Remove min-height from renderer",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270131428"
+                    }
+                ]
+            },
+            {
+                "id": "c82997fed1eb295e0e1f1263cd2dea080717c86d",
+                "type": "FEATURE",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Update to TinyMCE 6"
+            },
+            {
+                "id": "3737d82154cc7b25815d1da97a259b1868d2838d",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Adjust failing test dependant on browser behavior",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270111082"
+                    }
+                ]
+            },
+            {
+                "id": "293f0e72ca8a18ef67253424f87d9d34a9c5eb6b",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.ToolbarWrapper: prevent exception when adding button group",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280165563"
+                    }
+                ]
+            }
+        ]
+    }
+}

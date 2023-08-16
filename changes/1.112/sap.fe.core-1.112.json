@@ -1,0 +1,402 @@
+{
+    "1.112.0": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "b7d3ee187aa5b1628c2a001c75e5f5cfadc0e9f0",
+                "type": "FIX",
+                "text": " We've resolved an issue related to a 412 Precondition Failed error for the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370017265"
+                    }
+                ]
+            },
+            {
+                "id": "2620e0e1fe0cea0942930632443ad0142cc89928",
+                "type": "FIX",
+                "text": " We now consider the path from the current context to compile the function object for a function import",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380027401"
+                    }
+                ]
+            },
+            {
+                "id": "a12a41dcae9e8a762478a29f71cc3792e2fd4e7d",
+                "type": "FIX",
+                "text": " We've resolved an issue where navigation to an object page wasn't carried out for actions in Changeset mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044872"
+                    }
+                ]
+            },
+            {
+                "id": "7a302b1e14de1ad7db2cdfd82227a97c2c5568fd",
+                "type": "FIX",
+                "text": " We're now setting a fixed width for the action dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380033468"
+                    }
+                ]
+            },
+            {
+                "id": "a7bf11c3e02e7a5f11a3588c2a25bd60d637c333",
+                "type": "FIX",
+                "text": " We now also show the mass edit confirmation dialog when non-editable contexts are selected for mass edit, and when no headerInfo annotation is available",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380045409"
+                    }
+                ]
+            },
+            {
+                "id": "dee65e5dd70cd6b40a000cb4bacaeb28aabfa4ae",
+                "type": "FIX",
+                "text": " We've fixed another issue with additional properties not being requested on tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380023849"
+                    }
+                ]
+            },
+            {
+                "id": "fcc8743a7bca8dc933d36fa688c0d5a7d6e500b6",
+                "type": "FIX",
+                "text": " When users try to delete their own draft, we now remove the draft to unlock it and then delete the active instance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380036382"
+                    }
+                ]
+            },
+            {
+                "id": "f895166df57dec3a1642b213f38cbf45bb2a5d8a",
+                "type": "FIX",
+                "text": " We now ensure that the separator is shown correctly when no unit of measure and no scale factor is defined in the annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370003548"
+                    }
+                ]
+            },
+            {
+                "id": "4ae31943867096d35f751dba30ffcb5561a8f201",
+                "type": "FIX",
+                "text": " We now ensure that compact filters are loaded correctly when no chart visualization is defined in the presentation variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370003498"
+                    }
+                ]
+            },
+            {
+                "id": "5d703488a2dd7cbf7dca22c257ec5bd24e80d326",
+                "type": "FIX",
+                "text": " Navigation via a breadcrumb link now also works when the semantic keys contain special characters like a forward slash ('/')",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280194690"
+                    }
+                ]
+            },
+            {
+                "id": "0b7cb5d7a93093216d758c91ca551233286dd27e",
+                "type": "FIX",
+                "text": " We now show an empty value when the scale factor is less than 1000",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370003544"
+                    }
+                ]
+            },
+            {
+                "id": "abf64daeb8e550876090031e413e8b3d989fed15",
+                "type": "FEATURE",
+                "text": " We've enhanced the flexible programming model explorer with a section for the value help"
+            },
+            {
+                "id": "f503ca1239db99e3c150424156aa0c6849aab4e1",
+                "type": "FEATURE",
+                "text": " The Filter Bar building block using the Table building block now displays parameter fields also if the service is parameterized"
+            },
+            {
+                "id": "1808bc4a6bd4a822053aa721bca82d921de199d1",
+                "type": "FEATURE",
+                "text": " We've added the property allowedValues to the api.json"
+            },
+            {
+                "id": "ded0cc73648507a620e0bdceeed1577a47800f88",
+                "type": "FIX",
+                "text": " Apps now load faster, since we now process the metamodel incrementally and only when needed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "df16fea1c24b3fe6383804fe5ecef0a72b118980",
+                "type": "FIX",
+                "text": " We've resolved an issue regarding the 'Related Apps' button not appearing even after setting showRelatedApps to 'true'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380034835"
+                    }
+                ]
+            },
+            {
+                "id": "ff6412569671500ef80ae16365e200c88e2b859d",
+                "type": "FEATURE",
+                "text": " We've improved the lazy loading behavior of the object page"
+            },
+            {
+                "id": "f1a2097bd68dc42035025db0d47f60ae99aa1543",
+                "type": "FEATURE",
+                "text": " The Filter Bar building block now displays the parameter fields also if the service is parameterized"
+            },
+            {
+                "id": "fb94a3324ba956345661bc2f67b0d3f90ec1d61f",
+                "type": "FIX",
+                "text": " We've resolved an issue related to an action not being hidden in the header of an object page when the path-based UI.Hidden annotation was provided",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044482"
+                    }
+                ]
+            },
+            {
+                "id": "4096a0656ab3c90477cde7b23aa1d52695cbde9c",
+                "type": "FIX",
+                "text": " We now ensure the AppState data isn't applied if it's empty",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280166356"
+                    }
+                ]
+            },
+            {
+                "id": "9b7cf4ca0314b007e2dbbd33bdb601e708906597",
+                "type": "FEATURE",
+                "text": " We've enhanced the menu of the 'Related Apps' button on the object page to include the intents passed from the My Inbox app"
+            },
+            {
+                "id": "4bff397ad71f7a1a9936df9c1e018f978aba48b1",
+                "type": "FIX",
+                "text": " We now hide the value help when a visual filter has a dropdown menu",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380026700"
+                    }
+                ]
+            },
+            {
+                "id": "58b16b66be6105b93e80c16791a4ad37de803473",
+                "type": "FIX",
+                "text": " We now request SideEffects for the NewPage create mode when a new item is created in the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380014876"
+                    }
+                ]
+            },
+            {
+                "id": "b5ea75ae821223971930e5cb78a7c3c96a8568d0",
+                "type": "FEATURE",
+                "text": " We now support strict handling for actions in Changeset mode"
+            },
+            {
+                "id": "8e2283de6cb989c2289dad7276380ae9e2046a37",
+                "type": "FIX",
+                "text": " We've resolved an issue related to an incorrect message text being displayed for a non-deletable object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380018810"
+                    }
+                ]
+            },
+            {
+                "id": "e3768139c99ac1d4c9c072bddec1a7e6800057aa",
+                "type": "FEATURE",
+                "text": " We now provide the navigateBasedOnStartupParameter function that allows specific apps to directly navigate to an object page with the correct startup parameters"
+            },
+            {
+                "id": "611073ccbd6395e5ce29bec2a136d79e30bcf268",
+                "type": "FIX",
+                "text": " We've resolved an issue related to mixed content in a subsection on an object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000761372023"
+                    }
+                ]
+            },
+            {
+                "id": "94db31f571a159255e7b849df401013a0946b929",
+                "type": "FIX",
+                "text": " We now process unbound overloaded actions correctly in EditFlow API invokeAction",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380041137"
+                    }
+                ]
+            },
+            {
+                "id": "960dbfe7a6e37677344a60049eaa2c2aff09e41d",
+                "type": "FIX",
+                "text": " We now correctly set the metapath for visual filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380036417"
+                    }
+                ]
+            },
+            {
+                "id": "9bc9c3b4886bdbb747c3f2d48a6f81bfb8e1172a",
+                "type": "FEATURE",
+                "text": " You can now use the filter option in the personalization dialog of charts"
+            },
+            {
+                "id": "3f1ecea1bec6d2d26229ef544fed0770c3aeb656",
+                "type": "FIX",
+                "text": " We now ensure correct enablement of the 'Delete' button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380029422"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380023090"
+                    }
+                ]
+            },
+            {
+                "id": "4cf300af09c7fa01a4426a9b88179b7d340933f2",
+                "type": "FIX",
+                "text": " SAP Fiori elements now properly exports large amounts of data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000625952023"
+                    }
+                ]
+            },
+            {
+                "id": "e1fff92ba6fb588004752bab1cb7655352b38772",
+                "type": "FIX",
+                "text": " We've fixed an issue with additional properties not being requested on tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380023849"
+                    }
+                ]
+            },
+            {
+                "id": "1b63302df5b236e98e6c4f48295166ed2681ddad",
+                "type": "FIX",
+                "text": " We now evaluate Operation Available for an Overload Action in an Object Page Table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380002044"
+                    }
+                ]
+            },
+            {
+                "id": "f3037738ab1cdba131d9cef18b35860330f8ee02",
+                "type": "FIX",
+                "text": " The criticality of a DataField in analytical tables is now displayed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001354592023"
+                    }
+                ]
+            },
+            {
+                "id": "15c0ed3714cc955e496cff876782a65a7357c807",
+                "type": "FIX",
+                "text": " We now ensure that the chart action is hidden in the Chart building block if it is annotated as UI.Hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380028828"
+                    }
+                ]
+            },
+            {
+                "id": "1808544796f6772405d4069d28eef2cf0a7afd92",
+                "type": "FIX",
+                "text": " rowHighting now works properly when creating a new item in a table in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380026210"
+                    }
+                ]
+            },
+            {
+                "id": "c440344b27576912f9be009d1bc32895ed9e7220",
+                "type": "FEATURE",
+                "text": " We now provide consistent handling of the fallback logic in the list report and analytical list page if the PresentationVariant has no visualization"
+            },
+            {
+                "id": "c1becc029becfd13a671beb2894203c4cdd5f519",
+                "type": "FIX",
+                "text": " We've removed the headerLevel property from the sample code used in the Chart building block",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380031326"
+                    }
+                ]
+            },
+            {
+                "id": "ed038b343a67314bb3a3e89f720659c297428810",
+                "type": "FIX",
+                "text": " We now ensure the Edit shortcut doesn't work if actions aren't visible on the UI",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380005203"
+                    }
+                ]
+            },
+            {
+                "id": "0dece9050c78c890b71fbb5afb2dfa4b9abf6086",
+                "type": "FIX",
+                "text": " We now ensure that the Back navigation works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380007689"
+                    }
+                ]
+            }
+        ]
+    }
+}

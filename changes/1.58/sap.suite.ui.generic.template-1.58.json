@@ -1,0 +1,712 @@
+{
+    "1.58.0": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "f13d2c21ff2c58e05d033af571feffdc34bb5f44",
+                "type": "FIX",
+                "text": "LR: SemanticObject QV link parameter is converted into a string",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880469667"
+                    }
+                ]
+            },
+            {
+                "id": "19c316c1ba27832dedb99a2af676392b9d1d8b09",
+                "type": "FIX",
+                "text": "OP: Require MoveSection.js in ObjectPage.flexibility.js corrected"
+            },
+            {
+                "id": "ca7d7c2b7ab373dbb8bd36984d5304b7d600d442",
+                "type": "FEATURE",
+                "text": "ALP: DatePicker in VisualFilter"
+            },
+            {
+                "id": "7d6b32a508b917114a694c000ca158828285b2ce",
+                "type": "FEATURE",
+                "text": "OP: Move and remove change handlers for section control."
+            },
+            {
+                "id": "291a4e56d24a510d7a45c8ec8bc05237a3cfeb68",
+                "type": "FEATURE",
+                "text": "OP: Add, move and remove change handlers for GroupElement control. Virtual properties for group elements."
+            },
+            {
+                "id": "402a7f887fb56672bce5e6b92d45343442abfa83",
+                "type": "FEATURE",
+                "text": "OP: Integration of smart form column layout"
+            },
+            {
+                "id": "8b8c70c5b7264ac066cbe76c23f0bea25fb5b100",
+                "type": "FIX",
+                "text": "NavigationController: View now uses property name instead of viewName ",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880468376"
+                    }
+                ]
+            },
+            {
+                "id": "1a9b5f9ba86f1e672e81b29417e04503cf19f154",
+                "type": "FEATURE",
+                "text": "OP: Table title in tables in sections enabled"
+            },
+            {
+                "id": "1aa96f930a3dd9a6854c18cff1937b9ef1a52a0d",
+                "type": "FEATURE",
+                "text": "ALP: Enable Controller Extensions"
+            },
+            {
+                "id": "f51cba6455ae6beb5b35138da9441f3a7d677b6b",
+                "type": "FEATURE",
+                "text": "OP: Smart MultiInput control is now supported on the object page"
+            },
+            {
+                "id": "0bb77e279c31a2db75b7380ea2a4c943108d1267",
+                "type": "FIX",
+                "text": "LROP: Correct expression binding for progress indicator",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880265780"
+                    }
+                ]
+            },
+            {
+                "id": "74078e12a487f663579e321aeeece2e8a34d6a93",
+                "type": "FIX",
+                "text": "OP: Flexible column layout optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880296029"
+                    }
+                ]
+            },
+            {
+                "id": "7dafb24289b592c277f7cf93a71bf436a6ee8e74",
+                "type": "FEATURE",
+                "text": "LR: Added initial 'no data' texts for SmartTable in table tabs"
+            },
+            {
+                "id": "175620457a74e529bbc2e71bb3bea87e24728719",
+                "type": "FIX",
+                "text": "OP: Correct naming of extension points",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880424876"
+                    }
+                ]
+            },
+            {
+                "id": "85780487a55260e3ea9538387ac36ef1e09aaf24",
+                "type": "FIX",
+                "text": "LROP: Properties of delete dialog unified"
+            },
+            {
+                "id": "5efba02a6bdfcbedcc9217e4c97f2c932ac43f7c",
+                "type": "FEATURE",
+                "text": "LROP: Semantically connected fields can now be shown in a single column"
+            },
+            {
+                "id": "3205140caf1a7cbda22dbe0fd3c25b0b1bea265c",
+                "type": "FIX",
+                "text": "LR: Correct naming of extension points in case of multiple views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880368240"
+                    }
+                ]
+            },
+            {
+                "id": "2e09610e5c6d80b67bc0c74bbb61a4e24b4ca126",
+                "type": "FIX",
+                "text": "getCommonInstanceData corrections"
+            },
+            {
+                "id": "c5577cc92be97c17fd12b720866f179357262302",
+                "type": "FIX",
+                "text": "LR/ALP: Show only transient messages in list report and analytical list page"
+            },
+            {
+                "id": "cee26e38556bc5fe2921b0b05b612bbcf9d12e60",
+                "type": "FIX",
+                "text": "Access to shell service according to manifest definition"
+            },
+            {
+                "id": "44e6c9b276f7e88b68633a875c3af1d33a77ebd0",
+                "type": "FEATURE",
+                "text": "LR: Extension for modifying selection variant and selected tab"
+            },
+            {
+                "id": "6c2ebdb7d932d96df354c56b8e06bf97da730306",
+                "type": "FEATURE",
+                "text": "ALP: Enhanced navigation context in target application"
+            },
+            {
+                "id": "b3f253c200913d6ef87bbc4b15e3753d7f4d978f",
+                "type": "FIX",
+                "text": "LR/ALP: Provide error message if data retrieval fails",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870246339"
+                    }
+                ]
+            },
+            {
+                "id": "c4c216026a37874a5a8aa0bf2ecc640f2836aa52",
+                "type": "FIX",
+                "text": "OP: CSS for header sub-title for sap_belize_hcb fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870291898"
+                    }
+                ]
+            },
+            {
+                "id": "0241baa6f1e3cd3a2aee5550056c2bb4e5628a84",
+                "type": "FIX",
+                "text": "LR: Startup with QuickVariantSelection improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870294167"
+                    }
+                ]
+            },
+            {
+                "id": "d065a6846549a6801781f63d43494b5ec5caa3ff",
+                "type": "FIX",
+                "text": "OP: Insert/delete in table enforces the draft cancel confirmation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880255411"
+                    }
+                ]
+            },
+            {
+                "id": "7bbd1c57c566073825812c63c4a1c472b0b68efd",
+                "type": "FIX",
+                "text": "LR: Combobox filter in multiple views on list report tables is now supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870052609"
+                    }
+                ]
+            },
+            {
+                "id": "5e57ebcc92b00209fb7f20d07afa07bb87f83565",
+                "type": "FIX",
+                "text": "LR: Refresh list report with multiple tabs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870193938"
+                    }
+                ]
+            },
+            {
+                "id": "b1ba7ed2f118de8771e9f15deb3c86f106ab3be2",
+                "type": "FIX",
+                "text": "LROP: RTA overlay for TableToolBar enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880334015"
+                    }
+                ]
+            },
+            {
+                "id": "0e526eb06813dd8ef8288d9af00011dda013e54b",
+                "type": "FIX",
+                "text": "OP: Visibility of search field above smart table has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880342819"
+                    }
+                ]
+            },
+            {
+                "id": "9affeb351f824e7a71dd6a913b3b1248d84cf8ea",
+                "type": "FIX",
+                "text": "LR: TabItem null check",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880348303"
+                    }
+                ]
+            },
+            {
+                "id": "f28f2e7cf5ff42015fba6eae2012ddf6a5314af3",
+                "type": "FIX",
+                "text": "LR: Data on multiple tabs is updated when tabs are switched",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880283738"
+                    }
+                ]
+            },
+            {
+                "id": "42248172b014bba93f78a2e4296ed777c0100419",
+                "type": "FIX",
+                "text": "Inconsistency in delete confirmation messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880249165"
+                    }
+                ]
+            },
+            {
+                "id": "702e3e746cad2899294c7878dc873c6d09e994ff",
+                "type": "FEATURE",
+                "text": "ALP:Enhanced support for Lazy load of visual filters"
+            },
+            {
+                "id": "521bc87de608ef1edc6739ff3fa130cff0944a49",
+                "type": "FIX",
+                "text": "LR: Row highlight fixed and qualifier changes.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870310640"
+                    }
+                ]
+            },
+            {
+                "id": "535fde656739306360e41ad5bd4c99cbd5b96f90",
+                "type": "FIX",
+                "text": "LROP: Accessibility support for draft info popover",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880276150"
+                    }
+                ]
+            },
+            {
+                "id": "c688a6cd6f1817db99369b42d4f921f69fca534b",
+                "type": "FIX",
+                "text": "QC: Four side focus on the add button present on the QC table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880266891"
+                    }
+                ]
+            },
+            {
+                "id": "e8ba0f05200eb6b3bd3a26bb8664c0624ccf1531",
+                "type": "FIX",
+                "text": "QC: Disable create button when mandatory field(s) are empty",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870306929"
+                    }
+                ]
+            },
+            {
+                "id": "4a3e9e44eb8a081cb03b50d9d4d06aaf974a1a95",
+                "type": "FEATURE",
+                "text": "ALP: sap.m.Table: make use of the new feature of sticky headers & toolbars"
+            },
+            {
+                "id": "aca5abfdc228cced0e9a32823eede016999b35cd",
+                "type": "FIX",
+                "text": "Set progress indicator always to enabled = true",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880306505"
+                    }
+                ]
+            },
+            {
+                "id": "7dea6b664ca9f92fe1fcb137d1c1daf560c0727e",
+                "type": "FIX",
+                "text": "QC: Access delete button on each row of the table in QuickCreate",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880266857"
+                    }
+                ]
+            },
+            {
+                "id": "9287462a3af29895c36434df4d4f103ded1d8297",
+                "type": "FIX",
+                "text": "LR: Items with state 'unsavedChanges' should be deletable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880328860"
+                    }
+                ]
+            },
+            {
+                "id": "99d2b31851914dd979f1ee7f1f6928d6b7e088d9",
+                "type": "FIX",
+                "text": "LR: Row highlight issue is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870310640"
+                    }
+                ]
+            },
+            {
+                "id": "0ca0da712087a8bb38a67ff83bd9d223a9a91564",
+                "type": "FIX",
+                "text": "OP: ariaLabelledBy property added in DataFieldWithIntentBasedNavigation link in header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880276302"
+                    }
+                ]
+            },
+            {
+                "id": "0d86082c3e6332435ced35302b0ae5e28824ba74",
+                "type": "FIX",
+                "text": "QC: Multiple Messages returned from QuickCreate are displayed nearly unreadable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870319273"
+                    }
+                ]
+            },
+            {
+                "id": "74a73405526309ff4b19e22a80d2fcab8ccd20f0",
+                "type": "FIX",
+                "text": "LR: Navigation properties for different entity sets are supported"
+            },
+            {
+                "id": "4e1184b53993d325f4758800523b3bf2ecabfbcd",
+                "type": "FIX",
+                "text": "LR/OP: Complete data now shown on object page after search has been retriggered on list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880276131"
+                    }
+                ]
+            },
+            {
+                "id": "9f96a4f0aa40d531567e800687cb14493e093ca5",
+                "type": "FEATURE",
+                "text": "LR: Sticky toolbar for list report sap.m.table is now available"
+            },
+            {
+                "id": "33fcd3dfb4c13d37c92b072aefb332b51afd633e",
+                "type": "FIX",
+                "text": "OP: Enablement of breakout buttons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880273458"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1880268235"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1880266938"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1870292763"
+                    }
+                ]
+            },
+            {
+                "id": "a2e2507240caab71d7cdc97c9be7563eeda6681f",
+                "type": "FIX",
+                "text": "OP: Paramter handling for section-specific texts has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880249263"
+                    }
+                ]
+            },
+            {
+                "id": "392adf8dfd4cd347b840d7bed456d9bb039fce43",
+                "type": "FIX",
+                "text": "OP: Email subject corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880270828"
+                    }
+                ]
+            },
+            {
+                "id": "fa0a8af5f80348be5d4fbeecf4f29057042ad1d2",
+                "type": "FIX",
+                "text": "LR: Removing value texts information in iApp-state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880266592"
+                    }
+                ]
+            },
+            {
+                "id": "ca781b880ab5cedf86c39eaafcb0986fd9c892ee",
+                "type": "FIX",
+                "text": "LROP: Emphasize the contact link text when it is a semantic key",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870284812"
+                    }
+                ]
+            },
+            {
+                "id": "271a8e6a2cda58b62d0c230ab0b04cb44fc1e49b",
+                "type": "FIX",
+                "text": "LR: Default title working for datatime",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880250642"
+                    }
+                ]
+            },
+            {
+                "id": "078a7067fcc1f6a1f9e756d36c8da6e9456e0a32",
+                "type": "FIX",
+                "text": "LR: Evaluation of PresentationVariants has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870103232"
+                    }
+                ]
+            },
+            {
+                "id": "d422f48b2e7cd012f05df6782512655576e61292",
+                "type": "FIX",
+                "text": "Evaluation of navigation paths has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880252366"
+                    }
+                ]
+            },
+            {
+                "id": "b151782dec05954df0d07ac78cf1c6b093a88a62",
+                "type": "FIX",
+                "text": "LROP: Owner component is set to dirty even in case of mulitple responses from backend",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880257332"
+                    }
+                ]
+            },
+            {
+                "id": "8957cf76b9d9a877e408690804b6ee5dfd88821b",
+                "type": "FIX",
+                "text": "OP: Reuse components should have an owner component, namely the AppComponent",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870283972"
+                    }
+                ]
+            },
+            {
+                "id": "dbaf4218bb7306eca6db33103d65bc13156d8a5f",
+                "type": "FIX",
+                "text": "LROP: Title with navigation property can be given for action dialogs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870320897"
+                    }
+                ]
+            },
+            {
+                "id": "28158ad2d2e4b4f3f38359c3ec2123728a3acec3",
+                "type": "FIX",
+                "text": "LR: Console error is removed when variant management is hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870210387"
+                    }
+                ]
+            },
+            {
+                "id": "383b6062e8a1b131efa3f2893f0b36419316061c",
+                "type": "FIX",
+                "text": "OP: Now also considering 'Path' for DataField labels",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870292089"
+                    }
+                ]
+            },
+            {
+                "id": "605fd37cec264000c21e45226a8cf4c6fb6e8912",
+                "type": "FIX",
+                "text": "LR: Handling of selection variant in multiple views corrected"
+            },
+            {
+                "id": "8299a101b0b03def9917f1e4f6e04250d483be9b",
+                "type": "FIX",
+                "text": "LR: Line item annotation with qualifier in different views mode supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870320031"
+                    }
+                ]
+            },
+            {
+                "id": "5535d119e6f589c4be0335b0961b0bd1da12f4ac",
+                "type": "FIX",
+                "text": "OP: extensionAPI.refresh() does not consistently trigger a refresh for data which is currently displayed.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870287535"
+                    }
+                ]
+            },
+            {
+                "id": "311e2abd47dd854217953744ce816ca86ea8ae8e",
+                "type": "FIX",
+                "text": "LR: Values are in string format during multi-context navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870323781"
+                    }
+                ]
+            },
+            {
+                "id": "b30c038f38d9705f23a34c777b03923916c97c70",
+                "type": "FIX",
+                "text": "Determination of applicable path for extension actions has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870320941"
+                    }
+                ]
+            },
+            {
+                "id": "9b04d298d53c5de16f231d9fab473ec3c6225dd3",
+                "type": "FIX",
+                "text": "LR: Storing value texts information in iApp-state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870101985"
+                    }
+                ]
+            },
+            {
+                "id": "debb64236e1ba1a3b0baf46d431fbbf6f130a5ae",
+                "type": "FIX",
+                "text": "OP: UI.Hidden annotation handling improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870280187"
+                    }
+                ]
+            },
+            {
+                "id": "987385216dbf5000774b669ea082bfa4c87617ec",
+                "type": "FIX",
+                "text": "OP: Static title for newly created objects must be shown in all possible scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870267458"
+                    }
+                ]
+            },
+            {
+                "id": "cd1da669f8d3ce28de02fb04f7696bd1f0b536b9",
+                "type": "FIX",
+                "text": "LROP: P13N string corrected for sort and filter property.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870059381"
+                    }
+                ]
+            },
+            {
+                "id": "c40a116eb52d61ea7177c22f49f764fe374e44f7",
+                "type": "FIX",
+                "text": "LROP: Formatting for grouped dates improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870263344"
+                    }
+                ]
+            },
+            {
+                "id": "1ca835fb33c4f87b4d0f2c60578d7208052b8418",
+                "type": "FIX",
+                "text": "LR: Application of filter values has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870241915"
+                    }
+                ]
+            },
+            {
+                "id": "0a2dfda05e8138e32b3b9fe5695a3ac8d8df951d",
+                "type": "FIX",
+                "text": "LR: Default title is now displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870246236"
+                    }
+                ]
+            },
+            {
+                "id": "a0771e8ade2ff2df87e810686b22b2fa6dde0d56",
+                "type": "FIX",
+                "text": "LROP: DataFieldWithIntentBasedNavigation column is included in the exported spreadsheet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870248622"
+                    }
+                ]
+            },
+            {
+                "id": "cb30a35c9da0bf878fc13cc31caf71973d01d420",
+                "type": "FIX",
+                "text": "OP: ReplaceFacet lazyLoading method fixed"
+            }
+        ]
+    }
+}

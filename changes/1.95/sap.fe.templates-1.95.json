@@ -1,0 +1,162 @@
+{
+    "1.95.0": {
+        "date": "September 2021",
+        "notes": [
+            {
+                "id": "c03d5ff40775ae57150c22715914454914a873a0",
+                "type": "FIX",
+                "text": " You can now hide FieldGroups in edit mode on header facets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170204733"
+                    }
+                ]
+            },
+            {
+                "id": "6577837b4814e91043b2494d5486fabbaf36d574",
+                "type": "FIX",
+                "text": " The message popover controls are now closed when leaving the application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170189387"
+                    }
+                ]
+            },
+            {
+                "id": "c97626e8b682fd5fae6579c9cdea2f2cfd0e24a8",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now offers a binding refresh in SAP Fiori apps with the keep alive mode"
+            },
+            {
+                "id": "67f4f4b48835a5002bf7ceed025cb25dc5302856",
+                "type": "FEATURE",
+                "text": " In a SelectionVariant you can now define multiple SelectOptions for the same PropertyPath"
+            },
+            {
+                "id": "2472744ea27616ed51aedbbf1e175c03c27502da",
+                "type": "FEATURE",
+                "text": " Visual filters are now supported for a parameterized entity set that is different from the main entity set"
+            },
+            {
+                "id": "b1335eeb5049e6bb7ee88731298fd5e38be855a0",
+                "type": "FEATURE",
+                "text": " The header features on an object page to control the visibility of header content are now disabled if there are no header facets"
+            },
+            {
+                "id": "24f804a9107f72207ee29e50bfa7167c36060a48",
+                "type": "FIX",
+                "text": " OperationAvailable is now ignored if the corresponding action and table are from different entitySets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170189572"
+                    }
+                ]
+            },
+            {
+                "id": "0f8238b90bb244cdc5fe17791eb4df4690e6361f",
+                "type": "FEATURE",
+                "text": " The display of error messages has been improved"
+            },
+            {
+                "id": "a89961b87ec44832a7c2b34411237688b871640b",
+                "type": "FEATURE",
+                "text": ": You can now define multiple views of a chart in the list report"
+            },
+            {
+                "id": "1806394f1e1ab111c0e20ac03b0a7c26d017edd7",
+                "type": "FEATURE",
+                "text": " Users can now select values outside of charts from within the visual filter bar using the value help dialog"
+            },
+            {
+                "id": "26ec805abcbb1997a2573992c5f4b8239fc521c4",
+                "type": "FIX",
+                "text": " The object page now loads exactly those sections containing tables for which there are error messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170198011"
+                    }
+                ]
+            },
+            {
+                "id": "a2c9e68e2634542cdf38434f99e0ba7fe91d6635",
+                "type": "FEATURE",
+                "text": " Case insensitive filtering has been enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180365327"
+                    }
+                ]
+            },
+            {
+                "id": "aafa82d04211809e920ebe22e8ab02f83e524e0c",
+                "type": "FEATURE",
+                "text": " Case insensitive filtering on filter bar is now available"
+            },
+            {
+                "id": "930d27681cad013950e175802a3d75117851bbe9",
+                "type": "FIX",
+                "text": " A fallback ID for filter facets is now automatically created if no ID is provided in the annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180356410"
+                    }
+                ]
+            },
+            {
+                "id": "c65261e5e8f1729ad5f009238e6fbb9ecd484009",
+                "type": "FEATURE",
+                "text": " Case insensitive filtering on table columns is now available"
+            },
+            {
+                "id": "b34804bfbe84ac7121f8b4e0a84780eb46af3f92",
+                "type": "FIX",
+                "text": " A direct navigation is now provided if there is only one target application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180240577"
+                    }
+                ]
+            },
+            {
+                "id": "9e3db2eb56c8fc3b442a4dbab49eca2a013dddff",
+                "type": "FIX",
+                "text": " The search field for an analytical table on an object page has been disabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170173413"
+                    }
+                ]
+            },
+            {
+                "id": "f998d88a8df0543859d271731cce59388b63a1e3",
+                "type": "FIX",
+                "text": " When you navigate to an item, the auto-scroll behavior is now working correctly in tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180378165"
+                    }
+                ]
+            },
+            {
+                "id": "b39f9062837630eaec6278699950e5f194cb47c6",
+                "type": "FIX",
+                "text": " Side effects are now supported for the Checkbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180361817"
+                    }
+                ]
+            }
+        ]
+    }
+}

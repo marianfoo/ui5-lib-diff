@@ -1,0 +1,84 @@
+{
+    "1.30.0": {
+        "date": "April 2015",
+        "notes": [
+            {
+                "id": "3346296c91b6d762a22f87fbb01130edcc5f11cd",
+                "type": "FIX",
+                "text": "Fixed response function of InboxMockServer",
+                "references": []
+            },
+            {
+                "id": "fa5908189254ca07ea6fd59a44b99b1c44575a8a",
+                "type": "FIX",
+                "text": "Inbox: N:NWTC:BT:M: stream view loads correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570029104"
+                    }
+                ]
+            },
+            {
+                "id": "6e43b250b2501893baef3dc4e15aea347f4433af",
+                "type": "FIX",
+                "text": "Inbox: Substitution rules are now distinguishable in Unified Inbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570443473"
+                    }
+                ]
+            },
+            {
+                "id": "d8c227d43bbe3ce992fdd260b29cbcf950364693",
+                "type": "FIX",
+                "text": "Inbox: sap-inbox-overlay=true added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "133485"
+                    }
+                ]
+            },
+            {
+                "id": "7c89dd2dfaf31ecc864db08b084f0984a0147ef6",
+                "type": "FIX",
+                "text": "Inbox: Pre-Filtering in BPM Inbox implemented",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "49387"
+                    }
+                ]
+            },
+            {
+                "id": "616b2f79e100cfab66e256b414f88cd4cbdf5c58",
+                "type": "FIX",
+                "text": "Inbox: Tasks are now displayed correctly after clicking on refresh",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570460445"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.30.1": {
+        "date": "June 2015",
+        "notes": [
+            {
+                "id": "23c2f7a54ab5b0682742c62a1e36734e74e2bc58",
+                "type": "FIX",
+                "text": "Inbox: Multiple selection does not work correctly in BPM Inbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570155139"
+                    }
+                ]
+            }
+        ]
+    }
+}

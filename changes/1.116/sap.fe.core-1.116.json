@@ -1,0 +1,377 @@
+{
+    "1.116.0": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "48ba6822427fd76f1b23757b7ee82be3e515a611",
+                "type": "FIX",
+                "text": " We've resolved an infinite recursion when processing a DataFieldForAnnotation pointing to a DataPoint with a dynamic target value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380062863"
+                    }
+                ]
+            },
+            {
+                "id": "58ed5f567c96313249d653b15899134e73948d74",
+                "type": "FEATURE",
+                "text": " We now support onAfterXXX controller extensions on standard actions"
+            },
+            {
+                "id": "c4c8a2d3dbdf5fd31b272d6f95849dc4eb6fc917",
+                "type": "FEATURE",
+                "text": " Non-nullable number fields now have 0 as the default value when the value of the field is deleted"
+            },
+            {
+                "id": "9f149d9a44afcb28130f11f94d53d36a304c43ee",
+                "type": "FIX",
+                "text": " We now correctly handle the mandatory action parameters in a Create dialog that are set by Out parameters in the value help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380065096"
+                    }
+                ]
+            },
+            {
+                "id": "c7f0cf9a341d069c089db271a5dbdff54affdf5b",
+                "type": "FIX",
+                "text": " We now prevent the screen reader from reading the dialog header 'Discard all Changes' twice",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380053120"
+                    }
+                ]
+            },
+            {
+                "id": "24f4babfa856b533208184921bd6f7e3be8eae2d",
+                "type": "FIX",
+                "text": " We have resolved an issue with navigating back from the object page when editing a subobject page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380051577"
+                    }
+                ]
+            },
+            {
+                "id": "09b2c15039f561b37ef763b6671d82a338a88840",
+                "type": "FIX",
+                "text": " We now ensure that the Add Card to Insights option is hidden in by default when a user shares using Microsoft Teams",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380054998"
+                    }
+                ]
+            },
+            {
+                "id": "e10b91fc645a9354043eb4f7a9cbc92442cc4b1d",
+                "type": "FIX",
+                "text": " We have resolved an issue with the contextPath when using the loadFragment extension method",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380073756"
+                    }
+                ]
+            },
+            {
+                "id": "0942955ed1df75bca6c0a360c9d0d4809aa20b91",
+                "type": "FIX",
+                "text": " We now ensure that the option to retrigger the changeSet configured action with 412 message isn't provided if the user selects multiple contexts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380069495"
+                    }
+                ]
+            },
+            {
+                "id": "966cd85659679216aedc9f7b0cd0eda84e444dfa",
+                "type": "FEATURE",
+                "text": " We now provide a byID method in the ExtensionAPI that allows accessing building blocks and custom controls"
+            },
+            {
+                "id": "2c8d9c97599739419768747947966e03fb361523",
+                "type": "FIX",
+                "text": " We now set the property labels for contacts on the table's personalization dialog correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "ac1f65cae8b5cd3b4d4d1b4c5b86ff26a4d91a13",
+                "type": "FIX",
+                "text": " We have resolved an issue with selectionMode for tables that only have custom actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380068762"
+                    }
+                ]
+            },
+            {
+                "id": "6b103c73a544bcecf9b3caa8856f126e40d6c727",
+                "type": "FIX",
+                "text": " We now ensure that xAppState is applied when the UI.SelectionFields isn't configured in the manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380066297"
+                    }
+                ]
+            },
+            {
+                "id": "870e7c9863f487601e9b0d5fcf2546ed28722510",
+                "type": "FEATURE",
+                "text": " You can now change the position of the standard actions in the table toolbar"
+            },
+            {
+                "id": "eb65839a0420b260fa16185de5c83fca02816085",
+                "type": "FEATURE",
+                "text": " Creating setSelectionVariant API and FPM example of usage"
+            },
+            {
+                "id": "8cf7bd5da8ad99851be8d5e08ab434ce23faf5ec",
+                "type": "FIX",
+                "text": " We now ensure that annotation-based and custom elements are rendered in the order they are defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047604"
+                    }
+                ]
+            },
+            {
+                "id": "d54aaf02b40dba1181fe098d0dd6ee55462df8de",
+                "type": "FIX",
+                "text": " We now ensure that the Property labels that are visible in the personalization dialog of a table are set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "3d350901b0109e1098bdbcd25af3c8a58da3d951",
+                "type": "FIX",
+                "text": " We now highlight the recommended field if it is empty and remove highlighting if it has a value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380051293"
+                    }
+                ]
+            },
+            {
+                "id": "0dd13cd0a46895d5c077c6867968e4d7f93a43e0",
+                "type": "FEATURE",
+                "text": " In apps using inline creation mode, a table now has only one empty row by default and a second empty row is added as soon as the user enters data in the first empty row"
+            },
+            {
+                "id": "9de7031dc36e10e186b6a27f1c76c50ec258af29",
+                "type": "FIX",
+                "text": " Confirmation messages for critical actions on forms can now be overwritten with custom text",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380049042"
+                    }
+                ]
+            },
+            {
+                "id": "b108c0575bfa5e1d276466a9adbbcac87d593643",
+                "type": "FIX",
+                "text": " We have resolved an issue with navigating from a quick view link on a list report table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380058283"
+                    }
+                ]
+            },
+            {
+                "id": "8025ecaff42f782d8a91de204d87c541b8fc1ff3",
+                "type": "FIX",
+                "text": " We have resolved an issue with displaying the disabled table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380059963"
+                    }
+                ]
+            },
+            {
+                "id": "30a77e47f83969c629668a962907cbaeca9523fd",
+                "type": "FIX",
+                "text": " We now support the OperationAvailable annotation on a table for an action defined on the entity set to be navigated to",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370066584"
+                    }
+                ]
+            },
+            {
+                "id": "f91da85a54557b0bff7df5b723cd5d0c9b8e7365",
+                "type": "FEATURE",
+                "text": " We now provide getSelectionVariant as a public API for the FilterBar building block"
+            },
+            {
+                "id": "e0e8d7fcdd27fc81dbc4b1639c1e922fb1b7de98",
+                "type": "FIX",
+                "text": " We now support the $Apply expression using fillUriTemplate and decodeUri",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380059940"
+                    }
+                ]
+            },
+            {
+                "id": "b37bcb61be027614d7aae853f17c9a0d680d883e",
+                "type": "FIX",
+                "text": " In the object page, we now show appropriate messages upon deletion of a draft document with unsaved changes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370072780"
+                    }
+                ]
+            },
+            {
+                "id": "6874d2a6c15734174348785247dab3228c6bdbae",
+                "type": "FIX",
+                "text": " The ‘adaptShareMetadata’ controller extension is now called correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380050460"
+                    }
+                ]
+            },
+            {
+                "id": "5302284ae3cbd09fab9f9fd80006db5a9d90c5e1",
+                "type": "FIX",
+                "text": " We have resolved an issue with templating the actionCommand",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370068110"
+                    }
+                ]
+            },
+            {
+                "id": "853aa62bb23aa791bf9bc82759b84ad4d600da46",
+                "type": "FIX",
+                "text": " We now ensure that the Property labels that are visible in the personalization dialog of a table are set correctly\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "2831a033c22bdf97b8bffd8f34240343dd1693e7",
+                "type": "FIX",
+                "text": " We now ensure that the Property labels that are visible in the personalization dialog of a table are set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "840bcd99c5b448ee24bcefec8e2a9ffec25c7db9",
+                "type": "FIX",
+                "text": " The sap.insights library is now loaded dynamically",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380052090"
+                    }
+                ]
+            },
+            {
+                "id": "f9fe3a514d666fef33c5da9242959a10d225a4cf",
+                "type": "FIX",
+                "text": " We now ensure the ‘Escape’ key properly ends the process of creating an item in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370048005"
+                    }
+                ]
+            },
+            {
+                "id": "9c69cfff6c263f1f0bc15e08380642b535ca78d2",
+                "type": "FIX",
+                "text": " We now consider user-specific default values in the ‘create’ action parameter dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370050777"
+                    }
+                ]
+            },
+            {
+                "id": "c62757ce501a3a3c648772f290e9f85ad991d6e4",
+                "type": "FIX",
+                "text": " When a user tries to edit a document and the back end returns the 412 status code, we now ask the user to refresh the page to enable editing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370003128"
+                    }
+                ]
+            },
+            {
+                "id": "3b59d54306724df78164c98da34e5cfcbef980ca",
+                "type": "FIX",
+                "text": " We now support the $Apply expression using fillUriTemplate and decodeUri",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380055928"
+                    }
+                ]
+            },
+            {
+                "id": "820a9f1fc836a3ecafe4a23d9b4228c07468b8e8",
+                "type": "FIX",
+                "text": " A Table building block used in a list report and without a filter bar now loads data correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380056522"
+                    }
+                ]
+            },
+            {
+                "id": "71174c74200706bca5b8edf3b70f9bab7f60b58f",
+                "type": "FIX",
+                "text": " We now support dynamic expressions for hidden annotations of DataFieldForAction and DataFieldForIntentBasedNavigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002665132023"
+                    }
+                ]
+            },
+            {
+                "id": "dedb6966756204226bcaf238543df6e6275f8912",
+                "type": "FEATURE",
+                "text": " We now use a popup to show which user has locked a field in a collaborative draft"
+            }
+        ]
+    }
+}

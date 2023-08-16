@@ -1,0 +1,179 @@
+{
+    "1.85.0": {
+        "date": "December 2020",
+        "notes": [
+            {
+                "id": "5aa1e8a0e3bc34503e67b7a6cb09063a487cb375",
+                "type": "FEATURE",
+                "text": "LROP: Option provided to filter error messages that are classified incorrectly"
+            },
+            {
+                "id": "e4d48ff53891947aee186c46d4f3a5526c7fa52b",
+                "type": "FEATURE",
+                "text": "OP: Merged subsection and table/chart toolbar. The titles of these remain the same"
+            },
+            {
+                "id": "ed84c8e0ae06ebb1367c867b8c7d1f2b51f56baf",
+                "type": "FEATURE",
+                "text": "LR: Set the variant non-dirty on the initial load of an app"
+            },
+            {
+                "id": "847ae2abced6ac13c09b26a26044810449e2a88d",
+                "type": "FEATURE",
+                "text": "OP: Tab selection is persisted"
+            },
+            {
+                "id": "5287b780786da20a4923faa1c520f219906e3c7a",
+                "type": "FEATURE",
+                "text": "ALP: Provided semantic colors based on visual filter dimensions"
+            },
+            {
+                "id": "0b2824734583a60228773c589f91521fd45e7517",
+                "type": "FEATURE",
+                "text": "OP: Always enable export to spreadsheets if copy and paste functionality is available"
+            },
+            {
+                "id": "d58817da6e8cddf713b844807cae706bb9212f94",
+                "type": "FEATURE",
+                "text": "ALP: Support provided for QuickInfo property in visual filters"
+            },
+            {
+                "id": "fc0118979c82507e0a846af7478d2fdff15ad276",
+                "type": "FIX",
+                "text": "LR & ALP: Applied sorters from the presentationVariant object of navigation context to table or chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070409088"
+                    }
+                ]
+            },
+            {
+                "id": "9c1d7291a575da13e8647edc53d58cf04aaa1531",
+                "type": "FIX",
+                "text": "Provided correct access to device information",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070466161"
+                    }
+                ]
+            },
+            {
+                "id": "035a888b74d49c3b03bcd1bb7a83f82a85fa6f88",
+                "type": "FIX",
+                "text": "Fix provided to avoid incorrect context binding for non-draft Create scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070427236"
+                    }
+                ]
+            },
+            {
+                "id": "6031e3ea0ac01147669ec19eb0ec37153f458c4f",
+                "type": "FIX",
+                "text": "OP: Charts overlapping on Safari browser corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007568342020"
+                    }
+                ]
+            },
+            {
+                "id": "1ece430f7d7f334a2ff3c4f37ada51a73f46620e",
+                "type": "FIX",
+                "text": "OP: Fix provided to re-add tolerance towards wrong annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070469306"
+                    }
+                ]
+            },
+            {
+                "id": "5c171aa71a353c7d30b7ab68b4b9952fd06d05ec",
+                "type": "FIX",
+                "text": "OP: Refactored custom i18n texts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980148514"
+                    }
+                ]
+            },
+            {
+                "id": "64a9f2c36566229ae00405027366bfc7427aab3d",
+                "type": "FIX",
+                "text": "OP: Fix provided to re-add tolerance towards wrong annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070469306"
+                    }
+                ]
+            },
+            {
+                "id": "842526dca602d3896906b86ef6681dd69f9c9b7c",
+                "type": "FIX",
+                "text": "OP: Fix provided to re-add tolerance towards wrong annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070437409"
+                    }
+                ]
+            },
+            {
+                "id": "d7fa061b77d26498ec8011696cda8ea0351df522",
+                "type": "FIX",
+                "text": "Formatted response handling of function import results to realize proper navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070397280"
+                    }
+                ]
+            },
+            {
+                "id": "2b88f6ff2e47d908ab3c640ad86b5263f58630f4",
+                "type": "FIX",
+                "text": "OP: Reworked on sections"
+            },
+            {
+                "id": "6c85a0ec3f1d755df58074870be041b001fd22d9",
+                "type": "FIX",
+                "text": "LROP: Fix provided for list refresh being stuck after deleting the last item from a grid table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070417675"
+                    }
+                ]
+            },
+            {
+                "id": "7932093c598b1000a2c63f56ac2c82243ba67a1b",
+                "type": "FIX",
+                "text": "LR: Restoration possible from old appState",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070348217"
+                    }
+                ]
+            },
+            {
+                "id": "4361b48418ba7d6ea2b2ce732d1ba15b4e5c5a1f",
+                "type": "FIX",
+                "text": "Store row selection when using pagination buttons on the sub-object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070381102"
+                    }
+                ]
+            }
+        ]
+    }
+}

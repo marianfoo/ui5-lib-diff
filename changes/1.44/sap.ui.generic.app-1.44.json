@@ -1,0 +1,46 @@
+{
+    "1.44.0": {
+        "date": "October 2016",
+        "notes": [
+            {
+                "id": "c55548ff4d3057301b1790efaf3364001cb3cfda",
+                "type": "FEATURE",
+                "text": "NavigationHandler: provide appstatekey as part of the app state data",
+                "references": []
+            },
+            {
+                "id": "cc5bed23c03916c2b858e2676f278585381eaed0",
+                "type": "FEATURE",
+                "text": "NavigationHandler: providing a convenient class for presentation Variant handling",
+                "references": []
+            },
+            {
+                "id": "852b94e877d2b799c62d4e7d2aca5f54d534e0fa",
+                "type": "FEATURE",
+                "text": "NavigationHandler: transport ui state as presentationVariant",
+                "references": []
+            },
+            {
+                "id": "e97394ba546b858409fea38af29ac3695059f238",
+                "type": "FIX",
+                "text": "NavigationHandler: treat all 'sap-' as technical parameters",
+                "references": []
+            },
+            {
+                "id": "f279e0b13131bee2e0b269eae9defe421f52c703",
+                "type": "FIX",
+                "text": "NavigationService: enables to specify technical parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1680136593"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1670356440"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "1.38.0": {
+        "date": "April 2016",
+        "notes": [
+            {
+                "id": "c580a7ec264d00d2b97f9e16fe58c2f3bb8868fa",
+                "type": "FEATURE",
+                "text": "AreaMicroChart, PercentageMicroChart and ColumnMicroChart controls moved to sap.suite.ui.microchart",
+                "references": []
+            },
+            {
+                "id": "5532d68ee8f3824660a99aa9d7f7149951c70799",
+                "type": "FEATURE",
+                "text": "add detailed dependency information to resources.json",
+                "references": []
+            },
+            {
+                "id": "42f3ccac438b4acad032d7158658ce1c5ce1aa63",
+                "type": "FIX",
+                "text": "AppCacheBusterFilter: prevent access of hidden servlet paths",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570894487"
+                    }
+                ]
+            },
+            {
+                "id": "776ce58d5812cc29aef2c1873417058b14e5eca2",
+                "type": "FIX",
+                "text": "DiscoveryServlet: remove double-check locking",
+                "references": []
+            }
+        ]
+    },
+    "1.38.1": {
+        "date": "May 2016",
+        "notes": [
+            {
+                "id": "b59cf2816fc5a3f3bc5dce7448db907888e9a2a3",
+                "type": "FEATURE",
+                "text": "jQuery: Remove Version 1.7.1",
+                "references": []
+            }
+        ]
+    },
+    "1.38.2": {
+        "date": "May 2016",
+        "notes": [
+            {
+                "id": "00c56bb9aae3da2c5990f0c210ba33ca8d7dcda1",
+                "type": "FIX",
+                "text": "MultiVersionFilter: usage of LRUCache as resource cache",
+                "references": []
+            }
+        ]
+    },
+    "1.38.3": {
+        "date": "June 2016",
+        "notes": [
+            {
+                "id": "1ed02a0b490d8ded2e7b7307e85ee53f4252c82e",
+                "type": "FIX",
+                "text": "MultiVersionFilter: add 304 support for versioned resources",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001579232016"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "1.115.0": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "9fc89b7964b7c9983cf475a94bad5a27960df4ef",
+                "type": "FIX",
+                "text": " We now ensure the draftIndicator of a property is shown correctly when used in a field group",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370069238"
+                    }
+                ]
+            },
+            {
+                "id": "f9725e50d3432a69e7457852f22a8de5e176dbb2",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now enables you to get the FilterBar building block in the SelectionVariant format"
+            },
+            {
+                "id": "a202cf614dadcf8f6d2ad71e2fe70faf7bf310b8",
+                "type": "FEATURE",
+                "text": " We are now validating mandatory fields in FilterBar building block via triggerSearch API and returning back a promise to inform that triggerSearch() handling is complete"
+            },
+            {
+                "id": "b1247d77f10ef1a87edd7fe3243a6214abc10882",
+                "type": "FEATURE",
+                "text": " We have refactored the commonUtil method addExternalStateFiltersToSelectionVariant for converting filter conditions to selection variant format"
+            },
+            {
+                "id": "4da7713f679c97da1311b873e006d08b8139f27c",
+                "type": "FIX",
+                "text": " We now ensure that the initial appstate is applied properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370075219"
+                    }
+                ]
+            },
+            {
+                "id": "af013e1c2b9d5bab2faede412ec571b2ada2e616",
+                "type": "FIX",
+                "text": " We've now resolved the issue related with the OPA testing in a non-shell environment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044157"
+                    }
+                ]
+            },
+            {
+                "id": "a1538e56ece5032ebff31da3516e50d04f6167a8",
+                "type": "FEATURE",
+                "text": " We now ensure that each column in a table has a tooltip"
+            },
+            {
+                "id": "950de26b14956e0368e21c415a30e135793e5255",
+                "type": "FIX",
+                "text": " We now ensure that the additional properties in the onAfterBinding method that binds the data works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370064031"
+                    }
+                ]
+            },
+            {
+                "id": "2524e16f76da30c3281791bff5b907c958d99cb5",
+                "type": "FIX",
+                "text": " We have resolved an issue with the mass edit functionality",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370067514"
+                    }
+                ]
+            },
+            {
+                "id": "30868bb57f52f75395ef6e6d3cfc7e6981667b83",
+                "type": "FEATURE",
+                "text": " We now support binding paths for metadata in the manifest, enabling you to specify the header texts of custom columns"
+            },
+            {
+                "id": "ab398d71e58a516a556da8119b38ed6baa0814bb",
+                "type": "FIX",
+                "text": " You can now execute the PrepareAction by pressing Enter on an object page table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370062398"
+                    }
+                ]
+            },
+            {
+                "id": "bf3b3a284be881c21769447e58562f3f27749039",
+                "type": "FIX",
+                "text": " We now ensure that the internalOperationsPromise rejection scenario is correctly handled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370024780"
+                    }
+                ]
+            },
+            {
+                "id": "4cd9cb81dc34fdcc46f59435aed45ec69af10347",
+                "type": "FIX",
+                "text": " Custom columns in a list report table no longer cause an error when using the mass edit functionality",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370048601"
+                    }
+                ]
+            },
+            {
+                "id": "510cc674e3b64783d0589b3453f6479e7b90e0a4",
+                "type": "FIX",
+                "text": " We now ensure the focus is correctly set in an app after a user deletes one or several table rows",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380029183"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.115.1": {
+        "date": "June 2023",
+        "notes": [
+            {
+                "id": "1b0baf103ed3628e8c44db8470088f52871fc548",
+                "type": "FIX",
+                "text": " We have resolved an issue with the contextPath when using the loadFragment extension method",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380073756"
+                    }
+                ]
+            }
+        ]
+    }
+}

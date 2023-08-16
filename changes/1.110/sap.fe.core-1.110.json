@@ -1,0 +1,954 @@
+{
+    "1.110.0": {
+        "date": "January 2023",
+        "notes": [
+            {
+                "id": "68aada6f138bf8ab8a16d23e2dd817a318716d57",
+                "type": "FIX",
+                "text": " We now ensure that the correct action name is provided when a users clicks 'Delete'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380008628"
+                    }
+                ]
+            },
+            {
+                "id": "2899bc2fc3262e8ef51c99a132ac5c4e1af34ba9",
+                "type": "FIX",
+                "text": " We now ensure that a PresentationVariant without visualization falls back to the LineItem again",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380004113"
+                    }
+                ]
+            },
+            {
+                "id": "f99cc5a9339e3ca09908aff652d7cc8ebbe4f7c7",
+                "type": "FIX",
+                "text": " The Delete button in the toolbar of a table is now also visible in multiple table mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280201511"
+                    }
+                ]
+            },
+            {
+                "id": "49ad0a787880d67ba262b2018f2bd8e6d0a68b1b",
+                "type": "FEATURE",
+                "text": " Correct store/restore of control state via iAppState using the delta logic"
+            },
+            {
+                "id": "3c20624c3955a1f658242e957e441b5ca0296fbc",
+                "type": "FEATURE",
+                "text": " We now provide an Edit button on the subobject page"
+            },
+            {
+                "id": "c54339ae1cebe6a40f5ad1b5843fa7329fb09845",
+                "type": "FIX",
+                "text": " Sort or Group conditions with a navigation property is now supported within a PresentationVariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280194558"
+                    }
+                ]
+            },
+            {
+                "id": "9e315d04fc8771a6d9647d3532aa2c012c99ad31",
+                "type": "FIX",
+                "text": ": The issue with the controller file name used in the flexible programming model sample of filter bar and chart with variant management is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380000192"
+                    }
+                ]
+            },
+            {
+                "id": "ec07d1af981ec11e0a46eefabb5a51c7029c42f9",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the Filter Bar and Chart With Variant Management view in the FilterBar building block",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380000192"
+                    }
+                ]
+            },
+            {
+                "id": "1f516aa3e1d5a5b2f338f35cc2cf3e18e08a5030",
+                "type": "FIX",
+                "text": " The issue with AdaptFilters dialog where the filter properties where being loaded when UI.HiddenFilter was set to true, is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270124515"
+                    }
+                ]
+            },
+            {
+                "id": "1c0be9202f387640e654185eeac3062933c96b60",
+                "type": "FEATURE",
+                "text": " We now allow the building block \"ID\" to be set as the \"for\" attribute of variant management"
+            },
+            {
+                "id": "7984c5e87296fb120a3213da5c6043dbbb027c2e",
+                "type": "FIX",
+                "text": " We now support filtering on tables that have multi-level navigation properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280175163"
+                    }
+                ]
+            },
+            {
+                "id": "4ee3c1e7aa3bd7daed7057edd5093fdbefb83973",
+                "type": "FIX",
+                "text": " We've resolved an issue related to static actions with the special 'ResultIsActiveEntity' parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280186052"
+                    }
+                ]
+            },
+            {
+                "id": "30fe739c16cff653eb54f85d80e6517c649cc345",
+                "type": "FIX",
+                "text": " The isEditable property on the model UI now supports asynchronous binding",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280192366"
+                    }
+                ]
+            },
+            {
+                "id": "a8b64ecd641ae6c34b8d0f6399a683aff7fd8178",
+                "type": "FIX",
+                "text": " EditFlow.invokeAction now returns the action result for an unbound action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270139279"
+                    }
+                ]
+            },
+            {
+                "id": "508e5eff0193fa496e47fe9391c9804d5c3dc010",
+                "type": "FEATURE",
+                "text": " We've added an example to the flexible programming model explorer showing how to get all active filters using the FilterBar API"
+            },
+            {
+                "id": "5e4a2cede8a4ccd783f16b36a9666933e115d38e",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the cache behavior for flex changes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270185059"
+                    }
+                ]
+            },
+            {
+                "id": "e01ccead069ffce1a1f6080724c4bd70253baa62",
+                "type": "FIX",
+                "text": " Default values for action parameters are now considered in the check for mandatory parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280195120"
+                    }
+                ]
+            },
+            {
+                "id": "ef9b73aa7e9107c262431cb0722f2af0467900e7",
+                "type": "FIX",
+                "text": " The condensed layout mode is now applied to a table only if the page contains no other sections than the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270135777"
+                    }
+                ]
+            },
+            {
+                "id": "4f0d14f7f0fb18b3bfbd8c526584a41e92dde1c7",
+                "type": "FIX",
+                "text": " SAP Fiori elements for OData V4 now supports the hidden annotation using a static value on exported columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270172673"
+                    }
+                ]
+            },
+            {
+                "id": "6f13b5e9f3d615fb9b5101c613a535ef2d00d200",
+                "type": "FEATURE",
+                "text": " You can now activate a 'Clear' button in the manifest of the list report that enables users to clear all filter fields"
+            },
+            {
+                "id": "ffff7f497369d8ef5a8399e97993f2dd47e6e173",
+                "type": "FEATURE",
+                "text": " We've implemented the persistence mode on the object page, which ensures the selected table and chart settings are retained during navigation"
+            },
+            {
+                "id": "c8eddd543df2fd439ca097227198d66d8b821892",
+                "type": "FIX",
+                "text": " Numeric columns in the tables of the value help dialog are now correctly aligned",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280105285"
+                    }
+                ]
+            },
+            {
+                "id": "96e2cdde2a0783d256b24a6eace3d23824e53954",
+                "type": "FEATURE",
+                "text": " The pageReadyEventTimeout parameter can now be set in the manifest file to force the pageReady event to fire after a delay"
+            },
+            {
+                "id": "55d7d044c231476cda545925bd893c35fcf9ae51",
+                "type": "FIX",
+                "text": " We no longer check if custom aggregates are part of AggregatableProperties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280184493"
+                    }
+                ]
+            },
+            {
+                "id": "bbe4b2e38b5b753e65fe66609ea4278b2102415d",
+                "type": "FIX",
+                "text": " When users click Cancel in a sticky application, we now ensure only those actions are available for which users have the necessary authorization",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270163641"
+                    }
+                ]
+            },
+            {
+                "id": "2e7f1b912ca0e28431660cf32eca69e1f38a3e89",
+                "type": "FIX",
+                "text": " We now ensure that the text property from a data field using associations is available for sorting and grouping",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270179333"
+                    }
+                ]
+            },
+            {
+                "id": "a529af7f7eed266dd5804f0c9abe1032dfeae00f",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the loading of visualizations in the analytical list page and the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270172921"
+                    }
+                ]
+            },
+            {
+                "id": "c4a4b80d313650f2493bee7e128bfaad5efdf232",
+                "type": "FIX",
+                "text": " Side effects now work correctly after an action was executed as an overload",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280181177"
+                    }
+                ]
+            },
+            {
+                "id": "77c86bc968205101e68699b0c16909aa95a69cde",
+                "type": "FIX",
+                "text": " We've implemented the comparison logic between an i18n expression and a direct string value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270176294"
+                    }
+                ]
+            },
+            {
+                "id": "d63a0dad30db9380ea13a908f69f1d0a4bedd588",
+                "type": "FIX",
+                "text": " We now fixed an issue with action enablement on tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270136819"
+                    }
+                ]
+            },
+            {
+                "id": "b53db370436531b116d07b00fa2708d2a2438a78",
+                "type": "FIX",
+                "text": " In a table, properties used in a multi-value field are no longer available for sorting",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280182540"
+                    }
+                ]
+            },
+            {
+                "id": "23d27a35fd8b9e9c1199361b61569fd3c97ed82b",
+                "type": "FEATURE",
+                "text": " We now show the subtitle and the icon of the app in the navigation menu as defined in the application's manifest"
+            },
+            {
+                "id": "a9b9f10e01050a78b64ac8fd87f5e1b6b67d96c0",
+                "type": "FIX",
+                "text": " The column width is now properly calculated on devices with a small screen",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270153247"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280175476"
+                    }
+                ]
+            },
+            {
+                "id": "fe0f998eec830dda1a9356bccefd13ec089ffbdb",
+                "type": "FIX",
+                "text": " We've corrected the message handling for the action parameter dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270165716"
+                    }
+                ]
+            },
+            {
+                "id": "fc97169f8291f65cf39f619ac8f49125079e71c9",
+                "type": "FIX",
+                "text": " The AppStateHandler now waits for all application state requests to be terminated before triggering a navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270161638"
+                    }
+                ]
+            },
+            {
+                "id": "b15bedc5d69a045a3b0002427e4cfff42c821fbe",
+                "type": "FIX",
+                "text": " A Table building block using a PresentationVariant annotation without any visualizations now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280178142"
+                    }
+                ]
+            },
+            {
+                "id": "1893a2221475cf89a5e741f7566c242aab3b1366",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the Export to PDF functionality when a column with DataFieldForAction was used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280175260"
+                    }
+                ]
+            },
+            {
+                "id": "162b6d1bfb77dabb3b4f947c71a98db00e932def",
+                "type": "FIX",
+                "text": " We've corrected the options available in the message dialog for strict handling warnings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280174611"
+                    }
+                ]
+            },
+            {
+                "id": "9dbeaa28a4488023e13490fcd7682ef52c4c7f82",
+                "type": "FIX",
+                "text": " We now ensure the paginator model is cleared when using the 'navigate' function from the Routing API",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270123820"
+                    }
+                ]
+            },
+            {
+                "id": "b5d7daf1ae1561722e87d620959398ef4528da3b",
+                "type": "FIX",
+                "text": " We now ensure the Delete button is disabled for locked objects in the object page header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270187875"
+                    }
+                ]
+            },
+            {
+                "id": "281ce04dea7851329b7e1bca683c9f424ffa64fd",
+                "type": "FIX",
+                "text": " Empty creation rows in draft tables are not highlighted in blue any longer",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280176663"
+                    }
+                ]
+            },
+            {
+                "id": "fbb59148b9a50c3c80d975543d70e4a19ba72047",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the failing navigation to an object page on the successful creation of a record",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270172048"
+                    }
+                ]
+            },
+            {
+                "id": "af603c961b04f223a5676e9f45152b05d1c2e28c",
+                "type": "FIX",
+                "text": " The selectionMode for a table is now also properly applied on a RAP service when the 'visible' property of a custom action is set with a binding expression in the manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270163091"
+                    }
+                ]
+            },
+            {
+                "id": "b6f92b9731e2ea70d74d4fe4537c093fbcd91455",
+                "type": "FIX",
+                "text": " We now properly export columns using datapoints with dynamic target values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270162570"
+                    }
+                ]
+            },
+            {
+                "id": "34a0630ba7ddbb9cea5905d6c09a296e4692f022",
+                "type": "FIX",
+                "text": " Overload Actions that use the root context now run correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270126019"
+                    }
+                ]
+            },
+            {
+                "id": "28760ea2a905fee4d477589c5eb07f0d6abeacb3",
+                "type": "FIX",
+                "text": " Connected fields now properly display fields with semantic objects as links",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270181689"
+                    }
+                ]
+            },
+            {
+                "id": "5f6d223ba3e313848b349fb4b95b24ead6faaaa6",
+                "type": "FIX",
+                "text": ": We've updated the configuration that led to incorrect sorting in the message popover",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270187845"
+                    }
+                ]
+            },
+            {
+                "id": "333aebfb59d856642f3d788db92ae6e9bc8b84f5",
+                "type": "FIX",
+                "text": " We've resolved the issue related to the filtering and criticality of the VisualFilter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270187588"
+                    }
+                ]
+            },
+            {
+                "id": "64133fbf72bf2af470344f844adf4b247dbff683",
+                "type": "FIX",
+                "text": " We've updated some texts for delete restricted rows in the confirmation dialog of the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280174639"
+                    }
+                ]
+            },
+            {
+                "id": "8ca78ad568c0176215b53aa407f475d0bec308e0",
+                "type": "FIX",
+                "text": ": We now ensure the focus is set to the error location, shifted and correctly read out",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170089911"
+                    }
+                ]
+            },
+            {
+                "id": "8c53fe5df4000f5905dff1536b25db72a550eee2",
+                "type": "FIX",
+                "text": " We've fixed an issue related to the usage of percentage values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270182123"
+                    }
+                ]
+            },
+            {
+                "id": "72b12f149be492a1f49f3786a3ebe3881a34abea",
+                "type": "FIX",
+                "text": " The Define Conditions tab is now available for filter fields defined through associations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270175900"
+                    }
+                ]
+            },
+            {
+                "id": "2f43cc6458c8a57dca3ac00a956f1f340eb18b25",
+                "type": "FIX",
+                "text": " The shell navigation menu now has correct URL parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270180548"
+                    }
+                ]
+            },
+            {
+                "id": "55ef4a4c60193562fdc6506de4b74deab4572578",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the DataPoint that wasn't displayed as a link in the header of an object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270184651"
+                    }
+                ]
+            },
+            {
+                "id": "17558971df7441d89b71bee11068868aea68e43f",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the 'add columns' functionality of the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270179694"
+                    }
+                ]
+            },
+            {
+                "id": "c9b7eb102ea16b8336b9d56ff521bfe8431bba3b",
+                "type": "FIX",
+                "text": " We've resolved an issue related to a wrong label being read out for filters in the filter bar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270151996"
+                    }
+                ]
+            },
+            {
+                "id": "bc14badd598c238c9465fe22577ee90a8bb08109",
+                "type": "FIX",
+                "text": " We've resolved an issue related to a mismatch in the TargetQuantityUnit when exporting to a spreadsheet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270165773"
+                    }
+                ]
+            },
+            {
+                "id": "5faa715ce31b9c89331a193df7a8a99f6e8c348f",
+                "type": "FEATURE",
+                "text": " The input of fields of type Edm.Guid is now validated if these fields have a value help"
+            },
+            {
+                "id": "8d5e7329d38e438e837860571cf3f9cd2fedf868",
+                "type": "FIX",
+                "text": " You can now use the manifest to overwrite actions used in forms",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270163018"
+                    }
+                ]
+            },
+            {
+                "id": "ff784db19f07c5047dc4e4e7a253f6722a002d7e",
+                "type": "FIX",
+                "text": " Data in the list page is loaded correctly after page is refreshed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270185531"
+                    }
+                ]
+            },
+            {
+                "id": "bf3d09fe6e7e34d8680e803faddeefbd091f6d2b",
+                "type": "FIX",
+                "text": " The Table building block no longer loads data on initialization if a filterBar is associated.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270152532"
+                    }
+                ]
+            },
+            {
+                "id": "e1864374f27eb4250722df5431e890fbb0b0c159",
+                "type": "FIX",
+                "text": " You can now use hidden properties as a sort order option for tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007217392022"
+                    }
+                ]
+            },
+            {
+                "id": "6ba37988e42ec151642f11669102ed6dd8474edf",
+                "type": "FIX",
+                "text": " the property autoBindingOnInit is now available on the MacroTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270152532"
+                    }
+                ]
+            },
+            {
+                "id": "f4e60923eb786cef7e54057b59fd583976d8f28e",
+                "type": "FIX",
+                "text": " The table selectionMode is now properly applied when the 'visible' property of a custom action is set with a binding expression in the manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270163091"
+                    }
+                ]
+            },
+            {
+                "id": "eaaa3111f3ea6c74898c94dbd0012fd839ae1046",
+                "type": "FEATURE",
+                "text": " We now ensure the column width in a table is reevaluated when switching from display mode to edit mode"
+            },
+            {
+                "id": "121ccffca73d6678c9d409b7c4de74e158c221a2",
+                "type": "FIX",
+                "text": " We now add semantic object mappings to the navigation parameters only if they are available",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270129545"
+                    }
+                ]
+            },
+            {
+                "id": "f5964c3ac850e6d6dad37b56c0c34f859058cd08",
+                "type": "FIX",
+                "text": " The screen reader now reads columns containing a semantic object correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270154014"
+                    }
+                ]
+            },
+            {
+                "id": "e7079bfcce5f632ee2c815b33679c3ce12479772",
+                "type": "FEATURE",
+                "text": " We've improved the grouping of messages in the message view and the message dialog"
+            },
+            {
+                "id": "5ef77d04fdd8c8748af641f055fe1445592a7fff",
+                "type": "FIX",
+                "text": " External navigation now works correctly even for huge data sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270147302"
+                    }
+                ]
+            },
+            {
+                "id": "05e19b153712f22386df39d75150b0f06c48b2eb",
+                "type": "FEATURE",
+                "text": " We're now using illustrated messages with specific texts depending on the type of error that occurs"
+            },
+            {
+                "id": "598844f85b53a6d616e316393af690df396cdc9d",
+                "type": "FIX",
+                "text": " The message strip texts for the object page have been updated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270138633"
+                    }
+                ]
+            },
+            {
+                "id": "f6a3fe094b60d9663ee9bdce1f2bf46e61ee9ac6",
+                "type": "FIX",
+                "text": " We now ensure the SetActionEnablement method doesn't break the app when a dynamic expression enables the action and no context data is passed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270150185"
+                    }
+                ]
+            },
+            {
+                "id": "2440f9cd93b87952f626f5e735527e77caf2cc14",
+                "type": "FIX",
+                "text": " We now clear the default conditions for single valued filter fields before applying the iAppState",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270136282"
+                    }
+                ]
+            },
+            {
+                "id": "ec8bed8c0e59b24e395f8b28b2d085c52572dc82",
+                "type": "FEATURE",
+                "text": " We now provide a warning in the TextArea when the user input exceeds the maximum allowed length"
+            },
+            {
+                "id": "de0925e08caa9c46b685353de5407b615b081cd7",
+                "type": "FIX",
+                "text": " We now ensure that the chart title is read from the chart annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270172457"
+                    }
+                ]
+            },
+            {
+                "id": "de475945b1511780f10aa3dcbb74794791ffed62",
+                "type": "FIX",
+                "text": " We now submit the pending changes correctly before navigating to the next context via the paginator",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270166220"
+                    }
+                ]
+            },
+            {
+                "id": "022aa1a33f899709874b9f5124218d548d70711d",
+                "type": "FIX",
+                "text": " We now properly display back-end messages in applications using the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280121784"
+                    }
+                ]
+            },
+            {
+                "id": "a06cba7ee2caa2ffc0e670d0d7b1d5c579129065",
+                "type": "FIX",
+                "text": " We've fixed an issue related to the 'Save as Tile' option not working correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270169095"
+                    }
+                ]
+            },
+            {
+                "id": "f17d2c97a27c2afcdef4c14450709db6f49c4019",
+                "type": "FEATURE",
+                "text": ": The title in the shell bar is now automatically adapted when you use the flexible column layout"
+            },
+            {
+                "id": "c04085829dc34889e77d6f68aaad8c85cf6d4186",
+                "type": "FIX",
+                "text": " We now ensure that the sort order defined within a presentation variant is properly set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270125920"
+                    }
+                ]
+            },
+            {
+                "id": "83c68ef1a239ebb2edadcf9e4f6b613146bd1e20",
+                "type": "FIX",
+                "text": " We now support sorting and grouping on properties used in a textAnnotation that is set to #TextOnly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270143925"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270131097"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270143640"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270166730"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270166499"
+                    }
+                ]
+            },
+            {
+                "id": "7d75e716e064f6dbf3c98ae5382208290c1a6f0e",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now provides a hook to initialize feature toggles"
+            },
+            {
+                "id": "fb6ce8f4ee89f4b3e8764c6ddac52ad18719b88a",
+                "type": "FIX",
+                "text": ": We now ensure that the dataloss popup is only displayed under specific conditions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270150362"
+                    }
+                ]
+            },
+            {
+                "id": "c55235d027ca531b8f3b5a1d3b3a343de77ec495",
+                "type": "FIX",
+                "text": " The quick view now saves the AppState only when necessary",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270148692"
+                    }
+                ]
+            },
+            {
+                "id": "5b32397fad02784f0ac3fe2eb6c37887793fd997",
+                "type": "FIX",
+                "text": " We now provide stable IDs for the 'Close' and 'Full Screen' buttons in apps using the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270113179"
+                    }
+                ]
+            },
+            {
+                "id": "dc4d92521c635320f0d6d31e246e396ce336cc7e",
+                "type": "FIX",
+                "text": " We now ensure that the key is part of the $select in the value help request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270141154"
+                    }
+                ]
+            },
+            {
+                "id": "245aa6902c2df2fece1305e9206a0fde64a526b6",
+                "type": "FIX",
+                "text": " We now ensure that the default SelectionVariant with Boolean values works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270154800"
+                    }
+                ]
+            },
+            {
+                "id": "b721a87e66f0e0231c57ea568ec0acd18c74a7ec",
+                "type": "FIX",
+                "text": " The FieldControl annotation now works correctly in FieldGroups",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270160710"
+                    }
+                ]
+            },
+            {
+                "id": "ad79f8de7be7a597efc8c633b03a4a8871ce0b56",
+                "type": "FIX",
+                "text": " We've fixed the issue related to an action not being triggered in specific cases",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270157171"
+                    }
+                ]
+            },
+            {
+                "id": "25a3cc85c63414edbe88a52c32b584c76cd90c99",
+                "type": "FIX",
+                "text": " We now allow to confirm the selected option in the data loss popup using the 'Enter' key",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270142109"
+                    }
+                ]
+            },
+            {
+                "id": "a8e1fee6429e21d139ca09609b09b9dc102bf1da",
+                "type": "FIX",
+                "text": " We now ensure no immediate properties for table fields are requested if side effects are configured for the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270149142"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.110.1": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "2cb7276e57accbacd4c23eaff1a3c4c9d71df011",
+                "type": "FIX",
+                "text": " We've added a check to see if both the current entity set and the root entity set are draft enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380008369"
+                    }
+                ]
+            }
+        ]
+    }
+}

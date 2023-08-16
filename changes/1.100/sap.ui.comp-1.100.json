@@ -1,0 +1,466 @@
+{
+    "1.100.0": {
+        "date": "March 2022",
+        "notes": [
+            {
+                "id": "1d6a7fca0a87a1cfcc181361eb8d2d463968468c",
+                "type": "FIX",
+                "text": " SmartField: focus catcher fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270007274"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270005913"
+                    }
+                ]
+            },
+            {
+                "id": "fb7f681685242a96bbbd2bdbdcfb7c1a68a6c374",
+                "type": "FIX",
+                "text": " SmartFilterBar: single field with text arrangement not throwing an error when null value is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270011124"
+                    }
+                ]
+            },
+            {
+                "id": "68540efa8321bf5544ea777c7972bcf1cdc77175",
+                "type": "FEATURE",
+                "text": " SmartField: Started support of time zone in DateTimeOffset fields in edit mode"
+            },
+            {
+                "id": "03710c29b1e091e42583e2069672bd4d6ae1d4a8",
+                "type": "FIX",
+                "text": " SmartFilterBar: no exception thrown on _handleFilterDataUpdated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270007842"
+                    }
+                ]
+            },
+            {
+                "id": "9606e2d224a552723cebee9d1dec27d9e43aae7d",
+                "type": "FIX",
+                "text": " SmartFilterBar: Fields in Adapt Filters dialog can now be correctly selected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000170252022"
+                    }
+                ]
+            },
+            {
+                "id": "b3c06d720779e68be1c3cefecb2b972d971de1ab",
+                "type": "FIX",
+                "text": " SmartField: Focus catcher should not look like editable control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280075763"
+                    }
+                ]
+            },
+            {
+                "id": "10f6dc0cf52c17c8d2e3828e865616d1823f76e5",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: textarrangement support for single fields"
+            },
+            {
+                "id": "152b6dabd9e038bf462c1d4e03738706ae9c835d",
+                "type": "FEATURE",
+                "text": " SmartTable: Filters dialog now shows combobox for fields with fixed-values"
+            },
+            {
+                "id": "7bd75be41dec805934cad10da58d9f11d8af0f2f",
+                "type": "FIX",
+                "text": " SmartFilterBar: Enter key should work for DynamicDateRange",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280076328"
+                    }
+                ]
+            },
+            {
+                "id": "f45456cf08b12392160937521a016bedd8694884",
+                "type": "FIX",
+                "text": " SmartField: rendering fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280080253"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280080619"
+                    }
+                ]
+            },
+            {
+                "id": "c00e664bd267c2eb884043eed6f7efea1f038e81",
+                "type": "FIX",
+                "text": "SmartTable: normalize column order in paste info",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000310392022"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001159092022"
+                    }
+                ]
+            },
+            {
+                "id": "2ef922a75d738665f51514b82ee08af5b1baf7d8",
+                "type": "FIX",
+                "text": " SmartField: Editable when bound to not expanded navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280034154"
+                    }
+                ]
+            },
+            {
+                "id": "5adb2f193c87226c816abb5ce5b7b347f548fdcb",
+                "type": "FIX",
+                "text": " SmartFilterBar / SmartField: Error messages are now properly punctuated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280067201"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280067332"
+                    }
+                ]
+            },
+            {
+                "id": "90ffed47dd77753c9268d138f6e154d6d4f1a61b",
+                "type": "FIX",
+                "text": " SmartFilterBar: Reveret initialized event fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280062778"
+                    }
+                ]
+            },
+            {
+                "id": "9ccb8a251c6ec34fd557378c238b69ac14b7ab8a",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct setFilterData when DDR field is not visible"
+            },
+            {
+                "id": "50e69f6ab36408e53e23c2d963157ea2100c8a63",
+                "type": "FIX",
+                "text": " SmartField: In SmartTable remove empty indicator of amount when the unit is empty",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170301566"
+                    }
+                ]
+            },
+            {
+                "id": "89242477134af4c6ff64620b17b64dae6b8d0d12",
+                "type": "FIX",
+                "text": " SmartField: Currency and Unit validation messages are now properly displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280043712"
+                    }
+                ]
+            },
+            {
+                "id": "64abbbd045293b26a7d246efd7cf5591f54a3fc3",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Correct space is added between basic search and buttons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280018566"
+                    }
+                ]
+            },
+            {
+                "id": "d618ee3bc88d7935b92896b37b7133927c868988",
+                "type": "FIX",
+                "text": " ODataControlFactory: UoM OneWay binding support",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280062765"
+                    }
+                ]
+            },
+            {
+                "id": "c02cc51ba54d397a9b2ee60e3428fee444dd7364",
+                "type": "FIX",
+                "text": " SmartField: destroy base controls improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280000593"
+                    }
+                ]
+            },
+            {
+                "id": "166e7b5d94979bc59d66eaa69c4c2480e96564ec",
+                "type": "FIX",
+                "text": " ODataControl: bind method fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280048397"
+                    }
+                ]
+            },
+            {
+                "id": "592c6f5133e5e66cf785e33df03423b9cdeb3c7e",
+                "type": "FIX",
+                "text": " SmartField: focus fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280051592"
+                    }
+                ]
+            },
+            {
+                "id": "3e3f8c156797918af34f338d3cdd840e8d40cc0b",
+                "type": "FIX",
+                "text": " SmartFilterBar: Custom fields with values are now taken into count when updating Filters button text",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280039665"
+                    }
+                ]
+            },
+            {
+                "id": "355ddd6cb7768a8a518346b8705ff18326cc1cf8",
+                "type": "FIX",
+                "text": " SmartField: destroy base controls improved"
+            },
+            {
+                "id": "f5d33d5b337a39f2356b8b92da43a01a46c62f3c",
+                "type": "FIX",
+                "text": " VariantManagement: scroll to error view in manage views dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009053082021"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000345472022"
+                    }
+                ]
+            },
+            {
+                "id": "780e555b37b7fb086b59e534d5186834358583dd",
+                "type": "FIX",
+                "text": " SmartFilterBar: Validation of mandatory ComboBox with delay in binding",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170318143"
+                    }
+                ]
+            },
+            {
+                "id": "3a99ce91c5daf503ccd20bb52e7f320d7a4becc4",
+                "type": "FEATURE",
+                "text": " SmartField: Started support of time zone in DateTimeOffset fields in display format"
+            },
+            {
+                "id": "97e9a033c4db9d81e7b3cb4883809428edb77e00",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: change DTOffset fields with DateRangeType"
+            },
+            {
+                "id": "681d7dd3344783e2a1d675dc82c960030bd1b85a",
+                "type": "FIX",
+                "text": " SmartField: Fixed UoM when is in lower case",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280039035"
+                    }
+                ]
+            },
+            {
+                "id": "ba1bf69862f7810e678fb39242fd2c34f81a94e8",
+                "type": "FIX",
+                "text": " ValueListProvider: PresentationVariant without sortOrderFields is now handled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280035004"
+                    }
+                ]
+            },
+            {
+                "id": "ad2155a6d362ee1fc6fe283b41eb9775b1848586",
+                "type": "FIX",
+                "text": " SmartField: destroy base controls improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280000593"
+                    }
+                ]
+            },
+            {
+                "id": "6067d54eb4e2a439a9dafa66c0789fc6077494dd",
+                "type": "FIX",
+                "text": " SmartField: invalidate fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280024367"
+                    }
+                ]
+            },
+            {
+                "id": "c0ed6ed2a730044688df88c05cf3bb441caeaa18",
+                "type": "FIX",
+                "text": " SmartField: getDataProperty fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280028351"
+                    }
+                ]
+            },
+            {
+                "id": "944f35967303442c8d054eea5cc5b1837fe41ced",
+                "type": "FEATURE",
+                "text": " SmartTable: support Common.Timezone annotation"
+            },
+            {
+                "id": "89e86b1d1faa7b1bd8229ee737cac3a979da966a",
+                "type": "FIX",
+                "text": " SmartLabel: RTA Label retrieval in SimpleForm",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180306023"
+                    }
+                ]
+            },
+            {
+                "id": "a0101dc9313a2ae2a4da9797ffde13e7ccaa570a",
+                "type": "FEATURE",
+                "text": " SmartField: editable/mandatory optimization"
+            },
+            {
+                "id": "4b63b73e8f29450598ca1be4eff982866ebf724d",
+                "type": "FIX",
+                "text": " SmartFilterBar: Fields not visible in advanced area are now correctly used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180181732"
+                    }
+                ]
+            },
+            {
+                "id": "3d54ce3b7153583bbd4e96233b0ac895bdee5ed6",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Default condition operation for filters is now introduced"
+            },
+            {
+                "id": "3c8e7e8c32b7879f697530aa68df4c3a55d8d308",
+                "type": "FIX",
+                "text": " SmartField: getDataProperty fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280015432"
+                    }
+                ]
+            },
+            {
+                "id": "bed5356adcf0f4c9cd6d1f2e45d65e169a085d58",
+                "type": "FIX",
+                "text": " ValueListProvider: MetadataAnalyser fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280020474"
+                    }
+                ]
+            },
+            {
+                "id": "571d8b1803752b00a4a8082852bfc28ed45a8cbd",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement description fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280005161"
+                    }
+                ]
+            },
+            {
+                "id": "b9d24a218695d98c8df0b52adcb59c262edb7075",
+                "type": "FIX",
+                "text": " SmartField: Do not render 0-Guid for description only fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170215093"
+                    }
+                ]
+            },
+            {
+                "id": "ff7dc7354b6d1fb7423d14cd124934a3a197ec2c",
+                "type": "FIX",
+                "text": " ValueHelpDialog: correct out behavior with hidden fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009013082021"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180426176"
+                    }
+                ]
+            },
+            {
+                "id": "3b25a597fd76bc6840c7470081d35013eea71458",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement fixed on model value changes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180082621"
+                    }
+                ]
+            },
+            {
+                "id": "bb28ba10e019ae7fba244814cd4ab0e565cb5506",
+                "type": "FIX",
+                "text": " SmartField: getDataProperty fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280015432"
+                    }
+                ]
+            }
+        ]
+    }
+}

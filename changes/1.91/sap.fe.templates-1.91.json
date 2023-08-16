@@ -1,0 +1,134 @@
+{
+    "1.91.0": {
+        "date": "May 2021",
+        "notes": [
+            {
+                "id": "778e54181776bfc68641861a90e21e7162c9cab7",
+                "type": "FIX",
+                "text": " Binding issue when using header facet pointing to a DataPoint via a navigation was fixed"
+            },
+            {
+                "id": "1ef1e69f00c60678f5084fa89c299a749ec666b8",
+                "type": "FEATURE",
+                "text": " The \"onBeforeSave\" hook in the editFlow controller is provided to intercept the 'save' action"
+            },
+            {
+                "id": "5db5e9aa1bbfb4be07c7163fedb7cbb6e332a8fe",
+                "type": "FEATURE",
+                "text": " The address facet in the header of the object page is now supported"
+            },
+            {
+                "id": "889492f1ba870593bb9128dd6e096d5667713397",
+                "type": "FIX",
+                "text": " Evaluation of editable settings for HeaderInfo in editable header is now correctly applied",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170138387"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170138431"
+                    }
+                ]
+            },
+            {
+                "id": "4e8edcb12134c0ab23ceb6ada7d8d64f1ba8838f",
+                "type": "FEATURE",
+                "text": " Provides the ControllerExtension for the EditFlow"
+            },
+            {
+                "id": "037747c62f3516fbb9da1cf92291cbb355326b34",
+                "type": "FIX",
+                "text": " Value help is now provided for the title and description of an object page header, if the header is editable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003060692021"
+                    }
+                ]
+            },
+            {
+                "id": "228c96e6b58b8e211e6231e20b20e7e7e50c5e28",
+                "type": "FEATURE",
+                "text": ": Provides controller extension for message handling"
+            },
+            {
+                "id": "946f6efb0ffae0827262abeb70173b51d4058ec7",
+                "type": "FEATURE",
+                "text": " Provides the implementation for the message macro"
+            },
+            {
+                "id": "faa7ee93fc17553473949cf6b9aa55da3f3e52e0",
+                "type": "FEATURE",
+                "text": " Filtering is now possible on the FilterBar with navigation properties for additional entity sets"
+            },
+            {
+                "id": "761024e23dce3408211f227af96ed0d34036bdc4",
+                "type": "FIX",
+                "text": " Set the focus on the dialog's first erroneous control in case of a bound error message",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170089911"
+                    }
+                ]
+            },
+            {
+                "id": "8877787f7580433b0e1d35d422b56c090a234542",
+                "type": "FIX",
+                "text": " Paginators now use the correct API to fetch contexts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170073941"
+                    }
+                ]
+            },
+            {
+                "id": "5d326b5ac742347e6f3fcad44a805bba15dc85d9",
+                "type": "FIX",
+                "text": " The side content is now closed when a new object page instance is opened",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180132309"
+                    }
+                ]
+            },
+            {
+                "id": "ab206346a75149f2f228d7296726ad918f65521b",
+                "type": "FIX",
+                "text": " Internationalization is now supported by the message strip for multi-entity sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170106739"
+                    }
+                ]
+            },
+            {
+                "id": "9591823e18d21f0221a86b41266f4c279c11479d",
+                "type": "FIX",
+                "text": " The algorithm to determine action visibility has been improved for header and footer actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170109645"
+                    }
+                ]
+            },
+            {
+                "id": "d34e8268999fb58880fb12fc70c8e2ffc0dadca4",
+                "type": "FIX",
+                "text": " Correct handling in case the number of messages in message popover and message model are out of sync",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170040981"
+                    }
+                ]
+            }
+        ]
+    }
+}
