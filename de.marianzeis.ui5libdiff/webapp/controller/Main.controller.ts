@@ -3,9 +3,10 @@ import BaseController from "./BaseController";
 import JSONModel from "sap/ui/model/json/JSONModel";
 
 interface Change {
-	type: string;
-	text: string;
+    type: "FEATURE" | "FIX" | "DEPRECATED";
+    text: string;
 }
+
 
 interface Library {
 	library: string;
@@ -91,15 +92,26 @@ export default class Main extends BaseController {
 	
 	sortChanges(changes: Change[]): Change[] {
 		return changes.sort((a, b) => {
-			if (a.type === 'FEATURE' && b.type !== 'FEATURE') {
+			if (a.type === 'DEPRECATED' && b.type !== 'DEPRECATED') {
+				return -1;
+			} else if (a.type !== 'DEPRECATED' && b.type === 'DEPRECATED') {
+				return 1;
+			} else if (a.type === 'FEATURE' && b.type !== 'FEATURE') {
 				return -1;
 			} else if (a.type !== 'FEATURE' && b.type === 'FEATURE') {
 				return 1;
 			} else {
+				// Check for undefined or null text before comparing
+				if (!a.text || !b.text) {
+					console.warn('Undefined or null text detected:', a, b);
+					return 0; // you can also decide other logic when text is undefined
+				}
 				return a.text.localeCompare(b.text);
 			}
 		});
 	}
+	
+	
 	
 	mergeLibraries(versions: Version[]): Library[] {
 		const libraryMap: Map<string, Change[]> = new Map();
