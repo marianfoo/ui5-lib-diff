@@ -15,7 +15,7 @@
 		</headerTitle>
 
 		<headerContent>
-			<layout:VerticalLayout>
+			<layout:VerticalLayout >
 				<m:Text text="Select your libraries you want to compare"/>
 				<m:Select id="versionFromSelect" items="{select>/}" change="handleVersionChange" forceSelection="false">
 					<core:Item text="{select>value}" key="{select>key}"/>
@@ -23,8 +23,8 @@
 				<m:Select id="versionToSelect" items="{select>/}" change="handleVersionChange" forceSelection="false" >
 					<core:Item text="{select>value}" key="{select>key}"/>
 				</m:Select>
-				<m:Text text="Filter for FIX or FEATURE" />
-				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="600px" selectionChange="handleVersionChange">
+				<m:Text text="Filter for FIX or FEATURE" visible="{= ${device>/system/desktop}}"/>
+				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="600px" selectionChange="handleVersionChange" visible="{= ${device>/system/desktop}}">
 					<m:items>
 						<m:SegmentedButtonItem text="All" key="ALL"/>
 						<m:SegmentedButtonItem text="Only Fixes" key="FIX" />
