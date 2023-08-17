@@ -8,10 +8,19 @@
 		formatter: 'de/marianzeis/ui5libdiff/model/formatter'
 	}">
 
-	<ObjectPageLayout id="ObjectPageLayout" upperCaseAnchorBar="false" sections="{changes>/}">
+	<ObjectPageLayout id="ObjectPageLayout" upperCaseAnchorBar="false" sections="{changes>/}" enableLazyLoading="true" headerContentPinnable="true" toggleHeaderOnTitleClick="true">
 		<headerTitle>
 			<ObjectPageHeader objectTitle="Compare UI5 Versions">
 			</ObjectPageHeader>
+			<ObjectPageDynamicHeaderTitle>
+				<heading>
+					<m:Title text="Compare UI5 Version" />
+				</heading>
+
+				<snappedTitleOnMobile>
+					<m:Title text="Compare UI5 Version"/>
+				</snappedTitleOnMobile>
+			</ObjectPageDynamicHeaderTitle>
 		</headerTitle>
 
 		<headerContent>
@@ -20,7 +29,7 @@
 				<m:Select id="versionFromSelect" items="{path : 'select>/', length:'10000'}" change="handleVersionChange" forceSelection="false">
 					<core:Item text="{select>value}" key="{select>key}"/>
 				</m:Select>
-				<m:Select id="versionToSelect" items="{path : 'select>/', length:'10000'}" change="handleVersionChange" forceSelection="false" >
+				<m:Select id="versionToSelect" items="{path : 'select>/', length:'10000'}" change="handleVersionChange" forceSelection="false">
 					<core:Item text="{select>value}" key="{select>key}"/>
 				</m:Select>
 				<m:Text text="Filter for FIX or FEATURE" visible="{= ${device>/system/desktop}}"/>
@@ -44,18 +53,16 @@
 		</headerContent>
 
 		<sections>
-			<ObjectPageSection titleUppercase="false" title="{changes>library}" >
+			<ObjectPageSection titleUppercase="false" title="{changes>library}">
 				<subSections>
 					<ObjectPageSubSection titleUppercase="false">
-							<m:Panel
-								headerText="{changes>library}"
-								content="{path: 'changes>changes', templateShareable: false, length: '10000'}"
-								expandable="true"
-								expanded="true"
-								class="sapUxAPObjectPageSubSectionAlignContent"
-								width="auto">
-								<m:Text width="100%" text="[{changes>version}] [{changes>type}] {changes>text}"/>
-							</m:Panel>
+						<blocks>
+							<ObjectPageLazyLoader id="Section1stashed">
+								<m:Panel headerText="{changes>library}" content="{path: 'changes>changes', templateShareable: false, length: '10000'}" expandable="true" expanded="true" class="sapUxAPObjectPageSubSectionAlignContent" width="auto">
+									<m:Text width="100%" text="[{changes>version}] [{changes>type}] {changes>text}"/>
+								</m:Panel>
+							</ObjectPageLazyLoader>
+						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
 			</ObjectPageSection>
