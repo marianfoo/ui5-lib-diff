@@ -18,12 +18,7 @@
                 "id": "42f3ccac438b4acad032d7158658ce1c5ce1aa63",
                 "type": "FIX",
                 "text": "AppCacheBusterFilter: prevent access of hidden servlet paths",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1570894487"
-                    }
-                ]
+                "references": []
             },
             {
                 "id": "776ce58d5812cc29aef2c1873417058b14e5eca2",
@@ -62,12 +57,40 @@
                 "id": "1ed02a0b490d8ded2e7b7307e85ee53f4252c82e",
                 "type": "FIX",
                 "text": "MultiVersionFilter: add 304 support for versioned resources",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "002075129400001579232016"
-                    }
-                ]
+                "references": []
+            }
+        ]
+    },
+    "1.38.5": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "de048ec433eeca41eb137b1202ae0c94dae76d03",
+                "type": "FIX",
+                "text": "Infra/merge: option to avoid UTF8 when embedding *.properties",
+                "references": []
+            }
+        ]
+    },
+    "1.38.12": {
+        "date": "December 2016",
+        "notes": [
+            {
+                "id": "d32d729a1d1db7238c2b689a98ae986baf8f4da1",
+                "type": "FIX",
+                "text": " ResourceServlet: support proper mime type for source maps",
+                "references": []
+            }
+        ]
+    },
+    "1.38.32": {
+        "date": "January 2018",
+        "notes": [
+            {
+                "id": "79d79ff56d6ef5e1a667a317c221eee3faa3fc82",
+                "type": "FIX",
+                "text": " AppCacheBusterFilter: avoid NPE for empty folders",
+                "references": []
             }
         ]
     }

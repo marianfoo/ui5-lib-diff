@@ -448,5 +448,102 @@
                 ]
             }
         ]
+    },
+    "1.108.8": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "31071a26e46a9e03f852d5aa97455092038f45f0",
+                "type": "FIX",
+                "text": " We now ensure a list report with multiple views and a control variant is displayed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000961772023"
+                    }
+                ]
+            },
+            {
+                "id": "cf626d777f73835cf93630cb384b5b209c549edc",
+                "type": "FIX",
+                "text": " We now loop through all the filter conditions and then clear them instead of clearing only a single condition",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000963702023"
+                    }
+                ]
+            },
+            {
+                "id": "d13bddb15ca04667ac7e4c08efe69faf9a326f0b",
+                "type": "FIX",
+                "text": " We now support filtering on tables that have multi-level navigation properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280175163"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.9": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "3f0f8937ea7b8577b0ff1e9063c30e5b8a78283f",
+                "type": "FIX",
+                "text": " We’ve resolved the issue related to the appearance of i18n keys in the filter summary of the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370020121"
+                    }
+                ]
+            },
+            {
+                "id": "41c2de51a43b3f4d3aed5a21481870ec93121f4b",
+                "type": "FIX",
+                "text": " We've resolved an issue regarding the 'Related Apps' button not appearing even after setting showRelatedApps to 'true'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380034835"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.10": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "1ae6eb6f62f4080b60a667e713cc969f3ddccd9a",
+                "type": "FIX",
+                "text": " We now correctly display a visible table in an object page that has multiple sections",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370006873"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.11": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "fe8419499bec9232f53844c976e553929fafee81",
+                "type": "FIX",
+                "text": " We've now disabled the variant management by default at the control level on the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            }
+        ]
     }
 }

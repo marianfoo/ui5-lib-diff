@@ -915,5 +915,149 @@
                 ]
             }
         ]
+    },
+    "1.102.10": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "30118f28d873a0ea34702a3b9d031e1e72d0dc57",
+                "type": "FIX",
+                "text": " SmartField: Restoring selectionChange parameter on change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005722492022"
+                    }
+                ]
+            },
+            {
+                "id": "d5279bc26ac19ede467d345189398f9c4cc3482d",
+                "type": "FIX",
+                "text": " SmartChart: Disable showAsUTC for sap.chart.Chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270142498"
+                    }
+                ]
+            },
+            {
+                "id": "0aa391bcf053640c6e9b283dc73b359ffe7dd35b",
+                "type": "FIX",
+                "text": " SmartField with ComboBox value params now correctly passed on change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005722492022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.11": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "6283b28035752e2ca6ebbc214508a3b7e9ab59e3",
+                "type": "FIX",
+                "text": " Personalization: Fiscal dates can now be stored in SmartVariants",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007271802022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.12": {
+        "date": "December 2022",
+        "notes": [
+            {
+                "id": "67f59945de05b4959d29fdacacddbf943d8d05bf",
+                "type": "FIX",
+                "text": " SmartMultiEdit: Reverting recent commits due to failures in OPA test",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270186125"
+                    }
+                ]
+            },
+            {
+                "id": "ff27bb75d2022f5edd435cf24af280a5c548ae42",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct validation for single filter fields when maxLength is exceeded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270042400"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.13": {
+        "date": "January 2023",
+        "notes": [
+            {
+                "id": "13bbf16c3cae21a785fd4dd291d3757665f04f4b",
+                "type": "FIX",
+                "text": " SmartMultiEdit: Fallback to key when text path not present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280161638"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.14": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "0fa9d7d7e3ba144de848b25834589195fafb6be6",
+                "type": "FIX",
+                "text": " FilterProvider: Do not set value to empty string",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009451472022"
+                    }
+                ]
+            },
+            {
+                "id": "63cc1f195f44f38d31f46c66c4e15fdb093f029d",
+                "type": "FIX",
+                "text": " SmartFilterBar: Typing is now allowed for interval string fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009370362022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.15": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "4c9eaccb1f8eb7fff000ed8af142d1a6b6dec22f",
+                "type": "FIX",
+                "text": " SmartField: changeModelValue is no longer fired twice for same value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000343552023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000312992023"
+                    }
+                ]
+            }
+        ]
     }
 }

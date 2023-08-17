@@ -1,0 +1,702 @@
+{
+    "1.44.0": {
+        "date": "February 2017",
+        "notes": [
+            {
+                "id": "043aab5afb1b9425caece6b1806fd7a04189ac5f",
+                "type": "FEATURE",
+                "text": "Stepwise zoom strategy.",
+                "references": []
+            },
+            {
+                "id": "c80b8fbc75296c10d9a4a93eea314c43f52ef517",
+                "type": "FEATURE",
+                "text": "sap.gantt: Belize Theme",
+                "references": []
+            },
+            {
+                "id": "b6573e8693cea137127ea6cd63daaa788bcaaab1",
+                "type": "FIX",
+                "text": "Multiple shapes per row are supported for OData binding.",
+                "references": []
+            },
+            {
+                "id": "5ba4aa9c30f51c2c70d346c59a8a215989e9428e",
+                "type": "FIX",
+                "text": "visible horizon can't sync issue is fixed",
+                "references": []
+            },
+            {
+                "id": "532d9410e6dd7eaf0848e221a840e72080e56cc3",
+                "type": "FIX",
+                "text": "Time line can't sync issue fixed when new gantt added",
+                "references": []
+            },
+            {
+                "id": "1fc0f2a80acdc0459187a4ea4955dd5e7f1ef924",
+                "type": "FIX",
+                "text": "multi-line tooltip of shapes display correctly in IE",
+                "references": []
+            },
+            {
+                "id": "53563a62dddf8df7cf810b02a54cb17568c26171",
+                "type": "FIX",
+                "text": "Time line interval issue in DST mode fixed",
+                "references": []
+            },
+            {
+                "id": "9def70ad3f1b7537b0c14ffc6a894b1201c4aac8",
+                "type": "FIX",
+                "text": "Gantt Chart not update when move splitter issue fixed",
+                "references": []
+            },
+            {
+                "id": "eb3a2c759fac39c8abcb9b1fd1a4ca01c57c6c6b",
+                "type": "FIX",
+                "text": "Horizontal scroll bar limitation in IE fixed"
+            },
+            {
+                "id": "0466f154ae54423c33ba238cc5fe6b0af39f9cfd",
+                "type": "FIX",
+                "text": "Row selection fix after creating tasks",
+                "references": []
+            },
+            {
+                "id": "c567993e0c43aac3226d618acd289786710432c9",
+                "type": "FIX",
+                "text": "None Grouped shape drag & drop is supported",
+                "references": []
+            },
+            {
+                "id": "1eea68eba895c597b1bc38c37ce6f3f80ab48e71",
+                "type": "FIX",
+                "text": "Expanded status can not be kept issue after drag and drop fixed",
+                "references": []
+            },
+            {
+                "id": "68e03def96376453acc47aed663e053bcd86e82a",
+                "type": "FIX",
+                "text": "The width of rectangle is correct now.",
+                "references": []
+            },
+            {
+                "id": "f9c624c08d4560ede3325b57063eb018610b87fb",
+                "type": "FIX",
+                "text": "Legend popup cannot display when the Legend button is in overflow",
+                "references": []
+            },
+            {
+                "id": "fd9b2fb37aad46b2d3f1121b37e8adf59e1ab654",
+                "type": "FIX",
+                "text": "Multiple shapes per row are supported for OData binding.",
+                "references": []
+            },
+            {
+                "id": "faab518c347636baec1bc3c6221f74e10973d7db",
+                "type": "FIX",
+                "text": "Drag and drop feature works now in a testpage",
+                "references": []
+            },
+            {
+                "id": "1758f0143bfee18d2dd2298b02a08e3e6596ed1d",
+                "type": "FIX",
+                "text": "Image icon can render properly now",
+                "references": []
+            },
+            {
+                "id": "04c00e8280e6d39724c36b5eb1306e8247148ec0",
+                "type": "FIX",
+                "text": "missing ganttchart horizonal scrollbar in Safari get fixed",
+                "references": []
+            },
+            {
+                "id": "2a01497815095912c78f03ba2cd00d5aaa01eeda",
+                "type": "FIX",
+                "text": "Horizontal scroll issue in RTL on Firefox fixed",
+                "references": []
+            },
+            {
+                "id": "87e344429b58061e884bc6a265c130bc71b50884",
+                "type": "FIX",
+                "text": "Selected shapes highlighted correctly in 'belize' theme",
+                "references": []
+            },
+            {
+                "id": "291edbb529a3bdac7920a90de2ed2410099327cd",
+                "type": "FIX",
+                "text": "Drag & Drop Shape out of document works now",
+                "references": []
+            },
+            {
+                "id": "43046bdc4ba36535849fcf2eadc2ac8050a70f3b",
+                "type": "FIX",
+                "text": "Change format of labels in axisTime large interval",
+                "references": []
+            },
+            {
+                "id": "a0d7964f644fb96807c34dc610be0d6ef5ead3ee",
+                "type": "FIX",
+                "text": "Adjust row height of first view correctly",
+                "references": []
+            },
+            {
+                "id": "9a0683e9a6b621fab4a0672cc8ac8eb5b34962e9",
+                "type": "FIX",
+                "text": "use timestamp in shapeDragEnd parameter",
+                "references": []
+            },
+            {
+                "id": "65f8374864e4b9144154aa7a3f63fb3cfc849b6b",
+                "type": "FIX",
+                "text": "Extend valid range when checking mouse position",
+                "references": []
+            }
+        ]
+    },
+    "1.44.1": {
+        "date": "February 2017",
+        "notes": [
+            {
+                "id": "43046bdc4ba36535849fcf2eadc2ac8050a70f3b",
+                "type": "FIX",
+                "text": "Change format of labels in axisTime large interval and update qunit",
+                "references": []
+            },
+            {
+                "id": "a0d7964f644fb96807c34dc610be0d6ef5ead3ee",
+                "type": "FIX",
+                "text": "Adjust row height of first view to be normal",
+                "references": []
+            },
+            {
+                "id": "c1df29d10c01795e042768766486b1ba8351b19c",
+                "type": "FIX",
+                "text": "Chevron is now correctly displayed in RTL mode",
+                "references": []
+            },
+            {
+                "id": "65f8374864e4b9144154aa7a3f63fb3cfc849b6b",
+                "type": "FIX",
+                "text": "Extend valid range when checking mouse position",
+                "references": []
+            }
+        ]
+    },
+    "1.44.2": {
+        "date": "February 2017",
+        "notes": [
+            {
+                "id": "05fd34bb775a63892b5c33a49fd692fae7534c9e",
+                "type": "FIX",
+                "text": "Explored page missing 'data.json' issue fixed",
+                "references": []
+            },
+            {
+                "id": "2a01497815095912c78f03ba2cd00d5aaa01eeda",
+                "type": "FIX",
+                "text": "Horizontal scroll issue in RTL on Firefox fixed",
+                "references": []
+            },
+            {
+                "id": "87e344429b58061e884bc6a265c130bc71b50884",
+                "type": "FIX",
+                "text": "message 1670513039, selected shapes highlighted correctly in 'belize' theme",
+                "references": []
+            },
+            {
+                "id": "291edbb529a3bdac7920a90de2ed2410099327cd",
+                "type": "FIX",
+                "text": "Drag & Drop Shape out of document works now",
+                "references": []
+            }
+        ]
+    },
+    "1.44.3": {
+        "date": "February 2017",
+        "notes": [
+            {
+                "id": "faab518c347636baec1bc3c6221f74e10973d7db",
+                "type": "FIX",
+                "text": "Drag and drop feature works now in a testpage",
+                "references": []
+            },
+            {
+                "id": "260943b19e141ee98f7dac1027e5d52c7f27e8a3",
+                "type": "FIX",
+                "text": "replacing meaningless labels in test data",
+                "references": []
+            },
+            {
+                "id": "04c00e8280e6d39724c36b5eb1306e8247148ec0",
+                "type": "FIX",
+                "text": "missing ganttchart horizonal scrollbar in Safari get fixed",
+                "references": []
+            },
+            {
+                "id": "2784cfa2f4219a2afe2aeaf7a66de68f9f577a74",
+                "type": "FIX",
+                "text": "Vertical line render correctly now",
+                "references": []
+            },
+            {
+                "id": "b1dbc9c570f27d2108aedc0d616ad3d0dbebf733",
+                "type": "FIX",
+                "text": "replace meaningless labels on testpage",
+                "references": []
+            }
+        ]
+    },
+    "1.44.4": {
+        "date": "February 2017",
+        "notes": [
+            {
+                "id": "5871f21cc55a21d41ea7333e0bb68860c859a39b",
+                "type": "FIX",
+                "text": "Draw extra row when reaching visible boundary",
+                "references": []
+            },
+            {
+                "id": "53563a62dddf8df7cf810b02a54cb17568c26171",
+                "type": "FIX",
+                "text": "Time line interval issue in DST mode fixed",
+                "references": []
+            },
+            {
+                "id": "9def70ad3f1b7537b0c14ffc6a894b1201c4aac8",
+                "type": "FIX",
+                "text": "Gantt Chart not update when move splitter issue fixed",
+                "references": []
+            },
+            {
+                "id": "c00138d00ef92322df6b44cf883880e2813d6326",
+                "type": "FIX",
+                "text": "Update zoom in/out button tooltip to Zoom In/Out on Timeline",
+                "references": []
+            },
+            {
+                "id": "eb3a2c759fac39c8abcb9b1fd1a4ca01c57c6c6b",
+                "type": "FIX",
+                "text": "Horizontal scroll bar limitation in IE fixed",
+                "references": []
+            },
+            {
+                "id": "f78459e886a4e012b8333c2b3354e0a92c8115cd",
+                "type": "FIX",
+                "text": "Test page drag and drop event message enhancement",
+                "references": []
+            },
+            {
+                "id": "043aab5afb1b9425caece6b1806fd7a04189ac5f",
+                "type": "FEATURE",
+                "text": "Stepwise zoom strategy.",
+                "references": []
+            },
+            {
+                "id": "e6ee90d339d5f1dafd0eb1ba5dd661352ec3de3d",
+                "type": "FIX",
+                "text": "Reference path error on LocalExplored.html",
+                "references": []
+            },
+            {
+                "id": "2bde9e03e0365af66c8ddc2295890cf71d212a71",
+                "type": "FIX",
+                "text": "Clean code for workaround of table resize no longer necessary",
+                "references": []
+            },
+            {
+                "id": "1eea68eba895c597b1bc38c37ce6f3f80ab48e71",
+                "type": "FIX",
+                "text": "Expanded status can not be kept issue after drag and drop fixed",
+                "references": []
+            },
+            {
+                "id": "68e03def96376453acc47aed663e053bcd86e82a",
+                "type": "FIX",
+                "text": "The width of rectangle is correct now.",
+                "references": []
+            },
+            {
+                "id": "6a2e1df36ca30df11e5dc6adf7d3325df8f0a5c3",
+                "type": "FIX",
+                "text": "themelib_sap_belize remove pom warning",
+                "references": []
+            },
+            {
+                "id": "121500253d8fe2eb00b61f19f8792f5a4107c9b8",
+                "type": "FIX",
+                "text": "Change vertical scroll event handler binding",
+                "references": []
+            },
+            {
+                "id": "f9c624c08d4560ede3325b57063eb018610b87fb",
+                "type": "FIX",
+                "text": "Legend popup cannot display when the Legend button is in overflow",
+                "references": []
+            },
+            {
+                "id": "fd9b2fb37aad46b2d3f1121b37e8adf59e1ab654",
+                "type": "FIX",
+                "text": "Multiple shapes per row are supported for OData binding.",
+                "references": []
+            }
+        ]
+    },
+    "1.44.5": {
+        "date": "February 2017",
+        "notes": [
+            {
+                "id": "b6573e8693cea137127ea6cd63daaa788bcaaab1",
+                "type": "FIX",
+                "text": "Multiple shapes per row are supported for OData binding.",
+                "references": []
+            },
+            {
+                "id": "5ba4aa9c30f51c2c70d346c59a8a215989e9428e",
+                "type": "FIX",
+                "text": "visible horizon can't sync when disable time horizon sync fixed",
+                "references": []
+            },
+            {
+                "id": "532d9410e6dd7eaf0848e221a840e72080e56cc3",
+                "type": "FIX",
+                "text": "After add a new gantt chart, time line can't sync issue fixed",
+                "references": []
+            },
+            {
+                "id": "1fc0f2a80acdc0459187a4ea4955dd5e7f1ef924",
+                "type": "FIX",
+                "text": "multi-line tooltip of shapes display correctly in IE",
+                "references": []
+            }
+        ]
+    },
+    "1.44.6": {
+        "date": "February 2017",
+        "notes": [
+            {
+                "id": "8e8a7afa0b6e24af6bbc431f6675e1ea2b360cff",
+                "type": "FIX",
+                "text": "The issue of content not displayed in RTL mode in Safari fixed",
+                "references": []
+            },
+            {
+                "id": "625627f23452c7b0eb6d5b864aee2bbb891c7955",
+                "type": "FIX",
+                "text": "Sync time scroll can work correctly when click jump to current time",
+                "references": []
+            }
+        ]
+    },
+    "1.44.7": {
+        "date": "February 2017",
+        "notes": [
+            {
+                "id": "62366751647be20749927277dc07d6124b8a4d70",
+                "type": "FIX",
+                "text": "Active mode of layout can work well",
+                "references": []
+            },
+            {
+                "id": "0898d4b49a4fc4236212ce7efa627a60bd9fed8c",
+                "type": "FIX",
+                "text": "Shape Selection issue got fixed when model get refreshed",
+                "references": []
+            },
+            {
+                "id": "bf2e41187c7ea1876f5a4a48acc3d554adb3b00b",
+                "type": "FIX",
+                "text": "Correct row height while resize splitter bar and initial loading",
+                "references": []
+            }
+        ]
+    },
+    "1.44.8": {
+        "date": "March 2017",
+        "notes": [
+            {
+                "id": "7a54b9815e88f3b315680336542defc50847de61",
+                "type": "FIX",
+                "text": "Text overlap in header issue fixed",
+                "references": []
+            },
+            {
+                "id": "7d8465f6801e217715356db4f9f53e349d7280f8",
+                "type": "FEATURE",
+                "text": "Add additional vertical lines",
+                "references": []
+            },
+            {
+                "id": "d5d8f7ac04afc137319c090e394d6f2f3aa5c090",
+                "type": "FIX",
+                "text": "Make Dimension legend as public API",
+                "references": []
+            }
+        ]
+    },
+    "1.44.9": {
+        "date": "April 2017",
+        "notes": [
+            {
+                "id": "67ed707839384ed2d552d1e2b88577fe2d522360",
+                "type": "FIX",
+                "text": "Update parameters of filterValidData method",
+                "references": []
+            },
+            {
+                "id": "84b97a65da888f8ff4ce927db2161f1c8d053dd9",
+                "type": "FIX",
+                "text": "check the namespace before using it",
+                "references": []
+            },
+            {
+                "id": "9ebafae3e1119d1df8b7dde1e76982116191a8e3",
+                "type": "FIX",
+                "text": "Adjusted the format/pattern not aligned issue in demokit.",
+                "references": []
+            },
+            {
+                "id": "9aeaefbfcbb10ae30ee0dacebe03b880bd2abfef",
+                "type": "FIX",
+                "text": "Load library for public control",
+                "references": []
+            }
+        ]
+    },
+    "1.44.10": {
+        "date": "May 2017",
+        "notes": [
+            {
+                "id": "2d9d6e14bc3a1c1371cf31e5b18a08083f3ab8c5",
+                "type": "FIX",
+                "text": "Broken Legend layout on IE in RTL is fixed.",
+                "references": []
+            },
+            {
+                "id": "425f02fcd68ab7a35722bfe67b09964231b0fe08",
+                "type": "FIX",
+                "text": "Aggregated shape with specific shapedataname selection issue fixed",
+                "references": []
+            },
+            {
+                "id": "e4b5f937f7b00e5cac7b72d4a513489b3e497814",
+                "type": "FIX",
+                "text": "Selected data can Only be drawn by selectable shape instance.",
+                "references": []
+            },
+            {
+                "id": "8798c531597dbcdcb5e519c78c5e255dc8243f5d",
+                "type": "FIX",
+                "text": "Vertical splitter sync issue solved",
+                "references": []
+            }
+        ]
+    },
+    "1.44.11": {
+        "date": "May 2017",
+        "notes": []
+    },
+    "1.44.12": {
+        "date": "June 2017",
+        "notes": [
+            {
+                "id": "9ee6c959871c90791051eb3fa30b53794107aa3d",
+                "type": "FIX",
+                "text": "white text in HCB mode",
+                "references": []
+            },
+            {
+                "id": "0617e4a52b56b89a9d49e1a01a3d7fbe56e855c6",
+                "type": "FIX",
+                "text": "Background color can't be applied a CSS iss fixed",
+                "references": []
+            },
+            {
+                "id": "da65a75ad321f740b207ff91abbec4e4364e67db",
+                "type": "FIX",
+                "text": "Enable cross view dnd in the boundary of a view",
+                "references": []
+            },
+            {
+                "id": "d9cf7739de47ad54627091ae5983bc09522afce9",
+                "type": "FIX",
+                "text": "calendar week wrong issue fixed",
+                "references": []
+            },
+            {
+                "id": "dbd8f51a5fea7d5c44fa0f6c65fa6c4f84b2a9ef",
+                "type": "FIX",
+                "text": "ULC UBC row heights corrected",
+                "references": []
+            }
+        ]
+    },
+    "1.44.13": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "f81a6af3f118a4a10cf6f4f03270756252058bde",
+                "type": "FIX",
+                "text": "Gantt Chart Size take effect.",
+                "references": []
+            }
+        ]
+    },
+    "1.44.14": {
+        "date": "August 2017",
+        "notes": [
+            {
+                "id": "9f895dc661b435705d0ca60f85c0842ec2f1d491",
+                "type": "FIX",
+                "text": "Apply sap.ui.core-byId function issue for AxisTimeStrategy fixed",
+                "references": []
+            },
+            {
+                "id": "dcf76d867d23124e3fae6700a8e9f5a20e834038",
+                "type": "FIX",
+                "text": "JumpToPosition can't handle undefined value issue fixed",
+                "references": []
+            }
+        ]
+    },
+    "1.44.15": {
+        "date": "September 2017",
+        "notes": [
+            {
+                "id": "652f5d90aa3c4597fd74383ecee58b5c81c0fe96",
+                "type": "FIX",
+                "text": "setTimeZoomRate function incompatibility problem fixed",
+                "references": []
+            }
+        ]
+    },
+    "1.44.16": {
+        "date": "October 2017",
+        "notes": [
+            {
+                "id": "c2a739ef033cb18f95a46745e4d2ed96e00620c5",
+                "type": "FIX",
+                "text": "Click add/remove gantt only trigger one change event",
+                "references": []
+            }
+        ]
+    },
+    "1.44.17": {
+        "date": "November 2017",
+        "notes": [
+            {
+                "id": "b1f33cbf66d15b8fd9eb8dab2b4da108f7cb4a94",
+                "type": "FIX",
+                "text": "Custom tool bar related issue fixed",
+                "references": []
+            }
+        ]
+    },
+    "1.44.18": {
+        "date": "December 2017",
+        "notes": [
+            {
+                "id": "ff68d0264247e99d9bf76fa16b97b137be46a599",
+                "type": "FIX",
+                "text": "Clear selection after add a ganttchart",
+                "references": []
+            },
+            {
+                "id": "9be7ca7824bbeedcf7536dc4e30e09a896c7b554",
+                "type": "FIX",
+                "text": "calendar error in different languages",
+                "references": []
+            }
+        ]
+    },
+    "1.44.19": {
+        "date": "January 2018",
+        "notes": [
+            {
+                "id": "335192163620c250fa59e3a736a64c0574354ccc",
+                "type": "FIX",
+                "text": "TimeLineOption initialization error",
+                "references": []
+            },
+            {
+                "id": "196bb8ed545b5ef2f72bccb25ad96eb049915c89",
+                "type": "FIX",
+                "text": "StepwiseZoomStrategy total horizon error",
+                "references": []
+            }
+        ]
+    },
+    "1.44.20": {
+        "date": "February 2018",
+        "notes": [
+            {
+                "id": "3ba497ee40bc74553972286eea70028cb644ed16",
+                "type": "FIX",
+                "text": "StepwiseZoomStrategy HSB optimized",
+                "references": []
+            },
+            {
+                "id": "5a7b28ab80caaf1df1e3a9110bc8da141649ac6d",
+                "type": "FEATURE",
+                "text": "Add tooltip for small interval",
+                "references": []
+            }
+        ]
+    },
+    "1.44.21": {
+        "date": "April 2018",
+        "notes": [
+            {
+                "id": "0772f9c6bd08aca59175addbc1711a535f3e317f",
+                "type": "FEATURE",
+                "text": "Tooltip for gantt orientation button",
+                "references": []
+            },
+            {
+                "id": "dcb58c06604aa0a60f327c31df255066a532457a",
+                "type": "FIX",
+                "text": "Fix use sap.ui.table's deprecated symbols",
+                "references": []
+            },
+            {
+                "id": "50ec5e0796e17fcd5a2d396a5bc4b906c79004d7",
+                "type": "FIX",
+                "text": "LastVisibleRow index corrected",
+                "references": []
+            },
+            {
+                "id": "5f1c9361d4d7fcbfd4909fcc2d8781602416381c",
+                "type": "FIX",
+                "text": "Wrong zooming behavior corrected",
+                "references": []
+            }
+        ]
+    },
+    "1.44.22": {
+        "date": "May 2018",
+        "notes": [
+            {
+                "id": "1e54af0d4a4fc306be0b3431732b606faa162305",
+                "type": "FIX",
+                "text": "Always 2 calls when clicking",
+                "references": []
+            }
+        ]
+    },
+    "1.44.23": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "9ac31790bc43bdebc260ff6393afe8c1732f0c5a",
+                "type": "FIX",
+                "text": "getSelectedRows rowindex error fixed",
+                "references": []
+            },
+            {
+                "id": "4c94d80765f510e37c0946c532b693f9e38e9a24",
+                "type": "FIX",
+                "text": "getSelectedRows performance issue",
+                "references": []
+            }
+        ]
+    }
+}

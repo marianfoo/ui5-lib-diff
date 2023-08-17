@@ -454,5 +454,75 @@
                 ]
             }
         ]
+    },
+    "1.102.11": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "1305fee19c82e86b221acc08caae5530914c5217",
+                "type": "FIX",
+                "text": " sap.ui.core.format.DateFormat: introduce calendarWeekNumbering format option",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007627612021"
+                    }
+                ]
+            },
+            {
+                "id": "ab60b5b43a54112564c6049c27b1efcb388b9e16",
+                "type": "FIX",
+                "text": " sap.ui.model.analytics.AnalyticalTreeBindingAdapter: avoid loading data if not needed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270125832"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.12": {
+        "date": "December 2022",
+        "notes": [
+            {
+                "id": "05969a47f85eac4a16f4cd926fea59f8e2f18829",
+                "type": "FIX",
+                "text": " ManagedObjectObserver: performance optimization for destroy",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008610112022"
+                    }
+                ]
+            },
+            {
+                "id": "b81f38ca3c976c794ffc7aa0d2060ca0a82cf223",
+                "type": "FIX",
+                "text": " sap.ui.core.date.Japanese: calendar week",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270172759"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.14": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "a9da908192c3d08e5f2be5c162ff9e4e64ed0031",
+                "type": "FIX",
+                "text": " core/qunit/util/Popup.qunit: stabilize test of client rect",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380014962"
+                    }
+                ]
+            }
+        ]
     }
 }

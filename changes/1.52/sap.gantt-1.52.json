@@ -123,5 +123,253 @@
                 "references": []
             }
         ]
+    },
+    "1.52.1": {
+        "date": "November 8, 2017",
+        "notes": [
+            {
+                "id": "Icfe5146640f1db291f491bb4e9951d4b148a1d63",
+                "type": "FIX",
+                "text": "Header height when no sapUiSize is set should be the same as sapUiSizeCozy",
+                "references": []
+            }
+        ]
+    },
+    "1.52.2": {
+        "date": "November 22, 2017",
+        "notes": [
+            {
+                "id": "73f28127df12c5241101c1c640530ea0352d9999",
+                "type": "FIX",
+                "text": "Disable or enable expand tree button based on row selection",
+                "references": []
+            }
+        ]
+    },
+    "1.52.3": {
+        "date": "December 19, 2017",
+        "notes": [
+            {
+                "id": "I18e0fbaa2b5b137c4d25b080c55da73a41413093",
+                "type": "FIX",
+                "text": "calendar error in different languages",
+                "references": []
+            },
+            {
+                "id": "I25774f3cf422431aca28e98ee8f2f7201a192856",
+                "type": "FIX",
+                "text": "Clear selection after add a ganttchart",
+                "references": []
+            }
+        ]
+    },
+    "1.52.4": {
+        "date": "January 16, 2018",
+        "notes": [
+            {
+                "id": "Ia158d9239db8e927541a5fa2154d05643e6dcf3c",
+                "type": "FIX",
+                "text": "StepwiseZoomStrategy total horizon error",
+                "references": []
+            },
+            {
+                "id": "I365e9fb56f1f084ba4279646faa1ac1acc2b768b",
+                "type": "FIX",
+                "text": "Fix for setTableProperties function",
+                "references": []
+            },
+            {
+                "id": "I0ecd203ec2a989c97fb1b400417fbc5b4b56cc2f",
+                "type": "FIX",
+                "text": "TimeLineOption initialization error",
+                "references": []
+            },
+            {
+                "id": "I00cad4e0aa9a53e6e1a0782e009b9de4a71f9b08",
+                "type": "FIX",
+                "text": "StepwiseStrategy test page issue when change calendar type.",
+                "references": []
+            }
+        ]
+    },
+    "1.52.5": {
+        "date": "January 30, 2018",
+        "notes": [
+            {
+                "id": "9c7019d8d342c4d396f6433a9ff69d3f7a03f77b",
+                "type": "FIX",
+                "text": "Stepwise Zoom Strategy fixed",
+                "references": []
+            },
+            {
+                "id": "bf668f0841eaa119127057d125e07d3f1341b437",
+                "type": "FIX",
+                "text": "Adhoc line text now showing correctly",
+                "references": []
+            },
+            {
+                "id": "5ffa8028cad5259e487af0420dad87ab75a64823",
+                "type": "FEATURE",
+                "text": "Add tooltip for small interval",
+                "references": []
+            }
+        ]
+    },
+    "1.52.6": {
+        "date": "March 16, 2018",
+        "notes": [
+            {
+                "id": "2dd33ba5c0dcecc741f839df8616aff3c1fb6b92",
+                "type": "FIX",
+                "text": "Condensed content density does not work",
+                "references": []
+            },
+            {
+                "id": "c938248f16fc210475d8e59b064f6ebbfa8d459f",
+                "type": "FIX",
+                "text": "LastVisibleRow index corrected",
+                "references": []
+            },
+            {
+                "id": "81562064caddfcc2298b7fcfe96de02d357523d9",
+                "type": "FIX",
+                "text": "Set first column fixed",
+                "references": []
+            }
+        ]
+    },
+    "1.52.7": {
+        "date": "April 3, 2018",
+        "notes": [
+            {
+                "id": "c02c0889dd5277667f570904175f13262f8e1604",
+                "type": "FEATURE",
+                "text": "Tooltip for gantt orientation button",
+                "references": []
+            }
+        ]
+    },
+    "1.52.8": {
+        "date": "May 21, 2018",
+        "notes": [
+            {
+                "id": "dc3b8bace50b8683c0145415b910cb0c73739b34",
+                "type": "FIX",
+                "text": "Always 2 calls when clicking",
+                "references": []
+            },
+            {
+                "id": "ee66c910ddc9065441bc49a6d213d73f97204653",
+                "type": "FIX",
+                "text": "Shape Time Display is not w.r.t Locale.",
+                "references": []
+            }
+        ]
+    },
+    "1.52.9": {
+        "date": "June 7, 2018",
+        "notes": [
+            {
+                "id": "d12b60c9ab9ab8c07e914c3fae6a485cd66adb9f",
+                "type": "FEATURE",
+                "text": "Disable Quick View when d&d",
+                "references": []
+            },
+            {
+                "id": "0a1aefaf1e1b05c22c16f102d4735a005ccb3abe",
+                "type": "FIX",
+                "text": "Svg mouse leave case for quick view added.",
+                "references": []
+            }
+        ]
+    },
+    "1.52.10": {
+        "date": "June 19, 2018",
+        "notes": [
+            {
+                "id": "3c9fe689885c0380863f4884c0f67de4f1a91cbb",
+                "type": "FIX",
+                "text": "Fix _handleSelectionChange function",
+                "references": []
+            }
+        ]
+    },
+    "1.52.11": {
+        "date": "July 16, 2018",
+        "notes": [
+            {
+                "id": "e63bfc007c8259bcfd5e35cc525812fe8317bf6b",
+                "type": "FIX",
+                "text": "Fix auto scrolling issue when operating time period zoom",
+                "references": []
+            },
+            {
+                "id": "ba57537bf16f83b5fdea0a164df43e01162c5ef7",
+                "type": "FIX",
+                "text": "Rectangle zoom keyboard event fired",
+                "references": []
+            }
+        ]
+    },
+    "1.52.12": {
+        "date": "July 16, 2018",
+        "notes": [
+            {
+                "id": "de419332d8136ffba6366d3db0ead952153e4560",
+                "type": "FIX",
+                "text": "Undefined sClassId fixed.",
+                "references": []
+            }
+        ]
+    },
+    "1.52.13": {
+        "date": "August 7, 2018",
+        "notes": [
+            {
+                "id": "f0f82e785d075c95d7d17e52b985e23ccaae0fad",
+                "type": "FIX",
+                "text": "getSelectedRows rowindex error fixed",
+                "references": []
+            },
+            {
+                "id": "2f7f979a10dc606a4d638dc3758ff4fca09a25de",
+                "type": "FIX",
+                "text": "getSelectedRows performance issue",
+                "references": []
+            }
+        ]
+    },
+    "1.52.14": {
+        "date": "October 8, 2018",
+        "notes": [
+            {
+                "id": "2bb306465534874c812b3a6ee4451a9239437832",
+                "type": "FIX",
+                "text": "Gantt selected rows filtering for UT Bar",
+                "references": []
+            }
+        ]
+    },
+    "1.52.15": {
+        "date": "October 30, 2018",
+        "notes": [
+            {
+                "id": "f7feeb105d02eb7f99481e49e7ce188676126320",
+                "type": "FIX",
+                "text": "Text in chart area displayed",
+                "references": []
+            }
+        ]
+    },
+    "1.52.16": {
+        "date": "December 18, 2018",
+        "notes": [
+            {
+                "id": "b3579295b5e3b5ed847ef83aebd5afe5c105ea05",
+                "text": "fix issue about show legend need twice click on Gantt1.0",
+                "type": "FIX",
+                "references": []
+            }
+        ]
     }
 }

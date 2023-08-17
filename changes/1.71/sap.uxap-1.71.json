@@ -23,6 +23,301 @@
                         "reference": "1980336508"
                     }
                 ]
+            },
+            {
+                "id": "dc46258a8937665ae512fdab79550d6ff5b03bcb",
+                "type": "FIX",
+                "text": " REG: Adapt UI ObjectPageLayout exception is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980328772"
+                    }
+                ]
+            },
+            {
+                "id": "12da1543908689e75266015a727889216e2a7637",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageHeader: Prevent redundant calculations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980336508"
+                    }
+                ]
+            },
+            {
+                "id": "7f331306ee78abcf353d814bf171d0607134022f",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Ensured correct scroll position",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980365632"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.2": {
+        "date": "October 2019",
+        "notes": [
+            {
+                "id": "a90cd96234a676a135b5f60f145e5799add9693f",
+                "type": "FIX",
+                "text": " sap.uxap.BlockBase: Added viewInit event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "410797"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.3": {
+        "date": "October 2019",
+        "notes": [
+            {
+                "id": "4fa283cb178d132ce9658c1f83a45b48a3867e7d",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Prevented iOS scroll issue on overflow change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005875712019"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.4": {
+        "date": "November 2019",
+        "notes": [
+            {
+                "id": "e663547355ca95c435a1d79708614650f3665a9c",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Corrected scroll issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970407479"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.8": {
+        "date": "December 2019",
+        "notes": [
+            {
+                "id": "addfb77dcb74e98061cc52e9ef82fa5eed07c734",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Update cache on content-resize",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980361124"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.12": {
+        "date": "March 2020",
+        "notes": [
+            {
+                "id": "51811ee2616460aaae52e555b90fda715d7da47e",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Corrected section focus",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000676252020"
+                    }
+                ]
+            },
+            {
+                "id": "57b06b0e3033f163103e5978128ac0bcec11febd",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageSection: Improved accessibility",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000277352020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.14": {
+        "date": "April 2020",
+        "notes": [
+            {
+                "id": "1266afe86c5d2dd6ae992147369f4d7ce4290409",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Prevented iOS scroll issue upon snap",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005875712019"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.17": {
+        "date": "May 2020",
+        "notes": [
+            {
+                "id": "51bbb7b3b23de9a5985b5e4ad1c17eb9176de89a",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Fix lazy loading in IconTab mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070191938"
+                    }
+                ]
+            },
+            {
+                "id": "426d319bcbb950a588bd07a9e081fa524bf80ec0",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Corrected error upon rerendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070205321"
+                    }
+                ]
+            },
+            {
+                "id": "05ba54b11fb2bb5edf2bd2d46b9e92d788200821",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: IconTabBar only visible section show title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080090841"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070156496"
+                    }
+                ]
+            },
+            {
+                "id": "7bd1cca30dfec143e41e3456feb8a1c68d760bae",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Early focus trigger in IE fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070134081"
+                    }
+                ]
+            },
+            {
+                "id": "2434ab75d0abaef355f5ce208ee3e4dabdc00add",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Prevent redundant DOM calculations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070180461"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.18": {
+        "date": "June 2020",
+        "notes": [
+            {
+                "id": "9c4c9d8112700ea088ab402dc666791f10199a1b",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: No lazyLoading during animation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970593988"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.21": {
+        "date": "August 2020",
+        "notes": [
+            {
+                "id": "a83bc4f0e32d0761b5b98664eafd14d20d2d1e1b",
+                "type": "FIX",
+                "text": " sap.uxap.BlockBase: Prevented duplicate view creation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003147082020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.23": {
+        "date": "October 2020",
+        "notes": [
+            {
+                "id": "c4d6d72b1e0c55ea9463ac543c182e82e6349c29",
+                "type": "FIX",
+                "text": " sap.uxap.AnchorBar: Corrected scroll direction in RTL",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070319529"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.41": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "5c65fcaf14735a77e5ef176d72345cad5e2f7772",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Removed redundant accessibility readout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376700022310422021"
+                    }
+                ]
+            },
+            {
+                "id": "e417e21e66d01fcca5cff707cce3242e89fce0dc",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Corrected media update",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170272703"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.47": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "aff0581d5c1323559faabf5f53124319aac5f843",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageSection: Generic section label restricted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2240323326"
+                    }
+                ]
             }
         ]
     }

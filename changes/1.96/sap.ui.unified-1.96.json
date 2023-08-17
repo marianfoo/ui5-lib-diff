@@ -74,5 +74,132 @@
                 ]
             }
         ]
+    },
+    "1.96.8": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "807fe6bd6291411da9c0a5fe9c94a8e6f71b5b01",
+                "type": "FIX",
+                "text": " sap.ui.unified.CalendarDateInterval: now doesn't throw error when selecting and year after year range selection",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280047448"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.11": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "a79f659e5e0c7d4cbeb489551b320bda70788901",
+                "type": "FIX",
+                "text": " sap.ui.core.format.DateFormat: no split weeks for \"en\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004563022022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.12": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "d7605636b401fb9290077328006d4bfe1935e2b9",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust second calendar type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280140219"
+                    }
+                ]
+            },
+            {
+                "id": "d4c20880c0ac64e746e4c874291b850bcdc063bd",
+                "type": "FIX",
+                "text": " sap.ui.unified.Menu: count information for text field items is conveyed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280154945"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180165975"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.13": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "f910090b1e607b780129833439df7d7c2bd2a9d8",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust day of the week announcement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004825022022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.15": {
+        "date": "December 2022",
+        "notes": [
+            {
+                "id": "e33249150cabe139b8e2ada3caf3b05b794e6fb1",
+                "type": "FIX",
+                "text": " sap.ui.unified.Menu: fixed space before menu items without icons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280155051"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.17": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "5792af3c5e8de10b25ca861ae79e52e50cbac10d",
+                "type": "FIX",
+                "text": " sap.ui.unified.CalendarLegend: added roles to legend and items",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000890982023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.18": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "98085669010c8b605c45635fc4005018cce7ae7f",
+                "type": "FIX",
+                "text": " sap.m.DateRangeSelection: Adjust week selection when Min & Max dates are set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280178657"
+                    }
+                ]
+            }
+        ]
     }
 }

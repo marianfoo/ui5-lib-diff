@@ -30,16 +30,79 @@
                 "id": "f279e0b13131bee2e0b269eae9defe421f52c703",
                 "type": "FIX",
                 "text": "NavigationService: enables to specify technical parameters",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1680136593"
-                    },
-                    {
-                        "type": "BCP",
-                        "reference": "1670356440"
-                    }
-                ]
+                "references": []
+            }
+        ]
+    },
+    "1.44.1": {
+        "date": "November 2016",
+        "notes": [
+            {
+                "id": "2ccc3f0b12de609a51c9ba265afdb1979953ce5f",
+                "type": "FIX",
+                "text": "NavigationHandler: add presentationVariant also to the xapp state",
+                "references": []
+            }
+        ]
+    },
+    "1.44.2": {
+        "date": "November 2016",
+        "notes": [
+            {
+                "id": "ad308b5cbf8725dfb3675baa187cf99b44239b8d",
+                "type": "FIX",
+                "text": " NavigationHandler: correction for a wrong spelling",
+                "references": []
+            }
+        ]
+    },
+    "1.44.5": {
+        "date": "January 2017",
+        "notes": [
+            {
+                "id": "a457f447b10aba2f71d8facdc3d2b935b65cbf20",
+                "type": "FIX",
+                "text": " Navigationhandler: Browser hash now determined via HashChanger singleton",
+                "references": []
+            },
+            {
+                "id": "7843821fd9d9193311ab137251b667495d6273f6",
+                "type": "FIX",
+                "text": " sap.ui.generic.app: changeSetId 'SideEffects' introduced",
+                "references": []
+            }
+        ]
+    },
+    "1.44.19": {
+        "date": "August 2017",
+        "notes": [
+            {
+                "id": "4c2c59e920ded9f97f39c5b3b16063d9e43f8e2d",
+                "type": "FIX",
+                "text": " BaseController: Better check for changes before submission",
+                "references": []
+            }
+        ]
+    },
+    "1.44.20": {
+        "date": "September 2017",
+        "notes": [
+            {
+                "id": "a84f8414bc24e3b9cb659c007a408af690267712",
+                "type": "FIX",
+                "text": " BaseController: Model is not informed in case of implicit error",
+                "references": []
+            }
+        ]
+    },
+    "1.44.30": {
+        "date": "March 2018",
+        "notes": [
+            {
+                "id": "e0ce5ba4286d40bfecb8f5126f623fe30d3b3f84",
+                "type": "FIX",
+                "text": " BaseController: _checkSubmit validates also GET requests",
+                "references": []
             }
         ]
     }

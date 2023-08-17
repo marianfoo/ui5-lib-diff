@@ -136,5 +136,399 @@
                 ]
             }
         ]
+    },
+    "1.84.3": {
+        "date": "December 2020",
+        "notes": [
+            {
+                "id": "78dbced75ed3b7bc3bb086ee2b2336a84e5cbad1",
+                "type": "FIX",
+                "text": " sap.ui.unified.FileUploader: event is now fired when upload starts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070458872"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.6": {
+        "date": "February 2021",
+        "notes": [
+            {
+                "id": "e27389df9a1504053068969920cea4533f560976",
+                "type": "FIX",
+                "text": " sap.m.DateRangeSelection: can select a range in month with 4 weeks",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080437818"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000540672021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.7": {
+        "date": "March 2021",
+        "notes": [
+            {
+                "id": "1e78b18e56915a71f6f87e88009748600f0e3d95",
+                "type": "FIX",
+                "text": " sap.ui.unified.FileUploader: file not blocked",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008348942020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.9": {
+        "date": "March 2021",
+        "notes": [
+            {
+                "id": "35d6c57dbc137c7854d9ec33307a3546e1185bff",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: appointments are properly visualized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001398012021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.10": {
+        "date": "April 2021",
+        "notes": [
+            {
+                "id": "38cde34949375a5cc7155b5d82978da9997fe147",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: all day events are now properly displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080419463"
+                    }
+                ]
+            },
+            {
+                "id": "d8753bc0c8711cbd4edb7b1dcdc0d99c284519dc",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: displayDate shows the given date always in the first rendered month",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170072313"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.11": {
+        "date": "April 2021",
+        "notes": [
+            {
+                "id": "a6c63de26a48b429983f3738915cd9274d869c44",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: Arrows in navigation are now disabled when border reached",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170110312"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.14": {
+        "date": "June 2021",
+        "notes": [
+            {
+                "id": "fc7fecf208b79ed8b60c9c730bab073f9bbc28b5",
+                "type": "FIX",
+                "text": " sap.ui.unified.calendar.Month: Accessible name for dummy cell provided",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180167885"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.15": {
+        "date": "July 2021",
+        "notes": [
+            {
+                "id": "3c5a4c33b165a3caf9254bdee0a9b5867c220a4b",
+                "type": "FIX",
+                "text": " SinglePlanningCalendarMonthGrid: appointments in Month view are now selectable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180178688"
+                    }
+                ]
+            },
+            {
+                "id": "fb4931ec669e346e724bd39dd2a16e2d8306f82a",
+                "type": "FIX",
+                "text": " AnalyticalTable: Make text in sum rows bold",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004074212021"
+                    }
+                ]
+            },
+            {
+                "id": "03f9b38dc0cb3f7864e4443573306343a74da904",
+                "type": "FIX",
+                "text": " sap.m.DatePicker: selects correct date",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003918772021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.19": {
+        "date": "October 2021",
+        "notes": [
+            {
+                "id": "6c696203f02aa28cd337d28312cdebf4f746c87d",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: Accessibility improvement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170239503"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.21": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "4dc9ee28040efe0a910d99dddadbdab7ac7ff826",
+                "type": "FIX",
+                "text": " sap.ui.unified.Month: Runtime error on click on week",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008953802021"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070447053"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.22": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "8486644e1b22d455b145a5b5029a9455e44ef57e",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: proper month names are shown",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009116052021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.24": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "d776a3207383871ca0cd41b509c64abb563965bf",
+                "type": "FIX",
+                "text": " sap.ui.unified.CalendarDateInterval: now doesn't throw error when selecting and year after year range selection",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280047448"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.25": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "e88bd5fc53879b95078f5781bd798506554e49cc",
+                "type": "FIX",
+                "text": " sap.ui.unified.FileUploader: busy state and hover interaction properly applied",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170304073"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180210567"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075125800002681512022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.27": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "0198567d87b9b2e31ecd74bef8351b35ab7430de",
+                "type": "FIX",
+                "text": " sap.ui.core.format.DateFormat: no split weeks for \"en\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004563022022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.28": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "ad8692f8e58355b07d2f6534a2100d641d29c8f6",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust second calendar type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280140219"
+                    }
+                ]
+            },
+            {
+                "id": "add4aa8acd8cf746570e4c92c202f5470d510baf",
+                "type": "FIX",
+                "text": " sap.ui.unified.Menu: count information for text field items is conveyed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280154945"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180165975"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.31": {
+        "date": "December 2022",
+        "notes": [
+            {
+                "id": "ae5517603df463fb146be07e933970624cb243a5",
+                "type": "FIX",
+                "text": "sap.m.TimesRow: getting a correct instance of a DateFormat",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007162242022"
+                    }
+                ]
+            },
+            {
+                "id": "cdcadffad0171cde11c7e84f6db2f3fdec67f4a3",
+                "type": "FIX",
+                "text": " sap.ui.unified.FileUploader: Invalid attribute removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070407883"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280159254"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.32": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "3d30ba97a876b294b767689287bf70d5a4a3c89d",
+                "type": "FIX",
+                "text": " sap.ui.unified.CalendarLegend: added roles to legend and items",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000890982023"
+                    }
+                ]
+            },
+            {
+                "id": "34087cdd84ee7e8947a8b3a6bd2edc2fb25f8933",
+                "type": "FIX",
+                "text": " sap.ui.unified.Menu: fixed space before menu items without icons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280155051"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.33": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "2b6f7003664c0c6a52b4c951431de1231424fc21",
+                "type": "FIX",
+                "text": " sap.m.DateRangeSelection: Adjust week selection when Min & Max dates are set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280178657"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.38": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "4e49e9e9021d4255575ae1a6c6988caf0dee6c44",
+                "type": "FIX",
+                "text": " sap.ui.unified.Menu: skip invalidation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005658702023"
+                    }
+                ]
+            }
+        ]
     }
 }

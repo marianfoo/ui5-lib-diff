@@ -614,5 +614,331 @@
                 ]
             }
         ]
+    },
+    "1.108.5": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "fa8e604b31ce71ef43750b2a1673a9bf9782eceb",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001371562023"
+                    }
+                ]
+            },
+            {
+                "id": "50f61d28a7ca0836bd4307d82402f2c53bb7c77b",
+                "type": "FIX",
+                "text": " SmartField: Processing keys selected from value lists",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001371562023"
+                    }
+                ]
+            },
+            {
+                "id": "11f8e072a03694268fdbca6ae2d87c6504f91dff",
+                "type": "FIX",
+                "text": " ValueListProvider: correct logic for checking uniqueness of suggestions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001104582023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280203342"
+                    }
+                ]
+            },
+            {
+                "id": "5d40d5b843822277ca6b0bd701fc30400aeae1e9",
+                "type": "FIX",
+                "text": " FilterController: MultiInput is now attached to correct event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001184312023"
+                    }
+                ]
+            },
+            {
+                "id": "674817f97de86700327a57f6c034521c0ba78d36",
+                "type": "FIX",
+                "text": " ColumnsController: Columns in the SmartTable are now in the correct order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280176824"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001194742023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.8": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "915652aa6a24326708eb98dcc8798d768ec34b1c",
+                "type": "FIX",
+                "text": " SmartField: improved change event firing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370019076"
+                    }
+                ]
+            },
+            {
+                "id": "2230cbbf48c02f9919e3ee3593a9b65832aa7a81",
+                "type": "FIX",
+                "text": " SmartField: refreshDataState now clears changeModelValue suppression flag",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370025462"
+                    }
+                ]
+            },
+            {
+                "id": "ed0a95db530ae78eb77ef9dc19311d484cf72430",
+                "type": "FIX",
+                "text": " SmartField: changeModelValue event suppression is now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370004371"
+                    }
+                ]
+            },
+            {
+                "id": "af6a41e90c8dc533f0440f0fe79d7e625662b7d1",
+                "type": "FIX",
+                "text": " SmartField: Unstable test fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370026214"
+                    }
+                ]
+            },
+            {
+                "id": "01b2950c99f478d00467704d3418bdbf67b11c93",
+                "type": "FIX",
+                "text": " FilterController: FilterProperty is used for creating filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370012037"
+                    }
+                ]
+            },
+            {
+                "id": "d3697fea015fe682add35ad1bdc06386ba4a5b04",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement fixes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001626552023"
+                    }
+                ]
+            },
+            {
+                "id": "60acceb9a21f6d72a4dcc40eef140bef6b6ea476",
+                "type": "FIX",
+                "text": " FilterPanel: Single filters are now correctly added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380037783"
+                    }
+                ]
+            },
+            {
+                "id": "8af88e39aa971969b6dfd6edaeab56dca94c158c",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement parsing of white spaces fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006647422022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.9": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "0daf126f18993b95f69f2708fd3b61c2a1711501",
+                "type": "FIX",
+                "text": " SmartField: change event firing for text arrangement is now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370019076"
+                    }
+                ]
+            },
+            {
+                "id": "accb9bcd3d90ae9afebdbb3c5b17e8d031a69dc1",
+                "type": "FIX",
+                "text": " SmartField: improved change event firing - revert",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370019076"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.10": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "13f6edb7845e180d9693aeaade0f3c1efa565354",
+                "type": "FIX",
+                "text": " SmartTable: Enable adaptation of SmartLinks in SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370043155"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.13": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "3148cf1a82ec708923d06cbcdd80076e7ae01028",
+                "type": "FIX",
+                "text": " comp.ValueHelpDialog: sap_belize_plus Title contrast fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002263532023"
+                    }
+                ]
+            },
+            {
+                "id": "5692c9d9bfa0f1e3cc67f87b8cf2514c03dd7e0f",
+                "type": "FIX",
+                "text": " SmartField: change event firing for UoM is now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002467862023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003936362023"
+                    }
+                ]
+            },
+            {
+                "id": "bcc8edec871ae1acd2962e3e341b4af00a3c1e43",
+                "type": "FIX",
+                "text": " SmartVariantManagement: move 'save' event before variant save",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370049901"
+                    }
+                ]
+            },
+            {
+                "id": "92cf2486aaa920e5c9c0e128b7da3cc6ae7d16e1",
+                "type": "FIX",
+                "text": " SmartFilterBar: REVERT creates a token when a valid value is pasted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370063148"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003037622023"
+                    }
+                ]
+            },
+            {
+                "id": "aa97035e892a75b6fcb3fee2aabe65ac93e4069d",
+                "type": "FIX",
+                "text": " SmartField: The description is shown properly for default GUID",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007557582022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.17": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "ca3c87b3a4e12940884f6d757976f4b680b21375",
+                "type": "FIX",
+                "text": " ColumnsController: Columns order is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004648752023"
+                    }
+                ]
+            },
+            {
+                "id": "a5a46d7ec9eb1c8a4026282cdb1dd0508f4a6650",
+                "type": "FIX",
+                "text": " ValueHelpDialog: correct columns on mobile when TextArrangement is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002472722023"
+                    }
+                ]
+            },
+            {
+                "id": "6000544208f538d604ead999afc55ef3383124f9",
+                "type": "FIX",
+                "text": " FilterPanel: Filters are now removed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370026349"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.18": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "2de9bf20a745302ed12e20f24617f1db3a77f02b",
+                "type": "FIX",
+                "text": " ValueHelpDialog: isDigitSequence is now respected for table items",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004110822023"
+                    }
+                ]
+            }
+        ]
     }
 }

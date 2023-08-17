@@ -336,5 +336,47 @@
                 ]
             }
         ]
+    },
+    "1.114.4": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "7eff98b20274ea12d5ba2800854f43b33db9d2be",
+                "type": "FIX",
+                "text": " ColumnsController: Indexes of the Columns improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004450102023"
+                    }
+                ]
+            },
+            {
+                "id": "6672eb46687335910fbd1bdac44768acc0ed4a9b",
+                "type": "FIX",
+                "text": " SmartVariantManagement: fix for missing \"save\" event parameter.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380117271"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370049901"
+                    }
+                ]
+            },
+            {
+                "id": "fc255a52e63e63d4a98a1fb0b1940805d7328752",
+                "type": "FIX",
+                "text": " SmartFilterBar: Filter value is not duplicated when turned to uppercase",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005118032023"
+                    }
+                ]
+            }
+        ]
     }
 }

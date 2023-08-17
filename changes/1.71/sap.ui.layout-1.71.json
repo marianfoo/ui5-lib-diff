@@ -29,6 +29,149 @@
                         "reference": "1980345458"
                     }
                 ]
+            },
+            {
+                "id": "9fa6c5a3867cf038855adbc470680baa167ffc0c",
+                "type": "FEATURE",
+                "text": " sap.f.GridDropInfo: Setting dimensions of the indicator is now possible",
+                "references": []
+            },
+            {
+                "id": "c7658d8224b4a97310da376a7e32cc7e81445c2a",
+                "type": "FIX",
+                "text": " sap.ui.layout.DynamicSideContent: documentation updated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980345458"
+                    }
+                ]
+            },
+            {
+                "id": "0a43e8f48596645c85a4135629663f5d7e00784d",
+                "type": "FIX",
+                "text": " sap.ui.layout.DynamicSideContent: works correctly on phone",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970221870"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.1": {
+        "date": "October 2019",
+        "notes": [
+            {
+                "id": "463b2bcfd2779f3983d5356f80af589ded20f469",
+                "type": "FIX",
+                "text": " sap.ui.layout.ResponsiveFlowLayout: removed deprecated call",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970484042"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.17": {
+        "date": "May 2020",
+        "notes": [
+            {
+                "id": "8f011aeb90afb154071eace8d55773ebcc101b8f",
+                "type": "FIX",
+                "text": " Form: Fiori3 themes align Label, Text and Link with Input",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.23": {
+        "date": "October 2020",
+        "notes": [
+            {
+                "id": "c0a2511ff2cef4dcd552fdb94801c67906029196",
+                "type": "FIX",
+                "text": " sap.ui.layout.ResponsiveSplitter: DefaultPane is now working",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005373682020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.41": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "26cf6e2a968bebd9522496783d4d37890a5c571c",
+                "type": "FIX",
+                "text": " sap.ui.layout.DynamicSideContent: getScrollDelegate() method now works properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008706252021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.47": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "4d8ae3445854e23462d567dfa7f81c8c6675a199",
+                "type": "FIX",
+                "text": " sap.ui.layout.DynamicSideContent: Visibility issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070227066"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004153322022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.58": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "0f35f9a59b32d067cf9f55b2256a067305b2cae0",
+                "type": "FIX",
+                "text": " sap.ui.layout.DynamicSideContent: getScrollDelegate now returns proper delegate",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370034572"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006307332023"
+                    }
+                ]
+            },
+            {
+                "id": "d9937d7fb1e5985e88566a32feadd81fc4ef63b7",
+                "type": "FIX",
+                "text": " sap.ui.layout.DynamicSideContent: fixed getScrollDelegate method",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370031057"
+                    }
+                ]
             }
         ]
     }

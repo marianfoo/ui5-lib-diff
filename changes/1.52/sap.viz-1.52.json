@@ -5,49 +5,123 @@
             {
                 "id": "eb48d59fc83c41104adfdcf3275fc1db04ed9135",
                 "type": "FEATURE",
-                "text": "Basic range slider with preview",
+                "text": "  Basic range slider with preview",
                 "references": []
             },
             {
                 "id": "942a24a9b7bef2144ede20b7467c2136b1915297",
                 "type": "FEATURE",
-                "text": "Ability to display horizontal axis on bottom",
+                "text": " Ability to display horizontal axis on bottom",
                 "references": []
             },
             {
                 "id": "e18a5dbfb717f6fe9f042790b5adc3a0a71858bd",
                 "type": "FEATURE",
-                "text": "Reference lines that varies over the time",
+                "text": " Reference lines that varies over the time",
                 "references": []
             },
             {
                 "id": "e5f45dd61203f242395b1e58d1cdd5d557e708c8",
                 "type": "FEATURE",
-                "text": "expose treemap in ui5",
+                "text": " expose treemap in ui5",
                 "references": []
             },
             {
                 "id": "3f0ee2155b3e5b16745a9aa057f6d2bf0e6d0095",
                 "type": "FIX",
-                "text": "Do not resize when app is invisible in VizFrame",
+                "text": " Do not resize when app is invisible in VizFrame",
                 "references": []
             },
             {
                 "id": "c04c50ec04fec1c791ab313a8d2465cce7b060ba",
                 "type": "FIX",
-                "text": "Support zh-Hant/zh-Hants locale.",
+                "text": " Support zh-Hant/zh-Hants locale.",
                 "references": []
             },
             {
                 "id": "42ba186d2c88047d676c6dd7b4b35607d2064a03",
                 "type": "FIX",
-                "text": "Timeseries_bullet chart color palette should be update with new color and theme.",
+                "text": " Timeseries_bullet chart color palette should be update with new color and theme.",
                 "references": []
             },
             {
                 "id": "5b8b7bc3e20588b6c41a5903a473b3b5213f020a",
                 "type": "FIX",
-                "text": "change zh-CN/zh-TW to zh_CN/zh_TW.",
+                "text": " change zh-CN/zh-TW to zh_CN/zh_TW.",
+                "references": []
+            }
+        ]
+    },
+    "1.52.1": {
+        "date": "October 2017",
+        "notes": [
+            {
+                "id": "16bf20ca1170f223b7445672a23a750190705840",
+                "type": "FIX",
+                "text": " Forbid 2 visible focuses at a time.",
+                "references": []
+            },
+            {
+                "id": "034bebbcaca5a88777d59c8765797531f545c3f5",
+                "type": "FIX",
+                "text": " RangeSlider sample page cannot be loaded in dist version",
+                "references": []
+            },
+            {
+                "id": "9092f699b6bc86cd7c598a06f64b6c900e1eb3f5",
+                "type": "FIX",
+                "text": " The label's position in popover doesn't vertically align with labels above.",
+                "references": []
+            },
+            {
+                "id": "0b40c1a0500fd0dc6d5901dc23221cf66a1b0c58",
+                "type": "FIX",
+                "text": "RangeSlider sample page cannot be loaded in German timezone",
+                "references": []
+            }
+        ]
+    },
+    "1.52.2": {
+        "date": "November 2017",
+        "notes": [
+            {
+                "id": "6128c5b4e01cc72d02218c4854fcd7ff0782384c",
+                "type": "FIX",
+                "text": "Qunit test failure on MS Edge",
+                "references": []
+            }
+        ]
+    },
+    "1.52.17": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "d2b1eebf05094988d6b07cdfe45cb482b6581f62",
+                "type": "FIX",
+                "text": " Heat map chart color is not working",
+                "references": []
+            },
+            {
+                "id": "c3700c7f4d3ac8325075e231df937b98445f9072",
+                "type": "FIX",
+                "text": " sap.viz: support text truncation case in qunit test",
+                "references": []
+            },
+            {
+                "id": "605b374b8135d537ad8b76485e5598c30a05d122",
+                "type": "FIX",
+                "text": "Use relative path to refer to sap-ui-core.js",
+                "references": []
+            }
+        ]
+    },
+    "1.52.18": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "1ecb1fe8804cb042f6f378ae0b1163438f162d6c",
+                "type": "FIX",
+                "text": "UI5 Chart Issues in iPhone",
                 "references": []
             }
         ]

@@ -1032,5 +1032,170 @@
                 ]
             }
         ]
+    },
+    "1.108.8": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "eae8764835010193cbf1037f96ac3ffffaf31a5c",
+                "type": "FIX",
+                "text": " Deleting items in the object page table no longer causes refresh issues  when using flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370003258"
+                    }
+                ]
+            },
+            {
+                "id": "ceeeaac2c9ffab80b4fe29ea4e1d6006c782e672",
+                "type": "FIX",
+                "text": " We've resolved an issue where the navigation to an object page was stalled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380030450"
+                    }
+                ]
+            },
+            {
+                "id": "ca2daa7f8957a00b134c4e9dd77ec0e2ad8bea01",
+                "type": "FIX",
+                "text": " We now ensure that draft instances are no longer displayed in the list report after the active instance was deleted from an object page using the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280201258"
+                    }
+                ]
+            },
+            {
+                "id": "d13bddb15ca04667ac7e4c08efe69faf9a326f0b",
+                "type": "FIX",
+                "text": " We now support filtering on tables that have multi-level navigation properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280175163"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.9": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "616cb4634ec1888e2fb4553ae8c15d809adf3c57",
+                "type": "FIX",
+                "text": " We now ensure that the default SelectionVariant with Boolean values works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270154800"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370026789"
+                    }
+                ]
+            },
+            {
+                "id": "41c2de51a43b3f4d3aed5a21481870ec93121f4b",
+                "type": "FIX",
+                "text": " We've resolved an issue regarding the 'Related Apps' button not appearing even after setting showRelatedApps to 'true'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380034835"
+                    }
+                ]
+            },
+            {
+                "id": "ac281afb6d4af250dc4e9afe45e27d0cbe43b4e3",
+                "type": "FIX",
+                "text": " We've fixed an issue with hiding data visualization titles for subsections that might be hidden dynamically",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370016650"
+                    }
+                ]
+            },
+            {
+                "id": "7c2a2a9ed4d880e665048503cd2ee1e3fedbc367",
+                "type": "FIX",
+                "text": " We've removed an unnecessary OData query that was sent when a draft document was saved in an app using the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380045400"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.12": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "c02e54d2b36262440d664205a1b29709b3fff2d7",
+                "type": "FIX",
+                "text": " We now correctly handle the criticality annotation when the navigation target is set in the manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002179482023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.13": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "e79acc25649aca9e2bd5604b787aaa9b6aa47513",
+                "type": "FIX",
+                "text": " We've improved the validation in the action parameter dialog to ensure the value state of the parameters are handled correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003117642023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380039180"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.16": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "9a7695b28adf72d4d46cb6abdd194476f2ae3f11",
+                "type": "FIX",
+                "text": " Columns with text arrangement set to TextOnly are now exported properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380052406"
+                    }
+                ]
+            },
+            {
+                "id": "9b0fec29c0339a62c58d3c925a1e61cd3715fad7",
+                "type": "FIX",
+                "text": " The \"Edit\" and \"Cancel\" actions now work on the object page when a subobject page is opened using the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380085394"
+                    }
+                ]
+            }
+        ]
     }
 }

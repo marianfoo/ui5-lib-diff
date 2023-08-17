@@ -108,56 +108,31 @@
                 "id": "ceb62bca5a89e9b812f025807ab8de0edddefccd",
                 "type": "FIX",
                 "text": "sap.suite.ui.microchart.BulletMicroChart: Actual value in tooltip added for delta mode",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1670137752"
-                    }
-                ]
+                "references": []
             },
             {
                 "id": "8c57daaa65b8f9a77e8994ac1851371ac1f86b79",
                 "type": "FIX",
                 "text": "sap.suite.ui.microchart.ComparisonChart Correct tab sequence.",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1580142277"
-                    }
-                ]
+                "references": []
             },
             {
                 "id": "61f832b1b909f6c49eb5f9e9adf91516fad36920",
                 "type": "FIX",
                 "text": "sap.suite.ui.microchart.HarveyBallMicroChart: Corrected default values of boolean properties",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1670166287"
-                    }
-                ]
+                "references": []
             },
             {
                 "id": "6b9b24d263cd618dd66070d26c46e50b659de8e6",
                 "type": "FIX",
                 "text": "sap.suite.ui.microchart.HarveyBallMicroChart: Improved behaviour if total scale is not provided.",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1670125274"
-                    }
-                ]
+                "references": []
             },
             {
                 "id": "dcfc9af72bf68003f263f5d5dc1a93294351ccee",
                 "type": "FIX",
                 "text": "sap.suite.ui.microchart.HarveyBallMicroChart: Rendering stabilized in case of missing fraction scale",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1580227528"
-                    }
-                ]
+                "references": []
             },
             {
                 "id": "e69266228f2f0e8a2c6bfef439bbad68b6dd7435",
@@ -169,12 +144,7 @@
                 "id": "c7e95c3a95d759385eb28d744d5352d1e98bc266",
                 "type": "FIX",
                 "text": "sap.suite.ui.microchart: Fix cursor styles within library",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1670004855"
-                    }
-                ]
+                "references": []
             }
         ]
     },
@@ -202,12 +172,320 @@
                 "id": "5bc6398e7ef6760617dd0af5b09e478442f96c51",
                 "type": "FIX",
                 "text": "sap.suite.ui.microchart.ComparisonMicroChart: Fix UTF character handling",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1670279252"
-                    }
-                ]
+                "references": []
+            }
+        ]
+    },
+    "1.38.4": {
+        "date": "June 2016",
+        "notes": [
+            {
+                "id": "8c05c0484853eb99a709eb406da207dc38a191b1",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.AreaMicroChart: Color calculation for empty targetValue property stabilized",
+                "references": []
+            },
+            {
+                "id": "67c3a9b3c7a1913497cf875f6ef3f1a6b46a5c19",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.AreaMicroChart: improve CSS dependent rendering to avoid miss rendering",
+                "references": []
+            },
+            {
+                "id": "e73c0a903a35891884ea4d03ea8256f40af5dd53",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.BulletMicroChart: CSS-dependent rendering improved to avoid incorrect rendering",
+                "references": []
+            },
+            {
+                "id": "502ae8de61d0e24a5de7cf33a1036e9147658285",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.ComparisonMicroChart: Line endings in HCB corrected",
+                "references": []
+            }
+        ]
+    },
+    "1.38.5": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "3e7b84db3f634cc5b98cad9170b1d2b85514b5e1",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.AreaMicroChart: Chart width after an orientation change adjusted",
+                "references": []
+            },
+            {
+                "id": "edb42637f12de52505cd2d8b78c3581e428f5f4f",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.BulletMicroChart: Check for actual value inserted",
+                "references": []
+            }
+        ]
+    },
+    "1.38.6": {
+        "date": "August 2016",
+        "notes": [
+            {
+                "id": "6fb639d08500b079a64ec768f71f595c5ea05c9b",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.ComparisonMicroChart: Click event handling for ComparisonMicroChart in GenericTile adapted",
+                "references": []
+            }
+        ]
+    },
+    "1.38.8": {
+        "date": "September 2016",
+        "notes": [
+            {
+                "id": "e09679c349cce80cca59114874bd97522b23c1ff",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.ComparisonMicroChart: KPIs not showing in IE fixed",
+                "references": []
+            },
+            {
+                "id": "083b9f29efbfd111eb0b87d68e6a23690cd1737d",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.ComparisonMicroChart: Tooltip handling is changed to solve screen reader issue",
+                "references": []
+            },
+            {
+                "id": "cf22e67958ec228cbd5e6e1b55c9056c6ea092ab",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.RadialMicroChart: Vertical position of value label enhanced",
+                "references": []
+            },
+            {
+                "id": "cfb1ddf484dacbb66b79b9b470dfa5973e8d8e34",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart: Rendering behavior during initialization of the controls corrected",
+                "references": []
+            }
+        ]
+    },
+    "1.38.9": {
+        "date": "October 2016",
+        "notes": [
+            {
+                "id": "39b22541614455e37381768c55bc710fafb5980f",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.RadialMicroChart: Display in GenericTile after Device orientation change corrected",
+                "references": []
+            }
+        ]
+    },
+    "1.38.11": {
+        "date": "November 2016",
+        "notes": [
+            {
+                "id": "0c05025a545265075ae51fa2185650e8f6602913",
+                "type": "FIX",
+                "text": "sap.suite.ui.microchart.HarveyBallMicroChart: Labels are no longer visible after app navigation",
+                "references": []
+            }
+        ]
+    },
+    "1.38.12": {
+        "date": "December 2016",
+        "notes": [
+            {
+                "id": "cb96d7c83f6ccebcb564b7943b68d6c233513279",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.ColumnMicroChart: Hover style in case of non interactive column corrected",
+                "references": []
+            },
+            {
+                "id": "8789f35724291fa1684220d6284c53d4304ffc3b",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.RadialMicroChart: Resizing works inside the GenericTile control",
+                "references": []
+            }
+        ]
+    },
+    "1.38.15": {
+        "date": "December 2016",
+        "notes": [
+            {
+                "id": "1462c932e92babfb9f7cf1ced4213f40c947a797",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.AreaMicroChart: Responsiveness of labels adapted",
+                "references": []
+            },
+            {
+                "id": "c0621386c4f825fe481b2ef9d94116688e00228a",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.BulletMicroChart: Actual value bar and marker improved",
+                "references": []
+            },
+            {
+                "id": "f96e265768e6ebf0553c844fe18f3acbe564a95f",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.DeltaMicroChart: HCB text color corrected",
+                "references": []
+            }
+        ]
+    },
+    "1.38.16": {
+        "date": "December 2016",
+        "notes": [
+            {
+                "id": "6b1fce4534d68523f24dd450e162d882fade5e7c",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.ComparisonMicroChart: Responsiveness of labels adapted",
+                "references": []
+            }
+        ]
+    },
+    "1.38.17": {
+        "date": "January 2017",
+        "notes": [
+            {
+                "id": "06dc34f7b557d850c422e1c237562c8d4f303b35",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.AreaMicroChart: Color handling for chart and target corrected",
+                "references": []
+            },
+            {
+                "id": "852f6eb095433fca830b343ad5b2eae280e88526",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.BulletMicroChart: Responsiveness of labels adapted",
+                "references": []
+            },
+            {
+                "id": "dc0c0e33460f66652236be2e2ac344a9a40bcb8d",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.ColumnMicroChart: Responsiveness of labels adapted",
+                "references": []
+            },
+            {
+                "id": "2b72433ce5e357f37e3d08e9a78782ceb36c0cbf",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.DeltaMicroChart: Responsiveness of labels adapted",
+                "references": []
+            },
+            {
+                "id": "118f7aebf235df8e360134984baf9fdc8ecb557a",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.RadialMicroChart: Test page improved",
+                "references": []
+            }
+        ]
+    },
+    "1.38.19": {
+        "date": "February 2017",
+        "notes": [
+            {
+                "id": "2fbe1c4d13c3802582e1e9c934d6600d2cb3a2ef",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.AreaMicroChart: Label truncation for Internet Explorer and Edge corrected",
+                "references": []
+            },
+            {
+                "id": "b0825ae0f3f32bb8857772798cf21a0882f4a9eb",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.RadialMicroChart: If percentage value is 0, percentageMode still enabled",
+                "references": []
+            }
+        ]
+    },
+    "1.38.20": {
+        "date": "March 2017",
+        "notes": [
+            {
+                "id": "b6589c43f705e2f02fee5648cd5a3ff19646270e",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.AreaMicroChart: Tooltip and screen reader improved",
+                "references": []
+            },
+            {
+                "id": "86b0b09364b738946c0fd5979f76b4637b5e9016",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.BulletMicroChart: Tooltip and screen reader improved",
+                "references": []
+            },
+            {
+                "id": "a390adfd74baeaa6c5ef14f31b321411b48074b8",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.ColumnMicroChart: Tooltip and screen reader improved",
+                "references": []
+            },
+            {
+                "id": "d5079b5b5abbed07ef12577eaccc9b0fedc7f8b6",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.ComparisonMicroChart: Tooltip and screen reader improved",
+                "references": []
+            },
+            {
+                "id": "ad84f353803abe23a5553641178e7bd69dcea96d",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.DeltaMicroChart: Tooltip and screen reader improved",
+                "references": []
+            },
+            {
+                "id": "9996aae866906f9490b022a1ecb7a56cd421e444",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.HarveyBallMicroChart: Tooltip and screen reader improved",
+                "references": []
+            }
+        ]
+    },
+    "1.38.21": {
+        "date": "April 2017",
+        "notes": [
+            {
+                "id": "93b1fd132326a33d470a8f26fa209ee183296dbe",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.RadialMicroChart: Tooltip and screen reader improved",
+                "references": []
+            }
+        ]
+    },
+    "1.38.23": {
+        "date": "June 2017",
+        "notes": [
+            {
+                "id": "c7b56c7a0f94fb534f0d1ca96dc6fb5ad28e12ec",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.ComparisonMicroChart: Rendering of labels improved",
+                "references": []
+            }
+        ]
+    },
+    "1.38.24": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "eb5af1d8bc85ff34aab286c319097d4e95ff2ac1",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.AreaMicroChart: Layouting canvas element as block independent from browser",
+                "references": []
+            }
+        ]
+    },
+    "1.38.28": {
+        "date": "September 2017",
+        "notes": [
+            {
+                "id": "724bf935c9469de1f00e700e8c948698d5ec10d3",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.BulletMicroChart: Rendering of actual and forecast value in case of delta mode corrected",
+                "references": []
+            },
+            {
+                "id": "1756689e725b48ca8acdeb767e7c020e5ba0aedc",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.BulletMicroChart: Rendering of actual value corrected",
+                "references": []
+            }
+        ]
+    },
+    "1.38.31": {
+        "date": "November 2017",
+        "notes": [
+            {
+                "id": "ef518ce2f90c99445f3188d747130c783303e8f0",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.RadialMicroChart: Aria-hidden from number removed",
+                "references": []
             }
         ]
     }

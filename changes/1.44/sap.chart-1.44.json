@@ -16,8 +16,41 @@
             },
             {
                 "id": "b5c6dcd0aad3bb097f6b05241831627186ccc903",
+                "type": "LEGACY",
+                "text": "chart can't render if bind data twice",
+                "references": []
+            }
+        ]
+    },
+    "1.44.1": {
+        "date": "November 2016",
+        "notes": [
+            {
+                "id": "7b8716c14503e5e703eac6cdf83817b84bd192f4",
                 "type": "FIX",
-                "text": "[Analytical][Legacy] chart can't render if bind data twice",
+                "text": "some fix in vizframe",
+                "references": []
+            }
+        ]
+    },
+    "1.44.22": {
+        "date": "October 2017",
+        "notes": [
+            {
+                "id": "652a6afc718333bf081ce60336bfeaae6556a9fc",
+                "type": "FIX",
+                "text": " Fiori KPI  App's displays No data instead of displaying a loading indicator during the data load",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "448208"
+                    }
+                ]
+            },
+            {
+                "id": "52f5b39d2b8770a9560a494181f07b4a3b808f57",
+                "type": "FIX",
+                "text": " sap.viz: “No data�? should show when vizFrame set vizProperties with empty dataset.",
                 "references": []
             }
         ]

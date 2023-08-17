@@ -1011,5 +1011,96 @@
                 ]
             }
         ]
+    },
+    "1.108.7": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "73c5735520854a7fd0dee534efa4a9df8b3f001c",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the navigation not working correctly for a semantic object with a single link",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380041046"
+                    }
+                ]
+            },
+            {
+                "id": "a106f16796663aa2a5c2aa2eae2268fb8583f2f8",
+                "type": "FIX",
+                "text": " SAP Fiori elements now properly exports large amounts of data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000625952023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.11": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "ceeb2e77f923acb18ff37dec1fff008022b6517e",
+                "type": "FIX",
+                "text": " We now ensure that semantic object mappings are handled correctly when the same property is used for both the source and destination",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380005690"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.13": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "0cfc1487eb31a40dc249a6ce2b1864a9e71d23b8",
+                "type": "FIX",
+                "text": " We now ensure that DataFieldWithUrl also works correctly when it is annotated with a criticality",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003126412023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.15": {
+        "date": "June 2023",
+        "notes": [
+            {
+                "id": "3cfcc08e856e594b9f19ac0a92f1c712086a98a9",
+                "type": "FIX",
+                "text": " We now avoid adding the 'V4:true' constraints twice for an Edm.DateTimeOffset property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001564842023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.16": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "9a7695b28adf72d4d46cb6abdd194476f2ae3f11",
+                "type": "FIX",
+                "text": " Columns with text arrangement set to TextOnly are now exported properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380052406"
+                    }
+                ]
+            }
+        ]
     }
 }

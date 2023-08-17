@@ -5,28 +5,135 @@
             {
                 "id": "2f924bf15c522a98f56b59892347d546f7d405b8",
                 "type": "FEATURE",
-                "text": "RichTextEditor: Formatting support is added",
+                "text": " RichTextEditor: Formatting support is added",
                 "references": []
             },
             {
                 "id": "f38fe5ae2c1f0675c5ec28662d171a98edfb6110",
                 "type": "FIX",
-                "text": "Revert: sap.ui.richtexteditor.RichTextEditor: Update TinyMCE to 4.6.3 (not latest possible version)",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "002075129400004412532017"
-                    }
-                ]
+                "text": " Revert: sap.ui.richtexteditor.RichTextEditor: Update TinyMCE to 4.6.3 (not latest possible version)",
+                "references": []
             },
             {
                 "id": "96bc1149f3fb12021385c27678d4cd817edd7b5e",
                 "type": "FIX",
-                "text": "sap.ui.richtexteditor.RichTextEditor: Update TinyMCE to 4.6.3 (not latest possible version)",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Update TinyMCE to 4.6.3 (not latest possible version)",
+                "references": []
+            }
+        ]
+    },
+    "1.52.2": {
+        "date": "November 2017",
+        "notes": [
+            {
+                "id": "9869e2f1bfb01201b37822111b801ca8967c2032",
+                "type": "FIX",
+                "text": " RichTextEditor: Explored sample text replaced with lorem ipsum",
+                "references": []
+            },
+            {
+                "id": "cfe6cd1f37b2960953698b0a0539cf7c82e810ff",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Fix for HTML comments breaking the editor.",
+                "references": []
+            }
+        ]
+    },
+    "1.52.3": {
+        "date": "December 2017",
+        "notes": [
+            {
+                "id": "6b466bbf51d44a78f7c33408abd45b2dcb4ed005",
+                "type": "FIX",
+                "text": " sap.ui.richTextEditor.RichTextEditor: Fix adding button group to the custom toolbar",
+                "references": []
+            },
+            {
+                "id": "4f7c6fc9f5e471851f1a7b6e846712fd2535f425",
+                "type": "FIX",
+                "text": " sap.ui.richtextEditor.ToolbarWrapper: Internationalisation added for alignment menu",
+                "references": []
+            }
+        ]
+    },
+    "1.52.4": {
+        "date": "January 2018",
+        "notes": [
+            {
+                "id": "4133e0acc008ee4741d75cf387509ab0a690241f",
+                "type": "FIX",
+                "text": " RichTextEditor: Custom toolbar internationalization",
+                "references": []
+            },
+            {
+                "id": "cf388bdc7bb45855a074075da2ac833ca387874c",
+                "type": "FIX",
+                "text": " RichTextEditor: Dialogs have padding regardless of the compatibility version",
+                "references": []
+            },
+            {
+                "id": "c388cb952a7a7b90b7bf2eb9742e2027e14f9f3c",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Remove Color Picker's dialog width.",
+                "references": []
+            }
+        ]
+    },
+    "1.52.5": {
+        "date": "January 2018",
+        "notes": [
+            {
+                "id": "7ada172ddc02a020f60adcbd910de80d680d3ec9",
+                "type": "FIX",
+                "text": " RichTextEditor: Add missing message bundle texts",
+                "references": []
+            }
+        ]
+    },
+    "1.52.16": {
+        "date": "July 2018",
+        "notes": [
+            {
+                "id": "02f8000e8c6d132aa0e6c7255bdb097218028a76",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Handle HTML content properly",
+                "references": []
+            }
+        ]
+    },
+    "1.52.19": {
+        "date": "September 2018",
+        "notes": [
+            {
+                "id": "85ed5d39a1d25b90b6216a8fd4ae9c80bcb65850",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Default font size now matching tinyMCEs",
+                "references": []
+            }
+        ]
+    },
+    "1.52.25": {
+        "date": "February 2019",
+        "notes": [
+            {
+                "id": "c4c3eb572e1d485fea3b36add06c88af2bdfcecd",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Disable PowerPaste in read-only mode",
+                "references": []
+            }
+        ]
+    },
+    "1.52.45": {
+        "date": "October 2020",
+        "notes": [
+            {
+                "id": "63bacd8efae60bf8e554d48b542878e62a252cd9",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Font selection is now correct",
                 "references": [
                     {
                         "type": "BCP",
-                        "reference": "002075129400004412532017"
+                        "reference": "002075129500004481872020"
                     }
                 ]
             }

@@ -148,5 +148,93 @@
                 "references": []
             }
         ]
+    },
+    "1.38.5": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "2ba238f4424fc1afe2f4426d25739b8f7169720b",
+                "type": "FIX",
+                "text": "Inbox: Catches \"JSON.parse\" error, which resulted in continual \"loading\" mode for Unified Inbox",
+                "references": []
+            }
+        ]
+    },
+    "1.38.6": {
+        "date": "August 2016",
+        "notes": [
+            {
+                "id": "6da504bc7b62942466b04401e8b3f3833aa8a84c",
+                "type": "FIX",
+                "text": "Inbox: Message \"No data available\" is not deleted from Notifications.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "128371"
+                    }
+                ]
+            },
+            {
+                "id": "4653e2e69c0ca8beaf466762c50f9e12ecc95c13",
+                "type": "FIX",
+                "text": "Issue with languages when opening Manager Self-Service tasks",
+                "references": []
+            }
+        ]
+    },
+    "1.38.9": {
+        "date": "October 2016",
+        "notes": [
+            {
+                "id": "3f1060355b1f62e911d1e10b2bbc22efbf947937",
+                "type": "FIX",
+                "text": "Demokit: removing of the hardcoded IP",
+                "references": []
+            },
+            {
+                "id": "bc4249060619484ea1f548f45166ca57d2d5c91d",
+                "type": "FIX",
+                "text": "Inbox: Task Type filter searches only among the first 100 tasks",
+                "references": []
+            }
+        ]
+    },
+    "1.38.10": {
+        "date": "October 2016",
+        "notes": [
+            {
+                "id": "6b2b181f68258919754155d39fbdc445dd3caad5",
+                "type": "FIX",
+                "text": "Inbox: Cannot create Substitution rule in Unified Inbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "341662"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.38.23": {
+        "date": "June 2017",
+        "notes": [
+            {
+                "id": "18beb0f6b49d1b80e1d1e0d702a19608e1f314cd",
+                "type": "FIX",
+                "text": " Inbox: When working with the mobile version of BPMInbox the approval or rejection of tasks with custom actions causes unwanted navigation to the next task.",
+                "references": []
+            }
+        ]
+    },
+    "1.38.24": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "2e549456f47f575a916bcd5be0fc194423b4cb0a",
+                "type": "FIX",
+                "text": " Inbox: Custom Attributes are Displayed in Wrong Language",
+                "references": []
+            }
+        ]
     }
 }

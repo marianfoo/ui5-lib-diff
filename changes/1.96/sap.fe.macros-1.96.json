@@ -1,0 +1,419 @@
+{
+    "1.96.0": {
+        "date": "October 2021",
+        "notes": [
+            {
+                "id": "27aa1acabae21399dd7f4906c7a3e68422f418b1",
+                "type": "FEATURE",
+                "text": " Usage of the new enableAutoColumnWidth property from MDC"
+            },
+            {
+                "id": "f0f5c6e9a5656bcbb3a82d9c4bba716fba783d75",
+                "type": "FEATURE",
+                "text": " Toggling between draft and saved values is now also supported in the list report"
+            },
+            {
+                "id": "bb8282a0894c1540494d42572d2f4c9844b0ef71",
+                "type": "FIX",
+                "text": " The MultiValueField no longer triggers any incorrect requests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170248261"
+                    }
+                ]
+            },
+            {
+                "id": "0d30f0e03622065fc656670e199762ace538df36",
+                "type": "FIX",
+                "text": " The binding for the display of the unit of measure (UoM) has been changed"
+            },
+            {
+                "id": "d504772e9ad1c3557cfb0ee044eda92bad5ecfdc",
+                "type": "FIX",
+                "text": " The issue regarding micro charts that don't have a unit of measure label has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170230064"
+                    }
+                ]
+            },
+            {
+                "id": "6a8be7e6812ff2bbbfa8f2daa3a03f724b803cd2",
+                "type": "FIX",
+                "text": ": The entity of the table is now refreshed before the mass edit dialog is closed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170212651"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170180909"
+                    }
+                ]
+            },
+            {
+                "id": "d1c77e09ec9b8d39e3981dfa996fd62341b4396c",
+                "type": "FEATURE",
+                "text": " Boolean field are now dislayed as checkboxes in Edit mode, even if it has a ValueList annotation"
+            },
+            {
+                "id": "15d68c5a9a7f3c638a5c983a31c3e730a69c7895",
+                "type": "FIX",
+                "text": " The 'Delete' button in the table toolbar now works correctly in custom sections",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170218970"
+                    }
+                ]
+            },
+            {
+                "id": "dfc0fa5aea1dad7f1e0bf5da5fa8528572fe6284",
+                "type": "FIX",
+                "text": " The runtime error that occurred when using the Table building block (macros:Table) in a custom page has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170218535"
+                    }
+                ]
+            },
+            {
+                "id": "420009ee4272db3075ff4c80d2dc62b4056fbde5",
+                "type": "FEATURE",
+                "text": " The Paginator building block is now available"
+            },
+            {
+                "id": "a3d9e55c20a9c6b6c9d684f7259b50cdf9876bb8",
+                "type": "FEATURE",
+                "text": " The FilterBar building block is now available"
+            },
+            {
+                "id": "7f7f89226e40040ba406d2f35fb7857c7bded9d9",
+                "type": "FIX",
+                "text": " The keep-alive mode now also works for the navigation using a quick view title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170221014"
+                    }
+                ]
+            },
+            {
+                "id": "a53cb88e985e27c1bb23e1a166d66f55e3540702",
+                "type": "FIX",
+                "text": " The quick view popup no longer calls the ushell hrefForExternal function for each link shown in the list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170217449"
+                    }
+                ]
+            },
+            {
+                "id": "2679783bab5697092fd9b740ab7858813d91436f",
+                "type": "FIX",
+                "text": " Setting selectionMode to 'None' in the manifest now ensures that you cannot select table rows in Display mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180311866"
+                    }
+                ]
+            },
+            {
+                "id": "9eb2858802d0ae7ce8549e46bc20124b68568876",
+                "type": "FIX",
+                "text": " SAP Fiori elements now ensures the correct value help ID is used to check if value help exists",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170173774"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170184189"
+                    }
+                ]
+            },
+            {
+                "id": "12106b4164aa5f44a03e2636974cc480e85677e2",
+                "type": "FIX",
+                "text": " The default sorter has been removed from the type-ahead of the field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170177929"
+                    }
+                ]
+            },
+            {
+                "id": "9f2329cc6b5f84e7a185f9e3a78ca9c7b17c57b0",
+                "type": "FEATURE",
+                "text": " The Chart building block is now available"
+            }
+        ]
+    },
+    "1.96.1": {
+        "date": "November 2021",
+        "notes": [
+            {
+                "id": "25aae67c53771a9056a575df4f71d0bec42048bd",
+                "type": "FIX",
+                "text": " SAP Fiori elements now uses escape single quotes in strings of button labels",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170288842"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.3": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "0c73ad3b9b80a2e74e6e6a701325897e49d86352",
+                "type": "FIX",
+                "text": " For navigation property, the InOut parameters on value help in filter bar are ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170260063"
+                    }
+                ]
+            },
+            {
+                "id": "fee60aa65ea98b0ffcf85d8bf09aae16c9228879",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the MultiValueField when using a DataField that has a 1:1 with a 1:n navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280012195"
+                    }
+                ]
+            },
+            {
+                "id": "eafaa23d1a1a47db1ea538cc23ca7249a1bb2cd5",
+                "type": "FIX",
+                "text": " Columns now support the property type 'binary'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180381903"
+                    }
+                ]
+            },
+            {
+                "id": "bec4c0f35d383e3745c4ea2c3dd6a8b706bf643c",
+                "type": "FIX",
+                "text": " Facet hidden annotation is now set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170316605"
+                    }
+                ]
+            },
+            {
+                "id": "f5644d158380a40e6553403e919b084a800126e2",
+                "type": "FIX",
+                "text": " The 'Draft' indicator is now set correctly after you have selected an item in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180422226"
+                    }
+                ]
+            },
+            {
+                "id": "82b541695d7d780234f2436604b8ff4a8a3d70a1",
+                "type": "FIX",
+                "text": " Actions in the toolbar of the list report are now updated when you refresh the list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170250952"
+                    }
+                ]
+            },
+            {
+                "id": "bdad34a91b4f4203a8f71582f214a775a2cf274c",
+                "type": "FIX",
+                "text": " Read-only services no longer show 'Editing Status' in the 'Adapt Filters' dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180417361"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.4": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "4e28362390c2fe0c3d78c4d94fc3a0debad97393",
+                "type": "FIX",
+                "text": " For navigation property, the InOut parameters on value help in filter bar are ignored",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170260063"
+                    }
+                ]
+            },
+            {
+                "id": "f0dc84e880d36cb2d53c50e1aab39663ff0f761f",
+                "type": "FIX",
+                "text": " The DraftIndicator is now set correctly in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280025788"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.8": {
+        "date": "June 2022",
+        "notes": [
+            {
+                "id": "b43ae4c928e5336f56ffe8e517a99eb3ea763f32",
+                "type": "FIX",
+                "text": " Connected fields are now rendered properly in edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003790452022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.9": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "799c2782458e9e65cc56bc49bb6aa3c8b94ceb1c",
+                "type": "FIX",
+                "text": " We now trigger a new GET request whenever a user clicks the Go button in a filter bar of a value help dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004766202022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.10": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "a0e3dc1257791201b77c270c109d4ac983ac59d3",
+                "type": "FIX",
+                "text": " We now read default values of parameters of unbound actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005127072022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.12": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "505ec9fee3b12d9e7865e5f1808160ac14f3ecc4",
+                "type": "FIX",
+                "text": " The Out parameters in a value help of an action parameter dialog are now always considered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006130122022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.13": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "eaa39263614d9387fa5c8a1a9496f7238ad213f7",
+                "type": "FIX",
+                "text": " We now ensure the backslash is escaped before the input from the typeahead field is sent to the back end",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006760902022"
+                    }
+                ]
+            },
+            {
+                "id": "119d8ce0d8ec6472e4503909e91d8752482e21af",
+                "type": "FIX",
+                "text": " Dynamic expressions for the UI.Hidden annotation set on a DataFieldForAction are now supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007025052022"
+                    }
+                ]
+            },
+            {
+                "id": "8c2da458b656c2862209cfdad80a662fa4362c1c",
+                "type": "FIX",
+                "text": " We've resolved the console error related to a duplicate ID for the TableValueHelp",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006883092022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.16": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "62c0ce88d292eafdb3883d872bf4cf82db554b8b",
+                "type": "FIX",
+                "text": " SAP Fiori elements now properly exports large amounts of data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000625952023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.18": {
+        "date": "June 2023",
+        "notes": [
+            {
+                "id": "b9cfbaa391cdc31a38bd63631c2addddd3d4066c",
+                "type": "FIX",
+                "text": " We now avoid adding the 'V4:true' constraints twice for an Edm.DateTimeOffset property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001564842023"
+                    }
+                ]
+            }
+        ]
+    }
+}

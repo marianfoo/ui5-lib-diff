@@ -1,0 +1,199 @@
+{
+    "1.103.0": {
+        "date": "June 2022",
+        "notes": [
+            {
+                "id": "If029c96c01b2276d0ad3b0662b79f401393378fc",
+                "type": "FEATURE",
+                "text": "Call of an unbound action within the target app in the external navigation is now introduced"
+            },
+            {
+                "id": "I73ef5b36c7825f47d2ef2634d28b438eaa917194",
+                "type": "FEATURE",
+                "text": "Information density in the object page has been improved"
+            },
+            {
+                "id": "Ic9880f5a445e4dab5d14a12db00b936de927bbe6",
+                "type": "FEATURE",
+                "text": "Date range control in the visual filter is now supported"
+            },
+            {
+                "id": "I43dfdac0db9a91550b7ffe27a5345c4bb8340afc",
+                "type": "FEATURE",
+                "text": "An option has been provided to define new keyboard shortcuts for custom actions"
+            },
+            {
+                "id": "Ibdc53ea7142f43d585fb8cf7de6c0824f302fec5",
+                "type": "FEATURE",
+                "text": "Keyboard shortcut for the cancel button has been provided"
+            },
+            {
+                "id": "Idf7b700458eeef281e1e395f7317d6f11be0f652",
+                "type": "FEATURE",
+                "text": "Optional parameters of a parametrized oData service are now supported"
+            },
+            {
+                "id": "Ic6f78bfa5ebdfa7353d74420f7aa1dd6c8cea5a4",
+                "type": "FEATURE",
+                "text": "On the object page, support label is now available for file uploader"
+            },
+            {
+                "id": "Ib76ac759a6beb22108d290fee4cdf5580761d2b5",
+                "type": "FEATURE",
+                "text": "An option for showing own message in the message bar above the object page table is now available"
+            },
+            {
+                "id": "I349868a6eb1398b2a23a19ea35d5ab77fbdc3f35",
+                "type": "FEATURE",
+                "text": "Multiple empty table rows in the edit mode is now supported"
+            },
+            {
+                "id": "Icf07b76774e17e9da489b2ffd7da5adf595453a8",
+                "type": "FEATURE",
+                "text": "In the object page, file uploader is now supported"
+            },
+            {
+                "id": "I04d4afcd981fcc074fcf92fb071df5b9ead3635a",
+                "type": "FIX",
+                "text": "To render file uploader control, EntityType is now set for the object page"
+            },
+            {
+                "id": "Ia50d282fadb63d74a362ae558ce002ed947dc2a1",
+                "type": "FIX",
+                "text": "TemplateSpecificPreparationHelper URL parameter is now considered"
+            },
+            {
+                "id": "Id4bce47d6260e6fd8914ee38d8b3ba906014d387",
+                "type": "FIX",
+                "text": "The issue where navigation menu is not cleared when the user navigates from app to home is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270088045"
+                    }
+                ]
+            },
+            {
+                "id": "Ib284b1d0d57be9db60d1a620f46e2ad4218e8843",
+                "type": "FIX",
+                "text": "Fetch parameters for date range without odata4analytics is now available",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270099919"
+                    }
+                ]
+            },
+            {
+                "id": "I8501be952173dbf0cbcd0bc65f57a3b549e6da52",
+                "type": "FIX",
+                "text": "SmartMultiInput changes on selectionFinish event has been submitted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270055354"
+                    }
+                ]
+            },
+            {
+                "id": "I184d9bff47c1978039246dbdfd8a9a2266b3b168",
+                "type": "FIX",
+                "text": "The visible property of CreateWithDialog has been set to false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001272982022"
+                    }
+                ]
+            },
+            {
+                "id": "Ib7ca620cbf26adcbd2c2288c5c59bfebe1b8db92",
+                "type": "FIX",
+                "text": "Issues in the create dialog have been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270086474"
+                    }
+                ]
+            },
+            {
+                "id": "Ic46b586b90b9f0e623457f8f4cb6a074414db4a3",
+                "type": "FIX",
+                "text": "Default title of newly created object has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270102940"
+                    }
+                ]
+            },
+            {
+                "id": "I7e58e2d4695ec57853554ccc46426cb89af484e5",
+                "type": "FIX",
+                "text": "Using createBindingContext of model for external navigation, the binding context is now created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280056879"
+                    }
+                ]
+            },
+            {
+                "id": "I0c5656be700bd18a41d528c0cdcac3e1202a53fe",
+                "type": "FIX",
+                "text": "The correct AnnotationHelper.isInlineMode method is now invoked",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270091297"
+                    }
+                ]
+            },
+            {
+                "id": "If833e1f98d193458383b475d2d70d61021dbe837",
+                "type": "FIX",
+                "text": "Upon creating an app state, user can now restore the original app state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270085906"
+                    }
+                ]
+            },
+            {
+                "id": "I7f452a7f79d728e884eb73ac66b88d56a9065271",
+                "type": "FIX",
+                "text": "Focus in the object page section now persists for sub object page back navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180380277"
+                    }
+                ]
+            },
+            {
+                "id": "I20dae98886cbcfceeadc01b3e1a3fa41e055051f",
+                "type": "FIX",
+                "text": "Auto population of data has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270035566"
+                    }
+                ]
+            },
+            {
+                "id": "Ifcb57ac839aeb8b30b55edd0a4bdc5376db3e14a",
+                "type": "FIX",
+                "text": "To avoid text speech output issue, the visibility of multi edit dialog is set to false in the initial load",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270084778"
+                    }
+                ]
+            }
+        ]
+    }
+}

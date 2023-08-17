@@ -1,0 +1,151 @@
+{
+    "1.104.0": {
+        "date": "June 2022",
+        "notes": [
+            {
+                "id": "I427c4bb3bbd2f7b03a724eaaeca6ec2e114136c3",
+                "type": "FEATURE",
+                "text": "The loading indicator from side effect has been removed"
+            },
+            {
+                "id": "I352f428a3241745f5fa008529f191d763b8f39d2",
+                "type": "FEATURE",
+                "text": "An option has been provided to define new keyboard shortcuts for DataFieldForAction and DataFieldForIntentBasedNavigation actions"
+            },
+            {
+                "id": "I1cdc1597b2dc3231472939348db97b6d7c296688",
+                "type": "FEATURE",
+                "text": "Information density has been improved for the object page"
+            },
+            {
+                "id": "I90f388140e07b9d4399879f97f599c0d91274011",
+                "type": "FEATURE",
+                "text": "Navigation restriction now takes priority over insert restrictions "
+            },
+            {
+                "id": "Ifb626a29cf4f1a29fb405b94d4e7115ad5a5cb71",
+                "type": "FEATURE",
+                "text": "An option has been provided for specifying the allowed actions in the related apps functionality"
+            },
+            {
+                "id": "Icf85e5600954ddb6c2b62fb1ea099354e8ed7423",
+                "type": "FEATURE",
+                "text": "The performance for DELETE & GET request for the object page and sub object page deletions has been improved"
+            },
+            {
+                "id": "Ic24f02f96ffbc282cc12090d1fc20254985e535d",
+                "type": "FEATURE",
+                "text": "An extension point has provided Fiori Elements for applications to implement refresh as an entity, when ext.nav is triggered from reuse component"
+            },
+            {
+                "id": "I4bd4529dd378ddb65b27b6e035ffaa7a703bac79",
+                "type": "FEATURE",
+                "text": "Reuse component handling after clicking Save has been improved"
+            },
+            {
+                "id": "I448957aec7819b52d8cbc696acc526697613bfb1",
+                "type": "FEATURE",
+                "text": "Default values are now supported along with UX enhancements for empty rows creation"
+            },
+            {
+                "id": "I0b3f36137fd19c49bdafb5a5bb54200f414e67af",
+                "type": "FIX",
+                "text": "For the edit scenario, nested promise within the CRUD helper has been removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280106850"
+                    }
+                ]
+            },
+            {
+                "id": "I926d8d54f68bd6ae51a36ac00b0461ca5c84dbbf",
+                "type": "FIX",
+                "text": "If there is no data to show in the object page header, the header content remains hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280099466"
+                    }
+                ]
+            },
+            {
+                "id": "Id3f6d32bcb1fc7518c6c5f376354371312f483f4",
+                "type": "FIX",
+                "text": "You can now skip the navigation property that is used as a value help entity",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280101088"
+                    }
+                ]
+            },
+            {
+                "id": "I1c440c822ee4e167d6bba806ecf44764d93970a5",
+                "type": "FIX",
+                "text": "Text Arrangement for SmartLink has been considered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280095044"
+                    }
+                ]
+            },
+            {
+                "id": "Ife6f0342ad262c1b1931077ca2a676351f1eb848",
+                "type": "FIX",
+                "text": "Keep discard pop scenarios have been improved while performing back navigation in the draft mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280093429"
+                    }
+                ]
+            },
+            {
+                "id": "I7b8ee0bd0116034c2a7cc64f233ec74fefae9ef5",
+                "type": "FIX",
+                "text": "Draft discard confirmation popup has been added for cases wherein the user navigates between the main object pages of the same entity set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280095372"
+                    }
+                ]
+            },
+            {
+                "id": "Ibcf536c09135e34ee92eb2f8d32ed5e9026700c1",
+                "type": "FIX",
+                "text": "Side effect for multi input field has been added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270072763"
+                    }
+                ]
+            },
+            {
+                "id": "Ibabd293bc9086c453f2248b2501af7f96745edb5",
+                "type": "FIX",
+                "text": "Compatibility for both the promise object and jQuery deferred object has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270107857"
+                    }
+                ]
+            },
+            {
+                "id": "Ibdc3e626fb7206cd29744871e415adee7c2551f3",
+                "type": "FIX",
+                "text": "Custom text for side content button is now working",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280083535"
+                    }
+                ]
+            }
+        ]
+    }
+}

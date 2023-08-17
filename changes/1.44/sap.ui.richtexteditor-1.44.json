@@ -6,23 +6,13 @@
                 "id": "62eb7c673771d1ef69c7ea73b1941ebc7bea2d24",
                 "type": "FIX",
                 "text": "RichTextEditor: Changed Undo Button Behaviour",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1680148161"
-                    }
-                ]
+                "references": []
             },
             {
                 "id": "61526234e968e2e690999316e94df2463b086499",
                 "type": "FIX",
                 "text": "RichTextEditor: Use Powerpaste Plugin to Support Paste from Word",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "002007974700002580032016"
-                    }
-                ]
+                "references": []
             },
             {
                 "id": "bdb504f936e33975849cb80024a01ff4e5b8391e",
@@ -34,12 +24,85 @@
                 "id": "4c62112cf1e5f5ffb70ae0431d9d66deecfadb35",
                 "type": "FIX",
                 "text": "richtexteditor: Update TinyMCE to 4.4.3:",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1670396183"
-                    }
-                ]
+                "references": []
+            }
+        ]
+    },
+    "1.44.5": {
+        "date": "January 2017",
+        "notes": [
+            {
+                "id": "0a3b71c6af6f6a7080006d9f6b8a92f7b2baff89",
+                "type": "FIX",
+                "text": " RichTextEditor: Fixes for edge browser",
+                "references": []
+            }
+        ]
+    },
+    "1.44.14": {
+        "date": "May 2017",
+        "notes": [
+            {
+                "id": "9c4d92215bfafde1c96e3d933241802b9072e982",
+                "type": "FIX",
+                "text": " RichTextEditor: TinyMCE's undo manager now works consistently",
+                "references": []
+            },
+            {
+                "id": "110d4568379ac4eedd49ee2d80b1fd38d0de3226",
+                "type": "FIX",
+                "text": " RichTextEditor: Update TinyMCE to version 4.5.7",
+                "references": []
+            }
+        ]
+    },
+    "1.44.21": {
+        "date": "October 2017",
+        "notes": [
+            {
+                "id": "d92edeb6989760b37a61c3de882bc3c82de30d17",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Do not preserve RTE if parent container is preserved.",
+                "references": []
+            }
+        ]
+    },
+    "1.44.22": {
+        "date": "October 2017",
+        "notes": [
+            {
+                "id": "6dfe44a3a1be662e45790acca134182fa4a55f8b",
+                "type": "FIX",
+                "text": " Revert: sap.ui.richtexteditor.RichTextEditor: Update TinyMCE to 4.6.3 (not latest possible version)",
+                "references": []
+            },
+            {
+                "id": "920a5ae9e97c8b6474725cd829a83f1e1cae9674",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Update TinyMCE to 4.6.3 (not latest possible version)",
+                "references": []
+            }
+        ]
+    },
+    "1.44.24": {
+        "date": "November 2017",
+        "notes": [
+            {
+                "id": "68e4170e5d60d212eb90f5023bb3c9b0db544f0a",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Fix for HTML comments breaking the editor.",
+                "references": []
+            }
+        ]
+    },
+    "1.44.34": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "a1087d6ffdeece78c95fd5697b739518a03b815d",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Handle HTML content properly",
+                "references": []
             }
         ]
     }

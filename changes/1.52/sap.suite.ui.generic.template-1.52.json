@@ -487,5 +487,899 @@
                 ]
             }
         ]
+    },
+    "1.52.1": {
+        "date": "November 2017 19.Oct - 07.Nov",
+        "notes": [
+            {
+                "id": "c6c609e31b24c7b7b2a0d60f218591e2d07e2074",
+                "type": "FIX",
+                "text": "LROP: Quick view: Accessibility and header title wrapping improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770473656"
+                    }
+                ]
+            },
+            {
+                "id": "Idaf753df222099d55c0cd9712f4c4a771679fe1b",
+                "type": "FIX",
+                "text": "LROP: Correct refresh behavior implemented",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770429930"
+                    }
+                ]
+            },
+            {
+                "id": "I3fdb1e1ecb7352543a719612051a69a5dfc15d2e",
+                "type": "FIX",
+                "text": "LROP: Share sheet flicker issue fixed"
+            },
+            {
+                "id": "03f25fb2175f3d3cc4311406ca28e1ce39a6e325",
+                "type": "FIX",
+                "text": "LROP: Removed redundant check for getting action name property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770527247"
+                    }
+                ]
+            },
+            {
+                "id": "ded986cead0cb39b962ccf7120dddc9b9b2bb4e7",
+                "type": "FIX",
+                "text": "LROP: Introduced manifest setting for hiding chevron in inline create",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770334229"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.2": {
+        "date": "October 2017",
+        "notes": [
+            {
+                "id": "c5a83332933c1e40a1927b9f60e3c439a8f036ac",
+                "type": "FIX",
+                "text": "OP: Custom No data texts for Smart Table now supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770560255"
+                    }
+                ]
+            },
+            {
+                "id": "804e023827892c5fa8e41fd9f11de11c9d988616",
+                "type": "FIX",
+                "text": "LROP Navigation to list report which is triggered by deletion of an object must be a back navigation if possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770572891"
+                    }
+                ]
+            },
+            {
+                "id": "b196c15b29512815a5cdf16f3bce481d2db8aa95",
+                "type": "FIX",
+                "text": "LR: Delete button enablement for multiple views has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770601204"
+                    }
+                ]
+            },
+            {
+                "id": "ed07b0620895dd9f5bc4f54504ab62b7d215b1c8",
+                "type": "FIX",
+                "text": "LR: Performance has been optimized when switching between table tabs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770561030"
+                    }
+                ]
+            },
+            {
+                "id": "d31184478dfe416e6dc0ba02bfc34071ffffb4f9",
+                "type": "FIX",
+                "text": "LROP: Display of not-supported intents for SmartChart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770537810"
+                    }
+                ]
+            },
+            {
+                "id": "378c48ac89cc86c2f194cbe600d2dbf857e307bd",
+                "type": "FIX",
+                "text": "Providing tooltip for special visualization columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770536713"
+                    }
+                ]
+            },
+            {
+                "id": "6493ff00aa43a3ccd1b7bd25b7d3dfe88fd8ef5e",
+                "type": "FIX",
+                "text": "LR: Refresh behavior adpated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770296483, 1770473293, 1770429930"
+                    }
+                ]
+            },
+            {
+                "id": "7dfd74c6a1498616024fbfef496de941c7dba11a",
+                "type": "FEATURE",
+                "text": "ALP: Refresh behaviour adapted for Object Page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770472200"
+                    }
+                ]
+            },
+            {
+                "id": "Ic1192304589f67ad366ddc1de57bfbde27a5d3ea",
+                "type": "FIX",
+                "text": "LROP: Handling of appStates adapted to avoid application to hang up afterwards in certain scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770608155"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.53.3": {
+        "date": "December 2017",
+        "notes": [
+            {
+                "id": "875f75b44b6f72965667b70afbdb841d8f5c0786",
+                "type": "FIX",
+                "text": "LR: Empty table lines in table tabs have been removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770561030"
+                    }
+                ]
+            },
+            {
+                "id": "ac0f65ad4afb5835481030a95d585be639718354",
+                "type": "FIX",
+                "text": "OP: Newly created items must appear in the corresponding table immediately in the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770482388"
+                    }
+                ]
+            },
+            {
+                "id": "42b9e5af5402f217b6591d5b988adeba71af56b6",
+                "type": "FIX",
+                "text": "LR: Variant enablement for smart charts has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780434658"
+                    }
+                ]
+            },
+            {
+                "id": "235842cfda0b5d995d11a8c4d6ec7c6b80a02464",
+                "type": "FIX",
+                "text": "OP: Custom 'no data found' texts for smart table now supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770560255"
+                    }
+                ]
+            },
+            {
+                "id": "7104a88e70e0f75fa83df481cfd9922401422e75",
+                "type": "FIX",
+                "text": "LROP: Navigation to list report which is triggered by deletion of an object must be a back navigation if possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770572891"
+                    }
+                ]
+            },
+            {
+                "id": "9593664d727d2fe61a324c628a4be82b533dff8c",
+                "type": "FIX",
+                "text": "LR: Delete button enablement for multiple views has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770601204"
+                    }
+                ]
+            },
+            {
+                "id": "4e204ea8b2baef8c92abe23c431c6003b34eb735",
+                "type": "FIX",
+                "text": "LROP: Row highlight enhancement for lineItem with qualifiers"
+            }
+        ]
+    },
+    "1.52.5": {
+        "date": "January 2018 Extract from 2017-12-12 until 2018-01-30",
+        "notes": [
+            {
+                "id": "6d299572c49b59195e20cf365a1acb772924036f",
+                "type": "FIX",
+                "text": "LR: App state handling for multiple views has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780467377"
+                    }
+                ]
+            },
+            {
+                "id": "ba107d04c90417d385865d7db5680280804478ba",
+                "type": "FIX",
+                "text": "OP: UI.Hidden annotation at ObjectPageSection was interpreted wrong"
+            },
+            {
+                "id": "45d86a658bae4ee8598dd5c6d6a1963078031c72",
+                "type": "FIX",
+                "text": "LROP: Enable grouping also by properties of entities that can be reached by navigation properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770120347"
+                    }
+                ]
+            },
+            {
+                "id": "5fe7815d872471444c16d04279a92d2c2cb088ce",
+                "type": "FIX",
+                "text": "LROP: Contrast of titles for Belize_Plus improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780419571"
+                    }
+                ]
+            },
+            {
+                "id": "57aa07ea1bf41eb48a21df6c3410d71070d7294f",
+                "type": "FIX",
+                "text": "LROP: Display translated texts for unsaved changes popup also in case of navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770514664"
+                    }
+                ]
+            },
+            {
+                "id": "166e64e1078e6a3efe0f50839c5b5fc7af53b666",
+                "type": "FIX",
+                "text": "LROP: Export to Excel Contact Popup column corrected.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770576887"
+                    }
+                ]
+            },
+            {
+                "id": "1d056a279dfc3c4cb67bbcac6ffacf52a0e51f7c",
+                "type": "FIX",
+                "text": "LR: Remove insufficient error handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780468403"
+                    }
+                ]
+            },
+            {
+                "id": "a274353d52b78d46d85e1ce5c0123b6d504684bd",
+                "type": "FIX",
+                "text": "LR: Empty table lines in table tabs have been removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1770561030"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.6": {
+        "date": "February 2018",
+        "notes": [
+            {
+                "id": "7e505050e024eef0b63f13d97e26459a328c3228",
+                "type": "FIX",
+                "text": "Using locale for display value in progress Indicator",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376600004199032017"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.7": {
+        "date": "February 2018",
+        "notes": [
+            {
+                "id": "684b12abb5f31ba0a6ebf959948852a8dfd1d30b",
+                "type": "FIX",
+                "text": "LROP: In case of quick view navigation targets, multiple keys are checked"
+            },
+            {
+                "id": "1217d71e929ff747270f4fb550a8cce413fa72a9",
+                "type": "FIX",
+                "text": "LROP: Display format of progress indicator fixed when target value is null",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880154072"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.8": {
+        "date": "March 2018",
+        "notes": [
+            {
+                "id": "324af32038fee5b9b93cc5d44b836cb7fc236aa6",
+                "type": "FIX",
+                "text": "LR: Data selection for draft-enabled services with disabled filter on edit state has been improved"
+            },
+            {
+                "id": "8cd7ee5be1801c681bfc4d6eb7c2b29caa92314a",
+                "type": "FIX",
+                "text": "LR: Usage of condensed mode for analytical, grid and tree table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880188467"
+                    }
+                ]
+            },
+            {
+                "id": "d8e20d8eb2ab76ea896d29604ba872e827e07b44",
+                "type": "FIX",
+                "text": "LR/ALP: Determining actions optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1780469708"
+                    }
+                ]
+            },
+            {
+                "id": "bf85b20b7dccfc9e3cc1c0ab8ae8fe2f88ed4634",
+                "type": "FIX",
+                "text": "OP: App-internal linking: EntitySet is readable now",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880192035"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.9": {
+        "date": "15 March 2018",
+        "notes": [
+            {
+                "id": "Ic0294304c53ca22abcc7e57aba37e3999b8f9c91",
+                "type": "FIX",
+                "text": "LR: Refresh list report binding when switching tabs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880204559"
+                    }
+                ]
+            },
+            {
+                "id": "Ia6d127bca435b5e393f9c2d0c341bfa5d168096e",
+                "type": "FIX",
+                "text": "LR: Export to Excel has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000122456 2018"
+                    }
+                ]
+            },
+            {
+                "id": "I5a2a9c916a9d540cdafe7ef0264426e66b6fb948",
+                "type": "FIX",
+                "text": "OP: Improved layout when DataFieldWithNavigationPath is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880158112"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.10": {
+        "date": "April 2018",
+        "notes": [
+            {
+                "id": "477e5f08974dba3d874fec6b7e3180d6500fd5ca",
+                "type": "FIX",
+                "text": "LR: Resolved Selection Mode in Tree Table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880115577"
+                    }
+                ]
+            },
+            {
+                "id": "cee5263716b12f909d77f9e1849a6cd6d16f65ce",
+                "type": "FIX",
+                "text": "LROP: sap.ui.table-based tables should not flicker",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880239278"
+                    }
+                ]
+            },
+            {
+                "id": "af98adfbf1de8ad0b603190be7758ac444bd8301",
+                "type": "FIX",
+                "text": "OP: Header padding fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870026382"
+                    }
+                ]
+            },
+            {
+                "id": "a9f50e79f9df0c20892e07384ddcac028d4e824e",
+                "type": "FIX",
+                "text": "LR: Refresh of list report after object page was deleted in flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880204559"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.11": {
+        "date": "April 2018",
+        "notes": [
+            {
+                "id": "cd6e5587d5ced6b7cd5e2c8efd81027527846e77",
+                "type": "FIX",
+                "text": "LROP: Error handling in case of wrong EntitySet in manifest improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880117026"
+                    }
+                ]
+            },
+            {
+                "id": "c2fb67bb9601f04e7d706f6bedbbb055e13b47db",
+                "type": "FIX",
+                "text": "OP: App-internal linking is executable now"
+            },
+            {
+                "id": "92486225873a2cfdc192079464d4eda65e619191",
+                "type": "FIX",
+                "text": "LR: Flexible column layout for tree table has been improved"
+            }
+        ]
+    },
+    "1.52.12": {
+        "date": "May 2018",
+        "notes": [
+            {
+                "id": "33baf414da20a86182dfb97f7a9035e9cd8c237f",
+                "type": "FIX",
+                "text": "OP: Timing of side effects and draft merge improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870241596"
+                    }
+                ]
+            },
+            {
+                "id": "71885eb4cfb533827cf2a2025767e5ff3f43bbe2",
+                "type": "FIX",
+                "text": "OP: Handling of global side effect has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870186222"
+                    }
+                ]
+            },
+            {
+                "id": "1ba8aa1d4b022a287facd92410aa2a6287861fb7",
+                "type": "FIX",
+                "text": "LR: Handling of an unaccessible app state has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880205240, 1880179719"
+                    }
+                ]
+            },
+            {
+                "id": "c5c088cddbf0f2b38c736f1862125b0ba96879df",
+                "type": "FIX",
+                "text": "Handling after user cancels an action improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870191162"
+                    }
+                ]
+            },
+            {
+                "id": "2fff4e8e9f142e28ce824543c76d9019515ad989",
+                "type": "FIX",
+                "text": "LROP: Formatting for grouped numbers fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880033473"
+                    }
+                ]
+            },
+            {
+                "id": "14a62aa462e5161c20fe2e2a299f846e0a32462e",
+                "type": "FIX",
+                "text": "OP: Refresh after draft activation improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870032069"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.14": {
+        "date": "June 2018",
+        "notes": [
+            {
+                "id": "d78663322141ef2f443b485adb41abc78bd8b670",
+                "type": "FIX",
+                "text": "LROP: Title with navigation property can be given for action dialogs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870320897"
+                    }
+                ]
+            },
+            {
+                "id": "206cde31f335753006cb53c4aaf65e285d4dce54",
+                "type": "FIX",
+                "text": "LR: Line Item annotation with qualifier in different views mode supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870320031"
+                    }
+                ]
+            },
+            {
+                "id": "1de7f9fee5b445937ec82c412926c5ca3ba0cde1",
+                "type": "FIX",
+                "text": "OP: extensionAPI.refresh() does not consistently trigger a refresh for data which are currently displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870287535"
+                    }
+                ]
+            },
+            {
+                "id": "a7275dee8efea95c9fd997a06edbd3ae6181f701",
+                "type": "FIX",
+                "text": "Determination of applicable path for extension actions has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870251454"
+                    }
+                ]
+            },
+            {
+                "id": "d23d50eca433ae7f7c44db5ad40178b42b5fb0db",
+                "type": "FIX",
+                "text": "LROP: Formatting for grouped dates improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870263344"
+                    }
+                ]
+            },
+            {
+                "id": "dcc75ac689af051e52131113d629bdbddc989359",
+                "type": "FIX",
+                "text": "LR: Screen reading of dataloss popup has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870217164"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.15": {
+        "date": "June 2018",
+        "notes": [
+            {
+                "id": "87ade65f06ce605f1d5c5115bc73b08856059ec5",
+                "type": "FIX",
+                "text": "LROP: Fixed issue with incomplete data shown on object page after search has been retriggered on list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880276131"
+                    }
+                ]
+            },
+            {
+                "id": "3e0130bd27af572aaf9053bb01e63957f13dbf4f",
+                "type": "FIX",
+                "text": "LR: Evaluation of PresentationVariants has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870103232"
+                    }
+                ]
+            },
+            {
+                "id": "3f1620718f01ec17a12ae1f92b1e1580b89cf51f",
+                "type": "FIX",
+                "text": "LROP: Evaluation of navigation paths has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880252366"
+                    }
+                ]
+            },
+            {
+                "id": "fc1fc32fd54c99e6975d8a84a3f5f1a1f02ea83e",
+                "type": "FIX",
+                "text": "OP: Enablement of custom buttons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870292763"
+                    }
+                ]
+            },
+            {
+                "id": "3c3352dd0cec2b7330df383d5d3ee6fe488f1f38",
+                "type": "FIX",
+                "text": "LR: Handling of selection variant in multiple views corrected"
+            }
+        ]
+    },
+    "1.52.16": {
+        "date": "July 2018",
+        "notes": [
+            {
+                "id": "3f6dcb766fbca8902bcf91e83458af61de22600b",
+                "type": "FIX",
+                "text": "LR: Startup with QuickVariantSelection improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870294167"
+                    }
+                ]
+            },
+            {
+                "id": "4cb09792d70571503418f67434f54ccfc43a1110",
+                "type": "FIX",
+                "text": "LR: Refresh list report with multiple tabs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1870193938"
+                    }
+                ]
+            },
+            {
+                "id": "2891a8004ecd41451c1dff88e49dcb54be91bb43",
+                "type": "FEATURE",
+                "text": "SAP Fiori elements diagnostics tool plugin"
+            },
+            {
+                "id": "2a6dc169e6093e6a74d9e93f1ec7e074dd3e8926",
+                "type": "FIX",
+                "text": "OP: Enablement of custom actions improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880334577"
+                    }
+                ]
+            },
+            {
+                "id": "28cbd6e1f0afda6212e771ebab122b0aa1ee87ab",
+                "type": "FIX",
+                "text": "LR: Items with state 'unsavedChanges' should be deletable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880328860"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.18": {
+        "date": "Aug 2018",
+        "notes": [
+            {
+                "id": "75af1f20a61f5e2868df26ebe3cc3dcc37161421",
+                "type": "FIX",
+                "text": "OP: Table toolbar button enablement has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880517754"
+                    }
+                ]
+            },
+            {
+                "id": "8d561ae1a6810a8e2b5d4ff03c350df1dace3f06",
+                "type": "FIX",
+                "text": "SemanticObject QV link parameter is converted into a string",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880469667, 1880527693"
+                    }
+                ]
+            },
+            {
+                "id": "d4dd7d2f3b7deaf453ecc226f98a64f8b58b47a0",
+                "type": "FIX",
+                "text": "LR: SemanticObject QV link parameter is converted into a string",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880469667"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.20": {
+        "date": "November 2018",
+        "notes": [
+            {
+                "id": "c92ebc589059cbb1f393d7f6a987b99410deef03",
+                "type": "FIX",
+                "text": "LR: Evaluate SortOrder independent from table type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000559361 2018"
+                    }
+                ]
+            },
+            {
+                "id": "764b2df5f67c1437b55dd87bfa1f8b0eb3ac2503",
+                "type": "FIX",
+                "text": "LROP: Grouping for navigation properties fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880245739"
+                    }
+                ]
+            },
+            {
+                "id": "3cd1fd7dcb71c45285e061b0975944a57732a266",
+                "type": "FIX",
+                "text": "LROP: Handling of DataFieldWithNavigationPath has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880668672"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.22": {
+        "date": "January 2019",
+        "notes": [
+            {
+                "id": "5c0f512368dd894db7e061df7f93c7973287ab18",
+                "type": "FIX",
+                "text": "LROP: Grouping for analytical table optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005625672018"
+                    }
+                ]
+            },
+            {
+                "id": "816bd00f24628bf786dfb8cf5dd68ebdda364fd4",
+                "type": "FIX",
+                "text": "LR: Remove enableInResultForLineItem to support the aggregation behaviour of analytical tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006581192018"
+                    }
+                ]
+            },
+            {
+                "id": "b25a7072eda8d891883f3296b71ffb2691bc01ef",
+                "type": "FIX",
+                "text": "LROP: Formatting for grouped numbers without unit fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1880678812"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.52.24": {
+        "date": "April 2019",
+        "notes": [
+            {
+                "id": "40335ce500d9acc2c48bec66311ea2efd321b14d",
+                "type": "FIX",
+                "text": "LROP: Cross-app navigation with DraftUUUID corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006331082018, 1870531456"
+                    }
+                ]
+            }
+        ]
     }
 }

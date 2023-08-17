@@ -5,98 +5,140 @@
             {
                 "id": "89cc6fc0f09278bf59410573aab4e842b5a420fb",
                 "type": "FEATURE",
-                "text": "DraftController: Enhance method createNewDraftEntity.",
+                "text": " DraftController: Enhance method createNewDraftEntity.",
                 "references": []
             },
             {
                 "id": "c7e638db402f477b044a73779b340eda442ce8e3",
                 "type": "FEATURE",
-                "text": "DraftController: Improve documentation and error handling",
+                "text": " DraftController: Improve documentation and error handling",
                 "references": []
             },
             {
                 "id": "ae71e15e3ae9f967e91b5830c4f285eb4b54ac5e",
                 "type": "FEATURE",
-                "text": "LROP: Context Dependent Actions: Messaging",
+                "text": " LROP: Context Dependent Actions: Messaging",
                 "references": []
             },
             {
                 "id": "040c2cdb5aab6b224a5b3804f43c0621abda09db",
                 "type": "FEATURE",
-                "text": "NavigationHandler: consider navigation mode 'explace'",
+                "text": " NavigationHandler: consider navigation mode 'explace'",
                 "references": []
             },
             {
                 "id": "93ad7dedabf2333cf1bdb748146cb0b8a871da78",
                 "type": "FEATURE",
-                "text": "NavigationHandler: do not wait for inner state when navigating",
+                "text": " NavigationHandler: do not wait for inner state when navigating",
                 "references": []
             },
             {
                 "id": "adab40bccfcd583111058390c6adc945de78bc8e",
                 "type": "FIX",
-                "text": "BaseController: Check for at least one not-aborted Request",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1780319095"
-                    }
-                ]
+                "text": " BaseController: Check for at least one not-aborted Request",
+                "references": []
             },
             {
                 "id": "5b2ae8d2d9990dac8fc18a03e3d315b3c1160ea3",
                 "type": "FIX",
-                "text": "BaseController: For no request in batch group also submit",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1780378511"
-                    }
-                ]
+                "text": " BaseController: For no request in batch group also submit",
+                "references": []
             },
             {
                 "id": "9b280f5e6b209b1426922341671f367ef843c976",
                 "type": "FIX",
-                "text": "BaseController: Model is not informed in case of implicit error",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1780335799"
-                    }
-                ]
+                "text": " BaseController: Model is not informed in case of implicit error",
+                "references": []
             },
             {
                 "id": "58965d32090fadd356075cb71871a05cec74974e",
                 "type": "FIX",
-                "text": "BaseController: _checkSubmit validates also GET requests",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1780344131"
-                    }
-                ]
+                "text": " BaseController: _checkSubmit validates also GET requests",
+                "references": []
             },
             {
                 "id": "08602b0880a3c6bb17c4775a9852e46da3d25e8e",
                 "type": "FIX",
-                "text": "DraftController: Prepare and Validate only on inactive Instances",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1780293261"
-                    }
-                ]
+                "text": " DraftController: Prepare and Validate only on inactive Instances",
+                "references": []
             },
             {
                 "id": "b0d2b31cc9ec66431300a8e6e43a0122c2d84a9e",
                 "type": "FIX",
-                "text": "FunctionImport: SideEffect called for wrong context",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1780327659"
-                    }
-                ]
+                "text": " FunctionImport: SideEffect called for wrong context",
+                "references": []
+            }
+        ]
+    },
+    "1.52.2": {
+        "date": "November 2017",
+        "notes": [
+            {
+                "id": "410f66b568abf0a163d935d67603c4aa7a67eb3b",
+                "type": "FIX",
+                "text": " removing duplicate message",
+                "references": []
+            }
+        ]
+    },
+    "1.52.6": {
+        "date": "February 2018",
+        "notes": [
+            {
+                "id": "f560138a4a0ce6d90f94d8352abb0a62292ff714",
+                "type": "FIX",
+                "text": " Added generic texts for transient error message titles",
+                "references": []
+            }
+        ]
+    },
+    "1.52.8": {
+        "date": "March 2018",
+        "notes": [
+            {
+                "id": "1037569a28aa44dab86a9b38f60f8ad217711ec5",
+                "type": "FIX",
+                "text": " NavigationHandler: remove delayed hashChange",
+                "references": []
+            }
+        ]
+    },
+    "1.52.10": {
+        "date": "April 2018",
+        "notes": [
+            {
+                "id": "8e720bcacad54526841b3a0c84c506c44a173dbc",
+                "type": "FIX",
+                "text": " ActionUtil: Model data now changed via setProperty",
+                "references": []
+            },
+            {
+                "id": "f300815e4ffe87ee5e7cf490743a7ed08866f14b",
+                "type": "FIX",
+                "text": " sap.ui.generic..BaseController: checkSubmit gives true",
+                "references": []
+            }
+        ]
+    },
+    "1.52.18": {
+        "date": "August 2018",
+        "notes": [
+            {
+                "id": "5e2e9038a118d197955a94613b419d52d7d0c093",
+                "type": "FIX",
+                "text": " sap.ui.generic Submit Logic: More error situations detected",
+                "references": []
+            }
+        ]
+    },
+    "1.52.20": {
+        "date": "October 2018",
+        "notes": [
+            {
+                "id": "9e92e152d3f65e5385b51f4e96a744826c2aef8a",
+                "type": "FIX",
+                "text": " ActionUtil: Width of generated TextArea control adjusted",
+                "references": []
             }
         ]
     }

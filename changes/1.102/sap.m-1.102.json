@@ -1112,5 +1112,130 @@
                 ]
             }
         ]
+    },
+    "1.102.10": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "d093b051d9280505a0c3755093810cb299e5bc6c",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: adjust mask initialization",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270142822"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.11": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "652bc4118e859986b0b7a371182780b388dc8243",
+                "type": "FIX",
+                "text": " sap.m.Input: Pressing ESC now resets the proposed text",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007258462022"
+                    }
+                ]
+            },
+            {
+                "id": "243a070babfb96486236303e460a4d3e0c64972b",
+                "type": "FIX",
+                "text": " sap.m.Input: suggestionItemSelected is now fired correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270121964"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270121963"
+                    }
+                ]
+            },
+            {
+                "id": "dc2058b8172bec1c943ec3bb1e23c4f3f0375dab",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Max sizes are now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270068256"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270149659"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.12": {
+        "date": "December 2022",
+        "notes": [
+            {
+                "id": "d49dd9c3f5c70473d71dbf79c0ebaa0ac3ee7e0c",
+                "type": "FIX",
+                "text": " sap.m.Button: adjusting self reference",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270101986"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280166158"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.15": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "d45c6c96982282ff8927d321c65bc451bff5eb16",
+                "type": "FIX",
+                "text": " sap.m.DatePicker: Switch hours when minDate is after maxDate",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370001157"
+                    }
+                ]
+            },
+            {
+                "id": "114cc74922609190a67c961c36d0f4095a55034c",
+                "type": "FIX",
+                "text": " sap.m.SplitApp: Fixed failing test on Safari",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270154471"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.16": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "7d1b80ae93be4a650ce08c2de58a894ee668535b",
+                "type": "FIX",
+                "text": " sap.m.FormattedText: Formatting issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            }
+        ]
     }
 }

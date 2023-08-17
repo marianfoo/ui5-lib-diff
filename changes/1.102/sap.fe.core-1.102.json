@@ -739,5 +739,37 @@
                 ]
             }
         ]
+    },
+    "1.102.7": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "ad983fda8023de7b39b0441dce42914771f39b66",
+                "type": "FIX",
+                "text": " We now ensure the backslash is escaped before the input from the type-ahead field is sent to the back end",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006760902022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.8": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "818bf7fbac30689a7b09e0b582f225298fb6b7bb",
+                "type": "FIX",
+                "text": " We've resolved an issue where the navigation to an object page was stalled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380030450"
+                    }
+                ]
+            }
+        ]
     }
 }

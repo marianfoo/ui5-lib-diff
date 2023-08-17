@@ -1,7 +1,18 @@
 {
     "1.95.0": {
-        "date": "September 2021",
+        "date": "October 2021",
         "notes": [
+            {
+                "id": "09dfe5e9e35d2a33e669103a5edf6c1e9738e51b",
+                "type": "FIX",
+                "text": " Incorrectly handled apps containing multiple entity sets with a custom view are now parsed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170221351"
+                    }
+                ]
+            },
             {
                 "id": "ed4236140b41eddcd1d8a61d916c598b22ef5f2f",
                 "type": "FIX",

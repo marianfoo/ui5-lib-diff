@@ -3,6 +3,83 @@
         "date": "June 2021",
         "notes": [
             {
+                "id": "37d9f5a16e279662dad41bc354292cc1e35253c9",
+                "type": "FIX",
+                "text": " BaseValueListProvider: _onAnnotationLoad fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180217601"
+                    }
+                ]
+            },
+            {
+                "id": "56856bbe71f0b71871965da5dca04c6c22a15be8",
+                "type": "FIX",
+                "text": " SmartTable: Use monospaced font only for unit part",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180216104"
+                    }
+                ]
+            },
+            {
+                "id": "ddd1f38ad014f3251219a105d1fe8a2c448228c5",
+                "type": "FIX",
+                "text": " SmartField: Added correct type in the model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180206621"
+                    }
+                ]
+            },
+            {
+                "id": "29b0b578415d67d66ebb31cd4c1dc078dcb175fd",
+                "type": "FIX",
+                "text": " BaseValueListProvider: _onAnnotationLoad fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180207503"
+                    }
+                ]
+            },
+            {
+                "id": "2919da748f780c8f74048e8c9f0b5751a11453c0",
+                "type": "FIX",
+                "text": " SmartField: Get the correct control onValidation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180188864"
+                    }
+                ]
+            },
+            {
+                "id": "d880ef1e01e2af8689f0df4a01f353c7b85a6ccf",
+                "type": "FIX",
+                "text": " FilterBar: ValueState is now restored when Adapt Filters dialog is closed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180183172"
+                    }
+                ]
+            },
+            {
+                "id": "70fc871fb51e0c625b76d7faec2322f2c6c0b5be",
+                "type": "FIX",
+                "text": " SmartField: Added correct type in the model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180185151"
+                    }
+                ]
+            },
+            {
                 "id": "6f2b7847ae1eb81cd06bea196f57f9cf6afcf9c0",
                 "type": "FIX",
                 "text": " SmartFilterBar: getFilterBarViewMetadata fix",
@@ -10,169 +87,6 @@
                     {
                         "type": "BCP",
                         "reference": "2180191533"
-                    }
-                ]
-            },
-            {
-                "id": "29e2c4ce1dff99ac93b648fc46ec45ed06c131af",
-                "type": "FIX",
-                "text": " SmartField: Fixed UoM with TextArrangement",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2180179399"
-                    }
-                ]
-            },
-            {
-                "id": "ab3651b8a1b9d09543607cc1de7eef65db09b981",
-                "type": "FIX",
-                "text": " SmartFilterBar: DateRangeType operation TODAYFROMTO handle null values",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2180163355"
-                    }
-                ]
-            },
-            {
-                "id": "dba73c1a64d42afec658b83f0f15f9f27aefb2e6",
-                "type": "FIX",
-                "text": " SmartField: Fixed UoM when is in display mode",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2180176469"
-                    }
-                ]
-            },
-            {
-                "id": "a06cb824791a9215abfe963724e4b83b6b9889e4",
-                "type": "FIX",
-                "text": " MetadataAnalyser: getValueListAnnotationLazy modified",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2180178340"
-                    }
-                ]
-            },
-            {
-                "id": "d2e8e65c70759f2008396d89638c4262ee3bc3f0",
-                "type": "FIX",
-                "text": " SmartFilterBar: getFilterBarViewMetadata fix",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2180178340"
-                    }
-                ]
-            },
-            {
-                "id": "46634a2bd6711c698d8631e39f6c0da429a68cab",
-                "type": "FEATURE",
-                "text": " SmartTable: showPasteButton property is added"
-            },
-            {
-                "id": "4ac05130a7462b1d9611f5577e45ac43ee5a8adc",
-                "type": "FEATURE",
-                "text": " SmartTable: enableAutoColumnWidth support for custom columns"
-            },
-            {
-                "id": "8765b2cb446428da83e06a39fbdd17e662e3414f",
-                "type": "FIX",
-                "text": " SmartFilterBar: valueListAnnotationLoaded event fixed",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2180169367"
-                    }
-                ]
-            },
-            {
-                "id": "0201362c5464f9f4fbe886d55b14c1255aaa2590",
-                "type": "FIX",
-                "text": " FilterBar: Correct filters rendering",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2170138877"
-                    }
-                ]
-            },
-            {
-                "id": "61d25e109606ee89b8dcf826f773c4afedeaa2f1",
-                "type": "FIX",
-                "text": " SmartField: tests timeout fixed",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2180148208"
-                    }
-                ]
-            },
-            {
-                "id": "f3b3fed33668d1bafd5ccc3a5c1af582a75ef711",
-                "type": "FEATURE",
-                "text": " SmartField reuse description when selecting from Suggestions/ValueHelpDialog"
-            },
-            {
-                "id": "5e214bcd5fb5f92819cf95035c81ca602ac3ef88",
-                "type": "FIX",
-                "text": " SmartField: Fixed currency when is out of SmartForm",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2170156182"
-                    }
-                ]
-            },
-            {
-                "id": "37ab23de5e04939dfc1760e491723fb2d5f96ed4",
-                "type": "FIX",
-                "text": " ValueHelpDialog: Setting contentWidth property is now fixed",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2170129088"
-                    }
-                ]
-            },
-            {
-                "id": "0c60e5bf2fb83d8ba6a75db747ec67fb91ceac44",
-                "type": "FEATURE",
-                "text": " SmartField: Unit of measure with customList is now supported"
-            },
-            {
-                "id": "32fa0f6be63d460ea83a9d42429f55a755ce6b56",
-                "type": "FIX",
-                "text": " SmartFilterBar: getAllFilterItems is no longer called after initializing",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2170139405"
-                    }
-                ]
-            },
-            {
-                "id": "220cb3f0147190564e20dbe16aa32f24fb2e436a",
-                "type": "FIX",
-                "text": " SmartField: Value list out parameters included in description request",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2180082621"
-                    }
-                ]
-            },
-            {
-                "id": "49ebde59cd30e45782597732c9ffd7acba7cfd65",
-                "type": "FIX",
-                "text": " SmartFilterBar: add missing mdc library information",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2180141329"
                     }
                 ]
             }

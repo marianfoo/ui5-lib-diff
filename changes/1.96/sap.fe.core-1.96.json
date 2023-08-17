@@ -1,0 +1,556 @@
+{
+    "1.96.0": {
+        "date": "October 2021",
+        "notes": [
+            {
+                "id": "27aa1acabae21399dd7f4906c7a3e68422f418b1",
+                "type": "FEATURE",
+                "text": " Usage of the new enableAutoColumnWidth property from MDC"
+            },
+            {
+                "id": "e9483f7e61f8fd88934d0666e0ef250b982bf070",
+                "type": "FEATURE",
+                "text": " The row and column references are now displayed in the message popover when an error occurs in the creation row of the table"
+            },
+            {
+                "id": "f0f5c6e9a5656bcbb3a82d9c4bba716fba783d75",
+                "type": "FEATURE",
+                "text": " Toggling between draft and saved values is now also supported in the list report"
+            },
+            {
+                "id": "bb8282a0894c1540494d42572d2f4c9844b0ef71",
+                "type": "FIX",
+                "text": " The MultiValueField no longer triggers any incorrect requests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170248261"
+                    }
+                ]
+            },
+            {
+                "id": "2db1df2f93eabf6e4b7c6bd1383841c14d8bd3b7",
+                "type": "FEATURE",
+                "text": " MultiValueFields for action parameter dialogs and preferredMode CreateWith are now available"
+            },
+            {
+                "id": "775168ec1f957c0bd63a3637b5070a4d3ee0ba18",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now enables app developers to hook into the life-cycle method of sap-keep-alive mode"
+            },
+            {
+                "id": "ef2b113640f65715793daefb49d60b3dbc00c9d6",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now provides an option to pass the variant IDs of a page or the filter bar of a table as URL parameters to the app"
+            },
+            {
+                "id": "36c7328aeeb20a56cd3e6476aaf0ada24980dc33",
+                "type": "FIX",
+                "text": " SAP Fiori elements now supports the SortRestrictions and complex propertyInfos from MDC on the SortOrder of the PresentationVariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170239973"
+                    }
+                ]
+            },
+            {
+                "id": "15d68c5a9a7f3c638a5c983a31c3e730a69c7895",
+                "type": "FIX",
+                "text": " The 'Delete' button in the table toolbar now works correctly in custom sections",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170218970"
+                    }
+                ]
+            },
+            {
+                "id": "582ec8607f393df692947cd4afe610aff8931d78",
+                "type": "FIX",
+                "text": " Intent-Based Navigation buttons in the object page header are now visible according to the UI.Hidden path value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180304226"
+                    }
+                ]
+            },
+            {
+                "id": "8c53677cfb00d0a635497b08e10c71680fadb4c7",
+                "type": "FIX",
+                "text": " Switching between draft and active version now works even when semantic key values have changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170216142"
+                    }
+                ]
+            },
+            {
+                "id": "dfc0fa5aea1dad7f1e0bf5da5fa8528572fe6284",
+                "type": "FIX",
+                "text": " The runtime error that occurred when using the Table building block (macros:Table) in a custom page has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170218535"
+                    }
+                ]
+            },
+            {
+                "id": "420009ee4272db3075ff4c80d2dc62b4056fbde5",
+                "type": "FEATURE",
+                "text": " The Paginator building block is now available"
+            },
+            {
+                "id": "a3d9e55c20a9c6b6c9d684f7259b50cdf9876bb8",
+                "type": "FEATURE",
+                "text": " The FilterBar building block is now available"
+            },
+            {
+                "id": "26c0d680a25c15dbe3b239b1c7db70ff631ad699",
+                "type": "FEATURE",
+                "text": " Global KPIs are now available in the analytical list page with limited support"
+            },
+            {
+                "id": "c574fd7673ce3a863ffacc12aa4a549986d86e76",
+                "type": "FIX",
+                "text": " Uncaught promises that caused an issue while saving an app have been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080426256"
+                    }
+                ]
+            },
+            {
+                "id": "7f7f89226e40040ba406d2f35fb7857c7bded9d9",
+                "type": "FIX",
+                "text": " The keep-alive mode now also works for the navigation using a quick view title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170221014"
+                    }
+                ]
+            },
+            {
+                "id": "2679783bab5697092fd9b740ab7858813d91436f",
+                "type": "FIX",
+                "text": " Setting selectionMode to 'None' in the manifest now ensures that you cannot select table rows in Display mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180311866"
+                    }
+                ]
+            },
+            {
+                "id": "818f0d467da9cdbd0d4a2ceb98dbd29d64204f9c",
+                "type": "FIX",
+                "text": " The Personalization API is now called only once when a user opens the application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170192109"
+                    }
+                ]
+            },
+            {
+                "id": "9f2329cc6b5f84e7a185f9e3a78ca9c7b17c57b0",
+                "type": "FEATURE",
+                "text": " The Chart building block is now available"
+            },
+            {
+                "id": "ed4236140b41eddcd1d8a61d916c598b22ef5f2f",
+                "type": "FIX",
+                "text": " Incorrectly handled apps containing multiple entity sets with a custom view are now parsed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170221351"
+                    }
+                ]
+            },
+            {
+                "id": "0e6fd1699869effe3b73ce46d88e4cf60bfdd248",
+                "type": "FIX",
+                "text": " The text that is displayed when a user cancels an action on the object page has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170175838"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.1": {
+        "date": "November 2021",
+        "notes": [
+            {
+                "id": "149a4cae601f91f72d701d647895f2e9976ea3aa",
+                "type": "FIX",
+                "text": ": SAP Fiori elements now passes the semantic date operators TODAY and DATE to the selection variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007908512021"
+                    }
+                ]
+            },
+            {
+                "id": "b1cc08b8bff9884d77e8b41c9d9cd9555ea7aea6",
+                "type": "FIX",
+                "text": " The Create Button on the List Report table is now visible if insertion is switched off and external creation is maintained",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170323614"
+                    }
+                ]
+            },
+            {
+                "id": "cef10ea06cc231df0206f316e9b5e4080720d801",
+                "type": "FIX",
+                "text": " If no title for an object page header has been provided, then the title field on the UI is blank",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007853472021"
+                    }
+                ]
+            },
+            {
+                "id": "72bd19ad3d0211aee5457d39c216ab5f3076ba0a",
+                "type": "FIX",
+                "text": " The response size for the resolution of startup parameters has been reduced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170226584"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.2": {
+        "date": "December 2021",
+        "notes": [
+            {
+                "id": "224069d81991d0dfe8e0e115fcaeb494c88f8231",
+                "type": "FIX",
+                "text": " The issues relating to the 'Share' button have been resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170267078"
+                    }
+                ]
+            },
+            {
+                "id": "67c3301fef9a7f09290a1da7004c2615ce31f69f",
+                "type": "FIX",
+                "text": " Based on the settings you make in the SAP Fiori launchpad, external navigation now opens in a new tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007350822021"
+                    }
+                ]
+            },
+            {
+                "id": "2f15aceae2ab073d0df2aa5cc8baf77aa1c5fa5c",
+                "type": "FIX",
+                "text": " Further improvements were made for action dialogs using the preferredMode create/createWith parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170326311"
+                    }
+                ]
+            },
+            {
+                "id": "36489571446232af518f158757eb92951cd34b24",
+                "type": "FIX",
+                "text": " Applications can now define an individual title for action dialogs using the preferredMode create/createWith parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170326311"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.3": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "98b966ae7b3a7b838a111bb04c946d9382fe4253",
+                "type": "FIX",
+                "text": " The Draft Confirmation popover is no longer displayed when navigating back from a custom subobject page based on the component sap.fe.core.fpm",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180407074"
+                    }
+                ]
+            },
+            {
+                "id": "2528f1b9bce00aa39481f41a3a6090f58894cc9a",
+                "type": "FIX",
+                "text": " The shared email link for apps using the SAP Launchpad service has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170230319"
+                    }
+                ]
+            },
+            {
+                "id": "2dc34bae889d43b8cda498984eb8a53234610cd6",
+                "type": "FIX",
+                "text": " SideEffects for actions now request the correct path expressions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170332124"
+                    }
+                ]
+            },
+            {
+                "id": "fee60aa65ea98b0ffcf85d8bf09aae16c9228879",
+                "type": "FIX",
+                "text": " SAP Fiori elements now correctly displays the MultiValueField when using a DataField that has a 1:1 with a 1:n navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280012195"
+                    }
+                ]
+            },
+            {
+                "id": "4ab26f7315ca065d007bd95dc275077261cb6ab7",
+                "type": "FIX",
+                "text": " sap.ui.Integration files are now loaded only when necessary",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180391454"
+                    }
+                ]
+            },
+            {
+                "id": "eafaa23d1a1a47db1ea538cc23ca7249a1bb2cd5",
+                "type": "FIX",
+                "text": " Columns now support the property type 'binary'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180381903"
+                    }
+                ]
+            },
+            {
+                "id": "bec4c0f35d383e3745c4ea2c3dd6a8b706bf643c",
+                "type": "FIX",
+                "text": " Facet hidden annotation is now set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170316605"
+                    }
+                ]
+            },
+            {
+                "id": "0b1f62a914ae62ab30e79d6ebcdf0073f95c9415",
+                "type": "FIX",
+                "text": " The support of dynamic expressions in facets is set now correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170282639"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.4": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "1031151e3d02665a748a0597abb57205c4002665",
+                "type": "FIX",
+                "text": " Dynamic expressions now correctly respect the precedence of an operand",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280049609"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.5": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "915f38a02d9c07f515c004694b2be987de9f5e5c",
+                "type": "FIX",
+                "text": " View caching now works properly even if no ETag is provided",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280064615"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.6": {
+        "date": "March 2022",
+        "notes": [
+            {
+                "id": "7055818c36b247896837828f36b3addcc26fd975",
+                "type": "FIX",
+                "text": " Once an OP table action or all actions within sub OP are performed, refresh the action context",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001725022022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.7": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "343060272e10a45db99608c3ef7a6944506f7c71",
+                "type": "FIX",
+                "text": " SAP Fiori elements now properly supports the SelectionPresentationVariant with multiple ranges",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180415475"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.10": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "a0e3dc1257791201b77c270c109d4ac983ac59d3",
+                "type": "FIX",
+                "text": " We now read default values of parameters of unbound actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005127072022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.11": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "6587b2754db39af2ae09b94ae10f2e69eaf1b492",
+                "type": "FIX",
+                "text": " The issue related to malformed queries on subobject pages has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180402182"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.13": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "eaa39263614d9387fa5c8a1a9496f7238ad213f7",
+                "type": "FIX",
+                "text": " We now ensure the backslash is escaped before the input from the typeahead field is sent to the back end",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006760902022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.14": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "001a7e709d76b0fbe8207a1a191e9b8d30506abd",
+                "type": "FIX",
+                "text": " We now ensure that special characters and symbols do not cause any issues when the input from the typeahead field is sent to the back end",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006760902022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.15": {
+        "date": "January 2023",
+        "notes": [
+            {
+                "id": "0423434382aca2d6656dc9c95258c6698c1a7e08",
+                "type": "FIX",
+                "text": " We now ensure that SAP_Messages are returned for a bound action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008939772022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.16": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "7986160bb3b4e2c1f9ef34ae8e715a3789fbd521",
+                "type": "FIX",
+                "text": " We've added a null check to the semantic date operator",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380019922"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.17": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "e37dfc1feded85103ad751475f8df70857044851",
+                "type": "FIX",
+                "text": " We've removed unbound and bound transition messages in case of a 409 error conflict",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008544632022"
+                    }
+                ]
+            }
+        ]
+    }
+}

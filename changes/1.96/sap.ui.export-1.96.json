@@ -13,5 +13,37 @@
                 "text": " sap_horizon: initial commit of Horizon theme"
             }
         ]
+    },
+    "1.96.3": {
+        "date": "December 2021",
+        "notes": [
+            {
+                "id": "c46b1b3b8471a119f7d178410d25ad036b46363e",
+                "type": "FIX",
+                "text": " sap.ui.export - No error on HTTP status in $batch",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180397139"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.9": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "1aeaf3bffb8e3e91edb2ced6b319ecb897177d14",
+                "type": "FIX",
+                "text": " Exporting OData Edm.TimeOfDay fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280093694"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -5,41 +5,87 @@
             {
                 "id": "e6c9914d91de8cef453c19dc4907d36fecca9c8e",
                 "type": "FIX",
-                "text": "sap.ui.richtexteditor.RichTextEditor: Dialog data is now reset properly",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1780443685"
-                    }
-                ]
+                "text": " sap.ui.richtexteditor.RichTextEditor: Dialog data is now reset properly",
+                "references": []
             },
             {
                 "id": "0a5647aeeda5b7a8af5ba06dd0cc23ad82ad422b",
                 "type": "FIX",
-                "text": "sap.ui.richtexteditor.RichTextEditor: Default font size now matching tinyMCEs",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1880542214"
-                    }
-                ]
+                "text": " sap.ui.richtexteditor.RichTextEditor: Default font size now matching tinyMCEs",
+                "references": []
             },
             {
                 "id": "f842df5f41d45f46131edaaaee260e0b8f572eb3",
                 "type": "FIX",
-                "text": "sap.ui.richtexteditor.RichTextEditor: Icon styles",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1880540717"
-                    }
-                ]
+                "text": " sap.ui.richtexteditor.RichTextEditor: Icon styles",
+                "references": []
             },
             {
                 "id": "0a58fea697921db1df9d7ae069729b1347101ff9",
                 "type": "FEATURE",
-                "text": "RichTextEditor: Improved CSP Compliance",
+                "text": " RichTextEditor: Improved CSP Compliance",
                 "references": []
+            }
+        ]
+    },
+    "1.60.6": {
+        "date": "February 2019",
+        "notes": [
+            {
+                "id": "b8ca0e6accfced865ddbcbfd63056506491c64b9",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Adding all available languages",
+                "references": []
+            },
+            {
+                "id": "0bf47d777cc0350202399ecf7c8cc113bd9b4df5",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Allow insertion of multiple links with the same URL",
+                "references": []
+            },
+            {
+                "id": "0ea709adf05207613de70183c53cbab6ba5f2787",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Disable PowerPaste in read-only mode",
+                "references": []
+            }
+        ]
+    },
+    "1.60.13": {
+        "date": "May 2019",
+        "notes": [
+            {
+                "id": "05c55e05c864a9575506eef7ec9505f48e86fe46",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Editing links is now secure",
+                "references": []
+            }
+        ]
+    },
+    "1.60.14": {
+        "date": "June 2019",
+        "notes": [
+            {
+                "id": "b34ad34cb8f3f52c08e352bda2a84809161ea19a",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Escape properly link dialog's title field",
+                "references": []
+            }
+        ]
+    },
+    "1.60.31": {
+        "date": "October 2020",
+        "notes": [
+            {
+                "id": "41fb8e0f9b1934db02f372a3fb3df145cc552a5b",
+                "type": "FIX",
+                "text": " sap.ui.richtexteditor.RichTextEditor: Font selection is now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004481872020"
+                    }
+                ]
             }
         ]
     }

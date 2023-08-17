@@ -30,7 +30,7 @@
             {
                 "id": "Ia8978621aad487d1066e97d045575e3f3495cfb8",
                 "type": "FEATURE",
-                "text": "Multiple empty table rows in edit mode has been supported"
+                "text": "Multiple empty table rows in edit mode are now supported"
             },
             {
                 "id": "Icfe22c0540a266f5aa31d8d4ab934617da1a86bb",
@@ -40,7 +40,7 @@
             {
                 "id": "Ieef60315b96540899e1b0777911348fb963a5765",
                 "type": "FEATURE",
-                "text": "Key board shortcut enabled for custum action button"
+                "text": "Keyboard shortcuts have been enabled for the custom action button"
             },
             {
                 "id": "Ief508b2705f23957b706a5824ea8297d49dace99",
@@ -78,7 +78,7 @@
             {
                 "id": "I4a77dc7396d112af3f38b071675aa38c28c4a464",
                 "type": "FIX",
-                "text": "Rectified fetching of variants in case of multi views",
+                "text": "In case of multi views, the fetching of variants has been rectified",
                 "references": [
                     {
                         "type": "BCP",
@@ -89,7 +89,7 @@
             {
                 "id": "Ief39da690be9c51e90938713e526465db5f27426",
                 "type": "FIX",
-                "text": "Console data clean up enhanced",
+                "text": "The data clean up for console has been enhanced",
                 "references": [
                     {
                         "type": "BCP",
@@ -116,6 +116,121 @@
                     {
                         "type": "BCP",
                         "reference": "2270062800"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.1": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "Ic46b586b90b9f0e623457f8f4cb6a074414db4a3",
+                "type": "FIX",
+                "text": "For object page, default title of newly created object is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270102940"
+                    }
+                ]
+            },
+            {
+                "id": "I0c5656be700bd18a41d528c0cdcac3e1202a53fe",
+                "type": "FIX",
+                "text": "The AnnotationHelper.isInlineMode method is now correctly invoked",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270091297"
+                    }
+                ]
+            },
+            {
+                "id": "Ic6f78bfa5ebdfa7353d74420f7aa1dd6c8cea5a4",
+                "type": "FIX",
+                "text": "The label for file uploader on the object page is now supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280082365"
+                    }
+                ]
+            },
+            {
+                "id": "Ib7ca620cbf26adcbd2c2288c5c59bfebe1b8db92",
+                "type": "FIX",
+                "text": "Issues that were occurring in the create dialog are now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270086474"
+                    }
+                ]
+            },
+            {
+                "id": "Ia50d282fadb63d74a362ae558ce002ed947dc2a1",
+                "type": "FIX",
+                "text": "The URL parameter for templateSpecificPreparationHelper is now considered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280090942"
+                    }
+                ]
+            },
+            {
+                "id": "Ib284b1d0d57be9db60d1a620f46e2ad4218e8843",
+                "type": "FIX",
+                "text": "Parameters for date range without odata4analytics are now fetched",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270099919"
+                    }
+                ]
+            },
+            {
+                "id": "If91acf237aabeec8682f46f8a213b3d6134834b4",
+                "type": "FIX",
+                "text": "Clean variant state is now maintained while navigating back from an external app, if there is no in the state for list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003652932022"
+                    }
+                ]
+            },
+            {
+                "id": "Ifcb57ac839aeb8b30b55edd0a4bdc5376db3e14a",
+                "type": "FIX",
+                "text": "Visibility of Multi-Edit Dialog is now set to false in initial load, to avoid text speech output issue in list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270084778"
+                    }
+                ]
+            },
+            {
+                "id": "Ibcf536c09135e34ee92eb2f8d32ed5e9026700c1",
+                "type": "FIX",
+                "text": "Side effect for multi input field is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270072763"
+                    }
+                ]
+            },
+            {
+                "id": "Ibabd293bc9086c453f2248b2501af7f96745edb5",
+                "type": "FIX",
+                "text": "Compatibility for both Promise object and jQuery deffered object is now retained",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270107857"
                     }
                 ]
             }

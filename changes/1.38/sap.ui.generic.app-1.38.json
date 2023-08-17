@@ -90,23 +90,13 @@
                 "id": "e169ce92c38f396ca35a27250205a1342d406be2",
                 "type": "FIX",
                 "text": "sap.ui.gen...TransactionController: Action Callbacks not called",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1670206783"
-                    }
-                ]
+                "references": []
             },
             {
                 "id": "a26ac851f02f9dc58998dc7455773144c402b1ca",
                 "type": "FIX",
                 "text": "sap.ui.generic.app - NavigationController: onDeactivate handling",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "1580062546"
-                    }
-                ]
+                "references": []
             },
             {
                 "id": "5c8fd2fda4f99b70e1db43dee389cf095a70c5e7",
@@ -118,6 +108,73 @@
                 "id": "76a563b58280493d91cd28d921612efe1d0f208f",
                 "type": "FIX",
                 "text": "Harmonize oAppData in parseNavigation for all NavTypes",
+                "references": []
+            }
+        ]
+    },
+    "1.38.1": {
+        "date": "May 2016",
+        "notes": [
+            {
+                "id": "b7034264b3bc834ca5df8fcb7b0eeca703725b48",
+                "type": "FIX",
+                "text": "ActionUtil shows also Out Parameter of Function Import in Dialog",
+                "references": []
+            },
+            {
+                "id": "53f83b5f03b24029493090ec6e75ff9e9be7743a",
+                "type": "FIX",
+                "text": "BaseController _submitChanges doesn't submit w/o context",
+                "references": []
+            }
+        ]
+    },
+    "1.38.4": {
+        "date": "June 2016",
+        "notes": [
+            {
+                "id": "4126d1941562264b5dbc08d87040d0e65e2969c7",
+                "type": "FIX",
+                "text": "Downport prepare/validate in draft only",
+                "references": []
+            }
+        ]
+    },
+    "1.38.5": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "6c1d39264ca4a50c94296d88bbd04ced02cc2bc5",
+                "type": "FIX",
+                "text": "NavigationHandler: simplify/correct the navigation check",
+                "references": []
+            },
+            {
+                "id": "50b303d7a28d8fb95f88cf2a8a97f8847a297b0e",
+                "type": "FIX",
+                "text": "sap.ui.generic...AppComponent: load dependent library",
+                "references": []
+            }
+        ]
+    },
+    "1.38.8": {
+        "date": "September 2016",
+        "notes": [
+            {
+                "id": "4e93c0abea08a547ada7c7a1fb68b0b2b9108806",
+                "type": "FIX",
+                "text": "NavigationHandler: adding technical params: 'hcpApplicationId' 'sap-app-id'",
+                "references": []
+            }
+        ]
+    },
+    "1.38.26": {
+        "date": "August 2017",
+        "notes": [
+            {
+                "id": "99ae82ec15af7ec72f54a351637f7f19df6ea8c2",
+                "type": "FIX",
+                "text": " BaseController: Model is not informed in case of implicit error",
                 "references": []
             }
         ]
