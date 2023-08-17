@@ -31,6 +31,8 @@ export default class Main extends BaseController {
 	}
 
 	public handleVersionChange(oEvent: Event): void {
+		this.getView().setBusyIndicatorDelay(0);
+		this.getView().setBusy(true);
 		const versionFrom = this.getView().byId("versionFromSelect").getSelectedKey();
 		const versionTo = this.getView().byId("versionToSelect").getSelectedKey();
 		const versionObject = this.compareVersions(versionFrom, versionTo);
@@ -39,7 +41,7 @@ export default class Main extends BaseController {
 			const changes = this.getMergedChangesBetweenVersions(versionObject.versionFrom, versionObject.versionTo, filterKey);
 			this.getView().getModel("changes").setData(changes);
 		}
-		
+		this.getView().setBusy(false);
 		
 	}
 

@@ -17,14 +17,14 @@
 		<headerContent>
 			<layout:VerticalLayout >
 				<m:Text text="Select your libraries you want to compare"/>
-				<m:Select id="versionFromSelect" items="{select>/}" change="handleVersionChange" forceSelection="false">
+				<m:Select id="versionFromSelect" items="{path : 'select>/', length:'10000'}" change="handleVersionChange" forceSelection="false">
 					<core:Item text="{select>value}" key="{select>key}"/>
 				</m:Select>
-				<m:Select id="versionToSelect" items="{select>/}" change="handleVersionChange" forceSelection="false" >
+				<m:Select id="versionToSelect" items="{path : 'select>/', length:'10000'}" change="handleVersionChange" forceSelection="false" >
 					<core:Item text="{select>value}" key="{select>key}"/>
 				</m:Select>
 				<m:Text text="Filter for FIX or FEATURE" visible="{= ${device>/system/desktop}}"/>
-				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="600px" selectionChange="handleVersionChange" >
+				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="600px" selectionChange="handleVersionChange" visible="{= ${device>/system/desktop}}">
 					<m:items>
 						<m:SegmentedButtonItem text="All" key="ALL"/>
 						<m:SegmentedButtonItem text="Only Fixes" key="FIX" />
@@ -33,7 +33,7 @@
 					</m:items>
 				</m:SegmentedButton>
 				<m:Text text="Sort changes in library by:" visible="{= ${device>/system/desktop}}"/>
-				<m:SegmentedButton id="SegmentedButtonSort" selectedKey="type" width="600px" selectionChange="handleVersionChange" >
+				<m:SegmentedButton id="SegmentedButtonSort" selectedKey="type" width="600px" selectionChange="handleVersionChange" visible="{= ${device>/system/desktop}}">
 					<m:items>
 						<m:SegmentedButtonItem text="type (like FIX or FEATURE)" key="type"/>
 						<m:SegmentedButtonItem text="version" key="version" />
@@ -49,7 +49,7 @@
 					<ObjectPageSubSection titleUppercase="false">
 							<m:Panel
 								headerText="{changes>library}"
-								content="{path: 'changes>changes', templateShareable: false}"
+								content="{path: 'changes>changes', templateShareable: false, length: '10000'}"
 								expandable="true"
 								expanded="true"
 								class="sapUxAPObjectPageSubSectionAlignContent"
