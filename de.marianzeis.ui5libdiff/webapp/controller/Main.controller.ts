@@ -239,5 +239,10 @@ export default class Main extends BaseController {
 		
 		return parts2.length - parts1.length;
 	}
+
+	onNavToWhatsnew(): void {
+        this.getRouter().navTo("whatsnew");
+    }
+
 	
 }
