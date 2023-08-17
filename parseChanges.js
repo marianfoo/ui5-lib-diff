@@ -13,14 +13,18 @@ function extractDataFromFile(filePath) {
     const output = {};
 
     for (const [key, value] of Object.entries(data)) {
-        const notes = value['notes'].map(note => ({ type: note.type, text: note.text }));
-        if (!output[key]) {
-            output[key] = [];
+        try {
+            const notes = value['notes'].map(note => ({ type: note.type, text: note.text }));
+            if (!output[key]) {
+                output[key] = [];
+            }
+            output[key].push({
+                library: libraryName,
+                changes: notes
+            });
+        } catch (error) {
+            console.error(`Error parsing ${filePath}: ${error}`);
         }
-        output[key].push({
-            library: libraryName,
-            changes: notes
-        });
     }
     
     return output;
