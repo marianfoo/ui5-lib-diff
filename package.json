@@ -6,12 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "pnpm  --filter de.marianzeis.ui5libdiff start",
-    "build": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated && pnpm  --filter de.marianzeis.ui5libdiff build:opt",
+    "build": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated && pnpm createRSSFeed && pnpm  --filter de.marianzeis.ui5libdiff build:opt",
     "changes": "node changes.js",
     "parseChanges": "node parseChanges.js",
     "parseChangesSelect": "node parseChangesSelect.js",
     "deprecated": "node deprecated.js",
-    "fetchData": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated"
+    "fetchData": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated",
+    "createRSSFeed": "node ./dev/createRSS.js"
   },
   "author": "",
   "license": "ISC",
