@@ -1,16 +1,20 @@
 <mvc:View controllerName="de.marianzeis.ui5libdiff.controller.Whatsnew" height="100%"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
+    xmlns:layout="sap.ui.layout"
     xmlns:core="sap.ui.core">
     <Page showHeader="false">
-        <Button text="Back" press="onNavBack"/>
-        <ComboBox id="versionFromSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
-            <core:Item key="{select>value}" text="{select>key}" />
-        </ComboBox>
-        <ComboBox id="versionToSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
-            <core:Item key="{select>value}" text="{select>key}" />
-        </ComboBox>
-        <Button text="Copy Link To Clipboard" press="copyLinkToClipboardWhatsnew"/>
+        <layout:VerticalLayout width="100%">
+            <Button text="Back" press="onNavBack"/>
+            <Text text="Select your libraries you want to compare"/>
+            <ComboBox id="versionFromSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
+                <core:Item key="{select>value}" text="{select>key}" />
+            </ComboBox>
+            <ComboBox id="versionToSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
+                <core:Item key="{select>value}" text="{select>key}" />
+            </ComboBox>
+            <Button text="Copy Link To Clipboard" press="copyLinkToClipboardWhatsnew"/>
+        </layout:VerticalLayout>
         <Table id="idProductsTable" items="{path : 'whatsnew>/', length:'10000'}" autoPopinMode="true">
             <headerToolbar>
                 <OverflowToolbar>
