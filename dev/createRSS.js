@@ -22,11 +22,10 @@ function previousVersion(version) {
     patch--;
   } else if (minor > 0) {
     minor--;
-    patch = 99; // we'll revert back to assuming a reasonably high value for the patch version.
-    // but if your system doesn't work this way, this might need to be adjusted.
+    patch = 99;
   } else if (major > 0) {
     major--;
-    minor = 99; // again, assuming a reasonably high value for the minor version.
+    minor = 99;
   }
 
   return `${major}.${minor}.${patch}`;
@@ -89,10 +88,8 @@ function jsonToRss(jsonData, rssTitle, rssLink, rssDescription) {
   return rssFeed;
 }
 
-fs.readFile(
-  'de.marianzeis.ui5libdiff/webapp/data/consolidated.json',
-  'utf-8',
-  (err, data) => {
+function generateRssForFile(consolidatedFilePath, rssOutputPath) {
+  fs.readFile(consolidatedFilePath, 'utf-8', (err, data) => {
     if (err) {
       console.error('Error reading the file:', err);
       return;
@@ -106,16 +103,27 @@ fs.readFile(
       'Changes for each version of the software.'
     );
 
-    fs.writeFile(
-      'de.marianzeis.ui5libdiff/webapp/rss_feed.xml',
-      rssFeed,
-      (err) => {
-        if (err) {
-          console.error('Error writing the file:', err);
-        } else {
-          console.log('RSS feed written to rss_feed.xml');
-        }
+    fs.writeFile(rssOutputPath, rssFeed, (err) => {
+      if (err) {
+        console.error('Error writing the file:', err);
+      } else {
+        console.log(`RSS feed written to ${rssOutputPath}`);
       }
-    );
-  }
-);
+    });
+  });
+}
+
+const filesToProcess = [
+  {
+    inputFile: 'de.marianzeis.ui5libdiff/webapp/data/consolidatedSAPUI5.json',
+    outputFile: 'de.marianzeis.ui5libdiff/webapp/rss_feed_SAPUI5.xml',
+  },
+  {
+    inputFile: 'de.marianzeis.ui5libdiff/webapp/data/consolidatedOpenUI5.json',
+    outputFile: 'de.marianzeis.ui5libdiff/webapp/rss_feed_OpenUI5.xml',
+  },
+];
+
+for (const fileInfo of filesToProcess) {
+  generateRssForFile(fileInfo.inputFile, fileInfo.outputFile);
+}

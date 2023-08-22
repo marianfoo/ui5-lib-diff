@@ -25,7 +25,17 @@
 
 		<headerContent>
 			<layout:VerticalLayout width="{= ${device>/system/phone} === true ? '100%' : '693.547px' }">
-				<m:Button text="Show RSS Feed" press="showRSSFeed"/>
+				<layout:HorizontalLayout>
+					<m:Button text="Show RSS Feed SAPUI5" press="showRSSFeedSAPUI5"/>
+					<m:Button text="Show RSS Feed OpenUI5" press="showRSSFeedOpenUI5"/>
+				</layout:HorizontalLayout>
+				
+				<m:SegmentedButton id="SegmentedButtonUI5" selectedKey="SAPUI5" width="100%" selectionChange="handleVersionChange" visible="{= ${device>/system/desktop}}">
+					<m:items>
+						<m:SegmentedButtonItem text="SAPUI5" key="SAPUI5"/>
+						<m:SegmentedButtonItem text="OpenUI5" key="OpenUI5" />
+					</m:items>
+				</m:SegmentedButton>
 				<m:Button text="Navigate to 'Whats New'" press="onNavToWhatsnew"/>
 				<m:Button text="Copy Link To Clipboard" press="copyLinkToClipboardMain"/>
 				<m:Text text="Select your libraries you want to compare"/>
