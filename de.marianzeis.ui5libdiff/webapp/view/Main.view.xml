@@ -25,6 +25,7 @@
 
 		<headerContent>
 			<layout:VerticalLayout width="{= ${device>/system/phone} === true ? '100%' : '693.547px' }">
+				<m:Button text="Show RSS Feed" press="showRSSFeed"/>
 				<m:Button text="Navigate to 'Whats New'" press="onNavToWhatsnew"/>
 				<m:Button text="Copy Link To Clipboard" press="copyLinkToClipboardMain"/>
 				<m:Text text="Select your libraries you want to compare"/>

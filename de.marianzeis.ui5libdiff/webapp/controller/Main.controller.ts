@@ -356,4 +356,8 @@ export default class Main extends BaseController {
 	copyLinkToClipboardMain(event: Event): void {
 		this.copyLinkToClipboard(event);
 	}
+
+	showRSSFeed(): void {
+		window.open("rss_feed.xml");
+	}
 }
