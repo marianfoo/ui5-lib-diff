@@ -27,12 +27,12 @@
 			<layout:VerticalLayout >
 				<m:Button text="Show Whats New" press="onNavToWhatsnew"/>
 				<m:Text text="Select your libraries you want to compare"/>
-				<m:Select id="versionFromSelect" items="{path : 'select>/', length:'10000'}" change="handleVersionChange" forceSelection="false">
-					<core:Item text="{select>value}" key="{select>key}"/>
-				</m:Select>
-				<m:Select id="versionToSelect" items="{path : 'select>/', length:'10000'}" change="handleVersionChange" forceSelection="false">
-					<core:Item text="{select>value}" key="{select>key}"/>
-				</m:Select>
+				<m:ComboBox id="versionFromSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
+					<core:Item key="{select>value}" text="{select>key}" />
+				</m:ComboBox>
+				<m:ComboBox id="versionToSelect"  items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
+					<core:Item key="{select>value}" text="{select>key}" />
+				</m:ComboBox>
 				<m:Text text="Filter for FIX or FEATURE" visible="{= ${device>/system/desktop}}"/>
 				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="600px" selectionChange="handleVersionChange" visible="{= ${device>/system/desktop}}">
 					<m:items>
