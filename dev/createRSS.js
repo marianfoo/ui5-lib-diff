@@ -1,14 +1,9 @@
 const fs = require('fs');
 
-function isWithinLastSixMonths(dateStr) {
-    const inputDate = new Date(dateStr);
-    const currentDate = new Date();
-    const sixMonthsAgo = new Date(currentDate);
-    
-    // Subtract 6 months from current date
+function isWithinLastSixMonths(dateString) {
+    const sixMonthsAgo = new Date();
     sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
-
-    return inputDate > sixMonthsAgo;
+    return new Date(dateString) >= sixMonthsAgo;
 }
 
 function jsonToRss(jsonData, rssTitle, rssLink, rssDescription) {
@@ -29,27 +24,30 @@ function jsonToRss(jsonData, rssTitle, rssLink, rssDescription) {
         const version = entry.version;
         const date = entry.date;
 
-        let description = `Changes in Version ${version}:\n\n`;
+        let description = `<h2>Changes in Version ${version}</h2><ul>`;
 
         for (const lib of entry.libraries) {
             const library = lib.library;
 
-            description += `Library: ${library}\n`;
+            description += `<li><strong>Library: ${library}</strong><ul>`;
 
             for (const change of lib.changes) {
                 const changeType = change.type;
                 const changeText = change.text;
 
-                description += `Type: ${changeType}, Description: ${changeText}\n`;
+                description += `<li>Type: ${changeType}, Description: ${changeText}</li>`;
             }
 
-            description += `\n`;
+            description += `</ul></li>`;
         }
 
-        const guid = version;
+        description += `</ul>`;
+
+        const guid = `${rssLink}?version=${version}`;
 
         rssFeed += `<item>
 <title>Version ${version} Changes</title>
+<link>${guid}</link>
 <pubDate>${new Date(date).toUTCString()}</pubDate>
 <description><![CDATA[${description}]]></description>
 <guid>${guid}</guid>
@@ -64,7 +62,6 @@ function jsonToRss(jsonData, rssTitle, rssLink, rssDescription) {
     return rssFeed;
 }
 
-
 fs.readFile('de.marianzeis.ui5libdiff/webapp/data/consolidated.json', 'utf-8', (err, data) => {
     if (err) {
         console.error("Error reading the file:", err);
@@ -72,7 +69,7 @@ fs.readFile('de.marianzeis.ui5libdiff/webapp/data/consolidated.json', 'utf-8', (
     }
 
     const jsonData = JSON.parse(data);
-    const rssFeed = jsonToRss(jsonData, "Changelog Feed", "https://www.example.com", "Changes for each version of the software.");
+    const rssFeed = jsonToRss(jsonData, "Changelog Feed", "https://marianfoo.github.io/ui5-lib-diff/", "Changes for each version of the software.");
 
     fs.writeFile('de.marianzeis.ui5libdiff/webapp/rss_feed.xml', rssFeed, (err) => {
         if (err) {
