@@ -25,7 +25,7 @@
 
 		<headerContent>
 			<layout:VerticalLayout >
-				<m:Button text="Whats New" press="onNavToWhatsnew"/>
+				<m:Button text="Show Whats New" press="onNavToWhatsnew"/>
 				<m:Text text="Select your libraries you want to compare"/>
 				<m:Select id="versionFromSelect" items="{path : 'select>/', length:'10000'}" change="handleVersionChange" forceSelection="false">
 					<core:Item text="{select>value}" key="{select>key}"/>
