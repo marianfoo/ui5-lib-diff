@@ -78,8 +78,8 @@ function consolidateJsonFiles() {
         fs.mkdirSync(outputDir);
     }
 
-    // Save all consolidated data to the single output file
-    fs.writeFileSync(path.join(outputDir, outputFile), JSON.stringify(allData, null, 4));
+    // Save all consolidated data to the single output file, minified
+    fs.writeFileSync(path.join(outputDir, outputFile), JSON.stringify(allData));
 }
 
 consolidateJsonFiles();
