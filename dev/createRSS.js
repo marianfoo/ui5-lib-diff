@@ -43,7 +43,7 @@ function jsonToRss(jsonData, rssTitle, rssLink, rssDescription) {
 
         description += `</ul>`;
 
-        const guid = `${rssLink}?version=${version}`;
+        const guid = `${rssLink}?versionFrom=${version}`;
 
         rssFeed += `<item>
 <title>Version ${version} Changes</title>
