@@ -1001,9 +1001,9 @@
         "Version": "1.111"
     },
     {
-        "id": 57387211,
+        "id": 57386044,
         "deliverable.version": "1.116_SAPUI5",
-        "Description": "We have implemented new options in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp> control for <samp class=\"ph codeph\">Minutes</samp>, <samp class=\"ph codeph\">Last Hours</samp>, <samp class=\"ph codeph\">Next Minutes</samp> and <samp class=\"ph codeph\">Next Hours</samp>. Using these options, you can select smaller time frames. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" title=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\">API Reference</a>.</span>",
+        "Description": "We have implemented a new <samp class=\"ph codeph\">calendarWeekNumbering</samp> property in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp>. Using this property, you can set predefined settings to the control about week numbering and the first day of the week. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" title=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\">API Reference</a>.</span>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.m.DynamicDateRange</samp></span>",
         "Latest_Revision": "",
@@ -1014,9 +1014,9 @@
         "Version": "1.111"
     },
     {
-        "id": 57386044,
+        "id": 57387211,
         "deliverable.version": "1.116_SAPUI5",
-        "Description": "We have implemented a new <samp class=\"ph codeph\">calendarWeekNumbering</samp> property in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp>. Using this property, you can set predefined settings to the control about week numbering and the first day of the week. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" title=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\">API Reference</a>.</span>",
+        "Description": "We have implemented new options in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp> control for <samp class=\"ph codeph\">Minutes</samp>, <samp class=\"ph codeph\">Last Hours</samp>, <samp class=\"ph codeph\">Next Minutes</samp> and <samp class=\"ph codeph\">Next Hours</samp>. Using these options, you can select smaller time frames. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" title=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\">API Reference</a>.</span>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.m.DynamicDateRange</samp></span>",
         "Latest_Revision": "",
@@ -7683,11 +7683,11 @@
         "Version": "1.76"
     },
     {
-        "id": 57386721,
+        "id": 57386903,
         "deliverable.version": "1.116_SAPUI5",
-        "Description": "<p class=\"p\"><samp class=\"ph codeph\">sap.ui.table.plugins.MultiSelectionPlugin</samp> for these tables has been enhanced and now provides the following functions:</p>  <ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_ns4_pdd_1lb\">  <li class=\"li\">  <p class=\"p\">The selection of indices outside of data boundaries is now no longer possible, because the binding length is taken into account.</p>  </li>  <li class=\"li\">  <p class=\"p\">A validation takes place to prevent errors from occurring due to the selection of unsuitable parameters.</p>  </li>  <li class=\"li\">  <p class=\"p\">Methods that change the selection now return a <samp class=\"ph codeph\">Promise</samp> that is resolved after a selection has been made.</p>  </li>  <li class=\"li\">  <p class=\"p\">A <samp class=\"ph codeph\">customPayload</samp> parameter has been added to the <samp class=\"ph codeph\">selectionChange</samp> event to allow event listeners to make use of custom event data.</p>  </li>  </ul>  <p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\">Sample</a>.</p>",
+        "Description": "<ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_zy4_yjf_blb\">  <li class=\"li\">  <p class=\"p\">New indication colors are now available (provided by the <samp class=\"ph codeph\">sap.ui.core.IndicationColor</samp> enumeration) that can be used for highlighting table rows. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" title=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\">API Reference</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">The resizing of columns has been changed to improve the usability on tablet devices.</p>  </li>  </ul>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table, sap.ui.table.TreeTable</samp></span>",
+        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table</samp>, <samp class=\"ph codeph\">sap.ui.table.TreeTable</samp></span>",
         "Latest_Revision": "",
         "Valid_as_Of": "2020-03-26",
         "Type": "Changed",
@@ -7696,11 +7696,11 @@
         "Version": "1.76"
     },
     {
-        "id": 57386903,
+        "id": 57386721,
         "deliverable.version": "1.116_SAPUI5",
-        "Description": "<ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_zy4_yjf_blb\">  <li class=\"li\">  <p class=\"p\">New indication colors are now available (provided by the <samp class=\"ph codeph\">sap.ui.core.IndicationColor</samp> enumeration) that can be used for highlighting table rows. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" title=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\">API Reference</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">The resizing of columns has been changed to improve the usability on tablet devices.</p>  </li>  </ul>",
+        "Description": "<p class=\"p\"><samp class=\"ph codeph\">sap.ui.table.plugins.MultiSelectionPlugin</samp> for these tables has been enhanced and now provides the following functions:</p>  <ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_ns4_pdd_1lb\">  <li class=\"li\">  <p class=\"p\">The selection of indices outside of data boundaries is now no longer possible, because the binding length is taken into account.</p>  </li>  <li class=\"li\">  <p class=\"p\">A validation takes place to prevent errors from occurring due to the selection of unsuitable parameters.</p>  </li>  <li class=\"li\">  <p class=\"p\">Methods that change the selection now return a <samp class=\"ph codeph\">Promise</samp> that is resolved after a selection has been made.</p>  </li>  <li class=\"li\">  <p class=\"p\">A <samp class=\"ph codeph\">customPayload</samp> parameter has been added to the <samp class=\"ph codeph\">selectionChange</samp> event to allow event listeners to make use of custom event data.</p>  </li>  </ul>  <p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\">Sample</a>.</p>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table</samp>, <samp class=\"ph codeph\">sap.ui.table.TreeTable</samp></span>",
+        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table, sap.ui.table.TreeTable</samp></span>",
         "Latest_Revision": "",
         "Valid_as_Of": "2020-03-26",
         "Type": "Changed",
