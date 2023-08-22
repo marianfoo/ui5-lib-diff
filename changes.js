@@ -130,13 +130,13 @@ async function main(uiVersion) {
                 highestPatchVersions[version]);
     
         if (shouldRequest) {
-            const result = await fetchReleaseNotes(primaryUrl, versionPath, library, version, requestLog);
+            const result = await fetchReleaseNotes(primaryUrl, versionPath, library, version, requestLog, uiVersion);
     
             if (result && result.response && result.response.status === 404) {
                 console.log(`Following URL returned a 404: ${primaryUrl}. Trying fallback URL...`);
                 
                 // Now we try the fallback URL
-                const fallbackResult = await fetchReleaseNotes(fallbackUrl, versionPath, library, version, requestLog);
+                const fallbackResult = await fetchReleaseNotes(fallbackUrl, versionPath, library, version, requestLog, uiVersion);
                 if (fallbackResult && fallbackResult.response && fallbackResult.response.status === 404) {
                     console.log(`Fallback URL also returned a 404: ${fallbackUrl}`);
                     if (!requestLog[version]) {
