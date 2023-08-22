@@ -1,0 +1,119 @@
+{
+    "1.108.0": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "4f5c8d40cbe31134b8e271afbd1c75495f9d7e02",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: fire \"navigate\" event later",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280115969"
+                    }
+                ]
+            },
+            {
+                "id": "3201b954ceb686ce95800485f0d334354bf7c434",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageSectionBase: Correct lifecycle issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270125667"
+                    }
+                ]
+            },
+            {
+                "id": "154dee3f2338920f86db529c7a0323bfa5f7080c",
+                "type": "FIX",
+                "text": " sap.uxap.AnchorBar: Selecting Section from HierarchicalSelect",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270113573"
+                    }
+                ]
+            },
+            {
+                "id": "20d2cef961402feab42a9a008d35519b72053b4a",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageSubSection: Layout of unstashed blocks fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270125052"
+                    }
+                ]
+            },
+            {
+                "id": "1ea56d66602d74c55dcd60a6168653f66a00dd1e",
+                "type": "FEATURE",
+                "text": " sap.uxap.ObjectPageSection: wrapTitle property added"
+            }
+        ]
+    },
+    "1.108.8": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "143e1cf9360dd85e89810b4a67d3d3b37ea4d741",
+                "type": "FIX",
+                "text": " sap.uxap.AnchorBar: Selecting Section with keyboard",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270113573"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370011663"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.9": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "90b608f3fa4acce703eca2827622751a0e86aef4",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Allow scrolling on small screens",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380014439"
+                    }
+                ]
+            },
+            {
+                "id": "ec7809805b8c2b0882239a7460c9358ca289bf55",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Prevent focus issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370006078"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.17": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "9cc1ee80752af7e67d53d0038b0f54933e8f7f43",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Flickering prevented",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370028396"
+                    }
+                ]
+            }
+        ]
+    }
+}

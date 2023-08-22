@@ -23,17 +23,90 @@ interface Version {
  * @namespace de.marianzeis.ui5libdiff.controller
  */
 export default class Main extends BaseController {
-	dataloadedPromise: Promise<void>;
+	dataLoaded: Promise<any>;
+	selectDataLoaded: Promise<any>;
+	UI5Type: string = "SAPUI5";
+	SAPUI5Model: JSONModel;
+	SAPUI5SelectModel: JSONModel;
+	OpenUI5Model: JSONModel;
+	OpenUI5SelectModel: JSONModel;
+	SAPUI5DataLoaded: boolean = false;
+	OpenUI5DataLoaded: boolean = false;
+	SAPUI5DataLoading: any;
+	dataIsLoading: any;
+	OpenUI5DataLoading: boolean;
+	ui5TypeLoading: string;
 	public async onInit(): void {
+		this.getView().setBusyIndicatorDelay(0);
+		this.getView().setBusy(true);
+		this.getRouter()
+			.getRoute("main")
+			.attachEventOnce("patternMatched", this.onPatternMatchedOnce, this);
 		this.getView().setModel(new JSONModel(), "changes");
 		this.getView().setModel(new JSONModel(), "versionFrom");
 		this.getView().setModel(new JSONModel(), "versionTo");
-		this.dataloadedPromise = this.loadData();
-		this.getRouter().getRoute("main").attachEventOnce("patternMatched", this.onPatternMatchedOnce, this);
+		this.getView().setBusy(false);
+	}
+
+	triggerLoadingData(UI5Type: string): void {
+		if (this.dataIsLoading && this.ui5TypeLoading !== UI5Type) return; 
+		if (UI5Type === "SAPUI5" && !this.SAPUI5DataLoaded) {
+			this.ui5TypeLoading = "SAPUI5";
+			this.SAPUI5DataLoading = true;
+			this.SAPUI5Model = new JSONModel();
+			this.dataLoaded = this.SAPUI5Model.loadData(
+				`./data/consolidated${UI5Type}.json`
+			);
+			this.dataLoaded.then(() => {
+				this.dataIsLoading = false
+			});
+			this.getView().setModel(this.SAPUI5Model, "data");
+			this.SAPUI5SelectModel = new JSONModel();
+			this.selectDataLoaded = this.SAPUI5SelectModel.loadData(
+				`./data/selectVersions${UI5Type}.json`
+			);
+			this.getView().setModel(this.SAPUI5SelectModel, "select");
+			this.SAPUI5DataLoaded = true;
+		}
+		if (UI5Type === "SAPUI5" && this.SAPUI5DataLoaded) {
+			this.getView().setModel(this.SAPUI5Model, "data");
+			this.getView().setModel(this.SAPUI5SelectModel, "select");
+		}
+		if (UI5Type === "OpenUI5" && !this.OpenUI5DataLoaded) {
+			this.ui5TypeLoading = "OpenUI5";
+			this.OpenUI5DataLoading = true;
+			this.OpenUI5Model = new JSONModel();
+			this.dataLoaded = this.OpenUI5Model.loadData(
+				`./data/consolidated${UI5Type}.json`
+			);
+			this.getView().setModel(this.OpenUI5Model, "data");
+			this.OpenUI5SelectModel = new JSONModel();
+			this.selectDataLoaded = this.OpenUI5SelectModel.loadData(
+				`./data/selectVersions${UI5Type}.json`
+			);
+			this.getView().setModel(this.OpenUI5SelectModel, "select");
+			this.OpenUI5DataLoaded = true;
+		}
+		if (UI5Type === "OpenUI5" && this.OpenUI5DataLoaded) {
+			this.getView().setModel(this.OpenUI5Model, "data");
+			this.getView().setModel(this.OpenUI5SelectModel, "select");
+		}
+		// Check if data is loading, and if so, wait for the promises to settle before setting the flag to false
+		if (this.SAPUI5DataLoading || this.OpenUI5DataLoading) {
+			Promise.allSettled([this.dataLoaded, this.selectDataLoaded]).then(() => {
+				if (UI5Type === "SAPUI5") {
+					this.SAPUI5DataLoading = false;
+				} else {
+					this.OpenUI5DataLoading = false;
+				}
+			});
+		}
 	}
 
 	onPatternMatchedOnce(): void {
-		this.getRouter().getRoute("main").attachPatternMatched(this.onPatternMatched, this);
+		this.getRouter()
+			.getRoute("main")
+			.attachPatternMatched(this.onPatternMatched, this);
 		this.getQueryParameter();
 	}
 
@@ -43,11 +116,16 @@ export default class Main extends BaseController {
 
 	// get parameter versionFrom and versionTo from URL Parameters
 	public async getQueryParameter(): void {
-		await this.waitForModelToLoad();
-		const data = this.getView().getModel("select").getData();
 		const mParams = new URLSearchParams(window.location.search);
 		const versionFrom = mParams.get("versionFrom");
 		const versionTo = mParams.get("versionTo");
+		const ui5Type = mParams.get("ui5Type");
+		if (ui5Type) {
+			this.UI5Type = ui5Type;
+		}
+		this.triggerLoadingData(this.UI5Type);
+		await Promise.all([this.dataLoaded, this.selectDataLoaded]);
+		const data = this.getView().getModel("select").getData();
 
 		// If both versionFrom and versionTo are null, exit the function
 		if (versionFrom === null && versionTo === null) return;
@@ -76,14 +154,17 @@ export default class Main extends BaseController {
 		} else {
 			this.getView().byId("versionFromSelect").setSelectedKey(versionFrom!);
 			this.getView().byId("versionToSelect").setSelectedKey(versionTo!);
-			await this.dataloadedPromise;
+			this.getView().byId("SegmentedButtonUI5").setSelectedKey(ui5Type!);
 			this.handleVersionChange();
 		}
 	}
 
-	public handleVersionChange(): void {
+	public async handleVersionChange(): void {
 		this.getView().setBusyIndicatorDelay(0);
 		this.getView().setBusy(true);
+		this.UI5Type = this.getView().byId("SegmentedButtonUI5").getSelectedKey();
+		this.triggerLoadingData(this.UI5Type);
+		await Promise.all([this.dataLoaded, this.selectDataLoaded]);
 		this.updateURLParameters();
 		const versionFrom = this.getView()
 			.byId("versionFromSelect")
@@ -104,38 +185,6 @@ export default class Main extends BaseController {
 
 	public sayHello(): void {
 		MessageBox.show("Hello World!");
-	}
-
-	private async loadData(): Promise<void> {
-		this.getView().setBusy(true);
-		const url = "./data/consolidated.json";
-		let data;
-		try {
-			data = await this.fetchJson(url);
-		} catch (error) {
-			console.error("Error fetching data:", error);
-		}
-		this.getView().setModel(new JSONModel(data), "data");
-		this.getView().setBusy(false);
-	}
-
-	private async fetchJson(url: string): Promise<any> {
-		try {
-			const response = await fetch(url);
-
-			if (!response.ok) {
-				throw new Error("Network response was not ok");
-			}
-
-			const data = await response.json();
-			return data;
-		} catch (error) {
-			console.error(
-				"There was a problem with the fetch operation:",
-				error.message
-			);
-			throw error; // or you might want to return a default value or handle it differently
-		}
 	}
 
 	compareVersion(v1: string, v2: string): number {
@@ -316,48 +365,43 @@ export default class Main extends BaseController {
 	public updateURLParameters(): void {
 		// Retrieve the selected keys from the controls
 		const versionTo = this.getView().byId("versionToSelect").getSelectedKey();
-		const versionFrom = this.getView().byId("versionFromSelect").getSelectedKey();
-	
+		const versionFrom = this.getView()
+			.byId("versionFromSelect")
+			.getSelectedKey();
+		const ui5Type = this.getView().byId("SegmentedButtonUI5").getSelectedKey();
 		// Get the current URL parameters
 		const mParams = new URLSearchParams(window.location.search);
-	
+
 		// Update only the versionTo and versionFrom parameters
 		if (versionTo) {
 			mParams.set("versionTo", versionTo);
 		} else {
 			mParams.delete("versionTo");
 		}
-	
+
 		if (versionFrom) {
 			mParams.set("versionFrom", versionFrom);
 		} else {
 			mParams.delete("versionFrom");
 		}
-	
-		// Update the browser's URL without causing a page refresh
-		const newURL = `${window.location.origin}${window.location.pathname}?${mParams.toString()}`;
-		window.history.pushState({}, "", newURL);
-	}
-	
+		mParams.set("ui5Type", ui5Type);
 
-	private async waitForModelToLoad(): Promise<void> {
-		return new Promise((resolve) => {
-			const oModel = this.getView().getModel("select");
-			if (oModel && oModel.getData().length > 0) {
-				resolve(); // if data is already loaded
-			} else {
-				oModel.attachEventOnce("requestCompleted", () => {
-					resolve();
-				});
-			}
-		});
+		// Update the browser's URL without causing a page refresh
+		const newURL = `${window.location.origin}${
+			window.location.pathname
+		}?${mParams.toString()}`;
+		window.history.pushState({}, "", newURL);
 	}
 
 	copyLinkToClipboardMain(event: Event): void {
 		this.copyLinkToClipboard(event);
 	}
 
-	showRSSFeed(): void {
-		window.open("rss_feed.xml");
+	showRSSFeedSAPUI5(): void {
+		window.open("rss_feed_SAPUI5.xml");
+	}
+
+	showRSSFeedOpenUI5(): void {
+		window.open("rss_feed_OpenUI5.xml");
 	}
 }

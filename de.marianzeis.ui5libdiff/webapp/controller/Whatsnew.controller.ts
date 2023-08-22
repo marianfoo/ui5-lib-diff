@@ -12,13 +12,24 @@ import MessageToast from "sap/m/MessageToast";
 export default class Whatsnew extends BaseController {
 	_mViewSettingsDialogs: {};
 	dataloadedPromise: Promise<void>;
+	whatsnewDataLoadled: Promise<any>;
+	selectDataLoaded: Promise<any>;
 	public async onInit(): void {
-		this.dataloadedPromise = this.loadData();
-		this._mViewSettingsDialogs = {};
+		this.getView().setBusyIndicatorDelay(0);
+		this.getView().setBusy(true);
 		this.getRouter()
 			.getRoute("whatsnew")
 			.attachEventOnce("patternMatched", this.onPatternMatchedOnce, this);
+		const whatsnewModel = new JSONModel();
+		this.whatsnewDataLoadled =  whatsnewModel.loadData("./data/whatsnew.json");
+		this.getView().setModel(whatsnewModel, "whatsnewData");
+		const selectModel  = new JSONModel()
+		this.selectDataLoaded =  selectModel.loadData("./data/selectVersionsSAPUI5.json");
+		this.getView().setModel(selectModel, "select");
+		this._mViewSettingsDialogs = {};
 		this.getView().setModel(new JSONModel(), "whatsnew");
+		await Promise.all([this.whatsnewDataLoadled, this.selectDataLoaded]);
+		this.getView().setBusy(false);
 	}
 
 	onNavBack(): void {
@@ -38,7 +49,7 @@ export default class Whatsnew extends BaseController {
 
 	// get parameter versionFrom and versionTo from URL Parameters
 	public async getQueryParameter(): void {
-		await this.waitForModelToLoad();
+		await Promise.all([this.whatsnewDataLoadled, this.selectDataLoaded]);
 		const data = this.getView().getModel("select").getData();
 		const mParams = new URLSearchParams(window.location.search);
 		const versionFrom = mParams.get("versionFrom");
@@ -73,38 +84,6 @@ export default class Whatsnew extends BaseController {
 			this.getView().byId("versionToSelect").setSelectedKey(versionTo!);
 			await this.dataloadedPromise;
 			this.handleVersionChange();
-		}
-	}
-
-	private async loadData(): Promise<void> {
-		this.getView().setBusy(true);
-		const url = "./data/whatsnew.json";
-		let data;
-		try {
-			data = await this.fetchJson(url);
-		} catch (error) {
-			console.error("Error fetching data:", error);
-		}
-		this.getView().setModel(new JSONModel(data), "whatsnewData");
-		this.getView().setBusy(false);
-	}
-
-	private async fetchJson(url: string): Promise<any> {
-		try {
-			const response = await fetch(url);
-
-			if (!response.ok) {
-				throw new Error("Network response was not ok");
-			}
-
-			const data = await response.json();
-			return data;
-		} catch (error) {
-			console.error(
-				"There was a problem with the fetch operation:",
-				error.message
-			);
-			throw error; // or you might want to return a default value or handle it differently
 		}
 	}
 
@@ -281,18 +260,5 @@ export default class Whatsnew extends BaseController {
 			window.location.pathname
 		}?${mParams.toString()}${window.location.hash}`;
 		window.history.replaceState({}, "", newURL);
-	}
-
-	private async waitForModelToLoad(): Promise<void> {
-		return new Promise((resolve) => {
-			const oModel = this.getView().getModel("select");
-			if (oModel && oModel.getData().length > 0) {
-				resolve(); // if data is already loaded
-			} else {
-				oModel.attachEventOnce("requestCompleted", () => {
-					resolve();
-				});
-			}
-		});
 	}
 }

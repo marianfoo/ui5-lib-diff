@@ -1,0 +1,1498 @@
+{
+    "1.71.0": {
+        "date": "September 2019",
+        "notes": [
+            {
+                "id": "19c0134ffb5794ba982cde52f8b5e464bd25948a",
+                "type": "FIX",
+                "text": " CommandExecution fails on destroy",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980346096"
+                    }
+                ]
+            },
+            {
+                "id": "004bf53f29a745d9b1fa2e0d787202ce8a454870",
+                "type": "FIX",
+                "text": " CommandExecution: fix exception during destroy",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980346096"
+                    }
+                ]
+            },
+            {
+                "id": "d7c0b7bbe4835d8ef03d1fc942e2bf3d786b3305",
+                "type": "FIX",
+                "text": " ODataMessageParser: Resolve multiple nav props",
+                "references": []
+            },
+            {
+                "id": "960015d4640002c554aeed4ea71822f021eed963",
+                "type": "FEATURE",
+                "text": " Messaging: Message propagation for lists",
+                "references": []
+            },
+            {
+                "id": "5af4df25a24c3d7efc4f56e0aafda12600720f94",
+                "type": "FEATURE",
+                "text": " sap/base/util: Add extend/deepExtend modules",
+                "references": []
+            },
+            {
+                "id": "a7abf994af0b9514d55b56f90add4c6df431528b",
+                "type": "FIX",
+                "text": " ClientPropertyBinding: Make __name__ work again",
+                "references": []
+            },
+            {
+                "id": "0e2dfb688a012d2e2d5be2e3f9d5293401d6b69e",
+                "type": "FIX",
+                "text": " Device: Touch detection for Firefox desktop",
+                "references": []
+            },
+            {
+                "id": "b60e58cb2ff843a31cc8dd47e9708b41513be9e8",
+                "type": "FIX",
+                "text": " EventProvider: Allow detachEvent after attachEventOnce",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980358991"
+                    }
+                ]
+            },
+            {
+                "id": "b3f65deac1841d3bf032157f0212690a53b2843b",
+                "type": "FIX",
+                "text": " ManagedObject: Destroy part bindings when calling unbindProperty",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970322502"
+                    }
+                ]
+            },
+            {
+                "id": "b3b1525fb7b868cc9474e1acf38354776caf3051",
+                "type": "FIX",
+                "text": " ODataMetadata: isFunction flag is set correctly",
+                "references": []
+            },
+            {
+                "id": "257872544847bf94cb287e8c55306e84fdb5f76d",
+                "type": "FIX",
+                "text": " SAP-icons: Add \"soccer\" as alias for \"soccor\" (typo)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980361059"
+                    }
+                ]
+            },
+            {
+                "id": "5f7185de4284df5986ed74ec4aa54a52e9c6dcbc",
+                "type": "FIX",
+                "text": " events.PasteEventFix: fix wrongly fired paste event on non-editable elements",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970213111"
+                    }
+                ]
+            },
+            {
+                "id": "32d0e875f50b1410667cf8de624b9674c48bd8e0",
+                "type": "FIX",
+                "text": " sap.m.Carousel: Changing pages with keys fast is now possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980357464"
+                    }
+                ]
+            },
+            {
+                "id": "cec7ba1908dc6793850e9c7764c58b09c10c19b1",
+                "type": "FIX",
+                "text": " v2/ODataModel: getContext override deepPath",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970418311"
+                    }
+                ]
+            },
+            {
+                "id": "9aff9caa4ffd5fbfe249c0a911b86e47112d0e8c",
+                "type": "FEATURE",
+                "text": " SAP Icons v4.5 update",
+                "references": []
+            },
+            {
+                "id": "9974cb10c80446923b813be6970ed4b83db56fb5",
+                "type": "FIX",
+                "text": " FilterProcessor: Cache normalized values for better performance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980413848"
+                    }
+                ]
+            },
+            {
+                "id": "7ccb18e11a03d6703fd47889ce030b5be3a7a523",
+                "type": "FIX",
+                "text": " sap.m.Carousel: visiblePagesCount now stops loop in all directions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980360836"
+                    }
+                ]
+            },
+            {
+                "id": "b9c90b420926d85d7e0b7203d4113bb8bac3262e",
+                "type": "FIX",
+                "text": " sap.ui.core.date.Islamic: Customization fall-back format is always A",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "364899"
+                    }
+                ]
+            },
+            {
+                "id": "6109672602f34fc93d0ea4eace25fb22ffa43d03",
+                "type": "FIX",
+                "text": " v2/ODataModel: Canonical resolving of preliminary context paths",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970399395"
+                    }
+                ]
+            },
+            {
+                "id": "960015d4640002c554aeed4ea71822f021eed963",
+                "type": "FEATURE",
+                "text": " Messaging: Message propagation for lists",
+                "references": []
+            },
+            {
+                "id": "9aff9caa4ffd5fbfe249c0a911b86e47112d0e8c",
+                "type": "FEATURE",
+                "text": " SAP Icons v4.5 update",
+                "references": []
+            },
+            {
+                "id": "5af4df25a24c3d7efc4f56e0aafda12600720f94",
+                "type": "FEATURE",
+                "text": " sap/base/util: Add extend/deepExtend modules",
+                "references": []
+            },
+            {
+                "id": "a7abf994af0b9514d55b56f90add4c6df431528b",
+                "type": "FIX",
+                "text": " ClientPropertyBinding: Make __name__ work again",
+                "references": []
+            },
+            {
+                "id": "19c0134ffb5794ba982cde52f8b5e464bd25948a",
+                "type": "FIX",
+                "text": " CommandExecution fails on destroy",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980346096"
+                    }
+                ]
+            },
+            {
+                "id": "004bf53f29a745d9b1fa2e0d787202ce8a454870",
+                "type": "FIX",
+                "text": " CommandExecution: fix exception during destroy",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980346096"
+                    }
+                ]
+            },
+            {
+                "id": "0e2dfb688a012d2e2d5be2e3f9d5293401d6b69e",
+                "type": "FIX",
+                "text": " Device: Touch detection for Firefox desktop",
+                "references": []
+            },
+            {
+                "id": "b60e58cb2ff843a31cc8dd47e9708b41513be9e8",
+                "type": "FIX",
+                "text": " EventProvider: Allow detachEvent after attachEventOnce",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980358991"
+                    }
+                ]
+            },
+            {
+                "id": "9974cb10c80446923b813be6970ed4b83db56fb5",
+                "type": "FIX",
+                "text": " FilterProcessor: Cache normalized values for better performance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980413848"
+                    }
+                ]
+            },
+            {
+                "id": "b3f65deac1841d3bf032157f0212690a53b2843b",
+                "type": "FIX",
+                "text": " ManagedObject: Destroy part bindings when calling unbindProperty",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970322502"
+                    }
+                ]
+            },
+            {
+                "id": "042b232553512824c66afc12b3dee6ed2816ceee",
+                "type": "FIX",
+                "text": " MessageMixin: Ignore messages for sub-entities",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970472060"
+                    }
+                ]
+            },
+            {
+                "id": "d7c0b7bbe4835d8ef03d1fc942e2bf3d786b3305",
+                "type": "FIX",
+                "text": " ODataMessageParser: Resolve multiple nav props",
+                "references": []
+            },
+            {
+                "id": "b3b1525fb7b868cc9474e1acf38354776caf3051",
+                "type": "FIX",
+                "text": " ODataMetadata: isFunction flag is set correctly",
+                "references": []
+            },
+            {
+                "id": "f28d27fe8dc3f167d79fc67e03df2aa6543cf694",
+                "type": "FIX",
+                "text": " ODataModel: Don't send CSRF token for GET requests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "529036"
+                    }
+                ]
+            },
+            {
+                "id": "257872544847bf94cb287e8c55306e84fdb5f76d",
+                "type": "FIX",
+                "text": " SAP-icons: Add \"soccer\" as alias for \"soccor\" (typo)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980361059"
+                    }
+                ]
+            },
+            {
+                "id": "5f7185de4284df5986ed74ec4aa54a52e9c6dcbc",
+                "type": "FIX",
+                "text": " events.PasteEventFix: fix wrongly fired paste event on non-editable elements",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970213111"
+                    }
+                ]
+            },
+            {
+                "id": "32d0e875f50b1410667cf8de624b9674c48bd8e0",
+                "type": "FIX",
+                "text": " sap.m.Carousel: Changing pages with keys fast is now possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980357464"
+                    }
+                ]
+            },
+            {
+                "id": "7ccb18e11a03d6703fd47889ce030b5be3a7a523",
+                "type": "FIX",
+                "text": " sap.m.Carousel: visiblePagesCount now stops loop in all directions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980360836"
+                    }
+                ]
+            },
+            {
+                "id": "b9c90b420926d85d7e0b7203d4113bb8bac3262e",
+                "type": "FIX",
+                "text": " sap.ui.core.date.Islamic: Customization fall-back format is always A",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "364899"
+                    }
+                ]
+            },
+            {
+                "id": "6109672602f34fc93d0ea4eace25fb22ffa43d03",
+                "type": "FIX",
+                "text": " v2/ODataModel: Canonical resolving of preliminary context paths",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970399395"
+                    }
+                ]
+            },
+            {
+                "id": "cec7ba1908dc6793850e9c7764c58b09c10c19b1",
+                "type": "FIX",
+                "text": " v2/ODataModel: getContext override deepPath",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970418311"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.4": {
+        "date": "November 2019",
+        "notes": [
+            {
+                "id": "c051488fbe82487cb117838fd5346d0c26db074b",
+                "type": "FIX",
+                "text": " Commands: Move focusable span to static-ui-area",
+                "references": [
+                    {
+                        "type": "BCP"
+                    }
+                ]
+            },
+            {
+                "id": "d453442c1eb55ec333609f80cf09a2a3fd9f10a1",
+                "type": "FIX",
+                "text": " ODataContextBinding: multiple preliminary context bindings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980405260"
+                    }
+                ]
+            },
+            {
+                "id": "475ccff5b44ea47729a4cd33a2b81920372bde9c",
+                "type": "FIX",
+                "text": " core.routing: target should be suspended without promise involved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970526256"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1970527298"
+                    }
+                ]
+            },
+            {
+                "id": "f770a40ea52723c9daa36a2a9fb580740736f543",
+                "type": "FIX",
+                "text": " format.NumberFormat: Support lenient-parsing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003154282019"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "012005041000000656012019"
+                    }
+                ]
+            },
+            {
+                "id": "45812a5bf46ec7b6b5808b62069a02d1984043df",
+                "type": "FIX",
+                "text": " sap/ui/Device: Detect iPads running on iOS 13",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970475024"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.5": {
+        "date": "December 2019",
+        "notes": [
+            {
+                "id": "484d3614d525d8adfe3ad09ffc7245f24eca7e38",
+                "type": "FIX",
+                "text": " core/Shortcut: Restore focus on DOM element instead",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970531258"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.6": {
+        "date": "December 2019",
+        "notes": [
+            {
+                "id": "0c896c692c066b1914b9fa64c0bbffc2b4374dd4",
+                "type": "FIX",
+                "text": " ShortcutHelper: Fix mapping to browser keys between 'Space' and 'Plus'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980490083"
+                    }
+                ]
+            },
+            {
+                "id": "d277b4064ea6bd750752d155412d79f0962013f2",
+                "type": "FIX",
+                "text": " jQuery: Make parseHTML work with domain relaxation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007453322019"
+                    }
+                ]
+            },
+            {
+                "id": "5a4300d2f0ad37f076f7afc4b4404f6854fc9b55",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.ODataMessageParser: cleanup messages after refresh",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970590829"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1970544211"
+                    }
+                ]
+            },
+            {
+                "id": "00a326b70ceec94a3a310be021917805319bf46c",
+                "type": "FIX",
+                "text": " v2/ODataModel: Don't resolve canonical with function imports",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980434820"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.7": {
+        "date": "December 2019",
+        "notes": [
+            {
+                "id": "ed517b4a548a1f9940d84454c0b4163b9d9f138a",
+                "type": "FIX",
+                "text": " v2.ODataModel: Fixed issues with success/error handler in submitChanges",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006882642019"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.9": {
+        "date": "January 2020",
+        "notes": [
+            {
+                "id": "746e0e9ded8cf599ba4bf0e743762172b8f1d148",
+                "type": "FIX",
+                "text": " XMLTemplateProcessor: correctly set owner ID for stashed controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970586639"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000781231 2019"
+                    }
+                ]
+            },
+            {
+                "id": "cc34fe33d58c29762c3166c418590e0b87058176",
+                "type": "FIX",
+                "text": " format/NumberFormat: currency long format",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080004890"
+                    }
+                ]
+            },
+            {
+                "id": "03d6bf9ebda6c51bfc2a5bed4671e4b2127cc0a2",
+                "type": "FIX",
+                "text": " handlebars: upgrading to version 4.4.3",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970505257"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.13": {
+        "date": "March 2020",
+        "notes": [
+            {
+                "id": "58dff7843cc8af415cd8b872100b566f024324a0",
+                "type": "FIX",
+                "text": " routing: create default hash changer in router's constructor",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001536532020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.14": {
+        "date": "April 2020",
+        "notes": [
+            {
+                "id": "e9827413603ef9b1b897304a1b72f9a664ff9f10",
+                "type": "FIX",
+                "text": " routing.HashChanger: correct the call order between history and router",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070047882"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070024865"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.15": {
+        "date": "April 2020",
+        "notes": [
+            {
+                "id": "8ba79c4f07881b7fb61ab2aaa8bb23c591b0cd6f",
+                "type": "FIX",
+                "text": " caja-html-sanitizer: avoid catastrophic backtracking in lexCss",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001766652020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.17": {
+        "date": "May 2020",
+        "notes": [
+            {
+                "id": "6bfbc7239bad701161923062dacf9b62a316b855",
+                "type": "FIX",
+                "text": " events.pasteEventFix: provide fallback when no ClipboardEvent",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070225657"
+                    }
+                ]
+            },
+            {
+                "id": "fadf90e24771064f8775b0d3b93582de0a563d81",
+                "type": "FIX",
+                "text": " events.PasteEventFix: use capturing phase to avoid focus change in between",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070103149"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.18": {
+        "date": "June 2020",
+        "notes": [
+            {
+                "id": "739825a7f148667709065f9d3e8ee91004abea5a",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.ODataModel#_loadData: Do not use x-csrf-token for GET requests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002585962020"
+                    }
+                ]
+            },
+            {
+                "id": "ad2eafe211c8709e618cf0b2514912ab87f51733",
+                "type": "FIX",
+                "text": " Configuration: normalize Theme to sap_fiori_3",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002689182020"
+                    }
+                ]
+            },
+            {
+                "id": "4dfcafc0844e1639421b434bd52c35997d382280",
+                "type": "FIX",
+                "text": " hasher.js: replace hash should not affect the path in href",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070234256"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.19": {
+        "date": "July 2020",
+        "notes": [
+            {
+                "id": "d634be8616e4e20e56d1aa3c108bdb2e09343d51",
+                "type": "FIX",
+                "text": " routing.history: keep history direction in case the browser hash isn't changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003521542020"
+                    }
+                ]
+            },
+            {
+                "id": "f26a746eadd0f8d46bfa1129c42f7c4ecae9c38a",
+                "type": "FIX",
+                "text": " sap.ui.core.util.ExportTypeCSV - Cell overflow injection fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080220914"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.20": {
+        "date": "July 2020",
+        "notes": [
+            {
+                "id": "a2c61880ad3500466a5c10650a9b6e98a0475682",
+                "type": "FIX",
+                "text": " core.routing: allow set/replaceHash also when no listener to \"hashChanged\" event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004678552020"
+                    }
+                ]
+            },
+            {
+                "id": "55c5ac1441b26f3ceca612a7ddbd0039b8a8f527",
+                "type": "FIX",
+                "text": " Opa: fix binding path selector for named models",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080258112"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.21": {
+        "date": "August 2020",
+        "notes": [
+            {
+                "id": "de0295ad9456c3598edeede73317b5907b44582b",
+                "type": "FIX",
+                "text": " sap/ui/base/syncXHRFix: Properly handle failing sync XHR",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002823642020"
+                    }
+                ]
+            },
+            {
+                "id": "61d693a27e71324a2b4bac65cc5b7c11a6440f5b",
+                "type": "FIX",
+                "text": " format/NumberFormat: parse special values \"00000\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004699942020"
+                    }
+                ]
+            },
+            {
+                "id": "8b0d9782d4b2fc235bdafe02e03184fc67e25482",
+                "type": "FIX",
+                "text": " core/Element: preventScrolling Test failed in Firefox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080359779"
+                    }
+                ]
+            },
+            {
+                "id": "3cba7a4d6904c8ec5823729dfe9f1af20be2b8c4",
+                "type": "FIX",
+                "text": " Revert \"[FIX] core/Element: preventScrolling Test failed in Firefox\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080335699"
+                    }
+                ]
+            },
+            {
+                "id": "8593fba3ecad4abacd838d2121ca23bbc0eeeed6",
+                "type": "FIX",
+                "text": " core/Element: preventScrolling Test failed in Firefox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.22": {
+        "date": "September 2020",
+        "notes": [
+            {
+                "id": "b3f283244407b5843606b2343f9f92744c4f4d21",
+                "type": "FIX",
+                "text": " scrollLeftRTL: adapt to chrome behavior change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070328364"
+                    }
+                ]
+            },
+            {
+                "id": "212b883704807f497d64b4a22dbedaf744666a70",
+                "type": "FIX",
+                "text": " format/NumberFormat: consider control characters in minus sign",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005462222020"
+                    }
+                ]
+            },
+            {
+                "id": "2032e88a30a8d370e23959b2a3180a4ba67ca379",
+                "type": "FIX",
+                "text": " sap.ui.model.analytics.AnalyticalTreeBindingAdapter#setNumberOfExpandedLevels: expand only as many levels as grouped dimensions are available",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005340402020"
+                    }
+                ]
+            },
+            {
+                "id": "c48c20c59e5631a0274c680aa3e5ffaaad129e04",
+                "type": "FIX",
+                "text": " handlebars: usage of latest version 4.7.6",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.24": {
+        "date": "November 2020",
+        "notes": [
+            {
+                "id": "2d7d655225f70574a1818687977d88aa64b753c0",
+                "type": "FIX",
+                "text": " XMLView: use correct 'resourceBundleAlias' when loading async",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070025547"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070378472"
+                    }
+                ]
+            },
+            {
+                "id": "e2c1ca753889f6cc2d8c65f319a9f7a8b12ccc71",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.v2.ODataModel#increaseLaundering: skip laundering if oChangedEntity is not an object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006738672020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.25": {
+        "date": "December 2020",
+        "notes": [
+            {
+                "id": "cdd4004e9d202216b496d49af38da60d70c496f5",
+                "type": "FIX",
+                "text": " sap/base/Log: Limit amount of stored log entries",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070360983"
+                    }
+                ]
+            },
+            {
+                "id": "6d02e5a86a06c67d33f2cf8fb3829051bf7faa86",
+                "type": "FIX",
+                "text": " base/ManagedObject: Aggregation Bindings in JSON Views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080356736"
+                    }
+                ]
+            },
+            {
+                "id": "69cb9b8efab44abb77199c167ebedbd2e42fc71d",
+                "type": "FIX",
+                "text": " routing.History: turn off push state when runs in iframe",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000972652020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080397396"
+                    }
+                ]
+            },
+            {
+                "id": "548de6aec8ab93ac9229e142046b24af41aa7bae",
+                "type": "FIX",
+                "text": " CustomizingConfiguration: respect owner component for configuration",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005374432020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070417704"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.26": {
+        "date": "January 2021",
+        "notes": [
+            {
+                "id": "2928a296b5bb4ff1c15708c9408b87101b4ff0cf",
+                "type": "FIX",
+                "text": " Locale: Remove mapping from 'SH' to 'SR' for logon language",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007189712020"
+                    }
+                ]
+            },
+            {
+                "id": "c1bb0d67780eaafe4e34e6425fa8678a66e066d2",
+                "type": "FIX",
+                "text": " routing.History: use the new state flag in qUnit test",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080444210"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.27": {
+        "date": "February 2021",
+        "notes": [
+            {
+                "id": "42fa021795915b9ee46aa829f8e7e9ab6b042ca5",
+                "type": "FIX",
+                "text": " sap.ui.core.routing.History: enable complete routing history",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070491972"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.29": {
+        "date": "February 2021",
+        "notes": [
+            {
+                "id": "62c2273a104555ec9da84be22884059747c614dc",
+                "type": "FIX",
+                "text": " theming/Parameters: Request library-parameters.json with credentials",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070394805"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070394696"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180075387"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.30": {
+        "date": "March 2021",
+        "notes": [
+            {
+                "id": "7da6a0523bc3bf1febb38f7d6bab95e91c11cdea",
+                "type": "FIX",
+                "text": " sap.ui.model.analytics.AnalyticalBinding: support selecting only the text of a measure",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000644142021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.32": {
+        "date": "April 2021",
+        "notes": [
+            {
+                "id": "a8a064b3cdb1c5bc172ec88979c68cc28cecbdbf",
+                "type": "FIX",
+                "text": " jquery-mobile-custom: clear the block list after processing click event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170064743"
+                    }
+                ]
+            },
+            {
+                "id": "623eda3a8d64efa5e56c6ee2d20ba62f5de41bd1",
+                "type": "FIX",
+                "text": " IconPool: involve AppCacheBuster to resolve the font url",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180065336"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.33": {
+        "date": "May 2021",
+        "notes": [
+            {
+                "id": "204988318ba6276f805c5b1ede156f7ae87350e1",
+                "type": "FIX",
+                "text": " routing.HashChanger: forward hash to RouterHashChanger during creation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002368562021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.34": {
+        "date": "June 2021",
+        "notes": [
+            {
+                "id": "88abaf8a0b38b6809c34f62e5af86f921b0e48d4",
+                "type": "FIX",
+                "text": " ManagedObject: Support extended change detection with named models",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004448382021"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1980470497"
+                    }
+                ]
+            },
+            {
+                "id": "2ebee075ac66cdd8d765730f61e2918112e96506",
+                "type": "FIX",
+                "text": " sap.ui.core.routing.History: decode existing hash before using it to restore the history state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180169665"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.37": {
+        "date": "August 2021",
+        "notes": [
+            {
+                "id": "0c35d5d81ca92a735e0b8859321c3b69fb489955",
+                "type": "FIX",
+                "text": " sap.ui.VersionInfo: copy 'hasOwnPreload' flag for components",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180290030"
+                    }
+                ]
+            },
+            {
+                "id": "201e1fc4d2b2bf2403fc144d4eb369e8d75cb767",
+                "type": "FIX",
+                "text": " core.qunit.routing.HistoryUtils: check for the usage of pushState",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180319180"
+                    }
+                ]
+            },
+            {
+                "id": "49a604962fe48e4d1bd73760ee8c07b42a2d5131",
+                "type": "FIX",
+                "text": " sap.ui.core.routing: make history API related tests more robust",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180056979"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180316201"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.38": {
+        "date": "September 2021",
+        "notes": [
+            {
+                "id": "9fc99af90df316f0a219fdf9d993ecd01fa3c1c2",
+                "type": "FIX",
+                "text": " core/testsuite.util.qunit: remove test jquery.sap.history",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "8c5aa2a111747c960db0e4c442fdd9ce781d6e0a",
+                "type": "FIX",
+                "text": " jquery-mobile-custom: clean up the tap handler on 'mouseout'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970532711"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1970554912"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180363967"
+                    }
+                ]
+            },
+            {
+                "id": "5c526e6ac461da8af78663620b3efda9a193b7cd",
+                "type": "FIX",
+                "text": " routing.History: use HashChanger to fetch hash and wait it till init",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180169665"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180299462"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.39": {
+        "date": "October 2021",
+        "notes": [
+            {
+                "id": "a9d4bd09a91598ce0216323ac62a6e752318cad5",
+                "type": "FIX",
+                "text": " ManagedObject: fix cloning of associations to root object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "9d3b4292f78be775c7d5f44c6d1a70e8153a7be1",
+                "type": "FIX",
+                "text": " ManagedObject.findAggregatedObjects: add possibility to include binding templates into the search",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170077221"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070449873"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.40": {
+        "date": "November 2021",
+        "notes": [
+            {
+                "id": "e883f1774f182705fe57f83a17d0b02bb76b04fb",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.v2.ODataModel#read: Store deep path w/o URL parameters to improve canonical URL cache performance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007478172021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.41": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "7f28bac962aa1a00055ae0dfea79297f7d63f816",
+                "type": "FIX",
+                "text": " core.HTML: Do not unnecessarily mark content as \"to-be-preserved\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170279131"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.42": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "c70fa03b25712cab347c09f14ebd2c08141b6ab9",
+                "type": "FIX",
+                "text": " sap.m.Carousel: In nested carousels the inner carousel's active page content stays visible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000276432022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.43": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "b93025d260a6df7f6dcb9f3d70fde8e7df85da7f",
+                "type": "FIX",
+                "text": " jquery-mobile-custom: clean up the previous tap handler on new mousedown event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080020695"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.44": {
+        "date": "March 2022",
+        "notes": [
+            {
+                "id": "fc924106dfe5f6692b420853cb8031dd0511ff6f",
+                "type": "FIX",
+                "text": " sap.ui.core.format.DateFormat: Australian calendar change first day of week to Monday",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009303182021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.45": {
+        "date": "April 2022",
+        "notes": [
+            {
+                "id": "dcdd855d2fa83cac33b0102225d9651262c7f975",
+                "type": "FIX",
+                "text": " core.Popup: actively move focus instead of blur focused element",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980242371"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1880706491"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001668952022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.46": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "dc609238dddda22968238bec9831de300fbaf7c4",
+                "type": "FIX",
+                "text": " sap.ui.core.Popup: Fixed scrolling behavior while popup opening",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070120788"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003075662022"
+                    }
+                ]
+            },
+            {
+                "id": "c2d7011342c111c73465e4189c7b5dee99e25a3b",
+                "type": "FIX",
+                "text": " core.Popup: avoid setting focus to static UIArea when runs on mobile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000087592021"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003075662022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.47": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "39e4ce9ce29f87f2ad8431f9ef69f770b7f3e483",
+                "type": "FIX",
+                "text": " Enable Controller extensions for legacy application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002832352022"
+                    }
+                ]
+            },
+            {
+                "id": "b24c67c1c0ae51bace122ac8d9ee93c03cd325a3",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.v2.ODataModel#setProperty: reverting a time property does not fail",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002233972022"
+                    }
+                ]
+            },
+            {
+                "id": "a04c08e25e0afe89f4dc25f48b41e8241ec53faf",
+                "type": "FIX",
+                "text": " sap.ui.core.format.DateFormat: no split weeks for \"en\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004563022022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.48": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "edba06d397d5758496a844272f01e44d764a3330",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.ODataTreeBindingFlat#_calcIndexDelta: fix index delta calculation to always return the correct binding length",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005773722022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.49": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "b714a31fbc435d5985ddb0c19c9fd5706ae6fcc2",
+                "type": "FIX",
+                "text": " sap.ui.core.format.DateFormat: introduce calendarWeekNumbering format option",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007627612021"
+                    }
+                ]
+            },
+            {
+                "id": "93221a334b832b3331355fc824fb934235acad49",
+                "type": "FIX",
+                "text": " Localization: add Serbian (Latin), enhance Locale mappings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003223332022"
+                    }
+                ]
+            },
+            {
+                "id": "4dc24efb0d77abef5bf23b001da775d663e61057",
+                "type": "FEATURE",
+                "text": " Prevent overwrite SAP themes from OS high contrast settings",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007514032022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.50": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "a7b80c5d250482aa2df50bb0e768120dc42786ce",
+                "type": "FIX",
+                "text": " sap.ui.core.(format.DateFormat|date.UniversalDate): Do not use Object.values, Array#includes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270177952"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.54": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "4f403554a178c961def4c482e21edc90b753c5cf",
+                "type": "FIX",
+                "text": " core/qunit/util/Popup.qunit: stabilize test of client rect",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380014962"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.58": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "146f531d73a827ad8dfa03021dc451bdf5b2f78a",
+                "type": "FIX",
+                "text": " core.Popup: always use touch mode in mobile safari",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070009967"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,9 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const changesDir = 'changes';
+const changesDirs = ['changesSAPUI5', 'changesOpenUI5'];
 const outputDir = 'de.marianzeis.ui5libdiff/webapp/data';
-const outputFile = 'consolidated.json';
+const outputFiles = ['consolidatedSAPUI5.json', 'consolidatedOpenUI5.json'];
+
 
 function extractDataFromFile(filePath) {
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -84,51 +85,52 @@ function transformDateString(dateStr) {
 }
 
 function consolidateJsonFiles() {
-    const versions = fs.readdirSync(changesDir);
-    const allData = [];
+    changesDirs.forEach((changesDir, idx) => {
+        const versions = fs.readdirSync(changesDir);
+        const allData = [];
 
-    for (const version of versions) {
-        const versionPath = path.join(changesDir, version);
-        const files = fs.readdirSync(versionPath);
-        
-        const consolidatedData = {};
-        for (const file of files) {
-            const filePath = path.join(versionPath, file);
-            const extractedData = extractDataFromFile(filePath);
-        
-            for (const [key, data] of Object.entries(extractedData)) {
-                if (!consolidatedData[key]) {
-                    consolidatedData[key] = {
-                        date: data.date,  // set the date
-                        libraries: []
-                    };
+        for (const version of versions) {
+            const versionPath = path.join(changesDir, version);
+            const files = fs.readdirSync(versionPath);
+
+            const consolidatedData = {};
+            for (const file of files) {
+                const filePath = path.join(versionPath, file);
+                const extractedData = extractDataFromFile(filePath);
+
+                for (const [key, data] of Object.entries(extractedData)) {
+                    if (!consolidatedData[key]) {
+                        consolidatedData[key] = {
+                            date: data.date,
+                            libraries: []
+                        };
+                    }
+                    consolidatedData[key].libraries.push(...data.libraries);
                 }
-                consolidatedData[key].libraries.push(...data.libraries);  // pushing onto the libraries array
             }
+
+            const versionData = Object.entries(consolidatedData).map(([version, data]) => {
+                for (const lib of data.libraries) {
+                    lib.changes = sortChangesByType(lib.changes);
+                }
+                return {
+                    version,
+                    date: transformDateString(data.date),
+                    libraries: data.libraries
+                };
+            });
+
+            allData.push(...versionData);
         }
-        
 
-        const versionData = Object.entries(consolidatedData).map(([version, data]) => {
-            for (const lib of data.libraries) {
-                lib.changes = sortChangesByType(lib.changes);
-            }
-            return {
-                version,
-                date: transformDateString(data.date),  // <-- Use the transformDateString function here
-                libraries: data.libraries
-            };
-        });        
+        // Ensure the output directory exists
+        if (!fs.existsSync(outputDir)) {
+            fs.mkdirSync(outputDir);
+        }
 
-        allData.push(...versionData);
-    }
-
-    // Ensure the output directory exists
-    if (!fs.existsSync(outputDir)) {
-        fs.mkdirSync(outputDir);
-    }
-
-    // Save all consolidated data to the single output file, minified
-    fs.writeFileSync(path.join(outputDir, outputFile), JSON.stringify(allData));
+        // Save all consolidated data to the respective output file, minified
+        fs.writeFileSync(path.join(outputDir, outputFiles[idx]), JSON.stringify(allData));
+    });
 }
 
 consolidateJsonFiles();

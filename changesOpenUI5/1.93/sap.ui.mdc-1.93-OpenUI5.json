@@ -1,0 +1,92 @@
+{
+    "1.93.0": {
+        "date": "July 2021",
+        "notes": [
+            {
+                "id": "ff2d9f7f2a5183185fb96be15495144c20b32caa",
+                "type": "FEATURE",
+                "text": " ListBase: new property multiSelectMode added"
+            },
+            {
+                "id": "83260c5efb68aaa8391248231158dedad10cc524",
+                "type": "FEATURE",
+                "text": " Field/FilterField: support field help for external content"
+            },
+            {
+                "id": "6d392af01844f9fceec8b2a00c8053b7ca4ad3b5",
+                "type": "FEATURE",
+                "text": " MultiValueField: Field control for multiple values"
+            },
+            {
+                "id": "261b542c73f70c2d2f225b0ac7985d6ad04c4439",
+                "type": "FIX",
+                "text": " Field: remove error message and wrong input if value refreshed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180185493"
+                    }
+                ]
+            },
+            {
+                "id": "a69899d5174407772621ed230e2d44b8b409cd9f",
+                "type": "FIX",
+                "text": " Field: empty field - choose unit via field help stays empty"
+            },
+            {
+                "id": "391c0d0c39c6115282cd803518fb46395285119a",
+                "type": "FIX",
+                "text": " FieldValueHelp: don't update dialog if suggestContent changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180230887"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.93.1": {
+        "date": "September 2021",
+        "notes": [
+            {
+                "id": "c8a8e4383ce23334e11ff32bc5b1f4daf6506ff9",
+                "type": "FIX",
+                "text": " ConditionType: return unit valid for type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170175592"
+                    }
+                ]
+            },
+            {
+                "id": "8edd793a9518d6df9c06b106b86078257cc69eae",
+                "type": "FIX",
+                "text": " Field: if in table changing number changes unit",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170173084"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.93.4": {
+        "date": "December 2021",
+        "notes": [
+            {
+                "id": "c9ebbc67b0a68a18c9dcc4d2bd1fac7e028d99a4",
+                "type": "FIX",
+                "text": " mdc.FilterBarBase: correct event sequence during submit",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006861692021"
+                    }
+                ]
+            }
+        ]
+    }
+}

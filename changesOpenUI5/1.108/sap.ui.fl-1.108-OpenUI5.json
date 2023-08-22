@@ -1,0 +1,49 @@
+{
+    "1.108.0": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "8662fb5a126f75f312f98fcb68b2797351509f7a",
+                "type": "FIX",
+                "text": " sap.ui.rta - update context based adaptation route"
+            },
+            {
+                "id": "f2fd96b44b2f563073d2449471754186559da5bc",
+                "type": "FEATURE",
+                "text": " sap.ui.fl: enable condensing for ObjectStorageConnector"
+            }
+        ]
+    },
+    "1.108.8": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "ff3f6c793abe9d1e27bd785f14e80162504da494",
+                "type": "FIX",
+                "text": " sap.ui.fl - enable package usage with '-' and '$'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002162272023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.13": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "06d9123fbd9b1b7187f931960035d05fa5a8f9c8",
+                "type": "FIX",
+                "text": " sap.ui.fl - Remove invalid csrf in case of 403 response",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370069325"
+                    }
+                ]
+            }
+        ]
+    }
+}

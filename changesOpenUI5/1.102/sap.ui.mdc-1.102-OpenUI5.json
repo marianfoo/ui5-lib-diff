@@ -1,0 +1,76 @@
+{
+    "1.102.0": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "7967e2a59923a3a40cbd1f9b6a7572513174f817",
+                "type": "FEATURE",
+                "text": " sap.ui.core.format.DateFormat: IANA timezone translation"
+            },
+            {
+                "id": "b5c941decfc4803c66a3bb5a274e989eb37c7499",
+                "type": "FEATURE",
+                "text": " Field: support Timezone for DateTime"
+            }
+        ]
+    },
+    "1.102.1": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "c96ca3caa7b5f135ffdd943ee60e448777e7d5f1",
+                "type": "FIX",
+                "text": " Tables: Column width calculation for Edm.String adjusted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270098060"
+                    }
+                ]
+            },
+            {
+                "id": "1c8f6234124e74a1b76d27536ab868be5475d0c4",
+                "type": "FIX",
+                "text": " Field: clear currency measure brings error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270046846"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.3": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "68d7e135b361bbae37c88cf28d24e91a98649299",
+                "type": "FIX",
+                "text": " mdc.ConditionFlex: moving revert determination before the check",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003913842022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.4": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "c70bda3dcb3922be89f1dffc99077ce02de2f4d0",
+                "type": "FIX",
+                "text": " MDC Chart & SmartChart: Item panel field sorting",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004353342022"
+                    }
+                ]
+            }
+        ]
+    }
+}

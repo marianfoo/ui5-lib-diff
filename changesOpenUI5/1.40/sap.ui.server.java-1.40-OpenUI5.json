@@ -1,0 +1,36 @@
+{
+    "1.40.0": {
+        "date": "June 2016",
+        "notes": [
+            {
+                "id": "e4417b93060cc2ea8b13321eeb13ca5ea2b63b3e",
+                "type": "FEATURE",
+                "text": "ResourceServlet: inject SourceMap header when requested",
+                "references": []
+            },
+            {
+                "id": "731424bd8ac5a7bfd8a828d01ab10d26c01bdf47",
+                "type": "FEATURE",
+                "text": "jQuery: Remove Version 1.7.1",
+                "references": []
+            },
+            {
+                "id": "f614d138d3aa0f676e85e373ca48eeb6891c5bea",
+                "type": "FIX",
+                "text": "MultiVersionFilter: add 304 support for versioned resources",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001579232016"
+                    }
+                ]
+            },
+            {
+                "id": "4094250c8ca8e667e2e257ab6c939600ea5c4ae9",
+                "type": "FIX",
+                "text": "MultiVersionFilter: usage of LRUCache as resource cache",
+                "references": []
+            }
+        ]
+    }
+}
