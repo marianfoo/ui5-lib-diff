@@ -1,0 +1,70 @@
+{
+    "1.36.0": {
+        "date": "January 2016",
+        "notes": [
+            {
+                "id": "c580a7ec264d00d2b97f9e16fe58c2f3bb8868fa",
+                "type": "FEATURE",
+                "text": "AreaMicroChart, PercentageMicroChart and ColumnMicroChart controls moved to sap.suite.ui.microchart",
+                "references": []
+            },
+            {
+                "id": "a8c8743c75fdd67d23d6283d3a1c72b609db75e0",
+                "type": "FEATURE",
+                "text": "MultiVersionFilter: Support for tunneling HTML5 apps resources",
+                "references": []
+            },
+            {
+                "id": "66005e1184e953cde5c72f04f359a5897d333ef4",
+                "type": "FEATURE",
+                "text": "RedirectFilter: Added lightweight redirect filter",
+                "references": []
+            },
+            {
+                "id": "5532d68ee8f3824660a99aa9d7f7149951c70799",
+                "type": "FEATURE",
+                "text": "Add detailed dependency information to resources.json",
+                "references": []
+            },
+            {
+                "id": "42f3ccac438b4acad032d7158658ce1c5ce1aa63",
+                "type": "FIX",
+                "text": "AppCacheBusterFilter: Prevent access of hidden servlet paths",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570894487"
+                    }
+                ]
+            },
+            {
+                "id": "c2d067b78d5e0c4f7651c143de47ab2b8065fc32",
+                "type": "FIX",
+                "text": "ResourceServlet: Ensure closing the JAR handles",
+                "references": []
+            }
+        ]
+    },
+    "1.36.2": {
+        "date": "February 2016",
+        "notes": [
+            {
+                "id": "a973b3eaa298def9d27b0455e42a1677570999d5",
+                "type": "FIX",
+                "text": "DiscoveryServlet: Remove double-check locking",
+                "references": []
+            }
+        ]
+    },
+    "1.36.9": {
+        "date": "May 2016",
+        "notes": [
+            {
+                "id": "ea6ed1879bb3bf803d750729c37071d6ff97007d",
+                "type": "FIX",
+                "text": "MultiVersionFilter: Usage of LRUCache as resource cache",
+                "references": []
+            }
+        ]
+    }
+}

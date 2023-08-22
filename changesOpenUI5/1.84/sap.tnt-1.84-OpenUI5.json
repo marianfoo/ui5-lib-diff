@@ -1,0 +1,98 @@
+{
+    "1.84.0": {
+        "date": "October 2020",
+        "notes": [
+            {
+                "id": "aaad1ff360447051bf63bc51b8facfc6abde6ecc",
+                "type": "FIX",
+                "text": " sap.tnt.NavigationListItem: Context menu is now opened on items with 'href' set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070355555"
+                    }
+                ]
+            },
+            {
+                "id": "792a6c0024a0b9d510586bc91a4691907cd33af2",
+                "type": "FIX",
+                "text": " sap.tnt.NavigationList: Item count is read only once",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080337425"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.9": {
+        "date": "March 2021",
+        "notes": [
+            {
+                "id": "cabc219b677823857aee4427a13784b7d6314176",
+                "type": "FIX",
+                "text": " sap.tnt.NavigationListItem: Tooltip is now also shown when item is collapsed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001866032021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.21": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "e65ba88fe9e3001ecbab8ddcf9771fe6f8eb956a",
+                "type": "FIX",
+                "text": " sap.tnt.SideNavigation: Corrected \"since\" label for ariaLabel property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "7574455819eabf3de76bcff656b2333871733908",
+                "type": "FEATURE",
+                "text": " sap.tnt.SideNavigation: new ariaLabel property added"
+            }
+        ]
+    },
+    "1.84.26": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "6432faf2cbb85f43518077554c9776f17c409a68",
+                "type": "FIX",
+                "text": " sap.tnt.NavigationListItem: Position of collapsed items is no longer read twice",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080355933"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.28": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "e58ac79c1f4c2ec2c60c132700d4c1c9cd3d63dc",
+                "type": "FIX",
+                "text": " sap.tnt.NavigationList: Text is now read only once",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080355933"
+                    }
+                ]
+            }
+        ]
+    }
+}

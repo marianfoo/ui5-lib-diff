@@ -1,0 +1,30 @@
+{
+    "1.56.0": {
+        "date": "May 2018",
+        "notes": [
+            {
+                "id": "31d2997f3a41ba6cec4d7c1665747f4eed4884d8",
+                "type": "FEATURE",
+                "text": "ResourceHandler: support for X-XSS-Protection headers",
+                "references": []
+            },
+            {
+                "id": "1a633f734784e2e7b56506521dc82960bfb524d9",
+                "type": "FIX",
+                "text": "AppCacheBusterFilter: only add files to the index.json",
+                "references": []
+            },
+            {
+                "id": "9232c011485674fb7cadcf9f65eaa6b994747bb3",
+                "type": "FIX",
+                "text": "Infra: improve recognition of main module in case of bundles",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376600000668972018"
+                    }
+                ]
+            }
+        ]
+    }
+}

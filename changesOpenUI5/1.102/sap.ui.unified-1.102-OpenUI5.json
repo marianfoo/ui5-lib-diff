@@ -1,0 +1,232 @@
+{
+    "1.102.0": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "5096546aa4c52f3d95a012e009fb5b0ae6774203",
+                "type": "FIX",
+                "text": " sap.ui.unified.TimesRow: Invalid symbol replaced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270094593"
+                    }
+                ]
+            },
+            {
+                "id": "b33bd06d6dc3476a83eee93af05ffbba38b1157d",
+                "type": "FEATURE",
+                "text": " sap.m.ColorPicker: Horizon themes implemented"
+            },
+            {
+                "id": "88684a893fd004f11a11a434d1dd4c031fb4d0a0",
+                "type": "FEATURE",
+                "text": " sap.m.Menu: Horizon themes implementated"
+            },
+            {
+                "id": "b27dc8bf9178f32c0b4abca6006ee62873a36fa6",
+                "type": "FEATURE",
+                "text": " sap.ui.unified.FileUploader: new events are now added"
+            },
+            {
+                "id": "383994b537840c75c496afa60c5f2b87ee248379",
+                "type": "FIX",
+                "text": " sap.m.DatePicker: Selection works without offsetting the date",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270067271"
+                    }
+                ]
+            },
+            {
+                "id": "84cb94393eaab1847ef1389618b4e7089a8ab79a",
+                "type": "FEATURE",
+                "text": " sap.ui.unified.CalendarLegend: Horizon themes applied"
+            },
+            {
+                "id": "1a63acd2ed4855a132a697b50d449ce8fe49a909",
+                "type": "FIX",
+                "text": " Alt/Meta key + right/left key work natively for Balkan controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270042470"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270042468"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270042461"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270042447"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270042442"
+                    }
+                ]
+            },
+            {
+                "id": "fbe7ef882396c0edb920985b2c4e97eb72e677e1",
+                "type": "FIX",
+                "text": " sap.ui.unified.FileUploader: recache elements on setter usage",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280039646"
+                    }
+                ]
+            },
+            {
+                "id": "10221263268c555fa6885681ff434023e4c6c156",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: adjust appointments selected state announcement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270015360"
+                    }
+                ]
+            },
+            {
+                "id": "d09957cc3e5de0ebecc4cef8db489eb3a53ef0ae",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: refactor focus handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270014669"
+                    }
+                ]
+            },
+            {
+                "id": "1abad82cadcb4068b19562b96ef872e6073fbc4f",
+                "type": "FIX",
+                "text": " sap.ui.unified.CalendarRow: fixed role/alt of appointment icons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270015358"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.3": {
+        "date": "July 2022",
+        "notes": [
+            {
+                "id": "77974f312f8d199f4b8c5570da89c7457287984e",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust second header buttons tabindex",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280102841"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.5": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "03bf61ae5a0cc851a48737b847a76081f53bbccd",
+                "type": "FIX",
+                "text": " sap.ui.core.format.DateFormat: no split weeks for \"en\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004563022022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.7": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "402f500ddfaccf147adccc1e1d8ed0c39db9fb0a",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust second calendar type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280140219"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.9": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "08a75459ceef2de4a97a83477ab412f5ca47a4c4",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust day of the week announcement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004825022022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.11": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "31e51ec356981772c61d7600c05dcce4ead57df0",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust keyboard navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004860722022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.12": {
+        "date": "December 2022",
+        "notes": [
+            {
+                "id": "aa0c31d5d164f71de751fe95a8c37886ceb351b3",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust calendar header's button height",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280145861"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.102.15": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "b19cc04c10a92865ee62e52a5aa44d05e545a244",
+                "type": "FIX",
+                "text": " sap.m.DateRangeSelection: Adjust week selection when Min & Max dates are set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280178657"
+                    }
+                ]
+            }
+        ]
+    }
+}
