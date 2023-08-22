@@ -38,6 +38,7 @@ export default class Whatsnew extends BaseController {
 
 	// get parameter versionFrom and versionTo from URL Parameters
 	public async getQueryParameter(): void {
+		await this.waitForModelToLoad();
 		const data = this.getView().getModel("select").getData();
 		const mParams = new URLSearchParams(window.location.search);
 		const versionFrom = mParams.get("versionFrom");
@@ -280,5 +281,18 @@ export default class Whatsnew extends BaseController {
 			window.location.pathname
 		}?${mParams.toString()}${window.location.hash}`;
 		window.history.replaceState({}, "", newURL);
+	}
+
+	private async waitForModelToLoad(): Promise<void> {
+		return new Promise((resolve) => {
+			const oModel = this.getView().getModel("select");
+			if (oModel && oModel.getData().length > 0) {
+				resolve(); // if data is already loaded
+			} else {
+				oModel.attachEventOnce("requestCompleted", () => {
+					resolve();
+				});
+			}
+		});
 	}
 }
