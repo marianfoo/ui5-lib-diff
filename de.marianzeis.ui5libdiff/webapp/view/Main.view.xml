@@ -26,6 +26,7 @@
 		<headerContent>
 			<layout:VerticalLayout >
 				<m:Button text="Show Whats New" press="onNavToWhatsnew"/>
+				<m:Button text="Copy Link To Clipboard" press="copyLinkToClipboardMain"/>
 				<m:Text text="Select your libraries you want to compare"/>
 				<m:ComboBox id="versionFromSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
 					<core:Item key="{select>value}" text="{select>key}" />

@@ -29,9 +29,15 @@ export default class Main extends BaseController {
 		this.getView().setModel(new JSONModel(), "versionFrom");
 		this.getView().setModel(new JSONModel(), "versionTo");
 		this.dataloadedPromise = this.loadData();
+		this.getRouter().getRoute("main").attachEventOnce("patternMatched", this.onPatternMatchedOnce, this);
 	}
 
-	onAfterRendering(): void {
+	onPatternMatchedOnce(): void {
+		this.getRouter().getRoute("main").attachPatternMatched(this.onPatternMatched, this);
+		this.getQueryParameter();
+	}
+
+	onPatternMatched(): void {
 		this.getQueryParameter();
 	}
 
@@ -345,5 +351,9 @@ export default class Main extends BaseController {
 				});
 			}
 		});
+	}
+
+	copyLinkToClipboardMain(event: Event): void {
+		this.copyLinkToClipboard(event);
 	}
 }

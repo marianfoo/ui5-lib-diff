@@ -4,15 +4,75 @@ import Fragment from "sap/ui/core/Fragment";
 import Device from "sap/ui/Device";
 import Sorter from "sap/ui/model/Sorter";
 import Filter from "sap/ui/model/Filter";
+import MessageToast from "sap/m/MessageToast";
 
 /**
  * @namespace de.marianzeis.ui5libdiff.controller
  */
 export default class Whatsnew extends BaseController {
 	_mViewSettingsDialogs: {};
+	dataloadedPromise: Promise<void>;
 	public async onInit(): void {
-		this.loadData();
+		this.dataloadedPromise = this.loadData();
 		this._mViewSettingsDialogs = {};
+		this.getRouter()
+			.getRoute("whatsnew")
+			.attachEventOnce("patternMatched", this.onPatternMatchedOnce, this);
+		this.getView().setModel(new JSONModel(), "whatsnew");
+	}
+
+	onNavBack(): void {
+		this.getRouter().navTo("main");
+	}
+
+	onPatternMatchedOnce(): void {
+		this.getRouter()
+			.getRoute("whatsnew")
+			.attachPatternMatched(this.onPatternMatched, this);
+		this.getQueryParameter();
+	}
+
+	onPatternMatched(): void {
+		this.getQueryParameter();
+	}
+
+	// get parameter versionFrom and versionTo from URL Parameters
+	public async getQueryParameter(): void {
+		const data = this.getView().getModel("select").getData();
+		const mParams = new URLSearchParams(window.location.search);
+		const versionFrom = mParams.get("versionFrom");
+		const versionTo = mParams.get("versionTo");
+
+		// If both versionFrom and versionTo are null, exit the function
+		if (versionFrom === null && versionTo === null) return;
+
+		// Helper function to check if a version is in data and is not null
+		const versionExists = (version: string | null) =>
+			version &&
+			data.some((item) => item.key === version || item.value === version);
+
+		const missingOrInvalid = [];
+
+		if (!versionFrom) {
+			missingOrInvalid.push("versionFrom should be added");
+		} else if (!versionExists(versionFrom)) {
+			missingOrInvalid.push(`versionFrom ${versionFrom} is not valid`);
+		}
+
+		if (!versionTo) {
+			missingOrInvalid.push("versionTo should be added");
+		} else if (!versionExists(versionTo)) {
+			missingOrInvalid.push(`versionTo ${versionTo} is not valid`);
+		}
+
+		if (missingOrInvalid.length > 0) {
+			MessageToast.show(missingOrInvalid.join(" and "));
+		} else {
+			this.getView().byId("versionFromSelect").setSelectedKey(versionFrom!);
+			this.getView().byId("versionToSelect").setSelectedKey(versionTo!);
+			await this.dataloadedPromise;
+			this.handleVersionChange();
+		}
 	}
 
 	private async loadData(): Promise<void> {
@@ -24,7 +84,7 @@ export default class Whatsnew extends BaseController {
 		} catch (error) {
 			console.error("Error fetching data:", error);
 		}
-		this.getView().setModel(new JSONModel(data), "whatsnew");
+		this.getView().setModel(new JSONModel(data), "whatsnewData");
 		this.getView().setBusy(false);
 	}
 
@@ -47,7 +107,14 @@ export default class Whatsnew extends BaseController {
 		}
 	}
 
-	handleVersionChange(event) {
+	copyLinkToClipboardWhatsnew(event: Event): void {
+		this.copyLinkToClipboard(event);
+	}
+
+	handleVersionChange() {
+		this.getView().setBusyIndicatorDelay(0);
+		this.getView().setBusy(true);
+		this.updateURLParameters();
 		// Get the selected versions
 		let versionFrom = this.getView().byId("versionFromSelect").getSelectedKey();
 		let versionTo = this.getView().byId("versionToSelect").getSelectedKey();
@@ -61,7 +128,7 @@ export default class Whatsnew extends BaseController {
 			const [majorTo, minorTo] = versionTo.split(".").map(Number);
 
 			// Retrieve the data from the model
-			const whatsnew = this.getView().getModel("whatsnew").getData();
+			const whatsnew = this.getView().getModel("whatsnewData").getData();
 
 			// Filter the data based on the versions
 			const filteredData = whatsnew.filter((item) => {
@@ -78,7 +145,9 @@ export default class Whatsnew extends BaseController {
 
 			// Update your model if necessary
 			this.getView().getModel("whatsnew").setData(filteredData);
+			
 		}
+		this.getView().setBusy(false);
 	}
 
 	compareVersions(
@@ -182,5 +251,34 @@ export default class Whatsnew extends BaseController {
 			this._mViewSettingsDialogs[sDialogFragmentName] = pDialog;
 		}
 		return pDialog;
+	}
+	public updateURLParameters(): void {
+		// Retrieve the selected keys from the controls
+		const versionTo = this.getView().byId("versionToSelect").getSelectedKey();
+		const versionFrom = this.getView()
+			.byId("versionFromSelect")
+			.getSelectedKey();
+
+		// Get the current URL parameters
+		const mParams = new URLSearchParams(window.location.search);
+
+		// Update only the versionTo and versionFrom parameters
+		if (versionTo) {
+			mParams.set("versionTo", versionTo);
+		} else {
+			mParams.delete("versionTo");
+		}
+
+		if (versionFrom) {
+			mParams.set("versionFrom", versionFrom);
+		} else {
+			mParams.delete("versionFrom");
+		}
+
+		// Update the browser's URL without causing a page refresh, including the hash fragment
+		const newURL = `${window.location.origin}${
+			window.location.pathname
+		}?${mParams.toString()}${window.location.hash}`;
+		window.history.replaceState({}, "", newURL);
 	}
 }

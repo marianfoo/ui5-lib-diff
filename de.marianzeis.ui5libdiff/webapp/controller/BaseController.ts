@@ -6,6 +6,7 @@ import ResourceModel from "sap/ui/model/resource/ResourceModel";
 import ResourceBundle from "sap/base/i18n/ResourceBundle";
 import Router from "sap/ui/core/routing/Router";
 import History from "sap/ui/core/routing/History";
+import MessageToast from "sap/m/MessageToast";
 
 /**
  * @namespace de.marianzeis.ui5libdiff.controller
@@ -25,6 +26,28 @@ export default abstract class BaseController extends Controller {
 	 */
 	public getRouter(): Router {
 		return UIComponent.getRouterFor(this);
+	}
+
+	public async copyLinkToClipboard(event: Event): Promise<void> {
+		const resourceBundle = <ResourceBundle>(this.getView().getModel("i18n") as ResourceModel).getResourceBundle();
+		try {
+			// try using standard clipboard API
+			if ("clipboard" in navigator) {
+				await navigator.clipboard.writeText(window.location.href);
+				return MessageToast.show("Link copied to clipboard");
+			}
+			// fallback if clipboard API is not supported
+			const dummy = document.createElement("input");
+			document.body.appendChild(dummy);
+			dummy.setAttribute("value", window.location.href);
+			dummy.select();
+			document.execCommand("copy");
+			document.body.removeChild(dummy);
+			MessageToast.show("Link copied to clipboard")
+		} catch (error) {
+			console.error(error);
+			MessageToast.show("Link copied to clipboard failed")
+		}
 	}
 
 	/**
