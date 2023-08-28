@@ -1,0 +1,40 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * 1'
+    
+
+env:
+  HUSKY_SKIP: true
+  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: use pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.7.0
+      - name: Use Node.js LTS (18.x)
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+      - name: pnpm install
+        run: |
+          pnpm install
+      - name: fetch data
+        run: |
+          npm run refreshData
+      - name: Commit/Push build to docs branch
+        run: |
+          git config --global user.name 'marianfoo'
+          git config --global user.email '13335743+marianfoo@users.noreply.github.com'
+          git commit -m "chore: fetch new data"
+          git push origin HEAD:main
