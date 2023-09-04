@@ -1,0 +1,33 @@
+{
+    "1.96.0": {
+        "date": "October 2021",
+        "notes": [
+            {
+                "id": "08685a931ed8deb2661d85fef92edcd93967b380",
+                "type": "FEATURE",
+                "text": " sap.suite.ui.microchart: new sap_horizon theme"
+            },
+            {
+                "id": "5cbc8d34bd60a6c8db2ee1fde573c0047ba99651",
+                "type": "FEATURE",
+                "text": " sap_horizon: initial commit of Horizon theme"
+            }
+        ]
+    },
+    "1.96.11": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "34ff249aacb4c41569bd790f061df1fb0cd2a123",
+                "type": "FIX",
+                "text": " sap.suite.ui.microchart.ComparisonMicroChart : Fix None color variable issue, From rel 1.84 onwards None color was introduced in ValueColor for displaying no value in tooltip.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004821272022"
+                    }
+                ]
+            }
+        ]
+    }
+}

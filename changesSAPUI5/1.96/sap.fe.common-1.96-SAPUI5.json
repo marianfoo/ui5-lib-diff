@@ -1,0 +1,65 @@
+{
+    "1.96.0": {
+        "date": "October 2021",
+        "notes": [
+            {
+                "id": "0a62ec6198b55093b3ddb9ee7543eb8a55118133",
+                "type": "FIX",
+                "text": " The link in the MessagePopover now triggers a focus on the targeted table even if this table has no title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170218970"
+                    }
+                ]
+            },
+            {
+                "id": "e9483f7e61f8fd88934d0666e0ef250b982bf070",
+                "type": "FEATURE",
+                "text": " The row and column references are now displayed in the message popover when an error occurs in the creation row of the table"
+            },
+            {
+                "id": "aca40274dcae706676aca703a182687f1d7e06e2",
+                "type": "FIX",
+                "text": " The row and column references are now displayed in the message popover when an error arises on a table with custom columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170216376"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170230338"
+                    }
+                ]
+            },
+            {
+                "id": "9cd705cbff82e436af99470837dc220224f535ae",
+                "type": "FIX",
+                "text": " The details for a single message are now displayed in the popover directly without requiring additional navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180372956"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.3": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "64e2c635ab5269cfc88af5ef6ed39292ef49e0de",
+                "type": "FIX",
+                "text": " The link in the MessagePopover now triggers a focus on the targeted table even if this table has no title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170218970"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,356 @@
+{
+    "1.96.0": {
+        "date": "Oct 2021",
+        "notes": [
+            {
+                "id": "Icfef7d48712b0b57c1c0cfeb99a89ad2b8f70232",
+                "type": "FEATURE",
+                "text": "Improved the logic while coming back to an app that has discarded a created draft."
+            },
+            {
+                "id": "I3a081810cf56a58039418f07e75277d968c55b66",
+                "type": "FEATURE",
+                "text": "ALP: Removed custom overlay and improved display of visual filter error messages"
+            },
+            {
+                "id": "I39c555c6bcf55ff180312eb367d006a3794c78ab",
+                "type": "FEATURE",
+                "text": "LR/OP: Support for Common.DefaultValuesFunction for create with filter - ND"
+            },
+            {
+                "id": "I1561c9366a891c040a88136e8b7c45d7c0946f94",
+                "type": "FEATURE",
+                "text": "sap.suite.ui.generic.template: new sap_horizon theme"
+            },
+            {
+                "id": "Icc70d41e09bc6b4360bd22675581da18eb7e8596",
+                "type": "FEATURE",
+                "text": "LR/OP: Turn Strict Layout OFF for responsive tables in mobile devices"
+            },
+            {
+                "id": "I488b38c71016dee1dfd6ebf9ac89c2bbcafa2094",
+                "type": "FEATURE",
+                "text": "LR/OP: Show full screen option by default in mobile screens"
+            },
+            {
+                "id": "Icc70d41e09bc6b4360bd22675581da18eb7e8596",
+                "type": "FEATURE",
+                "text": "OP:Reloading all erroneous rows of the smart table when activating save"
+            },
+            {
+                "id": "I6f2d76a67468f6de629a0502b6d6689023954ed2",
+                "type": "FIX",
+                "text": "LR/OP: Introduced support of outbound specefic refresh strategy for smart link navigations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170216139"
+                    }
+                ]
+            },
+            {
+                "id": "Icea127cc70a8a2105b59dce4f623db075edee746",
+                "type": "FIX",
+                "text": "LR: Trigger search in initial startup or navigation in livemode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180369465"
+                    }
+                ]
+            },
+            {
+                "id": "I09499e417faf5a7080390d64c173839c22786752",
+                "type": "FIX",
+                "text": "Placeholders are not removed on error pages"
+            },
+            {
+                "id": "Id930346fc99c27e930ab849579b01123840c79ed",
+                "type": "FIX",
+                "text": "LR: Create is not working in new version of launchpad",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170230054"
+                    }
+                ]
+            },
+            {
+                "id": "I5ae12c8a405257cd3ee651f14441937f7f16f2bc",
+                "type": "FIX",
+                "text": "Integer zero is skipped in the navigation context while building selection variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170226786"
+                    }
+                ]
+            },
+            {
+                "id": "I74e2f68edfe343b37fa6721abc8129fa200bceab",
+                "type": "FIX",
+                "text": "To have busy indicators in apps with placeholders, for non navigation scenarios"
+            }
+        ]
+    },
+    "1.96.1": {
+        "date": "Nov 2021",
+        "notes": [
+            {
+                "id": "I03a5e8c195f56aaacbeb3e7750179ef5527cabbc",
+                "type": "FIX",
+                "text": "Values of all filter parameters for a parameterised entity set instead of just dateTime type parameters is now encoded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170261898"
+                    }
+                ]
+            },
+            {
+                "id": "I36431e913209450a4de1b954c3ccbc00ae991859",
+                "type": "FIX",
+                "text": "In the list report, issue with the create button is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": " 2170226163"
+                    }
+                ]
+            },
+            {
+                "id": "I3c49fc26dde9490539c57ad94ae2c7b88c403f8f",
+                "type": "FIX",
+                "text": "When the list report component is reloaded from the shell or bookmark, the placeholders are removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170280305"
+                    }
+                ]
+            },
+            {
+                "id": "I5e4d7f4b427e20e905c58e5a6de19091ab5ac0fa",
+                "type": "FIX",
+                "text": "The error appearing while invoking the function import from the object page header action is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170285666"
+                    }
+                ]
+            },
+            {
+                "id": "Ic49c4f1be5afef55a2de7a7210dad14ee112c177",
+                "type": "FIX",
+                "text": "Dummy handler returned for the not supported controls from PresentationControlHandlerFactory",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170271392"
+                    }
+                ]
+            },
+            {
+                "id": "I746d87d19f0e04640f46ebfcba9ff93d90e4f479",
+                "type": "FIX",
+                "text": "Placeholder screens do not appear in case of shell navigation to the visited root page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170297956"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.2": {
+        "date": "Dec 2021",
+        "notes": [
+            {
+                "id": "I2c24fdc70ad1f13e4588bf0d0a9c9c2506a7340c",
+                "type": "FIX",
+                "text": "In the object page, loading data on edit is ensured",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170325555"
+                    }
+                ]
+            },
+            {
+                "id": "Iccb4edcb5e6561bf6745850a6dfb67d9435d424d",
+                "type": "FIX",
+                "text": "In the list report, the loading error for the application is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180390042"
+                    }
+                ]
+            },
+            {
+                "id": "I0fedf2786685c6c75970d84cb88d44b78ef03cc2",
+                "type": "FIX",
+                "text": "The hanging issue while returning to the list view after the creation of app is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180398269"
+                    }
+                ]
+            },
+            {
+                "id": "Ic96d83212cc984f689c483c769f9a3460461d327",
+                "type": "FIX",
+                "text": "Flickering issue with the create popup dialog is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170319895"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.3": {
+        "date": "Jan 2022",
+        "notes": [
+            {
+                "id": "I98398eb7629960a5e24953343e0a394f44f77a5c",
+                "type": "FIX",
+                "text": "Issue with the default values for semantic date is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170299081"
+                    }
+                ]
+            },
+            {
+                "id": "Ib768fd0ffcfb120035576e244008e75ce0f646ef",
+                "type": "FIX",
+                "text": "LROP:The issue with 'create With Filters' in non-Draft applications, when date fields are passed to the creation, is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006824032021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.6": {
+        "date": "Feb 2022",
+        "notes": [
+            {
+                "id": "I41f05f35f309d29dc3a89b373fe9d999918d926c",
+                "type": "FIX",
+                "text": "Export to excel button for non draft apps, with no-section settings in manifest is displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001133242022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.7": {
+        "date": "Mar 2022",
+        "notes": [
+            {
+                "id": "Ibe2485c33d4fd09858a91cdce5cb7cef0580afde",
+                "type": "FIX",
+                "text": "For object page, the draft discard popover now appears in the copy scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270029779"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.9": {
+        "date": "Apr 2022",
+        "notes": [
+            {
+                "id": "I30f0653a404a1389c9aee0e551187d7f9e7334bb",
+                "type": "FIX",
+                "text": "It is now possible to remove the draft information from the client on draft discard",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270017213"
+                    }
+                ]
+            },
+            {
+                "id": "I6b8ae47032bd130b696f4cc71c410ed4c9c51983",
+                "type": "FIX",
+                "text": "Row-highlighting in tree table is now enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002959302022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.11": {
+        "date": "Sep 2022",
+        "notes": [
+            {
+                "id": "I2d3c5d74a6279267c97face610c4a01ae35c53e3",
+                "type": "FIX",
+                "text": "The list report entity with parameters is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002004862022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.12": {
+        "date": "Oct 2022",
+        "notes": [
+            {
+                "id": "I26fecf9e72b8d7b483c72cbb144704c976b90df3",
+                "type": "FIX",
+                "text": "In the list report, the colliding select option is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280138334"
+                    }
+                ]
+            },
+            {
+                "id": "I59194f90a124447981ac77d97c41c0a2dbaf4d61",
+                "type": "FIX",
+                "text": "NavigationSortOrder for the navigation from overview page to the list report is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002289932022"
+                    }
+                ]
+            },
+            {
+                "id": "I2fd2f77bafeda083283f7f97b1f03172a3591bcd",
+                "type": "FIX",
+                "text": "NavigationSortOrder for the navigation from overview page to the list report, when sort order is not available, is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270163875"
+                    }
+                ]
+            }
+        ]
+    }
+}

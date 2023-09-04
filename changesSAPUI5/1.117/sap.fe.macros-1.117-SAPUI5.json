@@ -1,0 +1,333 @@
+{
+    "1.117.0": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "6603f91bf0a3d1681fbf9199c7efb9fe35770742",
+                "type": "FIX",
+                "text": " We ensure that the default value of a string property annotated as isDigitSequence is set to null",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380100273"
+                    }
+                ]
+            },
+            {
+                "id": "d7987a1e4f19377c28743fb1f746ac99c5be3b81",
+                "type": "FIX",
+                "text": " We now show the labels in the quick view cards correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380096958"
+                    }
+                ]
+            },
+            {
+                "id": "462dfa1fc70d786333432ce718c58ba5fe21b544",
+                "type": "FIX",
+                "text": " We now provide Share building block as a public building block",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380093718"
+                    }
+                ]
+            },
+            {
+                "id": "8affc7d1d116a1a7a108d87631afce9c5e87b86b",
+                "type": "FEATURE",
+                "text": " The Table building block now supports additional creationMode parameters"
+            },
+            {
+                "id": "9e0924b212ec707681c6e094b250af1e7542881c",
+                "type": "FIX",
+                "text": " Users can now filter empty values for numbers when the Option is EQ and the lower value is empty in the SelectionVariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380078623"
+                    }
+                ]
+            },
+            {
+                "id": "815ae30cc37b4ad25864bd9d207c95917997a209",
+                "type": "FIX",
+                "text": " We now ensure that a new empty row is also created when a user selects data in the first empty row using the value help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380096346"
+                    }
+                ]
+            },
+            {
+                "id": "50845ce66679b9110368a1fde2bed6343aa13967",
+                "type": "FEATURE",
+                "text": " We now pass the parameters in the right manner when the integration cards are created"
+            },
+            {
+                "id": "8fd2d22dd2386875067fb43b47b589793eb7ceca",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now supports semantic date operators as filters for dynamic tiles"
+            },
+            {
+                "id": "b6ed555b443b0a74c717656d472924a28b45b719",
+                "type": "FIX",
+                "text": " We now ensure that the out-parameters of filter bar value-help is correctly mapped to the navigation properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047467"
+                    }
+                ]
+            },
+            {
+                "id": "69c1ccc52ab5b388dd08b67e0327cc63d0aaefb6",
+                "type": "FEATURE",
+                "text": " We have updated the documentation for the rowCountMode and rowCount properties"
+            },
+            {
+                "id": "2ce1af51da1b61cf551b7b83108cff06faaca704",
+                "type": "FEATURE",
+                "text": " We now apply the correct length restriction on input fields"
+            },
+            {
+                "id": "ff043b5df3771005194b4136450965fa3781cfe2",
+                "type": "FIX",
+                "text": " We no longer validate the input values in the Define Conditions tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380094058"
+                    }
+                ]
+            },
+            {
+                "id": "bf257d4d6679649046b01c487540516e9b656b97",
+                "type": "FIX",
+                "text": " We now ensure that the Insights cards can be created only after the table or chart binding expression is defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380092500"
+                    }
+                ]
+            },
+            {
+                "id": "0a20c1c52e7ed168ba08668ec61b995094fad2a9",
+                "type": "FIX",
+                "text": " The QuickView now shows a title in case no HeaderInfo annotation is set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380071240"
+                    }
+                ]
+            },
+            {
+                "id": "23e6179990890871e6efa6020bdcabd8239e9e0b",
+                "type": "FIX",
+                "text": " We now ensure that the SideEffects annotation is triggered when a new row is created using the inline creation mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380090474"
+                    }
+                ]
+            },
+            {
+                "id": "163682e8730ff1f83dfbe54612c3c2f1e21afc41",
+                "type": "FIX",
+                "text": " We now ensure that the recommendation data of the internal model is cleared in Create mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380075417"
+                    }
+                ]
+            },
+            {
+                "id": "481ae801104ced263529b9a442374707b192728b",
+                "type": "FIX",
+                "text": " The filter bar now considers all maximum conditions when using setSelectionVariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380082509"
+                    }
+                ]
+            },
+            {
+                "id": "44183b0a4930e100b6a5dd70ba546c78346a62c5",
+                "type": "FIX",
+                "text": " When using setSelectionVariant, only the conditions of filter fields with a value help are set as validated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380077247"
+                    }
+                ]
+            },
+            {
+                "id": "5751449c0f0221c32ae161bb4f5a695e908bafa0",
+                "type": "FIX",
+                "text": " We have updated the handling of filter parameters with additional values without modifying the binding info of list binding.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380075412"
+                    }
+                ]
+            },
+            {
+                "id": "6dcfdba5a6d6e4605341a8321c45156702e605ca",
+                "type": "FEATURE",
+                "text": " We now support the RichTextEditor building block"
+            },
+            {
+                "id": "e3c105a56d219976eaf9f6166b70cfa4e2b2583f",
+                "type": "FIX",
+                "text": " We now correctly handle the Boolean value in the selection variant conversion",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380079256"
+                    }
+                ]
+            },
+            {
+                "id": "433fe2c31b6b9b1a5295eaeef47b04be8d34952c",
+                "type": "FIX",
+                "text": " The showExceededText parameter of a TextArea is now always set to false if the maxLength parameter is not set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380085188"
+                    }
+                ]
+            },
+            {
+                "id": "080301719f81a2da4ea6754d9c1d79535fe3f653",
+                "type": "FIX",
+                "text": " We've improved the enablement of bound actions on tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005154012023"
+                    }
+                ]
+            },
+            {
+                "id": "812bc8fc2988511eeb1afd135f8888e070a30e1e",
+                "type": "FIX",
+                "text": " We now ensure that a custom column containing a field building block is displayed correctly when adding it using the personalization dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380084912"
+                    }
+                ]
+            },
+            {
+                "id": "46dfb0c795232ea9b235331be0610347deb18158",
+                "type": "FIX",
+                "text": " Columns with text arrangement set to TextOnly are now exported properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380052406"
+                    }
+                ]
+            },
+            {
+                "id": "2e8aa38022efea538b98f366388959897141286b",
+                "type": "FIX",
+                "text": " We now ensure that the applied filters remain stable when getting and then setting the same selection variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380082893"
+                    }
+                ]
+            },
+            {
+                "id": "0dd47240886a84339b0a720eab6587c0124d910a",
+                "type": "FIX",
+                "text": " We now support the type-ahead functionality in the “Define Conditions” tab of the RAP-based value help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380079922"
+                    }
+                ]
+            },
+            {
+                "id": "189e09b3bad8b899ee6b0b51d27cabeaaa38333a",
+                "type": "FIX",
+                "text": " We have resolved an issue with updating the value state of fields in scenarios involving recommended values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380051293"
+                    }
+                ]
+            },
+            {
+                "id": "7c0323769fc1f73207053e717d1f72e99fb86135",
+                "type": "FIX",
+                "text": " We now perform a check for supported operators before creating conditions for the properties associated with the value help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380081105"
+                    }
+                ]
+            },
+            {
+                "id": "33ab556c9896fa30b0e274bf836b19ed6441cd57",
+                "type": "FEATURE",
+                "text": " Users can now add a card to the Insights section also when table or chart filters are applied"
+            },
+            {
+                "id": "b5ebed9acfb280d136920fbf83f1823d06c19286",
+                "type": "FIX",
+                "text": " We have resolved an issue with the screenreader where some texts were read with their label",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370069381"
+                    }
+                ]
+            },
+            {
+                "id": "943cae99537212f898c6f60f7a8e844cc29b7c08",
+                "type": "FIX",
+                "text": " findControlInSubSection now only returns a chart if bIsChart is set to true",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380064553"
+                    }
+                ]
+            },
+            {
+                "id": "b20dc0d15ed48f8013c8680aab063f039f5b0a2b",
+                "type": "FEATURE",
+                "text": " The Table building block now allows you to specify the rowCountMode and the rowCount for a non-responsive table"
+            },
+            {
+                "id": "579ed0cc9b1c3db042adecc093cfdd188d80cfc8",
+                "type": "FIX",
+                "text": " We have resolved an issue with setting the ariaLabelledBy attribute for fields in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380075732"
+                    }
+                ]
+            }
+        ]
+    }
+}

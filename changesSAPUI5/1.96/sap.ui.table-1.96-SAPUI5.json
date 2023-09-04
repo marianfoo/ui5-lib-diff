@@ -1,0 +1,66 @@
+{
+    "1.96.0": {
+        "date": "October 2021",
+        "notes": [
+            {
+                "id": "81d510aefb976ad958b83b827392cf429d167842",
+                "type": "FIX",
+                "text": " sap.ui.table.*: Change empty space color"
+            },
+            {
+                "id": "04af5467fd94f54578b987d62cd48b947fcb61f8",
+                "type": "FIX",
+                "text": " Table: Take header row count into account for aria-rowindex/rowcount",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005585052021"
+                    }
+                ]
+            },
+            {
+                "id": "4ec5318ed1ecada211870dbde6be334bb873afd1",
+                "type": "FIX",
+                "text": " Table: Column header double announcement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005585052021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.5": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "87d671c51e7cf549d98290bc29bc66fcac68a25b",
+                "type": "FIX",
+                "text": " sap.ui.core.format.NumberFormat: Stricter parsing for grouping separators",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180381028"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.6": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "2c6bf0e0c9aa73bc868d94d8b670af6dcbe52fa6",
+                "type": "FIX",
+                "text": " Table: Flickering of horizontal scrollbar when in a dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001311102022"
+                    }
+                ]
+            }
+        ]
+    }
+}

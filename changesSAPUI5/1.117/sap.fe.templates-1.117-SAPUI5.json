@@ -1,0 +1,159 @@
+{
+    "1.117.0": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "2dfdaa367de124ce5b11af18db15f536db4626d9",
+                "type": "FIX",
+                "text": " We now use the text provided in the i18n file as the group label for general messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380096845"
+                    }
+                ]
+            },
+            {
+                "id": "815ae30cc37b4ad25864bd9d207c95917997a209",
+                "type": "FIX",
+                "text": " We now ensure that a new empty row is also created when a user selects data in the first empty row using the value help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380096346"
+                    }
+                ]
+            },
+            {
+                "id": "8fd2d22dd2386875067fb43b47b589793eb7ceca",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now supports semantic date operators as filters for dynamic tiles"
+            },
+            {
+                "id": "4407b5bffa511a13a29db193994dea19b60ae4bf",
+                "type": "FEATURE",
+                "text": " We now correctly handle the count mismatch of dynamic tiles in the Save as Tile feature"
+            },
+            {
+                "id": "83b52b56f42084a0860df55abc5b4b48b89acef7",
+                "type": "FEATURE",
+                "text": " We now ensure that a variant in the filter bar is expanded or collapsed depending on the Apply Automatically flag"
+            },
+            {
+                "id": "bf257d4d6679649046b01c487540516e9b656b97",
+                "type": "FIX",
+                "text": " We now ensure that the Insights cards can be created only after the table or chart binding expression is defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380092500"
+                    }
+                ]
+            },
+            {
+                "id": "0a20c1c52e7ed168ba08668ec61b995094fad2a9",
+                "type": "FIX",
+                "text": " The QuickView now shows a title in case no HeaderInfo annotation is set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380071240"
+                    }
+                ]
+            },
+            {
+                "id": "163682e8730ff1f83dfbe54612c3c2f1e21afc41",
+                "type": "FIX",
+                "text": " We now ensure that the recommendation data of the internal model is cleared in Create mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380075417"
+                    }
+                ]
+            },
+            {
+                "id": "44fac66f7306cd949d7f493ea212e707b51e9614",
+                "type": "FIX",
+                "text": " We now ensure that the action buttons in the object page header are properly refreshed after discarding the edit action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380082530"
+                    }
+                ]
+            },
+            {
+                "id": "99828289fa9d34b68fd83ebdb20da1a78248f283",
+                "type": "FIX",
+                "text": " The object page content is now displayed properly when navigating back from a subobject page using the breadcrumb",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380081953"
+                    }
+                ]
+            },
+            {
+                "id": "3e8cdd30d7fef0a2498494fe2817ebc35857fc85",
+                "type": "FIX",
+                "text": " The focus is now correctly applied after cross-application navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370049493"
+                    }
+                ]
+            },
+            {
+                "id": "586e7daf652764079424a28f50e57c6d04ec8222",
+                "type": "FIX",
+                "text": " We now ensure that the invalid parameters are removed, and the missing fields are added to the selection variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380081887"
+                    }
+                ]
+            },
+            {
+                "id": "9d5ba773e1b76c1281dfdfdaf2c0f1483d968a33",
+                "type": "FEATURE",
+                "text": " We now set the header level 'H3' for list report tables and charts"
+            },
+            {
+                "id": "1f8eff2750cc2ffcf74a320d1b3e0f45e70523ba",
+                "type": "FIX",
+                "text": " The object page title is now properly displayed when using an annotation that points to a resource model text",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380082602"
+                    }
+                ]
+            },
+            {
+                "id": "943cae99537212f898c6f60f7a8e844cc29b7c08",
+                "type": "FIX",
+                "text": " findControlInSubSection now only returns a chart if bIsChart is set to true",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380064553"
+                    }
+                ]
+            },
+            {
+                "id": "579ed0cc9b1c3db042adecc093cfdd188d80cfc8",
+                "type": "FIX",
+                "text": " We have resolved an issue with setting the ariaLabelledBy attribute for fields in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380075732"
+                    }
+                ]
+            }
+        ]
+    }
+}

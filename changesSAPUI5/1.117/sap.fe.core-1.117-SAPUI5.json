@@ -1,0 +1,334 @@
+{
+    "1.117.0": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "38300d86c80c8359af1ba656efe0149c5d4d0014",
+                "type": "FIX",
+                "text": " We now show the discard confirmation dialog correctly when subitems are deleted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380092031"
+                    }
+                ]
+            },
+            {
+                "id": "d4e2af8996fdfc564efbedad5c8d1417a6af0034",
+                "type": "FEATURE",
+                "text": " We've added a section for In/Out mapping examples and a section that references the example for updating the value help collection using side effect"
+            },
+            {
+                "id": "6603f91bf0a3d1681fbf9199c7efb9fe35770742",
+                "type": "FIX",
+                "text": " We ensure that the default value of a string property annotated as isDigitSequence is set to null",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380100273"
+                    }
+                ]
+            },
+            {
+                "id": "42196c3157d1639d031efd939c1033ca480116c9",
+                "type": "FIX",
+                "text": " We now ensure that the selection mode on tables containing grouped actions is considered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380096341"
+                    }
+                ]
+            },
+            {
+                "id": "1a3ca1a079905dac93733e98d5be3b2bbbb4c9a1",
+                "type": "FIX",
+                "text": " We ensure that the input value for empty non-nullable number fields with Byte or Sbyte property is set to 0",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380094920"
+                    }
+                ]
+            },
+            {
+                "id": "8affc7d1d116a1a7a108d87631afce9c5e87b86b",
+                "type": "FEATURE",
+                "text": " The Table building block now supports additional creationMode parameters"
+            },
+            {
+                "id": "9e0924b212ec707681c6e094b250af1e7542881c",
+                "type": "FIX",
+                "text": " Users can now filter empty values for numbers when the Option is EQ and the lower value is empty in the SelectionVariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380078623"
+                    }
+                ]
+            },
+            {
+                "id": "2dfdaa367de124ce5b11af18db15f536db4626d9",
+                "type": "FIX",
+                "text": " We now use the text provided in the i18n file as the group label for general messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380096845"
+                    }
+                ]
+            },
+            {
+                "id": "815ae30cc37b4ad25864bd9d207c95917997a209",
+                "type": "FIX",
+                "text": " We now ensure that a new empty row is also created when a user selects data in the first empty row using the value help",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380096346"
+                    }
+                ]
+            },
+            {
+                "id": "8fd2d22dd2386875067fb43b47b589793eb7ceca",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now supports semantic date operators as filters for dynamic tiles"
+            },
+            {
+                "id": "640a394a4803d4baa250045191811b9a72d6ab2e",
+                "type": "FIX",
+                "text": " You can now define the core:require attribute in building blocks",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380098369"
+                    }
+                ]
+            },
+            {
+                "id": "4407b5bffa511a13a29db193994dea19b60ae4bf",
+                "type": "FEATURE",
+                "text": " We now correctly handle the count mismatch of dynamic tiles in the Save as Tile feature"
+            },
+            {
+                "id": "470124f1dd259109b9aa49bdbb8c39ec1464c063",
+                "type": "FIX",
+                "text": " We now ensure that createDocument properly calls the onBeforeCreate function",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380092862"
+                    }
+                ]
+            },
+            {
+                "id": "3cbcdd12231799657b7e1450293efcde8ac46d00",
+                "type": "FIX",
+                "text": " We now ensure that the busy indicator is no longer triggered when users start entering data in an empty row",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380091101"
+                    }
+                ]
+            },
+            {
+                "id": "c95dede838281aeb1c7773f2cfe6951f079270ec",
+                "type": "FIX",
+                "text": " We now support filtering on object page tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380048639"
+                    }
+                ]
+            },
+            {
+                "id": "2ce1af51da1b61cf551b7b83108cff06faaca704",
+                "type": "FEATURE",
+                "text": " We now apply the correct length restriction on input fields"
+            },
+            {
+                "id": "258c30149398f647c6cdb20bb9e9c597f1af9d1f",
+                "type": "FIX",
+                "text": " We now ensure you can use the layoutData aggregation in our building blocks",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380098556"
+                    }
+                ]
+            },
+            {
+                "id": "bf257d4d6679649046b01c487540516e9b656b97",
+                "type": "FIX",
+                "text": " We now ensure that the Insights cards can be created only after the table or chart binding expression is defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380092500"
+                    }
+                ]
+            },
+            {
+                "id": "0a20c1c52e7ed168ba08668ec61b995094fad2a9",
+                "type": "FIX",
+                "text": " The QuickView now shows a title in case no HeaderInfo annotation is set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380071240"
+                    }
+                ]
+            },
+            {
+                "id": "163682e8730ff1f83dfbe54612c3c2f1e21afc41",
+                "type": "FIX",
+                "text": " We now ensure that the recommendation data of the internal model is cleared in Create mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380075417"
+                    }
+                ]
+            },
+            {
+                "id": "e73deee431106454b7a1607fb1399f80ead1285b",
+                "type": "FIX",
+                "text": " We now use delayed deletion provided by the model to ensure toolbar buttons don't flicker while discarding a draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001099532023"
+                    }
+                ]
+            },
+            {
+                "id": "44183b0a4930e100b6a5dd70ba546c78346a62c5",
+                "type": "FIX",
+                "text": " When using setSelectionVariant, only the conditions of filter fields with a value help are set as validated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380077247"
+                    }
+                ]
+            },
+            {
+                "id": "15b940b4f4f57222eab3760e8716bc5467c3c627",
+                "type": "FIX",
+                "text": " We now display a message when a user tries to edit a document while a transactional lock is set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380077421"
+                    }
+                ]
+            },
+            {
+                "id": "44fac66f7306cd949d7f493ea212e707b51e9614",
+                "type": "FIX",
+                "text": " We now ensure that the action buttons in the object page header are properly refreshed after discarding the edit action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380082530"
+                    }
+                ]
+            },
+            {
+                "id": "6dcfdba5a6d6e4605341a8321c45156702e605ca",
+                "type": "FEATURE",
+                "text": " We now support the RichTextEditor building block"
+            },
+            {
+                "id": "179ee98b72d6b9b742657f008aa8407e3f66fef8",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the non-nullable fields, Currency and Units",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380082492"
+                    }
+                ]
+            },
+            {
+                "id": "99828289fa9d34b68fd83ebdb20da1a78248f283",
+                "type": "FIX",
+                "text": " The object page content is now displayed properly when navigating back from a subobject page using the breadcrumb",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380081953"
+                    }
+                ]
+            },
+            {
+                "id": "0b32b255f48b08acad02fb00830963bd0827e0e7",
+                "type": "FIX",
+                "text": " We no longer log a false console error in the NewPage create mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380086655"
+                    }
+                ]
+            },
+            {
+                "id": "3e8cdd30d7fef0a2498494fe2817ebc35857fc85",
+                "type": "FIX",
+                "text": " The focus is now correctly applied after cross-application navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370049493"
+                    }
+                ]
+            },
+            {
+                "id": "46dfb0c795232ea9b235331be0610347deb18158",
+                "type": "FIX",
+                "text": " Columns with text arrangement set to TextOnly are now exported properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380052406"
+                    }
+                ]
+            },
+            {
+                "id": "1f8eff2750cc2ffcf74a320d1b3e0f45e70523ba",
+                "type": "FIX",
+                "text": " The object page title is now properly displayed when using an annotation that points to a resource model text",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380082602"
+                    }
+                ]
+            },
+            {
+                "id": "0c8df2f1aafaab2084751108b5a0398151ad4467",
+                "type": "FIX",
+                "text": " We've resolved an infinite recursion when processing a DataFieldForAnnotation pointing to a DataPoint with a dynamic target value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380062863"
+                    }
+                ]
+            },
+            {
+                "id": "18ccb620acad74209f58a92dabb58f1dbe9f7c71",
+                "type": "FIX",
+                "text": " We now support the OperationAvailable annotation on a table for an action defined on the entity set to be navigated to",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370066584"
+                    }
+                ]
+            }
+        ]
+    }
+}

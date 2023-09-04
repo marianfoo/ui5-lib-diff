@@ -1,0 +1,337 @@
+{
+    "1.96.0": {
+        "date": "December 2021",
+        "notes": [
+            {
+                "id": "8fd3c48e85500ce7ae9d6f90134258a6fa801677",
+                "type": "FIX",
+                "text": " SAP Fiori elements refreshes the relevant tab content for list reports using multiple table mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170261637"
+                    }
+                ]
+            },
+            {
+                "id": "27aa1acabae21399dd7f4906c7a3e68422f418b1",
+                "type": "FEATURE",
+                "text": " Usage of the new enableAutoColumnWidth property from MDC"
+            },
+            {
+                "id": "e9483f7e61f8fd88934d0666e0ef250b982bf070",
+                "type": "FEATURE",
+                "text": " The row and column references are now displayed in the message popover when an error occurs in the creation row of the table"
+            },
+            {
+                "id": "f0f5c6e9a5656bcbb3a82d9c4bba716fba783d75",
+                "type": "FEATURE",
+                "text": " Toggling between draft and saved values is now also supported in the list report"
+            },
+            {
+                "id": "2db1df2f93eabf6e4b7c6bd1383841c14d8bd3b7",
+                "type": "FEATURE",
+                "text": " MultiValueFields for action parameter dialogs and preferredMode CreateWith are now available"
+            },
+            {
+                "id": "775168ec1f957c0bd63a3637b5070a4d3ee0ba18",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now enables app developers to hook into the life-cycle method of sap-keep-alive mode"
+            },
+            {
+                "id": "ef2b113640f65715793daefb49d60b3dbc00c9d6",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements now provides an option to pass the variant IDs of a page or the filter bar of a table as URL parameters to the app"
+            },
+            {
+                "id": "aca40274dcae706676aca703a182687f1d7e06e2",
+                "type": "FIX",
+                "text": " The row and column references are now displayed in the message popover when an error arises on a table with custom columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170216376"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170230338"
+                    }
+                ]
+            },
+            {
+                "id": "0451894678fb7689db398cd0fae743791f093c84",
+                "type": "FIX",
+                "text": ": The translation issue for concatenated object names has been resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170204592"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170209400"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170209472"
+                    }
+                ]
+            },
+            {
+                "id": "b388db6a4af91df72724c0e82837aba3298123de",
+                "type": "FIX",
+                "text": " The display issue of large space that occurred in the visual filters has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170179075"
+                    }
+                ]
+            },
+            {
+                "id": "dfc0fa5aea1dad7f1e0bf5da5fa8528572fe6284",
+                "type": "FIX",
+                "text": " The runtime error that occurred when using the Table building block (macros:Table) in a custom page has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170218535"
+                    }
+                ]
+            },
+            {
+                "id": "26c0d680a25c15dbe3b239b1c7db70ff631ad699",
+                "type": "FEATURE",
+                "text": " Global KPIs are now available in the analytical list page with limited support"
+            },
+            {
+                "id": "c574fd7673ce3a863ffacc12aa4a549986d86e76",
+                "type": "FIX",
+                "text": " Uncaught promises that caused an issue while saving an app have been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080426256"
+                    }
+                ]
+            },
+            {
+                "id": "818f0d467da9cdbd0d4a2ceb98dbd29d64204f9c",
+                "type": "FIX",
+                "text": " The Personalization API is now called only once when a user opens the application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170192109"
+                    }
+                ]
+            },
+            {
+                "id": "0e6fd1699869effe3b73ce46d88e4cf60bfdd248",
+                "type": "FIX",
+                "text": " The text that is displayed when a user cancels an action on the object page has been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170175838"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.1": {
+        "date": "November 2021",
+        "notes": [
+            {
+                "id": "25aae67c53771a9056a575df4f71d0bec42048bd",
+                "type": "FIX",
+                "text": " SAP Fiori elements now uses escape single quotes in strings of button labels",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170288842"
+                    }
+                ]
+            },
+            {
+                "id": "149a4cae601f91f72d701d647895f2e9976ea3aa",
+                "type": "FIX",
+                "text": ": SAP Fiori elements now passes the semantic date operators TODAY and DATE to the selection variant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007908512021"
+                    }
+                ]
+            },
+            {
+                "id": "b1cc08b8bff9884d77e8b41c9d9cd9555ea7aea6",
+                "type": "FIX",
+                "text": " The Create Button on the List Report table is now visible if insertion is switched off and external creation is maintained",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170323614"
+                    }
+                ]
+            },
+            {
+                "id": "cef10ea06cc231df0206f316e9b5e4080720d801",
+                "type": "FIX",
+                "text": " If no title for an object page header has been provided, then the title field on the UI is blank",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007853472021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.2": {
+        "date": "December 2021",
+        "notes": [
+            {
+                "id": "67c3301fef9a7f09290a1da7004c2615ce31f69f",
+                "type": "FIX",
+                "text": " Based on the settings you make in the SAP Fiori launchpad, external navigation now opens in a new tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007350822021"
+                    }
+                ]
+            },
+            {
+                "id": "36489571446232af518f158757eb92951cd34b24",
+                "type": "FIX",
+                "text": " Applications can now define an individual title for action dialogs using the preferredMode create/createWith parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170326311"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.3": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "a6edd222b9e16aad61260b80eff4fa07ec96c918",
+                "type": "FIX",
+                "text": " Error handling is now included for a chain of promises when a user saves a document",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000390322022"
+                    }
+                ]
+            },
+            {
+                "id": "2528f1b9bce00aa39481f41a3a6090f58894cc9a",
+                "type": "FIX",
+                "text": " The shared email link for apps using the SAP Launchpad service has been fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170230319"
+                    }
+                ]
+            },
+            {
+                "id": "64e2c635ab5269cfc88af5ef6ed39292ef49e0de",
+                "type": "FIX",
+                "text": " The link in the MessagePopover now triggers a focus on the targeted table even if this table has no title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170218970"
+                    }
+                ]
+            },
+            {
+                "id": "bec4c0f35d383e3745c4ea2c3dd6a8b706bf643c",
+                "type": "FIX",
+                "text": " Facet hidden annotation is now set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170316605"
+                    }
+                ]
+            },
+            {
+                "id": "0b1f62a914ae62ab30e79d6ebcdf0073f95c9415",
+                "type": "FIX",
+                "text": " The support of dynamic expressions in facets is set now correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170282639"
+                    }
+                ]
+            },
+            {
+                "id": "82b541695d7d780234f2436604b8ff4a8a3d70a1",
+                "type": "FIX",
+                "text": " Actions in the toolbar of the list report are now updated when you refresh the list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170250952"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.6": {
+        "date": "March 2022",
+        "notes": [
+            {
+                "id": "c17b9a5b384c36daf223c9a348c1d7920737a85b",
+                "type": "FIX",
+                "text": " After using the \"Save as Tile\" function and clicking on the new app, it now opens in the same tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280079269"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.13": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "8c2da458b656c2862209cfdad80a662fa4362c1c",
+                "type": "FIX",
+                "text": " We've resolved the console error related to a duplicate ID for the TableValueHelp",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006883092022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.15": {
+        "date": "January 2023",
+        "notes": [
+            {
+                "id": "0423434382aca2d6656dc9c95258c6698c1a7e08",
+                "type": "FIX",
+                "text": " We now ensure that SAP_Messages are returned for a bound action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008939772022"
+                    }
+                ]
+            }
+        ]
+    }
+}

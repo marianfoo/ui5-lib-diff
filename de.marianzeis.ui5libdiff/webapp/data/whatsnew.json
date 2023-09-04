@@ -12909,19 +12909,6 @@
         "Version": "1.56"
     },
     {
-        "id": 61363918,
-        "deliverable.version": "1.117_SAPUI5",
-        "Description": "<ul class=\"ul\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__ul_v1x_kfl_ndb\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.support.ExecutionScope.getElements</samp> has a new parameter <samp class=\"ph codeph\">cloned</samp>. It allows users of the Support Assistant to filter out elements that are clones of list bindings. Now the results will include only the representative clone. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\" title=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\">API Reference</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">A <span class=\"ph uicontrol\">Filter</span> view showing the currently applied filter has been added to the <span class=\"ph uicontrol\">Issues</span> view of the Support Assistant. The <span class=\"ph uicontrol\">Clear Filtering</span> button (<img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_vkt_vmd_5db\" src=\"loio4a0cf3bc3f7244549cf95901077aa6ae_HiRes.png\"></img>) has moved to the <span class=\"ph uicontrol\">Filter</span> view. It is active only when there is a filter selected.</p>  </li>  <li class=\"li\">  <p class=\"p\">An explanatory note has been added to the <span class=\"ph uicontrol\">Additional Rulesets</span> view under the header to give more clarity about the function of these rulesets and why they are in a separate tab.</p>  </li>  <li class=\"li\">  <p class=\"p\">The <span class=\"ph uicontrol\">Report</span> button is now fixed to the panel to be always visible and not to get into the overflow.</p>  </li>  <li class=\"li\">  <p class=\"p\">The font sizes are aligned across all three views for consistency.</p>  </li>  <li class=\"li\">  <p class=\"p\">In the <span class=\"ph uicontrol\">Issues</span> view the number of issues is only highlighted when there are issues of medium and high severity. This improvement helps to easily see the distribution of the issues by severity.</p>  </li>  </ul><img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_hvs_lth_4db\" src=\"loio88301172a39245bbb35f0d5abbc26646_HiRes.png\"></img>",
-        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\">Support Assistant</span>",
-        "Latest_Revision": "",
-        "Valid_as_Of": "2018-08-02",
-        "Type": "Changed",
-        "Action": "Info Only",
-        "Category": "Feature",
-        "Version": "1.56"
-    },
-    {
         "id": 61363331,
         "deliverable.version": "1.117_SAPUI5",
         "Description": "<p class=\"p\">The Support Assistant now allows you to import and export your rule selection. This helps you when you want to perform more than one analysis with the same subset of selected rules. The selection is exported as a <samp class=\"ph codeph\">.json</samp> file with a title and description of your choice. You can then import this file and load it whenever you want to execute the same rules in another analysis.</p><img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_wg1_frp_gpb\" src=\"loio916079a1321e478498c896d0ce325591_HiRes.png\"></img><p class=\"p\">For more information, see <a class=\"xref\" href=\"3fc864acf926406194744375aa464fe7.html\" title=\"The user interface of the Support Assistant lets you choose which rules you can load for a library. It also allows you to organize your Rules view according to your preference and to import and export predefined rule selections.\">Rules Management</a>.</p>",
@@ -12930,6 +12917,19 @@
         "Latest_Revision": "",
         "Valid_as_Of": "2018-08-02",
         "Type": "New",
+        "Action": "Info Only",
+        "Category": "Feature",
+        "Version": "1.56"
+    },
+    {
+        "id": 61363918,
+        "deliverable.version": "1.117_SAPUI5",
+        "Description": "<ul class=\"ul\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__ul_v1x_kfl_ndb\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.support.ExecutionScope.getElements</samp> has a new parameter <samp class=\"ph codeph\">cloned</samp>. It allows users of the Support Assistant to filter out elements that are clones of list bindings. Now the results will include only the representative clone. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\" title=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\">API Reference</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">A <span class=\"ph uicontrol\">Filter</span> view showing the currently applied filter has been added to the <span class=\"ph uicontrol\">Issues</span> view of the Support Assistant. The <span class=\"ph uicontrol\">Clear Filtering</span> button (<img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_vkt_vmd_5db\" src=\"loio4a0cf3bc3f7244549cf95901077aa6ae_HiRes.png\"></img>) has moved to the <span class=\"ph uicontrol\">Filter</span> view. It is active only when there is a filter selected.</p>  </li>  <li class=\"li\">  <p class=\"p\">An explanatory note has been added to the <span class=\"ph uicontrol\">Additional Rulesets</span> view under the header to give more clarity about the function of these rulesets and why they are in a separate tab.</p>  </li>  <li class=\"li\">  <p class=\"p\">The <span class=\"ph uicontrol\">Report</span> button is now fixed to the panel to be always visible and not to get into the overflow.</p>  </li>  <li class=\"li\">  <p class=\"p\">The font sizes are aligned across all three views for consistency.</p>  </li>  <li class=\"li\">  <p class=\"p\">In the <span class=\"ph uicontrol\">Issues</span> view the number of issues is only highlighted when there are issues of medium and high severity. This improvement helps to easily see the distribution of the issues by severity.</p>  </li>  </ul><img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_hvs_lth_4db\" src=\"loio88301172a39245bbb35f0d5abbc26646_HiRes.png\"></img>",
+        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
+        "Title": "<span class=\"ph emphasis emphasis\">Support Assistant</span>",
+        "Latest_Revision": "",
+        "Valid_as_Of": "2018-08-02",
+        "Type": "Changed",
         "Action": "Info Only",
         "Category": "Feature",
         "Version": "1.56"
