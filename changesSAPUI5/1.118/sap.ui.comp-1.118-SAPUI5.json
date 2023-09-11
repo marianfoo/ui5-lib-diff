@@ -1,0 +1,268 @@
+{
+    "1.118.0": {
+        "date": "September 2023",
+        "notes": [
+            {
+                "id": "67cff3f194f4ef21ec236d2dabf89f332123d7b6",
+                "type": "FIX",
+                "text": " SmartTable - Unit of measure formatting",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007636532023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007635642023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007653252023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007654032023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007629712023"
+                    }
+                ]
+            },
+            {
+                "id": "fb35567470f713468dffb590a5b6e6ba59193713",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement nullable false with clientSideMandatoryCheck false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380096610"
+                    }
+                ]
+            },
+            {
+                "id": "f0b29b6313f2e8d46efaddd77cabd545ef676d61",
+                "type": "FIX",
+                "text": " SmartControls: Edm.DateTime type to ignore Calendar configuration",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006909092023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006817212023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006837622023"
+                    }
+                ]
+            },
+            {
+                "id": "f3323beb3322e67484a111d51de61503c9ff9fbf",
+                "type": "FIX",
+                "text": " ValueHelpDialog: range-selection after loading records now works as expected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006615262023"
+                    }
+                ]
+            },
+            {
+                "id": "7e8aa990f6c6d6eb3890164bb07e0655630d75ef",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement requests reduce",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006662732023"
+                    }
+                ]
+            },
+            {
+                "id": "2928228c58be55197484f26031d02b72c51fc635",
+                "type": "FIX",
+                "text": " SmartFilterBar: reset now works correctly for non-visible filters in error state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380101764"
+                    }
+                ]
+            },
+            {
+                "id": "f2700770db34443ecf0694f6168d2eae18301f8b",
+                "type": "FIX",
+                "text": " SmartField: Focus first editable field fix"
+            },
+            {
+                "id": "8915b877157644ab1319ea401918e38e19e2f033",
+                "type": "FIX",
+                "text": " FilterPanel: Fields with errors are now cleared when re-open the dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380079112"
+                    }
+                ]
+            },
+            {
+                "id": "0493bf65e588d95fe9f4a55b76e358e55a8153b4",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct focus outline for search field in horizon theme",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380106247"
+                    }
+                ]
+            },
+            {
+                "id": "dfb76d129877da930a81afd4b9d1c3beb90b7f81",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Adds a warning message shown for Amount fields when the currency/unit value is not specified"
+            },
+            {
+                "id": "37cd7546cedffbb28dcfc1e7925a6b6543101632",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: enable copy in table"
+            },
+            {
+                "id": "eed5a65459739021fadd7e5f1357f59de1f287ba",
+                "type": "FIX",
+                "text": " SmartControls: Fixed IsCalendar* handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380097806"
+                    }
+                ]
+            },
+            {
+                "id": "75c526e159e2d94a2cb48232ce6fb00909511cd5",
+                "type": "FIX",
+                "text": " SmartVariantManagement: fix for missing \"save\" event parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380117271"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370049901"
+                    }
+                ]
+            },
+            {
+                "id": "18b04b3a93b45449e96223c39c2fe832b896f191",
+                "type": "FEATURE",
+                "text": " Smart Field: support Link in Semantically connected fields in a SmartForm"
+            },
+            {
+                "id": "a8b53c45317b792d74a139e43472bec97fa29f2a",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement validation improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380099236"
+                    }
+                ]
+            },
+            {
+                "id": "45bb97163c3449bf75dc4bd909a5c7225c7ee736",
+                "type": "FIX",
+                "text": " SmartTable: limit use of \"_sort\" event"
+            },
+            {
+                "id": "b34e581cee808d2e9a77fde2963cbeb06353b11b",
+                "type": "FIX",
+                "text": " SmartFilterBar: Filter value is not duplicated when turned to uppercase",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005118032023"
+                    }
+                ]
+            },
+            {
+                "id": "f82b95c103bdeaf6af797b30f29571ec147ec22d",
+                "type": "FIX",
+                "text": " SmartField: unstable tests fix"
+            },
+            {
+                "id": "846ab14292e8a44894a9ca1fcf911176aa51de2a",
+                "type": "FIX",
+                "text": " ColumnsController: Indexes of the Columns improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004450102023"
+                    }
+                ]
+            },
+            {
+                "id": "7297bd7b38ac012f90eeb553511a50dfb13c3056",
+                "type": "FIX",
+                "text": " VariantConverterFrom: Convert IsCalendar* correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380114954"
+                    }
+                ]
+            },
+            {
+                "id": "45b1a8e956a372828aa22cfc352f98931bb45585",
+                "type": "FIX",
+                "text": " SmartField: ODataControlFactory init params fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380097342"
+                    }
+                ]
+            },
+            {
+                "id": "fc174a940c5d9f7fab27cbd79edebce8067c1402",
+                "type": "FIX",
+                "text": " SmartField: unstable tests fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380097342"
+                    }
+                ]
+            },
+            {
+                "id": "be10bf2cf4f1eeb185480782687f81a2a78c1884",
+                "type": "FIX",
+                "text": " SmartField: Numeric field with nullable=false and mandatory annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380107115"
+                    }
+                ]
+            },
+            {
+                "id": "049d123cc78f8a607790fac8264f7338eea2b13c",
+                "type": "FIX",
+                "text": " BaseValueListProvider: correct width of Boolean ValueHelpDialog columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380102864"
+                    }
+                ]
+            },
+            {
+                "id": "11b68c8751912bd527f2d699279055dceb16bdea",
+                "type": "FEATURE",
+                "text": " comp.FilterBar: move context information to SVM"
+            }
+        ]
+    }
+}

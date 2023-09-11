@@ -1,0 +1,212 @@
+{
+    "1.118.0": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "9964aa48faed1d37f54a27de16140a9085cfaa4a",
+                "type": "FEATURE",
+                "text": " We now provide formatting of timezones"
+            },
+            {
+                "id": "72eb851f6f1ad62173d83609df77cc7a193ebec3",
+                "type": "FIX",
+                "text": " We now ensure that navigating back to the list report from the collaborative draft always ends the session",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380124582"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380124613"
+                    }
+                ]
+            },
+            {
+                "id": "463c4cc5546b2d259073b3b603eac31a7017a674",
+                "type": "FEATURE",
+                "text": " We now show the default texts for unnamed objects and new objects on insights cards created from the list report table"
+            },
+            {
+                "id": "5a09b9d916e4841dc135fecd30b5b9ce332b4576",
+                "type": "FEATURE",
+                "text": " We've improved the text arrangement and now correctly handle null or empty values using the common runtime formatter in integration cards"
+            },
+            {
+                "id": "565b0f4ddef83021c94b7b22c4a46923baeb1980",
+                "type": "FIX",
+                "text": " We now only include the properties of visible custom columns in the backend request to improve performance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380108935"
+                    }
+                ]
+            },
+            {
+                "id": "c2de14874c8e5253f2f0a77ee8817771c713a2e6",
+                "type": "FIX",
+                "text": " We now ensure the Create action works correctly for an external navigation where the ListBinding is a path in a list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380114472"
+                    }
+                ]
+            },
+            {
+                "id": "657d5a0a181f972356e5a963e630052a360c6e4d",
+                "type": "FIX",
+                "text": " We now exclude custom filters that aren't applicable to a list report with multi-entity sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380072346"
+                    }
+                ]
+            },
+            {
+                "id": "d193c0c9639a3ef0de5b947df825992116695599",
+                "type": "FIX",
+                "text": " We now ensure that users cannot navigate to the object page if the message popover in a subobject page displays errors",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380055960"
+                    }
+                ]
+            },
+            {
+                "id": "5a70fe2250074ad62174e66c73df65b7da848768",
+                "type": "FIX",
+                "text": " Semantic filters with default values are now shown correctly in the filter bar when navigating from a dynamic tile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380104765"
+                    }
+                ]
+            },
+            {
+                "id": "bed9ea95f9a59cf7f2a009b517290586c613c09e",
+                "type": "FIX",
+                "text": " We’ve resolved the error with a message popover persisting on a table row in a subject page even after the table row was deleted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380093655"
+                    }
+                ]
+            },
+            {
+                "id": "6faded1fde7316531c6f5e8a70c8c13bd62412aa",
+                "type": "FIX",
+                "text": " We now use delayed deletion provided by the model to ensure toolbar buttons don't flicker while discarding a draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001099532023"
+                    }
+                ]
+            },
+            {
+                "id": "c16a2f2f2ed95f1c37bd586efe140de1ffddf894",
+                "type": "FIX",
+                "text": " We now ensure users can open a file before saving a document",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380115056"
+                    }
+                ]
+            },
+            {
+                "id": "8172c2bd0441ec8063bf8f4fb1f3e31b11a66c44",
+                "type": "FIX",
+                "text": " We now ensure that custom validations on creation rows use valid data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003428352023"
+                    }
+                ]
+            },
+            {
+                "id": "62a2b5b1eac1e5640d87b7f2aa0e8423dd1eec94",
+                "type": "FIX",
+                "text": " We have resolved an issue with displaying error messages when creating a new entity in a list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370061335"
+                    }
+                ]
+            },
+            {
+                "id": "ace554ebc9f7d561a0cd27eb5789757a375712d4",
+                "type": "FIX",
+                "text": " We now take into account the OperationAvailable annotation when executing a copy action in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380107752"
+                    }
+                ]
+            },
+            {
+                "id": "f09ac2960efebb92a68e16b2ed0cd26330831bf2",
+                "type": "FIX",
+                "text": " We now use the M_COMMON_TABLE_DELETE resource to correctly override the content of the Delete dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380105895"
+                    }
+                ]
+            },
+            {
+                "id": "f78d534533ad19ed0172873539eb1b8a44a982ab",
+                "type": "FEATURE",
+                "text": " Application developers can now incorporate the column header in the calculation of the column width"
+            },
+            {
+                "id": "5f5d814667a16debd68c57f71a7e59bf98a7440f",
+                "type": "FIX",
+                "text": " We have updated the page layout to comply with the changed guidelines",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380102322"
+                    }
+                ]
+            },
+            {
+                "id": "1ae69679e9ab502527123ab73f727bf41ec57c83",
+                "type": "FIX",
+                "text": " Application developers can now use adaptNavigationContext to change the selectionvariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380100439"
+                    }
+                ]
+            },
+            {
+                "id": "da01ad89ecb3a60ea982f083444837bb8ad4cb2e",
+                "type": "FEATURE",
+                "text": " In apps using inline creation mode, the empty row is now validated only when all required properties are entered"
+            },
+            {
+                "id": "2cdd5193372ef1da66f61d5a984757997633eff7",
+                "type": "FIX",
+                "text": " We now ensure that the fields are templated correctly without generating any exceptions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380102472"
+                    }
+                ]
+            }
+        ]
+    }
+}

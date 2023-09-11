@@ -1,0 +1,175 @@
+{
+    "1.118.0": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "8e4d82618bea12656dd96d8f3ff98f36a9788a2e",
+                "type": "FIX",
+                "text": " We now retain focus on the last element it was on if the user cancels a \"Discard Draft\" action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380109529"
+                    }
+                ]
+            },
+            {
+                "id": "c46e070e4f64f4cc06306c26cb6dab52f0b5537c",
+                "type": "FIX",
+                "text": " The Submit button no longer disappears after updating a draft in mobile view if the user is logged on in German",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380117259"
+                    }
+                ]
+            },
+            {
+                "id": "72eb851f6f1ad62173d83609df77cc7a193ebec3",
+                "type": "FIX",
+                "text": " We now ensure that navigating back to the list report from the collaborative draft always ends the session",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380124582"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380124613"
+                    }
+                ]
+            },
+            {
+                "id": "3b8fa38fd6fdd74edefaac0ee20d02b26e650e1a",
+                "type": "FIX",
+                "text": " We now expand the filterbar when app is in mobile view if initialLoad is Disabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380107111"
+                    }
+                ]
+            },
+            {
+                "id": "6021384df3e83b2338eff3058475feee05457817",
+                "type": "FIX",
+                "text": " We’ve resolved a console error by changing the field type to DateTime",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380121688"
+                    }
+                ]
+            },
+            {
+                "id": "4032346842584715bbeedb4b37a357d6d9122061",
+                "type": "FIX",
+                "text": " The description text is now positioned below the title when the object page header is collapsed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380097371"
+                    }
+                ]
+            },
+            {
+                "id": "565b0f4ddef83021c94b7b22c4a46923baeb1980",
+                "type": "FIX",
+                "text": " We now only include the properties of visible custom columns in the backend request to improve performance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380108935"
+                    }
+                ]
+            },
+            {
+                "id": "657d5a0a181f972356e5a963e630052a360c6e4d",
+                "type": "FIX",
+                "text": " We now exclude custom filters that aren't applicable to a list report with multi-entity sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380072346"
+                    }
+                ]
+            },
+            {
+                "id": "6faded1fde7316531c6f5e8a70c8c13bd62412aa",
+                "type": "FIX",
+                "text": " We now use delayed deletion provided by the model to ensure toolbar buttons don't flicker while discarding a draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001099532023"
+                    }
+                ]
+            },
+            {
+                "id": "414c31c88b342fd80c57a818a0e43aa7526fb3ce",
+                "type": "FIX",
+                "text": " We now ensure that using a dynamic semantic object in the title of a quick view card works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380111343"
+                    }
+                ]
+            },
+            {
+                "id": "f78d534533ad19ed0172873539eb1b8a44a982ab",
+                "type": "FEATURE",
+                "text": " Application developers can now incorporate the column header in the calculation of the column width"
+            },
+            {
+                "id": "89812a019210f959afbff5b762777d0eb2c86755",
+                "type": "FIX",
+                "text": " We now ensure that we preserve the state of the filter bar from the previous variant while switching between different variants",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380103614"
+                    }
+                ]
+            },
+            {
+                "id": "5f5d814667a16debd68c57f71a7e59bf98a7440f",
+                "type": "FIX",
+                "text": " We have updated the page layout to comply with the changed guidelines",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380102322"
+                    }
+                ]
+            },
+            {
+                "id": "1ae69679e9ab502527123ab73f727bf41ec57c83",
+                "type": "FIX",
+                "text": " Application developers can now use adaptNavigationContext to change the selectionvariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380100439"
+                    }
+                ]
+            },
+            {
+                "id": "f041fd0efb9757cfca7e10f46aceec04a21f88d2",
+                "type": "FIX",
+                "text": " We no longer show the paginator buttons on the object page after it was refreshed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380097100"
+                    }
+                ]
+            },
+            {
+                "id": "ce99ff9be88180be942d9e48da40889b5bd95db7",
+                "type": "FEATURE",
+                "text": " Key users can now remove and reveal sections and subsections on the object page"
+            }
+        ]
+    }
+}

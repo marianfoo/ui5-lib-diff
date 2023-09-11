@@ -11891,6 +11891,560 @@
     ]
   },
   {
+    "version": "1.118.0",
+    "date": "2023.09.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Placeholders of List and Table cards no longer reserve space for group headers"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPageTitle: Aria-labelledby fix"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.SidePanel: render resize handler"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m Tokenizer: Allow custom press events in the n-more tokens list"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.PlanningCalendar: using sap.m.Avatar instead of images"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.DynamicDateRangne: Improve group creation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Remove horizontal scrollbar"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu: enable adding event delegates"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: adjust avatar size"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: adjust grid cell selection display"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TileContainer: Remove link to ACC testing page"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: first day of the week properly displayed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Fix navigation skipping"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: translation no longer escapes special symbol"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Correct designtime overlays"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateRangeSelection: using a stable date in a test scenario"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: Wrap long text in large version of control"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuItem: addEventDelegate is handled correctly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: getVisibleIntervalsCount now returns the correct value ignoring daylight saving"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectMarker: Add icon accessibility information"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Panel: round corners when sticky header is used"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: aria-labelledby of the content is now always set to the root tab after tab selection"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: Set container as not-focusable"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendarLegend: provide counting information"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimePicker: show correct time with bound timezone"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Added check to prevent duplicate id error if ITB is not yet destroyed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: display non working days"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ToggleButton: remove duplicate JAWS announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: aria-labelledby of the content is now always set to the root tab"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ViewSettingsDialog: adjsut focus outline"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePickerSlider: Remove disallowed aria property"
+          },
+          {
+            "type": "FIX",
+            "text": " m.VariantManagement: correction for author column"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Prevent default behaviour when dragging tabs via keyboard"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Visual adjustments"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolPage: Header will retain its rounded corners on child visibility change"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolHeader: Button of type \"Default\" now has correct styles in Fiori 3 themes"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.core: generic Web Components support for UI5"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Theming: Support for default theme and fallback themes"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.type.DateInterval#parseValue: no milliseconds at interval end"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#_getSkipAndTop: fix calculation of \"iLimit\""
+          },
+          {
+            "type": "FIX",
+            "text": " Fix Core Qunit tests"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.type.TimeOfDay#getModelValueFromISOString: Fix issue for set precisions"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.type.DateTimeOffset#getModelValueFromISOString: Fix issue for V4 with set precisions"
+          },
+          {
+            "type": "FIX",
+            "text": " asynchronousXMLView.qunit.js: Stabelize execution order"
+          },
+          {
+            "type": "FIX",
+            "text": " jquery.sap.measure.qunit: Stabilize tests"
+          },
+          {
+            "type": "FIX",
+            "text": " theming/ThemeManager: Avoid multiple CSS loading"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.DateFormat: parse dateTime timezone \"z\" for UTC"
+          },
+          {
+            "type": "FIX",
+            "text": " core/routing/Router: update the current route when 'navTo' is called"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Icon: use theming variable for focus outline"
+          },
+          {
+            "type": "FIX",
+            "text": " util/Mobile: set correct viewport for iPad with \"request desktop website\""
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.documentation",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Entity title break-word"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Placeholders of List and Table cards no longer reserve space for group headers"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " AlignedFlowLayout / FilterBar: Adjust item layouts according to filterbar specs"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.ResponsiveSplitter: Accessibility roles are now updated"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Field: support data types on additionalValue"
+          },
+          {
+            "type": "FEATURE",
+            "text": " MDCTable:  new contextMenu aggregation added"
+          },
+          {
+            "type": "FIX",
+            "text": " mdc.FilterBarBase: enhance filter field error determination"
+          },
+          {
+            "type": "FIX",
+            "text": " AlignedFlowLayout / FilterBar: Adjust item layouts according to filterbar specs"
+          },
+          {
+            "type": "FIX",
+            "text": " MDC: FilterableListContent considers container opening state with filter value updates"
+          },
+          {
+            "type": "FIX",
+            "text": " MDC: ValueHelp Popover should consider focus loss with async showTypeahead"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Remove horizontal scrollbar"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: enable drop over the browse button"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: getVisibleIntervalsCount now returns the correct value ignoring daylight saving"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarTimeInterval: add accessibility information"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarLegend: Nest list items in list"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.MenuTextFieldItem: Add aria role to input"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Menu: skip invalidation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.webc.common",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.core: generic Web Components support for UI5"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.webc.common: fix typo in MetadataOptions JSDoc"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.webc.common: fix JSDoc for proper type definitions"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.uxap.ObjectPageLayout: introduce beforeNavigation event"
+          }
+        ]
+      },
+      {
+        "library": "deprecated",
+        "changes": [
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Column#getGrouped] Gets current value of property {@link #getGrouped grouped}.\n\nIndicates if the column is grouped.\n\nDefault value is <code>false</code>."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Column#setGrouped] Sets a new value for property {@link #getGrouped grouped}.\n\nIndicates if the column is grouped.\n\nWhen called with a value of <code>null</code> or <code>undefined</code>, the default value of the property will be restored.\n\nDefault value is <code>false</code>."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#attachGroup] Attaches event handler <code>fnFunction</code> to the {@link #event:group group} event of this <code>sap.ui.table.Table</code>.\n\nWhen called, the context of the event handler (its <code>this</code>) will be bound to <code>oListener</code> if specified, otherwise it will be bound to this <code>sap.ui.table.Table</code> itself.\n\nfired when the table is grouped (experimental!)."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#detachGroup] Detaches event handler <code>fnFunction</code> from the {@link #event:group group} event of this <code>sap.ui.table.Table</code>.\n\nThe passed function and listener object must match the ones used for event registration."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#fireGroup] Fires event {@link #event:group group} to attached listeners.\n\nListeners may prevent the default action of this event by calling the <code>preventDefault</code> method on the event object. The return value of this method indicates whether the default action should be executed."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#group] fired when the table is grouped (experimental!).\n\nListeners may prevent the default action of this event by calling the <code>preventDefault</code> method on the event object."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.webc.common.WebComponent#undefined] Use sap.ui.core.webc.WebComponent instead!"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.webc.common.WebComponentMetadata#undefined] Use sap.ui.core.webc.WebComponentMetadata instead!"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.valuehelp.content.MTable#attachContentUpdated] This event is not fired or consumed anymore"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.valuehelp.content.MTable#detachContentUpdated] This event is not fired or consumed anymore"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.valuehelp.content.MTable#fireContentUpdated] This event is not fired or consumed anymore"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.valuehelp.content.MTable#contentUpdated] This event is not fired or consumed anymore"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui#getCore] Please require 'sap/ui/core/Core' instead and use the module export directly without using 'new'.\""
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#addPrerenderingTask] Please use {@link sap.ui.core.Rendering.addPrerenderingTask Rendering.addPrerenderingTask} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#applyChanges] Enforces an immediate update of the visible UI (aka \"rendering\").\n\nIn general, applications and Controls should avoid calling this method and instead let the framework manage any necessary rendering."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#attachFormatError] Please use {@link sap.ui.base.ManagedObject#attachFormatError ManagedObject#attachFormatError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#attachInit] Please use {@link sap.ui.core.Core.ready Core.ready} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#attachLocalizationChanged] Please use {@link sap.base.i18n.Localization#attachChange Localization#attachChange} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#attachParseError] Please use {@link sap.ui.base.ManagedObject#attachParseError ManagedObject#attachParseError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#attachThemeChanged] See {@link sap.ui.core.Theming#attachApplied Theming#attachApplied} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#attachValidationError] Please use {@link sap.ui.base.ManagedObject#attachValidationError ManagedObject#attachValidationError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#attachValidationSuccess] Please use {@link sap.ui.base.ManagedObject#attachValidationSuccess ManagedObject#attachValidationSuccess} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#byFieldGroupId] use {@link sap.ui.core.Control#getControlsByFieldGroup Control.prototype.getControlsByFieldGroup} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#detachFormatError] Please use {@link sap.ui.base.ManagedObject#detachFormatError ManagedObject#detachFormatError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#detachLocalizationChanged] Please use {@link sap.base.i18n.Localization#detachChange Localization#detachChange} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#detachParseError] Please use {@link sap.ui.base.ManagedObject#detachParseError ManagedObject#detachParseError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#detachThemeChanged] See {@link sap.ui.core.Theming#detachApplied Theming#detachApplied} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#detachValidationError] Please use {@link sap.ui.base.ManagedObject#detachValidationError ManagedObject#detachValidationError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#detachValidationSuccess] Please use {@link sap.ui.base.ManagedObject#detachValidationSuccess ManagedObject#detachValidationSuccess} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#fireFormatError] Please use {@link sap.ui.base.ManagedObject#fireFormatError ManagedObject#fireFormatError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#fireParseError] Please use {@link sap.ui.base.ManagedObject#fireParseError ManagedObject#fireParseError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#fireValidationError] Please use {@link sap.ui.base.ManagedObject#fireValidationError ManagedObject.fireValidationError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#fireValidationSuccess] Please use {@link sap.ui.base.ManagedObject#fireValidationSuccess ManagedObject#fireValidationSuccess} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#getModel] Please use {@link sap.ui.base.ManagedObject#getModel ManagedObject#getModel} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#getUIDirty] Returns <code>true</code> if there are any pending rendering tasks or when such rendering tasks are currently being executed."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#hasModel] Please use {@link sap.ui.base.ManagedObject#hasModel ManagedObject#hasModel} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#isInitialized] Please use {@link sap.ui.core.Core.ready Core.ready} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#isLocked] Returns the locked state of the <code>sap.ui.core.Core</code>"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#isMobile] use {@link sap.ui.Device.browser.mobile Device.browser.mobile} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#lock] Locks the Core. No browser events are dispatched to the controls.\n\nLock should be called before and after the DOM is modified for rendering, roundtrips... Exceptions might be the case for asynchronous UI behavior"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#setModel] Please use {@link sap.ui.base.ManagedObject#setModel ManagedObject#setModel} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#unlock] Unlocks the Core.\n\nBrowser events are dispatched to the controls again after this method is called."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#formatError] Please use {@link sap.ui.base.ManagedObject#event:formatError formatError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#localizationChanged] See {@link sap.base.i18n.Localization#change Localization#change} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#parseError] Please use {@link sap.ui.base.ManagedObject#event:parseError parseError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#ThemeChanged] See {@link sap.ui.core.Theming#applied Theming#applied} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#validationError] Please use {@link sap.ui.base.ManagedObject#event:validationError validationError} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#validationSuccess] Please use {@link sap.ui.base.ManagedObject#event:validationSuccess validationSuccess} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.message.MessageManager#undefined] Please use {@link sap.ui.core.Messaging Messaging} instead."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.28.0",
     "date": "2015.01.01",
     "libraries": [

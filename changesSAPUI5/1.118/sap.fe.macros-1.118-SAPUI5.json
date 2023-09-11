@@ -1,0 +1,273 @@
+{
+    "1.118.0": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "9964aa48faed1d37f54a27de16140a9085cfaa4a",
+                "type": "FEATURE",
+                "text": " We now provide formatting of timezones"
+            },
+            {
+                "id": "999265e5c45ad5d2e52946fe03f3ee94c3783904",
+                "type": "FEATURE",
+                "text": " Date and DateTime fields on insight cards now have the same formatting as in list report tables and charts"
+            },
+            {
+                "id": "4590fcdf728a4e4a86b415f1b2df9d575f24c5ad",
+                "type": "FIX",
+                "text": " We've now added the missing parameters in the manifest of the insights card",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380097414"
+                    }
+                ]
+            },
+            {
+                "id": "463c4cc5546b2d259073b3b603eac31a7017a674",
+                "type": "FEATURE",
+                "text": " We now show the default texts for unnamed objects and new objects on insights cards created from the list report table"
+            },
+            {
+                "id": "e83b4b505ca5e4cde7d7451dcd8e7762d888eca4",
+                "type": "FIX",
+                "text": " We have added a check to ensure that the Table building block does not fail",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380119685"
+                    }
+                ]
+            },
+            {
+                "id": "5a09b9d916e4841dc135fecd30b5b9ce332b4576",
+                "type": "FEATURE",
+                "text": " We've improved the text arrangement and now correctly handle null or empty values using the common runtime formatter in integration cards"
+            },
+            {
+                "id": "565b0f4ddef83021c94b7b22c4a46923baeb1980",
+                "type": "FIX",
+                "text": " We now only include the properties of visible custom columns in the backend request to improve performance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380108935"
+                    }
+                ]
+            },
+            {
+                "id": "4d92adc639484deb7e5afef473702999bcc407a7",
+                "type": "FIX",
+                "text": " We now consider the value help In parameter correctly in the action dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380079072"
+                    }
+                ]
+            },
+            {
+                "id": "4e683d8d9396b0b0d2111799b8ee18f8fe225aa8",
+                "type": "FIX",
+                "text": " We now add the TextArrangement in the charts by default if the annotation is not defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380074320"
+                    }
+                ]
+            },
+            {
+                "id": "c5618c4e57330505d0bf65d3f5f2faf31e3cf20e",
+                "type": "FIX",
+                "text": " The refresh of list report content is now triggered as expected when clicking the Search button of the filter bar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006173752023"
+                    }
+                ]
+            },
+            {
+                "id": "657d5a0a181f972356e5a963e630052a360c6e4d",
+                "type": "FIX",
+                "text": " We now exclude custom filters that aren't applicable to a list report with multi-entity sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380072346"
+                    }
+                ]
+            },
+            {
+                "id": "24888887767c355a9aead94b138d4a1849c88fd2",
+                "type": "FIX",
+                "text": " We've resolved an issue where it wasn't possible to open the value help in the filter bar after launching the application for the second time",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380104828"
+                    }
+                ]
+            },
+            {
+                "id": "5a70fe2250074ad62174e66c73df65b7da848768",
+                "type": "FIX",
+                "text": " Semantic filters with default values are now shown correctly in the filter bar when navigating from a dynamic tile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380104765"
+                    }
+                ]
+            },
+            {
+                "id": "4cf686623f8e719c8093054d58d7072bd534c6b2",
+                "type": "FIX",
+                "text": " We now consider the navigation path of the value help In parameter relative to the property path",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380079072"
+                    }
+                ]
+            },
+            {
+                "id": "eb9166851c7193a9dc9bc4533a76b4d48a47f65b",
+                "type": "FIX",
+                "text": " We've fixed an issue with truncated texts in the popover of the DraftIndicator",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380109640"
+                    }
+                ]
+            },
+            {
+                "id": "414c31c88b342fd80c57a818a0e43aa7526fb3ce",
+                "type": "FIX",
+                "text": " We now ensure that using a dynamic semantic object in the title of a quick view card works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380111343"
+                    }
+                ]
+            },
+            {
+                "id": "f78d534533ad19ed0172873539eb1b8a44a982ab",
+                "type": "FEATURE",
+                "text": " Application developers can now incorporate the column header in the calculation of the column width"
+            },
+            {
+                "id": "63a2720c4ee65cb2f6b1970185a6da0dd7329571",
+                "type": "FEATURE",
+                "text": " We now provide a MultiValueField building block"
+            },
+            {
+                "id": "66647023f9625ac84c17d514b183da1618005b35",
+                "type": "FIX",
+                "text": " We now ensure that HTML injection is no longer allowed in a message popover",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380105559"
+                    }
+                ]
+            },
+            {
+                "id": "b9eb0dd3c0d5296453a27e600ab8df4d80927c5e",
+                "type": "FIX",
+                "text": " We now ensure that the formatter is called when setting the property through side effects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380103341"
+                    }
+                ]
+            },
+            {
+                "id": "49f84c207b359b7b039b4aadda6bd23fcc454e27",
+                "type": "FIX",
+                "text": " We now ensure that the static MaximumValue in a HarveyBallMicroChart is correctly formatted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270179742"
+                    }
+                ]
+            },
+            {
+                "id": "17c28e5a900f9a4bc6fd7bb49a31a1c8633415b3",
+                "type": "FIX",
+                "text": " We've resolved the issue of an extra delimiter being displayed at the end of the connected data fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380092186"
+                    }
+                ]
+            },
+            {
+                "id": "067296b9ccb647c6ce2a6ea94840f950cd4ea5d6",
+                "type": "FIX",
+                "text": " We now ensure that the dynamic tiles display the count of the records in the table even when there are only semantic date filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380103681"
+                    }
+                ]
+            },
+            {
+                "id": "fd5b26e4e6ca743cbf013fad1bc6da7bd253df99",
+                "type": "FIX",
+                "text": " We ensure that multiple aggregated properties now work correctly in charts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380098714"
+                    }
+                ]
+            },
+            {
+                "id": "da01ad89ecb3a60ea982f083444837bb8ad4cb2e",
+                "type": "FEATURE",
+                "text": " In apps using inline creation mode, the empty row is now validated only when all required properties are entered"
+            },
+            {
+                "id": "d31b5db59d71a698901eea7efa68d47a5e26273f",
+                "type": "FIX",
+                "text": " We have removed superfluous checks for transient contexts",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380103296"
+                    }
+                ]
+            },
+            {
+                "id": "8d66b1ff853a1a92232804c28b470c7a87c04490",
+                "type": "FIX",
+                "text": " We no longer consider the multi-input fields when exporting the data to generate a PDF document",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380083655"
+                    }
+                ]
+            },
+            {
+                "id": "b2fce825ed1a2d895eba34512da1e3a5937798e8",
+                "type": "FIX",
+                "text": " We now ensure that the texts in the value help are correctly aligned",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380093717"
+                    }
+                ]
+            }
+        ]
+    }
+}
