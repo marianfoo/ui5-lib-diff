@@ -73,13 +73,6 @@ async function main(uiVersion) {
     return;
   }
 
-  const versionData = require(`./versionoverview${uiVersion}.json`);
-  const libraries = require('./uniqueLibraries.json');
-  const baseURL =
-    uiVersion === 'SAPUI5' ? 'https://ui5.sap.com' : 'https://sdk.openui5.org';
-  const changesDir = `changes${uiVersion}`;
-  const requestLogPath = path.join(__dirname, `requestLog${uiVersion}.json`);
-
   try {
     await fetchVersionOverview(uiVersion);
   } catch (error) {
@@ -87,6 +80,13 @@ async function main(uiVersion) {
       `Failed to run fetchVersionOverview for ${uiVersion}: ${error.message}`
     );
   }
+
+  const versionData = require(`./versionoverview${uiVersion}.json`);
+  const libraries = require('./uniqueLibraries.json');
+  const baseURL =
+    uiVersion === 'SAPUI5' ? 'https://ui5.sap.com' : 'https://sdk.openui5.org';
+  const changesDir = `changes${uiVersion}`;
+  const requestLogPath = path.join(__dirname, `requestLog${uiVersion}.json`);
 
   let requestLog = {};
 
