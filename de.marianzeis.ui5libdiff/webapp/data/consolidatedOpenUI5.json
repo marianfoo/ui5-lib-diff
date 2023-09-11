@@ -3562,6 +3562,15 @@
             "text": " sap.uxap.AnchorBar: Switch to HierarchicalSelect optimized"
           }
         ]
+      },
+      {
+        "library": "deprecated",
+        "changes": [
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.model.odata.v2.ODataTreeBinding#submitChanges] use {@link sap.ui.model.odata.v2.ODataModel#submitChanges} instead"
+          }
+        ]
       }
     ]
   },
@@ -6474,6 +6483,119 @@
     ]
   },
   {
+    "version": "1.108.19",
+    "date": "2023.08.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPageTitle: Visibility fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
+          },
+          {
+            "type": "FIX",
+            "text": " ResponsiveTable: IllustratedMessage description's line-height adjusted"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: Wrap long text in large version of control"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus Add CSS class for in-word StatusText wrapping"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Added check to prevent duplicate id error if ITB is not yet destroyed"
+          },
+          {
+            "type": "FIX",
+            "text": " m.Table: PopinChanged event corrected"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Visual adjustments"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolPage: Header will retain its rounded corners on child visibility change"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " theming/ThemeManager: Avoid multiple CSS loading"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.DateFormat: parse dateTime timezone \"z\" for UTC"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Icon: use theming variable for focus outline"
+          },
+          {
+            "type": "FIX",
+            "text": " util/Mobile: set correct viewport for iPad with \"request desktop website\""
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.DynamicSideContent: getScrollDelegate now returns proper delegate"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " mdc.FilterBar: make condition changes appliance more robust"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: enable drop over the browse button"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Menu: skip invalidation"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.108.1",
     "date": "2022.11.01",
     "libraries": [
@@ -8375,7 +8497,15 @@
           },
           {
             "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#getGroupBy] ID of the element which is the current target of the association {@link #getGroupBy groupBy}, or <code>null</code>."
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.ui.table.Table#setEnableGrouping] this feature has a limited functionality and should not be used anymore."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#setGroupBy] Sets the associated {@link #getGroupBy groupBy}."
           },
           {
             "type": "DEPRECATED",
@@ -10331,6 +10461,92 @@
           {
             "type": "FIX",
             "text": " sap.ui.layout.DynamicSideContent: getScrollDelegate now returns proper delegate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.114.5",
+    "date": "2023.08.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Visual adjustments"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolPage: Header will retain its rounded corners on child visibility change"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.type.DateTimeBase: fix formatting and parsing of dates"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.type.DateInterval#parseValue: no milliseconds at interval end"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#_getSkipAndTop: fix calculation of \"iLimit\""
+          },
+          {
+            "type": "FIX",
+            "text": " Fix Core Qunit tests"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Field: Open value help only if editable"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: enable drop over the browse button"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.114.6",
+    "date": "2023.09.01",
+    "libraries": [
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: register events once"
           }
         ]
       }
@@ -23584,10 +23800,6 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.message.MessageManager#destroy] do not call <code>destroy()</code> on a <code>MessageManager</code>."
-          },
-          {
-            "type": "DEPRECATED",
             "text": "[sap.ui.model.odata.v2.ODataModel#getDeferredBatchGroups] use {@link #getDeferredGroups} instead"
           },
           {
@@ -28683,10 +28895,6 @@
           {
             "type": "DEPRECATED",
             "text": "[sap.ui.unified.calendar.YearPicker#getYear] replaced by <code>date</code> property"
-          },
-          {
-            "type": "DEPRECATED",
-            "text": "[sap.ui.unified.calendar.YearPicker#setYear] replaced by <code>date</code> property"
           },
           {
             "type": "DEPRECATED",

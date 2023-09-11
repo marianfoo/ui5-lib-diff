@@ -1,0 +1,439 @@
+{
+    "1.114.0": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "4421d415f1109df179f00d4c1587a49a4c6bbe49",
+                "type": "FIX",
+                "text": " SmartTable: adapt second date value to consider the precision",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370041923"
+                    }
+                ]
+            },
+            {
+                "id": "e665e858f3ad862658bdb272dab5985fc25c3e14",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: Column sorting for both ID and Description",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "0cd75604bdf4c49e91bd5b8304c8f2e531a98e29",
+                "type": "FIX",
+                "text": " DateRangType: Fixed propagation of additional parameters in condition type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370042668"
+                    }
+                ]
+            },
+            {
+                "id": "72b729080eca341d2ee8d419d64e046278803761",
+                "type": "FEATURE",
+                "text": " SmartControls support rules"
+            },
+            {
+                "id": "79fa299d93e66a9f18345c889238d8ed655ab7e4",
+                "type": "FEATURE",
+                "text": " SmartField: Evaluate the maximum length properly for field w/o Value Help"
+            },
+            {
+                "id": "c78d0e581d198b5f045af828542a657f905886a3",
+                "type": "FIX",
+                "text": " SmartTable: Enable adaptation of SmartLinks in SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370043155"
+                    }
+                ]
+            },
+            {
+                "id": "501e8de15caa597b6021b9ed2eb1688c4743fd53",
+                "type": "FIX",
+                "text": " SmartField: ComboBox width fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370045977"
+                    }
+                ]
+            },
+            {
+                "id": "a6d7f275af19fedcc7ac1af1f84505d2ffaadd20",
+                "type": "FIX",
+                "text": " P13nDialog: not throw exception when value for Edm.DateTimeOffset interval field is entered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370038277"
+                    }
+                ]
+            },
+            {
+                "id": "372a9da011cfe7a7c3f61ce9d972d73d78d2d2ea",
+                "type": "FIX",
+                "text": " FilterBar: Press event of Go button is now correctly fired",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009605902022"
+                    }
+                ]
+            },
+            {
+                "id": "c59fd79e906c4b06231bc74f4e7b34d53696f4ba",
+                "type": "FIX",
+                "text": " SmartTable: Resolve transitivity for additionalProperties in column P13nData",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380045525"
+                    }
+                ]
+            },
+            {
+                "id": "7ad0838d205ec03e054745c5d1632c908ee547b5",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Empty operation is added when Include/Exclude operations are not set ",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280191768"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270098087"
+                    }
+                ]
+            },
+            {
+                "id": "ec90d42716c006de3dbb9b010afb7730a689ec5c",
+                "type": "FIX",
+                "text": " SmartField: Empty keys for standard value list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370037696"
+                    }
+                ]
+            },
+            {
+                "id": "7da71baed0b856bb9b7887f0e0a12088bc59a5d2",
+                "type": "FIX",
+                "text": " Personalization: Dates of newly added columns are correctly converted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380036487"
+                    }
+                ]
+            },
+            {
+                "id": "8ca6df4cbf79d49499612f4e76e5c43c095930db",
+                "type": "FIX",
+                "text": " SmartField: change event firing for text arrangement is now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370019076"
+                    }
+                ]
+            },
+            {
+                "id": "e517b3878200c05c3fb7776ddcddffe7f7fdb95c",
+                "type": "FEATURE",
+                "text": " SmartTable: Reset button is now removed when settings dialog is opened from column header"
+            },
+            {
+                "id": "f83452a3aa7aadb0685ee2a33551ab5767f335fe",
+                "type": "FEATURE",
+                "text": " SmartField: Handling empty keys for standard value list"
+            },
+            {
+                "id": "5e1bdef6d207c7da1d3d23f242a6afcb577a68fc",
+                "type": "FEATURE",
+                "text": " SmartField: Handling empty keys for fixed value list"
+            }
+        ]
+    },
+    "1.114.1": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "756aeacd4a4b55e4fa8723575c22810ecb886ea2",
+                "type": "FIX",
+                "text": " ValueListProvider: correct uniqueness detection when TextArrangement is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380069973"
+                    }
+                ]
+            },
+            {
+                "id": "b9b18e5d4d1e0a2ba4173744a082cdcfdbfff488",
+                "type": "FIX",
+                "text": " ValueHelpDialog: correct columns on mobile when TextArrangement is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002472722023"
+                    }
+                ]
+            },
+            {
+                "id": "68c8c5323ebffba9bfc6da4079bdbf28ab8f3477",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement description only fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370053807"
+                    }
+                ]
+            },
+            {
+                "id": "8ed840df0a31820e6409875dc8315e9dd9441e6b",
+                "type": "FIX",
+                "text": " SmartVariantManagement: move 'save' event before variant save",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370049901"
+                    }
+                ]
+            },
+            {
+                "id": "52aea36c914cb4b2c3069ce5cc10f8917cac3cc1",
+                "type": "FIX",
+                "text": " SmartLabel: run-time error fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380046946"
+                    }
+                ]
+            },
+            {
+                "id": "ad3408eae70c7faeca0b0ad194be8f46f4bca916",
+                "type": "FIX",
+                "text": " SmartFilterBar: make ControlConfiguration's timezone property with highest priority",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380057067"
+                    }
+                ]
+            },
+            {
+                "id": "e0a9d2191f38522be803cb0f78440706311c27b6",
+                "type": "FIX",
+                "text": " SmartTable: Ignore hidden columns from quick actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370049498"
+                    }
+                ]
+            },
+            {
+                "id": "62dc47e618aab28ca2909f65c4cb618b1323d016",
+                "type": "FIX",
+                "text": " SmartField: ComboBox selection reset",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370054655"
+                    }
+                ]
+            },
+            {
+                "id": "11ad3ed01512ff6825eebe85844f205700299062",
+                "type": "FIX",
+                "text": " SmartField: change event firing for UoM is now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002467862023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003936362023"
+                    }
+                ]
+            },
+            {
+                "id": "40742b51fc67947bbebdb19b4f17f440736f2249",
+                "type": "FIX",
+                "text": " SmartField: The description is shown properly for default GUID",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007557582022"
+                    }
+                ]
+            },
+            {
+                "id": "291f539ac68317c451fde4443cf3c4d67620c989",
+                "type": "FIX",
+                "text": " SmartFilterBar: REVERT creates a token when a valid value is pasted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370063148"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003037622023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.3": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "7cdd4c5f0d028db3c45866af95aac9a27ee4754b",
+                "type": "FIX",
+                "text": " SmartField: modeToggled event implemented",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380008444"
+                    }
+                ]
+            },
+            {
+                "id": "d458df4d5ce513aa1ad1dd2761b707a93d54be9d",
+                "type": "FIX",
+                "text": " ValueHelpDialog: ColumnMenu items now have correct labels",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380079260"
+                    }
+                ]
+            },
+            {
+                "id": "0d0392dcb63ff2ca4ac0a07cc261c6aa9e0d7bba",
+                "type": "FIX",
+                "text": " ValueHelpDialog: isDigitSequence is now respected for table items",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004110822023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.4": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "7eff98b20274ea12d5ba2800854f43b33db9d2be",
+                "type": "FIX",
+                "text": " ColumnsController: Indexes of the Columns improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004450102023"
+                    }
+                ]
+            },
+            {
+                "id": "6672eb46687335910fbd1bdac44768acc0ed4a9b",
+                "type": "FIX",
+                "text": " SmartVariantManagement: fix for missing \"save\" event parameter.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380117271"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370049901"
+                    }
+                ]
+            },
+            {
+                "id": "fc255a52e63e63d4a98a1fb0b1940805d7328752",
+                "type": "FIX",
+                "text": " SmartFilterBar: Filter value is not duplicated when turned to uppercase",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005118032023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.5": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "857f351fe0087a18d125ed36b8d9bb7209fb5834",
+                "type": "FIX",
+                "text": " SmartField: ValueList with additional InParams",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280192728"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380117218"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370065092"
+                    }
+                ]
+            },
+            {
+                "id": "9d988b7c9aab90ef227c352b0e9d8abd3bf4d6a9",
+                "type": "FIX",
+                "text": " ValueHelpDialog: range-selection after loading records now works as expected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006615262023"
+                    }
+                ]
+            },
+            {
+                "id": "d0581ee970a7057bf3b0941751145ee9d51ad3a5",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement requests reduce",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006662732023"
+                    }
+                ]
+            },
+            {
+                "id": "243ba6462897c9950f0571c38613a8fb010e2bb0",
+                "type": "FIX",
+                "text": " SmartField: Focus first editable field fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005567582023"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,476 @@
+{
+    "1.114.0": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "7e6c45fc509eff006bb70e924eef6cb2ef3d3e5a",
+                "type": "FIX",
+                "text": " sap.m.Link: adjust click handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003578212023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003756512023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003754472023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003632232023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003796592023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370061824"
+                    }
+                ]
+            },
+            {
+                "id": "501d8c3ed95342f21db23ed767447117c286d1cb",
+                "type": "FIX",
+                "text": " sap.m.FormattedText: Formatting issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "398d2f1806b1728f1c5ab2ce0493d757ccd16069",
+                "type": "FIX",
+                "text": " sap.m.Tree: init of ListBase wasn't called",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003007982023"
+                    }
+                ]
+            },
+            {
+                "id": "29719f55dfeefc7b9c73a729b911006884d482ef",
+                "type": "FIX",
+                "text": " sap.m.MessageToast: Check for openers without UI5Area",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370055953"
+                    }
+                ]
+            },
+            {
+                "id": "5d46b4b3217ce6d2d405217cf4212a167dc42a7d",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: now returns selected dates correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370052416"
+                    }
+                ]
+            },
+            {
+                "id": "776c6cdd00a2b5ddc690d4226b030d0d540864a1",
+                "type": "FIX",
+                "text": " Accessibility Guide: Flickering in sample prevented",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370051153"
+                    }
+                ]
+            },
+            {
+                "id": "c272c6a63fa62e26bf8df5c878ed502081f81792",
+                "type": "FIX",
+                "text": " sap.m.RadioButtonGroup: tabIndex is correct after initially selected button is selected again (programmatically)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380027793"
+                    }
+                ]
+            },
+            {
+                "id": "14abce610f3003120c50fd504ed56bdba5c65b3c",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: now displays proper separators at proper place",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270147417"
+                    }
+                ]
+            },
+            {
+                "id": "159ce0af7c340313d0ca94fa99011f753d7f936b",
+                "type": "FEATURE",
+                "text": " sap.m.Button: implement new accessibleRole property"
+            },
+            {
+                "id": "6525fed3d98391146d4c52630429f24f5c2c8fdd",
+                "type": "FIX",
+                "text": " sap.m.Link: prevent default navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370036896"
+                    }
+                ]
+            },
+            {
+                "id": "7a50c1959b0d61b556389ce12447e37f71bf336e",
+                "type": "FIX",
+                "text": " sap.m.upload: Show disabled upload button in IllustratedMessage",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370039798"
+                    }
+                ]
+            },
+            {
+                "id": "35c412ea739a19d9c01f65d8a60e70a18afeef64",
+                "type": "FIX",
+                "text": " We've now corrected the documentation for dragDropText and dragDropDescription properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370048351"
+                    }
+                ]
+            },
+            {
+                "id": "d77eb016fe1f0eea5dc374ae5855fcaf049ea562",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: value now holds UI5Date",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370043073"
+                    }
+                ]
+            },
+            {
+                "id": "3ff0f43df8559ef0ab8228ba4c8c2b93bca3467f",
+                "type": "FEATURE",
+                "text": " sap.m.InputBase: New horizon style parameters used"
+            },
+            {
+                "id": "4ac8b7500a74f271b6a7e2ce4814eb9cecb0b604",
+                "type": "FIX",
+                "text": " sap.m.ComboBox: Visual test enhancement"
+            },
+            {
+                "id": "0428b493a5eff57c16d4e5662189e0726ec4f087",
+                "type": "FIX",
+                "text": " sap.m.Input: Visual test enhancement"
+            },
+            {
+                "id": "5eea3398ed2277755a30f07f38089c0ec97c98d5",
+                "type": "FIX",
+                "text": " sap.m.MultiComboBox: Visual test enhancement"
+            },
+            {
+                "id": "4519393fa6f03abe0471f3ece7cca462fa3fda8f",
+                "type": "FIX",
+                "text": " sap.m.Button: Uses correct active text parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "ba320b69e77c2a7e19126737d5b2013261d1b87b",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: Visual test enhanced"
+            },
+            {
+                "id": "213d37f47f947865d414f78335e3000f3a286848",
+                "type": "FIX",
+                "text": " sap.m.upload: Remove redundant upload button in IllustratedMessage",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370039798"
+                    }
+                ]
+            },
+            {
+                "id": "5714bbe529cf9bfcfe51128cfca7f9aa0d9973b4",
+                "type": "FIX",
+                "text": " For redundant delimiter then status or attribute visibility set to false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370038716"
+                    }
+                ]
+            },
+            {
+                "id": "fada80f08e8f436969c67e9eea6504aace3614b7",
+                "type": "FIX",
+                "text": " p13n.SelectionController: correct delta attributes consideration",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370012780"
+                    }
+                ]
+            },
+            {
+                "id": "62439506e19da2e2da8392dcc1667ed835d024ca",
+                "type": "FIX",
+                "text": " sap.m.Table: Line-height is now overriden for ExpandableText",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370027458"
+                    }
+                ]
+            },
+            {
+                "id": "6750269f14b78883e671cc1cce46ccedf1435a94",
+                "type": "FEATURE",
+                "text": " sap.m.SearchField: “searchButtonPressed” parameter added"
+            },
+            {
+                "id": "988718179b457dbd73aebb300b2def8f048c84ff",
+                "type": "FIX",
+                "text": " m.VariantManagement: no tab stop for favorites on standard view",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380044847"
+                    }
+                ]
+            },
+            {
+                "id": "cf67d428a6d7107cf5c979b9be157a38478a6d2e",
+                "type": "FIX",
+                "text": " sap.m.Wizard: Visual adjustment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370029778"
+                    }
+                ]
+            },
+            {
+                "id": "cd9a7f3320157922c50eab7cf3ae86e78a661f4f",
+                "type": "FIX",
+                "text": " sap.m.ImageHelper: Additional module"
+            },
+            {
+                "id": "e6bf02e16b5419b4d9510ae433d6f01235e3387e",
+                "type": "FIX",
+                "text": " sap.m.InputBase: Focus of busy input corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370014514"
+                    }
+                ]
+            },
+            {
+                "id": "52761503a92565cd148208c45bbd152323a777a6",
+                "type": "FIX",
+                "text": " sap.m.ObjectHeader: align sap.m.IconTabHeader",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280199999"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.1": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "4dcda44087a8ccac1649a9bda3d330ac015cd41d",
+                "type": "FIX",
+                "text": " sap.m.FormattedText: Formatting issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004628532023"
+                    }
+                ]
+            },
+            {
+                "id": "7937b0497ba36a324ed22b9dcb801d5280823076",
+                "type": "FIX",
+                "text": " sap.m.OverflowToolbar: Fix missing Popover menu button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370027326"
+                    }
+                ]
+            },
+            {
+                "id": "5affdc2f7d405482732cf665a6d6ab83e1edaed5",
+                "type": "FIX",
+                "text": " sap.m.Input: Correct after open flag",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380053379"
+                    }
+                ]
+            },
+            {
+                "id": "1d43e06cab1ef9b33fd96363cf1ac652e19d051b",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: removed transparent background in Toolbar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004385772023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.3": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "3ed27a02399430131f51cb92e2d54144e1a99b7e",
+                "type": "FIX",
+                "text": " sap.m.MultiComboBox: Error in mobile fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380088532"
+                    }
+                ]
+            },
+            {
+                "id": "118f7bbea577a5ee421fa169d34b9ca52c59e700",
+                "type": "FIX",
+                "text": " sap.m.Table: busy indicator should be visible until data received",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004282162023"
+                    }
+                ]
+            },
+            {
+                "id": "1e65d2fd023d0c77e8dfa383ffde9f85469cb7bc",
+                "type": "FIX",
+                "text": " sap.m.DateTimeField: Now works correct with TimeOfDay",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380083594"
+                    }
+                ]
+            },
+            {
+                "id": "d0a3736aedcad8879e3e9ddaa890f034b4c624e7",
+                "type": "FIX",
+                "text": " sap.m.Link: prevent default behavior on mobile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006450822022"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004774092023"
+                    }
+                ]
+            },
+            {
+                "id": "cc18e6534e8f54e2d68aaae2f0f9f797453325b0",
+                "type": "FIX",
+                "text": " P13nFilterPanel: ignores formatter for the P13nItem type property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380085111"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.4": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "abbcbda21a32bde5ae53776a992204df039ee206",
+                "type": "FIX",
+                "text": " sap.m.DateTimePicker: show correct time with bound timezone",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380098723"
+                    }
+                ]
+            },
+            {
+                "id": "73d9af728a61af51009ada18fbd89ba83852c09e",
+                "type": "FIX",
+                "text": " sap.m.Select: Initial line-height fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380078133"
+                    }
+                ]
+            },
+            {
+                "id": "2c923e651724241cf7b0639b89403a07005f35db",
+                "type": "FIX",
+                "text": " sap.m.Select: Redundant truncation removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380073850"
+                    }
+                ]
+            },
+            {
+                "id": "8a04b4a247846a8a93371cc824bf9ee74ab850f3",
+                "type": "FIX",
+                "text": " sap.m.Select: Icon and text centered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380061756"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.5": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "d9eebac87fb521e3870676f95776177252c79fae",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380085007"
+                    }
+                ]
+            }
+        ]
+    }
+}

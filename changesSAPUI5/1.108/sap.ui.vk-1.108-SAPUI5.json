@@ -1,0 +1,44 @@
+{
+    "1.108.0": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "b6e9f6a477c90e6fc7eab73ef61efccf63f06ad3",
+                "type": "FIX",
+                "text": " 3D marker symbol centering issue"
+            },
+            {
+                "id": "490e539269850d9cfc88e329b3a65714f370da55",
+                "type": "FEATURE",
+                "text": " EmbedViewer.html added"
+            },
+            {
+                "id": "588c1fa3d09e80b8b472c152fad153804cc586bb",
+                "type": "FIX",
+                "text": " Embedded viewer: stream2d loading issue"
+            },
+            {
+                "id": "5ab297e7086ec983d9b5a40b05181a7516981a08",
+                "type": "FIX",
+                "text": " Fix broken MapContainer rendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270132476"
+                    }
+                ]
+            },
+            {
+                "id": "179f4d90c4ce554ee0b3a9414d853ef9575441c0",
+                "type": "FIX",
+                "text": " Error in rendering of ContainerBase",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270132476"
+                    }
+                ]
+            }
+        ]
+    }
+}

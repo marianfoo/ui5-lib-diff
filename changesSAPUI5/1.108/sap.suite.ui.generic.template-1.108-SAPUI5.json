@@ -1,0 +1,179 @@
+{
+    "1.108.0": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "Ie3d431edd9b32f7186005403885937fe00a44947",
+                "type": "FEATURE",
+                "text": "Integration cards can be created for the list report and the analytical list page"
+            },
+            {
+                "id": "Id189e473df989a6731bbc1ed9e1696d40bd527e5",
+                "type": "FEATURE",
+                "text": "If both the titles are the same in an object page, the section title and table or chart title are merged"
+            },
+            {
+                "id": "I224ce208c15ed148105d04cee4e3059b2522a002",
+                "type": "FEATURE",
+                "text": "ClientSideMandatoryCheck are enforced for mandatory field"
+            },
+            {
+                "id": "I37e53b5bd9be2576a06c56f2e4ec5147e4695526",
+                "type": "FEATURE",
+                "text": "Microsoft Teams options in share are now integrated in the list report, object page, and the analytical list page"
+            },
+            {
+                "id": "Ie1f532c3039ee16f7c5abbea88b48c04f2d47334",
+                "type": "FEATURE",
+                "text": "When an action is annotated with 'IsCopyAction=true', the 'ResultIsActiveEntity' parameter is omitted"
+            },
+            {
+                "id": "Ic832f79307db7609f6ac75d4f6f3e194e0a222fc",
+                "type": "FEATURE",
+                "text": "In visualFilter,dynamic date range is now supported for analytical list page"
+            },
+            {
+                "id": "I3db0aea6ca63146baa1d686aef7403f3d8e90ab2",
+                "type": "FEATURE",
+                "text": "An option has been provided to overrule the semantic object settings that are provided by the shell"
+            },
+            {
+                "id": "I650353014398451af1fa0b13369ced7ea8df2a6a",
+                "type": "FIX",
+                "text": "The issue where saving a non-draft object from the warning popups led to the display scenario in the object page is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280134203"
+                    }
+                ]
+            },
+            {
+                "id": "Ic5e35fa29b0367cf15d87fd91e0ec6fa18be40da",
+                "type": "FIX",
+                "text": "Type check for 'selectionVariant' is added in the app state handling for the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280146569"
+                    }
+                ]
+            },
+            {
+                "id": "Idf2d9b804644c3d6f6ecd505904207cb4021df5c",
+                "type": "FIX",
+                "text": "Validation for Valuelist now works while loading metadata lazily in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270118842"
+                    }
+                ]
+            },
+            {
+                "id": "I26fecf9e72b8d7b483c72cbb144704c976b90df3",
+                "type": "FIX",
+                "text": "Colliding select options is now fixed in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280138334"
+                    }
+                ]
+            },
+            {
+                "id": "I9cfcc543d27ec74e086fbf1e99bf29902d09ff69",
+                "type": "FIX",
+                "text": "Flexible column layout can now keep its layout while the state of columns change"
+            },
+            {
+                "id": "Ie91594087ecdc2ae28d558c303e46fe922a439a1",
+                "type": "FIX",
+                "text": "The update of a model cache is now improved for draft based applications that do not use a draft GUID",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280172083"
+                    }
+                ]
+            },
+            {
+                "id": "Ie1a913a9d9d67061e5d469eee9ffd90067b23c3c",
+                "type": "FIX",
+                "text": "If the value for the semantic date range field is a part of the navigation context, the logic for setting the default value is not executed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280159534"
+                    }
+                ]
+            },
+            {
+                "id": "Ic26c9db87ae6fb2eaf3ed83f5712cc8280e11ee0",
+                "type": "FIX",
+                "text": "The visibility of the edit button on a sub object page has now been corrected when it is not available on the super object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270123955"
+                    }
+                ]
+            },
+            {
+                "id": "I7ff64afcb187cfc64978a78e1ff6d37dd52ce13f",
+                "type": "FIX",
+                "text": "Correct PresentationVariant is now considered in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270089179"
+                    }
+                ]
+            },
+            {
+                "id": "I9ad0e9c36bdbc625eb081f749262b7c45b51d18c",
+                "type": "FIX",
+                "text": "Line-Height of the title in CSS class is now increased in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280167464"
+                    }
+                ]
+            },
+            {
+                "id": "I01c32f58ca25f512e566103a4604cb280e9e9ee7",
+                "type": "FIX",
+                "text": "The issue with hiding the header container is now fixed for carousel and dynamic header in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280167959"
+                    }
+                ]
+            },
+            {
+                "id": "I08a520be3ebbea71c67749a3c2e07acdcc71e6b6",
+                "type": "FIX",
+                "text": "When a selected transient row becomes draft row, the toolbar buttons is now enabled in object page for inline creation of rows",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270122049"
+                    }
+                ]
+            },
+            {
+                "id": "I7d9b904674b4047b7b9a1307304c6e2226f67c46",
+                "type": "FIX",
+                "text": "Correct default variant of control is now set for multiple views scenario in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270028763"
+                    }
+                ]
+            }
+        ]
+    }
+}

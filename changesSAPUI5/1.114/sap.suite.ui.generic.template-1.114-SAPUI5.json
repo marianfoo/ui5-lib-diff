@@ -1,0 +1,137 @@
+{
+    "1.114.0": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "I7efbef02db9769b2a99fd31b94ce8fd688125938",
+                "type": "FEATURE",
+                "text": "AddCardtoInsights feature is now supported in the analytical list page"
+            },
+            {
+                "id": "I8feb24c28b3e716b554bf5a9e26647f7976164c8",
+                "type": "FEATURE",
+                "text": "Client side mandatory check is now turned off for the object page smart table"
+            },
+            {
+                "id": "Ie9ba8bb3e5f76be14d37eea6e6a2fc2449c061b1",
+                "type": "FEATURE",
+                "text": "The new card creation dialog from the Insights section of My Home is now consumed in the list report"
+            },
+            {
+                "id": "I71fb6992595e8cabcd3e3d69ba05bbb4bd8a1df8",
+                "type": "FEATURE",
+                "text": "The 'Share to Microsoft Teams as Card' option is now enabled for the object page"
+            },
+            {
+                "id": "I0304c828dbf0ca04d371fbf9f87d91c518b34658",
+                "type": "FIX",
+                "text": "The stability of navigateBasedOnStartupParameters when being called multiple times is now improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370003146"
+                    }
+                ]
+            },
+            {
+                "id": "I0ecbe743a931dd77b42b89c7cc112855cb35ab21",
+                "type": "FIX",
+                "text": "In the object page, focus on the first editable fields in certain edge cases is now improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370027390"
+                    }
+                ]
+            },
+            {
+                "id": "If1af8848110e7794737f4e970bf332e025f4b478",
+                "type": "FIX",
+                "text": "An irrelevant flag related to the draft indicator label is now removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370036679"
+                    }
+                ]
+            },
+            {
+                "id": "Ide183f878068ff9939922b8ffcd75a72b4a51862",
+                "type": "FIX",
+                "text": "The duplicate call to _changeValueAxisTitleVisibility is now removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380037740"
+                    }
+                ]
+            },
+            {
+                "id": "Id3d84468613deced5313ac90f46a47fcd4bc1ede",
+                "type": "FIX",
+                "text": "The importance of the sapSmartTemplatesObjectPageSubSectionDummyBlock for the height property is now set in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370006245"
+                    }
+                ]
+            },
+            {
+                "id": "I7d2e0fd7e09faf8cffc88d0a0309a44b3021b0c5",
+                "type": "FIX",
+                "text": "The object page header image (Avatar control) for the sap icon has been improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370008464"
+                    }
+                ]
+            },
+            {
+                "id": "I34b9f60b09e6576735337898e264b7b7b35dfc37",
+                "type": "FIX",
+                "text": "The irrelevant draft sync call for non draft apps is now removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370030946"
+                    }
+                ]
+            },
+            {
+                "id": "I8bc2b0f93f9924d1fdaebcb779b365919da2dd93",
+                "type": "FIX",
+                "text": "The functionImportPath as a param is now passed to identify the function import",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370037027"
+                    }
+                ]
+            },
+            {
+                "id": "I2ce55bcf23bf5614dd0baa86232b2f6cd8ec23a6",
+                "type": "FIX",
+                "text": "Whitespaces are now handled correctly in links",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270042830"
+                    }
+                ]
+            },
+            {
+                "id": "If903e13a91a70f80876c6060d799f6c49975df0d",
+                "type": "FIX",
+                "text": "In case of external navigation, the default value set for the DynamicDateRange fields using the manifest is not considered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280179784"
+                    }
+                ]
+            }
+        ]
+    }
+}

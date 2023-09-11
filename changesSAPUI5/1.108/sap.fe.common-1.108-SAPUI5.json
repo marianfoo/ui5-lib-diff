@@ -1,0 +1,72 @@
+{
+    "1.108.0": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "f8d63621f81a856faf4479d6f8688af13e7946da",
+                "type": "FEATURE",
+                "text": " We now provide an option to display a custom message in the message strip above the list report table"
+            },
+            {
+                "id": "e36cbd7f3959ffa6ea7fff13687f5bf8c6f8462c",
+                "type": "FIX",
+                "text": " We now correctly set the focus on the field that corresponds to the message used in the messageButton menu",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270135274"
+                    }
+                ]
+            },
+            {
+                "id": "e8b7618135f8252f0c73fceb512d979ece81add9",
+                "type": "FIX",
+                "text": " When navigating to an ObjectPage that has LongRunners requests, we now ensure that no data from previous contexts is displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270133052"
+                    }
+                ]
+            },
+            {
+                "id": "8eb3923b634d9d8cf7f8e645d51607aaa671084d",
+                "type": "FIX",
+                "text": " When navigating from an object page to a subobject page, the focus is now correctly set on the erroneous field when a user clicks on the ActiveTitle in the message popover",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280168891"
+                    }
+                ]
+            },
+            {
+                "id": "d66d636e3a95f152eaf4996facc6d59d213268eb",
+                "type": "FEATURE",
+                "text": " We now provide a message strip in the header of an object page to notify about available messages"
+            },
+            {
+                "id": "e15f6d937e99dc7e93264507156912096a2073fd",
+                "type": "FIX",
+                "text": " The link in the MessagePopover is now disabled when the backend error is on a table row not loaded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270110215"
+                    }
+                ]
+            },
+            {
+                "id": "f35cdc4c7b2f6047a6f0642a9a4b900f223b2da3",
+                "type": "FIX",
+                "text": " We no longer display a clickable link in the message dialog if the error occurs in a hidden column of a table in an object page for which no navigation is configured",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280168899"
+                    }
+                ]
+            }
+        ]
+    }
+}

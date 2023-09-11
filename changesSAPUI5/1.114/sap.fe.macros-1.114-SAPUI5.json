@@ -1,0 +1,559 @@
+{
+    "1.114.0": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "277836697def55fc868fce40cc99a140515b0421",
+                "type": "FIX",
+                "text": " Data from the creation row is now persisted to changes on the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370059891"
+                    }
+                ]
+            },
+            {
+                "id": "362ba538d641c623da42f8cd2b072fc31c698c1b",
+                "type": "FIX",
+                "text": " You can now define nullable SelectOptions in a SelectionVariant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370061421"
+                    }
+                ]
+            },
+            {
+                "id": "55080b5798130912fbe232b60109d19da68dec47",
+                "type": "FIX",
+                "text": " We now correctly handle the navigation path when evaluating the filter conditions in the value list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370041163"
+                    }
+                ]
+            },
+            {
+                "id": "9c49980ca3d62b28c65c5b128f3d108f2095cd64",
+                "type": "FIX",
+                "text": " We now ensure that the read-only properties aren't updated using a value help Out-Parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270037948"
+                    }
+                ]
+            },
+            {
+                "id": "ea79e46a56c731b7d1b79b04d14e2f8904b2c473",
+                "type": "FEATURE",
+                "text": " We now provide an option for application developers to freeze the first n columns in a grid and analytical table. You can now freeze the first columns in a table so that they don't move when scrolling the table horizontally"
+            },
+            {
+                "id": "df4fff387c96c686729e1dc09dc528de19f7553a",
+                "type": "FEATURE",
+                "text": " You can now create Integration cards from the analytical list page and add them to the Insights section"
+            },
+            {
+                "id": "2716157a57e3eb2587103e4b47b9235f223ea1fd",
+                "type": "FEATURE",
+                "text": " A data field within an empty row of a table is now kept in display mode when the underlying property is listed under the NonInsertableProperties annotation"
+            },
+            {
+                "id": "9b01a5f30dc7b8ff9adfc0f9be8b93d92735b66c",
+                "type": "FIX",
+                "text": " We have resolved an issue with enabling the Delete button on an object page table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380023090"
+                    }
+                ]
+            },
+            {
+                "id": "945f071a98d6243e5a4514d6794df5271c3f4046",
+                "type": "FEATURE",
+                "text": " We now offer a 'Share as card' option in Microsoft Teams"
+            },
+            {
+                "id": "a65cae984e28a73307b645e961d4d9859bc1e7c4",
+                "type": "FEATURE",
+                "text": " We now support the creation of insights cards from list report tables."
+            },
+            {
+                "id": "9b29afcdfc41ea5f72c386a81b78dad98f04da09",
+                "type": "FIX",
+                "text": " We now evaluate UI.FilterFacets when determining the adaptability of filters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370033456"
+                    }
+                ]
+            },
+            {
+                "id": "27a3dc6b22df79cbaa6a05ac3f7b49bf7e6be1b8",
+                "type": "FIX",
+                "text": " We now show the share button with the correct spacing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370032701"
+                    }
+                ]
+            },
+            {
+                "id": "66ef022d2ebde3b40457394a09d6837ab185a844",
+                "type": "FIX",
+                "text": " We've resolved the issue of the Unsaved Changes icon appearing in Create mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370031533"
+                    }
+                ]
+            },
+            {
+                "id": "7f619e43946b0b1264e5108839d2a3ba8d0f636b",
+                "type": "FIX",
+                "text": " We now ensure the DraftIndicator is shown only for a draft root entity",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370032880"
+                    }
+                ]
+            },
+            {
+                "id": "f2a46910bfd28ca26936b52e86b811171c9e26cd",
+                "type": "FIX",
+                "text": " We now provide backward compatibility for Aggregation.Aggregatable annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380037110"
+                    }
+                ]
+            },
+            {
+                "id": "97ed982d0e353d4d963326c6aa753ae437e80990",
+                "type": "FIX",
+                "text": ": We've resolved the issue related to the filtering of the table based on the selected chart values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380045347"
+                    }
+                ]
+            },
+            {
+                "id": "7ba9d7c69b94ae9cd173f29f43815de565865228",
+                "type": "FIX",
+                "text": " Empty rows are now displayed in the creation mode until the editMode is fully computed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370033962"
+                    }
+                ]
+            },
+            {
+                "id": "18c8e09b8de012164b7cd07f950773a06cc250be",
+                "type": "FIX",
+                "text": " We now ensure icons are displayed correctly in a data point based scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370034954"
+                    }
+                ]
+            },
+            {
+                "id": "ed80880d382c929a89bcd2cea532a8e359859471",
+                "type": "FIX",
+                "text": " The computed fields label within an empty table row is now empty",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370034408"
+                    }
+                ]
+            },
+            {
+                "id": "2b6f85ee67b303e0623e9ae8dd6d1557041bd379",
+                "type": "FIX",
+                "text": " Connected fields are now displayed correctly when resizing the browser window",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370001897"
+                    }
+                ]
+            },
+            {
+                "id": "4e97fb185ba7ba6e05b845146fefe72351426c5f",
+                "type": "FIX",
+                "text": " You can now delete draft-enabled entities with no delete restrictions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370015807"
+                    }
+                ]
+            },
+            {
+                "id": "781b245906825e057e6b727a840b4262143a933d",
+                "type": "FEATURE",
+                "text": " We've now enabled the filtering on draft-related properties by default"
+            },
+            {
+                "id": "f9375eee3c207e13fe42b552ca76edec2324f816",
+                "type": "FIX",
+                "text": " We now correctly display the DataFieldWithUrl annotation on a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370020288"
+                    }
+                ]
+            },
+            {
+                "id": "19424a97f97d8513fa7143d5b5de54478f77bf7a",
+                "type": "FEATURE",
+                "text": " We now support SideEffects with multiple SourceProperties for the MultiValueField in a virtual field group"
+            },
+            {
+                "id": "c087c4bf63a7b7c9a6fba68efcc2e339541e4e43",
+                "type": "FEATURE",
+                "text": " We now provide triggerSearch as a public API for the FilterBar building block"
+            },
+            {
+                "id": "7476d40418cd347756791eb956ef4f9393f330ea",
+                "type": "FEATURE",
+                "text": " We've improved the type-ahead behavior in case text annotations are missing or constraints for existing text annotations are violated"
+            },
+            {
+                "id": "1fca58de49980eae2ffa347a46838c2f05b94fa6",
+                "type": "FIX",
+                "text": " We've resolved an issue related to the enablement of the Delete button in a table after a SideEffect request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380023090"
+                    }
+                ]
+            },
+            {
+                "id": "3a33a714115259d60459507fff315d94a324ee03",
+                "type": "FIX",
+                "text": " We improved the evaluation wether a table property is filterable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370021595"
+                    }
+                ]
+            },
+            {
+                "id": "e24c31cc44eefd2ed3289c0a06cc7be5f24e4a0c",
+                "type": "FIX",
+                "text": " Empty rows are now displayed correctly when modifying dynamic InsertRestrictions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370030026"
+                    }
+                ]
+            },
+            {
+                "id": "044f9499b1ebd6e850970c1edb507af1ecc43b56",
+                "type": "FIX",
+                "text": " We now manage the runtime building block with an event associated to a CommandExecution to ensure tooltips are correctly displayed for all buttons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370021013"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.1": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "2a4431577c1071e205c6ff04908cac222a0af91e",
+                "type": "FIX",
+                "text": " We've updated the code so that the batch calls sent can be grouped and result in improved UI performance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380050093"
+                    }
+                ]
+            },
+            {
+                "id": "0c659dbec3fde7e2ccf478bc2fd4f8f5f88a788e",
+                "type": "FIX",
+                "text": " We now ensure that the Add Card to Insights option is hidden in by default when a user shares using Microsoft Teams",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380054998"
+                    }
+                ]
+            },
+            {
+                "id": "1415c46fa6695abab95b9abbda7e3e935b8b3de2",
+                "type": "FIX",
+                "text": " We now ensure that the Property labels that are visible in the personalization dialog of a table are set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380047430"
+                    }
+                ]
+            },
+            {
+                "id": "c709f58feb47dedeeb703b321a442dbabcb5fd53",
+                "type": "FIX",
+                "text": " We now highlight the recommended field if it is empty and remove highlighting if it has a value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380051293"
+                    }
+                ]
+            },
+            {
+                "id": "70c4200237432687819d87a502afb219a7a39196",
+                "type": "FIX",
+                "text": " We now prefix the destination service binding to the URL of the CSRF token request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380066371"
+                    }
+                ]
+            },
+            {
+                "id": "f2190da7ea6f8aaea30fd25ab2830b6dee34bfdf",
+                "type": "FIX",
+                "text": " We have resolved an issue with templating the actionCommand",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370068110"
+                    }
+                ]
+            },
+            {
+                "id": "878309394e45496f2dfed5df89b5f34baab0b283",
+                "type": "FIX",
+                "text": " The 'Editing Status' filter is now correctly displayed for entity sets other than the main page's entity set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370061750"
+                    }
+                ]
+            },
+            {
+                "id": "eccfc43a725543a0a794402a2e6d327d2ebf2647",
+                "type": "FIX",
+                "text": " We now use the BindingContext of the control instead of the ValueHelp to avoid errors due to a timing issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380057227"
+                    }
+                ]
+            },
+            {
+                "id": "d39dbb229d9fdebd5d526e8d5feb5d9e4df9e867",
+                "type": "FIX",
+                "text": " The sap.insights library is now loaded dynamically",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380052090"
+                    }
+                ]
+            },
+            {
+                "id": "561a6f7a698f76f64c25284aa9732b00c99f2ca2",
+                "type": "FIX",
+                "text": " We no longer load sap/ui/integration when opening the application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380058688"
+                    }
+                ]
+            },
+            {
+                "id": "8baf4ad9dbe02258af9fb1887881ca8515a94d0d",
+                "type": "FIX",
+                "text": " We now avoid adding the 'V4:true' constraints twice for an Edm.DateTimeOffset property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001564842023"
+                    }
+                ]
+            },
+            {
+                "id": "f4e0a1380506d566825c50f2869d2012dc3165b9",
+                "type": "FIX",
+                "text": " The Card Preview in the Add Card to Insights dialog now supports the text arrangement of the table columns and unit-of-measure type columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380048611"
+                    }
+                ]
+            },
+            {
+                "id": "d1a0b788d259f465cd5e30dfa9996e9f3f57f63d",
+                "type": "FIX",
+                "text": " We now ensure recommended values are sorted properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380046278"
+                    }
+                ]
+            },
+            {
+                "id": "4adbd96c8163776d89812d37a3f8a4c20fad8d71",
+                "type": "FIX",
+                "text": " We now ensure the draftIndicator of a property is shown correctly when used in a field group",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370069238"
+                    }
+                ]
+            },
+            {
+                "id": "46d21316e63e76c8ff8652658b6b2b6c00ffc32d",
+                "type": "FIX",
+                "text": " We now ensure that the Settings dialog of the table always opens when clicked",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370058774"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370077869"
+                    }
+                ]
+            },
+            {
+                "id": "5199200a445e4feb45d2b34e63263f5ea4606183",
+                "type": "FIX",
+                "text": " We have now added the changes to highlight the fields as Information if it has recommendations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370074051"
+                    }
+                ]
+            },
+            {
+                "id": "f267d0569f42fc38c3b05d88215a90b9c12b35c0",
+                "type": "FIX",
+                "text": " We now correctly handle the table context when switching between normal mode and full screen mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370052051"
+                    }
+                ]
+            },
+            {
+                "id": "6e5e377927e039e2dfbf35df17461783d7895bf7",
+                "type": "FIX",
+                "text": ": We've updated the logic for the filtering of value help keys, based on the property path",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370072145"
+                    }
+                ]
+            },
+            {
+                "id": "7af3dc29787df63c903dd8689ac69da6824eaa05",
+                "type": "FIX",
+                "text": " We now ensure that DataFieldWithUrl also works correctly when it is annotated with a criticality",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003126412023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.4": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "f52fec2cae17f0d5a7a840dda94462946b56b2db",
+                "type": "FIX",
+                "text": " We now ensure that using a dynamic semantic object in the title of a quick view card works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380111343"
+                    }
+                ]
+            },
+            {
+                "id": "4e819f9c1ae8fc93dd6baa462d4232e08b698999",
+                "type": "FIX",
+                "text": " We now only include the properties of visible custom columns in the back-end request to improve performance",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380108935"
+                    }
+                ]
+            },
+            {
+                "id": "e64844748a6c14fafb4a7195052b21da8e33ce6e",
+                "type": "FIX",
+                "text": " We now ensure that HTML injection is no longer allowed in a message popover",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380124263"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.5": {
+        "date": "September 2023",
+        "notes": [
+            {
+                "id": "c241839a90b156d5eed00742115dbe96810c771f",
+                "type": "FIX",
+                "text": " We now reset the value state when there are no recommendations upon a context change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380125038"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380125034"
+                    }
+                ]
+            }
+        ]
+    }
+}

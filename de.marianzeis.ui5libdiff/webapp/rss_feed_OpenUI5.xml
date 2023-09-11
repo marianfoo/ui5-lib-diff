@@ -27,6 +27,13 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.17&amp;versionTo=1.108.18</guid>
 </item>
 <item>
+<title>Version 1.108.19 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.18&amp;versionTo=1.108.19</link>
+<pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.108.19</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPageTitle: Visibility fixed</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.IconTabBar: Seaparator adjused for text only tabs</li><li>Type: FIX, Description:  ResponsiveTable: IllustratedMessage description&apos;s line-height adjusted</li><li>Type: FIX, Description:  sap.m.ObjectStatus: Wrap long text in large version of control</li><li>Type: FIX, Description:  sap.m.ObjectStatus Add CSS class for in-word StatusText wrapping</li><li>Type: FIX, Description:  sap.m.IconTabBar: Added check to prevent duplicate id error if ITB is not yet destroyed</li><li>Type: FIX, Description:  m.Table: PopinChanged event corrected</li></ul></li><li><strong>Library: sap.tnt</strong><ul><li>Type: FIX, Description:  sap.m.IconTabBar: Seaparator adjused for text only tabs</li><li>Type: FIX, Description:  sap.tnt.SideNavigation: Visual adjustments</li><li>Type: FIX, Description:  sap.tnt.ToolPage: Header will retain its rounded corners on child visibility change</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  theming/ThemeManager: Avoid multiple CSS loading</li><li>Type: FIX, Description:  sap.ui.core.format.DateFormat: parse dateTime timezone &quot;z&quot; for UTC</li><li>Type: FIX, Description:  core/Icon: use theming variable for focus outline</li><li>Type: FIX, Description:  util/Mobile: set correct viewport for iPad with &quot;request desktop website&quot;</li></ul></li><li><strong>Library: sap.ui.layout</strong><ul><li>Type: FIX, Description:  sap.ui.layout.DynamicSideContent: getScrollDelegate now returns proper delegate</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  mdc.FilterBar: make condition changes appliance more robust</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.FileUploader: enable drop over the browse button</li><li>Type: FIX, Description:  sap.ui.unified.Menu: skip invalidation</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.18&amp;versionTo=1.108.19</guid>
+</item>
+<item>
 <title>Version 1.108.8 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.7&amp;versionTo=1.108.8</link>
 <pubDate>Sat, 01 Apr 2023 00:00:00 GMT</pubDate>
@@ -130,6 +137,20 @@
 <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.114.3</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.MultiComboBox: Error in mobile fixed</li><li>Type: FIX, Description:  sap.m.Table: busy indicator should be visible until data received</li><li>Type: FIX, Description:  sap.m.DateTimeField: Now works correct with TimeOfDay</li><li>Type: FIX, Description:  sap.m.Link: prevent default behavior on mobile</li><li>Type: FIX, Description:  P13nFilterPanel: ignores formatter for the P13nItem type property</li></ul></li><li><strong>Library: sap.ui.fl</strong><ul><li>Type: FIX, Description:  sap.ui.fl - Add adaptation id to setDefault method</li></ul></li><li><strong>Library: sap.ui.layout</strong><ul><li>Type: FIX, Description:  sap.ui.layout.DynamicSideContent: getScrollDelegate now returns proper delegate</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.2&amp;versionTo=1.114.3</guid>
+</item>
+<item>
+<title>Version 1.114.5 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.4&amp;versionTo=1.114.5</link>
+<pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.114.5</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.IconTabBar: Seaparator adjused for text only tabs</li></ul></li><li><strong>Library: sap.tnt</strong><ul><li>Type: FIX, Description:  sap.m.IconTabBar: Seaparator adjused for text only tabs</li><li>Type: FIX, Description:  sap.tnt.SideNavigation: Visual adjustments</li><li>Type: FIX, Description:  sap.tnt.ToolPage: Header will retain its rounded corners on child visibility change</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.model.odata.type.DateTimeBase: fix formatting and parsing of dates</li><li>Type: FIX, Description:  sap.ui.model.type.DateInterval#parseValue: no milliseconds at interval end</li><li>Type: FIX, Description:  sap.ui.model.odata.v2.ODataListBinding#_getSkipAndTop: fix calculation of &quot;iLimit&quot;</li><li>Type: FIX, Description:  Fix Core Qunit tests</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  Field: Open value help only if editable</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.FileUploader: enable drop over the browse button</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.4&amp;versionTo=1.114.5</guid>
+</item>
+<item>
+<title>Version 1.114.6 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.5&amp;versionTo=1.114.6</link>
+<pubDate>Fri, 01 Sep 2023 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.114.6</h2><ul><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.FileUploader: register events once</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.5&amp;versionTo=1.114.6</guid>
 </item>
 <item>
 <title>Version 1.115.0 Changes</title>
