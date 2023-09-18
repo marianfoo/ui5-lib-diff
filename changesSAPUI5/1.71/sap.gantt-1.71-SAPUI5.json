@@ -1,0 +1,463 @@
+{
+    "1.71.1": {
+        "date": "October 2019",
+        "notes": [
+            {
+                "id": "0839c409984a6fd52a4276a32b14b1de762c4d29",
+                "text": "Gantt 1.0 revert Table SelectionPlugin usage but make it possible to use it by the application",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970604194"
+                    }
+                ]
+            },
+            {
+                "id": "1d2421f4264bed75780b61f9c5cf7611b46e1867",
+                "text": "Gantt reinitialization",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970603804"
+                    }
+                ]
+            },
+            {
+                "id": "d33d956a604ed79de5f501111fe8dbbe518ed9f1",
+                "text": "GanttPrinting not handling timeline options & sample shapes not appearing",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970593695"
+                    }
+                ]
+            },
+            {
+                "id": "45d2670e1081854fa3e0310e555984ffd2b5edd2",
+                "text": "GanttPrinting first day of the week & cloned div render loop",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970404015"
+                    }
+                ]
+            },
+            {
+                "id": "ea8e33efee2efe1dcf4bf233f6057d34fbc02699",
+                "text": "First day of the week issue in Gantt 2.0",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970404015"
+                    }
+                ]
+            },
+            {
+                "id": "173555057c7096af0d87646dd6f5849417bac1a4",
+                "text": "Tooltip of Settings button should be \"Settings\"",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980291915"
+                    }
+                ]
+            },
+            {
+                "id": "48450def7c19592235e3299a7636ac2736afe84b",
+                "text": "Gantt 1.0 migrate table selection to SelectionPlugin + fix sync",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970535172"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1970574647"
+                    }
+                ]
+            },
+            {
+                "id": "ee9b931e1350285adafbd4ef3772b3d5d6475bc3",
+                "text": "Gantt 2.0: Fix cldr format for standalone months",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980420477"
+                    }
+                ]
+            },
+            {
+                "id": "f01d4980718711c4949aa308d087001d470f1ac0",
+                "text": "No stable IDs for Gantt 2.0 toolbar buttons",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970345355"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1970513569"
+                    }
+                ]
+            },
+            {
+                "id": "9856f37007c41400234d82f1fef7b4cf938c9d20",
+                "text": "GanttPrinting: Expanded and collapse icons are not coming",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970480311"
+                    }
+                ]
+            },
+            {
+                "id": "f9bf4c388fd43e1cf28035fd84caa4435d1d78bf",
+                "text": "Gantt 1.0: Row selection issue",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970467285"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1970535172"
+                    }
+                ]
+            },
+            {
+                "id": "1b21e5cf4c5f1f4c3911245998120bbca2bde878",
+                "text": "Gantt 2.0: Fix enum imports",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0120050410 0000073977 2019"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000503530 2019"
+                    }
+                ]
+            },
+            {
+                "id": "1a3e7aa571d4fc7b79bdacdd9a08f246f3d1d9ad",
+                "text": "Gantt 1.0: Bird Eye on row",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970230194"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.2": {
+        "date": "Dec 2019",
+        "notes": [
+            {
+                "id": "0552c59a30262da94b303b42ac9ea5071cfd8de4",
+                "text": "Gantt 2.0: Fixes mialignment between table and gantt chart",
+                "type": "FIX",
+                "references": []
+            }
+        ]
+    },
+    "1.71.3": {
+        "date": "Dec 2019",
+        "notes": [
+            {
+                "id": "c4e872a502ed3c9fb815ada29d7b3e11a1804017",
+                "text": "sap.gantt.simple.ContainerToolbar should call parent's exit method",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980522393"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.4": {
+        "date": "Dec 2019",
+        "notes": [
+            {
+                "id": "927f38dee045c9d104188caeb44b919157b16be1",
+                "text": "Gantt 2.0: Make all shapes share one 2D context",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751295 0000316951 2019"
+                    }
+                ]
+            },
+            {
+                "id": "b2875957722461ee05747cc478e32fb1c52b87d2",
+                "text": "Gantt 2.0: Time for the non-dragged side should not change in shapeResize event's parameters.",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005230652019"
+                    }
+                ]
+            },
+            {
+                "id": "c4e872a502ed3c9fb815ada29d7b3e11a1804017",
+                "text": "sap.gantt.simple.ContainerToolbar should call parent's exit method",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980522393"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.5": {
+        "date": "Jan 2020",
+        "notes": [
+            {
+                "id": "45bce816ef8682500733468d3206a9d0fe1ad7d7",
+                "text": "Gantt 2.0: ShapeSelectionChange event called when deselect",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980396614"
+                    }
+                ]
+            },
+            {
+                "id": "25767f527ad541804848f1cf0cd1e109fd8e150c",
+                "text": "Gantt 1.0: Add selection plugin to example",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980496408"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.6": {
+        "date": "Jan 2020",
+        "notes": [
+            {
+                "id": "b00bc53db09376dd1b2d20e54a4566f79f8528ef",
+                "text": "Gantt 2.0: Table rows height sync issues related to changing displayType",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080102035"
+                    }
+                ]
+            },
+            {
+                "id": "de5cb10ff0414f8864a5ff55c82999da307d82c7",
+                "text": "Gantt 2.0 initialization with non-default selectionPanelSize",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080094894"
+                    }
+                ]
+            },
+            {
+                "id": "ad628a96753a4f06aeaf03b82110aa2a5564c3e1",
+                "text": "Gantt 2.0 resizing issues regarding displayType/selectionPanelSize",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080070414"
+                    }
+                ]
+            },
+            {
+                "id": "dd2d08a30ba0c2a6fcdf955ccc816c5b742c9ab9",
+                "text": "Gantt 2.0: Make relationships visible on all themes",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970299657"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.7": {
+        "date": "Feb 2020",
+        "notes": [
+            {
+                "id": "e6f73f4e24e9a93a68a77f33e930a83aff270887",
+                "text": "Gantt 1.0: Helper function to enable selection plugin (useSelectionPlugin)",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000825282020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.8": {
+        "date": "Mar 2020",
+        "notes": [
+            {
+                "id": "eb3b822eac13c89191e584e85f0e1071b7c9624e",
+                "text": "Gantt 2.0: Render relationship prompt (link) when predecessor is not visible",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001476792020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.9": {
+        "date": "Apr 2020",
+        "notes": [
+            {
+                "id": "973c8512a840bdb71c5057a546b2ceff8e46f49b",
+                "text": "Gantt 1.0: QUnit tests",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970485518"
+                    }
+                ]
+            },
+            {
+                "id": "f53423e7ff4ecf71c8037e539ed82e3908fe5063",
+                "text": "Fix for the rerendering of Gantt Chart and bad performance",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070167341"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.10": {
+        "date": "Apr 2020",
+        "notes": [
+            {
+                "id": "f68785543d6d3124c41ebd99bcdc31a78b246b00",
+                "text": "Changing time duration will render gantt correctly in the canvas",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070203363"
+                    }
+                ]
+            },
+            {
+                "id": "5b95e8047059d34847c8c0096220b7282f9331b0",
+                "text": "Gantt Chart getting rtendered one extra time",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002701262020"
+                    }
+                ]
+            },
+            {
+                "id": "0832a78660b178670dcfe5119b9ffffbbc6d09b7",
+                "text": "Public method for Gantt chart Table multiple scroll behavior",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002366772020"
+                    }
+                ]
+            },
+            {
+                "id": "a22265a5b3a752739f0fc4241df97b044e9a788d",
+                "text": "Set the horizontal scroll correctly",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002701262020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.20": {
+        "date": "Mar 2021",
+        "notes": [
+            {
+                "id": "Id143abb274eeee813ecfca10121cecbd743e6599",
+                "text": "Write styles after adding in InnerGanttChart renderer",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001290232021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.37": {
+        "date": "Apr 2021",
+        "notes": [
+            {
+                "id": "I3bf834441d60e87a4064e58ecb69c3f6c8545516",
+                "text": "[FIX] GanttPrinting is supported for sap.ui.table.Table",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075125800001302502021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.24": {
+        "date": "Jun 2021",
+        "notes": [
+            {
+                "id": "ce2a8962abdb93dbafbecd136416f81cfe715af1",
+                "text": "Gantt1.0 Display Ghost for BaseGroups with empty shapes on Drag",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004549302021"
+                    }
+                ]
+            }
+        ]
+    }
+}

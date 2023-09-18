@@ -467,5 +467,72 @@
                 ]
             }
         ]
+    },
+    "1.114.8": {
+        "date": "September 2023",
+        "notes": [
+            {
+                "id": "63a735a7837eeca4adb642cf082c1adff7f07e9e",
+                "type": "FIX",
+                "text": " DateRangeType: stop throwing exception for SPECIFICMONTH when Edm.String is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007631182023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007309192023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.9": {
+        "date": "September 2023",
+        "notes": [
+            {
+                "id": "51f652c6e1c813c4818d8c2f895ed4bc7bf4d028",
+                "type": "FIX",
+                "text": " ColumnsController: Duplicated indexes of the Columns fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007684212023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007747082023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007774042023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007796682023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007828212023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007814982023"
+                    }
+                ]
+            },
+            {
+                "id": "55b58cf8cc35966a46ae2ab7eab5c01274fb1435",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Title of the table is correctly set when there is already a table extension",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370086458"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -1,0 +1,627 @@
+{
+    "1.71.0": {
+        "date": "September 2019",
+        "notes": [
+            {
+                "id": "bd332bd44326367452df00408a559297f9f5e9a3",
+                "type": "FEATURE",
+                "text": "OP: Introducing fallbackIcon for avatar"
+            },
+            {
+                "id": "bb94c446420b20f7e7f21bbe51241c2dd12c132a",
+                "type": "FEATURE",
+                "text": "ALP: F4 shortcut for value-help in visual filter supported"
+            },
+            {
+                "id": "c1648857790a6f06e4522133ac42d20fd4027107",
+                "type": "FEATURE",
+                "text": "Provide a more specific Delete Object? popup"
+            },
+            {
+                "id": "33e63a748038dbdda8ae6da611151075a779338b",
+                "type": "FIX",
+                "text": "OP: Object page header title is now wrapped",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980318255"
+                    }
+                ]
+            },
+            {
+                "id": "e8c9cc8311d9bef38565f2e6be46c1aef5b059d8",
+                "type": "FIX",
+                "text": "OP: Count in segmented buttons has been optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970383708"
+                    }
+                ]
+            },
+            {
+                "id": "12b81970118d388676bfb102d560f379f5428c8b",
+                "type": "FIX",
+                "text": "LROP: Set selectionMode via MultiSelectionPlugin",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980397400"
+                    }
+                ]
+            },
+            {
+                "id": "ef5be8978cbf7df2d0e13eedc2f1d52d8abf09e8",
+                "type": "FIX",
+                "text": "OP: Improve navigation behavior if keys of drafts are reused after draft has been removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980210329"
+                    }
+                ]
+            },
+            {
+                "id": "a23509d682860005e750192cffebdbe4a326c435",
+                "type": "FIX",
+                "text": "Add inline create check and remove redundant draft check for paste",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980366513"
+                    }
+                ]
+            },
+            {
+                "id": "e2ace3dc532828d0f23a7453707e1ba38304ae40",
+                "type": "FIX",
+                "text": "LROP: Setting a standard delay of 1000 ms in case of side effect scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970433059"
+                    }
+                ]
+            },
+            {
+                "id": "7d6230c027ef3e9efaaca841d7748ff1a48b6006",
+                "type": "FIX",
+                "text": "LROP: Do not show null values in table grouping header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970369378"
+                    }
+                ]
+            },
+            {
+                "id": "9e1db05ab36f74cf97ae2a2101f92879ac038e71",
+                "type": "FIX",
+                "text": "OP: Alignment issue in text of header facet is fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970331866"
+                    }
+                ]
+            },
+            {
+                "id": "33774735eaf17ded734b18b96e9d201974328317",
+                "type": "FIX",
+                "text": "OP: Edit button does not switch to edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970432107"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.1": {
+        "date": "November 2019",
+        "notes": [
+            {
+                "id": "b3510045d870d9f42dc7cdd49a453ac8bfab0a09",
+                "type": "FIX",
+                "text": "LR/ALP: Suppress unwanted semantical error messages in list report and analytical list page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970453660"
+                    }
+                ]
+            },
+            {
+                "id": "12c2211497d1959501273fd8436fa52adf74a9e1",
+                "type": "FIX",
+                "text": "OP: Close button now works even after coming back from an external navigation or a refresh",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970470125"
+                    }
+                ]
+            },
+            {
+                "id": "eeebf4a41b34bbb7d5fe29d3edf8d599791d9e19",
+                "type": "FIX",
+                "text": "OP: Wrong and old error messages in message dialog have been corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006014332019"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.11": {
+        "date": "January 2020",
+        "notes": [
+            {
+                "id": "4337ea15fc67b3be97d37bc5d45bf35890cc0de1",
+                "type": "FIX",
+                "text": "LROP: Clear the selection in a UI table after record deletion",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970335799"
+                    }
+                ]
+            },
+            {
+                "id": "fe2a3c0a3cd50d29dc0bbca34d77f862ed89dec7",
+                "type": "FIX",
+                "text": "Fix issues with requests being transformed into canonical requests although this is unwanted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970399395"
+                    }
+                ]
+            },
+            {
+                "id": "cdf55a8a3fe89e1dc8bd78c1a44cad6d74046291",
+                "type": "FIX",
+                "text": "Ensure the use of canonical requests when new entities are created",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970486863"
+                    }
+                ]
+            },
+            {
+                "id": "95a2ecb3749184ee3487021c4763eadcb102b523",
+                "type": "FIX",
+                "text": "OP:Prevent extra call for table in Tab Mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970507374"
+                    }
+                ]
+            },
+            {
+                "id": "3ffe68524d7e1cbf530891c6ddde62c99209d573",
+                "type": "FIX",
+                "text": "LROP:Provide context also for unbound actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007705412019"
+                    }
+                ]
+            },
+            {
+                "id": "a7fceac29410deb65abf3cb0f95a66aaa51ac31c",
+                "type": "FIX",
+                "text": "LR: Correct evaluation of extension actions in multi entitySet case to decide, whether selection is possible",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970550203, 1980512635"
+                    }
+                ]
+            },
+            {
+                "id": "cecd114e358f811540ddb28fa3279366c8857de1",
+                "type": "FIX",
+                "text": "OP: Fix navigation in repeated edit scenarios when application is reusing draft keys",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980498687"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.16": {
+        "date": "May 2020",
+        "notes": [
+            {
+                "id": "a04a40986249a5516f1679c6db9d7cffd65fccc0",
+                "type": "FIX",
+                "text": "OP: Refactoring of paste button's visibility",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070180890"
+                    }
+                ]
+            },
+            {
+                "id": "1d6270850dceda4b856f188193e3610a872f3063",
+                "type": "FIX",
+                "text": "OP Do not resetChanges on model after successfull Save in Non-Draft case to avoid interference with Upload-Control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002607372020"
+                    }
+                ]
+            },
+            {
+                "id": "1d6270850dceda4b856f188193e3610a872f3063",
+                "type": "FIX",
+                "text": "OP Do not resetChanges on model after successfull Save in Non-Draft case to avoid interference with Upload-Control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002607372020"
+                    }
+                ]
+            },
+            {
+                "id": "1d6270850dceda4b856f188193e3610a872f3063",
+                "type": "FIX",
+                "text": "Remove _metadata parameters from parameters passed to external navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002304492020"
+                    }
+                ]
+            },
+            {
+                "id": "7a22892b8060a914c29ed4118f1d406e3930077a",
+                "type": "FIX",
+                "text": "LROP command section added for canvas",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002442362020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.17": {
+        "date": "May 2020",
+        "notes": [
+            {
+                "id": "818549b75e75b83c10e30125fd638e7d6516237f",
+                "type": "FIX",
+                "text": "ALP: Retain Visual Filter after navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2030245270"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.25": {
+        "date": "Dec 2020",
+        "notes": [
+            {
+                "id": "Ifc11b2fa5c5bb1531659638dfff7f6c41cf04c9c",
+                "type": "FIX",
+                "text": "LR: Standard variant is displayed, in case of navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070112258"
+                    }
+                ]
+            },
+            {
+                "id": "Ic6aff2e8ee480237b522f77e01b4ad32a3b3d2c9",
+                "type": "FIX",
+                "text": "LR: Removed overlay when LR table is in initial state",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080175175"
+                    }
+                ]
+            },
+            {
+                "id": "I1057059abc70579a68224c9a5a6fea97ddb41719",
+                "type": "FIX",
+                "text": "OP: Optimized identification of section in manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080265348"
+                    }
+                ]
+            },
+            {
+                "id": "I98d859b039aba88bf0696b007114a3f3d006cdc8",
+                "type": "FIX",
+                "text": "LR: Introduced a fallback option called 'CreatedByUser' when 'CreatedByUserDescription' is not available in the dialog for delete confirmation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080241464"
+                    }
+                ]
+            },
+            {
+                "id": "I535fd75e4f2695b49aaca52fa796e4a24514c95e",
+                "type": "FIX",
+                "text": "OP: IconUrl with path annotation is now supported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004993422020"
+                    }
+                ]
+            },
+            {
+                "id": "I95f496bcc0bf4909c97e2135479cd123a276a924",
+                "type": "FIX",
+                "text": "OP: Optimizied working of multiSelect at object page level when a section is not defined in the manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080328759"
+                    }
+                ]
+            },
+            {
+                "id": "I1863040978c5165f01e2598ec7511e2639e9410d",
+                "type": "FIX",
+                "text": "LR: Enabled Delete action for Grid Table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004637732020"
+                    }
+                ]
+            },
+            {
+                "id": "I7fcb5fe662cd9ce9bf0848d7e8a1e9c3ec44c8f5",
+                "type": "FIX",
+                "text": "OP: Send requests for tables and charts on the object page as canonical requests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376600002197422020"
+                    }
+                ]
+            },
+            {
+                "id": "Ide18238e321a69aea0f11fd04f26260e3a9392e9",
+                "type": "FIX",
+                "text": "LROP: Optimized loading while navigating to a list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004789342020"
+                    }
+                ]
+            },
+            {
+                "id": "Id4dcc2363da014432aefb6f0b58252be4fbbfedb",
+                "type": "FIX",
+                "text": "ALP:Smart chart height is set to 50vH",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2040628355"
+                    }
+                ]
+            },
+            {
+                "id": "Idd2990d1df45b09a918591a9cb3c01d87d5cca5b",
+                "type": "FIX",
+                "text": "Improved communication of SAP Fiori elements framework code with router to prevent duplication of template components",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075125800004031722020"
+                    }
+                ]
+            },
+            {
+                "id": "I0b3d3af2b1a5b62fceabac35c85b167efcdb994e",
+                "type": "FIX",
+                "text": "Optimized navigation menu when parameters are present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970475472"
+                    }
+                ]
+            },
+            {
+                "id": "I785080cfbf346f6f1c58ac6a080aaf68756a95cd",
+                "type": "FIX",
+                "text": "Texts on bread crumb links are displayed correctly for deeply nested object pages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376600002197422020"
+                    }
+                ]
+            },
+            {
+                "id": "I16a5aacac186e199e687e6db67d0c8f68091fad7",
+                "type": "FIX",
+                "text": "LR: Limited change of variant to Standard when filter is added and then selected Go on Internet Explorer browser",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005119782020"
+                    }
+                ]
+            },
+            {
+                "id": "Ifd7fad216d11fa20bc521830ca6d6beebc26fbe9",
+                "type": "FIX",
+                "text": "Enhanced navigation when an application immediately opens an object page after external navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007547542020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.31": {
+        "date": "Mar 2021",
+        "notes": [
+            {
+                "id": "e797223a8f34691a0d1ef6e095226f996c44c08e",
+                "type": "FIX",
+                "text": "OP: Discard draft possible if a Create draft subobject page is open in a flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000208752021"
+                    }
+                ]
+            },
+            {
+                "id": "96bee23ff0299122886a174e972c93d262d29acf",
+                "type": "FIX",
+                "text": "OP: Text arrangement for DataPoint type enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070477540"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.32": {
+        "date": "Mar 2021",
+        "notes": [
+            {
+                "id": "Ib7cf0483ab080ee6ae1f5a29a075deb015941ecc",
+                "type": "FIX",
+                "text": "OP: Restored the display behaviour when text arrangement is not defined at property or entity level.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170037895"
+                    }
+                ]
+            },
+            {
+                "id": "I4c3cf8230af435380baa04eb518e9d41c063ef08",
+                "type": "FIX",
+                "text": "OP: Discard draft now works if a create draft subobject page is open in the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000208752021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.33": {
+        "date": "Mar 2021",
+        "notes": [
+            {
+                "id": "I37921a697c2b2413b878191f5c9bf53df6d1b00e",
+                "type": "FIX",
+                "text": "Data in a list report is now displayed in flexible column layout multiple views, when the user selects back navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001719292021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.36": {
+        "date": "Jul 2021",
+        "notes": [
+            {
+                "id": "Icf74eb624b79e505dad6917cd94eeb6ed4e4ca95",
+                "type": "FIX",
+                "text": "The Send email option now works in the cFLP environment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002991142021"
+                    }
+                ]
+            },
+            {
+                "id": "I971d02816f6854655ed55d1be182bcc7bc51fc6f",
+                "type": "FIX",
+                "text": "The issue with the default value of sap:applicable-path has now been rectified",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004602812021"
+                    }
+                ]
+            },
+            {
+                "id": "Ib75ab45b6327a34928201a7d10f97a0c1fe1cffc",
+                "type": "FIX",
+                "text": "Issue with navigation back after performing navigation external is now resolved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002094062021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.42": {
+        "date": "Jan 2022",
+        "notes": [
+            {
+                "id": "I18e7468e32744f67a08fb115b580db254578a8c5",
+                "type": "FIX",
+                "text": "In the object page, handling of side-effects in non draft save scenarios is now improved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007200382021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.47": {
+        "date": "Apr 2022",
+        "notes": [
+            {
+                "id": "I6ef6f99a362a5eae620ce84c309459730726401a",
+                "type": "[INTERNAL] ALP",
+                "text": "CustomFilters are now correctly handled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970616934"
+                    }
+                ]
+            }
+        ]
+    }
+}

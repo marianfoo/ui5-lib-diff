@@ -10373,6 +10373,61 @@
     ]
   },
   {
+    "version": "1.114.8",
+    "date": "2023.09.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Background of Actions strip set to \"Transparent\""
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Back tab nav fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.StepInput: Align decrement icon"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Background of Actions strip set to \"Transparent\""
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.Splitter: Added borders in Morning/Evening Horizon themes"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.ColorPicker: adjust alpha handle position"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.114.1",
     "date": "2023.07.01",
     "libraries": [
@@ -76156,6 +76211,25 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.Menu: skip invalidation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.71.59",
+    "date": "2023.09.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: Dimensions are correctly restored when closing soft keyboard"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Fix navigation skipping"
           }
         ]
       }
