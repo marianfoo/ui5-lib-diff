@@ -6596,6 +6596,106 @@
     ]
   },
   {
+    "version": "1.108.20",
+    "date": "2023.09.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Background of Actions strip set to \"Transparent\""
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: remove hover shadows"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Table: busy indicator should be visible until data received"
+          },
+          {
+            "type": "FIX",
+            "text": " - sap.m.NumericContent"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.InputBase: Value state box-shadow adjusted"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Avatar: Delete active state for now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Wizard: enable insert/remove step for designMode"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.StepInput: Align decrement icon"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Fix navigation skipping"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FeedListItem: fixed icon appearance"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#loadData: read all data (up to model size limit) in \"Client\" mode"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Background of Actions strip set to \"Transparent\""
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.Splitter: Added borders in Morning/Evening Horizon themes"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.ColorPicker: adjust alpha handle position"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: stop drag and drop event propagation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: register events once"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.108.1",
     "date": "2022.11.01",
     "libraries": [
@@ -9979,10 +10079,6 @@
           },
           {
             "type": "FIX",
-            "text": " sap.f.SidePanel: fixed collapse icon of SidePanel + visual tests"
-          },
-          {
-            "type": "FIX",
             "text": " sap.f.DynamicPage,sap.uxap.ObjectPageLayout: ClipPath corrected in RTL"
           }
         ]
@@ -10001,14 +10097,6 @@
           {
             "type": "FEATURE",
             "text": " sap.m.SearchField: “searchButtonPressed” parameter added"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Link: adjust click handling"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FormattedText: Formatting issue fixed"
           },
           {
             "type": "FIX",
@@ -10204,10 +10292,6 @@
         "changes": [
           {
             "type": "FIX",
-            "text": " Field: value help dialog cannot be closed"
-          },
-          {
-            "type": "FIX",
             "text": " Field: show emptyIndicator on Link content"
           },
           {
@@ -10306,36 +10390,6 @@
     "date": "2023.08.01",
     "libraries": [
       {
-        "library": "sap.f",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.f.DynamicPageTitle: Aria-labelledby fix"
-          }
-        ]
-      },
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.DateTimePicker: show correct time with bound timezone"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Select: Initial line-height fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Select: Redundant truncation removed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Select: Icon and text centered"
-          }
-        ]
-      },
-      {
         "library": "sap.tnt",
         "changes": [
           {
@@ -10343,76 +10397,27 @@
             "text": " sap.tnt.ToolHeader: Button of type \"Default\" now has correct styles in Fiori 3 themes"
           }
         ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.format.DateFormat: parse dateTime timezone \"z\" for UTC"
-          },
-          {
-            "type": "FIX",
-            "text": " core/Icon: use theming variable for focus outline"
-          },
-          {
-            "type": "FIX",
-            "text": " util/Mobile: set correct viewport for iPad with \"request desktop website\""
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.mdc",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " mdc.FilterBar: make condition changes appliance more robust"
-          }
-        ]
       }
     ]
   },
   {
-    "version": "1.114.8",
-    "date": "2023.09.01",
+    "version": "1.114.5",
+    "date": "2023.08.01",
     "libraries": [
       {
-        "library": "sap.f",
+        "library": "sap.tnt",
         "changes": [
           {
             "type": "FIX",
-            "text": " Integration Cards: Background of Actions strip set to \"Transparent\""
+            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
           },
           {
             "type": "FIX",
-            "text": " sap.f.DynamicPage: Back tab nav fixed"
-          }
-        ]
-      },
-      {
-        "library": "sap.m",
-        "changes": [
+            "text": " sap.tnt.SideNavigation: Visual adjustments"
+          },
           {
             "type": "FIX",
-            "text": " sap.m.StepInput: Align decrement icon"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.integration",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " Integration Cards: Background of Actions strip set to \"Transparent\""
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.layout",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.Splitter: Added borders in Morning/Evening Horizon themes"
+            "text": " sap.tnt.ToolPage: Header will retain its rounded corners on child visibility change"
           }
         ]
       },
@@ -10421,7 +10426,7 @@
         "changes": [
           {
             "type": "FIX",
-            "text": " sap.m.ColorPicker: adjust alpha handle position"
+            "text": " sap.ui.unified.FileUploader: enable drop over the browse button"
           }
         ]
       }
@@ -10431,27 +10436,6 @@
     "version": "1.114.1",
     "date": "2023.07.01",
     "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.FormattedText: Formatting issue fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.OverflowToolbar: Fix missing Popover menu button"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Input: Correct after open flag"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: removed transparent background in Toolbar"
-          }
-        ]
-      },
       {
         "library": "sap.ui.fl",
         "changes": [
@@ -10477,31 +10461,6 @@
     "date": "2023.07.01",
     "libraries": [
       {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiComboBox: Error in mobile fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Table: busy indicator should be visible until data received"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.DateTimeField: Now works correct with TimeOfDay"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Link: prevent default behavior on mobile"
-          },
-          {
-            "type": "FIX",
-            "text": " P13nFilterPanel: ignores formatter for the P13nItem type property"
-          }
-        ]
-      },
-      {
         "library": "sap.ui.fl",
         "changes": [
           {
@@ -10522,62 +10481,15 @@
     ]
   },
   {
-    "version": "1.114.5",
-    "date": "2023.08.01",
+    "version": "1.114.8",
+    "date": "2023.09.01",
     "libraries": [
       {
-        "library": "sap.m",
+        "library": "sap.ui.layout",
         "changes": [
           {
             "type": "FIX",
-            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
-          }
-        ]
-      },
-      {
-        "library": "sap.tnt",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.tnt.SideNavigation: Visual adjustments"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.tnt.ToolPage: Header will retain its rounded corners on child visibility change"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.odata.type.DateTimeBase: fix formatting and parsing of dates"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.type.DateInterval#parseValue: no milliseconds at interval end"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.odata.v2.ODataListBinding#_getSkipAndTop: fix calculation of \"iLimit\""
-          },
-          {
-            "type": "FIX",
-            "text": " Fix Core Qunit tests"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.mdc",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " Field: Open value help only if editable"
+            "text": " sap.ui.layout.Splitter: Added borders in Morning/Evening Horizon themes"
           }
         ]
       },
@@ -10586,7 +10498,7 @@
         "changes": [
           {
             "type": "FIX",
-            "text": " sap.ui.unified.FileUploader: enable drop over the browse button"
+            "text": " sap.m.ColorPicker: adjust alpha handle position"
           }
         ]
       }
@@ -84866,6 +84778,50 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.Menu: skip invalidation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.84.39",
+    "date": "2023.09.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " - sap.m.NumericContent"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Fix navigation skipping"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FeedListItem: fixed icon appearance"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: Dimensions are correctly restored when closing soft keyboard"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: stop drag and drop event propagation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: register events once"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: enable drop over the browse button"
           }
         ]
       }
