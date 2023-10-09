@@ -1,0 +1,147 @@
+{
+    "1.117.0": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "I436497850fa6c22acd8693d585abed58d3e21880",
+                "type": "FEATURE",
+                "text": "OP: We now support empty rows creation functionality for the disabled fields, using the NonInsertableProperties annotation"
+            },
+            {
+                "id": "Ie5458291060e4801c1f86be46a04e7272855bf43",
+                "type": "FEATURE",
+                "text": "We've now added table loading information in speech output for the list report"
+            },
+            {
+                "id": "I584b1caf88c8866451075cc35c56427da2759610",
+                "type": "FEATURE",
+                "text": "We've now refreshed the inline creation rows on side effect"
+            },
+            {
+                "id": "Ib8b1ce86f447c4d6fceb197a3163eb150ec83679",
+                "type": "FEATURE",
+                "text": "For the object page smart table, the client side mandatory check is now turned off"
+            },
+            {
+                "id": "Iaabefbaec5786f1b51d7b87c168c634080bb9a62",
+                "type": "FEATURE",
+                "text": "The usage of outdated synchronous Shell-APIs is now removed"
+            },
+            {
+                "id": "I8dfa963f2005b26e9fb0624eb463e8b18914861a",
+                "type": "FEATURE",
+                "text": "We now support lazy loading for contact cards"
+            },
+            {
+                "id": "Ie7dc54e9945b4fee21a68d768fd29449c25320b8",
+                "type": "FIX",
+                "text": "We've now introduced sDeepPath (manual creation) instead of sPath for oData read request in the contact cards",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380100462"
+                    }
+                ]
+            },
+            {
+                "id": "Iee4f386fc29a50ecd918cc70c0364a6a7c3f69bc",
+                "type": "FIX",
+                "text": " We've now adapted the usage of SmartField _bEdmBoolDetected in order to reliably exclude checkboxes in focus handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": " CS20230005752345"
+                    }
+                ]
+            },
+            {
+                "id": "Ic812005a10e0a6a1a4984121b7d60b6bdb0f56db",
+                "type": "FIX",
+                "text": "We now provide support for file uploader control for the files named with non-ISO characters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004499342023"
+                    }
+                ]
+            },
+            {
+                "id": "Idbcb506b36a082abc616eb87d50f7a5451a574d9",
+                "type": "FIX",
+                "text": "The checkSearchAllowed method is now used instead of verifySearchAllowed method for Smart Filter Bar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380088694"
+                    }
+                ]
+            },
+            {
+                "id": "I2c8699a6f56306f8011b63e8ee63f6f20ab51b98",
+                "type": "FIX",
+                "text": "The external navigation from chevron icons on the analytical list page table is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380087419"
+                    }
+                ]
+            },
+            {
+                "id": "I7b56c7aa5efc1d8b63160631aa86a2ab0ab8530a",
+                "type": "FIX",
+                "text": "We now allow the remove action for menu button using UI adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005135832023"
+                    }
+                ]
+            },
+            {
+                "id": "I50facfac1a73d6f4593d1bb4ff8936a7e378048b",
+                "type": "FIX",
+                "text": "We've now introduced getAllCurrentContexts for both UI and smart table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380077265"
+                    }
+                ]
+            },
+            {
+                "id": "I0c74bf1165960e87194f1c2b31b3d9594112d328",
+                "type": "FIX",
+                "text": "We've now added implementation to remove all the inline creation rows when a draft is discarded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380079296"
+                    }
+                ]
+            },
+            {
+                "id": "I67ee143721714b75c1b32e1e0b048064fc236044",
+                "type": "FIX",
+                "text": "The app developers can now set their own label for transient message popup, that can be shows only for success and info",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380087399"
+                    }
+                ]
+            },
+            {
+                "id": "I001db95286ff5aec9d044aa3db1a084feff9b630",
+                "type": "FIX",
+                "text": "For the object page, the TreeTable's message identifiers are now hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380069713"
+                    }
+                ]
+            }
+        ]
+    }
+}

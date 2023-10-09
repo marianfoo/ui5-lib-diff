@@ -1,0 +1,292 @@
+{
+    "1.84.0": {
+        "date": "November 2020",
+        "notes": [
+            {
+                "id": "63ad8da6e7d24d443d73bd7ecd422ebd9b6f2185",
+                "type": "FIX",
+                "text": " sap.ui.integration.widgets.Card: Content now shrinks when needed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376500004032812020"
+                    }
+                ]
+            },
+            {
+                "id": "87aa40cf8c8168bd93e888f008b20c243c109741",
+                "type": "FIX",
+                "text": " sap.f.GridList: Navigation with left/right arrow is now correct",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070376459"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.3": {
+        "date": "December 2020",
+        "notes": [
+            {
+                "id": "1498cf898380b3bf6381b7ac6c5c266416ab7420",
+                "type": "FIX",
+                "text": " sap.f.DynamicPage: HeaderExpanded redundant space fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008032622020"
+                    }
+                ]
+            },
+            {
+                "id": "6befb146edf1fbde238a1d07e8de0b928b2823c2",
+                "type": "FIX",
+                "text": " sap.f.CalendarInCard: fixed failing qunit tests in IE11",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080401186"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.5": {
+        "date": "January 2021",
+        "notes": [
+            {
+                "id": "e621f3b9155f89dfe1e5caaacbae378b55dfd3c8",
+                "type": "FIX",
+                "text": " CalendarContent: Manifest dates parsed as in ISO 8601 format",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070466809"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.6": {
+        "date": "February 2021",
+        "notes": [
+            {
+                "id": "fd23238a170ce43f5b6a40f80daa1eb6b5ab4584",
+                "type": "FIX",
+                "text": " sap.f.DynamicPage: Handle fitContainer automatically on tablet",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180043733"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.7": {
+        "date": "March 2021",
+        "notes": [
+            {
+                "id": "e487afd5e627771891c060ef3afd212f678656da",
+                "type": "FIX",
+                "text": " sap.f.DynamicPage: Infinite snapping/unsnapping is prevented",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000409092021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.10": {
+        "date": "April 2021",
+        "notes": [
+            {
+                "id": "a7b7c5bf93781a6b2fdd3b5530b990b7708ac9d0",
+                "type": "FIX",
+                "text": " sap.f.GridList: Headers are now correct when grouping is added",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080458832"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170076535"
+                    }
+                ]
+            },
+            {
+                "id": "cdf78496c5be13b2a915fa7506933faa479dc956",
+                "type": "FIX",
+                "text": " sap.f.DynamicPageTitle: Corrected areaShrinkRatio rendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170055301"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.14": {
+        "date": "June 2021",
+        "notes": [
+            {
+                "id": "8ed1f83983b586f93effd9bbd62857af48ff7aa2",
+                "type": "FIX",
+                "text": " sap.f.ShellBar: Visual misalignments fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170123729"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.17": {
+        "date": "August 2021",
+        "notes": [
+            {
+                "id": "cf185a8c6562fb793c05c17cd72711001042cb54",
+                "type": "FIX",
+                "text": " sap.f.ShellBar: Stabilized qunit",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180334147"
+                    }
+                ]
+            },
+            {
+                "id": "9eb98d64ca1fb7666ad3fdb7310ac0500de88369",
+                "type": "FIX",
+                "text": " sap.f.AvatarGroup: Fix IE infinite rerendering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070469517"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180313498"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.20": {
+        "date": "November 2021",
+        "notes": [
+            {
+                "id": "b70490dd1fb8e8f8c9a5bf3e933dd462088e0524",
+                "type": "FIX",
+                "text": " sap.f.semantic.SemanticPage: Fix empty Share menu",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180224277"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.21": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "f4a5a8f07835398b4a4fc65d257f41ba2dbaea40",
+                "type": "FIX",
+                "text": " sap.f.DynamicPage: Correct maxScrollHeight computation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180305489"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.28": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "9b6b1fb36f687fdfc24170318093d0deba7f6224",
+                "type": "FIX",
+                "text": " sap.f.DynamicPageTitle: Set min-width of content/actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180408155"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280128308"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.31": {
+        "date": "December 2022",
+        "notes": [
+            {
+                "id": "5afb19fcf8491d66cb50bc08ca3c9fb225243d77",
+                "type": "FIX",
+                "text": " sap.f.DynamicPage: Restore automatic fitContent management",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270032047"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270031933"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.32": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "3510c3954d36c9c6c8b215fb119b2c167507ae3b",
+                "type": "FIX",
+                "text": " sap.f.DynamicPage: Scroll position corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380020933"
+                    }
+                ]
+            },
+            {
+                "id": "c874e6f6a0155f931945fe5ca42b4b799ac58697",
+                "type": "FIX",
+                "text": " sap.f.DynamicPage: Corrected positioning issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270108645"
+                    }
+                ]
+            },
+            {
+                "id": "9d5e3dda42590b2b36c48c88c4dde2b212704c41",
+                "type": "FIX",
+                "text": " sap.f.DynamicPage: Correct header visibility issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280122057"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "1.119.0": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "14ea9879d4d5c18bbef44fd5ce5c6191a8a69242",
+                "type": "FIX",
+                "text": " We now ensure the saved draft is displayed when a user tries to overwrite another user's draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370088271"
+                    }
+                ]
+            },
+            {
+                "id": "af73186ce8b699d2310eed3778092c6a9e14b00c",
+                "type": "FIX",
+                "text": " We now ensure clicking a link works in a custom column",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370093639"
+                    }
+                ]
+            },
+            {
+                "id": "1b431211e698b6df9bb3721036873d5441624599",
+                "type": "FIX",
+                "text": " We now support the creation of a new entity using the DataFieldForAction annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370079747"
+                    }
+                ]
+            },
+            {
+                "id": "444c191828cdbe933e93c4cdee03f7f52d695ac1",
+                "type": "FIX",
+                "text": " You can now use the string resources from application resource bundle in ExtensionAPI.loadFragment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007998512023"
+                    }
+                ]
+            },
+            {
+                "id": "b9a0c528acc6c455ef273adfadf4f36900dbee69",
+                "type": "FIX",
+                "text": " We now check whether the context is deleted before proceeding with navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380101597"
+                    }
+                ]
+            },
+            {
+                "id": "04298f58d4d354001fe233b1d1f52c95f2ddb0be",
+                "type": "FIX",
+                "text": " We now ensure the 'Editing Status' filter is set correctly when navigating from tiles and cards",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380118688"
+                    }
+                ]
+            },
+            {
+                "id": "8627447dbfea2fcc0a3083b4a99583374b293258",
+                "type": "FEATURE",
+                "text": " For a responsive table in list report, the default value of the 'selectAll' manifest setting is now 'true'"
+            },
+            {
+                "id": "52f952a18b7663da1f2346cc4ef05543d5c49da7",
+                "type": "FIX",
+                "text": " We've optimized the number of back-end queries when creating a new collaborative draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370086274"
+                    }
+                ]
+            },
+            {
+                "id": "34de8fac176278e14586ef62d9c4537e959da155",
+                "type": "FEATURE",
+                "text": " Application developers can now incorporate the column header in the calculation of the column width"
+            },
+            {
+                "id": "f46da5dcaf4433349cbc116cc00ecfa48c3685df",
+                "type": "FIX",
+                "text": " We have added ARIA label to the list box control in the mass edit dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380075366"
+                    }
+                ]
+            },
+            {
+                "id": "d29f0abe5b906e0ce37820bf8850f625564a62ab",
+                "type": "FIX",
+                "text": " We've resolved an issue that occurs when navigating back to the main object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370078403"
+                    }
+                ]
+            },
+            {
+                "id": "6d563dddc76e233fec5f595727d7a91fd671037d",
+                "type": "FIX",
+                "text": " We have resolved an issue with creating a sub-object in a collaborative draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380128354"
+                    }
+                ]
+            },
+            {
+                "id": "2a5258a59169ca61cc71e1cb6cad573a6fba98ba",
+                "type": "FEATURE",
+                "text": " In edit mode, we now indicate if a table column contains mandatory fields"
+            },
+            {
+                "id": "9dafa31d4e11b9086a63df90557bb4b0b494c494",
+                "type": "FIX",
+                "text": " The delete confirmation message in the object page and list report now follows the design guidelines",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380128644"
+                    }
+                ]
+            },
+            {
+                "id": "503d5e16a7b342d17582999fb2c247bd1104090c",
+                "type": "FIX",
+                "text": " We now accurately calculate column width for properties with units",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380131325"
+                    }
+                ]
+            },
+            {
+                "id": "6ed2cdf00d7e0075f0863565373c9667c5aecbaa",
+                "type": "FIX",
+                "text": " We now correctly display the error messages from actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380114251"
+                    }
+                ]
+            },
+            {
+                "id": "873bb41befe5d1073edd0f7727c3dff3f19f0cfa",
+                "type": "FIX",
+                "text": " Undefined HeaderInfo title is now displayed as blank",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380121982"
+                    }
+                ]
+            },
+            {
+                "id": "73cb4b8ef861b3ed4d6facdf6e324a194ff40b8b",
+                "type": "FIX",
+                "text": " We now ensure that the filter query remains consistent when filtered using the filter bar or the View Settings dialog within the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380118966"
+                    }
+                ]
+            },
+            {
+                "id": "422c8885a3350dafba3ef47ebd0d909e576c9fcf",
+                "type": "FIX",
+                "text": " We now check for message array length before showing the message dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005801742023"
+                    }
+                ]
+            },
+            {
+                "id": "b3e5bb718b6fa75ea94215fa75653c8b5ae8a95e",
+                "type": "FIX",
+                "text": " You can now hide parts of the user interface using absolute paths pointing to singletons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380121915"
+                    }
+                ]
+            },
+            {
+                "id": "1aa20819088e289dedbede31598dd84f8bc9b99f",
+                "type": "FIX",
+                "text": " We now ensure that some services no longer crash the app when loading",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006416482023"
+                    }
+                ]
+            },
+            {
+                "id": "5a1e97a7d74be6a6b11d01668a7815117cd9cd3b",
+                "type": "FIX",
+                "text": " We’ve resolved the error with a message popover persisting on a table row in a subject page even after the table row was deleted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380093655"
+                    }
+                ]
+            }
+        ]
+    }
+}

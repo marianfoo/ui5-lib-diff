@@ -1,0 +1,71 @@
+{
+    "1.119.0": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "a780509549e834e3add4d3f4a91fdbca3968e753",
+                "type": "FEATURE",
+                "text": " You can now use the copy to clipboard feature for multiple rows and ranges in list report and object page tables"
+            },
+            {
+                "id": "1b7cff858e7b6850a9c846b4ac79d3a0ff5e084d",
+                "type": "FIX",
+                "text": " The screen reader now reads the status message of the active filter when the header is collapsed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370073591"
+                    }
+                ]
+            },
+            {
+                "id": "3ef9f3bcc2da2784bc30853cf5b877ce1d158aa1",
+                "type": "FIX",
+                "text": " We now request the TypeAhead recommendations before setting the focus on the first editable field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370086598"
+                    }
+                ]
+            },
+            {
+                "id": "8627447dbfea2fcc0a3083b4a99583374b293258",
+                "type": "FEATURE",
+                "text": " For a responsive table in list report, the default value of the 'selectAll' manifest setting is now 'true'"
+            },
+            {
+                "id": "34de8fac176278e14586ef62d9c4537e959da155",
+                "type": "FEATURE",
+                "text": " Application developers can now incorporate the column header in the calculation of the column width"
+            },
+            {
+                "id": "35ed6c39cb526054e744456bb6ebdfea5660d0af",
+                "type": "FEATURE",
+                "text": " We've improved the avatar display by reducing its size to fit the container"
+            },
+            {
+                "id": "60a0b5c4473ecdcb9a265145b7f23d61ca0f4a9b",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where the bottom of an object page was not clickable when there was no footer",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380121707"
+                    }
+                ]
+            },
+            {
+                "id": "6ed2cdf00d7e0075f0863565373c9667c5aecbaa",
+                "type": "FIX",
+                "text": " We now correctly display the error messages from actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380114251"
+                    }
+                ]
+            }
+        ]
+    }
+}

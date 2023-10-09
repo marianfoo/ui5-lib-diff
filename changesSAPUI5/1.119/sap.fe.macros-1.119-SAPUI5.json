@@ -1,0 +1,245 @@
+{
+    "1.119.0": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "af73186ce8b699d2310eed3778092c6a9e14b00c",
+                "type": "FIX",
+                "text": " We now ensure clicking a link works in a custom column",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370093639"
+                    }
+                ]
+            },
+            {
+                "id": "04298f58d4d354001fe233b1d1f52c95f2ddb0be",
+                "type": "FIX",
+                "text": " We now ensure the 'Editing Status' filter is set correctly when navigating from tiles and cards",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380118688"
+                    }
+                ]
+            },
+            {
+                "id": "103eac57eaed03b03241e3e31acd5d2c84e39f91",
+                "type": "FIX",
+                "text": " We now ensure that recent values are displayed in multivalued and filter fields even when recommendations are not shown",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370092144"
+                    }
+                ]
+            },
+            {
+                "id": "a780509549e834e3add4d3f4a91fdbca3968e753",
+                "type": "FEATURE",
+                "text": " You can now use the copy to clipboard feature for multiple rows and ranges in list report and object page tables"
+            },
+            {
+                "id": "abbc2f62b414c5e8d0c9cbbcb052a021e830628b",
+                "type": "FIX",
+                "text": " When selecting a field with recommendations, the ValueState is now set to 'None', not 'Information'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370088756"
+                    }
+                ]
+            },
+            {
+                "id": "0e82ba93fbe3b156cdde610070e46285caa6b161",
+                "type": "FIX",
+                "text": " Non-responsive table navigation now follows the design guidelines and only uses the navigation chevron",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380108169"
+                    }
+                ]
+            },
+            {
+                "id": "8627447dbfea2fcc0a3083b4a99583374b293258",
+                "type": "FEATURE",
+                "text": " For a responsive table in list report, the default value of the 'selectAll' manifest setting is now 'true'"
+            },
+            {
+                "id": "bb46f6529c988998e1e2da29e62dc6b8da6e3e49",
+                "type": "FIX",
+                "text": " The second label of a progress indicator is now only displayed if its target property has a title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370087364"
+                    }
+                ]
+            },
+            {
+                "id": "34de8fac176278e14586ef62d9c4537e959da155",
+                "type": "FEATURE",
+                "text": " Application developers can now incorporate the column header in the calculation of the column width"
+            },
+            {
+                "id": "e97616c2363995cf86e42438a4a1a0e7550b77f6",
+                "type": "FIX",
+                "text": " We now set the opensOnFocus value to true only for the fields showing recommendations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380109591"
+                    }
+                ]
+            },
+            {
+                "id": "56a3db9c20549531b9184c38fb777cfe69e3afaa",
+                "type": "FIX",
+                "text": " We now ensure that the title link of the quick view has correct parameters and navigates to the correct page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370081948"
+                    }
+                ]
+            },
+            {
+                "id": "57e94b5902419ba5175c7b48dafed51958bd812d",
+                "type": "FIX",
+                "text": " We now also consider the text arrangement annotation when the display mode includes 'Description'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380115007"
+                    }
+                ]
+            },
+            {
+                "id": "33c96bdda50e67fe33bd0ac23838c24f3bf0beec",
+                "type": "FIX",
+                "text": " We now correctly handle the annotation NumberOfFractionalDigits for both double and single property type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006680042023"
+                    }
+                ]
+            },
+            {
+                "id": "565c4089cce8d4f77fbd3b2223dd22c8db896d3b",
+                "type": "FIX",
+                "text": " We now ensure that the fields using semantic keys now work properly in containment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380131327"
+                    }
+                ]
+            },
+            {
+                "id": "2a5258a59169ca61cc71e1cb6cad573a6fba98ba",
+                "type": "FEATURE",
+                "text": " In edit mode, we now indicate if a table column contains mandatory fields"
+            },
+            {
+                "id": "9019dbaffc40bd0a335f22909ef9f55fd1d4ecf0",
+                "type": "FIX",
+                "text": " A text field now indicates if the maximum number of characters is exceeded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380127846"
+                    }
+                ]
+            },
+            {
+                "id": "18978bbc905f5d848131ebc4a78133067a4b8e24",
+                "type": "FIX",
+                "text": " We've now changed the width calculation for ConnectedField to correctly display the fields in Edit mode and Display mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380127504"
+                    }
+                ]
+            },
+            {
+                "id": "a9d1165766801c2b4ddaef10297de82680c15040",
+                "type": "FIX",
+                "text": " We've resolved an issue that occurs when removing the last value from custom filters using multi-value controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370079283"
+                    }
+                ]
+            },
+            {
+                "id": "32ae21a20f2c6d9f04988821bd1119c00f741eca",
+                "type": "FEATURE",
+                "text": " We now show semantic key columns in insights cards created from list report tables"
+            },
+            {
+                "id": "08dd0bca6d72d7352b6c8a6ac95e701fd7e8adc5",
+                "type": "FIX",
+                "text": " We now use the clearFilterValues method to clear the incorrect values in the filter fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380083575"
+                    }
+                ]
+            },
+            {
+                "id": "f7c06848f58cf4af50f3b5965283c9db64846d2f",
+                "type": "FIX",
+                "text": " We now reset the value state when there are no recommendations upon a context change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380125038"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380125034"
+                    }
+                ]
+            },
+            {
+                "id": "73cb4b8ef861b3ed4d6facdf6e324a194ff40b8b",
+                "type": "FIX",
+                "text": " We now ensure that the filter query remains consistent when filtered using the filter bar or the View Settings dialog within the table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380118966"
+                    }
+                ]
+            },
+            {
+                "id": "767a865883131ac7cd5caca2309c1f64dfe85ffa",
+                "type": "FIX",
+                "text": " You can now create cards for the Insights section from a list report page even if the filter bar is not displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380121369"
+                    }
+                ]
+            },
+            {
+                "id": "79f522b2bdfc505cb974b5dc01d72f453baf07f0",
+                "type": "FIX",
+                "text": " We now only set the visible dimensions for the chart dimensions binding as part of the insights card definition",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380109603"
+                    }
+                ]
+            }
+        ]
+    }
+}

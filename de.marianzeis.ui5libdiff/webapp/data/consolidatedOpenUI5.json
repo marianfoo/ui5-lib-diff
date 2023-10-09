@@ -5600,7 +5600,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#getUIArea] use {@link sap.ui.core.UIArea.registry#get UIArea.registry#get} instead, but note that <code>UIArea.registry.get</code> only accepts the ID of the UIArea as argument."
+            "text": "[sap.ui.core.Core#getUIArea] For access to the static UIArea, please use the {@link module:sap/ui/core/StaticArea StaticArea} instead."
           },
           {
             "type": "DEPRECATED",
@@ -10968,6 +10968,10 @@
           },
           {
             "type": "DEPRECATED",
+            "text": "[sap.ui.core.message.MessageProcessor#fireMessageChange] Use {@link module:sap/ui/core/Messaging.updateMessages} instead"
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.m.TablePersoController#undefined] Please use the {@link sap.m.p13n.Engine Engine} for personalization instead."
           },
           {
@@ -11858,6 +11862,50 @@
     ]
   },
   {
+    "version": "1.117.2",
+    "date": "2023.10.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.InputBase: Value state box-shadow adjusted"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FeedListItem: fixed icon appearance"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimePicker: show correct time with bound timezone"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#loadData: read all data (up to model size limit) in \"Client\" mode"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.type.DateInterval#parseValue: no milliseconds at interval end"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#_getSkipAndTop: fix calculation of \"iLimit\""
+          },
+          {
+            "type": "FIX",
+            "text": " Fix Core Qunit tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.118.0",
     "date": "2023.09.01",
     "libraries": [
@@ -12265,6 +12313,10 @@
           },
           {
             "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#getActiveTerminologies] Please use {@link module:sap/base/i18n/Localization.getActiveTerminologies} instead."
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.ui.core.Core#addPrerenderingTask] Please use {@link sap.ui.core.Rendering.addPrerenderingTask Rendering.addPrerenderingTask} instead."
           },
           {
@@ -12345,6 +12397,10 @@
           },
           {
             "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#getMessageManager] Please use {@link module:sap/ui/core/Messaging Messaging} instead."
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.ui.core.Core#getModel] Please use {@link sap.ui.base.ManagedObject#getModel ManagedObject#getModel} instead."
           },
           {
@@ -12405,7 +12461,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.message.MessageManager#undefined] Please use {@link sap.ui.core.Messaging Messaging} instead."
+            "text": "[sap.ui.core.message.MessageManager#undefined] Please use {@link module:sap/ui/core/Messaging Messaging} instead."
           }
         ]
       }
@@ -86613,6 +86669,30 @@
           {
             "type": "DEPRECATED",
             "text": "[sap.ui.model.Model#setLegacySyntax] legacy path syntax is not supported by most model implementations."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.FeedInput#getAriaLabelForPicture] This will not have any effect in code now."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.FeedInput#getIconDensityAware] Image replaced by {@link sap.m.Avatar }"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.FeedInput#setAriaLabelForPicture] This will not have any effect in code now."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.FeedInput#setIconDensityAware] Image replaced by {@link sap.m.Avatar }"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.FeedListItem#getIconDensityAware] Image is replaced by {@link sap.m.Avatar }"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.FeedListItem#setIconDensityAware] Image is replaced by {@link sap.m.Avatar }"
           },
           {
             "type": "DEPRECATED",
