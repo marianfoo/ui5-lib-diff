@@ -571,5 +571,43 @@
                 ]
             }
         ]
+    },
+    "1.114.7": {
+        "date": "September 2023",
+        "notes": [
+            {
+                "id": "8275a21a67625f70969e0cacb6d642d38de4daed",
+                "type": "FIX",
+                "text": " We now ensure that the title link of the quick view has correct parameters and navigates to the correct page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370081948"
+                    }
+                ]
+            },
+            {
+                "id": "02cd38d95f0097e7f102af93df476368c0d20e91",
+                "type": "FIX",
+                "text": " We’ve resolved an issue with navigating to an incorrect TargetControl from the message button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370085117"
+                    }
+                ]
+            },
+            {
+                "id": "92b958eace3ba7807fb754749e35882fa2816a5e",
+                "type": "FIX",
+                "text": " When selecting a field with recommendations, the ValueState is now set to 'None', not 'Information'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380103341"
+                    }
+                ]
+            }
+        ]
     }
 }

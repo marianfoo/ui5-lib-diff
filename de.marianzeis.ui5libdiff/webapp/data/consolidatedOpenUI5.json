@@ -10079,6 +10079,10 @@
           },
           {
             "type": "FIX",
+            "text": " sap.f.SidePanel: fixed collapse icon of SidePanel + visual tests"
+          },
+          {
+            "type": "FIX",
             "text": " sap.f.DynamicPage,sap.uxap.ObjectPageLayout: ClipPath corrected in RTL"
           }
         ]
@@ -10097,6 +10101,14 @@
           {
             "type": "FEATURE",
             "text": " sap.m.SearchField: “searchButtonPressed” parameter added"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: adjust click handling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FormattedText: Formatting issue fixed"
           },
           {
             "type": "FIX",
@@ -10292,6 +10304,10 @@
         "changes": [
           {
             "type": "FIX",
+            "text": " Field: value help dialog cannot be closed"
+          },
+          {
+            "type": "FIX",
             "text": " Field: show emptyIndicator on Link content"
           },
           {
@@ -10390,6 +10406,36 @@
     "date": "2023.08.01",
     "libraries": [
       {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPageTitle: Aria-labelledby fix"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimePicker: show correct time with bound timezone"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Select: Initial line-height fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Select: Redundant truncation removed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Select: Icon and text centered"
+          }
+        ]
+      },
+      {
         "library": "sap.tnt",
         "changes": [
           {
@@ -10397,27 +10443,76 @@
             "text": " sap.tnt.ToolHeader: Button of type \"Default\" now has correct styles in Fiori 3 themes"
           }
         ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.DateFormat: parse dateTime timezone \"z\" for UTC"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Icon: use theming variable for focus outline"
+          },
+          {
+            "type": "FIX",
+            "text": " util/Mobile: set correct viewport for iPad with \"request desktop website\""
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " mdc.FilterBar: make condition changes appliance more robust"
+          }
+        ]
       }
     ]
   },
   {
-    "version": "1.114.5",
-    "date": "2023.08.01",
+    "version": "1.114.8",
+    "date": "2023.09.01",
     "libraries": [
       {
-        "library": "sap.tnt",
+        "library": "sap.f",
         "changes": [
           {
             "type": "FIX",
-            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
+            "text": " Integration Cards: Background of Actions strip set to \"Transparent\""
           },
           {
             "type": "FIX",
-            "text": " sap.tnt.SideNavigation: Visual adjustments"
-          },
+            "text": " sap.f.DynamicPage: Back tab nav fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
           {
             "type": "FIX",
-            "text": " sap.tnt.ToolPage: Header will retain its rounded corners on child visibility change"
+            "text": " sap.m.StepInput: Align decrement icon"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Background of Actions strip set to \"Transparent\""
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.Splitter: Added borders in Morning/Evening Horizon themes"
           }
         ]
       },
@@ -10426,7 +10521,7 @@
         "changes": [
           {
             "type": "FIX",
-            "text": " sap.ui.unified.FileUploader: enable drop over the browse button"
+            "text": " sap.m.ColorPicker: adjust alpha handle position"
           }
         ]
       }
@@ -10436,6 +10531,27 @@
     "version": "1.114.1",
     "date": "2023.07.01",
     "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.FormattedText: Formatting issue fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.OverflowToolbar: Fix missing Popover menu button"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Correct after open flag"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: removed transparent background in Toolbar"
+          }
+        ]
+      },
       {
         "library": "sap.ui.fl",
         "changes": [
@@ -10461,6 +10577,31 @@
     "date": "2023.07.01",
     "libraries": [
       {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MultiComboBox: Error in mobile fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Table: busy indicator should be visible until data received"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimeField: Now works correct with TimeOfDay"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: prevent default behavior on mobile"
+          },
+          {
+            "type": "FIX",
+            "text": " P13nFilterPanel: ignores formatter for the P13nItem type property"
+          }
+        ]
+      },
+      {
         "library": "sap.ui.fl",
         "changes": [
           {
@@ -10481,15 +10622,62 @@
     ]
   },
   {
-    "version": "1.114.8",
-    "date": "2023.09.01",
+    "version": "1.114.5",
+    "date": "2023.08.01",
     "libraries": [
       {
-        "library": "sap.ui.layout",
+        "library": "sap.m",
         "changes": [
           {
             "type": "FIX",
-            "text": " sap.ui.layout.Splitter: Added borders in Morning/Evening Horizon themes"
+            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Seaparator adjused for text only tabs"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Visual adjustments"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolPage: Header will retain its rounded corners on child visibility change"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.type.DateTimeBase: fix formatting and parsing of dates"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.type.DateInterval#parseValue: no milliseconds at interval end"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#_getSkipAndTop: fix calculation of \"iLimit\""
+          },
+          {
+            "type": "FIX",
+            "text": " Fix Core Qunit tests"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Field: Open value help only if editable"
           }
         ]
       },
@@ -10498,7 +10686,79 @@
         "changes": [
           {
             "type": "FIX",
-            "text": " sap.m.ColorPicker: adjust alpha handle position"
+            "text": " sap.ui.unified.FileUploader: enable drop over the browse button"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.114.9",
+    "date": "2023.09.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Fix navigation skipping"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FeedListItem: fixed icon appearance"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#loadData: read all data (up to model size limit) in \"Client\" mode"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.114.10",
+    "date": "2023.10.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: apply horizon theme updates"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: remove hover shadows"
+          },
+          {
+            "type": "FIX",
+            "text": " - sap.m.NumericContent"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.InputBase: Value state box-shadow adjusted"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Avatar: Delete active state for now"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Prepare for upcoming 'unload' event deprecation and deprecate APIs 'onWindowBeforeUnload', 'onWindowUnload' and 'onWindowError' in 'sap/ui/core/Component'"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataModel#resetChanges: do not remove persistent messages"
           }
         ]
       }
@@ -12462,6 +12722,749 @@
           {
             "type": "DEPRECATED",
             "text": "[sap.ui.core.message.MessageManager#undefined] Please use {@link module:sap/ui/core/Messaging Messaging} instead."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.119.0",
+    "date": "2023.10.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.SidePanel: fixed resize loop when SidePanel is in DynamicPage"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Unstable test fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Unstable test temp FIX"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Background of Actions strip set to \"Transparent\""
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Back tab nav fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.SidePanel: Adjust splitter bar themes"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Content height fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " ui5.walkthrough: Refactor tutorial to align on latest best practices"
+          },
+          {
+            "type": "FEATURE",
+            "text": " CellSelector: Publicize CellSelector & enable in MDCTable"
+          },
+          {
+            "type": "FEATURE",
+            "text": " CopyProvider: Setting for full or cell selection copy added"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.core.IconPool: Update icon font v5.06 and v4.18"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.PlanningCalendar: event rowHeaderClick can now be triggered via keyboard"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.MenuButton: Fire beforeMenuOpen on the regular button too"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.IconPool: correction for icon 'slim-arrow-up' for theme 'horizon'"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: remove hover shadows"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: apply horizon theme updates"
+          },
+          {
+            "type": "FIX",
+            "text": " - sap.m.NumericContent"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Avatar: Delete active state for now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Table: Update select-all checkbox after binding operations"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.InputBase: Value state box-shadow adjusted"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePickerSliders: Expand column on dialog open"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: selecting a sub tab via space key now works correctly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ComboBox/MultiComboBox: Correct max-width applied"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendarMonthGrid: fixed week selection in Month view"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Wizard: enable insert/remove step for designMode"
+          },
+          {
+            "type": "FIX",
+            "text": " List: Use array for resource bundle texts"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.InputBase: Readonly styles adjustments"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SuggestionPopover:  Correct margins are now applied"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MultiInput: Value is validated on focus out on mobile"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Breadcrumbs: Fix behaviour in OverflowToolbar"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimePicker: focus out of bound dates correctly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu: adjust add event delegate"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FeedListItem: fixed icon appearance"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ResponsivePopover: addDependent method is now forwarded correctly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuItem: add event delegate"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.StepInput: Align decrement icon"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.tnt.SideNavigation: Collapsed mode now shows item title on hover and focus"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Overflow menu icons are now correctly displayed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.NavigationListItem: Avoid unnecessary truncation in SAP Horizon themes"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolPage: SideNavigation shows correctly on mobile"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Deprecate sap/base/util/UriParameters"
+          },
+          {
+            "type": "FEATURE",
+            "text": " ui5.walkthrough: Refactor tutorial to align on latest best practices"
+          },
+          {
+            "type": "FEATURE",
+            "text": " QUnit: Allow coverage watermarks configuration via frontend"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.model.*: method getPlaceholderText no longer experimental for relevant types"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.core.IconPool: Update icon font v5.06 and v4.18"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Prepare for upcoming 'unload' event deprecation and deprecate APIs 'onWindowBeforeUnload', 'onWindowUnload' and 'onWindowError' in 'sap/ui/core/Component'"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.model.odata.v2.ODataModel: Allow to switch off server cache for security tokens"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Core: deprecate sap.ui.core.Core#libraryChanged event and sap.ui.core.Core.getMetadata API"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Deprecate Core APIs: loadLibrary, initLibrary, getLoadedLibraries, getLibraryResourceBundle"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Deprecate Core.attachControlEvent and Core.detachControlEvent"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Introduce Element.getActiveElement API and deprecate Core.getCurrentFocusedControlId"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Introduce EventBus.getInstance singleton API and deprecate sap.ui.core.Core.getEventBus"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Introduce Element.getElementById as replacement for deprecated sap.ui.getCore().byId"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Introduce new StaticArea API, deprecate predecessor on Core facade"
+          },
+          {
+            "type": "FEATURE",
+            "text": " core.Core: deprecate createRenderManager()"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#requestFilterForMessages: filter must not refer to transient entries"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v4.ODataListBinding#getContexts: fix initial E.C.D."
+          },
+          {
+            "type": "FIX",
+            "text": " sap/base/i18n/Localization: Fix evaluation order of different configuration parameters for language"
+          },
+          {
+            "type": "FIX",
+            "text": " Configuration: xx-noSync parameter truthy check"
+          },
+          {
+            "type": "FIX",
+            "text": " ThemeManager: retrieval of xx-cssVariables parameter"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#loadData: read all data (up to model size limit) in \"Client\" mode"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#fireCreateActivate: ignore destroyed bindings"
+          },
+          {
+            "type": "FIX",
+            "text": " DropInfo: correct the type of d&d related browser events"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.test.Opa5: Tweaked the AutoWaitParams sample"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.type.DateInterval#parseValue: no milliseconds at interval end"
+          },
+          {
+            "type": "FIX",
+            "text": " Fix Core Qunit tests"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataListBinding#_getSkipAndTop: fix calculation of \"iLimit\""
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.documentation",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " DemoKit: Adjust the correct height of header overflow toolbar"
+          },
+          {
+            "type": "FIX",
+            "text": " Demokit: Formatting of search results corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.documentation: Restore 'additionalDownloadFiles' functionality for samples"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.dt",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Integration Cards: Enable binding to paginator model for client-side pagination"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Integration cards: Close button visibility from ShowCard action can be configured"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Avoid 'parameters>/visibleItems' being undefined"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Background of Actions strip set to \"Transparent\""
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.Splitter: Added borders in Morning/Evening Horizon themes"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " ui5.walkthrough: Refactor tutorial to align on latest best practices"
+          },
+          {
+            "type": "FEATURE",
+            "text": " CellSelector: Publicize CellSelector & enable in MDCTable"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: only unit with ValueHelp fails on ValueHelp-selection"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: error message after invalid input"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: DatePicker rendered even if ValueHelp set"
+          },
+          {
+            "type": "FIX",
+            "text": " MDCTable: Sort invisible property with ODataV4"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: remove value state only for parse/validate error"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: additionalValue wrong initialized"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: validate additionalValue only if set"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.table",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Introduce Element.getElementById as replacement for deprecated sap.ui.getCore().byId"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.table: Adjusted _closeContentCellContextMenu method name"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.ColorPicker: adjust alpha handle position"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: stop drag and drop event propagation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: register events once"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Table: Add rowMode aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageSubSection: Layout issue corrected"
+          }
+        ]
+      },
+      {
+        "library": "deprecated",
+        "changes": [
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#getFixedBottomRowCount] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#getFixedRowCount] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#getMinAutoRowCount] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#getRowHeight] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#getVisibleRowCount] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#getVisibleRowCountMode] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#setFixedBottomRowCount] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#setFixedRowCount] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#setMinAutoRowCount] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#setRowHeight] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#setVisibleRowCount] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#setVisibleRowCountMode] use the <code>rowMode</code> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[module:sap/base/util/UriParameters#undefined] See class description for details."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[module:sap/ui/core/getCompatibilityVersion#undefined] Returns the used compatibility version for the given feature."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Component#onWindowBeforeUnload] recommended to use the browser-native page lifecycle API, providing events such as 'pageshow' and 'pagehide'"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Component#onWindowError] recommended to use the browser-native API to listen for errors: window.addEventListener(\"error\", function() { ... })"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Component#onWindowUnload] Newer browser versions deprecate the browser-native 'unload' event. Therefore, the former API won't reliably work anymore. Please have a look at the browser-native page lifecycle API, e.g. its events 'pageshow' and 'pagehide'."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#getCompatibilityVersion] Returns the used compatibility version for the given feature."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#getUIDPrefix] Please use {@link sap.ui.base.ManagedObjectMetadata.getUIDPrefix ManagedObjectMetadata.getUIDPrefix} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#applyTheme] Please use {@link module:sap/ui/core/Theming.setTheme Theming.setTheme} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#attachControlEvent] Registers a listener for control events.\n\nWhen called, the context of the listener (its <code>this</code>) will be bound to <code>oListener</code> if specified, otherwise it will be bound to a dummy event provider object."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#attachLibraryChanged] Please use {@link sap.ui.core.Lib.attachLibraryChanged Lib.attachLibraryChanged} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#byId] Please use {@link sap.ui.core.Element.getElementById Element.getElementById} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#createRenderManager] Returns a new instance of the RenderManager for exclusive use by the caller.\n\nThe caller must take care to destroy the render manager when it is no longer needed. Calling this method before the Core has been {@link #isInitialized initialized}, is not recommended."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#detachControlEvent] Unregisters a listener for control events.\n\nThe passed function and listener object must match the ones used for event registration."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#detachLibraryChanged] Please use {@link sap.ui.core.Lib.detachLibraryChanged Lib.detachLibraryChanged} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#extend] Creates a new subclass of class <code>sap.ui.core.Core</code> with name <code>sClassName</code> and enriches it with the information contained in <code>oClassInfo</code>.\n\n<code>oClassInfo</code> might contain the same kind of information as described in {@link sap.ui.base.ManagedObject.extend}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#getCurrentFocusedControlId] Please use {@link sap.ui.core.Element.getActiveElement Element.getActiveElement} to get the currently focused element. You can then retrieve the ID of that element with {@link sap.ui.core.Element#getId Element#getId}. Please be aware, {@link sap.ui.core.Element.getActiveElement Element.getActiveElement} can return 'undefined'."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#getEventBus] Please use {@link sap.ui.core.EventBus.getInstance EventBus.getInstance} for global usage instead. Creating an own local instance is the preferred usage."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#getLibraryResourceBundle] Please use {@link sap.ui.core.Lib.getResourceBundleFor Lib.getResourceBundleFor} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#getLoadedLibraries] Returns a map of library info objects for all currently loaded libraries, keyed by their names.\n\nThe structure of the library info objects matches the structure of the info object that the {@link #initLibrary} method expects. Only property names documented with <code>initLibrary</code> should be accessed, any additional properties might change or disappear in future. When a property does not exists, its default value (as documented with <code>initLibrary</code>) should be assumed.\n\n<b>Note:</b> The returned info objects must not be modified. They might be a living copy of the internal data (for efficiency reasons) and the framework is not prepared to handle modifications to these objects."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#getMetadata] Returns the metadata for class <code>sap.ui.core.Core</code>."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#getStaticAreaRef] Please use {@link module:sap/ui/core/StaticArea.getDomRef StaticArea.getDomRef} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#includeLibraryTheme] Includes a library theme into the current page (if a variant is specified it will include the variant library theme)"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#initLibrary] Please use {@link sap.ui.core.Lib.init Lib.init} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#isStaticAreaRef] Please use {@link module:sap/ui/core/StaticArea.contains StaticArea.contains} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#isThemeApplied] Please use {@link module:sap/ui/core/Theming.attachApplied Theming.attachApplied} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#loadLibraries] Please use {@link sap.ui.core.Lib.load Lib.load} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#loadLibrary] Please use {@link sap.ui.core.Lib.load Lib.load} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#notifyContentDensityChanged] Please use {@link module:sap/ui/core/Theming.notifyContentDensityChanged Theming.notifyContentDensityChanged} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#setThemeRoot] Defines the root directory from below which UI5 should load the theme with the given name. Optionally allows restricting the setting to parts of a theme covering specific control libraries.\n\nExample: <pre>\n  sap.ui.getCore().setThemeRoot(\"my_theme\", \"https://mythemeserver.com/allThemes\");\n  sap.ui.getCore().applyTheme(\"my_theme\");\n</pre>\n\nwill cause the following file to be loaded (assuming that the bootstrap is configured to load libraries <code>sap.m</code> and <code>sap.ui.layout</code>): <pre>\n  https://mythemeserver.com/allThemes/sap/ui/core/themes/my_theme/library.css\n  https://mythemeserver.com/allThemes/sap/ui/layout/themes/my_theme/library.css\n  https://mythemeserver.com/allThemes/sap/m/themes/my_theme/library.css\n</pre>\n\nIf parts of the theme are at different locations (e.g. because you provide a standard theme like \"sap_belize\" for a custom control library and this self-made part of the standard theme is at a different location than the UI5 resources), you can also specify for which control libraries the setting should be used, by giving an array with the names of the respective control libraries as second parameter: <pre>\n  sap.ui.getCore().setThemeRoot(\"sap_belize\", [\"my.own.library\"], \"https://mythemeserver.com/allThemes\");\n</pre>\n\nThis will cause the Belize theme to be loaded from the UI5 location for all standard libraries. Resources for styling the <code>my.own.library</code> controls will be loaded from the configured location: <pre>\n  https://sdk.openui5.org/resources/sap/ui/core/themes/sap_belize/library.css\n  https://sdk.openui5.org/resources/sap/ui/layout/themes/sap_belize/library.css\n  https://sdk.openui5.org/resources/sap/m/themes/sap_belize/library.css\n  https://mythemeserver.com/allThemes/my/own/library/themes/sap_belize/library.css\n</pre>\n\nIf the custom theme should be loaded initially (via bootstrap attribute), the <code>themeRoots</code> property of the <code>window[\"sap-ui-config\"]</code> object must be used instead of calling <code>sap.ui.getCore().setThemeRoot(...)</code> in order to configure the theme location early enough."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Core#libraryChanged] Please use {@link sap.ui.core.Lib.attachLibraryChanged Lib.attachLibraryChanged} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.model.odata.v2.ODataModel#getSecurityToken] use {@link #securityTokenAvailable} instead"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.Input#getValueHelpOnly] The property valueHelpOnly should not be used anymore"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.Input#isValueHelpOnlyOpener] the property valueHelpOnly should not be used anymore"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.Input#setValueHelpOnly] The property valueHelpOnly should not be used anymore"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.MultiInput#isValueHelpOnlyOpener] the property valueHelpOnly should not be used anymore"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.PlanningCalendar#attachRowHeaderClick] Attaches event handler <code>fnFunction</code> to the {@link #event:rowHeaderClick rowHeaderClick} event of this <code>sap.m.PlanningCalendar</code>.\n\nWhen called, the context of the event handler (its <code>this</code>) will be bound to <code>oListener</code> if specified, otherwise it will be bound to this <code>sap.m.PlanningCalendar</code> itself.\n\nFires when a row header is clicked."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.PlanningCalendar#detachRowHeaderClick] Detaches event handler <code>fnFunction</code> from the {@link #event:rowHeaderClick rowHeaderClick} event of this <code>sap.m.PlanningCalendar</code>.\n\nThe passed function and listener object must match the ones used for event registration."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.PlanningCalendar#fireRowHeaderClick] Fires event {@link #event:rowHeaderClick rowHeaderClick} to attached listeners."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.PlanningCalendar#getAppointmentsReducedHeight] Please use the <code>appointmentHeight</code> with value \"Automatic\" property instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.PlanningCalendar#setAppointmentsReducedHeight] Please use the <code>appointmentHeight</code> with value \"Automatic\" property instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.PlanningCalendar#rowHeaderClick] Fires when a row header is clicked."
           }
         ]
       }

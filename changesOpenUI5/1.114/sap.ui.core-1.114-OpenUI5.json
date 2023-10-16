@@ -100,5 +100,139 @@
                 ]
             }
         ]
+    },
+    "1.114.4": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "57f27d009c13a17000819ce16103aa40aa456918",
+                "type": "FIX",
+                "text": " sap.ui.core.format.DateFormat: parse dateTime timezone \"z\" for UTC",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005085862023"
+                    }
+                ]
+            },
+            {
+                "id": "4ceba58b1f2f6def10d29f99f293aba43b27286e",
+                "type": "FIX",
+                "text": " core/Icon: use theming variable for focus outline",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380099755"
+                    }
+                ]
+            },
+            {
+                "id": "a75c4301d755fc09238e87f517f454683dadea0e",
+                "type": "FIX",
+                "text": " util/Mobile: set correct viewport for iPad with \"request desktop website\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005790312023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.5": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "44eae4551bd32279d4613530ce22f4032c30f364",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.type.DateTimeBase: fix formatting and parsing of dates",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380066657"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002028376700059518002023"
+                    }
+                ]
+            },
+            {
+                "id": "43f988a6a88b5cacb7f46719e4a68b49c9f89bd7",
+                "type": "FIX",
+                "text": " sap.ui.model.type.DateInterval#parseValue: no milliseconds at interval end",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006908592023"
+                    }
+                ]
+            },
+            {
+                "id": "b85e2a7713c2a5b61f9904f84b16a7eb1b999522",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.v2.ODataListBinding#_getSkipAndTop: fix calculation of \"iLimit\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006921272023"
+                    }
+                ]
+            },
+            {
+                "id": "1fe1d468a3c90898a4c640e9be6d5363f28684cd",
+                "type": "FIX",
+                "text": " Fix Core Qunit tests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.9": {
+        "date": "September 2023",
+        "notes": [
+            {
+                "id": "6c1f91758cb4e7ae2937e0ad137ecd81363da5d2",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.v2.ODataListBinding#loadData: read all data (up to model size limit) in \"Client\" mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380127053"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.10": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "3bbbd8a0b67cfe7436c9b688ecae40a4d272ec74",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.v2.ODataModel#resetChanges: do not remove persistent messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370086388"
+                    }
+                ]
+            },
+            {
+                "id": "61b57164f077979c9c57c2f94e67482fc109aee4",
+                "type": "FEATURE",
+                "text": " Prepare for upcoming 'unload' event deprecation and deprecate APIs 'onWindowBeforeUnload', 'onWindowUnload' and 'onWindowError' in 'sap/ui/core/Component'",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            }
+        ]
     }
 }

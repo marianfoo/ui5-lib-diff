@@ -3,6 +3,17 @@
         "date": "May 2023",
         "notes": [
             {
+                "id": "b19f4e03c345a020c1836f8e23b2fe3345dc3f8d",
+                "type": "FIX",
+                "text": " Field: value help dialog cannot be closed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370065650"
+                    }
+                ]
+            },
+            {
                 "id": "53c4217179c4df550d61e548f6ea744cc145d445",
                 "type": "FIX",
                 "text": " Field: show emptyIndicator on Link content",
@@ -37,6 +48,38 @@
                     {
                         "type": "BCP",
                         "reference": "2370029491"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.4": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "58ed3e4ccc3afc71fd62d1b60cddb3fd961267bb",
+                "type": "FIX",
+                "text": " mdc.FilterBar: make condition changes appliance more robust",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380099977"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.5": {
+        "date": "August 2023",
+        "notes": [
+            {
+                "id": "36493c890fa9082efe3e0935d35d09a1f73453c6",
+                "type": "FIX",
+                "text": " Field: Open value help only if editable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380108529"
                     }
                 ]
             }

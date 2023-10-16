@@ -534,5 +534,58 @@
                 ]
             }
         ]
+    },
+    "1.114.10": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "ef4a00460d50520e3c9592b93f29f61221ae7087",
+                "type": "FIX",
+                "text": " FilterBar: Extra space below FilterBar filters is now removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007726512023"
+                    }
+                ]
+            },
+            {
+                "id": "c1d881aaefc10dde3cf872ce4f0b71716c55efb8",
+                "type": "FIX",
+                "text": " SmartField: SmartField with opened suggestions now always fires change event on value change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380114190"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380083584"
+                    }
+                ]
+            },
+            {
+                "id": "0970c5cf9a22cf5be46e1f20a31db3a3e69ed52e",
+                "type": "FIX",
+                "text": " SmartField: Display control when in SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007742592023"
+                    }
+                ]
+            },
+            {
+                "id": "83b457c22d625adcbe8f9e3b0895b85ed5f3a904",
+                "type": "FIX",
+                "text": " SmartTable: Ignore transitivity when AnalyticalTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007288922023"
+                    }
+                ]
+            }
+        ]
     }
 }
