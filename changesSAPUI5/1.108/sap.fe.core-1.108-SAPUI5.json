@@ -1197,5 +1197,58 @@
                 ]
             }
         ]
+    },
+    "1.108.17": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "820f6f27d65ad17fe4874e61e4057544b8baa99e",
+                "type": "FIX",
+                "text": " We have resolved an issue where invokeActionPromise was not resolved or rejected properly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003331112023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370105063"
+                    }
+                ]
+            },
+            {
+                "id": "95ec30e63b4df43f907989adfe23247a237f2abb",
+                "type": "FIX",
+                "text": " We now ensure that the strict handling warning dialog is displayed correctly for actions with invocation grouping changeset",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007883082023"
+                    }
+                ]
+            },
+            {
+                "id": "473b28b3384c9be25f7a00682db57c0e5f35b785",
+                "type": "FIX",
+                "text": " We've resolved an issue that occurs when removing the last value from custom filters using multi-value controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370079283"
+                    }
+                ]
+            },
+            {
+                "id": "94777ca0cfd4d5f4d98cc9c55e849bbc83510632",
+                "type": "FIX",
+                "text": " SAP Fiori elements now properly exports units from associations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380026984"
+                    }
+                ]
+            }
+        ]
     }
 }

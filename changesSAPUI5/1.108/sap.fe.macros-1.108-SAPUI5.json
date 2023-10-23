@@ -1102,5 +1102,32 @@
                 ]
             }
         ]
+    },
+    "1.108.17": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "c6637d061ca2a62f22cf6af62b94b25e7b0c4990",
+                "type": "FIX",
+                "text": " We now correctly handle the annotation NumberOfFractionalDigits for both double and single property type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006680042023"
+                    }
+                ]
+            },
+            {
+                "id": "ce5ecbb5819be4312d5ad2a5c839db821f6eb713",
+                "type": "FIX",
+                "text": " Custom filters with multi-value combo boxes now also work with keys consisting of several digits",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370006730"
+                    }
+                ]
+            }
+        ]
     }
 }

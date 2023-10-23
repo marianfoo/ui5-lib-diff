@@ -7051,6 +7051,80 @@
     ]
   },
   {
+    "version": "1.108.21",
+    "date": "2023.10.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: adjust to horizon theme updates"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: Uses correct active text parameters"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: validation errors from value help are not propagated outside"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Fire intervalSelect event date from another month"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: DateNavigation now uses firstDayOfWeek"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateRangeSelection: Value is now formatted even if matching with previous value"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu: removed max-width of the menu"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: apply horizon theme updates"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Prepare for upcoming 'unload' event deprecation and deprecate APIs 'onWindowBeforeUnload', 'onWindowUnload' and 'onWindowError' in 'sap/ui/core/Component'"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataModel#resetChanges: do not remove persistent messages"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu: removed max-width of the menu"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Reset selectedSection corrected"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.109.0",
     "date": "2022.11.01",
     "libraries": [
