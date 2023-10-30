@@ -104,6 +104,13 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.7&amp;versionTo=1.114.8</guid>
 </item>
 <item>
+<title>Version 1.114.11 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.10&amp;versionTo=1.114.11</link>
+<pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.114.11</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.GridList: Navigation matrix elements are included if they have DOM element</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element</li><li>Type: FIX, Description:  sap.m.Button: adjust to horizon theme updates</li><li>Type: FIX, Description:  sap.m.DynamicDateRange: validation errors from value help are not propagated outside</li></ul></li><li><strong>Library: sap.tnt</strong><ul><li>Type: FIX, Description:  sap.tnt.ToolPage: Parent busy indicator is now shown on ToolPage</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  MDC.Field: Prevent ValueHelp.shouldOpenOnFocus flow with programmatic focus</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.10&amp;versionTo=1.114.11</guid>
+</item>
+<item>
 <title>Version 1.114.1 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.0&amp;versionTo=1.114.1</link>
 <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
@@ -450,18 +457,18 @@ The passed function and listener object must match the ones used for event regis
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.21&amp;versionTo=1.96.22</guid>
 </item>
 <item>
+<title>Version 1.96.24 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.23&amp;versionTo=1.96.24</link>
+<pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.96.24</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element</li><li>Type: FIX, Description:  sap.m.SelectDialog: Add ARIA label to the items list</li><li>Type: FIX, Description:  sap.m.DateRangeSelection: Value is now formatted even if matching with previous value</li><li>Type: FIX, Description:  - sap.m.NumericContent</li><li>Type: FIX, Description:  sap.m.FeedListItem: fixed icon appearance</li><li>Type: FIX, Description:  sap.m.Wizard: enable insert/remove step for designMode</li><li>Type: FIX, Description:  sap.m.PlanningCalendar: Fix navigation skipping</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  SmartTable - Unit of measure formatting</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FEATURE, Description:  Prepare for upcoming &apos;unload&apos; event deprecation and deprecate APIs &apos;onWindowBeforeUnload&apos;, &apos;onWindowUnload&apos; and &apos;onWindowError&apos; in &apos;sap/ui/core/Component&apos;</li><li>Type: FIX, Description:  Stabilize Theming QUnit</li></ul></li><li><strong>Library: sap.ui.integration</strong><ul><li>Type: FIX, Description:  sap.ui.integration.cards.AdaptiveContent: Stabilize tests</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  ConditionType: leave empty unit as it is, only update only undefined</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element</li><li>Type: FIX, Description:  sap.ui.unified.FileUploader: register events once</li><li>Type: FIX, Description:  sap.ui.unified.FileUploader: stop drag and drop event propagation</li><li>Type: FIX, Description:  sap.ui.unified.FileUploader: enable drop over the browse button</li></ul></li><li><strong>Library: sap.ushell</strong><ul><li>Type: FIX, Description:  Add support for the sap.ushell.Container.attachLogoutEvent() API in cFLP</li></ul></li><li><strong>Library: sap.viz</strong><ul><li>Type: FIX, Description: sap viz: skip unstable test_a1</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.23&amp;versionTo=1.96.24</guid>
+</item>
+<item>
 <title>Version 1.96.23 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.22&amp;versionTo=1.96.23</link>
 <pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.96.23</h2><ul><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  SmartField: TextArrangement requests reduce</li><li>Type: FIX, Description:  SmartFilterBar: Text is correctly turned to upper case on paste</li></ul></li><li><strong>Library: sap.ui.layout</strong><ul><li>Type: FIX, Description:  sap.ui.layout.DynamicSideContent: getScrollDelegate now returns proper delegate</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.Menu: skip invalidation</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.22&amp;versionTo=1.96.23</guid>
-</item>
-<item>
-<title>Version 1.96.24 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.23&amp;versionTo=1.96.24</link>
-<pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.96.24</h2><ul><li><strong>Library: sap.ushell</strong><ul><li>Type: FIX, Description:  Add support for the sap.ushell.Container.attachLogoutEvent() API in cFLP</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.23&amp;versionTo=1.96.24</guid>
 </item>
 
 </channel>

@@ -10602,6 +10602,65 @@
     ]
   },
   {
+    "version": "1.114.11",
+    "date": "2023.10.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.GridList: Navigation matrix elements are included if they have DOM element"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: adjust to horizon theme updates"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: validation errors from value help are not propagated outside"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolPage: Parent busy indicator is now shown on ToolPage"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " MDC.Field: Prevent ValueHelp.shouldOpenOnFocus flow with programmatic focus"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.114.1",
     "date": "2023.07.01",
     "libraries": [
@@ -92888,6 +92947,97 @@
           {
             "type": "FIX",
             "text": " sap.tnt.NavigationList: Items roles are adjusted"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.96.24",
+    "date": "2023.10.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SelectDialog: Add ARIA label to the items list"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateRangeSelection: Value is now formatted even if matching with previous value"
+          },
+          {
+            "type": "FIX",
+            "text": " - sap.m.NumericContent"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FeedListItem: fixed icon appearance"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Wizard: enable insert/remove step for designMode"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Fix navigation skipping"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Prepare for upcoming 'unload' event deprecation and deprecate APIs 'onWindowBeforeUnload', 'onWindowUnload' and 'onWindowError' in 'sap/ui/core/Component'"
+          },
+          {
+            "type": "FIX",
+            "text": " Stabilize Theming QUnit"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.integration.cards.AdaptiveContent: Stabilize tests"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ConditionType: leave empty unit as it is, only update only undefined"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: register events once"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: stop drag and drop event propagation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: enable drop over the browse button"
           }
         ]
       }
