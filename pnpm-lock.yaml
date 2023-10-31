@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -18,8 +18,8 @@ importers:
   de.marianzeis.ui5libdiff:
     devDependencies:
       '@openui5/types':
-        specifier: 1.117.0
-        version: 1.117.0
+        specifier: 1.120.0
+        version: 1.120.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.2.0
         version: 6.2.0(@typescript-eslint/parser@6.2.0)(eslint@8.46.0)(typescript@5.1.6)
@@ -1521,8 +1521,8 @@ packages:
       - supports-color
     dev: true
 
-  /@openui5/types@1.117.0:
-    resolution: {integrity: sha512-tuIuq8GFhMF7QztSFlVL2Vn03NIxA4tD5NuCQ4Uf18Mwo3VCBuooxzi6BHx+cGwn9uYkAppxAbdBou8CvFDzYA==}
+  /@openui5/types@1.120.0:
+    resolution: {integrity: sha512-/nci8MPu1n73SK8VA4vbfi2tacSxYpsghSKGmiwOKvzsEhSrzdajenI1Z536ivYaEjndWNrGdIs3AO5yDGtvYg==}
     dependencies:
       '@types/jquery': 3.5.13
       '@types/qunit': 2.5.4
@@ -3711,6 +3711,7 @@ packages:
   /iconv-lite@0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dependencies:
       safer-buffer: 2.1.2
     dev: true

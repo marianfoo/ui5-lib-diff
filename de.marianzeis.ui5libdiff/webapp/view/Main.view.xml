@@ -30,7 +30,7 @@
 					<m:Button text="Show RSS Feed OpenUI5" press="showRSSFeedOpenUI5"/>
 				</layout:HorizontalLayout>
 				
-				<m:SegmentedButton id="SegmentedButtonUI5" selectedKey="SAPUI5" width="100%" selectionChange="handleVersionChange" visible="{= ${device>/system/desktop}}">
+				<m:SegmentedButton id="SegmentedButtonUI5" selectedKey="SAPUI5" width="100%" selectionChange="handleVersionChange">
 					<m:items>
 						<m:SegmentedButtonItem text="SAPUI5" key="SAPUI5"/>
 						<m:SegmentedButtonItem text="OpenUI5" key="OpenUI5" />
@@ -42,11 +42,11 @@
 				<m:ComboBox id="versionFromSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
 					<core:Item key="{select>value}" text="{select>key}" />
 				</m:ComboBox>
-				<m:ComboBox id="versionToSelect"  items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
+				<m:ComboBox id="versionToSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
 					<core:Item key="{select>value}" text="{select>key}" />
 				</m:ComboBox>
-				<m:Text text="Filter for FIX or FEATURE" visible="{= ${device>/system/desktop}}"/>
-				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="100%" selectionChange="handleVersionChange" visible="{= ${device>/system/desktop}}">
+				<m:Text text="Filter for FIX or FEATURE" />
+				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="100%" selectionChange="handleVersionChange">
 					<m:items>
 						<m:SegmentedButtonItem text="All" key="ALL"/>
 						<m:SegmentedButtonItem text="Fixes" key="FIX" />
@@ -54,8 +54,8 @@
 						<m:SegmentedButtonItem text="Deprecated" key="DEPRECATED" />
 					</m:items>
 				</m:SegmentedButton>
-				<m:Text text="Sort changes in library by:" visible="{= ${device>/system/desktop}}" />
-				<m:SegmentedButton id="SegmentedButtonSort" selectedKey="type" width="100%" selectionChange="handleVersionChange" visible="{= ${device>/system/desktop}}">
+				<m:Text text="Sort changes in library by:" />
+				<m:SegmentedButton id="SegmentedButtonSort" selectedKey="type" width="100%" selectionChange="handleVersionChange">
 					<m:items>
 						<m:SegmentedButtonItem text="type" key="type"/>
 						<m:SegmentedButtonItem text="version" key="version" />
