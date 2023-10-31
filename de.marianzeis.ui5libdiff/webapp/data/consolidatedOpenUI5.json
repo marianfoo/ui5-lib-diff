@@ -6213,7 +6213,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.mvc.HTMLView#undefined] as there are no more known usages of <code>HTMLViews</code>, and as the use of HTML as syntax does not bring any advantages over XML. The HTML necessary for the <code>HTMLView</code> is not re-used for the HTML of the controls, but is fully replaced.\n\nConsider using {@link sap.ui.core.mvx.XMLView XMLViews} or \"typed views\" (view classes written in JavaScript) instead. For more information, see the documentation on {@link topic:91f27e3e6f4d1014b6dd926db0e91070 View types}."
+            "text": "[sap.ui.core.mvc.HTMLView#undefined] as there are no more known usages of <code>HTMLViews</code>, and as the use of HTML as syntax does not bring any advantages over XML. The HTML necessary for the <code>HTMLView</code> is not re-used for the HTML of the controls, but is fully replaced.\n\nConsider using {@link sap.ui.core.mvc.XMLView XMLViews} or \"typed views\" (view classes written in JavaScript) instead. For more information, see the documentation on {@link topic:91f27e3e6f4d1014b6dd926db0e91070 View types}."
           },
           {
             "type": "DEPRECATED",
@@ -11205,6 +11205,10 @@
         "changes": [
           {
             "type": "DEPRECATED",
+            "text": "[sap.ui.table.ResetAllMode#undefined] Enumeration of the <code>ResetAllMode</code> that can be used in a <code>TablePersoController</code>."
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.ui.table.Table#_enableLegacyMultiSelection] Enables the legacy multi selection behavior for mouse interaction."
           },
           {
@@ -12228,11 +12232,23 @@
           },
           {
             "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#attachColumnSelect] Attaches event handler <code>fnFunction</code> to the {@link #event:columnSelect columnSelect} event of this <code>sap.ui.table.Table</code>.\n\nWhen called, the context of the event handler (its <code>this</code>) will be bound to <code>oListener</code> if specified, otherwise it will be bound to this <code>sap.ui.table.Table</code> itself.\n\nfired when a column of the table has been selected"
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.ui.table.Table#attachColumnVisibility] Attaches event handler <code>fnFunction</code> to the {@link #event:columnVisibility columnVisibility} event of this <code>sap.ui.table.Table</code>.\n\nWhen called, the context of the event handler (its <code>this</code>) will be bound to <code>oListener</code> if specified, otherwise it will be bound to this <code>sap.ui.table.Table</code> itself.\n\nfired when the visibility of a table column is changed."
           },
           {
             "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#detachColumnSelect] Detaches event handler <code>fnFunction</code> from the {@link #event:columnSelect columnSelect} event of this <code>sap.ui.table.Table</code>.\n\nThe passed function and listener object must match the ones used for event registration."
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.ui.table.Table#detachColumnVisibility] Detaches event handler <code>fnFunction</code> from the {@link #event:columnVisibility columnVisibility} event of this <code>sap.ui.table.Table</code>.\n\nThe passed function and listener object must match the ones used for event registration."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#fireColumnSelect] Fires event {@link #event:columnSelect columnSelect} to attached listeners.\n\nListeners may prevent the default action of this event by calling the <code>preventDefault</code> method on the event object. The return value of this method indicates whether the default action should be executed."
           },
           {
             "type": "DEPRECATED",
@@ -12245,6 +12261,10 @@
           {
             "type": "DEPRECATED",
             "text": "[sap.ui.table.Table#setShowColumnVisibilityMenu] use a <code>ColumnMenu</code> with a custom menu item in the <code>headerMenu</code> association instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.table.Table#columnSelect] fired when a column of the table has been selected\n\nListeners may prevent the default action of this event by calling the <code>preventDefault</code> method on the event object."
           },
           {
             "type": "DEPRECATED",
@@ -13461,7 +13481,51 @@
           },
           {
             "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#getLanguage] Please use {@link module:sap/base/i18n/Localization.getLanguage} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#getLanguageTag] Please use {@link module:sap/base/i18n/Localization.getLanguageTag} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#getLocale] Please use {@link module:sap/base/i18n/Localization.getLanguageTag} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#getRTL] Please use {@link module:sap/base/i18n/Localization.getRTL} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#getSAPLogonLanguage] Please use {@link module:sap/base/i18n/Localization.getSAPLogonLanguage} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#getTheme] Please use {@link module:sap/ui/core/Theming.getTheme} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#getTimezone] Please use {@link module:sap/base/i18n/Localization.getTimezone} instead."
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.ui.core.Configuration#getUIDPrefix] Please use {@link sap.ui.base.ManagedObjectMetadata.getUIDPrefix ManagedObjectMetadata.getUIDPrefix} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#setLanguage] Please use {@link module:sap/base/i18n/Localization.setLanguage} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#setRTL] Please use {@link module:sap/base/i18n/Localization.setRTL} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#setTheme] Please use {@link module:sap/ui/core/Theming.setTheme} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.core.Configuration#setTimezone] Please use {@link module:sap/base/i18n/Localization.setTimezone} instead."
           },
           {
             "type": "DEPRECATED",
@@ -58217,7 +58281,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getAnimation] replaced by {@link sap.ui.core.Configuration#getAnimationMode}"
+            "text": "[sap.ui.core.Configuration#getAnimation] Please use {@link sap.ui.core.Configuration#getAnimationMode} instead."
           },
           {
             "type": "DEPRECATED",
@@ -72160,6 +72224,18 @@
         "changes": [
           {
             "type": "DEPRECATED",
+            "text": "[sap.ui.layout.form.GridContainerData#undefined] as <code>sap.ui.commons</code> library is deprecated and the <code>GridLayout</code> must not be used in responsive applications. Please use <code>ResponsiveGridLayout</code> or <code>ColumnLayout</code> instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.layout.form.GridElementCells#undefined] as <code>sap.ui.commons</code> library is deprecated and the <code>GridLayout</code> must not be used in responsive applications. Please use <code>ResponsiveGridLayout</code> or <code>ColumnLayout</code> instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.layout.form.GridElementData#undefined] as <code>sap.ui.commons</code> library is deprecated and the <code>GridLayout</code> must not be used in responsive applications. Please use <code>ResponsiveGridLayout</code> or <code>ColumnLayout</code> instead."
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.ui.layout.form.GridLayout#undefined] as <code>sap.ui.commons</code> library is deprecated and the <code>GridLayout</code> must not be used in responsive applications. Please use <code>ResponsiveGridLayout</code> or <code>ColumnLayout</code> instead."
           }
         ]
@@ -72692,7 +72768,7 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[jQuery.sap#getUriParameters] use {@link module:sap/base/util/UriParameters.fromQuery UriParameters.fromQuery} or {@link module:sap/base/util/UriParameters.fromURL UriParameters.fromURL} instead."
+            "text": "[jQuery.sap#getUriParameters] See deprecation notes of {@link module:sap/base/util/UriParameters sap/base/util/UriParameters} on how to migrate to URL web standard classes <code>URLSearchParams</code> / <code>URL</code>."
           }
         ]
       }
@@ -86512,7 +86588,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getWhitelistService] Use {@link sap.ui.core.Configuration#getAllowlistService} instead. SAP strives to replace insensitive terms with inclusive language. Since APIs cannot be renamed or immediately removed for compatibility reasons, this API has been deprecated."
+            "text": "[sap.ui.core.Configuration#getWhitelistService] Use {@link module:sap/ui/security/Security.getAllowlistService} instead. SAP strives to replace insensitive terms with inclusive language. Since APIs cannot be renamed or immediately removed for compatibility reasons, this API has been deprecated."
           }
         ]
       }
