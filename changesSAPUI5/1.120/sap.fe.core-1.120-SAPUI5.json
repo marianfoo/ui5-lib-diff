@@ -1,0 +1,374 @@
+{
+    "1.120.0": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "a574540534c02cbfb5e3c1eb3d7499eaf9b7c8a4",
+                "type": "FIX",
+                "text": "  We now ensure that the entity is returned by an action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370109848"
+                    }
+                ]
+            },
+            {
+                "id": "9fdde7b62ca9960259eaf0d9f8330d81eba5a327",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing units are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008126452023"
+                    }
+                ]
+            },
+            {
+                "id": "df74f46b1e8cb16b85fa6459a688bba37521ecae",
+                "type": "FIX",
+                "text": " We now allow you to set default values using the manifest for annotation-based filters on the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370086312"
+                    }
+                ]
+            },
+            {
+                "id": "761711a3aa15dbbe27fbbf3190263ea1172a9b30",
+                "type": "FIX",
+                "text": " We've resolved an issue with the navigation to the object page from the list report table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370115219"
+                    }
+                ]
+            },
+            {
+                "id": "9a19d2f777aca065359470d1190f96df8fb2613c",
+                "type": "FEATURE",
+                "text": " We've now added a confirmation dialog that allows end users to invite other users in apps that support the collaborative draft mode"
+            },
+            {
+                "id": "4417c03d42d4fa8035cc23323a584e4df6a7b04c",
+                "type": "FEATURE",
+                "text": " In apps that support the collaborative draft mode, we've now provided a confirmation dialog asking users to save or discard their changes when leaving a page"
+            },
+            {
+                "id": "1bd63295d896bd671ca984b40b6a12f30bc64e5c",
+                "type": "FIX",
+                "text": " We now ensure that message handling works correctly when the bound action is called using invokeAction",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370110938"
+                    }
+                ]
+            },
+            {
+                "id": "1e151a561699d5e8c3cacd9409b3412a577e2bc9",
+                "type": "FIX",
+                "text": " We now ensure that the LastSemanticMapping cache is cleared while using the navigateToRoute function",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370089461"
+                    }
+                ]
+            },
+            {
+                "id": "7fcf51ae40fd040538a4acb51b06789b0780144c",
+                "type": "FEATURE",
+                "text": " We've now optimized the execution of multiple side effects based on the same context by merging them to prevent redundant requests for the same properties"
+            },
+            {
+                "id": "bf990021dc8064eca3e2ca5619963cbf32994967",
+                "type": "FIX",
+                "text": " We now ensure that the metadata model of the control is linked to the value help for conditions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370101862"
+                    }
+                ]
+            },
+            {
+                "id": "5918983fc72e7b05246579da49922c8c401a240e",
+                "type": "FEATURE",
+                "text": " We now display separate columns for the editing status and business situation in grid tables"
+            },
+            {
+                "id": "1efe2278a3c90fc34d2d6cf5bbe77d07df8f804e",
+                "type": "FIX",
+                "text": " We've resolved the issue of the Delete action not working when the header description is hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370091706"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370092980"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370095588"
+                    }
+                ]
+            },
+            {
+                "id": "3e334853761297c6f66b546ac205578fd8ec00a5",
+                "type": "FIX",
+                "text": " We now ensure the visibility of the paginator is updated on the subobject page even after a new entry was added or deleted for the object page list binding by using side effects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380122361"
+                    }
+                ]
+            },
+            {
+                "id": "33e1f48149e2eee4cd010798b31f956e007d3165",
+                "type": "FIX",
+                "text": " We now provide the correct formatting and text arrangement for semantic key fields annotated with semantic objects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370089743"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370086614"
+                    }
+                ]
+            },
+            {
+                "id": "f39fd01a131d1c937c799050b8d566d8c7833b8a",
+                "type": "FIX",
+                "text": " End users can now navigate back to the object page after clicking the Apply button on the subobject page, even if there are errors from the back end",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370095784"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380055960"
+                    }
+                ]
+            },
+            {
+                "id": "750fd543c73b509b5e428c859d48c3967a545942",
+                "type": "FIX",
+                "text": " You can now use semantic keys while navigating directly from the list report to the draft node of the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380094282"
+                    }
+                ]
+            },
+            {
+                "id": "3437b1702a16d09bc69394ae091a8c2d6d29f3b6",
+                "type": "FIX",
+                "text": " We now ensure that the secondary actions in the page-level toolbar appear in ghost style and the secondary actions in the content-level toolbar appear in transparent style.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370067990"
+                    }
+                ]
+            },
+            {
+                "id": "73c11e7fc94714860c13e110eec2a5f72b35208c",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now allows you to use the KPITag building block in list reports"
+            },
+            {
+                "id": "52b045ce953aa95820e4af546857583be44b8981",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing timezones are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370099409"
+                    }
+                ]
+            },
+            {
+                "id": "6a5b50ae69eef4c397ef5667914e2b271a0d0beb",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing timestamps are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370097686"
+                    }
+                ]
+            },
+            {
+                "id": "5bb9e8ab5d80e192403640be162ea65ae4fd0d47",
+                "type": "FIX",
+                "text": " We have resolved an issue with executed actions that result in a structure",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370096821"
+                    }
+                ]
+            },
+            {
+                "id": "a37cf42a59e703404e3ee9616f21f52b9afd521a",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now allows you to use the KPITag building block in list reports"
+            },
+            {
+                "id": "df8e37e6a86f2cda75b0f356ec77512641957558",
+                "type": "FEATURE",
+                "text": " You can now define the table selection mode using the parameters ForceMulti and ForceSingle, even when no actions are available"
+            },
+            {
+                "id": "9684125875e407ceb28b45604af2a6acd68dea75",
+                "type": "FEATURE",
+                "text": " When you click on the email field used in a table or a form, you can now use the communication options provided by Microsoft Teams"
+            },
+            {
+                "id": "77271c571a2afd09f57b17a2006b444b9a9ad16f",
+                "type": "FIX",
+                "text": " We now evaluate the HeaderInfo.TypeNamePlural annotation as an empty string if it isn't defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380101495"
+                    }
+                ]
+            },
+            {
+                "id": "e6043f3106c5ec53dc98a08dfec2c24105457ad7",
+                "type": "FEATURE",
+                "text": " We now allow the MultiValueField to be used in edit mode within a table"
+            },
+            {
+                "id": "a35e1b82da00512fa6ccb9333294f86d9b0bcdbb",
+                "type": "FIX",
+                "text": " We have resolved an issue with the custom configuration of the MenuButton",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370088594"
+                    }
+                ]
+            },
+            {
+                "id": "1e46e84243309c612b40ebe145aaa7dc166a4844",
+                "type": "FIX",
+                "text": " We now indicate if a table column contains required fields also in our building blocks",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370098283"
+                    }
+                ]
+            },
+            {
+                "id": "475af22718f04a470a0bd8a4ecb95ca9f94a66c7",
+                "type": "FIX",
+                "text": " We now ensure that an action can also be hidden based on annotations defined in EntityType",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380098901"
+                    }
+                ]
+            },
+            {
+                "id": "6e6fd324e5132a5c16d1a706e6e82466cb5c36b6",
+                "type": "FEATURE",
+                "text": " We now provide a setting for app developers to enable their users to automatically access the latest draft, if applicable, when creating a draft root entity"
+            },
+            {
+                "id": "1afd8d6cfda52a987014cf248be7c9ee0e84e152",
+                "type": "FIX",
+                "text": " We have resolved an issue with the visibility of the subsection on the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370082327"
+                    }
+                ]
+            },
+            {
+                "id": "391d07e8270a8659c3e688e7f4a821596b281227",
+                "type": "FIX",
+                "text": " We have resolved several issues with using inline creation mode in building block tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380116651"
+                    }
+                ]
+            },
+            {
+                "id": "f07e990df65ac29124f2523605d8efa61c2b3547",
+                "type": "FIX",
+                "text": " We now ensure that the pageReady event has a context when fired",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380108104"
+                    }
+                ]
+            },
+            {
+                "id": "05e70b268c6cafc5c54174ed9e063e47f9219733",
+                "type": "FIX",
+                "text": " The Apply button now works correctly when there are information or warning messages in the message button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370095783"
+                    }
+                ]
+            },
+            {
+                "id": "6eff3e9a15ea8b025e2a4cb68fb0f24fa52a60b8",
+                "type": "FIX",
+                "text": " We now ensure the saved draft is displayed when a user tries to overwrite another user's draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370088271"
+                    }
+                ]
+            },
+            {
+                "id": "17850052ae29557a5dfcc8d3f28b378546279a67",
+                "type": "FIX",
+                "text": " We now ensure correct formatting and text arrangement for semantic key fields annotated with semantic objects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370089743"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370086614"
+                    }
+                ]
+            },
+            {
+                "id": "7ffe53b6a5098dd141ffb56739d58a23a1846948",
+                "type": "FIX",
+                "text": " Actions that are triggered multiple times without strict handling and return a warning are now terminated correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370083816"
+                    }
+                ]
+            }
+        ]
+    }
+}

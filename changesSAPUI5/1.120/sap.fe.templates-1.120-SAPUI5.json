@@ -1,0 +1,165 @@
+{
+    "1.120.0": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "46deab362613450c92722ec201adba7f54dad426",
+                "type": "FIX",
+                "text": " The message strip on the object page is now context-specific",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370116214"
+                    }
+                ]
+            },
+            {
+                "id": "9a19d2f777aca065359470d1190f96df8fb2613c",
+                "type": "FEATURE",
+                "text": " We've now added a confirmation dialog that allows end users to invite other users in apps that support the collaborative draft mode"
+            },
+            {
+                "id": "4417c03d42d4fa8035cc23323a584e4df6a7b04c",
+                "type": "FEATURE",
+                "text": " In apps that support the collaborative draft mode, we've now provided a confirmation dialog asking users to save or discard their changes when leaving a page"
+            },
+            {
+                "id": "c84b4502dd116e6aaff9b6aca2c36e9a189fca6f",
+                "type": "FIX",
+                "text": " We now ensure that the header level for the object page table and macro chart are set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370094825"
+                    }
+                ]
+            },
+            {
+                "id": "5918983fc72e7b05246579da49922c8c401a240e",
+                "type": "FEATURE",
+                "text": " We now display separate columns for the editing status and business situation in grid tables"
+            },
+            {
+                "id": "08b458e578942f0353c3489f97c3bb5a73782319",
+                "type": "FEATURE",
+                "text": ": We've added a function using the extension API that selects a specific tab programmatically on the list report with multiple tabs"
+            },
+            {
+                "id": "1efe2278a3c90fc34d2d6cf5bbe77d07df8f804e",
+                "type": "FIX",
+                "text": " We've resolved the issue of the Delete action not working when the header description is hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370091706"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370092980"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370095588"
+                    }
+                ]
+            },
+            {
+                "id": "f9cad4ac011c48e559e24b7470cbc8bd20bd19a1",
+                "type": "FIX",
+                "text": " We now show the empty indicator if a contact block link is not maintained",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370048588"
+                    }
+                ]
+            },
+            {
+                "id": "dca0bff136a5cddb488184915b4f79569fa598e0",
+                "type": "FIX",
+                "text": " Filters with default values is now getting stored in selectionVariant and passed correctly during cross navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370080159"
+                    }
+                ]
+            },
+            {
+                "id": "3437b1702a16d09bc69394ae091a8c2d6d29f3b6",
+                "type": "FIX",
+                "text": " We now ensure that the secondary actions in the page-level toolbar appear in ghost style and the secondary actions in the content-level toolbar appear in transparent style.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370067990"
+                    }
+                ]
+            },
+            {
+                "id": "31406594569db584e5d57c8080fbbe1e2d0ca350",
+                "type": "FIX",
+                "text": " We now display the avatar in the correct aspect ratio within the collapsed header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370099636"
+                    }
+                ]
+            },
+            {
+                "id": "73c11e7fc94714860c13e110eec2a5f72b35208c",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now allows you to use the KPITag building block in list reports"
+            },
+            {
+                "id": "c3e8bd8bb6b389867b80a4e40cc3a84013a7e901",
+                "type": "FIX",
+                "text": " We now ensure that accessing list report tables using the onTable() selector provided by the OPA API works correctly for actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370079138"
+                    }
+                ]
+            },
+            {
+                "id": "a37cf42a59e703404e3ee9616f21f52b9afd521a",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now allows you to use the KPITag building block in list reports"
+            },
+            {
+                "id": "9684125875e407ceb28b45604af2a6acd68dea75",
+                "type": "FEATURE",
+                "text": " When you click on the email field used in a table or a form, you can now use the communication options provided by Microsoft Teams"
+            },
+            {
+                "id": "77271c571a2afd09f57b17a2006b444b9a9ad16f",
+                "type": "FIX",
+                "text": " We now evaluate the HeaderInfo.TypeNamePlural annotation as an empty string if it isn't defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380101495"
+                    }
+                ]
+            },
+            {
+                "id": "d97ce181ca90c56b69076aa997d42b48b355b010",
+                "type": "FIX",
+                "text": " We now ensure that the object page scrolls to the correct section when the user clicks on a data point",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380109653"
+                    }
+                ]
+            },
+            {
+                "id": "6e6fd324e5132a5c16d1a706e6e82466cb5c36b6",
+                "type": "FEATURE",
+                "text": " We now provide a setting for app developers to enable their users to automatically access the latest draft, if applicable, when creating a draft root entity"
+            }
+        ]
+    }
+}

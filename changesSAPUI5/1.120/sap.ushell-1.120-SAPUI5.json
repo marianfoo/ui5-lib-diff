@@ -1,0 +1,140 @@
+{
+    "1.120.0": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "1f2727546cde26c1a37d22b98249fcd9ab949af4",
+                "type": "FEATURE",
+                "text": " sap.ushell.services.BookmarkV2 service"
+            },
+            {
+                "id": "dd9a47fa76e11a59237dfef6ff0c5e2a77a5397a",
+                "type": "FIX",
+                "text": " Section: 2D - Keyboard navigation enhanced",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008259582023"
+                    }
+                ]
+            },
+            {
+                "id": "afcfcea5d001f30c5cf64164289dbb8531d9a4c8",
+                "type": "FIX",
+                "text": " Show ShellAppTitles initial focus outline",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380078559"
+                    }
+                ]
+            },
+            {
+                "id": "8bdb39e1d0a3f0d2a66736755ef46690e3ade9c5",
+                "type": "FIX",
+                "text": " Visualization: aria improved to mark as interactive element (link)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008211232023"
+                    }
+                ]
+            },
+            {
+                "id": "31db2da77e1db58977444536caa80753dbdd3ca9",
+                "type": "FIX",
+                "text": " - Navigation to tiles not working in SOH",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008719202023"
+                    }
+                ]
+            },
+            {
+                "id": "c9ffaf6d9e34b266f9ea4fa4080040d20be025c0",
+                "type": "FIX",
+                "text": " prevent adding sap-spaces parameter to non-appruntime URLs",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008044202023"
+                    }
+                ]
+            },
+            {
+                "id": "1fe11b8215ed0b147b0c9cfc4a6d0191cdb37099",
+                "type": "FIX",
+                "text": " Visibility handling for pages in the pages runtime",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370102615"
+                    }
+                ]
+            },
+            {
+                "id": "9466ea9089f59da783f1264674b18c24f96f3602",
+                "type": "FIX",
+                "text": " Reduce Custom tile requests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370102615"
+                    }
+                ]
+            },
+            {
+                "id": "87ca4c485b1d05a6a8eadd5560247a5124503458",
+                "type": "FIX",
+                "text": " ShellHeader: getLogo use correct context"
+            },
+            {
+                "id": "c7220897c9577cea767c0898163e08f046f02ccb",
+                "type": "FIX",
+                "text": " utils: Revert returned AppType set for legacy reasons",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370102644"
+                    }
+                ]
+            },
+            {
+                "id": "b74e73e2e7e80ac81dcba62dcff6373055abd77d",
+                "type": "FIX",
+                "text": " search is SWZ does not handle special characters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006576472023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005326592023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005418052023"
+                    }
+                ]
+            },
+            {
+                "id": "35d5122ea0127d9846d5ae1757a85c355cc44198",
+                "type": "FIX",
+                "text": " Section: superfluous tab indies of unused areas removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008259152023"
+                    }
+                ]
+            },
+            {
+                "id": "3b739a92ca39fe4d6bb02c3578ae3ed9882cebea",
+                "type": "FIX",
+                "text": " Fiori2Adapter: Add safe check for config entry availability"
+            }
+        ]
+    }
+}

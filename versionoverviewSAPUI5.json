@@ -1,18 +1,28 @@
 {
     "versions": [
         {
-            "version": "1.119.*",
-            "version_label": "1.119(2310)",
+            "version": "1.120.*",
+            "version_label": "1.120 (2311)",
             "support": "Maintenance",
+            "lts": true,
+            "eom": "Q4/2030",
+            "eocp": "Q4/2031",
+            "sapuiversion": "7.58",
+            "frontendserver": "SAP FIORI FES 2023 FOR S/4HANA"
+        },
+        {
+            "version": "1.119.*",
+            "version_label": "1.119 (2310)",
+            "support": "Out of maintenance",
             "lts": false,
             "eom": "",
-            "eocp": "",
+            "eocp": "Q4/2024",
             "sapuiversion": "Cloud only",
             "frontendserver": "Cloud only"
         },
         {
             "version": "1.118.*",
-            "version_label": "1.118(2309)",
+            "version_label": "1.118 (2309)",
             "support": "Out of maintenance",
             "lts": false,
             "eom": "",
@@ -22,7 +32,7 @@
         },
         {
             "version": "1.117.*",
-            "version_label": "1.117(2308)",
+            "version_label": "1.117 (2308)",
             "support": "Maintenance",
             "lts": false,
             "eom": "Q1/2024",
@@ -813,8 +823,12 @@
     ],
     "patches": [
         {
-            "version": "1.119.2",
+            "version": "1.120.0",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.119.2",
+            "eocp": "Q4/2024"
         },
         {
             "version": "1.119.1",
@@ -1693,8 +1707,12 @@
             "removed": true
         },
         {
-            "version": "1.84.38",
+            "version": "1.84.39",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.84.38",
+            "eocp": "Q4/2024"
         },
         {
             "version": "1.84.37",

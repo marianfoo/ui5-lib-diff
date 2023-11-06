@@ -1,0 +1,181 @@
+{
+    "1.120.0": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "7124cf34b1e91d9a6adfe62af00677feb20cbf0d",
+                "type": "FIX",
+                "text": " ControlProvider: unstable tests fix"
+            },
+            {
+                "id": "c613a95c12fb6d76fccdb28b3ace098acab89450",
+                "type": "FIX",
+                "text": " SmartField: suggestions Show All Items button is now hidden when value help is disabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370114596"
+                    }
+                ]
+            },
+            {
+                "id": "f18f3f6224b3f74d2bfdb3850c6e268b12dc82e9",
+                "type": "FIX",
+                "text": " SmartFilterBar: Warning state is not set on the Amount when the Unit is hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370095189"
+                    }
+                ]
+            },
+            {
+                "id": "9dd54e00f666956bdd6cd861188951200abc40a7",
+                "type": "FIX",
+                "text": " SmartFilterBar: Validation of ComboBox selectedKey can be skipped",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370076909"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370005588"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007464252023"
+                    }
+                ]
+            },
+            {
+                "id": "527ac0e8fd1c2ac547054dab961f0994234cb65b",
+                "type": "FIX",
+                "text": " SmartFilterBar: When a filter variant with date format is applied, the new value is now shown",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370102921"
+                    }
+                ]
+            },
+            {
+                "id": "b66fccc59203c54db41e2cfd3f84eda7343a9052",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: The typeahead functionality for MultiComboBox  is enhanced"
+            },
+            {
+                "id": "3da087d8fab50be88bf23a46c44f711279a0051d",
+                "type": "FEATURE",
+                "text": "SmartField: The typeahead functionality for combo boxes is enhanced"
+            },
+            {
+                "id": "969339baae7752f88dfaf1e10d10255861a6f0b7",
+                "type": "FEATURE",
+                "text": " SmartField: Lazy loading of annotations in SmartTable when useSmartField:true is now implemented"
+            },
+            {
+                "id": "47c3016e00ef6af624e8e0aa0b15654fc14935bd",
+                "type": "FIX",
+                "text": " SmartFilterBar: prevent invalid values from AdaptFilters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370088767"
+                    }
+                ]
+            },
+            {
+                "id": "eb08a14a8ebbda1d2a7468c83bd4d8fdcf5a57f3",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Add/Remove condition announcement now has correct order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380080569"
+                    }
+                ]
+            },
+            {
+                "id": "223801b451bbcd07dfd2e3d7b2203653a08c5405",
+                "type": "FIX",
+                "text": " SmartTable: Ignore toolbar content with unstable ids for move adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370097692"
+                    }
+                ]
+            },
+            {
+                "id": "9f12f2259519aa6923adc62665adfe0c6f097a77",
+                "type": "FIX",
+                "text": " FilterBar: Extra space below FilterBar filters is now removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007726512023"
+                    }
+                ]
+            },
+            {
+                "id": "c3b8d75954791ac742b79693266ab998e0716c80",
+                "type": "FIX",
+                "text": " FilterBar: Adapt Filters Dialog now has proper style class when used in RTA",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370106396"
+                    }
+                ]
+            },
+            {
+                "id": "7ed08421a3221fc2681bace937537caffd1b0fec",
+                "type": "FIX",
+                "text": " SmartField: SmartField with opened suggestions now always fires change event on value change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380114190"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380083584"
+                    }
+                ]
+            },
+            {
+                "id": "ab72f4d71d73bfbedb81cce8984d8623cba0a091",
+                "type": "FIX",
+                "text": " SmartFilterBar: Initialized event not fired",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380124335"
+                    }
+                ]
+            },
+            {
+                "id": "e3a24ff8ba9064ad4a6893da4677bfa1e83dd797",
+                "type": "FEATURE",
+                "text": " ValueHelpDialog: sap.m.plugins.CellSelector is now enabled for the table"
+            },
+            {
+                "id": "8dca628403d7e296d3916cedd7240120ea47674b",
+                "type": "FIX",
+                "text": " DateRangeType: correct Edm.String interval when it is used with int operations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370097469"
+                    }
+                ]
+            },
+            {
+                "id": "b023110f6da67ca73474f58a935f3f0fbf1986e0",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: OUT Parameters for date fields with DDR picker are now supported"
+            }
+        ]
+    }
+}

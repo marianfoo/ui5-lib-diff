@@ -1,0 +1,298 @@
+{
+    "1.120.0": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "cce560a98b5c822be70fcd332f76b2161df5e01e",
+                "type": "FIX",
+                "text": " SideEffects network requests on structural changes (create/delete) relying on MultiValueField are now ordered appropriately",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370113871"
+                    }
+                ]
+            },
+            {
+                "id": "9fdde7b62ca9960259eaf0d9f8330d81eba5a327",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing units are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008126452023"
+                    }
+                ]
+            },
+            {
+                "id": "faa78a46383d8c1f33a2992b989a9aa62bd73853",
+                "type": "FIX",
+                "text": " We've resolved an issue with the navigation from a quick view when the TextArrangementType annotation is used for the field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370108954"
+                    }
+                ]
+            },
+            {
+                "id": "76e291599045ad927e481a489ee2ef21de4e233d",
+                "type": "FIX",
+                "text": " We now ensure that the draft indicator is not templated in key columns inside grid tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370115804"
+                    }
+                ]
+            },
+            {
+                "id": "c84b4502dd116e6aaff9b6aca2c36e9a189fca6f",
+                "type": "FIX",
+                "text": " We now ensure that the header level for the object page table and macro chart are set correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370094825"
+                    }
+                ]
+            },
+            {
+                "id": "72261e83920cea7ad948cd6b96a03c372ea920fd",
+                "type": "FIX",
+                "text": " We've resolved an issue with the column width calculation when the table is hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370110305"
+                    }
+                ]
+            },
+            {
+                "id": "a87192db7b5d1db2a5efeb9d9d30601f1b6fa09a",
+                "type": "FIX",
+                "text": " We've resolved an issue with the quick view not appearing when the user clicks on fields and field links",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370114281"
+                    }
+                ]
+            },
+            {
+                "id": "2c563630ca92d277493b088df0e4495fa23ed86d",
+                "type": "FIX",
+                "text": " We now ensure that the avatar of the user locking the object in a collaborative draft scenario is resized to fit correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370098192"
+                    }
+                ]
+            },
+            {
+                "id": "6edb77af072ffbbe657cd6799b29a3a0ae431ce2",
+                "type": "FIX",
+                "text": " We’ve resolved an issue with duplicate fields in contact cards",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370110068"
+                    }
+                ]
+            },
+            {
+                "id": "bf990021dc8064eca3e2ca5619963cbf32994967",
+                "type": "FIX",
+                "text": " We now ensure that the metadata model of the control is linked to the value help for conditions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370101862"
+                    }
+                ]
+            },
+            {
+                "id": "5918983fc72e7b05246579da49922c8c401a240e",
+                "type": "FEATURE",
+                "text": " We now display separate columns for the editing status and business situation in grid tables"
+            },
+            {
+                "id": "f9cad4ac011c48e559e24b7470cbc8bd20bd19a1",
+                "type": "FIX",
+                "text": " We now show the empty indicator if a contact block link is not maintained",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370048588"
+                    }
+                ]
+            },
+            {
+                "id": "33e1f48149e2eee4cd010798b31f956e007d3165",
+                "type": "FIX",
+                "text": " We now provide the correct formatting and text arrangement for semantic key fields annotated with semantic objects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370089743"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370086614"
+                    }
+                ]
+            },
+            {
+                "id": "5f07ce0a0857162c1554f0900ea21074beef394a",
+                "type": "FEATURE",
+                "text": " You can now use the communication options provided by Microsoft Teams in the quick view containing the contact information"
+            },
+            {
+                "id": "844a4474541f323f73018d50a2e085f7fd4bc520",
+                "type": "FIX",
+                "text": " We’ve resolved an issue that resulted in the contact card automatically closing in some cases",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370096409"
+                    }
+                ]
+            },
+            {
+                "id": "3437b1702a16d09bc69394ae091a8c2d6d29f3b6",
+                "type": "FIX",
+                "text": " We now ensure that the secondary actions in the page-level toolbar appear in ghost style and the secondary actions in the content-level toolbar appear in transparent style.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370067990"
+                    }
+                ]
+            },
+            {
+                "id": "31406594569db584e5d57c8080fbbe1e2d0ca350",
+                "type": "FIX",
+                "text": " We now display the avatar in the correct aspect ratio within the collapsed header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370099636"
+                    }
+                ]
+            },
+            {
+                "id": "6a5b50ae69eef4c397ef5667914e2b271a0d0beb",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing timestamps are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370097686"
+                    }
+                ]
+            },
+            {
+                "id": "a37cf42a59e703404e3ee9616f21f52b9afd521a",
+                "type": "FEATURE",
+                "text": " SAP Fiori elements for OData V4 now allows you to use the KPITag building block in list reports"
+            },
+            {
+                "id": "df8e37e6a86f2cda75b0f356ec77512641957558",
+                "type": "FEATURE",
+                "text": " You can now define the table selection mode using the parameters ForceMulti and ForceSingle, even when no actions are available"
+            },
+            {
+                "id": "9684125875e407ceb28b45604af2a6acd68dea75",
+                "type": "FEATURE",
+                "text": " When you click on the email field used in a table or a form, you can now use the communication options provided by Microsoft Teams"
+            },
+            {
+                "id": "77271c571a2afd09f57b17a2006b444b9a9ad16f",
+                "type": "FIX",
+                "text": " We now evaluate the HeaderInfo.TypeNamePlural annotation as an empty string if it isn't defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380101495"
+                    }
+                ]
+            },
+            {
+                "id": "e6043f3106c5ec53dc98a08dfec2c24105457ad7",
+                "type": "FEATURE",
+                "text": " We now allow the MultiValueField to be used in edit mode within a table"
+            },
+            {
+                "id": "3c8e13b4e82535ac6dbbb4068928455d87aa155e",
+                "type": "FIX",
+                "text": " We've added sap.fe.macros.FlexibleColumnLayoutActions to the API documentation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "a35e1b82da00512fa6ccb9333294f86d9b0bcdbb",
+                "type": "FIX",
+                "text": " We have resolved an issue with the custom configuration of the MenuButton",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370088594"
+                    }
+                ]
+            },
+            {
+                "id": "11b30513f8154115c3e2dacf615131d4f5ad0f19",
+                "type": "FIX",
+                "text": " We no longer show an incorrect property '$editState' in the table personalization dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370100245"
+                    }
+                ]
+            },
+            {
+                "id": "391d07e8270a8659c3e688e7f4a821596b281227",
+                "type": "FIX",
+                "text": " We have resolved several issues with using inline creation mode in building block tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380116651"
+                    }
+                ]
+            },
+            {
+                "id": "b7f6e83b83ed0f6babd400503f3f5c4641b9ac64",
+                "type": "FIX",
+                "text": " We’ve resolved an issue with navigating to an incorrect TargetControl from the message button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370085117"
+                    }
+                ]
+            },
+            {
+                "id": "17850052ae29557a5dfcc8d3f28b378546279a67",
+                "type": "FIX",
+                "text": " We now ensure correct formatting and text arrangement for semantic key fields annotated with semantic objects",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370089743"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370086614"
+                    }
+                ]
+            }
+        ]
+    }
+}
