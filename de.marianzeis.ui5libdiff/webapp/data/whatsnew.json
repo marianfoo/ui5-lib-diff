@@ -4108,19 +4108,6 @@
         "Version": "1.98"
     },
     {
-        "id": 74860457,
-        "deliverable.version": "1.119_SAPUI5",
-        "Description": "The following entities have been deprecated and replaced with the new personalization panels: <ul class=\"ul\" id=\"loiod9f16f2262a947ef9cd5b58f11c54b6e__ul_fcq_lfs_ftb\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nDialog</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nColumnsPanel</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nSortPanel</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nGroupPanel</samp></p>  </li>  </ul>",
-        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.m.P13n*</samp></span>",
-        "Latest_Revision": "",
-        "Valid_as_Of": "2022-01-27",
-        "Type": "Deprecated",
-        "Action": "Info Only",
-        "Category": "Control",
-        "Version": "1.98"
-    },
-    {
         "id": 74860885,
         "deliverable.version": "1.119_SAPUI5",
         "Description": "<p class=\"p\">We have made personalization within a table or list more reusable. Different panels with reusable content for the various types of personalization are now available for freestyle use in your application.</p>  <div class=\"p\">The following panels are available (as experimental APIs): <ul class=\"ul\" id=\"loiod9f16f2262a947ef9cd5b58f11c54b6e__ul_asq_2yg_fsb\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.p13n.SelectionPanel</samp></p>  <p class=\"p\">Defines a number of properties that allow you to select and deselect fields as columns in your table, for example, and to change their order.</p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.p13n.SortPanel</samp></p>  <p class=\"p\">Defines a number of properties that allow you to sort your items based on various criteria, for example, in ascending or descending order.</p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.p13n.GroupPanel</samp></p>  <p class=\"p\">Defines a number of properties that allow you to group your data.</p>  </li>  </ul></div>  <p class=\"p\">The panels are aggregated to <samp class=\"ph codeph\">sap.m.p13n.Popup</samp> (experimental), which serves as a container for all the panels. </p>  <p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.m.p13n\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.m.p13n\" title=\"https://ui5.sap.com/#/api/sap.m.p13n\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup\" title=\"https://ui5.sap.com/#/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup\">Sample</a>.</p>",
@@ -4129,6 +4116,19 @@
         "Latest_Revision": "",
         "Valid_as_Of": "2022-01-27",
         "Type": "Changed",
+        "Action": "Info Only",
+        "Category": "Control",
+        "Version": "1.98"
+    },
+    {
+        "id": 74860457,
+        "deliverable.version": "1.119_SAPUI5",
+        "Description": "The following entities have been deprecated and replaced with the new personalization panels: <ul class=\"ul\" id=\"loiod9f16f2262a947ef9cd5b58f11c54b6e__ul_fcq_lfs_ftb\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nDialog</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nColumnsPanel</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nSortPanel</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nGroupPanel</samp></p>  </li>  </ul>",
+        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
+        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.m.P13n*</samp></span>",
+        "Latest_Revision": "",
+        "Valid_as_Of": "2022-01-27",
+        "Type": "Deprecated",
         "Action": "Info Only",
         "Category": "Control",
         "Version": "1.98"
@@ -13377,19 +13377,6 @@
         "Version": "1.56"
     },
     {
-        "id": 74859732,
-        "deliverable.version": "1.119_SAPUI5",
-        "Description": "<p class=\"p\">The Support Assistant now allows you to import and export your rule selection. This helps you when you want to perform more than one analysis with the same subset of selected rules. The selection is exported as a <samp class=\"ph codeph\">.json</samp> file with a title and description of your choice. You can then import this file and load it whenever you want to execute the same rules in another analysis.</p><img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_wg1_frp_gpb\" src=\"loio916079a1321e478498c896d0ce325591_HiRes.png\"></img><p class=\"p\">For more information, see <a class=\"xref\" href=\"3fc864acf926406194744375aa464fe7.html\" title=\"The user interface of the Support Assistant lets you choose which rules you can load for a library. It also allows you to organize your Rules view according to your preference and to import and export predefined rule selections.\">Rules Management</a>.</p>",
-        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\">Support Assistant</span>",
-        "Latest_Revision": "",
-        "Valid_as_Of": "2018-08-02",
-        "Type": "New",
-        "Action": "Info Only",
-        "Category": "Feature",
-        "Version": "1.56"
-    },
-    {
         "id": 74859605,
         "deliverable.version": "1.119_SAPUI5",
         "Description": "<ul class=\"ul\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__ul_v1x_kfl_ndb\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.support.ExecutionScope.getElements</samp> has a new parameter <samp class=\"ph codeph\">cloned</samp>. It allows users of the Support Assistant to filter out elements that are clones of list bindings. Now the results will include only the representative clone. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\" title=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\">API Reference</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">A <span class=\"ph uicontrol\">Filter</span> view showing the currently applied filter has been added to the <span class=\"ph uicontrol\">Issues</span> view of the Support Assistant. The <span class=\"ph uicontrol\">Clear Filtering</span> button (<img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_vkt_vmd_5db\" src=\"loio4a0cf3bc3f7244549cf95901077aa6ae_HiRes.png\"></img>) has moved to the <span class=\"ph uicontrol\">Filter</span> view. It is active only when there is a filter selected.</p>  </li>  <li class=\"li\">  <p class=\"p\">An explanatory note has been added to the <span class=\"ph uicontrol\">Additional Rulesets</span> view under the header to give more clarity about the function of these rulesets and why they are in a separate tab.</p>  </li>  <li class=\"li\">  <p class=\"p\">The <span class=\"ph uicontrol\">Report</span> button is now fixed to the panel to be always visible and not to get into the overflow.</p>  </li>  <li class=\"li\">  <p class=\"p\">The font sizes are aligned across all three views for consistency.</p>  </li>  <li class=\"li\">  <p class=\"p\">In the <span class=\"ph uicontrol\">Issues</span> view the number of issues is only highlighted when there are issues of medium and high severity. This improvement helps to easily see the distribution of the issues by severity.</p>  </li>  </ul><img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_hvs_lth_4db\" src=\"loio88301172a39245bbb35f0d5abbc26646_HiRes.png\"></img>",
@@ -13398,6 +13385,19 @@
         "Latest_Revision": "",
         "Valid_as_Of": "2018-08-02",
         "Type": "Changed",
+        "Action": "Info Only",
+        "Category": "Feature",
+        "Version": "1.56"
+    },
+    {
+        "id": 74859732,
+        "deliverable.version": "1.119_SAPUI5",
+        "Description": "<p class=\"p\">The Support Assistant now allows you to import and export your rule selection. This helps you when you want to perform more than one analysis with the same subset of selected rules. The selection is exported as a <samp class=\"ph codeph\">.json</samp> file with a title and description of your choice. You can then import this file and load it whenever you want to execute the same rules in another analysis.</p><img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_wg1_frp_gpb\" src=\"loio916079a1321e478498c896d0ce325591_HiRes.png\"></img><p class=\"p\">For more information, see <a class=\"xref\" href=\"3fc864acf926406194744375aa464fe7.html\" title=\"The user interface of the Support Assistant lets you choose which rules you can load for a library. It also allows you to organize your Rules view according to your preference and to import and export predefined rule selections.\">Rules Management</a>.</p>",
+        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
+        "Title": "<span class=\"ph emphasis emphasis\">Support Assistant</span>",
+        "Latest_Revision": "",
+        "Valid_as_Of": "2018-08-02",
+        "Type": "New",
         "Action": "Info Only",
         "Category": "Feature",
         "Version": "1.56"
@@ -16887,19 +16887,6 @@
         "Version": "1.40"
     },
     {
-        "id": 74860286,
-        "deliverable.version": "1.119_SAPUI5",
-        "Description": "<p class=\"p\">New controls for the <span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>:</p><ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_nsf_gjh_z4b\">  <li class=\"li\">  <div class=\"p\">Redlining controls: A number of controls have been added to the <samp class=\"ph codeph\">sap.ui.vk.library</samp> which allow you to create and edit basic redlining in 2D images or 3D models. These controls are:<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_osf_gjh_z4b\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineDesign</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElement</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementEllipse</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementFreehand</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementRectangle</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineSurface</samp></p>  </li>  </ul></div>  </li>  </ul><p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk\" title=\"https://ui5.sap.com/#/api/sap.ui.vk\">API Reference</a>.</p><ul class=\"ul\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.DecryptionHandler</samp>: This control handles the decryption of encrypted models using third-party decryption algorithms. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\">API Reference</a> in the Demo Kit.</span>  </p>  </li>  </ul>",
-        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>",
-        "Latest_Revision": "",
-        "Valid_as_Of": "2016-08-24",
-        "Type": "New",
-        "Action": "Info Only",
-        "Category": "Control",
-        "Version": "1.40"
-    },
-    {
         "id": 74860703,
         "deliverable.version": "1.119_SAPUI5",
         "Description": "<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_abg_wqh_z4b\">  <li class=\"li\">  <p class=\"p\">The library now includes support for the SAP 3D Visual Enterprise 9.0 VDS4 file format.</p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.Loco</samp>: <samp class=\"ph codeph\">Loco</samp> control has been updated to handle gestures for creating and editing redlining objects. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\">API Reference</a>.</span></p>  </li>  </ul>",
@@ -16908,6 +16895,19 @@
         "Latest_Revision": "",
         "Valid_as_Of": "2016-08-24",
         "Type": "Changed",
+        "Action": "Info Only",
+        "Category": "Control",
+        "Version": "1.40"
+    },
+    {
+        "id": 74860286,
+        "deliverable.version": "1.119_SAPUI5",
+        "Description": "<p class=\"p\">New controls for the <span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>:</p><ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_nsf_gjh_z4b\">  <li class=\"li\">  <div class=\"p\">Redlining controls: A number of controls have been added to the <samp class=\"ph codeph\">sap.ui.vk.library</samp> which allow you to create and edit basic redlining in 2D images or 3D models. These controls are:<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_osf_gjh_z4b\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineDesign</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElement</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementEllipse</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementFreehand</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementRectangle</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineSurface</samp></p>  </li>  </ul></div>  </li>  </ul><p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk\" title=\"https://ui5.sap.com/#/api/sap.ui.vk\">API Reference</a>.</p><ul class=\"ul\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.DecryptionHandler</samp>: This control handles the decryption of encrypted models using third-party decryption algorithms. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\">API Reference</a> in the Demo Kit.</span>  </p>  </li>  </ul>",
+        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
+        "Title": "<span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>",
+        "Latest_Revision": "",
+        "Valid_as_Of": "2016-08-24",
+        "Type": "New",
         "Action": "Info Only",
         "Category": "Control",
         "Version": "1.40"

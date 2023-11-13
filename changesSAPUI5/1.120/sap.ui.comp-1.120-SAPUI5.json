@@ -177,5 +177,36 @@
                 "text": " SmartFilterBar: OUT Parameters for date fields with DDR picker are now supported"
             }
         ]
+    },
+    "1.120.1": {
+        "date": "November 2023",
+        "notes": [
+            {
+                "id": "be751825eb5e6a97046096dafe66a4e24f29818b",
+                "type": "FIX",
+                "text": " SmartField: Lazy loading of annotations in SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370134145"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370049520"
+                    }
+                ]
+            },
+            {
+                "id": "8ea8231a11f11b41e807f8e8818e0918480e97f0",
+                "type": "FIX",
+                "text": " SmartFilterBar: prevent invalid values from AdaptFilters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370134136"
+                    }
+                ]
+            }
+        ]
     }
 }
