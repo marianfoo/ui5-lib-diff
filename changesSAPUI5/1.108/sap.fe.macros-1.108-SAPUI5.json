@@ -1129,5 +1129,32 @@
                 ]
             }
         ]
+    },
+    "1.108.18": {
+        "date": "November 2023",
+        "notes": [
+            {
+                "id": "7b4e3a135335820768b5bbb08e852a462591913f",
+                "type": "FIX",
+                "text": " We now perform the table refresh in TableDelegate.ts after a row binding update.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009153282023"
+                    }
+                ]
+            },
+            {
+                "id": "0076d9a489999fb553b1d6fb247421974f845636",
+                "type": "FIX",
+                "text": " We now correctly manage the SelectionVariant annotation configured with the RangeSignType ‘Exclude’ for multiple views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007247152023"
+                    }
+                ]
+            }
+        ]
     }
 }

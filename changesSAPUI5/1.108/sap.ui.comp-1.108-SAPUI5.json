@@ -1067,5 +1067,32 @@
                 ]
             }
         ]
+    },
+    "1.108.22": {
+        "date": "November 2023",
+        "notes": [
+            {
+                "id": "776eeb915e96c3675095ec726ad2989b9e98a24f",
+                "type": "FIX",
+                "text": " FilterPanel: Filtering is now working for fields binded via association entity",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008379452023"
+                    }
+                ]
+            },
+            {
+                "id": "9d0830269e2d572829b378bd41894e5a9419560a",
+                "type": "FIX",
+                "text": " In case of deep create the model create entry only expects path and properties with oData",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007448682023"
+                    }
+                ]
+            }
+        ]
     }
 }

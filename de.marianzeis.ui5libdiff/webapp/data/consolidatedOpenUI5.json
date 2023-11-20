@@ -6696,6 +6696,121 @@
     ]
   },
   {
+    "version": "1.108.22",
+    "date": "2023.11.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Fix RTA for content of DynamicPageTitle"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.GridContainer: Keyboard navigation after focusItem() now continues from the focused item"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.GridList: Navigation matrix elements are included if they have DOM element"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Count in filter is now visible on mobile Safari"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectNumber: apply horizon theme updates"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: OPA tests in demo app are now running"
+          },
+          {
+            "type": "FIX",
+            "text": "sap.m.Carousel: f7 qunit is now correct"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolPage: Parent busy indicator is now shown on ToolPage"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/Component: skip the sync processing of i18n before resources are loaded"
+          },
+          {
+            "type": "FIX",
+            "text": " Stabilize QUnit test for BeaconRequest"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.dt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.rta - minimenu icons overlap - correction"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ConditionType: leave empty unit as it is, only update only undefined"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.webc.fiori",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.webc.fiori: Third party zxing configuration corrected"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Downport of changes"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.108.1",
     "date": "2022.11.01",
     "libraries": [
