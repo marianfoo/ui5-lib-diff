@@ -171,5 +171,25 @@
                 ]
             }
         ]
+    },
+    "1.117.3": {
+        "date": "November 2023",
+        "notes": [
+            {
+                "id": "e38d01c4a335c1c55eafd4010792ce5c4376d6ed",
+                "type": "FIX",
+                "text": " We now evaluate the HeaderInfo.TypeNamePlural annotation as an empty string if it isn't defined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009997582023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380101495"
+                    }
+                ]
+            }
+        ]
     }
 }

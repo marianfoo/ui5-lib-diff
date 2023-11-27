@@ -10776,6 +10776,56 @@
     ]
   },
   {
+    "version": "1.114.12",
+    "date": "2023.11.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/Shortcut: trigger \"blur\" within a timeout"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectNumber: apply horizon theme updates"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolHeader: Padding when there is no menu button fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.analytics.odata4analytics.FilterExpression#renderUI5FilterArray: fix sorting of filters"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Shortcut: trigger \"blur\" within a timeout"
+          },
+          {
+            "type": "FIX",
+            "text": " Stabilize QUnit test for BeaconRequest"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.114.1",
     "date": "2023.07.01",
     "libraries": [
@@ -12447,6 +12497,52 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.117.4",
+    "date": "2023.11.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/Shortcut: trigger \"blur\" within a timeout"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolHeader: Padding when there is no menu button fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.analytics.odata4analytics.FilterExpression#renderUI5FilterArray: fix sorting of filters"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Shortcut: trigger \"blur\" within a timeout"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Field: not possible to enter multiple lines"
           }
         ]
       }

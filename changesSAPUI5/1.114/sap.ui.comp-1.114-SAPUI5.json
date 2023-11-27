@@ -587,5 +587,59 @@
                 ]
             }
         ]
+    },
+    "1.114.12": {
+        "date": "November 2023",
+        "notes": [
+            {
+                "id": "59f204df1bcdbb36a916d1e3c9ef1bbcc0688bb7",
+                "type": "FIX",
+                "text": " FilterBar: reset now works as expected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280144245"
+                    }
+                ]
+            },
+            {
+                "id": "0ad789b790f0cc08816b86d49750da80d9696bf1",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct single text arrangement when multiple calls to setFilterData are performed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370105353"
+                    }
+                ]
+            },
+            {
+                "id": "0011b1f2a39f484016ac994ce52ded0d4ff61998",
+                "type": "FIX",
+                "text": " In case of deep create the model create entry only expects path and properties with oData",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007448682023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.13": {
+        "date": "November 2023",
+        "notes": [
+            {
+                "id": "0fea4c6e60c9fe4849c6929706e5e1a14022eb79",
+                "type": "FIX",
+                "text": " Revert SmartFilterBar: correct single text arrangement when multiple calls to setFilterData are performed\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370146635"
+                    }
+                ]
+            }
+        ]
     }
 }

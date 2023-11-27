@@ -612,5 +612,43 @@
                 ]
             }
         ]
+    },
+    "1.114.8": {
+        "date": "November 2023",
+        "notes": [
+            {
+                "id": "71af24e1b47392b83ce214102c57648cf573ad5b",
+                "type": "FIX",
+                "text": " We now ensure the TypeDefinition is managed as a typed property when the entity is declared directly in a CAP service",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150068"
+                    }
+                ]
+            },
+            {
+                "id": "06aa33d55f3e6bfaf94bbce7665b5c50a9343ade",
+                "type": "FIX",
+                "text": " We now ensure that the application can load even with an unexpected format set on the TargetProperties of a SideEffects annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370143588"
+                    }
+                ]
+            },
+            {
+                "id": "8b04c3309d68371c63ed8036c58f190025dd5f15",
+                "type": "FIX",
+                "text": " We now correctly manage the SelectionVariant annotation configured with the RangeSignType ‘Exclude’ for multiple views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007247152023"
+                    }
+                ]
+            }
+        ]
     }
 }
