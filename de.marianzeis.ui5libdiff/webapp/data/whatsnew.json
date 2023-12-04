@@ -8775,11 +8775,11 @@
         "Version": "1.76"
     },
     {
-        "id": 84073545,
+        "id": 84074319,
         "deliverable.version": "1.120_SAPUI5",
-        "Description": "<ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_zy4_yjf_blb\">  <li class=\"li\">  <p class=\"p\">New indication colors are now available (provided by the <samp class=\"ph codeph\">sap.ui.core.IndicationColor</samp> enumeration) that can be used for highlighting table rows. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" title=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\">API Reference</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">The resizing of columns has been changed to improve the usability on tablet devices.</p>  </li>  </ul>",
+        "Description": "<p class=\"p\"><samp class=\"ph codeph\">sap.ui.table.plugins.MultiSelectionPlugin</samp> for these tables has been enhanced and now provides the following functions:</p>  <ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_ns4_pdd_1lb\">  <li class=\"li\">  <p class=\"p\">The selection of indices outside of data boundaries is now no longer possible, because the binding length is taken into account.</p>  </li>  <li class=\"li\">  <p class=\"p\">A validation takes place to prevent errors from occurring due to the selection of unsuitable parameters.</p>  </li>  <li class=\"li\">  <p class=\"p\">Methods that change the selection now return a <samp class=\"ph codeph\">Promise</samp> that is resolved after a selection has been made.</p>  </li>  <li class=\"li\">  <p class=\"p\">A <samp class=\"ph codeph\">customPayload</samp> parameter has been added to the <samp class=\"ph codeph\">selectionChange</samp> event to allow event listeners to make use of custom event data.</p>  </li>  </ul>  <p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\">Sample</a>.</p>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table</samp>, <samp class=\"ph codeph\">sap.ui.table.TreeTable</samp></span>",
+        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table, sap.ui.table.TreeTable</samp></span>",
         "Latest_Revision": "",
         "Valid_as_Of": "2020-03-26",
         "Type": "Changed",
@@ -8788,11 +8788,11 @@
         "Version": "1.76"
     },
     {
-        "id": 84074319,
+        "id": 84073545,
         "deliverable.version": "1.120_SAPUI5",
-        "Description": "<p class=\"p\"><samp class=\"ph codeph\">sap.ui.table.plugins.MultiSelectionPlugin</samp> for these tables has been enhanced and now provides the following functions:</p>  <ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_ns4_pdd_1lb\">  <li class=\"li\">  <p class=\"p\">The selection of indices outside of data boundaries is now no longer possible, because the binding length is taken into account.</p>  </li>  <li class=\"li\">  <p class=\"p\">A validation takes place to prevent errors from occurring due to the selection of unsuitable parameters.</p>  </li>  <li class=\"li\">  <p class=\"p\">Methods that change the selection now return a <samp class=\"ph codeph\">Promise</samp> that is resolved after a selection has been made.</p>  </li>  <li class=\"li\">  <p class=\"p\">A <samp class=\"ph codeph\">customPayload</samp> parameter has been added to the <samp class=\"ph codeph\">selectionChange</samp> event to allow event listeners to make use of custom event data.</p>  </li>  </ul>  <p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\">Sample</a>.</p>",
+        "Description": "<ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_zy4_yjf_blb\">  <li class=\"li\">  <p class=\"p\">New indication colors are now available (provided by the <samp class=\"ph codeph\">sap.ui.core.IndicationColor</samp> enumeration) that can be used for highlighting table rows. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" title=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\">API Reference</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">The resizing of columns has been changed to improve the usability on tablet devices.</p>  </li>  </ul>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table, sap.ui.table.TreeTable</samp></span>",
+        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table</samp>, <samp class=\"ph codeph\">sap.ui.table.TreeTable</samp></span>",
         "Latest_Revision": "",
         "Valid_as_Of": "2020-03-26",
         "Type": "Changed",
@@ -17251,19 +17251,6 @@
         "Version": "1.40"
     },
     {
-        "id": 84073321,
-        "deliverable.version": "1.120_SAPUI5",
-        "Description": "<p class=\"p\">New controls for the <span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>:</p><ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_nsf_gjh_z4b\">  <li class=\"li\">  <div class=\"p\">Redlining controls: A number of controls have been added to the <samp class=\"ph codeph\">sap.ui.vk.library</samp> which allow you to create and edit basic redlining in 2D images or 3D models. These controls are:<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_osf_gjh_z4b\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineDesign</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElement</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementEllipse</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementFreehand</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementRectangle</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineSurface</samp></p>  </li>  </ul></div>  </li>  </ul><p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk\" title=\"https://ui5.sap.com/#/api/sap.ui.vk\">API Reference</a>.</p><ul class=\"ul\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.DecryptionHandler</samp>: This control handles the decryption of encrypted models using third-party decryption algorithms. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\">API Reference</a> in the Demo Kit.</span>  </p>  </li>  </ul>",
-        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>",
-        "Latest_Revision": "",
-        "Valid_as_Of": "2016-08-24",
-        "Type": "New",
-        "Action": "Info Only",
-        "Category": "Control",
-        "Version": "1.40"
-    },
-    {
         "id": 84074329,
         "deliverable.version": "1.120_SAPUI5",
         "Description": "<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_abg_wqh_z4b\">  <li class=\"li\">  <p class=\"p\">The library now includes support for the SAP 3D Visual Enterprise 9.0 VDS4 file format.</p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.Loco</samp>: <samp class=\"ph codeph\">Loco</samp> control has been updated to handle gestures for creating and editing redlining objects. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\">API Reference</a>.</span></p>  </li>  </ul>",
@@ -17272,6 +17259,19 @@
         "Latest_Revision": "",
         "Valid_as_Of": "2016-08-24",
         "Type": "Changed",
+        "Action": "Info Only",
+        "Category": "Control",
+        "Version": "1.40"
+    },
+    {
+        "id": 84073321,
+        "deliverable.version": "1.120_SAPUI5",
+        "Description": "<p class=\"p\">New controls for the <span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>:</p><ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_nsf_gjh_z4b\">  <li class=\"li\">  <div class=\"p\">Redlining controls: A number of controls have been added to the <samp class=\"ph codeph\">sap.ui.vk.library</samp> which allow you to create and edit basic redlining in 2D images or 3D models. These controls are:<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_osf_gjh_z4b\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineDesign</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElement</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementEllipse</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementFreehand</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementRectangle</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineSurface</samp></p>  </li>  </ul></div>  </li>  </ul><p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk\" title=\"https://ui5.sap.com/#/api/sap.ui.vk\">API Reference</a>.</p><ul class=\"ul\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.DecryptionHandler</samp>: This control handles the decryption of encrypted models using third-party decryption algorithms. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\">API Reference</a> in the Demo Kit.</span>  </p>  </li>  </ul>",
+        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
+        "Title": "<span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>",
+        "Latest_Revision": "",
+        "Valid_as_Of": "2016-08-24",
+        "Type": "New",
         "Action": "Info Only",
         "Category": "Control",
         "Version": "1.40"
