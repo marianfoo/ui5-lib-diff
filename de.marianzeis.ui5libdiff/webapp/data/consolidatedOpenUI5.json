@@ -7240,6 +7240,51 @@
     ]
   },
   {
+    "version": "1.108.23",
+    "date": "2023.12.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Item selection and highlighting with dynamic suggestions now fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.List/Table: Accessibility improvements"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FormattedText: preserve H1, H2, H3, H4, H5 and H6 tags default 'display' CSS property"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolHeader: Padding when there is no menu button fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/routing: find parent route from the router of the inheritance parent"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.test.autowaiter._timeoutWaiter: Callback arguments corrected"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.109.0",
     "date": "2022.11.01",
     "libraries": [
@@ -11057,6 +11102,38 @@
           {
             "type": "FIX",
             "text": " sap.ui.model.odata.v2.ODataModel#resetChanges: do not remove persistent messages"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.114.14",
+    "date": "2023.12.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Item selection and highlighting with dynamic suggestions now fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FormattedText: preserve H1, H2, H3, H4, H5 and H6 tags default 'display' CSS property"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " CLDR: allow user input based on historical variants for month abbreviations"
+          },
+          {
+            "type": "FIX",
+            "text": " core/routing: find parent route from the router of the inheritance parent"
           }
         ]
       }
