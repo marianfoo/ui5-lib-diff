@@ -208,5 +208,54 @@
                 ]
             }
         ]
+    },
+    "1.120.2": {
+        "date": "December 2023",
+        "notes": [
+            {
+                "id": "8b076fe047370ef6dd0578aa65ed6be6e66d905a",
+                "type": "FIX",
+                "text": " SmartFilterBar: Single filter field doesn't select row if there are multiple rows with same key",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009320992023"
+                    }
+                ]
+            },
+            {
+                "id": "e451a0d6f426903605bf35e7e0f04fe59690778d",
+                "type": "FIX",
+                "text": " ControlProvider: ValueList metadata is fetched only if needed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370139886"
+                    }
+                ]
+            },
+            {
+                "id": "cdf4a87392be5fcb0c5ee2002f22b09d52b92e54",
+                "type": "FIX",
+                "text": " comp.SVM: always reset the author after a new view was saved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010238712023"
+                    }
+                ]
+            },
+            {
+                "id": "408b1ef18aadb4ff0d6973d2f67437f1e6155da2",
+                "type": "FIX",
+                "text": " ValueHelpDialog: table selectionBehavior is now RowSelector for multi selection fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370149228"
+                    }
+                ]
+            }
+        ]
     }
 }

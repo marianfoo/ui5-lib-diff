@@ -3,17 +3,6 @@
         "date": "October 2023",
         "notes": [
             {
-                "id": "a574540534c02cbfb5e3c1eb3d7499eaf9b7c8a4",
-                "type": "FIX",
-                "text": "  We now ensure that the entity is returned by an action",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2370109848"
-                    }
-                ]
-            },
-            {
                 "id": "9fdde7b62ca9960259eaf0d9f8330d81eba5a327",
                 "type": "FIX",
                 "text": " We now ensure that the columns containing units are correctly exported",
@@ -366,6 +355,263 @@
                     {
                         "type": "BCP",
                         "reference": "2370083816"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.1": {
+        "date": "December 2023",
+        "notes": [
+            {
+                "id": "341c4be54d48355c384eed493e440859403d6f33",
+                "type": "FIX",
+                "text": " We now ensure you can empty an email field after you’ve entered a valid email address"
+            },
+            {
+                "id": "9879b976a65ed12fd6b1c5b66377a14dab1385a4",
+                "type": "FIX",
+                "text": " We now ensure the SideEffects annotation can request messages on a subobject page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150760"
+                    }
+                ]
+            },
+            {
+                "id": "e788848d70151e736b13b6a91301f831e4ad51b3",
+                "type": "FIX",
+                "text": " We've resolved an issue with the EditState that led to an additional refresh of the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370123494"
+                    }
+                ]
+            },
+            {
+                "id": "4d8c2498e8ac24f70232a6fc8c3607f4d7d17e58",
+                "type": "FIX",
+                "text": " We have resolved an issue with using the OData V2 model on the overview page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380139076"
+                    }
+                ]
+            },
+            {
+                "id": "1b8db245f7b5000fed7cc05a137c7dfbd54bee1c",
+                "type": "FIX",
+                "text": " We now ensure that the enabled property of the delete button in a table is updated, after an action was carried out",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380134002"
+                    }
+                ]
+            },
+            {
+                "id": "53c945fad830dabef1767fa6099e7b7e40111916",
+                "type": "FIX",
+                "text": " We've resolved the button style issue in the footer of the Accept Recommendations confirmation dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380137186"
+                    }
+                ]
+            },
+            {
+                "id": "e39b8d0a96b3d61ed89a6d66b84a9d02858d7da8",
+                "type": "FEATURE",
+                "text": " We now recalculate the default values in empty row mode if the table is refreshed using a side effect"
+            },
+            {
+                "id": "6e15f8034acba8ec02340cb736f664629b93e113",
+                "type": "FEATURE",
+                "text": " We now support the preferredMode=edit parameter that launches an object page directly in edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "67d253727083e2ba9f5a7dc8e49abd8b5ae1dec3",
+                "type": "FIX",
+                "text": " We now ensure that selecting the begin button in an action parameter dialog only triggers the action once",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370130210"
+                    }
+                ]
+            },
+            {
+                "id": "93110b32fcb484a4d586c6ee39b421249b170056",
+                "type": "FIX",
+                "text": " We now ensure that the relevant custom filters are also correctly applied to other entity sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370128365"
+                    }
+                ]
+            },
+            {
+                "id": "69c8ef9d8e6dd33e62c39a9564b3807b10e83f45",
+                "type": "FIX",
+                "text": " We now support the SideEffects annotation also on the overview page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010442352023"
+                    }
+                ]
+            },
+            {
+                "id": "b3a5c40055e7c1c3c045f27b1b4abccbdd147e30",
+                "type": "FIX",
+                "text": " We now ensure that the getKey() function is used to access the key value of oVariant, as the object structure has changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370107638"
+                    }
+                ]
+            },
+            {
+                "id": "aed44eca3a0a795e3f11e60e9077de8d2f3648f1",
+                "type": "FIX",
+                "text": " The FPM Explorer now works properly even during long sessions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "d1daf47e7e055cf59eb35776282793d59720b4a0",
+                "type": "FIX",
+                "text": " We now ensure that the byID provided by our ExtensionAPI returns custom controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370136106"
+                    }
+                ]
+            },
+            {
+                "id": "15b18b82680783e07af1ef0fc562127884f56bb6",
+                "type": "FIX",
+                "text": " We now ensure text annotation is considered for semantic keys inside a grid table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370146239"
+                    }
+                ]
+            },
+            {
+                "id": "ecfac65e08ea0da3095abdbf61ed59d60f923135",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing progress data points are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370100303"
+                    }
+                ]
+            },
+            {
+                "id": "442fbe86873fa140785fa9c249a4e4ae044cdbf2",
+                "type": "FIX",
+                "text": " We now ensure the TypeDefinition is managed as a typed property when the entity is declared directly in a CAP service",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150068"
+                    }
+                ]
+            },
+            {
+                "id": "7851ba49cc7e75edfb63b33c5df517ee8fa4aad6",
+                "type": "FIX",
+                "text": " We now use a separate ListBinding for the singleDraftForCreate setting",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370142600"
+                    }
+                ]
+            },
+            {
+                "id": "5dbc7e10ed3622c971644baa8fed977363cc6913",
+                "type": "FIX",
+                "text": " We now ensure that the application can load even with an unexpected format set on the TargetProperties of a SideEffects annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370143588"
+                    }
+                ]
+            },
+            {
+                "id": "5f6dc32ca2d809cfa8a60b89d9543edb80f3bb72",
+                "type": "FIX",
+                "text": " We now correctly manage the SelectionVariant annotation configured with the RangeSignType ‘Exclude’ for multiple views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007247152023"
+                    }
+                ]
+            },
+            {
+                "id": "42ab62d2d6e3169c87e7d20131b35b6c907cba94",
+                "type": "FIX",
+                "text": " We’ve resolved an issue that prevented updating a field with the static unit of measure ‘%’",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370134566"
+                    }
+                ]
+            },
+            {
+                "id": "ea1607ba3f97e4ecb8e4ba5234add20f9ad684ce",
+                "type": "FIX",
+                "text": " We now ensure you can close a column in an app using the flexible column layout after an intent-based navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005230222023"
+                    }
+                ]
+            },
+            {
+                "id": "a656ede05febeb6f5f698e8b97581fb624db630e",
+                "type": "FIX",
+                "text": " When exporting a table to spreadsheet, the \"Target Value\" column is no longer included for DataPoints without a target value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008815062023"
+                    }
+                ]
+            },
+            {
+                "id": "bbdd3c4a51aea3fc149248b4e7dbb351b4736b1d",
+                "type": "FIX",
+                "text": " We've resolved an issue with the handling of 412 errors when the action is triggered using the chevron",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370124236"
                     }
                 ]
             }

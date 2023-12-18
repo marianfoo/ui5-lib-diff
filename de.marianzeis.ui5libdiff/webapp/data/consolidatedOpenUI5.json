@@ -15023,6 +15023,199 @@
     ]
   },
   {
+    "version": "1.120.2",
+    "date": "2023.12.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: Fix failing OPA tests"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Shortcut: trigger \"blur\" within a timeout"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Tabular suggestions are now always highlighted"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Reopen Suggestion Popover when new data is bound"
+          },
+          {
+            "type": "FIX",
+            "text": " m.SelectionController: fix for index of the move determination"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FormattedText: preserve H1, H2, H3, H4, H5 and H6 tags default 'display' CSS property"
+          },
+          {
+            "type": "FIX",
+            "text": " Deprecate InputODataSuggestProvider in sap/m/library.js"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimePicker: add check if date is parsed correctly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FacetFilter: adjust select all checkbox"
+          },
+          {
+            "type": "FIX",
+            "text": " m.Table: Enter should fire selectionChange in SingleSelectMaster"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.NavigationListItem: Context menu now successfully opens on items with 'href' set"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolHeader: Padding when there is no menu button fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Add 'FUTURE FATAL' Marker for error/warning logs"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v4.lib._CollectionCache#read: avoid endless busy indicator sometimes when scrolling up"
+          },
+          {
+            "type": "FIX",
+            "text": " CLDR: allow user input based on historical variants for month abbreviations"
+          },
+          {
+            "type": "FIX",
+            "text": " core.Lib: Add debug log statement when registering enums"
+          },
+          {
+            "type": "FIX",
+            "text": " Introduce sap/ui/core/ElementRegistry/ComponentRegistry/UIAreaRegistry"
+          },
+          {
+            "type": "FIX",
+            "text": " core/qunit: Deprecate ControlRenderer test"
+          },
+          {
+            "type": "FIX",
+            "text": " core/routing: find parent route from the router of the inheritance parent"
+          },
+          {
+            "type": "FIX",
+            "text": " XMLTemplateProcessor: Reintroduce FUTURE-FATAL log for missing control classes"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.FilterProcessor.combineFilters: combine Filter.NONE with other filters"
+          },
+          {
+            "type": "FIX",
+            "text": " core/XMLTemplateProcessor: load class of nested view before instance creation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.ODataMessageParser#_createTarget: normalize also the full target"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.analytics.odata4analytics.FilterExpression#renderUI5FilterArray: fix sorting of filters"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.message.Message fix references to MessageType"
+          },
+          {
+            "type": "FIX",
+            "text": " Deprecate sap.ui.core.Message/MessageType"
+          },
+          {
+            "type": "FIX",
+            "text": " Deprecate public registry of Component, Element and UIArea"
+          },
+          {
+            "type": "FIX",
+            "text": " Views: Cloning a View is deprecated in favor of the specific factory functions"
+          },
+          {
+            "type": "FIX",
+            "text": " Ensure correct 'resource-root' and 'theme-root' configuration"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.test.action.EnterText: Revert restriction"
+          },
+          {
+            "type": "FIX",
+            "text": " Lib/ui5loader: Provide deprecation message for pseudo-modules"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Shortcut: trigger \"blur\" within a timeout"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " mTable: consider useFirstMatch on filtering existing items"
+          },
+          {
+            "type": "FIX",
+            "text": " ValueHelp: first item shown as selected too when other item is selected"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: Currency/unit value do not overwrite initial parts with null"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.table",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Column: Sort order if \"sorted\" and \"sortOrder\" are bound"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: adjust week days announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: prevent unexpected error"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.28.0",
     "date": "2015.01.01",
     "libraries": [
@@ -78821,6 +79014,34 @@
     ]
   },
   {
+    "version": "1.71.61",
+    "date": "2023.12.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: Scroll is no longer jumping when content grows automatically"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " mvc.Controller: enable Controller extensions which are subclasses of mvc.Controller"
+          },
+          {
+            "type": "FIX",
+            "text": " core/routing: find parent route from the router of the inheritance parent"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.71.43",
     "date": "2022.02.01",
     "libraries": [
@@ -87544,6 +87765,43 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.84.41",
+    "date": "2023.12.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: Scroll is no longer jumping when content grows automatically"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " mvc.Controller: enable Controller extensions which are subclasses of mvc.Controller"
+          },
+          {
+            "type": "FIX",
+            "text": " core/routing: find parent route from the router of the inheritance parent"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Remove label in the year Button"
           }
         ]
       }

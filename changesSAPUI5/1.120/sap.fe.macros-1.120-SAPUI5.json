@@ -294,5 +294,180 @@
                 ]
             }
         ]
+    },
+    "1.120.1": {
+        "date": "December 2023",
+        "notes": [
+            {
+                "id": "09cacf18660ba301f8e30dfcefea86a4866d424e",
+                "type": "FIX",
+                "text": " We now ensure that a multi-valued field in a list report that uses the flexible column layout is not editable when the object page is in edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380135952"
+                    }
+                ]
+            },
+            {
+                "id": "abc2eb3ff71bc2cd4cac2cf9256f7dbdbdcf837a",
+                "type": "FIX",
+                "text": " We now check for the maximum allowed length of an email address when entering it in an input field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380136662"
+                    }
+                ]
+            },
+            {
+                "id": "e39b8d0a96b3d61ed89a6d66b84a9d02858d7da8",
+                "type": "FEATURE",
+                "text": " We now recalculate the default values in empty row mode if the table is refreshed using a side effect"
+            },
+            {
+                "id": "93110b32fcb484a4d586c6ee39b421249b170056",
+                "type": "FIX",
+                "text": " We now ensure that the relevant custom filters are also correctly applied to other entity sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370128365"
+                    }
+                ]
+            },
+            {
+                "id": "46b50de2ce2a6b9aef8a597ab8aa0a0a2429869e",
+                "type": "FIX",
+                "text": " We've now added the prefix 'cmd:' to the commands defined in the manifest for actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370144348"
+                    }
+                ]
+            },
+            {
+                "id": "d1daf47e7e055cf59eb35776282793d59720b4a0",
+                "type": "FIX",
+                "text": " We now ensure that the byID provided by our ExtensionAPI returns custom controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370136106"
+                    }
+                ]
+            },
+            {
+                "id": "15b18b82680783e07af1ef0fc562127884f56bb6",
+                "type": "FIX",
+                "text": " We now ensure text annotation is considered for semantic keys inside a grid table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370146239"
+                    }
+                ]
+            },
+            {
+                "id": "ecfac65e08ea0da3095abdbf61ed59d60f923135",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing progress data points are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370100303"
+                    }
+                ]
+            },
+            {
+                "id": "b4b75fac9febb26909e2e8e1b116370e35ff5f6f",
+                "type": "FIX",
+                "text": " We've resolved an issue with the width of a text area in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370137269"
+                    }
+                ]
+            },
+            {
+                "id": "5f6dc32ca2d809cfa8a60b89d9543edb80f3bb72",
+                "type": "FIX",
+                "text": " We now correctly manage the SelectionVariant annotation configured with the RangeSignType ‘Exclude’ for multiple views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007247152023"
+                    }
+                ]
+            },
+            {
+                "id": "42ab62d2d6e3169c87e7d20131b35b6c907cba94",
+                "type": "FIX",
+                "text": " We’ve resolved an issue that prevented updating a field with the static unit of measure ‘%’",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370134566"
+                    }
+                ]
+            },
+            {
+                "id": "8318620c5c9b248b78883012648d4a55b91dba73",
+                "type": "FIX",
+                "text": " Drag and drop is now disabled when dragging an item from a tree table and dropping it outside the tree table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370131643"
+                    }
+                ]
+            },
+            {
+                "id": "a656ede05febeb6f5f698e8b97581fb624db630e",
+                "type": "FIX",
+                "text": " When exporting a table to spreadsheet, the \"Target Value\" column is no longer included for DataPoints without a target value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008815062023"
+                    }
+                ]
+            },
+            {
+                "id": "afa8985859143f924c26bdaa65ddc948b8e4da79",
+                "type": "FIX",
+                "text": " The messageButton link is now disabled if the associated message is not targeting a property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370106811"
+                    }
+                ]
+            },
+            {
+                "id": "2c8486e82981ac422c4949996f08ad2fdc613a6f",
+                "type": "FIX",
+                "text": " We have resolved several issues when adding items using a MultiValueField",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370121682"
+                    }
+                ]
+            },
+            {
+                "id": "d1c5402311de88b58fcfd385f1a0c3542e83a259",
+                "type": "FIX",
+                "text": " We now ensure the filter values of value help used on a multi-valued field are retrieved correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370107271"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -161,5 +161,96 @@
                 "text": " We now provide a setting for app developers to enable their users to automatically access the latest draft, if applicable, when creating a draft root entity"
             }
         ]
+    },
+    "1.120.1": {
+        "date": "December 2023",
+        "notes": [
+            {
+                "id": "e39b8d0a96b3d61ed89a6d66b84a9d02858d7da8",
+                "type": "FEATURE",
+                "text": " We now recalculate the default values in empty row mode if the table is refreshed using a side effect"
+            },
+            {
+                "id": "6e15f8034acba8ec02340cb736f664629b93e113",
+                "type": "FEATURE",
+                "text": " We now support the preferredMode=edit parameter that launches an object page directly in edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "93110b32fcb484a4d586c6ee39b421249b170056",
+                "type": "FIX",
+                "text": " We now ensure that the relevant custom filters are also correctly applied to other entity sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370128365"
+                    }
+                ]
+            },
+            {
+                "id": "239a03c3fa17dc0fada32d37f52056c61ff971b5",
+                "type": "FIX",
+                "text": " We now ensure that the opensOnFocus value of the MDC field is set based on the focusInfo parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380109591"
+                    }
+                ]
+            },
+            {
+                "id": "46b50de2ce2a6b9aef8a597ab8aa0a0a2429869e",
+                "type": "FIX",
+                "text": " We've now added the prefix 'cmd:' to the commands defined in the manifest for actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370144348"
+                    }
+                ]
+            },
+            {
+                "id": "f90f4d1a8d276a75cb238055b49f1d5385aeafd0",
+                "type": "FIX",
+                "text": " We now set the focus on the first editable field upon the initial load of the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370145528"
+                    }
+                ]
+            },
+            {
+                "id": "2c8486e82981ac422c4949996f08ad2fdc613a6f",
+                "type": "FIX",
+                "text": " We have resolved several issues when adding items using a MultiValueField",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370121682"
+                    }
+                ]
+            },
+            {
+                "id": "7fbb5a0bf878fd79fc170cc227de26011e7edb02",
+                "type": "FIX",
+                "text": " We now ensure that the opensOnFocus value is set based on the focusInfo parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380109591"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370126663"
+                    }
+                ]
+            }
+        ]
     }
 }
