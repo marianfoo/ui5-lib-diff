@@ -15216,6 +15216,52 @@
     ]
   },
   {
+    "version": "1.120.3",
+    "date": "2024.01.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: Restored arrow navigation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataTreeBinding: consider deep path for context"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.base.i18n.date.TimezoneUtils.calculateOffset: Fix Daylight Saving Time issues"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " mdc.FilterBar: ensure the correct event sequence"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageSubSection: Prevent layout flickering"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.28.0",
     "date": "2015.01.01",
     "libraries": [

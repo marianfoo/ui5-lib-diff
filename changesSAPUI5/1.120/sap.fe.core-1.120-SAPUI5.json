@@ -616,5 +616,26 @@
                 ]
             }
         ]
+    },
+    "1.120.2": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "6d1671178ca532fd269f8c4386c94b4e2326e4dd",
+                "type": "FIX",
+                "text": " The Form building block can now have a metaPath that uses 1:1 navigation pointing to a FieldGroup annotation"
+            },
+            {
+                "id": "429fc3c6939aa0467b71bbddddd2822b50938e97",
+                "type": "FIX",
+                "text": " We've updated a function in the AppStartupHelper file to handle null annotations when using the preferredMode=edit parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            }
+        ]
     }
 }

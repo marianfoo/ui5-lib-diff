@@ -257,5 +257,48 @@
                 ]
             }
         ]
+    },
+    "1.120.3": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "a926754bd5fa5f0d6efd3f9e63bcf177d9ec2209",
+                "type": "FIX",
+                "text": " SmartFilterBar: Empty operator for Edm.Guid type now sends default guid instead of empty string"
+            },
+            {
+                "id": "5e6d60c02bcbea7b4809e0f867f28166645c8d99",
+                "type": "FIX",
+                "text": " FilterProvider: Tooltip is correctly set for numeric fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010770942023"
+                    }
+                ]
+            },
+            {
+                "id": "a6f6de7abe37e91fba48c916658bb91630b43320",
+                "type": "FIX",
+                "text": " FilterPanel: Filter for fiscal year period now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010507452023"
+                    }
+                ]
+            },
+            {
+                "id": "b983a1b2f992c1aaad04580c7cd36599361cb195",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement nullable with clientSideMandatoryCheck false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380137468"
+                    }
+                ]
+            }
+        ]
     }
 }

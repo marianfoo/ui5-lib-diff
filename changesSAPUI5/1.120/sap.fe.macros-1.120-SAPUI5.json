@@ -469,5 +469,26 @@
                 ]
             }
         ]
+    },
+    "1.120.2": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "6d1671178ca532fd269f8c4386c94b4e2326e4dd",
+                "type": "FIX",
+                "text": " The Form building block can now have a metaPath that uses 1:1 navigation pointing to a FieldGroup annotation"
+            },
+            {
+                "id": "becd199bd227de7abcd5d298d12ebbf687168b03",
+                "type": "FIX",
+                "text": " We now ensure a MultiValue Field that’s used in a read-only Table building block isn’t editable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150811"
+                    }
+                ]
+            }
+        ]
     }
 }
