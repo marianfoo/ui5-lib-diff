@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["de/marianzeis/ui5libdiff/controller/Main.controller"],function(e){function t(e){return e&&e.__esModule&&typeof e.default!=="undefined"?e.default:e}const n=t(e);QUnit.module("Sample Main controller test");QUnit.test("The Main controller class has a sayHello method",function(e){e.strictEqual(typeof n.prototype.sayHello,"function")})});
+//# sourceMappingURL=Main.qunit.js.map
