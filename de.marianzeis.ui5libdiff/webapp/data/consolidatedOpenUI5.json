@@ -7285,6 +7285,48 @@
     ]
   },
   {
+    "version": "1.108.24",
+    "date": "2024.01.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: Arrow has hover state now"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.NavigationListItem: Context menu now successfully opens on items with 'href' set"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v4.lib._CollectionCache#read: avoid endless busy indicator sometimes when scrolling up"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: adjust week days announcement"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.109.0",
     "date": "2022.11.01",
     "libraries": [

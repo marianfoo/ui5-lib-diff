@@ -1125,5 +1125,72 @@
                 ]
             }
         ]
+    },
+    "1.108.24": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "9d162487ee7cd5e4d78d7338bc9d85b8e3a0b53e",
+                "type": "FIX",
+                "text": " SmartField: Label is now properly updated and displayed on UoM scenario"
+            },
+            {
+                "id": "a367ec980018016c61922ec6e85d02861efca809",
+                "type": "FIX",
+                "text": " SmartFilterBar: Empty operator for Edm.Guid type now sends default guid instead of empty string"
+            },
+            {
+                "id": "d55c9b6af63d7bd5e96667116e47dda9a3f39d5e",
+                "type": "FIX",
+                "text": " FilterProvider: Tooltip is correctly set for numeric fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010770942023"
+                    }
+                ]
+            },
+            {
+                "id": "c148fde1bbf12692ee3adeb6161b515f94db57ed",
+                "type": "FIX",
+                "text": " VariantConverterTo: Exclude sign is now correct for multiple ranges",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280202243"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370130156"
+                    }
+                ]
+            },
+            {
+                "id": "457679d6a1143b90777dc2bf1ce89ff022ea44e5",
+                "type": "FIX",
+                "text": " FilterBar: applyVariant now respects given order of items as argument",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380061926"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010826712023"
+                    }
+                ]
+            },
+            {
+                "id": "357ba45e19e2435553698a669b8098c8f766a16f",
+                "type": "FIX",
+                "text": " SmartFilterBar: Single filter field doesn't select row if there are multiple rows with same key",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009320992023"
+                    }
+                ]
+            }
+        ]
     }
 }
