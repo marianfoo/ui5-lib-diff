@@ -625,5 +625,26 @@
                 ]
             }
         ]
+    },
+    "1.114.9": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "8dee523b867cdc6907da1754a556d7abbcb4e878",
+                "type": "FIX",
+                "text": " The Form building block can now have a metaPath that uses 1:1 navigation pointing to a FieldGroup annotation"
+            },
+            {
+                "id": "4df2e46fb73f6efef0fc91a563bc57396ff1b374",
+                "type": "FIX",
+                "text": " We've now added the prefix 'cmd:' to the commands defined in the manifest for actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370144348"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -409,5 +409,32 @@
                 ]
             }
         ]
+    },
+    "1.114.9": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "69b37b765904f504a1e305e44ba9ad11310477c8",
+                "type": "FIX",
+                "text": " We now ensure that the opensOnFocus value of the MDC field is set based on the focusInfo parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380109591"
+                    }
+                ]
+            },
+            {
+                "id": "4df2e46fb73f6efef0fc91a563bc57396ff1b374",
+                "type": "FIX",
+                "text": " We've now added the prefix 'cmd:' to the commands defined in the manifest for actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370144348"
+                    }
+                ]
+            }
+        ]
     }
 }

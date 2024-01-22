@@ -657,5 +657,57 @@
                 ]
             }
         ]
+    },
+    "1.114.15": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "935b81a9ed222c236b870bb17601a1977c807465",
+                "type": "FIX",
+                "text": " SmartField: Label is now properly updated and displayed on UoM scenario"
+            },
+            {
+                "id": "b8ac6cfbb4660603b664cceeecaa14ec8d3630b6",
+                "type": "FIX",
+                "text": " SmartFilterBar: Empty operator for Edm.Guid type now sends default guid instead of empty string"
+            },
+            {
+                "id": "5f2e6ca6c0f220ae84d28260e7fbf096f78078c5",
+                "type": "FIX",
+                "text": " FilterProvider: Tooltip is correctly set for numeric fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010770942023"
+                    }
+                ]
+            },
+            {
+                "id": "082edb39cc8600835b43824c162352b725bf3af1",
+                "type": "FIX",
+                "text": " FilterPanel: Filter for fiscal year period now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010507452023"
+                    }
+                ]
+            },
+            {
+                "id": "fb5ec7dd142bb573561887934730fb58bde01dec",
+                "type": "FIX",
+                "text": " SmartField: improvement of invalidating the TextArrangement description",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370077337"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400010300072023"
+                    }
+                ]
+            }
+        ]
     }
 }

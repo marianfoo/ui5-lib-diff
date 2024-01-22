@@ -11182,6 +11182,51 @@
     ]
   },
   {
+    "version": "1.114.15",
+    "date": "2024.01.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: Arrow has hover state now"
+          },
+          {
+            "type": "FIX",
+            "text": " m.ColumnListItem: popin row shouldn't focus main row on touchstart"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.analytics.AnalyticalBinding: handle properties of type Edm.time in grouping"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v4.lib._CollectionCache#read: avoid endless busy indicator sometimes when scrolling up"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.TimezoneUtil.calculateOffset: Fix Daylight Saving Time issues"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " mTable: consider useFirstMatch on filtering existing items"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.114.6",
     "date": "2023.09.01",
     "libraries": [
