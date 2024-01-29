@@ -778,5 +778,56 @@
                 ]
             }
         ]
+    },
+    "1.96.26": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "dfd550ac01f9ea4d1db5e3fb1153601f2764a815",
+                "type": "FIX",
+                "text": " SmartFilterBar: validation for ComboBox"
+            },
+            {
+                "id": "7897cc892524e2cfb27967e29df86ef57552f835",
+                "type": "FIX",
+                "text": " SmartField: User input is overwritten by late model data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270069122"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2270083721"
+                    }
+                ]
+            },
+            {
+                "id": "a2ac32d2bc7f99a8e8866575b51ad1646aa9a5fa",
+                "type": "FIX",
+                "text": " SmartFilterBar: validation for ComboBox performed on search",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500011101462023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007464252023"
+                    }
+                ]
+            },
+            {
+                "id": "855aded15a9a566df6c0231b886c36666fac783f",
+                "type": "FIX",
+                "text": " FilterProvider: Tooltip is correctly set for numeric fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010770942023"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -79175,6 +79175,34 @@
     ]
   },
   {
+    "version": "1.71.62",
+    "date": "2024.01.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: Arrow has hover state now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: Overflow in content area is now scrollable in Internet Explorer"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Remove label in the year Button"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.71.43",
     "date": "2022.02.01",
     "libraries": [
@@ -95008,6 +95036,85 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.FileUploader: enable drop over the browse button"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.96.26",
+    "date": "2024.01.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.DraftIndicator: JSDoc corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DatePicker: adjust preferred user interaction"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Label: Added selectors for simplified Chinese lang(zh-Hans) and traditional Chinese lang(zh-Hant)"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Label: Asterisk is now visible when label is required and used outside of forms"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Label: Required label asterisk symbol is no longer cut off"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: Arrow has hover state now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Label: Asterisk is displayed properly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimePicker: correct year range is rendered when the smallest possible min date is set"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataTreeBinding: Fix grouping of Application filters in OperationMode.Server"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.DatePicker: adjust preferred user interaction"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimePicker: correct year range is rendered when the smallest possible min date is set"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Layout issue corrected"
           }
         ]
       }
