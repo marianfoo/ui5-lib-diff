@@ -637,5 +637,31 @@
                 ]
             }
         ]
+    },
+    "1.120.3": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "68f4fe0e7372256dfc607f7c88a5b4105d5c3f6b",
+                "type": "FIX",
+                "text": " We've resolved an issue that was preventing the Apply button on the subobject page to navigate back to the object page once clicked"
+            },
+            {
+                "id": "e60ad46b7a7c550dc213feeff3ae1c7df27713d9",
+                "type": "FIX",
+                "text": " We now ensure that both the active object and its draft are deleted by using model.delete",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370147485"
+                    }
+                ]
+            },
+            {
+                "id": "0becef9b991c52c408c3f37a32b8ff02c31273e4",
+                "type": "FIX",
+                "text": " Filterable properties listed in table personalization are now synchronized with the filterable properties in the filter bar"
+            }
+        ]
     }
 }

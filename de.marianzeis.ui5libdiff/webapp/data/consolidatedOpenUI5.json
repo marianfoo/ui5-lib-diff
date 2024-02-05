@@ -15303,6 +15303,67 @@
     ]
   },
   {
+    "version": "1.120.4",
+    "date": "2024.01.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: Fixed incorrect rendering of separator"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: load items with data binding on mobile"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimeField: Doesn't throw error when the binding type is string."
+          },
+          {
+            "type": "FIX",
+            "text": " m.VariantManagement: fix for save in 'Manage Dialog'"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectNumber: apply horizon theme updates"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: Arrow has hover state now"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/ODataMetadata#_getPropertyMetadata: fix for complex type property"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.cldr.zh_TW.json: Replace \"B\" to \"a\" in default timeFormats"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/_ODataMetaModelUtils#merge: liftSAPData is called with correct parameters"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.analytics.AnalyticalBinding: handle properties of type Edm.time in grouping"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.3",
     "date": "2024.01.01",
     "libraries": [
@@ -15343,6 +15404,61 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageSubSection: Prevent layout flickering"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.120.6",
+    "date": "2024.02.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Apply additional padding on FF"
+          },
+          {
+            "type": "FIX",
+            "text": " P13nConditionPanel: Fields of Between operation are now in correct order"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataModel#submitChangesWithHeaders: ensure change requests use custom headers"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " P13nBuilder: Add button is now visible"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: adding padding when two calendars are next to each other"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Fix collapsing header"
           }
         ]
       }

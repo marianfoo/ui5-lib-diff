@@ -300,5 +300,56 @@
                 ]
             }
         ]
+    },
+    "1.120.4": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "970932435ee171d315d16df1aa5b49b21822075d",
+                "type": "FIX",
+                "text": " FilterPanel: Filtering is now working for fields binded via association entity",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008379452023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400011120162023"
+                    }
+                ]
+            },
+            {
+                "id": "0b614b02ad4985f5628f1734bf68ab10eb84c8f6",
+                "type": "FIX",
+                "text": " SmartField: Label is now properly updated and displayed on UoM scenario"
+            },
+            {
+                "id": "950cc0d506ae8cd8204ed2d5a131a1515991c913",
+                "type": "FIX",
+                "text": " comp.SmartVariantManagement: property enabled handling corrected"
+            },
+            {
+                "id": "f869713a8595126af627fcae981851f5aa88e8be",
+                "type": "FIX",
+                "text": " SmartField: Change event correctly propagates the new value.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370128224"
+                    }
+                ]
+            },
+            {
+                "id": "9fafa321200da144066340ea02d571b902bac16c",
+                "type": "FIX",
+                "text": " SmartField: ComboBox busy indicator"
+            },
+            {
+                "id": "d84ce809f53133b4442ea7d5eddabf887ec60cc2",
+                "type": "FIX",
+                "text": " LegacyFreeUI5 - Check failing tests"
+            }
+        ]
     }
 }
