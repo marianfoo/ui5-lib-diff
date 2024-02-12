@@ -11227,6 +11227,30 @@
     ]
   },
   {
+    "version": "1.114.16",
+    "date": "2024.02.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimeField: Doesn't throw error when the binding type is string."
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " P13nBuilder: Add button is now visible"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.114.6",
     "date": "2023.09.01",
     "libraries": [
@@ -88079,6 +88103,34 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.Calendar: Remove label in the year Button"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.84.42",
+    "date": "2024.02.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: Arrow has hover state now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: Overflow in content area is now scrollable in Internet Explorer"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/ODataMetadata#_getPropertyMetadata: fix for complex type property"
           }
         ]
       }
