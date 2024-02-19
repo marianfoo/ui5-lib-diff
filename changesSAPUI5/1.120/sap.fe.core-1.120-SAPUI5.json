@@ -663,5 +663,35 @@
                 "text": " Filterable properties listed in table personalization are now synchronized with the filterable properties in the filter bar"
             }
         ]
+    },
+    "1.120.4": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "4d2eacc0be65e3e20de145360d46bedcfce15e0e",
+                "type": "FIX",
+                "text": " We've resolved an issue with the OData request for the Delete action"
+            },
+            {
+                "id": "88ef2c4111cbceb2380f670f04ea52d587d1df8c",
+                "type": "FIX",
+                "text": " We've resolved an issue with the navigation while the shell isn't available"
+            },
+            {
+                "id": "9dc6a39523f471851412cdfd3339dd487c9cfb86",
+                "type": "FIX",
+                "text": " We've resolved an issue that prevented some fields from being editable in an app using the flexible column layout and a sticky edit session.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370083543"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370083469"
+                    }
+                ]
+            }
+        ]
     }
 }

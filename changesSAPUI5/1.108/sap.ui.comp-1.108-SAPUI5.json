@@ -1192,5 +1192,30 @@
                 ]
             }
         ]
+    },
+    "1.108.25": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "fd2cd809a81c9c803bc78e9345948da1826619f3",
+                "type": "FIX",
+                "text": " SmartField: remove focus catcher",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270174921"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370010007"
+                    }
+                ]
+            },
+            {
+                "id": "ba9ed8c922649df5e8bc82db040ba9dafdcd98db",
+                "type": "FIX",
+                "text": " comp.SmartVariantManagement: property enabled handling corrected"
+            }
+        ]
     }
 }

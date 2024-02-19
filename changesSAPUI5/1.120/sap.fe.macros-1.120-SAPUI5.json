@@ -505,5 +505,30 @@
                 "text": " Filterable properties listed in table personalization are now synchronized with the filterable properties in the filter bar"
             }
         ]
+    },
+    "1.120.4": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "9dc6a39523f471851412cdfd3339dd487c9cfb86",
+                "type": "FIX",
+                "text": " We've resolved an issue that prevented some fields from being editable in an app using the flexible column layout and a sticky edit session.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370083543"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370083469"
+                    }
+                ]
+            },
+            {
+                "id": "7df22ada4476de28652dc9b32c819a4d558778bf",
+                "type": "FIX",
+                "text": " We no longer display ‘undefined’ under a collection facet when no label is defined"
+            }
+        ]
     }
 }

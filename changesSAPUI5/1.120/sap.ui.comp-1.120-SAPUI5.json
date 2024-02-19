@@ -351,5 +351,26 @@
                 "text": " LegacyFreeUI5 - Check failing tests"
             }
         ]
+    },
+    "1.120.7": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "b0df2ca127b563a9f73a299cc42aefef4862eb58",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct single text arrangement when multiple calls to setFilterData are performed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010363562023"
+                    }
+                ]
+            },
+            {
+                "id": "249fb30d7e56abafb99819f4c87e7d8fb0cd54c2",
+                "type": "FIX",
+                "text": " SmartField: Initialise event is now fired after metadata initialization"
+            }
+        ]
     }
 }

@@ -7327,6 +7327,54 @@
     ]
   },
   {
+    "version": "1.108.25",
+    "date": "2024.02.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.OverflowToolbar: fix error on opening Popover"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Fix hiding of popover due to re-rendering"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DraftIndicator: JSDoc corrected"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.analytics.AnalyticalBinding: fire data received event if request is aborted"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataModel#submitChangesWithHeaders: ensure change requests use custom headers"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/ODataMetadata#_getPropertyMetadata: fix for complex type property"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataTreeBinding: Fix grouping of Application filters in OperationMode.Server"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.analytics.AnalyticalBinding: handle properties of type Edm.time in grouping"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.109.0",
     "date": "2022.11.01",
     "libraries": [
@@ -15483,6 +15531,30 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageLayout: Fix collapsing header"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.120.7",
+    "date": "2024.02.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ColumnMenu: Provide a proper overflow handling"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.ODataMetaModel#getODataValueLists: fetch missing metadata"
           }
         ]
       }

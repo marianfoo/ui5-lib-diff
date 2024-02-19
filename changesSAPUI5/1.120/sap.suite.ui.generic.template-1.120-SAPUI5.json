@@ -1,0 +1,163 @@
+{
+    "1.117.0": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "Iaa5b60399b023e656f1511cfa29cbdf3dbfa895f",
+                "type": "FEATURE",
+                "text": "We now ensure that the title of a section can be hidden for embedded components and custom sections, if the section title and the inner control title are the same in the object page"
+            },
+            {
+                "id": "I29fa41db1a5e110122738b1edb987c8fbd44082b",
+                "type": "FEATURE",
+                "text": "We've now provided the Copy button for tables in the list report, object page and analytical list page"
+            },
+            {
+                "id": "I84ce02d9ad2eadf2eb0a978280e3e41eb5946f2e",
+                "type": "FEATURE",
+                "text": "We've now added the navigationProperties property within filterSettings section"
+            },
+            {
+                "id": "Ib541965210454722038d1d9273723dbb3d7c69ef",
+                "type": "FEATURE",
+                "text": "The semantic key column now supports styling"
+            },
+            {
+                "id": "Icaa5371a35cc94b14987ca3239097c28c46bb7a6",
+                "type": "FEATURE",
+                "text": "We've now enabled support for the Microsoft Contact QuickView Card"
+            },
+            {
+                "id": "I11069497d2c1e986e0f5e70b12d01bf99cd7b4d4",
+                "type": "FEATURE",
+                "text": "We now provide support for a new column to display the editing status of draft objects in sap.ui.table"
+            },
+            {
+                "id": "Ib92afa7f79990db38d6bc4c6c7e5bf6b9838298d",
+                "type": "FEATURE",
+                "text": "KPTCard in analytical list page now supports search functionality"
+            },
+            {
+                "id": "Id3c2819a38348314bf4c5d130b10fb4612c4503d",
+                "type": "FIX",
+                "text": "We've now fixed issues and enhanced the card integration for My Home in SAP S/4HANA",
+                "references": [
+                    {
+                        "type": "JIRA",
+                        "reference": "FIORITECHP1-27832"
+                    }
+                ]
+            },
+            {
+                "id": "I532ff3a4e275e892eb7d3115a897429a347c866a",
+                "type": "FIX",
+                "text": "We now allow the customization of toolbar content using UI adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370097692"
+                    }
+                ]
+            },
+            {
+                "id": "Ie76b99573534136d21c113b373ceecfaaedb3e4b",
+                "type": "FIX",
+                "text": "We now allow the customization of controls using UI adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370093599"
+                    }
+                ]
+            },
+            {
+                "id": "Ieb5376f9c0b2da9a37d1e3d53ec7fe96ed8d6d08",
+                "type": "FIX",
+                "text": "We've now increased the list binding of the message popover from 100 to 9999",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000430318 2023"
+                    }
+                ]
+            },
+            {
+                "id": "Icad397d44a4700cdd416a02809cf65b94b9c9910",
+                "type": "FIX",
+                "text": "We now allow the customization of toolbar using UI adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370097692"
+                    }
+                ]
+            },
+            {
+                "id": "Iff1e1adedc970b8aa4017f8fa328b9767f641177",
+                "type": "FIX",
+                "text": "We now ensure that the navigation is unblocked in case an appState is generated while another one is applied",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380116662"
+                    }
+                ]
+            },
+            {
+                "id": "I0fb1f11c0f39445c027c4f96b93e4aa539466d2d",
+                "type": "FIX",
+                "text": "We are now replacing sap.fe.navigation.Model.ODataV2 with ODataV2",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370101123"
+                    }
+                ]
+            },
+            {
+                "id": "I17f5f81ed017969f85d8db5c8db0e80bd1e620f4",
+                "type": "FIX",
+                "text": "We've now corrected the binding value for additional semantic object",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380061394"
+                    }
+                ]
+            },
+            {
+                "id": "I67bb533da6a1f51ce9f5379837108c0b96c087d9",
+                "type": "FIX",
+                "text": "We now ensure that the registration as a dirty state provider can be avoided when the application is read only",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000755646 2023"
+                    }
+                ]
+            },
+            {
+                "id": "Ie056aa497bf921679c742ed9323f674df2fd25fa",
+                "type": "FIX",
+                "text": "You can now use getProperty to obtain the subtitle",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370101610"
+                    }
+                ]
+            },
+            {
+                "id": "Ibca1d820bc47d9d1db6b0b2321d3ece2234bf00f",
+                "type": "FIX",
+                "text": "We've now enhanced finding the first focusable element in a form with the same logic as that of the form group",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007300802023"
+                    }
+                ]
+            }
+        ]
+    }
+}
