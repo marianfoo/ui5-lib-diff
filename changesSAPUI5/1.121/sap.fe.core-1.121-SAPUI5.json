@@ -1,0 +1,743 @@
+{
+    "1.121.0": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "5cd2b71722cd3fc57f5727302514190e4bacfde0",
+                "type": "FEATURE",
+                "text": " We now hide the label of the text area if it is the only field in a section or subsection on an object page"
+            },
+            {
+                "id": "0babb2bdcefc597eb923fcfc09226cf221ef5347",
+                "type": "FEATURE",
+                "text": " In the header facet, we now consider the UI.Hidden annotation set on a DataPoint"
+            },
+            {
+                "id": "15f38e4278cc60bf2d24fa0a1256279e0bb1c4d2",
+                "type": "FEATURE",
+                "text": " We now provide an option in the context menu to open an item in a new tab or window"
+            },
+            {
+                "id": "5a4d041042422be864c59baf337122c29aa0edd7",
+                "type": "FEATURE",
+                "text": " We now enable app developers to hide the options Share: Microsoft Teams and Send E-Mail from the Share menu"
+            },
+            {
+                "id": "247fad66dfba53098ce71e7ffde746f7c6221745",
+                "type": "FIX",
+                "text": " We’ve resolved and issue with using unit of measure fields in the collaborative draft"
+            },
+            {
+                "id": "3470775c17f5e9b9c131289e70da197ec127af9f",
+                "type": "FEATURE",
+                "text": " We now provide getCurrentVariantKey and setCurrentVariantKey as public APIs for the Chart API"
+            },
+            {
+                "id": "93d14828ff63ef09781ebdd82c51b92158ffffc1",
+                "type": "FEATURE",
+                "text": " Avoid rendering an empty QuickView when no details are available"
+            },
+            {
+                "id": "c036c46937dd25ec41be72d406e8f9953f3b611f",
+                "type": "FIX",
+                "text": " We now ensure that both the active object and its draft are deleted by using model.delete",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370147485"
+                    }
+                ]
+            },
+            {
+                "id": "a46098e50c6c38b0aa91594b4eb11bb14945ce4d",
+                "type": "FIX",
+                "text": " We now ensure that copying a row in a table with the draft indicator in a separate columns works correctly"
+            },
+            {
+                "id": "ef0731400367379a6e249f46bc9a915f7ff90509",
+                "type": "FEATURE",
+                "text": " We now support the annotation SelectionPresentationVariant on a building block Table and an object page facet"
+            },
+            {
+                "id": "24b533394f53f08a94c9ae2535736f12fe8bb4d2",
+                "type": "FEATURE",
+                "text": " We now provide a total for every analytical table column with an aggregated property by default"
+            },
+            {
+                "id": "78db32ade2647973d045d0d122ca3a1e4f57559d",
+                "type": "FIX",
+                "text": " Filterable properties listed in table personalization are now synchronized with the filterable properties in the filter bar"
+            },
+            {
+                "id": "bedd68d3b441c2d38dcfc8ca8453e4b209d8aaad",
+                "type": "FEATURE",
+                "text": " We've reduced the number of batch requests when starting an application with parameters or x-app state"
+            },
+            {
+                "id": "c8d1e3f6531b574e2ccf51fad63bc488b3a3e9cc",
+                "type": "FIX",
+                "text": " We have resolved an issue with a property referencing non-existing properties in a table"
+            },
+            {
+                "id": "656d59a3b2a52a8391a586234db555fed0763ac4",
+                "type": "FEATURE",
+                "text": " We now exclude navigation properties from external navigation"
+            },
+            {
+                "id": "a28489b4b895d8311960460b8374c6c4d19431b0",
+                "type": "FEATURE",
+                "text": " We now support parameterized entity sets for charts"
+            },
+            {
+                "id": "ba3c7ffc25e42b70e52197b8e1db8f25aa276529",
+                "type": "FEATURE",
+                "text": " The section or subsection title is now merged with the table or chart title if the section or subsection only has one table or chart control"
+            },
+            {
+                "id": "cf500d9512457b9a3057fd517d7ec05d4497a9ef",
+                "type": "FIX",
+                "text": " We now ensure users cannot proceed if required fields with currency code or unit does not have any value"
+            },
+            {
+                "id": "dc4085561166dd1f52a278bece51fdf9a164a492",
+                "type": "FIX",
+                "text": " We have resolved an issue with circular dependencies failing in action and column positioning",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380132592"
+                    }
+                ]
+            },
+            {
+                "id": "cda0a40b9cd86cbe7a52da70f05802cb17c46c39",
+                "type": "FIX",
+                "text": " We now correctly position the Cancel action at the end of the edit dialog"
+            },
+            {
+                "id": "e17a10c5e5c778fc6d97eed1a6cc75fe3ffa60cd",
+                "type": "FIX",
+                "text": " A warning is now displayed when a user executes an action with selected items that are not applicable to the specific action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370117645"
+                    }
+                ]
+            },
+            {
+                "id": "647fd106c1a67c2de57e17d0c3845a350ce63bb0",
+                "type": "FEATURE",
+                "text": " We now support multi-value filtering with custom operators in the FilterBar"
+            },
+            {
+                "id": "426a458dbc1966f201419c29734ca9379ef8b3ec",
+                "type": "FIX",
+                "text": " We now ensure that connected fields correctly displays the asterisk sign for mandatory fields, and that the valuehelp is properly loaded"
+            },
+            {
+                "id": "e46ef87c654814fae7142a23c84f96de62fbd8ea",
+                "type": "FIX",
+                "text": " We've updated a function in the AppStartupHelper file to handle null annotations when using the preferredMode=edit parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "7f7b57c7ecf35a9de8aeae072fa404258feb0a98",
+                "type": "FIX",
+                "text": " We’ve resolved an issue with a duplicate Edit button appearing in apps using the flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380140439"
+                    }
+                ]
+            },
+            {
+                "id": "d58aae7a8c90b6c773fdfa7d37ee2a3dd399288b",
+                "type": "FEATURE",
+                "text": " We now provide getPresentationVariant and setPresentationVariant as public APIs for the Chart building block"
+            },
+            {
+                "id": "6cdb8b036d033d6cf14a7eeeae11efecbcb897ec",
+                "type": "FEATURE",
+                "text": " We now support the annotation @Common.IsNaturalPerson for the avatar"
+            },
+            {
+                "id": "bb9e4628687f8f1d1941c474794924611be7f97c",
+                "type": "FIX",
+                "text": " The Form building block can now have a metaPath that uses 1:1 navigation pointing to a FieldGroup annotation"
+            },
+            {
+                "id": "2eed10e71186ecf3ccd789c64fbc422feb145682",
+                "type": "FIX",
+                "text": " We now only check the relative navigation properties when enabling table filtering"
+            },
+            {
+                "id": "e103f0dfb829c844fd458a53248575d9241aec38",
+                "type": "FIX",
+                "text": " We no longer display information about any active filters in the filter bar of the list report in case the filter bar is hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370127004"
+                    }
+                ]
+            },
+            {
+                "id": "082d1d495d334a2eb6ea9b590dc062a60af2241f",
+                "type": "FEATURE",
+                "text": " We now provide getPresentationVariant and setPresentationVariant as public APIs for the Table building block"
+            },
+            {
+                "id": "3ae0f8daf23c63a17527747c5758e2ece95e86c6",
+                "type": "FEATURE",
+                "text": " We now allow enhancing the request of the Table building block before rebinding it"
+            },
+            {
+                "id": "b3d94d3f2b31c31f10830c88cb7ff29f0301fd85",
+                "type": "FEATURE",
+                "text": " We now support optimistic batch requests for list reports in auto-load scenarios in SAP Fiori elements for OData V4"
+            },
+            {
+                "id": "611d791ef73a5b143bc01b352363888e3c27ff5b",
+                "type": "FIX",
+                "text": " We now ensure you can empty an email field after you’ve entered a valid email address"
+            },
+            {
+                "id": "180877b82da81aabd41375a655f0b182f8e49fa1",
+                "type": "FIX",
+                "text": " We now ensure the SideEffects annotation can request messages on a subobject page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150760"
+                    }
+                ]
+            },
+            {
+                "id": "160c711f5cb37c90a08e62d768cb019e7f365894",
+                "type": "FIX",
+                "text": " We have resolved an issue with applying the flexible column layout when using the navigateToRoute controller extension",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380135957"
+                    }
+                ]
+            },
+            {
+                "id": "57a3e750423b7de86def14a418ff7320fe9ab40b",
+                "type": "FIX",
+                "text": " We now support filter restrictions on navigation properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370148766"
+                    }
+                ]
+            },
+            {
+                "id": "bf5f76229bc0050adbc240a1ebee019fbaa7a4e4",
+                "type": "FEATURE",
+                "text": " We've now implemented a manifest setting openInEditMode, that allows to open an object page directly in edit mode"
+            },
+            {
+                "id": "9d07ce6cd77452688a576dad001577fd19da7864",
+                "type": "FIX",
+                "text": " We’ve resolved an issue that caused the Create dialog to flicker when the language was set to 'Technical code 1' (1Q)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370145435"
+                    }
+                ]
+            },
+            {
+                "id": "31b2e2875dac3e0b6862338e55ec536e939ca2a7",
+                "type": "FIX",
+                "text": " We have resolved an issue with using the OData V2 model on the overview page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380139076"
+                    }
+                ]
+            },
+            {
+                "id": "0f1c03bdb1585df981d0fb8038628100f9fba513",
+                "type": "FIX",
+                "text": " We now ensure that the enabled property of the delete button in a table is updated, after an action was carried out",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380134002"
+                    }
+                ]
+            },
+            {
+                "id": "f8c0d2085e0cd32acf8b99205b208151b45672df",
+                "type": "FEATURE",
+                "text": " We now provide a generic context menu for tables in the list report and the object page"
+            },
+            {
+                "id": "fe3fd517a828a1621c82de8e8f0644e5fb34f597",
+                "type": "FIX",
+                "text": " We've resolved the button style issue in the footer of the Accept Recommendations confirmation dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380137186"
+                    }
+                ]
+            },
+            {
+                "id": "323f76c23735de6f16acfb603596fdce7c0749c6",
+                "type": "FIX",
+                "text": " We've resolved an issue with the navigation when the shell isn't available",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370143828"
+                    }
+                ]
+            },
+            {
+                "id": "cdaf4ea5b5563df8c4891c7395023548defe6cf8",
+                "type": "FIX",
+                "text": " We now support the SideEffects annotation also on the overview page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010442352023"
+                    }
+                ]
+            },
+            {
+                "id": "6b46ff92104e598c2d1e85dad76c5fcab864a9e3",
+                "type": "FIX",
+                "text": " We now ensure that the relevant custom filters are also correctly applied to other entity sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370128365"
+                    }
+                ]
+            },
+            {
+                "id": "e1eb13d40b6d39949664193d9846aa51cf56978e",
+                "type": "FIX",
+                "text": " We've resolved an issue with the EditState that led to an additional refresh of the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370123494"
+                    }
+                ]
+            },
+            {
+                "id": "9efc23794a65a262f54a57ff407dca9847d41a80",
+                "type": "FIX",
+                "text": " We now ensure the SelectionMode is applied correctly in a list report that has custom actions only",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370147789"
+                    }
+                ]
+            },
+            {
+                "id": "50180a2fa596d4e8e8dc21acbee361eacf2d9eeb",
+                "type": "FIX",
+                "text": " We now correctly use the HashChanger API to get the app-specific hash",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380133352"
+                    }
+                ]
+            },
+            {
+                "id": "4c8c8bf35f89e5df7efab95c52f0d7b5002a7ddf",
+                "type": "FIX",
+                "text": " We now ensure that the getKey() function is used to access the key value of oVariant, as the object structure has changed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370107638"
+                    }
+                ]
+            },
+            {
+                "id": "e0bd29ca93f0f4701273fb01d1e61bdd948ded0e",
+                "type": "FIX",
+                "text": " Custom menu actions in the table toolbar are now placed before standard actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370151574"
+                    }
+                ]
+            },
+            {
+                "id": "b483883181d980910d0b4c542161f9625ba88d59",
+                "type": "FIX",
+                "text": " We now ensure that the byID provided by our ExtensionAPI returns custom controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370149089"
+                    }
+                ]
+            },
+            {
+                "id": "b692be41de84d3c51280f9af33e7b11f1d03e83d",
+                "type": "FIX",
+                "text": " We now consider the required field indicator when calculating the column width",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370110211"
+                    }
+                ]
+            },
+            {
+                "id": "fa227171417ea67b5e865797795f677671d9636c",
+                "type": "FIX",
+                "text": " We’ve improved the error handling in the action parameter dialog following the introduction of the double click prevention",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370130210"
+                    }
+                ]
+            },
+            {
+                "id": "4917a16ffdfacefce69118f34a2c80c9fbb2300b",
+                "type": "FIX",
+                "text": " When exporting a table as split cells, we now ensure that columns with the FieldGroup annotation and custom columns retain the original data type for single cells",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370103093"
+                    }
+                ]
+            },
+            {
+                "id": "375d9f649f8c9e8eaac386188b807bc3b00638aa",
+                "type": "FIX",
+                "text": " We now ensure text annotation is considered for semantic keys inside a grid table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370146239"
+                    }
+                ]
+            },
+            {
+                "id": "f35af1957607ba1e24f619ab70e07ad3c581a076",
+                "type": "FIX",
+                "text": " We now ensure the TypeDefinition is managed as a typed property when the entity is declared directly in a CAP service",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150068"
+                    }
+                ]
+            },
+            {
+                "id": "82dde2c384c211ce0111b1448e215125cf7a05b1",
+                "type": "FIX",
+                "text": " We now consider the type of the value when parsing the default values of action parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370117740"
+                    }
+                ]
+            },
+            {
+                "id": "ff58c127f0981e7800e07325dc7f9bc2649c4e3d",
+                "type": "FIX",
+                "text": " We now delay the forward navigation from the object page to correctly execute it after saving the draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380078567"
+                    }
+                ]
+            },
+            {
+                "id": "5054389ef199f2fa2578a58dbc336871160bf858",
+                "type": "FEATURE",
+                "text": " You can now define the 'plugins' attribute for the RichTextEditor building block"
+            },
+            {
+                "id": "1997bff1b600036ebefb412369796333b32dc577",
+                "type": "FIX",
+                "text": " We now ensure that selecting the begin button in an action parameter dialog only triggers the action once",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370130210"
+                    }
+                ]
+            },
+            {
+                "id": "bfdd374ae2887e5d936b9919bb96bd345b7e2b57",
+                "type": "FIX",
+                "text": " REVERT  We now ensure that the entity is returned by an action\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370134457"
+                    }
+                ]
+            },
+            {
+                "id": "e8f29ed32a3478d68684465205a742e7a24c777d",
+                "type": "FIX",
+                "text": " We now ensure that the application can load even with an unexpected format set on the TargetProperties of a SideEffects annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370143588"
+                    }
+                ]
+            },
+            {
+                "id": "ea06ff70c7a82fc642cf486f18eb856c3602fb37",
+                "type": "FEATURE",
+                "text": " Value help fields with the type-ahead dropdown list can now display recently entered values"
+            },
+            {
+                "id": "747ef37fa77662c48c2f28d507728a4ccaf686d6",
+                "type": "FEATURE",
+                "text": " You can now define and hide the table header using the manifest.json"
+            },
+            {
+                "id": "893cf8938415e4428dfa5516dee62b3a0fcb7222",
+                "type": "FEATURE",
+                "text": " We now support the analytical tables, grid tables, responsive tables, and tree tables on mobile devices"
+            },
+            {
+                "id": "660b72b3539b56b7cff43bea6e5fc83e81d3b90f",
+                "type": "FEATURE",
+                "text": " You can now use metadata binding for custom filters and custom form elements"
+            },
+            {
+                "id": "f5c3da1b0c6fe8be3ab9f34ff1619664de4da314",
+                "type": "FIX",
+                "text": " We now use a separate ListBinding for the singleDraftForCreate setting",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370142600"
+                    }
+                ]
+            },
+            {
+                "id": "7a04f995c5cc1836201e7dffae4119bce3a422ca",
+                "type": "FEATURE",
+                "text": " We now provide APIs that can programmatically show and hide filter fields"
+            },
+            {
+                "id": "dcee18fab67b773867075725d4d956e758c3c22d",
+                "type": "FIX",
+                "text": " When using the inline creation mode in a table, we now set the focus on the newly created row",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370131644"
+                    }
+                ]
+            },
+            {
+                "id": "aaf686ecfe7a407595dae044a7ff0271d559efe0",
+                "type": "FIX",
+                "text": " You can now change the order of the action buttons using the manifest",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370078886"
+                    }
+                ]
+            },
+            {
+                "id": "15471b6d62c4277b53b899fb6c13941d8a950d58",
+                "type": "FIX",
+                "text": " We’ve resolved an issue that prevented updating a field with the static unit of measure ‘%’",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370134566"
+                    }
+                ]
+            },
+            {
+                "id": "1506f54f773279fecbb6d3ef820aec2fe5f7ca95",
+                "type": "FIX",
+                "text": " We now correctly manage the SelectionVariant annotation configured with the RangeSignType ‘Exclude’ for multiple views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007247152023"
+                    }
+                ]
+            },
+            {
+                "id": "93dc7f72ef258c4af129a2d1333a934e8d7350e5",
+                "type": "FEATURE",
+                "text": " We now support the preferredMode=edit parameter that launches an object page directly in edit mode"
+            },
+            {
+                "id": "963080a0b590c78506857138b1ede76c28ba977b",
+                "type": "FIX",
+                "text": " We now check that the OperationAvailable annotation exists and is set to true before enabling an action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370129568"
+                    }
+                ]
+            },
+            {
+                "id": "08d350a0ad452a29c7a1b89c084e5a7816e77cb6",
+                "type": "FEATURE",
+                "text": " We now recalculate the default values in empty row mode if the table is refreshed using a side effect"
+            },
+            {
+                "id": "d476ec42c4f8a30a70858ca066621233bf6e4106",
+                "type": "FEATURE",
+                "text": " We now ensure that the list report properties for multiple views annotated using UI.SelectionFields are available among other filter bar properties"
+            },
+            {
+                "id": "799c4e1688cfed1431eb017cb60290878e96d498",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing progress data points are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370100303"
+                    }
+                ]
+            },
+            {
+                "id": "afd475e26ec348d5160da379c8eaf0151347791d",
+                "type": "FEATURE",
+                "text": " We now provide a getEnabled and setEnabled method for the field"
+            },
+            {
+                "id": "62faecad8d2b97b8594b3e78afe640fb3e7245f9",
+                "type": "FEATURE",
+                "text": " You can now define tooltips for custom columns in the manifest.json and for slot columns using the Table building block"
+            },
+            {
+                "id": "d43b8e3d0f39d23bdc54db6944de788ea4ef4f31",
+                "type": "FIX",
+                "text": " We have resolved an issue with rendering custom form elements when using the Form building block",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009290902023"
+                    }
+                ]
+            },
+            {
+                "id": "1a44ea29963927a38b75581fda5c7bf347cfbdff",
+                "type": "FEATURE",
+                "text": " We now provide support for telemetry capabilities"
+            },
+            {
+                "id": "622b20aeb70626ef05534ad9f160a5f7c91e552e",
+                "type": "FIX",
+                "text": " We've resolved an issue with the handling of 412 errors when the action is triggered using the chevron",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370124236"
+                    }
+                ]
+            },
+            {
+                "id": "f01d044afe2ed8d75b707304b82f0f24a1398b5d",
+                "type": "FIX",
+                "text": " When exporting a table to spreadsheet, the \"Target Value\" column is no longer included for DataPoints without a target value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008815062023"
+                    }
+                ]
+            },
+            {
+                "id": "3131bec414a7d8b62821a102e539952e16877e5f",
+                "type": "FIX",
+                "text": " We now correctly handle 412 errors for critical actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370121264"
+                    }
+                ]
+            },
+            {
+                "id": "a82cfff306e3c947a10e05aae3e70ea39b0de70a",
+                "type": "FEATURE",
+                "text": " We now provide a setValue method for the field"
+            },
+            {
+                "id": "d02845eff3db4d33788f3bbff935aad989674728",
+                "type": "FIX",
+                "text": " We now ensure you can close a column in an app using the flexible column layout after an intent-based navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005230222023"
+                    }
+                ]
+            },
+            {
+                "id": "005ba29f2125757d8f0d0d32dd4b048bd96f55ff",
+                "type": "FIX",
+                "text": "  We now ensure that the entity is returned by an action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370109848"
+                    }
+                ]
+            },
+            {
+                "id": "c2384eb7f1a54019f34fab058533fe4e2031eda2",
+                "type": "FIX",
+                "text": " We've resolved an issue that prevented some fields from being editable in an app using the flexible column layout and a sticky edit session.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370083543"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370083469"
+                    }
+                ]
+            },
+            {
+                "id": "82bdff8aea1136f20fcb6ec82453da7e5ca7a261",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing units are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008126452023"
+                    }
+                ]
+            }
+        ]
+    }
+}

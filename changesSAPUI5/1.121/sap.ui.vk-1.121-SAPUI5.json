@@ -1,0 +1,153 @@
+{
+    "1.121.0": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "e242792dd3eb7fce283b1b90d89f8421b6c92c0f",
+                "type": "FIX",
+                "text": " Transformed point cloud object hit test issue"
+            },
+            {
+                "id": "0df92044102caa682e2ed13a17c8c5be6d72e3ea",
+                "type": "FIX",
+                "text": " Scene bounding box computation issue for dummy camera"
+            },
+            {
+                "id": "430ae34fc8dd203a293cd9a6b7c3e60c03aabcda",
+                "type": "FIX",
+                "text": " Make ViewGallery scroll container not focusable"
+            },
+            {
+                "id": "47080702844d724d5d7fc18ca6a312867ddbded0",
+                "type": "FIX",
+                "text": " Collaboration: conversation activation issue"
+            },
+            {
+                "id": "1579d3aa92b9114a7b042f68b87481ea6b4db078",
+                "type": "FIX",
+                "text": " Fix failure when loading shattered VDS files"
+            },
+            {
+                "id": "51299d1300de7f245b34237f3107255b8c7394e2",
+                "type": "FIX",
+                "text": " Fix loading meshes without normals from .vds files"
+            },
+            {
+                "id": "f103755f466a425d6958d515dacf8e777477cf7f",
+                "type": "FIX",
+                "text": " Reuse 2d view object instead of creating new one"
+            },
+            {
+                "id": "241db65fb937e22b730ce222c0fb5a420adcbfc0",
+                "type": "FIX",
+                "text": " match current view text size with total view text size and remove decimal separator"
+            },
+            {
+                "id": "f947e9ccf635935d816816c1c993c809656aa0ac",
+                "type": "FEATURE",
+                "text": " ViewGallery UI update to allow for go to view input"
+            },
+            {
+                "id": "ceb5ba61f9cc9f54c6ba30181d1aa2ddd40f6a66",
+                "type": "FEATURE",
+                "text": "  Page redlining support in collaboration"
+            },
+            {
+                "id": "cd1cc36ce0d246fc342831518088feb3273af54b",
+                "type": "FIX",
+                "text": " Point cloud groups update issue"
+            },
+            {
+                "id": "0b38bc547860646e651c694201739ed3e623b8c2",
+                "type": "FEATURE",
+                "text": " Point cloud opacity"
+            },
+            {
+                "id": "66b087248533f8b2165d349bf3b32a41453f3570",
+                "type": "FEATURE",
+                "text": " VIT svg image data load"
+            },
+            {
+                "id": "e102f07c339004768c4913c74c94a5d2695b0e20",
+                "type": "FEATURE",
+                "text": " Enable 3D tools for point cloud objects"
+            },
+            {
+                "id": "da0308ee508e97b1777f83d4046c5a2e39706d85",
+                "type": "FEATURE",
+                "text": " VIT svg content type support"
+            },
+            {
+                "id": "c3259ee4bb70588059861172683404926ad1ff04",
+                "type": "FEATURE",
+                "text": " VIT svg content type support"
+            },
+            {
+                "id": "a1009b5c6b80fdb0406614b4d43a2b30190dd8e7",
+                "type": "FEATURE",
+                "text": " VIT svg content type support"
+            },
+            {
+                "id": "dda265be383cf53786cdb37271e6d30421f07843",
+                "type": "FIX",
+                "text": " threejs.Viewport: dummy camera init issue"
+            },
+            {
+                "id": "4cd208663cc95737916a1ef206b4959051fd701e",
+                "type": "FIX",
+                "text": " Empty viewport after loading vds file"
+            },
+            {
+                "id": "d03fdfd1a5de2dc40dff499beda132460c6d2080",
+                "type": "FIX",
+                "text": " Scene tree selection issue"
+            },
+            {
+                "id": "7a2b5e5dd605042eabaef177cb38a2b5d0ba772c",
+                "type": "FIX",
+                "text": " PoiHelper.updatePOI: poi transformation is not updating"
+            },
+            {
+                "id": "092eaa63b3f68fc2ea682e29630148ef6d23e6a2",
+                "type": "FIX",
+                "text": " PoiTool moved event with no movement"
+            },
+            {
+                "id": "1c4ee4e765bce5ec974a4cdb33e12098c58af545",
+                "type": "FIX",
+                "text": " Point cloud group node isolation issue"
+            },
+            {
+                "id": "8a28df4b5e51a1192461582e90ae3f3b8b0bc297",
+                "type": "FIX",
+                "text": " Predefined view icons correction"
+            },
+            {
+                "id": "a3a6ee413b659945360e4207d2326b43c286abe9",
+                "type": "FIX",
+                "text": " Fix hiding a progress bar when .vd does not have modelview thumbnails"
+            },
+            {
+                "id": "b2bff11fb902fcb157d494ee895719fad3fe8bae",
+                "type": "FIX",
+                "text": " Include point cloud groups in cluster bounding box evaluation"
+            },
+            {
+                "id": "5a44b1bf07666a768a4e2325b4041b7fba5402a2",
+                "type": "FIX",
+                "text": " Point cloud group node bounding box issue"
+            },
+            {
+                "id": "1607482d7d609ee0b3f23b4e5dae60f490e3cfd2",
+                "type": "FIX",
+                "text": " Clockwise flag issue of arc path segment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370122593"
+                    }
+                ]
+            }
+        ]
+    }
+}

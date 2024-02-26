@@ -1,0 +1,481 @@
+{
+    "1.121.0": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "Ia336459a21a8daed6ba8d26e55ddde2136c2ac11",
+                "type": "FEATURE",
+                "text": "We now provide sap.ui.table support for mobile devices"
+            },
+            {
+                "id": "I6d9208d9e7a009425bcad4bebd04c1f7b8b3d251",
+                "type": "FEATURE",
+                "text": "We've now introduced manifest settings for the Copy button in a table"
+            },
+            {
+                "id": "Ife2d1d8c1c56c7b824d7108a2110db7f47d4d5d8",
+                "type": "FEATURE",
+                "text": "We've now ensure that the filter info bar is displayed for all table types in the analytical list page, list report and object page"
+            },
+            {
+                "id": "I5f51128d81435a861337ffa44231d3d27ce9bd61",
+                "type": "FEATURE",
+                "text": "We've now extended title handling for embedded components using sap.m.Title in the object page"
+            },
+            {
+                "id": "I74001ddebb6d9b20f69b19118d37a80a023fd451",
+                "type": "FEATURE",
+                "text": "We now show a message strip on the object page header"
+            },
+            {
+                "id": "I51993118de520bc7916f21b4fc4097bc473c198f",
+                "type": "FEATURE",
+                "text": "We've now added semantically connected fields to the table quick sort"
+            },
+            {
+                "id": "I88c7bb3badd6f1dadb61767c17dcec02dde7b2ae",
+                "type": "FEATURE",
+                "text": "We now provide an option to integrate Microsoft Teams contacts in a navpopover that is rendered by smartlink"
+            },
+            {
+                "id": "I8adcc68ae573476338cb862b08d7d6ed67d2cf4d",
+                "type": "FEATURE",
+                "text": "We've now enhanced the tooltips for the up and down arrow buttons for moving a page"
+            },
+            {
+                "id": "I77953742cb3a0e15e228b3ea48670b27b699736f",
+                "type": "FEATURE",
+                "text": "We now provide an option to include the column header in the column width calculation"
+            },
+            {
+                "id": "I2df07008c232da263256c6adbc950d9ecdfda660",
+                "type": "FIX",
+                "text": "We've now improved the working of serializing UI5 dates",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370085336"
+                    }
+                ]
+            },
+            {
+                "id": "I4491ca0e84a50a198ccaa915263531b9b7e72ef8",
+                "type": "FIX",
+                "text": "We've now added a tooltip for the file-uploader cancel button",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370110553"
+                    }
+                ]
+            },
+            {
+                "id": "I3736bc09229e746123f890dae471d6428d7a01ca",
+                "type": "FIX",
+                "text": "For the analytical list report, we've now removed activateTimeSeries property from the SmartChart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370116322"
+                    }
+                ]
+            },
+            {
+                "id": "Iac23f5d4a2d87426122835cb601db7906fd2c401",
+                "type": "FIX",
+                "text": "We've now added a visibility check for 'ReplaceHeaderFacet' extension annotated with ReferenceFacet in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370111176"
+                    }
+                ]
+            },
+            {
+                "id": "Ic20cfd6440a37eb5224e913300acbdc57c3e0a7a",
+                "type": "FIX",
+                "text": "In the analytical list page, we now allow customizing SmartFilterBar using UIA",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009315972023"
+                    }
+                ]
+            },
+            {
+                "id": "Ia8208f958e3ec7909ce95a583cf7d65fdeb041c2",
+                "type": "FIX",
+                "text": "We've now corrected the importance property of table columns with the ratings and progress indicators",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370132502"
+                    }
+                ]
+            },
+            {
+                "id": "Ia84308c176cdb1997f2f98360822a70cb94d4f6b",
+                "type": "FIX",
+                "text": "Share on SAP Work Zone button is now rendered correctly under the ShareMenu",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380045135"
+                    }
+                ]
+            },
+            {
+                "id": "I2c379359460251ec6377793b800998f52af365c3",
+                "type": "FIX",
+                "text": "For the analytical list page, we now added a check for the undefined SmartFilterBar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370138844"
+                    }
+                ]
+            },
+            {
+                "id": "I130580e658f654894b9baaae6df378d0b519ab2d",
+                "type": "FIX",
+                "text": "For the object page in the inline rows creation scenario, the DefaultValuesFunction is invoked after the smart table gets the binding context",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370129361"
+                    }
+                ]
+            },
+            {
+                "id": "I9d33e59d75b16e643d8792da53714c9cda211774",
+                "type": "FIX",
+                "text": "We've now adapted the usage of 'navigationFinished', the new navigation event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370125547"
+                    }
+                ]
+            },
+            {
+                "id": "I723d5dffaa2bd2cddfce549266aeb4e8978080e5",
+                "type": "FIX",
+                "text": "Overridden standard actions are now emphasized in the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370116083"
+                    }
+                ]
+            },
+            {
+                "id": "I6cd99f92417cb191a1b93836be6fc2903e1e6d52",
+                "type": "FIX",
+                "text": "For the object page, we now ensure that the focus is back on the control when a validation is triggered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370117864"
+                    }
+                ]
+            },
+            {
+                "id": "Ica87b309d73e5c8d776aef5b681be783b0082b8f",
+                "type": "FIX",
+                "text": "Registering a filter provider at the message button helper should not break if outdated binding path info is present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370139111"
+                    }
+                ]
+            },
+            {
+                "id": "Iaceb3d6bff9ce727941662572b81bff19ca6582c",
+                "type": "FIX",
+                "text": "We now ensure that the focus reset is avoided for a control that is already in focus",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370091294"
+                    }
+                ]
+            },
+            {
+                "id": "I03187ea695499d49cc434f32f3fef216a79a43d9",
+                "type": "FIX",
+                "text": "For the object page, the subsection info object is not initialised now when the replace facet extension is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370132616"
+                    }
+                ]
+            },
+            {
+                "id": "I2954dec621b2f68e9fd3565a072d7ec6525660ae",
+                "type": "FIX",
+                "text": "We've now enhanced the filter creation to support boolean type in MultipleViewsHandler",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150998"
+                    }
+                ]
+            },
+            {
+                "id": "I58cc8f85105f745972045594cbff553bbd056d34",
+                "type": "FIX",
+                "text": "We now ensure that changes on item level are reflected in the item page immediately after activating a draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380129886"
+                    }
+                ]
+            },
+            {
+                "id": "I7c96c2b3bd0ff2f8a787c4a66b0853bcf2679751",
+                "type": "FIX",
+                "text": "We've now added custom data to use FLP timezone for smart table in the analytical list page and list report object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002401412023"
+                    }
+                ]
+            },
+            {
+                "id": "I9221971f97327d6781da853d1e719fb8aec50fae",
+                "type": "FIX",
+                "text": "We now ensure that the title for insights card is set correctly in case the table title is missing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380143379"
+                    }
+                ]
+            },
+            {
+                "id": "I07123a7ae52bcd63fdd84a2a59443a1efc97e73f",
+                "type": "FIX",
+                "text": "For the list report, semantic date is now shown when default values are maintained",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009036012023"
+                    }
+                ]
+            },
+            {
+                "id": "Ifc5ca961e0875c73328a0b94225be969927c4350",
+                "type": "FIX",
+                "text": "We now ensure that the LockedBy username is displayed in the list report object page when a full name is not present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009574622023"
+                    }
+                ]
+            },
+            {
+                "id": "I9186e7473da354bcc7d6019bbbf9dbb49e8b0067",
+                "type": "FIX",
+                "text": "While checking for an equivalent key, sibling entity is not considered now during draft creation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0010640"
+                    }
+                ]
+            },
+            {
+                "id": "I8a9b53a647788c2a60400133bfdc9c6c34193b50",
+                "type": "FIX",
+                "text": "Semantic dates are now handled correctly while navigating externally to an analytical list page application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370136550"
+                    }
+                ]
+            },
+            {
+                "id": "I84ff0b1084418aac9f5e89a70739baaae31e559c",
+                "type": "FIX",
+                "text": "Legends on the smart charts are now displayed properly",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006299705"
+                    }
+                ]
+            },
+            {
+                "id": "Id8bb7918bb469cff479911d3d758805ce3e71fe9",
+                "type": "FIX",
+                "text": "We now provide stable id for the semantically connected fields on the object page forms",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380138332"
+                    }
+                ]
+            },
+            {
+                "id": "Ia179e75fd5fa336a5ea3bda7fc183cfb86d58884",
+                "type": "FIX",
+                "text": "We've now fixed the issue that persisted while refreshing the table after executing the function import action",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0020131"
+                    }
+                ]
+            },
+            {
+                "id": "I6bacaaa57b3d4271faf71935c209181570aed581",
+                "type": "FIX",
+                "text": "We now ensure that a table row is highlighted correctly in case there is an error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370142858"
+                    }
+                ]
+            },
+            {
+                "id": "I5d13e074213a7aebc25aa213fcc7268c0f6228ab",
+                "type": "FIX",
+                "text": "We've now removed the dependency between availability of copy button and availability of cell selection feature in the object page tables",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0021708"
+                    }
+                ]
+            },
+            {
+                "id": "I8f4f722687099ae6751f1de301a42749f7cd9822",
+                "type": "FIX",
+                "text": "The object page now shows the TreeTable's message identifiers",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0037872"
+                    }
+                ]
+            },
+            {
+                "id": "I21dba6edcfb0886b92ec813a25a79bf4b1ee803c",
+                "type": "FIX",
+                "text": "We've now fixed the issue that came up while retaining the custom variant during external navigation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0014544"
+                    }
+                ]
+            },
+            {
+                "id": "I8bef3954bb460eefe0a952ae6a901dfb81ed329c",
+                "type": "FIX",
+                "text": "Sub-section titles are now considered in the object page as title providers when a section has a single sub-section",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0027926"
+                    }
+                ]
+            },
+            {
+                "id": "If50c69b7df06ac713baf6d66ab8603fe55c8d5f0",
+                "type": "FIX",
+                "text": "We've fixed the batch call issue in non-draft for required properties and a batch call is not triggered now if a required or mandatory field is not filled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001422332023"
+                    }
+                ]
+            },
+            {
+                "id": "I17ca861b976a68786dfc268026aca85a1f7105ba",
+                "type": "FIX",
+                "text": "We've now fixed the issue with finding the first editable cell in the UI tables",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0020074"
+                    }
+                ]
+            },
+            {
+                "id": "Id2579556ca1f63be5c2ca60c34d3a9149dc69af9",
+                "type": "FIX",
+                "text": "We've now added the header style property to smart table and smart chart in the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0019202"
+                    }
+                ]
+            },
+            {
+                "id": "Iafd1ece8b067004c0217bc19870afe3cfa2641d0",
+                "type": "FIX",
+                "text": "We've now improved the back navigation in fixed column layout when a draft is cancelled in between",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0048276"
+                    }
+                ]
+            },
+            {
+                "id": "I9112bfaeed67d4703a9cca7180e033bdacee8c4e",
+                "type": "FIX",
+                "text": "Clean up actions are now performed correctly when the transient message dialog is closed in all the scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006768134"
+                    }
+                ]
+            },
+            {
+                "id": "Id2ba6a695659b02199b2a84bb7a8dc2213e0263b",
+                "type": "FIX",
+                "text": "An error message dialog is now displayed instead of navigating to the 'Object Not Found' page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006768134"
+                    }
+                ]
+            },
+            {
+                "id": "I9b03e7887e60de216daf1bafc7cc332e669858d4",
+                "type": "FIX",
+                "text": "The column width can now be calculated by setting the CustomConfig of smart table",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0050957"
+                    }
+                ]
+            },
+            {
+                "id": "Ibccba590bf1177ee42081fafe8016efb98c2b656",
+                "type": "FIX",
+                "text": "For the mobile devices, Save menu button label is now displayed properly on the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0053728"
+                    }
+                ]
+            }
+        ]
+    }
+}

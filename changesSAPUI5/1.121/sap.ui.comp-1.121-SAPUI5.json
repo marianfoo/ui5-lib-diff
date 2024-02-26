@@ -1,0 +1,451 @@
+{
+    "1.121.0": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "76f18d450ce6460b0b7881af7bf1a9b57d1c9566",
+                "type": "FEATURE",
+                "text": " FilterBar: headerLevel property is now introduced"
+            },
+            {
+                "id": "84984e378fe81b0c2bc01ef19e05e268105f67c4",
+                "type": "FIX",
+                "text": " SmartField: Initialise event is now fired after metadata initialization"
+            },
+            {
+                "id": "3ad9892cf86da6f873bab1a7b455a1273d67b051",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Timestamp fields now consider milliseconds in a query"
+            },
+            {
+                "id": "0ce49fece04a2d46e3e72ea70ba49d51dc54cd1e",
+                "type": "FEATURE",
+                "text": " SmartField: Support for ObjectStatus is now added"
+            },
+            {
+                "id": "d31ad68927288c20c3e9be5be0527bdc87438e67",
+                "type": "FIX",
+                "text": " SmartField: Additional filters is now added to the query"
+            },
+            {
+                "id": "226502d313ad6904620841df37499aa8943f6023",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Listing separate filters from the NavigationProperty is now supported"
+            },
+            {
+                "id": "c61c8ee841ef8aec543624d34a63b7782627372a",
+                "type": "FIX",
+                "text": " FilterBar: fireFilterChange is triggered when reset button is missing"
+            },
+            {
+                "id": "bf0747fe62bb9af639c144c9b5b0ef058bd4d8b2",
+                "type": "FIX",
+                "text": " SmartFilterBar: validation for ComboBox"
+            },
+            {
+                "id": "6a74776b7a136abefd534ba5537122eb4f6f5ed9",
+                "type": "FIX",
+                "text": " SmartTable: Support assistant rule broken"
+            },
+            {
+                "id": "3a9ed00f4c7af0dbd30081682ba6f5bba4027b1e",
+                "type": "FIX",
+                "text": " SmartFilterBar: Single field TextArrangement parse the text to validate",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370119718"
+                    }
+                ]
+            },
+            {
+                "id": "e02a5f7cd1f6f6ada1e517e8245e28b821c0fa0a",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct single text arrangement when multiple calls to setFilterData are performed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010363562023"
+                    }
+                ]
+            },
+            {
+                "id": "d61d96fe1fba61f510af5f3b77517385a3852c65",
+                "type": "FIX",
+                "text": " comp.SmartVariantManagement: property enabled handling corrected"
+            },
+            {
+                "id": "3f4c08a31361c03cf7c4718081bcdb5c50a13882",
+                "type": "FIX",
+                "text": " SmartFilterBar: Boolean filters now return correct boolean values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009408902023"
+                    }
+                ]
+            },
+            {
+                "id": "2aa45d1fce750d2f1ba98233a92d5cfb07318ba4",
+                "type": "FIX",
+                "text": " SmartField: Label is now properly updated and displayed on UoM scenario"
+            },
+            {
+                "id": "a07431fcb6edd806adf0af5fdca3974c9a9a4fb3",
+                "type": "FIX",
+                "text": " SmartFilterBar: validation for ComboBox performed on search",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500011101462023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007464252023"
+                    }
+                ]
+            },
+            {
+                "id": "df2aa39b650b5f8f78f145fa9550e4034f932f4a",
+                "type": "FIX",
+                "text": " SmartField: Change event correctly propagates the new value.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370128224"
+                    }
+                ]
+            },
+            {
+                "id": "c7f83cc0c9192ed5bd91ef22e1841400682624d9",
+                "type": "FIX",
+                "text": " SmartField: Currency is now correctly read out when not editable"
+            },
+            {
+                "id": "7551e17f7442d1c07d4e93a6e02fc57ed5082a0b",
+                "type": "FIX",
+                "text": " SmartField: FieldControl has now precedence over FunctionImport context"
+            },
+            {
+                "id": "c1865afaee9c5b95a24a7e18be8af8d3ae4d2c30",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Enhancements for Paste into filter fields"
+            },
+            {
+                "id": "f225461ff9e5820a0212a8f694b9e97108cb7f3a",
+                "type": "FIX",
+                "text": " SmartField: ComboBox busy indicator"
+            },
+            {
+                "id": "f03e4256d6de9cab8678456cd282f3562ddc3fa0",
+                "type": "FIX",
+                "text": " SmartField: history values are now update from ValueHelpDialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "361341d3b59c0c0329256fadb9275af59b10f3f2",
+                "type": "FIX",
+                "text": " SmartFilterBar: Empty operator for Edm.Guid type now sends default guid instead of empty string"
+            },
+            {
+                "id": "b4bf39dfbbb30c0beb0eda6da2222f5d27aade46",
+                "type": "FIX",
+                "text": " FilterProvider: Tooltip is correctly set for numeric fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010770942023"
+                    }
+                ]
+            },
+            {
+                "id": "d8e86086984e081372f317e45d1301631603f17f",
+                "type": "FEATURE",
+                "text": " FilterController: Filter dialog now offers filtering for description"
+            },
+            {
+                "id": "c28ea44df369e26e12e014d029f5d04003e48a9c",
+                "type": "FIX",
+                "text": " FilterPanel: Filter for fiscal year period now works correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010507452023"
+                    }
+                ]
+            },
+            {
+                "id": "9d0bdcf1516e90ac475fea0d8b5ca2ad88ebaf71",
+                "type": "FEATURE",
+                "text": " Smart Field: Error messages for TextOnly Fields in Input and ComboBox"
+            },
+            {
+                "id": "4cc11d387555f983369ed800934f1b24f8244a6c",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: <Empty> operator for NUMC fields is now introduced"
+            },
+            {
+                "id": "49ec9815105c0eee19f417ee96e15a32e8a89f03",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement nullable with clientSideMandatoryCheck false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380137468"
+                    }
+                ]
+            },
+            {
+                "id": "001e957530c67a0fa6824698cd98a3b10d35dd61",
+                "type": "FIX",
+                "text": " ValueHelpDialog: ignore line item annotation for SmartTable in ValueHelpDialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380137505"
+                    }
+                ]
+            },
+            {
+                "id": "2c5c9bb62b2366683b886b58a0440180d1047550",
+                "type": "FEATURE",
+                "text": " DateRangeType: Timestamp fields considering milliseconds in query"
+            },
+            {
+                "id": "2c6372956266a83dce8960d5679a2c8184fe79a3",
+                "type": "FIX",
+                "text": " SmartFilterBar: Single filter field doesn't select row if there are multiple rows with same key",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009320992023"
+                    }
+                ]
+            },
+            {
+                "id": "c5fe98e6206930846c677bbc9b16dc395cf51cca",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Correct SmartTable behaviour when CollectiveSearch is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380136459"
+                    }
+                ]
+            },
+            {
+                "id": "859d43de75f0a76c783fab9b2b724a1eed69e54a",
+                "type": "FIX",
+                "text": " GroupPanel: Show Field as Column fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370132463"
+                    }
+                ]
+            },
+            {
+                "id": "2ad1a3ee2f447893449f4d9ebeda429698b20169",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Tokenizer is now displayed correctly on horizon theme",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370144977"
+                    }
+                ]
+            },
+            {
+                "id": "61ee5fc6bfecf3045dcb24c64d1a2c0be4fc172d",
+                "type": "FIX",
+                "text": " SmartField: Selection from ValueHelp dialog fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380134089"
+                    }
+                ]
+            },
+            {
+                "id": "ec71c5008cc1dc1ae4ff5ec593645c502352912e",
+                "type": "FIX",
+                "text": " SmartFilterBar: checkSearchAllowed now does not sets errors for condition type fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150729"
+                    }
+                ]
+            },
+            {
+                "id": "b5b1a90f14534990956808e8d24ac5e138121277",
+                "type": "FIX",
+                "text": " ValueHelpDialog: copy button now has meaningful tooltip",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380135661"
+                    }
+                ]
+            },
+            {
+                "id": "e8a4114eb06a20b8b35189d0936a65d9a95292c1",
+                "type": "FIX",
+                "text": " ControlProvider: ValueList metadata is fetched only if needed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370139886"
+                    }
+                ]
+            },
+            {
+                "id": "213d622f28aafc348e6b3fdb61c03da60f3daba7",
+                "type": "FIX",
+                "text": " ValueHelpDialog not throw exception when getTable is called right after open",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370151600"
+                    }
+                ]
+            },
+            {
+                "id": "bb322a0135b0b656b1382f42e5c321c3f3f6f6f0",
+                "type": "FIX",
+                "text": " comp.SVM: always reset the author after a new view was saved",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500010238712023"
+                    }
+                ]
+            },
+            {
+                "id": "d7b227703fbfdfc5ff7c1375aa596b0c17144fdf",
+                "type": "FEATURE",
+                "text": " SmartField: Support for \"UI.Placeholder” annotation"
+            },
+            {
+                "id": "2e16a35905daeb7bf4894ae8ea47e7e5b849ccbb",
+                "type": "FIX",
+                "text": " Adapt sp/ui/core/Component.get(...) calls to new sap/ui/core/Component.getComponentById"
+            },
+            {
+                "id": "e4241bdeb714cd45923e33aa5238969edede1f1d",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Inputs in Define Conditions panel now have accessible name",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "127d46bd01debd4613c9176f86d7aab2b0d1df87",
+                "type": "FIX",
+                "text": " SmartFilterBar: prevent invalid values from AdaptFilters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370134136"
+                    }
+                ]
+            },
+            {
+                "id": "c4996b726aa664e79bf075aad1789e02b8346130",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct single text arrangement when multiple calls to setFilterData are performed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370105353"
+                    }
+                ]
+            },
+            {
+                "id": "20a3a46cc7e4a12cc9be6df870b3abb5a0fc26be",
+                "type": "FIX",
+                "text": " SmartTable: Lazy loading of annotations",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370134145"
+                    }
+                ]
+            },
+            {
+                "id": "40ef4f348726381e2bdde8897191ec2aef2c2398",
+                "type": "FIX",
+                "text": " ValueHelpDialog: table selectionBehavior is now RowSelector for multi selection fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "0b4ff0e9604fa8a0471804aef587e948477f70a2",
+                "type": "FIX",
+                "text": " SmartField: Lazy loading of annotations in SmartTable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370049520"
+                    }
+                ]
+            },
+            {
+                "id": "70befc34bfa6d654767352bc3690db4fa10c215e",
+                "type": "FIX",
+                "text": " FilterPanel: Single DynamicDateRange fields do not add default values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370109414"
+                    }
+                ]
+            },
+            {
+                "id": "56897266c5df58589e2eb1a6e4be8b68056baae0",
+                "type": "FIX",
+                "text": " FilterPanel: Filtering is now working for fields binded via association entity",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008379452023"
+                    }
+                ]
+            },
+            {
+                "id": "b99797932ef7e18ecc4d1cb71caf9611292c2b7e",
+                "type": "FIX",
+                "text": " SmartField: null rendered with Common.Text in display mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370108763"
+                    }
+                ]
+            },
+            {
+                "id": "4b36b8b841970a50cc95134bdfdb9b046128e92f",
+                "type": "FIX",
+                "text": " In case of deep create the model create entry only expects path and properties with oData",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007448682023"
+                    }
+                ]
+            }
+        ]
+    }
+}

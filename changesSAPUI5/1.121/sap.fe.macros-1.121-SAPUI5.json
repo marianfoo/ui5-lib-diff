@@ -1,0 +1,624 @@
+{
+    "1.121.0": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "fcecd4ba652d392b4a48be07cc4e2e3ce859bc99",
+                "type": "FIX",
+                "text": " We've resolved an issue with the display of header facets in an object page"
+            },
+            {
+                "id": "cd2daa70f0778768055f5fb5bb3627a402336809",
+                "type": "FIX",
+                "text": " We now also show recently used values for fields that have a value"
+            },
+            {
+                "id": "5cd2b71722cd3fc57f5727302514190e4bacfde0",
+                "type": "FEATURE",
+                "text": " We now hide the label of the text area if it is the only field in a section or subsection on an object page"
+            },
+            {
+                "id": "a46c7aa7aa1d8d3dae22324cfd653f8077675386",
+                "type": "FIX",
+                "text": " We no longer display ‘undefined’ under a collection facet when no label is defined"
+            },
+            {
+                "id": "4da7bbe0ae03a987afefbd3eddfabd8a2aee37b1",
+                "type": "FEATURE",
+                "text": " We have now restructured the suggestion list shown for Value Help fields"
+            },
+            {
+                "id": "8e3d895e04409069d007760142082b013f41e29f",
+                "type": "FIX",
+                "text": " We no longer display a table context menu if it is empty"
+            },
+            {
+                "id": "e767949ef2877cbd74e0b47c51da9d48f89e3482",
+                "type": "FEATURE",
+                "text": " App developers can now use SAP Fiori tools in adaptation projects to adapt tables"
+            },
+            {
+                "id": "0babb2bdcefc597eb923fcfc09226cf221ef5347",
+                "type": "FEATURE",
+                "text": " In the header facet, we now consider the UI.Hidden annotation set on a DataPoint"
+            },
+            {
+                "id": "15f38e4278cc60bf2d24fa0a1256279e0bb1c4d2",
+                "type": "FEATURE",
+                "text": " We now provide an option in the context menu to open an item in a new tab or window"
+            },
+            {
+                "id": "5a4d041042422be864c59baf337122c29aa0edd7",
+                "type": "FEATURE",
+                "text": " We now enable app developers to hide the options Share: Microsoft Teams and Send E-Mail from the Share menu"
+            },
+            {
+                "id": "247fad66dfba53098ce71e7ffde746f7c6221745",
+                "type": "FIX",
+                "text": " We’ve resolved and issue with using unit of measure fields in the collaborative draft"
+            },
+            {
+                "id": "b7208f1afb1f91e710dce9366ee67656a9852de6",
+                "type": "FIX",
+                "text": " Maven build for a table now loads the library instead of individual files"
+            },
+            {
+                "id": "c7f2fd8ce250c9ce2eb985f7a0229ca0e0840f11",
+                "type": "FIX",
+                "text": " We now correctly manage the UI.hidden annotation for the field group of the quick view popover"
+            },
+            {
+                "id": "3470775c17f5e9b9c131289e70da197ec127af9f",
+                "type": "FEATURE",
+                "text": " We now provide getCurrentVariantKey and setCurrentVariantKey as public APIs for the Chart API"
+            },
+            {
+                "id": "93d14828ff63ef09781ebdd82c51b92158ffffc1",
+                "type": "FEATURE",
+                "text": " Avoid rendering an empty QuickView when no details are available"
+            },
+            {
+                "id": "b1f5b150c87b0b16cade2ea9384d1735bebc6105",
+                "type": "FIX",
+                "text": " You can now use the odata.concat function for labels in reference facets"
+            },
+            {
+                "id": "a46098e50c6c38b0aa91594b4eb11bb14945ce4d",
+                "type": "FIX",
+                "text": " We now ensure that copying a row in a table with the draft indicator in a separate columns works correctly"
+            },
+            {
+                "id": "3b366d54d321a726f38a39e2912a0822aca7f740",
+                "type": "FIX",
+                "text": " We've resolved an issue that prevented the object identifier from being clickable"
+            },
+            {
+                "id": "ef0731400367379a6e249f46bc9a915f7ff90509",
+                "type": "FEATURE",
+                "text": " We now support the annotation SelectionPresentationVariant on a building block Table and an object page facet"
+            },
+            {
+                "id": "c68484fa61d9b437ac95b0898e4747132b39109b",
+                "type": "FIX",
+                "text": " We now ensure that the expandable text 'Show More' is clickable"
+            },
+            {
+                "id": "78db32ade2647973d045d0d122ca3a1e4f57559d",
+                "type": "FIX",
+                "text": " Filterable properties listed in table personalization are now synchronized with the filterable properties in the filter bar"
+            },
+            {
+                "id": "bedd68d3b441c2d38dcfc8ca8453e4b209d8aaad",
+                "type": "FEATURE",
+                "text": " We've reduced the number of batch requests when starting an application with parameters or x-app state"
+            },
+            {
+                "id": "00b37d0ba60e141b11594e81f3a64756c677e593",
+                "type": "FEATURE",
+                "text": " We now use blanks instead of dashes for empty stream properties in tables"
+            },
+            {
+                "id": "656d59a3b2a52a8391a586234db555fed0763ac4",
+                "type": "FEATURE",
+                "text": " We now exclude navigation properties from external navigation"
+            },
+            {
+                "id": "a28489b4b895d8311960460b8374c6c4d19431b0",
+                "type": "FEATURE",
+                "text": " We now support parameterized entity sets for charts"
+            },
+            {
+                "id": "ba3c7ffc25e42b70e52197b8e1db8f25aa276529",
+                "type": "FEATURE",
+                "text": " The section or subsection title is now merged with the table or chart title if the section or subsection only has one table or chart control"
+            },
+            {
+                "id": "fab7da442410675e6194d6ecb4c59f284e96ec93",
+                "type": "FEATURE",
+                "text": " We now provide APIs that can programmatically enable and disable filter fields"
+            },
+            {
+                "id": "647fd106c1a67c2de57e17d0c3845a350ce63bb0",
+                "type": "FEATURE",
+                "text": " We now support multi-value filtering with custom operators in the FilterBar"
+            },
+            {
+                "id": "426a458dbc1966f201419c29734ca9379ef8b3ec",
+                "type": "FIX",
+                "text": " We now ensure that connected fields correctly displays the asterisk sign for mandatory fields, and that the valuehelp is properly loaded"
+            },
+            {
+                "id": "34ae6f2f3c7082d964a11f3a7e4c9fcdc5c627f4",
+                "type": "FEATURE",
+                "text": " We now provide getCurrentVariantKey and setCurrentVariantKey as public APIs for the FilterBarAPI"
+            },
+            {
+                "id": "453d41d310f62882882d04b2ee1377caeaea43bb",
+                "type": "FIX",
+                "text": " We now show the recently used values for unit of measurement fields and take values from multiple conditions"
+            },
+            {
+                "id": "80544d8c00262c937c245dd74fd1c39a5533b78c",
+                "type": "FEATURE",
+                "text": " The Table building block now supports the analytical table type"
+            },
+            {
+                "id": "6cdb8b036d033d6cf14a7eeeae11efecbcb897ec",
+                "type": "FEATURE",
+                "text": " We now support the annotation @Common.IsNaturalPerson for the avatar"
+            },
+            {
+                "id": "efa022d393a1c22fe1cbaf0127fa9fec027eeab3",
+                "type": "FIX",
+                "text": " We now ensure the value help works also in a MultiValueField that has a ValueListParameterIn property"
+            },
+            {
+                "id": "bb9e4628687f8f1d1941c474794924611be7f97c",
+                "type": "FIX",
+                "text": " The Form building block can now have a metaPath that uses 1:1 navigation pointing to a FieldGroup annotation"
+            },
+            {
+                "id": "2eed10e71186ecf3ccd789c64fbc422feb145682",
+                "type": "FIX",
+                "text": " We now only check the relative navigation properties when enabling table filtering"
+            },
+            {
+                "id": "082d1d495d334a2eb6ea9b590dc062a60af2241f",
+                "type": "FEATURE",
+                "text": " We now provide getPresentationVariant and setPresentationVariant as public APIs for the Table building block"
+            },
+            {
+                "id": "0a8b31d23ccf7d763f1f669126ab87435954536b",
+                "type": "FIX",
+                "text": " We now ensure a MultiValue Field that’s used in a read-only Table building block isn’t editable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150811"
+                    }
+                ]
+            },
+            {
+                "id": "3ae0f8daf23c63a17527747c5758e2ece95e86c6",
+                "type": "FEATURE",
+                "text": " We now allow enhancing the request of the Table building block before rebinding it"
+            },
+            {
+                "id": "b3d94d3f2b31c31f10830c88cb7ff29f0301fd85",
+                "type": "FEATURE",
+                "text": " We now support optimistic batch requests for list reports in auto-load scenarios in SAP Fiori elements for OData V4"
+            },
+            {
+                "id": "303c644b6257aed98a1f0fef7b047ec4fba31d61",
+                "type": "FEATURE",
+                "text": " We now provide stable IDs for the Field building block when used in standalone mode"
+            },
+            {
+                "id": "34bcf45699de00b3933e0caab87a70fe8323c228",
+                "type": "FIX",
+                "text": " We now correctly trigger the SideEffects annotation when a new row is created using the inline creation mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380137947"
+                    }
+                ]
+            },
+            {
+                "id": "57a3e750423b7de86def14a418ff7320fe9ab40b",
+                "type": "FIX",
+                "text": " We now support filter restrictions on navigation properties",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370148766"
+                    }
+                ]
+            },
+            {
+                "id": "c9ce4e6b8c7609cd3be5915b05b180a6d8d9d368",
+                "type": "FIX",
+                "text": " We now ensure that a multi-valued field in a list report that uses the flexible column layout is not editable when the object page is in edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380135952"
+                    }
+                ]
+            },
+            {
+                "id": "3acdde149301f95e80b3e3d1a353556fcae03f6d",
+                "type": "FIX",
+                "text": " We now check for the maximum allowed length of an email address when entering it in an input field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380136662"
+                    }
+                ]
+            },
+            {
+                "id": "f8c0d2085e0cd32acf8b99205b208151b45672df",
+                "type": "FEATURE",
+                "text": " We now provide a generic context menu for tables in the list report and the object page"
+            },
+            {
+                "id": "d728d8365a13ce4dfdbed3520b0e2799d37aa322",
+                "type": "FIX",
+                "text": " We've now added the prefix 'cmd:' to the commands defined in the manifest for actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370144348"
+                    }
+                ]
+            },
+            {
+                "id": "6b46ff92104e598c2d1e85dad76c5fcab864a9e3",
+                "type": "FIX",
+                "text": " We now ensure that the relevant custom filters are also correctly applied to other entity sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370128365"
+                    }
+                ]
+            },
+            {
+                "id": "125c98caa29a5fd8626b6c7ec04607ff6c45b998",
+                "type": "FIX",
+                "text": " We have resolved an issue with calculating the column width for tables used in type-aheads and for tables used in value helps with fixed values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008018982023"
+                    }
+                ]
+            },
+            {
+                "id": "3349164710be245d7670516f378ffa9145558ec3",
+                "type": "FIX",
+                "text": " Links with stream properties are now enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150134"
+                    }
+                ]
+            },
+            {
+                "id": "b483883181d980910d0b4c542161f9625ba88d59",
+                "type": "FIX",
+                "text": " We now ensure that the byID provided by our ExtensionAPI returns custom controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370149089"
+                    }
+                ]
+            },
+            {
+                "id": "b692be41de84d3c51280f9af33e7b11f1d03e83d",
+                "type": "FIX",
+                "text": " We now consider the required field indicator when calculating the column width",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370110211"
+                    }
+                ]
+            },
+            {
+                "id": "4917a16ffdfacefce69118f34a2c80c9fbb2300b",
+                "type": "FIX",
+                "text": " When exporting a table as split cells, we now ensure that columns with the FieldGroup annotation and custom columns retain the original data type for single cells",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370103093"
+                    }
+                ]
+            },
+            {
+                "id": "375d9f649f8c9e8eaac386188b807bc3b00638aa",
+                "type": "FIX",
+                "text": " We now ensure text annotation is considered for semantic keys inside a grid table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370146239"
+                    }
+                ]
+            },
+            {
+                "id": "ff58c127f0981e7800e07325dc7f9bc2649c4e3d",
+                "type": "FIX",
+                "text": " We now delay the forward navigation from the object page to correctly execute it after saving the draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380078567"
+                    }
+                ]
+            },
+            {
+                "id": "80bbaa18b66307cc76b085b5ea5d1fa3e669092c",
+                "type": "FIX",
+                "text": " We have resolved an issue with displaying the Text annotation in the title of the contact quick view",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370141622"
+                    }
+                ]
+            },
+            {
+                "id": "5054389ef199f2fa2578a58dbc336871160bf858",
+                "type": "FEATURE",
+                "text": " You can now define the 'plugins' attribute for the RichTextEditor building block"
+            },
+            {
+                "id": "7c232c168345bf590cd03682ea171f676d2efb39",
+                "type": "FIX",
+                "text": " We now ensure the draft indicator is displayed for columns annotated with DataFieldForIntentBasedNavigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370139110"
+                    }
+                ]
+            },
+            {
+                "id": "62ccecd6da998af55dd64b7e6d47bdf493864cb0",
+                "type": "FIX",
+                "text": " You can now update the target value of a filter bar in the list report using the ValueHelp Out parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370125601"
+                    }
+                ]
+            },
+            {
+                "id": "ea06ff70c7a82fc642cf486f18eb856c3602fb37",
+                "type": "FEATURE",
+                "text": " Value help fields with the type-ahead dropdown list can now display recently entered values"
+            },
+            {
+                "id": "6a12e77ef8cc9d22d731736e87469189be4dd533",
+                "type": "FIX",
+                "text": " We've resolved an issue with the quick view popover not displaying when the user clicks multiple times on various links",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370134983"
+                    }
+                ]
+            },
+            {
+                "id": "b4874de7bab0a91125525f5c9aa8993ddf661ed4",
+                "type": "FIX",
+                "text": " We've resolved an issue with the width of a text area in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370137269"
+                    }
+                ]
+            },
+            {
+                "id": "660b72b3539b56b7cff43bea6e5fc83e81d3b90f",
+                "type": "FEATURE",
+                "text": " You can now use metadata binding for custom filters and custom form elements"
+            },
+            {
+                "id": "7a04f995c5cc1836201e7dffae4119bce3a422ca",
+                "type": "FEATURE",
+                "text": " We now provide APIs that can programmatically show and hide filter fields"
+            },
+            {
+                "id": "15471b6d62c4277b53b899fb6c13941d8a950d58",
+                "type": "FIX",
+                "text": " We’ve resolved an issue that prevented updating a field with the static unit of measure ‘%’",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370134566"
+                    }
+                ]
+            },
+            {
+                "id": "1506f54f773279fecbb6d3ef820aec2fe5f7ca95",
+                "type": "FIX",
+                "text": " We now correctly manage the SelectionVariant annotation configured with the RangeSignType ‘Exclude’ for multiple views",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007247152023"
+                    }
+                ]
+            },
+            {
+                "id": "d948bbfc22f095c16af14a620fe3ab432170fc99",
+                "type": "FIX",
+                "text": " We no longer retrieve the description with the getDescription method if the key is undefined",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370123221"
+                    }
+                ]
+            },
+            {
+                "id": "5ba319a9441a1682fda73e5c1d291f69736966f9",
+                "type": "FIX",
+                "text": " We have resolved an issue with providing the source context in the isMoveToPositionAllowed extension point",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370130175"
+                    }
+                ]
+            },
+            {
+                "id": "08d350a0ad452a29c7a1b89c084e5a7816e77cb6",
+                "type": "FEATURE",
+                "text": " We now recalculate the default values in empty row mode if the table is refreshed using a side effect"
+            },
+            {
+                "id": "799c4e1688cfed1431eb017cb60290878e96d498",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing progress data points are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370100303"
+                    }
+                ]
+            },
+            {
+                "id": "afd475e26ec348d5160da379c8eaf0151347791d",
+                "type": "FEATURE",
+                "text": " We now provide a getEnabled and setEnabled method for the field"
+            },
+            {
+                "id": "62faecad8d2b97b8594b3e78afe640fb3e7245f9",
+                "type": "FEATURE",
+                "text": " You can now define tooltips for custom columns in the manifest.json and for slot columns using the Table building block"
+            },
+            {
+                "id": "f44ea23f2c2042674e60e393ca352f957fa7179f",
+                "type": "FIX",
+                "text": " We now ensure there is no extra padding added to a field from a field group when it is hidden using an annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370130431"
+                    }
+                ]
+            },
+            {
+                "id": "adcb613b03bf46dcc897136823513586b0c52461",
+                "type": "FIX",
+                "text": " We now ensure the filter values of value help used on a multi-valued field are retrieved correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370107271"
+                    }
+                ]
+            },
+            {
+                "id": "33644bf0455f511a3eb5adf8c24dbf3a98c9dc28",
+                "type": "FIX",
+                "text": " We have resolved several issues when adding items using a MultiValueField",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370121682"
+                    }
+                ]
+            },
+            {
+                "id": "1a44ea29963927a38b75581fda5c7bf347cfbdff",
+                "type": "FEATURE",
+                "text": " We now provide support for telemetry capabilities"
+            },
+            {
+                "id": "6def5247de9639eb3b6393f73e0cb65437875101",
+                "type": "FIX",
+                "text": " Drag and drop is now disabled when dragging an item from a tree table and dropping it outside the tree table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370131643"
+                    }
+                ]
+            },
+            {
+                "id": "f01d044afe2ed8d75b707304b82f0f24a1398b5d",
+                "type": "FIX",
+                "text": " When exporting a table to spreadsheet, the \"Target Value\" column is no longer included for DataPoints without a target value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008815062023"
+                    }
+                ]
+            },
+            {
+                "id": "a82cfff306e3c947a10e05aae3e70ea39b0de70a",
+                "type": "FEATURE",
+                "text": " We now provide a setValue method for the field"
+            },
+            {
+                "id": "53eb9d089bcc22733995fcd2039a84eeb9302685",
+                "type": "FIX",
+                "text": " SideEffects network requests on structural changes (create/delete) relying on MultiValueField are now ordered appropriately",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370113871"
+                    }
+                ]
+            },
+            {
+                "id": "be0eca3a3e882cf86a12e488545d79701f5ab0c3",
+                "type": "FIX",
+                "text": " The messageButton link is now disabled if the associated message is not targeting a property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370106811"
+                    }
+                ]
+            },
+            {
+                "id": "c2384eb7f1a54019f34fab058533fe4e2031eda2",
+                "type": "FIX",
+                "text": " We've resolved an issue that prevented some fields from being editable in an app using the flexible column layout and a sticky edit session.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370083543"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2370083469"
+                    }
+                ]
+            },
+            {
+                "id": "82bdff8aea1136f20fcb6ec82453da7e5ca7a261",
+                "type": "FIX",
+                "text": " We now ensure that the columns containing units are correctly exported",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008126452023"
+                    }
+                ]
+            }
+        ]
+    }
+}

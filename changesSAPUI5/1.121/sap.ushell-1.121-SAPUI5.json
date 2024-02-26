@@ -1,0 +1,306 @@
+{
+    "1.121.0": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "3cfb36a94f5943c68d8129b650f6b54ba258b7fa",
+                "type": "FIX",
+                "text": " Shell.controller: Uncaught Promise rejection during app open"
+            },
+            {
+                "id": "e1a06398e791d18cf3dd39000a309daf6b6f993f",
+                "type": "FIX",
+                "text": " SAPIT app can not be opened second time",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "ca7e80fe8c4900077c2fa8a2e654db98fcad5fb6",
+                "type": "FIX",
+                "text": " Revert fix CEP MenuAdapter Spaces Query"
+            },
+            {
+                "id": "86cfd0843e804805f0dafd7ea7f66ac525884119",
+                "type": "FIX",
+                "text": " Fix CEP MenuAdapter Spaces Query"
+            },
+            {
+                "id": "aaed5d38c9ac762801b6667342b3576721737816",
+                "type": "FIX",
+                "text": " Shell navigation menu title is not fully visible"
+            },
+            {
+                "id": "6f7948c8f8b59f6bb440f19243180d8653c62779",
+                "type": "FIX",
+                "text": " Islamic and Japanese Dates are not properly displayed in SWZ",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "0ffe065d357a02c2cc0130bd5414d47ff325a6e8",
+                "type": "FIX",
+                "text": " RecentActivity: Logging Apps with generic intents"
+            },
+            {
+                "id": "506f54f1874a7bbf13f6007bf285a0a709f468c5",
+                "type": "FIX",
+                "text": " ContentNodeSelector: Only show spaces with selectable pages"
+            },
+            {
+                "id": "445d434b64909f8f8ec3c9aecf501514b471b118",
+                "type": "FIX",
+                "text": " GUI application can not be opened in headerless mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380062205"
+                    }
+                ]
+            },
+            {
+                "id": "eaf820de1744ad94b3b7a91b54124d2cfc6b9998",
+                "type": "FIX",
+                "text": " Fix incorrect App ID displayed in BTP \"about\" dialog."
+            },
+            {
+                "id": "0a248c2e9e4a6e074bb187e3e3d1015cd9d45f98",
+                "type": "FIX",
+                "text": " missing modules in ushell bundles"
+            },
+            {
+                "id": "2baa4f1465d5f9772ab6a8e1d32369cd1c6a23e9",
+                "type": "FIX",
+                "text": " Added language cache buster"
+            },
+            {
+                "id": "3c64831c671a121a0008af25e13af2a7d7d158fa",
+                "type": "FIX",
+                "text": " missing modules in core-min bundles"
+            },
+            {
+                "id": "23c73acaad37a9a50cf17153f6ac17667927acc8",
+                "type": "FIX",
+                "text": " HomepageManager: No supported tile intents in first segment"
+            },
+            {
+                "id": "827ce1431a312720ddb358ad517c1149fbb00dec",
+                "type": "FIX",
+                "text": " 'isIntentSupported' API does not work in scube",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "13b3831a70c31269a8a77a203d1db72c65dff0e6",
+                "type": "FIX",
+                "text": " sap.ushell: Explace navigation in WZ corrected"
+            },
+            {
+                "id": "6bc2e1186841bd045ad9e8198f624bdf3a11d06b",
+                "type": "FIX",
+                "text": " Transparent Background Design for Enabling Custom Theme Background Images"
+            },
+            {
+                "id": "ed823df8688edcb14549c472a1eeb53d5ef25f7a",
+                "type": "FIX",
+                "text": " Add tooltip to truncated titles in CEP search lists.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "74e92669fc0f89e09a7cdaba6dda2f1ca13d2d7e",
+                "type": "FIX",
+                "text": " sap.ushell.ShellHeader: Focus outline for User Menu Avatar corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380132701"
+                    }
+                ]
+            },
+            {
+                "id": "b47695cca6d34f743bc878fff886087f6d0809b6",
+                "type": "FIX",
+                "text": " Retain wcf-target-id during compacting of URL params.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "e2bcc2f7eea8cc2bca0f07ca398089f9497fb89b",
+                "type": "FIX",
+                "text": " Fix getRecentActivity usage",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380141932"
+                    }
+                ]
+            },
+            {
+                "id": "de8b2dd243120000f10a78b57fe5bfc451368d94",
+                "type": "FIX",
+                "text": " sap.ushell.services.NotificationsV2: Session timeout error handling in 'polling' mode corrected.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380141640"
+                    }
+                ]
+            },
+            {
+                "id": "ae3315c9572698ff98d3bca3e2c5312f5e198380",
+                "type": "FIX",
+                "text": " sap.ushell.services.NotificationsV2: XSRF-Token handling ensured to not send request with undefined value",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380138351"
+                    }
+                ]
+            },
+            {
+                "id": "a687c3541ed70c4f36f166f32fb27e7fb1aefa46",
+                "type": "FIX",
+                "text": " urlTemplateResolution: Adapt Input",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370131449"
+                    }
+                ]
+            },
+            {
+                "id": "d171f678cf626d0bd6ce4d2e2da9d316eb82d7b6",
+                "type": "FIX",
+                "text": " scube app link does not open correctly in new tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370125154"
+                    }
+                ]
+            },
+            {
+                "id": "5408d61f13188b39bcbe8c5d775919a79cec5736",
+                "type": "FIX",
+                "text": " sap.ushell.components.applicationIntegration.configuration.AppMeta: FavIcon for SAP themes and Customer Themes corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "fd7637060881a2f420b65e0e3bb9686fdf1a48c8",
+                "type": "FIX",
+                "text": " sap.ushell.ui.shell.SysInfoBar: Predefined color setting for Camelcase usages enabled"
+            },
+            {
+                "id": "ef09c1b94ebd1c5ee35940db21729b0516f074c0",
+                "type": "FIX",
+                "text": " sap.ushell.utils.getThemingParameters: Single parameter request fixed to enabled CanvansShapes rendering again",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376700064506002023"
+                    }
+                ]
+            },
+            {
+                "id": "b77a8960e7450748352a15bf507defb74cd6cf69",
+                "type": "FIX",
+                "text": " ShellAppTitle: Title and Button DOM structure separated",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008260532023"
+                    }
+                ]
+            },
+            {
+                "id": "f3f0c63dba9f2f5f2f1bff21bbf09a328451ba34",
+                "type": "FIX",
+                "text": " pages and spaces not working in AppRuntime",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009636782023"
+                    }
+                ]
+            },
+            {
+                "id": "30fa4538bc42eac20afb0d61906ff580acefb538",
+                "type": "FIX",
+                "text": " Enable sap-spaces parameter in scube URL",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370140117"
+                    }
+                ]
+            },
+            {
+                "id": "883c8c95cac096bbbc83a6e296b255caf3449a33",
+                "type": "FEATURE",
+                "text": " Share current app information with FLP"
+            },
+            {
+                "id": "1db8a7653be81b28375e6f689a1ec0d4b82c98ce",
+                "type": "FIX",
+                "text": " custom configuration favicon",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009059492023"
+                    }
+                ]
+            },
+            {
+                "id": "adb1640d4764eee027b3cc732bab4f53ca440b7a",
+                "type": "FIX",
+                "text": " Visualization: Tiles no longer have an inner and outer focus",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008260212023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008260822023"
+                    }
+                ]
+            },
+            {
+                "id": "cad323bf8552d2fcffae78ed61fa44770ba76448",
+                "type": "FIX",
+                "text": " Section: superfluous tab indices of unused areas removed #2",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008259152023"
+                    }
+                ]
+            }
+        ]
+    }
+}

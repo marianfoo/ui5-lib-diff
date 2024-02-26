@@ -1,0 +1,244 @@
+{
+    "1.121.0": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "5cd2b71722cd3fc57f5727302514190e4bacfde0",
+                "type": "FEATURE",
+                "text": " We now hide the label of the text area if it is the only field in a section or subsection on an object page"
+            },
+            {
+                "id": "0babb2bdcefc597eb923fcfc09226cf221ef5347",
+                "type": "FEATURE",
+                "text": " In the header facet, we now consider the UI.Hidden annotation set on a DataPoint"
+            },
+            {
+                "id": "5a4d041042422be864c59baf337122c29aa0edd7",
+                "type": "FEATURE",
+                "text": " We now enable app developers to hide the options Share: Microsoft Teams and Send E-Mail from the Share menu"
+            },
+            {
+                "id": "93d14828ff63ef09781ebdd82c51b92158ffffc1",
+                "type": "FEATURE",
+                "text": " Avoid rendering an empty QuickView when no details are available"
+            },
+            {
+                "id": "bedd68d3b441c2d38dcfc8ca8453e4b209d8aaad",
+                "type": "FEATURE",
+                "text": " We've reduced the number of batch requests when starting an application with parameters or x-app state"
+            },
+            {
+                "id": "00b37d0ba60e141b11594e81f3a64756c677e593",
+                "type": "FEATURE",
+                "text": " We now use blanks instead of dashes for empty stream properties in tables"
+            },
+            {
+                "id": "656d59a3b2a52a8391a586234db555fed0763ac4",
+                "type": "FEATURE",
+                "text": " We now exclude navigation properties from external navigation"
+            },
+            {
+                "id": "a28489b4b895d8311960460b8374c6c4d19431b0",
+                "type": "FEATURE",
+                "text": " We now support parameterized entity sets for charts"
+            },
+            {
+                "id": "ba3c7ffc25e42b70e52197b8e1db8f25aa276529",
+                "type": "FEATURE",
+                "text": " The section or subsection title is now merged with the table or chart title if the section or subsection only has one table or chart control"
+            },
+            {
+                "id": "fab7da442410675e6194d6ecb4c59f284e96ec93",
+                "type": "FEATURE",
+                "text": " We now provide APIs that can programmatically enable and disable filter fields"
+            },
+            {
+                "id": "4b6c87de42641450c563dee254ae2501b57c4518",
+                "type": "FIX",
+                "text": " We now add the attribute 'silent' to the focus TargetInfo for the first focused filter field to ensure the type-ahead is not triggered for this field"
+            },
+            {
+                "id": "647fd106c1a67c2de57e17d0c3845a350ce63bb0",
+                "type": "FEATURE",
+                "text": " We now support multi-value filtering with custom operators in the FilterBar"
+            },
+            {
+                "id": "dcaea317b7208ac2a02c7542e832ca1e0d3d149b",
+                "type": "FEATURE",
+                "text": " We now use the LightBox control to display avatars in the object page header"
+            },
+            {
+                "id": "e103f0dfb829c844fd458a53248575d9241aec38",
+                "type": "FIX",
+                "text": " We no longer display information about any active filters in the filter bar of the list report in case the filter bar is hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370127004"
+                    }
+                ]
+            },
+            {
+                "id": "b3d94d3f2b31c31f10830c88cb7ff29f0301fd85",
+                "type": "FEATURE",
+                "text": " We now support optimistic batch requests for list reports in auto-load scenarios in SAP Fiori elements for OData V4"
+            },
+            {
+                "id": "090126af5ab09459e93f7611660d00b0558b90c4",
+                "type": "FEATURE",
+                "text": " We now support parameterized entity sets in applications using analytical tables"
+            },
+            {
+                "id": "bf5f76229bc0050adbc240a1ebee019fbaa7a4e4",
+                "type": "FEATURE",
+                "text": " We've now implemented a manifest setting openInEditMode, that allows to open an object page directly in edit mode"
+            },
+            {
+                "id": "f8c0d2085e0cd32acf8b99205b208151b45672df",
+                "type": "FEATURE",
+                "text": " We now provide a generic context menu for tables in the list report and the object page"
+            },
+            {
+                "id": "d728d8365a13ce4dfdbed3520b0e2799d37aa322",
+                "type": "FIX",
+                "text": " We've now added the prefix 'cmd:' to the commands defined in the manifest for actions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370144348"
+                    }
+                ]
+            },
+            {
+                "id": "6b46ff92104e598c2d1e85dad76c5fcab864a9e3",
+                "type": "FIX",
+                "text": " We now ensure that the relevant custom filters are also correctly applied to other entity sets",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370128365"
+                    }
+                ]
+            },
+            {
+                "id": "8ffdeba67eabe01b0b1336e4ecccdc27169c34d1",
+                "type": "FIX",
+                "text": " We now ensure that the opensOnFocus value of the MDC field is set based on the focusInfo parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380109591"
+                    }
+                ]
+            },
+            {
+                "id": "29636f81848fd5213a6f3c107df5732b643719d7",
+                "type": "FIX",
+                "text": " We now set the focus on the first editable field upon the initial load of the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370145528"
+                    }
+                ]
+            },
+            {
+                "id": "e0dbad10c032b492944952b0737cf94a9515ace8",
+                "type": "FIX",
+                "text": " We now ensure the summary text for active filters is not displayed when the filter bar in a list report is hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370127004"
+                    }
+                ]
+            },
+            {
+                "id": "b692be41de84d3c51280f9af33e7b11f1d03e83d",
+                "type": "FIX",
+                "text": " We now consider the required field indicator when calculating the column width",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370110211"
+                    }
+                ]
+            },
+            {
+                "id": "80bbaa18b66307cc76b085b5ea5d1fa3e669092c",
+                "type": "FIX",
+                "text": " We have resolved an issue with displaying the Text annotation in the title of the contact quick view",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370141622"
+                    }
+                ]
+            },
+            {
+                "id": "ea06ff70c7a82fc642cf486f18eb856c3602fb37",
+                "type": "FEATURE",
+                "text": " Value help fields with the type-ahead dropdown list can now display recently entered values"
+            },
+            {
+                "id": "747ef37fa77662c48c2f28d507728a4ccaf686d6",
+                "type": "FEATURE",
+                "text": " You can now define and hide the table header using the manifest.json"
+            },
+            {
+                "id": "93dc7f72ef258c4af129a2d1333a934e8d7350e5",
+                "type": "FEATURE",
+                "text": " We now support the preferredMode=edit parameter that launches an object page directly in edit mode"
+            },
+            {
+                "id": "963080a0b590c78506857138b1ede76c28ba977b",
+                "type": "FIX",
+                "text": " We now check that the OperationAvailable annotation exists and is set to true before enabling an action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370129568"
+                    }
+                ]
+            },
+            {
+                "id": "08d350a0ad452a29c7a1b89c084e5a7816e77cb6",
+                "type": "FEATURE",
+                "text": " We now recalculate the default values in empty row mode if the table is refreshed using a side effect"
+            },
+            {
+                "id": "33644bf0455f511a3eb5adf8c24dbf3a98c9dc28",
+                "type": "FIX",
+                "text": " We have resolved several issues when adding items using a MultiValueField",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370121682"
+                    }
+                ]
+            },
+            {
+                "id": "00b1452150a7e951533b5144c88d35e9d522b0f5",
+                "type": "FIX",
+                "text": " The message strip on the object page is now context-specific",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370116214"
+                    }
+                ]
+            },
+            {
+                "id": "9ec04032b03f37245758135434d01028a8afc2fc",
+                "type": "FIX",
+                "text": " We now ensure that the opensOnFocus value is set based on the focusInfo parameter",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380109591"
+                    }
+                ]
+            }
+        ]
+    }
+}
