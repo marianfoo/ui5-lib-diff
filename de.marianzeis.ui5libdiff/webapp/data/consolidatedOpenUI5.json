@@ -15684,6 +15684,42 @@
     ]
   },
   {
+    "version": "1.120.9",
+    "date": "2024.02.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Focus of IconTabFilter is not changing"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Page: Focus element is scrolled into view"
+          },
+          {
+            "type": "FIX",
+            "text": " We've introduced the isTrustedSource property as a security enhancement for the PDFViewer control as detailed in the API reference"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: Resolve issue preventing text selection with mouse"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/Lib: Improve Error Message reg. Pseudo Modules"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.8",
     "date": "2024.02.01",
     "libraries": [
@@ -81040,6 +81076,34 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.Calendar: Remove label in the year Button"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.71.63",
+    "date": "2024.02.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Page: Focus element is scrolled into view"
+          },
+          {
+            "type": "FIX",
+            "text": " We've introduced the isTrustedSource property as a security enhancement for the PDFViewer control as detailed in the API reference"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/ODataMetadata#_getPropertyMetadata: fix for complex type property"
           }
         ]
       }

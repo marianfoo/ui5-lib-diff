@@ -382,5 +382,31 @@
                 "text": " ValueHelpDialog: Missing label in ColumnMenu"
             }
         ]
+    },
+    "1.120.9": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "7db16c6640a940f1dd6c75ea0e7b97bc19dbda24",
+                "type": "FIX",
+                "text": " SmartField: Duplicate event handlers in some scenarios are now fixed"
+            },
+            {
+                "id": "e39fca6db7594a01b66c1c623e837c7f8d53319e",
+                "type": "FIX",
+                "text": " FilterPanel: Single DynamicDateRange fields do not add default values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370109414"
+                    }
+                ]
+            },
+            {
+                "id": "0f71b403ebab6f6acf074b54be3221cc70ba2818",
+                "type": "FIX",
+                "text": " SmartField: Data Model update fix"
+            }
+        ]
     }
 }

@@ -693,5 +693,30 @@
                 ]
             }
         ]
+    },
+    "1.120.6": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "34ac1b5c530aecab6b5e38c649a66a63570c5f68",
+                "type": "FIX",
+                "text": " We have resolved an issue with applying a transient iAppState"
+            },
+            {
+                "id": "961749347930dfeffb9ea8e4454a482b90e2e4a0",
+                "type": "FIX",
+                "text": " You can now execute the PrepareAction property by pressing Enter on object page tables in apps using the flexible column layout"
+            },
+            {
+                "id": "3b04ce3e978e909fd859d866262790053441fff2",
+                "type": "FIX",
+                "text": " We've resolved an issue for applications using the flexible column layout, which was causing the Save or Cancel action to fail after refreshing the page"
+            },
+            {
+                "id": "36349d5a9aec40a256d8295f2b632d985daa53d8",
+                "type": "FIX",
+                "text": " We now correctly handle 412 errors for critical actions"
+            }
+        ]
     }
 }

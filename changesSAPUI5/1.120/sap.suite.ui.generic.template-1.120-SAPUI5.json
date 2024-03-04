@@ -1,5 +1,5 @@
 {
-    "1.117.0": {
+    "1.120.0": {
         "date": "October 2023",
         "notes": [
             {
@@ -35,7 +35,17 @@
             {
                 "id": "Ib92afa7f79990db38d6bc4c6c7e5bf6b9838298d",
                 "type": "FEATURE",
-                "text": "KPTCard in analytical list page now supports search functionality"
+                "text": "KPI Card in analytical list page now supports search functionality"
+            },
+            {
+                "id": "I9686602e4b992f53261a51981c9357e2bf88d9ad",
+                "type": "FEATURE",
+                "text": "AdaptiveCardHelper for Collaborative Option"
+            },
+            {
+                "id": "I44a8ca29b2691f1019538af95b6abae2f0d9c9bd",
+                "type": "FEATURE",
+                "text": "Handling semantic date for save as tile"
             },
             {
                 "id": "Id3c2819a38348314bf4c5d130b10fb4612c4503d",
@@ -155,6 +165,399 @@
                     {
                         "type": "BCP",
                         "reference": "002075129500007300802023"
+                    }
+                ]
+            },
+            {
+                "id": "Ifd3065b921ee468fdfef61900bc3b64ddd995aa7",
+                "type": "FIX",
+                "text": "Fixed UI Model createMode updation issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380123590"
+                    }
+                ]
+            },
+            {
+                "id": "I2df07008c232da263256c6adbc950d9ecdfda660",
+                "type": "FIX",
+                "text": "We've now improved the working of serializing UI5 dates",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370085336"
+                    }
+                ]
+            },
+            {
+                "id": "I3736bc09229e746123f890dae471d6428d7a01ca",
+                "type": "FIX",
+                "text": "For the analytical list report, we've now removed activateTimeSeries property from the SmartChart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370116322"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.1": {
+        "date": "November 2023",
+        "notes": [
+            {
+                "id": "Ic20cfd6440a37eb5224e913300acbdc57c3e0a7a",
+                "type": "FIX",
+                "text": "In the analytical list page, we now allow customizing SmartFilterBar using UI adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009315972023"
+                    }
+                ]
+            },
+            {
+                "id": "Ia8208f958e3ec7909ce95a583cf7d65fdeb041c2",
+                "type": "FIX",
+                "text": "We've now corrected the importance property of table columns with the ratings and progress indicators",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370132502"
+                    }
+                ]
+            },
+            {
+                "id": "I2c379359460251ec6377793b800998f52af365c3",
+                "type": "FIX",
+                "text": "For the analytical list page, we've now added a check for the undefined SmartFilterBar",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370138844"
+                    }
+                ]
+            },
+            {
+                "id": "I9d33e59d75b16e643d8792da53714c9cda211774",
+                "type": "FIX",
+                "text": "We've now adapted the usage of 'navigationFinished', the new navigation event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370125547"
+                    }
+                ]
+            },
+            {
+                "id": "I6d9208d9e7a009425bcad4bebd04c1f7b8b3d251",
+                "type": "FIX",
+                "text": "We've now introduced manifest settings for the Copy button in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370147275"
+                    }
+                ]
+            },
+            {
+                "id": "I146be4262992eb3077a7e84ea077d12ed03e68ed",
+                "type": "FIX",
+                "text": "We've now enabled the creation of integration cards that are supported for multiple scenarios view for the list report applications",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370149187"
+                    }
+                ]
+            },
+            {
+                "id": "I0729a8e629f7bd784306c83cd898b804c6333fc2",
+                "type": "FIX",
+                "text": "We now ensure that the placeholder is hidden while starting the RTA mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009706142023"
+                    }
+                ]
+            },
+            {
+                "id": "I6cd99f92417cb191a1b93836be6fc2903e1e6d52",
+                "type": "FIX",
+                "text": "For the object page, we now ensure that the focus is back on the control when a validation is triggered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370117864"
+                    }
+                ]
+            },
+            {
+                "id": "I7bcfcbca068303d4c6dc728707713f60bcbf1b8e",
+                "type": "FIX",
+                "text": "We now ensure the the correct variant is set while saving a title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004494222023"
+                    }
+                ]
+            },
+            {
+                "id": "Ica87b309d73e5c8d776aef5b681be783b0082b8f",
+                "type": "FIX",
+                "text": "We now ensure that registering a filter provider at the message button helper works fine even if outdated binding path info is present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370139111"
+                    }
+                ]
+            },
+            {
+                "id": "I62f5cd79a5726c1f17d50b42429e7a8e448327ed",
+                "type": "FIX",
+                "text": "List report applications can now send the insight cards to the insight card channel"
+            },
+            {
+                "id": "Ia71ef656a345dcd38636755ac942b8c832fcacdb",
+                "type": "FIX",
+                "text": "Record selection on the UI table is now cleared after executing the function import action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009552012023"
+                    }
+                ]
+            },
+            {
+                "id": "I76e0fd96abd4a45bdb12b57327ee109fbf316b56",
+                "type": "FIX",
+                "text": "We've now fixed the issue that occurred while sharing the insights card to the collaboration manager",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370151363"
+                    }
+                ]
+            },
+            {
+                "id": "I2954dec621b2f68e9fd3565a072d7ec6525660ae",
+                "type": "FIX",
+                "text": "We've now enhanced the filter creation to support boolean type in MultipleViewsHandler",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150998"
+                    }
+                ]
+            },
+            {
+                "id": "I6831ed17f074b7678f590204becd44e4bafaf694",
+                "type": "FIX",
+                "text": "Status indicator column is now supported in integration cards",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380141177"
+                    }
+                ]
+            },
+            {
+                "id": "I58cc8f85105f745972045594cbff553bbd056d34",
+                "type": "FIX",
+                "text": "We now ensure that changes on item level are reflected in the item page immediately after activating a draft",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380129886"
+                    }
+                ]
+            },
+            {
+                "id": "I1c805294d2ae44359b7ef1cf20a7a1c7da80962c",
+                "type": "FIX",
+                "text": "We have now enhanced the test library functions to correctly find the MultiSelectionPlugin for UI tables",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370147681"
+                    }
+                ]
+            },
+            {
+                "id": "I956c5e9a4a238bda8f19539e04cd6efe47c06caf",
+                "type": "FIX",
+                "text": "We've now fixed the issue that occurred while sharing the insights card to the collaboration manager",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370151363"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.2": {
+        "date": "December 2023",
+        "notes": [
+            {
+                "id": "I07123a7ae52bcd63fdd84a2a59443a1efc97e73f",
+                "type": "FIX",
+                "text": "For the list report, semantic date is now shown when default values are maintained",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009036012023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.3": {
+        "date": "December 2023",
+        "notes": [
+            {
+                "id": "I9186e7473da354bcc7d6019bbbf9dbb49e8b0067",
+                "type": "FIX",
+                "text": "The sibling entity is not considered now during draft creation while checking for an equivalent key",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0010640"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.4": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "I84ff0b1084418aac9f5e89a70739baaae31e559c",
+                "type": "FIX",
+                "text": "Legends on the smart charts are now displayed properly",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006299705"
+                    }
+                ]
+            },
+            {
+                "id": "Ia179e75fd5fa336a5ea3bda7fc183cfb86d58884",
+                "type": "FIX",
+                "text": "We've now fixed the issue that persisted while refreshing the table after executing the function import action",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0020131"
+                    }
+                ]
+            },
+            {
+                "id": "If0a8b7f9be1cab443a551d9df5edb41bfcc2b373",
+                "type": "FIX",
+                "text": "Text arrangements are now supported in insights cards for analytical list page applications",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0034572"
+                    }
+                ]
+            },
+            {
+                "id": "Ic5601c95f91368f470ca73ba35ca5bdc5d3cdea4",
+                "type": "FIX",
+                "text": "Row navigation is now disabled from the insights card for the multiple view list report applications",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0011072"
+                    }
+                ]
+            },
+            {
+                "id": "I5d13e074213a7aebc25aa213fcc7268c0f6228ab",
+                "type": "FIX",
+                "text": "We've now removed the dependency between availability of copy button and availability of cell selection feature in the object page tables",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0021708"
+                    }
+                ]
+            },
+            {
+                "id": "I21dba6edcfb0886b92ec813a25a79bf4b1ee803c",
+                "type": "FIX",
+                "text": "We've now fixed the issue that came up while retaining the custom variant during external navigation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0014544"
+                    }
+                ]
+            },
+            {
+                "id": "I17ca861b976a68786dfc268026aca85a1f7105ba",
+                "type": "FIX",
+                "text": "We've now fixed the issue with finding the first editable cell in the UI tables",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0020074"
+                    }
+                ]
+            },
+            {
+                "id": "If50c69b7df06ac713baf6d66ab8603fe55c8d5f0",
+                "type": "FIX",
+                "text": "We've fixed the batch call issue in non-draft for required properties and a batch call is not triggered now if a required or mandatory field is not filled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001422332023"
+                    }
+                ]
+            },
+            {
+                "id": "I9112bfaeed67d4703a9cca7180e033bdacee8c4e",
+                "type": "FIX",
+                "text": "Clean up actions are now performed correctly when the transient message dialog is closed in all the scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006768134"
+                    }
+                ]
+            },
+            {
+                "id": "Id2ba6a695659b02199b2a84bb7a8dc2213e0263b",
+                "type": "FIX",
+                "text": "An error message dialog is now displayed instead of navigating to the 'Object Not Found' page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006768134"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.5": {
+        "date": "January 2023",
+        "notes": [
+            {
+                "id": "Iafd1ece8b067004c0217bc19870afe3cfa2641d0",
+                "type": "FIX",
+                "text": "We've now improved the back navigation in fixed column layout when a draft is cancelled in between",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0048276"
                     }
                 ]
             }
