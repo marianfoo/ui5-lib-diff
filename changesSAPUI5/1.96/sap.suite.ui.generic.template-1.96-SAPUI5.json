@@ -352,5 +352,150 @@
                 ]
             }
         ]
+    },
+    "1.96.14": {
+        "date": "Dec 2022",
+        "notes": [
+            {
+                "id": "I184d9bff47c1978039246dbdfd8a9a2266b3b168",
+                "type": "FIX",
+                "text": "We've now set the visible property of CreateWithDialog to false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001272982022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.16": {
+        "date": "Jan 2023",
+        "notes": [
+            {
+                "id": "I49bae559ca5e1c7ad19be31471c820926dcab8e9",
+                "type": "FIX",
+                "text": "In the analytical list page, the correct propertyName is now returned in case a given property doesn't belong to a given entity set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006334602022"
+                    }
+                ]
+            },
+            {
+                "id": "I02128b8a5c856fc186b41478b019bbb22318f91d",
+                "type": "FIX",
+                "text": "On the object page, transient error message for draft activate is now displayed if there is a state error message or state warning message with http response code 412",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000625602023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.17": {
+        "date": "Feb 2023",
+        "notes": [
+            {
+                "id": "I054b0ff8f51c674b0192eac225497da151dfa003",
+                "type": "FIX",
+                "text": "The date field values that are in selection variant supporting the semantic date range filters are now formattable"
+            },
+            {
+                "id": "I7a9f428d86bd0dae3ec566c72edce2582ccb84d6",
+                "type": "FIX",
+                "text": "We've now removed the placeholder from the list report page in case of live mode scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008404732022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.18": {
+        "date": "Apr 2023",
+        "notes": [
+            {
+                "id": "I81e82bb4286bd873cbfbfef1269c2e0c2f3cb979",
+                "type": "FIX",
+                "text": "Length of the translation text for the discard draft popup is now adjusted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001299992023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.24": {
+        "date": "Nov 2023",
+        "notes": [
+            {
+                "id": "Ica87b309d73e5c8d776aef5b681be783b0082b8f",
+                "type": "FIX",
+                "text": "We now ensure that registering a filter provider at the message button helper works fine even if outdated binding path info is present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370139111"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.25": {
+        "date": "Dec 2023",
+        "notes": [
+            {
+                "id": "I9186e7473da354bcc7d6019bbbf9dbb49e8b0067",
+                "type": "FIX",
+                "text": "While checking for an equivalent key, sibling entity is not considered now during draft creation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0010640"
+                    }
+                ]
+            },
+            {
+                "id": "I67bb533da6a1f51ce9f5379837108c0b96c087d9",
+                "type": "FIX",
+                "text": "We now ensure that the registration as a dirty state provider can be avoided when the application is read only",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007556462023"
+                    }
+                ]
+            },
+            {
+                "id": "I8501be952173dbf0cbcd0bc65f57a3b549e6da52",
+                "type": "FIX",
+                "text": "We now made certain changes to SmartMultiInput for the selectionFinish event",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270055354"
+                    }
+                ]
+            },
+            {
+                "id": "I7c96c2b3bd0ff2f8a787c4a66b0853bcf2679751",
+                "type": "FIX",
+                "text": "We've now added custom data to use FLP timezone for smart table in the analytical list page and list report object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002401412023"
+                    }
+                ]
+            }
+        ]
     }
 }
