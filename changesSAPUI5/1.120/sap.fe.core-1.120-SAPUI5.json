@@ -718,5 +718,30 @@
                 "text": " We now correctly handle 412 errors for critical actions"
             }
         ]
+    },
+    "1.120.7": {
+        "date": "March 2024",
+        "notes": [
+            {
+                "id": "af58f96e39d4c177edabc6aeb15f8da0b961d744",
+                "type": "FIX",
+                "text": " Title binding now works properly if the value is a path with conditions"
+            },
+            {
+                "id": "d5715d83297a6ff725f5e44fb1653f431527e2d7",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where the corrupt context of a previously visited object page resulted in an error message while subsequently loading the same object page"
+            },
+            {
+                "id": "9c4dfd916f712fbf91390faadbd03572885c1591",
+                "type": "FIX",
+                "text": " The DateTime data type now supports the UTC format"
+            },
+            {
+                "id": "1cbc1eba93b23888744e8d70caa4dc4355673317",
+                "type": "FIX",
+                "text": " When repeating action triggers for multiple rows that have received a 412 warning on action execution, we no longer trigger the action for rows that have executed their action successfully"
+            }
+        ]
     }
 }

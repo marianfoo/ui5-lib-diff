@@ -15720,6 +15720,25 @@
     ]
   },
   {
+    "version": "1.120.10",
+    "date": "2024.03.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: ResourceBundle getText method properly used"
+          },
+          {
+            "type": "FIX",
+            "text": " m.VariantManagement: correction for deletion indicator"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.8",
     "date": "2024.02.01",
     "libraries": [
@@ -17214,6 +17233,29 @@
           {
             "type": "DEPRECATED",
             "text": "[sap.ui.model.odata.AnnotationHelper#createPropertySetting] undefined"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.121.1",
+    "date": "2024.03.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've introduced the isTrustedSource property as a security enhancement for the PDFViewer control as detailed in the API reference"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Focus of IconTabFilter is not changing"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Page: Focus element is scrolled into view"
           }
         ]
       }
