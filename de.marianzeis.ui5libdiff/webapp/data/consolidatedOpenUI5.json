@@ -6811,6 +6811,34 @@
     ]
   },
   {
+    "version": "1.108.27",
+    "date": "2024.03.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Scrollbar issue fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Focus of IconTabFilter is not changing"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Page: Focus element is scrolled into view"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.108.1",
     "date": "2022.11.01",
     "libraries": [
@@ -8949,6 +8977,14 @@
           {
             "type": "DEPRECATED",
             "text": "[sap.m.SearchField#setRefreshButtonTooltip] undefined"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.commons.BorderLayoutAreaData#undefined] as it is an integral part of the already deprecated {@link sap.ui.commons.BorderLayout}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.commons.FocusInfo#undefined] as it is an integral part of the already deprecated {@link sap.ui.commons.TextField}."
           },
           {
             "type": "DEPRECATED",
@@ -15739,6 +15775,56 @@
     ]
   },
   {
+    "version": "1.120.11",
+    "date": "2024.03.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: Is truncated correctly in sap.m.Table"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core: Allow for async control event handlers"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " mvc/Controller: Replace function call with apply"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core: Allow for async control event handlers"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.fl",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.core: Allow for async control event handlers"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.rta",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.core: Allow for async control event handlers"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.8",
     "date": "2024.02.01",
     "libraries": [
@@ -17256,6 +17342,351 @@
           {
             "type": "FIX",
             "text": " sap.m.Page: Focus element is scrolled into view"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.122.0",
+    "date": "2024.03.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Integration Cards: Adds option for hyphenation in header"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.f.GridContainer: Enable support for UI5 Flexibility actions"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Scrollbar issue fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.ProductSwitch: Acc sample improved"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.unified.Calendar: always render 6 weeks"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.PlanningCalendar: render disabled dates in Week & OneMonth views"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.ColorPalette: add selected state"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.MenuButton: Removed maximum width of the MenuButton"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core: Allow for async control event handlers"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: ValueHelp is shown when interacting with keyboard"
+          },
+          {
+            "type": "FIX",
+            "text": " m.VariantManagement: correction for deletion indicator"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: adjust maxSuggestionWidth property documentation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabHeader: Close tab popover when the header area is clicked"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Page:  Visual tests ownership added"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Image: Acc sample improved"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectMarker: focus visible in sap.ui.table.Table"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MultiComboBox: selectAll button alignment"
+          },
+          {
+            "type": "FIX",
+            "text": " Form: missing spaces in RadioButtonGroup"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RadioButtonGroup: There is no error when destroying and adding radio buttons on select"
+          },
+          {
+            "type": "FIX",
+            "text": " We've introduced the isTrustedSource property as a security enhancement for the PDFViewer control as detailed in the API reference"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Page: Focus element is scrolled into view"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ViewSettingsDialog: remove padding coming from the Dialog"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: The JS Date is being replaced with UI5Date"
+          },
+          {
+            "type": "FIX",
+            "text": " SinglePlanningCalendarMonthGrid: Focusing on the first element when selecting an entire week"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: Selection event is fired only once"
+          },
+          {
+            "type": "FIX",
+            "text": "sap.m.ComboBox: Seleted item is scrolled into view"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Focus of IconTabFilter is not changing"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Panel: Header's padding adjusted"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Fire startDateChange event date from another month"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Avatar: Wide initials fix"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: Resolve issue preventing text selection with mouse"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Space press no longer scrolls"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Space event prevention remove"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePickerSliders: are aligned correctly on tablet"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: The JS Date is being replaced with UI5Date"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Logic fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: revert icon change"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " mvc/Controller: Replace function call with apply"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core: Allow for async control event handlers"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.type.Unit: amount scale is used instead of unit's decimal places"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v4.Context#setSelected: remember to reset selection again"
+          },
+          {
+            "type": "FIX",
+            "text": " ui5loader: Prevent unrelated -dbg requests in partial debug mode"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.test.RecordReplay: Configuration initialization corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/format/NumberFormat#format: remove trailing decimal zeros"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/format/NumberFormat.format: fix rounding for positive scientific notation numbers"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/format/NumberFormat.RoundingMode: improve JSDoc"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/format/NumberFormat#format: Fix rounding of \"-.567\""
+          },
+          {
+            "type": "FIX",
+            "text": " core/ShortcutHelper: Ensure handling of KeyboardEvents only"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.documentation",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Change info fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " DemoKit: Scroll to module function corrected"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.fl",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.core: Allow for async control event handlers"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Integration Cards: Added action button to the Analytical card popover"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Integration Cards: Adds option for hyphenation in header"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.integration.widgets.Card: Fixed circular dependency in Card.request"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Improve card in dialog with defined width"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Remove scrollbar from snack layer when not needed"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " ColumnLayout: increase maximum columns for M and L"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ValueHelp: show all items button not reachable via keyboard"
+          },
+          {
+            "type": "FIX",
+            "text": " BT operator: no error if wrong input"
+          },
+          {
+            "type": "FIX",
+            "text": " Field, FilterField: Enter after arrow navigation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.rta",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.core: Allow for async control event handlers"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.unified.Calendar: always render 6 weeks"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.PlanningCalendar: render disabled dates in Week & OneMonth views"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.MenuItemBase: provide custom image support"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.uxap.ObjectPageSection: New property added"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.uxap.ObjectPageSubSection: New CSS class for background transparency"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.AnchorBar: Pressing Enter fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Unstable test corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageSectionBase: Check for undefined"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Unstable test corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Logic fixed"
           }
         ]
       }

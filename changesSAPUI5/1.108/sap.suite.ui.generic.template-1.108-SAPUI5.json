@@ -173,6 +173,701 @@
                         "reference": "2270028763"
                     }
                 ]
+            },
+            {
+                "id": "I2fd2f77bafeda083283f7f97b1f03172a3591bcd",
+                "type": "FIX",
+                "text": "For the navigation from overview page to list report, NavigationSortOrder is now corrected for when the sortOrder is not available in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "202210250346"
+                    }
+                ]
+            },
+            {
+                "id": "I2ad8536390df76f7df965ed098cc317c8a98888a ",
+                "type": "FIX",
+                "text": "An invisible button that was occupying space and causing OPA failures is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270165262"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.1": {
+        "date": "Nov 2022",
+        "notes": [
+            {
+                "id": "I82f48b3a016b84ab25e301e39c08df78d8fe940e",
+                "type": "FIX",
+                "text": "The 'Add Card to Insights' option is now moved to the overflow and additional checks have been added to make this option appear on the responsive table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270167648"
+                    }
+                ]
+            },
+            {
+                "id": "I989fa276b44e7d16a42c3281577f895afb099a59",
+                "type": "FIX",
+                "text": "For lazy loading in the object page, the embedded component in the existing section is now initialized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270127704"
+                    }
+                ]
+            },
+            {
+                "id": "Idb6bb9d9d8f4155f05a931367cc3b22d9c2b3ddd",
+                "type": "FIX",
+                "text": "The 'Add Card to Insights' option is now hidden for the analytical list page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270176082"
+                    }
+                ]
+            },
+            {
+                "id": "I2dfb3dacfc4bbf8f856e25809adb3686a4dfe12c",
+                "type": "FIX",
+                "text": "We've now removed the dependency that was causing a safetynet issue",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270175555"
+                    }
+                ]
+            },
+            {
+                "id": "I0dcba4ebacef337159e16e71eecc5aea637372e5",
+                "type": "FIX",
+                "text": "We've now fixed the issues with the Microsoft Teams Integration scenraios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270175555"
+                    }
+                ]
+            },
+            {
+                "id": "I647a5a3090944bfd08b2f57ae95844ba19d86993",
+                "type": "FIX",
+                "text": "In the object page, the action message dialog title and text is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280127598"
+                    }
+                ]
+            },
+            {
+                "id": "I92840e2a4bd0e38b1f171c4a59ba86a7567d7e54",
+                "type": "FIX",
+                "text": "Table records on the reference facet are now displayed correctly after clicking on the 'Show More' button of the object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270144268"
+                    }
+                ]
+            },
+            {
+                "id": "I7d9afeeee29db9f79581a761f72714343f7166e4",
+                "type": "FIX",
+                "text": "You can now define the title and the button label for NewAction with parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280174482"
+                    }
+                ]
+            },
+            {
+                "id": "I6fa462db22caf168ecb7fc5878ab1980615109f0",
+                "type": "FIX",
+                "text": "We have now removed the logic to derive the field labels on the NewAction create dialog from DataFieldForAction annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280174945"
+                    }
+                ]
+            },
+            {
+                "id": "I46e54711307a8e2e18f7136c61e763188735226f",
+                "type": "FIX",
+                "text": "Placeholder on back navigation is now removed in flexible column layout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270143507"
+                    }
+                ]
+            },
+            {
+                "id": "I46e54711307a8e2e18f7136c61e763188735226f",
+                "type": "FIX",
+                "text": "In the card preview, displaying of the top 15 records is now implemented",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270188240"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.2": {
+        "date": "Nov 2022",
+        "notes": [
+            {
+                "id": "Id47788f71e2267ed74928a4588e390e3a6760f13",
+                "type": "FIX",
+                "text": "We've now implemented the option to display top 15 records within the card preview",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270188240"
+                    }
+                ]
+            },
+            {
+                "id": "I55823b5052c80c1897c0f007ca5d3b68f16c66a8",
+                "type": "FIX",
+                "text": "The telemetry data is now recorded correctly during Microsoft Teams Integration scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280179086"
+                    }
+                ]
+            },
+            {
+                "id": "I74b1c6fce33d60bf1aedfd4957c875050f0b5006",
+                "type": "FIX",
+                "text": "The PreparationAction is now skipped in the object page if it is not required",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270113169"
+                    }
+                ]
+            },
+            {
+                "id": "I246341b22be6fe44c7261d2d5c66b72a79feb923",
+                "type": "FIX",
+                "text": "In the message dialog header, success title and an icon in message are now displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280181773"
+                    }
+                ]
+            },
+            {
+                "id": "I2296764b96f5deb030ef6da7ff78beced2892731",
+                "type": "FIX",
+                "text": "Renaming actions and IconTabFilter using UI Adaptation is now allowed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280179974"
+                    }
+                ]
+            },
+            {
+                "id": "I20906229eb6ad495fce63c513e43a6570a133a0b",
+                "type": "FIX",
+                "text": "To handle false conditions, datatype correction is now completed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004478932022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.3": {
+        "date": "Dec 2022",
+        "notes": [
+            {
+                "id": "I2296764b96f5deb030ef6da7ff78beced2892731",
+                "type": "FIX",
+                "text": "Renaming actions and IconTabFilter using UI Adaptation is now allowed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280179974"
+                    }
+                ]
+            },
+            {
+                "id": "I20906229eb6ad495fce63c513e43a6570a133a0b",
+                "type": "FIX",
+                "text": "To handle false conditions, datatype correction is now completed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004478932022"
+                    }
+                ]
+            },
+            {
+                "id": "I5715f0fe3f7193d806e1dd84ed9fa7086a3f2bf5",
+                "type": "FIX",
+                "text": "We've now provided an option to display transient error messages along with the state info messages",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280174249"
+                    }
+                ]
+            },
+            {
+                "id": "I189c81f32a65df3858d2ef1c6244e123110445ad",
+                "type": "FIX",
+                "text": "In the analytical list page, the correct propertyName is now returned in case a given property doesn't belong to a given entity set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006334602022"
+                    }
+                ]
+            },
+            {
+                "id": "I3b301ee9019dcceab023df0dbed812c78635b2f2",
+                "type": "FIX",
+                "text": "The 'Add Card to Insights' button can now be hidden in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380020888"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.4": {
+        "date": "Feb 2023",
+        "notes": [
+            {
+                "id": "I77d2d26e1baaff2eeae6e719d2de20693e83f436",
+                "type": "FIX",
+                "text": "We have now removed the check for response status code during draft activation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380024696"
+                    }
+                ]
+            },
+            {
+                "id": "I9d5244c98b6e9bc4fe1619f076a68f1d7c5aa3ce",
+                "type": "FIX",
+                "text": "The header content is not hidden now if there is no data to display in the object page header",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000920262023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.5": {
+        "date": "Feb 2023",
+        "notes": [
+            {
+                "id": "I5d40d7e731ff970fca3883bc4ee51c7860eaf74a",
+                "type": "FIX",
+                "text": "In a table, the fullscreen button is now enabled by default",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001087972023"
+                    }
+                ]
+            },
+            {
+                "id": "Ib623d20be8dd9f157349b50be62cac9fe64fdd2e",
+                "type": "FIX",
+                "text": "The share MenuButton is now hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380037792"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.8": {
+        "date": "Mar 2023",
+        "notes": [
+            {
+                "id": "I054b0ff8f51c674b0192eac225497da151dfa003",
+                "type": "FIX",
+                "text": "The date field values that are in selectionvariant supporting the semantic date range filters are now formattable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000855784 2022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.9": {
+        "date": "Mar 2023",
+        "notes": [
+            {
+                "id": "Ibe7938e1e2275c3c96fcb3590820e33b79eb1924",
+                "type": "FIX",
+                "text": "The header is now expanded upon the initial launch of the app",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376700049958342023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.14": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "I39f1b8bb0a2557306922a319c848a9381c1e000a",
+                "type": "FIX",
+                "text": "Respective semantic date values are now set by the application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270155364"
+                    }
+                ]
+            },
+            {
+                "id": "I279e5cbb7dee3fd95a996f5cbc8b4c78eaea0389",
+                "type": "FIX",
+                "text": "We now ensure that an empty string passes as a root key in an external navigation scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370050095"
+                    }
+                ]
+            },
+            {
+                "id": "I5f2e0bf9462abccec9a15429ed2b7a6f9cb1179e",
+                "type": "FIX",
+                "text": "For object page, css class is now removed to reduce additional padding in the object page section",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270156903"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.16": {
+        "date": "Jun 2023",
+        "notes": [
+            {
+                "id": "I39f1b8bb0a2557306922a319c848a9381c1e000a",
+                "type": "FIX",
+                "text": "Respective semantic date values are now set by the application",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270155364"
+                    }
+                ]
+            },
+            {
+                "id": "Ia4c6d6943032c4d755a4807e5ddfa9e28d882828",
+                "type": "FIX",
+                "text": "Table entity set is now correctly maintained in case the parameterized entity is used for multiple view scenarios in list report and analytical list page applications",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001872082023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.17": {
+        "date": "Jun 2023",
+        "notes": [
+            {
+                "id": "If903e13a91a70f80876c6060d799f6c49975df0d",
+                "type": "FIX",
+                "text": "In case of external navigation, the default value set for the DynamicDateRange fields using the manifest is not considered",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280179784"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.18": {
+        "date": "Jul 2023",
+        "notes": [
+            {
+                "id": "I7b56c7aa5efc1d8b63160631aa86a2ab0ab8530a",
+                "type": "FIX",
+                "text": "We now allow the remove action for menu button using UI adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005135832023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.19": {
+        "date": "Aug 2023",
+        "notes": [
+            {
+                "id": "I7099e7256fd708b72b085a710bf2f84eec2697bd",
+                "type": "FIX",
+                "text": "Focus is now set to the first editable field inside the table when switched to edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005567582023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.20": {
+        "date": "Sep 2023",
+        "notes": [
+            {
+                "id": "If85134d2a577578b7d15d5c92870b80e77914103",
+                "type": "FIX",
+                "text": "We now provide an option to restore the template files that have been accidentally deleted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370082411"
+                    }
+                ]
+            },
+            {
+                "id": "I39b4626fa433ad7774da56b1feff67cc6ea150d8",
+                "type": "FIX",
+                "text": "We now hide the busy indicator when the navigation is complete within the 'explace' mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005878112023"
+                    }
+                ]
+            },
+            {
+                "id": "I8d2b53f683c41e2ceafd305590c0dd73f4fd1092",
+                "type": "FIX",
+                "text": "We are now preventing the creation of a batch call when 'getContextByIndex' has been invoked on a UI table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400004574672023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.21": {
+        "date": "Oct 2023",
+        "notes": [
+            {
+                "id": "I67bb533da6a1f51ce9f5379837108c0b96c087d9",
+                "type": "FIX",
+                "text": "We now ensure that the registration as a dirty state provider can be avoided when the application is read only",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007556462023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.22": {
+        "date": "Oct 2023",
+        "notes": [
+            {
+                "id": "Ie76b99573534136d21c113b373ceecfaaedb3e4b",
+                "type": "FIX",
+                "text": "We now allow the customization of controls using UI adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370093599"
+                    }
+                ]
+            },
+            {
+                "id": "Ic20cfd6440a37eb5224e913300acbdc57c3e0a7a",
+                "type": "FIX",
+                "text": "In the analytical list page, we now allow customizing SmartFilterBar using UI adaptation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009315972023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.23": {
+        "date": "Nov 2023",
+        "notes": [
+            {
+                "id": "I7bcfcbca068303d4c6dc728707713f60bcbf1b8e",
+                "type": "FIX",
+                "text": "We are now setting the correct variant while saving a tile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004494222023"
+                    }
+                ]
+            },
+            {
+                "id": "Ica87b309d73e5c8d776aef5b681be783b0082b8f",
+                "type": "FIX",
+                "text": "We now ensure that registering a filter provider at the message button helper works fine even if outdated binding path info is present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370139111"
+                    }
+                ]
+            },
+            {
+                "id": "Ia71ef656a345dcd38636755ac942b8c832fcacdb",
+                "type": "FIX",
+                "text": "Record selection on the UI table is now cleared after executing the function import action",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009552012023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.24": {
+        "date": "Dec 2023",
+        "notes": [
+            {
+                "id": "I07123a7ae52bcd63fdd84a2a59443a1efc97e73f",
+                "type": "FIX",
+                "text": "For the list report, semantic date is now shown when default values are maintained",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009036012023"
+                    }
+                ]
+            },
+            {
+                "id": "I9186e7473da354bcc7d6019bbbf9dbb49e8b0067",
+                "type": "FIX",
+                "text": "While checking for an equivalent key, sibling entity is not considered now during draft creation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0010640"
+                    }
+                ]
+            },
+            {
+                "id": "I7c96c2b3bd0ff2f8a787c4a66b0853bcf2679751",
+                "type": "FIX",
+                "text": "We've now added custom data to use FLP timezone for smart table in the analytical list page and list report object page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002401412023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.25": {
+        "date": "Jan 2023",
+        "notes": [
+            {
+                "id": "Ia179e75fd5fa336a5ea3bda7fc183cfb86d58884",
+                "type": "FIX",
+                "text": "We've now fixed the issue that persisted while refreshing the table after executing the function import action",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0020131"
+                    }
+                ]
+            },
+            {
+                "id": "If031c0a374eb97b0c73d8680e59652437c283b5a",
+                "type": "FIX",
+                "text": "We have now improved our logic to set the focus on the first editable field on the object page when switch to edit mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0020074"
+                    }
+                ]
+            },
+            {
+                "id": "I9112bfaeed67d4703a9cca7180e033bdacee8c4e",
+                "type": "FIX",
+                "text": "Clean up actions are now performed correctly when the transient message dialog is closed in all the scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006768134"
+                    }
+                ]
+            },
+            {
+                "id": "Id2ba6a695659b02199b2a84bb7a8dc2213e0263b",
+                "type": "FIX",
+                "text": "An error message dialog is now displayed instead of navigating to the 'Object Not Found' page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006768134"
+                    }
+                ]
+            },
+            {
+                "id": "Iafd1ece8b067004c0217bc19870afe3cfa2641d0",
+                "type": "FIX",
+                "text": "We've now improved the back navigation in fixed column layout when a draft is cancelled in between",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0048276"
+                    }
+                ]
             }
         ]
     }

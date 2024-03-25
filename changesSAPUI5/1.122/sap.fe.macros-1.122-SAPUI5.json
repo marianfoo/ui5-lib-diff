@@ -1,0 +1,123 @@
+{
+    "1.122.0": {
+        "date": "March 2024",
+        "notes": [
+            {
+                "id": "8bdbeb793961ea2951a2ff03603a8cc5d06eaabb",
+                "type": "FEATURE",
+                "text": " You can now use additional properties to adapt list report tables"
+            },
+            {
+                "id": "1f725cd4909626f0f5c93cb8923b6c175dea1942",
+                "type": "FIX",
+                "text": " We've updated our API documentation and the descriptions in the flexible programming model with the information that providing the ID is mandatory when creating a Field building block"
+            },
+            {
+                "id": "5aad664d2abf677805419023d3b89842abb18cf0",
+                "type": "FIX",
+                "text": " We now ensure that aggregatable properties are no longer added to the sort options"
+            },
+            {
+                "id": "2869b8f87d078a5005e41daca34c38bbd8a55040",
+                "type": "FIX",
+                "text": " We now ensure that the quick view popover description is correctly displayed by using the TextArrangement annotation in the HeaderInfo.Description annotation"
+            },
+            {
+                "id": "3d32ee2f3d7e561667fcd759b89da1860cb7d243",
+                "type": "FEATURE",
+                "text": " We no longer display the semantic link if the quick view isn't defined and an app isn't assigned to the user's role"
+            },
+            {
+                "id": "8e7d6bb7582a4aba5b5e18959b5c066178471ffb",
+                "type": "FEATURE",
+                "text": " We now ensure that properties referenced by a LineItem annotated with UI.Hidden are hidden as well"
+            },
+            {
+                "id": "9f9fdd0ec911223d8c0a79a2d23e46972941949c",
+                "type": "FEATURE",
+                "text": " We now support displaying fields with a fixed value list as radio buttons"
+            },
+            {
+                "id": "a6001c7006e94ca3e3f3b2a419cc2d3c12039270",
+                "type": "FIX",
+                "text": " We've resolved an issue where filter fields containing the UI.AdaptationHidden property with a navigation path weren't applied to the filter request even though they were added in the UI.SelectionFields annotation."
+            },
+            {
+                "id": "1eae07fa6b1e7cd595368149135ce7e28170ed44",
+                "type": "FIX",
+                "text": " We now ensure the avatar is displayed without cropping its sides"
+            },
+            {
+                "id": "a0ae3d9db2064cfd04f4dbd1732cfb97d0ec7ada",
+                "type": "FIX",
+                "text": " We now consider the value null for filter conditions if the In-Parameter is annotated with InitialValueIsSignificant"
+            },
+            {
+                "id": "657b9dd3a7ad509ed38f114dc41a2ffd133764bc",
+                "type": "FIX",
+                "text": " We now display the 'Others' group in value help fields which are dropdown"
+            },
+            {
+                "id": "c2107e8932946c01e428f240f3b58ac105f98f2f",
+                "type": "FIX",
+                "text": " We now ensure that the text area label is hidden if it is the only field in a section or subsection"
+            },
+            {
+                "id": "54a80cda8e276ba55117e1178288b650a1f1eaf4",
+                "type": "FIX",
+                "text": " We have resolved an issue when adding and removing custom columns containing building blocks from the table personalization"
+            },
+            {
+                "id": "f2855bb323f92b1c0def218d823033aba82bda89",
+                "type": "FIX",
+                "text": " We have resolved an issue with handling the navigation path when evaluating the filter conditions in the value list"
+            },
+            {
+                "id": "751a8a32f4e4f2be24a18ac815b666b27b7e7c89",
+                "type": "FEATURE",
+                "text": " End users can now delete the empty rows of a table"
+            },
+            {
+                "id": "5849f4478f41d36350b57fa1cbf47d8d8046a138",
+                "type": "FIX",
+                "text": " We’ve resolved an issue with the processing of the ODataListBinding in the Define Conditions tab"
+            },
+            {
+                "id": "19ace5a3c8af25d5731cb9f334cb8485b3f18b96",
+                "type": "FEATURE",
+                "text": " We now provide getCurrentVariantKey and setCurrentVariantKey as public APIs for the TableAPI"
+            },
+            {
+                "id": "ab6f91835195123786a65b15943c7f088e775dec",
+                "type": "FIX",
+                "text": " When using browser autofill, we no longer read from the undefined control of the related value help"
+            },
+            {
+                "id": "9acc451025ea6154e35ea7fade29652d89ed0e93",
+                "type": "FIX",
+                "text": " We now ensure that MDC table properties can no longer be changed in adaption projects"
+            },
+            {
+                "id": "7478e96f8faad6b27b672aa7dd6ea4829005366a",
+                "type": "FIX",
+                "text": " We now ensure filter fields from the manifest are not added to a custom filter bar pointing to a different entity set"
+            },
+            {
+                "id": "5ecd1f409bbdc46c3c6952380bfcbac15b514fa5",
+                "type": "FIX",
+                "text": " The 'Go' button in the filter bar of a custom table now triggers a data request every time it is selected"
+            },
+            {
+                "id": "42c3e633477c997b8af80de8dd97ccc5727a5ea0",
+                "type": "FIX",
+                "text": " We now correctly update the headerLevel property value when a section or subsection title is merged with the control title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370094825"
+                    }
+                ]
+            }
+        ]
+    }
+}

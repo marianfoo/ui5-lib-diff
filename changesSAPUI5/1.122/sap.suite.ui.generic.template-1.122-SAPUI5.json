@@ -1,0 +1,87 @@
+{
+    "1.122.0": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "I7ed4f7295e28220db6952eac0a7b1afc88a3e546",
+                "type": "FEATURE",
+                "text": "UI.Hidden annotation is now supported in SmartTable within the analytical list page and the list report"
+            },
+            {
+                "id": "Ib5f8e0754920eef0ee6007f39bb5643d56480f47",
+                "type": "FEATURE",
+                "text": "The quick view content can now be displayed by clicking the ObjectIdentifier link in the list report and analytical list page"
+            },
+            {
+                "id": "I03b2f35a1f26eb434ab476d6132496525fa8a09e",
+                "type": "FEATURE",
+                "text": "We've now added the toolbar buttons to the context menu in the list report and object page"
+            },
+            {
+                "id": "If04f4db731929c75da7b14f7f0ef8ccd1c7393ec",
+                "type": "FEATURE",
+                "text": "The object page tables now supports path based UI.Hidden annotation"
+            },
+            {
+                "id": "Id1de15852c61f08faaa1a3c197dae2b460f01f5f",
+                "type": "FEATURE",
+                "text": "We now support the creation of rows functionality for disabled fields in the empty rows within grid table"
+            },
+            {
+                "id": "I727a810212441184d9de0112436ad37c483624c9",
+                "type": "FIX",
+                "text": "We've now performed certain bug fixes on context menu in the list report",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0075350"
+                    }
+                ]
+            },
+            {
+                "id": "Id699d14cf7240f1efebb6ac35502da5dbae0ec93",
+                "type": "FIX",
+                "text": "We've now adapted the title font size for the horizon theme in the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0009025"
+                    }
+                ]
+            },
+            {
+                "id": "Ibccba590bf1177ee42081fafe8016efb98c2b656",
+                "type": "FIX",
+                "text": "We now ensure that the save button label is now displayed properly on the mobile devices",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0053728"
+                    }
+                ]
+            },
+            {
+                "id": "Ieec1e9cf293f801f5b93e503dd6166e010f5463c",
+                "type": "FIX",
+                "text": "The header style of property now sets to the smart table and smart chat sets to 'H4' when a section has only one sub-section",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0019202"
+                    }
+                ]
+            },
+            {
+                "id": "I4a7f34a840d4ffcc125aa918b8f74c6b45b5e334",
+                "type": "FIX",
+                "text": "The application state is now properly restored for multiple table view",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0041148"
+                    }
+                ]
+            }
+        ]
+    }
+}

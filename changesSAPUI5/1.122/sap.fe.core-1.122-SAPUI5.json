@@ -1,0 +1,132 @@
+{
+    "1.122.0": {
+        "date": "March 2024",
+        "notes": [
+            {
+                "id": "eb1bfe53c47345018f8c82e867309fe908ddbf62",
+                "type": "FEATURE",
+                "text": " Unbound actions can now also trigger side effects"
+            },
+            {
+                "id": "8bdbeb793961ea2951a2ff03603a8cc5d06eaabb",
+                "type": "FEATURE",
+                "text": " You can now use additional properties to adapt list report tables"
+            },
+            {
+                "id": "1f725cd4909626f0f5c93cb8923b6c175dea1942",
+                "type": "FIX",
+                "text": " We've updated our API documentation and the descriptions in the flexible programming model with the information that providing the ID is mandatory when creating a Field building block"
+            },
+            {
+                "id": "e48c008f804abae713bd45dfb21cb827d2ec16aa",
+                "type": "FIX",
+                "text": " We have resolved an issue with the application breaking after discarding a draft"
+            },
+            {
+                "id": "0654ab6c8c08022369d6caebfbcb793ad39c52e5",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where the corrupt context of a previously visited object page resulted in an error message while subsequently loading the same object page"
+            },
+            {
+                "id": "3d32ee2f3d7e561667fcd759b89da1860cb7d243",
+                "type": "FEATURE",
+                "text": " We no longer display the semantic link if the quick view isn't defined and an app isn't assigned to the user's role"
+            },
+            {
+                "id": "8e7d6bb7582a4aba5b5e18959b5c066178471ffb",
+                "type": "FEATURE",
+                "text": " We now ensure that properties referenced by a LineItem annotated with UI.Hidden are hidden as well"
+            },
+            {
+                "id": "21963015b97b6893f4d42ee845924e7eee3bdeb6",
+                "type": "FIX",
+                "text": " We now ensure the correct order of fields in the Create popup"
+            },
+            {
+                "id": "8d8f99d2ed4554c3adf8a3fff31c0dcf02f5d242",
+                "type": "FIX",
+                "text": " When repeating action triggers for multiple rows that have received a 412 warning on action execution, we no longer trigger the action for rows that have executed their action successfully"
+            },
+            {
+                "id": "9f9fdd0ec911223d8c0a79a2d23e46972941949c",
+                "type": "FEATURE",
+                "text": " We now support displaying fields with a fixed value list as radio buttons"
+            },
+            {
+                "id": "a6001c7006e94ca3e3f3b2a419cc2d3c12039270",
+                "type": "FIX",
+                "text": " We've resolved an issue where filter fields containing the UI.AdaptationHidden property with a navigation path weren't applied to the filter request even though they were added in the UI.SelectionFields annotation."
+            },
+            {
+                "id": "df3ab22c7df7cb6acbda36a8e4047eb30a0f04c8",
+                "type": "FIX",
+                "text": " We now ensure that trigger actions are executed in separate changesets"
+            },
+            {
+                "id": "5cc0a8ded17161f7477019f0980e94c8a7d445e4",
+                "type": "FIX",
+                "text": " We now ensure that the default SemanticDate operator works as expected"
+            },
+            {
+                "id": "a52ea2b5123d133293cf93e039ff60dd1f8168eb",
+                "type": "FIX",
+                "text": " The DateTime data type now supports the UTC format"
+            },
+            {
+                "id": "2cbc6b8c307ab24715255e1b2b62d8e093d78b95",
+                "type": "FIX",
+                "text": " We have resolved an issue with applying a transient iAppState"
+            },
+            {
+                "id": "bb1bc57a0a6c5ac0a7ed40dd236ff0ae7610621c",
+                "type": "FIX",
+                "text": "  You can now execute the PrepareAction property by pressing Enter on object page tables in apps using the flexible column layout"
+            },
+            {
+                "id": "7be57f5e969517df0ce4b0c15ff2b2d9ed6704cc",
+                "type": "FIX",
+                "text": " We've resolved an issue for applications using the flexible column layout, which was causing the Save or Cancel action to fail after refreshing the page"
+            },
+            {
+                "id": "751a8a32f4e4f2be24a18ac815b666b27b7e7c89",
+                "type": "FEATURE",
+                "text": " End users can now delete the empty rows of a table"
+            },
+            {
+                "id": "19ace5a3c8af25d5731cb9f334cb8485b3f18b96",
+                "type": "FEATURE",
+                "text": " We now provide getCurrentVariantKey and setCurrentVariantKey as public APIs for the TableAPI"
+            },
+            {
+                "id": "c314213593071d5db19f158c7f179c4ef08cbc0d",
+                "type": "FIX",
+                "text": " We have resolved an issue with destroying a flexible column layout view when navigating back from it"
+            },
+            {
+                "id": "7478e96f8faad6b27b672aa7dd6ea4829005366a",
+                "type": "FIX",
+                "text": " We now ensure filter fields from the manifest are not added to a custom filter bar pointing to a different entity set"
+            },
+            {
+                "id": "487e2258761d12420e8ce53876858dd43369b4e8",
+                "type": "FEATURE",
+                "text": " For columns with a text arrangement annotation, we no longer display ‘Description’ as an option in the ‘Columns’ tab of the personalization dialog of the table"
+            },
+            {
+                "id": "543ca4819660dbcb110b7fdbae673f58c8a6c147",
+                "type": "FIX",
+                "text": " We've resolved an issue with the OData request for the Delete action"
+            },
+            {
+                "id": "905e181afcbee44c17f7bbb8b6f42f25f12e3042",
+                "type": "FIX",
+                "text": " We now correctly display the custom message as a message strip on the object page header upon initial navigation using the onAfterBinding controller extension"
+            },
+            {
+                "id": "32980dabc0e1568d2559508cc5773d3d45fa81fc",
+                "type": "FIX",
+                "text": " We now ensure that in page mode, the section title is hidden only for sections with a single control"
+            }
+        ]
+    }
+}

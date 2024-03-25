@@ -1227,5 +1227,31 @@
                 "text": " SmartField: Initialise event is now fired after metadata initialization"
             }
         ]
+    },
+    "1.108.27": {
+        "date": "March 2024",
+        "notes": [
+            {
+                "id": "e55c1e039d89bee0345322e6aa69bb4f3e7ee513",
+                "type": "FIX",
+                "text": " ValueHelpProvider: Absolute Path is now correctly encoded"
+            },
+            {
+                "id": "f07ad8d720215f77e6603beb35d0673701922769",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Search is complete announcement now has correct result count",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001891672024"
+                    }
+                ]
+            },
+            {
+                "id": "4faa09aef7e2dfc205817f80311568b20e7f9060",
+                "type": "FIX",
+                "text": " SmartField: Fixed currency code with TextArrangement"
+            }
+        ]
     }
 }

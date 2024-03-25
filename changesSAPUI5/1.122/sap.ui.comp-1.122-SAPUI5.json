@@ -1,0 +1,89 @@
+{
+    "1.122.0": {
+        "date": "March 2024",
+        "notes": [
+            {
+                "id": "e702f356b4c191355dfc16f8fe983d053e6dd343",
+                "type": "FIX",
+                "text": " SmartField: Currency model update in sap.ui.table.Table"
+            },
+            {
+                "id": "6d52cf660204ad38de80ae9894b8f23a85a53d6a",
+                "type": "FIX",
+                "text": " ValueHelpDialog: not throwing exception when collective search is used"
+            },
+            {
+                "id": "39c68576f4f82dae33e5064b12d454913f44b723",
+                "type": "FIX",
+                "text": " SmartField: Fixed currency code with TextArrangement"
+            },
+            {
+                "id": "26e4a8a5a7d79e5ff156568f205e966c16d0658d",
+                "type": "FIX",
+                "text": " SmartFilterBar: respect visible property of ControlConfiguration"
+            },
+            {
+                "id": "6db6fb8c854ee30fa5964327cbfe7865375fb69a",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Search is complete announcement now has correct result count",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001891672024"
+                    }
+                ]
+            },
+            {
+                "id": "d5d20a49ba73eb10e203aa8dac4231f5e3b0abe7",
+                "type": "FIX",
+                "text": " SmartFilterBar: pasting one row with multiple columns now behaves correctly"
+            },
+            {
+                "id": "8bdb62287f3b4c85a4c630c5eeb7a142ae2098f4",
+                "type": "FIX",
+                "text": " SmartFilterBar: Validation of custom ComboBox is now improved"
+            },
+            {
+                "id": "39b68a2d911fa0a6a35b4cda133d59a7cdea6b92",
+                "type": "FEATURE",
+                "text": " SmartField: Supports TextArrangement for NUMC"
+            },
+            {
+                "id": "b60ff7673ee756811c8feede026c7b6ca136c566",
+                "type": "FIX",
+                "text": " SmartFilterBar: filterChange event is now correctly fired on Variant change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370126048"
+                    }
+                ]
+            },
+            {
+                "id": "a4d2c3b19ff0dcea95961367c6c3bfdf6a60a77a",
+                "type": "FIX",
+                "text": " SmartField: Duplicate event handlers in some scenarios are now fixed"
+            },
+            {
+                "id": "dcd07a0ca7610a85ae40a1c5191806b36997980f",
+                "type": "FIX",
+                "text": " SmartField: Data Model update"
+            },
+            {
+                "id": "d21abd36cacbc12a73a28309b90057c76f655f96",
+                "type": "FIX",
+                "text": " SmartFilterBar: Non Mandatory ComboBox validation"
+            },
+            {
+                "id": "e874a60ff7fb02acdbc02c82bc12a6d018989895",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: Date fields now support the \"Today\" button"
+            },
+            {
+                "id": "02398ed662c60c260d4f090b2c5832b6d3bd6d89",
+                "type": "FIX",
+                "text": " SmartField: Data Model update fix"
+            }
+        ]
+    }
+}

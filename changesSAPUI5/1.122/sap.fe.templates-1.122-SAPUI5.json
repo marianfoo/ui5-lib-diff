@@ -1,0 +1,63 @@
+{
+    "1.122.0": {
+        "date": "March 2024",
+        "notes": [
+            {
+                "id": "3d32ee2f3d7e561667fcd759b89da1860cb7d243",
+                "type": "FEATURE",
+                "text": " We no longer display the semantic link if the quick view isn't defined and an app isn't assigned to the user's role"
+            },
+            {
+                "id": "21963015b97b6893f4d42ee845924e7eee3bdeb6",
+                "type": "FIX",
+                "text": " We now ensure the correct order of fields in the Create popup"
+            },
+            {
+                "id": "9f9fdd0ec911223d8c0a79a2d23e46972941949c",
+                "type": "FEATURE",
+                "text": " We now support displaying fields with a fixed value list as radio buttons"
+            },
+            {
+                "id": "1eae07fa6b1e7cd595368149135ce7e28170ed44",
+                "type": "FIX",
+                "text": " We now ensure the avatar is displayed without cropping its sides"
+            },
+            {
+                "id": "ac8e9c319755144fdae7ba74d27d7c3ed3618653",
+                "type": "FIX",
+                "text": " We now ensure that the focus on an object page is set to the first mandatory field on small screen devices"
+            },
+            {
+                "id": "c2107e8932946c01e428f240f3b58ac105f98f2f",
+                "type": "FIX",
+                "text": " We now ensure that the text area label is hidden if it is the only field in a section or subsection"
+            },
+            {
+                "id": "751a8a32f4e4f2be24a18ac815b666b27b7e7c89",
+                "type": "FEATURE",
+                "text": " End users can now delete the empty rows of a table"
+            },
+            {
+                "id": "628a9a75a9c4845719da45a47df5a5e7543ecb13",
+                "type": "FIX",
+                "text": " We have resolved an issue with exporting columns added using page variant management in a list report with multiple views"
+            },
+            {
+                "id": "42c3e633477c997b8af80de8dd97ccc5727a5ea0",
+                "type": "FIX",
+                "text": " We now correctly update the headerLevel property value when a section or subsection title is merged with the control title",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370094825"
+                    }
+                ]
+            },
+            {
+                "id": "4be96d57f119526dca0b8c3c5dc46b7917b7b164",
+                "type": "FIX",
+                "text": " We now ensure that the title does not overlap with global actions on the object page"
+            }
+        ]
+    }
+}

@@ -530,5 +530,91 @@
                 ]
             }
         ]
+    },
+    "1.84.24": {
+        "date": "Oct 2022",
+        "notes": [
+            {
+                "id": "I2d3c5d74a6279267c97face610c4a01ae35c53e3",
+                "type": "FIX",
+                "text": "The list report entity with parameters is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002004862022"
+                    }
+                ]
+            },
+            {
+                "id": "If57a3431bf9ba5078363c97c165172cd5f4fbd4a",
+                "type": "FIX",
+                "text": "Colliding select options is now fixed in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270142477"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.25": {
+        "date": "Nov 2022",
+        "notes": [
+            {
+                "id": "I438bb0c85ad8c4b4bcc0c1ae95bfd7061a46bfb3",
+                "type": "FIX",
+                "text": "We now provide improved intent based navigation handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070457529"
+                    }
+                ]
+            },
+            {
+                "id": "Iffac72b64d39d132c81a3bb94395eea0d548ca72",
+                "type": "FIX",
+                "text": "In the analytical list page, the correct propertyName is now returned in case a given property doesn't belong to a given entity set",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500006719922022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.30": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "Ica27830d94009e2aeafc95d61a532c82aee182ca",
+                "type": "FIX",
+                "text": "We now ensure that navigation is not broken even when CrossAppNavService returns no data",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180134661"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.34": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "Ica87b309d73e5c8d776aef5b681be783b0082b8f",
+                "type": "FIX",
+                "text": "We now ensure that registering a filter provider at the message button helper works fine even if outdated binding path info is present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370139111"
+                    }
+                ]
+            }
+        ]
     }
 }
