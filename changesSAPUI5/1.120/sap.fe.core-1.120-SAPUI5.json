@@ -743,5 +743,20 @@
                 "text": " When repeating action triggers for multiple rows that have received a 412 warning on action execution, we no longer trigger the action for rows that have executed their action successfully"
             }
         ]
+    },
+    "1.120.8": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "69be7d3c77a4d4c29963323cbf54d66e3c547b55",
+                "type": "FIX",
+                "text": " If the manifest configuration for an object page uses a contextPath parameter instead of entitySet, we ensure that a confirmation dialog is displayed while navigating away from the object page in edit mode"
+            },
+            {
+                "id": "d5f078291aec37c7dd139c3a0900ad2c974e0d16",
+                "type": "FIX",
+                "text": " We now correctly display the custom message as a message strip on the object page header upon initial navigation using the onAfterBinding controller extension"
+            }
+        ]
     }
 }

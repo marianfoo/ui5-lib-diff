@@ -562,5 +562,37 @@
                 ]
             }
         ]
+    },
+    "1.120.6": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "I4a7f34a840d4ffcc125aa918b8f74c6b45b5e334",
+                "type": "FIX",
+                "text": "The application state is now restored for multiple table view",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0041148"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.9": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "I53e6194c1e5e0f26b8562ea13b1977148d2a1e4f",
+                "type": "FIX",
+                "text": "We now ensure that static tile can be created in cases where custom semantic date field is applied",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007075135"
+                    }
+                ]
+            }
+        ]
     }
 }

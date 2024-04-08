@@ -3,17 +3,6 @@
         "date": "October 2023",
         "notes": [
             {
-                "id": "12747270c78295defb2cd0e237b0b971f55f9171",
-                "type": "FIX",
-                "text": " ValueHelp: busy indicator for typeahed stays forever",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2370124674"
-                    }
-                ]
-            },
-            {
                 "id": "dd73e2f83d8720e0417cbb9c6a91f1b4fa822b79",
                 "type": "FEATURE",
                 "text": " CellSelector: Improve removal of selection"
@@ -79,103 +68,6 @@
                     {
                         "type": "BCP",
                         "reference": "2370089302"
-                    }
-                ]
-            }
-        ]
-    },
-    "1.120.1": {
-        "date": "November 2023",
-        "notes": [
-            {
-                "id": "be1db0e8cb596bd3c59d5b03f8d3003a47f20445",
-                "type": "FIX",
-                "text": " Field: not possible to enter multiple lines",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2370128724"
-                    }
-                ]
-            },
-            {
-                "id": "c7a5289219cc9fb4057e56af6df51cb7c0f830ef",
-                "type": "FIX",
-                "text": " Field: Autocomplete shows wrong value if backend slow",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2370136431"
-                    }
-                ]
-            }
-        ]
-    },
-    "1.120.2": {
-        "date": "December 2023",
-        "notes": [
-            {
-                "id": "f1f51be32ab671fda2117ff8721c35a26f8a6714",
-                "type": "FIX",
-                "text": " mTable: consider useFirstMatch on filtering existing items",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "002075129500010450352023"
-                    }
-                ]
-            },
-            {
-                "id": "fb431c411c462622d1c08dab16cf5aea2e4c1f3e",
-                "type": "FIX",
-                "text": " ValueHelp: first item shown as selected too when other item is selected",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2370127159"
-                    }
-                ]
-            },
-            {
-                "id": "3fd2c8c98551a4c02a22ae1fd85da8a75cfaa823",
-                "type": "FIX",
-                "text": " Field: Currency/unit value do not overwrite initial parts with null",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2380087372"
-                    }
-                ]
-            }
-        ]
-    },
-    "1.120.3": {
-        "date": "January 2024",
-        "notes": [
-            {
-                "id": "7894634be1d2f976f3d53171a6cbd39ff10af3c7",
-                "type": "FIX",
-                "text": " mdc.FilterBar: ensure the correct event sequence",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "2380133966"
-                    }
-                ]
-            }
-        ]
-    },
-    "1.120.6": {
-        "date": "February 2024",
-        "notes": [
-            {
-                "id": "d589eebe056dc50b09fc8a11f0b063056e076571",
-                "type": "FIX",
-                "text": " P13nBuilder: Add button is now visible",
-                "references": [
-                    {
-                        "type": "BCP",
-                        "reference": "002075129500011174622023"
                     }
                 ]
             }

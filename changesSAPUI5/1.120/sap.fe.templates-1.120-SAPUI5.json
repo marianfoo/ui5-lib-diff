@@ -267,5 +267,15 @@
                 "text": " We have resolved an issue with exporting columns added using page variant management in a list report with multiple views"
             }
         ]
+    },
+    "1.120.8": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "69be7d3c77a4d4c29963323cbf54d66e3c547b55",
+                "type": "FIX",
+                "text": " If the manifest configuration for an object page uses a contextPath parameter instead of entitySet, we ensure that a confirmation dialog is displayed while navigating away from the object page in edit mode"
+            }
+        ]
     }
 }
