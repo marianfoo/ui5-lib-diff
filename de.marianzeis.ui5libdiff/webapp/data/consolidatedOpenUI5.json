@@ -16688,6 +16688,38 @@
     ]
   },
   {
+    "version": "1.121.2",
+    "date": "2024.04.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MessageToast: Fix permanent display"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange translation is correct now in Dutch"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: Resolve issue preventing text selection with mouse"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration cards: Fixed pagination with microcharts"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.122.0",
     "date": "2024.03.01",
     "libraries": [
