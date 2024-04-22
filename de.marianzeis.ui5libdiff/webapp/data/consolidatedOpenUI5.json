@@ -5596,19 +5596,19 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.Image#attachTap] undefined"
+            "text": "[sap.m.Image#attachTap] Use the {@link #event:press press} event instead."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.Image#detachTap] undefined"
+            "text": "[sap.m.Image#detachTap] Use the {@link #event:press press} event instead."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.Image#fireTap] undefined"
+            "text": "[sap.m.Image#fireTap] Use the {@link #event:press press} event instead."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.Image#tap] undefined"
+            "text": "[sap.m.Image#tap] Use the {@link #event:press press} event instead."
           },
           {
             "type": "DEPRECATED",
@@ -5616,7 +5616,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.UIArea#setRootNode] undefined"
+            "text": "[sap.ui.core.UIArea#setRootNode] without a replacement. Applications should not create or modify <code>UIArea</code>s programmatically. THey should only assign controls to them, by using {@link sap.ui.core.Control.prototype.placeAt Control.prototype.placeAt} or use the API of a <code>UIArea</code> as reachable via {@link sap.ui.core.Control.prototype.getUIArea Control.prototype.getUIArea}."
           },
           {
             "type": "DEPRECATED",
@@ -8964,19 +8964,19 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.ComboBoxBase#getOpen] undefined"
+            "text": "[sap.m.ComboBoxBase#getOpen] Please check the <code>showItems</code> functionality if you need to open the picker programmatically."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.ComboBoxBase#setOpen] undefined"
+            "text": "[sap.m.ComboBoxBase#setOpen] Please check the <code>showItems</code> functionality if you need to open the picker programmatically."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.SearchField#getRefreshButtonTooltip] undefined"
+            "text": "[sap.m.SearchField#getRefreshButtonTooltip] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.SearchField#setRefreshButtonTooltip] undefined"
+            "text": "[sap.m.SearchField#setRefreshButtonTooltip] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -9004,19 +9004,19 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#getEnableGrouping] this feature has a limited functionality and should not be used anymore."
+            "text": "[sap.ui.table.Table#getEnableGrouping] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#getGroupBy] undefined"
+            "text": "[sap.ui.table.Table#getGroupBy] see the <code>enableGrouping</code> property for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#setEnableGrouping] this feature has a limited functionality and should not be used anymore."
+            "text": "[sap.ui.table.Table#setEnableGrouping] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#setGroupBy] undefined"
+            "text": "[sap.ui.table.Table#setGroupBy] see the <code>enableGrouping</code> property for details."
           }
         ]
       }
@@ -9470,11 +9470,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.QuickViewPage#getCrossAppNavCallback] undefined"
+            "text": "[sap.m.QuickViewPage#getCrossAppNavCallback] Attach listener to the avatar <code>press</code> event and perform navigation as appropriate in your environment instead."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.QuickViewPage#setCrossAppNavCallback] undefined"
+            "text": "[sap.m.QuickViewPage#setCrossAppNavCallback] Attach listener to the avatar <code>press</code> event and perform navigation as appropriate in your environment instead."
           }
         ]
       }
@@ -11669,7 +11669,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.TablePersoProvider#undefined] undefined"
+            "text": "[sap.m.TablePersoProvider#undefined] replaced by {@link sap.m.p13n.Engine}"
           },
           {
             "type": "DEPRECATED",
@@ -11813,11 +11813,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.mdc.Table#getHeight] undefined"
+            "text": "[sap.ui.mdc.Table#getHeight] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.mdc.Table#setHeight] undefined"
+            "text": "[sap.ui.mdc.Table#setHeight] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -11825,7 +11825,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.ResetAllMode#undefined] undefined"
+            "text": "[sap.ui.table.ResetAllMode#undefined] replaced by {@link sap.m.p13n.Engine}"
           },
           {
             "type": "DEPRECATED",
@@ -11837,11 +11837,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#getEditable] undefined"
+            "text": "[sap.ui.table.Table#getEditable] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#setEditable] undefined"
+            "text": "[sap.ui.table.Table#setEditable] the concept has been discarded."
           }
         ]
       }
@@ -12652,15 +12652,15 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.AnalyticalColumnMenu#undefined] undefined"
+            "text": "[sap.ui.table.AnalyticalColumnMenu#undefined] replaced by the <code>headerMenu</code> association of <code>sap.ui.table.Column</code>."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.AnalyticalTable#getColumnVisibilityMenuSorter] undefined"
+            "text": "[sap.ui.table.AnalyticalTable#getColumnVisibilityMenuSorter] see the <code>showColumnVisibilityMenu</code> property of <code>sap.ui.table.Table</code> for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.AnalyticalTable#setColumnVisibilityMenuSorter] undefined"
+            "text": "[sap.ui.table.AnalyticalTable#setColumnVisibilityMenuSorter] see the <code>showColumnVisibilityMenu</code> property of <code>sap.ui.table.Table</code> for details."
           },
           {
             "type": "DEPRECATED",
@@ -12668,11 +12668,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Column#attachColumnMenuOpen] undefined"
+            "text": "[sap.ui.table.Column#attachColumnMenuOpen] see the <code>headerMenu</code> aggregation for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Column#columnMenuOpen] undefined"
+            "text": "[sap.ui.table.Column#columnMenuOpen] see the <code>headerMenu</code> aggregation for details."
           },
           {
             "type": "DEPRECATED",
@@ -12680,11 +12680,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Column#detachColumnMenuOpen] undefined"
+            "text": "[sap.ui.table.Column#detachColumnMenuOpen] see the <code>headerMenu</code> aggregation for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Column#fireColumnMenuOpen] undefined"
+            "text": "[sap.ui.table.Column#fireColumnMenuOpen] see the <code>headerMenu</code> aggregation for details."
           },
           {
             "type": "DEPRECATED",
@@ -12696,35 +12696,35 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#attachColumnSelect] undefined"
+            "text": "[sap.ui.table.Table#attachColumnSelect] see the <code>headerMenu</code> aggregation of <code>sap.ui.table.Column</code> for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#attachColumnVisibility] undefined"
+            "text": "[sap.ui.table.Table#attachColumnVisibility] see the <code>showColumnVisibilityMenu</code> property of <code>sap.ui.table.Table</code> for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#columnSelect] undefined"
+            "text": "[sap.ui.table.Table#columnSelect] see the <code>headerMenu</code> aggregation of <code>sap.ui.table.Column</code> for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#columnVisibility] undefined"
+            "text": "[sap.ui.table.Table#columnVisibility] see the <code>showColumnVisibilityMenu</code> property of <code>sap.ui.table.Table</code> for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#detachColumnSelect] undefined"
+            "text": "[sap.ui.table.Table#detachColumnSelect] see the <code>headerMenu</code> aggregation of <code>sap.ui.table.Column</code> for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#detachColumnVisibility] undefined"
+            "text": "[sap.ui.table.Table#detachColumnVisibility] see the <code>showColumnVisibilityMenu</code> property of <code>sap.ui.table.Table</code> for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#fireColumnSelect] undefined"
+            "text": "[sap.ui.table.Table#fireColumnSelect] see the <code>headerMenu</code> aggregation of <code>sap.ui.table.Column</code> for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#fireColumnVisibility] undefined"
+            "text": "[sap.ui.table.Table#fireColumnVisibility] see the <code>showColumnVisibilityMenu</code> property of <code>sap.ui.table.Table</code> for details."
           },
           {
             "type": "DEPRECATED",
@@ -13255,7 +13255,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#applyChanges] undefined"
+            "text": "[sap.ui.core.Core#applyChanges] without replacement. In the next major version, synchronously rendering UI updates is no longer supported as it can lead to unnecessary intermediate DOM updates or layout shifting etc. Controls should rather use invalidation and apps should not trigger rendering at all but rather rely on the framework's automatic update mechanisms. Test code can use the test module <code>sap/ui/qunit/utils/nextUIUpdate</code> as a convenient way to wait for the next asynchronous rendering."
           },
           {
             "type": "DEPRECATED",
@@ -13343,7 +13343,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#getUIDirty] undefined"
+            "text": "[sap.ui.core.Core#getUIDirty] without replacement. The known use cases in testing environments are covered by other APIs or features, e.g. OPA's waitFor mechanism."
           },
           {
             "type": "DEPRECATED",
@@ -13355,7 +13355,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#isLocked] undefined"
+            "text": "[sap.ui.core.Core#isLocked] without a replacement. The ability to prevent the re-rendering of all <code>UIArea</code>s wasn't really used in the past and did not provide a meaningful feature. It therefore has been abandoned."
           },
           {
             "type": "DEPRECATED",
@@ -13367,7 +13367,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#lock] undefined"
+            "text": "[sap.ui.core.Core#lock] without a replacement. The ability to prevent the re-rendering of all <code>UIArea</code>s wasn't really used in the past and did not provide a meaningful feature. It therefore has been abandoned."
           },
           {
             "type": "DEPRECATED",
@@ -13383,7 +13383,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#unlock] undefined"
+            "text": "[sap.ui.core.Core#unlock] without a replacement. The ability to prevent the re-rendering of all <code>UIArea</code>s wasn't really used in the past and did not provide a meaningful feature. It therefore has been abandoned."
           },
           {
             "type": "DEPRECATED",
@@ -13415,27 +13415,27 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Column#getGrouped] undefined"
+            "text": "[sap.ui.table.Column#getGrouped] see the <code>enableGrouping</code> property of <code>sap.ui.table.Table</code> for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Column#setGrouped] undefined"
+            "text": "[sap.ui.table.Column#setGrouped] see the <code>enableGrouping</code> property of <code>sap.ui.table.Table</code> for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#attachGroup] undefined"
+            "text": "[sap.ui.table.Table#attachGroup] see the <code>enableGrouping</code> property for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#detachGroup] undefined"
+            "text": "[sap.ui.table.Table#detachGroup] see the <code>enableGrouping</code> property for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#fireGroup] undefined"
+            "text": "[sap.ui.table.Table#fireGroup] see the <code>enableGrouping</code> property for details."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#group] undefined"
+            "text": "[sap.ui.table.Table#group] see the <code>enableGrouping</code> property for details."
           },
           {
             "type": "DEPRECATED",
@@ -13986,7 +13986,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[module:sap/ui/core/getCompatibilityVersion#undefined] undefined"
+            "text": "[module:sap/ui/core/getCompatibilityVersion#undefined] without a replacement. All features that have been controlled by a compatibility version in UI5 1.x will abandon their legacy behavior, starting with the next major version. In other words, they will behave as if compatibility version \"edge\" was configured. Due to this, no more access to the compatibility version will be required starting with the next major version."
           },
           {
             "type": "DEPRECATED",
@@ -14006,15 +14006,15 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.PlanningCalendar#attachRowHeaderClick] undefined"
+            "text": "[sap.m.PlanningCalendar#attachRowHeaderClick] replaced by <code>rowHeaderPress</code> event"
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.PlanningCalendar#detachRowHeaderClick] undefined"
+            "text": "[sap.m.PlanningCalendar#detachRowHeaderClick] replaced by <code>rowHeaderPress</code> event"
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.PlanningCalendar#fireRowHeaderClick] undefined"
+            "text": "[sap.m.PlanningCalendar#fireRowHeaderClick] replaced by <code>rowHeaderPress</code> event"
           },
           {
             "type": "DEPRECATED",
@@ -14022,7 +14022,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.PlanningCalendar#rowHeaderClick] undefined"
+            "text": "[sap.m.PlanningCalendar#rowHeaderClick] replaced by <code>rowHeaderPress</code> event"
           },
           {
             "type": "DEPRECATED",
@@ -14042,7 +14042,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getCompatibilityVersion] undefined"
+            "text": "[sap.ui.core.Configuration#getCompatibilityVersion] without a replacement. All features that have been controlled by a compatibility version in UI5 1.x will abandon their legacy behavior, starting with the next major version. In other words, they will behave as if compatibility version \"edge\" was configured. Due to this, no more access to the compatibility version will be required starting with the next major version."
           },
           {
             "type": "DEPRECATED",
@@ -14098,7 +14098,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#attachControlEvent] undefined"
+            "text": "[sap.ui.core.Core#attachControlEvent] without a replacement. Applications should not have the need to intercept all control events."
           },
           {
             "type": "DEPRECATED",
@@ -14110,11 +14110,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#createRenderManager] undefined"
+            "text": "[sap.ui.core.Core#createRenderManager] without replacement. In the next major version, synchronously rendering UI updates is no longer supported as it can lead to unnecessary intermediate DOM updates or layout shifting etc. Controls should rather use invalidation."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#detachControlEvent] undefined"
+            "text": "[sap.ui.core.Core#detachControlEvent] without a replacement. Applications should not have the need to intercept all control events."
           },
           {
             "type": "DEPRECATED",
@@ -14122,7 +14122,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#extend] undefined"
+            "text": "[sap.ui.core.Core#extend] without replacement. In future major versions, the Core no longer has a class nature and therefore can't be extended."
           },
           {
             "type": "DEPRECATED",
@@ -14138,11 +14138,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#getLoadedLibraries] undefined"
+            "text": "[sap.ui.core.Core#getLoadedLibraries] without a 1:1 replacement. Callers that used <code>getLoadedLibraries</code> to check whether a certain library is loaded, should rather use {@link sap.ui.core.Lib#isLoaded Library#isLoaded}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#getMetadata] undefined"
+            "text": "[sap.ui.core.Core#getMetadata] without replacement. In future major versions, the Core no longer has a class nature and no longer inherits from sap.ui.base.Object and therefore no longer has metadata."
           },
           {
             "type": "DEPRECATED",
@@ -14150,7 +14150,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#includeLibraryTheme] undefined"
+            "text": "[sap.ui.core.Core#includeLibraryTheme] without replacement. There's no known use case that would require a public API."
           },
           {
             "type": "DEPRECATED",
@@ -14182,7 +14182,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#setThemeRoot] undefined"
+            "text": "[sap.ui.core.Core#setThemeRoot] without replacement. The need to define the location for a theme should be fully covered with the capabiltites of the {@link sap/base/config base configuration}."
           },
           {
             "type": "DEPRECATED",
@@ -14238,7 +14238,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.VisibleRowCountMode#undefined] undefined"
+            "text": "[sap.ui.table.VisibleRowCountMode#undefined] see the <code>rowMode</code> aggregation of <code>sap.ui.table.Table</code> for more details."
           }
         ]
       }
@@ -14821,6 +14821,10 @@
           },
           {
             "type": "DEPRECATED",
+            "text": "[sap.m.MultiEditField#undefined] undefined"
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.m.P13nColumnsItem#undefined] undefined"
           },
           {
@@ -14834,6 +14838,10 @@
           {
             "type": "DEPRECATED",
             "text": "[sap.m.P13nGroupItem#undefined] undefined"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.P13nSortItem#undefined] undefined"
           },
           {
             "type": "DEPRECATED",
@@ -14881,11 +14889,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#undefined] undefined"
+            "text": "[sap.ui.core.Configuration#undefined] There's no single replacement for this class. Instead, several facades have been created for different topics, e.g. {@link module:sap/base/i18n/Localization Localization} for settings related to localization, {@link module:sap/base/i18n/Formatting Formatting} for settings related to data formatting, {@link module:sap/ui/core/Theming Theming} for theming related settings, {@link module:sap/ui/core/ControlBehavior ControlBehavior} for settings that are typically required when implementing the behavior of a control, {@link module:sap/ui/security/Security Security} for settings around security.\n\nPlease check the individual methods of this class for their replacements, if any."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#applySettings] undefined"
+            "text": "[sap.ui.core.Configuration#applySettings] without a replacement. As the different settings have been spread across multiple new APIs (see {@link sap.ui.core.Configuration the deprecation hint for this class}), a common API for changing multiple settings no longer made sense.\n\nPlease check the individual methods of this class for their replacements and call those replacement methods one by one."
           },
           {
             "type": "DEPRECATED",
@@ -14901,15 +14909,15 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getAppCacheBuster] undefined"
+            "text": "[sap.ui.core.Configuration#getAppCacheBuster] without a replacement. Was only used within the implementation of the <code>AppCacheBuster</code>."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getAppCacheBusterMode] undefined"
+            "text": "[sap.ui.core.Configuration#getAppCacheBusterMode] without a replacement. Was only used within the implementation of the <code>AppCacheBuster</code>."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getAutoAriaBodyRole] undefined"
+            "text": "[sap.ui.core.Configuration#getAutoAriaBodyRole] without a replacement. Was only used in the implementation of the framework itself."
           },
           {
             "type": "DEPRECATED",
@@ -14921,23 +14929,23 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getDebug] undefined"
+            "text": "[sap.ui.core.Configuration#getDebug] without a replacement. All debug mode functionality is implemented within the framework and should be transparent for application code. There's no need for a public accessor method."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getDisableCustomizing] undefined"
+            "text": "[sap.ui.core.Configuration#getDisableCustomizing] without a replacement."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getFileShareSupport] undefined"
+            "text": "[sap.ui.core.Configuration#getFileShareSupport] without a replacement. The configuration is only relevant for the <code>sap.ui.export</code> library."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getFiori2Adaptation] undefined"
+            "text": "[sap.ui.core.Configuration#getFiori2Adaptation] without a replacement. All the Fiori 2.0 adaptation logic is handled by the framework, there should be no need for apps to know about it."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getFlexibilityServices] undefined"
+            "text": "[sap.ui.core.Configuration#getFlexibilityServices] without a replacement. Was only used by the Flexibility feature which now resolves this on its own."
           },
           {
             "type": "DEPRECATED",
@@ -14953,7 +14961,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getInspect] undefined"
+            "text": "[sap.ui.core.Configuration#getInspect] without a replacement. The inspect option is related to the very old sap-ui-debug module. As there are now much better development tools (e.g. the UI5 Inpsector browser extension), this option has been deprecated and the sap-ui-debug feature might be removed in future major versions of UI5."
           },
           {
             "type": "DEPRECATED",
@@ -14961,11 +14969,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getNoDuplicateIds] undefined"
+            "text": "[sap.ui.core.Configuration#getNoDuplicateIds] without a replacement. Future major versions of UI5 will always report duplicate IDs as an error as the framework heavily relies on their uniqueness."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getOriginInfo] undefined"
+            "text": "[sap.ui.core.Configuration#getOriginInfo] The origin info was intended as a mean to track down translation issues to the origin of a translated text. Meanwhile, with the pseudo logon language 3Q, a similar, more lightweight feature exists for use with OpenUI5 or SAPUI5 libraries."
           },
           {
             "type": "DEPRECATED",
@@ -14973,7 +14981,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#getStatisticsEnabled] undefined"
+            "text": "[sap.ui.core.Configuration#getStatisticsEnabled] without a replacment. The configuration is only relevant within the framework."
           },
           {
             "type": "DEPRECATED",
@@ -14993,7 +15001,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Configuration#setCore] undefined"
+            "text": "[sap.ui.core.Configuration#setCore] without a replacement."
           },
           {
             "type": "DEPRECATED",
@@ -15045,35 +15053,35 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.UIArea.registry#undefined] undefined"
+            "text": "[sap.ui.core.UIArea.registry#undefined] without a replacement. Applications should not be interested in the set of all <code>UIArea</code>s. They should only assign controls to them, by using {@link sap.ui.core.Control.prototype.placeAt Control.prototype.placeAt} or use the API of a <code>UIArea</code> as reachable via {@link sap.ui.core.Control.prototype.getUIArea Control.prototype.getUIArea}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.UIArea.registry#all] undefined"
+            "text": "[sap.ui.core.UIArea.registry#all] without a replacement. Applications should not be interested in the set of all <code>UIArea</code>s. They should only assign controls to them, by using {@link sap.ui.core.Control.prototype.placeAt Control.prototype.placeAt} or use the API of a <code>UIArea</code> as reachable via {@link sap.ui.core.Control.prototype.getUIArea Control.prototype.getUIArea}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.UIArea.registry#filter] undefined"
+            "text": "[sap.ui.core.UIArea.registry#filter] without a replacement. Applications should not be interested in the set of all <code>UIArea</code>s. They should only assign controls to them, by using {@link sap.ui.core.Control.prototype.placeAt Control.prototype.placeAt} or use the API of a <code>UIArea</code> as reachable via {@link sap.ui.core.Control.prototype.getUIArea Control.prototype.getUIArea}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.UIArea.registry#forEach] undefined"
+            "text": "[sap.ui.core.UIArea.registry#forEach] without a replacement. Applications should not be interested in the set of all <code>UIArea</code>s. They should only assign controls to them, by using {@link sap.ui.core.Control.prototype.placeAt Control.prototype.placeAt} or use the API of a <code>UIArea</code> as reachable via {@link sap.ui.core.Control.prototype.getUIArea Control.prototype.getUIArea}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.UIArea.registry#get] undefined"
+            "text": "[sap.ui.core.UIArea.registry#get] without a replacement. Applications should not be interested in the set of all <code>UIArea</code>s. They should only assign controls to them, by using {@link sap.ui.core.Control.prototype.placeAt Control.prototype.placeAt} or use the API of a <code>UIArea</code> as reachable via {@link sap.ui.core.Control.prototype.getUIArea Control.prototype.getUIArea}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.integration.Host#csrfTokenExpired] undefined"
+            "text": "[sap.ui.integration.Host#csrfTokenExpired] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.integration.Host#csrfTokenFetched] undefined"
+            "text": "[sap.ui.integration.Host#csrfTokenFetched] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.integration.Host#getCsrfToken] undefined"
+            "text": "[sap.ui.integration.Host#getCsrfToken] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -15125,7 +15133,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.TreeAutoExpandMode#undefined] undefined"
+            "text": "[sap.ui.table.TreeAutoExpandMode#undefined] replaced by <code>sap.ui.model.TreeAutoExpandMode</code>"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui#requireSync] sync loading is deprecated without replacement due to the deprecation of sync XMLHttpRequests in the web standard."
           }
         ]
       }
@@ -16586,10 +16598,6 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.MultiEditField#undefined] undefined"
-          },
-          {
-            "type": "DEPRECATED",
             "text": "[sap.m.Text#canUseNativeLineClamp] Native line clamp is now available in all supported browsers."
           },
           {
@@ -16606,7 +16614,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.Text#getLineHeight] undefined"
+            "text": "[sap.m.Text#getLineHeight] Native line clamp is now available in all supported browsers."
           },
           {
             "type": "DEPRECATED",
@@ -16658,7 +16666,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.model.odata.AnnotationHelper#createPropertySetting] undefined"
+            "text": "[sap.ui.model.odata.AnnotationHelper#createPropertySetting] the concept has been discarded."
           }
         ]
       }
@@ -17059,6 +17067,363 @@
           {
             "type": "FIX",
             "text": " sap.m.Toolbar: Logic fixed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.123.0",
+    "date": "2024.04.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Error message for invalid request configuration is now translated"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPageTitle: Fix overlaping of snappedContent"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.Shellbar: FCL sample fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.ProductSwitchItem: Aria-checked attribute added"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.GridContainer: Fix in focus handling for tiles"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.cards.NumericHeader: Loading placeholder of subtitle and unit now covers content underneath"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.SinglePlanningCalendar: Providing weekNumberPress and selectedDatesChange events"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.TimePicker: Show 12h format if the display format contains the symbol B"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.core.IconPool: Update icon font v5.8 and v4.20"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Breadcrumbs: currentLocation is link"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: added MenuItem shortcutText property"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.SinglePlanningCalendar: implemented Custom Content in Appointments"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Fix failing qunit tests"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ScrollPosition: Fix unstable test"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MessageToast: Fix permanent display"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: prevent user value override"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: Fixed paging indicator numbers in right-to-left (RTL) mode"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MultiComboBox: Test page adjustment"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: Button in Split mode has correct border and focus in horizon theme"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RadioButton: hover and focus visual fixes"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: the colors from the color property are already reflected in the monthly view"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: fixed test accessibility page"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: Resolve issue preventing text selection with mouse"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RangeSlider: Test page fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Slider: fix horizon scale alignment"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m,sap.ui.commons,sap.ui.core,sap.uxap: Deprecated API descriptions enhanced"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.OverflowToolbar: Button type change fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Slider: adjust sizings for all themes"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: Displayed correctly in footer when button mode is \"Split\""
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: Is truncated correctly in sap.m.Table"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.inputUtils.ListHelpers: Group items properly added"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: Remove empty attributes"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.BreadCrumbs: Add 'tabindex' on the correct element"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RadioButtonGroup: Equalize width of single and multiple rows groups"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Avatar: Acc sample improved"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.OverflowToolbar: Acc sample improved"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: added MenuItem shortcutText property"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IllustratedMessage: Fixed TNT chart illustrations"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Add proper bottom margin for all navigation list items"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.commons",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m,sap.ui.commons,sap.ui.core,sap.uxap: Deprecated API descriptions enhanced"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.core.IconPool: Update icon font v5.8 and v4.20"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/EventBus: add try/catch around calling the listeners"
+          },
+          {
+            "type": "FIX",
+            "text": " XMLTemplateProcessor: Keep sync. processing of stashed controls stable"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.type.Currency: amount scale is used instead of currency's decimal places"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/v2/ODataModel#setChangeGroups: Improve JSDoc"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.type.Unit: do not overwrite Unit's maxFractionDigits format option"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m,sap.ui.commons,sap.ui.core,sap.uxap: Deprecated API descriptions enhanced"
+          },
+          {
+            "type": "FIX",
+            "text": " mvc/Controller: Replace function call with apply"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.documentation",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Visibility of version info on touch-based devices"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Prevent potential failure of simultaneous CSRF token re-fetch"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Error message for invalid request configuration is now translated"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration cards: Fixed object card date range binding"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.integration.widgets.Card: Fixed circular dependency in Card.request"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.cards.NumericHeader: Loading placeholder of subtitle and unit now covers content underneath"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Array parameter in data request no longer ends with undefined values"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " FilterField: enable token deletion via backspace"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: initializing currency updates value"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: added MenuItem shortcutText property"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: adjust header buttons width"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: remove extra week number"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Loading calendar types in advance"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageSection: Improved sectons handling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m,sap.ui.commons,sap.ui.core,sap.uxap: Deprecated API descriptions enhanced"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Layout issue corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageSection: fixed title misalignment"
+          }
+        ]
+      },
+      {
+        "library": "deprecated",
+        "changes": [
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.Breadcrumbs#getCurrentLocationText] Use the <strong>currentLocation</strong> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.Breadcrumbs#setCurrentLocationText] Use the <strong>currentLocation</strong> aggregation instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.NotificationListBase#getAuthorName] This property is available directly on {@link sap.m.NotificationListItem}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.NotificationListBase#getAuthorPicture] This property is available directly on {@link sap.m.NotificationListItem}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.NotificationListBase#getDatetime] this property is available directly on {@link sap.m.NotificationListItem}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.NotificationListBase#setAuthorName] This property is available directly on {@link sap.m.NotificationListItem}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.NotificationListBase#setAuthorPicture] This property is available directly on {@link sap.m.NotificationListItem}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.NotificationListBase#setDatetime] this property is available directly on {@link sap.m.NotificationListItem}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.model.odata.v4.ODataContextBinding#execute] use {@link #invoke} instead"
           }
         ]
       }
@@ -19479,35 +19844,35 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.AnalyticalTable#getEnableGrouping] undefined"
+            "text": "[sap.ui.table.AnalyticalTable#getEnableGrouping] the <code>enableGrouping</code> property is not supported by the <code>AnalyticalTable</code> control."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.AnalyticalTable#getGroupBy] undefined"
+            "text": "[sap.ui.table.AnalyticalTable#getGroupBy] the <code>groupBy</code> association is not supported by the <code>AnalyticalTable</code> control."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.AnalyticalTable#setEnableGrouping] undefined"
+            "text": "[sap.ui.table.AnalyticalTable#setEnableGrouping] the <code>enableGrouping</code> property is not supported by the <code>AnalyticalTable</code> control."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.AnalyticalTable#setGroupBy] undefined"
+            "text": "[sap.ui.table.AnalyticalTable#setGroupBy] the <code>groupBy</code> association is not supported by the <code>AnalyticalTable</code> control."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.TreeTable#getEnableGrouping] undefined"
+            "text": "[sap.ui.table.TreeTable#getEnableGrouping] the <code>enableGrouping</code> property is not supported by the <code>TreeTable</code> control."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.TreeTable#getGroupBy] undefined"
+            "text": "[sap.ui.table.TreeTable#getGroupBy] the <code>groupBy</code> association is not supported by the <code>TreeTable</code> control."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.TreeTable#setEnableGrouping] To get a group-like visualization the <code>useGroupMode</code> property can be used."
+            "text": "[sap.ui.table.TreeTable#setEnableGrouping] the <code>enableGrouping</code> property is not supported by the <code>TreeTable</code> control. To get a group-like visualization the <code>useGroupMode</code> property can be used."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.TreeTable#setGroupBy] undefined"
+            "text": "[sap.ui.table.TreeTable#setGroupBy] the <code>groupBy</code> association is not supported by the <code>TreeTable</code> control."
           }
         ]
       }
@@ -28974,11 +29339,11 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.BusyIndicator#getDesign] undefined"
+            "text": "[sap.m.BusyIndicator#getDesign] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.BusyIndicator#setDesign] undefined"
+            "text": "[sap.m.BusyIndicator#setDesign] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -28990,19 +29355,19 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.OverflowToolbarLayoutData#getMoveToOverflow] undefined"
+            "text": "[sap.m.OverflowToolbarLayoutData#getMoveToOverflow] {@link sap.m.OverflowToolbarPriority} instead."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.OverflowToolbarLayoutData#getStayInOverflow] undefined"
+            "text": "[sap.m.OverflowToolbarLayoutData#getStayInOverflow] Use {@link sap.m.OverflowToolbarPriority} instead."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.OverflowToolbarLayoutData#setMoveToOverflow] undefined"
+            "text": "[sap.m.OverflowToolbarLayoutData#setMoveToOverflow] {@link sap.m.OverflowToolbarPriority} instead."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.OverflowToolbarLayoutData#setStayInOverflow] undefined"
+            "text": "[sap.m.OverflowToolbarLayoutData#setStayInOverflow] Use {@link sap.m.OverflowToolbarPriority} instead."
           },
           {
             "type": "DEPRECATED",
@@ -41394,11 +41759,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.AccordionSection#undefined] undefined"
+            "text": "[sap.ui.commons.AccordionSection#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.Accordion#undefined] undefined"
+            "text": "[sap.ui.commons.Accordion#undefined] replaced by {@link sap.m.Panel}."
           },
           {
             "type": "DEPRECATED",
@@ -41410,11 +41775,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.AutoComplete#undefined] undefined"
+            "text": "[sap.ui.commons.AutoComplete#undefined] replaced by {@link sap.m.Input}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.ButtonStyle#undefined] undefined"
+            "text": "[sap.ui.commons.ButtonStyle#undefined] (altogether with sap.ui.commons.Button). Use sap.m.Button with its sap.m.ButtonType instead."
           },
           {
             "type": "DEPRECATED",
@@ -41422,7 +41787,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.CalloutBase#undefined] undefined"
+            "text": "[sap.ui.commons.CalloutBase#undefined] If you want to achieve a similar behavior, use the <code>sap.m.Popover</code> control and open it next to your control."
           },
           {
             "type": "DEPRECATED",
@@ -41474,7 +41839,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.FormattedTextViewControl#undefined] undefined"
+            "text": "[sap.ui.commons.FormattedTextViewControl#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -41486,15 +41851,15 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.HorizontalDividerHeight#undefined] undefined"
+            "text": "[sap.ui.commons.HorizontalDividerHeight#undefined] without replacement."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.HorizontalDividerType#undefined] undefined"
+            "text": "[sap.ui.commons.HorizontalDividerType#undefined] without a replacement."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.HorizontalDivider#undefined] undefined"
+            "text": "[sap.ui.commons.HorizontalDivider#undefined] Use the layout controls instead, e.g {@link sap.ui.layout.Splitter} or {@link sap.ui.layout.BlockLayout} among others."
           },
           {
             "type": "DEPRECATED",
@@ -41510,7 +41875,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.LabelDesign#undefined] undefined"
+            "text": "[sap.ui.commons.LabelDesign#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -41518,7 +41883,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.layout.AbsoluteLayout#undefined] undefined"
+            "text": "[sap.ui.commons.layout.AbsoluteLayout#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -41526,7 +41891,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.layout.BorderLayoutAreaTypes#undefined] undefined"
+            "text": "[sap.ui.commons.layout.BorderLayoutAreaTypes#undefined] (altogether with sap.ui.commons.layout.BorderLayout). Use sap.m.Page instead with its aggregations."
           },
           {
             "type": "DEPRECATED",
@@ -41586,7 +41951,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.MenuBarDesign#undefined] undefined"
+            "text": "[sap.ui.commons.MenuBarDesign#undefined] (altogether with sap.ui.commons.Toolbar). Use sap.m.Toolbar and its sap.m.ToolbarDesign instead."
           },
           {
             "type": "DEPRECATED",
@@ -41598,11 +41963,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.MessageBox.Action#undefined] undefined"
+            "text": "[sap.ui.commons.MessageBox.Action#undefined] Instead, use the <code>sap.m.MessageBox.Action</code>."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.MessageBox.Icon#undefined] undefined"
+            "text": "[sap.ui.commons.MessageBox.Icon#undefined] Instead, use the <code>sap.m.MessageBox.Icon</code>."
           },
           {
             "type": "DEPRECATED",
@@ -41610,15 +41975,15 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.MessageType#undefined] undefined"
+            "text": "[sap.ui.commons.MessageType#undefined] Instead, use the <code>sap.ui.core.MessageType</code>."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.PaginatorEvent#undefined] undefined"
+            "text": "[sap.ui.commons.PaginatorEvent#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.Paginator#undefined] undefined"
+            "text": "[sap.ui.commons.Paginator#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -41646,7 +42011,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.RatingIndicatorVisualMode#undefined] undefined"
+            "text": "[sap.ui.commons.RatingIndicatorVisualMode#undefined] Instead, use <code>sap.m.RatingIndicator</code> control."
           },
           {
             "type": "DEPRECATED",
@@ -41654,7 +42019,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.ResponsiveContainerRange#undefined] undefined"
+            "text": "[sap.ui.commons.ResponsiveContainerRange#undefined] (altogether with sap.ui.commons.ResponsiveContainer). Use a container of your choice from the sap.m library instead."
           },
           {
             "type": "DEPRECATED",
@@ -41702,7 +42067,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.SplitterSize#undefined] undefined"
+            "text": "[sap.ui.commons.SplitterSize#undefined] Instead, use <code>sap.ui.layout.Splitter</code> control."
           },
           {
             "type": "DEPRECATED",
@@ -41726,15 +42091,15 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.TextViewColor#undefined] undefined"
+            "text": "[sap.ui.commons.TextViewColor#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.TextViewDesign#undefined] undefined"
+            "text": "[sap.ui.commons.TextViewDesign#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.TextView#undefined] undefined"
+            "text": "[sap.ui.commons.TextView#undefined] replaced by {@link sap.m.Text}."
           },
           {
             "type": "DEPRECATED",
@@ -41746,11 +42111,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.ToolbarItem#undefined] undefined"
+            "text": "[sap.ui.commons.ToolbarItem#undefined] (altogether with sap.ui.commons.Toolbar). Use sap.m.Toolbar instead."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.ToolbarSeparatorDesign#undefined] undefined"
+            "text": "[sap.ui.commons.ToolbarSeparatorDesign#undefined] (altogether wuith sap.ui.commons.Toolbar). Use sap.m.Toolbar and its sap.m.ToolbarSeparator instead."
           },
           {
             "type": "DEPRECATED",
@@ -41766,7 +42131,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.TreeSelectionMode#undefined] undefined"
+            "text": "[sap.ui.commons.TreeSelectionMode#undefined] (altogether with sap.ui.commons.Tree). Use sap.m.Tree with its items instead."
           },
           {
             "type": "DEPRECATED",
@@ -41774,11 +42139,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.TriStateCheckBoxState#undefined] undefined"
+            "text": "[sap.ui.commons.TriStateCheckBoxState#undefined] Use {@link sap.m.CheckBox} and its properties instead."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.commons.TriStateCheckBox#undefined] undefined"
+            "text": "[sap.ui.commons.TriStateCheckBox#undefined] Use {@link sap.m.CheckBox} instead."
           },
           {
             "type": "DEPRECATED",
@@ -41790,7 +42155,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.NavigationMode#undefined] undefined"
+            "text": "[sap.ui.table.NavigationMode#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -41798,7 +42163,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#getNavigationMode] undefined"
+            "text": "[sap.ui.table.Table#getNavigationMode] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -41806,7 +42171,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.table.Table#setNavigationMode] undefined"
+            "text": "[sap.ui.table.Table#setNavigationMode] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -41918,15 +42283,15 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.ux3.OverlayContainer#undefined] undefined"
+            "text": "[sap.ui.ux3.OverlayContainer#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.ux3.OverlayDialog#undefined] undefined"
+            "text": "[sap.ui.ux3.OverlayDialog#undefined] replaced by {@link sap.m.Dialog}"
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.ux3.Overlay#undefined] undefined"
+            "text": "[sap.ui.ux3.Overlay#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -52826,23 +53191,23 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.GroupHeaderListItem#getUpperCase] undefined"
+            "text": "[sap.m.GroupHeaderListItem#getUpperCase] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.GroupHeaderListItem#setUpperCase] undefined"
+            "text": "[sap.m.GroupHeaderListItem#setUpperCase] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.uxap.ObjectPageHeaderContent#getContentDesign] undefined"
+            "text": "[sap.uxap.ObjectPageHeaderContent#getContentDesign] without replacement."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.uxap.ObjectPageHeaderContent#setContentDesign] undefined"
+            "text": "[sap.uxap.ObjectPageHeaderContent#setContentDesign] without replacement."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.uxap.ObjectPageHeader#getHeaderDesign] undefined"
+            "text": "[sap.uxap.ObjectPageHeader#getHeaderDesign] without replacement."
           }
         ]
       }
@@ -54705,11 +55070,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.delegate.ScrollEnablement#setBounce] undefined"
+            "text": "[sap.ui.core.delegate.ScrollEnablement#setBounce] without replacement."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.model.odata.v2.ODataModel#refreshMetadata] undefined"
+            "text": "[sap.ui.model.odata.v2.ODataModel#refreshMetadata] this API may cause data inconsistencies and should not be used."
           }
         ]
       }
@@ -56081,31 +56446,31 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.unified.ContentSwitcher#undefined] undefined"
+            "text": "[sap.ui.unified.ContentSwitcher#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.unified.ShellHeadItem#undefined] undefined"
+            "text": "[sap.ui.unified.ShellHeadItem#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.unified.ShellHeadUserItem#undefined] undefined"
+            "text": "[sap.ui.unified.ShellHeadUserItem#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.unified.ShellLayout#undefined] undefined"
+            "text": "[sap.ui.unified.ShellLayout#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.unified.ShellOverlay#undefined] undefined"
+            "text": "[sap.ui.unified.ShellOverlay#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.unified.Shell#undefined] undefined"
+            "text": "[sap.ui.unified.Shell#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.unified.SplitContainer#undefined] undefined"
+            "text": "[sap.ui.unified.SplitContainer#undefined] the concept has been discarded."
           }
         ]
       }
@@ -58003,23 +58368,23 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.Tree#setGrowing] undefined"
+            "text": "[sap.m.Tree#setGrowing] the <code>growing</code> property is not supported by the <code>Tree</code> control."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.Tree#setGrowingDirection] undefined"
+            "text": "[sap.m.Tree#setGrowingDirection] the <code>growingDirection</code> property is not supported by the <code>Tree</code> control."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.Tree#setGrowingScrollToLoad] undefined"
+            "text": "[sap.m.Tree#setGrowingScrollToLoad] the <code>growingScrollToLoad</code> property is not supported by the <code>Tree</code> control."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.Tree#setGrowingThreshold] undefined"
+            "text": "[sap.m.Tree#setGrowingThreshold] the <code>growingThreshold</code> property is not supported by the <code>Tree</code> control."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.Tree#setGrowingTriggerText] undefined"
+            "text": "[sap.m.Tree#setGrowingTriggerText] the <code>growingTriggerText</code> property is not supported by the <code>Tree</code> control."
           },
           {
             "type": "DEPRECATED",
@@ -67092,7 +67457,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.ScrollBar#undefined] undefined"
+            "text": "[sap.ui.core.ScrollBar#undefined] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -69280,11 +69645,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.InputBaseRenderer#addPlaceholderClasses] undefined"
+            "text": "[sap.m.InputBaseRenderer#addPlaceholderClasses] This method should not be used anymore as native placeholder is used on all browsers."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.InputBaseRenderer#addPlaceholderStyles] undefined"
+            "text": "[sap.m.InputBaseRenderer#addPlaceholderStyles] This method should not be used anymore as native placeholder is used on all browsers."
           },
           {
             "type": "DEPRECATED",
@@ -77462,10 +77827,6 @@
             "text": " sap.f.GridDropInfo: Setting dimensions of the indicator is now possible"
           },
           {
-            "type": "FEATURE",
-            "text": " sap.f.GridDropInfo: Setting dimensions of the indicator is now possible"
-          },
-          {
             "type": "FIX",
             "text": " sap.f.DynamicPage: failing test on EDGE is fixed"
           },
@@ -77476,18 +77837,6 @@
           {
             "type": "FIX",
             "text": " sap.f.GridContainer: Hidden controls now don't take space"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.f.DynamicPage: failing test on EDGE is fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.f.GridContainer: Hidden controls now don't take space"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.f.GridDropInfo: Indicator is now hidden on drag leave"
           }
         ]
       },
@@ -77519,30 +77868,6 @@
             "text": " sap.m.SinglePlanningCalendar: fires viewChange event"
           },
           {
-            "type": "FEATURE",
-            "text": " SAP Icons v4.5 update"
-          },
-          {
-            "type": "FEATURE",
-            "text": " StandardListItem: visual adaptation"
-          },
-          {
-            "type": "FEATURE",
-            "text": " sap.m.Link: Support of changing the target in adaptation mode"
-          },
-          {
-            "type": "FEATURE",
-            "text": " sap.m.SinglePlanningCalendar: fires viewChange event"
-          },
-          {
-            "type": "FEATURE",
-            "text": " sap.m.TabContainer: Added new background design property"
-          },
-          {
-            "type": "FEATURE",
-            "text": " sap.m.TableSelectDialog: Draggable and resizable properties added. Tests added."
-          },
-          {
             "type": "FIX",
             "text": " sap.m.DatePicker: Now DatePicker does not override the style of the Dialog"
           },
@@ -77733,202 +78058,6 @@
           {
             "type": "FIX",
             "text": " sap.m.Wizard: Detach event listeners from the step when removed"
-          },
-          {
-            "type": "FIX",
-            "text": " P13nConditionPanel: improve date validation"
-          },
-          {
-            "type": "FIX",
-            "text": " SAP-icons: Add \"soccer\" as alias for \"soccor\" (typo)"
-          },
-          {
-            "type": "FIX",
-            "text": " TreeItemBase: selection handling on model reset enhanced"
-          },
-          {
-            "type": "FIX",
-            "text": " UploadCollection: Terminating an upload removes an item from the collection"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ActionSheet: Scrollbar is now visible on tablet"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Breadcrumbs: separatorStyle key-value pair names are now matching"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Button: Closing button pressed loop on popup opened"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Button: text and icon are visible when the control is inside active list"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Carousel: Changing pages with keys fast is now possible"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Carousel: visiblePagesCount now stops loop in all directions"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: Closing after interaction race condition fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: Now DatePicker does not override the style of the Dialog"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.DateRangeSelection: documentation is updated"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.DateTimeField: binding used in UTC mode specified in source works correctly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Scrollbar detection improved for IE"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FacetFilter: doesn't show button if the list is empty"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.IconTabBar: Padding classes are now forwarded to the header"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Input: Placeholder is now fully visible in rtl"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Input: Value is now preserved when value help is requested"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Link: Accessibility improved"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MenuButton: Disabled button is no longer highlighted on press"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MessageStrip: Formatted text has an inline positioning"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiComboBox: Sync selectedKeys & selectedItems"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiComboBox: Value State Error is reset correctly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: Cloning is now corrected"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: Delete list mode is always used"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: Demokit sample adjusted"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectHeader: Active title with level different than 1 is displayed correctly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectStatus: Accessibility improved"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectStatus: Inverted status is shown correctly in ObjectPage"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectStatus: pseudo invisible text for ARIA doesn't take space"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.OverflowToolbar: No exception when content is undefined"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.OverflowToolbar: Order in controls' collection is fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: Calculating height in percents corrected"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: Expand functionality select removed for mobile devices"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: Sorting sample corrected"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: formats picker text properly in foreign languages"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Popover: Popover does not close on navigation"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Popover: aria-labelledby improvement"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SelectDialog: Click delegate changed to tap"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SinglePlanningCalendar: minor fix in a sample"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Switch: Fiori 3 VD changes"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TabStripItem: Close button has tooltip now"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TileContainer: focus index is correct now"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Token: Toggle selection on space key adjusted"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Toolbar: Corrected vertical alignment"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Tree: No action is needed for dummy leaf expander"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Wizard: Detach event listeners from the step when removed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.demokit.tutorial.walkthrough: add missing file to config"
           }
         ]
       },
@@ -77948,18 +78077,6 @@
             "text": " SAP Icons v4.5 update"
           },
           {
-            "type": "FEATURE",
-            "text": " Messaging: Message propagation for lists"
-          },
-          {
-            "type": "FEATURE",
-            "text": " SAP Icons v4.5 update"
-          },
-          {
-            "type": "FEATURE",
-            "text": " sap/base/util: Add extend/deepExtend modules"
-          },
-          {
             "type": "FIX",
             "text": " CommandExecution fails on destroy"
           },
@@ -78022,88 +78139,12 @@
           {
             "type": "FIX",
             "text": " v2/ODataModel: Canonical resolving of preliminary context paths"
-          },
-          {
-            "type": "FIX",
-            "text": " ClientPropertyBinding: Make __name__ work again"
-          },
-          {
-            "type": "FIX",
-            "text": " CommandExecution fails on destroy"
-          },
-          {
-            "type": "FIX",
-            "text": " CommandExecution: fix exception during destroy"
-          },
-          {
-            "type": "FIX",
-            "text": " Device: Touch detection for Firefox desktop"
-          },
-          {
-            "type": "FIX",
-            "text": " EventProvider: Allow detachEvent after attachEventOnce"
-          },
-          {
-            "type": "FIX",
-            "text": " FilterProcessor: Cache normalized values for better performance"
-          },
-          {
-            "type": "FIX",
-            "text": " ManagedObject: Destroy part bindings when calling unbindProperty"
-          },
-          {
-            "type": "FIX",
-            "text": " MessageMixin: Ignore messages for sub-entities"
-          },
-          {
-            "type": "FIX",
-            "text": " ODataMessageParser: Resolve multiple nav props"
-          },
-          {
-            "type": "FIX",
-            "text": " ODataMetadata: isFunction flag is set correctly"
-          },
-          {
-            "type": "FIX",
-            "text": " ODataModel: Don't send CSRF token for GET requests"
-          },
-          {
-            "type": "FIX",
-            "text": " SAP-icons: Add \"soccer\" as alias for \"soccor\" (typo)"
-          },
-          {
-            "type": "FIX",
-            "text": " events.PasteEventFix: fix wrongly fired paste event on non-editable elements"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Carousel: Changing pages with keys fast is now possible"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Carousel: visiblePagesCount now stops loop in all directions"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.date.Islamic: Customization fall-back format is always A"
-          },
-          {
-            "type": "FIX",
-            "text": " v2/ODataModel: Canonical resolving of preliminary context paths"
-          },
-          {
-            "type": "FIX",
-            "text": " v2/ODataModel: getContext override deepPath"
           }
         ]
       },
       {
         "library": "sap.ui.dt",
         "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.dt: Cleanup of unnecessary lib in DragDrop plugin"
-          },
           {
             "type": "FIX",
             "text": " sap.ui.dt: Cleanup of unnecessary lib in DragDrop plugin"
@@ -78128,22 +78169,6 @@
           {
             "type": "FIX",
             "text": " Fixing incorrect rolling back of visual UI changes when app"
-          },
-          {
-            "type": "FIX",
-            "text": " Fixing incorrect rolling back of visual UI changes when app"
-          },
-          {
-            "type": "FIX",
-            "text": " Fixing the incorrect behavior of descr and UI changes when app"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.fl - performance - apply on variant change"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.fl - replace requireSync with async call"
           }
         ]
       },
@@ -78155,24 +78180,12 @@
             "text": " sap.f.GridDropInfo: Setting dimensions of the indicator is now possible"
           },
           {
-            "type": "FEATURE",
-            "text": " sap.f.GridDropInfo: Setting dimensions of the indicator is now possible"
-          },
-          {
             "type": "FIX",
             "text": " sap.ui.layout.DynamicSideContent: works correctly on phone"
           },
           {
             "type": "FIX",
             "text": " sap.ui.layout.DynamicSideContent: documentation updated"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.DynamicSideContent: documentation updated"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.DynamicSideContent: works correctly on phone"
           }
         ]
       },
@@ -78271,34 +78284,6 @@
           {
             "type": "FIX",
             "text": " Fixing incorrect rolling back of visual UI changes when app"
-          },
-          {
-            "type": "FIX",
-            "text": " Fixing Feature tests to stop the occurrence of popup"
-          },
-          {
-            "type": "FIX",
-            "text": " Fixing delete app variant call"
-          },
-          {
-            "type": "FIX",
-            "text": " Fixing incorrect rolling back of visual UI changes when app"
-          },
-          {
-            "type": "FIX",
-            "text": " Fixing the incorrect behavior of descr and UI changes when app"
-          },
-          {
-            "type": "FIX",
-            "text": " Passing a flag to LREPSerialiazer.clearCommandStack to make sure"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.fl - replace requireSync with async call"
-          },
-          {
-            "type": "FIX",
-            "text": ": RTA show business context duplicate entries"
           }
         ]
       },
@@ -78320,22 +78305,6 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.FileUploader: change event is not fired when the cancel button is pressed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: Touch on month or year select now shown"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.ColorPicker: Fixes visual artict in Edge"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.FileUploader: change event is not fired when the cancel button is pressed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Menu: qunit tests pass"
           }
         ]
       },
@@ -78349,189 +78318,6 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageHeader: Prevent redundant calculations"
-          },
-          {
-            "type": "FIX",
-            "text": " REG: Adapt UI ObjectPageLayout exception is fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageHeader: Prevent redundant calculations"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Ensured correct scroll position"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.4",
-    "date": "2019.11.01",
-    "libraries": [
-      {
-        "library": "sap.f",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.f.DynamicPageTitle: Fixed design time metadata"
-          }
-        ]
-      },
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " GenericTile breathing & language fix"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: GroupHeaderListItem styles adjusted in compact mode"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Input: IE typeahead cursor position fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectStatus: ARIA texts placed in messagebundle"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: Sticky header adjusted properly onThemeChanged"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " Commands: Move focusable span to static-ui-area"
-          },
-          {
-            "type": "FIX",
-            "text": " ODataContextBinding: multiple preliminary context bindings"
-          },
-          {
-            "type": "FIX",
-            "text": " core.routing: target should be suspended without promise involved"
-          },
-          {
-            "type": "FIX",
-            "text": " format.NumberFormat: Support lenient-parsing"
-          },
-          {
-            "type": "FIX",
-            "text": " sap/ui/Device: Detect iPads running on iOS 13"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.fl",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " Enable passing changelist=ATO_NOTIFICATION for smart business"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " Revert sap.ui.unified.FileUploader: change event is not fired when the cancel button is pressed"
-          }
-        ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Corrected scroll issue"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.5",
-    "date": "2019.12.01",
-    "libraries": [
-      {
-        "library": "sap.f",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.f.DynamicPage: Fixed visibility of collapse button"
-          }
-        ]
-      },
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: setDisplayFormat does not trigger focus in"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FacetFilter: Default filters no longer removed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FacetFilter: gets correctly the active state of the FacetList"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.RadioButton: valueState is now updated if there is a Message"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.StepInput: Validation is working and exception is thrown if necessary"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.UploadCollection : Deletion of email when drag and dropped from MS outlook to chrome."
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Wizard: destroySteps causing browsers to crash fixed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " core/Shortcut: Restore focus on DOM element instead"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.rta",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.rta: Update of toolbar buttons and reload handling"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: Belize plus colors adjusted"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Menu: Menu is now handling the new iOS13 tablet views"
           }
         ]
       }
@@ -78542,516 +78328,11 @@
     "date": "2020.01.01",
     "libraries": [
       {
-        "library": "sap.f",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.f.DynamicPage: ExpandHeader button is now hidden when no content"
-          }
-        ]
-      },
-      {
         "library": "sap.tnt",
         "changes": [
           {
             "type": "FIX",
             "text": " sap-icons-tnt: Restored backward compatibility"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " XMLTemplateProcessor: correctly set owner ID for stashed controls"
-          },
-          {
-            "type": "FIX",
-            "text": " format/NumberFormat: currency long format"
-          },
-          {
-            "type": "FIX",
-            "text": " handlebars: upgrading to version 4.4.3"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.13",
-    "date": "2020.03.01",
-    "libraries": [
-      {
-        "library": "sap.f",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.f.cards.Header: Fire press event on sapselect"
-          }
-        ]
-      },
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.DateRangeSelection: doesn't throw error"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FacetFilter: initial data service query optimization option now added"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ViewSettingsDialog - proper Back button vertical alignment"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " routing: create default hash changer in router's constructor"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.20",
-    "date": "2020.07.01",
-    "libraries": [
-      {
-        "library": "sap.f",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.f.DynamicPage: Prevented unwanted scroll"
-          }
-        ]
-      },
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Select: Fixed out of bounds text in the list items"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Wizard: Next button handler now fired before attachComplete"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TimePicker: qunit tests are optimized"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Prevent resizing of content above max-height"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TimePicker: on focus in behavior over the input is now consistent"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: manages selectedAppointments association correctly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: selectedKey reset on user input"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.StepInput: the increment and decrement buttons state is correctly managed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " core.routing: allow set/replaceHash also when no listener to \"hashChanged\" event"
-          },
-          {
-            "type": "FIX",
-            "text": " Opa: fix binding path selector for named models"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: manages selectedAppointments association correctly"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.22",
-    "date": "2020.09.01",
-    "libraries": [
-      {
-        "library": "sap.f",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.f.DynamicPage: Issue with wrong scroll position is fixed"
-          }
-        ]
-      },
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.MessageStrip: Accessibility enhancement"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.upload.UploadSet : UploadSet control issue while renaming file delete button does not remove selected filename."
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.StepInput: increasing/decreasing of the value now stops when touch ended"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.StepInput: No JS error when there is OData binding"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " scrollLeftRTL: adapt to chrome behavior change"
-          },
-          {
-            "type": "FIX",
-            "text": " format/NumberFormat: consider control characters in minus sign"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.analytics.AnalyticalTreeBindingAdapter#setNumberOfExpandedLevels: expand only as many levels as grouped dimensions are available"
-          },
-          {
-            "type": "FIX",
-            "text": " handlebars: usage of latest version 4.7.6"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.table",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " Table: Synchronization of the scroll position with GanttChart"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.FileUploader: Fix the unit tests for IE"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: fix of failed QUnit tests"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.FileUploader: IE adds content-type only once"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.34",
-    "date": "2021.06.01",
-    "libraries": [
-      {
-        "library": "sap.f",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.f.DynamicPage: Corrected pin button update"
-          }
-        ]
-      },
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.SuggestionsPopover: Typo in the endButton aggregation fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SinglePlanningCalendar: resizing appointments now works correct"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectListItem: Empty containers now are removed."
-          },
-          {
-            "type": "FIX",
-            "text": " P13nConditionPanel: improve validation handling"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Input: Model update on change behavior fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Slider: Aria-labelledby read twice fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.UploadCollection : Special character Curly braces in the file name disrupts the behavior."
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: NMore expansion fixed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " ManagedObject: Support extended change detection with named models"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.routing.History: decode existing hash before using it to restore the history state"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.47",
-    "date": "2022.08.01",
-    "libraries": [
-      {
-        "library": "sap.f",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.f.DynamicPage: Correct maxScrollHeight computation"
-          }
-        ]
-      },
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Link: when disabled has tabindex -1"
-          },
-          {
-            "type": "FIX",
-            "text": " P13nConditionPanel.js : paste handling"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Max sizes are now correct"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Stretched dialog is correctly positioned in RTL languages"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Unnecessary console errors are no longer thrown"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.RadioButton: Selection in table with many radio buttons is now correct"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TimePicker: now change event is fired when the input field is cleared (oData v4/TimeOfDay)"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.RadioButton: No longer overflows when used standalone or in Groups with 1 column"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Input: Sticky column headers in table with suggestions enabled"
-          }
-        ]
-      },
-      {
-        "library": "sap.tnt",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.tnt.NavigationListItem: Position of collapsed items is no longer read twice"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " Enable Controller extensions for legacy application"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.odata.v2.ODataModel#setProperty: reverting a time property does not fail"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.format.DateFormat: no split weeks for \"en\""
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.layout",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.DynamicSideContent: Visibility issue fixed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: non-working dates now pronounced by screen reader"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.format.DateFormat: no split weeks for \"en\""
-          }
-        ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageSection: Generic section label restricted"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.52",
-    "date": "2022.11.01",
-    "libraries": [
-      {
-        "library": "sap.f",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.f.DynamicPage: Restore automatic fitContent management"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.6",
-    "date": "2019.12.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: Improved performance on addToken"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " ShortcutHelper: Fix mapping to browser keys between 'Space' and 'Plus'"
-          },
-          {
-            "type": "FIX",
-            "text": " jQuery: Make parseHTML work with domain relaxation"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.odata.ODataMessageParser: cleanup messages after refresh"
-          },
-          {
-            "type": "FIX",
-            "text": " v2/ODataModel: Don't resolve canonical with function imports"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.7",
-    "date": "2019.12.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.NumericContent: Property truncateValueTo is not ignored anymore & Case insensitive NumericContent lang map + add en_US lang."
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " v2.ODataModel: Fixed issues with success/error handler in submitChanges"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.10",
-    "date": "2020.02.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectHeader: qunit tests are passing now"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TileContainer: pre-renders tiles in both directions"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: Unnecessary readings now prevented"
           }
         ]
       }
@@ -79061,19 +78342,6 @@
     "version": "1.71.11",
     "date": "2020.02.01",
     "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox, sap.m.MultiComboBox, sap.m.Input: Disable autocomplete on android"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: load not density aware image by default"
-          }
-        ]
-      },
       {
         "library": "sap.tnt",
         "changes": [
@@ -79086,103 +78354,9 @@
     ]
   },
   {
-    "version": "1.71.12",
-    "date": "2020.03.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " GenericTile title extends beyond 2 lines in ContentMode in IE, FF and Edge"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: Navigation doesn't throw an error"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.QuickView: Popover is now displayed properly on iOS and OS X"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SearchField: search event is now fired correctly in IE"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SegmentedButton: accessibility state is now maintained corretly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Title: titleStyle property now affects aria-level"
-          }
-        ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Corrected section focus"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageSection: Improved accessibility"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.14",
-    "date": "2020.04.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: Duplicate tokens on mobile fixed."
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SearchField: Suggestions no longer auto open on mobile"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " routing.HashChanger: correct the call order between history and router"
-          }
-        ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Prevented iOS scroll issue upon snap"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "version": "1.71.15",
     "date": "2020.04.01",
     "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.MessageView: Console error in _restoreItemsType prevented"
-          }
-        ]
-      },
       {
         "library": "sap.tnt",
         "changes": [
@@ -79191,22 +78365,49 @@
             "text": " sap.tnt.NavigationListItem: Improve collapse/expand with keyboard"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "version": "1.71.32",
+    "date": "2021.04.01",
+    "libraries": [
       {
-        "library": "sap.ui.core",
+        "library": "sap.tnt",
         "changes": [
           {
             "type": "FIX",
-            "text": " caja-html-sanitizer: avoid catastrophic backtracking in lexCss"
+            "text": " sap.tnt.NavigationListItem: Tooltip is now also shown when item is collapsed"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "version": "1.71.47",
+    "date": "2022.08.01",
+    "libraries": [
       {
-        "library": "sap.ui.unified",
+        "library": "sap.tnt",
         "changes": [
           {
             "type": "FIX",
-            "text": " sap.ui.unified.Calendar: behavior now corret when two months are set"
+            "text": " sap.tnt.NavigationListItem: Position of collapsed items is no longer read twice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.71.48",
+    "date": "2022.09.01",
+    "libraries": [
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.NavigationList: Text is now read only once"
           }
         ]
       }
@@ -79216,52 +78417,6 @@
     "version": "1.71.16",
     "date": "2020.05.01",
     "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.FactFilter: selected items text in the facet buttons is now correct"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.VBox: Default Column direction is now set properly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Bar: Preventing lost focus of input elements in middle content"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Input: ValueHelpRequest is no longer triggered on all interactions"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Texts are no longer blurred in Chrome"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: Disable text selection for selected option on tablets"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Slider: Adjust tickmarks and tooltips positioning"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Input: Clone method fixed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.fl",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " Fixing the apply/Utils sendRequest when the stringified response"
-          }
-        ]
-      },
       {
         "library": "sap.ui.table",
         "changes": [
@@ -79274,125 +78429,9 @@
     ]
   },
   {
-    "version": "1.71.17",
-    "date": "2020.05.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Tile: doesn't set position if hidden from parent"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendarHeader - View switch remains the same after overflow"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.StepInput - key navigation now works fine in table after pressing of F2"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Wizard: OPA tests adjusted"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FlexBox: Styles are now changed correctly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.upload.UploadSet : setThumbnailUrl does not change icon"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: Exception in OData v4 fixed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " events.pasteEventFix: provide fallback when no ClipboardEvent"
-          },
-          {
-            "type": "FIX",
-            "text": " events.PasteEventFix: use capturing phase to avoid focus change in between"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.layout",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " Form: Fiori3 themes align Label, Text and Link with Input"
-          }
-        ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Fix lazy loading in IconTab mode"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Corrected error upon rerendering"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: IconTabBar only visible section show title"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Early focus trigger in IE fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Prevent redundant DOM calculations"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "version": "1.71.18",
     "date": "2020.06.01",
     "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Button: Press event fires once"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ActionSheet: Control is now rendered correctly on mobile"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.odata.ODataModel#_loadData: Do not use x-csrf-token for GET requests"
-          },
-          {
-            "type": "FIX",
-            "text": " Configuration: normalize Theme to sap_fiori_3"
-          },
-          {
-            "type": "FIX",
-            "text": " hasher.js: replace hash should not affect the path in href"
-          }
-        ]
-      },
       {
         "library": "sap.ui.table",
         "changes": [
@@ -79401,1272 +78440,19 @@
             "text": " Table: Last row not being fully visible in zoomed Chrome"
           }
         ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: No lazyLoading during animation"
-          }
-        ]
       }
     ]
   },
   {
-    "version": "1.71.19",
-    "date": "2020.07.01",
+    "version": "1.71.22",
+    "date": "2020.09.01",
     "libraries": [
       {
-        "library": "sap.m",
+        "library": "sap.ui.table",
         "changes": [
           {
             "type": "FIX",
-            "text": " sap.m.TimePicker: changes its value when support2400 property is used"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Wizard: iOS/Safari scroll fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SuggestionsPopover: Navigating through the IME popover via arrow keys fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Breadcrumb: Prevented redundant invalidation"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.NavContainer: Tests are now passing on IE11"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TimePicker: on focus in behavior over the input is now consistent"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: min/max date are now properly set"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " routing.history: keep history direction in case the browser hash isn't changed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.util.ExportTypeCSV - Cell overflow injection fix"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.21",
-    "date": "2020.08.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.FacetFilterList: data request on listOpen event can be prevented"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.RadioButton: Label in RTL aligned"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: Prevent exception when pressing arrows"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SematicPage: getCustomFooterContent return copy of array"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.InputBase: IE & Safari no longer fire change event on value selection in IME popover"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: Min and max dates work"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap/ui/base/syncXHRFix: Properly handle failing sync XHR"
-          },
-          {
-            "type": "FIX",
-            "text": " format/NumberFormat: parse special values \"00000\""
-          },
-          {
-            "type": "FIX",
-            "text": " core/Element: preventScrolling Test failed in Firefox"
-          },
-          {
-            "type": "FIX",
-            "text": " Revert \"[FIX] core/Element: preventScrolling Test failed in Firefox\""
-          },
-          {
-            "type": "FIX",
-            "text": " core/Element: preventScrolling Test failed in Firefox"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.FileUploader: input field is now only one"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: focuses the correct date"
-          }
-        ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.BlockBase: Prevented duplicate view creation"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.23",
-    "date": "2020.10.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.P13nConditionPanel: Define conditions tab on the ValueHelpDialog now shows the selected value correct"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Toolbar: Fixed visual misalignments"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: now header is displayed properly after resize from size S"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: error is not thrown now and control is rendered"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Token: Icon src attribute set correctly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TimePicker: Del key deletes more than one character when maskMode is On"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Popover: Stabilize _onOrientationChange method"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Tokenizer: Prevent scrolling in IE when last token is focused"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.dt",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.dt - RTL scrolling issues with Chrome86"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.layout",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.ResponsiveSplitter: DefaultPane is now working"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Menu: focus is now correctly set on the opener button"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: fix of failed QUnit tests"
-          }
-        ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.AnchorBar: Corrected scroll direction in RTL"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.24",
-    "date": "2020.11.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " ResponsiveTable: Enable Screenreader announcement for \"Not Selected\""
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Select: Problem with changing selection is fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.GenericTile : Default Aria-label contains 'GenericTile' info which is not required."
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.IconTabFilter: Enabled state is now propagated correctly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Table: Invisible cell content should be announced as \"empty\" by Screenreader"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox, sap.m.MultiComboBox: Update disabled items documentation"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: selected date is in visible range after navigation"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiComboBox: Paste value behavior fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " Fiori 3.0 shadow levels & GenericTile focus/hover/active states"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " XMLView: use correct 'resourceBundleAlias' when loading async"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.odata.v2.ODataModel#increaseLaundering: skip laundering if oChangedEntity is not an object"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.25",
-    "date": "2020.12.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: Autocapitalization rendering tests are now fixed in FF"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Text: Improve copying of text"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Select: Corrected aria-activedescendant"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ListBase: Unnecessary scrolling on tab"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SinglePlanningCalendar: all-day events are now properly displayed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SinglePlanningCalendar: pointer events are now disabled for the now marker"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: modal dialog now read only once"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap/base/Log: Limit amount of stored log entries"
-          },
-          {
-            "type": "FIX",
-            "text": " base/ManagedObject: Aggregation Bindings in JSON Views"
-          },
-          {
-            "type": "FIX",
-            "text": " routing.History: turn off push state when runs in iframe"
-          },
-          {
-            "type": "FIX",
-            "text": " CustomizingConfiguration: respect owner component for configuration"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: modal dialog now read only once"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.26",
-    "date": "2021.01.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: New appointment in Hours view gets proper start/end times"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.InputBase, sap.m.Input: Removed aria-disabled and aria-readonly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TimePicker: second hour number now properly typed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: Disabled items no longer displayed inside the popover"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " Locale: Remove mapping from 'SH' to 'SR' for logon language"
-          },
-          {
-            "type": "FIX",
-            "text": " routing.History: use the new state flag in qUnit test"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.27",
-    "date": "2021.02.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: Calendar's F4 shortcut prioritized"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: customData with binding is properly forwarded"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SinglePlanningCalendar: Drag and drop now creates correct appointments"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.routing.History: enable complete routing history"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.FileUploader: Screen reader announcement adjusted"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: Calendar's F4 shortcut prioritized"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.29",
-    "date": "2021.02.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: Escape curly braces when creating Token"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: Performance optimisations"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " theming/Parameters: Request library-parameters.json with credentials"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.30",
-    "date": "2021.03.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: referencing invisible text elements as aria labelled by now works"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Tokenizer: Default action on backspace prevented"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectIdentifier: ACC state placement fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " Input controls: Curly braces properly escaped"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Shell: the logo property documentation is improved"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectHeader: Redundant attribute removed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.analytics.AnalyticalBinding: support selecting only the text of a measure"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.FileUploader: file not blocked"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.31",
-    "date": "2021.03.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Button: Accessibility name ensured"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectStatus: State element moved out of control"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: missing title of header fixed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: appointments are properly visualized"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.32",
-    "date": "2021.04.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Wizard: Prevent previousStep to be called twice in IE"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.OverflowToolbar: Missing buttons with bound LayoutData"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SplitButton: Arrow button's accessability name improved"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MenuButton: Include tooltip in accessible name"
-          }
-        ]
-      },
-      {
-        "library": "sap.tnt",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.tnt.NavigationListItem: Tooltip is now also shown when item is collapsed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " jquery-mobile-custom: clear the block list after processing click event"
-          },
-          {
-            "type": "FIX",
-            "text": " IconPool: involve AppCacheBuster to resolve the font url"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Month: Weeks are now displayed correct"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.CalendarDateInterval: does not apply focus on mobile"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Menu: Focus lost on filter field fixed"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.33",
-    "date": "2021.05.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: Prevent item highlighting when initially selected"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " routing.HashChanger: forward hash to RouterHashChanger during creation"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.37",
-    "date": "2021.08.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.TimePicker: now returns 24:00:00 when support2400 is on and 24:00:00 is entered"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.UploadCollection - fix correct filesize for range 1000-1023 Bytes"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.VersionInfo: copy 'hasOwnPreload' flag for components"
-          },
-          {
-            "type": "FIX",
-            "text": " core.qunit.routing.HistoryUtils: check for the usage of pushState"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.routing: make history API related tests more robust"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.FileUploader: destroyed properly on IE"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.38",
-    "date": "2021.09.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendarHeader: Popover's hidden label changed"
-          },
-          {
-            "type": "FIX",
-            "text": " ColumnListItem: Headers attribute of cells must point to header cell"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Input: Suggestion are visible"
-          },
-          {
-            "type": "FIX",
-            "text": " UploadSet multiple files uplaod enabled for upload button"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.InputBase: Display initially bound value when in read-only mode"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SearchField: Buttons are now hidden from screen readers"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiComboBox: Range selection adoption"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiComboBox: Tokenizer and model syncronized"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " core/testsuite.util.qunit: remove test jquery.sap.history"
-          },
-          {
-            "type": "FIX",
-            "text": " jquery-mobile-custom: clean up the tap handler on 'mouseout'"
-          },
-          {
-            "type": "FIX",
-            "text": " routing.History: use HashChanger to fetch hash and wait it till init"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.39",
-    "date": "2021.10.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Button: Press event is fired in all cases and only once"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: dates strip is focused after today button is pressed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Select: Announce the new value with InvisibleMessage"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TimePicker: Support KK display format"
-          },
-          {
-            "type": "FIX",
-            "text": " ColumnHeaderPopover: Set focus back on opener before press event fired"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Tokenizer: aria-hidden attribute added when there are no tokens"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " ManagedObject: fix cloning of associations to root object"
-          },
-          {
-            "type": "FIX",
-            "text": " ManagedObject.findAggregatedObjects: add possibility to include binding templates into the search"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.40",
-    "date": "2021.11.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " List: Add ARIA role option to No-Data entry"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: optimization of a failing test"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.odata.v2.ODataModel#read: Store deep path w/o URL parameters to improve canonical URL cache performance"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.41",
-    "date": "2022.01.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.DynamicSideContent: getScrollDelegate() method now works properly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SegmentedButton: container width changed event properly fired"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendarHeader: Close button on mobile now works"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " core.HTML: Do not unnecessarily mark content as \"to-be-preserved\""
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.layout",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.DynamicSideContent: getScrollDelegate() method now works properly"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Month: Runtime error on click on week"
-          }
-        ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Removed redundant accessibility readout"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Corrected media update"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.42",
-    "date": "2022.02.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " PDFViewer - Handle sourceValidation error"
-          },
-          {
-            "type": "FIX",
-            "text": " ui.unified.calendar.YearPicker: disabled years can't be selected on mobile now"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SinglePlanningCalendarGrid: proper year set in grid cells"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Carousel: In nested carousels the inner carousel's active page content stays visible"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Carousel: In nested carousels the inner carousel's active page content stays visible"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " ui.unified.calendar.YearPicker: disabled years can't be selected on mobile now"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: proper month names are shown"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.44",
-    "date": "2022.03.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: Tokens now rendered on toggled visibility"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SplitContainer: showMaster/hideMaster doesn't crash if control hasn't been placed in DOM"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: aria role and description adjustment"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: Adjust failing test in IE"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ComboBox: Single character suggestions highlighting fixed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.format.DateFormat: Australian calendar change first day of week to Monday"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.45",
-    "date": "2022.04.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.RangeSlider: Set aria-labelledby and labels correctly"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Select: Fixed visual displacement of closing droppdown menu"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SinglePlanningCalendar: Month view now starts with the first day of the month"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.ObjectHeader: initial icon alt property could be overridden"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " core.Popup: actively move focus instead of blur focused element"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.46",
-    "date": "2022.05.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.StepInput: Buttons are now not included in announce"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.TimePicker: 24:00:00 is correctly set"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MessageStrip: Text is no longer read twice in virtual mode"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.OverflowToolbar: Empty Popover is fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: Single cell is now pasted as text"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.Popup: Fixed scrolling behavior while popup opening"
-          },
-          {
-            "type": "FIX",
-            "text": " core.Popup: avoid setting focus to static UIArea when runs on mobile"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.48",
-    "date": "2022.09.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " P13nConditionPanel now respects upperCase format on field switch"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.RadioButtonGroup: No preselection by default is now possible"
-          }
-        ]
-      },
-      {
-        "library": "sap.tnt",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.tnt.NavigationList: Text is now read only once"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.model.odata.ODataTreeBindingFlat#_calcIndexDelta: fix index delta calculation to always return the correct binding length"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: adjust second calendar type"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.49",
-    "date": "2022.11.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Input: Pressing ESC now resets the proposed text"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.InputBase: Failing QUnit test in Safari are fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MultiInput: Failing QUnit fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.MessageView: Enhanced active title description"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: formats value when out of min/max range"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FEATURE",
-            "text": " Prevent overwrite SAP themes from OS high contrast settings"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.format.DateFormat: introduce calendarWeekNumbering format option"
-          },
-          {
-            "type": "FIX",
-            "text": " Localization: add Serbian (Latin), enhance Locale mappings"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: adjust picker hints"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: adjust focus handling"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: adjust day of the week announcement"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.53",
-    "date": "2022.11.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Duplicated banner regions removed"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.rta",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Duplicated banner regions removed"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.54",
-    "date": "2023.02.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: Picker popup doesn't close when arrow buttons are touched on combi device"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Where there is no vertical scrollbar, class 'sapMDialogVerticalScrollIncluded' is removed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SinglePlanningCalendar: added ability to create appointments in RTL mode with D&D"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " core/qunit/util/Popup.qunit: stabilize test of client rect"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: Picker popup doesn't close when arrow buttons are touched on combi device"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.55",
-    "date": "2023.03.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: remove aria-expanded attribute"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.URLHelper: Fixed redirect method"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.OverflowToolbarAssociativePopover: Fixed function overriding"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.SplitApp: Fixed failing test on Safari"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.CalendarLegend: added roles to legend and items"
+            "text": " Table: Synchronization of the scroll position with GanttChart"
           }
         ]
       }
@@ -80677,392 +78463,11 @@
     "date": "2023.05.01",
     "libraries": [
       {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Link: prevent default navigation"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FormattedText: Formatting issue fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Link: adjust default href attribute"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Link: adjust type announcement"
-          }
-        ]
-      },
-      {
         "library": "sap.ui.table",
         "changes": [
           {
             "type": "FIX",
             "text": " Table: Avoid error on row click in a table with custom column subclasses"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.57",
-    "date": "2023.05.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.TabContainer: adjust aria attribute names"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Link: adjust click handling"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.58",
-    "date": "2023.07.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.TimePickerSlider: Remove disallowed aria property"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FormattedText: fixed JS error on IE browser caused by previous fix"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Link: prevent default behavior on mobile"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FormattedText: Formatting issue fixed"
-          },
-          {
-            "type": "FIX",
-            "text": " For redundant delimiter then status or attribute visibility set to false"
-          },
-          {
-            "type": "FIX",
-            "text": " P13nFilterPanel: Exclude operations that are not supported are no longer visible"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FormattedText: documentation extension"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.delegate.ValueStateMessage: Close Popup on Scroll"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " core.Popup: always use touch mode in mobile safari"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.layout",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.DynamicSideContent: getScrollDelegate now returns proper delegate"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.DynamicSideContent: fixed getScrollDelegate method"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Menu: skip invalidation"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.59",
-    "date": "2023.09.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Dimensions are correctly restored when closing soft keyboard"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.PlanningCalendar: Fix navigation skipping"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.60",
-    "date": "2023.11.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.SelectDialog: Add ARIA label to the items list"
-          },
-          {
-            "type": "FIX",
-            "text": " - sap.m.NumericContent"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.FeedListItem: fixed icon appearance"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FEATURE",
-            "text": " Prepare for upcoming 'unload' event deprecation and deprecate APIs 'onWindowBeforeUnload', 'onWindowUnload' and 'onWindowError' in 'sap/ui/core/Component'"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.layout",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.DynamicSideContent: fixed _shouldSetHeight() method behavior"
-          }
-        ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Button height corected"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.61",
-    "date": "2023.12.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Scroll is no longer jumping when content grows automatically"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " mvc.Controller: enable Controller extensions which are subclasses of mvc.Controller"
-          },
-          {
-            "type": "FIX",
-            "text": " core/routing: find parent route from the router of the inheritance parent"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.62",
-    "date": "2024.01.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.MenuButton: Arrow has hover state now"
-          },
-          {
-            "type": "FIX",
-            "text": " sap.m.Dialog: Overflow in content area is now scrollable in Internet Explorer"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.unified.Calendar: Remove label in the year Button"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.63",
-    "date": "2024.02.01",
-    "libraries": [
-      {
-        "library": "sap.m",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.Page: Focus element is scrolled into view"
-          },
-          {
-            "type": "FIX",
-            "text": " We've introduced the isTrustedSource property as a security enhancement for the PDFViewer control as detailed in the API reference"
-          }
-        ]
-      },
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap/ui/model/odata/ODataMetadata#_getPropertyMetadata: fix for complex type property"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.43",
-    "date": "2022.02.01",
-    "libraries": [
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " jquery-mobile-custom: clean up the previous tap handler on new mousedown event"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.50",
-    "date": "2022.11.01",
-    "libraries": [
-      {
-        "library": "sap.ui.core",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.core.(format.DateFormat|date.UniversalDate): Do not use Object.values, Array#includes"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.3",
-    "date": "2019.10.01",
-    "libraries": [
-      {
-        "library": "sap.ui.dt",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.dt: skip overlay creation when unresolved bindings detected"
-          }
-        ]
-      },
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Prevented iOS scroll issue on overflow change"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.1",
-    "date": "2019.10.01",
-    "libraries": [
-      {
-        "library": "sap.ui.layout",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.ui.layout.ResponsiveFlowLayout: removed deprecated call"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.35",
-    "date": "2021.07.01",
-    "libraries": [
-      {
-        "library": "sap.ui.unified",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.m.DatePicker: year range picker text is fully visible"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.2",
-    "date": "2019.10.01",
-    "libraries": [
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.BlockBase: Added viewInit event"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "version": "1.71.8",
-    "date": "2019.12.01",
-    "libraries": [
-      {
-        "library": "sap.uxap",
-        "changes": [
-          {
-            "type": "FIX",
-            "text": " sap.uxap.ObjectPageLayout: Update cache on content-resize"
           }
         ]
       }
@@ -82225,27 +79630,27 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.NotificationListGroup#getAuthorName] undefined"
+            "text": "[sap.m.NotificationListGroup#getAuthorName] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.NotificationListGroup#getAuthorPicture] undefined"
+            "text": "[sap.m.NotificationListGroup#getAuthorPicture] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.NotificationListGroup#getDatetime] undefined"
+            "text": "[sap.m.NotificationListGroup#getDatetime] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.NotificationListGroup#setAuthorName] undefined"
+            "text": "[sap.m.NotificationListGroup#setAuthorName] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.NotificationListGroup#setAuthorPicture] undefined"
+            "text": "[sap.m.NotificationListGroup#setAuthorPicture] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.NotificationListGroup#setDatetime] undefined"
+            "text": "[sap.m.NotificationListGroup#setDatetime] the concept has been discarded."
           },
           {
             "type": "DEPRECATED",
@@ -82257,27 +79662,27 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.util.ExportCell#undefined] undefined"
+            "text": "[sap.ui.core.util.ExportCell#undefined] replaced by the export functionality of the <code>sap.ui.export</code> library."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.util.ExportColumn#undefined] undefined"
+            "text": "[sap.ui.core.util.ExportColumn#undefined] replaced by the export functionality of the <code>sap.ui.export</code> library."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.util.ExportRow#undefined] undefined"
+            "text": "[sap.ui.core.util.ExportRow#undefined] replaced by the export functionality of the <code>sap.ui.export</code> library."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.util.ExportTypeCSV#undefined] undefined"
+            "text": "[sap.ui.core.util.ExportTypeCSV#undefined] replaced by the export functionality of the <code>sap.ui.export</code> library."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.util.ExportType#undefined] undefined"
+            "text": "[sap.ui.core.util.ExportType#undefined] replaced by the export functionality of the <code>sap.ui.export</code> library."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.util.Export#undefined] undefined"
+            "text": "[sap.ui.core.util.Export#undefined] replaced by the export functionality of the <code>sap.ui.export</code> library."
           },
           {
             "type": "DEPRECATED",
@@ -83629,11 +81034,11 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.IconTabHeader#getShowOverflowSelectList] undefined"
+            "text": "[sap.m.IconTabHeader#getShowOverflowSelectList] the concept has been discarded. All tab filters that don't fit in the header, will be displayed in overflow menu."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.IconTabHeader#setShowOverflowSelectList] undefined"
+            "text": "[sap.m.IconTabHeader#setShowOverflowSelectList] the concept has been discarded. All tab filters that don't fit in the header, will be displayed in overflow menu."
           },
           {
             "type": "DEPRECATED",
@@ -84900,11 +82305,11 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.IconTabBar#getShowOverflowSelectList] undefined"
+            "text": "[sap.m.IconTabBar#getShowOverflowSelectList] the concept has been discarded. All tab filters that don't fit in the header, will be displayed in overflow menu."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.IconTabBar#setShowOverflowSelectList] undefined"
+            "text": "[sap.m.IconTabBar#setShowOverflowSelectList] the concept has been discarded. All tab filters that don't fit in the header, will be displayed in overflow menu."
           }
         ]
       }
@@ -93304,7 +90709,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.theming.Parameters#reset] undefined"
+            "text": "[sap.ui.core.theming.Parameters#reset] without a replacement. Application code should not be able to interfere with the automated determination of theme parameters. Resetting the parameters unnecessarily could impact performance. Please use the (potentially async) API to get parameter values and rely on the framework to update parameter values when the theme changes."
           },
           {
             "type": "DEPRECATED",

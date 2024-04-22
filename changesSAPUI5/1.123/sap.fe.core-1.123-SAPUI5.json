@@ -1,0 +1,137 @@
+{
+    "1.123.0": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "2dddc5af589da5ae52a6f1d18a03fd1e446ca50c",
+                "type": "FIX",
+                "text": "  We now ensure that the empty row in a grid table remains at the last position, even after new rows are created by pasting data to the table"
+            },
+            {
+                "id": "008a4a62cc694b5c7eb5fa5be6b90751aaf4c172",
+                "type": "FIX",
+                "text": " We've resolved an issue with the calculation of the target entity name that led to incorrect recommendations"
+            },
+            {
+                "id": "c5a8aa2f3d1aae66d843b3d886a9fc25a53faa50",
+                "type": "FIX",
+                "text": " We now correctly set the focus on the target field once the user clicks the warning message on the popover"
+            },
+            {
+                "id": "897e8e2b57cb800335149e22d65587ff794600c2",
+                "type": "FEATURE",
+                "text": " The PresentationVariant API can now also be used with TreeTable and AnalyticalTable"
+            },
+            {
+                "id": "8eea5ca6415da5c1f041d73c9f010cd06057bb46",
+                "type": "FEATURE",
+                "text": " We now provide a setter method for the SelectionVariant in the Chart building block"
+            },
+            {
+                "id": "5ca1c8f94b00b9b83589d65e1489ad80d8175e7b",
+                "type": "FIX",
+                "text": " We now re-trigger the side effects for actions that fail due to strict handling with multiple messages for a single context"
+            },
+            {
+                "id": "7a863529043379a595bb168222cbddb88314a29e",
+                "type": "FEATURE",
+                "text": " We now provide a getter method for the SelectionVariant in the Chart building block"
+            },
+            {
+                "id": "864dd276fba5a48478eb05c3012a3125460f1bf2",
+                "type": "FIX",
+                "text": " We've resolved an issue with using the checkbox control when collaborative draft is enabled"
+            },
+            {
+                "id": "b00dde24164b43c6ce1ed8daf7aa1023fa1794e7",
+                "type": "FEATURE",
+                "text": " We now provide a setter method for the SelectionVariant in the Table building block"
+            },
+            {
+                "id": "31121c9c6c298fb8b50ce7a936dd6b2e95bf6fcd",
+                "type": "FEATURE",
+                "text": " We now provide a getter method for the SelectionVariant in the Table building block"
+            },
+            {
+                "id": "2e05ad457ad4de59efae01e9d49dfb6f94cd9694",
+                "type": "FIX",
+                "text": " We now ensure an OData query is no longer sent when technical keys are provided as URL parameters for launching an application"
+            },
+            {
+                "id": "7b08054c3acee34d0a468e99176926eedc2b24eb",
+                "type": "FEATURE",
+                "text": " You can now set a request size limit for the export in a table using the exportRequestSize setting in the manifest or in the Macro table"
+            },
+            {
+                "id": "986e0b6986b15af2e3f3780caa81a0585ba7492c",
+                "type": "FIX",
+                "text": " We have resolved an issue with displaying the Field building block when its semantic object is defined using a formatter"
+            },
+            {
+                "id": "4392fcef71d15c2e35cc3c68a115777af06bc270",
+                "type": "FIX",
+                "text": " You can now add formatters to the UI adaptation projects to control the enablement and visibility of actions"
+            },
+            {
+                "id": "da67150ee818eaf0bae1680d4eee6cffcdf2d20b",
+                "type": "FEATURE",
+                "text": " You can now disable copying to clipboard in a table using the disableCopyToCliboard setting in the manifest"
+            },
+            {
+                "id": "b15a7e7250b37075bcc988aaf10d9e65a3a91cda",
+                "type": "FIX",
+                "text": " We've resolved an issue with the setRecommendations API where the recommendations weren't always displaying correctly for all fields."
+            },
+            {
+                "id": "ea98e9ebb2c9586c0fe2f6fdbd8b871bf169b928",
+                "type": "FEATURE",
+                "text": " We now support the RequestAtLeast annotation in the analytical table"
+            },
+            {
+                "id": "45fdd32c11b8b55e60c93d583c8a95a13b4609c3",
+                "type": "FEATURE",
+                "text": " We no longer display the row count indicator in tables with a quick filter"
+            },
+            {
+                "id": "30fbf56da4d1ff582f48ec57ef3a83cb3c16e9ad",
+                "type": "FEATURE",
+                "text": " You can now configure the x-axis of a chart as the time axis in the content area of an analytical list page"
+            },
+            {
+                "id": "9810502302a845f86d81e4033ed48ab631eb859b",
+                "type": "FIX",
+                "text": " We’ve resolved an issue related to templating on custom columns"
+            },
+            {
+                "id": "65c47a782df0c70152507bec3f60ad34d5db73b3",
+                "type": "FEATURE",
+                "text": " You can now use SAP Fiori tools in adaptation projects to adapt the list report"
+            },
+            {
+                "id": "1c93ed7a4cdf9e189d6edff1163c55e75f2df00b",
+                "type": "FEATURE",
+                "text": " Range pasting is now available for grid tables"
+            },
+            {
+                "id": "c30a215fd12d1127c8950ea695b4bc6c7f9585fb",
+                "type": "FEATURE",
+                "text": " We now support dynamic expressions in semantic object annotations"
+            },
+            {
+                "id": "1ba5277a63f7eade9aed8cb4d91cd82e7ee0a95e",
+                "type": "FIX",
+                "text": " We have resolved an issue that didn't allow the user to execute the copy action twice"
+            },
+            {
+                "id": "6c5d50be9b70927eadb4d0de59467b0a3cf0a817",
+                "type": "FIX",
+                "text": " Title binding now works properly if the value is a path with conditions"
+            },
+            {
+                "id": "b0151c5fe2320bbf2614c60963cd7902eb444ac2",
+                "type": "FEATURE",
+                "text": " We now ensure the handling of NavigationRestriction is in line with the protocol"
+            }
+        ]
+    }
+}

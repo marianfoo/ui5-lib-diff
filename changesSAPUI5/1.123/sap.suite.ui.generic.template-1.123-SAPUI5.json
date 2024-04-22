@@ -1,0 +1,152 @@
+{
+    "1.123.0": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "If42a6d66bb8ca188018c6a2b5d93bb8141e187ea",
+                "type": "FEATURE",
+                "text": "We now have 'open in new tab/window' and 'submenu creation on context menu' support in the context menu in list report and object page"
+            },
+            {
+                "id": "Ib3fc889a877220cfee591d949cba233f981816a4",
+                "type": "FEATURE",
+                "text": "We now support the summarization service"
+            },
+            {
+                "id": "I12402ba5896986803747d19b83956f537c02e0ee",
+                "type": "FEATURE",
+                "text": "We now support the TextArrangement annotation for DataField with IBN"
+            },
+            {
+                "id": "If04f4db731929c75da7b14f7f0ef8ccd1c7393ec",
+                "type": "FEATURE",
+                "text": "The object page tables now support path based UI.Hidden annotation"
+            },
+            {
+                "id": "I44a8ca29b2691f1019538af95b6abae2f0d9c9bd",
+                "type": "FEATURE",
+                "text": "We now correctly handle semantic dates within the Save as Tile option"
+            },
+            {
+                "id": "9f435e34698f5705482cea114384fa90a78adf6f",
+                "type": "FEATURE",
+                "text": "We've now enabled the copy functionality for all table types"
+            },
+            {
+                "id": "Ib9c572b726ed61bcd84f174806049a1d35766e16",
+                "type": "FIX",
+                "text": "We've now resolved the issue with displaying the Paste button in the object page table",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0107976"
+                    }
+                ]
+            },
+            {
+                "id": "I1aaeff0f3dc8775e5f0ed2c73f28e512be09201f",
+                "type": "FIX",
+                "text": "We now support the TextArrangement annotation in the Create dialog",
+                "references": [
+                    {
+                        "type": "JIRA",
+                        "reference": "FIORITECHP1-16516"
+                    }
+                ]
+            },
+            {
+                "id": "I1be84245e4bbf6e0d4553bddfc3f408c45fd79c4",
+                "type": "FIX",
+                "text": "We no longer show the list report card in the Collaboration Manager if the object page is open",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0031689"
+                    }
+                ]
+            },
+            {
+                "id": "I7d0a25b26d34139e02dc5cf7f8d7ef2870a1966b",
+                "type": "FIX",
+                "text": "We've resolved an issue with the insights cards not showing on the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0031689"
+                    }
+                ]
+            },
+            {
+                "id": "I7374ab4137b7c930b36ea06d0b610bf74f10eec5",
+                "type": "FIX",
+                "text": "We now correctly set the subsection title for the extension facets",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0094836"
+                    }
+                ]
+            },
+            {
+                "id": "Icd43b3e187ee496ce11c93dffd96efac7e57f28a",
+                "type": "FIX",
+                "text": "We now replace the title when the setAsTitleOwner extension API is called from the reuse component and custom section",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0094836"
+                    }
+                ]
+            },
+            {
+                "id": "Id5f70dd83089d78a078aa7df072cf4bf97234dee",
+                "type": "FIX",
+                "text": "We've now added an option to display the action button on the header while adapting the UI of the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006628368"
+                    }
+                ]
+            },
+            {
+                "id": "Ic4904ab2ac51da2bca6937fb47cd4f5fabcdf1d8",
+                "type": "FIX",
+                "text": "We now validate the links embedded in messages",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0082954"
+                    }
+                ]
+            },
+            {
+                "id": "I0ccc5d5e4f5f1980f5b8c4d5922295bc6f6d15a8",
+                "type": "FIX",
+                "text": "We've now added an option to remove the action button in the header while adapting the UI of the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006628368"
+                    }
+                ]
+            },
+            {
+                "id": "I99bb3373ac2657b7dab717e671bb2ac8d601db24",
+                "type": "FIX",
+                "text": "We now restrict merging the subsection title with the control title if the section contains only one subsection within the object page in the IconTabBar mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0085371"
+                    }
+                ]
+            },
+            {
+                "id": "Id3a85a47a56c04e33b87bc5f6e11a788538edaf6",
+                "type": "FIX",
+                "text": "We've resolved the issue with the paste functionality"
+            }
+        ]
+    }
+}

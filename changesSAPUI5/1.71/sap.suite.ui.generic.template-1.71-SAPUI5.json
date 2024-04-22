@@ -623,5 +623,37 @@
                 ]
             }
         ]
+    },
+    "1.71.51": {
+        "date": "Sep 2022",
+        "notes": [
+            {
+                "id": "If41e83e5b06b3303a4253d56687ef2671fb3cf1c",
+                "type": "FIX",
+                "text": "In the analytical list page, the CSS class for dynamic page content wrapper for the belize theme is now removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270030063"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.57": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "Ica87b309d73e5c8d776aef5b681be783b0082b8f",
+                "type": "FIX",
+                "text": "We now ensure that registering a filter provider at the message button helper works fine even if outdated binding path info is present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370139111"
+                    }
+                ]
+            }
+        ]
     }
 }

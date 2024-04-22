@@ -1,0 +1,127 @@
+{
+    "1.123.0": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "4533b576ecca36a005495073bc24d2e1a3899f8f",
+                "type": "FIX",
+                "text": " We now correctly label the quick view facet annotation"
+            },
+            {
+                "id": "897e8e2b57cb800335149e22d65587ff794600c2",
+                "type": "FEATURE",
+                "text": " The PresentationVariant API can now also be used with TreeTable and AnalyticalTable"
+            },
+            {
+                "id": "8eea5ca6415da5c1f041d73c9f010cd06057bb46",
+                "type": "FEATURE",
+                "text": " We now provide a setter method for the SelectionVariant in the Chart building block"
+            },
+            {
+                "id": "4fa5b38e647ff77976c70c41c330fa683c69173a",
+                "type": "FIX",
+                "text": " We now ensure that the links are correctly displayed on the quick view popover, when a dynamic semantic object is used"
+            },
+            {
+                "id": "7a863529043379a595bb168222cbddb88314a29e",
+                "type": "FEATURE",
+                "text": " We now provide a getter method for the SelectionVariant in the Chart building block"
+            },
+            {
+                "id": "75ba9c29cad5cfaaa0e8e8af240b0871e1fbbc31",
+                "type": "FIX",
+                "text": " We now reset changes only after ListBinding is resumed, using the resumeAsync method instead of resume"
+            },
+            {
+                "id": "b00dde24164b43c6ce1ed8daf7aa1023fa1794e7",
+                "type": "FEATURE",
+                "text": " We now provide a setter method for the SelectionVariant in the Table building block"
+            },
+            {
+                "id": "31121c9c6c298fb8b50ce7a936dd6b2e95bf6fcd",
+                "type": "FEATURE",
+                "text": " We now provide a getter method for the SelectionVariant in the Table building block"
+            },
+            {
+                "id": "7b08054c3acee34d0a468e99176926eedc2b24eb",
+                "type": "FEATURE",
+                "text": " You can now set a request size limit for the export in a table using the exportRequestSize setting in the manifest or in the Macro table"
+            },
+            {
+                "id": "986e0b6986b15af2e3f3780caa81a0585ba7492c",
+                "type": "FIX",
+                "text": " We have resolved an issue with displaying the Field building block when its semantic object is defined using a formatter"
+            },
+            {
+                "id": "da67150ee818eaf0bae1680d4eee6cffcdf2d20b",
+                "type": "FEATURE",
+                "text": " You can now disable copying to clipboard in a table using the disableCopyToCliboard setting in the manifest"
+            },
+            {
+                "id": "b73c567de4383cc58d435101488ab1ef6735aceb",
+                "type": "FIX",
+                "text": " You can now enhance the request of the Table building block before rebinding it for multiple views"
+            },
+            {
+                "id": "e010c77a42e0b834a7096f1b107270bd90d2532f",
+                "type": "FIX",
+                "text": " We now ensure that insights cards appear in My Home if cross-navigation is configured in the related parent app"
+            },
+            {
+                "id": "ea98e9ebb2c9586c0fe2f6fdbd8b871bf169b928",
+                "type": "FEATURE",
+                "text": " We now support the RequestAtLeast annotation in the analytical table"
+            },
+            {
+                "id": "8efb5427f59ac4aea0859013efaeba488d7f02a3",
+                "type": "FIX",
+                "text": " We now always request the value help list binding context  after executing a filter"
+            },
+            {
+                "id": "30fbf56da4d1ff582f48ec57ef3a83cb3c16e9ad",
+                "type": "FEATURE",
+                "text": " You can now configure the x-axis of a chart as the time axis in the content area of an analytical list page"
+            },
+            {
+                "id": "9810502302a845f86d81e4033ed48ab631eb859b",
+                "type": "FIX",
+                "text": " We’ve resolved an issue related to templating on custom columns"
+            },
+            {
+                "id": "ee199b47aac852c0248334442c899d9cd52934f1",
+                "type": "FIX",
+                "text": " The Form building block now works with UI adaptation and OData containment"
+            },
+            {
+                "id": "65c47a782df0c70152507bec3f60ad34d5db73b3",
+                "type": "FEATURE",
+                "text": " You can now use SAP Fiori tools in adaptation projects to adapt the list report"
+            },
+            {
+                "id": "df5b923788882d1f0e9fadb3510510ce1e464112",
+                "type": "FEATURE",
+                "text": " Applications can now disable the history of recently entered values for certain fields"
+            },
+            {
+                "id": "1c93ed7a4cdf9e189d6edff1163c55e75f2df00b",
+                "type": "FEATURE",
+                "text": " Range pasting is now available for grid tables"
+            },
+            {
+                "id": "c30a215fd12d1127c8950ea695b4bc6c7f9585fb",
+                "type": "FEATURE",
+                "text": " We now support dynamic expressions in semantic object annotations"
+            },
+            {
+                "id": "a01837b8dd6b969cbda375f9e0f1c39f09b54c3e",
+                "type": "FIX",
+                "text": " We no longer show an error message in the console when the filter bar is hidden"
+            },
+            {
+                "id": "d89c0d2c34d2afec8a4d337f414c2a681a7b5fed",
+                "type": "FIX",
+                "text": " We now consider the CssDefaults annotation in the calculation of the column width for responsive tables on small screen devices"
+            }
+        ]
+    }
+}

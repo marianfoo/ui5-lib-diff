@@ -182,6 +182,1144 @@
                         "reference": "1970383565"
                     }
                 ]
+            },
+            {
+                "id": "a42673d3ec96137515e65ed9748e6bf407683b54",
+                "type": "FEATURE",
+                "text": " SmartTable: Common.EditableFieldFor annotation supported",
+                "references": []
+            },
+            {
+                "id": "ea21ad77c944f87854c238138984a282cc7daae1",
+                "type": "FIX",
+                "text": " \"Revert: SmartForm: toggle edit mode, check errors in any case\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980415547"
+                    }
+                ]
+            },
+            {
+                "id": "01a27a9c5425820cbd652c0ca1e33668acd9f156",
+                "type": "FIX",
+                "text": " Controller: remove size limit for internal model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "504248"
+                    }
+                ]
+            },
+            {
+                "id": "bbcfab0f106af457d7bab1328481cc08259599f4",
+                "type": "FIX",
+                "text": " FilterBar: avoid search call, when closing adapt filters dialog in liveMode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980401625"
+                    }
+                ]
+            },
+            {
+                "id": "a01f890cfd00e59b619db8b4630219b7402acfa3",
+                "type": "FIX",
+                "text": " FilterBar: correct the scroll behavior in filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980333504"
+                    }
+                ]
+            },
+            {
+                "id": "9f26d0e752f51d07b18496480f2372fc8ef0523f",
+                "type": "FIX",
+                "text": " FilterBar: correction for visibility handling",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "510069"
+                    }
+                ]
+            },
+            {
+                "id": "4b4d57c8c8c9a8fe66b6305519027cd780a60c3c",
+                "type": "FIX",
+                "text": " FilterProvider: parse default values type compliant",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980361719"
+                    }
+                ]
+            },
+            {
+                "id": "9d5053d746829ff854602eba833859c4bfb03a1a",
+                "type": "FIX",
+                "text": " SmartField: checkClientError method always handling success/error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980360577"
+                    }
+                ]
+            },
+            {
+                "id": "a4c77af0cadc1f0dcd108da854e14ed13f0acce3",
+                "type": "FIX",
+                "text": " SmartField: checkClientError method always handling success/error\"",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980420871"
+                    }
+                ]
+            },
+            {
+                "id": "1c4b046f366c2248192ffb3f7a771061afbbc6dc",
+                "type": "FIX",
+                "text": " SmartField: innerControlsCreated callback explicit context removed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980368929"
+                    }
+                ]
+            },
+            {
+                "id": "96312fb85af00489a3b364600eb5c1ecffa55a4c",
+                "type": "FIX",
+                "text": " SmartFilterBar/SmartTable \"empty\" operation when \"nullable=false\"",
+                "references": []
+            },
+            {
+                "id": "e9bb9d66c5727971c1c83f29ec550cffc0c88e18",
+                "type": "FIX",
+                "text": " SmartFilterBar: do not wait for flex on a value help dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980411312"
+                    }
+                ]
+            },
+            {
+                "id": "37a91f0916c178f2f42fa5d04076dcc5937f887e",
+                "type": "FIX",
+                "text": " SmartForm: fix sample page to check input on switching edit mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970383565"
+                    }
+                ]
+            },
+            {
+                "id": "925d8bf00fbfc7dd2128f73f9b74e75255928190",
+                "type": "FIX",
+                "text": " SmartForm: toggle edit mode, check errors in any case",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970383565"
+                    }
+                ]
+            },
+            {
+                "id": "fe4a95569ca4325454073e084f9ce8454c43f976",
+                "type": "FIX",
+                "text": " SmartForm: use stabel IDs for internal controls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980365229"
+                    }
+                ]
+            },
+            {
+                "id": "4317ee38d88096e8e60eefc560f37bbc60afd7b4",
+                "type": "FIX",
+                "text": " SmartLabel: .updateLabelFor() handles labelFor association",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970135768"
+                    }
+                ]
+            },
+            {
+                "id": "afa3fb036b713a5d303796682523c7a42e5a5afc",
+                "type": "FIX",
+                "text": " SmartTable: group header formatting issues corrected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970404418"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1970387256"
+                    }
+                ]
+            },
+            {
+                "id": "136dd7bc7091d3e3b13974ac797eb1c6631bb375",
+                "type": "FIX",
+                "text": " ValueHelpDialog: does not throw an exception if token key is not escaped",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980356067"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.4": {
+        "date": "November 2019",
+        "notes": [
+            {
+                "id": "4a9b2999c53935515bf5b418b3fe1e9dcd13b501",
+                "type": "FIX",
+                "text": " FilterBar: check also for entity type as group information",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006177582019"
+                    }
+                ]
+            },
+            {
+                "id": "0e0834336bd599b5d602354e1227063578cdca78",
+                "type": "FIX",
+                "text": " SmartFilterBar: save _CUSTOM data with array values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970568368"
+                    }
+                ]
+            },
+            {
+                "id": "3a899529daa4fbf378fe0f3cd431484e253f5385",
+                "type": "FIX",
+                "text": " SmartFilterbar : Date handling for dates <=1893/4/1",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970531607"
+                    }
+                ]
+            },
+            {
+                "id": "a3ab5a34c9564913b74afccd7a6d0f8b517433ad",
+                "type": "FIX",
+                "text": " SmartMultiEdit flexibility (AddMultiEditFields.revertChange function)",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970507050"
+                    }
+                ]
+            },
+            {
+                "id": "6ebb9a7d65f63320c0f0a7fffd82715d52522669",
+                "type": "FIX",
+                "text": " SmartVM: fix for initial visible variants in the variant list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970579101"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.5": {
+        "date": "December 2019",
+        "notes": [
+            {
+                "id": "6c2aea078641c03b7dd11be87e789d09c0a44d4d",
+                "type": "FIX",
+                "text": " VariantConvertFrom/To: Add safety check for array values",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980466008"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.6": {
+        "date": "December 2019",
+        "notes": [
+            {
+                "id": "a55469c2be23af492caca7fb9d88f11d65d4bad8",
+                "type": "FIX",
+                "text": " SmartMultiInput: Handle create/delete when using deferred processing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980429472"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.9": {
+        "date": "January 2020",
+        "notes": [
+            {
+                "id": "b30f21a2e1985b94e8757abc2471b2509ce77f91",
+                "type": "FIX",
+                "text": " FilterBar: On pressing ctrl+A select all checkbox filters and be able to add them, not only the first one.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1940740258"
+                    }
+                ]
+            },
+            {
+                "id": "f1aa585e234518d02cdf88e007424a826efd5bb0",
+                "type": "FIX",
+                "text": " SmartField: textInEditSource mode lifecycle fetch id and description issue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1970217313"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000174202020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.10": {
+        "date": "February 2020",
+        "notes": [
+            {
+                "id": "49e92209478f304de077f9756786b32c5c891069",
+                "type": "FIX",
+                "text": " SmartFilterBar: Scrolling while managing filters in adapt filters dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376600003890862019"
+                    }
+                ]
+            },
+            {
+                "id": "48d82efde1abebdeaffc92c884f2a78c3f3290bb",
+                "type": "FIX",
+                "text": " sap.ui.comp.SmartTable - Reserved keywords",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080025761"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.12": {
+        "date": "March 2020",
+        "notes": [
+            {
+                "id": "e747b67c4718cf31cae2e28e1c95a5ffac6c43bd",
+                "type": "FIX",
+                "text": " SmartField: Propagate the value to inner control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070058870"
+                    }
+                ]
+            },
+            {
+                "id": "be48e06bebf263b8ef0216fac56a75c8d253997e",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Selected items in the table to be selected after research",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080030560"
+                    }
+                ]
+            },
+            {
+                "id": "28d40bc2f814ae45ac928b77945337c6801844bf",
+                "type": "FIX",
+                "text": " sap.ui.comp.FilterBar: RemoveFilterItem and RemoveFilterGroupItem methods fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080047166"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.16": {
+        "date": "May 2020",
+        "notes": [
+            {
+                "id": "8bec4b9dacc6be3b23076e9565335d9900db1088",
+                "type": "FIX",
+                "text": " SmartVariantManagement: correction for fl-library load",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080064512"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002028376500001476872020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.17": {
+        "date": "May 2020",
+        "notes": [
+            {
+                "id": "ee03407e16cef63cb9f6e89c0a83e9b237200597",
+                "type": "FIX",
+                "text": " SmartFilterBar: Set SelectOption by ControlConfiguration",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070205983"
+                    }
+                ]
+            },
+            {
+                "id": "9a582897332bb05d567992b310365cca6a8bd458",
+                "type": "FIX",
+                "text": " FilterItem: Inner control and label are now destroyed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002261822020"
+                    }
+                ]
+            },
+            {
+                "id": "82140c4d0423e51734c39cc4ba74fc3102a85adc",
+                "type": "FIX",
+                "text": " SmartFilterBar: Interval filter fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001917372020"
+                    }
+                ]
+            },
+            {
+                "id": "8dc43aef021e99d2ff2b512a6936e9f0730f30ea",
+                "type": "FIX",
+                "text": " SmartField: Propagate the value to inner control",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002820982020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.18": {
+        "date": "June 2020",
+        "notes": [
+            {
+                "id": "ef8aa59b1e9400c5c65713289eedec6c405b5dc0",
+                "type": "FIX",
+                "text": " SmartField: Edm.DateTimeOffset UTC flag handling in display mode",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003070762020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070218971"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.19": {
+        "date": "July 2020",
+        "notes": [
+            {
+                "id": "ac12d15a0e14c88cd48843a1e671b08479baa78f",
+                "type": "FIX",
+                "text": " SmartFilterBar: Edm.DateTimeOffset handling fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003876282020"
+                    }
+                ]
+            },
+            {
+                "id": "e67754f229c0a12af06f5315ac8969a197535a86",
+                "type": "FIX",
+                "text": " FilterBar: destroyFilterItems and destroyFilterGroupItems methods fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080163595"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.20": {
+        "date": "July 2020",
+        "notes": [
+            {
+                "id": "39fc1a7e4751aee075613ba44f68bd550e5b0b63",
+                "type": "FIX",
+                "text": " SmartFilterBar: Exclude Operator fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2040461540"
+                    }
+                ]
+            },
+            {
+                "id": "9501f95081ad2223776f93946efd0f1b42ff42d1",
+                "type": "FIX",
+                "text": " FilterBar: removeFilterGroupItem now removes fields from basic group",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004128912020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.21": {
+        "date": "August 2020",
+        "notes": [
+            {
+                "id": "51ca17bb3fb34e412dd4456c0c27a2ac5a531558",
+                "type": "FIX",
+                "text": " SmartFilterBar: Basic Search is now destroyed on mobile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004928942020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.22": {
+        "date": "September 2020",
+        "notes": [
+            {
+                "id": "32c65a724d103e5fa2344c2920943a5482269ede",
+                "type": "FIX",
+                "text": " FilterProvider: FilterDefaultValue false is now correctly displayed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005790112020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080124673"
+                    }
+                ]
+            },
+            {
+                "id": "7c940e36b5e85c36c27c19fed72dfff76847f0a7",
+                "type": "FIX",
+                "text": " FilterBar: enable some properties on mobile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376600003689582020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.23": {
+        "date": "October 2020",
+        "notes": [
+            {
+                "id": "5176d1b6c260663c09d5eb0f6c31cf6972deb05e",
+                "type": "FIX",
+                "text": " SmartChart: Resize internals after full screen height change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080145588"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400003750812020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.24": {
+        "date": "November 2020",
+        "notes": [
+            {
+                "id": "69c124a1fc53dd5fd024666704fce31d2c56cd19",
+                "type": "FIX",
+                "text": " SmartFilterBar generating double filters in some scenarios",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1980361768"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005706132020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005799992020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.25": {
+        "date": "December 2020",
+        "notes": [
+            {
+                "id": "db09fc385445f4020759893acdc14a867b82ba29",
+                "type": "FIX",
+                "text": " Removed unnecessary code for timeseries handling on Smart Chart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2040206811"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.26": {
+        "date": "January 2021",
+        "notes": [
+            {
+                "id": "0236138150b92141cbfe0b771b6e68996f65a9fd",
+                "type": "FIX",
+                "text": " SFBMultiInput: setTokens updates the Filter model",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008250482020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.27": {
+        "date": "February 2021",
+        "notes": [
+            {
+                "id": "997247ee532f15252261a16510b2c70e76aed955",
+                "type": "FIX",
+                "text": " SmartField: ValueState handling is corrected for Table context",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002126232020"
+                    }
+                ]
+            },
+            {
+                "id": "e70d311169cb89c5db5de06355e98f8c22ab2669",
+                "type": "FIX",
+                "text": "Fixed DateFormatOptions not being taken into account on SmartChart",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008567532020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.29": {
+        "date": "February 2021",
+        "notes": [
+            {
+                "id": "57a485efe306e20fdf96172c7eeb992b6ea78a22",
+                "type": "FIX",
+                "text": " Fixed SmartChart not applying variant change before inner chart is bound",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000261602021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.31": {
+        "date": "March 2021",
+        "notes": [
+            {
+                "id": "21c3a43aa1062df1ba0b513f81993c56ea6131f4",
+                "type": "FIX",
+                "text": " SmartFilterBar: Analytic parameter can be optional",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008883952020"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.32": {
+        "date": "April 2021",
+        "notes": [
+            {
+                "id": "8607ca94d6e53e8d4ce22406ec531cce367de743",
+                "type": "FIX",
+                "text": " SmartFilterBar: Removed additional filterChange event on token with textArrangement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008250482020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001995342021"
+                    }
+                ]
+            },
+            {
+                "id": "27c9e142cff1a115cc628e4fa7f3e2ce07aaa37d",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Fixed inappropriate behaviour of the scroller on iPhone",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400007438142020"
+                    }
+                ]
+            },
+            {
+                "id": "438ccc98016c62b2e74f259e8c4a071c45cb3eaa",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Table inactive with in-parameter and auto filtering",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070009951"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400001813452021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.34": {
+        "date": "June 2021",
+        "notes": [
+            {
+                "id": "4ecb00d7a603891dd559558c6a98c373b379afb1",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Token can be added if key is not encoded",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400005003632020"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004041712021"
+                    }
+                ]
+            },
+            {
+                "id": "b2d393c75474119fbb0a94e7a556e9405f58a55c",
+                "type": "FIX",
+                "text": " FilterProvider: Time range handle 12:00:00 AM fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070162260"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.35": {
+        "date": "July 2021",
+        "notes": [
+            {
+                "id": "6dad4220757bf809eb58fcb904eb3bcbf6e3cbc6",
+                "type": "FIX",
+                "text": " DateRangeType: \"from\" \"to\" date validation fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003712442021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.37": {
+        "date": "August 2021",
+        "notes": [
+            {
+                "id": "cf3627024e14c6ef5011fbb95d65b7a1f4e53e0c",
+                "type": "FIX",
+                "text": " VariantManagement: overwrite default tooltip",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004853762021"
+                    }
+                ]
+            },
+            {
+                "id": "dea5d1ebfc1996781bb7282abeb837a6c8289ef9",
+                "type": "FIX",
+                "text": " FilterProvider: Copy-paste of multiple tokens fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070368064"
+                    }
+                ]
+            },
+            {
+                "id": "790dbe530c5a18f9a1e277971febaee1d4df5341",
+                "type": "FIX",
+                "text": " SmartField: In Parameters are now considered for type Edm.Boolean",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500003362352021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.38": {
+        "date": "September 2021",
+        "notes": [
+            {
+                "id": "77a65c33caf824105d5400b97202924c1b6bf094",
+                "type": "FIX",
+                "text": " FitlerBar: Headings levels are now with correct flow",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376700018831532021"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.39": {
+        "date": "October 2021",
+        "notes": [
+            {
+                "id": "c7645b9cf9c241733d3f130140fda368a297ec61",
+                "type": "FIX",
+                "text": " SmartField: Missing parameter value of TimePicker change event is now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400006190812021"
+                    }
+                ]
+            },
+            {
+                "id": "5c4d1884a61c77156049e5c1ef292907b1099068",
+                "type": "FIX",
+                "text": " SmartFilterBar: Tooltip label value fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080100965"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170181883"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.41": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "9a570c6b0a429b3f2cdb9b40f96d92801a65d530",
+                "type": "FIX",
+                "text": " SmartField: TextArrangment with UpperCase fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080167558"
+                    }
+                ]
+            },
+            {
+                "id": "b367a1c0f965390b7b3b4570c03e20753e2e398d",
+                "type": "FIX",
+                "text": " SmartField: In parameters can now work with Boolean fields with value false",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008375082021"
+                    }
+                ]
+            },
+            {
+                "id": "00f9d412fa9c596476173d98ec25a83f65845001",
+                "type": "FIX",
+                "text": " SmartField: StringDate parsing added check for a valid date",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400008078562021"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "1980442299"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.42": {
+        "date": "February 2022",
+        "notes": [
+            {
+                "id": "f7dca29403ff132debebefb935c3cb65a36f256d",
+                "type": "FIX",
+                "text": " TextArrangement: formatValue fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080446262"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2280006983"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.46": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "5bbc24ea0755368042151bf95d60483fa3d61123",
+                "type": "FIX",
+                "text": " SmartField: Fired change event when textInEditModeSource enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270101172"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2080337523"
+                    }
+                ]
+            },
+            {
+                "id": "5bd1a156e13da991903ee57fb721ce31001d7114",
+                "type": "FIX",
+                "text": " SmartField: 'TextOnly' TextArrangement with UpperCase fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280006983"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.48": {
+        "date": "September 2022",
+        "notes": [
+            {
+                "id": "4c53816512cf6e8417f23162aef5fcccc2304759",
+                "type": "FIX",
+                "text": " FilterController: Display-format annotation is now respected",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400002594982022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.49": {
+        "date": "November 2022",
+        "notes": [
+            {
+                "id": "52e02a93d5575840385f21dc1ebff04532a43777",
+                "type": "FIX",
+                "text": " SmartForm: Duplicate title is removed when form is expandable",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270134335"
+                    }
+                ]
+            },
+            {
+                "id": "dfd01cb5a06bef1c7ab97d49ce623fd7c8c2dc21",
+                "type": "FIX",
+                "text": " SmartField: Restoring selectionChange parameter on change",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005722492022"
+                    }
+                ]
+            },
+            {
+                "id": "b482fe2d06ed20247aa7f192e60713fbe9b9dd18",
+                "type": "FIX",
+                "text": " SmartField: ComboBox change event fired twice now fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500005722492022"
+                    }
+                ]
+            },
+            {
+                "id": "de118aabea191e526ff83fca26ed2e9239e92b77",
+                "type": "FIX",
+                "text": " SmartFilterBar: get/set FilterData consistency fixed",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070228548"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500004944752022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.54": {
+        "date": "February 2023",
+        "notes": [
+            {
+                "id": "36f51e76561b60e967013a70863d34629f871337",
+                "type": "FIX",
+                "text": " SmartField: Removed duplicate request for description",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270080734"
+                    }
+                ]
+            },
+            {
+                "id": "bfc4d4ee3b505d0b2b42a2dc890625f1ba1a1a87",
+                "type": "FIX",
+                "text": " SmartMultiEdit: Fallback to key when text path not present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280161638"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.55": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "780c3b2954b5013bd81a636ae744275cff0e5b6b",
+                "type": "FIX",
+                "text": " TextArrangementDelegate: Prevent exception binding type is missing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080179981"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000762342023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.56": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "7acfd1c6a8d687dcaa6d2c7bc5cace5a19545135",
+                "type": "FIX",
+                "text": " SmartField: TextArrangement in display mode with value list",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002122242023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070130308"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.58": {
+        "date": "July 2023",
+        "notes": [
+            {
+                "id": "6937b9fe496d076e680a97878308c75832d79641",
+                "type": "FIX",
+                "text": " comp.ValueHelpDialog: sap_belize_plus Title contrast fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500002263532023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.71.63": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "e031a4f865b0f58593c234ecc42d0f5f87d7ad22",
+                "type": "FIX",
+                "text": " SmartField: Text arrangement in display mode failing request"
             }
         ]
     }
