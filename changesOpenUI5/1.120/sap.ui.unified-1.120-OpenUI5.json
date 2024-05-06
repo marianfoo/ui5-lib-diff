@@ -3,6 +3,17 @@
         "date": "October 2023",
         "notes": [
             {
+                "id": "59dc8877fc21fc02ce5e125fe448e730b8136376",
+                "type": "FIX",
+                "text": " sap.ui.unified.calendar.CustomMonthPicker: fixed missing year in internal MonthPicker",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009186302023"
+                    }
+                ]
+            },
+            {
                 "id": "6fc891f91c23a87ded04339bd5995f576dddd467",
                 "type": "FIX",
                 "text": " sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element",
@@ -39,6 +50,57 @@
                         "reference": "002075129400006455262023"
                     }
                 ]
+            }
+        ]
+    },
+    "1.120.2": {
+        "date": "December 2023",
+        "notes": [
+            {
+                "id": "6843f1355d273754ea9921d7cd7e3395fa2c3ccd",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust week days announcement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370011630"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "f02d7b4cbbcc17136e60896ed63c1efd6d862de9",
+                "type": "FIX",
+                "text": " sap.ui.unified.FileUploader: prevent unexpected error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370136956"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.6": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "bc98a5792c04317ff2ec04d3178d4d89bcf12690",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adding padding when two calendars are next to each other"
+            }
+        ]
+    },
+    "1.120.12": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "07e90a8dae75a963e165c66819ce3b17489ad62d",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: adjust header buttons width"
             }
         ]
     }

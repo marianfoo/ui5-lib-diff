@@ -640,5 +640,25 @@
                 "text": " We now always request the value help list binding context  after executing a filter"
             }
         ]
+    },
+    "1.121.3": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "ab6725591791baed6dee3c22ee728ec23a21b681",
+                "type": "FIX",
+                "text": " We now clear the selection in a table after applying a search or a filter, except for responsive tables"
+            },
+            {
+                "id": "a46f132e37e7647280d6502d45b1e5392d593724",
+                "type": "FIX",
+                "text": " We now align the column correctly when the table entity has no key"
+            },
+            {
+                "id": "449942c92241aae3d8e76e341def4ac09ee56ef8",
+                "type": "FIX",
+                "text": " We now support the ValueListParameterIn property in the value help for a MultiValueField"
+            }
+        ]
     }
 }

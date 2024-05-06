@@ -6,13 +6,6 @@
 <description>Changes for each version of the software.</description>
 <atom:link href="https://marianfoo.github.io/ui5-lib-diff/" rel="self" type="application/rss+xml" />
 <item>
-<title>Version 1.108.22 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.21&amp;versionTo=1.108.22</link>
-<pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.108.22</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPage: Fix RTA for content of DynamicPageTitle</li><li>Type: FIX, Description:  sap.f.GridContainer: Keyboard navigation after focusItem() now continues from the focused item</li><li>Type: FIX, Description:  sap.f.GridList: Navigation matrix elements are included if they have DOM element</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.IconTabBar: Count in filter is now visible on mobile Safari</li><li>Type: FIX, Description:  sap.m.ObjectNumber: apply horizon theme updates</li><li>Type: FIX, Description:  sap.m.PlanningCalendar: OPA tests in demo app are now running</li><li>Type: FIX, Description: sap.m.Carousel: f7 qunit is now correct</li><li>Type: FIX, Description:  sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element</li></ul></li><li><strong>Library: sap.tnt</strong><ul><li>Type: FIX, Description:  sap.tnt.ToolPage: Parent busy indicator is now shown on ToolPage</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  core/Component: skip the sync processing of i18n before resources are loaded</li><li>Type: FIX, Description:  Stabilize QUnit test for BeaconRequest</li></ul></li><li><strong>Library: sap.ui.dt</strong><ul><li>Type: FIX, Description:  sap.ui.rta - minimenu icons overlap - correction</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  ConditionType: leave empty unit as it is, only update only undefined</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element</li></ul></li><li><strong>Library: sap.ui.webc.fiori</strong><ul><li>Type: FIX, Description:  sap.ui.webc.fiori: Third party zxing configuration corrected</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Downport of changes</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.21&amp;versionTo=1.108.22</guid>
-</item>
-<item>
 <title>Version 1.108.27 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.26&amp;versionTo=1.108.27</link>
 <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
@@ -48,13 +41,6 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.25&amp;versionTo=1.108.26</guid>
 </item>
 <item>
-<title>Version 1.114.12 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.11&amp;versionTo=1.114.12</link>
-<pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.114.12</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  core/Shortcut: trigger &quot;blur&quot; within a timeout</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.ObjectNumber: apply horizon theme updates</li></ul></li><li><strong>Library: sap.tnt</strong><ul><li>Type: FIX, Description:  sap.tnt.ToolHeader: Padding when there is no menu button fixed</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.model.analytics.odata4analytics.FilterExpression#renderUI5FilterArray: fix sorting of filters</li><li>Type: FIX, Description:  core/Shortcut: trigger &quot;blur&quot; within a timeout</li><li>Type: FIX, Description:  Stabilize QUnit test for BeaconRequest</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.11&amp;versionTo=1.114.12</guid>
-</item>
-<item>
 <title>Version 1.114.14 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.13&amp;versionTo=1.114.14</link>
 <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
@@ -76,32 +62,81 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.114.15&amp;versionTo=1.114.16</guid>
 </item>
 <item>
-<title>Version 1.117.3 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.117.2&amp;versionTo=1.117.3</link>
-<pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.117.3</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.GridList: Navigation matrix elements are included if they have DOM element</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description: sap.m.Carousel: f7 qunit is now correct</li><li>Type: FIX, Description:  sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FEATURE, Description:  Prepare for upcoming &apos;unload&apos; event deprecation and deprecate APIs &apos;onWindowBeforeUnload&apos;, &apos;onWindowUnload&apos; and &apos;onWindowError&apos; in &apos;sap/ui/core/Component&apos;</li><li>Type: FIX, Description:  Stabilize QUnit test for BeaconRequest</li><li>Type: FIX, Description:  sap.ui.model.odata.v2.ODataModel#resetChanges: do not remove persistent messages</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  MDC.Field: Prevent ValueHelp.shouldOpenOnFocus flow with programmatic focus</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.CalendarAppointment: getDomRef() now returns proper DOM element</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.117.2&amp;versionTo=1.117.3</guid>
+<title>Version 1.120.2 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.1&amp;versionTo=1.120.2</link>
+<pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.2</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.FlexibleColumnLayout: Fix failing OPA tests</li><li>Type: FIX, Description:  core/Shortcut: trigger &quot;blur&quot; within a timeout</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Input: Tabular suggestions are now always highlighted</li><li>Type: FIX, Description:  sap.m.Input: Reopen Suggestion Popover when new data is bound</li><li>Type: FIX, Description:  m.SelectionController: fix for index of the move determination</li><li>Type: FIX, Description:  sap.m.FormattedText: preserve H1, H2, H3, H4, H5 and H6 tags default &apos;display&apos; CSS property</li><li>Type: FIX, Description:  Deprecate InputODataSuggestProvider in sap/m/library.js</li><li>Type: FIX, Description:  sap.m.DateTimePicker: add check if date is parsed correctly</li><li>Type: FIX, Description:  sap.m.FacetFilter: adjust select all checkbox</li><li>Type: FIX, Description:  m.Table: Enter should fire selectionChange in SingleSelectMaster</li></ul></li><li><strong>Library: sap.tnt</strong><ul><li>Type: FIX, Description:  sap.tnt.NavigationListItem: Context menu now successfully opens on items with &apos;href&apos; set</li><li>Type: FIX, Description:  sap.tnt.ToolHeader: Padding when there is no menu button fixed</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  Add &apos;FUTURE FATAL&apos; Marker for error/warning logs</li><li>Type: FIX, Description:  sap.ui.model.odata.v4.lib._CollectionCache#read: avoid endless busy indicator sometimes when scrolling up</li><li>Type: FIX, Description:  CLDR: allow user input based on historical variants for month abbreviations</li><li>Type: FIX, Description:  core.Lib: Add debug log statement when registering enums</li><li>Type: FIX, Description:  Introduce sap/ui/core/ElementRegistry/ComponentRegistry/UIAreaRegistry</li><li>Type: FIX, Description:  core/qunit: Deprecate ControlRenderer test</li><li>Type: FIX, Description:  core/routing: find parent route from the router of the inheritance parent</li><li>Type: FIX, Description:  XMLTemplateProcessor: Reintroduce FUTURE-FATAL log for missing control classes</li><li>Type: FIX, Description:  sap.ui.model.FilterProcessor.combineFilters: combine Filter.NONE with other filters</li><li>Type: FIX, Description:  core/XMLTemplateProcessor: load class of nested view before instance creation</li><li>Type: FIX, Description:  sap.ui.model.odata.ODataMessageParser#_createTarget: normalize also the full target</li><li>Type: FIX, Description:  sap.ui.model.analytics.odata4analytics.FilterExpression#renderUI5FilterArray: fix sorting of filters</li><li>Type: FIX, Description:  sap.ui.core.message.Message fix references to MessageType</li><li>Type: FIX, Description:  Deprecate sap.ui.core.Message/MessageType</li><li>Type: FIX, Description:  Deprecate public registry of Component, Element and UIArea</li><li>Type: FIX, Description:  Views: Cloning a View is deprecated in favor of the specific factory functions</li><li>Type: FIX, Description:  Ensure correct &apos;resource-root&apos; and &apos;theme-root&apos; configuration</li><li>Type: FIX, Description:  sap.ui.test.action.EnterText: Revert restriction</li><li>Type: FIX, Description:  Lib/ui5loader: Provide deprecation message for pseudo-modules</li><li>Type: FIX, Description:  core/Shortcut: trigger &quot;blur&quot; within a timeout</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  mTable: consider useFirstMatch on filtering existing items</li><li>Type: FIX, Description:  ValueHelp: first item shown as selected too when other item is selected</li><li>Type: FIX, Description:  Field: Currency/unit value do not overwrite initial parts with null</li></ul></li><li><strong>Library: sap.ui.table</strong><ul><li>Type: FIX, Description:  Column: Sort order if &quot;sorted&quot; and &quot;sortOrder&quot; are bound</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.Calendar: adjust week days announcement</li><li>Type: FIX, Description:  sap.ui.unified.FileUploader: prevent unexpected error</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.1&amp;versionTo=1.120.2</guid>
 </item>
 <item>
-<title>Version 1.117.4 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.117.3&amp;versionTo=1.117.4</link>
-<pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.117.4</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  core/Shortcut: trigger &quot;blur&quot; within a timeout</li></ul></li><li><strong>Library: sap.tnt</strong><ul><li>Type: FIX, Description:  sap.tnt.ToolHeader: Padding when there is no menu button fixed</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.model.analytics.odata4analytics.FilterExpression#renderUI5FilterArray: fix sorting of filters</li><li>Type: FIX, Description:  core/Shortcut: trigger &quot;blur&quot; within a timeout</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  Field: not possible to enter multiple lines</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.117.3&amp;versionTo=1.117.4</guid>
+<title>Version 1.120.4 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.3&amp;versionTo=1.120.4</link>
+<pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.4</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.FlexibleColumnLayout: Fixed incorrect rendering of separator</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.MenuButton: load items with data binding on mobile</li><li>Type: FIX, Description:  sap.m.DateTimeField: Doesn&apos;t throw error when the binding type is string.</li><li>Type: FIX, Description:  m.VariantManagement: fix for save in &apos;Manage Dialog&apos;</li><li>Type: FIX, Description:  sap.m.ObjectNumber: apply horizon theme updates</li><li>Type: FIX, Description:  sap.m.MenuButton: Arrow has hover state now</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap/ui/model/odata/ODataMetadata#_getPropertyMetadata: fix for complex type property</li><li>Type: FIX, Description:  sap.ui.core.cldr.zh_TW.json: Replace &quot;B&quot; to &quot;a&quot; in default timeFormats</li><li>Type: FIX, Description:  sap/ui/model/odata/_ODataMetaModelUtils#merge: liftSAPData is called with correct parameters</li><li>Type: FIX, Description:  sap.ui.model.analytics.AnalyticalBinding: handle properties of type Edm.time in grouping</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.3&amp;versionTo=1.120.4</guid>
 </item>
 <item>
-<title>Version 1.120.1 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.0&amp;versionTo=1.120.1</link>
-<pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.120.1</h2><ul><li><strong>Library: sap.ui.rta</strong><ul><li>Type: FIX, Description:  Rename sap/ui/core/Component#get to sap/ui/core/Component#getComponentById</li></ul></li><li><strong>Library: sap.ui.ux3</strong><ul><li>Type: FIX, Description:  Interaction: Fix start time determination</li></ul></li><li><strong>Library: sap.ui.webc.common</strong><ul><li>Type: FIX, Description:  Rename sap/ui/base/Formatting.(get|set)LegacyDateCalendarCustomizing to sap/ui/base/Formatting.(get|set)CustomIslamicCalendarData</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.0&amp;versionTo=1.120.1</guid>
+<title>Version 1.120.13 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.12&amp;versionTo=1.120.13</link>
+<pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.13</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.FlexibleColumnLayout: Title alignment</li><li>Type: FIX, Description:  sap.f.DynamicPageHeader: Aligned with visual specification</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Input: Prevent value DOM update when password type is used</li><li>Type: FIX, Description:  sap.m.Input: Prevent user value override</li><li>Type: FIX, Description:  sap.m.MessageToast: Fix permanent display</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.model.type.Currency: amount scale is used instead of currency&apos;s decimal places</li><li>Type: FIX, Description:  sap.ui.model.type.Unit: do not overwrite Unit&apos;s maxFractionDigits format option</li><li>Type: FIX, Description:  sap.ui.model.type.Unit: amount scale is used instead of unit&apos;s decimal places</li></ul></li><li><strong>Library: sap.ui.integration</strong><ul><li>Type: FIX, Description:  Integration cards: Fixed pagination with microcharts</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.12&amp;versionTo=1.120.13</guid>
+</item>
+<item>
+<title>Version 1.120.3 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.2&amp;versionTo=1.120.3</link>
+<pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.3</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Carousel: Restored arrow navigation</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.model.odata.v2.ODataTreeBinding: consider deep path for context</li><li>Type: FIX, Description:  sap.base.i18n.date.TimezoneUtils.calculateOffset: Fix Daylight Saving Time issues</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  mdc.FilterBar: ensure the correct event sequence</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageSubSection: Prevent layout flickering</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.2&amp;versionTo=1.120.3</guid>
+</item>
+<item>
+<title>Version 1.120.6 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.5&amp;versionTo=1.120.6</link>
+<pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.6</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Popover: Apply additional padding on FF</li><li>Type: FIX, Description:  P13nConditionPanel: Fields of Between operation are now in correct order</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.model.odata.v2.ODataModel#submitChangesWithHeaders: ensure change requests use custom headers</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  P13nBuilder: Add button is now visible</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.Calendar: adding padding when two calendars are next to each other</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Fix collapsing header</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.5&amp;versionTo=1.120.6</guid>
+</item>
+<item>
+<title>Version 1.120.7 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.6&amp;versionTo=1.120.7</link>
+<pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.7</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  ColumnMenu: Provide a proper overflow handling</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.model.odata.ODataMetaModel#getODataValueLists: fetch missing metadata</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.6&amp;versionTo=1.120.7</guid>
+</item>
+<item>
+<title>Version 1.120.9 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.8&amp;versionTo=1.120.9</link>
+<pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.9</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.IconTabBar: Focus of IconTabFilter is not changing</li><li>Type: FIX, Description:  sap.m.Page: Focus element is scrolled into view</li><li>Type: FIX, Description:  We&apos;ve introduced the isTrustedSource property as a security enhancement for the PDFViewer control as detailed in the API reference</li><li>Type: FIX, Description:  sap.m.Carousel: Resolve issue preventing text selection with mouse</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  core/Lib: Improve Error Message reg. Pseudo Modules</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.8&amp;versionTo=1.120.9</guid>
+</item>
+<item>
+<title>Version 1.120.10 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.9&amp;versionTo=1.120.10</link>
+<pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.10</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Input: ResourceBundle getText method properly used</li><li>Type: FIX, Description:  m.VariantManagement: correction for deletion indicator</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.9&amp;versionTo=1.120.10</guid>
 </item>
 <item>
 <title>Version 1.120.11 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.10&amp;versionTo=1.120.11</link>
 <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.120.11</h2><ul><li><strong>Library: sap.ui.rta</strong><ul><li>Type: FIX, Description:  sap.ui.core: Allow for async control event handlers</li></ul></li></ul>]]></description>
+<description><![CDATA[<h2>Changes in Version 1.120.11</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Link: Is truncated correctly in sap.m.Table</li><li>Type: FIX, Description:  sap.ui.core: Allow for async control event handlers</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  mvc/Controller: Replace function call with apply</li><li>Type: FIX, Description:  sap.ui.core: Allow for async control event handlers</li></ul></li><li><strong>Library: sap.ui.fl</strong><ul><li>Type: FIX, Description:  sap.ui.core: Allow for async control event handlers</li></ul></li><li><strong>Library: sap.ui.rta</strong><ul><li>Type: FIX, Description:  sap.ui.core: Allow for async control event handlers</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.10&amp;versionTo=1.120.11</guid>
+</item>
+<item>
+<title>Version 1.120.12 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.11&amp;versionTo=1.120.12</link>
+<pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.12</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.SearchField: Suggestions are correctly visualized</li><li>Type: FIX, Description:  sap.m.Carousel: Resolve issue preventing text selection with mouse</li><li>Type: FIX, Description:  sap.m.Button: adjust resource bundle API calls</li><li>Type: FIX, Description:  sap.m.RadioButtonGroup: There is no error when destroying and adding radio buttons on select</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.Calendar: adjust header buttons width</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.11&amp;versionTo=1.120.12</guid>
+</item>
+<item>
+<title>Version 1.120.8 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.7&amp;versionTo=1.120.8</link>
+<pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.8</h2><ul><li><strong>Library: sap.ui.integration</strong><ul><li>Type: FIX, Description:  Integration Cards: Remove scrollbar from snack layer when not needed</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.7&amp;versionTo=1.120.8</guid>
 </item>
 <item>
 <title>Version 1.121.0 Changes</title>
@@ -123,6 +158,13 @@
 <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.121.2</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.MessageToast: Fix permanent display</li><li>Type: FIX, Description:  sap.m.DynamicDateRange translation is correct now in Dutch</li><li>Type: FIX, Description:  sap.m.Carousel: Resolve issue preventing text selection with mouse</li></ul></li><li><strong>Library: sap.ui.integration</strong><ul><li>Type: FIX, Description:  Integration cards: Fixed pagination with microcharts</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.121.1&amp;versionTo=1.121.2</guid>
+</item>
+<item>
+<title>Version 1.121.3 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.121.2&amp;versionTo=1.121.3</link>
+<pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.121.3</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Input: Prevent value DOM update when password type is used</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.model.type.Currency: amount scale is used instead of currency&apos;s decimal places</li><li>Type: FIX, Description:  sap.ui.model.type.Unit: do not overwrite Unit&apos;s maxFractionDigits format option</li><li>Type: FIX, Description:  sap.ui.model.type.Unit: amount scale is used instead of unit&apos;s decimal places</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.121.2&amp;versionTo=1.121.3</guid>
 </item>
 <item>
 <title>Version 1.122.0 Changes</title>
@@ -158,13 +200,6 @@
 <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.84.43</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We&apos;ve introduced the isTrustedSource property as a security enhancement for the PDFViewer control as detailed in the API reference</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.42&amp;versionTo=1.84.43</guid>
-</item>
-<item>
-<title>Version 1.96.25 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.24&amp;versionTo=1.96.25</link>
-<pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.96.25</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPage: Wizard button on mobile correctly positioned</li><li>Type: FIX, Description:  sap.f.DynamicPage: Fix RTA for content of DynamicPageTitle</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.MultiInput: Value is validated on focus out on mobile</li><li>Type: FIX, Description:  sap.m.IconTabBar: Count in filter is now visible on mobile Safari</li><li>Type: FIX, Description:  sap.m.PlanningCalendar: OPA tests in demo app are now running</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  core/routing: find parent route from the router of the inheritance parent</li><li>Type: FIX, Description:  Stabilize QUnit test for BeaconRequest</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.24&amp;versionTo=1.96.25</guid>
 </item>
 <item>
 <title>Version 1.96.26 Changes</title>

@@ -540,5 +540,30 @@
                 "text": " We've resolved an issue with displaying the text annotation in the quick view title"
             }
         ]
+    },
+    "1.120.9": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "14aecd03be94c1a6c5ee6cad7e84f15410d5a884",
+                "type": "FIX",
+                "text": " We now clear the selection in a table after applying a search or a filter, except for responsive tables"
+            },
+            {
+                "id": "a877cfd7a5aa49586fd613d03b17c505d4b411cf",
+                "type": "FIX",
+                "text": " We now align the column correctly when the table entity has no key"
+            },
+            {
+                "id": "d8baaa37592aef3c80e94baa3dbe3abdc8109696",
+                "type": "FIX",
+                "text": " We now clear the messageTargetProperty to ensure the navigation works correctly after saving changes on the subobject page"
+            },
+            {
+                "id": "98b0d6d5003c99ebc98f4f10a239d9c0c60551b9",
+                "type": "FEATURE",
+                "text": " Applications can now dynamically display the ‘Summarize’ button if the prerequisites are fulfilled"
+            }
+        ]
     }
 }

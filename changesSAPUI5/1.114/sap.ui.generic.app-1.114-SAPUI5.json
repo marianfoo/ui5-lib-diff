@@ -1,0 +1,78 @@
+{
+    "1.114.0": {
+        "date": "April 2023",
+        "notes": [
+            {
+                "id": "If2384b037c13687992c89c961c12fa1193c55a81",
+                "type": "FIX",
+                "text": "We now offer a pre-populated NewAction parameter dialog with the navigation context",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380043835"
+                    }
+                ]
+            },
+            {
+                "id": "If7a0656fe956496f76701dcfafb92e2704836ec2",
+                "type": "FIX",
+                "text": "We've now assigned a new changeSetId for action execution",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370036679"
+                    }
+                ]
+            },
+            {
+                "id": "I358a66d6f0f898fb468e345678add6edf4641179",
+                "type": "FIX",
+                "text": "We've now removed ETag validation for bound actions with pending changes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370035140"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.114.1": {
+        "date": "June 2023",
+        "notes": [
+            {
+                "id": "Iceae16b24cc1a044e1df4aa67d2d6f805ab5aaaa",
+                "type": "FIX",
+                "text": "We now synchronise draft before the function import dialog creation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370069484"
+                    }
+                ]
+            },
+            {
+                "id": "Idd27c6d64e6dc920cf11fa12f8c71fe8c4cd821e",
+                "type": "FIX",
+                "text": "We've now handled the action failure in the delayed draft save scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370062426"
+                    }
+                ]
+            },
+            {
+                "id": "I8fdd97f08d3ba29991768d4cc446b0598e112c2f",
+                "type": "FIX",
+                "text": "We now handle the failed function import context for ActionUtils",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380026194"
+                    }
+                ]
+            }
+        ]
+    }
+}

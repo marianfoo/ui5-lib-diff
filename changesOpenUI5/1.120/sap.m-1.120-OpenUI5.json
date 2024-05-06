@@ -3,6 +3,39 @@
         "date": "October 2023",
         "notes": [
             {
+                "id": "a69406b6398bb5fe83bda631bcea489ccefd81ec",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: OPA tests in demo app are now running",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370127346"
+                    }
+                ]
+            },
+            {
+                "id": "59dc8877fc21fc02ce5e125fe448e730b8136376",
+                "type": "FIX",
+                "text": " sap.ui.unified.calendar.CustomMonthPicker: fixed missing year in internal MonthPicker",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009186302023"
+                    }
+                ]
+            },
+            {
+                "id": "dd95ea33c0e95972f69df995bfa233753f7f7f72",
+                "type": "FIX",
+                "text": " sap.m.Input: Reopen Suggestion Popover when new data is bound",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370122595"
+                    }
+                ]
+            },
+            {
                 "id": "8f4c93b5b2b092e9a1e54dcd91f3ef5d2b02fcd1",
                 "type": "FIX",
                 "text": " sap.m.Input: Type-ahead functionality corrected",
@@ -392,6 +425,353 @@
                         "reference": "2380120722"
                     }
                 ]
+            }
+        ]
+    },
+    "1.120.1": {
+        "date": "November 2023",
+        "notes": [
+            {
+                "id": "13505e606cc13296e78a3bb69b9a2f45248758fb",
+                "type": "FIX",
+                "text": " Rename sap/ui/core/Component#get to sap/ui/core/Component#getComponentById",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "c5e593813dcd69a20622a80132f67726605bfa4f",
+                "type": "FIX",
+                "text": " sap.m.DateRangeSelection: using a stable date in a test scenario",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370125750"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.2": {
+        "date": "December 2023",
+        "notes": [
+            {
+                "id": "5c0e023c96730045c5df26ca0f56ea903cfd4123",
+                "type": "FIX",
+                "text": " sap.m.Input: Tabular suggestions are now always highlighted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370106962"
+                    }
+                ]
+            },
+            {
+                "id": "85986aeadd63c59d53f390379fb1bd7cce5f496b",
+                "type": "FIX",
+                "text": " sap.m.Input: Reopen Suggestion Popover when new data is bound",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370107738"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400010475512023"
+                    }
+                ]
+            },
+            {
+                "id": "b8a408159c510d76e368808b2828ca023b74c61d",
+                "type": "FIX",
+                "text": " m.SelectionController: fix for index of the move determination",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150660"
+                    }
+                ]
+            },
+            {
+                "id": "601723109a1a8ef9626c8d78ca9131b2e023b324",
+                "type": "FIX",
+                "text": " sap.m.FormattedText: preserve H1, H2, H3, H4, H5 and H6 tags default 'display' CSS property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400010494822023"
+                    }
+                ]
+            },
+            {
+                "id": "4414e7dad0a28b90b5243f1c1aef6fd68ca45642",
+                "type": "FIX",
+                "text": " Deprecate InputODataSuggestProvider in sap/m/library.js",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "e5f6d5a085d3a2e6c8aa44d0214a6241fa1c6632",
+                "type": "FIX",
+                "text": " sap.m.DateTimePicker: add check if date is parsed correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370139419"
+                    }
+                ]
+            },
+            {
+                "id": "8d8c56c4944c6e333f60eac2421f04825502a9f0",
+                "type": "FIX",
+                "text": " sap.m.FacetFilter: adjust select all checkbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370145377"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380124243"
+                    }
+                ]
+            },
+            {
+                "id": "a611809ed43911972eefa558c888d7558ab5ced8",
+                "type": "FIX",
+                "text": " m.Table: Enter should fire selectionChange in SingleSelectMaster",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370133922"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.3": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "a4cb6696b9cc83d6ada53c9939fcfa78a2faadcb",
+                "type": "FIX",
+                "text": " sap.m.Carousel: Restored arrow navigation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370146290"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.4": {
+        "date": "January 2024",
+        "notes": [
+            {
+                "id": "b2586289852efbdca6d82ae13ae6b646bbd8e50d",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: load items with data binding on mobile",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150250"
+                    }
+                ]
+            },
+            {
+                "id": "9a4e737a8395db29953e8fe77e1757944f80a6fa",
+                "type": "FIX",
+                "text": " sap.m.DateTimeField: Doesn't throw error when the binding type is string."
+            },
+            {
+                "id": "552a5a90ae2a745c332c15c9bc709c547e4f719d",
+                "type": "FIX",
+                "text": " m.VariantManagement: fix for save in 'Manage Dialog'"
+            },
+            {
+                "id": "cfef398013fe5f735b674d93bd158009fbf92353",
+                "type": "FIX",
+                "text": " sap.m.ObjectNumber: apply horizon theme updates",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370126403"
+                    }
+                ]
+            },
+            {
+                "id": "52fc7714f5b5918bdab35b2c32e68edb7bac6604",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: Arrow has hover state now",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500009692332023"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.6": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "66ec56e9f81371a5a792b8a6f93fb0525f487d93",
+                "type": "FIX",
+                "text": " sap.m.Popover: Apply additional padding on FF"
+            },
+            {
+                "id": "568a694aa556130646a528904732706de15e1a6e",
+                "type": "FIX",
+                "text": " P13nConditionPanel: Fields of Between operation are now in correct order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000484112024"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.7": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "a5fe04ab80934052fbb26c1479d7b3ea7da34ed6",
+                "type": "FIX",
+                "text": " ColumnMenu: Provide a proper overflow handling"
+            }
+        ]
+    },
+    "1.120.9": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "b08d750025f3fe72e860619132df2693cb2719c7",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: Focus of IconTabFilter is not changing"
+            },
+            {
+                "id": "5f29681f5dbfa334ab4df7119ad5eb358ac244f5",
+                "type": "FIX",
+                "text": " sap.m.Page: Focus element is scrolled into view"
+            },
+            {
+                "id": "53fc3d76b8d57286d5cfafb1e1e18b6abe7d4667",
+                "type": "FIX",
+                "text": " We've introduced the isTrustedSource property as a security enhancement for the PDFViewer control as detailed in the API reference"
+            },
+            {
+                "id": "90764641612976faf551f636f719204b8a989337",
+                "type": "FIX",
+                "text": " sap.m.Carousel: Resolve issue preventing text selection with mouse"
+            }
+        ]
+    },
+    "1.120.10": {
+        "date": "March 2024",
+        "notes": [
+            {
+                "id": "8a11cf935427e03f6f26145ac67bc6be6175719e",
+                "type": "FIX",
+                "text": " sap.m.Input: ResourceBundle getText method properly used"
+            },
+            {
+                "id": "050f7ffac3014df0bd46b78659e91fcb932df1db",
+                "type": "FIX",
+                "text": " m.VariantManagement: correction for deletion indicator",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500001798992024"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.11": {
+        "date": "March 2024",
+        "notes": [
+            {
+                "id": "a00ffb95b4bc5f714b4d838ff12d82d9c0ad8307",
+                "type": "FIX",
+                "text": " sap.m.Link: Is truncated correctly in sap.m.Table"
+            },
+            {
+                "id": "001540a9f49c56046a716e21fcc1f2ce120d99ef",
+                "type": "FIX",
+                "text": " sap.ui.core: Allow for async control event handlers",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.12": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "0448700b4335a80cd742420fa709a83fd6b094d0",
+                "type": "FIX",
+                "text": " sap.m.SearchField: Suggestions are correctly visualized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370120906"
+                    }
+                ]
+            },
+            {
+                "id": "f4e32683d50f45ac6ae0dfbaba11c0e2bc6a9f87",
+                "type": "FIX",
+                "text": " sap.m.Carousel: Resolve issue preventing text selection with mouse"
+            },
+            {
+                "id": "76e58f21dfc155f9578e9f56c3401bce83c8512b",
+                "type": "FIX",
+                "text": " sap.m.Button: adjust resource bundle API calls",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370127868"
+                    }
+                ]
+            },
+            {
+                "id": "71a15af230b8b09f8ffc8b94b29a29f12bf028f7",
+                "type": "FIX",
+                "text": " sap.m.RadioButtonGroup: There is no error when destroying and adding radio buttons on select"
+            }
+        ]
+    },
+    "1.120.13": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "f35e654c4417e813f7a7bc6136d3ab7fdba29f96",
+                "type": "FIX",
+                "text": " sap.m.Input: Prevent value DOM update when password type is used"
+            },
+            {
+                "id": "1021d0d41ad640c1d7e669833bf5c0513d3d4386",
+                "type": "FIX",
+                "text": " sap.m.Input: Prevent user value override"
+            },
+            {
+                "id": "56e1490939449908f9e1c1d855e7b8c219ba2d1b",
+                "type": "FIX",
+                "text": " sap.m.MessageToast: Fix permanent display"
             }
         ]
     }

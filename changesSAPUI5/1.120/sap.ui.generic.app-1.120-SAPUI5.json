@@ -1,0 +1,40 @@
+{
+    "1.120.0": {
+        "date": "October 2023",
+        "notes": [
+            {
+                "id": "I77dacfe825281cd7d0e8b77cd9521f61b71e74e3",
+                "type": "FIX",
+                "text": "In the function import scenario, a value is now passed as undefined if a user tries to remove it from the field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370031956"
+                    }
+                ]
+            },
+            {
+                "id": "I175b307958f6582cf75d55166b8243dc5b21a614",
+                "type": "FIX",
+                "text": "We now handle the uncaught exception correctly",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380128128"
+                    }
+                ]
+            },
+            {
+                "id": "Iff95f408077c3b72c222eaa62ff4265a741e4fcc",
+                "type": "FIX",
+                "text": "We now ensure that a sideeffect is triggered after draft syncronization",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370083005"
+                    }
+                ]
+            }
+        ]
+    }
+}

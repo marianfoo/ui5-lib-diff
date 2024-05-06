@@ -758,5 +758,35 @@
                 "text": " We now correctly display the custom message as a message strip on the object page header upon initial navigation using the onAfterBinding controller extension"
             }
         ]
+    },
+    "1.120.9": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "14aecd03be94c1a6c5ee6cad7e84f15410d5a884",
+                "type": "FIX",
+                "text": " We now clear the selection in a table after applying a search or a filter, except for responsive tables"
+            },
+            {
+                "id": "3d31348b9d74ef94c09452698e5cdb7a68f91a6a",
+                "type": "FIX",
+                "text": " We now ensure that the message popover for tables displays the column name that’s associated to the error"
+            },
+            {
+                "id": "4a031cbd431fe29ade54bda8a870e4dc1a5757ef",
+                "type": "FIX",
+                "text": " We've resolved an issue with the setRecommendations API where the recommendations weren't always displaying correctly for all fields"
+            },
+            {
+                "id": "98b0d6d5003c99ebc98f4f10a239d9c0c60551b9",
+                "type": "FEATURE",
+                "text": " Applications can now dynamically display the ‘Summarize’ button if the prerequisites are fulfilled"
+            },
+            {
+                "id": "1fbe5a35e6037d7affb612e98c85003b18653834",
+                "type": "FIX",
+                "text": " We now correctly manage the page ID parameter in the changePageConfiguration extension point to apply configuration changes that can also be used as a feature toggle"
+            }
+        ]
     }
 }

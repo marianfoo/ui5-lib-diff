@@ -1,0 +1,29 @@
+{
+    "1.121.0": {
+        "date": "February 2024",
+        "notes": [
+            {
+                "id": "I0a6c697db36e16227bb27ca3256773126ea85007",
+                "type": "FIX",
+                "text": "We now pass the expand parameters only for POST requests",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370151357"
+                    }
+                ]
+            },
+            {
+                "id": "I5a71cf2d1dfcf5e17fee920e0ad93d236bc68f10",
+                "type": "FIX",
+                "text": "We've now introduced Content-ID referencing for invokeActions",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380085628"
+                    }
+                ]
+            }
+        ]
+    }
+}
