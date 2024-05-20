@@ -1,0 +1,143 @@
+{
+    "1.124.0": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "926d70c354303f63ca88e54caf53c85cf5bc5a5c",
+                "type": "FIX",
+                "text": " We now ensure that filter fields removed by adaptation are not visible again when we reload the page"
+            },
+            {
+                "id": "967154d133785ca089ed56f1adebacbee06987f5",
+                "type": "FEATURE",
+                "text": " We now provide an option to merge the control title and section title for custom sections"
+            },
+            {
+                "id": "0c1a4e5a0ffbfb5bd25d638a18e0a849d33ffe03",
+                "type": "FEATURE",
+                "text": " We now provide a building block for the tree table"
+            },
+            {
+                "id": "75ee4d3813d1e578b265e49de567fc2db5e2a036",
+                "type": "FEATURE",
+                "text": " We have improved the suggestions for recently entered values"
+            },
+            {
+                "id": "a3ad79f2c70a26f6933299358201aec42eb34c22",
+                "type": "FIX",
+                "text": " We now correctly encode URL parameters when navigating away from the quickview popover"
+            },
+            {
+                "id": "ebbe410d778e8ea284b37696e93c19ab40826e96",
+                "type": "FEATURE",
+                "text": " You can now use the manifest to customize the export settings of a column"
+            },
+            {
+                "id": "5ff6a05273083ff193835bdf3eae902f271f6756",
+                "type": "FEATURE",
+                "text": " We now provide support for consuming design time cards in SAP Collaboration Manager"
+            },
+            {
+                "id": "64eddbb41d88f0c76b96df2679c226895b2fc97d",
+                "type": "FIX",
+                "text": " We now align the column correctly when the table entity has no key"
+            },
+            {
+                "id": "78b5e800db698ef14c5bf827003d7ec0f67ff25a",
+                "type": "FIX",
+                "text": " We've removed the fixed contentWidth for the draft indicator popover"
+            },
+            {
+                "id": "3573355d12a1430250780d653f2488f514048786",
+                "type": "FIX",
+                "text": " Now we get the correct label from annotations for the filter fields where manifest settings are passed without the label property."
+            },
+            {
+                "id": "10f79fd33ff70ef16fa90bdaa4fd3b5a5161391a",
+                "type": "FEATURE",
+                "text": " You can now use the Share as Card option to share the design time cards created by the card generator, if the cards are provided for an object page"
+            },
+            {
+                "id": "39fa1843fefd5decd37749ce39a17d004bfcda27",
+                "type": "FIX",
+                "text": " We’ve resolved an issue related to the execution of actions for multiple entries in a table"
+            },
+            {
+                "id": "deba641b4ebb8508dd2dfd70aa2cb343fad534f8",
+                "type": "FEATURE",
+                "text": " You can now use the useSingleTextAreaFieldAsNotes setting in the manifest to allow end users to choose to hide the label of the single text-area field in a form"
+            },
+            {
+                "id": "d99b4a0a5ab136751697aa3b2b5bdaba05c867fa",
+                "type": "FEATURE",
+                "text": " You can now use the useSingleTextAreaFieldAsNotes setting in the manifest to allow end users to choose to hide the label of the single text-area field in a form"
+            },
+            {
+                "id": "e8add3519d3c927189eb10c03e6870f3adbd6267",
+                "type": "FEATURE",
+                "text": " We now support the @Common.ExternalID annotation for fields that have a technical ID as the key"
+            },
+            {
+                "id": "4e2fc1706ba037175f7212a2d29c633bd0f578d4",
+                "type": "FIX",
+                "text": " In the header of a contact card, we now display round borders for images and icons pertaining to people, otherwise we display square borders"
+            },
+            {
+                "id": "1a2b295ec83bfb7c198272ac0c3477532892a8ce",
+                "type": "FIX",
+                "text": " In the header of a quickview, we now display round borders for images and icons pertaining to people, otherwise we display square borders"
+            },
+            {
+                "id": "da2f4bc3513dd6366af16afcd829c90cfc99d489",
+                "type": "FIX",
+                "text": " We now clear the messageTargetProperty to ensure the navigation works correctly after saving changes on the subobject page"
+            },
+            {
+                "id": "b38e790fffd501fe285132ec87548948880eb67d",
+                "type": "FEATURE",
+                "text": " We now support an experimental feature to dynamically instantiate specific building blocks using controller coding"
+            },
+            {
+                "id": "e91b34d3a7fb0e6da40546bd2bbdb298637d58f7",
+                "type": "FEATURE",
+                "text": " The contact card now shows the contact's availability from Microsoft Teams"
+            },
+            {
+                "id": "1a59f0d1cd400dec43e8e8be44eb089c86b59e1f",
+                "type": "FIX",
+                "text": " We now ensure that only the 'Delete' action is available in the context menu for an empty row"
+            },
+            {
+                "id": "2431188b7ed59d65d5185238c60c9f3ba64c6c1a",
+                "type": "FIX",
+                "text": " We have resolved an issue with row selection in a context-dependent value help dialog with multiple selections"
+            },
+            {
+                "id": "8d41e6f34d69667a4636e9a586a44abcef445462",
+                "type": "FIX",
+                "text": " We now correctly apply the filter for drafts, even when the filter bar is hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370025855"
+                    }
+                ]
+            },
+            {
+                "id": "ef8204d9cb5b92e1098b85a72d94ae61c1b62724",
+                "type": "FIX",
+                "text": " We now ensure that card manifest can be created with deep nested app manifest"
+            },
+            {
+                "id": "468daa3624ae5d75c875618607e6d6e5d3672fde",
+                "type": "FEATURE",
+                "text": " Applications can now dynamically display the ‘Summarize’ button if the prerequisites are fulfilled"
+            },
+            {
+                "id": "335f71cc433710d2ebc0d39f11eadce6df799736",
+                "type": "FIX",
+                "text": " We now ensure that the radial micro chart is rendered without the TargetValue annotation"
+            }
+        ]
+    }
+}

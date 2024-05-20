@@ -1,0 +1,137 @@
+{
+    "1.124.0": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "967154d133785ca089ed56f1adebacbee06987f5",
+                "type": "FEATURE",
+                "text": " We now provide an option to merge the control title and section title for custom sections"
+            },
+            {
+                "id": "0c1a4e5a0ffbfb5bd25d638a18e0a849d33ffe03",
+                "type": "FEATURE",
+                "text": " We now provide a building block for the tree table"
+            },
+            {
+                "id": "75ee4d3813d1e578b265e49de567fc2db5e2a036",
+                "type": "FEATURE",
+                "text": " We have improved the suggestions for recently entered values"
+            },
+            {
+                "id": "a3ad79f2c70a26f6933299358201aec42eb34c22",
+                "type": "FIX",
+                "text": " We now correctly encode URL parameters when navigating away from the quickview popover"
+            },
+            {
+                "id": "ebbe410d778e8ea284b37696e93c19ab40826e96",
+                "type": "FEATURE",
+                "text": " You can now use the manifest to customize the export settings of a column"
+            },
+            {
+                "id": "ec413580b60794ed39aa30c5fac0dab1bd32aea9",
+                "type": "FIX",
+                "text": " The filter bar now works properly with custom filter fields in multi-view mode"
+            },
+            {
+                "id": "5ff6a05273083ff193835bdf3eae902f271f6756",
+                "type": "FEATURE",
+                "text": " We now provide support for consuming design time cards in SAP Collaboration Manager"
+            },
+            {
+                "id": "3573355d12a1430250780d653f2488f514048786",
+                "type": "FIX",
+                "text": " Now we get the correct label from annotations for the filter fields where manifest settings are passed without the label property."
+            },
+            {
+                "id": "10f79fd33ff70ef16fa90bdaa4fd3b5a5161391a",
+                "type": "FEATURE",
+                "text": " You can now use the Share as Card option to share the design time cards created by the card generator, if the cards are provided for an object page"
+            },
+            {
+                "id": "deba641b4ebb8508dd2dfd70aa2cb343fad534f8",
+                "type": "FEATURE",
+                "text": " You can now use the useSingleTextAreaFieldAsNotes setting in the manifest to allow end users to choose to hide the label of the single text-area field in a form"
+            },
+            {
+                "id": "1416b6108e92ca5f29904963ddb2c8a7627d9dc0",
+                "type": "FIX",
+                "text": " In InlineCreationRows mode, we now correctly recreate the empty row after deleting it in a table"
+            },
+            {
+                "id": "d99b4a0a5ab136751697aa3b2b5bdaba05c867fa",
+                "type": "FEATURE",
+                "text": " You can now use the useSingleTextAreaFieldAsNotes setting in the manifest to allow end users to choose to hide the label of the single text-area field in a form"
+            },
+            {
+                "id": "e8add3519d3c927189eb10c03e6870f3adbd6267",
+                "type": "FEATURE",
+                "text": " We now support the @Common.ExternalID annotation for fields that have a technical ID as the key"
+            },
+            {
+                "id": "794316131e1d768b9ffc934a61908cd4a0977a71",
+                "type": "FIX",
+                "text": " We’ve resolved an issue related to a redundant error message popup"
+            },
+            {
+                "id": "0afabd485d5fbea93543b3052f5eab6519583d00",
+                "type": "FIX",
+                "text": " We now support navigation properties also on the nonFilterableProperties list of filter restrictions"
+            },
+            {
+                "id": "d8e20ea849b03ee8698148da7d9c934b6a8648e1",
+                "type": "FIX",
+                "text": " We now correctly manage the exceptions from the shell navigation service while fetching the list of semantic objects from the intents the current user can navigate to"
+            },
+            {
+                "id": "b44d9008652eebeb8791e168784a2210a1c1f8e9",
+                "type": "FIX",
+                "text": " We now show a generic message for actions that fail with strict handling"
+            },
+            {
+                "id": "e91b34d3a7fb0e6da40546bd2bbdb298637d58f7",
+                "type": "FEATURE",
+                "text": " The contact card now shows the contact's availability from Microsoft Teams"
+            },
+            {
+                "id": "1a59f0d1cd400dec43e8e8be44eb089c86b59e1f",
+                "type": "FIX",
+                "text": " We now ensure that only the 'Delete' action is available in the context menu for an empty row"
+            },
+            {
+                "id": "0ccca965244ac1600567c2572e294aa227222cad",
+                "type": "FIX",
+                "text": " We now ensure that the message popover for tables displays the column name that’s associated to the error"
+            },
+            {
+                "id": "398d8d3443d963f11c026465ecf5d3e8ef26cd4b",
+                "type": "FEATURE",
+                "text": " We now support side effects events triggered by the application server"
+            },
+            {
+                "id": "f2bea3f27d2ee717c5aea218eb512c59cef62645",
+                "type": "FEATURE",
+                "text": " You can now use the list report extension API to programmatically update view content and refresh its count"
+            },
+            {
+                "id": "f766dda7c9adc6c3c5e2ab015ce7a1515093b702",
+                "type": "FIX",
+                "text": " Field templating: The relative path is now correctly considered in the binding of editable, required, enabled, and editMode"
+            },
+            {
+                "id": "16f86a054d68dc7142d8bb919c2593fa952d6d6b",
+                "type": "FIX",
+                "text": " We’ve harmonized the naming of custom filters in the flexible programming model explorer"
+            },
+            {
+                "id": "8464a32a780b1d3104467d68b013e708f8441fee",
+                "type": "FIX",
+                "text": " We now correctly manage the page ID parameter in the changePageConfiguration extension point to apply configuration changes that can also be used as a feature toggle"
+            },
+            {
+                "id": "468daa3624ae5d75c875618607e6d6e5d3672fde",
+                "type": "FEATURE",
+                "text": " Applications can now dynamically display the ‘Summarize’ button if the prerequisites are fulfilled"
+            }
+        ]
+    }
+}

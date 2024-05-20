@@ -1,0 +1,88 @@
+{
+    "1.124.0": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "926d70c354303f63ca88e54caf53c85cf5bc5a5c",
+                "type": "FIX",
+                "text": " We now ensure that filter fields removed by adaptation are not visible again when we reload the page"
+            },
+            {
+                "id": "967154d133785ca089ed56f1adebacbee06987f5",
+                "type": "FEATURE",
+                "text": " We now provide an option to merge the control title and section title for custom sections"
+            },
+            {
+                "id": "ebbe410d778e8ea284b37696e93c19ab40826e96",
+                "type": "FEATURE",
+                "text": " You can now use the manifest to customize the export settings of a column"
+            },
+            {
+                "id": "5ff6a05273083ff193835bdf3eae902f271f6756",
+                "type": "FEATURE",
+                "text": " We now provide support for consuming design time cards in SAP Collaboration Manager"
+            },
+            {
+                "id": "3573355d12a1430250780d653f2488f514048786",
+                "type": "FIX",
+                "text": " Now we get the correct label from annotations for the filter fields where manifest settings are passed without the label property."
+            },
+            {
+                "id": "10f79fd33ff70ef16fa90bdaa4fd3b5a5161391a",
+                "type": "FEATURE",
+                "text": " You can now use the Share as Card option to share the design time cards created by the card generator, if the cards are provided for an object page"
+            },
+            {
+                "id": "deba641b4ebb8508dd2dfd70aa2cb343fad534f8",
+                "type": "FEATURE",
+                "text": " You can now use the useSingleTextAreaFieldAsNotes setting in the manifest to allow end users to choose to hide the label of the single text-area field in a form"
+            },
+            {
+                "id": "d99b4a0a5ab136751697aa3b2b5bdaba05c867fa",
+                "type": "FEATURE",
+                "text": " You can now use the useSingleTextAreaFieldAsNotes setting in the manifest to allow end users to choose to hide the label of the single text-area field in a form"
+            },
+            {
+                "id": "1a59f0d1cd400dec43e8e8be44eb089c86b59e1f",
+                "type": "FIX",
+                "text": " We now ensure that only the 'Delete' action is available in the context menu for an empty row"
+            },
+            {
+                "id": "398d8d3443d963f11c026465ecf5d3e8ef26cd4b",
+                "type": "FEATURE",
+                "text": " We now support side effects events triggered by the application server"
+            },
+            {
+                "id": "f2bea3f27d2ee717c5aea218eb512c59cef62645",
+                "type": "FEATURE",
+                "text": " You can now use the list report extension API to programmatically update view content and refresh its count"
+            },
+            {
+                "id": "8d41e6f34d69667a4636e9a586a44abcef445462",
+                "type": "FIX",
+                "text": " We now correctly apply the filter for drafts, even when the filter bar is hidden",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370025855"
+                    }
+                ]
+            },
+            {
+                "id": "6ca74a02b966dffaa1c8a7e00d400b4982a65040",
+                "type": "FEATURE",
+                "text": " App developers can now use SAP Fiori tools in adaptation projects to adapt the object page"
+            },
+            {
+                "id": "16855fee1e39e8313c36a993cd7fa5702420056d",
+                "type": "FIX",
+                "text": " We've resolved an issue with the type-ahead popup that appears automatically upon initial loading"
+            },
+            {
+                "id": "468daa3624ae5d75c875618607e6d6e5d3672fde",
+                "type": "FEATURE",
+                "text": " Applications can now dynamically display the ‘Summarize’ button if the prerequisites are fulfilled"
+            }
+        ]
+    }
+}

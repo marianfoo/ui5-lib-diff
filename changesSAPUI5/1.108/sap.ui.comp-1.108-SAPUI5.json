@@ -1253,5 +1253,37 @@
                 "text": " SmartField: Fixed currency code with TextArrangement"
             }
         ]
+    },
+    "1.108.28": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "6467702408668052599af2a182031f49fc64928e",
+                "type": "FIX",
+                "text": " ValueListProvider: correct uniqueness detection when TextArrangement is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380069973"
+                    }
+                ]
+            },
+            {
+                "id": "dca80a811e436537f9e7ca589657d6cd47d65bef",
+                "type": "FIX",
+                "text": " DateRangeType: Fixed regex after translation change"
+            },
+            {
+                "id": "66e04dc513222e28a4ad4ff55623521e3026a272",
+                "type": "FIX",
+                "text": " FilterBar: Press event of Go button is now correctly fired",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009605902022"
+                    }
+                ]
+            }
+        ]
     }
 }

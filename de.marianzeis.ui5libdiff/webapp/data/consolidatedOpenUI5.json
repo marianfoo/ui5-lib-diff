@@ -7422,6 +7422,68 @@
     ]
   },
   {
+    "version": "1.108.28",
+    "date": "2024.05.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Prevent value DOM update when password type is used"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: Status with icon and text overflows correctly now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SearchField: Suggestions are correctly visualized"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Select: Required label fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RadioButtonGroup: There is no error when destroying and adding radio buttons on select"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Add proper bottom margin for all navigation list items"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.analytics.AnalyticalBinding: sorting grouped columns when autoExpandMode = \"Sequential\""
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: add styling for disabled calendar items"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: adjust header buttons width"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.109.0",
     "date": "2022.11.01",
     "libraries": [
@@ -9466,7 +9528,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.ActionSelect#undefined] undefined"
+            "text": "[sap.m.ActionSelect#undefined] with no replacement. The control is no longer considered part of the Fiori concept."
           },
           {
             "type": "DEPRECATED",
@@ -14889,23 +14951,23 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.P13nColumnsItem#undefined] undefined"
+            "text": "[sap.m.P13nColumnsItem#undefined] replaced by the artifacts in {@link sap.m.p13n}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.P13nDimMeasureItem#undefined] undefined"
+            "text": "[sap.m.P13nDimMeasureItem#undefined] replaced by the artifacts in {@link sap.m.p13n}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.P13nDimMeasurePanel#undefined] undefined"
+            "text": "[sap.m.P13nDimMeasurePanel#undefined] replaced by the artifacts in {@link sap.m.p13n}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.P13nGroupItem#undefined] undefined"
+            "text": "[sap.m.P13nGroupItem#undefined] replaced by the artifacts in {@link sap.m.p13n}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.P13nSortItem#undefined] undefined"
+            "text": "[sap.m.P13nSortItem#undefined] replaced by the artifacts in {@link sap.m.p13n}."
           },
           {
             "type": "DEPRECATED",
@@ -18214,6 +18276,343 @@
           {
             "type": "DEPRECATED",
             "text": "[sap.ui.model.odata.v4.ODataContextBinding#execute] use {@link #invoke} instead"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.124.0",
+    "date": "2024.05.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " FCL: Restore focus same column fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Card with Auto data mode can be reached by keyboard"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: Title alignment"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.ShellBar: New Assistant color added"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: Fix wrongly sized mid column"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " For GenericTile, we've now updated the badge element name to Tileinfo, and also created a new enum TileInfoColor that adds color to the TileInfo element"
+          },
+          {
+            "type": "FEATURE",
+            "text": " We now support snapToRow property that sets the height of the inner controls to 100%"
+          },
+          {
+            "type": "FEATURE",
+            "text": " We've now introduced the badge element that is used within the GenericTile control as a combination of an icon and a text"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.MessageBox: Add new dependentOn option"
+          },
+          {
+            "type": "FEATURE",
+            "text": " We've have now introduced the enableDynamicHeight property for the tiles to expand dynamically when the content inside the tiles expands"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Exception prevented in case of tabular suggestions"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: The toolbar spacer is no longer hidden on phone"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Available items announcement improved"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MultiComboBox: Speech output corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Prevent suggestions popover closing on Enter key"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Prevent value DOM update when password type is used"
+          },
+          {
+            "type": "FIX",
+            "text": " GenericTile: Remove the critical color on the text when the tile is in ActionMode"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MaskInput: remove too descriptive label"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Badge is visible on tab with text and icon - inline mode"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IllustratedMessage: Prevent infinite resize"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Title font-size fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Fix left aligment in Tables"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Slider: Accessibility samples adjusments"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: Inverted status is displayed correctly in Form"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Avatar: Fix image loading of Avatar"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: fix footer buttons visibility when there is not enough space"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.OverflowToolbar: Fix closing Popover with ComboBox"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: ValueStateMessage with FormattedText displays links twice"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePickerClock: fixed time selection when the page is scrolled"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MultiInput: Do not delete tokens on RIGHT arrow navigation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: fix popup rendering"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap-icons-tnt: Fixed wrong icon names"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Test Starter: Support ui5:// URLs for \"page\""
+          },
+          {
+            "type": "FEATURE",
+            "text": " core/UIComponent: Provide internal hook for router class definition"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/base/util/Version: fix type signature of `compareTo` method"
+          },
+          {
+            "type": "FIX",
+            "text": " core/LabelEnablement: getIdForLabel only on sap.ui.core.Control"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.type.Unit/Currency#formatValue: document precedence of maxFractionDigits,scale and decimal places"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.documentation",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Index tree item scrolling tweak"
+          },
+          {
+            "type": "FIX",
+            "text": " DemoKit: ScrollToElement in ApiiRef master-side corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Samples default theme fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Card with Auto data mode can be reached by keyboard"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration cards: Fixed pagination with microcharts"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.HorizontalLayout: adding an accessibility test page"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " FilterField: copy Tokens as key/description pairs"
+          },
+          {
+            "type": "FIX",
+            "text": " MDCTable: Reset via p13n/settings dialog"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: adding an accessibility test page"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: name setters now work properly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: update type info for uploadComplete event"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ObjectPageLayout: Fix lazy loading of data of BlockBases"
+          }
+        ]
+      },
+      {
+        "library": "deprecated",
+        "changes": [
+          {
+            "type": "DEPRECATED",
+            "text": "[module:sap/ui/core/format/TimezoneUtil#undefined] use {@link module:sap/base/i18n/date/TimezoneUtils} instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.P13nConditionPanel#undefined] replaced by the artifacts in {@link sap.m.p13n}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.P13nFilterItem#undefined] replaced by the artifacts in {@link sap.m.p13n}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.P13nFilterPanel.FilterConditionOperations#undefined] replaced by the artifacts in {@link sap.m.p13n}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.P13nFilterPanel#undefined] replaced by the artifacts in {@link sap.m.p13n}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.P13nItem#undefined] replaced by the artifacts in {@link sap.m.p13n}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.P13nOperationsHelper#undefined] replaced by the artifacts provided in {@link sap.m.p13n}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.P13nPanel#undefined] replaced by the artifacts in {@link sap.m.p13n}."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.upload.UploadSetwithTable.ItemInfo#undefined] undefined"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.upload.UploadSetwithTable.itemValidationHandler#undefined] undefined"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.upload.UploadSetwithTableItem#undefined] replaced by {@link sap.m.upload.UploadItem}"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.upload.UploadSetwithTable#undefined] replaced by {@link sap.m.plugins.UploadSetwithTable}"
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.filterbar.vh.CollectiveSearchSelect#undefined] Please use the <code>sap.ui.mdc.valuehelp.CollectiveSearchSelect</code> control instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.filterbar.vh.FilterBar#undefined] Please use the <code>sap.ui.mdc.valuehelp.FilterBar</code> control instead."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.table.Column#destroyCreationTemplate] the concept has been discarded."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.table.Column#getCreationTemplate] the concept has been discarded."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.table.Column#setCreationTemplate] the concept has been discarded."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.Table#destroyCreationRow] the concept has been discarded."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.Table#getCreationRow] the concept has been discarded."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.Table#setCreationRow] the concept has been discarded."
           }
         ]
       }
@@ -70443,7 +70842,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.MultiInput#closeMultiLine] undefined"
+            "text": "[sap.m.MultiInput#closeMultiLine] replaced by N-more/N-items labels."
           },
           {
             "type": "DEPRECATED",
@@ -70451,7 +70850,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.MultiInput#openMultiLine] undefined"
+            "text": "[sap.m.MultiInput#openMultiLine] replaced by N-more/N-items labels."
           },
           {
             "type": "DEPRECATED",
@@ -76136,10 +76535,6 @@
       {
         "library": "deprecated",
         "changes": [
-          {
-            "type": "DEPRECATED",
-            "text": "[sap.ui.core.mvc.View#loaded] Use {@link sap.ui.core.mvc.View.create View.create} instead"
-          },
           {
             "type": "DEPRECATED",
             "text": "[sap.ui.model.odata.ODataAnnotations#undefined] please use {@link sap.ui.model.odata.v2.ODataAnnotations} instead."
@@ -87959,6 +88354,25 @@
     ]
   },
   {
+    "version": "1.84.45",
+    "date": "2024.05.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Prevent value DOM update when password type is used"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RadioButtonGroup: There is no error when destroying and adding radio buttons on select"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.84.12",
     "date": "2021.05.01",
     "libraries": [
@@ -95167,6 +95581,21 @@
           {
             "type": "FIX",
             "text": " sap.m.RadioButtonGroup: There is no error when destroying and adding radio buttons on select"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.96.30",
+    "date": "2024.05.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Prevent value DOM update when password type is used"
           }
         ]
       }
