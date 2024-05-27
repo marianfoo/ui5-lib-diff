@@ -1,0 +1,23 @@
+{
+    "1.108.0": {
+        "date": "October 2022",
+        "notes": [
+            {
+                "id": "I0308ab3cb78fbf73431c0f258d393bfaf94a9fd3",
+                "type": "FEATURE",
+                "text": "We now ignore the 'ResultIsActiveEntity' parameter while invoking the function import action"
+            },
+            {
+                "id": "Icc11769fa79814d3ce2b053aa9700e88af7271d1",
+                "type": "FIX",
+                "text": "We have now fixed the issue with data refresh during the function import action execution",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270131533"
+                    }
+                ]
+            }
+        ]
+    }
+}

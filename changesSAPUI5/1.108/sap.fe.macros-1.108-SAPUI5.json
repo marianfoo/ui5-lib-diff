@@ -1166,5 +1166,26 @@
                 "text": " The Form building block can now have a metaPath that uses 1:1 navigation pointing to a FieldGroup annotation"
             }
         ]
+    },
+    "1.108.23": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "376c848e8f08bffded7bb7b495c9fba2c8d890d6",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where OData service was triggered twice for each sorting event in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370045709"
+                    }
+                ]
+            },
+            {
+                "id": "97035a09019801e086c5e7877b1155ad39721591",
+                "type": "FIX",
+                "text": " We now align the column correctly when the table entity has no key"
+            }
+        ]
     }
 }

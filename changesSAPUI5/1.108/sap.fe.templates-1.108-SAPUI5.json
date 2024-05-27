@@ -545,5 +545,26 @@
                 ]
             }
         ]
+    },
+    "1.108.23": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "26931d147dc80e98d470e0af9caf31864d1352fa",
+                "type": "FIX",
+                "text": " The MessageButton now only displays validation errors for controls with validation errors and back-end errors"
+            },
+            {
+                "id": "376c848e8f08bffded7bb7b495c9fba2c8d890d6",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where OData service was triggered twice for each sorting event in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370045709"
+                    }
+                ]
+            }
+        ]
     }
 }

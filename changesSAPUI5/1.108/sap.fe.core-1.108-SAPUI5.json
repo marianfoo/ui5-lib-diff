@@ -1308,5 +1308,21 @@
                 "text": " We've resolved an issue with the handling of 412 errors when the action is triggered using the chevron"
             }
         ]
+    },
+    "1.108.23": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "376c848e8f08bffded7bb7b495c9fba2c8d890d6",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where OData service was triggered twice for each sorting event in a table",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370045709"
+                    }
+                ]
+            }
+        ]
     }
 }
