@@ -663,9 +663,9 @@
         "Version": "1.121"
     },
     {
-        "id": 161100718,
+        "id": 161100752,
         "deliverable.version": "1.123_SAPUI5",
-        "Description": "Until now, you could only filter the ID column of the smart table. Now, if a column has the <samp class=\"ph codeph\">Common.Text</samp> annotation or the <samp class=\"ph codeph\">sap:text</samp> OData V2 extension, and you open the filter dialog from the column header menu, you get filter fields for both the ID and description columns. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" title=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\">Sample</a>.</span>",
+        "Description": "<ul class=\"ul\" id=\"loio91a4a2f59e444ada8d003369a580f61d__d123e213\">  <li class=\"li\">  <p class=\"p\">If you want to hide a property from the table but not from the remaining UI (for example, if you still want to filter for this property), you can use the <samp class=\"ph codeph\">com.sap.vocabularies.UI.v1.Hidden</samp> annotation. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.m.p13n.Engine\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.m.p13n.Engine\" title=\"https://ui5.sap.com/#/api/sap.m.p13n.Engine\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" title=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\">Sample</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">To provide the reason why a variant has been applied, for example, for the update of the application status, we have introduced a new <samp class=\"ph codeph\">variantContext</samp> parameter for the <samp class=\"ph codeph\">afterVariantApply</samp> event. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\" title=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\">API Reference</a>. </span></p>  </li>  </ul>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.comp.smarttable.SmartTable</samp></span>",
         "Latest_Revision": "",
@@ -676,9 +676,9 @@
         "Version": "1.121"
     },
     {
-        "id": 161100752,
+        "id": 161100718,
         "deliverable.version": "1.123_SAPUI5",
-        "Description": "<ul class=\"ul\" id=\"loio91a4a2f59e444ada8d003369a580f61d__d123e213\">  <li class=\"li\">  <p class=\"p\">If you want to hide a property from the table but not from the remaining UI (for example, if you still want to filter for this property), you can use the <samp class=\"ph codeph\">com.sap.vocabularies.UI.v1.Hidden</samp> annotation. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.m.p13n.Engine\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.m.p13n.Engine\" title=\"https://ui5.sap.com/#/api/sap.m.p13n.Engine\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" title=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\">Sample</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">To provide the reason why a variant has been applied, for example, for the update of the application status, we have introduced a new <samp class=\"ph codeph\">variantContext</samp> parameter for the <samp class=\"ph codeph\">afterVariantApply</samp> event. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\" title=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\">API Reference</a>. </span></p>  </li>  </ul>",
+        "Description": "Until now, you could only filter the ID column of the smart table. Now, if a column has the <samp class=\"ph codeph\">Common.Text</samp> annotation or the <samp class=\"ph codeph\">sap:text</samp> OData V2 extension, and you open the filter dialog from the column header menu, you get filter fields for both the ID and description columns. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" title=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\">Sample</a>.</span>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.comp.smarttable.SmartTable</samp></span>",
         "Latest_Revision": "",
@@ -3068,9 +3068,9 @@
         "Version": "1.111"
     },
     {
-        "id": 161100920,
+        "id": 161100921,
         "deliverable.version": "1.123_SAPUI5",
-        "Description": "We have implemented a new <samp class=\"ph codeph\">calendarWeekNumbering</samp> property in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp>. Using this property, you can set predefined settings to the control about week numbering and the first day of the week. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" title=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\">API Reference</a>.</span>",
+        "Description": "We have implemented new options in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp> control for <samp class=\"ph codeph\">Minutes</samp>, <samp class=\"ph codeph\">Last Hours</samp>, <samp class=\"ph codeph\">Next Minutes</samp> and <samp class=\"ph codeph\">Next Hours</samp>. Using these options, you can select smaller time frames. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" title=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\">API Reference</a>.</span>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.m.DynamicDateRange</samp></span>",
         "Latest_Revision": "",
@@ -3081,9 +3081,9 @@
         "Version": "1.111"
     },
     {
-        "id": 161100921,
+        "id": 161100920,
         "deliverable.version": "1.123_SAPUI5",
-        "Description": "We have implemented new options in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp> control for <samp class=\"ph codeph\">Minutes</samp>, <samp class=\"ph codeph\">Last Hours</samp>, <samp class=\"ph codeph\">Next Minutes</samp> and <samp class=\"ph codeph\">Next Hours</samp>. Using these options, you can select smaller time frames. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" title=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\">API Reference</a>.</span>",
+        "Description": "We have implemented a new <samp class=\"ph codeph\">calendarWeekNumbering</samp> property in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp>. Using this property, you can set predefined settings to the control about week numbering and the first day of the week. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" title=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\">API Reference</a>.</span>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.m.DynamicDateRange</samp></span>",
         "Latest_Revision": "",
@@ -9750,11 +9750,11 @@
         "Version": "1.76"
     },
     {
-        "id": 161101434,
+        "id": 161101435,
         "deliverable.version": "1.123_SAPUI5",
-        "Description": "<ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_zy4_yjf_blb\">  <li class=\"li\">  <p class=\"p\">New indication colors are now available (provided by the <samp class=\"ph codeph\">sap.ui.core.IndicationColor</samp> enumeration) that can be used for highlighting table rows. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" title=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\">API Reference</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">The resizing of columns has been changed to improve the usability on tablet devices.</p>  </li>  </ul>",
+        "Description": "<p class=\"p\"><samp class=\"ph codeph\">sap.ui.table.plugins.MultiSelectionPlugin</samp> for these tables has been enhanced and now provides the following functions:</p>  <ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_ns4_pdd_1lb\">  <li class=\"li\">  <p class=\"p\">The selection of indices outside of data boundaries is now no longer possible, because the binding length is taken into account.</p>  </li>  <li class=\"li\">  <p class=\"p\">A validation takes place to prevent errors from occurring due to the selection of unsuitable parameters.</p>  </li>  <li class=\"li\">  <p class=\"p\">Methods that change the selection now return a <samp class=\"ph codeph\">Promise</samp> that is resolved after a selection has been made.</p>  </li>  <li class=\"li\">  <p class=\"p\">A <samp class=\"ph codeph\">customPayload</samp> parameter has been added to the <samp class=\"ph codeph\">selectionChange</samp> event to allow event listeners to make use of custom event data.</p>  </li>  </ul>  <p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\">Sample</a>.</p>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table</samp>, <samp class=\"ph codeph\">sap.ui.table.TreeTable</samp></span>",
+        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table, sap.ui.table.TreeTable</samp></span>",
         "Latest_Revision": "",
         "Valid_as_Of": "2020-03-26",
         "Type": "Changed",
@@ -9763,11 +9763,11 @@
         "Version": "1.76"
     },
     {
-        "id": 161101435,
+        "id": 161101434,
         "deliverable.version": "1.123_SAPUI5",
-        "Description": "<p class=\"p\"><samp class=\"ph codeph\">sap.ui.table.plugins.MultiSelectionPlugin</samp> for these tables has been enhanced and now provides the following functions:</p>  <ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_ns4_pdd_1lb\">  <li class=\"li\">  <p class=\"p\">The selection of indices outside of data boundaries is now no longer possible, because the binding length is taken into account.</p>  </li>  <li class=\"li\">  <p class=\"p\">A validation takes place to prevent errors from occurring due to the selection of unsuitable parameters.</p>  </li>  <li class=\"li\">  <p class=\"p\">Methods that change the selection now return a <samp class=\"ph codeph\">Promise</samp> that is resolved after a selection has been made.</p>  </li>  <li class=\"li\">  <p class=\"p\">A <samp class=\"ph codeph\">customPayload</samp> parameter has been added to the <samp class=\"ph codeph\">selectionChange</samp> event to allow event listeners to make use of custom event data.</p>  </li>  </ul>  <p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\" title=\"https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin\">Sample</a>.</p>",
+        "Description": "<ul class=\"ul\" id=\"loioaad03b5942bf4be481698ecf43ec295c__ul_zy4_yjf_blb\">  <li class=\"li\">  <p class=\"p\">New indication colors are now available (provided by the <samp class=\"ph codeph\">sap.ui.core.IndicationColor</samp> enumeration) that can be used for highlighting table rows. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\" title=\"https://ui5.sap.com/#/api/sap.ui.core.IndicationColor\">API Reference</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">The resizing of columns has been changed to improve the usability on tablet devices.</p>  </li>  </ul>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table, sap.ui.table.TreeTable</samp></span>",
+        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.table.AnalyticalTable</samp>, <samp class=\"ph codeph\">sap.ui.table.Table</samp>, <samp class=\"ph codeph\">sap.ui.table.TreeTable</samp></span>",
         "Latest_Revision": "",
         "Valid_as_Of": "2020-03-26",
         "Type": "Changed",
@@ -14716,19 +14716,6 @@
         "Version": "1.56"
     },
     {
-        "id": 161101884,
-        "deliverable.version": "1.123_SAPUI5",
-        "Description": "<p class=\"p\">The Support Assistant now allows you to import and export your rule selection. This helps you when you want to perform more than one analysis with the same subset of selected rules. The selection is exported as a <samp class=\"ph codeph\">.json</samp> file with a title and description of your choice. You can then import this file and load it whenever you want to execute the same rules in another analysis.</p><img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_wg1_frp_gpb\" src=\"loio916079a1321e478498c896d0ce325591_HiRes.png\"></img><p class=\"p\">For more information, see <a class=\"xref\" href=\"3fc864acf926406194744375aa464fe7.html\" title=\"The user interface of the Support Assistant lets you choose which rules you can load for a library. It also allows you to organize your Rules view according to your preference and to import and export predefined rule selections.\">Rules Management</a>.</p>",
-        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\">Support Assistant</span>",
-        "Latest_Revision": "",
-        "Valid_as_Of": "2018-08-02",
-        "Type": "New",
-        "Action": "Info Only",
-        "Category": "Feature",
-        "Version": "1.56"
-    },
-    {
         "id": 161101888,
         "deliverable.version": "1.123_SAPUI5",
         "Description": "<ul class=\"ul\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__ul_v1x_kfl_ndb\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.support.ExecutionScope.getElements</samp> has a new parameter <samp class=\"ph codeph\">cloned</samp>. It allows users of the Support Assistant to filter out elements that are clones of list bindings. Now the results will include only the representative clone. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\" title=\"https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary\">API Reference</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">A <span class=\"ph uicontrol\">Filter</span> view showing the currently applied filter has been added to the <span class=\"ph uicontrol\">Issues</span> view of the Support Assistant. The <span class=\"ph uicontrol\">Clear Filtering</span> button (<img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_vkt_vmd_5db\" src=\"loio4a0cf3bc3f7244549cf95901077aa6ae_HiRes.png\"></img>) has moved to the <span class=\"ph uicontrol\">Filter</span> view. It is active only when there is a filter selected.</p>  </li>  <li class=\"li\">  <p class=\"p\">An explanatory note has been added to the <span class=\"ph uicontrol\">Additional Rulesets</span> view under the header to give more clarity about the function of these rulesets and why they are in a separate tab.</p>  </li>  <li class=\"li\">  <p class=\"p\">The <span class=\"ph uicontrol\">Report</span> button is now fixed to the panel to be always visible and not to get into the overflow.</p>  </li>  <li class=\"li\">  <p class=\"p\">The font sizes are aligned across all three views for consistency.</p>  </li>  <li class=\"li\">  <p class=\"p\">In the <span class=\"ph uicontrol\">Issues</span> view the number of issues is only highlighted when there are issues of medium and high severity. This improvement helps to easily see the distribution of the issues by severity.</p>  </li>  </ul><img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_hvs_lth_4db\" src=\"loio88301172a39245bbb35f0d5abbc26646_HiRes.png\"></img>",
@@ -14737,6 +14724,19 @@
         "Latest_Revision": "",
         "Valid_as_Of": "2018-08-02",
         "Type": "Changed",
+        "Action": "Info Only",
+        "Category": "Feature",
+        "Version": "1.56"
+    },
+    {
+        "id": 161101884,
+        "deliverable.version": "1.123_SAPUI5",
+        "Description": "<p class=\"p\">The Support Assistant now allows you to import and export your rule selection. This helps you when you want to perform more than one analysis with the same subset of selected rules. The selection is exported as a <samp class=\"ph codeph\">.json</samp> file with a title and description of your choice. You can then import this file and load it whenever you want to execute the same rules in another analysis.</p><img class=\"inline\" id=\"loio108b7fde0df740258e8dc93f4f857eb5__image_wg1_frp_gpb\" src=\"loio916079a1321e478498c896d0ce325591_HiRes.png\"></img><p class=\"p\">For more information, see <a class=\"xref\" href=\"3fc864acf926406194744375aa464fe7.html\" title=\"The user interface of the Support Assistant lets you choose which rules you can load for a library. It also allows you to organize your Rules view according to your preference and to import and export predefined rule selections.\">Rules Management</a>.</p>",
+        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
+        "Title": "<span class=\"ph emphasis emphasis\">Support Assistant</span>",
+        "Latest_Revision": "",
+        "Valid_as_Of": "2018-08-02",
+        "Type": "New",
         "Action": "Info Only",
         "Category": "Feature",
         "Version": "1.56"

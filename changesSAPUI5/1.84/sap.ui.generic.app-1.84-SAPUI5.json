@@ -1,0 +1,65 @@
+{
+    "1.84.0": {
+        "date": "November 2020",
+        "notes": [
+            {
+                "id": "If8fc11cf8fe857b93634748b6c36fab6f6ccbf17",
+                "type": "FEATURE",
+                "text": "We are now showing a meaningful message in case of e-tag mismatch"
+            },
+            {
+                "id": "If8630c6bef6e5ef0d35f89ad3221dc7e942f3697",
+                "type": "FEATURE",
+                "text": "We've now introduced the new OData syntax <String> for TargetProperties for the side effect annotations"
+            },
+            {
+                "id": "I44a17585a1d909dc3fe1c3f8dbbd8a33a22f1df3",
+                "type": "FEATURE",
+                "text": "We now club the edit request and the header data request in one batch to avoid an additional sequential batch"
+            },
+            {
+                "id": "I835cbd8be226a4c363501738840290ef75814fb3",
+                "type": "FEATURE",
+                "text": "We've now removed the code logic related to the SideEffectTypes as it is deprecated"
+            }
+        ]
+    },
+    "1.84.1": {
+        "date": "November 2020",
+        "notes": [
+            {
+                "id": "Ie53a2e981998a630defc9ba529d32811e21a1a5d",
+                "type": "FIX",
+                "text": "We've now fixed the issue of same E-Tag that was occurring in case of multiselct function import",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070444890"
+                    }
+                ]
+            },
+            {
+                "id": "I251678e86ba06147f22bd88b142bca056ad8b810",
+                "type": "FIX",
+                "text": "We now provide support for Preparation Action during side effect execution",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070489214"
+                    }
+                ]
+            },
+            {
+                "id": "I9d8e8c13997235385a12c4837df5514ab9f5fb94",
+                "type": "FIX",
+                "text": "We are now supporting the side effects that are annotated without effect type",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2080435998"
+                    }
+                ]
+            }
+        ]
+    }
+}
