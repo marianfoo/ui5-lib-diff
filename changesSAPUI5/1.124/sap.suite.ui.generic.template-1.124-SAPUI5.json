@@ -1,0 +1,93 @@
+{
+    "1.124.0": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "I196017588e28f844d36727084836f5dffb7f8f3a",
+                "type": "FEATURE",
+                "text": "We've now introduced contact quick view cards within the list report, object page, and analytical list report, for Microsoft integration"
+            },
+            {
+                "id": "Id12d6d3a7b8d5f045917db77d1074649b4e20fcb",
+                "type": "FEATURE",
+                "text": "Sharing a designtime card is now possible using Microsoft Teams"
+            },
+            {
+                "id": "I56ae00067f6fe496be469ceb44eef42dc75886bd",
+                "type": "FEATURE",
+                "text": "We've now enabled context menu for the analytical list page"
+            },
+            {
+                "id": "I86569f10362d21028b51649ca348c6b1166a6bb5",
+                "type": "FEATURE",
+                "text": "We now show or hide the inline creation row based on the change in the creatable path value"
+            },
+            {
+                "id": "I73f30d8dbb364e4fb21e3848a318f103f9cc2470",
+                "type": "FIX",
+                "text": "We now show or hide the inline creation row based on the change in the creatable path value",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0085196"
+                    }
+                ]
+            },
+            {
+                "id": "I23b789a798867fb60826073e06eea923d46e6a71",
+                "type": "FIX",
+                "text": "We have adapted the FE code to handle the hostname related changes in the response sent from gateway",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0095217"
+                    }
+                ]
+            },
+            {
+                "id": "I7253fe0b49c6545e6e2f8e4516b27df1288e2251",
+                "type": "FIX",
+                "text": "We now ensure that additional columns are not displayed on non pastable columns",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0111983"
+                    }
+                ]
+            },
+            {
+                "id": "I48eb681d33248b345a02a50f2c33893fb64606cc",
+                "type": "FIX",
+                "text": "We've now fixed the error that was breaking the code due to the presence of an additional comma in the width property of AnalyticalColumn",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0119402"
+                    }
+                ]
+            },
+            {
+                "id": "I8170ebd6f7619c35b57d6453129efba75e213f04",
+                "type": "FIX",
+                "text": "Consume getCustomColumns() to find out custom columns",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370090256"
+                    }
+                ]
+            },
+            {
+                "id": "Iea8f435c9f2a00324cb8ca7ce80cd208336d30c2",
+                "type": "FIX",
+                "text": "We have fixed the issue with the unexpected variant management that was appearing in the object page header due to side effect related change",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0125655"
+                    }
+                ]
+            }
+        ]
+    }
+}

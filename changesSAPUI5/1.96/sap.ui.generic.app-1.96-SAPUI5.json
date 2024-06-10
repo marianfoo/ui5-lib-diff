@@ -1,0 +1,23 @@
+{
+    "1.96.0": {
+        "date": "October 2021",
+        "notes": [
+            {
+                "id": "Id0fd474a1be393a49bc1fd20eccfd50e7eb52fa2",
+                "type": "FEATURE",
+                "text": "For the list report and object page, we now provide support for Common.DefaultValuesFunction function imports"
+            },
+            {
+                "id": "I1ce50ad939e15c9a0354aff9810c5e20ea277b3f",
+                "type": "FIX",
+                "text": "We now check the key property only for the function import action with context",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170188926"
+                    }
+                ]
+            }
+        ]
+    }
+}

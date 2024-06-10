@@ -454,5 +454,25 @@
                 "text": " FilterController: Custom controls are no longer propagated from SmartFilterBar"
             }
         ]
+    },
+    "1.120.16": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "c00b5443d5713083ad3ff953be90e90ce9b61611",
+                "type": "FIX",
+                "text": " SmartField: change event now provides correct value when constraints are violated"
+            },
+            {
+                "id": "0aa20506a9b9108bd17f10f7d0debe323567dd4e",
+                "type": "FIX",
+                "text": " Personalization: column freeze no longer blocks settings dialog"
+            },
+            {
+                "id": "34d995404ece60627acdcb91b072f67e690ca186",
+                "type": "FIX",
+                "text": " DateRangeType: Fixed when don't have json on initialize"
+            }
+        ]
     }
 }

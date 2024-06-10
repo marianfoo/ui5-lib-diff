@@ -297,5 +297,25 @@
                 "text": " We now ensure that the message popover is no longer shown in display mode for messages added using the table API addMessages"
             }
         ]
+    },
+    "1.120.11": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "183c39736fa35ff35c880766b7e9d7d9ebf112bc",
+                "type": "FIX",
+                "text": " We now display SAP Fiori launchpad when a user discards a draft by navigating back using the shell button if the object page is the first entry in the browser history"
+            },
+            {
+                "id": "97f719fac6062cae0b455137ea173617de63b03c",
+                "type": "FIX",
+                "text": " The MessageButton now only displays validation errors for controls with validation errors and back-end errors"
+            },
+            {
+                "id": "928b276122fd83eee68cfe497fdef5bd824876dc",
+                "type": "FIX",
+                "text": " We now ensure that the list report properties for multiple views annotated using UI.SelectionFields are available among other filter bar properties"
+            }
+        ]
     }
 }

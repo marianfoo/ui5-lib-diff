@@ -575,5 +575,20 @@
                 "text": " We now ensure that the TimePicker is shown for FilterFields of type Edm.TimeOfDay"
             }
         ]
+    },
+    "1.120.11": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "97f719fac6062cae0b455137ea173617de63b03c",
+                "type": "FIX",
+                "text": " The MessageButton now only displays validation errors for controls with validation errors and back-end errors"
+            },
+            {
+                "id": "fdfc58579c74fddaa4e28aff772639fedf9d7594",
+                "type": "FIX",
+                "text": " We now convert the select options of the value help from the source app to the correct filter conditions in the target app"
+            }
+        ]
     }
 }

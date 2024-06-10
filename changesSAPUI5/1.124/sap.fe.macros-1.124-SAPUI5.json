@@ -139,5 +139,55 @@
                 "text": " We now ensure that the radial micro chart is rendered without the TargetValue annotation"
             }
         ]
+    },
+    "1.124.1": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "5ef61cd64cd24b9d9197c941ea46025050d6e579",
+                "type": "FIX",
+                "text": " We now ensure that the MultiValue fields don't create additional requests in display mode"
+            },
+            {
+                "id": "d54106e69eaa59d7097aceaf4ce14621945d7a5c",
+                "type": "FIX",
+                "text": " Value is now marked as selected in value help on the list report"
+            },
+            {
+                "id": "c26e4eb7cf4cdec5d8e6828a520a16b1b431da5d",
+                "type": "FIX",
+                "text": " We’ve reduced the number of API calls to improve the performance when loading a quick view"
+            },
+            {
+                "id": "de703865e6361c9bc0bd6d3a015ec94e9317837e",
+                "type": "FIX",
+                "text": " We've now fixed an issue that occurred while navigating from a quick view to another app, where the semantic object mappings are not applied"
+            },
+            {
+                "id": "949783dbab272e8e4e031c00b1bb3784175e8105",
+                "type": "FIX",
+                "text": " You can now clear the field values of non-string fields using the mass edit dialog"
+            },
+            {
+                "id": "4eb032aa71e6e2f02e0e414093845fdd10fcf869",
+                "type": "FIX",
+                "text": " We now ensure that the value help of MultiValue fields in action parameter dialogs works correctly"
+            },
+            {
+                "id": "f4879fdcfd7a40e99c46171c616c53328914c3ca",
+                "type": "FIX",
+                "text": " The MessageButton now only displays validation errors for controls with validation errors and back-end errors"
+            },
+            {
+                "id": "b3746908f9c72ed8e19da6118324ce73ddb3a6cc",
+                "type": "FIX",
+                "text": " SideEffects network requests applied on structural changes like create and delete, that rely on the MuliValueField, are now performed in the correct sequence"
+            },
+            {
+                "id": "ea9f3d51dd6204d43aaac3df7a56d31a9e715eac",
+                "type": "FIX",
+                "text": " We've resolved an issue with the DateTime format for default values when merging it with the startup parameter"
+            }
+        ]
     }
 }

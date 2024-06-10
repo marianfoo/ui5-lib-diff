@@ -15997,6 +15997,38 @@
     ]
   },
   {
+    "version": "1.120.16",
+    "date": "2024.06.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": "sap.m.SinglePlanningCalendar: Selection event is fired only once"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectMarker: focus visible in sap.ui.table.Table"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.type.(Currency|Unit): use amount scale default 0 instead of currency's or unit's decimal places"
+          },
+          {
+            "type": "FIX",
+            "text": " Add sap-system to OData V4 service URLs"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.8",
     "date": "2024.02.01",
     "libraries": [
@@ -18613,6 +18645,69 @@
           {
             "type": "DEPRECATED",
             "text": "[sap.ui.mdc.Table#setCreationRow] the concept has been discarded."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.124.1",
+    "date": "2024.06.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Card: dataTimestamp added to ariaLabbeledby"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Value is not cleared on invalidation when type password is used"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: The cellPress event is fired correctly"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/UIComponent: Fix access to routing config"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.type.(Currency|Unit): use amount scale default 0 instead of currency's or unit's decimal places"
+          },
+          {
+            "type": "FIX",
+            "text": " Add sap-system to OData V4 service URLs"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Card: dataTimestamp added to ariaLabbeledby"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " UploadSetwithTable: Set correct path definition for sap.m.Link"
           }
         ]
       }
@@ -95596,6 +95691,34 @@
           {
             "type": "FIX",
             "text": " sap.m.Input: Prevent value DOM update when password type is used"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.96.31",
+    "date": "2024.06.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Value is not cleared on invalidation when type password is used"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MultiComboBox: List remains filtered after selection"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: recache elements on setter usage"
           }
         ]
       }

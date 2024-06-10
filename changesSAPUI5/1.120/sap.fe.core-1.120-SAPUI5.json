@@ -788,5 +788,25 @@
                 "text": " We now correctly manage the page ID parameter in the changePageConfiguration extension point to apply configuration changes that can also be used as a feature toggle"
             }
         ]
+    },
+    "1.120.11": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "78bca9ec2a7836adb9271bc54b4d06d7d214520d",
+                "type": "FIX",
+                "text": " We now ensure that the Discard Draft popup works correctly when navigating away from a subobject page"
+            },
+            {
+                "id": "f90553d708b39e5bf8ca74e433850eb6e26762d3",
+                "type": "FIX",
+                "text": " We now ensure that integer type fields can be used in mass edit scenario from SAP UI5 version 1.120"
+            },
+            {
+                "id": "928b276122fd83eee68cfe497fdef5bd824876dc",
+                "type": "FIX",
+                "text": " We now ensure that the list report properties for multiple views annotated using UI.SelectionFields are available among other filter bar properties"
+            }
+        ]
     }
 }

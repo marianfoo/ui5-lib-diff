@@ -133,5 +133,25 @@
                 "text": " Applications can now dynamically display the ‘Summarize’ button if the prerequisites are fulfilled"
             }
         ]
+    },
+    "1.124.1": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "1e3c83e26355b9a4627a98e17229c721031fe91c",
+                "type": "FIX",
+                "text": " We now ensure that the Discard Draft popup works correctly when navigating away from a subobject page"
+            },
+            {
+                "id": "a09277644f9cb426b66b36c997bf8976cf8360fa",
+                "type": "FIX",
+                "text": " We now ensure that the criticality remains correct after the creation of a new entity, by ensuring the update event is always triggered"
+            },
+            {
+                "id": "8e2eabe80215d3be60199f3a6bb5575c9fc54c1c",
+                "type": "FIX",
+                "text": " You can now correctly navigate between newly created items in sticky mode"
+            }
+        ]
     }
 }
