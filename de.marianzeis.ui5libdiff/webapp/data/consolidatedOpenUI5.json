@@ -7484,6 +7484,59 @@
     ]
   },
   {
+    "version": "1.108.30",
+    "date": "2024.06.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Value is not cleared on invalidation when type password is used"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: Back type button has correct hover colour"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Select: Required label fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.util.LibraryInfo: Loosen baseUrl regex check"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/.library: Remove wrong component for sap/ui/core/util/MockServer"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.performance.XHRInterceptor: Fix CORS check"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.DateFormat.qunit: Fix flaky tests"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " mdc.FilterBar: enhance check for wrong values of filter fields"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.109.0",
     "date": "2022.11.01",
     "libraries": [
