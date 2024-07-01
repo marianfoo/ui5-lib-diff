@@ -1,0 +1,87 @@
+{
+    "1.125.0": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "6909b7808e3c0b70fdba691e488141dfc8dfe539",
+                "type": "FEATURE",
+                "text": " The MultiValueField binding to a JSON model is now publicly available"
+            },
+            {
+                "id": "d527760e0ca5df31f535e5cef2151ab23cb8b0bc",
+                "type": "FIX",
+                "text": " We’ve reduced the number of API calls to improve the performance when loading a quick view"
+            },
+            {
+                "id": "984352074d0ceff5aece4e2ae993a197dde7f661",
+                "type": "FIX",
+                "text": " You can now clear the field values of non-string fields using the mass edit dialog"
+            },
+            {
+                "id": "f3f1109d0008efd9a0f170385f7589eb15b03230",
+                "type": "FIX",
+                "text": " We now ensure that the ValueListParameterOut annotation works correctly also when it is used as the description of the value help’s field"
+            },
+            {
+                "id": "0d1084782d9d246a10023c8b1685b642e6acc1e1",
+                "type": "FIX",
+                "text": " We’ve resolved an issue with adding filter fields as a variant or flex change"
+            },
+            {
+                "id": "01dd973eafdcc157c7fe6e95295159a564ceefab",
+                "type": "FIX",
+                "text": " We now ensure that the value help of MultiValue fields in action parameter dialogs works correctly"
+            },
+            {
+                "id": "1d21ce84cba3472af1097c82f2fad6c3f981965d",
+                "type": "FIX",
+                "text": " The MessageButton now only displays validation errors for controls with validation errors and back-end errors"
+            },
+            {
+                "id": "4c9da30259caed5c669f4ab268712e0c4598f755",
+                "type": "FIX",
+                "text": " SideEffects network requests applied on structural changes like create and delete, that rely on the MuliValueField, are now performed in the correct sequence"
+            },
+            {
+                "id": "e57bd7fd4edfd7854a1311efd3e9300590a17b9e",
+                "type": "FIX",
+                "text": " We've resolved an issue with the DateTime format for default values when merging it with the startup parameter"
+            },
+            {
+                "id": "82af7d940b8468417e75dab8833685b50e00c5da",
+                "type": "FIX",
+                "text": " We now ensure that a value help with a typeahead opens without errors."
+            },
+            {
+                "id": "6c13fe7a50ab789bf6f6455f0fdfc5cb34a43080",
+                "type": "FIX",
+                "text": " We now ensure that the width of the typeahead table is changed when window is resized"
+            },
+            {
+                "id": "657110280555fe236780e3ce57bb8c87d4b4946c",
+                "type": "FIX",
+                "text": " We now ensure that reading from undefined conditions is avoided in the type-ahead functionality of the value help"
+            },
+            {
+                "id": "74bf20d33dd47425e173fc4a85d80bde841dc3e9",
+                "type": "FIX",
+                "text": " We now ensure that BindindInfo filters are properly set"
+            },
+            {
+                "id": "646eaa81db3241e67482a4eea9dd12c1cd789814",
+                "type": "FIX",
+                "text": " We've now fixed an issue that occurred while navigating from a quick view to another app, where the semantic object mappings are not applied"
+            },
+            {
+                "id": "dc44c448b5a85f27a599df79771bcb7253b2b15d",
+                "type": "FIX",
+                "text": " We now ensure that the TimePicker is shown for FilterFields of type Edm.TimeOfDay"
+            },
+            {
+                "id": "1d72196ed43ca55b0c20c12c99b4348ad8a8872c",
+                "type": "FIX",
+                "text": " We now clear the selection in a table after applying a search or a filter, except for responsive tables"
+            }
+        ]
+    }
+}

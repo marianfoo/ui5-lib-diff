@@ -1,0 +1,77 @@
+{
+    "1.125.0": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "6909b7808e3c0b70fdba691e488141dfc8dfe539",
+                "type": "FEATURE",
+                "text": " The MultiValueField binding to a JSON model is now publicly available"
+            },
+            {
+                "id": "d1ce515b34709c54d26577617edb14b667cbe7b5",
+                "type": "FIX",
+                "text": " We now ensure that the criticality remains correct after the creation of a new entity, by ensuring the update event is always triggered"
+            },
+            {
+                "id": "48d91970c0da07d2cf6a3ada2a767ddee563c5a8",
+                "type": "FIX",
+                "text": " We now ensure that the Discard Draft popup works correctly when navigating away from a subobject page"
+            },
+            {
+                "id": "cc465a75722949b9f3ab0223b52c44ad3445f151",
+                "type": "FIX",
+                "text": " We now correctly encode the hash used for email URLs"
+            },
+            {
+                "id": "5d0e0995db14e2ecf015369bccc7b25c1067b050",
+                "type": "FIX",
+                "text": " We now ensure a state check for empty rows with duplicate IDs is added"
+            },
+            {
+                "id": "0d1084782d9d246a10023c8b1685b642e6acc1e1",
+                "type": "FIX",
+                "text": " We’ve resolved an issue with adding filter fields as a variant or flex change"
+            },
+            {
+                "id": "8120cfcf39264bdc6a24ce84f6b18361dafb5660",
+                "type": "FIX",
+                "text": " You can now overwrite localization messages for Save and Create actions"
+            },
+            {
+                "id": "feea89e9f04072bd3a0dfe92ae5df37343fbe5ff",
+                "type": "FIX",
+                "text": " We now show the generic message for actions that fail with strict handling with the action name"
+            },
+            {
+                "id": "01e77b0970c58b19b41ffc89d31f3449bbe93fbd",
+                "type": "FIX",
+                "text": " You can now correctly navigate between newly created items in sticky mode"
+            },
+            {
+                "id": "12cac3d4d589be2e1127893ecd1ff1598ea3d79c",
+                "type": "FIX",
+                "text": " We now ensure sorting of columns using navigation properties is done correctly"
+            },
+            {
+                "id": "b45b50d708abd40849a6acc03252f208139b9916",
+                "type": "FIX",
+                "text": " We now ensure that page navigation still works in apps using the flexible column layout after navigating to another application"
+            },
+            {
+                "id": "b468ea5bc70766db4223416141b7c34fb3b1ecab",
+                "type": "FIX",
+                "text": " We now show recent values in the correct order according to the values in the filter field, with the latest at the top"
+            },
+            {
+                "id": "ec619e3a2bebfec33b6df52dc1d7b72856737a5b",
+                "type": "FIX",
+                "text": " We now ensure that semantic object mappings are correctly applied when navigating from a DataFieldForIntentBasedNavigation using a button"
+            },
+            {
+                "id": "1d72196ed43ca55b0c20c12c99b4348ad8a8872c",
+                "type": "FIX",
+                "text": " We now clear the selection in a table after applying a search or a filter, except for responsive tables"
+            }
+        ]
+    }
+}

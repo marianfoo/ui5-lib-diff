@@ -1,0 +1,37 @@
+{
+    "1.125.0": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "9fea7a39eb5cb7cf0d5c6f6d53c26cc4ab89db9b",
+                "type": "FIX",
+                "text": " We now disable the 'Delete' shortcut when the Delete button is not visible"
+            },
+            {
+                "id": "6eb9e30b6dcf5dbc9b00d773c4d35556bc26f673",
+                "type": "FIX",
+                "text": " We now display SAP Fiori launchpad when a user discards a draft by navigating back using the shell button if the object page is the first entry in the browser history"
+            },
+            {
+                "id": "0d1084782d9d246a10023c8b1685b642e6acc1e1",
+                "type": "FIX",
+                "text": " We’ve resolved an issue with adding filter fields as a variant or flex change"
+            },
+            {
+                "id": "1d21ce84cba3472af1097c82f2fad6c3f981965d",
+                "type": "FIX",
+                "text": " The MessageButton now only displays validation errors for controls with validation errors and back-end errors"
+            },
+            {
+                "id": "782803789a36ff3c6b8841c21d9fa1263107749b",
+                "type": "FEATURE",
+                "text": " We now provide a keyboard shortcut to return to the error list while editing the object page"
+            },
+            {
+                "id": "7abc281b516de1d80a4f46a7b7e2853e47141ce7",
+                "type": "FIX",
+                "text": " We now ensure that the message popover is no longer shown in display mode for messages added using the table API addMessages"
+            }
+        ]
+    }
+}
