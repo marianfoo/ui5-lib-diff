@@ -808,5 +808,25 @@
                 "text": " We now ensure that the list report properties for multiple views annotated using UI.SelectionFields are available among other filter bar properties"
             }
         ]
+    },
+    "1.120.12": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "6d5adba94693599fccd980779f3255531f0e97cf",
+                "type": "FIX",
+                "text": " When applying the iAppState, we now wait until the object page is ready and then set the selected section"
+            },
+            {
+                "id": "781a95211973e8bed098f310283eb88061cd817f",
+                "type": "FIX",
+                "text": " We now request messages when the manifest setting for an object page uses a contextPath parameter"
+            },
+            {
+                "id": "429fa5026799ab5d09587c86737245e8a80de414",
+                "type": "FIX",
+                "text": " We now ensure that the navigate function in the routing controller extension supports the preserveHistory parameter"
+            }
+        ]
     }
 }

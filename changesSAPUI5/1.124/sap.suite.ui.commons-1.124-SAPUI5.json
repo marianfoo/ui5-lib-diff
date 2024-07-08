@@ -191,5 +191,59 @@
                 "references": []
             }
         ]
+    },
+    "1.124.1": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "I43784721d04ca8634bd443ea04438fbf692eb0a7",
+                "text": "We've now added an additional parameter for the enableMinimalContactsCollaboration API",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0147072"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.124.2": {
+        "date": "Jun 2024",
+        "notes": [
+            {
+                "id": "I8994e66fa67df73913318f34f196a54b297b94f0",
+                "text": "We now provide a tooltip for an avatar in a contact card",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0134422"
+                    }
+                ]
+            },
+            {
+                "id": "I6275f973dcb72a7d6549628d2e8ecfbff5e12e28",
+                "text": "We now correctly display phone numbers on contact cards",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0190239"
+                    }
+                ]
+            },
+            {
+                "id": "I2b7ff20c2ff1d6df63d635d544c8d127521ab531",
+                "text": "We've refactored the code for the Microsoft Teams collaboration API to make it asynchronous",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0169783"
+                    }
+                ]
+            }
+        ]
     }
 }

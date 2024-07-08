@@ -153,5 +153,30 @@
                 "text": " You can now correctly navigate between newly created items in sticky mode"
             }
         ]
+    },
+    "1.124.2": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "160b26de2115e788b2cdef9334aefd08d7e11b88",
+                "type": "FIX",
+                "text": " We now correctly evaluate the complex expression for the FieldControl annotations"
+            },
+            {
+                "id": "c98fe67754c8e7ac5b84e86cb79e894afe2e5d45",
+                "type": "FIX",
+                "text": " We now ensure that fields with currencies based on an integer value work correctly in edit mode"
+            },
+            {
+                "id": "20ef0c9b5f28c6c25f42c63ce3418e45471520ee",
+                "type": "FIX",
+                "text": " We now ensure that side effects are applied on radio buttons"
+            },
+            {
+                "id": "54a43697558c9411c1d11f573d39df10d1499612",
+                "type": "FIX",
+                "text": " We now ensure that the navigate function in the routing controller extension supports the preserveHistory parameter"
+            }
+        ]
     }
 }

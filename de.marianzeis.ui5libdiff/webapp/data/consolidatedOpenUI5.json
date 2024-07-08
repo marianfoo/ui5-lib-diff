@@ -16240,6 +16240,111 @@
     ]
   },
   {
+    "version": "1.120.17",
+    "date": "2024.07.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Suppress invalidation of footer"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Stop initial re-rendering of the input field when type password and clear icon are set"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: icon is shown correctly now for theme horizon HCB and HCW. The status is now aligned correctly in sap.ui.table.Table."
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: Back type button has correct hover colour"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SearchField: Parameter type is passed correctly to ResourceBundle"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.json.JSONModel#loadData: Don't use JSONP"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.util.LibraryInfo: Loosen baseUrl regex check"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/.library: Remove wrong component for sap/ui/core/util/MockServer"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.performance.XHRInterceptor: Fix CORS check"
+          },
+          {
+            "type": "FIX",
+            "text": " util/Mobile: update window size with delay after viewport is set"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.DateFormat.qunit: Fix flaky tests"
+          },
+          {
+            "type": "FIX",
+            "text": " sap\\ui\\core\\format\\DateFormat.fnCreateDate: set UTCFullYear must be set with all components"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.DynamicSideContent: fixed firing of the breakpointChanged event"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.table",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " AnalyticalTable: Error when binding to named model"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: add tooltips for calendar legend types"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageSubSection: Fix non-expanding Table"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.3",
     "date": "2024.01.01",
     "libraries": [
@@ -19262,6 +19367,135 @@
           {
             "type": "FIX",
             "text": " UploadSetwithTable: Set correct path definition for sap.m.Link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.124.2",
+    "date": "2024.07.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.GridContainer: Fixed lost focus item navigation"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.OverflowToolbarLayoutData: Typo fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RadioButton: Added wrapping and wrapping type"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Stop initial re-rendering of the input field when type password and clear icon are set"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: added possibility to select a day with a ENTER"
+          },
+          {
+            "type": "FIX",
+            "text": " ActionTile: New changes to align to the latest design"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RadioButton: Text is not cut off by focus when text spacing is applied"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SearchField: Parameter type is passed correctly to ResourceBundle"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: Back type button has correct hover colour"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.json.JSONModel#loadData: Don't use JSONP"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.ODataTreeBindingFlat: the value for the magnitude is always converted to a number"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.util.LibraryInfo: Loosen baseUrl regex check"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/.library: Remove wrong component for sap/ui/core/util/MockServer"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.performance.XHRInterceptor: Fix CORS check"
+          },
+          {
+            "type": "FIX",
+            "text": " util/Mobile: update window size with delay after viewport is set"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.DateFormat.qunit: Fix flaky tests"
+          },
+          {
+            "type": "FIX",
+            "text": " sap\\ui\\core\\format\\DateFormat.fnCreateDate: set UTCFullYear must be set with all components"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.DynamicSideContent: fixed firing of the breakpointChanged event"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.rta",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": ": sap.ui.rta: Show error dialog in case catalogsIds is returned empty from backend during catalog assignment for key user app variants."
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.table",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " AnalyticalTable: Error when binding to named model"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Month/Year/Year Range pickers visual improvements (SFSF)"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: is displayed correctly in RTL for two months view"
           }
         ]
       }

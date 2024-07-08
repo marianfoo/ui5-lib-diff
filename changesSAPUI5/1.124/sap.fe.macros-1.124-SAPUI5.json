@@ -189,5 +189,40 @@
                 "text": " We've resolved an issue with the DateTime format for default values when merging it with the startup parameter"
             }
         ]
+    },
+    "1.124.2": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "160b26de2115e788b2cdef9334aefd08d7e11b88",
+                "type": "FIX",
+                "text": " We now correctly evaluate the complex expression for the FieldControl annotations"
+            },
+            {
+                "id": "91c2dcc7cfc6572cd56151300afa78403bee9d99",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where values selected from the value help could not be removed in the group view of the Adapt Filters dialog"
+            },
+            {
+                "id": "483a0bebf46526a2e04950174991f3022eb0d796",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where the multi-input field did not appear"
+            },
+            {
+                "id": "c98fe67754c8e7ac5b84e86cb79e894afe2e5d45",
+                "type": "FIX",
+                "text": " We now ensure that fields with currencies based on an integer value work correctly in edit mode"
+            },
+            {
+                "id": "90ef64841c8d1e52fdc976ea17d064e77b726501",
+                "type": "FIX",
+                "text": " We now consider the intent parameters of  SAP Fiori launchpad while displaying the title with a primary action as a link in the quick view"
+            },
+            {
+                "id": "20ef0c9b5f28c6c25f42c63ce3418e45471520ee",
+                "type": "FIX",
+                "text": " We now ensure that side effects are applied on radio buttons"
+            }
+        ]
     }
 }
