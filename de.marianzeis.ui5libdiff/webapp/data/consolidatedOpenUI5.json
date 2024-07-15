@@ -11876,6 +11876,10 @@
           },
           {
             "type": "DEPRECATED",
+            "text": "[sap.ui.mdc.field.FieldBase#getFieldPath] replaced by {@link #setPropertyKey propertyKey} property"
+          },
+          {
+            "type": "DEPRECATED",
             "text": "[sap.ui.mdc.FilterBarP13nMode#undefined] please see {@link sap.ui.mdc.enums.FilterBarP13nMode}"
           },
           {
@@ -19729,6 +19733,344 @@
           {
             "type": "DEPRECATED",
             "text": "[sap.ui.table.Table#autoResizeColumn] replaced by {@link sap.ui.table.Column#autoResize}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.126.0",
+    "date": "2024.07.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.GridContainer: Fixed lost focus item navigation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Suppress invalidation of footer"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.Card: Avoid double header focus visualization"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.RadioButton: Added wrapping and wrapping type"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.ObjectStatus: remove empty indicator when rendering icon"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.InputBase: Expose public methods for preferred interaction type"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Carousel: the page indicator can be placed over the content of the Carousel"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: missing title announcement for each row"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.LightBox: Error message is available for screen readers"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.OverflowToolbarLayoutData: Typo fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Stop initial re-rendering the input field when type password and clear icon are set"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: added possibility to select a day with a ENTER"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IllustratedMessage: Fixed type in TNT library"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.InputBase: Value state message link is now clickable"
+          },
+          {
+            "type": "FIX",
+            "text": " Documentation: Parameter types are now fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: redundant haspopup attribute removed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: fire press onkeyup"
+          },
+          {
+            "type": "FIX",
+            "text": " ActionTile: New changes to align to the latest design"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendarMonthGrid: enable mouse selection for More link"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RadioButton: Text is not cut off by focus when text spacing is applied"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SplitContainer: Fine tuned code control after deprecated property"
+          },
+          {
+            "type": "FIX",
+            "text": " Form: RadioButton - focus overlaps text"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: Apply focus if page indicator arrow is pressed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Value is not cleared on invalidation when type password is used"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: improve demo app sample reagarding accessibility"
+          },
+          {
+            "type": "FIX",
+            "text": " Tables: Announce required state of columns with 'custom' label controls"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IllustratedMessage: Fixed type in TNT library"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.NavigationList: Border styles now have correct values in all themes"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.json.JSONModel#loadData: Don't use JSONP"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.ODataTreeBindingFlat: the value for the magnitude is always converted to a number"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.util.LibraryInfo: Loosen baseUrl regex check"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/.library: Remove wrong component for sap/ui/core/util/MockServer"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v4.Context#requestSibling: fix request syntax"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.performance.XHRInterceptor: Fix CORS check"
+          },
+          {
+            "type": "FIX",
+            "text": " util/Mobile: update window size with delay after viewport is set"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.DateFormat.qunit: Fix flaky tests"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.documentation",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Demo Kit: Support line-through tags"
+          },
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Improve Scrolling in Landscape Mode on Mobile Devices"
+          },
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Fix API reference search result list item navigation"
+          },
+          {
+            "type": "FIX",
+            "text": " Demokit: Version-info initialization corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " Demokit: IndexEntry controller definition corrected"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.integration.widget.Card: Add fitType property to icons in List and Table content"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Integration Cards: Introduce displayZeroValue option for StackedBar micro chart"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.integration.widgets.Card: All elements of a List card item are read out"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " FormContainer: expander announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " FormContainer: invalid role rendered in ColumnLayout"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " mdc.FilterBar: improve focus handling of filter fields"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.InputBase: Expose public methods for preferred interaction type"
+          },
+          {
+            "type": "FIX",
+            "text": " MDCTable: The filter info bar must be labelled with its text"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: old unit used after Field was initialized"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: parsing nested brackets"
+          },
+          {
+            "type": "FIX",
+            "text": " Tables: Announce required state of columns with 'custom' label controls"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.rta",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.rta: Key user app variant delete button is always disabled"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.rta: Prevent set focus on not existing key user app variant overview table"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.table",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " AnalyticalTable: Error when binding to named model"
+          },
+          {
+            "type": "FIX",
+            "text": " Tables: Announce required state of columns with 'custom' label controls"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.unified.Calendar: Month/Year/Year Range pickers visual improvements"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: is displayed correctly in RTL for two months view"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: add tooltips for calendar legend types"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: change event fire once"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: adjust change event firing"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: change cursor for header buttons"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: remove redundant required announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Currency: the currency is not truncating now"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageSection: Title alignment"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Inconsistent header-collapsing corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " FormContainer: invalid role rendered in ColumnLayout"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: lazy loading with selected SubSection"
           }
         ]
       }
@@ -31660,7 +32002,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.OverflowToolbarLayoutData#getMoveToOverflow] {@link sap.m.OverflowToolbarPriority} instead."
+            "text": "[sap.m.OverflowToolbarLayoutData#getMoveToOverflow] Use {@link sap.m.OverflowToolbarPriority} instead."
           },
           {
             "type": "DEPRECATED",
@@ -31668,7 +32010,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.m.OverflowToolbarLayoutData#setMoveToOverflow] {@link sap.m.OverflowToolbarPriority} instead."
+            "text": "[sap.m.OverflowToolbarLayoutData#setMoveToOverflow] Use {@link sap.m.OverflowToolbarPriority} instead."
           },
           {
             "type": "DEPRECATED",
@@ -99785,6 +100127,46 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.FileUploader: recache elements on setter usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.96.32",
+    "date": "2024.07.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've now fixed the overlap issue in GenericTile when sap.m.TileSizeBehaviour.Small was being used"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Stop initial re-rendering of the input field when type password and clear icon are set"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: Back type button has correct hover colour"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.json.JSONModel#loadData: Don't use JSONP"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/.library: Remove wrong component for sap/ui/core/util/MockServer"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.DateFormat.qunit: Fix flaky tests"
           }
         ]
       }

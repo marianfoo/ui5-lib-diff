@@ -1,0 +1,47 @@
+{
+    "1.126.0": {
+        "date": "Jun 2024",
+        "notes": [
+            {
+                "id": "I46a5fbc889e3c154e9e18b424b90ce214bdb9f30",
+                "text": "We've now provided a new side panel control for placing a custom control within the Gantt Chart Container",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "I91613fa3b43b4c549053b2007fada94ee669d3e7",
+                "text": "We've now enabled the option to hide non-working hours in Gantt chart for the Stepwise Zoom strategy",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "I5b0f5c376496bec9a3183bce344cf9b8e0f12309",
+                "text": "We've now enabled auto focusing while zooming in on a selected shape",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "Iff3a5e7c3e5802a5cb227e4c940f52aef8d6566e",
+                "text": "We've now fixed an issue that caused unintended row bindings while interacting with draggable shapes in the chart",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007818457"
+                    }
+                ]
+            },
+            {
+                "id": "Ic58dd7f150f7f1397884db0a21d4095cb345ac65",
+                "text": "We've now fixed the issues with the dynamic update of overlays in the expanded row scenario",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0119990"
+                    }
+                ]
+            }
+        ]
+    }
+}

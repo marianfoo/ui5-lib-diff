@@ -1,0 +1,187 @@
+{
+    "1.126.0": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "a862706c772a42020dea07895a29c6d78e01484e",
+                "type": "FIX",
+                "text": " We now ensure that the sorting and removal of table columns work correctly"
+            },
+            {
+                "id": "b4a634cc9a48d269e30ac2fcc47aa317a1a2c052",
+                "type": "FIX",
+                "text": " We now ensure that the value help with conditional Common.ValueListForValidation annotation works correctly"
+            },
+            {
+                "id": "e01fddb833af1a001c04f26994faacbf9b4a4ef7",
+                "type": "FEATURE",
+                "text": " You can now use SAP Fiori tools in adaptation projects to adapt the navigation properties in the filter bar"
+            },
+            {
+                "id": "02b122087cb81a3b22d889bc7cbf2f5f076e1b34",
+                "type": "FEATURE",
+                "text": " You can now specify function names for beforeRebindTable and selectionChange events in tables used in an adaptation project"
+            },
+            {
+                "id": "96e119aa7e3cf1f42b44ae21dfdf5fcaf454df55",
+                "type": "FEATURE",
+                "text": " You can now specify the sideEffectsEventsInteractionType value in a list report used in an adaptation project"
+            },
+            {
+                "id": "30cb51ac6d3a03f4ccb17257177d7be3c9368fee",
+                "type": "FIX",
+                "text": " We now correctly evaluate the complex expression for the FieldControl annotations"
+            },
+            {
+                "id": "8d529668a69ce50af2d71435612d8e2fa8bc098a",
+                "type": "FEATURE",
+                "text": " You can now specify the additionalSemanticObject value in an object page used in an adaptation project"
+            },
+            {
+                "id": "4657b21497deb6e6575d78ceda66cea51014f6f6",
+                "type": "FEATURE",
+                "text": " We now provide a context menu for tree tables"
+            },
+            {
+                "id": "48e35fc4dbd373714cfcbd808b05e00f21afbcf6",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where values selected from the value help could not be removed in the group view of the Adapt Filters dialog"
+            },
+            {
+                "id": "cbf0c08ef0808062bda41d815339164aa8340839",
+                "type": "FIX",
+                "text": " We now correctly translate the header form label of an object page and the data fields in field groups of line items"
+            },
+            {
+                "id": "713e1b1b57e0937aa301ea284c59e07c7fee0adc",
+                "type": "FEATURE",
+                "text": " You can now use buttons in the tree table toolbar to move a selected node before its previous sibling or after its next sibling"
+            },
+            {
+                "id": "eac80451f03baf04dc0bb092a326970dbee1b283",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where the multi-input field did not appear"
+            },
+            {
+                "id": "dd6d5584d0f7a54549f4a4ab79754629e5d6f3ea",
+                "type": "FIX",
+                "text": " We now ensure that fields with currencies based on an integer value work correctly in edit mode"
+            },
+            {
+                "id": "20a70505aeb6df9957838819b59ff9440444ac77",
+                "type": "FEATURE",
+                "text": " You can now use extended ‘TO’ and ‘FROM’ filters with single date operators in the Save as Tile option and xApp state scenarios"
+            },
+            {
+                "id": "cdde8aa2994857d542971d59c3c193bfd4d62bbd",
+                "type": "FIX",
+                "text": " We now ensure that columns with a defined scale are exported correctly"
+            },
+            {
+                "id": "86010fdf38c2e27ea38629e0227112561cc8fe57",
+                "type": "FIX",
+                "text": " We have now added the description property to the FieldAPI"
+            },
+            {
+                "id": "3a7f766377a0b00eb52f004d0becf16932717284",
+                "type": "FEATURE",
+                "text": " In a tree table, you can now show newly created nodes at the position computed by the back end, for example by taking sorting into account"
+            },
+            {
+                "id": "77a23485d47fec821b993edac0315177a7f1e626",
+                "type": "FIX",
+                "text": " Input fields with value help now have description binding to a JSON model using a description attribute"
+            },
+            {
+                "id": "c0e3fe6a234c4c7280dbf6d9d1264555606f8336",
+                "type": "FIX",
+                "text": " We now display an appropriate message when a subset of rows is updated in the mass edit dialog"
+            },
+            {
+                "id": "eec679180d5eac564a91b749689e9c019b0ed038",
+                "type": "FEATURE",
+                "text": " You can now disable the Editing Status filter field in the list report page of draft enabled applications"
+            },
+            {
+                "id": "0748d8f29cb12597d3ce8df63e39d1de3bec373d",
+                "type": "FIX",
+                "text": " We now ensure that the Discard Draft popover is shown correctly when the browser window is resized to a smaller size"
+            },
+            {
+                "id": "70a0fe96235343137b2b8d5e2d8bce2a75b5e0d1",
+                "type": "FIX",
+                "text": "  We’ve resolved an issue with showing custom filter fields in the Adapt Filters dialog"
+            },
+            {
+                "id": "31f967bf7b4cc711c74bf307de987ec41aeb22fd",
+                "type": "FIX",
+                "text": " We now consider the intent parameters of  SAP Fiori launchpad while displaying the title with a primary action as a link in the quick view"
+            },
+            {
+                "id": "0ada252d683b4811ad3afdd0ebf5c5c70384d78e",
+                "type": "FIX",
+                "text": " We've resolved an issue that led to unnecessary update of fields when opened with mass edit dialog"
+            },
+            {
+                "id": "6bd6e474c977144bc0d4dd827d410276177a2056",
+                "type": "FIX",
+                "text": " We now display an appropriate message when no changes are made in the mass edit dialog"
+            },
+            {
+                "id": "7e0ed92bb49d9ef7bb70df05459fe6ffa7ac1a1e",
+                "type": "FIX",
+                "text": " We've now enhanced the control IDs for data points considering the parent view"
+            },
+            {
+                "id": "443e5318bcdf95c476edb95d4585e5ede08a1141",
+                "type": "FEATURE",
+                "text": " You can now specify the operation grouping mode for mass edit changes in the manifest"
+            },
+            {
+                "id": "4d728c98035b531484ed9ca04bf9c61d3195f2ea",
+                "type": "FIX",
+                "text": " We now ensure that side effects are applied on radio buttons"
+            },
+            {
+                "id": "665a8138a30750a112890ab2c9191d92c30ca424",
+                "type": "FIX",
+                "text": " We now add additional field binding information for fields with TextArrangement set to TextOnly, to avoid adding a field twice when using key user adaptation"
+            },
+            {
+                "id": "cc6cca7cf34262696c3dd0350ab342cbfc0f6aa2",
+                "type": "FIX",
+                "text": " We now ensure that a table with a custom column shows data in an adaptation project"
+            },
+            {
+                "id": "35c80c9306e6d8e5ac88744cb1d0cec33547ac20",
+                "type": "FEATURE",
+                "text": " You can now specify which fields can be included or excluded from the Mass Edit dialog"
+            },
+            {
+                "id": "35b85695c37c745e01c270a966875fc0b0397d06",
+                "type": "FIX",
+                "text": " We've resolved an issue where a table didn't load properly due to undefined binding contexts"
+            },
+            {
+                "id": "e3840b9e0ff106090eaa4e896a3551255b9d76db",
+                "type": "FIX",
+                "text": " We now ensure that accessibility is correctly set for the fields in edit mode using collaborative draft feature"
+            },
+            {
+                "id": "dcfd6a10eb0c933129bab10f203c4623d927c98a",
+                "type": "FIX",
+                "text": " We now ensure that the ExcludeFromNavigationContext annotation works correctly with links as well"
+            },
+            {
+                "id": "199bb2224a0dbc697fbcbe1e7d5493da7b0444bc",
+                "type": "FIX",
+                "text": " Value is now marked as selected in value help on the list report"
+            },
+            {
+                "id": "45df0654fbef582d3f57624baa984cf1363667d8",
+                "type": "FIX",
+                "text": " We now ensure that the MultiValue fields don't create additional requests in display mode"
+            }
+        ]
+    }
+}

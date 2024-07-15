@@ -1,0 +1,102 @@
+{
+    "1.126.0": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "a862706c772a42020dea07895a29c6d78e01484e",
+                "type": "FIX",
+                "text": " We now ensure that the sorting and removal of table columns work correctly"
+            },
+            {
+                "id": "02b122087cb81a3b22d889bc7cbf2f5f076e1b34",
+                "type": "FEATURE",
+                "text": " You can now specify function names for beforeRebindTable and selectionChange events in tables used in an adaptation project"
+            },
+            {
+                "id": "96e119aa7e3cf1f42b44ae21dfdf5fcaf454df55",
+                "type": "FEATURE",
+                "text": " You can now specify the sideEffectsEventsInteractionType value in a list report used in an adaptation project"
+            },
+            {
+                "id": "30cb51ac6d3a03f4ccb17257177d7be3c9368fee",
+                "type": "FIX",
+                "text": " We now correctly evaluate the complex expression for the FieldControl annotations"
+            },
+            {
+                "id": "4657b21497deb6e6575d78ceda66cea51014f6f6",
+                "type": "FEATURE",
+                "text": " We now provide a context menu for tree tables"
+            },
+            {
+                "id": "713e1b1b57e0937aa301ea284c59e07c7fee0adc",
+                "type": "FEATURE",
+                "text": " You can now use buttons in the tree table toolbar to move a selected node before its previous sibling or after its next sibling"
+            },
+            {
+                "id": "dd6d5584d0f7a54549f4a4ab79754629e5d6f3ea",
+                "type": "FIX",
+                "text": " We now ensure that fields with currencies based on an integer value work correctly in edit mode"
+            },
+            {
+                "id": "cdde8aa2994857d542971d59c3c193bfd4d62bbd",
+                "type": "FIX",
+                "text": " We now ensure that columns with a defined scale are exported correctly"
+            },
+            {
+                "id": "3a7f766377a0b00eb52f004d0becf16932717284",
+                "type": "FEATURE",
+                "text": " In a tree table, you can now show newly created nodes at the position computed by the back end, for example by taking sorting into account"
+            },
+            {
+                "id": "c0e3fe6a234c4c7280dbf6d9d1264555606f8336",
+                "type": "FIX",
+                "text": " We now display an appropriate message when a subset of rows is updated in the mass edit dialog"
+            },
+            {
+                "id": "70a0fe96235343137b2b8d5e2d8bce2a75b5e0d1",
+                "type": "FIX",
+                "text": "  We’ve resolved an issue with showing custom filter fields in the Adapt Filters dialog"
+            },
+            {
+                "id": "6bd6e474c977144bc0d4dd827d410276177a2056",
+                "type": "FIX",
+                "text": " We now display an appropriate message when no changes are made in the mass edit dialog"
+            },
+            {
+                "id": "100f82bf6954377458ede52735735e79e3f32cfd",
+                "type": "FEATURE",
+                "text": " You can now use a manifest parameter to set the default creation mode in tables to InlineCreationRows"
+            },
+            {
+                "id": "443e5318bcdf95c476edb95d4585e5ede08a1141",
+                "type": "FEATURE",
+                "text": " You can now specify the operation grouping mode for mass edit changes in the manifest"
+            },
+            {
+                "id": "4d728c98035b531484ed9ca04bf9c61d3195f2ea",
+                "type": "FIX",
+                "text": " We now ensure that side effects are applied on radio buttons"
+            },
+            {
+                "id": "44f1d8831b1057fcba68eee33b77ec0ab1f9f87a",
+                "type": "FIX",
+                "text": " We no longer show the technical messages from the default OData V4 model in the message dialog"
+            },
+            {
+                "id": "35c80c9306e6d8e5ac88744cb1d0cec33547ac20",
+                "type": "FEATURE",
+                "text": " You can now specify which fields can be included or excluded from the Mass Edit dialog"
+            },
+            {
+                "id": "c8be5de3632f26d60839c4a2908bc1d34667a34d",
+                "type": "FIX",
+                "text": " We now correctly merge the default export settings with the precedence settings from the manifest file for columns with overwritten export settings"
+            },
+            {
+                "id": "1f175a72fec00a8fe72bd052b1be5ec4f2b74153",
+                "type": "FIX",
+                "text": " We now ensure that the navigate function in the routing controller extension supports the preserveHistory parameter"
+            }
+        ]
+    }
+}
