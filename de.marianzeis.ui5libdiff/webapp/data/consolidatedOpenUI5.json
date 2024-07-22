@@ -16349,6 +16349,81 @@
     ]
   },
   {
+    "version": "1.120.18",
+    "date": "2024.07.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: Resize issue with iframe content fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've now fixed the overlap issue in GenericTile when sap.m.TileSizeBehaviour.Small was being used."
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarRow: Appointments ARIA texts are correctly translated and localized now"
+          },
+          {
+            "type": "FIX",
+            "text": " We've updated the event parameters for status and readystate"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.semantic.MessagesIndicator: Add default tooltip"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Add proper bottom margin for all navigation list items"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolHeader: fixed ushell styles for Horizon theme"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " BindingInfo: Ensure that named models are only parsed once"
+          },
+          {
+            "type": "FIX",
+            "text": " ControllerExtension support for TypeScript"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarRow: Appointments ARIA texts are correctly translated and localized now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Menu: Custom image icon is displayed correctly now"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.3",
     "date": "2024.01.01",
     "libraries": [
@@ -20071,6 +20146,30 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageLayout: lazy loading with selected SubSection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.126.1",
+    "date": "2024.07.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Page: Show footer after calling setShowFooter twice"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ControllerExtension support for TypeScript"
           }
         ]
       }
