@@ -6839,6 +6839,84 @@
     ]
   },
   {
+    "version": "1.108.31",
+    "date": "2024.07.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Syncronization issue corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Correct header placement after expanded state change"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Column: add missing check for parent Table in _onLabelPropertyChange"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarRow: Appointments ARIA texts are correctly translated and localized now"
+          },
+          {
+            "type": "FIX",
+            "text": " We've updated the event parameters for status and readystate"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: Dates label is now correct when used with utc formatter"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.semantic.MessagesIndicator: Add default tooltip"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now fixed the overlap issue in GenericTile when sap.m.TileSizeBehaviour.Small was being used"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Stop initial re-rendering of the input field when type password and clear icon are set"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.json.JSONModel#loadData: Don't use JSONP"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarRow: Appointments ARIA texts are correctly translated and localized now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: add tooltips for calendar legend types"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.108.1",
     "date": "2022.11.01",
     "libraries": [
@@ -92969,6 +93047,51 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.FileUploader: recache elements on setter usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.84.47",
+    "date": "2024.07.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Stop initial re-rendering of the input field when type password and clear icon are set"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.json.JSONModel#loadData: Don't use JSONP"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/.library: Remove wrong component for sap/ui/core/util/MockServer"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Header buttons are displayed correctly in two months view"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.FileUploader: change event listener is reattached correctly now"
           }
         ]
       }

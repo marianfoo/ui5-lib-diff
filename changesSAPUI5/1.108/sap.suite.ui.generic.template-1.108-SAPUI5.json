@@ -870,5 +870,103 @@
                 ]
             }
         ]
+    },
+    "1.108.31": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "I0ccc5d5e4f5f1980f5b8c4d5922295bc6f6d15a8",
+                "type": "FIX",
+                "text": "We've now added an option to remove the action button in the header while adapting the UI of the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006628368"
+                    }
+                ]
+            },
+            {
+                "id": "I634956fe327ab6ab719c0a1bbd59d9615f208308",
+                "type": "FIX",
+                "text": "We've now fixed the issue with date time mismatch for American time zone on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007248941"
+                    }
+                ]
+            },
+            {
+                "id": "I5f3d37309a6a009bf2c53b308535e52673804c0f",
+                "type": "FIX",
+                "text": "We've now fixed the issue of setting the page variant dirty when switching between the variants on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007301349"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.33": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "Ib1ea4cdbc373907abde81cc29ab6f28dcec9245e",
+                "type": "FIX",
+                "text": "We are now retaining the semantic date value correctly in the user defined variant on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007485744"
+                    }
+                ]
+            },
+            {
+                "id": "I3460904b8e9b1903b0a7aa1fe2a9b470aeea9b55",
+                "type": "FIX",
+                "text": "We now ensure that 'modifyStartupExtension' changes in the filter bar are retained post refresh",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270140942"
+                    }
+                ]
+            },
+            {
+                "id": "I6f2adacb16c94fbbcd6f57a425fcd2d986eb205f",
+                "type": "FIX",
+                "text": "We've now fixed the issue of setting the page variant dirty when switching between the variants on the list report page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007034881"
+                    }
+                ]
+            },
+            {
+                "id": "Ib7fba4432a0700f22a04cc177c0040f066589ff2",
+                "type": "FIX",
+                "text": "We now avoid making the page variant dirty during external navigation scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007117736"
+                    }
+                ]
+            },
+            {
+                "id": "Ia2e8b71a7484ae3ab827fce93cbca6b9794c2fc3",
+                "type": "FIX",
+                "text": "We've now fixed the issue with the chart selection in smart chart on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007279951"
+                    }
+                ]
+            }
+        ]
     }
 }

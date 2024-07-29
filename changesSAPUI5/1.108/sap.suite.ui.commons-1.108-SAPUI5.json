@@ -1,0 +1,104 @@
+{
+    "1.108.1": {
+        "date": "Nov 2022",
+        "notes": [
+            {
+                "id": "I9124299b37f1830067022f3e884e3a1a950766fa",
+                "type": "FIX",
+                "text": "We now ensure that the profile icon is hidden from the header when an SAP Fiori elements app is running within the Microsoft Teams tab environment",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270174230"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.2": {
+        "date": "Nov 2022",
+        "notes": [
+            {
+                "id": "I9ef6443ba2de596cf0b51df90e6dcaf0ca2639a3",
+                "type": "FIX",
+                "text": "We've updated the JSDoc and made it available from the SAP UI5 1.108 release",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280200954"
+                    }
+                ]
+            },
+            {
+                "id": "I92085d7573c445f559cbd845e0e968c783396b7a",
+                "type": "FIX",
+                "text": "We've now updated the Microsoft Teams application ID with the production application ID",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280192549"
+                    }
+                ]
+            },
+            {
+                "id": "Ia29f9f2b725ca8b6456699fb1c766c2c4244fe2e",
+                "type": "FIX",
+                "text": "We've now added the telemetry recording",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280179082"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.4": {
+        "date": "March 2023",
+        "notes": [
+            {
+                "id": "I25ed8fadc66d2ea25e6217055675a5a7d1d44902",
+                "type": "FIX",
+                "text": "We've now fixed the error in the console log that came up while opening Microsoft Teams as Chat option",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380045481"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.7": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "I8ce530370af2587422e07946677c041dbe45047c",
+                "type": "FIX",
+                "text": "We now provide the Share as Chat feature visibility only for the desktop users",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380050112"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.8": {
+        "date": "May 2023",
+        "notes": [
+            {
+                "id": "I29701ea188c4e78c00b6b6f1669e3541ea9d5f7d",
+                "type": "FIX",
+                "text": "We've now fixed the issue for the URL with navigation context, it now reloads instead of opening a new tab",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380077860"
+                    }
+                ]
+            }
+        ]
+    }
+}

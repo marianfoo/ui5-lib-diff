@@ -616,5 +616,21 @@
                 ]
             }
         ]
+    },
+    "1.84.48": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "I5ef5defb78463e2208e6885a441b834e213616ea",
+                "type": "FIX",
+                "text": "We now display the transient messages only if there is a state error message or state warning with the http code 412 during draft activation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0106919"
+                    }
+                ]
+            }
+        ]
     }
 }

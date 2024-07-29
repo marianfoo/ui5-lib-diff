@@ -1187,5 +1187,20 @@
                 "text": " We now align the column correctly when the table entity has no key"
             }
         ]
+    },
+    "1.108.25": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "88ff68c7713beb29992ff605fd8d2e51ac462637",
+                "type": "FIX",
+                "text": " We now ensure that columns with a defined scale attribute are exported correctly"
+            },
+            {
+                "id": "0cb113627376abda84331a7934fdca804e2fc975",
+                "type": "FIX",
+                "text": "  We now avoid duplicate GET requests when a user clicks the Go button in the filter bar of a value help dialog"
+            }
+        ]
     }
 }

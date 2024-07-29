@@ -24,8 +24,8 @@
             }
         ]
     },
-    "1.84.1": {
-        "date": "November 2020",
+    "1.84.31": {
+        "date": "December 2022",
         "notes": [
             {
                 "id": "Ie53a2e981998a630defc9ba529d32811e21a1a5d",
@@ -57,6 +57,44 @@
                     {
                         "type": "BCP",
                         "reference": "2080435998"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.46": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "Ia5fb120c43f85d33614c8d55e113449e2f810d3c",
+                "type": "FIX",
+                "text": "We've now eliminated the ETag validation for draft apps that have the ETag enabled",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180094228"
+                    }
+                ]
+            },
+            {
+                "id": "I66a7ba41c403a6e12954faabbe75c0f109008699",
+                "type": "FIX",
+                "text": "Now we ensure that two side-effects are not executed when they are independent of each other and one of them has validation errors",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070472962"
+                    }
+                ]
+            },
+            {
+                "id": "Icb760d06be4103f554f7bb4bcb772236383e108a",
+                "type": "FIX",
+                "text": "The error messages are now processed only if the call back is present",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280043647"
                     }
                 ]
             }

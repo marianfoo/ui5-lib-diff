@@ -19,5 +19,76 @@
                 ]
             }
         ]
+    },
+    "1.108.32": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "I202dde2d252af96d2313fab1287dd864c4912d22",
+                "type": "FIX",
+                "text": "We now provide an option to define title and button label in case of the NewAction with parameters",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280174482"
+                    }
+                ]
+            },
+            {
+                "id": "I7900a5924209531616674a45c5eca5000d75e8ff",
+                "type": "FIX",
+                "text": "We have now enhanced the approach to define the title for new action dialog",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280174945"
+                    }
+                ]
+            },
+            {
+                "id": "I2ff19b0efc045fc97b3f2da9e7ae22e2a24fa0c1",
+                "type": "FIX",
+                "text": "We now make sure that the function import parameters return an empty string instead of null",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370015822"
+                    }
+                ]
+            },
+            {
+                "id": "I407a176a4d7f8dda18c8891479b41c99fadadefd",
+                "type": "FIX",
+                "text": "The UI fix now freezes when Enter key is pressed on an embedded app component",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "0020751294 0000314703 2023"
+                    }
+                ]
+            },
+            {
+                "id": "I77dacfe825281cd7d0e8b77cd9521f61b71e74e3",
+                "type": "FIX",
+                "text": "In the function import scenario, a value is now passed as undefined if a user tries to remove it from the field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370031956"
+                    }
+                ]
+            },
+            {
+                "id": "Ice02523231a3939f450a796b98f80c570de97852",
+                "type": "FIX",
+                "text": "We've now fixed the dump issues in case of queue failures",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0052983"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -1334,5 +1334,20 @@
                 "text": " We no longer show the technical messages from the default OData V4 model in the message dialog"
             }
         ]
+    },
+    "1.108.25": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "88ff68c7713beb29992ff605fd8d2e51ac462637",
+                "type": "FIX",
+                "text": " We now ensure that columns with a defined scale attribute are exported correctly"
+            },
+            {
+                "id": "3089e19af73b2540510b52e5c7194cc6a3d40c02",
+                "type": "FIX",
+                "text": " We now request messages when the manifest setting uses a contextPath parameter"
+            }
+        ]
     }
 }
