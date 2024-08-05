@@ -93,5 +93,55 @@
                 "text": " SmartFilterBar: InputState of Model is now cleared"
             }
         ]
+    },
+    "1.124.3": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "16cff6d469deb847f93a6b6649306026a910e681",
+                "type": "FIX",
+                "text": " SmartLabel: restore connection to SmartField reverted"
+            },
+            {
+                "id": "d84109288609ff88cb386f88786f4fdf060694ae",
+                "type": "FIX",
+                "text": " SmartLabel: Label is now visible when cloned reverted"
+            },
+            {
+                "id": "8a17f8b76c790b544528e97f5543ee81d916bcd8",
+                "type": "FIX",
+                "text": " SmartLabel: Label is now visible when cloned"
+            },
+            {
+                "id": "e3b6a9759ea74cb015fbd2ffcf7cdf878291925b",
+                "type": "FIX",
+                "text": " FilterBar: correct layout when HBox is used as custom control"
+            },
+            {
+                "id": "7be053f1df542c6f647289a3c6226fc8f68f8da0",
+                "type": "FIX",
+                "text": " FilterBar: setBasicSearch does not throw an exception when called with 'null'"
+            },
+            {
+                "id": "99e5b5be07893fb07e3f1f02dd49457d5040e7d7",
+                "type": "FIX",
+                "text": " FilterBar: basicSearch should be rendered once if the SearchField controls is added in the view"
+            },
+            {
+                "id": "fef53ea3677aabeb4add1c01c139ef41fbb19da8",
+                "type": "FIX",
+                "text": " We've now optimised the SmartMultiInput control to render efficiently"
+            },
+            {
+                "id": "7ae48a2e07423682c2368c178ece5e084b258554",
+                "type": "FIX",
+                "text": " SmartLabel: restore connection to SmartField"
+            },
+            {
+                "id": "a3dcfa83839dbe6387aecce30b01c279e1ed36c4",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct setting value of single filter field when there is validation request"
+            }
+        ]
     }
 }

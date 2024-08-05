@@ -548,7 +548,7 @@
         ]
     },
     "1.120.5": {
-        "date": "January 2023",
+        "date": "January 2024",
         "notes": [
             {
                 "id": "Iafd1ece8b067004c0217bc19870afe3cfa2641d0",
@@ -564,7 +564,7 @@
         ]
     },
     "1.120.6": {
-        "date": "February 2023",
+        "date": "February 2024",
         "notes": [
             {
                 "id": "I4a7f34a840d4ffcc125aa918b8f74c6b45b5e334",
@@ -580,7 +580,7 @@
         ]
     },
     "1.120.9": {
-        "date": "March 2023",
+        "date": "March 2024",
         "notes": [
             {
                 "id": "I53e6194c1e5e0f26b8562ea13b1977148d2a1e4f",
@@ -590,6 +590,190 @@
                     {
                         "type": "SNOW",
                         "reference": "CS20240007075135"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.12": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "I0ccc5d5e4f5f1980f5b8c4d5922295bc6f6d15a8",
+                "type": "FIX",
+                "text": "We've now added an option to remove the action button in the header while adapting the UI of the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230006628368"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.13": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "I7d0a25b26d34139e02dc5cf7f8d7ef2870a1966b",
+                "type": "FIX",
+                "text": "We've resolved an issue with the insights cards not showing on the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0031689"
+                    }
+                ]
+            },
+            {
+                "id": "Ia7efa683aeeebcedba9f3db2b241b4656929d548",
+                "type": "FEATURE",
+                "text": "We now support the summarization service"
+            }
+        ]
+    },
+    "1.120.14": {
+        "date": "May 2024",
+        "notes": [
+            {
+                "id": "I634956fe327ab6ab719c0a1bbd59d9615f208308",
+                "type": "FIX",
+                "text": "We've now fixed the issue with date time mismatch for American time zone on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007248941"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.15": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "I03187ea695499d49cc434f32f3fef216a79a43d9",
+                "type": "FIX",
+                "text": "For the object page, the subsection info object is not initialised now when the replace facet extension is used",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370132616"
+                    }
+                ]
+            },
+            {
+                "id": "I430fbf683c4fb51b96a031f29e28099da2c77061",
+                "type": "FIX",
+                "text": "We are now showing an error message when a file with unsupported media type is being uploaded",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007340429"
+                    }
+                ]
+            },
+            {
+                "id": "Iad102f0f181cec0d132f04100b3b8d3cfe24db67",
+                "type": "FIX",
+                "text": "We now ignore the url parameter 'save-appvar-id' while initialising the List Report application",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007046006"
+                    }
+                ]
+            },
+            {
+                "id": "I5f3d37309a6a009bf2c53b308535e52673804c0f",
+                "type": "FIX",
+                "text": "We've now fixed the issue of setting the page variant dirty when switching between the variants on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007301349"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.16": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "Ib1ea4cdbc373907abde81cc29ab6f28dcec9245e",
+                "type": "FIX",
+                "text": "We are now retaining the semantic date value correctly in the user defined variant on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007485744"
+                    }
+                ]
+            },
+            {
+                "id": "I6f2adacb16c94fbbcd6f57a425fcd2d986eb205f",
+                "type": "FIX",
+                "text": "We've now fixed the issue of setting the page variant dirty when switching between the variants on the list report page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007034881"
+                    }
+                ]
+            },
+            {
+                "id": "Ib7fba4432a0700f22a04cc177c0040f066589ff2",
+                "type": "FIX",
+                "text": "We now avoid making the page variant dirty during external navigation scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007117736"
+                    }
+                ]
+            },
+            {
+                "id": "Ia2e8b71a7484ae3ab827fce93cbca6b9794c2fc3",
+                "type": "FIX",
+                "text": "We've now fixed the issue with the chart selection in smart chart on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007279951"
+                    }
+                ]
+            },
+            {
+                "id": "If2250501868c1aae425d375b9cdecb1324ae6c57",
+                "type": "FIX",
+                "text": "We've now fixed the issue with the display of column labels in Add Card to Insights preview dialog when i18n texts are used",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0108681"
+                    }
+                ]
+            },
+            {
+                "id": "I31da1f269dea01be134e818c1ce5c09bc02ae4f1",
+                "type": "FIX",
+                "text": "We are mow invoking 'resumeSetFilterData' while initializing the filter bar to consider user entered filter data on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007389705"
+                    }
+                ]
+            },
+            {
+                "id": "Ib4fb8a42b95bd32c283690e70821e7b529a796d1",
+                "type": "FIX",
+                "text": "412 confirmation pop up now show transient warning messages if no state warning messages are available",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0157980"
                     }
                 ]
             }

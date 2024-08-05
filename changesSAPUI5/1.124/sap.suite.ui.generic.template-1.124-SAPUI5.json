@@ -87,6 +87,197 @@
                         "reference": "DINC0125655"
                     }
                 ]
+            },
+            {
+                "id": "I5f3d37309a6a009bf2c53b308535e52673804c0f",
+                "type": "FIX",
+                "text": "We've now fixed the issue of setting the page variant dirty when switching between the variants on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007301349"
+                    }
+                ]
+            },
+            {
+                "id": "Ib6f92b11fbaf64a3d4af329a3c8fbc0ac8a39695",
+                "type": "FIX",
+                "text": "We are now handling the null binding for service URL while saving a tile from list report and analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0131323"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.124.1": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "I430fbf683c4fb51b96a031f29e28099da2c77061",
+                "type": "FIX",
+                "text": "We are now showing an error message when a file with unsupported media type is being uploaded",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007340429"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.124.2": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "I36c2730fdf804f7982d3cfb1f6837f9240a1d29a",
+                "type": "FIX",
+                "text": "We now support CollaborationMessageConsumer for SCube scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0157020"
+                    }
+                ]
+            },
+            {
+                "id": "I9a09d2ddae1254bf53704c858c5d7a4ad7ccc357",
+                "type": "FIX",
+                "text": "We are now showing the subtitle correctly on the design time card",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0168736"
+                    }
+                ]
+            },
+            {
+                "id": "Iea8513885280789d2a0d21f48a44c41b97bf4b55",
+                "type": "FIX",
+                "text": "We have now fixed the issue with the analytical list page's ExtensionAPI.getSelectedContexts method to return the applicable contexts for the context menu",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0173879"
+                    }
+                ]
+            },
+            {
+                "id": "If2250501868c1aae425d375b9cdecb1324ae6c57",
+                "type": "FIX",
+                "text": "We've now fixed the issue with the display of column labels in Add Card to Insights preview dialog when i18n texts are used",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0108681"
+                    }
+                ]
+            },
+            {
+                "id": "I8feb217e674211b3120d77f02c314970310dfd04",
+                "type": "FIX",
+                "text": "We now consider insert and update restrictions in order to display the paste button on the object page table",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0135608"
+                    }
+                ]
+            },
+            {
+                "id": "Ib7fba4432a0700f22a04cc177c0040f066589ff2",
+                "type": "FIX",
+                "text": "We now avoid making the page variant dirty during external navigation scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007117736"
+                    }
+                ]
+            },
+            {
+                "id": "I6f2adacb16c94fbbcd6f57a425fcd2d986eb205f",
+                "type": "FIX",
+                "text": "We've now fixed the issue of setting the page variant dirty when switching between the variants on the list report page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007034881"
+                    }
+                ]
+            },
+            {
+                "id": "Ia2e8b71a7484ae3ab827fce93cbca6b9794c2fc3",
+                "type": "FIX",
+                "text": "We've now fixed the issue with the chart selection in smart chart on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007279951"
+                    }
+                ]
+            },
+            {
+                "id": "I31da1f269dea01be134e818c1ce5c09bc02ae4f1",
+                "type": "FIX",
+                "text": "We are now invoking 'resumeSetFilterData' while initializing the filter bar to consider user entered filter data on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007389705"
+                    }
+                ]
+            },
+            {
+                "id": "I8994e66fa67df73913318f34f196a54b297b94f0",
+                "type": "FIX",
+                "text": "We've now provided tooltip for avatar controls in contact cards",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0134422"
+                    }
+                ]
+            },
+            {
+                "id": "Ib4fb8a42b95bd32c283690e70821e7b529a796d1",
+                "type": "FIX",
+                "text": "412 confirmation pop up now shows transient warning messages if no state warning messages are available",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0157980"
+                    }
+                ]
+            },
+            {
+                "id": "I64fbdaa74631a808015ea1a28e43d7d5f8643223",
+                "type": "FIX",
+                "text": "We are now adding hyphen instead of empty string for header field values in Microsoft Teams adaptive card unfurling",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0189554"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.124.3": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "I0cc04d57a500251f24b3e144a344a75b4e2e86cc",
+                "type": "FIX",
+                "text": "We now handle the user entered filter during inline creation on the object page table",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007779744"
+                    }
+                ]
             }
         ]
     }

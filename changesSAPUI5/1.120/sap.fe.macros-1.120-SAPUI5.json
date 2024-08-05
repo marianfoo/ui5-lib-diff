@@ -605,5 +605,35 @@
                 "text": " We have resolved an issue with row selection in a context-dependent value help dialog with multiple selections."
             }
         ]
+    },
+    "1.120.13": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "712adf3cbb575adf5ca060323ac168de6e42ace2",
+                "type": "FIX",
+                "text": " We now ensure that columns with a defined scale are exported correctly"
+            },
+            {
+                "id": "5c67f9347112c54780b20d15fa9b20695df8f9cc",
+                "type": "FIX",
+                "text": " The MessageButton now only displays validation errors for controls outside of a table that have validation errors and back-end errors"
+            },
+            {
+                "id": "9db28dd5480639f674aea034c3ce41c841af1450",
+                "type": "FIX",
+                "text": "  We now avoid duplicate GET requests when a user clicks the Go button in the filter bar of a value help dialog"
+            }
+        ]
+    },
+    "1.120.14": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "2a181753c2580d089e505432ed436fc939ee783c",
+                "type": "FIX",
+                "text": " We now ensure that recommendations are correctly displayed on the table without console errors"
+            }
+        ]
     }
 }

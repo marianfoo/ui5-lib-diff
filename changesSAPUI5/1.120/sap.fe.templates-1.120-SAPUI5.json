@@ -327,5 +327,30 @@
                 "text": " When applying the iAppState, we now wait until the object page is ready and then set the selected section"
             }
         ]
+    },
+    "1.120.13": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "f37fd3a1eaed5f41071acef2d63dd1e38bd76e98",
+                "type": "FIX",
+                "text": " We no longer show the subsections that are dynamically invisible on the anchor bar of the object page"
+            },
+            {
+                "id": "5c67f9347112c54780b20d15fa9b20695df8f9cc",
+                "type": "FIX",
+                "text": " The MessageButton now only displays validation errors for controls outside of a table that have validation errors and back-end errors"
+            }
+        ]
+    },
+    "1.120.14": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "262d238d21c93d723f0a57064cbb25804516da27",
+                "type": "FIX",
+                "text": " The message strip of the list report is now recreated when the list report is reopened after going to the home page"
+            }
+        ]
     }
 }

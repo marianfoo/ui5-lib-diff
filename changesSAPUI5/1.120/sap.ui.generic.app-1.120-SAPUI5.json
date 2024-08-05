@@ -36,5 +36,32 @@
                 ]
             }
         ]
+    },
+    "1.120.15": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "Ie790cf33a8fc158563aa994ab4660d393c4290c6",
+                "type": "FIX",
+                "text": "We've now added a check for nested nav property while fetching default values",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0065098"
+                    }
+                ]
+            },
+            {
+                "id": "I420b908324c8ddca43af0bf160723c35edad060d",
+                "type": "FIX",
+                "text": "We've now removed the ETag validation for Preparation call",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0052902"
+                    }
+                ]
+            }
+        ]
     }
 }

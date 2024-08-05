@@ -814,5 +814,55 @@
                 "text": " sap.m.SearchField: Parameter type is passed correctly to ResourceBundle"
             }
         ]
+    },
+    "1.120.18": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "ff17e6e192272a4ae432d9942864a0e66c823393",
+                "type": "FIX",
+                "text": " We've now fixed the overlap issue in GenericTile when sap.m.TileSizeBehaviour.Small was being used."
+            },
+            {
+                "id": "3e28af4dc9ef6d10a0c2568de051608b0ae451ef",
+                "type": "FIX",
+                "text": " sap.ui.unified.CalendarRow: Appointments ARIA texts are correctly translated and localized now"
+            },
+            {
+                "id": "c17bf56f6578721681e9f4259e7de007ac4baad7",
+                "type": "FIX",
+                "text": " We've updated the event parameters for status and readystate"
+            },
+            {
+                "id": "bc424c9e923ca0ea75661ada76cd9e8d33f42dac",
+                "type": "FIX",
+                "text": " sap.m.semantic.MessagesIndicator: Add default tooltip"
+            }
+        ]
+    },
+    "1.120.19": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "b3b2e85b9bdf197f19f7b87cc5d7d4547205cec8",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+            },
+            {
+                "id": "99076ea0dffdb493bbfef54604fafb4e8a2264f8",
+                "type": "FIX",
+                "text": " ColumnMenu: Check for container instance when setting visibility"
+            },
+            {
+                "id": "9768c98f620ba325b9b50000cd12e3af3958ed81",
+                "type": "FIX",
+                "text": " We've made the subheader dynamic in the NewsContent when it is in a stretch tile"
+            },
+            {
+                "id": "78a7c698573ef61e7407d95f2a75b2ca8e413f44",
+                "type": "FIX",
+                "text": " sap.m.Column: add missing check for parent Table in _onLabelPropertyChange"
+            }
+        ]
     }
 }

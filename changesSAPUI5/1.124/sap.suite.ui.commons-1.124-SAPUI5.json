@@ -1,192 +1,34 @@
 {
-    "1.83.0": {
-        "date": "Sep 2020",
-        "notes": [
-            {
-                "id": "If3676709c566438d0213d410e6c4395eaaeed259",
-                "text": "ARIA 1.1: Use new roles and attributes - CalculationBuilder ProcessFlow MicroProcessFlow NetworkGraph",
-                "type": "FEATURE",
-                "references": []
-            },
-            {
-                "id": "Id799fa6d99d372f724ff795fe206dd1f98f7c17d",
-                "text": "Allow MicroProcessFlow placement inside SmartForm",
-                "type": "FEATURE",
-                "references": []
-            }
-        ]
-    },
-    "1.85.0": {
-        "date": "Nov 2020",
-        "notes": [
-            {
-                "id": "Ie871e5b9e9ffaf359ef42a904ed91b981eb6813b",
-                "text": "Support for ariaLabelledBy in Timeline and TimelineItem",
-                "type": "FEATURE",
-                "references": []
-            },
-            {
-                "id": "If93c252473072b286370a7ec6295230391239f60",
-                "text": "sap.suite.ui.commons.networkgraph: Accessibility fix Unique id issue for statusiconwrapper.",
-                "type": "FIX",
-                "references": []
-            },
-            {
-                "id": "I5924bb21a86e6280ac7bdc44fd4ab7996a74624d",
-                "text": "sap.suite.ui.commons.Timeline: Show More Button missing on sort or filter.",
-                "type": "FIX",
-                "references": []
-            }
-        ]
-    },
-    "1.87.0": {
-        "date": "Feb 2021",
-        "notes": [
-            {
-                "id": "Iea3ed5dd9cb422b334776275cb694b0d4d2cf95a",
-                "text": "Use avatar instead of an image in Timeline control.",
-                "type": "FEATURE",
-                "references": []
-            },
-            {
-                "id": "Id5300a45e384c476d36fe3fddabd3971848f1e61",
-                "text": "Added support for lengthy numeric values in T accounts",
-                "type": "FEATURE",
-                "references": []
-            },
-            {
-                "id": "I9e387415e58b2ee53088aeffa8fed14a5abeca2d",
-                "text": "Fix AMD dependencies to types that are embedded in library.js.",
-                "type": "FIX",
-                "references": []
-            },
-            {
-                "id": "I3b6e8c853a79600b0eae8ff4171e43ed3398dccd",
-                "text": "sap.suite.ui.commons.Timeline: Incorrect Join condition used for aria-labelledby property.",
-                "type": "FIX",
-                "references": []
-            },
-            {
-                "id": "Id7517001eac92df1ea77903eb5bf0e0dd1938abd",
-                "text": "sap.suite.ui.commons.ChartContainer: Missing Label Open/Close Full Screen toggle button.",
-                "type": "FIX",
-                "references": []
-            }
-        ]
-    },
-    "1.94.0": {
-        "date": "Aug 2021",
-        "notes": [
-            {
-                "id": "Id38d9c7c3ffcba657183ff3896e26797258ee0f9",
-                "text": "Added maxFractionDigits for TAccount",
-                "type": "FEATURE",
-                "references": []
-            }
-        ]
-    },
-    "1.95.0": {
-        "date": "Sep 2021",
-        "notes": [
-            {
-                "id": "I93e69e23fe13706be316fd93c7a49a198ffb2f5a",
-                "text": "Support for press event on the timeline item added",
-                "type": "FEATURE",
-                "references": []
-            }
-        ]
-    },
-    "1.102.0": {
-        "date": "Aug 2022",
-        "notes": [
-            {
-                "id": "Ia26239786d258eb676dbe865bd9f6c22ff8dd22c",
-                "text": "[FIX] sap.suite.ui.commons.Timeline : Show More Button missing on sort.",
-                "type": "FIX",
-                "references": []
-            }
-        ]
-    },
-    "1.106.0": {
-        "date": "Aug 2022",
-        "notes": [
-            {
-                "id": "If41ea6c7e4bd80c988f08edbd50a456e1038d859",
-                "text": "Timeline: The visualization of IANA time zones for date/time data is now supported",
-                "type": "FEATURE",
-                "references": []
-            },
-            {
-                "id": "Ia26239786d258eb676dbe865bd9f6c22ff8dd22c",
-                "text": "[FIX] sap.suite.ui.commons.Timeline : Show More Button missing on sort.",
-                "type": "FIX",
-                "references": []
-            }
-        ]
-    },
-    "1.112.0": {
-        "date": "Feb 2023",
-        "notes": [
-            {
-                "id": "I9b70525bbf9a2629151fb2a469e68847691bf522",
-                "text": "[FIX] Avoid assertion violation in RenderManager#openEnd.",
-                "type": "FIX",
-                "references": []
-            }
-        ]
-    },
-    "1.115.0": {
-        "date": "May 2023",
-        "notes": [
-            {
-                "id": "Ia74d1d959b33eff5559af3e23bf115c5a1604514",
-                "text": "[FIX] Network Graph: Removal of zombie node whenever theme is changed.",
-                "type": "FIX",
-                "references": []
-            }
-        ]
-    },
-    "1.123.0": {
-        "date": "Mar 2024",
-        "notes": [
-            {
-                "id": "I1f9eb8151e1524141d5951b4fcb0046b75aeca92",
-                "text": "[FIX] Timeline: Reset startDate and endDate on applying null filter for Time Filter type.",
-                "type": "FIX",
-                "references": []
-            }
-        ]
-    },
     "1.124.0": {
         "date": "Apr 2024",
         "notes": [
             {
                 "id": "I764e4105de5198f5d64b4e31400b7d16c0056b85",
-                "text": "[FEATURE] We've now introduced the UploadSetwithTable plugin for Tables",
+                "text": "We've now introduced the UploadSetwithTable plugin for Tables",
                 "type": "FEATURE",
                 "references": []
             },
             {
                 "id": "I73b9e1500ec00b160e5731468647cd4c70301c68",
-                "text": "[FEATURE] We've now introduced the badge element that is used within the GenericTile control as a combination of an icon and a text",
+                "text": "We've now introduced the badge element that is used within the GenericTile control as a combination of an icon and a text",
                 "type": "FEATURE",
                 "references": []
             },
             {
                 "id": "Iae739a6f419f8981e234b95e6c50128c459d7836",
-                "text": "[FEATURE] For GenericTile, we've now updated the badge element name to Tileinfo, and also created a new enum TileInfoColor that adds color to the TileInfo element",
+                "text": "For GenericTile, we've now updated the badge element name to Tileinfo, and also created a new enum TileInfoColor that adds color to the TileInfo element",
                 "type": "FEATURE",
                 "references": []
             },
             {
                 "id": "If96a93eb7d9d1ebb2fd9c7131a36b7e0dc96b63d",
-                "text": "[FEATURE] We now support snapToRow property that sets the height of the inner controls to 100%",
+                "text": "We now support snapToRow property that sets the height of the inner controls to 100%",
                 "type": "FEATURE",
                 "references": []
             },
             {
                 "id": "I24cca6f597fc4dbd72531f9c8ffde7c5cba14ef1",
-                "text": "[FEATURE] We've have now introduced the enableDynamicHeight property for the tiles to expand dynamically when the content inside the tiles expands",
+                "text": "We've have now introduced the enableDynamicHeight property for the tiles to expand dynamically when the content inside the tiles expands",
                 "type": "FEATURE",
                 "references": []
             }
@@ -241,6 +83,28 @@
                     {
                         "type": "SNOW",
                         "reference": "DINC0169783"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.124.3": {
+        "date": "Jul 2024",
+        "notes": [
+            {
+                "id": "I5a6d1ca87fa309066be414317ac9bb053b0badb3",
+                "text": "We have now fixed the unfurling issue with the production app for share as chat",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "Ifa600416013525169081eff1f163777cee0f0df4",
+                "text": "We have now fixed unfurling issue for systems with different domain patterns",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0220878"
                     }
                 ]
             }

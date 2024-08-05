@@ -224,5 +224,25 @@
                 "text": " We now ensure that side effects are applied on radio buttons"
             }
         ]
+    },
+    "1.124.3": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "6ffda75a3bf9cb10338d8dbcd9cdb85d08db702f",
+                "type": "FIX",
+                "text": " We now ensure that columns with a defined scale are exported correctly"
+            },
+            {
+                "id": "ab12a234a21321d6ec6c5b99c27a914d3c80b324",
+                "type": "FIX",
+                "text": " The MessageButton now only displays validation errors for controls outside of a table that have validation errors and back-end errors"
+            },
+            {
+                "id": "c77de3af9dba754c6ec13bb21219d60ff9cec8ea",
+                "type": "FIX",
+                "text": "  We now avoid duplicate GET requests when a user clicks the Go button in the filter bar of a value help dialog"
+            }
+        ]
     }
 }

@@ -16502,6 +16502,59 @@
     ]
   },
   {
+    "version": "1.120.19",
+    "date": "2024.07.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.SidePanel: actionBarExpanded now works when there is only one action item"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Syncronization issue corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Correct header placement after expanded state change"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          },
+          {
+            "type": "FIX",
+            "text": " ColumnMenu: Check for container instance when setting visibility"
+          },
+          {
+            "type": "FIX",
+            "text": " We've made the subheader dynamic in the NewsContent when it is in a stretch tile"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Column: add missing check for parent Table in _onLabelPropertyChange"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.table",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " rowmodes.Auto: Height calculation with margins"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.3",
     "date": "2024.01.01",
     "libraries": [
@@ -19653,6 +19706,106 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.Calendar: is displayed correctly in RTL for two months view"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.124.3",
+    "date": "2024.07.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: Support aria-valuenow attribute"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Fix table overlapping"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: Resize issue with iframe content fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: fix SR announcements when appointments are selected with keyboard."
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: Prevent appointment selection by pressing the Tab key"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now added space between attributes and the action buttons in the ActionTile"
+          },
+          {
+            "type": "FIX",
+            "text": " We've made the subheader dynamic in the NewsContent when it is in a stretch tile"
+          },
+          {
+            "type": "FIX",
+            "text": " We've updated the event parameters for status and readystate"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RatingIndicator: Icons visual issue fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now fixed the overlap issue in GenericTile when sap.m.TileSizeBehaviour.Small was being used."
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolHeader: fixed ushell styles for Horizon theme"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " BindingInfo: Ensure that named models are only parsed once"
+          },
+          {
+            "type": "FIX",
+            "text": " ControllerExtension support for TypeScript"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.table",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " rowmodes.Auto: Height calculation with margins"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: fix SR announcements when appointments are selected with keyboard."
           }
         ]
       }
