@@ -1,0 +1,77 @@
+{
+    "1.127.0": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "b6b9013fbad849247c5ab2487496b2361654d5da",
+                "type": "FIX",
+                "text": " SmartLabel: Label is now visible when cloned reverted"
+            },
+            {
+                "id": "91651c3052e2d4639d6b6e028c3d4966762db68b",
+                "type": "FIX",
+                "text": " SmartLabel: Label is now visible when cloned"
+            },
+            {
+                "id": "b7a1a8018aee1d70357d86428d0f191322ee6141",
+                "type": "FIX",
+                "text": " FilterBar: setBasicSearch does not throw an exception when called with 'null'"
+            },
+            {
+                "id": "d2199b233484d41593aefa38332aa1aa33a1ee61",
+                "type": "FIX",
+                "text": " ValueHelpDialog: correctly resize SmartTable when Collective Search is used"
+            },
+            {
+                "id": "7de90853d9b045d98ca12df934be84f3464ee603",
+                "type": "FIX",
+                "text": " FilterController: Dependency to DateRangeType is now loaded async"
+            },
+            {
+                "id": "40cc21285a28d3d0c5ff1abdb21fd18434036739",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: enable support for SAP Companion"
+            },
+            {
+                "id": "9e0b7477b3f0edcae49a62853e375b36f50d0715",
+                "type": "FIX",
+                "text": " We've now optimised the SmartMultiInput control to render efficiently"
+            },
+            {
+                "id": "de0ff26611dd5f268c22f85580ce04e4d3522538",
+                "type": "FIX",
+                "text": " FilterBar: basicSearch should be rendered once if the SearchField controls is added in the view"
+            },
+            {
+                "id": "ee3669e6bb22ffd81b14f60767dc32acbab0b0e8",
+                "type": "FIX",
+                "text": " FilterBar: remove colon when no label is used for FilterGroupItem"
+            },
+            {
+                "id": "96cd0d723ed5b91ec00cd41f77b411c018b03602",
+                "type": "FIX",
+                "text": " SmartLabel: restore connection to SmartField"
+            },
+            {
+                "id": "32c0f16bab3f965a558b593f98f191e61967fc4d",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Table's title is now left aligned"
+            },
+            {
+                "id": "9f768a2c91352992b28c3478ddd9f3b8ef25d5ad",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct setting value of single filter field when there is validation request"
+            },
+            {
+                "id": "18c2011167cc8d64240a91ac2ed0a9c6a2f34a3e",
+                "type": "FIX",
+                "text": " FilterBar: correct layout when buttons area width is changed"
+            },
+            {
+                "id": "cfbf24ea5a00a5440a2636e446151153c868338b",
+                "type": "FIX",
+                "text": " SMI: avoiding unnecessary binding creation and control creation in onAfterRendering"
+            }
+        ]
+    }
+}

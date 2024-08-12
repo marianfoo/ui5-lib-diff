@@ -1,0 +1,72 @@
+{
+    "1.127.0": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "92dedcbf7b316c3f68de1dae92ed791757662fc3",
+                "type": "FIX",
+                "text": " We've resolved an issue where fields were not shown if a maximum annotation or a minimum annotation was used but no date annotation was used in validation"
+            },
+            {
+                "id": "b553798fbaddc1ebe4a0bf27acc3f6bf5d4ab233",
+                "type": "FIX",
+                "text": " The message strip of the list report is now recreated when the list report is reopened after going to the home page"
+            },
+            {
+                "id": "1e13b3665731582aad9e2db8fbcda5aa7c3e4e01",
+                "type": "FIX",
+                "text": " We now ensure that the bindingInfo path of the chart is correct on the object page"
+            },
+            {
+                "id": "a5a67e1af7d054e213920cdb3240743f6d069e23",
+                "type": "FIX",
+                "text": " Selection mode now works correctly in a list report with multi-entity sets"
+            },
+            {
+                "id": "d980cbe368c1fe778bf359469e0a6c4c865b95f4",
+                "type": "FEATURE",
+                "text": " We now show an illustrated message if there is no data in a chart"
+            },
+            {
+                "id": "65090d8eb484a519d8d5349f388a27519ac4adaa",
+                "type": "FIX",
+                "text": " Design-time cards can now be shared correctly using SAP Collaboration Manager"
+            },
+            {
+                "id": "8ed378b6a47ccb0a03ed233eabb34df9f2b8f691",
+                "type": "FEATURE",
+                "text": " Tables in the analytical list page now provide a Show Details link for subtotals with various units"
+            },
+            {
+                "id": "2de544329b974e32671b8d200c6a14e47a318105",
+                "type": "FEATURE",
+                "text": " We now show an illustrated message if there is no data in a table"
+            },
+            {
+                "id": "de1a798b9042f9a2e808efd15502efc8aaae0eaf",
+                "type": "FEATURE",
+                "text": " We now properly send `null` when clearing a nullable field"
+            },
+            {
+                "id": "efce9aca555f79383b71a33d71e3e8d30d419e28",
+                "type": "FIX",
+                "text": " The MessageButton now only displays validation errors for controls outside of a table that have validation errors and back-end errors"
+            },
+            {
+                "id": "7b209b6420d0a6b1ae0b4b56c389b987f3a21701",
+                "type": "FIX",
+                "text": " We now ensure that extended semantic date operators work correctly after the app is reloaded"
+            },
+            {
+                "id": "8da00c50c3eaefdf075bca27bc770e8d8f044657",
+                "type": "FEATURE",
+                "text": " We’ve now enabled the date picker with a minimum allowed date and a maximum allowed date"
+            },
+            {
+                "id": "19f6a82f5bb17e9bc5275f9eb36bf07447a8fddf",
+                "type": "FIX",
+                "text": " We've resolved an issue where the custom text defined for the empty title of the object page wasn't appearing correctly"
+            }
+        ]
+    }
+}

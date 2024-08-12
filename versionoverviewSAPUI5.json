@@ -1,12 +1,22 @@
 {
     "versions": [
         {
-            "version": "1.126.*",
-            "version_label": "1.126 (2408)",
+            "version": "1.127.*",
+            "version_label": "1.127 (2409)",
             "support": "Maintenance",
             "lts": false,
             "eom": "",
             "eocp": "",
+            "sapuiversion": "Cloud only",
+            "frontendserver": "Cloud only"
+        },
+        {
+            "version": "1.126.*",
+            "version_label": "1.126 (2408)",
+            "support": "Out of maintenance",
+            "lts": false,
+            "eom": "",
+            "eocp": "Q3/2025",
             "sapuiversion": "Cloud only",
             "frontendserver": "Cloud only"
         },
@@ -883,8 +893,12 @@
     ],
     "patches": [
         {
-            "version": "1.126.2",
+            "version": "1.127.0",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.126.2",
+            "eocp": "Q3/2025"
         },
         {
             "version": "1.126.1",
@@ -924,6 +938,10 @@
         },
         {
             "version": "1.123.1",
+            "eocp": "Q2/2025"
+        },
+        {
+            "version": "1.123.0",
             "eocp": "Q2/2025"
         },
         {
@@ -970,6 +988,10 @@
         {
             "version": "1.120.19",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.120.18",
+            "eocp": "Q3/2025"
         },
         {
             "version": "1.120.17",
@@ -1322,7 +1344,8 @@
         },
         {
             "version": "1.108.18",
-            "eocp": "Q2/2024"
+            "eocp": "Q2/2024",
+            "removed": true
         },
         {
             "version": "1.108.17",
@@ -2171,7 +2194,8 @@
         },
         {
             "version": "1.84.31",
-            "eocp": "Q1/2024"
+            "eocp": "Q1/2024",
+            "removed": true
         },
         {
             "version": "1.84.30",
@@ -2689,8 +2713,12 @@
             "removed": true
         },
         {
-            "version": "1.71.69",
+            "version": "1.71.70",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.71.69",
+            "eocp": "Q3/2025"
         },
         {
             "version": "1.71.68",
