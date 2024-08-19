@@ -198,5 +198,30 @@
                 "text": " We now ensure that side effects work correctly when the manifest setting for the object page uses a contextPath parameter"
             }
         ]
+    },
+    "1.124.4": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "6063591a7cf161da0baacf24bc8edfd7a6fe6859",
+                "type": "FIX",
+                "text": " The editFlow.editDocument method now returns a rejected promise in case of an error"
+            },
+            {
+                "id": "e3dfacbc0c7b8b50d78ef81862ac90b863b03262",
+                "type": "FIX",
+                "text": " Columns with a specific scale for a given unit of measure are now correctly exported"
+            },
+            {
+                "id": "32e8418c7df69d7529989ff742c465f48d39072e",
+                "type": "FIX",
+                "text": " The paste feature with hidden properties used as the description now works correctly"
+            },
+            {
+                "id": "881fce737556eeaf7331e02da771b4dcae2a7cd9",
+                "type": "FIX",
+                "text": " Custom filters now work correctly in the FilterBar building block"
+            }
+        ]
     }
 }

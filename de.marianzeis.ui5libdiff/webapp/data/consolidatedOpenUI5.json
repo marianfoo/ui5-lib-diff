@@ -19804,6 +19804,30 @@
     ]
   },
   {
+    "version": "1.124.4",
+    "date": "2024.08.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: adjust more link tab order"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ColumnLayout: keep breakpoint classes stable on invalidation"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.125.0",
     "date": "2024.06.01",
     "libraries": [
@@ -20393,6 +20417,350 @@
           {
             "type": "FIX",
             "text": " ControllerExtension support for TypeScript"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.127.0",
+    "date": "2024.08.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Fix table overlapping"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: Invalid resize prevented"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: Cleanup move listeners on destroy"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Syncronization issue corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: Resize issue with iframe content fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Correct header placement after expanded state change"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: add menu item selection functionality"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.DatePicker, sap.m.DateTimePicker, sap.m.DateRangeSelection: add picker accessible name"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m Input: new 'fromKeyboard' parameter is now added to the valueHelpRequest event"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.DynamicDateRange: add group type \"Data\" to value property"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: added defaultClass to the items aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: fix SR announcements when all-day appointments are selected with keyboard."
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: add value state message to mobile numeric picker"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: fix SR announcements when appointments are selected with keyboard."
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Prevent unnecessary scroll"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectNumber: remove roledescription announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SelectDialog,TableSelectDialog: Set focus to the initially focusable element after selection is reset"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendarGrid: Prevent appointment selection by pressing the Tab key"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: propagate row selection to table"
+          },
+          {
+            "type": "FIX",
+            "text": " We've made the subheader dynamic in the NewsContent when it is in a stretch tile"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: Provide additional testing control instance for the visual test"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Remove warning message when using sap.ui.core.HTML"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Change of library dependency to layout"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendarGrid: Prevent appointment selection by pressing the Tab key"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Column: add missing check for parent Table in _onLabelPropertyChange"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: Fix title / text alignment of inverted status"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectNumber: align test page example"
+          },
+          {
+            "type": "FIX",
+            "text": " Fiori20Adapter: Strengthened the check for the navigation back button"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: Dragging is no longer interrupted by selection at the same time"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: Custom footer can be reached with Shift+Tab"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Table: Announce required state of columns with 'custom' label controls"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarRow: Appointments ARIA texts are correctly translated and localized now"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now updated the event parameters for the status and readystate document types in the Uploadcompleted event of Uploadset control"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: fixed accessing inner controls with tab"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: Last and Next options title is now correctly retrieved"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: fix page disappearing when scrolling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Select: Arrow navigation issue fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: close the popover if the opener is not visible"
+          },
+          {
+            "type": "FIX",
+            "text": " GenericTile overlap happening when sap.m.TileSizeBehavior.Small is used."
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.RatingIndicator: Icons visual issue fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Page: Show footer after calling setShowFooter twice"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendarGrid: update appointment styling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: improve screen reader announcements"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.ToolHeader: fixed ushell styles for Horizon theme"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: add menu item selection functionality"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Provide base variables as custom CSS properties"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Make sap/ui/test/nextUIUpdate publically available"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.LocaleData#requestInstance: Enable synchronous instance creation"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Element: avoid 'focusfail' when the control still has focus"
+          },
+          {
+            "type": "FIX",
+            "text": " BindingInfo: Ensure that named models are only parsed once"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/dom/findTabbable: replace recursion with iteration"
+          },
+          {
+            "type": "FIX",
+            "text": " ControllerExtension support for TypeScript"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: close the popover if the opener is not visible"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.documentation",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Demokit: Remove deprecated sap.f.IllustratedMessage"
+          },
+          {
+            "type": "FIX",
+            "text": " Demokit: Replace deprecated sap.m.MessagePage"
+          },
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Entity updated"
+          },
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Correct anchor link target in API reference"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Avoid more than one WebPage card load timeout"
+          },
+          {
+            "type": "FIX",
+            "text": " Calendar controls: fixed visual glitches"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.Splitter: getFocusDomRef now returns correct DOM element"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.VerticalLayout: update documentation"
+          },
+          {
+            "type": "FIX",
+            "text": " SimpleFormDesigntime: hide propery change on inner Form"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Field: on typeahead no information about result announced"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Table: Announce required state of columns with 'custom' label controls"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: add menu item selection functionality"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: added defaultClass to the items aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: fix SR announcements when appointments are selected with keyboard."
+          },
+          {
+            "type": "FIX",
+            "text": " Calendar controls: fixed visual glitches"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarRow: Appointments ARIA texts are correctly translated and localized now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Menu: Image icon has correct size now"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: lazy loading with correct scroll pos"
           }
         ]
       }

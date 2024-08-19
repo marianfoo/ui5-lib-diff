@@ -244,5 +244,55 @@
                 "text": "  We now avoid duplicate GET requests when a user clicks the Go button in the filter bar of a value help dialog"
             }
         ]
+    },
+    "1.124.4": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "e7b8940d1709d86f82373b3e951429c544900539",
+                "type": "FIX",
+                "text": " We now add additional field binding information for fields with TextArrangement set to TextOnly, to avoid adding a field twice when using key user adaptation"
+            },
+            {
+                "id": "cc992c8b2b11f9c73ba6f0d440a7b4846edae74a",
+                "type": "FIX",
+                "text": " We now ensure that sort order works correctly for value help"
+            },
+            {
+                "id": "f7cc4f1d09b36649a720fe004da839c64fb86a0b",
+                "type": "FIX",
+                "text": " We now correctly show the column header of line items annotated as dataFieldForAnnotations"
+            },
+            {
+                "id": "98ce91e54f9ae9e35879350a52e188d672f4ee0e",
+                "type": "FIX",
+                "text": " We now ensure that MultiValueField is correctly editable in a table with the creationMode set to InlineCreationRows"
+            },
+            {
+                "id": "d932995ac31b2a9e747a5203347f6a5453d99e9e",
+                "type": "FIX",
+                "text": " We now ensure that the dropdown list loads all values"
+            },
+            {
+                "id": "09bae67c769717b107892b6ffa2545ce8ec71899",
+                "type": "FIX",
+                "text": " We now ensure that the application correctly loads the default variant with the custom operator"
+            },
+            {
+                "id": "cd566747bdf304bf53202a176ab2697ec9409cad",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where the UI.HiddenFilter annotation was not correctly applied to the chart filter option"
+            },
+            {
+                "id": "e3dfacbc0c7b8b50d78ef81862ac90b863b03262",
+                "type": "FIX",
+                "text": " Columns with a specific scale for a given unit of measure are now correctly exported"
+            },
+            {
+                "id": "881fce737556eeaf7331e02da771b4dcae2a7cd9",
+                "type": "FIX",
+                "text": " Custom filters now work correctly in the FilterBar building block"
+            }
+        ]
     }
 }
