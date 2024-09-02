@@ -534,5 +534,55 @@
                 "text": " We've now optimised the SmartMultiInput control to render efficiently"
             }
         ]
+    },
+    "1.120.20": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "da277dce9261f974ddb6885561aa9ae3b2e7184f",
+                "type": "FIX",
+                "text": " SmartField: Currency is now correctly read out when not editable"
+            },
+            {
+                "id": "866d24550d1ba6cb4e79d67a3323fd50542cf3d4",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct setting value of single filter field when there is validation request"
+            },
+            {
+                "id": "25747fd9fbd32895e5b03a194813c57c53d16b92",
+                "type": "FIX",
+                "text": " SFBMultiComboBox now updates the model when single value is passed from In parameter"
+            },
+            {
+                "id": "9b13ecbe79e96ea01fe32b76961fe78bec083a9f",
+                "type": "FIX",
+                "text": " SmartFilterBar: Non Mandatory ComboBox validation"
+            },
+            {
+                "id": "a0416016e90884235418ae02f0f3f2ef910025bb",
+                "type": "FIX",
+                "text": " SmartFilterBar: validation for ComboBox"
+            },
+            {
+                "id": "a00a39eee9eef7078536aec4be21c970f183ddd5",
+                "type": "FIX",
+                "text": " SmartLabel: Restore connection to SmartField"
+            },
+            {
+                "id": "974da72411f21959f942332806c8fa840ebda1ce",
+                "type": "FIX",
+                "text": " SmartFilterBar: validation for ComboBox performed on search",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500011101462023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500007464252023"
+                    }
+                ]
+            }
+        ]
     }
 }

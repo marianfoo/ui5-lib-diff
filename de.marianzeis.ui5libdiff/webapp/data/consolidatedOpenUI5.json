@@ -16853,6 +16853,39 @@
     ]
   },
   {
+    "version": "1.120.20",
+    "date": "2024.08.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've now introduced the fileSize parameter in fileSizeExceeded event of UploadSet"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ColumnLayout: keep breakpoint classes stable on invalidation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Table: Size of filter field in column menu"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.8",
     "date": "2024.02.01",
     "libraries": [

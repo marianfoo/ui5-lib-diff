@@ -853,5 +853,45 @@
                 "text": " We now show all the information messages that are sent as part of the back-end response for an action"
             }
         ]
+    },
+    "1.120.15": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "9d9f9cfdb11b42e3502c78097425197f6f69c1e6",
+                "type": "FIX",
+                "text": " We've resolved an issue where objects containing special characters in their names could not be deleted"
+            },
+            {
+                "id": "19f984a11acf5c97c2be1e308e9c946caa1dff5e",
+                "type": "FIX",
+                "text": " The paste feature with hidden properties used as the description now works correctly"
+            },
+            {
+                "id": "4e642530253fc123f48973b2b991ce37a16b49ce",
+                "type": "FIX",
+                "text": " The dropdown list suggested in mass edit fields with empty units and currencies now includes the value help option when available"
+            },
+            {
+                "id": "3a77edf830581df79a39056a67aad713d680ad71",
+                "type": "FIX",
+                "text": " We now correctly set the default selected item in the Mass Edit dialog when no values are available"
+            },
+            {
+                "id": "a7b9ebe1a46f744df9ea6d62e223ae9be1c430ff",
+                "type": "FIX",
+                "text": " We now correctly set the default selected item in the Mass Edit dialog"
+            },
+            {
+                "id": "b95e40d5894f7931ac9910a5ccdd5a6eb47cc2cf",
+                "type": "FIX",
+                "text": " The editFlow.editDocument method now returns a rejected promise in case of an error"
+            },
+            {
+                "id": "7ea7cb2cb09d66e8458a2b3067c61b980fc1faea",
+                "type": "FIX",
+                "text": " We now ensure that semantic object mappings are correctly applied when navigating from a DataFieldForIntentBasedNavigation using a button"
+            }
+        ]
     }
 }

@@ -778,5 +778,97 @@
                 ]
             }
         ]
+    },
+    "1.120.18": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "I9299b4e31c378ccba2ff6047c52589f666e349f8",
+                "type": "FIX",
+                "text": "We now correctly handle the 412 transient errors and display the errors in the message popup",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007800674"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.19": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "I0cc04d57a500251f24b3e144a344a75b4e2e86cc",
+                "type": "FIX",
+                "text": "We now properly handle user filter queries during inline creation on object page tables",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007779744"
+                    }
+                ]
+            },
+            {
+                "id": "I48a3957491c21c90b20b3898f69956c5492072ba",
+                "type": "FIX",
+                "text": "We now allow you to save draft messages regardless of state warnings or 412 error messages",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0202326"
+                    }
+                ]
+            },
+            {
+                "id": "I40b39fc81f15391871484d564e0b513b7163aa93",
+                "type": "FIX",
+                "text": "We've resolved an issue with the table variant state not being set correctly after the application was upgraded to a new version",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007542539"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.20": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "I23b789a798867fb60826073e06eea923d46e6a71",
+                "type": "FIX",
+                "text": "We now correctly handle the changes related to the hostname in the gateway response",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0095217"
+                    }
+                ]
+            },
+            {
+                "id": "Ia81f6e36598955103633fe49b321cd8bba30f071",
+                "type": "FIX",
+                "text": "We've improved our method to detect data loss to support nested app routes for My Inbox scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240006866907"
+                    }
+                ]
+            },
+            {
+                "id": "Idc96ff60369f1995797557690b5518f0c48b227b",
+                "type": "FIX",
+                "text": "We now correctly display the count on the dynamic tiles",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0194987"
+                    }
+                ]
+            }
+        ]
     }
 }

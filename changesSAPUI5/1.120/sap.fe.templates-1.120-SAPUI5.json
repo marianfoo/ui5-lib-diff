@@ -352,5 +352,20 @@
                 "text": " The message strip of the list report is now recreated when the list report is reopened after going to the home page"
             }
         ]
+    },
+    "1.120.15": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "642a142efb0deae6dd3da8ae1d88307d31e7149f",
+                "type": "FIX",
+                "text": " We no longer request data for actions of hidden subsections"
+            },
+            {
+                "id": "847252d461d0d270792be67bb5d4ba21381b95ef",
+                "type": "FIX",
+                "text": " We now correctly request the count of all visible tabs on the ListReport"
+            }
+        ]
     }
 }

@@ -63,5 +63,32 @@
                 ]
             }
         ]
+    },
+    "1.120.20": {
+        "date": "Aug 2024",
+        "notes": [
+            {
+                "id": "I70df64f956ddd4abc9e30b5e67dcfa237da2de10",
+                "text": "We've now added a delay in scrolling if horizontal lazy loading is enabled for any chart",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0188115"
+                    }
+                ]
+            },
+            {
+                "id": "I2c00d21a9c31c0fb65201a4418389c1c352718c4",
+                "text": "We now suppress the call of the invalidate function on setShapeSelectionMode",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008056667"
+                    }
+                ]
+            }
+        ]
     }
 }
