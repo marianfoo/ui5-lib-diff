@@ -1,0 +1,97 @@
+{
+    "1.128.0": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "c8c8aad24a2429fddabbea6ce75361f00947ad1a",
+                "type": "FIX",
+                "text": " We now show a generic delete failure message only if multiple contexts have been selected for deletion"
+            },
+            {
+                "id": "6553eaf97c6974da3e5163b0f62d004cc2573633",
+                "type": "FIX",
+                "text": " We've resolved an issue where objects containing special characters in their names could not be deleted"
+            },
+            {
+                "id": "74211d6dfdc553962e2267048f3e59939ae657a8",
+                "type": "FEATURE",
+                "text": " We now show a generic message when the item deletion fails in various scenarios"
+            },
+            {
+                "id": "2ac5dac2adb1f9b20e776f35f842646cb210aab1",
+                "type": "FEATURE",
+                "text": " We now support Core.AlternateKeys to allow app developers to force the fetching of alternate properties when loading an object page"
+            },
+            {
+                "id": "4f090fe6f1ecfe560585b84c0ca1f75ffd1efdf1",
+                "type": "FEATURE",
+                "text": " We've now increased the default column size in forms for medium and large size screens"
+            },
+            {
+                "id": "f842f6fe917a591120a5bf5dc3631f68b127adbd",
+                "type": "FIX",
+                "text": " We've resolved an issue within the flexible column layout that occurs when Edit is clicked for non-draft entities on the right panel"
+            },
+            {
+                "id": "6c3465c541ab69bf8e7de1e6c8938b49b86c9366",
+                "type": "FIX",
+                "text": " The editFlow.editDocument method now returns a rejected promise in case of an error"
+            },
+            {
+                "id": "866a4a2297e29bbfcd0d491761d1a49d3940b459",
+                "type": "FIX",
+                "text": " We now ensure that the override execution of the onPageReady method is reverted from AfterAsync to After"
+            },
+            {
+                "id": "30dc169a31292538de6c3cfa1c402663232147ac",
+                "type": "FIX",
+                "text": " We've resolved an issue that prevented the Delete button from triggering any deletion from an object page without a header's title"
+            },
+            {
+                "id": "c2238f31b1d05616c0027b976d3a0889714049bd",
+                "type": "FIX",
+                "text": " We've resolved an issue where a navigation to an empty draft entity was triggered just after the creation of a new entity"
+            },
+            {
+                "id": "6cccf2507003a7e8612e5560b01d977679a1525e",
+                "type": "FIX",
+                "text": " We've improved our documentation for the controller extensions"
+            },
+            {
+                "id": "625106b0e33cd877fc9c531739279a7386d40da2",
+                "type": "FIX",
+                "text": " We now ensure that the Share: Microsoft Teams functionality works correctly in our building blocks"
+            },
+            {
+                "id": "01c77ea74b748965c79a32e46d9709929879d0f1",
+                "type": "FIX",
+                "text": " Wrapping the content of custom columns now works correctly when exporting"
+            },
+            {
+                "id": "0fc3699c9b40bdf99e5ae55c2631271634250adc",
+                "type": "FIX",
+                "text": " The paste feature with hidden properties used as the description now works correctly"
+            },
+            {
+                "id": "5decb76f745d4898fe6f0da1e9ac476e60c535d4",
+                "type": "FIX",
+                "text": " We've resolved an issue where fields were not shown if a maximum annotation or a minimum annotation was used but no date annotation was used in validation"
+            },
+            {
+                "id": "31b3171c140cd04ee4afcb6f55db56c792cdc475",
+                "type": "FIX",
+                "text": " Columns with a specific scale for a given unit of measure are now correctly exported"
+            },
+            {
+                "id": "dab28a343a8128113cb2efa65309e27e57267950",
+                "type": "FIX",
+                "text": " We've resolved an issue with the outbound navigation for a contained entity"
+            },
+            {
+                "id": "20ddc553cf83cc9df44146e00414b481fda468ed",
+                "type": "FIX",
+                "text": " Custom filters now work correctly in the FilterBar building block"
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "1.128.0": {
+        "date": "Aug 2024",
+        "notes": [
+            {
+                "id": "I2c00d21a9c31c0fb65201a4418389c1c352718c4",
+                "text": "We now suppress the call of the invalidate function on setShapeSelectionMode",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008056667"
+                    }
+                ]
+            },
+            {
+                "id": "I74b84b695b158d63ee810c07fb87aa0ef3dcb769",
+                "text": "We've now provided certain documentation updates for print changes",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "Id627542ee914a8b6a72d78b65d38c44aab0a2212",
+                "text": "We've now provided an original JQuery event as a parameter in shapePress and shapeContextMenu event of Gantt",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "I59b90e30ced837aa1d037bfe9ef77fdcdc354b87",
+                "text": "We now ensure that the shape selection is retained while clicking on an empty space with the CTRL key, if ShapeSelectionMode is either MultiWithKeyboard or MultiWithKeyboardAndLasso",
+                "type": "FEATURE",
+                "references": []
+            }
+        ]
+    }
+}

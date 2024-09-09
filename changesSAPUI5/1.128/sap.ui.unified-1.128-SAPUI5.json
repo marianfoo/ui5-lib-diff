@@ -1,0 +1,38 @@
+{
+    "1.128.0": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "4dc6c778b81f8350b05adc1950e9b0ff85b91e3c",
+                "type": "FEATURE",
+                "text": " sap.m.PlanningCalendar and SinglePlanningCalendar: Adding the ability to repeat non-working periods"
+            },
+            {
+                "id": "45059d574a42ece60673cb9596baf65381d2d671",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: remove appointments not selected announcement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280162468"
+                    }
+                ]
+            },
+            {
+                "id": "abaddd260430a2fbf6ca499234cfe9fe0e21551c",
+                "type": "FIX",
+                "text": " sap.m.Menu, sap.ui.unified.Menu: added defaultClass to the items aggregation"
+            },
+            {
+                "id": "401dd84f359dcae3d46aa1a1bc701a4e37402ef9",
+                "type": "FIX",
+                "text": " sap.ui.unified.CalendarDateInterval: adding an accessibility test page"
+            },
+            {
+                "id": "51325f13587d2c16b6524c20ec0e5c467354e996",
+                "type": "FEATURE",
+                "text": " sap.ui.unified.RecurrenceNonWorkingPeriod: NonWorkingPeriod can be recurring"
+            }
+        ]
+    }
+}

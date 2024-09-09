@@ -1,0 +1,142 @@
+{
+    "1.128.0": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "90711760347ee1a2efed56284e8509869c647e2c",
+                "type": "FIX",
+                "text": " We now ensure that the table shown in a value help is correctly destroyed when the value help dialog is closed"
+            },
+            {
+                "id": "7d2269c6e4cd00b73a128e77eab99a0a602192e8",
+                "type": "FIX",
+                "text": " End users can now remove the columns displaying values from navigation properties that contain currency and unit properties and add the columns back using table personalization"
+            },
+            {
+                "id": "97dadde2adfa50633df16417ea722999aef45aa7",
+                "type": "FIX",
+                "text": " We now ensure that the header of building block columns is properly cached in the table personalization"
+            },
+            {
+                "id": "8d2210cea97c745853089757794f9e351c60f897",
+                "type": "FIX",
+                "text": " We now ensure that the header level for titles in the quick view is set correctly"
+            },
+            {
+                "id": "ffbddb613908801075389438ff5633e8ec95fec4",
+                "type": "FEATURE",
+                "text": " The main navigation and additional links in a quick view now provide implicit semantic object mapping"
+            },
+            {
+                "id": "2ac5dac2adb1f9b20e776f35f842646cb210aab1",
+                "type": "FEATURE",
+                "text": " We now support Core.AlternateKeys to allow app developers to force the fetching of alternate properties when loading an object page"
+            },
+            {
+                "id": "4f090fe6f1ecfe560585b84c0ca1f75ffd1efdf1",
+                "type": "FEATURE",
+                "text": " We've now increased the default column size in forms for medium and large size screens"
+            },
+            {
+                "id": "afd4c5a157fd7276cff4dd0fd2aaa2a7e8fe52be",
+                "type": "FIX",
+                "text": " We now allow overflowing of object page header buttons in small screens"
+            },
+            {
+                "id": "a030726b074f97bfec27b65102f8279b5007b8d5",
+                "type": "FIX",
+                "text": " We now ensure that the field change event name remains consistent with the public API"
+            },
+            {
+                "id": "fbc2a46f9e3c611228d282cb4cd28ac7b8d40e1e",
+                "type": "FIX",
+                "text": " We now correctly show the column header of line items annotated as dataFieldForAnnotations"
+            },
+            {
+                "id": "7398e24387d3ed6df7ab0c90a1e9192c5ffcafeb",
+                "type": "FIX",
+                "text": " We now ensure that sort order works correctly for value help"
+            },
+            {
+                "id": "e01942f7101bb5851a871379f6510f4338fc2ee4",
+                "type": "FIX",
+                "text": " We now ensure that the dropdown list loads all values"
+            },
+            {
+                "id": "79b46740f047b00aee615432dcdf48d4213b95d1",
+                "type": "FIX",
+                "text": " We now ensure that screen readers inform users when an upload file is mandatory"
+            },
+            {
+                "id": "36c8451e71ff767dc7c21667cf2bc90ce223c827",
+                "type": "FIX",
+                "text": " We've now improved the documentation for properties of the Column building block"
+            },
+            {
+                "id": "c7b68ce76237cdf788964a79f0d94e749b965e41",
+                "type": "FIX",
+                "text": " We now ensure that a link in the FileWrapper also wraps long filenames with no spaces"
+            },
+            {
+                "id": "64e174b33a834c0b5ca12964eba6734961628931",
+                "type": "FIX",
+                "text": " The mass edit functionality now works correctly when the SideEffects annotation contains an asterisk"
+            },
+            {
+                "id": "625106b0e33cd877fc9c531739279a7386d40da2",
+                "type": "FIX",
+                "text": " We now ensure that the Share: Microsoft Teams functionality works correctly in our building blocks"
+            },
+            {
+                "id": "6bd4a50c77da02b76350f06ebd21b3f3ba56fc9b",
+                "type": "FIX",
+                "text": " The enableFullScreen option now also works correctly on tables outside of an object page"
+            },
+            {
+                "id": "4d8a2caf7e76159abc29b53ca8c991a50fbb6003",
+                "type": "FIX",
+                "text": " We now correctly display the titles of form containers and form action toolbars when sending information to a section"
+            },
+            {
+                "id": "5decb76f745d4898fe6f0da1e9ac476e60c535d4",
+                "type": "FIX",
+                "text": " We've resolved an issue where fields were not shown if a maximum annotation or a minimum annotation was used but no date annotation was used in validation"
+            },
+            {
+                "id": "dc2b638df5993ae326177db46b38fdc8e4ebca2a",
+                "type": "FIX",
+                "text": " We no longer request the field description if the table is refreshed using the mass edit functionality"
+            },
+            {
+                "id": "f6a3ef46e49985e92e1e293923e71b4015cb0f5b",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where the UI.HiddenFilter annotation was not correctly applied to the chart filter option"
+            },
+            {
+                "id": "f5363da795cfb879c44a72780765bd05f0b9ab37",
+                "type": "FIX",
+                "text": " You can now clear the field values of non-string fields using the mass edit dialog"
+            },
+            {
+                "id": "31b3171c140cd04ee4afcb6f55db56c792cdc475",
+                "type": "FIX",
+                "text": " Columns with a specific scale for a given unit of measure are now correctly exported"
+            },
+            {
+                "id": "20ddc553cf83cc9df44146e00414b481fda468ed",
+                "type": "FIX",
+                "text": " Custom filters now work correctly in the FilterBar building block"
+            },
+            {
+                "id": "0d174bd33c65ff9ee24c317365eddd14c049aff7",
+                "type": "FIX",
+                "text": " We now ensure links of email addresses aren’t truncated when the screen is resized"
+            },
+            {
+                "id": "03e473ae1dda3ce0c2ae2d1fc6f1f96b931d67ea",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where the default message strip for a draft-enabled app was incorrectly displayed on the chart of an app that was not draft-enabled"
+            }
+        ]
+    }
+}

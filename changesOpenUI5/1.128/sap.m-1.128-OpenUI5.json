@@ -1,0 +1,228 @@
+{
+    "1.128.0": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "5c0f2802b28193c31ab9e8332776972ce258816e",
+                "type": "FIX",
+                "text": " sap.m.Popover: Revert some of resize handle size changes"
+            },
+            {
+                "id": "18b209edbdc8303ddcaae413358fa1cd49883f3e",
+                "type": "FIX",
+                "text": " sap.m.Popover: Improve overflow handling when there is scrollable content"
+            },
+            {
+                "id": "4990b211162222ebb16269e02755dc7e3e3c48e3",
+                "type": "FIX",
+                "text": " sap.m.ObjectNumber: adjust testing page"
+            },
+            {
+                "id": "4dc6c778b81f8350b05adc1950e9b0ff85b91e3c",
+                "type": "FEATURE",
+                "text": " sap.m.PlanningCalendar and SinglePlanningCalendar: Adding the ability to repeat non-working periods"
+            },
+            {
+                "id": "1dd0a1b834becdd51af3129f68f74a9ac55e94e3",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendarLegend: adjust accessibility semantics"
+            },
+            {
+                "id": "aff2b206719b523cd966025f531e7c7f9a297181",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: adjust accessibility semantics"
+            },
+            {
+                "id": "385edb7fc6689d65bf322dd001406b126ac91231",
+                "type": "FIX",
+                "text": " We've now removed the no data description for cases where uploadEnabled is set to false"
+            },
+            {
+                "id": "d7d235009d586647eb48280e183c32694244d4cb",
+                "type": "FIX",
+                "text": " sap.m.MessageView: Correct group headers aria attributes and count"
+            },
+            {
+                "id": "bfbd5332caf8063543f3379b5768bce0f30f6a23",
+                "type": "FIX",
+                "text": " sap.m.ObjectIdentifier: adjust internal title press handling"
+            },
+            {
+                "id": "5772485fc376eab306bdae1a0484c0c4be05ccf9",
+                "type": "FIX",
+                "text": " sap.m.Popover: Height calculations for scrollable contents are preserved after invalidation"
+            },
+            {
+                "id": "76f08310340f454e1236b94ddf808658032a45cd",
+                "type": "FEATURE",
+                "text": " sap.m.Toolbar: Keyboard arrow navigation added"
+            },
+            {
+                "id": "3fa077fa9397ecdf1e42f133d21979bd38bd2cd1",
+                "type": "FIX",
+                "text": " sap.m.MessageView: Fix failing qUNit test"
+            },
+            {
+                "id": "62655c68f8e0465b540305e76c5000e1d8cb0b62",
+                "type": "FEATURE",
+                "text": " We've now introduced the fileSize parameter in fileSizeExceeded event of UploadSet"
+            },
+            {
+                "id": "23dd0a44b50c6a63ac623f973b085a1ec3ef8ea9",
+                "type": "FEATURE",
+                "text": " CellSelector: Allow selection with Row/RowOnly"
+            },
+            {
+                "id": "61913b0b795cf76e2b5a14adf4cb6185edca4dc8",
+                "type": "FIX",
+                "text": " sap.m.Link: adjust display in a form"
+            },
+            {
+                "id": "0b3c7979c57680ac44f0d3007057ad852582ce84",
+                "type": "FEATURE",
+                "text": " sap.m.Dialog: Increase resize handle size"
+            },
+            {
+                "id": "b3d02ff877ee9285e739dc54741c5a8ee1a1c05b",
+                "type": "FEATURE",
+                "text": " sap.m.Popover: Increase resize handle size"
+            },
+            {
+                "id": "f3c28514e0a3225ef2dbedd08f03a0b92e037227",
+                "type": "FEATURE",
+                "text": " We now ensure that as per the guidelines the line-height on the linkTileContents has been set to 1.5rem"
+            },
+            {
+                "id": "45059d574a42ece60673cb9596baf65381d2d671",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: remove appointments not selected announcement",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280162468"
+                    }
+                ]
+            },
+            {
+                "id": "8a6159b2d9725df1b27075b9c96c620d01c30899",
+                "type": "FEATURE",
+                "text": " sap.m.PlanningCalendar: Drag and drop in Hours view is now with 15 minutes minimum step"
+            },
+            {
+                "id": "c88a3bfea79241db9baaa7f5f9b985bfa0082eab",
+                "type": "FIX",
+                "text": " sap.m.Link: links with empty href attribute work correctly now"
+            },
+            {
+                "id": "c321314cb48c00ca2abbf1d3d7a9c3748567d0b9",
+                "type": "FIX",
+                "text": " sap.m.Fiori20Adapter: Performance issue fixed"
+            },
+            {
+                "id": "4a493c21b9ccf0cb99253e80d985fcb93edf8eda",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: default alternative text is set for icon only statuses which icons can't be found in the Icon Registry"
+            },
+            {
+                "id": "eef373a07ce043fdd95dc97d0ee353c192bcf3be",
+                "type": "FEATURE",
+                "text": " sap.m.Link: Add icon and endIcon functionality"
+            },
+            {
+                "id": "b7847bb6b3b127469ac4484de85c7549e9555050",
+                "type": "FIX",
+                "text": " sap.m.Page: Fix failing tests"
+            },
+            {
+                "id": "b46bff7a737526803ef2c5b2d98cc272114001c9",
+                "type": "FIX",
+                "text": " sap.m.Popover: modal popover is not auto closed"
+            },
+            {
+                "id": "33ebeaf51b3065ed8758dd43a960a205124de33f",
+                "type": "FIX",
+                "text": " sap.m.ObjectNumber: ARIA in empty mode is correct now"
+            },
+            {
+                "id": "b216adc02824cb33f442c489be12021fa8f3074b",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: Text only filter line-height is fixed for Hindi"
+            },
+            {
+                "id": "2498cde5725ade9b0210647f41b31eb5126f1647",
+                "type": "FEATURE",
+                "text": " CellSelector: Shift + Click now extends the selection"
+            },
+            {
+                "id": "a75d7f48d666b5a9155608695f6c438fa9e33d2a",
+                "type": "FIX",
+                "text": " sap.m.MessageView: Update details page on model update"
+            },
+            {
+                "id": "abaddd260430a2fbf6ca499234cfe9fe0e21551c",
+                "type": "FIX",
+                "text": " sap.m.Menu, sap.ui.unified.Menu: added defaultClass to the items aggregation"
+            },
+            {
+                "id": "7fddf0f4c1abb1e4d9d283314ef6b3a85908b5fb",
+                "type": "FIX",
+                "text": " We now ensure that the height of the Selection Details popover can be adjusted without the use of custom code"
+            },
+            {
+                "id": "4e9ea14f8324b8581885a9f596b70c734697b564",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: fix SR announcements when all-day appointments are selected with keyboard."
+            },
+            {
+                "id": "41fa03a91693bad0d5f787a5eaaf615303e6cfb0",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: Icon only status has a tooltip if the provided icon / image has default one"
+            },
+            {
+                "id": "f68f7cf2ebf5cee720dba0058ed8f4992f730ab0",
+                "type": "FIX",
+                "text": " sap.m.Button: Accessible Improvement for Button test page"
+            },
+            {
+                "id": "c0034d3f3b6b2a464e3b0b0a7d112624dc0a21b5",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: Accessible Improvement for MenuButton test page"
+            },
+            {
+                "id": "c787d39737c96bc20a9a1fa8df343106ec5bc243",
+                "type": "FIX",
+                "text": " sap.m.SelectDialog,TableSelectDialog: Ensure that selection count is announced after title"
+            },
+            {
+                "id": "f83041bae6e5d78d9e166fe440325febbe681e0e",
+                "type": "FIX",
+                "text": " We've now added space between attributes and the action buttons in the ActionTile"
+            },
+            {
+                "id": "03316b4da33c69f39a7f189f0ca585cdea59c1b5",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: adjust more link tab order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380128055"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2380129002"
+                    }
+                ]
+            },
+            {
+                "id": "fe572463fcd87f9365621503d3afda321d1f0d66",
+                "type": "FIX",
+                "text": " We've now updated the tab reading order for the FeedListItem control"
+            },
+            {
+                "id": "e4a299048180369048106e6e63c82d51a516ac11",
+                "type": "FIX",
+                "text": " sap.m.DateTimeInput: Remove an accessibility test page"
+            }
+        ]
+    }
+}

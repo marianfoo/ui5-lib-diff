@@ -265,7 +265,7 @@
             }
         ]
     },
-    "1.124.3": {
+    "1.124.4": {
         "date": "July 2024",
         "notes": [
             {
@@ -276,6 +276,80 @@
                     {
                         "type": "SNOW",
                         "reference": "CS20240007779744"
+                    }
+                ]
+            },
+            {
+                "id": "I47f5a9eda8f5d35ed4e4be10bb9265b1347158d5",
+                "type": "FEATURE",
+                "text": "We now support easy filtering by allowing end users to use natural language search terms"
+            },
+            {
+                "id": "I00e14377faca45fe85cc3d25f1fb4e2962fbc83e",
+                "type": "FIX",
+                "text": "We've now enhanced the filter option in the list report applications"
+            },
+            {
+                "id": "Ia153e2e6875d0dd7f827f5e5a325bd24c8646335",
+                "type": "FIX",
+                "text": "We now pass the correct entity set for easy filters in the list report"
+            }
+        ]
+    },
+    "1.124.5": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "Ifcbcfdbd6ef4f7175684856240e016c0c7a690d7",
+                "type": "FIX",
+                "text": "We've added an easy filter on the list report page without enabling structural changes to the smart filter bar"
+            },
+            {
+                "id": "Idc96ff60369f1995797557690b5518f0c48b227b",
+                "type": "FIX",
+                "text": "We now correctly display the count on the dynamic tiles",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0194987"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.124.6": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "Ia81f6e36598955103633fe49b321cd8bba30f071",
+                "type": "FIX",
+                "text": "We've improved our method to detect data loss to support nested app routes for My Inbox scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240006866907"
+                    }
+                ]
+            },
+            {
+                "id": "I8ac63078b83221ad5ae04b945c2f6cc3298a77c0",
+                "type": "FIX",
+                "text": "We now ensure that the SubSectionEntered event handler is executed only after the completion of the object page rebind",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0210683"
+                    }
+                ]
+            },
+            {
+                "id": "I4f4dbbbfe0a53d074560916d7a4d5cd54e2b2d59",
+                "type": "FIX",
+                "text": "We now specify leadingProperty on p13nData for semantically connected columns on tables",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008238609"
                     }
                 ]
             }

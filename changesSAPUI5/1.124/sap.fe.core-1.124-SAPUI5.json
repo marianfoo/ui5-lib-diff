@@ -223,5 +223,35 @@
                 "text": " Custom filters now work correctly in the FilterBar building block"
             }
         ]
+    },
+    "1.124.5": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "fa39f1c4c5c45e171c5ae1e7fd6b0875bf72e149",
+                "type": "FIX",
+                "text": " We've resolved an issue with adding a filter field at runtime"
+            },
+            {
+                "id": "3e7b56c3bb3ccd8349dfb22df1c281920b46cf5c",
+                "type": "FIX",
+                "text": " We've resolved an issue where objects containing special characters in their names could not be deleted"
+            },
+            {
+                "id": "80078c28563230e9f67acc6b8b4475b916ac4972",
+                "type": "FIX",
+                "text": " Custom filters now work correctly without a context path"
+            },
+            {
+                "id": "84be67e1baf39f8538c020b295e2183d2513ccb5",
+                "type": "FIX",
+                "text": " We've resolved an issue within the flexible column layout that occurs when Edit is clicked for non-draft entities on the right panel"
+            },
+            {
+                "id": "1539c81226c0f872b4e17573fb3f01eb1e0d51be",
+                "type": "FIX",
+                "text": " We no longer show the subsections that are dynamically invisible on the anchor bar of the object page"
+            }
+        ]
     }
 }

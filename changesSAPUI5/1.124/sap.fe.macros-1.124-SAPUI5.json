@@ -294,5 +294,30 @@
                 "text": " Custom filters now work correctly in the FilterBar building block"
             }
         ]
+    },
+    "1.124.5": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "403026fd3fc7060fc2eb4cc66d1b6bc9568662df",
+                "type": "FIX",
+                "text": " We now allow overflowing of object page header buttons in small screens"
+            },
+            {
+                "id": "fa39f1c4c5c45e171c5ae1e7fd6b0875bf72e149",
+                "type": "FIX",
+                "text": " We've resolved an issue with adding a filter field at runtime"
+            },
+            {
+                "id": "80078c28563230e9f67acc6b8b4475b916ac4972",
+                "type": "FIX",
+                "text": " Custom filters now work correctly without a context path"
+            },
+            {
+                "id": "1efc5d1c80a5d51e4ec361a77faf880e7d4cb5bb",
+                "type": "FIX",
+                "text": " End users can now remove the columns displaying values from navigation properties that contain currency and unit properties and add the columns back using table personalization"
+            }
+        ]
     }
 }

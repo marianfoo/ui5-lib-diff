@@ -13644,7 +13644,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui#getCore] Please require 'sap/ui/core/Core' instead and use the module export directly without using 'new'.\""
+            "text": "[sap.ui#getCore] Please require 'sap/ui/core/Core' instead and use the module export directly without using 'new'."
           }
         ]
       }
@@ -14379,7 +14379,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#setThemeRoot] without replacement. The need to define the location for a theme should be fully covered with the capabiltites of the {@link sap/base/config base configuration}."
+            "text": "[sap.ui.core.Core#setThemeRoot] without replacement. The need to define the location for a theme should be fully covered with the capabilities of the {@link sap/base/config base configuration}."
           },
           {
             "type": "DEPRECATED",
@@ -15274,7 +15274,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#getConfiguration] Please see {@link sap.ui.core.Configuration Configuration} for the corrsponding replacements."
+            "text": "[sap.ui.core.Core#getConfiguration] Please see {@link sap.ui.core.Configuration Configuration} for the corresponding replacements."
           },
           {
             "type": "DEPRECATED",
@@ -15290,7 +15290,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.MessageType#undefined] Please use {@link sap.ui.core.message.MessageType} instead."
+            "text": "[sap.ui.core.MessageType#undefined] Please use {@link module:sap/ui/core/message/MessageType} instead."
           },
           {
             "type": "DEPRECATED",
@@ -15346,11 +15346,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.mdc.valuehelp.base.FilterableListContent#getFilterFields] please see <code>{@link module:sap/ui/mdc/ValueHelpDelegate.isSearchSupported isSearchSupported}</code>"
+            "text": "[sap.ui.mdc.valuehelp.base.FilterableListContent#getFilterFields] replaced by {@link module:sap/ui/mdc/ValueHelpDelegate.isSearchSupported isSearchSupported}"
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.mdc.valuehelp.base.FilterableListContent#setFilterFields] please see <code>{@link module:sap/ui/mdc/ValueHelpDelegate.isSearchSupported isSearchSupported}</code>"
+            "text": "[sap.ui.mdc.valuehelp.base.FilterableListContent#setFilterFields] replaced by {@link module:sap/ui/mdc/ValueHelpDelegate.isSearchSupported isSearchSupported}"
           },
           {
             "type": "DEPRECATED",
@@ -19861,6 +19861,42 @@
     ]
   },
   {
+    "version": "1.124.5",
+    "date": "2024.09.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.ViewSettingsDialog: fixed \"select all\" checkbox positioning"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.OverflowToolbar: Implement onfocusfail logic\""
+          },
+          {
+            "type": "FIX",
+            "text": " We've now introduced the fileSize parameter in fileSizeExceeded event of UploadSet"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Adjust link in sap.ui.core.MessageType documentation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core: handle focus properly when disabling"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.125.0",
     "date": "2024.06.01",
     "libraries": [
@@ -20794,6 +20830,366 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageLayout: lazy loading with correct scroll pos"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.128.0",
+    "date": "2024.09.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.f.CardBase: Introduced CardBadgeCustomData"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.f.FlexibleColumnLayout: New layoutData introduced"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.f.FlexibleColumnLayout: Support aria-valuenow attribute"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.SidePanel: icon with empty src is not rendered in the expanded side content"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.PlanningCalendar and SinglePlanningCalendar: Adding the ability to repeat non-working periods"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Toolbar: Keyboard arrow navigation added"
+          },
+          {
+            "type": "FEATURE",
+            "text": " We've now introduced the fileSize parameter in fileSizeExceeded event of UploadSet"
+          },
+          {
+            "type": "FEATURE",
+            "text": " CellSelector: Allow selection with Row/RowOnly"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Dialog: Increase resize handle size"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Popover: Increase resize handle size"
+          },
+          {
+            "type": "FEATURE",
+            "text": " We now ensure that as per the guidelines the line-height on the linkTileContents has been set to 1.5rem"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.PlanningCalendar: Drag and drop in Hours view is now with 15 minutes minimum step"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Link: Add icon and endIcon functionality"
+          },
+          {
+            "type": "FEATURE",
+            "text": " CellSelector: Shift + Click now extends the selection"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Revert some of resize handle size changes"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Improve overflow handling when there is scrollable content"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectNumber: adjust testing page"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendarLegend: adjust accessibility semantics"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: adjust accessibility semantics"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now removed the no data description for cases where uploadEnabled is set to false"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MessageView: Correct group headers aria attributes and count"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectIdentifier: adjust internal title press handling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Height calculations for scrollable contents are preserved after invalidation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MessageView: Fix failing qUNit test"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: adjust display in a form"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: remove appointments not selected announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: links with empty href attribute work correctly now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Fiori20Adapter: Performance issue fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: default alternative text is set for icon only statuses which icons can't be found in the Icon Registry"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Page: Fix failing tests"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: modal popover is not auto closed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectNumber: ARIA in empty mode is correct now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Text only filter line-height is fixed for Hindi"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MessageView: Update details page on model update"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: added defaultClass to the items aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " We now ensure that the height of the Selection Details popover can be adjusted without the use of custom code"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: fix SR announcements when all-day appointments are selected with keyboard."
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: Icon only status has a tooltip if the provided icon / image has default one"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: Accessible Improvement for Button test page"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: Accessible Improvement for MenuButton test page"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SelectDialog,TableSelectDialog: Ensure that selection count is announced after title"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now added space between attributes and the action buttons in the ActionTile"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: adjust more link tab order"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now updated the tab reading order for the FeedListItem control"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimeInput: Remove an accessibility test page"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Adjust link in sap.ui.core.MessageType documentation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v2.ODataTreeBinding#_loadCompleteTreeWithAnnotations: read all data in \"Client\" mode"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.model.odata.v4.AnnotationHelper: DoNotCheckScaleOfMeasuredQuantity"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.documentation",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Fix query parameter only for documentation"
+          },
+          {
+            "type": "FIX",
+            "text": " Demokit: Remove deprecated sap.f.IllustratedMessage"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.f.CardBase: Introduced CardBadgeCustomData"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Dialog: Increase resize handle size"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Integration Cards: Add fallbackSrc to images in Object cards"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: The text of the Object Status is aligned vertically with the icon"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.ResponsiveFlowLayout: adding an accessibility test page"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.form.ResponsiveGridLayout: fix JSDoc links to sap.ui.layout.GridData"
+          },
+          {
+            "type": "FIX",
+            "text": " ColumnLayout: keep breakpoint classes stable on invalidation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Operator: do not use Messagebundle to check if a text exist"
+          },
+          {
+            "type": "FIX",
+            "text": " Field: wrong icon for default value help"
+          },
+          {
+            "type": "FIX",
+            "text": " ValueHelp: wrong input still shown on reopen"
+          },
+          {
+            "type": "FIX",
+            "text": " ValueHelp: Screenreader announces \"has Dialog\" on Tokenizer"
+          },
+          {
+            "type": "FIX",
+            "text": " FieldBase: Typeahead opens too if Dialog opens"
+          },
+          {
+            "type": "FIX",
+            "text": " Table: Size of filter field in column menu"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.table",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " rowmodes.Auto: Height calculation with margins"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.PlanningCalendar and SinglePlanningCalendar: Adding the ability to repeat non-working periods"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.unified.RecurrenceNonWorkingPeriod: NonWorkingPeriod can be recurring"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: remove appointments not selected announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: added defaultClass to the items aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarDateInterval: adding an accessibility test page"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayoutABHelper: Address SyntaxError"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageHeaderContent: correct box-shadow styles"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayoutABHelper: Address SyntaxError"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: CSS issue for sap_hcb corected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxpa.ObjectPageSubSection: Improved key handling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: lazyloading with content size update"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageHeader: fix duplicated buttons"
           }
         ]
       }
@@ -70883,7 +71279,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui#jsview] Use {@link sap.ui.core.mvc.View.extend View.extend} to define the view class and {@link sap.ui.core.mvc.View.create View.create} to create view instances"
+            "text": "[sap.ui#jsview] Instead use {@link topic:e6bb33d076dc4f23be50c082c271b9f0 Typed Views} by defining the view class with {@link sap.ui.core.mvc.View.extend View.extend} and creating the view instances with {@link sap.ui.core.mvc.View.create View.create}."
           },
           {
             "type": "DEPRECATED",
@@ -86077,11 +86473,11 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#registerPlugin] Plugins never have been meant as a public offering, but were intended for internal usage only. They unfortunately allow access to all internals of the Core and therefore break encapsulation and hinder evolution of the Core. The most common use case of accessing the set of all controls/elements or all components can now be addressed by using the APIs {@link sap.ui.core.Element.registry} or {@link sap.ui.core.Component.registry}, respectively. Future refactorings of the Core will only take existing plugins in the OpenUI5 repository into account."
+            "text": "[sap.ui.core.Core#registerPlugin] Plugins never have been meant as a public offering, but were intended for internal usage only. They unfortunately allow access to all internals of the Core and therefore break encapsulation and hinder evolution of the Core. The most common use case of accessing the set of all controls/elements or all components can now be addressed by using the APIs {@link sap.ui.core.Element.registry} or {@link sap.ui.core.Component.registry}, respectively. Future refactoring of the Core will only take existing plugins in the OpenUI5 repository into account."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Core#unregisterPlugin] Plugins never have been meant as a public offering, but were intended for internal usage only. They unfortunately allow access to all internals of the Core and therefore break encapsulation and hinder evolution of the Core. The most common use case of accessing the set of all controls/elements or all components can now be addressed by using the APIs {@link sap.ui.core.Element.registry} or {@link sap.ui.core.Component.registry}, respectively. Future refactorings of the Core will only take existing plugins in the OpenUI5 repository into account."
+            "text": "[sap.ui.core.Core#unregisterPlugin] Plugins never have been meant as a public offering, but were intended for internal usage only. They unfortunately allow access to all internals of the Core and therefore break encapsulation and hinder evolution of the Core. The most common use case of accessing the set of all controls/elements or all components can now be addressed by using the APIs {@link sap.ui.core.Element.registry} or {@link sap.ui.core.Component.registry}, respectively. Future refactoring of the Core will only take existing plugins in the OpenUI5 repository into account."
           },
           {
             "type": "DEPRECATED",

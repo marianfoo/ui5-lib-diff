@@ -119,5 +119,30 @@
                 "text": " The MessageButton now only displays validation errors for controls outside of a table that have validation errors and back-end errors"
             }
         ]
+    },
+    "1.124.5": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "403026fd3fc7060fc2eb4cc66d1b6bc9568662df",
+                "type": "FIX",
+                "text": " We now allow overflowing of object page header buttons in small screens"
+            },
+            {
+                "id": "fa39f1c4c5c45e171c5ae1e7fd6b0875bf72e149",
+                "type": "FIX",
+                "text": " We've resolved an issue with adding a filter field at runtime"
+            },
+            {
+                "id": "cc7db58e46936881c68c83143c5aaeccaa6e7b1f",
+                "type": "FIX",
+                "text": " We no longer request data for actions of hidden subsections"
+            },
+            {
+                "id": "1539c81226c0f872b4e17573fb3f01eb1e0d51be",
+                "type": "FIX",
+                "text": " We no longer show the subsections that are dynamically invisible on the anchor bar of the object page"
+            }
+        ]
     }
 }

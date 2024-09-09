@@ -68,5 +68,43 @@
                 ]
             }
         ]
+    },
+    "1.124.5": {
+        "date": "Sept 2024",
+        "notes": [
+            {
+                "id": "I724cb531bad20be5f5164c2dd0bd0a337aa6a0a4",
+                "text": "We've now modified AggregationUtils method to avoid considering dragDropConfig as a shape aggregation of row settings",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008091426"
+                    }
+                ]
+            },
+            {
+                "id": "I1170030088710a6d9780238c7b3bc77b7fd73edb",
+                "type": "FIX",
+                "text": "We now retain the selection of a shape in Gantt chart irrespective of the row index",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008222755"
+                    }
+                ]
+            },
+            {
+                "id": "I3fcd035ac6413244306fa6d985cfaa5b83989201",
+                "type": "FIX",
+                "text": "We now ensure that the unused orphaned connector instances are destroyed correctly in cases where the related shapes are not visible",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008126356"
+                    }
+                ]
+            }
+        ]
     }
 }

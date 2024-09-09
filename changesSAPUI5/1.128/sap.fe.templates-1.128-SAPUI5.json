@@ -1,0 +1,47 @@
+{
+    "1.128.0": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "74211d6dfdc553962e2267048f3e59939ae657a8",
+                "type": "FEATURE",
+                "text": " We now show a generic message when the item deletion fails in various scenarios"
+            },
+            {
+                "id": "ac93cdd1e67d2068a437ff42527b2cb67c6cffe4",
+                "type": "FIX",
+                "text": " We no longer request data for actions of hidden subsections"
+            },
+            {
+                "id": "2ac5dac2adb1f9b20e776f35f842646cb210aab1",
+                "type": "FEATURE",
+                "text": " We now support Core.AlternateKeys to allow app developers to force the fetching of alternate properties when loading an object page"
+            },
+            {
+                "id": "afd4c5a157fd7276cff4dd0fd2aaa2a7e8fe52be",
+                "type": "FIX",
+                "text": " We now allow overflowing of object page header buttons in small screens"
+            },
+            {
+                "id": "bde5cbc2da95f0c5dbce17db6ae68a1b4ee58626",
+                "type": "FIX",
+                "text": " We've now provided a detailed description of the setAsSectionTitleOwner ExtensionAPI"
+            },
+            {
+                "id": "30dc169a31292538de6c3cfa1c402663232147ac",
+                "type": "FIX",
+                "text": " We've resolved an issue that prevented the Delete button from triggering any deletion from an object page without a header's title"
+            },
+            {
+                "id": "5decb76f745d4898fe6f0da1e9ac476e60c535d4",
+                "type": "FIX",
+                "text": " We've resolved an issue where fields were not shown if a maximum annotation or a minimum annotation was used but no date annotation was used in validation"
+            },
+            {
+                "id": "0440978a8fec73db7d495f6a4f8b76c854312d54",
+                "type": "FIX",
+                "text": " The message strip of the list report is now recreated when the list report is reopened after going to the home page"
+            }
+        ]
+    }
+}

@@ -113,5 +113,40 @@
                 "text": " We've resolved an issue where the custom text defined for the empty title of the object page wasn't appearing correctly"
             }
         ]
+    },
+    "1.127.1": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "faf07c4d55813816e404b57100f883704dd1dd35",
+                "type": "FIX",
+                "text": " We've resolved an issue with adding a filter field at runtime"
+            },
+            {
+                "id": "67fc907f2d226a9061166a25327269987f02be51",
+                "type": "FIX",
+                "text": " We've resolved an issue where objects containing special characters in their names could not be deleted"
+            },
+            {
+                "id": "7db5ad9b6306ea5bb18dd22c0b45c11672d2dbc9",
+                "type": "FIX",
+                "text": " We've resolved an issue within the flexible column layout that occurs when Edit is clicked for non-draft entities on the right panel"
+            },
+            {
+                "id": "40ab86f5e6badb2a4c45e75c5d125802d90c137b",
+                "type": "FIX",
+                "text": " We now ensure that the override execution of the onPageReady method is reverted from AfterAsync to After"
+            },
+            {
+                "id": "661cd2cab6f0efead4cc9d03f1389cac15cd8bab",
+                "type": "FIX",
+                "text": " We've resolved an issue that prevented the Delete button from triggering any deletion from an object page without a header's title"
+            },
+            {
+                "id": "aeab9fbfaec79bc868e2b1cb31118e4398c4824b",
+                "type": "FIX",
+                "text": " The editFlow.editDocument method now returns a rejected promise in case of an error"
+            }
+        ]
     }
 }

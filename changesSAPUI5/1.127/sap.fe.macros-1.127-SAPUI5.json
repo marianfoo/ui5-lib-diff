@@ -143,5 +143,35 @@
                 "text": " We now ensure that unselected quick filter counts are correctly updated when an object page is open in flexible column layout mode"
             }
         ]
+    },
+    "1.127.1": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "faf07c4d55813816e404b57100f883704dd1dd35",
+                "type": "FIX",
+                "text": " We've resolved an issue with adding a filter field at runtime"
+            },
+            {
+                "id": "6108146e621cbd805f94ef12c2c9f659eaded5a2",
+                "type": "FIX",
+                "text": " We now merge the subsection title with the collection facet if the section title is empty"
+            },
+            {
+                "id": "2934b5dfe832afd8fe8b599bada799633c4e2c3c",
+                "type": "FIX",
+                "text": " We now ensure that the application correctly loads the default variant with the custom operator"
+            },
+            {
+                "id": "f15efbf1f2319c9ad654b6fbe9366a2853cbac82",
+                "type": "FIX",
+                "text": " We now correctly show the column header of line items annotated as dataFieldForAnnotations"
+            },
+            {
+                "id": "4f524611d9feca0c68dd1808b7e65c00924bddf3",
+                "type": "FIX",
+                "text": " We now ensure that the dropdown list loads all values"
+            }
+        ]
     }
 }

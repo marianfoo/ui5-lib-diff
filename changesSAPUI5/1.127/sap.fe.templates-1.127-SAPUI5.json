@@ -68,5 +68,30 @@
                 "text": " We've resolved an issue where the custom text defined for the empty title of the object page wasn't appearing correctly"
             }
         ]
+    },
+    "1.127.1": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "faf07c4d55813816e404b57100f883704dd1dd35",
+                "type": "FIX",
+                "text": " We've resolved an issue with adding a filter field at runtime"
+            },
+            {
+                "id": "89d610b3c53d89021f7617201df9ddebab3b945b",
+                "type": "FIX",
+                "text": " We no longer request data for actions of hidden subsections"
+            },
+            {
+                "id": "40ab86f5e6badb2a4c45e75c5d125802d90c137b",
+                "type": "FIX",
+                "text": " We now ensure that the override execution of the onPageReady method is reverted from AfterAsync to After"
+            },
+            {
+                "id": "661cd2cab6f0efead4cc9d03f1389cac15cd8bab",
+                "type": "FIX",
+                "text": " We've resolved an issue that prevented the Delete button from triggering any deletion from an object page without a header's title"
+            }
+        ]
     }
 }
