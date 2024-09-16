@@ -1349,5 +1349,20 @@
                 "text": " We now request messages when the manifest setting uses a contextPath parameter"
             }
         ]
+    },
+    "1.108.26": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "9baba78b06ae15b1a6d78598e4714b90362be906",
+                "type": "FIX",
+                "text": " The value help's type-ahead functionality now works as expected when the initial automatic focus is put on a field directly after a user created a new table row"
+            },
+            {
+                "id": "bbbf91505a0502148ef0cae9d18d582a5a175594",
+                "type": "FIX",
+                "text": " The editFlow.editDocument method now returns a rejected promise in case of an error"
+            }
+        ]
     }
 }

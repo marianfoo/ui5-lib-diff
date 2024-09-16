@@ -34,6 +34,13 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.23&amp;versionTo=1.108.24</guid>
 </item>
 <item>
+<title>Version 1.108.26 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.25&amp;versionTo=1.108.26</link>
+<pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.108.26</h2><ul><li><strong>Library: sap.fe.core</strong><ul><li>Type: FIX, Description:  The value help&apos;s type-ahead functionality now works as expected when the initial automatic focus is put on a field directly after a user created a new table row</li><li>Type: FIX, Description:  The editFlow.editDocument method now returns a rejected promise in case of an error</li></ul></li><li><strong>Library: sap.fe.macros</strong><ul><li>Type: FIX, Description:  We&apos;ve now fixed an issue that occurred while navigating from a quick view to another app, where the semantic object mappings are not applied</li></ul></li><li><strong>Library: sap.fe.templates</strong><ul><li>Type: FIX, Description:  We&apos;ve now fixed an issue that occurred while navigating from a quick view to another app, where the semantic object mappings are not applied</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We&apos;ve introduced the isTrustedSource property as a security enhancement for the PDFViewer control as detailed in the API reference</li><li>Type: FIX, Description:  sap.m.MultiInput: Escape text value when creating tokens with validator</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  SmartField: Initialise event is now fired after metadata initialization</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.25&amp;versionTo=1.108.26</guid>
+</item>
+<item>
 <title>Version 1.108.28 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.27&amp;versionTo=1.108.28</link>
 <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
@@ -48,11 +55,25 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.29&amp;versionTo=1.108.30</guid>
 </item>
 <item>
+<title>Version 1.108.34 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.33&amp;versionTo=1.108.34</link>
+<pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.108.34</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.IconTabBar: Content padding classes are applied to the header if additional class is present</li><li>Type: FIX, Description:  sap.m.MenuButton: buttons in split mode have separate tooltips</li><li>Type: FIX, Description:  sap.m.ObjectNumber: remove roledescription announcement</li><li>Type: FIX, Description:  sap.m.Carousel: fix page disappearing when scrolling</li><li>Type: FIX, Description:  sap.m.ProgressIndicator: Visual misalignment of percent value fixed</li><li>Type: FIX, Description:  sap.m.Fiori20Adapter: Performance issue fixed</li><li>Type: FIX, Description:  sap.m.DatePicker: adjust value help icon settings</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We now retain the page variant correctly during external navigation</li><li>Type: FIX, Description: We&apos;ve now enhanced the focus handling logic for non-draft apps</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  SmartFilterBar: correct setting value of single filter field when there is validation request</li><li>Type: FIX, Description:  SmartLabel: Restore connection to SmartField</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  ResourceModel: Fix bundle reload after localizationChange</li></ul></li><li><strong>Library: sap.ui.export</strong><ul><li>Type: FIX, Description:  PDF Export - Apply limit</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.33&amp;versionTo=1.108.34</guid>
+</item>
+<item>
 <title>Version 1.108.33 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.32&amp;versionTo=1.108.33</link>
 <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.108.33</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We are now retaining the semantic date value correctly in the user defined variant on the analytical list page</li><li>Type: FIX, Description: We now ensure that &apos;modifyStartupExtension&apos; changes in the filter bar are retained post refresh</li><li>Type: FIX, Description: We&apos;ve now fixed the issue of setting the page variant dirty when switching between the variants on the list report page</li><li>Type: FIX, Description: We now avoid making the page variant dirty during external navigation scenarios</li><li>Type: FIX, Description: We&apos;ve now fixed the issue with the chart selection in smart chart on the analytical list page</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  SmartLabel: restore connection to SmartField</li><li>Type: FIX, Description:  PersonalizationController: restore fixedColumnCount</li><li>Type: FIX, Description:  ValueListProvider: ComboBox valueState is now correctly reset</li><li>Type: FIX, Description:  comp.SmartVariantManagement: wait for translation finishing</li></ul></li><li><strong>Library: sap.ui.export</strong><ul><li>Type: FIX, Description:  Improve PDF export error handling</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.32&amp;versionTo=1.108.33</guid>
+</item>
+<item>
+<title>Version 1.108.35 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.34&amp;versionTo=1.108.35</link>
+<pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.108.35</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve now updated the code to accommodate the changes related to the hostname in the response from the gateway</li><li>Type: FIX, Description: We&apos;ve now enhanced the method for detecting data loss to support nested app routes in My Inbox scenarios</li><li>Type: FIX, Description: We&apos;ve now enhanced the logic that allows access to the multiselection plug-in for the UI tables</li><li>Type: FIX, Description: We now correctly retrieve the table and prepare paging information when switching between the subobject items</li><li>Type: FIX, Description: We no longer consider the URL parameter, save-appvar-id, when initiating the app</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.34&amp;versionTo=1.108.35</guid>
 </item>
 <item>
 <title>Version 1.108.32 Changes</title>

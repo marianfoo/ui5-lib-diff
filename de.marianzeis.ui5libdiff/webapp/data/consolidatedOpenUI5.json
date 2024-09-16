@@ -7615,6 +7615,54 @@
     ]
   },
   {
+    "version": "1.108.34",
+    "date": "2024.09.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Content padding classes are applied to the header if additional class is present"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: buttons in split mode have separate tooltips"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectNumber: remove roledescription announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: fix page disappearing when scrolling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ProgressIndicator: Visual misalignment of percent value fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Fiori20Adapter: Performance issue fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DatePicker: adjust value help icon settings"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ResourceModel: Fix bundle reload after localizationChange"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.109.0",
     "date": "2022.11.01",
     "libraries": [

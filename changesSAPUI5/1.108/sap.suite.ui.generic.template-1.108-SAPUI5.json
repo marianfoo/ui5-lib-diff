@@ -968,5 +968,92 @@
                 ]
             }
         ]
+    },
+    "1.108.34": {
+        "date": "July 2024",
+        "notes": [
+            {
+                "id": "I8cd69c7d0968c51f25c3b97ad858f8150a1e63af",
+                "type": "FIX",
+                "text": "We now retain the page variant correctly during external navigation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007813946"
+                    }
+                ]
+            },
+            {
+                "id": "I5328bb117f6f1a2a55a360fc0c9c2f20342bf8b9",
+                "type": "FIX",
+                "text": "We've now enhanced the focus handling logic for non-draft apps",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270174921"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.108.35": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "I23b789a798867fb60826073e06eea923d46e6a71",
+                "type": "FIX",
+                "text": "We've now updated the code to accommodate the changes related to the hostname in the response from the gateway",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0095217"
+                    }
+                ]
+            },
+            {
+                "id": "Ia81f6e36598955103633fe49b321cd8bba30f071",
+                "type": "FIX",
+                "text": "We've now enhanced the method for detecting data loss to support nested app routes in My Inbox scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240006866907"
+                    }
+                ]
+            },
+            {
+                "id": "I7c907b0db1e9948981b1d90eb542ee0a408d4828",
+                "type": "FIX",
+                "text": "We've now enhanced the logic that allows access to the multiselection plug-in for the UI tables",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008188054"
+                    }
+                ]
+            },
+            {
+                "id": "Ic10a7bfea0868588ee1dfed017250aa704233174",
+                "type": "FIX",
+                "text": "We now correctly retrieve the table and prepare paging information when switching between the subobject items",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007165088"
+                    }
+                ]
+            },
+            {
+                "id": "Iad102f0f181cec0d132f04100b3b8d3cfe24db67",
+                "type": "FIX",
+                "text": "We no longer consider the URL parameter, save-appvar-id, when initiating the app",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007046006"
+                    }
+                ]
+            }
+        ]
     }
 }
