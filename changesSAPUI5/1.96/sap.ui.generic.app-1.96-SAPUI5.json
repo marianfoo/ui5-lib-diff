@@ -19,5 +19,48 @@
                 ]
             }
         ]
+    },
+    "1.96.33": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "Ie6a7487315838414406f3cd3675c438ba109c826",
+                "type": "FIX",
+                "text": "We've now fixed the errors that were occurring during the function import action due to additional metadata property",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170285661"
+                    }
+                ]
+            },
+            {
+                "id": "Ia74058d633d7f639ca06034a4bbaacd0ad97468b",
+                "type": "FIX",
+                "text": "We now prevent the reset of value state in smart field",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280071966"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.35": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "I1233c39471f29a3d203bcb969af125b071504c98",
+                "type": "FIX",
+                "text": "We now fix the performance issue while executing an action against multiple contexts",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007512344"
+                    }
+                ]
+            }
+        ]
     }
 }

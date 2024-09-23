@@ -7663,6 +7663,34 @@
     ]
   },
   {
+    "version": "1.108.35",
+    "date": "2024.09.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Height calculations for scrollable contents are preserved after invalidation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/resource/ResourceModel#_handleLocalizationChange: wait for resource bundle to be loaded"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/v2/ODataListBinding: fire dataReceived event for aborted requests"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.109.0",
     "date": "2022.11.01",
     "libraries": [
@@ -19945,6 +19973,47 @@
     ]
   },
   {
+    "version": "1.124.6",
+    "date": "2024.09.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We now ensure that UploadSet does not insert or removes any item if they are bound to a model"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: fix page disappearing when scrolling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Content padding classes are applied to the header if additional class is present"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/v2/ODataListBinding: fire dataReceived event for aborted requests"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Calendar with two months in one column is displayed correctly now"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.125.0",
     "date": "2024.06.01",
     "libraries": [
@@ -20878,6 +20947,56 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageLayout: lazy loading with correct scroll pos"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.127.1",
+    "date": "2024.09.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Content padding classes are applied to the header if additional class is present"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ViewSettingsDialog: fixed \"select all\" checkbox positioning"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Page: Fix failing tests"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/v2/ODataListBinding: fire dataReceived event for aborted requests"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ColumnLayout: keep breakpoint classes stable on invalidation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Calendar with two months in one column is displayed correctly now"
           }
         ]
       }
@@ -100458,6 +100577,56 @@
     ]
   },
   {
+    "version": "1.96.33",
+    "date": "2024.09.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Syncronization issue corrected"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: buttons in split mode have separate tooltips"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Fiori20Adapter: Performance issue fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.commons",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ResourceModel: Fix bundle reload after localizationChange"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.96.1",
     "date": "2021.11.01",
     "libraries": [
@@ -101424,6 +101593,21 @@
           {
             "type": "FIX",
             "text": " sap.ui.core.format.DateFormat.qunit: Fix flaky tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.96.34",
+    "date": "2024.09.01",
+    "libraries": [
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/resource/ResourceModel#_handleLocalizationChange: wait for resource bundle to be loaded"
           }
         ]
       }

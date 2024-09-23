@@ -148,5 +148,20 @@
                 "text": " The editFlow.editDocument method now returns a rejected promise in case of an error"
             }
         ]
+    },
+    "1.127.2": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "10a384a4ea11e9b43791c538654d0a81844fc777",
+                "type": "FIX",
+                "text": " We now ensure that the Go button is also triggered when users navigate back to the app"
+            },
+            {
+                "id": "0766c4f987046513fa09b343505cb14cf9ae433d",
+                "type": "FIX",
+                "text": " We now ensure that embedded BTP applications open correctly in a new browser tab when navigating from the table context menu"
+            }
+        ]
     }
 }

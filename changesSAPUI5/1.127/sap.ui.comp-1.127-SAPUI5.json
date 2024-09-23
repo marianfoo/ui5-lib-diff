@@ -73,5 +73,30 @@
                 "text": " SMI: avoiding unnecessary binding creation and control creation in onAfterRendering"
             }
         ]
+    },
+    "1.127.1": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "2d9a37539c4148544f0dc24304b2294f1a0a60e9",
+                "type": "FIX",
+                "text": " ValueHelpDialog: remove description column if descriptionOnly or idOnly is used for the key"
+            },
+            {
+                "id": "afc2d29c619e26cb041ed3fae2b26ef6c478d8cf",
+                "type": "FIX",
+                "text": " SmartLabel: restore connection to SmartField reverted"
+            },
+            {
+                "id": "811bce7252046cc7c195bf0c40dcb400f2a3d27e",
+                "type": "FIX",
+                "text": " SmartField: The field value is now removed"
+            },
+            {
+                "id": "d8461514465fa1e3b56a3e721ad0927ab971d25e",
+                "type": "FIX",
+                "text": " SmartFilterBar: fetchVariant not removing empty filters if setFilterData is suspended"
+            }
+        ]
     }
 }

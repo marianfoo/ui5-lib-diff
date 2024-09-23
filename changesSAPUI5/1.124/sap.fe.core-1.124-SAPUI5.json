@@ -253,5 +253,35 @@
                 "text": " We no longer show the subsections that are dynamically invisible on the anchor bar of the object page"
             }
         ]
+    },
+    "1.124.6": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "ff515911e4fd654ea7452188e13efbf62931fe65",
+                "type": "FIX",
+                "text": " We now ensure that page navigation after a document creation works in apps using the flexible column layout"
+            },
+            {
+                "id": "1e789545a593770717d7e4ebf0d3d1b2f35f5f49",
+                "type": "FIX",
+                "text": " We no longer show the technical messages from the default OData V4 model in the message dialog"
+            },
+            {
+                "id": "0868f03798ce255cd916e2a32206dd403f11eea6",
+                "type": "FIX",
+                "text": " We now ensure that embedded BTP applications open correctly in a new browser tab when navigating from the table context menu"
+            },
+            {
+                "id": "b4d206257b507a6018739c2b40d3e0064edcecbe",
+                "type": "FIX",
+                "text": " We now ensure that embedded BTP applications open correctly in a new browser tab when navigating from the table context menu"
+            },
+            {
+                "id": "3ffc3c0c0afa5763de676f6749787b2b95b786cb",
+                "type": "FIX",
+                "text": " We now correctly merge the default export settings with the precedence settings from the manifest file for columns with overwritten export settings"
+            }
+        ]
     }
 }

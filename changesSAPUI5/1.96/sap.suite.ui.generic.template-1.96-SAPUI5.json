@@ -497,5 +497,64 @@
                 ]
             }
         ]
+    },
+    "1.96.31": {
+        "date": "April 2024",
+        "notes": [
+            {
+                "id": "I7d9b904674b4047b7b9a1307304c6e2226f67c46",
+                "type": "FIX",
+                "text": "Correct default variant of control is now set for multiple views scenario in the list report",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2270028763"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.33": {
+        "date": "June 2024",
+        "notes": [
+            {
+                "id": "Ic4ab9af9b1338d71328e381ea67903fea2bc7ac1",
+                "type": "FIX",
+                "text": "We now avoid the variant reset during iAppState refresh scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007428781"
+                    }
+                ]
+            },
+            {
+                "id": "I24b1a34b41e900ec7cba7a50d654b43547920d98",
+                "type": "FIX",
+                "text": "We are now setting the table UI state data correctly in case if the smart table is using page variant management",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007240363"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.96.35": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "Ic10a7bfea0868588ee1dfed017250aa704233174",
+                "type": "FIX",
+                "text": "We now correctly retrieve the table and prepare paging information when switching between the subobject items",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007165088"
+                    }
+                ]
+            }
+        ]
     }
 }

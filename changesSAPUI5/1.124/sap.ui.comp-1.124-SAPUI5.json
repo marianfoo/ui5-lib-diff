@@ -173,5 +173,20 @@
                 "text": " We've optimized the number of time model APIs that are invoked up on the selection or deselection of a smartMultiInput item when it is rendered as a multicombobox"
             }
         ]
+    },
+    "1.124.6": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "82090986fd5849141a87f70754535a68c45be445",
+                "type": "FIX",
+                "text": " ValueHelpDialog: remove description column if descriptionOnly or idOnly is used for the key"
+            },
+            {
+                "id": "f7d9e84b83bfc853201188f25fae1ecfa2207c24",
+                "type": "FIX",
+                "text": " SmartFilterBar: fetchVariant not removing empty filters if setFilterData is suspended"
+            }
+        ]
     }
 }
