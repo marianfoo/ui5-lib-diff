@@ -868,6 +868,44 @@
                         "reference": "DINC0194987"
                     }
                 ]
+            },
+            {
+                "id": "I7c907b0db1e9948981b1d90eb542ee0a408d4828",
+                "type": "FIX",
+                "text": "We've now enhanced the logic that allows access to the multiselection plug-in for the UI tables",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008188054"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.21": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "Ic10a7bfea0868588ee1dfed017250aa704233174",
+                "type": "FIX",
+                "text": "We now correctly retrieve the table and prepare paging information when switching between the subobject items",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007165088"
+                    }
+                ]
+            },
+            {
+                "id": "I03a2bef83007f1a63834a3fff0c7c10a8046485d",
+                "type": "FIX",
+                "text": "We now support the removal of horizontal and vertical layouts from object pages during adaptation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008263695"
+                    }
+                ]
             }
         ]
     }

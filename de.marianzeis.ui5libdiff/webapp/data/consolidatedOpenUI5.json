@@ -16631,6 +16631,131 @@
     ]
   },
   {
+    "version": "1.120.21",
+    "date": "2024.09.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Label: Revert"
+          },
+          {
+            "type": "FIX",
+            "text": " FCL: Restore focus same column fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Label: Revert"
+          },
+          {
+            "type": "FIX",
+            "text": " We now ensure that UploadSet does not insert or removes any item if they are bound to a model"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Label: Asteriks is visible when parent container has a set width"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: Icon on Firefox is not cut now"
+          },
+          {
+            "type": "FIX",
+            "text": " Tables: Announce required state of columns with 'custom' label controls"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: buttons in split mode have separate tooltips"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Content padding classes are applied to the header if additional class is present"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Select: Fixed incorrect ACC reading of required sap.m.Select"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectNumber: remove roledescription announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Carousel: fix page disappearing when scrolling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: adjust screen reader announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu: properties string values are escaped when creating internal controls"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/v2/ODataListBinding: fire dataReceived event for aborted requests"
+          },
+          {
+            "type": "FIX",
+            "text": " Adjust link in sap.ui.core.MessageType documentation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Tables: Announce required state of columns with 'custom' label controls"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.table",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Tables: Announce required state of columns with 'custom' label controls"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Calendar with two months in one column is displayed correctly now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.DatesRow: render week numbers"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageHeaderContent: correct box-shadow styles"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.3",
     "date": "2024.01.01",
     "libraries": [

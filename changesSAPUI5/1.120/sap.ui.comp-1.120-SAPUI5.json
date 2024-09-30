@@ -584,5 +584,30 @@
                 ]
             }
         ]
+    },
+    "1.120.21": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "80217593ed2e81e008bde86cde627a98ae06f187",
+                "type": "FIX",
+                "text": " SmartField: UoM in display mode in table is rendered with correct width for chinese"
+            },
+            {
+                "id": "b60f7e6b18148502842eb8c50fcef101e54917e5",
+                "type": "FIX",
+                "text": " BaseController: Error is no longer thrown when data is extended"
+            },
+            {
+                "id": "d573829632fe49ed919cd437a6849385b671a875",
+                "type": "FIX",
+                "text": " SmartFilterBar: Fix alignment of filter items and label cut-off in different languages"
+            },
+            {
+                "id": "423078f5268f6c1cc701ef399fa2e4fff5405142",
+                "type": "FIX",
+                "text": " SmartFilterBar: fetchVariant not removing empty filters if setFilterData is suspended"
+            }
+        ]
     }
 }
