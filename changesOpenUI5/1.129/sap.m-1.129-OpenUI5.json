@@ -1,0 +1,222 @@
+{
+    "1.129.0": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "2959e39ccddf81bc09fc244c4f025006cc6a5c3b",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Prevent null within area resize observer deregistration"
+            },
+            {
+                "id": "e44ac2a4d715a6789a61a307e59b8040ea026f55",
+                "type": "FIX",
+                "text": " Demo Kit: Icon explorer scroll fixed"
+            },
+            {
+                "id": "b6a1971aa42d6cddd15a6cc617903cb8497164f2",
+                "type": "FIX",
+                "text": " sap.m.Label: Revert"
+            },
+            {
+                "id": "44979a869f8acc61287308b2673b3157ef8a41fe",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Fix error caused by inaccessible DOM ref"
+            },
+            {
+                "id": "26ac7a104161670ad1ce2fd9f629e58f69792038",
+                "type": "FIX",
+                "text": " CellSelector: Return correct row contexts when grouping"
+            },
+            {
+                "id": "04354678222f3043cb77918140a9b1f6dae20539",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: add empty value description in the acc info"
+            },
+            {
+                "id": "f220ff142d510ad7fba99ccbee74baeec2f9821c",
+                "type": "FIX",
+                "text": " sap.m.MessageView: Title link is now truncated"
+            },
+            {
+                "id": "be2933895566f26d73d37c7443f8f3c989094cb1",
+                "type": "FEATURE",
+                "text": " We've now added the carousel behaviour, and increased the tap area for the indicators on the SlideTile control"
+            },
+            {
+                "id": "0269c4b186dd12c1b062446bf16284740f5dcf0f",
+                "type": "FIX",
+                "text": " sap.m.Carousel: Empty page message resizes correctly in vertical direction"
+            },
+            {
+                "id": "a36f8f8a98bacdc4751e190f91a8c558e9f7f460",
+                "type": "FEATURE",
+                "text": " sap.m.MessageStrip: Displaying multiple links is now enabled"
+            },
+            {
+                "id": "2d73ee119ae43961dc19fec620e03fe38fc009eb",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: Event is fired correctly on pressing SPACE without scrolling the page"
+            },
+            {
+                "id": "16260670379b46637c849680ff59feacf2fdad09",
+                "type": "FIX",
+                "text": " sap.m.NavContainer: Unstable test"
+            },
+            {
+                "id": "40ce25b55da4e85fa542d6af44ae3c04d8702306",
+                "type": "FIX",
+                "text": " sap.m.Token: extend touch area for horizon themes"
+            },
+            {
+                "id": "fd1788cb3364767e4afb837be6ed348d88677bbe",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: navigate to correct month in islamic calendar"
+            },
+            {
+                "id": "dcdc806ed957379006d6772adcab3b3e60e6741b",
+                "type": "FIX",
+                "text": " sap.m.Link: prevent default before press for mobile safari"
+            },
+            {
+                "id": "291e6ca357a363878f0b28a0837b3860028fd924",
+                "type": "FIX",
+                "text": " sap.m.Label: Asteriks is visible when parent container has a set width"
+            },
+            {
+                "id": "947893c905d3a606e4052efa0543c57c22104f5c",
+                "type": "FIX",
+                "text": " We've now removed sap-desktop attribute to provide consistent focus across all devices"
+            },
+            {
+                "id": "5789d69fdbc9ca706be7806cf8103e0f55881aa4",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: add today announcement for the grid cell"
+            },
+            {
+                "id": "8270cf253e3818162214a1623725020e5f745c26",
+                "type": "FIX",
+                "text": " sap.m.ObjectListItem: adding an accessibility test page"
+            },
+            {
+                "id": "bd17578848a83706928906cec4b73e7ebb300622",
+                "type": "FIX",
+                "text": " sap.m.Button: prevent press on right click"
+            },
+            {
+                "id": "68eeaf19830c25f088e661fc89b2aa04fe2713bb",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: Content padding classes are applied to the header if additional class is present"
+            },
+            {
+                "id": "34073521229d444f8a4b3a19493fceff5221db3d",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: Icon on Firefox is not cut now"
+            },
+            {
+                "id": "4d1f9c90a4d07bd97dee8d8bf0a9712020f31e31",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: align the placeholder reference with other inputs"
+            },
+            {
+                "id": "e90809cedd5824f557e098034521c994846c834a",
+                "type": "FIX",
+                "text": " sap.m.ObjectIdentifier: Accessible Improvement for ObjectIdentifier test page"
+            },
+            {
+                "id": "4f9701603a269f3abcebd31f4a2c5cdce21b5fce",
+                "type": "FEATURE",
+                "text": " sap.m.ObjectStatus: add group type \"Data\" to value property"
+            },
+            {
+                "id": "f44e71d88fca4d613a77f8edd2842dbb6605df16",
+                "type": "FIX",
+                "text": " We now ensure that UploadSet does not insert or removes any item if they are bound to a model"
+            },
+            {
+                "id": "7b72eb0e88f1afdf9fab24325091dc60502d896e",
+                "type": "FIX",
+                "text": " SinglePlanningCalendar: Change in the z-index of the header"
+            },
+            {
+                "id": "95f05dc126d17c7e7153c9193c9b1fa40cdcffa2",
+                "type": "FIX",
+                "text": " sap.m.StepInput: The valueStateText is given priority."
+            },
+            {
+                "id": "5452d81dc14d087059aafd19ee4524731c54cdca",
+                "type": "FEATURE",
+                "text": " sap.m.ObjectIdentifier & ObjectNumber: add group type \"Data\" to value property"
+            },
+            {
+                "id": "5dd5ea076ee5ddad775cbe365a628366ad126ac1",
+                "type": "FIX",
+                "text": " sap.m.ViewSettingsDialog: fixed \"select all\" checkbox positioning"
+            },
+            {
+                "id": "33a7b282961095185ea62003482bf1f747380fc0",
+                "type": "FIX",
+                "text": " sap.m.Popover: Revert some of resize handle size changes"
+            },
+            {
+                "id": "beccf604ac852998a8a65e855a256ee5ba0a75c0",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: buttons in split mode have separate tooltips"
+            },
+            {
+                "id": "4add94fde2c0c10d04bd20dce5f971ab95892978",
+                "type": "FIX",
+                "text": " sap.m.ColorPalettePopover: synch selected color with inner palette"
+            },
+            {
+                "id": "598c7e64e56439e680f15fab0233757b26f0016e",
+                "type": "FIX",
+                "text": " Integration cards: List 'info' is now correctly displayed"
+            },
+            {
+                "id": "e8b39654b75a7784a604edd1d79cefa203cd9fea",
+                "type": "FIX",
+                "text": " We ensure that the UploadSetwithTable plugin now uses currentContexts for file preview"
+            },
+            {
+                "id": "2dbaff4402bef02229616c9277b489e434b20abe",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: Proper positioning of a non-work period."
+            },
+            {
+                "id": "a0913631b85ba27779403687b14a50bc34c4d791",
+                "type": "FIX",
+                "text": " We now ensure that the content maintained within the GenericTile does not extended beyond the control"
+            },
+            {
+                "id": "109ab4177ac8c8cc4a8090419f779d31a24245cb",
+                "type": "FEATURE",
+                "text": " sap.m.PlanningCalendar: show busy indicator while rows loading"
+            },
+            {
+                "id": "d3fd8e5fe92fe23fc223ffbfa8047adeabf8ccda",
+                "type": "FIX",
+                "text": " Demo Kit: Fixed the spacing between links"
+            },
+            {
+                "id": "f97646f63e7ea7cac31dda6423fe183648d72671",
+                "type": "FIX",
+                "text": " sap.m.Menu: properties string values are escaped when creating internal controls"
+            },
+            {
+                "id": "a83aa4bf9a93d92c8ba8da44ac98f8233c42c3fe",
+                "type": "FIX",
+                "text": " sap.m.MessageBox: Added missing documentation"
+            },
+            {
+                "id": "eb2656698618fed63d59891e9a308013b6db8a5a",
+                "type": "FIX",
+                "text": " sap.m.QuickView: Title and description wrap correctly"
+            },
+            {
+                "id": "02e5cb409bc807e7f4ddf5346ac599ad5e15b4b0",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: set default width"
+            }
+        ]
+    }
+}

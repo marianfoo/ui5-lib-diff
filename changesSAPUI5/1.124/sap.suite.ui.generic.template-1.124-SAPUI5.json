@@ -354,5 +354,43 @@
                 ]
             }
         ]
+    },
+    "1.124.7": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "Iad102f0f181cec0d132f04100b3b8d3cfe24db67",
+                "type": "FIX",
+                "text": "We no longer consider the save-appvar-id url parameter while initiating the app",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007046006"
+                    }
+                ]
+            },
+            {
+                "id": "I03a2bef83007f1a63834a3fff0c7c10a8046485d",
+                "type": "FIX",
+                "text": "We now support the removal of horizontal and vertical layouts from object pages during adaptation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008263695"
+                    }
+                ]
+            },
+            {
+                "id": "Ie6830a9955372ef44ce1b2b3bc78520588c9aadb",
+                "type": "FIX",
+                "text": "We've now improved the logic to hide the columns in the smart table",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008323485"
+                    }
+                ]
+            }
+        ]
     }
 }

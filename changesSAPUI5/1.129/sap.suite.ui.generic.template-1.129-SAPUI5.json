@@ -1,0 +1,186 @@
+{
+    "1.129.0": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "Ied0eb44b615130949e24334093365f22b65c9374",
+                "type": "FEATURE",
+                "text": "We now display the Copy to Clipboard button in tables even when the selection mode is NONE"
+            },
+            {
+                "id": "I8089b3e458ae1ef9132c0b883862fd006958d39d",
+                "type": "FEATURE",
+                "text": "Adaptation project now supports modification of the application-level settings in the SAP delivered apps"
+            },
+            {
+                "id": "Ia2236d108825357433fd9fa0cffd90ee76483149",
+                "type": "FEATURE",
+                "text": "The action buttons in the object page header now have borders"
+            },
+            {
+                "id": "I384614cda543e6b6107315ea95948a5660e8621a",
+                "type": "FEATURE",
+                "text": "Support Collaboration Manager for H2H Chat"
+            },
+            {
+                "id": "If5f5a9fba26149db0c98d8438a58ff7e70098843",
+                "type": "FIX",
+                "text": "We now prevent the inline row creation when the table's item binding is obsolete to avoid activation issues",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0226952"
+                    }
+                ]
+            },
+            {
+                "id": "I63fa1850bdf2df3aa518e45538b09528ebcb720e",
+                "type": "FIX",
+                "text": "We've now resolved an issue with the adaption of section tabs in an object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0238164"
+                    }
+                ]
+            },
+            {
+                "id": "I22d843a818da7c2a67a7cf272e83e64572f3b2a9",
+                "type": "FIX",
+                "text": "We now consider the nonInsertable property for Paste scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0026707"
+                    }
+                ]
+            },
+            {
+                "id": "Iabe3fea5232380315b1ac904ad70bc4a43dd2cb3",
+                "type": "FIX",
+                "text": "You now use the Esc key to close the Contact Details popover",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0204806"
+                    }
+                ]
+            },
+            {
+                "id": "Ic10a7bfea0868588ee1dfed017250aa704233174",
+                "type": "FIX",
+                "text": "We now correctly retrieve the table and prepare paging information when switching between the subobject items",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007165088"
+                    }
+                ]
+            },
+            {
+                "id": "I4f4dbbbfe0a53d074560916d7a4d5cd54e2b2d59",
+                "type": "FIX",
+                "text": "We've now resolved an issue where columns with semantically connected fields didn't appear in the exported file",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008238609"
+                    }
+                ]
+            },
+            {
+                "id": "I9da58e2ab2c1aca27e16aceaa9165bcc3716679c",
+                "type": "FIX",
+                "text": "We now ensure that the Insights cards show the correct criticality",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0253283"
+                    }
+                ]
+            },
+            {
+                "id": "I96269ae18e5cf7e5e18ab289be667ac3cf72a441",
+                "type": "FIX",
+                "text": "We now support filenames with Unicode characters",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005169073"
+                    }
+                ]
+            },
+            {
+                "id": "Ie5ed477f622470d42101607220914da9b706caa4",
+                "type": "FIX",
+                "text": "We now ensure that an error message is displayed when a user navigates to the object page through a table in flexible column layout mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0198356"
+                    }
+                ]
+            },
+            {
+                "id": "I52b22996af2fd9d9743c66a8e65f5a6d1eeaa1ff",
+                "type": "FIX",
+                "text": "We now support filenames with characters that aren't a part of ASCII characters",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005169073"
+                    }
+                ]
+            },
+            {
+                "id": "I1579806e225dbf4a00342102ae19f07ebad56fea",
+                "type": "FIX",
+                "text": "We've now improved the performance of the sharing design time cards using SAP Collaboration Manager",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0245808"
+                    }
+                ]
+            },
+            {
+                "id": "I03a2bef83007f1a63834a3fff0c7c10a8046485d",
+                "type": "FIX",
+                "text": "We now support the removal of horizontal and vertical layouts from object pages during adaptation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008263695"
+                    }
+                ]
+            },
+            {
+                "id": "Idce20a64af57b0522455c08c412e99848a3937f0",
+                "type": "FIX",
+                "text": "We now adjust the section titles in the message popover when they are hidden in the content area"
+            },
+            {
+                "id": "Ie6830a9955372ef44ce1b2b3bc78520588c9aadb",
+                "type": "FIX",
+                "text": "We've now improved the logic to hide the columns in the smart table",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008323485"
+                    }
+                ]
+            },
+            {
+                "id": "Id1442f04ef3e2c9adc015cb1d493c15cb851a580",
+                "type": "FIX",
+                "text": "We now set the ShellTitle correctly in the Save as Tile dialog for analytical list page applications",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0260330"
+                    }
+                ]
+            }
+        ]
+    }
+}

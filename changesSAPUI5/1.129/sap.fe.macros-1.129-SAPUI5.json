@@ -1,0 +1,167 @@
+{
+    "1.129.0": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "7685366d98660f59fb043257aed76b7938b77e87",
+                "type": "FIX",
+                "text": " We've increased the data load threshold to 500 values for the value help dropdown list"
+            },
+            {
+                "id": "13c3d3baedfd8350ab3afef9c4266e678b3381da",
+                "type": "FEATURE",
+                "text": " We now show an illustrated message if there is no data in a table"
+            },
+            {
+                "id": "4968ba034e6e024bf8defec2f0a061e18f0bd046",
+                "type": "FIX",
+                "text": " We now ensure that the Adapt Filters button works correctly with the FilterBar building block"
+            },
+            {
+                "id": "4550dc4d8092cc9fc89994c15dfbf1b6268e15c0",
+                "type": "FEATURE",
+                "text": " We now show an illustrated message when no data is available in a chart"
+            },
+            {
+                "id": "21287cdb42237427a1cfdb1564c66b5c788117ed",
+                "type": "FIX",
+                "text": " End users can now use the up and down arrow keys to select options in the Editing Status filter"
+            },
+            {
+                "id": "14c44e49fd570231cdd2f318e5c2f170ab36f89b",
+                "type": "FEATURE",
+                "text": " We now support the table copy in all value help dialogs"
+            },
+            {
+                "id": "f278009d6aea577a8986cb397dcc46f69249e1bb",
+                "type": "FIX",
+                "text": " We've resolved an issue where the checkbox selection for multi-input fields wasn't working correctly"
+            },
+            {
+                "id": "a3b4c4a429866414e85800bd6aebed6342fffd42",
+                "type": "FIX",
+                "text": " We've resolved an issue with the columns referencing navigation properties that don't have a property type"
+            },
+            {
+                "id": "4e6c6c8d21692d53e3de2e8eaa905e2282c93b6b",
+                "type": "FIX",
+                "text": " We've resolved an issue with adding a filter to a filter bar variant."
+            },
+            {
+                "id": "e0b0b76863dc29652e47810e90998985207604c3",
+                "type": "FEATURE",
+                "text": " We've now enabled the handling of side effects for custom form elements specified in the manifest"
+            },
+            {
+                "id": "6ec97780bcf18b566cad4a743da5175b15a7a5e8",
+                "type": "FIX",
+                "text": " The message popover for tables now displays information about multiple columns and columns that have been hidden using table personalization"
+            },
+            {
+                "id": "e076e6d054c3d8334dc480dd6632501faeacbfe4",
+                "type": "FIX",
+                "text": " We now show the label from the manifest or annotations in the Adapt Filters dialog"
+            },
+            {
+                "id": "f495632e5f7acdadf29bcd151d6146c1eaee268b",
+                "type": "FIX",
+                "text": " We now consider the sort order for custom data from SortRestriction of value help, if it isn't included in the presentation variant"
+            },
+            {
+                "id": "22dfcf16e5537e4968aff618fcb32faf80b4cd64",
+                "type": "FEATURE",
+                "text": " We now support additional formats for date and time-based controls"
+            },
+            {
+                "id": "adb380bf855b4ef4fb2f80983038f3577be4cea3",
+                "type": "FIX",
+                "text": " We've resolved an issue where the in-app state didn’t update when navigating from an external app"
+            },
+            {
+                "id": "2d04ef354489af728ec4dcf7ce44abb676dcb39a",
+                "type": "FIX",
+                "text": " The table export now works correctly after a create action"
+            },
+            {
+                "id": "e525a03e0b96e3479038b3f8aedfbbed775ca15b",
+                "type": "FEATURE",
+                "text": " We now support key user adaptation for actions"
+            },
+            {
+                "id": "8054c7eb734b04a69f5a7842490d6c56a33e4b46",
+                "type": "FIX",
+                "text": " We now ensure that the Table API works correctly with the UploadSetwithTable plugin"
+            },
+            {
+                "id": "036535e497ef768e639c49f9463cefa50201edb7",
+                "type": "FIX",
+                "text": " We now deactivate optimistic batch requests when initialLoad is set to Disabled in the manifest"
+            },
+            {
+                "id": "2e5223a3962a9658a3ea3b4dd94ca04d8bdb941e",
+                "type": "FIX",
+                "text": " We've resolved an issue with value help columns referencing navigation properties with text annotations"
+            },
+            {
+                "id": "ee937157d7f449b15ccfff69bdf7e6cb66227301",
+                "type": "FIX",
+                "text": " We now display an appropriate message after changes are saved in the mass edit dialog"
+            },
+            {
+                "id": "5d45f3637c576ada4fc10a5101677c15df94db92",
+                "type": "FIX",
+                "text": " The main navigation and additional links in a quick view now provide implicit semantic object mapping when a dynamic semantic object is used"
+            },
+            {
+                "id": "176283933ee9c533f8131775a1a0eedf7609e30d",
+                "type": "FEATURE",
+                "text": " You can now define whether a link opens in a new tab or window, or in the same frame, the parent frame, or the full window of the same tab."
+            },
+            {
+                "id": "2d59af48d7cbe42bf820420e1bc6f821f5e506c0",
+                "type": "FIX",
+                "text": " We now correctly wrap the header text in the ObjectStatus control if it is longer than the available screen width"
+            },
+            {
+                "id": "220296406ce0abc0349ebc1296a526a2df15051e",
+                "type": "FIX",
+                "text": " We now ensure that the items included in the FileWrapper are treated as one control by screen readers"
+            },
+            {
+                "id": "a423f92fde8efea4043e81c166246ce08e07df6b",
+                "type": "FIX",
+                "text": " We now ensure that screen readers correctly read out the information of empty fields with a quick view"
+            },
+            {
+                "id": "fa9b42518dd78ec76a745ea9a359bd15dd874612",
+                "type": "FIX",
+                "text": " Visual filters now work correctly if the aggregatable property is hidden"
+            },
+            {
+                "id": "c14f829a606aedcea3e314eec87dd80b0cfd8fd6",
+                "type": "FIX",
+                "text": " We now merge the subsection title with the collection facet if the section title is empty"
+            },
+            {
+                "id": "82017282d5930758845aa0cd2db67e2bc0b23ece",
+                "type": "FIX",
+                "text": " We've resolved an issue with adding a filter field at runtime"
+            },
+            {
+                "id": "4037671a50e8a6485873182d028dcd82bf951753",
+                "type": "FIX",
+                "text": " We now ensure the correct size of DataPoints is used in the object page header"
+            },
+            {
+                "id": "8c257dfd3c638e2062b9bede10bce885717d67c7",
+                "type": "FIX",
+                "text": " We now correctly align the Datapoint in the object page header"
+            },
+            {
+                "id": "8e919d3b04dd9745c8ae0bdb766f51c1348d6afd",
+                "type": "FIX",
+                "text": " Custom filters now work correctly without a context path"
+            }
+        ]
+    }
+}

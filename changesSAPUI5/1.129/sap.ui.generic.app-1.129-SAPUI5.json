@@ -1,0 +1,23 @@
+{
+    "1.129.0": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "I70b01362d0b89457d565fd9e0788cae5cc960d20",
+                "type": "FIX",
+                "text": "We now support the formatting of smart fields in the function import dialog"
+            },
+            {
+                "id": "I2b7f186a34eed82a847d49b4d58c3bae7acc5dd3",
+                "type": "FIX",
+                "text": "We no longer pass the empty function import parameters to the backend",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0270676"
+                    }
+                ]
+            }
+        ]
+    }
+}
