@@ -1,0 +1,240 @@
+{
+    "1.38.0": {
+        "date": "April 2016",
+        "notes": [
+            {
+                "id": "3e1ebba143b6b91d4795bd82fbeeb6eb0d9c7834",
+                "type": "FEATURE",
+                "text": "Inbox: custom attributes client side sorting with oLingo library",
+                "references": []
+            },
+            {
+                "id": "1c5bd75a0839770a39c65972c6802aca2a044fe1",
+                "type": "FIX",
+                "text": "Inbox - invalid SystemInfoCollection request",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580235687/2015"
+                    }
+                ]
+            },
+            {
+                "id": "6365f91e37227c26c5d28c3fd8725c1941fe5662",
+                "type": "FIX",
+                "text": "Inbox: ACC issues described in:",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580169447"
+                    }
+                ]
+            },
+            {
+                "id": "1235b877bc270a45494981f405f5be4547d1dac9",
+                "type": "FIX",
+                "text": "Inbox: Accessability issues mentioned in incidents:",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580169447"
+                    }
+                ]
+            },
+            {
+                "id": "6c4ad1b2001358d41c1073008758752b13c7e388",
+                "type": "FIX",
+                "text": "Inbox: BPM Item custom attribute sorted in different order",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570466922"
+                    }
+                ]
+            },
+            {
+                "id": "3b5253fa08f13bffa1d6ec59f407a0b76cf7763a",
+                "type": "FIX",
+                "text": "Inbox: Changing filter does not hide the notification message \"No data available\" when there is data in Inbox.",
+                "references": []
+            },
+            {
+                "id": "f4a084dbc164e99a172b63d569405c4f88ab9d38",
+                "type": "FIX",
+                "text": "Inbox: Display notification \"No data available\" when there is data in Inbox.",
+                "references": []
+            },
+            {
+                "id": "2a62b3bc80ee6b39e8515c0384f1b704a8922a3b",
+                "type": "FIX",
+                "text": "Inbox: Empty Substitution Profile leads to none processing",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580196201/2015"
+                    }
+                ]
+            },
+            {
+                "id": "48ae2a897eeab5c045e1af57df57caccc113746c",
+                "type": "FIX",
+                "text": "Inbox: Focus is not on first UI of the \"Create substitution rule\" pop up",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580169713"
+                    }
+                ]
+            },
+            {
+                "id": "473ae2365243584866f7c5a2ebca3eec924f0160",
+                "type": "FIX",
+                "text": "Inbox: Increase timeout for InboxFilterPreservation qunit",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1670121605"
+                    }
+                ]
+            },
+            {
+                "id": "ebd334ee518cae3805312860c8414a64060dee7e",
+                "type": "FIX",
+                "text": "Inbox: Notification bar is not minimized correctly.",
+                "references": []
+            },
+            {
+                "id": "e18c03b11fa6d45118f5abbbc42896a3d3410ce6",
+                "type": "FIX",
+                "text": "Inbox: Tooltip and icons of the Execution Link in TableView inconsistent",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1570471782"
+                    }
+                ]
+            },
+            {
+                "id": "12324518e21f01fd710c4e315bcb7bab2b1b3414",
+                "type": "FIX",
+                "text": "Substitution rules with profile - incorrect date format with JSON payload",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "1580196206/2015"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.38.1": {
+        "date": "May 2016",
+        "notes": [
+            {
+                "id": "3f2b3b45062e78d4fa18ec24aeab6590febe72d0",
+                "type": "FEATURE",
+                "text": "Inbox: Inbox control is deprecated.",
+                "references": []
+            }
+        ]
+    },
+    "1.38.2": {
+        "date": "May 2016",
+        "notes": [
+            {
+                "id": "40fd8e7a984f8134a3d5ba4fe79c608ec2cc33df",
+                "type": "FIX",
+                "text": "Inbox: Table do not update after searching and filtering",
+                "references": []
+            }
+        ]
+    },
+    "1.38.5": {
+        "date": "July 2016",
+        "notes": [
+            {
+                "id": "2ba238f4424fc1afe2f4426d25739b8f7169720b",
+                "type": "FIX",
+                "text": "Inbox: Catches \"JSON.parse\" error, which resulted in continual \"loading\" mode for Unified Inbox",
+                "references": []
+            }
+        ]
+    },
+    "1.38.6": {
+        "date": "August 2016",
+        "notes": [
+            {
+                "id": "6da504bc7b62942466b04401e8b3f3833aa8a84c",
+                "type": "FIX",
+                "text": "Inbox: Message \"No data available\" is not deleted from Notifications.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "128371"
+                    }
+                ]
+            },
+            {
+                "id": "4653e2e69c0ca8beaf466762c50f9e12ecc95c13",
+                "type": "FIX",
+                "text": "Issue with languages when opening Manager Self-Service tasks",
+                "references": []
+            }
+        ]
+    },
+    "1.38.9": {
+        "date": "October 2016",
+        "notes": [
+            {
+                "id": "3f1060355b1f62e911d1e10b2bbc22efbf947937",
+                "type": "FIX",
+                "text": "Demokit: removing of the hardcoded IP",
+                "references": []
+            },
+            {
+                "id": "bc4249060619484ea1f548f45166ca57d2d5c91d",
+                "type": "FIX",
+                "text": "Inbox: Task Type filter searches only among the first 100 tasks",
+                "references": []
+            }
+        ]
+    },
+    "1.38.10": {
+        "date": "October 2016",
+        "notes": [
+            {
+                "id": "6b2b181f68258919754155d39fbdc445dd3caad5",
+                "type": "FIX",
+                "text": "Inbox: Cannot create Substitution rule in Unified Inbox",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "341662"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.38.23": {
+        "date": "June 2017",
+        "notes": [
+            {
+                "id": "18beb0f6b49d1b80e1d1e0d702a19608e1f314cd",
+                "type": "FIX",
+                "text": " Inbox: When working with the mobile version of BPMInbox the approval or rejection of tasks with custom actions causes unwanted navigation to the next task.",
+                "references": []
+            }
+        ]
+    },
+    "1.38.24": {
+        "date": "July 2017",
+        "notes": [
+            {
+                "id": "2e549456f47f575a916bcd5be0fc194423b4cb0a",
+                "type": "FIX",
+                "text": " Inbox: Custom Attributes are Displayed in Wrong Language",
+                "references": []
+            }
+        ]
+    }
+}

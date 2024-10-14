@@ -1,0 +1,217 @@
+{
+    "1.127.0": {
+        "date": "August 2024",
+        "notes": [
+            {
+                "id": "Ib0bb058ac7a216f21a49859af52d900f9a8cd0eb",
+                "type": "FEATURE",
+                "text": "We now support mass edit functionality for grid tables in the list report pages"
+            },
+            {
+                "id": "I47f5a9eda8f5d35ed4e4be10bb9265b1347158d5",
+                "type": "FEATURE",
+                "text": "We now support easy filtering by allowing end users to use natural language search terms"
+            },
+            {
+                "id": "I17b56385fa07d1a96c4d6e4d9e8dc6a7490b2250",
+                "type": "FEATURE",
+                "text": "You can now use the app-level manifest setting to configure tables in create mode on object pages"
+            },
+            {
+                "id": "I489cb654d4684428040b4abddd9fbe472e59508c",
+                "type": "FEATURE",
+                "text": "We now allow the end users to resize the message dialog"
+            },
+            {
+                "id": "Id52ffd93511d76d411ae529115e8fccf4d14d745",
+                "type": "FEATURE",
+                "text": "We've now implemented a generic ContextProvider interface for context sharing in SAP Fiori elements OData V2 applications"
+            },
+            {
+                "id": "I9299b4e31c378ccba2ff6047c52589f666e349f8",
+                "type": "FIX",
+                "text": "We now correctly handle the 412 transient errors and display the errors in the message popup",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007800674"
+                    }
+                ]
+            },
+            {
+                "id": "I38a591f63297abcbe5871f31cd8f119297c4979c",
+                "type": "FIX",
+                "text": "We've now resolved an issue of Microsoft Teams integration with Scube apps by reverting the code block",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0164164"
+                    }
+                ]
+            },
+            {
+                "id": "I12d666490ba1394810e5d6020f947aedd3b960dd",
+                "type": "FIX",
+                "text": "We now ensure that the Share as Card option of the Share functionality is hidden in the subobject pages",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0198199"
+                    }
+                ]
+            },
+            {
+                "id": "I98b36d78e3ab989220cfd6f71ae3439d16016033",
+                "type": "FIX",
+                "text": "We now ensure that the titles of the table and subsection are merged when they are identical",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0187312"
+                    }
+                ]
+            },
+            {
+                "id": "Ia6377df2bdc15e3f8c210af1d18ad912b5896fce",
+                "type": "FIX",
+                "text": "We now support the EnumNumber property in the Criticality annotation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0184140"
+                    }
+                ]
+            },
+            {
+                "id": "Idc96ff60369f1995797557690b5518f0c48b227b",
+                "type": "FIX",
+                "text": "We now correctly display the count on the dynamic tiles",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0194987"
+                    }
+                ]
+            },
+            {
+                "id": "I7ec1c58dbaaa37b22f2fb0645604ffcc5abd42f2",
+                "type": "FIX",
+                "text": "We've now added the mandatory navigation properties in the Adapt Filter dialog",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0194716"
+                    }
+                ]
+            },
+            {
+                "id": "If38c31e5f85feae5681b91c7188555289fe02011",
+                "type": "FIX",
+                "text": "We've resolved an issue where clicking the Share button triggered an incorrect search operation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0102057"
+                    }
+                ]
+            },
+            {
+                "id": "I1d0f9498286174eb479d6b51799c5d406abdfe62",
+                "type": "FIX",
+                "text": "We now bind the visible property of the cell to the Hidden path only if the table column is visible",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0197149"
+                    }
+                ]
+            },
+            {
+                "id": "I00e14377faca45fe85cc3d25f1fb4e2962fbc83e",
+                "type": "FIX",
+                "text": "We've now enhanced the filter option in the list report applications"
+            },
+            {
+                "id": "I0cc04d57a500251f24b3e144a344a75b4e2e86cc",
+                "type": "FIX",
+                "text": "We now correctly handle the filter queries for tables during inline creation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007779744"
+                    }
+                ]
+            },
+            {
+                "id": "I48a3957491c21c90b20b3898f69956c5492072ba",
+                "type": "FIX",
+                "text": "We now allow you to save draft messages regardless of state warnings or 412 error messages",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0202326"
+                    }
+                ]
+            },
+            {
+                "id": "I40b39fc81f15391871484d564e0b513b7163aa93",
+                "type": "FIX",
+                "text": "We've resolved an issue with the table variant state not being set correctly after the application was upgraded to a new version",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007542539"
+                    }
+                ]
+            },
+            {
+                "id": "Ia153e2e6875d0dd7f827f5e5a325bd24c8646335",
+                "type": "FIX",
+                "text": "We now pass the correct entity set for easy filters in the list report"
+            }
+        ]
+    },
+    "1.127.3": {
+        "date": "September 2024",
+        "notes": [
+            {
+                "id": "Ia81f6e36598955103633fe49b321cd8bba30f071",
+                "type": "FIX",
+                "text": "We've improved our method to detect data loss to support nested app routes for My Inbox scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240006866907"
+                    }
+                ]
+            },
+            {
+                "id": "I03a2bef83007f1a63834a3fff0c7c10a8046485d",
+                "type": "FIX",
+                "text": "We now support the removal of horizontal and vertical layouts from object pages during adaptation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008263695"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.127.4": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "Ia43580cd9602b13d5add868d860b88d5d6807c18",
+                "type": "FIX",
+                "text": "We now correctly evaluate the InsertRestrictions and UpdateRestrictions while rendering the paste button on the object page table",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008282603"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -198,5 +198,40 @@
                 "text": " We now ensure that the Table API works correctly with the UploadSetwithTable plugin"
             }
         ]
+    },
+    "1.127.3": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "79bf3ffdcbfe72380bab170a782ed00cfcc748a6",
+                "type": "FIX",
+                "text": " We've resolved an issue with the columns referencing navigation properties that don't have a property type"
+            },
+            {
+                "id": "9c907a0525193b3f05b006593ea606eb4eb72f6a",
+                "type": "FIX",
+                "text": " We've resolved an issue with value help columns referencing navigation properties with text annotations"
+            },
+            {
+                "id": "23284296ae89e704f19fbf31e76cc542d41c79b4",
+                "type": "FIX",
+                "text": " FieldControl annotation in action parameter dialog now works as expected for edm.paths"
+            },
+            {
+                "id": "ea681aaadd5537979c748e8c115d5855066ff274",
+                "type": "FIX",
+                "text": " The table export now works correctly after a create action"
+            },
+            {
+                "id": "427854aa10017cf26be08c5cdb07ac700909d676",
+                "type": "FIX",
+                "text": " We now ensure that the custom operator in the FilterBar building block is loaded when the app starts"
+            },
+            {
+                "id": "3eb47fcfd333153caf1ff3b7f4a97c09e9b33c37",
+                "type": "FIX",
+                "text": " We've increased the data load threshold to 500 values for the value help dropdown list"
+            }
+        ]
     }
 }
