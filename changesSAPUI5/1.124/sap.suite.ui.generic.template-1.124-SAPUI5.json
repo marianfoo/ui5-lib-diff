@@ -392,5 +392,48 @@
                 ]
             }
         ]
+    },
+    "1.124.8": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "Ia43580cd9602b13d5add868d860b88d5d6807c18",
+                "type": "FIX",
+                "text": "We now correctly evaluate the InsertRestrictions and UpdateRestrictions while rendering the paste button on the object page table",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008282603"
+                    }
+                ]
+            },
+            {
+                "id": "I89980977b7218dae0d938814ba8a22ce43849625",
+                "type": "FIX",
+                "text": "We've now removed the duplicate Adapt Filters button displayed on the analytical list pages",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0146581"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.124.9": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "I1980971d09ae97837ab3cb557fc0a760eff2fc63",
+                "type": "FIX",
+                "text": "We’ve resolved an issue that occurred when adding additional filters to the Adapt Filter dialog in the analytical list page applications",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008393576"
+                    }
+                ]
+            }
+        ]
     }
 }
