@@ -609,5 +609,40 @@
                 "text": " SmartFilterBar: fetchVariant not removing empty filters if setFilterData is suspended"
             }
         ]
+    },
+    "1.120.22": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "daab4e308ddc085b46813d34d12969d214a191a1",
+                "type": "FIX",
+                "text": " ValueListProvider: correct description when multiple requests are send"
+            },
+            {
+                "id": "408406a329b1bd6e10cd2c951ed46f816826e78e",
+                "type": "FIX",
+                "text": " SmartField: renderWhitespace property is now applied when creating text controls"
+            },
+            {
+                "id": "59fcc12519fb229fac334c1c3d30a2453c7c2e72",
+                "type": "FIX",
+                "text": " SmartField: Description is now shown on context changed"
+            },
+            {
+                "id": "bd8fbe63ea63dba6e5bd88502d216f12aaa27232",
+                "type": "FIX",
+                "text": " ValueListProvider: model value of single filter field is correctly updated when there is validation request"
+            },
+            {
+                "id": "44881eaa46fc46d59f558ec4074cb99de87526ee",
+                "type": "FIX",
+                "text": " SmartField: On items load the ComboBox now applies the already set value on specific case"
+            },
+            {
+                "id": "cdf7821718e5525d8fb2f60d54f985c3aae00158",
+                "type": "FIX",
+                "text": " SmartField now fires change event with opened suggestions"
+            }
+        ]
     }
 }

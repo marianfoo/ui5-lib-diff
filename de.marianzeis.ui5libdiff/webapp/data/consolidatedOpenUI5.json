@@ -6917,6 +6917,64 @@
     ]
   },
   {
+    "version": "1.108.36",
+    "date": "2024.10.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Footer handling improved"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: prevent default before press on mobile"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: remove appointments not selected announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: align current week calculations"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/Element: use duck typing to check DOM element in 'closestTo'"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: align current week calculations"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: remove appointments not selected announcement"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.108.1",
     "date": "2022.11.01",
     "libraries": [
@@ -17087,6 +17145,71 @@
     ]
   },
   {
+    "version": "1.120.22",
+    "date": "2024.10.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu: menu items properties are handled correctly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Height calculations for scrollable contents are preserved after invalidation"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now fixed the accessibility issue in aria-required-children within uploadCollection by changing the role 'option' to 'listitem'"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: prevent default before press on mobile"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: remove appointments not selected announcement"
+          },
+          {
+            "type": "FIX",
+            "text": ": sap.m.Label: when the label is with percent width it works"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Fiori20Adapter: Performance issue fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Label: Ensure colon and asterisk are always displayed by using flex box"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: adjust tooltip announcement"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/Element: use duck typing to check DOM element in 'closestTo'"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: remove appointments not selected announcement"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.8",
     "date": "2024.02.01",
     "libraries": [
@@ -20157,6 +20280,34 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageLayout: lazy loading with selected SubSection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.124.8",
+    "date": "2024.10.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Exact match with no autocomplete behavior corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Height calculations for scrollable contents are preserved after invalidation"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Timing issue fixed"
           }
         ]
       }
@@ -102155,6 +102306,30 @@
           {
             "type": "FIX",
             "text": " sap.ui.core.format.DateFormat.qunit: Fix flaky tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.96.35",
+    "date": "2024.10.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: prevent default before press on mobile"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: align current week calculations"
           }
         ]
       }
