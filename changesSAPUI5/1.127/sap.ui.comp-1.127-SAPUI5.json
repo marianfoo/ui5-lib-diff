@@ -108,5 +108,36 @@
                 "text": " SmartField now fires change event with opened suggestions"
             }
         ]
+    },
+    "1.127.3": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "c2b8feb4f72933c6b4c2ad6486c061bbca22e4ba",
+                "type": "FIX",
+                "text": " ValueListProvider: correct description when multiple requests are send"
+            },
+            {
+                "id": "a20fdab8e4e6e7d2856a7cddb2869c5ba81c9388",
+                "type": "FIX",
+                "text": " SmartField: renderWhitespace property is now applied when creating text controls"
+            },
+            {
+                "id": "bd4acbf85faa1dce097a7c7e1089a0e54a6cdff2",
+                "type": "FIX",
+                "text": " SmartField: Description is now shown on context changed"
+            },
+            {
+                "id": "35078274092e9b6939e8009ff03faa2a99c5b2d8",
+                "type": "FIX",
+                "text": " ValueHelpDialog: add in ignoredFields description only if the key column is in ValueList",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380137505"
+                    }
+                ]
+            }
+        ]
     }
 }

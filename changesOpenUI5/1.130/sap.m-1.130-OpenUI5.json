@@ -1,0 +1,149 @@
+{
+    "1.130.0": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "45d411c6b3c6eaddba45ed8030bd4297216f7f5d",
+                "type": "FIX",
+                "text": " sap.m.Menu: menu items properties are handled correctly"
+            },
+            {
+                "id": "447d354f948fbbf613b5c69c8428881fa5e2bd16",
+                "type": "FIX",
+                "text": " sap.m.Input: Correct value restoration after backspace"
+            },
+            {
+                "id": "1deeb030cc9d3ea35041d41418dd4ea63132474d",
+                "type": "FEATURE",
+                "text": " sap.f.CalendarInCard: Now allows 12 hour format of appointment time"
+            },
+            {
+                "id": "a6141cd544405b6a6ffd39f758cc5f3c1b55eced",
+                "type": "FIX",
+                "text": " sap.m.TabContainer: sync customData between outer and internal controls"
+            },
+            {
+                "id": "588a09cd8090d3b3ee5f2cc04e80f1f24ed244f2",
+                "type": "FIX",
+                "text": " We've now removed sap.m.upload.UploadSetwithTable deprecated control along with its files and folders from the repository, since it was introduced as an experimental control"
+            },
+            {
+                "id": "f429f59a624ee55250c31de0bbec0c1c643ee501",
+                "type": "FIX",
+                "text": " sap.m.TabContainer: doesn't show scroll bar if not needed"
+            },
+            {
+                "id": "131d69d0e2f5ae203caaf60fc538c6afcfe0874d",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: translations are now correclty applied"
+            },
+            {
+                "id": "0dd1f4663221e02f350a5bc351b3b24c8f673bcd",
+                "type": "FIX",
+                "text": " sap.m.Slider, sap.m.RangeSlider: Documentation update"
+            },
+            {
+                "id": "98792b8c6b426b5ff2748790ace52a6dd13f3043",
+                "type": "FIX",
+                "text": " sap.m.Input: Exact match with no autocomplete behavior corrected"
+            },
+            {
+                "id": "9ad7166421826a57cedf864f06572e040d10f6cc",
+                "type": "FIX",
+                "text": " We now ensure that the correct list item is selected when the setSelectedItemById API is used"
+            },
+            {
+                "id": "2f9c333fa53c9e247be9e55bfc1995024377c6d7",
+                "type": "FIX",
+                "text": " We now ensure that the Upload button has a left margin same as other buttons in the table action row"
+            },
+            {
+                "id": "9ffeb76125d0cba65ffac7b3deedca7d6816f361",
+                "type": "FIX",
+                "text": " We've now updated the filetypeMismatch event to send the correct filetype or mimetype"
+            },
+            {
+                "id": "33eff2e3cb5aa002ffecc0aa3f326416108c0bb7",
+                "type": "FEATURE",
+                "text": " sap.m.DynamicDateRange: Add new options",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "0713d78e45c9ba39b9ae06eb2400dcc195a7cd98",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: update documentation regarding wrapping behavior of the control"
+            },
+            {
+                "id": "b0fb5d5e0276b56858e7fa59b2b48980141a74d5",
+                "type": "FIX",
+                "text": " sap.m.MessageView: invalidate details page before navigation"
+            },
+            {
+                "id": "fbb9a1f25c352d2f275f7c90fda823e8aa0af3e4",
+                "type": "FEATURE",
+                "text": " sap.m.Carousel: On touch devices navigation arrows are always visible"
+            },
+            {
+                "id": "e1ae7f8abcf9700952e329c7fc4ac9edfdaca71d",
+                "type": "FIX",
+                "text": " sap.m.RatingIndicator: Display only compact indicator fixed"
+            },
+            {
+                "id": "bfdb81a1df81815a0d65e0d5f22a002dc8ad1cf6",
+                "type": "FIX",
+                "text": ": sap.m.Label: when the label is with percent width it works"
+            },
+            {
+                "id": "55415910cef6d03e092a68e9d11c3d0ffa49f04a",
+                "type": "FIX",
+                "text": " We now ensure that the UploadEnabled property setting enables or disables drag and drop that is attached from the plugin"
+            },
+            {
+                "id": "30436b965bf5f2f881441f2ab37572d9f7e1be99",
+                "type": "FEATURE",
+                "text": " CellSelector: Provide selection change event"
+            },
+            {
+                "id": "f6239a79eb3bfb4d30133375c36a1502f806333a",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: add week announcement to grid cells"
+            },
+            {
+                "id": "0eaed191eb137caa4b5dc990a6d76b7461e660a1",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: new CSS class for languages with higher line heights",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370130730"
+                    }
+                ]
+            },
+            {
+                "id": "115f145e6f12d892c5e8449d2420e0d059d71821",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Prevent null within area resize observer deregistration"
+            },
+            {
+                "id": "687345ec74925b1b5d4e498e1e1eff8c4ccbca6c",
+                "type": "FIX",
+                "text": " We've now fixed the issue of truncating characters in the GenericTile header section by removing the usage of sap.m.Text deprecated method"
+            },
+            {
+                "id": "92ff968c15582aa96e577b94fd5e4080865d42fb",
+                "type": "FIX",
+                "text": " sap.m.Label: Ensure colon and asterisk are always displayed by using flex box"
+            },
+            {
+                "id": "0d648b5f4ab4a00b40ccc68ad22db22ed0fc1c14",
+                "type": "FIX",
+                "text": " Demo Kit: Icon explorer scroll fixed"
+            }
+        ]
+    }
+}

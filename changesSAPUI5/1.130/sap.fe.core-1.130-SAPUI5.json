@@ -1,0 +1,107 @@
+{
+    "1.130.0": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "e317ca2b5a1ecc34602a3cdbc91700cd75ae34db",
+                "type": "FIX",
+                "text": " We now ensure that the analytical table supports the contextdefiningproperties annotation"
+            },
+            {
+                "id": "ab09f12b0320d0feaba6fe041594708d66b5af9d",
+                "type": "FIX",
+                "text": " We've resolved an issue that caused incorrect enablement of the action buttons"
+            },
+            {
+                "id": "a386a9910840eb8d8974cb97321b67cca8c4b489",
+                "type": "FEATURE",
+                "text": " We now support the sorting of data in micro charts"
+            },
+            {
+                "id": "03052a8a04ddd69bc2caf3d8d5a0124ac3a9945a",
+                "type": "FEATURE",
+                "text": " You can now add additional custom fields to the top of the mass edit dialog"
+            },
+            {
+                "id": "a7c98f40592f90f525d0f294e7aa2e377b092d4d",
+                "type": "FEATURE",
+                "text": " You can now use the context menu to create a new object in the tree table"
+            },
+            {
+                "id": "8c1804c9e25b66213b8f24c749d8ec6639b2d638",
+                "type": "FEATURE",
+                "text": " You can now use the createDocument API to create a document using the Table building block"
+            },
+            {
+                "id": "b44afc49351bfca3dc169cc78be75b6a32563d29",
+                "type": "FEATURE",
+                "text": " We now support key user adaptation on the mass edit dialog"
+            },
+            {
+                "id": "7091ef5bc62894cb6524916fd8987870d5c4050a",
+                "type": "FIX",
+                "text": " We now enable the selection of table rows when the Copy to Clipboard button is visible"
+            },
+            {
+                "id": "3a13b2e3a02955f4d640b005932271ebb9259e29",
+                "type": "FIX",
+                "text": " We now ensure that applications open correctly in SAP Build Work Zone"
+            },
+            {
+                "id": "baf22cca0498f861c26e93a69e1704b604407af4",
+                "type": "FIX",
+                "text": " We now properly translate the editing status column on the table personalization"
+            },
+            {
+                "id": "c82342c24078c90445af6fc1a348a195eaf5078d",
+                "type": "FEATURE",
+                "text": " We’ve added SAP Collaboration Manager as a further option to the “Share” menu"
+            },
+            {
+                "id": "8fb93b05c750de3b2b4f87738d0efd85e5f7cf61",
+                "type": "FIX",
+                "text": " We no longer consider the text annotation on a groupable property if the target property of the text is non-groupable for analytical tables"
+            },
+            {
+                "id": "76eb49fe8b3ac9fda9aa348d91ef50f5c86c416a",
+                "type": "FIX",
+                "text": " We've resolved an issue where the Delete action on a table didn't function correctly after navigating away and returning to the object page"
+            },
+            {
+                "id": "403d63a65952f6cdf928118ecd5ed1398274321f",
+                "type": "FEATURE",
+                "text": " You can now define a custom “save” logic for the Mass Edit dialog using the extensionAPI"
+            },
+            {
+                "id": "5958ab8e98cc64487e31ed17831b864e881fcb53",
+                "type": "FIX",
+                "text": " We now ensure that the navigate function cannot be retriggered if it has already been called"
+            },
+            {
+                "id": "1e3bd005ccafcbe7427a3c6a99033e9a9163f5bf",
+                "type": "FEATURE",
+                "text": " We now provide a dialog enabling users to directly create a new object in a list report without triggering a navigation to the object page afterwards"
+            },
+            {
+                "id": "3643783f2b24addf98610e8f76e60bab8716b3f7",
+                "type": "FIX",
+                "text": " We now check the parameter type only if there is a parameter value present in the startup parameters or default values"
+            },
+            {
+                "id": "691df44e2fff655b1e2f7209e1f034cb7d83c2a3",
+                "type": "FEATURE",
+                "text": " We now support \"Pattern\" as a format option for date-and-time-based controls"
+            },
+            {
+                "id": "3d229f1532aa7ccc1fb31b685bb45d7fd4386ad2",
+                "type": "FIX",
+                "text": " We now ensure that the correct metamodel is passed to the removeSensitive data function"
+            },
+            {
+                "id": "cfc853aec585a29cc42ff2bce323ab1ea8027d8a",
+                "type": "FIX",
+                "text": " We now correctly read Boolean parameters that have no value when triggering an action"
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "1.130.0": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "I87665bf8b6d018948e850b09086985f7fc74a16e",
+                "type": "FEATURE",
+                "text": "We now ensure that UI5 tooling supports the changes made to the manifest file in the adaptation projects"
+            },
+            {
+                "id": "I459ef5e0e97bc45ca39e95636497bc5cc138391c",
+                "type": "FEATURE",
+                "text": "We now support AI-Assisted error resolution feature in the object pages for a beta release"
+            },
+            {
+                "id": "If35c385489b497c2e74e0424a9366f66e0cfb4ed",
+                "type": "FEATURE",
+                "text": "We now support the handling of 503 error responses"
+            },
+            {
+                "id": "Ia43580cd9602b13d5add868d860b88d5d6807c18",
+                "type": "FIX",
+                "text": "We've resolved an issue with the visibility of the Paste button on tables in the object pages",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008282603"
+                    }
+                ]
+            },
+            {
+                "id": "Ia3eaab5a148c946e4ab0592b6e66e0a15b544b6d",
+                "type": "FIX",
+                "text": "We now ensure that navigation works correctly when the Edm.DateTime fields are present in an object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0273608"
+                    }
+                ]
+            },
+            {
+                "id": "I1980971d09ae97837ab3cb557fc0a760eff2fc63",
+                "type": "FIX",
+                "text": "We've resolved an issue with adding more filters from the Adapt Filters dialog in the analytical list page applications",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008393576"
+                    }
+                ]
+            },
+            {
+                "id": "I640251d1b4f822d09218da6d83d58ed5bd00a95d",
+                "type": "FIX",
+                "text": "We've now added an invisible text as the label for the multi-view dropdown menu in the single table mode for accessibility"
+            },
+            {
+                "id": "Ib1c9c4bd48885b136e400d3e3ac98e1e5173c1b7",
+                "type": "FIX",
+                "text": "We now ensure that side effects work properly when fields with intent-based links are present on the object pages"
+            }
+        ]
+    }
+}

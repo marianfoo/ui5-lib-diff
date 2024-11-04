@@ -1,0 +1,73 @@
+{
+    "1.130.0": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "8eab5316c039c11a031b9fb5bf602a756305459b",
+                "type": "FIX",
+                "text": " ValueListProvider: correct description when multiple requests are send"
+            },
+            {
+                "id": "2ada990f3c7b365ccf5ccee1cee2af0268ec5f0e",
+                "type": "FIX",
+                "text": " ValueHelpDialog: add in ignoredFields description only if the key column is in ValueList",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380137505"
+                    }
+                ]
+            },
+            {
+                "id": "2f187592d3c818be924ec2fcd48ccb682ea0e3e5",
+                "type": "FIX",
+                "text": " SmartField: renderWhitespace property is now applied when creating text controls"
+            },
+            {
+                "id": "981d4577ac4c28292c7b9395cde2165301586e31",
+                "type": "FIX",
+                "text": " SmartField: Description is now shown on context changed"
+            },
+            {
+                "id": "29e00658d9c70602160efb11935593a1edc24fb1",
+                "type": "FEATURE",
+                "text": " SmartFilterBar: DateRange support new options"
+            },
+            {
+                "id": "061e965e6c28c86ea391161e37c0c535a4c78906",
+                "type": "FIX",
+                "text": " SmartField: FunctionImport field with wrong value list restriction"
+            },
+            {
+                "id": "6ae3e8a5eb59f4e0ecfe23c6b9060e18a529edb7",
+                "type": "FIX",
+                "text": " ValueListProvider: model value of single filter field is correctly updated when there is validation request"
+            },
+            {
+                "id": "c1b42235157ffcbcb579e56a41a209d5782ef9a7",
+                "type": "FEATURE",
+                "text": " SmartField: Supports lazy loading of function import parameters value help metadata"
+            },
+            {
+                "id": "f8543d709c034a0490dd6ae7705c4391ad00baad",
+                "type": "FIX",
+                "text": " ValueListProvider: type ahead no longer throws exception"
+            },
+            {
+                "id": "d9090915352617b17f6405f7e5afe62ac1638c23",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Add button in header now has correct announcement"
+            },
+            {
+                "id": "cde913af6f9551fdcdc6607ca8d7e65bfc8c8170",
+                "type": "FIX",
+                "text": " SmartField: On items load the ComboBox now applies the already set value on specific case"
+            },
+            {
+                "id": "238ceee7bf7ae84bdef454f5735e6130a311d61b",
+                "type": "FIX",
+                "text": " SmartField now fires change event with opened suggestions"
+            }
+        ]
+    }
+}

@@ -884,9 +884,9 @@
         "Version": "1.125"
     },
     {
-        "id": 237759763,
+        "id": 237759758,
         "deliverable.version": "1.129_SAPUI5",
-        "Description": "<ul class=\"ul\" id=\"loio9d87044050f44763a2aeabff0a7a6bb2__d107e450\">  <li class=\"li\">  <p class=\"p\">We have enhanced the <samp class=\"ph codeph\">DropInfo</samp> configuration: You can now use <samp class=\"ph codeph\">preventDefault</samp> for the <samp class=\"ph codeph\">dragover</samp> event. This way, you can disable dropping on a specific location, for example, between two table rows. To help consumers find out whether to prevent the default of the <samp class=\"ph codeph\">dragenter</samp> event when dragging over the edge of two DOM nodes, we have also added the <samp class=\"ph codeph\">dropPosition</samp> parameter to the event. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\" title=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\">API Reference</a> for the <samp class=\"ph codeph\">dragOver</samp> event and the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\" title=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\">API Reference</a> for <samp class=\"ph codeph\">DragDropConfig</samp>.</span>  </p>  </li>  <li class=\"li\">  <p class=\"p\">We have introduced the <samp class=\"ph codeph\">browserEvent</samp> parameter for all drag-and-drop-related events in <samp class=\"ph codeph\">DragDropConfig</samp> allowing consumers to access the <samp class=\"ph codeph\">DataTransfer</samp> object. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\" title=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\">API Reference</a>.</span></p>  </li>  </ul>",
+        "Description": "In the table in the <samp class=\"ph codeph\">View Settings</samp> dialog (<samp class=\"ph codeph\">P13n</samp>), you can now use the <samp class=\"ph codeph\">Select All</samp> option to select all columns at once to make them visible. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\" title=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\">Sample</a>.</span>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.mdc.Table</samp></span>",
         "Latest_Revision": "",
@@ -897,9 +897,9 @@
         "Version": "1.125"
     },
     {
-        "id": 237759758,
+        "id": 237759763,
         "deliverable.version": "1.129_SAPUI5",
-        "Description": "In the table in the <samp class=\"ph codeph\">View Settings</samp> dialog (<samp class=\"ph codeph\">P13n</samp>), you can now use the <samp class=\"ph codeph\">Select All</samp> option to select all columns at once to make them visible. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\" title=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\">Sample</a>.</span>",
+        "Description": "<ul class=\"ul\" id=\"loio9d87044050f44763a2aeabff0a7a6bb2__d107e450\">  <li class=\"li\">  <p class=\"p\">We have enhanced the <samp class=\"ph codeph\">DropInfo</samp> configuration: You can now use <samp class=\"ph codeph\">preventDefault</samp> for the <samp class=\"ph codeph\">dragover</samp> event. This way, you can disable dropping on a specific location, for example, between two table rows. To help consumers find out whether to prevent the default of the <samp class=\"ph codeph\">dragenter</samp> event when dragging over the edge of two DOM nodes, we have also added the <samp class=\"ph codeph\">dropPosition</samp> parameter to the event. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\" title=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\">API Reference</a> for the <samp class=\"ph codeph\">dragOver</samp> event and the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\" title=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\">API Reference</a> for <samp class=\"ph codeph\">DragDropConfig</samp>.</span>  </p>  </li>  <li class=\"li\">  <p class=\"p\">We have introduced the <samp class=\"ph codeph\">browserEvent</samp> parameter for all drag-and-drop-related events in <samp class=\"ph codeph\">DragDropConfig</samp> allowing consumers to access the <samp class=\"ph codeph\">DataTransfer</samp> object. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\" title=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\">API Reference</a>.</span></p>  </li>  </ul>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.mdc.Table</samp></span>",
         "Latest_Revision": "",
@@ -1937,9 +1937,9 @@
         "Version": "1.121"
     },
     {
-        "id": 237759335,
+        "id": 237759337,
         "deliverable.version": "1.129_SAPUI5",
-        "Description": "Until now, you could only filter the ID column of the smart table. Now, if a column has the <samp class=\"ph codeph\">Common.Text</samp> annotation or the <samp class=\"ph codeph\">sap:text</samp> OData V2 extension, and you open the filter dialog from the column header menu, you get filter fields for both the ID and description columns. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" title=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\">Sample</a>.</span>",
+        "Description": "<ul class=\"ul\" id=\"loio91a4a2f59e444ada8d003369a580f61d__d132e213\">  <li class=\"li\">  <p class=\"p\">If you want to hide a property from the table but not from the remaining UI (for example, if you still want to filter for this property), you can use the <samp class=\"ph codeph\">com.sap.vocabularies.UI.v1.Hidden</samp> annotation. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23annotations/Hidden\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23annotations/Hidden\" title=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23annotations/Hidden\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" title=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\">Sample</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">To provide the reason why a variant has been applied, for example, for the update of the application status, we have introduced a new <samp class=\"ph codeph\">variantContext</samp> parameter for the <samp class=\"ph codeph\">afterVariantApply</samp> event. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\" title=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\">API Reference</a>. </span></p>  </li>  </ul>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.comp.smarttable.SmartTable</samp></span>",
         "Latest_Revision": "",
@@ -1950,9 +1950,9 @@
         "Version": "1.121"
     },
     {
-        "id": 237759337,
+        "id": 237759335,
         "deliverable.version": "1.129_SAPUI5",
-        "Description": "<ul class=\"ul\" id=\"loio91a4a2f59e444ada8d003369a580f61d__d132e213\">  <li class=\"li\">  <p class=\"p\">If you want to hide a property from the table but not from the remaining UI (for example, if you still want to filter for this property), you can use the <samp class=\"ph codeph\">com.sap.vocabularies.UI.v1.Hidden</samp> annotation. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23annotations/Hidden\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23annotations/Hidden\" title=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23annotations/Hidden\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" title=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\">Sample</a>.</span></p>  </li>  <li class=\"li\">  <p class=\"p\">To provide the reason why a variant has been applied, for example, for the update of the application status, we have introduced a new <samp class=\"ph codeph\">variantContext</samp> parameter for the <samp class=\"ph codeph\">afterVariantApply</samp> event. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\" title=\"https://ui5.sap.com/#/api/sap.ui.comp.smarttable.SmartTable%23events/afterVariantApply\">API Reference</a>. </span></p>  </li>  </ul>",
+        "Description": "Until now, you could only filter the ID column of the smart table. Now, if a column has the <samp class=\"ph codeph\">Common.Text</samp> annotation or the <samp class=\"ph codeph\">sap:text</samp> OData V2 extension, and you open the filter dialog from the column header menu, you get filter fields for both the ID and description columns. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\" title=\"https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable\">Sample</a>.</span>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.comp.smarttable.SmartTable</samp></span>",
         "Latest_Revision": "",
@@ -4342,9 +4342,9 @@
         "Version": "1.111"
     },
     {
-        "id": 237759920,
+        "id": 237759921,
         "deliverable.version": "1.129_SAPUI5",
-        "Description": "We have implemented a new <samp class=\"ph codeph\">calendarWeekNumbering</samp> property in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp>. Using this property, you can set predefined settings to the control about week numbering and the first day of the week. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" title=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\">API Reference</a>.</span>",
+        "Description": "We have implemented new options in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp> control for <samp class=\"ph codeph\">Minutes</samp>, <samp class=\"ph codeph\">Last Hours</samp>, <samp class=\"ph codeph\">Next Minutes</samp> and <samp class=\"ph codeph\">Next Hours</samp>. Using these options, you can select smaller time frames. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" title=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\">API Reference</a>.</span>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.m.DynamicDateRange</samp></span>",
         "Latest_Revision": "",
@@ -4355,9 +4355,9 @@
         "Version": "1.111"
     },
     {
-        "id": 237759921,
+        "id": 237759920,
         "deliverable.version": "1.129_SAPUI5",
-        "Description": "We have implemented new options in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp> control for <samp class=\"ph codeph\">Minutes</samp>, <samp class=\"ph codeph\">Last Hours</samp>, <samp class=\"ph codeph\">Next Minutes</samp> and <samp class=\"ph codeph\">Next Hours</samp>. Using these options, you can select smaller time frames. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\" title=\"https://ui5.sap.com/#/api/sap.m.DynamicDateRange\">API Reference</a>.</span>",
+        "Description": "We have implemented a new <samp class=\"ph codeph\">calendarWeekNumbering</samp> property in the <samp class=\"ph codeph\">sap.m.DynamicDateRange</samp>. Using this property, you can set predefined settings to the control about week numbering and the first day of the week. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\" title=\"https://ui5.sap.com/#/api/sap.ui.core.date.CalendarWeekNumbering\">API Reference</a>.</span>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.m.DynamicDateRange</samp></span>",
         "Latest_Revision": "",
@@ -19500,19 +19500,6 @@
         "Version": "1.40"
     },
     {
-        "id": 237760667,
-        "deliverable.version": "1.129_SAPUI5",
-        "Description": "<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_abg_wqh_z4b\">  <li class=\"li\">  <p class=\"p\">The library now includes support for the SAP 3D Visual Enterprise 9.0 VDS4 file format.</p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.Loco</samp>: <samp class=\"ph codeph\">Loco</samp> control has been updated to handle gestures for creating and editing redlining objects. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\">API Reference</a>.</span></p>  </li>  </ul>",
-        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk library</samp>)</span>",
-        "Latest_Revision": "",
-        "Valid_as_Of": "2016-08-24",
-        "Type": "Changed",
-        "Action": "Info Only",
-        "Category": "Control",
-        "Version": "1.40"
-    },
-    {
         "id": 237760654,
         "deliverable.version": "1.129_SAPUI5",
         "Description": "<p class=\"p\">New controls for the <span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>:</p><ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_nsf_gjh_z4b\">  <li class=\"li\">  <div class=\"p\">Redlining controls: A number of controls have been added to the <samp class=\"ph codeph\">sap.ui.vk.library</samp> which allow you to create and edit basic redlining in 2D images or 3D models. These controls are:<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_osf_gjh_z4b\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineDesign</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElement</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementEllipse</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementFreehand</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementRectangle</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineSurface</samp></p>  </li>  </ul></div>  </li>  </ul><p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk\" title=\"https://ui5.sap.com/#/api/sap.ui.vk\">API Reference</a>.</p><ul class=\"ul\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.DecryptionHandler</samp>: This control handles the decryption of encrypted models using third-party decryption algorithms. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\">API Reference</a> in the Demo Kit.</span>  </p>  </li>  </ul>",
@@ -19521,6 +19508,19 @@
         "Latest_Revision": "",
         "Valid_as_Of": "2016-08-24",
         "Type": "New",
+        "Action": "Info Only",
+        "Category": "Control",
+        "Version": "1.40"
+    },
+    {
+        "id": 237760667,
+        "deliverable.version": "1.129_SAPUI5",
+        "Description": "<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_abg_wqh_z4b\">  <li class=\"li\">  <p class=\"p\">The library now includes support for the SAP 3D Visual Enterprise 9.0 VDS4 file format.</p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.Loco</samp>: <samp class=\"ph codeph\">Loco</samp> control has been updated to handle gestures for creating and editing redlining objects. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\">API Reference</a>.</span></p>  </li>  </ul>",
+        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
+        "Title": "<span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk library</samp>)</span>",
+        "Latest_Revision": "",
+        "Valid_as_Of": "2016-08-24",
+        "Type": "Changed",
         "Action": "Info Only",
         "Category": "Control",
         "Version": "1.40"

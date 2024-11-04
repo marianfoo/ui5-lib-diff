@@ -1,0 +1,37 @@
+{
+    "1.130.0": {
+        "date": "October 2024",
+        "notes": [
+            {
+                "id": "a386a9910840eb8d8974cb97321b67cca8c4b489",
+                "type": "FEATURE",
+                "text": " We now support the sorting of data in micro charts"
+            },
+            {
+                "id": "9249e2b33edd8c446f7adf05c04ff3014872bd00",
+                "type": "FEATURE",
+                "text": " Key users can now make changes to the manifest.json file"
+            },
+            {
+                "id": "7091ef5bc62894cb6524916fd8987870d5c4050a",
+                "type": "FIX",
+                "text": " We now enable the selection of table rows when the Copy to Clipboard button is visible"
+            },
+            {
+                "id": "1e75c6f69367a2875d088f925f9cdc95cc80b670",
+                "type": "FIX",
+                "text": " We no longer show the title of the editable header when it’s empty"
+            },
+            {
+                "id": "1e3bd005ccafcbe7427a3c6a99033e9a9163f5bf",
+                "type": "FEATURE",
+                "text": " We now provide a dialog enabling users to directly create a new object in a list report without triggering a navigation to the object page afterwards"
+            },
+            {
+                "id": "fb1e0873a598cfeb81b035c4594f19cd99130f4a",
+                "type": "FIX",
+                "text": " We now ensure that the onRestore hook is triggered in the controller if the refreshStrategyOnAppRestore property has been defined in the manifest"
+            }
+        ]
+    }
+}
