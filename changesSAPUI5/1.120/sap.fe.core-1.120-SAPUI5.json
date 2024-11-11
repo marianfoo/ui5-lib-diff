@@ -903,5 +903,25 @@
                 "text": " We've resolved an issue that led to the loading of the sap.insight message bundle twice"
             }
         ]
+    },
+    "1.120.17": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "f675c54decbb1e6beae26ebf9ef458f7829b4617",
+                "type": "FIX",
+                "text": " We now support more formats for startup parameter values when launching an app"
+            },
+            {
+                "id": "3f5fd68c9f8e4053ae71b9819c8b63ea11d35269",
+                "type": "FIX",
+                "text": " You can now overwrite localization messages for Save action"
+            },
+            {
+                "id": "07dfc4dde5dd796e3a42e0fc1e9b953424378ee2",
+                "type": "FIX",
+                "text": " We now ensure that the navigate function cannot be retriggered if it has already been called"
+            }
+        ]
     }
 }

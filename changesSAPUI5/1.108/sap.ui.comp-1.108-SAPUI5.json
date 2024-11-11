@@ -1366,5 +1366,25 @@
                 "text": " ValueListProvider: model value of single filter field is correctly updated when there is validation request"
             }
         ]
+    },
+    "1.108.37": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "13ccc6ea1a42c20317d741438805de19596d8be7",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct getUiState for Edm.String properties"
+            },
+            {
+                "id": "539dce41fb767d2280dcb77f7c6145c9cc0c69b1",
+                "type": "FIX",
+                "text": " ValueListProvider: correct description when multiple requests are send"
+            },
+            {
+                "id": "2d0163dbb4c686aec7a93347dd4c84dfe2112af8",
+                "type": "FIX",
+                "text": " SmartField: renderWhitespace property is now applied when creating text controls"
+            }
+        ]
     }
 }

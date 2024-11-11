@@ -7749,6 +7749,30 @@
     ]
   },
   {
+    "version": "1.108.37",
+    "date": "2024.11.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MessagePage: Icon ignored from screen readers"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/analytics/AnalyticalBinding#updateAnalyticalInfo: keep attribute properties in additional select"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.109.0",
     "date": "2022.11.01",
     "libraries": [
@@ -17208,6 +17232,30 @@
           {
             "type": "FIX",
             "text": " sap.m.PlanningCalendar: remove appointments not selected announcement"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.120.23",
+    "date": "2024.11.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/analytics/AnalyticalBinding#updateAnalyticalInfo: keep attribute properties in additional select"
           }
         ]
       }
@@ -95197,6 +95245,42 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.FileUploader: change event listener is reattached correctly now"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.84.48",
+    "date": "2024.11.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MessagePage: Icon ignored from screen readers"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: prevent default before press on mobile"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Fiori20Adapter: Performance issue fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: align current week calculations"
           }
         ]
       }
