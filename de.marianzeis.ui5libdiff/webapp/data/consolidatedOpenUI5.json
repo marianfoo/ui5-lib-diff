@@ -20946,7 +20946,7 @@
   },
   {
     "version": "1.127.0",
-    "date": "2024.07.01",
+    "date": "2024.08.01",
     "libraries": [
       {
         "library": "sap.f",
@@ -20995,6 +20995,14 @@
           {
             "type": "FEATURE",
             "text": " sap.m.DynamicDateRange: add group type \"Data\" to value property"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: added defaultClass to the items aggregation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: fix SR announcements when all-day appointments are selected with keyboard."
           },
           {
             "type": "FIX",
@@ -21152,6 +21160,10 @@
           },
           {
             "type": "FIX",
+            "text": " sap.ui.core.LocaleData#requestInstance: Enable synchronous instance creation"
+          },
+          {
+            "type": "FIX",
             "text": " core/Element: avoid 'focusfail' when the control still has focus"
           },
           {
@@ -21175,6 +21187,10 @@
       {
         "library": "sap.ui.documentation",
         "changes": [
+          {
+            "type": "FIX",
+            "text": " Demokit: Remove deprecated sap.f.IllustratedMessage"
+          },
           {
             "type": "FIX",
             "text": " Demokit: Replace deprecated sap.m.MessagePage"
@@ -21241,6 +21257,10 @@
           },
           {
             "type": "FIX",
+            "text": " sap.m.Menu, sap.ui.unified.Menu: added defaultClass to the items aggregation"
+          },
+          {
+            "type": "FIX",
             "text": " sap.m.SinglePlanningCalendar: fix SR announcements when appointments are selected with keyboard."
           },
           {
@@ -21263,6 +21283,134 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageLayout: lazy loading with correct scroll pos"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.127.1",
+    "date": "2024.09.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Content padding classes are applied to the header if additional class is present"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ViewSettingsDialog: fixed \"select all\" checkbox positioning"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Page: Fix failing tests"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/odata/v2/ODataListBinding: fire dataReceived event for aborted requests"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ColumnLayout: keep breakpoint classes stable on invalidation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Calendar with two months in one column is displayed correctly now"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.127.2",
+    "date": "2024.10.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " CellSelector: Return correct row contexts when grouping"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.127.3",
+    "date": "2024.10.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've now removed the no data description for cases where uploadEnabled is set to false"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now fixed the minimum height issue for the no data page in uploadSet control"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Height calculations for scrollable contents are preserved after invalidation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TabContainer: sync customData between outer and internal controls"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now fixed the issue of truncating characters in the GenericTile header section by removing the usage of sap.m.Text deprecated method"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: Exact match with no autocomplete behavior corrected"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/Element: use duck typing to check DOM element in 'closestTo'"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.127.4",
+    "date": "2024.11.01",
+    "libraries": [
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/analytics/AnalyticalBinding#updateAnalyticalInfo: keep attribute properties in additional select"
           }
         ]
       }
@@ -84257,6 +84405,60 @@
           {
             "type": "FIX",
             "text": " sap.f.DynamicPage: Restore automatic fitContent management"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.71.68",
+    "date": "2024.11.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Qunit in IE fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MessagePage: Icon ignored from screen readers"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: prevent default before press on mobile"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Add tooltip to the up and down arrow buttons"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.NavigationList: ARIA roles are now correct"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: add tooltips for calendar legend types"
           }
         ]
       }

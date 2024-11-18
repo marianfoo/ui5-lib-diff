@@ -1,27 +1,37 @@
 {
-    "1.127.0": {
-        "date": "Jul 2024",
+    "1.127.1": {
+        "date": "Aug 2024",
         "notes": [
             {
-                "id": "I91613fa3b43b4c549053b2007fada94ee669d3e7",
-                "text": "We've now enabled the option to hide non-working hours in Gantt chart for the Stepwise Zoom strategy",
-                "type": "FEATURE",
-                "references": []
-            },
-            {
-                "id": "I5a027cd8095e763a04e8176f2d70d031e98be4e1",
-                "text": "We've now enabled the option to save settings that a user makes to the print dialog",
-                "type": "FEATURE",
-                "references": []
-            },
-            {
-                "id": "I5b0f5c376496bec9a3183bce344cf9b8e0f12309",
-                "text": "We've now added a delay in scrolling if horizontal lazy loading is enabled for any chart",
+                "id": "I724cb531bad20be5f5164c2dd0bd0a337aa6a0a4",
+                "text": "We've now modified AggregationUtils method to avoid considering dragDropConfig as a shape aggregation of row settings",
                 "type": "FIX",
                 "references": [
                     {
                         "type": "SNOW",
-                        "reference": "DINC0188115"
+                        "reference": "CS20240008091426"
+                    }
+                ]
+            },
+            {
+                "id": "I1170030088710a6d9780238c7b3bc77b7fd73edb",
+                "type": "FIX",
+                "text": "We now retain the selection of a shape in Gantt chart irrespective of the row index",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008222755"
+                    }
+                ]
+            },
+            {
+                "id": "I3fcd035ac6413244306fa6d985cfaa5b83989201",
+                "type": "FIX",
+                "text": "We now ensure that the unused orphaned connector instances are destroyed correctly in cases where the related shapes are not visible",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008126356"
                     }
                 ]
             }
