@@ -33,5 +33,25 @@
                 "text": " We now ensure that the onRestore hook is triggered in the controller if the refreshStrategyOnAppRestore property has been defined in the manifest"
             }
         ]
+    },
+    "1.130.1": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "4f1893b31b8bde1b0c27877790d30e74a950c481",
+                "type": "FIX",
+                "text": " In InlineCreationRows mode, we now correctly highlight newly created rows in a table"
+            },
+            {
+                "id": "5a5dc6d5461beb894655ea677de780cf68d387f9",
+                "type": "FIX",
+                "text": " We now ensure the correct selection mode is set in all tables"
+            },
+            {
+                "id": "e9179d3784d0f4c19b0c7720d17671734c1e58da",
+                "type": "FIX",
+                "text": " We now ensure that if all the selection buttons for intent-based navigation within a menu are hidden, the menu button is also hidden"
+            }
+        ]
     }
 }

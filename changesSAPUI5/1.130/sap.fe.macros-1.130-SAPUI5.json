@@ -163,5 +163,45 @@
                 "text": " We've increased the data load threshold to 200 values for the value help dropdown list"
             }
         ]
+    },
+    "1.130.1": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "4f1893b31b8bde1b0c27877790d30e74a950c481",
+                "type": "FIX",
+                "text": " In InlineCreationRows mode, we now correctly highlight newly created rows in a table"
+            },
+            {
+                "id": "5a5dc6d5461beb894655ea677de780cf68d387f9",
+                "type": "FIX",
+                "text": " We now ensure the correct selection mode is set in all tables"
+            },
+            {
+                "id": "a240d9fc601716e2c04ab074263298d0355913d8",
+                "type": "FIX",
+                "text": " We now check for the first field that is visible on the action parameter dialog and correctly focus on it"
+            },
+            {
+                "id": "504edcb39ce3045debc22981269012854f3ba4b9",
+                "type": "FIX",
+                "text": " You can now override the text in the action confirmation popover for a specific action and entity set"
+            },
+            {
+                "id": "9dcec9c9facd3ea82e2ad6c7706a7cc59e5afd8d",
+                "type": "FIX",
+                "text": " We now support defining a field with value help by using a specific property of the singleton entity"
+            },
+            {
+                "id": "0956f60f73608da7d774b84d41176b814b3e8e2f",
+                "type": "FIX",
+                "text": " We've resolved an issue where charts configured with a relative metaPath and contextPath didn't load"
+            },
+            {
+                "id": "793a56a6854432afe52c7d8ed7ad3543f1101176",
+                "type": "FIX",
+                "text": " We now ensure that the copy action enablement considers the OperationAvailable annotation"
+            }
+        ]
     }
 }

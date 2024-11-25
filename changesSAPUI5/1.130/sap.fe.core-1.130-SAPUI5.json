@@ -103,5 +103,76 @@
                 "text": " We now correctly read Boolean parameters that have no value when triggering an action"
             }
         ]
+    },
+    "1.130.1": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "4f1893b31b8bde1b0c27877790d30e74a950c481",
+                "type": "FIX",
+                "text": " In InlineCreationRows mode, we now correctly highlight newly created rows in a table"
+            },
+            {
+                "id": "5a5dc6d5461beb894655ea677de780cf68d387f9",
+                "type": "FIX",
+                "text": " We now ensure the correct selection mode is set in all tables"
+            },
+            {
+                "id": "e3b494efeabc84f7065fb05bcf46aaae863f6840",
+                "type": "FIX",
+                "text": " We've resolved an issue that caused the draftIndicator to appear below fields in grid tables"
+            },
+            {
+                "id": "3455f7102741dc80a59661add494cb2f4fa45e06",
+                "type": "FIX",
+                "text": " We now ensure that changes made in the manifest.json file when using feature toggles are not lost after navigating back and forth between apps"
+            },
+            {
+                "id": "e9179d3784d0f4c19b0c7720d17671734c1e58da",
+                "type": "FIX",
+                "text": " We now ensure that if all the selection buttons for intent-based navigation within a menu are hidden, the menu button is also hidden"
+            },
+            {
+                "id": "504edcb39ce3045debc22981269012854f3ba4b9",
+                "type": "FIX",
+                "text": " You can now override the text in the action confirmation popover for a specific action and entity set"
+            },
+            {
+                "id": "9dcec9c9facd3ea82e2ad6c7706a7cc59e5afd8d",
+                "type": "FIX",
+                "text": " We now support defining a field with value help by using a specific property of the singleton entity"
+            },
+            {
+                "id": "e8059f13cea5eea210da4efeaab2e526f804e255",
+                "type": "FIX",
+                "text": " We now support the creation of a new entity using the NewAction annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370079747"
+                    }
+                ]
+            },
+            {
+                "id": "793a56a6854432afe52c7d8ed7ad3543f1101176",
+                "type": "FIX",
+                "text": " We now ensure that the copy action enablement considers the OperationAvailable annotation"
+            },
+            {
+                "id": "82965c361e17e7f42abfb25ee1de204d710772fa",
+                "type": "FIX",
+                "text": " We now request the entity properties for a bound action configured with a returned entity type"
+            },
+            {
+                "id": "488081de5a57a4adec8020f15a8a73015876f5cd",
+                "type": "FIX",
+                "text": " We now support more formats for startup parameter values when launching an app"
+            },
+            {
+                "id": "bd682bb8b867397a95ec1c91d5c026a9ca59b43c",
+                "type": "FIX",
+                "text": " We've resolved an issue that caused a crash after saving when the WebSocket annotation was used for side-effect configuration"
+            }
+        ]
     }
 }

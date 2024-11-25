@@ -69,5 +69,30 @@
                 "text": " SmartField now fires change event with opened suggestions"
             }
         ]
+    },
+    "1.130.1": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "683766d2a19bf6b1c9644dce4197439162fc424c",
+                "type": "FIX",
+                "text": " SmartVariantManagementModel: updateView take care of standard variant"
+            },
+            {
+                "id": "e2c1d143ba532eb9fbf26183e15031b0771fc4de",
+                "type": "FIX",
+                "text": " We now ensure that for the new tokens created in SmartMultiInput, the correct context is returned"
+            },
+            {
+                "id": "990a8c711c7f1724d7d6ed1949abeb16827eed6f",
+                "type": "FIX",
+                "text": " FilterBar: Order of filter items is now correct"
+            },
+            {
+                "id": "eb85be5ff2f7eef4f3b78bcb1212a14b18bf1b89",
+                "type": "FIX",
+                "text": " SmartField: 0 value for NUMC with TextArrangement is now not shown initially"
+            }
+        ]
     }
 }
