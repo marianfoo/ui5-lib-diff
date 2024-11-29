@@ -130,30 +130,54 @@ export default class Main extends BaseController {
 		// If both versionFrom and versionTo are null, exit the function
 		if (versionFrom === null && versionTo === null) return;
 
-		// Helper function to check if a version is in data and is not null
-		const versionExists = (version: string | null) =>
-			version &&
-			data.some((item) => item.key === version || item.value === version);
+		// Helper function to find nearest available version
+		const findNearestVersion = (targetVersion: string): string | null => {
+			const versions = data.map(item => item.key || item.value);
+			// Sort versions in descending order
+			versions.sort((a, b) => this.compareVersionDesc(a, b));
+			
+			// Find the target version's major.minor
+			const [major, minor] = targetVersion.split('.').slice(0, 2);
+			const targetBase = `${major}.${minor}`;
+			
+			// Find all versions with same major.minor, then get the nearest lower version
+			const compatibleVersions = versions.filter(v => v.startsWith(targetBase));
+			return compatibleVersions.find(v => this.compareVersion(v, targetVersion) <= 0) || null;
+		};
 
+		let finalVersionFrom = versionFrom;
+		let finalVersionTo = versionTo;
 		const missingOrInvalid = [];
 
 		if (!versionFrom) {
 			missingOrInvalid.push("versionFrom should be added");
-		} else if (!versionExists(versionFrom)) {
-			missingOrInvalid.push(`versionFrom ${versionFrom} is not valid`);
+		} else if (!data.some(item => item.key === versionFrom || item.value === versionFrom)) {
+			const nearest = findNearestVersion(versionFrom);
+			if (nearest) {
+				finalVersionFrom = nearest;
+				MessageToast.show(`Using nearest available version ${nearest} for versionFrom`);
+			} else {
+				missingOrInvalid.push(`versionFrom ${versionFrom} is not valid`);
+			}
 		}
 
 		if (!versionTo) {
 			missingOrInvalid.push("versionTo should be added");
-		} else if (!versionExists(versionTo)) {
-			missingOrInvalid.push(`versionTo ${versionTo} is not valid`);
+		} else if (!data.some(item => item.key === versionTo || item.value === versionTo)) {
+			const nearest = findNearestVersion(versionTo);
+			if (nearest) {
+				finalVersionTo = nearest;
+				MessageToast.show(`Using nearest available version ${nearest} for versionTo`);
+			} else {
+				missingOrInvalid.push(`versionTo ${versionTo} is not valid`);
+			}
 		}
 
 		if (missingOrInvalid.length > 0) {
 			MessageToast.show(missingOrInvalid.join(" and "));
 		} else {
-			this.getView().byId("versionFromSelect").setSelectedKey(versionFrom!);
-			this.getView().byId("versionToSelect").setSelectedKey(versionTo!);
+			this.getView().byId("versionFromSelect").setSelectedKey(finalVersionFrom!);
+			this.getView().byId("versionToSelect").setSelectedKey(finalVersionTo!);
 			this.getView().byId("SegmentedButtonUI5").setSelectedKey(ui5Type!);
 			this.handleVersionChange();
 		}
