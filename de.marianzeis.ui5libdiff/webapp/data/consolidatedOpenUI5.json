@@ -20350,6 +20350,47 @@
     ]
   },
   {
+    "version": "1.124.9",
+    "date": "2024.11.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.TabContainer: sync customData between outer and internal controls"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/analytics/AnalyticalBinding#updateAnalyticalInfo: keep attribute properties in additional select"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Element: use duck typing to check DOM element in 'closestTo'"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Legend selected is translated correctly in German"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.125.0",
     "date": "2024.06.01",
     "libraries": [

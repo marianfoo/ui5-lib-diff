@@ -293,5 +293,45 @@
                 "text": " We now ensure that an email address is correcty parsed"
             }
         ]
+    },
+    "1.124.9": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "12b4a7bfc9ee0d66afacb173a869f85170a9af63",
+                "type": "FIX",
+                "text": " We now ensure side effects are executed before saving a document on the object page"
+            },
+            {
+                "id": "43d60dfe8cc97d4471d6f45e7aff515841963ee4",
+                "type": "FIX",
+                "text": " We've resolved an issue with calling the InvokeAction extension of the EditFlow controller when the context parameter is an array of contexts"
+            },
+            {
+                "id": "cb1e86e4984ca2b22a0a80d4998a412ef3c9c1ce",
+                "type": "FIX",
+                "text": " We've resolved an issue that caused the draftIndicator to appear below fields in grid tables"
+            },
+            {
+                "id": "3e9264bcd0bf017163adc769e082cb8683c8002c",
+                "type": "FIX",
+                "text": " We now ensure that changes made in the manifest.json file when using feature toggles are not lost after navigating back and forth between apps"
+            },
+            {
+                "id": "8db4b47b5fee703f9a982f5cc694958f92b1455f",
+                "type": "FIX",
+                "text": " We've resolved an issue with the pageReady event that occurred when a custom section included MDC tables or MDC charts"
+            },
+            {
+                "id": "fd98e90893a74d6f207c249d2e7eea1d195291f7",
+                "type": "FIX",
+                "text": " We now support more formats for startup parameter values when launching an app"
+            },
+            {
+                "id": "d4141f55386de7598eb0ad24b172472e03904ebb",
+                "type": "FIX",
+                "text": " We've resolved an issue that caused incorrect enablement of the action buttons"
+            }
+        ]
     }
 }

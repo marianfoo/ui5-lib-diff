@@ -435,5 +435,76 @@
                 ]
             }
         ]
+    },
+    "1.124.11": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "I40b39fc81f15391871484d564e0b513b7163aa93",
+                "type": "FIX",
+                "text": "We've resolved an issue with the table variant state not being set correctly after the application was upgraded to a new version",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240007542539"
+                    }
+                ]
+            },
+            {
+                "id": "I03573988b3c8838b5c92e18e23f1c7887db831dc",
+                "type": "FIX",
+                "text": "We now allow the considerPresentationVariant property to be modified in designtime mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008313767"
+                    }
+                ]
+            },
+            {
+                "id": "I4b216f55af26b15861417e27f7d079c2a5831b19",
+                "type": "FIX",
+                "text": "We've now removed theme properties from chart while creating insights cards",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008445523"
+                    }
+                ]
+            },
+            {
+                "id": "I0e6d5b9a0a96b725ff11c462a144c89f21f05fb0",
+                "type": "FIX",
+                "text": "We've now removed the duplicate application names displayed in the list of related apps",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0296963"
+                    }
+                ]
+            },
+            {
+                "id": "Id5ca7bc85f0cb78e6a991fdf516afabcfec4153c",
+                "type": "FIX",
+                "text": "We've resolved an issue with the dirty page variant occurring during the external navigation for MultiView applications operating in the flexible column layout mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008353007"
+                    }
+                ]
+            },
+            {
+                "id": "I965def690ff4eff7a1395d454b9fa7f3cdb3e15f",
+                "type": "FIX",
+                "text": "We've resolved an issue with the Share functionality in list reports by removing incorrect code related to the collaboration consumer class",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008564582"
+                    }
+                ]
+            }
+        ]
     }
 }

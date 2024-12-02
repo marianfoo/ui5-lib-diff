@@ -1,0 +1,108 @@
+{
+    "1.131.0": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "b208a8cf79f530453d7717f3c3e6d29401cb9261",
+                "type": "FIX",
+                "text": " SmartFilterBar: variant now stores info for condition type filters having default operation"
+            },
+            {
+                "id": "377950381831a156aeca3053edab9d455bee4026",
+                "type": "FIX",
+                "text": " SmartFilterBar: verifySearchAllowed no longer throws error for basic search validation"
+            },
+            {
+                "id": "946d0a3d825c891140727500dcfb8d0f393c771f",
+                "type": "FEATURE",
+                "text": " SmartFilterbar: BasicSearch is now restricted to 1000 characters"
+            },
+            {
+                "id": "65e0bd6b73afdc70c814d1586f57c1f067dbc449",
+                "type": "FIX",
+                "text": " SmartVariantManagementModel: updateView take care of standard variant aswell"
+            },
+            {
+                "id": "c1d5f4891e16558e3058154cc36e22ff114132a8",
+                "type": "FIX",
+                "text": " FilterBar: correct display when used in sapUxAPObjectPageHeaderContentItem"
+            },
+            {
+                "id": "a302e05efc51adcf395ce636ef3c9b8676673225",
+                "type": "FIX",
+                "text": " We now ensure that for the new tokens created in SmartMultiInput, the correct context is returned"
+            },
+            {
+                "id": "3c45c0b3812d61de946237ee8b72a9b4cd782bfb",
+                "type": "FIX",
+                "text": " FilterBar: Order of filter items is now correct"
+            },
+            {
+                "id": "54dd446a59bb7e01f1924057b948b147039c02d4",
+                "type": "FIX",
+                "text": " SmartField: 0 value for NUMC with TextArrangement is now not shown initially"
+            },
+            {
+                "id": "dde8a5019b5c1dae708d9ee5446427099640f1a1",
+                "type": "FEATURE",
+                "text": " FilterBar: Default label tooltips for filter fields are now disabled"
+            },
+            {
+                "id": "365b831f7fda8fbd288c09671e4e588634204144",
+                "type": "FIX",
+                "text": " SmartFilterBar: SFBMultiComboBox now updates the model properly on suggested item selection"
+            },
+            {
+                "id": "78e20ef4329d5d57d69fb057dfc5bc74daf429e7",
+                "type": "FIX",
+                "text": " SmartVariantManagement: timing issues in 2.0"
+            },
+            {
+                "id": "7e6fb1945a6af978d454b16c849d6ac0470ae1cc",
+                "type": "FIX",
+                "text": " ValueListProvider: correct description when multiple requests are send"
+            },
+            {
+                "id": "5e5ce4521dd89176b9a369cb5093a8fad503133e",
+                "type": "FIX",
+                "text": " SmartTable: ColumnMenu sort item visibility depends on showSortMenuEntry"
+            },
+            {
+                "id": "5769546e31c63f4614631e295e66c517cd84115b",
+                "type": "FIX",
+                "text": " SmartField: renderWhitespace property is now applied when creating text controls"
+            },
+            {
+                "id": "cbd1869d27e92f2e311883f5e59a9e6eeae696c2",
+                "type": "FIX",
+                "text": " SmartFilterBar: value state of the control is now correctly applied on opening adapt filters dialog"
+            },
+            {
+                "id": "e2a2d34aaa0059babb98484394ea50214e218098",
+                "type": "FIX",
+                "text": " SmartField: FunctionImport UI.ReadOnly correct behaviour"
+            },
+            {
+                "id": "998b95c1268e79ac4b1a50a872fb9e2415ff233d",
+                "type": "FIX",
+                "text": " ValueHelpDialog: add in ignoredFields description only if the key column is in ValueList",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2380137505"
+                    }
+                ]
+            },
+            {
+                "id": "c830fc81f9859f8e7684e39a8334d9564e3d9351",
+                "type": "FIX",
+                "text": " P13nDialog: Correctly handle empty string value in filters dialog"
+            },
+            {
+                "id": "4925bf437217286b03c3e25928f313528a8df9f4",
+                "type": "FEATURE",
+                "text": " We've now added support of DateTimeWithTimezone datatype in the smartMultiEdit fields"
+            }
+        ]
+    }
+}

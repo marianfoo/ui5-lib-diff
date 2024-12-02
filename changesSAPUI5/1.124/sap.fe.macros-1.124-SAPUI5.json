@@ -344,5 +344,25 @@
                 "text": " We've increased the data load threshold to 500 values for the value help dropdown list"
             }
         ]
+    },
+    "1.124.9": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "55908e3fa062d9c362867ad50230c9c6e48bcb96",
+                "type": "FIX",
+                "text": " We've resolved an issue where the checkbox selection for multi-input fields wasn't working correctly"
+            },
+            {
+                "id": "9fb651e3067d93f2b27ccfd4f4845ddc6ebadf24",
+                "type": "FIX",
+                "text": " We've now enabled the pagination feature again for all value help dropdowns"
+            },
+            {
+                "id": "0ab0417c6074a7f09b4b30028e0c67d9965f3754",
+                "type": "FIX",
+                "text": " We've resolved an issue in the object page that occurred when the end user removed a section by adding a null check at the section layout access point"
+            }
+        ]
     }
 }

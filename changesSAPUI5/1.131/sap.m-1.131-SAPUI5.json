@@ -1,0 +1,262 @@
+{
+    "1.131.0": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "0c0de1ccdd895a42b611469841d9259ab7e3974c",
+                "type": "FIX",
+                "text": " sap.m.Dialog: QUnit test fixed"
+            },
+            {
+                "id": "df513f18d58d51561c87b476c22cf9247aeb1b77",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: Remove icon aria-label attribute"
+            },
+            {
+                "id": "0679e6c52d6b0a6e5b2760e4deb37f7bdc94016e",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: Now marker is always displayed"
+            },
+            {
+                "id": "80241d65e4af2a8fdbe0b0142bf1cea73a621cd2",
+                "type": "FEATURE",
+                "text": " sap.m.Menu: add preventable beforeClose event"
+            },
+            {
+                "id": "e221b3d1debc5d97bfcdefc37f8cc5f368c03d7d",
+                "type": "FIX",
+                "text": " sap.m.Popover: Popover is correctly placed in the ComboBox"
+            },
+            {
+                "id": "d9063a7631183e347b27e0a3c583ed02ee1c5ed2",
+                "type": "FIX",
+                "text": " sap.m.Popover: Popover can now be opened by the keyboard"
+            },
+            {
+                "id": "aae0a9db6709a92998069c8b4d4837433b2d8492",
+                "type": "FIX",
+                "text": " We've now fixed the truncation of timestamp issue in the feedListItem"
+            },
+            {
+                "id": "2150a43949f6132a66916ec325eb8f60793ed14d",
+                "type": "FIX",
+                "text": " sap.m.Button: prevent right click from firing press event"
+            },
+            {
+                "id": "28eacd2f3e3bf8f39a5946d42ad6863e731e2069",
+                "type": "FIX",
+                "text": " sap.m.OverflowToolbar: Do not show empty Popover"
+            },
+            {
+                "id": "6917a976be70c451b3f05552daf2205fd90a0964",
+                "type": "FEATURE",
+                "text": " sap.m.DynamicDateRange: Add custom option sample"
+            },
+            {
+                "id": "3492440f528a78ec537197f65d102659616470eb",
+                "type": "FIX",
+                "text": " sap.m.Dialog: The sub-header is now taken into account when calculating the top padding"
+            },
+            {
+                "id": "966e075f153abc176264fd1f19b7d767f5cb550f",
+                "type": "FIX",
+                "text": " sap.m.Image: Inline svg rendering issue corrected"
+            },
+            {
+                "id": "e5b88587ae0176a0a0748c8845046ad190834df2",
+                "type": "FEATURE",
+                "text": " sap.m.MaskInput: added 'submit' event"
+            },
+            {
+                "id": "768d5b74109c0fef803a90bd69b505a2f833676a",
+                "type": "FIX",
+                "text": " sap.m.FacetFilter: adjust dialog header announcement"
+            },
+            {
+                "id": "7615225f8fd40e3eddfcdb00c0aafb294f14d390",
+                "type": "FIX",
+                "text": " sap.m.MaskInput: 'Del' key now deletes more than one character"
+            },
+            {
+                "id": "b0ca064edf41885d581177cf2334e47742448d88",
+                "type": "FEATURE",
+                "text": " sap.m.Dialog: beforeOpen/beforeClose events are now preventable"
+            },
+            {
+                "id": "b4e46f1abe1697137f359bb2c02b88532b732963",
+                "type": "FEATURE",
+                "text": " sap.ui.core.IconPool: Update icon font v5.10 and v4.22"
+            },
+            {
+                "id": "6e4489c3348a8896a917368d6687d8a25391f116",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: icon only link is now clickable"
+            },
+            {
+                "id": "2ff484205a80cbf39cf14c4ecc9c4d99685f24c0",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: announce option's selected state"
+            },
+            {
+                "id": "01a6995eda3fd44b55b0c0bfc5cf36cbb6ed141e",
+                "type": "FIX",
+                "text": " sap.m.FacetFilter: add content announcement"
+            },
+            {
+                "id": "764b28f8cf832ce8f9d5cbf1f8cb9bdeaad34761",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: added hours/minutes/seconds buttons tooltips"
+            },
+            {
+                "id": "00d800311664f936e9f810f7b8964c92554d4716",
+                "type": "FIX",
+                "text": "sap.m.ComboBox, sap.m.SuggestionsPopover: Adjust arrow down behavior with value state"
+            },
+            {
+                "id": "af171ba7e487cdd35c50eb4086ac0a99f821997e",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendarLegend: adjust accessibility semantics"
+            },
+            {
+                "id": "546254262ad6b2f33dc9718b08768bed8f067412",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: Fixed active toolbar focus jump"
+            },
+            {
+                "id": "a680ee1a1ca5ae4eed40bc087e0451abac54d019",
+                "type": "FIX",
+                "text": " We now ensure that the video source or the url setting uses the template strings correctly"
+            },
+            {
+                "id": "9814483b335b65005c33eefe1afbb5fda8249ad0",
+                "type": "FIX",
+                "text": " sap.m.Popover: Close popover on Escape key press before its initial focus is applied"
+            },
+            {
+                "id": "1e16c6857cab24a72e0c0e68513826d86c6001a3",
+                "type": "FIX",
+                "text": " sap.m.MessageToast: Fix unstable qUnit test"
+            },
+            {
+                "id": "73ac3469398676ad48d916e6019269c6f4a6dc70",
+                "type": "FIX",
+                "text": " sap.m.FacetFilter: adjust loading facet list announcement"
+            },
+            {
+                "id": "620b3d88e34370ea0984ae99cf07bbc59a23ed20",
+                "type": "FIX",
+                "text": " We now ensure that the Uploadset illustrated message properties are correctly updated when they are bound with a model"
+            },
+            {
+                "id": "e7b855470515a8c626da0867306ee48481b5e1f0",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Supports Custom header with height bigger than one line"
+            },
+            {
+                "id": "6167c32defef8c18693756fe7532bf1e73f7da57",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: adjust grid cell description"
+            },
+            {
+                "id": "d191deb738e14ebf17543afd6547fa93be0f003a",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: adjust keyboard navigation via TAB"
+            },
+            {
+                "id": "07e9b1f304f29a91e4ca19c2b92e23a59703b1d7",
+                "type": "FIX",
+                "text": " sap.m.Popover: Calling openBy on invisible popover no longer throws an error"
+            },
+            {
+                "id": "8a6fb2e2ded171d7c309ae46ee728bc0d7de2540",
+                "type": "FIX",
+                "text": " sap.m.ViewSettingsDialog: fixed focus after pressing the Reset button"
+            },
+            {
+                "id": "c928f0c531a32d3d805fe7c2f937d29e7eac1c81",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: remove console error"
+            },
+            {
+                "id": "e79acca3588eada6b91886a3e0aeffa35f705b5a",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: update appointment styling"
+            },
+            {
+                "id": "cec4d21337c79f7d470755298b456e1f5448fe9c",
+                "type": "FIX",
+                "text": " sap.m.TabContainer: Improve Accessibility Test Page"
+            },
+            {
+                "id": "8ba97e1e36a3e4b984e9388f730e5ebceb12e543",
+                "type": "FEATURE",
+                "text": "sap.m.ComboBox: Improve arrow up and down behavior"
+            },
+            {
+                "id": "08fcd9bd050b8cefafb015956ed90e70a1137b6a",
+                "type": "FIX",
+                "text": " sap.m.ObjectMarker: Update ACC test page"
+            },
+            {
+                "id": "37a3f7521a95f81fca3444f3c8b86bf661b800dc",
+                "type": "FIX",
+                "text": " sap.m.OverflowToolbar: Fix failing test"
+            },
+            {
+                "id": "f8d4267e40f2a1b47cfec705a7ebbab4f240541c",
+                "type": "FIX",
+                "text": " sap.m.Menu: menu items properties are handled correctly"
+            },
+            {
+                "id": "e022d5bb90c078e5b16b070263545b7235907504",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: fixed week days position in 320px"
+            },
+            {
+                "id": "889987b58b1cf4868a4be8b054974c17c16ebe76",
+                "type": "FEATURE",
+                "text": " sap.m.IconTabBar: Transparent IconTabFilters inline mode"
+            },
+            {
+                "id": "609709880a470fb37e9318a6d8c5ce2fbc094bb0",
+                "type": "FIX",
+                "text": " VariantManagement clear deleted and renamed items before creating dialog"
+            },
+            {
+                "id": "33619c3b15f7daa41102392692e15a2a033f6887",
+                "type": "FIX",
+                "text": " sap.m.IllustratedMessage: Prevent infinite resize"
+            },
+            {
+                "id": "c9a4dd7e3266cc23569daaba8fb79d61f2639a82",
+                "type": "FIX",
+                "text": " Demo Kit: Fix broken link in \"Bulletin Board\" Demo App"
+            },
+            {
+                "id": "1d6caf3e82851ee4197c52661fc7774c40c4db3a",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: Horizontal tab text is no longer cut off when extra text spacing is applied"
+            },
+            {
+                "id": "38014c076ad5726a49c9258adfdbde622b972922",
+                "type": "FIX",
+                "text": " sap.m.Link: prevent default before press on mobile"
+            },
+            {
+                "id": "c264807868a51b96b3a27169e35e51889e47edc9",
+                "type": "FEATURE",
+                "text": " sap.m.Popover: resizable property now covers all cases"
+            },
+            {
+                "id": "91bb74378c73299d6627ca9ad138fd0de6b7941b",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+            },
+            {
+                "id": "fab751ec8113c0f23db8c0a33efd80d0879026cf",
+                "type": "FIX",
+                "text": " sap.m.Breadcrumbs: Fixed disabled Links tab order"
+            }
+        ]
+    }
+}

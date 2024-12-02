@@ -1,0 +1,127 @@
+{
+    "1.131.0": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "177ad828bae2011374a0b500b3a3899d3cb11781",
+                "type": "FEATURE",
+                "text": " You can now use the context menu to expand or collapse a node in a tree table"
+            },
+            {
+                "id": "d6e8b678c46dab7e3db7fed6954bebd7f5b59ee9",
+                "type": "FIX",
+                "text": " We now ensure the correct selection mode is set in all tables"
+            },
+            {
+                "id": "25f4f38a9d5ad3f3544010c43fcda4fcc0338c53",
+                "type": "FIX",
+                "text": " We now check for the first field that is visible on the action parameter dialog and correctly focus on it"
+            },
+            {
+                "id": "0980a4a87c918db32ed75a110490b916d5f80833",
+                "type": "FIX",
+                "text": " We now ensure that the application works correctly when the personalization settings of a chart are set to false"
+            },
+            {
+                "id": "b9b2684f0b3dc35cbc2c65d81e45d17a69bf7f71",
+                "type": "FIX",
+                "text": " You can now override the text in the action confirmation popover for a specific action and entity set"
+            },
+            {
+                "id": "311fc985ba25d4144c140bc8307a03b6b581bc65",
+                "type": "FIX",
+                "text": " We now ensure that the singletonPathVisitor annotation can be used to configure the visibility of the custom action buttons in the list report page"
+            },
+            {
+                "id": "f0c5a54d8652edc9f3d2c692c75a262d73b537ee",
+                "type": "FIX",
+                "text": " We've resolved an issue where charts configured with a relative metaPath and contextPath didn't load"
+            },
+            {
+                "id": "6141e1c4b22a3d38298e811cd6827bdbceb15240",
+                "type": "FEATURE",
+                "text": " We now provide a scrollThreshold setting for tables"
+            },
+            {
+                "id": "1ad84095b99fe34f240776c3d70b3c284d2b5ada",
+                "type": "FIX",
+                "text": " We now support defining a field with value help by using a specific property of the singleton entity"
+            },
+            {
+                "id": "dca7c7469e4abf3fdc70c6a92a117f8d6be7f808",
+                "type": "FEATURE",
+                "text": " We now support 1:N filtering in the P13n personalization dialog for tables"
+            },
+            {
+                "id": "07ca51f1135cb9af4d7f07105fe0f0e6ce50419c",
+                "type": "FIX",
+                "text": " We now ensure that the implicit semantic object mappings containing sensitive data are not passed to the target application"
+            },
+            {
+                "id": "dd06672258b19e5af0e095be12aab30b9b9d49a7",
+                "type": "FIX",
+                "text": " We’ve now resolved the issue with filters not being removed using chart personalization"
+            },
+            {
+                "id": "542edf1eaf9d44fd87e8c707a59667a598b77864",
+                "type": "FIX",
+                "text": "We've resolved an issue where the recently entered values popover incorrectly appears empty when no filters are applied"
+            },
+            {
+                "id": "b3fbe59681c8fa6a3069a79f4143b7f10484ab59",
+                "type": "FIX",
+                "text": " We now consider the custom aggregate property as aggregatable in charts"
+            },
+            {
+                "id": "d5d9d8f49332d033b99e5a417eeb997917cab77b",
+                "type": "FIX",
+                "text": " We now ensure that sorting works correctly in tree tables"
+            },
+            {
+                "id": "0407293175a64ef53673cdcc4d0912227dc43eb6",
+                "type": "FIX",
+                "text": " We no longer truncate links inside contact fields"
+            },
+            {
+                "id": "c07001e968ef2795fd87bdc58e986f3182ec12d7",
+                "type": "FIX",
+                "text": " We now ensure that back-end errors in the upload table are always displayed"
+            },
+            {
+                "id": "c8d0e033cf713971156855ddb2e24e0231e6aa51",
+                "type": "FIX",
+                "text": " We now ensure that in apps using inline creation mode, the empty row is added to the bottom of the table when the end user modifies a column"
+            },
+            {
+                "id": "550d0b032b0e393e38204468bb1f05738dc1fe56",
+                "type": "FIX",
+                "text": " We've now resolved an issue with the pending $metadata request when using the CollectionRoot property within the ValueList annotation"
+            },
+            {
+                "id": "3d76e3623ae2573110491ff66c0e6ac5b2b68fe0",
+                "type": "FIX",
+                "text": " We've resolved an issue where the Chart building block didn't load in extension fragments"
+            },
+            {
+                "id": "fa8934915ea55b628293a0da576ba75f14e523e3",
+                "type": "FIX",
+                "text": " The tree table now supports pasting a node as a root node"
+            },
+            {
+                "id": "a5d28adc0b4bedf56771aa984b92af9707b46532",
+                "type": "FIX",
+                "text": " We now ensure that the copy action enablement considers the OperationAvailable annotation"
+            },
+            {
+                "id": "619ef25b07814e4379465c8a314ad7ebccb14251",
+                "type": "FIX",
+                "text": " We've resolved an issue in the object page that occurred when the end user removed a section by adding a null check at the section layout access point"
+            },
+            {
+                "id": "15621c1c86dd6873142c2b7f94f6ac88fdacbc8b",
+                "type": "FIX",
+                "text": " We no longer show an error message for a chart when the same property is marked as both groupable and aggregatable with a custom aggregation method"
+            }
+        ]
+    }
+}

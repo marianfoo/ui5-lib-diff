@@ -218,5 +218,45 @@
                 "text": " ValueListProvider: model value of single filter field is correctly updated when there is validation request"
             }
         ]
+    },
+    "1.124.9": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "aa0d255419cd24ec58a3e7eba5013069ea095ae8",
+                "type": "FIX",
+                "text": " SmartFilterBar: variant now stores info for condition type filters having default operation"
+            },
+            {
+                "id": "f362301f5d9bae43a7f6c031209a94f38b236d0a",
+                "type": "FIX",
+                "text": " FilterProvider: show all filters button is now correctly set according to the configurations"
+            },
+            {
+                "id": "4eae59c9324c1e014ca1761a34b227be3c9b117f",
+                "type": "FIX",
+                "text": " We now ensure that for the new tokens created in SmartMultiInput, the correct context is returned"
+            },
+            {
+                "id": "1f38a996d8efd6db45f208f7b863754c4f548a98",
+                "type": "FIX",
+                "text": " FilterBar: Order of filter items is now correct"
+            },
+            {
+                "id": "103c49b2085307233b2935e93c4b7566ce07ace5",
+                "type": "FIX",
+                "text": " ValueListProvider: correct description when multiple requests are send"
+            },
+            {
+                "id": "70746c241483a1c86e50199165dd8f9a18406ee4",
+                "type": "FIX",
+                "text": " SmartField: renderWhitespace property is now applied when creating text controls"
+            },
+            {
+                "id": "3747e30d18c30ab4f19a9ebda36adad726afaad7",
+                "type": "FIX",
+                "text": " SmartField: Description is now shown on context changed"
+            }
+        ]
     }
 }

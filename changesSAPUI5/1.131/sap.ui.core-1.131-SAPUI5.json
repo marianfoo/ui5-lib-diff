@@ -1,0 +1,72 @@
+{
+    "1.131.0": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "7117f9a1df1a36d54e72959186bdf0cd3e8fcee9",
+                "type": "FIX",
+                "text": " core/Control.js: Consider Busy Section when moving focus to BusyIndicator"
+            },
+            {
+                "id": "15dd8b56d0a9710496ea93d06a970e2f3ea69784",
+                "type": "FIX",
+                "text": " core/Control: Restore focus to the last focused DOM element"
+            },
+            {
+                "id": "720aaa2a8892ef57330786533b529493062be8ae",
+                "type": "FIX",
+                "text": " core/Control: restore focus before busy control is rerendered"
+            },
+            {
+                "id": "ceea0e7bd2c465067b5dfab14f708a4bed25d8f1",
+                "type": "FIX",
+                "text": " core/Element.qunit.js: Introduce Timeout for FF"
+            },
+            {
+                "id": "b4e46f1abe1697137f359bb2c02b88532b732963",
+                "type": "FEATURE",
+                "text": " sap.ui.core.IconPool: Update icon font v5.10 and v4.22"
+            },
+            {
+                "id": "9f01aea4ab1413880075623dfe6087b1484e84e6",
+                "type": "FIX",
+                "text": " sap.ui.core.format.NumberFormat#format: Do not apply currency customizing for decimals on currency formats, if format option \"style: 'long'/'short'\" is set"
+            },
+            {
+                "id": "9bcae72d1910b918b131bcfa9b485f403c44c2f4",
+                "type": "FIX",
+                "text": " sap/ui/model/analytics/AnalyticalBinding#updateAnalyticalInfo: keep attribute properties in additional select"
+            },
+            {
+                "id": "9fdc02ea3c9a52a83c6edbc872f9fbb091b1b4db",
+                "type": "FIX",
+                "text": " sap/ui/core/message/MessageMixin: fix additionalText calculation"
+            },
+            {
+                "id": "5f1bbaeb67bc934466a480a0d54bf98ec09e4f7a",
+                "type": "FIX",
+                "text": " LocalBusyIndicator: Set correct border radius in Horizon theme"
+            },
+            {
+                "id": "edf4b41689fdb4e661c910891e58557ecea10d18",
+                "type": "FIX",
+                "text": " core/Element: use duck typing to check DOM element in 'closestTo'"
+            },
+            {
+                "id": "9c5998d7eb75502b95b9751c5a45dab6bb809b57",
+                "type": "FIX",
+                "text": " sap.ui.core.format.NumberFormat: Update documentation for format option \"precision\""
+            },
+            {
+                "id": "3039d7fa3d8521d4cedbb93701b968dc50a1e502",
+                "type": "FIX",
+                "text": " sap/ui/core/cldr/*.json: fix translations for sap-calendarWeek.narrow and .wide"
+            },
+            {
+                "id": "c264807868a51b96b3a27169e35e51889e47edc9",
+                "type": "FEATURE",
+                "text": " sap.m.Popover: resizable property now covers all cases"
+            }
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "1.131.0": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "3a13fe0de9c60de6312ad52ebff283bb667fc4d1",
+                "type": "FIX",
+                "text": " We've resolved an issue that caused the draftIndicator to appear below fields in grid tables"
+            },
+            {
+                "id": "177ad828bae2011374a0b500b3a3899d3cb11781",
+                "type": "FEATURE",
+                "text": " You can now use the context menu to expand or collapse a node in a tree table"
+            },
+            {
+                "id": "d6e8b678c46dab7e3db7fed6954bebd7f5b59ee9",
+                "type": "FIX",
+                "text": " We now ensure the correct selection mode is set in all tables"
+            },
+            {
+                "id": "359cd9cb498af0c810b384cd2e6ed2f501e4157a",
+                "type": "FIX",
+                "text": " We've resolved an issue with the pageReady event that occurred when a custom section included MDC tables or MDC charts"
+            },
+            {
+                "id": "b9b2684f0b3dc35cbc2c65d81e45d17a69bf7f71",
+                "type": "FIX",
+                "text": " You can now override the text in the action confirmation popover for a specific action and entity set"
+            },
+            {
+                "id": "fdc435c79ba9f7d0f54c240ed2dab62ae3f4e064",
+                "type": "FIX",
+                "text": " We now ensure that the transition context-bound messages no longer appear once the object page is closed"
+            },
+            {
+                "id": "311fc985ba25d4144c140bc8307a03b6b581bc65",
+                "type": "FIX",
+                "text": " We now ensure that the singletonPathVisitor annotation can be used to configure the visibility of the custom action buttons in the list report page"
+            },
+            {
+                "id": "6141e1c4b22a3d38298e811cd6827bdbceb15240",
+                "type": "FEATURE",
+                "text": " We now provide a scrollThreshold setting for tables"
+            },
+            {
+                "id": "1ad84095b99fe34f240776c3d70b3c284d2b5ada",
+                "type": "FIX",
+                "text": " We now support defining a field with value help by using a specific property of the singleton entity"
+            },
+            {
+                "id": "dca7c7469e4abf3fdc70c6a92a117f8d6be7f808",
+                "type": "FEATURE",
+                "text": " We now support 1:N filtering in the P13n personalization dialog for tables"
+            },
+            {
+                "id": "acbf0cd2fe32c572b47199335db27d00e9d5fa28",
+                "type": "FIX",
+                "text": " The creation dialog now consistently appears over the ObjectPage when the create button is pressed in the list report"
+            },
+            {
+                "id": "bd91acbc5daf86e71491035810f29d74e8a0a2d2",
+                "type": "FIX",
+                "text": " We now ensure that if all the selection buttons for intent-based navigation within a menu are hidden, the menu button is also hidden"
+            },
+            {
+                "id": "87c4ff798fe1c3408e9f7dd378f6529f3c129338",
+                "type": "FIX",
+                "text": " We now request the entity properties for a bound action configured with a returned entity type"
+            },
+            {
+                "id": "7e8c26ff2422e1557f2b932276c849210060d5d7",
+                "type": "FIX",
+                "text": " We now support more formats for startup parameter values when launching an app"
+            },
+            {
+                "id": "0668527e80b059f2205bc5b663d572f7840d4f8f",
+                "type": "FIX",
+                "text": " We now support the creation of a new entity using the NewAction annotation",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370079747"
+                    }
+                ]
+            },
+            {
+                "id": "a5d28adc0b4bedf56771aa984b92af9707b46532",
+                "type": "FIX",
+                "text": " We now ensure that the copy action enablement considers the OperationAvailable annotation"
+            }
+        ]
+    }
+}
