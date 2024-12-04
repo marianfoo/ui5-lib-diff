@@ -1,37 +1,26 @@
 const fs = require('fs');
-const path = require('path');
-const axios = require('axios');
+const https = require('https');
 
-async function extractLibrariesFromFolder(folderPath) {
-    const files = fs.readdirSync(folderPath);
-    let libraryNames = [];
+async function extractLibrariesFromVersionJson() {
+    try {
+        // Fetch version.json from UI5 CDN
+        const response = await fetch('https://ui5.sap.com/resources/sap-ui-version.json');
+        const versionJson = await response.json();
 
-    for (let file of files) {
-        if (path.extname(file) === '.json') {
-            const filePath = path.join(folderPath, file);
-            const content = fs.readFileSync(filePath, 'utf-8');
-            const jsonContent = JSON.parse(content);
+        // Extract library names
+        const libraryNames = versionJson.libraries
+            .map(lib => lib.name)
+            .filter((name, index, self) => self.indexOf(name) === index) // Remove duplicates
+            .sort(); // Sort alphabetically
 
-            if (jsonContent.libraries) {
-                for (let library of jsonContent.libraries) {
-                    if (library.name) {
-                        libraryNames.push(library.name);
-                    }
-                }
-            }
-        }
+        // Write to file
+        fs.writeFileSync('uniqueLibraries.json', JSON.stringify(libraryNames, null, 2));
+        console.log(`Successfully extracted ${libraryNames.length} unique libraries to uniqueLibraries.json`);
+
+    } catch (error) {
+        console.error('Error:', error);
     }
-
-    return [...new Set(libraryNames)];  // Remove duplicates using Set
 }
 
-async function main() {
-    const uniqueLibraryNames = await extractLibrariesFromFolder('./versions');
-    fs.writeFileSync('./uniqueLibraries.json', JSON.stringify(uniqueLibraryNames, null, 2));
-}
-
-main().then(() => {
-    console.log('Finished writing unique library names to uniqueLibraries.json');
-}).catch((error) => {
-    console.error('Error:', error);
-});
+// Execute the function
+extractLibrariesFromVersionJson();

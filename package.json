@@ -6,13 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "pnpm  --filter de.marianzeis.ui5libdiff start",
-    "build": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated && pnpm fetchWhatsNew && pnpm createRSSFeed && pnpm  --filter de.marianzeis.ui5libdiff build:opt",
-    "refreshData": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated && pnpm fetchWhatsNew && pnpm createRSSFeed",
+    "build": "pnpm fetchLibraries && pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated && pnpm fetchWhatsNew && pnpm createRSSFeed && pnpm  --filter de.marianzeis.ui5libdiff build:opt",
+    "refreshData": "pnpm fetchLibraries && pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated && pnpm fetchWhatsNew && pnpm createRSSFeed",
+    "fetchLibraries": "node names.js",
     "changes": "node changes.js",
     "parseChanges": "node parseChanges.js",
     "parseChangesSelect": "node parseChangesSelect.js",
     "deprecated": "node deprecated.js",
-    "fetchData": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated",
+    "fetchData": "pnpm fetchLibraries && pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated",
     "createRSSFeed": "node ./dev/createRSS.js",
     "fetchWhatsNew": "node whatsnew.js"
   },
