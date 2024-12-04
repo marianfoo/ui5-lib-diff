@@ -7773,6 +7773,38 @@
     ]
   },
   {
+    "version": "1.108.38",
+    "date": "2024.12.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've now set the correct state for the Selected property on the UploadSetItem"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Image: Inline svg rendering issue corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now fixed the truncation of timestamp issue in the feedListItem"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Add tooltip to the up and down arrow buttons"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.109.0",
     "date": "2022.11.01",
     "libraries": [
@@ -15440,7 +15472,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.date.CalendarWeekNumbering#undefined] Please use {@link module:sap/base/18n/date/CalendarWeekNumbering} instead."
+            "text": "[sap.ui.core.date.CalendarWeekNumbering#undefined] Please use {@link module:sap/base/i18n/date/CalendarWeekNumbering} instead."
           },
           {
             "type": "DEPRECATED",
@@ -16836,6 +16868,63 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageHeaderContent: correct box-shadow styles"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.120.24",
+    "date": "2024.12.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Scrollbar issue fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MessagePage: Icon ignored from screen readers"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now set the correct state for the Selected property on the UploadSetItem"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Image: Inline svg rendering issue corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now fixed the truncation of timestamp issue in the feedListItem"
+          },
+          {
+            "type": "FIX",
+            "text": " CellSelector: RTL flag is set on initialization"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " CommandExecution: Log error when command not found + make destroy fail-safe"
+          },
+          {
+            "type": "FIX",
+            "text": " Test Starter: Support ui5:// URLs for \"page\""
+          },
+          {
+            "type": "FIX",
+            "text": " Test Starter: Support resource-roots configuration"
           }
         ]
       }
@@ -22471,6 +22560,27 @@
             "text": " sap.uxap.ObjectPageLayout: Timing issue fixed"
           }
         ]
+      },
+      {
+        "library": "deprecated",
+        "changes": [
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.ProgressIndicator#getEnabled] with no replacement."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.m.ProgressIndicator#setEnabled] with no replacement."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.integration.ActionDefinition#getButtonType] All <code>ActionDefinitions</code> are now rendered as menu items and don't have <code>buttonType</code>."
+          },
+          {
+            "type": "DEPRECATED",
+            "text": "[sap.ui.integration.ActionDefinition#setButtonType] All <code>ActionDefinitions</code> are now rendered as menu items and don't have <code>buttonType</code>."
+          }
+        ]
       }
     ]
   },
@@ -22510,6 +22620,438 @@
           {
             "type": "FIX",
             "text": " sap.m.PlanningCalendarLegend: adjust accessibility semantics"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.131.0",
+    "date": "2024.11.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": "sap.ui.integration.widgets.Card: Action on card level"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.f.SidePanel: visual alignments"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: no invalidation on landmarkInfo change"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Adjust Badge creation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: pin button is fixed"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Menu: add preventable beforeClose event"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.DynamicDateRange: Add custom option sample"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.MaskInput: added 'submit' event"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Dialog: beforeOpen/beforeClose events are now preventable"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.core.IconPool: Update icon font v5.10 and v4.22"
+          },
+          {
+            "type": "FEATURE",
+            "text": "sap.m.ComboBox: Improve arrow up and down behavior"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.IconTabBar: Transparent IconTabFilters inline mode"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Popover: resizable property now covers all cases"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: QUnit test fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Remove icon aria-label attribute"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: Now marker is always displayed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Popover is correctly placed in the ComboBox"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Popover can now be opened by the keyboard"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now fixed the truncation of timestamp issue in the feedListItem"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Button: prevent right click from firing press event"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.OverflowToolbar: Do not show empty Popover"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: The sub-header is now taken into account when calculating the top padding"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Image: Inline svg rendering issue corrected"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FacetFilter: adjust dialog header announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MaskInput: 'Del' key now deletes more than one character"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: icon only link is now clickable"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: announce option's selected state"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FacetFilter: add content announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: added hours/minutes/seconds buttons tooltips"
+          },
+          {
+            "type": "FIX",
+            "text": "sap.m.ComboBox, sap.m.SuggestionsPopover: Adjust arrow down behavior with value state"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendarLegend: adjust accessibility semantics"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Fixed active toolbar focus jump"
+          },
+          {
+            "type": "FIX",
+            "text": " We now ensure that the video source or the url setting uses the template strings correctly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Close popover on Escape key press before its initial focus is applied"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MessageToast: Fix unstable qUnit test"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FacetFilter: adjust loading facet list announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " We now ensure that the Uploadset illustrated message properties are correctly updated when they are bound with a model"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Dialog: Supports Custom header with height bigger than one line"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: adjust grid cell description"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: adjust keyboard navigation via TAB"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Popover: Calling openBy on invisible popover no longer throws an error"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ViewSettingsDialog: fixed focus after pressing the Reset button"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: remove console error"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: update appointment styling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TabContainer: Improve Accessibility Test Page"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectMarker: Update ACC test page"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.OverflowToolbar: Fix failing test"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu: menu items properties are handled correctly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: fixed week days position in 320px"
+          },
+          {
+            "type": "FIX",
+            "text": " VariantManagement clear deleted and renamed items before creating dialog"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IllustratedMessage: Prevent infinite resize"
+          },
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Fix broken link in \"Bulletin Board\" Demo App"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: Horizontal tab text is no longer cut off when extra text spacing is applied"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Link: prevent default before press on mobile"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: fix cursor position when there is mask and no entry"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Breadcrumbs: Fixed disabled Links tab order"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.tnt.ToolPage: update visual design for Horizon themes"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.NavigationListItem: Selection now happens on Spacebar onkeyup event (not onkeydown)"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: remove border when used inside sap.tnt.ToolPage"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.ui.core.IconPool: Update icon font v5.10 and v4.22"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Popover: resizable property now covers all cases"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Control.js: Consider Busy Section when moving focus to BusyIndicator"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Control: Restore focus to the last focused DOM element"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Control: restore focus before busy control is rerendered"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Element.qunit.js: Introduce Timeout for FF"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.NumberFormat#format: Do not apply currency customizing for decimals on currency formats, if format option \"style: 'long'/'short'\" is set"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/analytics/AnalyticalBinding#updateAnalyticalInfo: keep attribute properties in additional select"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/message/MessageMixin: fix additionalText calculation"
+          },
+          {
+            "type": "FIX",
+            "text": " LocalBusyIndicator: Set correct border radius in Horizon theme"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Element: use duck typing to check DOM element in 'closestTo'"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.core.format.NumberFormat: Update documentation for format option \"precision\""
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/cldr/*.json: fix translations for sap-calendarWeek.narrow and .wide"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.documentation",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Correct filtering when both deprecated and experimental are checked"
+          },
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Handle failed file fetches and display warning message"
+          },
+          {
+            "type": "FIX",
+            "text": " Demo Kit: Adjust Demo Apps & Resources aside card spacing"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": "sap.ui.integration.widgets.Card: Action on card level"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Corrected link for manifest parameters"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Avoid horizontally overflowing content in ShowCard action dialog"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.PaneContainer: fix invalidation of nested panes"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " MDCTable: Add expand/collapse all for single nodes"
+          },
+          {
+            "type": "FEATURE",
+            "text": " FilterField: add new operators for DynamicDateRange"
+          },
+          {
+            "type": "FIX",
+            "text": " MTABLE: activate Home/End key navigation"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Menu: add preventable beforeClose event"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.CalendarMonthInterval: adjust accessibility semantics"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified: Fix editing of DemoKit Samples"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.RecurrenceUtils: Correct positioning of non-work periods."
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendarLegend: adjust accessibility semantics"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Menu: prevent unnecessary focusin events"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.RecurrenceNonWorkingPeriod: nonWorkingPeriods shown correctly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: update appointment styling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FileUploader: improve DemoKit samples"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Incorrect scrolling prevented"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Fix scrolling when switching tabs"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: pin button is fixed"
           }
         ]
       }
