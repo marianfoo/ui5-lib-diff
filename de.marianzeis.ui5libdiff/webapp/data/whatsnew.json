@@ -832,19 +832,6 @@
         "Version": "1.127"
     },
     {
-        "id": 248951717,
-        "deliverable.version": "1.130_SAPUI5",
-        "Description": "<p class=\"p\">The following changes and new features are available for <span class=\"ph\">SAP Fiori elements for OData V4</span>:</p>  <p class=\"p\">We've made performance improvements for side effect annotations related to action calls.</p>  <p class=\"p\">Previously, even when an action didn't have an annotated side effect, the full entity was read after executing the action. Now, if an action doesn't have a side effect annotation and the service supports state messages, the system implicitly reads the state messages. For performance optimization, <span class=\"ph\">SAP Fiori elements for OData V4</span> no longer fetches unnecessary data. As a result, it's possible that the required data for an action is no longer executed if you haven't annotated the corresponding side effect.</p>  <p class=\"p\">SAP Fiori elements for OData V4 always aims to read only the required data. If applications want data to be refreshed after a change made by a user, or by calling an action, they must define a side effect. With this change, SAP Fiori elements no longer implicitly reads the full instance after the execution of an action. Instead, SAP Fiori elements relies on the definition of side effects.</p>  <aside class=\"note sap-example example\" aria-labelledby=\"n7t\"><div class=\"title\" id=\"n7t\"><strong>Example</strong></div>  <p class=\"p\">Your app contains an action that results in a status change on the UI, such as the delivery status of an item changing from <span class=\"ph uicontrol\">Sent</span> to <span class=\"ph uicontrol\">Delivered</span>.</p><p class=\"p\">Until now the status changed automatically, because all app data was loaded. Now, if the UI requires any other side effects, you must ensure that a side effect annotation exists for the action.</p></aside>",
-        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\"><span class=\"ph\">SAP Fiori Elements for OData V4</span></span>",
-        "Latest_Revision": "",
-        "Valid_as_Of": "2024-08-08",
-        "Type": "Changed",
-        "Action": "Recommended",
-        "Category": "SAP Fiori Elements",
-        "Version": "1.127"
-    },
-    {
         "id": 248951716,
         "deliverable.version": "1.130_SAPUI5",
         "Description": "<p class=\"p\">The following changes and new features are available for <span class=\"ph\">SAP Fiori elements for OData V4</span>:</p>  <ul class=\"ul\" id=\"loioe5e13176220c4b9597c75580d363abc8__d215e235\">  <li class=\"li\">  <p class=\"p\">We’ve now enabled the date picker with a minimum allowed date and a maximum allowed date. For more information, see <a class=\"xref\" href=\"https://ui5.sap.com/#/topic/d26d3dd85f43441192e9c8b210746bf1\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/topic/d26d3dd85f43441192e9c8b210746bf1\" title=\"https://ui5.sap.com/#/topic/d26d3dd85f43441192e9c8b210746bf1\">Configuring Date Fields with a Valid Date Range</a>.</p>  </li>  <li class=\"li\">  <p class=\"p\">You can now use the <span class=\"ph menucascade\"><img src=\"themes/sap-light/img/navstart.gif\" alt=\"Start of the navigation path\" title=\"Start of the navigation path\"></img><span class=\"ph uicontrol\">Share: Microsoft Teams</span> <img src=\"themes/sap-light/img/navstep.gif\" alt=\"Next navigation step\" title=\"Next navigation step\"></img> <span class=\"ph uicontrol\">As Card</span><img src=\"themes/sap-light/img/navend.gif\" alt=\"End of the navigation path\" title=\"End of the navigation path\"></img></span> option to share the header facets and actions of an object page. For more information, see <a class=\"xref\" href=\"https://ui5.sap.com/#/topic/022bf0dcae1d4d90961ebe23d642fca3\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/topic/022bf0dcae1d4d90961ebe23d642fca3\" title=\"https://ui5.sap.com/#/topic/022bf0dcae1d4d90961ebe23d642fca3\">The <span class=\"ph uicontrol\">Share</span> Functionality</a>.</p>  </li>  <li class=\"li\">  <p class=\"p\">We now exclude columns that use 1:n navigation from table exports. For more information, see <a class=\"xref\" href=\"https://ui5.sap.com/#/topic/4bab6f2043814257974b52d4dafe1dcd\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/topic/4bab6f2043814257974b52d4dafe1dcd\" title=\"https://ui5.sap.com/#/topic/4bab6f2043814257974b52d4dafe1dcd\">Using the <span class=\"ph uicontrol\">Export</span> Button</a>.</p>  </li>  <li class=\"li\">  <p class=\"p\">We now support uploading files to a table. For more information, see <a class=\"xref\" href=\"https://ui5.sap.com/#/topic/d59dbec411f04a64bd6d6dda898fdc84\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/topic/d59dbec411f04a64bd6d6dda898fdc84\" title=\"https://ui5.sap.com/#/topic/d59dbec411f04a64bd6d6dda898fdc84\">Enabling Upload Functionality</a>.</p>  </li>  <li class=\"li\">  <p class=\"p\">Tables in the analytical list page now provide a <span class=\"ph uicontrol\">Show Details</span> link for subtotals with various units. For more information, see <a class=\"xref\" href=\"https://ui5.sap.com/#/topic/d344c5aa5c81483482dbbed5b3abb142\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/topic/d344c5aa5c81483482dbbed5b3abb142\" title=\"https://ui5.sap.com/#/topic/d344c5aa5c81483482dbbed5b3abb142\">Table Groupings</a>.</p>  </li>  <li class=\"li\">  <p class=\"p\">We now limit the search string to 1000 characters. For more information, see <a class=\"xref\" href=\"https://ui5.sap.com/#/topic/3cdebeebb04b4205908140242c9d6817\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/topic/3cdebeebb04b4205908140242c9d6817\" title=\"https://ui5.sap.com/#/topic/3cdebeebb04b4205908140242c9d6817\">Enabling the Search Function</a>.</p>  </li>  <li class=\"li\">  <p class=\"p\">We now support annotations that allow masking of input fields. For more information, see <a class=\"xref\" href=\"https://ui5.sap.com/#/topic/c18ada4bc56e427a9a2df2d1898f28a5\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/topic/c18ada4bc56e427a9a2df2d1898f28a5\" title=\"https://ui5.sap.com/#/topic/c18ada4bc56e427a9a2df2d1898f28a5\">Different Representations of a Field</a>.</p>  </li>  <li class=\"li\">  <p class=\"p\">You can now define a <samp class=\"ph codeph\">sideEffectsEventsInteractionType</samp> for each side effect event separately. For more information, see <a class=\"xref\" href=\"https://ui5.sap.com/#/topic/27c9c3bad6eb4d99bc18a661fdb5e246\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/topic/27c9c3bad6eb4d99bc18a661fdb5e246\" title=\"https://ui5.sap.com/#/topic/27c9c3bad6eb4d99bc18a661fdb5e246\">Using Side Effect Events</a>.</p>  </li>  </ul>",
@@ -854,6 +841,19 @@
         "Valid_as_Of": "2024-08-08",
         "Type": "Changed",
         "Action": "Info Only",
+        "Category": "SAP Fiori Elements",
+        "Version": "1.127"
+    },
+    {
+        "id": 248951717,
+        "deliverable.version": "1.130_SAPUI5",
+        "Description": "<p class=\"p\">The following changes and new features are available for <span class=\"ph\">SAP Fiori elements for OData V4</span>:</p>  <p class=\"p\">We've made performance improvements for side effect annotations related to action calls.</p>  <p class=\"p\">Previously, even when an action didn't have an annotated side effect, the full entity was read after executing the action. Now, if an action doesn't have a side effect annotation and the service supports state messages, the system implicitly reads the state messages. For performance optimization, <span class=\"ph\">SAP Fiori elements for OData V4</span> no longer fetches unnecessary data. As a result, it's possible that the required data for an action is no longer executed if you haven't annotated the corresponding side effect.</p>  <p class=\"p\">SAP Fiori elements for OData V4 always aims to read only the required data. If applications want data to be refreshed after a change made by a user, or by calling an action, they must define a side effect. With this change, SAP Fiori elements no longer implicitly reads the full instance after the execution of an action. Instead, SAP Fiori elements relies on the definition of side effects.</p>  <aside class=\"note sap-example example\" aria-labelledby=\"n7t\"><div class=\"title\" id=\"n7t\"><strong>Example</strong></div>  <p class=\"p\">Your app contains an action that results in a status change on the UI, such as the delivery status of an item changing from <span class=\"ph uicontrol\">Sent</span> to <span class=\"ph uicontrol\">Delivered</span>.</p><p class=\"p\">Until now the status changed automatically, because all app data was loaded. Now, if the UI requires any other side effects, you must ensure that a side effect annotation exists for the action.</p></aside>",
+        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
+        "Title": "<span class=\"ph emphasis emphasis\"><span class=\"ph\">SAP Fiori Elements for OData V4</span></span>",
+        "Latest_Revision": "",
+        "Valid_as_Of": "2024-08-08",
+        "Type": "Changed",
+        "Action": "Recommended",
         "Category": "SAP Fiori Elements",
         "Version": "1.127"
     },
@@ -19513,19 +19513,6 @@
         "Version": "1.40"
     },
     {
-        "id": 248954546,
-        "deliverable.version": "1.130_SAPUI5",
-        "Description": "<p class=\"p\">New controls for the <span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>:</p><ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_nsf_gjh_z4b\">  <li class=\"li\">  <div class=\"p\">Redlining controls: A number of controls have been added to the <samp class=\"ph codeph\">sap.ui.vk.library</samp> which allow you to create and edit basic redlining in 2D images or 3D models. These controls are:<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_osf_gjh_z4b\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineDesign</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElement</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementEllipse</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementFreehand</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementRectangle</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineSurface</samp></p>  </li>  </ul></div>  </li>  </ul><p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk\" title=\"https://ui5.sap.com/#/api/sap.ui.vk\">API Reference</a>.</p><ul class=\"ul\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.DecryptionHandler</samp>: This control handles the decryption of encrypted models using third-party decryption algorithms. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\">API Reference</a> in the Demo Kit.</span>  </p>  </li>  </ul>",
-        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>",
-        "Latest_Revision": "",
-        "Valid_as_Of": "2016-08-24",
-        "Type": "New",
-        "Action": "Info Only",
-        "Category": "Control",
-        "Version": "1.40"
-    },
-    {
         "id": 248954561,
         "deliverable.version": "1.130_SAPUI5",
         "Description": "<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_abg_wqh_z4b\">  <li class=\"li\">  <p class=\"p\">The library now includes support for the SAP 3D Visual Enterprise 9.0 VDS4 file format.</p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.Loco</samp>: <samp class=\"ph codeph\">Loco</samp> control has been updated to handle gestures for creating and editing redlining objects. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.Loco\">API Reference</a>.</span></p>  </li>  </ul>",
@@ -19534,6 +19521,19 @@
         "Latest_Revision": "",
         "Valid_as_Of": "2016-08-24",
         "Type": "Changed",
+        "Action": "Info Only",
+        "Category": "Control",
+        "Version": "1.40"
+    },
+    {
+        "id": 248954546,
+        "deliverable.version": "1.130_SAPUI5",
+        "Description": "<p class=\"p\">New controls for the <span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>:</p><ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_nsf_gjh_z4b\">  <li class=\"li\">  <div class=\"p\">Redlining controls: A number of controls have been added to the <samp class=\"ph codeph\">sap.ui.vk.library</samp> which allow you to create and edit basic redlining in 2D images or 3D models. These controls are:<ul class=\"ul\" id=\"loiofbab50ef7e414b3e95a8c7a294540464__ul_osf_gjh_z4b\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineDesign</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElement</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementEllipse</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementFreehand</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineElementRectangle</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.RedlineSurface</samp></p>  </li>  </ul></div>  </li>  </ul><p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk\" title=\"https://ui5.sap.com/#/api/sap.ui.vk\">API Reference</a>.</p><ul class=\"ul\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.ui.vk.DecryptionHandler</samp>: This control handles the decryption of encrypted models using third-party decryption algorithms. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\" title=\"https://ui5.sap.com/#/api/sap.ui.vk.DecryptionHandler\">API Reference</a> in the Demo Kit.</span>  </p>  </li>  </ul>",
+        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
+        "Title": "<span class=\"ph emphasis emphasis\">Visual Interaction toolkit (<samp class=\"ph codeph\">sap.ui.vk</samp> library)</span>",
+        "Latest_Revision": "",
+        "Valid_as_Of": "2016-08-24",
+        "Type": "New",
         "Action": "Info Only",
         "Category": "Control",
         "Version": "1.40"

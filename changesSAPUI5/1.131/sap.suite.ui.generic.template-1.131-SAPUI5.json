@@ -1,0 +1,159 @@
+{
+    "1.131.0": {
+        "date": "November 2024",
+        "notes": [
+            {
+                "id": "Iff7050d8dbf0abb2907187f390ce434bacae97d9",
+                "type": "FEATURE",
+                "text": "We've made additional changes to the code ensuring a proper handling of the HTTP 503 error responses"
+            },
+            {
+                "id": "I957a519506b91294ef30dee71ccded28d8e75f95",
+                "type": "FEATURE",
+                "text": "We've set the default value of the scrollThreshold parameter to 300 for UI tables and added an option to modify it through design-time adaptation"
+            },
+            {
+                "id": "I90e26ece4117d6e22283e60da8be57c7eedc2591",
+                "type": "FEATURE",
+                "text": "We now allow resizing of columns in the flexible column layout, with the relative column sizes being saved and reapplied when the application loads"
+            },
+            {
+                "id": "I46b948026b83f6c092412806d6c993c5d633b017",
+                "type": "FIX",
+                "text": "We've resolved an issue where the autoColumnWidth property of the table is not passed in the custom config if it is undefined",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0172457"
+                    }
+                ]
+            },
+            {
+                "id": "Id5ca7bc85f0cb78e6a991fdf516afabcfec4153c",
+                "type": "FIX",
+                "text": "We've resolved an issue with the dirty page variant occurring during the external navigation for MultiView applications operating in the flexible column layout mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008353007"
+                    }
+                ]
+            },
+            {
+                "id": "Ia79f8b2f7ea284b84efceb5dd59371a2e31ad052",
+                "type": "FIX",
+                "text": "We've resolved an issue where the Discard Draft functionality was not working due to the absence of an additional property check",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0090224"
+                    }
+                ]
+            },
+            {
+                "id": "I76af436adbf918fc0717af8172ae70c293dc6b94",
+                "type": "FIX",
+                "text": "We've now enabled the navigation option in the message popover even if a description or descriptionUrl is not present in the message model, in case where AI-Assisted Error Resolution is enabled",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0305935"
+                    }
+                ]
+            },
+            {
+                "id": "I03573988b3c8838b5c92e18e23f1c7887db831dc",
+                "type": "FIX",
+                "text": "We now allow the modification of the considerPresentationVariant property in designtime mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008313767"
+                    }
+                ]
+            },
+            {
+                "id": "I4b216f55af26b15861417e27f7d079c2a5831b19",
+                "type": "FIX",
+                "text": "We've now removed the theme properties from charts while creating insights cards",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008445523"
+                    }
+                ]
+            },
+            {
+                "id": "I974aa641704cb5c7b63be6bba9e4955a9b699a03",
+                "type": "FIX",
+                "text": "We now allow the file uploader button to be enabled or disabled by entity level updatable-path",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370030821"
+                    }
+                ]
+            },
+            {
+                "id": "If48187875f70e17ce39f8874645dcde62a002169",
+                "type": "FIX",
+                "text": "We've resolved an issue where the navigation wasn't working correctly with the table variants or chart variants on the analytical list page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0253297"
+                    }
+                ]
+            },
+            {
+                "id": "I0e6d5b9a0a96b725ff11c462a144c89f21f05fb0",
+                "type": "FIX",
+                "text": "We've now removed the duplicate application names displayed in the list of related apps",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0296963"
+                    }
+                ]
+            },
+            {
+                "id": "I5be696c24c117c55e2933f49c81750350744b843",
+                "type": "FIX",
+                "text": "We've now included a token for the unit field in the Easy Filter",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0324256"
+                    }
+                ]
+            },
+            {
+                "id": "I0107cf1acb5ca2d3d417935838c47935b184b91a",
+                "type": "FIX",
+                "text": "We've now disabled the sharing of design time cards when the object page is in draft mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0295704"
+                    }
+                ]
+            },
+            {
+                "id": "Icf5a812c9ce9d3cc3231bb757f48bc9e9776b585",
+                "type": "FIX",
+                "text": "We now ensure that side effects on the object page function correctly when link fields of type DataFieldForAnnotation are involved"
+            },
+            {
+                "id": "I9f546770ed091ab20ae401dbd3de2c07ac08b6d2",
+                "type": "FIX",
+                "text": "We've resolved the issue for views caused by app variants",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0070216"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -644,5 +644,36 @@
                 "text": " SmartField now fires change event with opened suggestions"
             }
         ]
+    },
+    "1.120.24": {
+        "date": "December 2024",
+        "notes": [
+            {
+                "id": "1a729554b0fbb96a4cfe9250c4bdcbbfe8fd9ebd",
+                "type": "FIX",
+                "text": " ValueListProvider: The correct filter field description is now applied when multiple validation requests are submitted"
+            },
+            {
+                "id": "899cbd38b086a5c7908eed351e9b859b5b21f4ac",
+                "type": "FIX",
+                "text": " FilterProvider: show all filters button is now correctly set according to the configurations"
+            },
+            {
+                "id": "5d2d5507092e9f5b2683095dcc0ac1899e3cd224",
+                "type": "FIX",
+                "text": " SmartFilterBar: checkSearchAllowed now does not sets errors for condition type fields",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370150729"
+                    }
+                ]
+            },
+            {
+                "id": "77114f05439affb063dfb96a333412ab4c738b93",
+                "type": "FIX",
+                "text": " In case of deep create the model create entry only expects path and properties with oData"
+            }
+        ]
     }
 }

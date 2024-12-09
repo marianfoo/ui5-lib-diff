@@ -1386,5 +1386,26 @@
                 "text": " SmartField: renderWhitespace property is now applied when creating text controls"
             }
         ]
+    },
+    "1.108.38": {
+        "date": "December 2024",
+        "notes": [
+            {
+                "id": "de6084fc8e8a79e1c7ce41dac156531a78fda104",
+                "type": "FIX",
+                "text": " ControlProvider: V4 value list annotation is now prioritized over V2",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2280173232"
+                    }
+                ]
+            },
+            {
+                "id": "139629fee16778c6b3fd1f6f89470cccfff1fd64",
+                "type": "FIX",
+                "text": " ValueListProvider: The correct filter field description is now applied when multiple validation requests are submitted"
+            }
+        ]
     }
 }

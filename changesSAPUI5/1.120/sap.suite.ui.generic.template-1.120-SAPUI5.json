@@ -913,17 +913,6 @@
         "date": "October 2024",
         "notes": [
             {
-                "id": "Ic10a7bfea0868588ee1dfed017250aa704233174",
-                "type": "FIX",
-                "text": "We now correctly retrieve the table and prepare paging information when switching between the subobject items",
-                "references": [
-                    {
-                        "type": "SNOW",
-                        "reference": "CS20240007165088"
-                    }
-                ]
-            },
-            {
                 "id": "I1980971d09ae97837ab3cb557fc0a760eff2fc63",
                 "type": "FIX",
                 "text": "We’ve resolved an issue that occurred when adding additional filters to the Adapt Filter dialog in the analytical list page applications",
@@ -942,6 +931,33 @@
                     {
                         "type": "SNOW",
                         "reference": "CS20230005169073"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.24": {
+        "date": "December 2024",
+        "notes": [
+            {
+                "id": "I4b216f55af26b15861417e27f7d079c2a5831b19",
+                "type": "FIX",
+                "text": "We've now removed the theme properties from charts while creating insights cards",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008445523"
+                    }
+                ]
+            },
+            {
+                "id": "I03573988b3c8838b5c92e18e23f1c7887db831dc",
+                "type": "FIX",
+                "text": "We now allow the modification of the considerPresentationVariant property in designtime mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008313767"
                     }
                 ]
             }
