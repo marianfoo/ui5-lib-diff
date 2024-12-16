@@ -14,5 +14,32 @@
                 ]
             }
         ]
+    },
+    "1.130.3": {
+        "date": "Dec 2024",
+        "notes": [
+            {
+                "id": "I4394d2b1a09d142786906e2998ff93299d651f61",
+                "text": "We've now fixed the issue in the timeline where it was re-rendering in its original state after removing certain filters",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0350582"
+                    }
+                ]
+            },
+            {
+                "id": "I64acc3044e070f930b6a8b0fd723bc1a5a1061c6",
+                "text": "Cannot fetch X-CSRF token - sap.insights.CardHelper",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008661254"
+                    }
+                ]
+            }
+        ]
     }
 }

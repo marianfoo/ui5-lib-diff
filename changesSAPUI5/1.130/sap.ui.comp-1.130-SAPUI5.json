@@ -94,5 +94,50 @@
                 "text": " SmartField: 0 value for NUMC with TextArrangement is now not shown initially"
             }
         ]
+    },
+    "1.130.2": {
+        "date": "December 2024",
+        "notes": [
+            {
+                "id": "772b380623c83646efa99a434926a1008d272a02",
+                "type": "FIX",
+                "text": " SmartField: Value is no longer cleared when binding context is changed"
+            },
+            {
+                "id": "a346fb4ab0277d4b21a096bfcbc871f01302c205",
+                "type": "FIX",
+                "text": " FilterBar: changing localization now recreates the buttons with reloaded resource buntle"
+            },
+            {
+                "id": "6f7f9c2e30199b665999b3870413d46c7fdcc140",
+                "type": "FIX",
+                "text": " ValueHelpDialog: add in ignoredFields description, only if the key column is in ValueList entity set and is visible"
+            },
+            {
+                "id": "37b4dd19b89bbe5df49f977dedc2a92bdfa7a024",
+                "type": "FIX",
+                "text": " SmartFilterBar: SFBMultiComboBox now updates the model properly on suggested item selection"
+            },
+            {
+                "id": "b2658e3329aea8c4126fb2c14e7db2f3caaf7fa4",
+                "type": "FIX",
+                "text": " ValueListProvider: The correct filter field description is now applied when multiple validation requests are submitted"
+            },
+            {
+                "id": "6665cf38d201deac5596b87036d30f8ccb751632",
+                "type": "FIX",
+                "text": " SmartField: description is now correctly handled in display mode"
+            },
+            {
+                "id": "30d47e1c9287334ac1e97f7d54718c1e9c92617e",
+                "type": "FIX",
+                "text": " SmartFilterBar: variant now stores info for condition type filters having default operation"
+            },
+            {
+                "id": "1cd4ce562b9e18b16559c2c8fb8a8878a9a34b89",
+                "type": "FIX",
+                "text": " FilterProvider: show all filters button is now correctly set according to the configurations"
+            }
+        ]
     }
 }

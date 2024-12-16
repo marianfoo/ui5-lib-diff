@@ -174,5 +174,40 @@
                 "text": " We've resolved an issue that caused a crash after saving when the WebSocket annotation was used for side-effect configuration"
             }
         ]
+    },
+    "1.130.2": {
+        "date": "December 2024",
+        "notes": [
+            {
+                "id": "bb7263a68ff250383bb68bbc966ca5df99155972",
+                "type": "FIX",
+                "text": " We now ensure that the messages from the back end containing braces are properly displayed on the UI"
+            },
+            {
+                "id": "a77ac2bd4474983cb9f11c18c205b7549b73eb6a",
+                "type": "FIX",
+                "text": " We now ensure that the table selection mode works correctly"
+            },
+            {
+                "id": "4e8a83be323cddeda2d9cca646e11f498adcad3d",
+                "type": "FIX",
+                "text": " We now ensure side effects are executed before saving a document on the object page"
+            },
+            {
+                "id": "c3bb1a04f2b2f10ed8d533635a9b4415d92ebb29",
+                "type": "FIX",
+                "text": " We now request validation and message side effects in the same batch to improve performance"
+            },
+            {
+                "id": "ae877c7afe54f200f1dbc123235cb033dc49bc00",
+                "type": "FIX",
+                "text": " We've resolved an issue with calling the InvokeAction extension of the EditFlow controller when the context parameter is an array of contexts"
+            },
+            {
+                "id": "62e72bbcfcb733637b3c6343a2b07516d1c33728",
+                "type": "FIX",
+                "text": " We now ensure that back navigation works correctly when an SAP Fiori elements-based application is embedded in another application"
+            }
+        ]
     }
 }

@@ -22626,6 +22626,39 @@
     ]
   },
   {
+    "version": "1.130.2",
+    "date": "2024.12.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.MessagePage: Icon ignored from screen readers"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " FESR: semanticStepName not set for interaction"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Incorrect scrolling prevented"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.131.0",
     "date": "2024.11.01",
     "libraries": [
