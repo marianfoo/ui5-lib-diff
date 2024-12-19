@@ -1,0 +1,86 @@
+<mvc:View controllerName="de.marianzeis.ui5libdiff.controller.Main" displayBlock="true"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.uxap"
+	xmlns:layout="sap.ui.layout"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:m="sap.m" core:require="{
+		formatter: 'de/marianzeis/ui5libdiff/model/formatter'
+	}">
+
+	<ObjectPageLayout id="ObjectPageLayout" upperCaseAnchorBar="false" sections="{changes>/}" enableLazyLoading="true" headerContentPinnable="true" toggleHeaderOnTitleClick="true">
+		<headerTitle>
+			<ObjectPageHeader objectTitle="Compare UI5 Versions">
+			</ObjectPageHeader>
+			<ObjectPageDynamicHeaderTitle>
+				<heading>
+					<m:Title text="Compare UI5 Version" />
+				</heading>
+
+				<snappedTitleOnMobile>
+					<m:Title text="Compare UI5 Version"/>
+				</snappedTitleOnMobile>
+			</ObjectPageDynamicHeaderTitle>
+		</headerTitle>
+
+		<headerContent>
+			<layout:VerticalLayout width="{= ${device>/system/phone} === true ? '100%' : '693.547px' }">
+				<layout:HorizontalLayout>
+					<m:Button text="Show RSS Feed SAPUI5" press="showRSSFeedSAPUI5"/>
+					<m:Button text="Show RSS Feed OpenUI5" press="showRSSFeedOpenUI5"/>
+				</layout:HorizontalLayout>
+				
+				<m:SegmentedButton id="SegmentedButtonUI5" selectedKey="SAPUI5" width="100%" selectionChange="handleVersionChange">
+					<m:items>
+						<m:SegmentedButtonItem text="SAPUI5" key="SAPUI5"/>
+						<m:SegmentedButtonItem text="OpenUI5" key="OpenUI5" />
+					</m:items>
+				</m:SegmentedButton>
+				<m:Button text="Navigate to 'Whats New'" press="onNavToWhatsnew"/>
+				<m:Button text="Copy Link To Clipboard" press="copyLinkToClipboardMain"/>
+				<m:Text text="Select your libraries you want to compare"/>
+				<m:ComboBox id="versionFromSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
+					<core:Item key="{select>value}" text="{select>key}" />
+				</m:ComboBox>
+				<m:ComboBox id="versionToSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
+					<core:Item key="{select>value}" text="{select>key}" />
+				</m:ComboBox>
+				<m:Text text="Filter for FIX or FEATURE" />
+				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="100%" selectionChange="handleVersionChange">
+					<m:items>
+						<m:SegmentedButtonItem text="All" key="ALL"/>
+						<m:SegmentedButtonItem text="Fixes" key="FIX" />
+						<m:SegmentedButtonItem text="Features" key="FEATURE" />
+						<m:SegmentedButtonItem text="Deprecated" key="DEPRECATED" />
+					</m:items>
+				</m:SegmentedButton>
+				<m:Text text="Sort changes in library by:" />
+				<m:SegmentedButton id="SegmentedButtonSort" selectedKey="type" width="100%" selectionChange="handleVersionChange">
+					<m:items>
+						<m:SegmentedButtonItem text="type" key="type"/>
+						<m:SegmentedButtonItem text="version" key="version" />
+						<m:SegmentedButtonItem text="text" key="text" />
+					</m:items>
+				</m:SegmentedButton>
+			</layout:VerticalLayout>
+		</headerContent>
+
+		<sections>
+			<ObjectPageSection titleUppercase="false" title="{changes>library}">
+				<subSections>
+					<ObjectPageSubSection titleUppercase="false">
+						<blocks>
+							<ObjectPageLazyLoader id="Section1stashed">
+								<m:Panel headerText="{changes>library}" content="{path: 'changes>changes', templateShareable: false, length: '10000'}" expandable="true" expanded="true" class="sapUxAPObjectPageSubSectionAlignContent" width="auto">
+									<m:Text width="100%" text="[{changes>version}] [{changes>type}] {changes>text}"/>
+								</m:Panel>
+							</ObjectPageLazyLoader>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+		</sections>
+
+	</ObjectPageLayout>
+
+</mvc:View>
