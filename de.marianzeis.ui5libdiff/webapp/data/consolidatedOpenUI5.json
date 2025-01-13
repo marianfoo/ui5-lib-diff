@@ -17351,6 +17351,38 @@
     ]
   },
   {
+    "version": "1.120.25",
+    "date": "2025.01.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've now adapted to the chrome://flags/#pdf-oopif flag that is introduced to rectify the pdfViewer issues"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Icon: fix keyboard support for keys \"Space\" and \"Enter\""
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: displayFormat is taken into account when formatting the output in 24-hour mode support"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/Icon: fix keyboard support for keys \"Space\" and \"Enter\""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.8",
     "date": "2024.02.01",
     "libraries": [

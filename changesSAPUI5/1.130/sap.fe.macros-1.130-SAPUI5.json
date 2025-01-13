@@ -213,5 +213,30 @@
                 "text": " We've resolved an issue with internationalization of field labels in the parameter dialog"
             }
         ]
+    },
+    "1.130.4": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "11eab2821c85285d4883afb3dccdd3f2af6726f9",
+                "type": "FIX",
+                "text": " We've resolved an issue where the sort icon in the column wasn't functioning correctly"
+            },
+            {
+                "id": "150463472ef4b883e7d7ab3565563a49e0f9a725",
+                "type": "FIX",
+                "text": " We now ensure that the application works correctly when the personalization settings of a chart are set to false"
+            },
+            {
+                "id": "6cdfa3aacfd77c0683530a7a3a679b59ddf30108",
+                "type": "FIX",
+                "text": " The mass edit functionality now works for fields containing a composite binding"
+            },
+            {
+                "id": "a189e88213b94f9a51ed45c327393599cc157476",
+                "type": "FIX",
+                "text": " We now ensure that the RichTextEditor building block with metadata can be used with a button group aggregation"
+            }
+        ]
     }
 }

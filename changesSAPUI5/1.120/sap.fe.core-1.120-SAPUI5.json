@@ -923,5 +923,55 @@
                 "text": " We now ensure that the navigate function cannot be retriggered if it has already been called"
             }
         ]
+    },
+    "1.120.18": {
+        "date": "December 2024",
+        "notes": [
+            {
+                "id": "d7e54315ab8e21f42fbb955c8c0c0c31f7f227e1",
+                "type": "FIX",
+                "text": " We now ensure that the table selection mode works correctly"
+            },
+            {
+                "id": "2cc489e069bd83337b0dcaf920c503e51cdec9a9",
+                "type": "FIX",
+                "text": " We've resolved an issue that occurred when navigating from a custom view to another view in a flexible column layout app"
+            },
+            {
+                "id": "3770fdfc1c9f2396ab54c3296e237b84eeee3927",
+                "type": "FIX",
+                "text": " We now ensure an iAppState is created and applied specifically to a view in flexible column layout apps"
+            },
+            {
+                "id": "90fbbfebbfaa7fe9324ac8b64256a8829b0ccdc5",
+                "type": "FIX",
+                "text": " We've resolved an issue with calling the InvokeAction extension of the EditFlow controller when the context parameter is an array of contexts"
+            }
+        ]
+    },
+    "1.120.19": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "3551b6d44a275780eb806676cc2f999ce633cab9",
+                "type": "FIX",
+                "text": " We now consider all navigation paths including the parent level navigation while creating a binding path"
+            },
+            {
+                "id": "7e38f7a6eac1d77f7e2ecd687f3b3772f2707f1c",
+                "type": "FIX",
+                "text": " We now ensure that fields correctly display the value along with its unit, even when the value is 0"
+            },
+            {
+                "id": "251fc982d2f64f252394ae716e4774f44de2693e",
+                "type": "FIX",
+                "text": " We now ensure side effects are executed before saving a document on the object page"
+            },
+            {
+                "id": "4a9f3550769ddd06c4c211d11e90a7ce9f957fa0",
+                "type": "FIX",
+                "text": " We now ensure that the contextPath property is consistently bound to the meta model, allowing the correct context path to be generated regardless of any entity name conflicts"
+            }
+        ]
     }
 }

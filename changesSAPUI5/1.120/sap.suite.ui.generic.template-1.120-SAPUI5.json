@@ -953,11 +953,49 @@
             {
                 "id": "I03573988b3c8838b5c92e18e23f1c7887db831dc",
                 "type": "FIX",
-                "text": "We now allow the modification of the considerPresentationVariant property in designtime mode",
+                "text": "Application developers can now modify the considerPresentationVariant property in designtime mode",
                 "references": [
                     {
                         "type": "SNOW",
                         "reference": "CS20240008313767"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.25": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "Ief34af3364f12ac613a1892176883e932ee32e45",
+                "type": "FIX",
+                "text": "We now ensure that canceling a direct edit no longer results in being stuck in a busy state",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008739912"
+                    }
+                ]
+            },
+            {
+                "id": "I80feee7667521ded12e27a0bf0d3fccd3281ba76",
+                "type": "FIX",
+                "text": "We are now invalidating the context of the currently active subobject page during draft activation on the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008209852"
+                    }
+                ]
+            },
+            {
+                "id": "I89a175b388b07d34d3bb6ae428e1cbd3361efffb",
+                "type": "FIX",
+                "text": "We've now resolved an issue with the display of counts on dynamic tiles when table filters are applied",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008109649"
                     }
                 ]
             }
