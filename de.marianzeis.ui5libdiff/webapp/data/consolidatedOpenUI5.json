@@ -87251,6 +87251,30 @@
     ]
   },
   {
+    "version": "1.71.69",
+    "date": "2025.01.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've now adapted to the chrome://flags/#pdf-oopif flag that is introduced to rectify the pdfViewer issues"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.PaneContainer: fix invalidation of nested panes"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.71.43",
     "date": "2022.02.01",
     "libraries": [
@@ -103647,6 +103671,21 @@
           {
             "type": "FIX",
             "text": " sap.ui.unified.Calendar: add tooltips for calendar legend types"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.96.37",
+    "date": "2025.01.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've now adapted to the chrome://flags/#pdf-oopif flag that is introduced to rectify the pdfViewer issues"
           }
         ]
       }
