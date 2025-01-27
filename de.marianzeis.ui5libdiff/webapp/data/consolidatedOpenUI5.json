@@ -15320,7 +15320,7 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.CalendarType#undefined] Please use {@link module:sap/base/18n/date/CalendarType} instead."
+            "text": "[sap.ui.core.CalendarType#undefined] Please use {@link module:sap/base/i18n/date/CalendarType} instead."
           },
           {
             "type": "DEPRECATED",
@@ -23132,6 +23132,455 @@
           {
             "type": "FIX",
             "text": " core/Control: cleanup busy indicator in onBeforeRendering only when it's busy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.132.0",
+    "date": "2025.01.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Integration Cards: Usage of relative links in WebPage cards is now enabled"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.cards.BaseHeader: Press event is now fired when Spacebar key is released"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.AdaptiveCards: Visual test fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.AdaptiveCards: Visual test fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Fixed failure to expand the header"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Card: state color in numeric header side indicator fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: card with paginator sets proper manifest url to child card"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration cards: fix focus styles of Card in GridContainer"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: fixed numeric header gap between icon and numeric indicator"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Internal demo no longer throws exception"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration cards: resolved boolean values are now correct"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Button: Adding a new style for the badge"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.ViewSettingsDialog: add preventable beforeClose event"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.IllustratedMessage: Introducing 'src' property"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.tnt.ToolHeader: update visual design for Horizon themes"
+          },
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Menu: Enhance keyboard navigation"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now fixed the issue with the preview load while back navigating to the file in preview dialog's carousel"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MultiInput: prevent adding tokens to disabled input"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Accessible name is now provided"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Screen reader announcements now adjusted"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Documentation is now updated"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SearchField: Fix misaligned SearchField"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Breadcrumbs: Fixed currentLocationText alignment"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Tokenizer: Prevent losing focus on nMore popover close"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.FormattedText: provide accessibility info"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: apply tooltip properly"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MultiInput: Visual test fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: adjust accessibility semantics"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Tokenizer: render tokens based on their order"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Popup: move focus into Popup before opening animation starts"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: prevent unnecessary firing of appointmentSelect event"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/m/Input: Respect the busy indicator as part of the input"
+          },
+          {
+            "type": "FIX",
+            "text": " We now disable the video preview once the Preview dialog is closed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Bar: adjust aria-labelledby attribute rendering"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now fixed the issue of image not rendering in the numeric content control"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: displayFormat is taken into account when formatting the output in 24-hour mode support"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Switch: remove duplicated state announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " UploadsetwithTable plugin will now handles offline upload request error handling"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MessagePage: Icon ignored from screen readers"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ViewSettingsDialog: adjust inner list announcements"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Menu: Connection between sap.m.MenuItem and sap.ui.unified.MenuItem is handled correctly now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Improve accessibility sample"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Improved arrow navigation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendarGrid: first week of year is now correct"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now adapted to the chrome://flags/#pdf-oopif flag that is introduced to rectify the pdfViewer issues"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/m/demokit/tutorial/walkthrough: Replace test links with testsuite"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/m/demokit/tutorial/walkthrough: Correct links for the testsuite"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TabContainer: remove redundant announcement"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Breadcrumbs: Text truncation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.TableSelectDialog: fixed documentation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: Removing the note in the documentation for endContent"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DynamicDateRange: Last X included options are translatable now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.IconTabBar: add accessible name for the popover"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Toolbar: Console error prevented"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.tnt.ToolHeader: update visual design for Horizon themes"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: correct colors for Fiori 3 themes"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.base.Object.isObjectA(): type inference for TypeScript"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Element|Popup: get DOMRef after calling parent \"destroy\""
+          },
+          {
+            "type": "FIX",
+            "text": " core/LabelEnablement: handle destroy of label when updating inner control"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Popup: move focus into Popup before opening animation starts"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/core/demokit/sample/OpaTestLibrary: Fix race condition in OPA"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Control: cleanup busy indicator in onBeforeRendering only when it's busy"
+          },
+          {
+            "type": "FIX",
+            "text": " FESR: semanticStepName not set for interaction"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.base.config: fix logging for URL parameters"
+          },
+          {
+            "type": "FIX",
+            "text": " CommandExecution: Log error when command not found + make destroy fail-safe"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/type/Unit#setFormatOptions: Introduce defaulting of decimals to 3 for unit types"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Control.js: Consider Busy Section when moving focus to BusyIndicator"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Control: Restore focus to the last focused DOM element"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Control: restore focus before busy control is rerendered"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.fl",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.fl - Fix long fileName in case of inline appdescriptor change"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.integration",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " Integration Cards: Usage of relative links in WebPage cards is now enabled"
+          },
+          {
+            "type": "FEATURE",
+            "text": " Integration Cards: ComboBox filter support for groups"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: Actions toolbar now sets the 'card' association"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: card with paginator sets proper manifest url to child card"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration Cards: fixed numeric header gap between icon and numeric indicator"
+          },
+          {
+            "type": "FIX",
+            "text": " Integration cards: resolved boolean values are now correct"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.layout",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.layout.PaneContainer: fix invalidation of nested panes"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " FilterField: Empty, NotEmpty for Date and DateTime"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Popup: move focus into Popup before opening animation starts"
+          },
+          {
+            "type": "FIX",
+            "text": " CreationRow: Only call setHideEmptyRows if row mode offers it"
+          },
+          {
+            "type": "FIX",
+            "text": " FilterField: do not open ValueHelp if Token focused"
+          },
+          {
+            "type": "FIX",
+            "text": " sap/ui/model/type/Unit#setFormatOptions: Introduce defaulting of decimals to 3 for unit types"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FEATURE",
+            "text": " sap.m.Menu: Enhance keyboard navigation"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.PlanningCalendar: Accessible name is now provided"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Screen reader announcements now adjusted"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: adjust accessibility semantics"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: fix qunit tests"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Prevent navigation when selecting a week"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimePicker: YearPicker content now fits in limited size"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: adjust non working days display"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.ux3",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " core/Popup: move focus into Popup before opening animation starts"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Calc FIX"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageSubSection: Focus loss prevented"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Revert \" Calc FIX\""
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Remove additional role"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Calc FIX"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Incorrect scrolling prevented"
           }
         ]
       }
@@ -75461,19 +75910,19 @@
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui#fragment] use {@link sap.ui.core.Fragment.load} instead"
+            "text": "[sap.ui#fragment] Refer to {@link topic:04129b2798c447368f4c8922c3c33cd7 Instantiation of Fragments}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui#htmlfragment] use {@link sap.ui.core.Fragment.load} instead"
+            "text": "[sap.ui#htmlfragment] Additionally, use of fragments based on type <code>\"HTML\"</code> is deprecated since 1.108. If you need declarative fragments, use XML fragments instead. Refer to {@link topic:04129b2798c447368f4c8922c3c33cd7 Instantiation of Fragments}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui#jsfragment] use {@link sap.ui.core.Fragment.load} instead"
+            "text": "[sap.ui#jsfragment] Refer to {@link topic:04129b2798c447368f4c8922c3c33cd7 Instantiation of Fragments}."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui#xmlfragment] use {@link sap.ui.core.Fragment.load} instead"
+            "text": "[sap.ui#xmlfragment] Refer to {@link topic:04129b2798c447368f4c8922c3c33cd7 Instantiation of Fragments}."
           }
         ]
       }
@@ -83585,11 +84034,11 @@
         "changes": [
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Control#rerender] using this method is no longer recommended, but still works. Synchronous DOM updates via this method have several drawbacks: they only work when the control has been rendered before (no initial rendering possible), multiple state changes won't be combined automatically into a single re-rendering, they might cause additional layout trashing, standard invalidation might cause another async re-rendering.\n\nThe recommended alternative is to rely on invalidation and standard re-rendering."
+            "text": "[sap.ui.core.Control#rerender] using this method is no longer recommended, but calling it still causes a re-rendering of the control. Synchronous DOM updates via this method have several drawbacks: they only work when the control has been rendered before (no initial rendering possible), multiple state changes won't be combined automatically into a single re-rendering, they might cause additional layout thrashing, standard invalidation might cause another async re-rendering.\n\nThe recommended alternative is to rely on invalidation and standard re-rendering."
           },
           {
             "type": "DEPRECATED",
-            "text": "[sap.ui.core.Element#rerender] using this method is no longer recommended, but still works. Synchronous DOM updates via this method have several drawbacks: they only work when the control has been rendered before (no initial rendering possible), multiple state changes won't be combined automatically into a single re-rendering, they might cause additional layout trashing, standard invalidation might cause another async re-rendering.\n\nThe recommended alternative is to rely on invalidation and standard re-rendering.\n\nAs <code>sap.ui.core.Element</code> \"bubbles up\" the rerender, changes to child-<code>Elements</code> will also result in immediate rerendering of the whole sub tree."
+            "text": "[sap.ui.core.Element#rerender] using this method is no longer recommended, but calling it still causes a re-rendering of the element. Synchronous DOM updates via this method have several drawbacks: they only work when the control has been rendered before (no initial rendering possible), multiple state changes won't be combined automatically into a single re-rendering, they might cause additional layout thrashing, standard invalidation might cause another async re-rendering.\n\nThe recommended alternative is to rely on invalidation and standard re-rendering.\n\nAs <code>sap.ui.core.Element</code> \"bubbles up\" the rerender, changes to child-<code>Elements</code> will also result in immediate rerendering of the whole sub tree."
           }
         ]
       }
@@ -96211,6 +96660,39 @@
           {
             "type": "FIX",
             "text": " sap.m.DynamicDateRange: align current week calculations"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.84.49",
+    "date": "2025.01.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've now adapted to the chrome://flags/#pdf-oopif flag that is introduced to rectify the pdfViewer issues"
+          }
+        ]
+      },
+      {
+        "library": "sap.tnt",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.tnt.SideNavigation: Add tooltip to the up and down arrow buttons"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: add tooltips for calendar legend types"
           }
         ]
       }

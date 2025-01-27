@@ -1,0 +1,147 @@
+{
+    "1.132.0": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "b3ca54390c1578cfb3a60eeb82978134b4ed125e",
+                "type": "FEATURE",
+                "text": " We no longer show the Open in New Tab option in the context menu if the object page is set to open in edit mode"
+            },
+            {
+                "id": "a1f14856208ec6247bd07eeccaa5152c86687ac3",
+                "type": "FEATURE",
+                "text": " We now sort the values in columns by their unit of measure or currency first, followed by the values"
+            },
+            {
+                "id": "df6d6a8be6b27d307458f53f9a0c90ae01f0bb63",
+                "type": "FIX",
+                "text": " We've resolved an issue where the sort icon in the column wasn't functioning correctly"
+            },
+            {
+                "id": "5a603d4a308f5fae02e0eed3efe9f0ba51e32f20",
+                "type": "FIX",
+                "text": " Tree tables and analytical tables are now correctly loaded in the flexible programming model explorer"
+            },
+            {
+                "id": "2b0b5eb8c94848030e91e51a172a50e76addaa65",
+                "type": "FIX",
+                "text": " We now consider all navigation paths including the parent level navigation while creating a binding path"
+            },
+            {
+                "id": "eac5af59a1456f47d8f90315955c22bdea18e21b",
+                "type": "FEATURE",
+                "text": " We've implemented the DataFieldForActionGroup annotation, which allows the grouping of actions and their rendering within menu buttons"
+            },
+            {
+                "id": "3deaf89c94aa83f04927527df12cd1df94ace351",
+                "type": "FIX",
+                "text": " We've resolved an issue with the email validation string that caused the application to become unresponsive"
+            },
+            {
+                "id": "b44bb735969f4eab823e90d54e4f0cd0d86ec89f",
+                "type": "FEATURE",
+                "text": " We now support using an absolute path as the target entity for side effects events in a list report"
+            },
+            {
+                "id": "366b99c9fcc006b86c0cdbf60d8d2e55904f2e5c",
+                "type": "FEATURE",
+                "text": " We now display 10 fixed rows in a tree or analytical table on an object page by default when the table is not the sole control in the section or when the sectionLayout is set to Page"
+            },
+            {
+                "id": "3dac51fdcbb4c683a6412777c9ad3bd723898146",
+                "type": "FIX",
+                "text": " We now properly manage focus on the table when grouping data"
+            },
+            {
+                "id": "5504103f007ca78b8ecdfa6d1cd63296b018cfec",
+                "type": "FEATURE",
+                "text": " We now support 1:N filtering in the P13n personalization dialog for tables"
+            },
+            {
+                "id": "05ce2e52042ae444bbc01bfdcdbe3bd70c62ba0c",
+                "type": "FIX",
+                "text": " We now use the correct icons for criticality, as defined in the SAP Fiori for Web Design Guidelines"
+            },
+            {
+                "id": "7df6a8f4d9a7e9c5b1d38951d33105cc8f89a573",
+                "type": "FIX",
+                "text": " We now update the BreadCrumbs link after data changes"
+            },
+            {
+                "id": "0249888bf7d142ce33cb3551a8a79f683586640c",
+                "type": "FEATURE",
+                "text": " You can now specify a title for the action confirmation dialog"
+            },
+            {
+                "id": "9d148a4a4b026e3d9ab60a4a7210554d50403f3b",
+                "type": "FIX",
+                "text": " We now set 'Multi' as the default selection mode for a tree table if the selection mode is not specified in the manifest"
+            },
+            {
+                "id": "ea0c5169054a49caa969b801aadf4d29bab29689",
+                "type": "FIX",
+                "text": " We now ensure that the messages from the back end containing braces are properly displayed on the UI"
+            },
+            {
+                "id": "52e08ec7b900ab7c954e360880328c62c6b97b4c",
+                "type": "FIX",
+                "text": " We now ensure that the table selection mode works correctly"
+            },
+            {
+                "id": "ccd335f451a6838720b536f6d4cc83080477e3fc",
+                "type": "FIX",
+                "text": " We now ensure that the contextPath property is consistently bound to the meta model, allowing the correct context path to be generated regardless of any entity name conflicts"
+            },
+            {
+                "id": "48bdb570cc24904f6e16e467b306c2b8a56171c8",
+                "type": "FEATURE",
+                "text": " We now support semantic coloring for criticality at row level in table integration cards"
+            },
+            {
+                "id": "7a10828b7d9d56dba8576a9aabdeb1010f54a479",
+                "type": "FIX",
+                "text": " We've resolved a performance issue that occurred while creating an object in collaborative draft mode"
+            },
+            {
+                "id": "500c4fb9aeb1bd5fd473b27b67c0a4cf65dde53e",
+                "type": "FIX",
+                "text": " We now ensure side effects are executed before saving a document on the object page"
+            },
+            {
+                "id": "ae0e62dc318f5246f8e8ee260af57fcdc2109578",
+                "type": "FIX",
+                "text": " We now request validation and message side effects in the same batch to improve performance"
+            },
+            {
+                "id": "f836e66702bebbeefad693540215fac19c5a34c1",
+                "type": "FIX",
+                "text": " We now ensure that the application state is not preserved when entering and exiting the key user adaptation mode"
+            },
+            {
+                "id": "bc552b84ce7f1f5199f87486b20d04fcbc24b860",
+                "type": "FIX",
+                "text": " We've resolved an issue with calling the InvokeAction extension of the EditFlow controller when the context parameter is an array of contexts"
+            },
+            {
+                "id": "5a9e518d894d89e8ad956ebb4d0a4a4208ed9dad",
+                "type": "FIX",
+                "text": " We now ensure that back navigation works correctly when an SAP Fiori elements-based application is embedded in another application"
+            },
+            {
+                "id": "018ba2c1ba84f90735e07a851cf14653fe497a55",
+                "type": "FIX",
+                "text": " We've resolved an issue with handling the startup parameters for applications using the sap-keep-alive mode"
+            },
+            {
+                "id": "75bc0b8b740172c4d3ec7d64ba0a365f67964ea5",
+                "type": "FIX",
+                "text": " In InlineCreationRows mode, we now correctly highlight newly created rows in a table"
+            },
+            {
+                "id": "ea4f5f956342feeafb9cbff9953d3e699abd9af2",
+                "type": "FIX",
+                "text": " We now ensure that changes made in the manifest.json file when using feature toggles are not lost after navigating back and forth between apps"
+            }
+        ]
+    }
+}

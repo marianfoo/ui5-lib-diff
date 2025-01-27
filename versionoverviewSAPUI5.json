@@ -1,12 +1,22 @@
 {
     "versions": [
         {
-            "version": "1.131.*",
-            "version_label": "1.131 (2412)",
+            "version": "1.132.*",
+            "version_label": "1.132 (2501)",
             "support": "Maintenance",
             "lts": false,
             "eom": "",
-            "eocp": "Q4/2025",
+            "eocp": "",
+            "sapuiversion": "Cloud only",
+            "frontendserver": "Cloud only"
+        },
+        {
+            "version": "1.131.*",
+            "version_label": "1.131 (2412)",
+            "support": "Out of maintenance",
+            "lts": false,
+            "eom": "",
+            "eocp": "Q1/2026",
             "sapuiversion": "Cloud only",
             "frontendserver": "Cloud only"
         },
@@ -933,8 +943,12 @@
     ],
     "patches": [
         {
-            "version": "1.131.1",
+            "version": "1.132.0",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.131.1",
+            "eocp": "Q1/2026"
         },
         {
             "version": "1.131.0",
@@ -2361,8 +2375,12 @@
             "removed": true
         },
         {
-            "version": "1.84.51",
+            "version": "1.84.52",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.84.51",
+            "eocp": "Q1/2026"
         },
         {
             "version": "1.84.50",

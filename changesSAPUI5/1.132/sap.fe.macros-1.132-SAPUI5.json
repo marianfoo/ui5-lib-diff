@@ -1,0 +1,132 @@
+{
+    "1.132.0": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "b3ca54390c1578cfb3a60eeb82978134b4ed125e",
+                "type": "FEATURE",
+                "text": " We no longer show the Open in New Tab option in the context menu if the object page is set to open in edit mode"
+            },
+            {
+                "id": "a1f14856208ec6247bd07eeccaa5152c86687ac3",
+                "type": "FEATURE",
+                "text": " We now sort the values in columns by their unit of measure or currency first, followed by the values"
+            },
+            {
+                "id": "df6d6a8be6b27d307458f53f9a0c90ae01f0bb63",
+                "type": "FIX",
+                "text": " We've resolved an issue where the sort icon in the column wasn't functioning correctly"
+            },
+            {
+                "id": "c8369d4f813f82c7ccce0835163f028036176e2c",
+                "type": "FIX",
+                "text": " We've resolved an issue with value help condition propagation when there are no conditions"
+            },
+            {
+                "id": "9867e013f078fbb9da90777dd6501e3176873e90",
+                "type": "FIX",
+                "text": "We now add stable identification values to each of the segmented button items in the content switcher elements on the analytical list page"
+            },
+            {
+                "id": "c08e79c85bd453ab035d6ba3718d4a9d1225211c",
+                "type": "FIX",
+                "text": " The mass edit functionality now works for fields containing a composite binding"
+            },
+            {
+                "id": "0019d547c77feb147cb3baaa8dc959c8be7943a9",
+                "type": "FIX",
+                "text": " We've resolved an error that prevented the change handlers from executing for fields that are bound to a JSON model"
+            },
+            {
+                "id": "c2df931a2d688b8a578f17e1e033b323edf134a2",
+                "type": "FIX",
+                "text": " We've removed the paginator reference from subobject pages, as it is no longer needed"
+            },
+            {
+                "id": "ee696faa83068672c041e9c9d69c2d4f48948e6d",
+                "type": "FEATURE",
+                "text": " We now set the rowCountMode parameter in the tree table to Auto when entering fullscreen mode"
+            },
+            {
+                "id": "366b99c9fcc006b86c0cdbf60d8d2e55904f2e5c",
+                "type": "FEATURE",
+                "text": " We now display 10 fixed rows in a tree or analytical table on an object page by default when the table is not the sole control in the section or when the sectionLayout is set to Page"
+            },
+            {
+                "id": "25ceed90f739051093067d4713b449c66a9ed56a",
+                "type": "FEATURE",
+                "text": " We now set the rowCountMode parameter in the grid table to Auto when entering fullscreen mode"
+            },
+            {
+                "id": "5504103f007ca78b8ecdfa6d1cd63296b018cfec",
+                "type": "FEATURE",
+                "text": " We now support 1:N filtering in the P13n personalization dialog for tables"
+            },
+            {
+                "id": "05ce2e52042ae444bbc01bfdcdbe3bd70c62ba0c",
+                "type": "FIX",
+                "text": " We now use the correct icons for criticality, as defined in the SAP Fiori for Web Design Guidelines"
+            },
+            {
+                "id": "27dee54c5051aaada181907e1d9de26116a1ebd2",
+                "type": "FIX",
+                "text": " We now ensure that the isValid parameter of the change event is correctly set based on the MDC promise in the FieldAPI"
+            },
+            {
+                "id": "9d148a4a4b026e3d9ab60a4a7210554d50403f3b",
+                "type": "FIX",
+                "text": " We now set 'Multi' as the default selection mode for a tree table if the selection mode is not specified in the manifest"
+            },
+            {
+                "id": "52e08ec7b900ab7c954e360880328c62c6b97b4c",
+                "type": "FIX",
+                "text": " We now ensure that the table selection mode works correctly"
+            },
+            {
+                "id": "502d47917a06fa6bdcbf8cd7cb9ed0151c8536f9",
+                "type": "FEATURE",
+                "text": " We now allow an action-specific title in the action parameter dialog"
+            },
+            {
+                "id": "c84cedc7ea705d98010285160f2384101df6665d",
+                "type": "FIX",
+                "text": " We've resolved an issue with navigation from the error message for empty but required fields"
+            },
+            {
+                "id": "48bdb570cc24904f6e16e467b306c2b8a56171c8",
+                "type": "FEATURE",
+                "text": " We now support semantic coloring for criticality at row level in table integration cards"
+            },
+            {
+                "id": "1994e02e754b93de95a1ea81246c6bfe04291cef",
+                "type": "FIX",
+                "text": " We no longer allow using the drag-and-drop functionality to move a node to a position directly adjacent to its current position"
+            },
+            {
+                "id": "83ebfb6959fcd4795c70c3c267a15a4cfca67407",
+                "type": "FEATURE",
+                "text": " We no longer show semantically connected fields if all their contents are hidden"
+            },
+            {
+                "id": "6686e446fba4ffec67c2732fa4437d01be67fd17",
+                "type": "FEATURE",
+                "text": " We now provide a VariantManagement building block, and you can now use the Apply Automatically function with the FilterBar building block"
+            },
+            {
+                "id": "bf81b772d31e22de268d2cc1f303db10f439961d",
+                "type": "FIX",
+                "text": " We've resolved an issue with the IDs of actions for intent-based navigation in tables"
+            },
+            {
+                "id": "75bc0b8b740172c4d3ec7d64ba0a365f67964ea5",
+                "type": "FIX",
+                "text": " In InlineCreationRows mode, we now correctly highlight newly created rows in a table"
+            },
+            {
+                "id": "6176727b208f42d177446ac8bf291f62c9412e2b",
+                "type": "FIX",
+                "text": " We now ensure that the filter context URL is included in the selection variant for quick view links, allowing potentially sensitive data to be excluded"
+            }
+        ]
+    }
+}

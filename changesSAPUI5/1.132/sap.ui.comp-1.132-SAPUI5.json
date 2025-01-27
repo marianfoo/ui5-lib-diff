@@ -1,0 +1,87 @@
+{
+    "1.132.0": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "6cc75f3fc2c22cc6df5eaa12368759699981a97b",
+                "type": "FIX",
+                "text": " FilterController: Filter token is now set correctly as object when an empty filter is set"
+            },
+            {
+                "id": "7a57148b06ff5b9a693f826339255b292970d898",
+                "type": "FEATURE",
+                "text": " SmartField: Value state warning/error is now shown when selecting deprecated or revoked values"
+            },
+            {
+                "id": "9537a7f0b9b3db08f6e727befacc02d89078a23e",
+                "type": "FIX",
+                "text": " SmartFilterBar: Unable to remove tokens in adapt filters dialog scenario is now fixed"
+            },
+            {
+                "id": "48038a6e38e98d411ff13655832cdf3490dd92ae",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Tokenizer is no longer focused when tokens are deleted from filters"
+            },
+            {
+                "id": "cf9e3aaa2314858ff3452851df66a2e04c4f9234",
+                "type": "FIX",
+                "text": " DateRangeType: correct week calculations"
+            },
+            {
+                "id": "d57445e72c10dba02c9decb54953fedce0300135",
+                "type": "FIX",
+                "text": " SmartField: Value is no longer cleared when binding context is changed"
+            },
+            {
+                "id": "d298c81b8252e05aaecee93a0a2c990944eee60a",
+                "type": "FIX",
+                "text": " FilterBar: changing localization now recreates the buttons with reloaded resource buntle"
+            },
+            {
+                "id": "1c7f423319d1b162e6f261540566ce991a46e284",
+                "type": "FIX",
+                "text": " SmartField: Description is now not fetched when the control is hidden"
+            },
+            {
+                "id": "6b9307b4b7ad6bb4f855d92f528385643018f9bc",
+                "type": "FIX",
+                "text": " P13nDialog: Correctly handle empty string value in filters dialog"
+            },
+            {
+                "id": "f86fdc001f1940e0c240835331eb4adb31191829",
+                "type": "FIX",
+                "text": " ValueHelpDialog: add in ignoredFields description, only if the key column is in ValueList entity set and is visible"
+            },
+            {
+                "id": "68d58e3e77e61673232abbbd3035eeafd6b7a78f",
+                "type": "FEATURE",
+                "text": " SmartField: The source of value help dialog title can now be defined using the valueHelpTitleSource property"
+            },
+            {
+                "id": "2227e6eadd597391a6100f3b522ec8a5829ccadd",
+                "type": "FIX",
+                "text": " SmartField: exception when changing binding context"
+            },
+            {
+                "id": "42435e38ec46187b83fd630a79a286dd9e8479d1",
+                "type": "FIX",
+                "text": " SmartField: description is now correctly handled in display mode"
+            },
+            {
+                "id": "bd4fa4c634017130eecc707e065fb7a111a5ea3a",
+                "type": "FIX",
+                "text": " ValueListProvider: The correct filter field description is now applied when multiple validation requests are submitted"
+            },
+            {
+                "id": "10526236fea60c52f751de62f6579faee1188f11",
+                "type": "FIX",
+                "text": " SmartFilterBar: variant now stores info for condition type filters having default operation"
+            },
+            {
+                "id": "653bb542db1cf60af51e6c460fa8b0796d273634",
+                "type": "FIX",
+                "text": " FilterProvider: show all filters button is now correctly set according to the configurations"
+            }
+        ]
+    }
+}

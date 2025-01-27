@@ -1,0 +1,228 @@
+{
+    "1.132.0": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "5afa528417d1d51166d4872b793c401c8f51badc",
+                "type": "FIX",
+                "text": " We've now fixed the issue with the preview load while back navigating to the file in preview dialog's carousel"
+            },
+            {
+                "id": "c0ed69faa6489d131cb96bab69ee528e61e328eb",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: prevent adding tokens to disabled input"
+            },
+            {
+                "id": "7f8fde06ae203a537fd1fe13919cd0e109e4700b",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: Accessible name is now provided"
+            },
+            {
+                "id": "52f84ac22682f7a6ec5e648078be4a5888e999a3",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: Screen reader announcements now adjusted"
+            },
+            {
+                "id": "e3e48ae96159fbc2960cda9e100a244f02dc77d9",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: Documentation is now updated"
+            },
+            {
+                "id": "e9556d961087cf780ea5e38deeb95e2152857977",
+                "type": "FIX",
+                "text": " sap.m.SearchField: Fix misaligned SearchField"
+            },
+            {
+                "id": "331a3987b4886877eab191a93b94fe7023a03316",
+                "type": "FIX",
+                "text": " sap.m.Breadcrumbs: Fixed currentLocationText alignment"
+            },
+            {
+                "id": "62d4c3870df73baaf155c257275a3388f5411885",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: Prevent losing focus on nMore popover close"
+            },
+            {
+                "id": "28d537cc6cd05c5f0b263d256fe1673f99ca7008",
+                "type": "FIX",
+                "text": " sap.m.FormattedText: provide accessibility info"
+            },
+            {
+                "id": "d17387dadd9c3a2bcfbc7c7d91c56e5c465efb30",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: apply tooltip properly"
+            },
+            {
+                "id": "51797b50daf7f5ecda9d21560c53535262d2086f",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: Visual test fixed"
+            },
+            {
+                "id": "7511627ad0411097b0765841989b64faa95e3be6",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: adjust accessibility semantics"
+            },
+            {
+                "id": "e235a8dcf52dad455a9169d4933ec209c31052ed",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: render tokens based on their order"
+            },
+            {
+                "id": "510ce38e1c6c2967567814d2a1ad26ec4d412593",
+                "type": "FIX",
+                "text": " core/Popup: move focus into Popup before opening animation starts"
+            },
+            {
+                "id": "c435a5d1c72f9ac4b4db05f9bc1f2ac9e7189a54",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: prevent unnecessary firing of appointmentSelect event"
+            },
+            {
+                "id": "8c8a4e9fc3e6b0c9d0f6479c0e650b3d98cf0dbe",
+                "type": "FIX",
+                "text": " sap/m/Input: Respect the busy indicator as part of the input"
+            },
+            {
+                "id": "194c48a3631c690b62c1502d3d669ab5f92acffe",
+                "type": "FIX",
+                "text": " We now disable the video preview once the Preview dialog is closed"
+            },
+            {
+                "id": "47d288b52266cb2ce584b9a06f16d5188217fa05",
+                "type": "FIX",
+                "text": " sap.m.Bar: adjust aria-labelledby attribute rendering"
+            },
+            {
+                "id": "61f4f9381aa07096628fd490a855079a7f9ab569",
+                "type": "FIX",
+                "text": " We've now fixed the issue of image not rendering in the numeric content control"
+            },
+            {
+                "id": "c721f9265bd9d010a9cdca98d9d2c6cab125e620",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: displayFormat is taken into account when formatting the output in 24-hour mode support"
+            },
+            {
+                "id": "996971c5a09cce8e0ead0c800ed58308b4194431",
+                "type": "FEATURE",
+                "text": " sap.m.Button: Adding a new style for the badge"
+            },
+            {
+                "id": "4934e5a528dcfe96b136fcb2094d4c114176ee06",
+                "type": "FIX",
+                "text": " sap.m.Switch: remove duplicated state announcement"
+            },
+            {
+                "id": "6e23575335189aa97897c492ec40f67374d0145d",
+                "type": "FIX",
+                "text": " UploadsetwithTable plugin will now handles offline upload request error handling"
+            },
+            {
+                "id": "54c99bb20a95839a123fd5769b231bb250fd159e",
+                "type": "FIX",
+                "text": " sap.m.MessagePage: Icon ignored from screen readers"
+            },
+            {
+                "id": "c073376f1f50fb3467b6124d8c5af107201d5b82",
+                "type": "FIX",
+                "text": " sap.m.ViewSettingsDialog: adjust inner list announcements"
+            },
+            {
+                "id": "62d4753b1076cb37daecdad8196dadf9da84faa3",
+                "type": "FIX",
+                "text": " sap.m.Menu: Connection between sap.m.MenuItem and sap.ui.unified.MenuItem is handled correctly now"
+            },
+            {
+                "id": "2bb2697b1388afc0da3b974d477c69ce8785e826",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: Improve accessibility sample",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370011093"
+                    }
+                ]
+            },
+            {
+                "id": "5cce8a840d4f889c45908d0f3b0c2c2c47fb7ce5",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: Improved arrow navigation"
+            },
+            {
+                "id": "b8bac9a6e225048b2cc304d3ee9cdc8b4bcd6dc8",
+                "type": "FEATURE",
+                "text": " sap.m.ViewSettingsDialog: add preventable beforeClose event"
+            },
+            {
+                "id": "0c62caf18298e7ac80d15a1e4c21e06c04c0bea9",
+                "type": "FEATURE",
+                "text": " sap.m.IllustratedMessage: Introducing 'src' property"
+            },
+            {
+                "id": "6fa0093ce7e1edd25f1d939d8b32a5ae441d3886",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendarGrid: first week of year is now correct"
+            },
+            {
+                "id": "66e738f911fde45b90a12226512900185405593e",
+                "type": "FEATURE",
+                "text": " sap.tnt.ToolHeader: update visual design for Horizon themes"
+            },
+            {
+                "id": "2a5f8fdc7f627b7cca7a7925d5b7ab157d1e551d",
+                "type": "FEATURE",
+                "text": " sap.m.Menu: Enhance keyboard navigation"
+            },
+            {
+                "id": "204edc30d152a9d44b712083c9b277b5e6b3f393",
+                "type": "FIX",
+                "text": " We've now adapted to the chrome://flags/#pdf-oopif flag that is introduced to rectify the pdfViewer issues"
+            },
+            {
+                "id": "47a94f8fc3e769cf29ede15fdd0581e57bd63adf",
+                "type": "FIX",
+                "text": " sap/m/demokit/tutorial/walkthrough: Replace test links with testsuite"
+            },
+            {
+                "id": "82efaf2d65d242391a2486206b31fe815e9735b1",
+                "type": "FIX",
+                "text": " sap/m/demokit/tutorial/walkthrough: Correct links for the testsuite"
+            },
+            {
+                "id": "7e440cd80c4069f18e583af9b73b9536721b9b5d",
+                "type": "FIX",
+                "text": " sap.m.TabContainer: remove redundant announcement"
+            },
+            {
+                "id": "e360ca1e0cac41626cdce9b300145e04738235fb",
+                "type": "FIX",
+                "text": " sap.m.Breadcrumbs: Text truncation"
+            },
+            {
+                "id": "f879013e6a2b6b3e91d8c08a06fabfdb75ededdc",
+                "type": "FIX",
+                "text": " sap.m.TableSelectDialog: fixed documentation"
+            },
+            {
+                "id": "f9e42f7d7210827f3dd9c7b89adb3c7e909756cb",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: Removing the note in the documentation for endContent"
+            },
+            {
+                "id": "b940bf38030dadc5e0e2577b170b4140c06472ea",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: Last X included options are translatable now"
+            },
+            {
+                "id": "5a7a688c64a255db039d5f731cf10a977c82d27a",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: add accessible name for the popover"
+            },
+            {
+                "id": "5c45f8281a5f11bf4d6470d497930f857824b0a6",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: Console error prevented"
+            }
+        ]
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "1.132.0": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "I1b239959bd450286cd92b392f66ab6f99c1d54e7",
+                "type": "FEATURE",
+                "text": "We now set the rememberSelections property to false by default for responsive tables"
+            },
+            {
+                "id": "Ie894d76eb0daedb643fa4bdf404f51c8151cd4e5",
+                "type": "FEATURE",
+                "text": "You can now use the focusOnEditExtension API in object pages to set the focus on a specific control in edit mode"
+            },
+            {
+                "id": "Ibb2567077fb1ce737a6e3250d0d0b8dee35fff97",
+                "type": "FEATURE",
+                "text": "We now support side effects for custom fields in object pages"
+            },
+            {
+                "id": "I8086dfb7ba1854505bf86ec700cf8a9ecf714a4b",
+                "type": "FIX",
+                "text": "We've removed SideEffectUtil from the AnnotationHelper method to prevent cyclic dependency issues",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0330830"
+                    }
+                ]
+            },
+            {
+                "id": "I1a411899ece8d38f827bb410c994a7acea906c7a",
+                "type": "FIX",
+                "text": "We've resolved several issues related to the AI-Assisted Easy Filter",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0324105"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0340273"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0331577"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0320548 "
+                    }
+                ]
+            },
+            {
+                "id": "I4cec764f7f4cca3b4cc7a2718e414fb1fa6f19ca",
+                "type": "FIX",
+                "text": "We've resolved an issue where colons were not being displayed after the label in the object page header",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0317603"
+                    }
+                ]
+            },
+            {
+                "id": "I6c21f5921c2fb6c1d7f77eb035a59c18b33b92c1",
+                "type": "FIX",
+                "text": "We've now removed the 'Open in new tab' option for links annotated with DataFieldWithIntentBasedNavigation in applications",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0351343"
+                    }
+                ]
+            },
+            {
+                "id": "Iff7500a48b8d944ba4e58e89222b5fda13e17d9d",
+                "type": "FIX",
+                "text": "We've resolved an issue with invoking the Summarize action in the object page header",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0355984"
+                    }
+                ]
+            },
+            {
+                "id": "Ief34af3364f12ac613a1892176883e932ee32e45",
+                "type": "FIX",
+                "text": "We've resolved an issue in the object page where canceling a direct edit could result in the application remaining in a busy state",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008739912"
+                    }
+                ]
+            },
+            {
+                "id": "I33029c92e3c85af924be1c1c98d0991fada80ac3",
+                "type": "FIX",
+                "text": "We've improved the performance of the initial loading of an object page with a table configured using inline creation mode and the DefaultValuesFunction definition"
+            },
+            {
+                "id": "I9091ec7f64606b5ef73fe35c875c3d8b9c0a195d",
+                "type": "FIX",
+                "text": "End users are now redirected to the root page of the analytical list page or list report applications when they discard draft creation from a new tab",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0115843"
+                    }
+                ]
+            },
+            {
+                "id": "I89a175b388b07d34d3bb6ae428e1cbd3361efffb",
+                "type": "FIX",
+                "text": "We've resolved an issue with the display of counts on dynamic tiles when table filters are applied",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008109649"
+                    }
+                ]
+            },
+            {
+                "id": "I80feee7667521ded12e27a0bf0d3fccd3281ba76",
+                "type": "FIX",
+                "text": "We now invalidate the context of the currently active subobject page during draft activation on the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008209852"
+                    }
+                ]
+            },
+            {
+                "id": "I05a9ed465ba97c6786e02b30cb5fd3278289ac04",
+                "type": "FIX",
+                "text": "We now ensure that the contents are correctly displayed in the Adapt Filters dialog for analytical list page applications across all themes",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0260438"
+                    }
+                ]
+            },
+            {
+                "id": "I7df264707697ac953639cf44e9275a66dab3d521",
+                "type": "FIX",
+                "text": "We now use an extension API to support the navigation mode in the navigateExternal method",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240009004959"
+                    }
+                ]
+            },
+            {
+                "id": "I5b3f93a459d64ef17cdc0679e1f1a1915591babc",
+                "type": "FIX",
+                "text": "We've now assigned the correct heading levels to the subsections, and these levels are automatically adjusted based on the visibility of the respective section or subsection"
+            }
+        ]
+    }
+}
