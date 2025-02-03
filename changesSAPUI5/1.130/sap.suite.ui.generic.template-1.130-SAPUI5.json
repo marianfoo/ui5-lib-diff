@@ -195,5 +195,64 @@
                 ]
             }
         ]
+    },
+    "1.130.5": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "Ief34af3364f12ac613a1892176883e932ee32e45",
+                "type": "FIX",
+                "text": "We've resolved an issue in the object page where canceling a direct edit could result in the application remaining in a busy state",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008739912"
+                    }
+                ]
+            },
+            {
+                "id": "I80feee7667521ded12e27a0bf0d3fccd3281ba76",
+                "type": "FIX",
+                "text": "We now invalidate the context of the currently active subobject page during draft activation on the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008209852"
+                    }
+                ]
+            },
+            {
+                "id": "I89a175b388b07d34d3bb6ae428e1cbd3361efffb",
+                "type": "FIX",
+                "text": "We've resolved an issue with the display of counts on dynamic tiles when table filters are applied",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008109649"
+                    }
+                ]
+            },
+            {
+                "id": "I9ef437595bec2090259a4647a44d7f0c93e549b3",
+                "type": "FIX",
+                "text": "We've resolved several issues related to the AI-Assisted Easy Filter"
+            }
+        ]
+    },
+    "1.130.6": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "Id18e00efa881458a407ae9dec855a796a1ac2cb8",
+                "type": "FIX",
+                "text": "We now ensure that returning to an application does not set the default table variant as modified",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008829376"
+                    }
+                ]
+            }
+        ]
     }
 }

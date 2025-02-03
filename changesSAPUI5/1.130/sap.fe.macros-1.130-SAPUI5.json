@@ -238,5 +238,40 @@
                 "text": " We now ensure that the RichTextEditor building block with metadata can be used with a button group aggregation"
             }
         ]
+    },
+    "1.130.5": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "01eb44c03ca0eed44f5a48a277c82b98308f62c2",
+                "type": "FIX",
+                "text": " We've now resolved an issue where the draft indicator wasn't displayed for the draft of an active record"
+            },
+            {
+                "id": "fcea162dc74a6232b935ce82c8f7e8b833413e68",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where the app was failing to load while creating a default variant that involved removing and adding a field"
+            },
+            {
+                "id": "760990fffd474abd45397f0aa8b7d0b39cb137f9",
+                "type": "FIX",
+                "text": " We now ensure that the value help field with fixed values in the action parameter dialog shows the correct values"
+            },
+            {
+                "id": "0c8dbcdc9d215ed8889feef38907dcaf46c12b12",
+                "type": "FIX",
+                "text": " We now support uploading various file types as attachments on the object page"
+            },
+            {
+                "id": "066419748d93d867985fc9c5570bebec9d20cbdc",
+                "type": "FIX",
+                "text": " We now ensure that the implicit semantic object mappings containing sensitive data are not passed to the target application"
+            },
+            {
+                "id": "51a6038b94770c3820ffc8b6330d47c33db31eac",
+                "type": "FIX",
+                "text": " We've resolved an issue with value help condition propagation when there are no conditions"
+            }
+        ]
     }
 }

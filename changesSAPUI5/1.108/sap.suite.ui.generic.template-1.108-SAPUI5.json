@@ -1087,5 +1087,32 @@
                 ]
             }
         ]
+    },
+    "1.108.40": {
+        "date": "January 2025",
+        "notes": [
+            {
+                "id": "Ief34af3364f12ac613a1892176883e932ee32e45",
+                "type": "FIX",
+                "text": "We've resolved an issue in the object page where canceling a direct edit could result in the application remaining in a busy state",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008739912"
+                    }
+                ]
+            },
+            {
+                "id": "Id18e00efa881458a407ae9dec855a796a1ac2cb8",
+                "type": "FIX",
+                "text": "We now ensure that returning to an application does not set the default table variant as modified",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008829376"
+                    }
+                ]
+            }
+        ]
     }
 }

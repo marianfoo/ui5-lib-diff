@@ -6975,6 +6975,57 @@
     ]
   },
   {
+    "version": "1.108.39",
+    "date": "2025.01.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Fixed failure to expand the header"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We've now adapted to the chrome://flags/#pdf-oopif flag that is introduced to rectify the pdfViewer issues"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/base/util/now: Migrate performance.timing"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.mdc",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " odata.v4.TableDelegate: Clear selection when updating the binding"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Prevent navigation when selecting a week"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.108.1",
     "date": "2022.11.01",
     "libraries": [
@@ -22685,6 +22736,59 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageLayout: Incorrect scrolling prevented"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.130.3",
+    "date": "2025.01.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.Breadcrumbs: Fixed currentLocationText alignment"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectHeader: IntroPress event now fired properly"
+          },
+          {
+            "type": "FIX",
+            "text": " We've now adapted to the chrome://flags/#pdf-oopif flag that is introduced to rectify the pdfViewer issues"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " ThemeManager: Fix failing QUnit"
+          },
+          {
+            "type": "FIX",
+            "text": " ThemeManager: Add detection for CSS preloads"
+          },
+          {
+            "type": "FIX",
+            "text": " core/Element|Popup: get DOMRef after calling parent \"destroy\""
+          },
+          {
+            "type": "FIX",
+            "text": " core/LabelEnablement: handle destroy of label when updating inner control"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Remove additional role"
           }
         ]
       }
