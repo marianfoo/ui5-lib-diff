@@ -1000,5 +1000,65 @@
                 ]
             }
         ]
+    },
+    "1.120.26": {
+        "date": "February 2025",
+        "notes": [
+            {
+                "id": "I7df264707697ac953639cf44e9275a66dab3d521",
+                "type": "FIX",
+                "text": "We now use an extension API to support the navigation mode in the navigateExternal method",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240009004959"
+                    }
+                ]
+            },
+            {
+                "id": "Id18e00efa881458a407ae9dec855a796a1ac2cb8",
+                "type": "FIX",
+                "text": "We now ensure that returning to an application does not set the default table variant as modified",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008829376"
+                    }
+                ]
+            },
+            {
+                "id": "Ie10e8322424775cb717e7ffe2af29930510dd396",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where the list report table failed to refresh after executing a determining action",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008232017"
+                    }
+                ]
+            },
+            {
+                "id": "I5b3f93a459d64ef17cdc0679e1f1a1915591babc",
+                "type": "FIX",
+                "text": "We've now assigned the correct heading levels to the titles of the key value facets in the object page header",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240009024128"
+                    }
+                ]
+            },
+            {
+                "id": "I664eef945476032195906011d09f5476acca7cf9",
+                "type": "FIX",
+                "text": "We've resolved an issue where the correct heading levels were not applied to the controls when the section or subsection titles were hidden on the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240009024128"
+                    }
+                ]
+            }
+        ]
     }
 }

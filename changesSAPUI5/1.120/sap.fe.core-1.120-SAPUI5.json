@@ -973,5 +973,25 @@
                 "text": " We now ensure that the contextPath property is consistently bound to the meta model, allowing the correct context path to be generated regardless of any entity name conflicts"
             }
         ]
+    },
+    "1.120.20": {
+        "date": "February 2025",
+        "notes": [
+            {
+                "id": "ed540f1c48a70612ff494a7b20991f2162ac11d1",
+                "type": "FIX",
+                "text": " We've resolved an issue that occurred with fields containing navigation properties in a containment scenario"
+            },
+            {
+                "id": "11ae45c66dc65a3c5039dd4d1b0dfe71fb75bd00",
+                "type": "FIX",
+                "text": " Copying an entity using the DataFieldForAction annotation now works correctly"
+            },
+            {
+                "id": "d9b0ffe8105e081782afa3a3f85869dbc4be96ca",
+                "type": "FIX",
+                "text": " We now ensure that back navigation works correctly when an SAP Fiori elements-based application is embedded in another application"
+            }
+        ]
     }
 }

@@ -273,5 +273,40 @@
                 "text": " We've resolved an issue with value help condition propagation when there are no conditions"
             }
         ]
+    },
+    "1.130.6": {
+        "date": "February 2025",
+        "notes": [
+            {
+                "id": "f467bfbbc839b00bc14df34c5722b551517340f8",
+                "type": "FIX",
+                "text": " The RichTextEditor is now correctly displayed in edit mode when an object is created"
+            },
+            {
+                "id": "c0ad67358bb05c0560d95b114aef84efae22ad08",
+                "type": "FIX",
+                "text": " We now use a modifer to retrieve the existing PropertyInfo when the Remove condition is called"
+            },
+            {
+                "id": "17a3f4f8977bd89cd4589c42311b2814c691111c",
+                "type": "FIX",
+                "text": " We now ensure that the display property of action parameters is correctly calculated using the ValueList reference annotations"
+            },
+            {
+                "id": "be76a40fbb18a7480ad848222ac8101d9531b287",
+                "type": "FIX",
+                "text": " Adding items in a multi-input field with side effects now works correctly"
+            },
+            {
+                "id": "b2459894cf349adbd3dbd67b45ad83792a31a296",
+                "type": "FIX",
+                "text": " We now ensure the default values of action parameters are defined before setting them as binding data"
+            },
+            {
+                "id": "c89be999b6dcb976ffabd8ff069f5885b31ad120",
+                "type": "FIX",
+                "text": " We've resolved an issue with the value help within the filter fields that caused the VariantManagement building block to not load properly"
+            }
+        ]
     }
 }

@@ -16982,6 +16982,89 @@
     ]
   },
   {
+    "version": "1.120.26",
+    "date": "2025.02.01",
+    "libraries": [
+      {
+        "library": "sap.f",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.f.FlexibleColumnLayout: errors prevented"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.f.DynamicPage: Fixed failure to expand the header"
+          }
+        ]
+      },
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.m.TimePicker: User input not overridden"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.SinglePlanningCalendar: Appointments text is resized depending of the scale factor now"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.ObjectStatus: inverted status is correctly displayed in ObjectListItem"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.DateTimePicker: Added optional chaining"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Input: preserve value after rerendering of password field"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.Select: Selected item fixed"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.m.MenuButton: Removed maximum width of the MenuButton"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.core",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap/base/util/now: Migrate performance.timing"
+          }
+        ]
+      },
+      {
+        "library": "sap.ui.unified",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.ui.unified.Calendar: Prevent navigation when selecting a week"
+          }
+        ]
+      },
+      {
+        "library": "sap.uxap",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " sap.uxap.AnchorBar: Update ARIA role for anchor bar buttons"
+          },
+          {
+            "type": "FIX",
+            "text": " sap.uxap.ObjectPageLayout: Calc FIX"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "version": "1.120.3",
     "date": "2024.01.01",
     "libraries": [
@@ -22789,6 +22872,21 @@
           {
             "type": "FIX",
             "text": " sap.uxap.ObjectPageLayout: Remove additional role"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "1.130.4",
+    "date": "2025.02.01",
+    "libraries": [
+      {
+        "library": "sap.m",
+        "changes": [
+          {
+            "type": "FIX",
+            "text": " We now ensure that the Uploadset illustrated message properties are correctly updated when they are bound with a model"
           }
         ]
       }
