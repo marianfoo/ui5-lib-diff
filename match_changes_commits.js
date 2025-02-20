@@ -33,6 +33,10 @@ function loadAllNotes() {
     const versions = fs.readdirSync(dir);
     for (const version of versions) {
       const versionPath = path.join(dir, version);
+      // Skip if not a directory (e.g. .DS_Store files)
+      if (!fs.statSync(versionPath).isDirectory()) {
+        continue;
+      }
       const files = fs.readdirSync(versionPath);
       for (const f of files) {
         const filePath = path.join(versionPath, f);
@@ -44,7 +48,7 @@ function loadAllNotes() {
             if (!n) return;
             const noteId = n.id ? n.id : `generated-${++uniqueIdCounter}`;
             // The note may or may not have a 'sha' property
-            allNotes.push({ noteId, text: n.text, sha: n.sha });
+            allNotes.push({ noteId, text: n.text });
           });
         });
       }
@@ -112,14 +116,20 @@ function buildInvertedIndex(commits) {
  * 5) pick newest
  */
 function findMatchingCommit(noteText, invertedIndex) {
+ 
   // Add null check for noteText
-  if (noteText == null) return null;
+  if (noteText == null) {
+    return null;
+  }
 
   const noteLower = noteText.trim().toLowerCase();
-  if (!noteLower) return null;
+  if (!noteLower) {
+    return null;
+  }
 
   // Tokenize the note text
   const tokens = tokenize(noteLower);
+  
   if (tokens.length === 0) {
     return null;
   }
@@ -139,7 +149,7 @@ function findMatchingCommit(noteText, invertedIndex) {
     }
   }
 
-  // Now we verify the entire note is a substring (non-merge first, fallback to merges)
+  // Final matching and sorting
   const nonMergeMatches = candidateCommits.filter(c => {
     return !c.lowerMsg.startsWith('merge') && c.lowerMsg.includes(noteLower);
   });
@@ -160,44 +170,63 @@ function findMatchingCommit(noteText, invertedIndex) {
 async function run() {
   console.time('Total matching');
 
-  // 1) Load commits data once
+  // More detailed timing for loading phase
   console.time('Reading commits');
+  console.time('Parse commits JSON');
   const commitsData = JSON.parse(fs.readFileSync(commitsFilePath, 'utf8'));
+  console.timeEnd('Parse commits JSON');
   console.timeEnd('Reading commits');
 
-  // 2) Collect all notes
   console.time('Loading notes');
   const notesArray = loadAllNotes();
+  console.log(`Notes array size: ${JSON.stringify(notesArray).length / 1024 / 1024} MB`);
   console.timeEnd('Loading notes');
   console.log(`Collected ${notesArray.length} notes total.`);
 
-  // Build the inverted index from commits
+  // Read existing matches so we can skip those noteIds
+  let existingMatches = [];
+  if (fs.existsSync(outputMatchFile)) {
+    existingMatches = JSON.parse(fs.readFileSync(outputMatchFile, 'utf8'));
+  }
+  const existingNoteIds = new Set(existingMatches.map(m => m.noteId));
+
   console.time('Building inverted index');
   const invertedIndex = buildInvertedIndex(commitsData);
+  console.log(`Index size: ${invertedIndex.size} unique tokens`);
   console.timeEnd('Building inverted index');
 
-  // 3) Match each note against the inverted index in a single pass
+  // Add batch processing metrics
   console.time('Matching notes');
-  const results = [];
+  const batchSize = 1000;
+  const newResults = [];
+  let processed = 0;
+
   for (const note of notesArray) {
-    // If note already has a sha assigned, skip
-    if (note.sha) {
+    // Skip if we've already matched this note ID
+    if (existingNoteIds.has(note.noteId)) {
       continue;
     }
-    // Otherwise, try to find a matching commit
+
     const matchedCommit = findMatchingCommit(note.text, invertedIndex);
     if (matchedCommit) {
-      results.push({ sha: matchedCommit.sha, noteId: note.noteId });
+      newResults.push({ sha: matchedCommit.sha, noteId: note.noteId });
     } else {
-      // If no commit found, mark with NO_COMMIT_FOUND
-      results.push({ sha: "NO_COMMIT_FOUND", noteId: note.noteId });
+      newResults.push({ sha: "NO_COMMIT_FOUND", noteId: note.noteId });
+    }
+
+    processed++;
+    if (processed % batchSize === 0) {
+      console.log(`Processed ${processed}/${notesArray.length} notes (${Math.round(processed/notesArray.length*100)}%)`);
     }
   }
   console.timeEnd('Matching notes');
 
+  // Combine new results with existing
+  const combinedResults = existingMatches.concat(newResults);
+
   // 4) Filter out duplicates by noteId
   const seenNoteIds = new Set();
-  const uniqueResults = results.filter(result => {
+  const uniqueResults = combinedResults.filter(result => {
     if (seenNoteIds.has(result.noteId)) {
       return false;
     }
@@ -210,8 +239,8 @@ async function run() {
   console.log(`✅ Wrote ${uniqueResults.length} matched notes (including NO_COMMIT_FOUND) to ${outputMatchFile}`);
 
   // If duplicates were removed
-  if (uniqueResults.length < results.length) {
-    console.warn(`⚠️  Removed ${results.length - uniqueResults.length} duplicate notes`);
+  if (uniqueResults.length < combinedResults.length) {
+    console.warn(`⚠️  Removed ${combinedResults.length - uniqueResults.length} duplicate notes`);
   }
 
   console.timeEnd('Total matching');
