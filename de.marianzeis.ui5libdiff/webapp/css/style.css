@@ -8,6 +8,11 @@
     transition: all 0.2s ease;  /* Smooth transition for hover effects */
 }
 
+.commitText {
+    white-space: normal;
+    word-wrap: break-word;  /* or overflow-wrap: anywhere; in modern browsers */
+  }
+
 .commitLink:hover {
     text-decoration: underline !important;
     color: #0854a0 !important;
