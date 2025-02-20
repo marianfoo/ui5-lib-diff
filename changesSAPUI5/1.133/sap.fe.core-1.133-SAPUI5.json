@@ -1,0 +1,92 @@
+{
+    "1.133.0": {
+        "date": "February 2025",
+        "notes": [
+            {
+                "id": "f14e77bd4d9664477a1f5780ac21125cbea6c4a9",
+                "type": "FEATURE",
+                "text": " We now ensure that fields with a currency or units of measure in a table are correctly aligned along the decimal separator"
+            },
+            {
+                "id": "c6078c65dfa0343ba249d228ea481a37934b0c73",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where skipping the decimal validation using the DoNotCheckScaleOfMeasuredQuantity annotation was omitted due to the automatic rounding of the field values"
+            },
+            {
+                "id": "6d2e831f2b0c03c1bf8669e32a93c3af9c68f500",
+                "type": "FEATURE",
+                "text": " We no longer show a form container if all its contents are hidden"
+            },
+            {
+                "id": "ab3af327ad8ad2dbf33b7ad2def8b8c00be42e73",
+                "type": "FEATURE",
+                "text": " You can now use the applyState and retrieveState APIs to store and retrieve states of custom sections and subsections"
+            },
+            {
+                "id": "ebacec5490fc742f74aa32d32e03cb846c43b717",
+                "type": "FEATURE",
+                "text": " We now provide an option to aggregate data based on the visible table columns in analytical list page applications"
+            },
+            {
+                "id": "8667b75b405e31d709604a3c1ee94056803b2529",
+                "type": "FIX",
+                "text": " We've improved the documentation for the invokeAction method"
+            },
+            {
+                "id": "15c425d762fbd21321d91dcb18a6bf311eaa2660",
+                "type": "FEATURE",
+                "text": " We no longer show a form container if all its contents are hidden"
+            },
+            {
+                "id": "6d36286530d9888d4e82e2b1a132e5af5612309a",
+                "type": "FIX",
+                "text": " We now ensure that the value help field with fixed values in the action parameter dialog shows the correct values"
+            },
+            {
+                "id": "4b0d149bba3c27bebf00ed5665557a29e4479297",
+                "type": "FIX",
+                "text": " We've resolved an issue that occurred with fields containing navigation properties in a containment scenario"
+            },
+            {
+                "id": "834bceaf9d3c6ea96867ff564177a79f2cd901d8",
+                "type": "FIX",
+                "text": " Navigation properties that are applicable to line items and annotated with TextArrangement as TextOnly are now available for filtering in tables"
+            },
+            {
+                "id": "417ed5b3272e4aff32b248134cc05c5b588fc849",
+                "type": "FIX",
+                "text": " Copying an entity using the DataFieldForAction annotation now works correctly"
+            },
+            {
+                "id": "b530b17f9f888f9d6723ff3b1854a882c669ebc1",
+                "type": "FIX",
+                "text": " Visibility settings of menus are now applied correctly when menu items have their own visibility settings defined"
+            },
+            {
+                "id": "cbf9b9c64030074de1f71324b1c0b7e32d03283b",
+                "type": "FEATURE",
+                "text": " We’ve added SAP Collaboration Manager as a further option to the context menu of tables"
+            },
+            {
+                "id": "c37d24201e60369b236894c8058ba74a92f4c909",
+                "type": "FIX",
+                "text": " We now ensure that the action parameter dialog stays open when the user cancels a 412 warning message"
+            },
+            {
+                "id": "76be3f98b0596f007f36d6f703a2065eeedf6299",
+                "type": "FIX",
+                "text": " Sorting by currency or unit of measure properties that reference texts now works correctly"
+            },
+            {
+                "id": "1226e1e4a8d11ef622cabc6e735b98834903854f",
+                "type": "FEATURE",
+                "text": " You can now set the rowCountMode property to 'Interactive' for grid tables in the manifest.json file"
+            },
+            {
+                "id": "7aa428b1d11c7d57a1268525583173e4e14315c3",
+                "type": "FIX",
+                "text": " We’ve resolved an issue that occurred when discarding the changes made to a non-draft object"
+            }
+        ]
+    }
+}

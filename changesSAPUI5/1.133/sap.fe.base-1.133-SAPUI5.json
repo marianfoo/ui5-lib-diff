@@ -1,0 +1,22 @@
+{
+    "1.133.0": {
+        "date": "February 2025",
+        "notes": [
+            {
+                "id": "f14e77bd4d9664477a1f5780ac21125cbea6c4a9",
+                "type": "FEATURE",
+                "text": " We now ensure that fields with a currency or units of measure in a table are correctly aligned along the decimal separator"
+            },
+            {
+                "id": "c6078c65dfa0343ba249d228ea481a37934b0c73",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where skipping the decimal validation using the DoNotCheckScaleOfMeasuredQuantity annotation was omitted due to the automatic rounding of the field values"
+            },
+            {
+                "id": "ab3af327ad8ad2dbf33b7ad2def8b8c00be42e73",
+                "type": "FEATURE",
+                "text": " You can now use the applyState and retrieveState APIs to store and retrieve states of custom sections and subsections"
+            }
+        ]
+    }
+}

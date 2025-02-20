@@ -1,0 +1,87 @@
+{
+    "1.133.0": {
+        "date": "February 2025",
+        "notes": [
+            {
+                "id": "I0682aa657201ca1603822c2da4871cfabcd2395a",
+                "type": "FEATURE",
+                "text": "We now ensure that the group header of a responsive table remains sticky during vertical scrolling of the page"
+            },
+            {
+                "id": "I347579d4a5a249f8edc7c989f0388623aa6378da",
+                "type": "FEATURE",
+                "text": "We now ensure that the insight cards reflect the same semantic coloring as the source table when defining row-level criticality"
+            },
+            {
+                "id": "I9ee9b41666a6bf0143396f4a45b11f8125626ee0",
+                "type": "FEATURE",
+                "text": "We've enhanced the message popover in tables to show row-related information by including the title and key field details"
+            },
+            {
+                "id": "Ib20694e1831172b46d5525871d1180624e708352",
+                "type": "FEATURE",
+                "text": "Key users can use the UI adaptation feature to modify the settings in the manifest.json file"
+            },
+            {
+                "id": "Id18e00efa881458a407ae9dec855a796a1ac2cb8",
+                "type": "FIX",
+                "text": "We now ensure that returning to an application does not set the default table variant as modified",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008829376"
+                    }
+                ]
+            },
+            {
+                "id": "I23d4fba19ca92100c4462bcf511eef001f012521",
+                "type": "FIX",
+                "text": "We now pass the URL parameter 'sap-appvar-id' to ensure proper navigation when launching the adaptation project application in My Home using the insights card",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0360896"
+                    }
+                ]
+            },
+            {
+                "id": "Ie10e8322424775cb717e7ffe2af29930510dd396",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where the list report table failed to refresh after executing a determining action",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008232017"
+                    }
+                ]
+            },
+            {
+                "id": "I831e392c4f6ffb6d3b6b0d50c9ff104de749255e",
+                "type": "FIX",
+                "text": "We now ensure that the smart link popup displays the title based on the textArrangement annotation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0320107"
+                    }
+                ]
+            },
+            {
+                "id": "I31dfaad9d5a922c32c963a1734e0dae9b13112c4",
+                "type": "FIX",
+                "text": "You can now configure the rememberSelections property of a responsive table using the UI adaptation feature"
+            },
+            {
+                "id": "I83fbc00aef27ff8e86a620eed3931ec3cba47fd2",
+                "type": "FIX",
+                "text": "We've improved the manifest merging logic of the adaptation project with the base project to handle the legacy manifest files",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0382984"
+                    }
+                ]
+            }
+        ]
+    }
+}

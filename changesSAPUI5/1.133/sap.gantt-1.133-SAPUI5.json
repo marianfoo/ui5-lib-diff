@@ -1,0 +1,36 @@
+{
+    "1.133.0": {
+        "date": "Jan 2025",
+        "notes": [
+            {
+                "id": "I88e4054e8fd73631e0b0f55d5b868bcceab88704",
+                "text": "We've now enabled an option to optimize the relationship rendering process",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "I083e366cdcbdfadfb6ff36ab111460c4dff1b874",
+                "text": "We now provide the showWrapper API to display wrapper for the Gantt Chart Container and for individual Gantt Charts",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "I258b75e50bda5f56ab51a51048664de34da0fccb",
+                "text": "We've now created an API in Gantt chart to select or deselect shapes based on shapeIDs",
+                "type": "FEATURE",
+                "references": []
+            },
+            {
+                "id": "I649776d77040f87d11167f14dee8ac23c1d6714b",
+                "text": "We now ensure that the default time formatter is updated when the localization is changed",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008704362"
+                    }
+                ]
+            }
+        ]
+    }
+}
