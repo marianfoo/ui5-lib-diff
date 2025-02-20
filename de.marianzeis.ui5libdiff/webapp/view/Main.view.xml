@@ -73,8 +73,17 @@
 							<ObjectPageLazyLoader id="Section1stashed">
 								<m:Panel headerText="{changes>library}" content="{path: 'changes>changes', templateShareable: false, length: '10000'}" expandable="true" expanded="true" class="sapUxAPObjectPageSubSectionAlignContent" width="auto">
 									<m:HBox width="100%">
-										<m:Text text="[{changes>version}] [{changes>type}] {changes>text}" class="changeText"/>
-										<m:Link text="(commit)" href="{changes>commit_url}" target="_blank" visible="{= ${changes>commit_url} !== null}" class="commitLink"/>
+										<m:FormattedText
+											class="changeText"
+											visible="{= ${changes>commit_url} !== null }"
+											htmlText="[{changes>version}] [{changes>type}] {changes>text} &lt;a href='{changes>commit_url}' target='_blank' class='commitLink'&gt;(commit)&lt;/a&gt;"
+										/>
+
+										<m:Text
+											class="changeText"
+											visible="{= ${changes>commit_url} === null }"
+											text="[{changes>version}] [{changes>type}] {changes>text}"
+										/>
 									</m:HBox>
 								</m:Panel>
 							</ObjectPageLazyLoader>
