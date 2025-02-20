@@ -28,6 +28,7 @@
 				<layout:HorizontalLayout>
 					<m:Button text="Show RSS Feed SAPUI5" press="showRSSFeedSAPUI5"/>
 					<m:Button text="Show RSS Feed OpenUI5" press="showRSSFeedOpenUI5"/>
+					<m:Button text="Open GitHub Repo" press="openGitHubRepo"/>
 				</layout:HorizontalLayout>
 				
 				<m:SegmentedButton id="SegmentedButtonUI5" selectedKey="SAPUI5" width="100%" selectionChange="handleVersionChange">

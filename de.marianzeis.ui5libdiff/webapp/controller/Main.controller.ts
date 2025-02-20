@@ -430,4 +430,8 @@ export default class Main extends BaseController {
 	showRSSFeedOpenUI5(): void {
 		window.open("rss_feed_OpenUI5.xml");
 	}
+
+	openGitHubRepo(): void {
+		window.open("https://github.com/marianfoo/ui5-lib-diff");
+	}
 }
