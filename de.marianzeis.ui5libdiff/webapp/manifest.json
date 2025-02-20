@@ -33,7 +33,7 @@
 		},
 
 		"dependencies": {
-			"minUI5Version": "1.120.0",
+			"minUI5Version": "1.120.26",
 			"libs": {
 				"sap.ui.core": {},
 				"sap.m": {},
@@ -56,6 +56,14 @@
 					"bundleName": "de.marianzeis.ui5libdiff.i18n.i18n"
 				}
 			}
+		},
+
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
 		},
 
 		"routing": {

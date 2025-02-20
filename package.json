@@ -5,22 +5,29 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pnpm  --filter de.marianzeis.ui5libdiff start",
-    "build": "pnpm fetchLibraries && pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated && pnpm fetchWhatsNew && pnpm createRSSFeed && pnpm  --filter de.marianzeis.ui5libdiff build:opt",
-    "refreshData": "pnpm fetchLibraries && pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated && pnpm fetchWhatsNew && pnpm createRSSFeed",
+    "start": "npm run -w de.marianzeis.ui5libdiff start",
+    "build": "npm run fetchLibraries && npm run changes && npm run fetchOpenUI5Commits && npm run matchChangesCommits && npm run parseChanges && npm run parseChangesSelect && npm run deprecated && npm run fetchWhatsNew && npm run createRSSFeed && npm run -w de.marianzeis.ui5libdiff build:opt",
+    "refreshData": "npm run fetchLibraries && npm run changes && npm run fetchOpenUI5Commits && npm run matchChangesCommits && npm run parseChanges && npm run parseChangesSelect && npm run deprecated && npm run fetchWhatsNew && npm run createRSSFeed",
     "fetchLibraries": "node names.js",
     "changes": "node changes.js",
     "parseChanges": "node parseChanges.js",
     "parseChangesSelect": "node parseChangesSelect.js",
     "deprecated": "node deprecated.js",
-    "fetchData": "pnpm fetchLibraries && pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated",
+    "fetchData": "npm run fetchLibraries && npm run changes && npm run parseChanges && npm run parseChangesSelect && npm run deprecated",
     "createRSSFeed": "node ./dev/createRSS.js",
-    "fetchWhatsNew": "node whatsnew.js"
+    "fetchWhatsNew": "node whatsnew.js",
+    "fetchOpenUI5Commits": "node fetchOpenUI5Commits.js",
+    "matchChangesCommits": "node match_changes_commits.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
+    "dotenv": "^16.4.7",
+    "fuse.js": "7.1.0",
     "progress": "^2.0.3"
-  }
+  },
+  "workspaces": [
+    "de.marianzeis.ui5libdiff"
+  ]
 }

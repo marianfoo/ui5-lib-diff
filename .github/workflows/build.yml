@@ -17,20 +17,35 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: use pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
-      - name: Use Node.js LTS (18.x)
+      - name: Use Node.js LTS (20.x)
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: pnpm install
+      - name: npm install
         run: |
-          pnpm install
-      - name: build ui
-        run: |
-          npm run build
+          npm install
+      - name: Fetch Libraries
+        run: npm run fetchLibraries
+      - name: Get Changes
+        run: npm run changes
+      - name: Fetch OpenUI5 Commits
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: npm run fetchOpenUI5Commits
+      - name: Match Changes with Commits
+        run: npm run matchChangesCommits
+      - name: Parse Changes
+        run: npm run parseChanges
+      - name: Parse Changes Select
+        run: npm run parseChangesSelect
+      - name: Check Deprecated
+        run: npm run deprecated
+      - name: Fetch What's New
+        run: npm run fetchWhatsNew
+      - name: Create RSS Feed
+        run: npm run createRSSFeed
+      - name: Build UI
+        run: npm run -w de.marianzeis.ui5libdiff build:opt
       - name: Commit/Push build to docs branch
         run: |
           git config --global user.name 'marianfoo'

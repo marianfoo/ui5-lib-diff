@@ -1,0 +1,23 @@
+.commitLink {
+    text-decoration: none !important;
+    color:rgb(53, 91, 208) !important;  /* Slightly lighter than black for better contrast */
+    margin-left: 0.25rem;
+    cursor: pointer;
+    font-weight: 400;  /* Slightly lighter than default for better balance */
+    opacity: 0.9;  /* Subtle transparency to make it less prominent */
+    transition: all 0.2s ease;  /* Smooth transition for hover effects */
+}
+
+.commitLink:hover {
+    text-decoration: underline !important;
+    color: #0854a0 !important;
+    opacity: 1;  /* Full opacity on hover */
+}
+
+/* Add styles for the text container */
+.changeText {
+    font-family: '72', 'Arial', sans-serif;  /* UI5's default font */
+    line-height: 1.4;  /* Better line height for readability */
+    color: #333333;  /* Slightly softer than pure black */
+    margin-right: 0.5rem;  /* Space between text and link */
+} 

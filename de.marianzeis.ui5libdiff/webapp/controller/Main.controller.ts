@@ -7,6 +7,7 @@ interface Change {
 	type: "FEATURE" | "FIX" | "DEPRECATED";
 	text: string;
 	version?: string; // add this line to include an optional version property
+	commit_url?: string;
 }
 
 interface Library {
@@ -285,6 +286,7 @@ export default class Main extends BaseController {
 					const changeString = JSON.stringify({
 						type: change.type,
 						text: change.text,
+						url: change.commit_url
 						// Version intentionally omitted from stringification
 					});
 

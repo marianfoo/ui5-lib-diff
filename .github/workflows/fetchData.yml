@@ -15,21 +15,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-      - name: use pnpm
-        uses: pnpm/action-setup@v2
+        uses: actions/checkout@v4
+      - name: Use Node.js LTS (20.x)
+        uses: actions/setup-node@v4
         with:
-          version: 8.7.0
-      - name: Use Node.js LTS (18.x)
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18"
-      - name: pnpm install
-        run: |
-          pnpm install
-      - name: fetch data
-        run: |
-          npm run refreshData
+          node-version: "20"
+      - name: npm install
+        run: npm install
+      - name: Fetch Libraries
+        run: npm run fetchLibraries
+      - name: Process Changes
+        run: npm run changes
+      - name: Fetch OpenUI5 Commits
+        run: npm run fetchOpenUI5Commits
+        env:
+          GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
+      - name: Match Changes with Commits
+        run: npm run matchChangesCommits
+      - name: Parse Changes
+        run: npm run parseChanges
+      - name: Parse Changes Select
+        run: npm run parseChangesSelect
+      - name: Process Deprecated Items
+        run: npm run deprecated
+      - name: Fetch What's New
+        run: npm run fetchWhatsNew
+      - name: Create RSS Feed
+        run: npm run createRSSFeed
       - name: Commit/Push build to docs branch
         run: |
           git config --global user.name 'marianfoo'
