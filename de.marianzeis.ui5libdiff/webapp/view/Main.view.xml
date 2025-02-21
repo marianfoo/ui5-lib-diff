@@ -40,15 +40,23 @@
 					<m:Button text="Navigate to 'Whats New'" press="onNavToWhatsnew"/>
 				</layout:HorizontalLayout>
 				
-
+				<m:Text text="Type of UI5 you want to compare" />
 				<m:SegmentedButton id="SegmentedButtonUI5" selectedKey="SAPUI5" width="100%" selectionChange="handleVersionChange">
 					<m:items>
 						<m:SegmentedButtonItem text="SAPUI5" key="SAPUI5"/>
 						<m:SegmentedButtonItem text="OpenUI5" key="OpenUI5" />
 					</m:items>
 				</m:SegmentedButton>
+			
 				
 				<m:Button text="Copy Link with current filter to Clipboard" press="copyLinkToClipboardMain"/>
+				<m:Text text="Type of output for changes" />
+				<m:ComboBox id="clipboardFormatSelect" selectedKey="TEXT" width="15rem" change="onFormatChange">
+					<core:Item key="TEXT" text="Normal Text" />
+					<core:Item key="MARKDOWN" text="Markdown" />
+					<core:Item key="JSON" text="JSON" />
+				</m:ComboBox>
+				<m:Button text="Copy changes to Clipboard" press="copyDataToClipboardMain"/>
 				<m:Text text="Select your libraries you want to compare"/>
 				<m:ComboBox id="versionFromSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
 					<core:Item key="{select>value}" text="{select>key}" />
@@ -56,7 +64,7 @@
 				<m:ComboBox id="versionToSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
 					<core:Item key="{select>value}" text="{select>key}" />
 				</m:ComboBox>
-				<m:Text text="Filter for FIX or FEATURE" />
+				<m:Text text="Filter for FIX, FEATURE, DEPRECATED" />
 				<m:SegmentedButton id="SegmentedButton" selectedKey="ALL" width="100%" selectionChange="handleVersionChange">
 					<m:items>
 						<m:SegmentedButtonItem text="All" key="ALL"/>

@@ -37,6 +37,10 @@ export default class Main extends BaseController {
 	dataIsLoading: any;
 	OpenUI5DataLoading: boolean;
 	ui5TypeLoading: string;
+
+	// New property for storing the chosen clipboard format
+	private clipboardFormat: "TEXT" | "MARKDOWN" | "JSON" = "TEXT";
+
 	public async onInit(): void {
 		this.getView().setBusyIndicatorDelay(0);
 		this.getView().setBusy(true);
@@ -47,10 +51,17 @@ export default class Main extends BaseController {
 		this.getView().setModel(new JSONModel(), "versionFrom");
 		this.getView().setModel(new JSONModel(), "versionTo");
 		this.getView().setBusy(false);
+		this.clipboardFormat = "TEXT";
+	}
+
+	// Event handler for the new ComboBox
+	public onFormatChange(event: any): void {
+		const selectedKey = event.getSource().getSelectedKey()
+		this.clipboardFormat = selectedKey;
 	}
 
 	triggerLoadingData(UI5Type: string): void {
-		if (this.dataIsLoading && this.ui5TypeLoading !== UI5Type) return; 
+		if (this.dataIsLoading && this.ui5TypeLoading !== UI5Type) return;
 		if (UI5Type === "SAPUI5" && !this.SAPUI5DataLoaded) {
 			this.ui5TypeLoading = "SAPUI5";
 			this.SAPUI5DataLoading = true;
@@ -59,7 +70,7 @@ export default class Main extends BaseController {
 				`./data/consolidated${UI5Type}.json`
 			);
 			this.dataLoaded.then(() => {
-				this.dataIsLoading = false
+				this.dataIsLoading = false;
 			});
 			this.getView().setModel(this.SAPUI5Model, "data");
 			this.SAPUI5SelectModel = new JSONModel();
@@ -115,8 +126,7 @@ export default class Main extends BaseController {
 		this.getQueryParameter();
 	}
 
-	// get parameter versionFrom and versionTo from URL Parameters
-	public async getQueryParameter(): void {
+	public async getQueryParameter(): Promise<void> {
 		const mParams = new URLSearchParams(window.location.search);
 		const versionFrom = mParams.get("versionFrom");
 		const versionTo = mParams.get("versionTo");
@@ -133,17 +143,23 @@ export default class Main extends BaseController {
 
 		// Helper function to find nearest available version
 		const findNearestVersion = (targetVersion: string): string | null => {
-			const versions = data.map(item => item.key || item.value);
+			const versions = data.map((item: any) => item.key || item.value);
 			// Sort versions in descending order
-			versions.sort((a, b) => this.compareVersionDesc(a, b));
-			
+			versions.sort((a: string, b: string) => this.compareVersionDesc(a, b));
+
 			// Find the target version's major.minor
-			const [major, minor] = targetVersion.split('.').slice(0, 2);
+			const [major, minor] = targetVersion.split(".").slice(0, 2);
 			const targetBase = `${major}.${minor}`;
-			
+
 			// Find all versions with same major.minor, then get the nearest lower version
-			const compatibleVersions = versions.filter(v => v.startsWith(targetBase));
-			return compatibleVersions.find(v => this.compareVersion(v, targetVersion) <= 0) || null;
+			const compatibleVersions = versions.filter((v: string) =>
+				v.startsWith(targetBase)
+			);
+			return (
+				compatibleVersions.find(
+					(v: string) => this.compareVersion(v, targetVersion) <= 0
+				) || null
+			);
 		};
 
 		let finalVersionFrom = versionFrom;
@@ -152,11 +168,17 @@ export default class Main extends BaseController {
 
 		if (!versionFrom) {
 			missingOrInvalid.push("versionFrom should be added");
-		} else if (!data.some(item => item.key === versionFrom || item.value === versionFrom)) {
+		} else if (
+			!data.some(
+				(item: any) => item.key === versionFrom || item.value === versionFrom
+			)
+		) {
 			const nearest = findNearestVersion(versionFrom);
 			if (nearest) {
 				finalVersionFrom = nearest;
-				MessageToast.show(`Using nearest available version ${nearest} for versionFrom`);
+				MessageToast.show(
+					`Using nearest available version ${nearest} for versionFrom`
+				);
 			} else {
 				missingOrInvalid.push(`versionFrom ${versionFrom} is not valid`);
 			}
@@ -164,11 +186,17 @@ export default class Main extends BaseController {
 
 		if (!versionTo) {
 			missingOrInvalid.push("versionTo should be added");
-		} else if (!data.some(item => item.key === versionTo || item.value === versionTo)) {
+		} else if (
+			!data.some(
+				(item: any) => item.key === versionTo || item.value === versionTo
+			)
+		) {
 			const nearest = findNearestVersion(versionTo);
 			if (nearest) {
 				finalVersionTo = nearest;
-				MessageToast.show(`Using nearest available version ${nearest} for versionTo`);
+				MessageToast.show(
+					`Using nearest available version ${nearest} for versionTo`
+				);
 			} else {
 				missingOrInvalid.push(`versionTo ${versionTo} is not valid`);
 			}
@@ -177,23 +205,23 @@ export default class Main extends BaseController {
 		if (missingOrInvalid.length > 0) {
 			MessageToast.show(missingOrInvalid.join(" and "));
 		} else {
-			this.getView().byId("versionFromSelect").setSelectedKey(finalVersionFrom!);
+			this.getView()
+				.byId("versionFromSelect")
+				.setSelectedKey(finalVersionFrom!);
 			this.getView().byId("versionToSelect").setSelectedKey(finalVersionTo!);
 			this.getView().byId("SegmentedButtonUI5").setSelectedKey(ui5Type!);
 			this.handleVersionChange();
 		}
 	}
 
-	public async handleVersionChange(): void {
+	public async handleVersionChange(): Promise<void> {
 		this.getView().setBusyIndicatorDelay(0);
 		this.getView().setBusy(true);
 		this.UI5Type = this.getView().byId("SegmentedButtonUI5").getSelectedKey();
 		this.triggerLoadingData(this.UI5Type);
 		await Promise.all([this.dataLoaded, this.selectDataLoaded]);
 		this.updateURLParameters();
-		const versionFrom = this.getView()
-			.byId("versionFromSelect")
-			.getSelectedKey();
+		const versionFrom = this.getView().byId("versionFromSelect").getSelectedKey();
 		const versionTo = this.getView().byId("versionToSelect").getSelectedKey();
 		const versionObject = this.compareVersions(versionFrom, versionTo);
 		const filterKey = this.getView().byId("SegmentedButton").getSelectedKey();
@@ -287,7 +315,7 @@ export default class Main extends BaseController {
 						type: change.type,
 						text: change.text,
 						url: change.commit_url
-						// Version intentionally omitted from stringification
+						// version intentionally omitted
 					});
 
 					if (!seenChanges.has(changeString)) {
@@ -319,7 +347,7 @@ export default class Main extends BaseController {
 	): Library[] {
 		const data = this.getView().getModel("data").getData();
 		const versionsInRange = data.filter(
-			(obj) =>
+			(obj: Version) =>
 				this.compareVersion(obj.version, startVersion) > 0 &&
 				this.compareVersion(obj.version, endVersion) <= 0
 		);
@@ -341,13 +369,10 @@ export default class Main extends BaseController {
 					changes: filteredChanges,
 				};
 			})
-			.filter((lib) => lib.changes.length > 0); // Remove libraries with no changes after filtering
+			.filter((lib) => lib.changes.length > 0);
 	}
 
-	compareVersions(
-		v1: string,
-		v2: string
-	): { versionFrom: string; versionTo: string } {
+	compareVersions(v1: string, v2: string): { versionFrom: string; versionTo: string } {
 		const v1Parts = v1.split(".").map(Number);
 		const v2Parts = v2.split(".").map(Number);
 
@@ -365,7 +390,7 @@ export default class Main extends BaseController {
 			}
 		}
 
-		// If versions are equal, default to v1 as versionFrom and v2 as versionTo
+		// If versions are equal
 		return {
 			versionFrom: v1,
 			versionTo: v2,
@@ -389,16 +414,11 @@ export default class Main extends BaseController {
 	}
 
 	public updateURLParameters(): void {
-		// Retrieve the selected keys from the controls
 		const versionTo = this.getView().byId("versionToSelect").getSelectedKey();
-		const versionFrom = this.getView()
-			.byId("versionFromSelect")
-			.getSelectedKey();
+		const versionFrom = this.getView().byId("versionFromSelect").getSelectedKey();
 		const ui5Type = this.getView().byId("SegmentedButtonUI5").getSelectedKey();
-		// Get the current URL parameters
 		const mParams = new URLSearchParams(window.location.search);
 
-		// Update only the versionTo and versionFrom parameters
 		if (versionTo) {
 			mParams.set("versionTo", versionTo);
 		} else {
@@ -412,10 +432,7 @@ export default class Main extends BaseController {
 		}
 		mParams.set("ui5Type", ui5Type);
 
-		// Update the browser's URL without causing a page refresh
-		const newURL = `${window.location.origin}${
-			window.location.pathname
-		}?${mParams.toString()}`;
+		const newURL = `${window.location.origin}${window.location.pathname}?${mParams.toString()}`;
 		window.history.pushState({}, "", newURL);
 	}
 
@@ -433,5 +450,64 @@ export default class Main extends BaseController {
 
 	openGitHubRepo(): void {
 		window.open("https://github.com/marianfoo/ui5-lib-diff");
+	}
+
+	// Updated method to handle copying according to selected format
+	public async copyDataToClipboardMain(event: Event): Promise<void> {
+		// Retrieve the data shown in the ObjectPageSection via the "changes" model
+		const changesData = this.getView().getModel("changes").getData();
+
+		// Check if there are no changes
+		if (!Array.isArray(changesData) || changesData.length === 0) {
+			MessageToast.show("No changes available to copy.");
+			return;
+		}
+
+		let output = "";
+
+		if (this.clipboardFormat === "JSON") {
+			// Convert the entire changes data array to JSON
+			output = JSON.stringify(changesData, null, 2);
+		} else if (this.clipboardFormat === "MARKDOWN") {
+			// Build Markdown string
+			changesData.forEach((libraryObj: Library) => {
+				output += `## ${libraryObj.library}\n`;
+				libraryObj.changes.forEach((change) => {
+					const commitLink = change.commit_url ? `([commit](${change.commit_url}))` : "";
+					output += `- **Version**: ${change.version ?? "N/A"}  
+**Type**: ${change.type}  
+**Text**: ${change.text} ${commitLink}\n\n`;
+				});
+			});
+		} else {
+			// Default to Normal Text
+			changesData.forEach((libraryObj: Library) => {
+				output += `${libraryObj.library}\n`;
+				libraryObj.changes.forEach((change) => {
+					const commitLink = change.commit_url ? ` (commit: ${change.commit_url})` : "";
+					output += `Version: ${change.version ?? "N/A"}, Type: ${change.type}, Text: ${change.text}${commitLink}\n`;
+				});
+				output += "\n";
+			});
+		}
+
+		try {
+			if ("clipboard" in navigator) {
+				await navigator.clipboard.writeText(output);
+				MessageToast.show("Changes copied to clipboard!");
+			} else {
+				// Fallback for older browsers
+				const dummyInput = document.createElement("textarea");
+				document.body.appendChild(dummyInput);
+				dummyInput.value = output;
+				dummyInput.select();
+				document.execCommand("copy");
+				document.body.removeChild(dummyInput);
+				MessageToast.show("Changes copied to clipboard!");
+			}
+		} catch (error) {
+			console.error("Copy to clipboard failed:", error);
+			MessageToast.show("Failed to copy changes.");
+		}
 	}
 }
