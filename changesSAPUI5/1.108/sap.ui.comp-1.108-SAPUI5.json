@@ -1407,5 +1407,36 @@
                 "text": " ValueListProvider: The correct filter field description is now applied when multiple validation requests are submitted"
             }
         ]
+    },
+    "1.108.40": {
+        "date": "March 2025",
+        "notes": [
+            {
+                "id": "6558bcf9b22f8b81e2e456ef46b23782b77fed69",
+                "type": "FIX",
+                "text": " FilterController: correctly restore dtoffset fields when low is used.",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370074160"
+                    }
+                ]
+            },
+            {
+                "id": "e819e4959d96a9c9a32da1bdc87c97decea988be",
+                "type": "FIX",
+                "text": " ValueListProvider: no more prevent multi token paste"
+            },
+            {
+                "id": "3476ffa7ac4b323f3494b7c072e2727222d487cb",
+                "type": "FIX",
+                "text": " ValueListProvider: generating filters now respects settings on validation"
+            },
+            {
+                "id": "4480db8ae170f6e9c967329bc8b63d5859a7b29b",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Tokenizer border is now displayed correctly for horizon theme"
+            }
+        ]
     }
 }
