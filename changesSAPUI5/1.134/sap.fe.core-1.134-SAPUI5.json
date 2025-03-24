@@ -1,0 +1,22 @@
+{
+    "1.134.0": {
+        "date": "March 2025",
+        "notes": [
+            {
+                "id": "30011531257e1bdf0608649f5be8294943ac3e1d",
+                "type": "FEATURE",
+                "text": " You can now use the watchProperty method of the ExtensionAPI to trigger reactions when selected properties are set in the back end"
+            },
+            {
+                "id": "68de856f46d72c24c522a1036a3691c2aa747844",
+                "type": "FIX",
+                "text": " We now explicitly request the message path for static actions"
+            },
+            {
+                "id": "ad65561135e8a156a0c4516489cbfb1fd8132e99",
+                "type": "FIX",
+                "text": " We no longer send an overall entity refresh call using the action side effect when requesting a message path"
+            }
+        ]
+    }
+}

@@ -1,10 +1,17 @@
 {
     "versions": [
         {
-            "version": "1.133.*",
+            "version": "1.134.*",
             "support": "Maintenance",
             "eom": "",
             "eocp": "",
+            "lts": false
+        },
+        {
+            "version": "1.133.*",
+            "support": "Maintenance",
+            "eom": "Q3/2025",
+            "eocp": "Q3/2026",
             "lts": false
         },
         {
@@ -658,6 +665,10 @@
         }
     ],
     "patches": [
+        {
+            "version": "1.134.0",
+            "eocp": "To Be Determined"
+        },
         {
             "version": "1.133.0",
             "eocp": "To Be Determined"
@@ -1894,8 +1905,12 @@
             "removed": true
         },
         {
-            "version": "1.84.49",
+            "version": "1.84.50",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.84.49",
+            "eocp": "Q1/2026"
         },
         {
             "version": "1.84.48",

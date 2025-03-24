@@ -1,0 +1,29 @@
+{
+    "1.134.0": {
+        "date": "March 2025",
+        "notes": [
+            {
+                "id": "Ib5415602ae20c40c69e60b0f9fa9fc037d55de82",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where the Cancel action in the function import dialog caused a delay in the UI response and generated multiple console errors",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0383993"
+                    }
+                ]
+            },
+            {
+                "id": "I5adfa6d463bc4166afd3c48604e9a700066b8ab7",
+                "type": "FIX",
+                "text": "We now provide end users the option to modify default values in the action parameter dialog, which are retrieved using the DefaultValues function",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0385763"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "1.134.0": {
+        "date": "March 2025",
+        "notes": [
+            {
+                "id": "a13bf1a96843060fa30148564890df17312076cf",
+                "type": "FIX",
+                "text": " Console errors no longer appear upon navigation to the object page in an adaptation project"
+            },
+            {
+                "id": "7fdd38a9f2901e8178b0b58b79fffb0e317cebb1",
+                "type": "FIX",
+                "text": " Tables in the value help dialog are now rendered as responsive tables on mobile devices"
+            },
+            {
+                "id": "d20cbe1a90fbf20d007fab0e00f29a9265c058db",
+                "type": "FEATURE",
+                "text": " The Editing Status field in the list report now uses a select control instead of a combo box"
+            },
+            {
+                "id": "755a79a012419e0c184e945a8aed368d8fd385ed",
+                "type": "FIX",
+                "text": " We now ensure that text binding for an externalID with a semantic object works correctly"
+            },
+            {
+                "id": "ca4450be93b29c00247f18846ce1f057ee661a71",
+                "type": "FIX",
+                "text": " We now also consider the text arrangement annotation when a second filter field with a value help is opened from within a value help dialog"
+            },
+            {
+                "id": "0a9cbb8df1fe56946170e466652b2bb82f9ad4a5",
+                "type": "FIX",
+                "text": " We've resolved an issue in the Toolbar Configuration dialog where an incorrect label was displayed for the fullscreen action while adapting the table toolbar"
+            },
+            {
+                "id": "d7dd22aca607908675602abe5e82a26dcf4b0c83",
+                "type": "FIX",
+                "text": " We've resolved an issue where a duplicate ID error was shown on a section breakout"
+            },
+            {
+                "id": "8bb009dc6d80da6fe90a48921a92261c6b6ed75a",
+                "type": "FIX",
+                "text": " The setReadOnly method now works correctly in multi-input fields when readOnly is set to 'false'"
+            },
+            {
+                "id": "0ae6cafe84f585a24918178af01aa089aaa44a3c",
+                "type": "FIX",
+                "text": " We now consider the enableAutoColumnWidth and widthIncludingColumnHeader properties in the manifest.json file when adding a column to a table"
+            },
+            {
+                "id": "3bff5a1659b02b5e73f8560366ae422b08323e43",
+                "type": "FIX",
+                "text": " We now use a modifer to retrieve the existing PropertyInfo when the Remove condition is called"
+            },
+            {
+                "id": "3b88c1330417493099bfbf6f1a6042eb584fe496",
+                "type": "FIX",
+                "text": " The RichTextEditor is now correctly displayed in edit mode when an object is created"
+            },
+            {
+                "id": "8a12088a2724dfcacc4162eb4dd705683e774b09",
+                "type": "FIX",
+                "text": " We now ensure that the display property of action parameters is correctly calculated using the ValueList reference annotations"
+            }
+        ]
+    }
+}
