@@ -6,13 +6,6 @@
 <description>Changes for each version of the software.</description>
 <atom:link href="https://marianfoo.github.io/ui5-lib-diff/" rel="self" type="application/rss+xml" />
 <item>
-<title>Version 1.108.36 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.35&amp;versionTo=1.108.36</link>
-<pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.108.36</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPage: Footer handling improved</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Link: prevent default before press on mobile</li><li>Type: FIX, Description:  sap.m.TimePicker: fix cursor position when there is mask and no entry</li><li>Type: FIX, Description:  sap.m.PlanningCalendar: remove appointments not selected announcement</li><li>Type: FIX, Description:  sap.m.DynamicDateRange: align current week calculations</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  core/Element: use duck typing to check DOM element in &apos;closestTo&apos;</li><li>Type: FIX, Description:  sap.m.DynamicDateRange: align current week calculations</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.m.PlanningCalendar: remove appointments not selected announcement</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.35&amp;versionTo=1.108.36</guid>
-</item>
-<item>
 <title>Version 1.108.39 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.38&amp;versionTo=1.108.39</link>
 <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
@@ -62,11 +55,11 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.26&amp;versionTo=1.120.27</guid>
 </item>
 <item>
-<title>Version 1.120.22 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.21&amp;versionTo=1.120.22</link>
-<pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.120.22</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Menu: menu items properties are handled correctly</li><li>Type: FIX, Description:  sap.m.Popover: Height calculations for scrollable contents are preserved after invalidation</li><li>Type: FIX, Description:  We&apos;ve now fixed the accessibility issue in aria-required-children within uploadCollection by changing the role &apos;option&apos; to &apos;listitem&apos;</li><li>Type: FIX, Description:  sap.m.Link: prevent default before press on mobile</li><li>Type: FIX, Description:  sap.m.PlanningCalendar: remove appointments not selected announcement</li><li>Type: FIX, Description: : sap.m.Label: when the label is with percent width it works</li><li>Type: FIX, Description:  sap.m.Fiori20Adapter: Performance issue fixed</li><li>Type: FIX, Description:  sap.m.Label: Ensure colon and asterisk are always displayed by using flex box</li><li>Type: FIX, Description:  sap.m.ObjectStatus: adjust tooltip announcement</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  core/Element: use duck typing to check DOM element in &apos;closestTo&apos;</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.m.PlanningCalendar: remove appointments not selected announcement</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.21&amp;versionTo=1.120.22</guid>
+<title>Version 1.120.28 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.27&amp;versionTo=1.120.28</link>
+<pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.28</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.FlexibleColumnLayout: Fix failing QUnit test</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Input: Speech output for table suggestions is now enhanced</li><li>Type: FIX, Description:  sap.m.MultiComboBox: Enable typing with virtual keyboard on Mac</li><li>Type: FIX, Description:  sap.m.FormattedText: Formatting issue fixed</li><li>Type: FIX, Description:  sap.m.SinglePlanningCalendar: Appointments text is resized depending of the scale factor now</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap/ui/model/odata/ODataMetadata#__getPropertyMetadata: fix nested complex type properties</li><li>Type: FIX, Description:  sap/ui/model/odata/v2/ODataModel: no caching of metadata with cache buster segment</li><li>Type: FIX, Description:  sap/ui/model/odata/v2/ODataModel#createEntry: ignore transient context if path is absolute</li><li>Type: FIX, Description:  IconPool: Add more mime-type mappings for MS Excel files</li></ul></li><li><strong>Library: sap.ui.layout</strong><ul><li>Type: FIX, Description:  ColumnLayout: render as &lt;dl&gt; in display mode</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  MDC.ValueHelp: Popover promise handling improvements</li><li>Type: FIX, Description:  Field: Typeahed - announce table headers on arrow navigation</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  ColumnLayout: render as &lt;dl&gt; in display mode</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.27&amp;versionTo=1.120.28</guid>
 </item>
 <item>
 <title>Version 1.120.23 Changes</title>
@@ -83,13 +76,6 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.24&amp;versionTo=1.120.25</guid>
 </item>
 <item>
-<title>Version 1.124.8 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.124.7&amp;versionTo=1.124.8</link>
-<pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.124.8</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Input: Exact match with no autocomplete behavior corrected</li><li>Type: FIX, Description:  sap.m.Popover: Height calculations for scrollable contents are preserved after invalidation</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Timing issue fixed</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.124.7&amp;versionTo=1.124.8</guid>
-</item>
-<item>
 <title>Version 1.124.9 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.124.8&amp;versionTo=1.124.9</link>
 <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
@@ -97,32 +83,11 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.124.8&amp;versionTo=1.124.9</guid>
 </item>
 <item>
-<title>Version 1.127.2 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.127.1&amp;versionTo=1.127.2</link>
-<pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.127.2</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  CellSelector: Return correct row contexts when grouping</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.127.1&amp;versionTo=1.127.2</guid>
-</item>
-<item>
-<title>Version 1.127.3 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.127.2&amp;versionTo=1.127.3</link>
-<pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.127.3</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We&apos;ve now removed the no data description for cases where uploadEnabled is set to false</li><li>Type: FIX, Description:  We&apos;ve now fixed the minimum height issue for the no data page in uploadSet control</li><li>Type: FIX, Description:  sap.m.Popover: Height calculations for scrollable contents are preserved after invalidation</li><li>Type: FIX, Description:  sap.m.TabContainer: sync customData between outer and internal controls</li><li>Type: FIX, Description:  sap.m.TimePicker: fix cursor position when there is mask and no entry</li><li>Type: FIX, Description:  We&apos;ve now fixed the issue of truncating characters in the GenericTile header section by removing the usage of sap.m.Text deprecated method</li><li>Type: FIX, Description:  sap.m.Input: Exact match with no autocomplete behavior corrected</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  core/Element: use duck typing to check DOM element in &apos;closestTo&apos;</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.127.2&amp;versionTo=1.127.3</guid>
-</item>
-<item>
 <title>Version 1.127.4 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.127.3&amp;versionTo=1.127.4</link>
 <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.127.4</h2><ul><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap/ui/model/analytics/AnalyticalBinding#updateAnalyticalInfo: keep attribute properties in additional select</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.127.3&amp;versionTo=1.127.4</guid>
-</item>
-<item>
-<title>Version 1.130.0 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.129.99&amp;versionTo=1.130.0</link>
-<pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.130.0</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FEATURE, Description:  Integration Cards: Add fitType property for icons in Header and Object Card content</li><li>Type: FEATURE, Description:  Integration Cards: New pagination experience</li><li>Type: FIX, Description:  Integration Cards: Adjust Badge creation</li><li>Type: FIX, Description:  sap.f.DynamicPageTitle: Fix focus lost on actions</li><li>Type: FIX, Description:  sap.f.CardBadgeCustomData: CardBadgeVisibilityMode is added to type descriptor</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FEATURE, Description:  sap.f.CalendarInCard: Now allows 12 hour format of appointment time</li><li>Type: FEATURE, Description:  sap.m.DynamicDateRange: Add new options</li><li>Type: FEATURE, Description:  sap.m.Carousel: On touch devices navigation arrows are always visible</li><li>Type: FEATURE, Description:  CellSelector: Provide selection change event</li><li>Type: FIX, Description:  sap.m.Menu: menu items properties are handled correctly</li><li>Type: FIX, Description:  sap.m.Input: Correct value restoration after backspace</li><li>Type: FIX, Description:  sap.m.TabContainer: sync customData between outer and internal controls</li><li>Type: FIX, Description:  We&apos;ve now removed sap.m.upload.UploadSetwithTable deprecated control along with its files and folders from the repository, since it was introduced as an experimental control</li><li>Type: FIX, Description:  sap.m.TabContainer: doesn&apos;t show scroll bar if not needed</li><li>Type: FIX, Description:  sap.m.DynamicDateRange: translations are now correclty applied</li><li>Type: FIX, Description:  sap.m.Slider, sap.m.RangeSlider: Documentation update</li><li>Type: FIX, Description:  sap.m.Input: Exact match with no autocomplete behavior corrected</li><li>Type: FIX, Description:  We now ensure that the correct list item is selected when the setSelectedItemById API is used</li><li>Type: FIX, Description:  We now ensure that the Upload button has a left margin same as other buttons in the table action row</li><li>Type: FIX, Description:  We&apos;ve now updated the filetypeMismatch event to send the correct filetype or mimetype</li><li>Type: FIX, Description:  sap.m.ObjectStatus: update documentation regarding wrapping behavior of the control</li><li>Type: FIX, Description:  sap.m.MessageView: invalidate details page before navigation</li><li>Type: FIX, Description:  sap.m.RatingIndicator: Display only compact indicator fixed</li><li>Type: FIX, Description: : sap.m.Label: when the label is with percent width it works</li><li>Type: FIX, Description:  We now ensure that the UploadEnabled property setting enables or disables drag and drop that is attached from the plugin</li><li>Type: FIX, Description:  sap.m.SinglePlanningCalendar: add week announcement to grid cells</li><li>Type: FIX, Description:  sap.m.ObjectStatus: new CSS class for languages with higher line heights</li><li>Type: FIX, Description:  sap.m.Dialog: Prevent null within area resize observer deregistration</li><li>Type: FIX, Description:  We&apos;ve now fixed the issue of truncating characters in the GenericTile header section by removing the usage of sap.m.Text deprecated method</li><li>Type: FIX, Description:  sap.m.Label: Ensure colon and asterisk are always displayed by using flex box</li><li>Type: FIX, Description:  Demo Kit: Icon explorer scroll fixed</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FEATURE, Description:  FESR: Enhance FESR to enable reporting of integration env</li><li>Type: FIX, Description:  core/Element: use duck typing to check DOM element in &apos;closestTo&apos;</li><li>Type: FIX, Description:  sap/ui/core/cldr/*.json: fix translations for sap-calendarWeek.narrow and .wide</li><li>Type: FIX, Description:  sap.ui.core.format.NumberFormat#format: CLDR data for currencies is considered correctly without currency customizing</li><li>Type: FIX, Description:  dom/findTabbable: return when meet the scope element twice</li><li>Type: FIX, Description:  sap.ui.model.odata.v4.lib._AggregationCache: use undefined instead of null for dimensions or aggregates not present in a row</li></ul></li><li><strong>Library: sap.ui.fl</strong><ul><li>Type: FIX, Description:  sap.ui.fl: Fixed page freezing after deleting a variant</li></ul></li><li><strong>Library: sap.ui.integration</strong><ul><li>Type: FEATURE, Description:  sap.f.CalendarInCard: Now allows 12 hour format of appointment time</li><li>Type: FEATURE, Description:  sap.f.CalendarInCard: Add support for calendarWeekNumbering</li><li>Type: FEATURE, Description:  Integration Cards: request method now supports FormData</li><li>Type: FEATURE, Description:  Integration Cards: Add fitType property for icons in Header and Object Card content</li><li>Type: FEATURE, Description:  Integration Cards: Cards opened by ShowCard or paginator now have preset dimensions</li><li>Type: FEATURE, Description:  Integration Cards: New pagination experience</li><li>Type: FIX, Description:  Integration Cards: Avoid horizontally overflowing content in ShowCard action dialog</li></ul></li><li><strong>Library: sap.ui.layout</strong><ul><li>Type: FIX, Description:  sap.ui.layout.Splitter: Native pull-to-refresh is now not triggered when dragging splitter bar</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FEATURE, Description:  MDCTable: Enable Interactive Row Mode</li><li>Type: FEATURE, Description:  ActionToolbar: combine / split RTA</li><li>Type: FIX, Description:  Field with ValueHelp: number of items not announced</li><li>Type: FIX, Description:  MTable: arrow navigation on closed ValueHelp not working</li><li>Type: FIX, Description:  MTable: announce no-data text if used a dropdown</li><li>Type: FIX, Description:  MTable: ValueHelpDelegate.UpdateBinding not called in phone</li><li>Type: FIX, Description:  Field: use sap.ui.core.ILabelable interface</li><li>Type: FIX, Description:  RangeOperator: runtime error if longText contains special characters</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FEATURE, Description:  sap.f.CalendarInCard: Now allows 12 hour format of appointment time</li><li>Type: FIX, Description:  sap.ui.unified.ColorPicker: tooltip is displayed now for the current and new color box</li><li>Type: FIX, Description:  sap.ui.unified.CalendarLegend: Filtering of elements by the color property</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Typo fixed</li><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Timing issue fixed</li></ul></li><li><strong>Library: deprecated</strong><ul><li>Type: DEPRECATED, Description: [sap.m.ProgressIndicator#getEnabled] with no replacement.</li><li>Type: DEPRECATED, Description: [sap.m.ProgressIndicator#setEnabled] with no replacement.</li><li>Type: DEPRECATED, Description: [sap.ui.integration.ActionDefinition#getButtonType] All &lt;code&gt;ActionDefinitions&lt;/code&gt; are now rendered as menu items and don&apos;t have &lt;code&gt;buttonType&lt;/code&gt;.</li><li>Type: DEPRECATED, Description: [sap.ui.integration.ActionDefinition#setButtonType] All &lt;code&gt;ActionDefinitions&lt;/code&gt; are now rendered as menu items and don&apos;t have &lt;code&gt;buttonType&lt;/code&gt;.</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.129.99&amp;versionTo=1.130.0</guid>
 </item>
 <item>
 <title>Version 1.130.1 Changes</title>
@@ -195,13 +160,6 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.133.99&amp;versionTo=1.134.0</guid>
 </item>
 <item>
-<title>Version 1.38.63 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.38.62&amp;versionTo=1.38.63</link>
-<pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.38.63</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.FormattedText: Formatting issue fixed</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FEATURE, Description:  Prepare for upcoming &apos;unload&apos; event deprecation and deprecate APIs &apos;onWindowBeforeUnload&apos;, &apos;onWindowUnload&apos; and &apos;onWindowError&apos; in &apos;sap/ui/core/Component&apos;</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.38.62&amp;versionTo=1.38.63</guid>
-</item>
-<item>
 <title>Version 1.71.68 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.71.67&amp;versionTo=1.71.68</link>
 <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
@@ -242,13 +200,6 @@
 <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.84.49</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We&apos;ve now adapted to the chrome://flags/#pdf-oopif flag that is introduced to rectify the pdfViewer issues</li></ul></li><li><strong>Library: sap.tnt</strong><ul><li>Type: FIX, Description:  sap.tnt.SideNavigation: Add tooltip to the up and down arrow buttons</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.Calendar: add tooltips for calendar legend types</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.48&amp;versionTo=1.84.49</guid>
-</item>
-<item>
-<title>Version 1.96.35 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.34&amp;versionTo=1.96.35</link>
-<pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.96.35</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Link: prevent default before press on mobile</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.m.DynamicDateRange: align current week calculations</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.34&amp;versionTo=1.96.35</guid>
 </item>
 <item>
 <title>Version 1.96.36 Changes</title>

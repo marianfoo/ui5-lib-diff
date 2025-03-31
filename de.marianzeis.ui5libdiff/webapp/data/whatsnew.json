@@ -1768,9 +1768,9 @@
         "Version": "1.125"
     },
     {
-        "id": 298064550,
+        "id": 298064555,
         "deliverable.version": "1.133_SAPUI5_WNV",
-        "Description": "In the table in the <samp class=\"ph codeph\">View Settings</samp> dialog (<samp class=\"ph codeph\">P13n</samp>), you can now use the <samp class=\"ph codeph\">Select All</samp> option to select all columns at once to make them visible. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\" title=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\">Sample</a>.</span>",
+        "Description": "<ul class=\"ul\" id=\"loio9d87044050f44763a2aeabff0a7a6bb2__d147e450\">  <li class=\"li\">  <p class=\"p\">We have enhanced the <samp class=\"ph codeph\">DropInfo</samp> configuration: You can now use <samp class=\"ph codeph\">preventDefault</samp> for the <samp class=\"ph codeph\">dragover</samp> event. This way, you can disable dropping on a specific location, for example, between two table rows. To help consumers find out whether to prevent the default of the <samp class=\"ph codeph\">dragenter</samp> event when dragging over the edge of two DOM nodes, we have also added the <samp class=\"ph codeph\">dropPosition</samp> parameter to the event. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\" title=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\">API Reference</a> for the <samp class=\"ph codeph\">dragOver</samp> event and the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\" title=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\">API Reference</a> for <samp class=\"ph codeph\">DragDropConfig</samp>.</span>  </p>  </li>  <li class=\"li\">  <p class=\"p\">We have introduced the <samp class=\"ph codeph\">browserEvent</samp> parameter for all drag-and-drop-related events in <samp class=\"ph codeph\">DragDropConfig</samp> allowing consumers to access the <samp class=\"ph codeph\">DataTransfer</samp> object. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\" title=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\">API Reference</a>.</span></p>  </li>  </ul>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.mdc.Table</samp></span>",
         "Latest_Revision": "",
@@ -1781,9 +1781,9 @@
         "Version": "1.125"
     },
     {
-        "id": 298064555,
+        "id": 298064550,
         "deliverable.version": "1.133_SAPUI5_WNV",
-        "Description": "<ul class=\"ul\" id=\"loio9d87044050f44763a2aeabff0a7a6bb2__d147e450\">  <li class=\"li\">  <p class=\"p\">We have enhanced the <samp class=\"ph codeph\">DropInfo</samp> configuration: You can now use <samp class=\"ph codeph\">preventDefault</samp> for the <samp class=\"ph codeph\">dragover</samp> event. This way, you can disable dropping on a specific location, for example, between two table rows. To help consumers find out whether to prevent the default of the <samp class=\"ph codeph\">dragenter</samp> event when dragging over the edge of two DOM nodes, we have also added the <samp class=\"ph codeph\">dropPosition</samp> parameter to the event. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\" title=\"https://ui5.sap.com/#/api/sap.ui.core.dnd.DropInfo%23events/dragOver\">API Reference</a> for the <samp class=\"ph codeph\">dragOver</samp> event and the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\" title=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig%23events/Summary\">API Reference</a> for <samp class=\"ph codeph\">DragDropConfig</samp>.</span>  </p>  </li>  <li class=\"li\">  <p class=\"p\">We have introduced the <samp class=\"ph codeph\">browserEvent</samp> parameter for all drag-and-drop-related events in <samp class=\"ph codeph\">DragDropConfig</samp> allowing consumers to access the <samp class=\"ph codeph\">DataTransfer</samp> object. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\" title=\"https://ui5.sap.com/#/api/sap.ui.mdc.table.DragDropConfig\">API Reference</a>.</span></p>  </li>  </ul>",
+        "Description": "In the table in the <samp class=\"ph codeph\">View Settings</samp> dialog (<samp class=\"ph codeph\">P13n</samp>), you can now use the <samp class=\"ph codeph\">Select All</samp> option to select all columns at once to make them visible. <span class=\"ph\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\" title=\"https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.TableJson\">Sample</a>.</span>",
         "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
         "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.ui.mdc.Table</samp></span>",
         "Latest_Revision": "",
@@ -7358,19 +7358,6 @@
         "Version": "1.98"
     },
     {
-        "id": 298064998,
-        "deliverable.version": "1.133_SAPUI5_WNV",
-        "Description": "The following entities have been deprecated and replaced with the new personalization panels: <ul class=\"ul\" id=\"loiod9f16f2262a947ef9cd5b58f11c54b6e__ul_fcq_lfs_ftb\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nDialog</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nColumnsPanel</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nSortPanel</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nGroupPanel</samp></p>  </li>  </ul>",
-        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
-        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.m.P13n*</samp></span>",
-        "Latest_Revision": "",
-        "Valid_as_Of": "2022-01-27",
-        "Type": "Deprecated",
-        "Action": "Info Only",
-        "Category": "Control",
-        "Version": "1.98"
-    },
-    {
         "id": 298064988,
         "deliverable.version": "1.133_SAPUI5_WNV",
         "Description": "<p class=\"p\">We have made personalization within a table or list more reusable. Different panels with reusable content for the various types of personalization are now available for freestyle use in your application.</p>  <div class=\"p\">The following panels are available (as experimental APIs): <ul class=\"ul\" id=\"loiod9f16f2262a947ef9cd5b58f11c54b6e__ul_asq_2yg_fsb\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.p13n.SelectionPanel</samp></p>  <p class=\"p\">Defines a number of properties that allow you to select and deselect fields as columns in your table, for example, and to change their order.</p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.p13n.SortPanel</samp></p>  <p class=\"p\">Defines a number of properties that allow you to sort your items based on various criteria, for example, in ascending or descending order.</p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.p13n.GroupPanel</samp></p>  <p class=\"p\">Defines a number of properties that allow you to group your data.</p>  </li>  </ul></div>  <p class=\"p\">The panels are aggregated to <samp class=\"ph codeph\">sap.m.p13n.Popup</samp> (experimental), which serves as a container for all the panels. </p>  <p class=\"p\">For more information, see the <a class=\"xref\" href=\"https://ui5.sap.com/#/api/sap.m.p13n\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/api/sap.m.p13n\" title=\"https://ui5.sap.com/#/api/sap.m.p13n\">API Reference</a> and the <a class=\"xref\" href=\"https://ui5.sap.com/#/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup\" target=\"_blank\" rel=\"noopener\" alt=\"https://ui5.sap.com/#/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup\" title=\"https://ui5.sap.com/#/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup\">Sample</a>.</p>",
@@ -7379,6 +7366,19 @@
         "Latest_Revision": "",
         "Valid_as_Of": "2022-01-27",
         "Type": "Changed",
+        "Action": "Info Only",
+        "Category": "Control",
+        "Version": "1.98"
+    },
+    {
+        "id": 298064998,
+        "deliverable.version": "1.133_SAPUI5_WNV",
+        "Description": "The following entities have been deprecated and replaced with the new personalization panels: <ul class=\"ul\" id=\"loiod9f16f2262a947ef9cd5b58f11c54b6e__ul_fcq_lfs_ftb\">  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nDialog</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nColumnsPanel</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nSortPanel</samp></p>  </li>  <li class=\"li\">  <p class=\"p\"><samp class=\"ph codeph\">sap.m.P13nGroupPanel</samp></p>  </li>  </ul>",
+        "outputloio": "40dc77b604f54b21a2faadc7860dc5d7",
+        "Title": "<span class=\"ph emphasis emphasis\"><samp class=\"ph codeph\">sap.m.P13n*</samp></span>",
+        "Latest_Revision": "",
+        "Valid_as_Of": "2022-01-27",
+        "Type": "Deprecated",
         "Action": "Info Only",
         "Category": "Control",
         "Version": "1.98"

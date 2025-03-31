@@ -710,5 +710,30 @@
                 "text": " We've resolved an issue that occurred with fields containing navigation properties in a containment scenario"
             }
         ]
+    },
+    "1.120.22": {
+        "date": "March 2025",
+        "notes": [
+            {
+                "id": "0ac6389e66d214ded686977249d3386107b65471",
+                "type": "FIX",
+                "text": " We now also filter the value list description using hidden keys"
+            },
+            {
+                "id": "c0f2f4722ec0905e1b3f9709b9792782ef37952d",
+                "type": "FIX",
+                "text": "  We've resolved an issue where the filter field displayed an incorrect value upon application reload"
+            },
+            {
+                "id": "27873578a0f907ca8ae3ba50299dc124cff91a3a",
+                "type": "FIX",
+                "text": " We now ignore errors for canceled value help requests from older contexts"
+            },
+            {
+                "id": "fb76c1bd9ed35bd6e7d48b144def615b93013c80",
+                "type": "FIX",
+                "text": " We now accurately detect the file type when uploading files using stream support"
+            }
+        ]
     }
 }

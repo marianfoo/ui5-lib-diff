@@ -1003,5 +1003,25 @@
                 "text": " We no longer send an overall entity refresh call using the action side effect when requesting a message path"
             }
         ]
+    },
+    "1.120.22": {
+        "date": "March 2025",
+        "notes": [
+            {
+                "id": "a0783813e938a04dab9b5765515f100198c17477",
+                "type": "FIX",
+                "text": " We no longer show the technical messages from the default OData V4 model in the message dialog"
+            },
+            {
+                "id": "8e985e194453208cacb7b0048fe1b0732c773fd5",
+                "type": "FIX",
+                "text": " We now ensure that the Cancel action works in the operations dialog for strict handling messages in changeset mode"
+            },
+            {
+                "id": "94e5d7ed96acbd7c6b268122d91d978f2def960a",
+                "type": "FIX",
+                "text": " We now explicitly request the message path for static actions"
+            }
+        ]
     }
 }
