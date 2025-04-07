@@ -254,5 +254,43 @@
                 ]
             }
         ]
+    },
+    "1.130.9": {
+        "date": "April 2025",
+        "notes": [
+            {
+                "id": "I5fcf89b8c23256549710b4592f5f7adb58e8deb5",
+                "type": "FIX",
+                "text": "We've optimized the draft popover placement in the table column to improve text visibility",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008660195"
+                    }
+                ]
+            },
+            {
+                "id": "I4960de766735d04c9e52c792b509432082e2e22d",
+                "type": "FIX",
+                "text": "We now enable text wrapping for long values in the dropdown of the Editing Status filter field",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008660195"
+                    }
+                ]
+            },
+            {
+                "id": "Ia558c480e726583d68f9c49ee2b75179e0516193",
+                "type": "FIX",
+                "text": "We've resolved an issue with the display of counts on dynamic tiles when dynamic date range filters are applied",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008541859"
+                    }
+                ]
+            }
+        ]
     }
 }

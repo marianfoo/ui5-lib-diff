@@ -57,5 +57,33 @@
                 ]
             }
         ]
+    },
+    "1.130.9": {
+        "date": "Apr 2025",
+        "notes": [
+            {
+                "id": "I35b429e45db1a121b4521fc35f3e821869eee2dd",
+                "text": "No duplicate headers appear when users access the S/4 system via a shared card in MS Teams",
+                "type": "FIX",
+                "references": []
+            },
+            {
+                "id": "Ic76443cab38a6f7d8f7615b8bbb64059a97bef79",
+                "text": "We are now removing the disabled buttons upon updating the toolbar contents",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009253344"
+                    }
+                ]
+            },
+            {
+                "id": "I89346383f1d540490c5a9c2fedbf271e5504f195",
+                "text": "We've now fixed the JAWS announcement for the nodes of process flow control",
+                "type": "FIX",
+                "references": []
+            }
+        ]
     }
 }

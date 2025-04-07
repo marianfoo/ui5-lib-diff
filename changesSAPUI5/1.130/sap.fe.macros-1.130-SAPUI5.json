@@ -328,5 +328,30 @@
                 "text": " Tables in the value help dialog are now rendered as responsive tables on mobile devices"
             }
         ]
+    },
+    "1.130.9": {
+        "date": "March 2025",
+        "notes": [
+            {
+                "id": "caa6c94136b207326e175462f76016b48cc1464a",
+                "type": "FIX",
+                "text": " We now ignore errors for canceled value help requests from older contexts"
+            },
+            {
+                "id": "3b408f631caf7cf8ed0de05033fe0101ab748062",
+                "type": "FIX",
+                "text": "  We've resolved an issue where the filter field displayed an incorrect value upon application reload"
+            },
+            {
+                "id": "d9f49d8c1f6673fd86082bca5c7cd4b57a446285",
+                "type": "FIX",
+                "text": " We now accurately detect the file type when uploading files using stream support"
+            },
+            {
+                "id": "3b4cdcc3aca24e42f6a5d16a9f2c49ead5b72373",
+                "type": "FIX",
+                "text": " We now consider the enableAutoColumnWidth and widthIncludingColumnHeader properties in the manifest.json file when adding a column to a table"
+            }
+        ]
     }
 }
