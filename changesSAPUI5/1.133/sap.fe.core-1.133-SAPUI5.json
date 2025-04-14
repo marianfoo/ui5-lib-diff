@@ -88,5 +88,25 @@
                 "text": " We’ve resolved an issue that occurred when discarding the changes made to a non-draft object"
             }
         ]
+    },
+    "1.133.1": {
+        "date": "April 2025",
+        "notes": [
+            {
+                "id": "811893d70023c91af22317905a1bfbce74bf9273",
+                "type": "FIX",
+                "text": " We now show the strict handling dialog when an action returns a single warning message with a description or descriptionUrl"
+            },
+            {
+                "id": "779db3d81be6e8a52cc09b08f82f5f0f079c05b1",
+                "type": "FIX",
+                "text": " We now display all the decimal places for quantities with measures in display mode, with an option to limit the decimal places based on the unit of measure"
+            },
+            {
+                "id": "e276d9361c9ef36b07a04283fd1f146202e9da88",
+                "type": "FIX",
+                "text": " The appState of the list report is now correctly updated if there are multiple updateAppState calls"
+            }
+        ]
     }
 }

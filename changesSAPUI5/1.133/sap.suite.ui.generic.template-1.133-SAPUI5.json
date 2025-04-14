@@ -83,5 +83,65 @@
                 ]
             }
         ]
+    },
+    "1.133.1": {
+        "date": "April 2025",
+        "notes": [
+            {
+                "id": "Ia558c480e726583d68f9c49ee2b75179e0516193",
+                "type": "FIX",
+                "text": "We've resolved an issue with the display of counts on dynamic tiles when dynamic date range filters are applied",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008541859"
+                    }
+                ]
+            },
+            {
+                "id": "I4960de766735d04c9e52c792b509432082e2e22d",
+                "type": "FIX",
+                "text": "We now enable text wrapping for long values in the dropdown of the Editing Status filter field",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008660195"
+                    }
+                ]
+            },
+            {
+                "id": "I5fcf89b8c23256549710b4592f5f7adb58e8deb5",
+                "type": "FIX",
+                "text": "We've optimized the draft popover placement in the table column to improve text visibility",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008660195"
+                    }
+                ]
+            },
+            {
+                "id": "Iecf878d4f2224a608f4db927759e73143ca3ba7b",
+                "type": "FIX",
+                "text": "We've resolved an issue where the messages were not correctly displayed in certain scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0413173"
+                    }
+                ]
+            },
+            {
+                "id": "Icfe5f46011a60ad6bccc34937e01ca3026731f36",
+                "type": "FIX",
+                "text": "We now ensure that the message popover displays the message related to the table items correctly, even if the header title for the item page is hidden",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0424165"
+                    }
+                ]
+            }
+        ]
     }
 }

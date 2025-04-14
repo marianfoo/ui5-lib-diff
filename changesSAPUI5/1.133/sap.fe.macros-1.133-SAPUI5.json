@@ -158,5 +158,70 @@
                 "text": " We've resolved an issue where the personalization settings in the Chart building block weren't being considered"
             }
         ]
+    },
+    "1.133.1": {
+        "date": "April 2025",
+        "notes": [
+            {
+                "id": "51f88bbc629516a3fbb99daca8ea26cd7feffd9c",
+                "type": "FIX",
+                "text": " We now ensure that text binding for an externalID with a semantic object works correctly"
+            },
+            {
+                "id": "0efe510f7349cd120c42bfb273f8970b7794d47f",
+                "type": "FIX",
+                "text": " We now wait for context to be created before extracting the inParameter for the value help dialog"
+            },
+            {
+                "id": "fb9ac74e4e540b597e48c15010ae462fe1aaed67",
+                "type": "FIX",
+                "text": " We now ignore errors for canceled value help requests from older contexts"
+            },
+            {
+                "id": "6bf30748438fdc2125c65be4b1ea8ef2ec7225f8",
+                "type": "FIX",
+                "text": " We now correctly apply 1:n association filters when loading variants"
+            },
+            {
+                "id": "da897e02fbb9235ef238227bf43f18b79ee7f108",
+                "type": "FIX",
+                "text": "  We've resolved an issue where the filter field displayed an incorrect value upon application reload"
+            },
+            {
+                "id": "779db3d81be6e8a52cc09b08f82f5f0f079c05b1",
+                "type": "FIX",
+                "text": " We now display all the decimal places for quantities with measures in display mode, with an option to limit the decimal places based on the unit of measure"
+            },
+            {
+                "id": "b9c3a1946a87bff7d01b830ec317f7829666c8ba",
+                "type": "FIX",
+                "text": " We now accurately detect the file type when uploading files using stream support"
+            },
+            {
+                "id": "207a95b4e72e9e0038d947d619cc3a1fe4485793",
+                "type": "FIX",
+                "text": " We now consider the enableAutoColumnWidth and widthIncludingColumnHeader properties in the manifest.json file when adding a column to a table"
+            },
+            {
+                "id": "8cb9759355cb5218c949c0334a146df9ef2ba522",
+                "type": "FIX",
+                "text": " Tables in the value help dialog are now rendered as responsive tables on mobile devices"
+            },
+            {
+                "id": "28ff959d679ee8f5fccb69a1fbb443669b47b71d",
+                "type": "FIX",
+                "text": " We now use a modifer to retrieve the existing PropertyInfo when the Remove condition is called"
+            },
+            {
+                "id": "638ae7010423e5e27dcdafe2a011d3721bba9184",
+                "type": "FIX",
+                "text": " We've resolved an issue where a duplicate ID error was shown on a section breakout"
+            },
+            {
+                "id": "76070a8ba671488dcf4fdc4fc09791086bf29f83",
+                "type": "FIX",
+                "text": " We now also consider the text arrangement annotation when a second filter field with a value help is opened from within a value help dialog"
+            }
+        ]
     }
 }
