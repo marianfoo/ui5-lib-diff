@@ -1,0 +1,37 @@
+{
+    "1.135.0": {
+        "date": "April 2025",
+        "notes": [
+            {
+                "id": "d2bbed47f39565495cd95dbb41120e80e09c313d",
+                "type": "FIX",
+                "text": " comp.FilterBar: Buttons are now visible on 320px screen size"
+            },
+            {
+                "id": "add79f57cc7716439dd2190c3f274a5f4288a5fc",
+                "type": "FIX",
+                "text": " FlexibilityDelegate: Fields with Common.Text only should be included"
+            },
+            {
+                "id": "8630ff1a593c185377ec52b9393839f2c05079ff",
+                "type": "FIX",
+                "text": " DateRangeType: correctly set async created operations as value"
+            },
+            {
+                "id": "a9b0c3f95a31252b3447ec72e9dd132d305bf773",
+                "type": "FIX",
+                "text": " SmartField: Binding context for fixed-value scenarios is now synchronized"
+            },
+            {
+                "id": "8f852e6af0d6fa3175b487ccf4cd42220fb7b942",
+                "type": "FIX",
+                "text": " SmartTable: showDetails is now persisted after settings dialog is opened"
+            },
+            {
+                "id": "d37ae4c39091bbd56d47f1d9317130edd3ce3a85",
+                "type": "FIX",
+                "text": " We've now fixed the issue where the backend call was null for smartMultiInput"
+            }
+        ]
+    }
+}

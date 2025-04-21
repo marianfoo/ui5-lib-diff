@@ -1,0 +1,102 @@
+{
+    "1.135.0": {
+        "date": "April 2025",
+        "notes": [
+            {
+                "id": "cd06de06c10e12e6155725841f331d0e103192d6",
+                "type": "FIX",
+                "text": " You can now use the mass edit functionality in fields with side effects"
+            },
+            {
+                "id": "4128f1a50941ea147afabb22acc1226ebe364193",
+                "type": "FEATURE",
+                "text": " We now support file uploads as action parameters using the Edm.Stream properties."
+            },
+            {
+                "id": "914c3f3a92e83dfa5f6039599dfa655c3d9b80fc",
+                "type": "FEATURE",
+                "text": " You can now override the columns, actions, and DataFieldForActionGroup in the Table building block"
+            },
+            {
+                "id": "bfaec737393c765da960fa06766aa5ad0a64f027",
+                "type": "FEATURE",
+                "text": " App developers can now enable the optimistic batch with a controller extension by setting disableRequestCache to False in the manifest.json file"
+            },
+            {
+                "id": "398f2d1b530da9fc2dd9a244e26995b1a3277019",
+                "type": "FEATURE",
+                "text": " Forms and tables in list reports and object pages now support the Common.Masked annotation"
+            },
+            {
+                "id": "304af066fd9afa36b8ad41f3b9935c3f34df5cfd",
+                "type": "FEATURE",
+                "text": " The Editing Status field in the list report now uses a select control instead of a combo box"
+            },
+            {
+                "id": "507f3c45f5385ff0cfd06368d6d66dbc6ad4ad13",
+                "type": "FEATURE",
+                "text": " You can now use the quickVariantSelection in the Table building block to define multiple views of a table"
+            },
+            {
+                "id": "358e47c513db705d135a1e1644a137aef0c40d6e",
+                "type": "FEATURE",
+                "text": " We've improved the performance of the mass edit dialog by reducing the number of requests when executing bulk changes in isolated mode"
+            },
+            {
+                "id": "d46a359df8c5d8769b5b8c7044548c2283afcb0d",
+                "type": "FEATURE",
+                "text": " We've enhanced the performance of the mass edit dialog, reducing the opening time for large selections"
+            },
+            {
+                "id": "b8c486f098ff6346aea831bfa9e8548e2722c6b3",
+                "type": "FIX",
+                "text": " We now also filter the value list description using hidden keys"
+            },
+            {
+                "id": "ac3e7939f36e7965ac088724cc7c4bb5c1fb221b",
+                "type": "FIX",
+                "text": " We now wait for context to be created before extracting the inParameter for the value help dialog"
+            },
+            {
+                "id": "f677f2b69f6c6b8d8e7b720673e6f88755b044b1",
+                "type": "FEATURE",
+                "text": " You can now define the mass edit functionality as an aggregation in the Table building block"
+            },
+            {
+                "id": "f4def1da8c128d37f3bef6025525c85eb971df01",
+                "type": "FIX",
+                "text": " We now set the correct ValueState on the TextArea during data entry"
+            },
+            {
+                "id": "223a16cc23518e20815d921d58d1ac460b373bd0",
+                "type": "FIX",
+                "text": " We now ignore errors for canceled value help requests from older contexts"
+            },
+            {
+                "id": "c18ecb1cac0f0623e183e3813ec4a148b916601d",
+                "type": "FIX",
+                "text": " End users can now drag and resize the create dialog and action parameter dialog"
+            },
+            {
+                "id": "8049d1587c38f7e55b5c518eb0b49e2c2567c9d9",
+                "type": "FIX",
+                "text": " We've resolved an issue where the navigation link was missing from the quick view title"
+            },
+            {
+                "id": "3636a5d4cc18028808a58b2a55a95274838d0339",
+                "type": "FIX",
+                "text": "  We've resolved an issue where the filter field displayed an incorrect value upon application reload"
+            },
+            {
+                "id": "4d94f9e196b5b6f045f18e985a31cfb82d2d75cf",
+                "type": "FIX",
+                "text": " We now show all decimals for quantity with measures in display mode"
+            },
+            {
+                "id": "1c7c776b214ac91aa987bd71c5ad9566096579ca",
+                "type": "FIX",
+                "text": " We now accurately detect the file type when uploading files using stream support"
+            }
+        ]
+    }
+}

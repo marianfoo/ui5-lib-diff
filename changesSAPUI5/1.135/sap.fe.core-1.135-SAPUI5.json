@@ -1,0 +1,72 @@
+{
+    "1.135.0": {
+        "date": "April 2025",
+        "notes": [
+            {
+                "id": "4c4f8f7e75328845e2d48156aa7fbd11bcc25096",
+                "type": "FIX",
+                "text": " We've resolved an issue where the Close button of a column in the flexible column layout wasn't displayed after navigating to an object page"
+            },
+            {
+                "id": "4128f1a50941ea147afabb22acc1226ebe364193",
+                "type": "FEATURE",
+                "text": " We now support file uploads as action parameters using the Edm.Stream properties."
+            },
+            {
+                "id": "bfaec737393c765da960fa06766aa5ad0a64f027",
+                "type": "FEATURE",
+                "text": " App developers can now enable the optimistic batch with a controller extension by setting disableRequestCache to False in the manifest.json file"
+            },
+            {
+                "id": "398f2d1b530da9fc2dd9a244e26995b1a3277019",
+                "type": "FEATURE",
+                "text": " Forms and tables in list reports and object pages now support the Common.Masked annotation"
+            },
+            {
+                "id": "507f3c45f5385ff0cfd06368d6d66dbc6ad4ad13",
+                "type": "FEATURE",
+                "text": " You can now use the quickVariantSelection in the Table building block to define multiple views of a table"
+            },
+            {
+                "id": "c5a6bbdb633d39ea2f31c848acacb8f3b8861d27",
+                "type": "FIX",
+                "text": " We've resolved an issue that prevented editing a draft object, and caused the standard error message not to be displayed"
+            },
+            {
+                "id": "f677f2b69f6c6b8d8e7b720673e6f88755b044b1",
+                "type": "FEATURE",
+                "text": " You can now define the mass edit functionality as an aggregation in the Table building block"
+            },
+            {
+                "id": "f4def1da8c128d37f3bef6025525c85eb971df01",
+                "type": "FIX",
+                "text": " We now set the correct ValueState on the TextArea during data entry"
+            },
+            {
+                "id": "03d716b5c63840cd2cac0ddc098def46ee6e26fc",
+                "type": "FEATURE",
+                "text": " You can now use the manifest.json file to define custom fragments for a custom list report header"
+            },
+            {
+                "id": "df38413da28dae7b8961068831ef0428501a43ee",
+                "type": "FIX",
+                "text": " We've resolved an issue where the field validation behaved inconsistently within the flexible column layout applications"
+            },
+            {
+                "id": "2924dd57aa78471151f36dbcadff1b4e9418c29a",
+                "type": "FIX",
+                "text": " We've resolved an issue with the table's selection mode when action groups were added"
+            },
+            {
+                "id": "ac0c70c43448d80c4ab3f18b09f5ad2873770299",
+                "type": "FEATURE",
+                "text": " We now call the onBeforeNavigation extension point when Apply is clicked or a sub-object page is closed in flexible column layout applications"
+            },
+            {
+                "id": "4d94f9e196b5b6f045f18e985a31cfb82d2d75cf",
+                "type": "FIX",
+                "text": " We now show all decimals for quantity with measures in display mode"
+            }
+        ]
+    }
+}

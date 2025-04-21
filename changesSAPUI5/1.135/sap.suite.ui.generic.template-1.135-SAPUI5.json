@@ -1,0 +1,83 @@
+{
+    "1.135.0": {
+        "date": "April 2025",
+        "notes": [
+            {
+                "id": "I7f4843e5bed03beb380ab0dcf911c09d9d61323b",
+                "type": "FEATURE",
+                "text": "The 'Show More Per Row' setting in a table is now saved in the inner application state"
+            },
+            {
+                "id": "Ib17bc685f238970d8d3ce1dc510a27816a3acbfa",
+                "type": "FEATURE",
+                "text": "We've improved the format of the browser tab title for SAP Fiori elements applications"
+            },
+            {
+                "id": "I7c3299b541216ddfd46a39af876ab1eeaa51b77a",
+                "type": "FIX",
+                "text": "We've resolved an issue with filtering on multi-view and multi-table applications when table filters are applied",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0324477"
+                    }
+                ]
+            },
+            {
+                "id": "I6d5be0b5b39f36d3e69a9e1d4336b10720382a7d",
+                "type": "FIX",
+                "text": "We've resolved an issue where action buttons on the object page header, including the Edit button, were not visible when a subobject page was loaded",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0365457"
+                    }
+                ]
+            },
+            {
+                "id": "I08da675a58d3bd0fee80ee9c384ffba828b59d0f",
+                "type": "FIX",
+                "text": "We've resolved an issue with the Add Custom Page Action option in the Adaptation Editor",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0428095"
+                    }
+                ]
+            },
+            {
+                "id": "Id2055bba284bae0fb131543f1588c193f703f166",
+                "type": "FIX",
+                "text": "We now ensure that when side effect logic is triggered for a smart field, SAP Fiori elements proceeds with field group generation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0273734"
+                    }
+                ]
+            },
+            {
+                "id": "Ibdb871b07bebbdfcc6facf95e69581a6bdfde7ea",
+                "type": "FIX",
+                "text": "We've now removed the back navigation button from the message dialog",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009383232"
+                    }
+                ]
+            },
+            {
+                "id": "I59b4589e58be707f10ee94158b29adc0baaa23cc",
+                "type": "FIX",
+                "text": "We've resolved an issue with the Add Subpage action in the adaptation project when legacy manifest file is used",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0449431"
+                    }
+                ]
+            }
+        ]
+    }
+}

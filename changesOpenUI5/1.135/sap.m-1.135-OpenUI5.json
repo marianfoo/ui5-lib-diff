@@ -1,0 +1,152 @@
+{
+    "1.135.0": {
+        "date": "April 2025",
+        "notes": [
+            {
+                "id": "cec1f944297003a6a428d714f500a81dec1b9d85",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: segmented button text is not truncated now"
+            },
+            {
+                "id": "c8483a22cb3ae7f2dc3262ced9011d74275363ba",
+                "type": "FEATURE",
+                "text": " sap.m.DateRangeSelection & DateTimePicker: maxLength attribute added"
+            },
+            {
+                "id": "eb2b2d185c4323d098772d538994fde1106a8ecf",
+                "type": "FIX",
+                "text": " sap.m.TabContainer: close button in the select drop down is announced now"
+            },
+            {
+                "id": "69f44d4e4e18b72d8c6c171e4f4f0be597156805",
+                "type": "FIX",
+                "text": " sap.m.TabContainer: icons are displayed correctly in HCB and HCW themes"
+            },
+            {
+                "id": "a19eb2bf028b00a34d9399db66196dabbfc521d8",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: whole text is shown in popup footer"
+            },
+            {
+                "id": "aeda7593eb011b84732011b73fe08de9614b9738",
+                "type": "FIX",
+                "text": " sap.m.DateTimeField: Align both value state messages"
+            },
+            {
+                "id": "afc7c5d5dc5311b8f546b3dae2ac9f42399f3959",
+                "type": "FIX",
+                "text": " sap.m.Input: remove focus of suggestion item"
+            },
+            {
+                "id": "1d453c50d034cc1c278f551616b415c7a366c207",
+                "type": "FIX",
+                "text": " We now use messageBundle to set the text for the Upload button"
+            },
+            {
+                "id": "2fb48fe446333ec3e4958ff23e2af595f77feeed",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: Do not collapse tokenizer after input"
+            },
+            {
+                "id": "1e98599793e883480148a4cb82ed59c67ee014a6",
+                "type": "FEATURE",
+                "text": " DOMPurify: Updated to version 3.2.4"
+            },
+            {
+                "id": "df51e21b4c7c34b71353348e12e76f4dd66da171",
+                "type": "FIX",
+                "text": " sap.m.SplitApp: Fix text page"
+            },
+            {
+                "id": "a75c57ef4ad1ec7219feb33f1c3963e9fe3add1d",
+                "type": "FIX",
+                "text": " sap.m.LightBox: Initial focus is now set"
+            },
+            {
+                "id": "a65eba2e6ed0519ac0e71ec97d159d010c587f2a",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Fix dialog acc text page"
+            },
+            {
+                "id": "078c92a56906765c93b10aaf4b4ef30e8e986952",
+                "type": "FIX",
+                "text": " ListBase: Remove RangeSelection on onItemContextMenu"
+            },
+            {
+                "id": "2ff594336de15fc12d3852f1e33afe57508b4a16",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: Fix documentation related to the \"N-more\" link"
+            },
+            {
+                "id": "887b2fdd3d99cb901ba14d81c0c5f8604b255d32",
+                "type": "FIX",
+                "text": " Input controls with Suggestions: Value State message in header is no longer focusable"
+            },
+            {
+                "id": "390962dc2759896e86c83d32b956910445baded7",
+                "type": "FEATURE",
+                "text": " List: formsMode keyboard interaction refinements (Revert)"
+            },
+            {
+                "id": "609e0e40704de39fde1eaa47f5b380ed7f5d2794",
+                "type": "FIX",
+                "text": " sap.m.Input: Speech output for table suggestions is now enhanced"
+            },
+            {
+                "id": "fcb790475cc007aeb1b46e6ac3c93e5713adb7df",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: Fix failing qUnit tests"
+            },
+            {
+                "id": "c07e07dae058f381401db78fe527e226c3e31549",
+                "type": "FIX",
+                "text": " We've now fixed the overlap banner issue in OneByOne type genericTile and we've also removed the application of active state color of the banner"
+            },
+            {
+                "id": "e3d88b46183fbc2c4117f8fd59842f6cbd993bf8",
+                "type": "FIX",
+                "text": " sap.m.Breadcrumbs: Fix issue when in OFT's Popover"
+            },
+            {
+                "id": "7c26fbf280882b249887db89460cfa361d8a8c15",
+                "type": "FIX",
+                "text": " sap.m.DateTimePicker: TimePicker part now is properly initialized"
+            },
+            {
+                "id": "f3ad5b4690549ed152fac838216c41be6b0638a4",
+                "type": "FEATURE",
+                "text": " List: formsMode keyboard interaction refinements"
+            },
+            {
+                "id": "d6256c4ee315f5934725b2111fbe9db7965b32d8",
+                "type": "FIX",
+                "text": " sap.m.Popover: Closing animation is now working properly"
+            },
+            {
+                "id": "ed13a99adf69232a572bed0f11a51071dab0a059",
+                "type": "FIX",
+                "text": " sap.m.PullToRefresh: Fix failing test on 2.0"
+            },
+            {
+                "id": "c53149637ad8ae345a7fb5dde375c08185f8880f",
+                "type": "FIX",
+                "text": " File rename will fire the itemRenamed event on completion & will not trigger model updates in UploadsetwithTable plugin"
+            },
+            {
+                "id": "ba60e539f91bfa4135c0b25120b8ab29a223ee62",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: remove warning message"
+            },
+            {
+                "id": "6786274305d54b1884833a2c22d318ca7e7180ae",
+                "type": "FIX",
+                "text": " sap.m.Popover: Scrolling issue in popover with overflowing content is now resolved"
+            },
+            {
+                "id": "f1aa0723baea4d3fc430cd9b831462b7621914c9",
+                "type": "FIX",
+                "text": " sap.m.MultiComboBox: Enable typing with virtual keyboard on Mac"
+            }
+        ]
+    }
+}
