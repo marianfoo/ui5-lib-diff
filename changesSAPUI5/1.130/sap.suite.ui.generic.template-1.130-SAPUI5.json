@@ -292,5 +292,26 @@
                 ]
             }
         ]
+    },
+    "1.130.10": {
+        "date": "May 2025",
+        "notes": [
+            {
+                "id": "I4cec764f7f4cca3b4cc7a2718e414fb1fa6f19ca",
+                "type": "FIX",
+                "text": "We've resolved an issue where colons were not being displayed after the label in the object page header",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0317603"
+                    }
+                ]
+            },
+            {
+                "id": "Ie894d76eb0daedb643fa4bdf404f51c8151cd4e5",
+                "type": "FIX",
+                "text": "You can now use the focusOnEditExtension API in object pages to set the focus on a specific control in edit mode"
+            }
+        ]
     }
 }
