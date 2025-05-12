@@ -755,5 +755,26 @@
                 "text": " comp.FilterBar: Buttons are now visible on 320px screen size"
             }
         ]
+    },
+    "1.120.30": {
+        "date": "May 2025",
+        "notes": [
+            {
+                "id": "edfefa53afc3d9f1b4cd3f099afd66ccfa12b4b2",
+                "type": "FIX",
+                "text": " GroupPanel: Show Field as Column fix",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370132463"
+                    }
+                ]
+            },
+            {
+                "id": "0b31cde1768b75ce7ddaf3dc6b39e4c97d6149a3",
+                "type": "FIX",
+                "text": " ValueListProvider: filterChange event is fired with correct value in case of Single Input and ValueList"
+            }
+        ]
     }
 }
