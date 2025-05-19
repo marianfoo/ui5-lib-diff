@@ -1,0 +1,68 @@
+{
+    "1.136.0": {
+        "date": "May 2025",
+        "notes": [
+            {
+                "id": "9da0f4b05afd60a08dc7aaa3819baf0d2f9e8028",
+                "type": "FIX",
+                "text": " SmartControls: Keyboard Shortcut Documentation articles are now correct"
+            },
+            {
+                "id": "9cd914865690da75aed2a44d3dd34ff3e0660b33",
+                "type": "FIX",
+                "text": " SmartControls: Keyboard Shortcut Documentation articles are now correct"
+            },
+            {
+                "id": "9d702098c4b9109602ff024c09338496cb4ef5b8",
+                "type": "FIX",
+                "text": " ControlFactoryBase: support config enabledMultiSelectionPlugin on value help create"
+            },
+            {
+                "id": "31674001cd05526d2b3875d4161e3ffb0f66900e",
+                "type": "FEATURE",
+                "text": " SmartField now reads criticality from ConnectedFields annotation"
+            },
+            {
+                "id": "ccf71261c4e8aa1f46fd1f94ed2c723156723e1e",
+                "type": "FEATURE",
+                "text": " SmartTable: Hide description fields in P13n dialog"
+            },
+            {
+                "id": "f7521c31407353c76f9a3f8e64c6e02c361c665d",
+                "type": "FEATURE",
+                "text": " SmartField now supports rendering ObjectStatus from annotations for semantically connected fields"
+            },
+            {
+                "id": "3b2d0ca0648eea2c1940e6e5a369af061799047e",
+                "type": "FIX",
+                "text": " FilterBar: Filters of type DynamicDateRange in Error state are now correctly cleared"
+            },
+            {
+                "id": "323cb7eb8e8d378ceb943a81b4ebe740bf42338b",
+                "type": "FIX",
+                "text": " SmartField: creation of instances for date time no longer sets UTC flag to false"
+            },
+            {
+                "id": "6bf6566434c6477f6936e57b9d602683b425d460",
+                "type": "FIX",
+                "text": " SmartTable: groupBy mismatch sortProp/colKey"
+            },
+            {
+                "id": "4c3de00a4b382676b657d57380082a90a9aa0cea",
+                "type": "FIX",
+                "text": " ValueListProvider: filterChange event is fired with correct value in case of Single Input and ValueList",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "a903d9ebf9b7c01431f6b141a84eda9c971caf01",
+                "type": "FIX",
+                "text": " SmartTable: Toggle Full screen on Table Parent invalidation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "1.136.0": {
+        "date": "May 2025",
+        "notes": [
+            {
+                "id": "5206eb87c3c69ad6e156eef94189268d1f2fe889",
+                "type": "FIX",
+                "text": " We've resolved an issue where the EditState filter didn’t behave correctly when used inside nested MultiFilters"
+            },
+            {
+                "id": "240e976ef30269198d689d4de6b219337e8951c5",
+                "type": "FIX",
+                "text": " We now ensure that the textFromValueList property is correctly used as fallback text for the field"
+            },
+            {
+                "id": "9c1761b89f64c62395971937a1a65c0596a39a5a",
+                "type": "FIX",
+                "text": " We've resolved an issue where manifest settings weren't applied to charts on the object page"
+            },
+            {
+                "id": "6408c849387cf2b76cd56079e1231fc046b1a682",
+                "type": "FIX",
+                "text": " We now ensure using a binding expression for the readOnly property in the Field building block works correctly"
+            },
+            {
+                "id": "8b4e239d150455d1bb1f1c4cdd7ba4eee36b3354",
+                "type": "FEATURE",
+                "text": " Tree tables now support the copy and paste functionality"
+            },
+            {
+                "id": "c7d3ab75c8f2281daad95137887acc720b7142fd",
+                "type": "FEATURE",
+                "text": " You can now include the AI icon for AI actions in both annotation-based buttons and extension buttons"
+            },
+            {
+                "id": "6b811ece4dbd42d79c5ded86fbd68919b469c38a",
+                "type": "FEATURE",
+                "text": " Analytical list page applications now support data aggregation based on visible table columns"
+            },
+            {
+                "id": "be5de2eeae9c9054241b31bf92573bde367d35de",
+                "type": "FEATURE",
+                "text": " You can now configure the semanticObject and readOnly properties in the manifest.json file for the Field building block"
+            },
+            {
+                "id": "e08365801dd7d7933a3691f1ea345a909f9c8c9e",
+                "type": "FEATURE",
+                "text": " We've introduced the MessageButton building block"
+            },
+            {
+                "id": "ea20b46a557b62ce7ec250a33a2a67c7c5d99db1",
+                "type": "FIX",
+                "text": " We now ensure that the title of a section is visible when the section has multiple subsections"
+            },
+            {
+                "id": "d90676a45034355a7187cd587fdb1da015811458",
+                "type": "FEATURE",
+                "text": " We've introduced a Page Building Block"
+            },
+            {
+                "id": "caa8e676181ed8332f45aba810db745cddff4900",
+                "type": "FEATURE",
+                "text": " You can now use the resetFlexChanges property to enable or disable flex changes on the FilterBar building block"
+            },
+            {
+                "id": "5cdbbdda903a4ed4e0239598b8fce072ec5855d7",
+                "type": "FIX",
+                "text": " We now use the correct HTTP request method for file uploads in a table"
+            },
+            {
+                "id": "bc25e5b737aa06c11f88b81cd784fc7c3116833a",
+                "type": "FIX",
+                "text": " We now support case-sensitive filtering in tables within the value help dialog"
+            },
+            {
+                "id": "7a0378c1b96e48b846282c246e7689cb96a2a5d0",
+                "type": "FIX",
+                "text": " Multi-input fields now work correctly when readOnly is set to false"
+            },
+            {
+                "id": "59fa0fa5030f8b4e560d553d6423214d6b8385cb",
+                "type": "FIX",
+                "text": " We've resolved an issue with setting a dynamic semantic object in the Field building block"
+            },
+            {
+                "id": "9a4bd931bdcaef9a62c68d62784cd18f6a19a333",
+                "type": "FIX",
+                "text": " We've updated the API documentation for the Table building block to support the group option in the table personalization for both responsive and analytical tables"
+            },
+            {
+                "id": "948d7707ffb145c9161b8a28066f15500145c545",
+                "type": "FIX",
+                "text": " We’ve resolved an issue with the Continue button not working in the Create dialog because of the transient binding context"
+            },
+            {
+                "id": "f1c46a7607923c04baa20187f1c84b9c0400c0dc",
+                "type": "FIX",
+                "text": " We now determine the visibility of a facet by the UI.Hidden annotation first, followed by whether all the facet's contents are hidden."
+            },
+            {
+                "id": "838009aaa5112cc114987b50035de19e59d1437a",
+                "type": "FIX",
+                "text": " The More button of multi-input fields is now displayed correctly"
+            },
+            {
+                "id": "13024315b02a9dd8e3f104b5f1db3de364f59f40",
+                "type": "FIX",
+                "text": " We've improved the performance of the mass edit dialog by reducing the number of requests when executing side effect actions"
+            }
+        ]
+    }
+}

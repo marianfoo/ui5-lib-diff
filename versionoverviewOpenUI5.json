@@ -1,10 +1,17 @@
 {
     "versions": [
         {
-            "version": "1.135.*",
+            "version": "1.136.*",
             "support": "Maintenance",
             "eom": "",
             "eocp": "",
+            "lts": true
+        },
+        {
+            "version": "1.135.*",
+            "support": "Out of Maintenance",
+            "eom": "",
+            "eocp": "Q2/2026",
             "lts": false
         },
         {
@@ -673,8 +680,12 @@
     ],
     "patches": [
         {
-            "version": "1.135.0",
+            "version": "1.136.0",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.135.0",
+            "eocp": "Q2/2026"
         },
         {
             "version": "1.134.0",
