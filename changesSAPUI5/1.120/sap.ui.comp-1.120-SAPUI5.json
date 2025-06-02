@@ -776,5 +776,25 @@
                 "text": " ValueListProvider: filterChange event is fired with correct value in case of Single Input and ValueList"
             }
         ]
+    },
+    "1.120.31": {
+        "date": "May 2025",
+        "notes": [
+            {
+                "id": "f5f9290dc5c397a7a345c6cb0b4315a21e049745",
+                "type": "FIX",
+                "text": " We've now fixed an issue where the Select All checkbox was disabled by introducing a configurable boolean property"
+            },
+            {
+                "id": "2ebb13ac738c7f6dad7daac1d2a47e83f2d9cae3",
+                "type": "FIX",
+                "text": " ValueHelpProvider: Absolute Path is now correctly encoded"
+            },
+            {
+                "id": "dfc49998c8478a7649b9abf0a0c4e5facf2ab441",
+                "type": "FIX",
+                "text": " ControlFactoryBase: support config enabledMultiSelectionPlugin on value help create"
+            }
+        ]
     }
 }

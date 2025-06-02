@@ -1130,5 +1130,48 @@
                 ]
             }
         ]
+    },
+    "1.120.30": {
+        "date": "May 2025",
+        "notes": [
+            {
+                "id": "Iaf4f129b21a764f79e68c384c754d6dc27c82b3e",
+                "type": "FIX",
+                "text": "We've resolved an issue where changes made to the variant management-enabled table were lost when it was refereshed without saving the variant",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009697098"
+                    }
+                ]
+            },
+            {
+                "id": "Ie37c5e738b7b07879f942ce827fb5345a3776972",
+                "type": "FIX",
+                "text": "We now ensure that the selection parameters passed through the URL are correctly applied in analytical list page applications",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009438313"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.31": {
+        "date": "June 2025",
+        "notes": [
+            {
+                "id": "I8089b3e458ae1ef9132c0b883862fd006958d39d",
+                "type": "FIX",
+                "text": "Adaptation project now supports modification of the application-level settings in the SAP delivered apps",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240009023552"
+                    }
+                ]
+            }
+        ]
     }
 }
