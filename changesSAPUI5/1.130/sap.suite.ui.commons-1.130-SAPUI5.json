@@ -85,5 +85,32 @@
                 "references": []
             }
         ]
+    },
+    "1.130.11": {
+        "date": "Jun 2025",
+        "notes": [
+            {
+                "id": "Id2e8daa81e5cea06675d021cfd575577013b58bd",
+                "text": "We've now fixed a screen reader issue where empty cells were announced as blank",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008826958"
+                    }
+                ]
+            },
+            {
+                "id": "Ifbec2b696dae94d7fe65bfea3ffefe782d38a363",
+                "text": "For the process flow, we've now fixed the navigational issues, and have improved the announcement of empty cells when it is used with screen readers in VPC mode",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": " CS20240008826958"
+                    }
+                ]
+            }
+        ]
     }
 }

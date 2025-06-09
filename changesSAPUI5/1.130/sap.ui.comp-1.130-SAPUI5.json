@@ -214,5 +214,25 @@
                 "text": " SmartField: creation of instances for date time no longer sets UTC flag to false"
             }
         ]
+    },
+    "1.130.8": {
+        "date": "June 2025",
+        "notes": [
+            {
+                "id": "8b9cb627c53e7c6f98526faefbf3881ad6abf17c",
+                "type": "FIX",
+                "text": " ValueHelpProvider: Absolute Path is now correctly encoded"
+            },
+            {
+                "id": "13f22b7615b655b4fa38bcddc0ea871e9ea4f990",
+                "type": "FIX",
+                "text": " ControlFactoryBase: support config enabledMultiSelectionPlugin on value help create"
+            },
+            {
+                "id": "d6dfafc6e621de3c7a07ccaa1124c3022ce093cc",
+                "type": "FIX",
+                "text": " SmartField: Binding context for fixed-value scenarios is now synchronized"
+            }
+        ]
     }
 }

@@ -313,5 +313,32 @@
                 "text": "You can now use the focusOnEditExtension API in object pages to set the focus on a specific control in edit mode"
             }
         ]
+    },
+    "1.130.11": {
+        "date": "June 2025",
+        "notes": [
+            {
+                "id": "Ia228625074b905b19c500b4465b13043e2a6a843",
+                "type": "FIX",
+                "text": "We've resolved an issue where the message popover remained open even after the item link was clicked",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0508828"
+                    }
+                ]
+            },
+            {
+                "id": "Iaf4f129b21a764f79e68c384c754d6dc27c82b3e",
+                "type": "FIX",
+                "text": "We now preserve end user's unsaved table personalization by correctly handling empty string variants and retaining modified state after initialization",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009975599"
+                    }
+                ]
+            }
+        ]
     }
 }

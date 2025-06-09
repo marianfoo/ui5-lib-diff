@@ -149,8 +149,15 @@
 <title>Version 1.130.8 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.130.7&amp;versionTo=1.130.8</link>
 <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.130.8</h2><ul><li><strong>Library: sap.fe.macros</strong><ul><li>Type: FIX, Description:  Tables in the value help dialog are now rendered as responsive tables on mobile devices</li></ul></li></ul>]]></description>
+<description><![CDATA[<h2>Changes in Version 1.130.8</h2><ul><li><strong>Library: sap.fe.macros</strong><ul><li>Type: FIX, Description:  Tables in the value help dialog are now rendered as responsive tables on mobile devices</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We&apos;ve now enabled the screen reader announcement for navigation and action tiles</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  ValueHelpProvider: Absolute Path is now correctly encoded</li><li>Type: FIX, Description:  ControlFactoryBase: support config enabledMultiSelectionPlugin on value help create</li><li>Type: FIX, Description:  SmartField: Binding context for fixed-value scenarios is now synchronized</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  Empty Filter for navigation properties</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.130.7&amp;versionTo=1.130.8</guid>
+</item>
+<item>
+<title>Version 1.130.11 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.130.10&amp;versionTo=1.130.11</link>
+<pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.130.11</h2><ul><li><strong>Library: sap.fe.macros</strong><ul><li>Type: FIX, Description:  We now correctly display the date by setting its type to medium, preventing conversion to short format</li></ul></li><li><strong>Library: sap.gantt</strong><ul><li>Type: FIX, Description: We&apos;ve now fixed the responsiveness issue in the gantt chart for chart display type</li></ul></li><li><strong>Library: sap.suite.ui.commons</strong><ul><li>Type: FIX, Description: We&apos;ve now fixed a screen reader issue where empty cells were announced as blank</li><li>Type: FIX, Description: For the process flow, we&apos;ve now fixed the navigational issues, and have improved the announcement of empty cells when it is used with screen readers in VPC mode</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where the message popover remained open even after the item link was clicked</li><li>Type: FIX, Description: We now preserve end user&apos;s unsaved table personalization by correctly handling empty string variants and retaining modified state after initialization</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.130.10&amp;versionTo=1.130.11</guid>
 </item>
 <item>
 <title>Version 1.132.0 Changes</title>
@@ -277,6 +284,13 @@
 <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.96.38</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.FormattedText: Formatting issue fixed</li><li>Type: FIX, Description:  ColumnResizer: Resizer should not be visible when table is busy</li><li>Type: FIX, Description:  SAP-icons: fix icon &apos;eam-work-order&apos; in v5</li><li>Type: FIX, Description:  sap.m.Input: preserve value after rerendering of password field</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  IconPool: Add more mime-type mappings for MS Excel files</li><li>Type: FIX, Description:  SAP-icons: fix icon &apos;eam-work-order&apos; in v5</li><li>Type: FIX, Description:  sap/base/util/now: Migrate performance.timing</li></ul></li><li><strong>Library: sap.ui.richtexteditor</strong><ul><li>Type: FIX, Description:  sap.ui.richtexteditor.RichTextEditor: set Verdana as default font family</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.37&amp;versionTo=1.96.38</guid>
+</item>
+<item>
+<title>Version 1.96.39 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.38&amp;versionTo=1.96.39</link>
+<pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.96.39</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.ui.unified.calendar.Month: Improve day re-rendering peformance</li><li>Type: FIX, Description:  sap.m ScrollContainer: unstable QUnit tests are now skipped</li><li>Type: FIX, Description:  sap.m.MultiComboBox: Reposition ValueStateHeader when long text is set</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.model.odata.v4.lib._CollectionCache#read: avoid endless busy indicator sometimes when scrolling up</li><li>Type: FIX, Description:  sap.ui.core.qunit.i18n.UniversalDateUtils.qunit.js: Improve test stability for different time zones</li><li>Type: FIX, Description:  sap.ui.core.qunit.i18n.UniversalDateUtils.qunit.js: Fix failing tests</li><li>Type: FIX, Description:  core/IconPool: make mime type match case insensitive</li><li>Type: FIX, Description:  sap/ui/model/odata/ODataMetadata#__getPropertyMetadata: fix nested complex type properties</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  odata.v4.TableDelegate: Clear selection when updating the binding</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.calendar.Month: Improve day re-rendering peformance</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Lazy loading issue corrected</li><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Remove restrictions for text size</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.38&amp;versionTo=1.96.39</guid>
 </item>
 
 </channel>
