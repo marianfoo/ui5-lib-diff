@@ -2,12 +2,22 @@
     "activeVersion": "1.136.1",
     "versions": [
         {
+            "version": "1.137.*",
+            "version_label": "1.137 (2506)",
+            "support": "Skipped",
+            "lts": false,
+            "eom": "SAPUI5 version not released see SAP Note 3617413",
+            "eocp": "",
+            "sapuiversion": "Cloud only",
+            "frontendserver": "Cloud only"
+        },
+        {
             "version": "1.136.*",
             "version_label": "1.136 (2505)",
             "support": "Maintenance",
             "lts": true,
-            "eom": "",
-            "eocp": "Q4/2032",
+            "eom": "Long-term Maintenance, Q4/2032",
+            "eocp": "Q4/2033",
             "sapuiversion": "8.16",
             "frontendserver": "SAP FIORI FES 2025 FOR S/4HANA "
         },
@@ -1637,8 +1647,12 @@
             "removed": true
         },
         {
-            "version": "1.108.43",
+            "version": "1.108.44",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.108.43",
+            "eocp": "Q2/2026"
         },
         {
             "version": "1.108.42",
