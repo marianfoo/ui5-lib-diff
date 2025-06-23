@@ -64,5 +64,30 @@
                 "text": " SmartTable: Toggle Full screen on Table Parent invalidation"
             }
         ]
+    },
+    "1.136.1": {
+        "date": "June 2025",
+        "notes": [
+            {
+                "id": "a75d87e72398c2c456d59bd0c3c420ff1f995bbf",
+                "type": "FIX",
+                "text": " SmartField: zero guid is not exposed in edit mode"
+            },
+            {
+                "id": "9ebfa247b6ff0c114270aabb21bfda75260b4782",
+                "type": "FIX",
+                "text": " FilterBar: MultiComboBox tokens are no longer duplicated on opening adapt filters dialog"
+            },
+            {
+                "id": "858b715a47f0311b5f29997227a9c14c17b48a80",
+                "type": "FIX",
+                "text": " ValueHelpProvider: Absolute Path is now correctly encoded"
+            },
+            {
+                "id": "b46a391539055c47342cf8fb836e379a3a9840a7",
+                "type": "FIX",
+                "text": " Column menu ignores displayBehaviour without description"
+            }
+        ]
     }
 }

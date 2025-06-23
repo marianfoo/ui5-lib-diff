@@ -1,0 +1,211 @@
+{
+    "1.136.0": {
+        "date": "May 2025",
+        "notes": [
+            {
+                "id": "Iff4c8ac8dbd0deb8d47d2613beeb1100201bf479",
+                "type": "FEATURE",
+                "text": "You can now use the Keyboard Shortcuts popup window to view the keyboard shortcuts for any application that uses the SAP Fiori launchpad"
+            },
+            {
+                "id": "Ie80457c7b9ca9cdd1f2c040c4477f1552d4e7393",
+                "type": "FEATURE",
+                "text": "You can now configure the threshold and scrollThreshold properties for grid tables, tree tables, and analytical tables using the manifest.json file"
+            },
+            {
+                "id": "I73f657d47037cb923df2f7b8187548b1e2b26a06",
+                "type": "FEATURE",
+                "text": "We now ensure that the default title for new and unsaved objects is set to 'New Object' instead of 'Unnamed Object'"
+            },
+            {
+                "id": "Ibb1f05b57face4c3544b7708b6cced05312cadc8",
+                "type": "FEATURE",
+                "text": "We now support semantic date range filters in tables used in list report applications with multiple views"
+            },
+            {
+                "id": "I9ef16de656206a9d673196a52318d676c5d82360",
+                "type": "FEATURE",
+                "text": "AI-Assisted Easy Filter now allows end users to search using both the key and the corresponding text value of a field"
+            },
+            {
+                "id": "I11670678e6316bc3dfb61cc52d09dfa1f79962fd",
+                "type": "FEATURE",
+                "text": "Key users can now configure features that require modifications in the manifest.json file"
+            },
+            {
+                "id": "I3d77fe50183a2b25e0c521ddecba565262ad6100",
+                "type": "FIX",
+                "text": "We now ensure that application developers can modify the TextArrangement and Label annotations of smart table columns by adapting the UI at design time",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0457040"
+                    }
+                ]
+            },
+            {
+                "id": "I1292bd0f8ab21dda128f080a69282a8f11df8897",
+                "type": "FIX",
+                "text": "We now ensure that key users can modify the TextArrangement and Label annotations for smart table columns using the Adapt UI option",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0457040"
+                    }
+                ]
+            },
+            {
+                "id": "I3f4c376ac67eb046a8fc4823f31daa3211939879",
+                "type": "FIX",
+                "text": "We've improved the field visibility in extension views and enabled title wrapping in sections to prevent truncation on the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0460661"
+                    }
+                ]
+            },
+            {
+                "id": "Iddc7186dd54de70d560bde3123e7f57813c0143e",
+                "type": "FIX",
+                "text": "We now clear the selection in responsive tables when a side effect causes an update and the rememberSelections property is set to false",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0417742"
+                    }
+                ]
+            },
+            {
+                "id": "Ib2c55c7cc71b300c1575e2f3aa76473bfc644a70",
+                "type": "FIX",
+                "text": "We've resolved an issue on the canvas page where the confirmation popup for data loss appeared twice before navigating to the target application using a smart link",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0356931"
+                    }
+                ]
+            },
+            {
+                "id": "I53fd2ba54f2ea0ebaae3703e67f6699cdb784f0a",
+                "type": "FIX",
+                "text": "We've now added an aria label to the smart form improving the accessibility when section titles are hidden",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0453573"
+                    }
+                ]
+            },
+            {
+                "id": "Idbd459427ee1b702b5e15c8e1f2ac834f1cdd24e",
+                "type": "FIX",
+                "text": "We've updated the labels in the Configure Table dialog of Adapt UI",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0480536"
+                    }
+                ]
+            },
+            {
+                "id": "Iaf4f129b21a764f79e68c384c754d6dc27c82b3e",
+                "type": "FIX",
+                "text": "We've resolved an issue where changes made to the variant management-enabled table were lost when it was refreshed without saving the variant",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009697098"
+                    }
+                ]
+            },
+            {
+                "id": "I70888ca7ec63b0b68cd14fe17c8626f81b55b292",
+                "type": "FIX",
+                "text": "We now ensure that the header content on the object page is always hidden in create mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0396698"
+                    }
+                ]
+            },
+            {
+                "id": "I9710ab68b3bb72a49d5e2fd3826d5c906c4bc77e",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where the Delete dialog failed to open when breakout actions were enabled for the standard delete function",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0485606"
+                    }
+                ]
+            },
+            {
+                "id": "Ie37c5e738b7b07879f942ce827fb5345a3776972",
+                "type": "FIX",
+                "text": "We now ensure that the selection parameters passed through the URL are correctly applied in analytical list page applications",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009438313"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.136.2": {
+        "date": "June 2025",
+        "notes": [
+            {
+                "id": "I1b4f159b2c40991452dd6d86c32d8eda9776e140",
+                "type": "FIX",
+                "text": "We now correctly display the unit of measure associated with the field in the smart link popover title",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0320107"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0527874"
+                    }
+                ]
+            },
+            {
+                "id": "I08f28ddf64ce42e6d376c87a9de3280cbecadd5d",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where changes to added or removed filters were not correctly tracked in the iAppState when a variant was marked dirty",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009756634"
+                    }
+                ]
+            },
+            {
+                "id": "I26ac7fa80e40b523b7263b013b46de734ddb7eb5",
+                "type": "FIX",
+                "text": "We've resolved an issue where the AI-assisted Easy Filter did not correctly handle the Between (BT) and Not Between (NB) conditions, resulting in undefined values for the range",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0399329"
+                    }
+                ]
+            },
+            {
+                "id": "I798fc21c8d56f15511755a2a27abec841a97854a",
+                "type": "FIX",
+                "text": "We now ensure that the format of Between' (BT) operator is correctly maintained in the search metadata of the AI-assisted Easy Filter",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0511606"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -108,5 +108,45 @@
                 "text": " We've improved the performance of the mass edit dialog by reducing the number of requests when executing side effect actions"
             }
         ]
+    },
+    "1.136.1": {
+        "date": "June 2025",
+        "notes": [
+            {
+                "id": "1e0221e34120f8ff11cc3071b1891aa9d5fdd5ab",
+                "type": "FIX",
+                "text": " We now ensure that quick views can be opened from fields with criticality"
+            },
+            {
+                "id": "40106da692c9462fe2a8c2fbff1922ca4e63b723",
+                "type": "FIX",
+                "text": " We now correctly validate conditions for 1:n property paths that are set using the setFilterValues API"
+            },
+            {
+                "id": "3fd3e2741f672e2378e437b829a7f9ae19445247",
+                "type": "FIX",
+                "text": " We now correctly display the date by setting its type to medium, preventing conversion to short format"
+            },
+            {
+                "id": "7319858be8782bc645e55c55f548954c70023f45",
+                "type": "FIX",
+                "text": " You can now configure the exportRequestSize parameter in tree and analytical tables using the Table building block or manifest.json file"
+            },
+            {
+                "id": "c4adf666458762f784010d2f48cd167aebde1cc6",
+                "type": "FIX",
+                "text": " We now request messages when an action is executed from the controller extension"
+            },
+            {
+                "id": "b591ada8d56e55ff5d36cad8f795c41db6fe4f56",
+                "type": "FIX",
+                "text": " We've resolved an issue in the Table building block API that prevented showing or hiding columns"
+            },
+            {
+                "id": "2e6a069d9ecd9a10ebaca79812c7b9378e9f65ef",
+                "type": "FIX",
+                "text": " We've resolved an issue with setting a semantic object in the Field building block"
+            }
+        ]
     }
 }

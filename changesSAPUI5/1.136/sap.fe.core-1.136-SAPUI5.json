@@ -88,5 +88,40 @@
                 "text": " We've defined a new format for the page title displayed in the browser tab for OData V4 apps"
             }
         ]
+    },
+    "1.136.1": {
+        "date": "June 2025",
+        "notes": [
+            {
+                "id": "af1085ada4f3dd232752ce3e2e0bd892ac8ce508",
+                "type": "FIX",
+                "text": " We've now improved the documentation of the invokeAction method for the EditFlow controller extension"
+            },
+            {
+                "id": "60cebe33f850aeb19a8267842ea068bf9bdde65a",
+                "type": "FIX",
+                "text": " We now ensure that share links are correctly generated when adaptShareMetadata is overriden twice in a custom code"
+            },
+            {
+                "id": "139b8b34ce29f79af93dabe396d23f746de70782",
+                "type": "FIX",
+                "text": " We've resolved an issue where the state of the flexible column layout wasn't stored correctly"
+            },
+            {
+                "id": "c4adf666458762f784010d2f48cd167aebde1cc6",
+                "type": "FIX",
+                "text": " We now request messages when an action is executed from the controller extension"
+            },
+            {
+                "id": "2e6a069d9ecd9a10ebaca79812c7b9378e9f65ef",
+                "type": "FIX",
+                "text": " We've resolved an issue with setting a semantic object in the Field building block"
+            },
+            {
+                "id": "d81edaffa00f35d4835cb1caf7625d6d555276bc",
+                "type": "FIX",
+                "text": " We now ensure that messages are correctly handled when data is copied and pasted from external applications into tables"
+            }
+        ]
     }
 }
