@@ -73,5 +73,40 @@
                 "text": " SmartField: creation of instances for date time no longer sets UTC flag to false"
             }
         ]
+    },
+    "1.133.3": {
+        "date": "June 2025",
+        "notes": [
+            {
+                "id": "1daf262d771448fa1cca01e8476db12808948ca0",
+                "type": "FIX",
+                "text": " SmartTable: DescriptionOnly paste uses correct type instance"
+            },
+            {
+                "id": "4befa9e4995482a001c3a9aeff4555b0f56597b4",
+                "type": "FIX",
+                "text": " SmartField: zero guid is not exposed in edit mode"
+            },
+            {
+                "id": "bcf63029eae1299035df0a7aa14d46a1aad12f31",
+                "type": "FIX",
+                "text": " FilterBar: MultiComboBox tokens are no longer duplicated on opening adapt filters dialog"
+            },
+            {
+                "id": "bd78393f9e5d3b40cfdb2b9cb12d005276494998",
+                "type": "FIX",
+                "text": " ValueHelpProvider: Absolute Path is now correctly encoded"
+            },
+            {
+                "id": "1a6d4c936fad7d33a793f86b1e6515bf9dfcc52b",
+                "type": "FIX",
+                "text": " ControlFactoryBase: support config enabledMultiSelectionPlugin on value help create"
+            },
+            {
+                "id": "d569781d11f0414c467b85e5b876a1c7df2368ba",
+                "type": "FIX",
+                "text": " SmartField: Binding context for fixed-value scenarios is now synchronized"
+            }
+        ]
     }
 }

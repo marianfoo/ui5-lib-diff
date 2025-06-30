@@ -1,10 +1,16 @@
 {
     "versions": [
         {
+            "version": "1.137.*",
+            "support": "Skipped",
+            "lts": false,
+            "eom": ""
+        },
+        {
             "version": "1.136.*",
             "support": "Maintenance",
-            "eom": "",
-            "eocp": "",
+            "eom": "Long-term Maintenance, Q4/2032",
+            "eocp": "Q4/2033",
             "lts": true
         },
         {
@@ -680,8 +686,16 @@
     ],
     "patches": [
         {
-            "version": "1.136.0",
+            "version": "1.136.2-legacy-free",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.136.1",
+            "eocp": "Q2/2026"
+        },
+        {
+            "version": "1.136.0",
+            "eocp": "Q2/2026"
         },
         {
             "version": "1.135.0",
@@ -692,8 +706,12 @@
             "eocp": "Q2/2026"
         },
         {
-            "version": "1.133.2",
+            "version": "1.133.3",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.133.2",
+            "eocp": "Q2/2026"
         },
         {
             "version": "1.133.1",
@@ -879,8 +897,12 @@
             "removed": true
         },
         {
-            "version": "1.120.31",
+            "version": "1.120.32",
             "eocp": "To Be Determined"
+        },
+        {
+            "version": "1.120.31",
+            "eocp": "Q2/2026"
         },
         {
             "version": "1.120.30",
