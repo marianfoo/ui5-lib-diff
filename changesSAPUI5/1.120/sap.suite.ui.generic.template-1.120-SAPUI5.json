@@ -1171,6 +1171,33 @@
                         "reference": "CS20240009023552"
                     }
                 ]
+            },
+            {
+                "id": "Ia228625074b905b19c500b4465b13043e2a6a843",
+                "type": "FIX",
+                "text": "We've resolved an issue where the message popover remained open even after the item link was clicked",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0508828"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.32": {
+        "date": "July 2025",
+        "notes": [
+            {
+                "id": "I08f28ddf64ce42e6d376c87a9de3280cbecadd5d",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where changes to added or removed filters were not correctly tracked in the iAppState when a variant was marked dirty",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009756634"
+                    }
+                ]
             }
         ]
     }
