@@ -1,0 +1,62 @@
+{
+    "1.138.0": {
+        "date": "June 2025",
+        "notes": [
+            {
+                "id": "94e083a0e5e20c3a49f9fe6ea1ca9b6c20e8c12f",
+                "type": "FEATURE",
+                "text": " You can now add print and export options to the Share menu"
+            },
+            {
+                "id": "7c9a3bc2cb7938c1c34c0d065a9c8ef60f29ca3a",
+                "type": "FIX",
+                "text": " We now correctly handle paginator buttons when navigation is triggered"
+            },
+            {
+                "id": "8e50fb71de6a6988d9e4133674ee41ecab8941e3",
+                "type": "FIX",
+                "text": " We've resolved an issue with grouping conditions in responsive tables that use analytical services"
+            },
+            {
+                "id": "d2c932f234782d30e78574fb2942a1b415c04246",
+                "type": "FIX",
+                "text": " We've resolved an issue with sort and filter restrictions in table personalization in a containment scenario"
+            },
+            {
+                "id": "a7667fac8f0aca1c382447c14a0d5f456202afb8",
+                "type": "FIX",
+                "text": " We’ve resolved an issue with invoking the DefaultValuesFunction on list bindings that include navigation paths"
+            },
+            {
+                "id": "fdd8aae6989655cb7dde277e2efc4dd175aa28aa",
+                "type": "FEATURE",
+                "text": " You can now configure the threshold for the number of rows initially loaded in a table"
+            },
+            {
+                "id": "54a12ec5d92883a5ec365047c889f33551b7231a",
+                "type": "FEATURE",
+                "text": " You can now freeze columns in the Column Settings dialog and disable column freezing by using the disableColumnFreeze parameter"
+            },
+            {
+                "id": "3e54497bc55a6362c17cabac7c0ddaf35073e251",
+                "type": "FEATURE",
+                "text": " You can now attach event handlers to the list binding of tables and retrieve the row count."
+            },
+            {
+                "id": "fe2fc5f0a895cc5d809f44329a76ac58ba86ca1c",
+                "type": "FIX",
+                "text": " We've now improved the documentation of the invokeAction method for the EditFlow controller extension"
+            },
+            {
+                "id": "e4daeaa8e77c93be56ff7e5347404a24c25da34f",
+                "type": "FIX",
+                "text": " We now ensure that share links are correctly generated when adaptShareMetadata is overriden twice in a custom code"
+            },
+            {
+                "id": "eea92f1d499d7cde186980e7ded0ddd0a3f088e2",
+                "type": "FIX",
+                "text": " We've resolved an issue where the state of the flexible column layout wasn't stored correctly"
+            }
+        ]
+    }
+}

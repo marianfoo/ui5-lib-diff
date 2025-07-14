@@ -1,0 +1,93 @@
+{
+    "1.138.0": {
+        "date": "July 2025",
+        "notes": [
+            {
+                "id": "I26ac7fa80e40b523b7263b013b46de734ddb7eb5",
+                "type": "FIX",
+                "text": "We've resolved an issue where the AI-assisted Easy Filter did not correctly handle the Between (BT) and Not Between (NB) conditions, resulting in undefined values for the range",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0399329"
+                    }
+                ]
+            },
+            {
+                "id": "I798fc21c8d56f15511755a2a27abec841a97854a",
+                "type": "FIX",
+                "text": "We now ensure that the format of Between (BT) operator is correctly maintained in the search metadata of the AI-assisted Easy Filter",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0511606"
+                    }
+                ]
+            },
+            {
+                "id": "I1b4f159b2c40991452dd6d86c32d8eda9776e140",
+                "type": "FIX",
+                "text": "We now correctly display the unit of measure associated with the field in the smart link popover title",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0320107"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0527874"
+                    }
+                ]
+            },
+            {
+                "id": "I4f045c9ca76ae611d85488ae313ad89081f43a5d",
+                "type": "FIX",
+                "text": "We've resolved an issue where the same 412 warning message was shown multiple times during an action"
+            },
+            {
+                "id": "I6d3f41bde60c495d9f3e3acafbbe5870961734df",
+                "type": "FIX",
+                "text": "We now identify the startup parameters when an SAP Fiori elements application is launched as an embedded application from My Inbox",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009744491"
+                    }
+                ]
+            },
+            {
+                "id": "Ic26ef83c5b7bc8233342718db3278f97901650c3",
+                "type": "FIX",
+                "text": "We now ensure that the token text arrangement in the AI-assisted Easy Filter is consistent with the one used in tables and the smart filter bar",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0512015"
+                    }
+                ]
+            },
+            {
+                "id": "I3a66c10ca014863b83155cf8ba2e2a3153e47560",
+                "type": "FIX",
+                "text": "We now load the RuntimeAuthoring library when key user adaptation is started",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0356741"
+                    }
+                ]
+            },
+            {
+                "id": "Idb3ad0040049772c24aa76aee2f00d64935595b1",
+                "type": "FIX",
+                "text": "We now ensure that the Boolean values are set in the correct format in the initial metadata of the AI-assisted Easy Filter",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0503009"
+                    }
+                ]
+            }
+        ]
+    }
+}

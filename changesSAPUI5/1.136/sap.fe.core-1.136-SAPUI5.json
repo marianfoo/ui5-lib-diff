@@ -123,5 +123,20 @@
                 "text": " We now ensure that messages are correctly handled when data is copied and pasted from external applications into tables"
             }
         ]
+    },
+    "1.136.2": {
+        "date": "July 2025",
+        "notes": [
+            {
+                "id": "e8ac698d48a2d45cebb5be9b03ca735a56241bd5",
+                "type": "FIX",
+                "text": " We've resolved an issue where the list report with a multi-input field displayed an error message when a draft was discarded in apps using the flexible column layout"
+            },
+            {
+                "id": "f279ed3392bb7cbce64585c4ac8166e67d7d84f8",
+                "type": "FIX",
+                "text": " We now ensure that side effects are executed correctly when a MultiValueField is changed in a table"
+            }
+        ]
     }
 }
