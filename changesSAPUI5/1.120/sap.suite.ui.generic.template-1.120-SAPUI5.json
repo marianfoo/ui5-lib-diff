@@ -1200,5 +1200,32 @@
                 ]
             }
         ]
+    },
+    "1.120.33": {
+        "date": "July 2025",
+        "notes": [
+            {
+                "id": "I45838a87b189431ffb2ac95cb59a7a8dc1d11ca8",
+                "type": "FIX",
+                "text": "We've resolved an issue where a colon was not being displayed after the label in the object page header",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010055577"
+                    }
+                ]
+            },
+            {
+                "id": "Id6ce95b272fc794dcf799f5438c337de4c71003a",
+                "type": "FIX",
+                "text": "We've resolved an issue where the object page stopped responding due to incorrect error message handling",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010146677"
+                    }
+                ]
+            }
+        ]
     }
 }

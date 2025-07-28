@@ -1063,5 +1063,35 @@
                 "text": " We now ensure that the confirmation action works in the operations dialog for strict handling messages in changeset mode"
             }
         ]
+    },
+    "1.120.27": {
+        "date": "July 2025",
+        "notes": [
+            {
+                "id": "320a976650dfe934789c0199a0de6a8f2cdf917e",
+                "type": "FIX",
+                "text": " We now ensure that the PATCH request of a document update is completed before invoking an action or saving the document"
+            },
+            {
+                "id": "0dc196b84e02cd80a241a62e0b6bc0d836312336",
+                "type": "FIX",
+                "text": " We now ensure that error messages are shown for actions with strict handling"
+            },
+            {
+                "id": "56f33fba3b8692c70334809d4dc59bb3ca056434",
+                "type": "FIX",
+                "text": " We now ensure that side effects are executed correctly when a MultiValueField is changed in a table"
+            },
+            {
+                "id": "b038e220b2661dd39dfc41470c7cc72f35af8045",
+                "type": "FIX",
+                "text": " We now prevent users from re-triggering an action when a precondition failure response includes an error"
+            },
+            {
+                "id": "561e580a8282b430765c84be8b0d713ab02572b9",
+                "type": "FIX",
+                "text": " We now display the 'No items were processed' message only if there is at least one error in the change set response"
+            }
+        ]
     }
 }
