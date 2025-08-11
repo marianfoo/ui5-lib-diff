@@ -1,0 +1,52 @@
+{
+    "1.139.0": {
+        "date": "August 2025",
+        "notes": [
+            {
+                "id": "43eddc276a9bfe174e496edf62f9fcb3929d0a5d",
+                "type": "FIX",
+                "text": " sap.ui.model.json.JSONPropertyBinding.js#checkUpdate: Fix logic to determine whether an update of the DataState has to be done"
+            },
+            {
+                "id": "fe53f042ac3384d9a51e15d5f3f8e83a5ed97662",
+                "type": "FIX",
+                "text": " core: Prevent BlockLayer from being considered as focus candidate"
+            },
+            {
+                "id": "f2cf5800d37d7e5d32a1f9292258bc404ab944b7",
+                "type": "FIX",
+                "text": " sap.ui.model.odata.v2.ODataAnnotations: Propagate 'withCredentials' flag when loading annotations"
+            },
+            {
+                "id": "f1fe18c0355f92223f3d34d4b941a0b01518db52",
+                "type": "FEATURE",
+                "text": " sap/ui/model/FilterOperator/NotAny and NotAll: Support for v4 ODataListBinding"
+            },
+            {
+                "id": "2942e517379f24b569278b0d12cd2f57eebae1d7",
+                "type": "FIX",
+                "text": " base/DataType: log error once per class and property combination"
+            },
+            {
+                "id": "0ccb06358a75bf4bb2824f206a329dfd4beefaa1",
+                "type": "FIX",
+                "text": " core/KeyboardInteractionDisplay: Fix Normalization of single keys"
+            },
+            {
+                "id": "f7b73687a35eeef457f3f8925a8b60cf0024b2b6",
+                "type": "FIX",
+                "text": " sap.ui.core.format.NumberFormat: Invalid groupingSize configuration disables grouping"
+            },
+            {
+                "id": "39d23a5fecf3c2cb351e0b416eb1c5b6c91c0e02",
+                "type": "FIX",
+                "text": " ComponentContainer: always propagate propagation listeners"
+            },
+            {
+                "id": "0c3513ce1e59d6be7f703471eff89da8dae88453",
+                "type": "FIX",
+                "text": " ResourceBundle: Improve performance"
+            }
+        ]
+    }
+}

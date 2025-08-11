@@ -1,0 +1,106 @@
+{
+    "1.139.0": {
+        "date": "August 2025",
+        "notes": [
+            {
+                "id": "I3f87e189033e9d975692402b4f7bb7be5b9a8eb9",
+                "type": "FIX",
+                "text": "We now ensure that the Summarize button no longer appears in UI adaptation mode when disabled",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0549953"
+                    }
+                ]
+            },
+            {
+                "id": "If01ad11a17c30ff3444d91a41752de96b74741d6",
+                "type": "FIX",
+                "text": "Changes stored in the iAppState are now correctly applied to standard variants created in UI adaptation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0323058"
+                    }
+                ]
+            },
+            {
+                "id": "Idbb5a48177717790a7d8a2676a1f1cbcbad668cf",
+                "type": "FIX",
+                "text": "We now ensure that if the table toolbar menu contains only one eligible item, it appears as a top-level item in the context menu",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0506118"
+                    }
+                ]
+            },
+            {
+                "id": "Id0a8351727f7e35daada97fc9920bd127394ea20",
+                "type": "FIX",
+                "text": "We now support text-based search for value help in the AI-assisted easy filter",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0507709"
+                    }
+                ]
+            },
+            {
+                "id": "I57e49805a548937a5f485c67f5dc8de707d8cdfa",
+                "type": "FIX",
+                "text": "We've improved the logic to correctly extract SmartLink metadata for populating the navigation popover's title and description",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0571901"
+                    }
+                ]
+            },
+            {
+                "id": "Iac2e0646994c165745c0995dca40477b2d210567",
+                "type": "FIX",
+                "text": "We've resolved an issue where table-related error messages displayed wrong or irrelevant information",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0521284"
+                    }
+                ]
+            },
+            {
+                "id": "Id6ce95b272fc794dcf799f5438c337de4c71003a",
+                "type": "FIX",
+                "text": "We've resolved an issue where the object page stopped responding due to incorrect error message handling",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010146677"
+                    }
+                ]
+            },
+            {
+                "id": "Iaf1fa38cf6c3dc383b74d2c23c6470ce9adaa5b0",
+                "type": "FIX",
+                "text": "We now ensure that the value help metadata is loaded before the value help dialog opens in the AI-assisted easy filter",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0572306"
+                    }
+                ]
+            },
+            {
+                "id": "Iaa193bba29462a12f5f031e0bfb3842ab18e3253",
+                "type": "FIX",
+                "text": "We now ensure that the contact facet displays correctly even when the email field is left empty",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010096798"
+                    }
+                ]
+            }
+        ]
+    }
+}
