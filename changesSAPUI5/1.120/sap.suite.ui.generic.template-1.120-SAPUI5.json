@@ -1227,5 +1227,32 @@
                 ]
             }
         ]
+    },
+    "1.120.35": {
+        "date": "August 2025",
+        "notes": [
+            {
+                "id": "I55b424d47ba4cfa29d9556c864ad3f1b0a43e388",
+                "type": "FIX",
+                "text": "The correct ARIA label is now assigned to Object page header forms",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008959638"
+                    }
+                ]
+            },
+            {
+                "id": "Iff605433f9236a0c4cb541c26b211313bc61a06a",
+                "type": "FIX",
+                "text": "We’ve removed incorrect ARIA labels that were assigned to the footer of an object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008654628"
+                    }
+                ]
+            }
+        ]
     }
 }

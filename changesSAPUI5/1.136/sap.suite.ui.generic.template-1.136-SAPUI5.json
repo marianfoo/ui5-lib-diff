@@ -294,5 +294,54 @@
                 ]
             }
         ]
+    },
+    "1.136.6": {
+        "date": "August 2025",
+        "notes": [
+            {
+                "id": "Iff605433f9236a0c4cb541c26b211313bc61a06a",
+                "type": "FIX",
+                "text": "We’ve removed incorrect ARIA labels that were assigned to the footer of an object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008654628"
+                    }
+                ]
+            },
+            {
+                "id": "I2f185cf510547d5f7e92633a85b724ef8ff120f0",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where the text of AI-assisted easy filter tokens didn’t reflect the text arrangement of the selected value help entry",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0558461"
+                    }
+                ]
+            },
+            {
+                "id": "I83368d39e56baf563b7b7a22872ecb2b6f17b1c0",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where the smart filter bar variant didn't reflect changes to the semantic date range fields",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0399329"
+                    }
+                ]
+            },
+            {
+                "id": "I55b424d47ba4cfa29d9556c864ad3f1b0a43e388",
+                "type": "FIX",
+                "text": "The correct ARIA label is now assigned to Object page header forms",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20240008959638"
+                    }
+                ]
+            }
+        ]
     }
 }
