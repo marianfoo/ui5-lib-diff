@@ -1,0 +1,32 @@
+{
+    "1.140.0": {
+        "date": "August 2025",
+        "notes": [
+            {
+                "id": "edbdd11726eb99a55f5b887411ef0e346ee807dc",
+                "type": "FIX",
+                "text": " We've resolved an issue where links in the Table building block within a custom section did not work correctly in object pages"
+            },
+            {
+                "id": "98d52ccb375b3fc1fe2416abdd18e988d8ae0973",
+                "type": "FIX",
+                "text": " We now ensure that values of fields with a static '%' unit are displayed correctly"
+            },
+            {
+                "id": "a26b1aef0d5fe91052b824cff469b68af32624c4",
+                "type": "FEATURE",
+                "text": " We now provide tooltips for all filter fields in the filter bar using the QuickInfo annotation"
+            },
+            {
+                "id": "80dd5719bbb72af727fbaa78bddd8229629ccb11",
+                "type": "FIX",
+                "text": " We've resolved an issue with the performance of tables that contain a MultiValueField"
+            },
+            {
+                "id": "1ae111e799827621a9d688aff396d135f4b2e174",
+                "type": "FIX",
+                "text": " We now ensure that side effects are executed before updating a document in an object page"
+            }
+        ]
+    }
+}

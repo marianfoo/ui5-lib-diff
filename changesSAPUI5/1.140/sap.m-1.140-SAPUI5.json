@@ -1,0 +1,142 @@
+{
+    "1.140.0": {
+        "date": "September 2025",
+        "notes": [
+            {
+                "id": "d334513c565f964f7951b5992791a1a0639bcf2c",
+                "type": "FIX",
+                "text": " sap.m.Menu: Added optional chaining to avoid errors when MenuWrapper is not present"
+            },
+            {
+                "id": "91129f38239643edf5229f5249226a3c85b687d2",
+                "type": "FIX",
+                "text": " sap.m.Menu: Fix binding of menu items"
+            },
+            {
+                "id": "489c80ae36e684e554d9496262ee3c221230ee6f",
+                "type": "FIX",
+                "text": " sap.m.Button: has correct css parameters for active Emphasized"
+            },
+            {
+                "id": "11ecfa412c64f2ac9db290119a3e0f638cb99e6d",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendarMonthGrid: fixed Month view layout (320-340px)"
+            },
+            {
+                "id": "8f102c55ebb70b4643160c8e87cf4f65284cdb42",
+                "type": "FIX",
+                "text": " BasePanel: SelectAll/DeselectAll should respect filters"
+            },
+            {
+                "id": "bbab9273a8192186379d322c6c460b51600a5cb7",
+                "type": "FIX",
+                "text": " sap.m.SplitApp: busy indicator layer is now also over the master container"
+            },
+            {
+                "id": "58d8fdebca03ae428052dba275f56446121da181",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: Empty custom option doesn't log error"
+            },
+            {
+                "id": "cf4ac960eb8f52129f2fe4168ecc832337af7c5e",
+                "type": "FIX",
+                "text": " sap.m.Carousel: use logical margin to correctly render RTL layouts"
+            },
+            {
+                "id": "34cb36977e9d03487fd296607d17c80dbd9678a7",
+                "type": "FIX",
+                "text": " VariantManagement: Indicate version for setCurrentVariantKey"
+            },
+            {
+                "id": "9bc7cc82b8adcf859c98786fb3ef1c082f4b1af0",
+                "type": "FIX",
+                "text": " sap.m.Input: Align read-only input border"
+            },
+            {
+                "id": "85a7cf9b9c6f07d71931264b797f6a0487f9d5be",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateFormat: Sanitizing a pattern when creating a regex"
+            },
+            {
+                "id": "f3238bbac4952f65aa96a55bae6d1f3af3772dce",
+                "type": "FIX",
+                "text": " sap.m.Checkbox: Correct non-editable checkbox alignment"
+            },
+            {
+                "id": "a7c11c393d564cdf22eb136a6179a618c251f144",
+                "type": "FIX",
+                "text": " SelectionPanel: Adjust \"deselect all\" to take all list items into account"
+            },
+            {
+                "id": "b446a278cc3fdfd2ad6ef6cea03eb3d619db8927",
+                "type": "FEATURE",
+                "text": " sap.m.MessagePopover: enable title in header"
+            },
+            {
+                "id": "cdf37be479b5470c986196bdae9d989e36280e48",
+                "type": "FIX",
+                "text": " sap.m.IconTabHeader: Tests are stabilized"
+            },
+            {
+                "id": "5b4a446c2cc04d8b21587455896cc0da166a06e6",
+                "type": "FIX",
+                "text": " sap.m.Popover: Deprecated enum values are marked in code"
+            },
+            {
+                "id": "23255d4ae0d5965c358b4ff0e6c3b9cb4ff9917d",
+                "type": "FIX",
+                "text": " sap.m.OverflowToolbar: Fix failing test on 2.0"
+            },
+            {
+                "id": "5a91bf42f5b77f2080ebc82fa58923e16fe63578",
+                "type": "FIX",
+                "text": " sap.m.Link: has smaller offset when in Table in condensed mode"
+            },
+            {
+                "id": "11748d569ba5525020062cd3dcf0e6eb002de337",
+                "type": "FIX",
+                "text": " sap.m.RadioButton: Fixed Safari rendering issue with zoom behavior"
+            },
+            {
+                "id": "c7195a7fbbe274318716ccd27ecc072406786d8b",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: Unnecessary bold on tab text is now removed"
+            },
+            {
+                "id": "f000ac580b805834a9b6fcdf6a51216bd56681b1",
+                "type": "FIX",
+                "text": " sap.m.Popover: Calculate correct placement on resize"
+            },
+            {
+                "id": "1848ae222c7eb599d6cfff9b8b18cdece9aa35b6",
+                "type": "FIX",
+                "text": " sap.m.Menu: fixed endContent controls `press` event firing"
+            },
+            {
+                "id": "10aae7ba402c076f310c79c2c180509cd5d5bb6a",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendarGrid: get appointment domref correctly"
+            },
+            {
+                "id": "43829511cb670380382934dfb555011d4abe2e23",
+                "type": "FIX",
+                "text": " We've now applied 4px padding between the title and the image of the slide tile when height is less than 180px"
+            },
+            {
+                "id": "9869ff3475865e41d3828a029f716ae35e0461d9",
+                "type": "FIX",
+                "text": " sap.m.QuickViewPage: Remove synchronous request during initalization"
+            },
+            {
+                "id": "5feb6fb61e7397daeb1b62cfebc408fd30d86927",
+                "type": "FEATURE",
+                "text": " Table: Add ODataV4-specific plugins for selection and tree support"
+            },
+            {
+                "id": "a871c4394cd755977096b920fb8308cb187443bc",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: options list accessibility semantics adjusted"
+            }
+        ]
+    }
+}

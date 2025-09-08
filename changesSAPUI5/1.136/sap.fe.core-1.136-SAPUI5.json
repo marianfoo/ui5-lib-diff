@@ -183,5 +183,25 @@
                 "text": " We now ensure that side effects are executed before updating a document in an object page"
             }
         ]
+    },
+    "1.136.8": {
+        "date": "September 2025",
+        "notes": [
+            {
+                "id": "7afcad94b5c1e2f99afe8700de8492136a983a6c",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where side effects didn’t trigger any messages related to changes made on the subobject page"
+            },
+            {
+                "id": "0a63bb311fda1f85d2b05db7f62273c52dc2a859",
+                "type": "FIX",
+                "text": " We now correctly handle errors that occur when creating content in building blocks at runtime"
+            },
+            {
+                "id": "14e5bef00f3aaa3df4c0120300dd01147ae787ee",
+                "type": "FIX",
+                "text": " We've resolved an issue where links in the Table building block within a custom section did not work correctly in object pages"
+            }
+        ]
     }
 }

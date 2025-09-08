@@ -1,0 +1,32 @@
+{
+    "1.140.0": {
+        "date": "August 2025",
+        "notes": [
+            {
+                "id": "4b3edc0e006ad77344aa4a180e43b930c345a1ae",
+                "type": "FIX",
+                "text": " We now check for duplicates before templating new fields for UI adaptation"
+            },
+            {
+                "id": "73c82be342ba59e953bd7c8a4fd2c2308d18b913",
+                "type": "FIX",
+                "text": " We now ensure that values of fields with a static '%' unit are displayed correctly"
+            },
+            {
+                "id": "a26b1aef0d5fe91052b824cff469b68af32624c4",
+                "type": "FEATURE",
+                "text": " We now provide tooltips for all filter fields in the filter bar using the QuickInfo annotation"
+            },
+            {
+                "id": "4a4c8577e72791008029be0dfcabc9cb992b06e2",
+                "type": "FEATURE",
+                "text": " We now format the selected value in fields of the action parameter dialog when the value help of the field uses a text annotation"
+            },
+            {
+                "id": "80dd5719bbb72af727fbaa78bddd8229629ccb11",
+                "type": "FIX",
+                "text": " We've resolved an issue with the performance of tables that contain a MultiValueField"
+            }
+        ]
+    }
+}

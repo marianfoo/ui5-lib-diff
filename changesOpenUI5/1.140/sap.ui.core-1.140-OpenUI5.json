@@ -1,0 +1,62 @@
+{
+    "1.140.0": {
+        "date": "September 2025",
+        "notes": [
+            {
+                "id": "1b111ef9cdd35b2002449c0ec4e235bc147e22ee",
+                "type": "FIX",
+                "text": " routing/Route: Correctly join nested route patterns"
+            },
+            {
+                "id": "5a1bfe4289456a8bc5d3b840d0e19509320fa8d1",
+                "type": "FIX",
+                "text": " ThemeManager: Always ensure postprocessing for preloaded CSS"
+            },
+            {
+                "id": "02c471c194fc290026435db64bf845f2b9777caf",
+                "type": "FEATURE",
+                "text": " Add TypedJSONModel"
+            },
+            {
+                "id": "50228535314f5c1d344e3afc30a0f5f997b5f00b",
+                "type": "FIX",
+                "text": " Ensure adding CSS in the correct order for placeholder elements"
+            },
+            {
+                "id": "3ec60c5c281cde1c4b21ecbbecb2c81a6715b667",
+                "type": "FIX",
+                "text": " sap/ui/model/type/Unit.js: if quantity part is integer, decimals defaults to '0', may be overwritten"
+            },
+            {
+                "id": "a8ab04fa247ee9186e28b3da0d534f4da6a9a87c",
+                "type": "FEATURE",
+                "text": " sap.ui.core.webc.WebComponents: allow event mapping"
+            },
+            {
+                "id": "3903e2ec1ba2ec124544f91d0ac4b2c7ee516bb9",
+                "type": "FIX",
+                "text": " forced-color-adjust to html tag"
+            },
+            {
+                "id": "7fbd4a5c5d4a8028761a99dd21610ec4b5a09df6",
+                "type": "FIX",
+                "text": " sap.ui.core.format.NumberFormat#getDefaultUnitPattern: Replace normal space with non-breaking space"
+            },
+            {
+                "id": "9f25e1f37d1f0090a4b5738b645040372a4d96b2",
+                "type": "FIX",
+                "text": " sap/ui/model/type/Unit.js: if quantity part is integer, set decimals to '0'"
+            },
+            {
+                "id": "c099608b890f00dca45625b0ec9680615503c6ff",
+                "type": "FIX",
+                "text": " ThemeManager: Improve robustness of versionInfo loading"
+            },
+            {
+                "id": "ce761668758e092b91f94e6a54ffedb3c2b87916",
+                "type": "FEATURE",
+                "text": " sap.ui.test: Expose opaTest.skip and opaTest.todo"
+            }
+        ]
+    }
+}
