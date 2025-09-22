@@ -1473,5 +1473,26 @@
                 "text": " ValueListProvider: generated filters are now removed from service query"
             }
         ]
+    },
+    "1.108.44": {
+        "date": "September 2025",
+        "notes": [
+            {
+                "id": "491e420f0c0e9d433ce4a590db5cb733419d1c8a",
+                "type": "FIX",
+                "text": " SmartFilterBar: correct IsCalendarDate (Edm.String) initialization in negative timezones"
+            },
+            {
+                "id": "e86c330e5fbab6b033daae846d5b212aee19cb51",
+                "type": "FIX",
+                "text": " ChartProvider: formatter for DateTimeOffset without UTC",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2370034533"
+                    }
+                ]
+            }
+        ]
     }
 }
