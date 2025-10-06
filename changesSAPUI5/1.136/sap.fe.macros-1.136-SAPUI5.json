@@ -193,5 +193,25 @@
                 "text": " We've resolved an issue with the performance of tables that contain a MultiValueField"
             }
         ]
+    },
+    "1.136.9": {
+        "date": "September 2025",
+        "notes": [
+            {
+                "id": "85cea5a759ada6102bff2045ef1a9f73cf0c56df",
+                "type": "FIX",
+                "text": " We now ensure that the setSelectionVariant API works correctly in tables"
+            },
+            {
+                "id": "3fe0b33fb01f3a74b93ceb4c95f8aeca9ad1601c",
+                "type": "FIX",
+                "text": " We've resolved an issue with selecting cells in a grid table"
+            },
+            {
+                "id": "27acdc21984c114f903d4bea8e7f5f50d3dc4231",
+                "type": "FIX",
+                "text": " We've resolved an issue where the DataFieldForAction label was not translated in an error message"
+            }
+        ]
     }
 }

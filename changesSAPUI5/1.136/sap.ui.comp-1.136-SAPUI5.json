@@ -174,5 +174,25 @@
                 "text": " SmartField Guid Type throwns validation error when key property missing in the model"
             }
         ]
+    },
+    "1.136.7": {
+        "date": "September 2025",
+        "notes": [
+            {
+                "id": "6cca7be00daf927be4430463d1a7fdfc2463f4ec",
+                "type": "FIX",
+                "text": " SmartFilterBar: prevent calling ensureFilterLoaded on each onBeforeRendering"
+            },
+            {
+                "id": "6585c0386fc14a5abe15b3278b6999695efb2c01",
+                "type": "FIX",
+                "text": " SmartTable: correct metadata retrieval when conditionTypeInfo is used"
+            },
+            {
+                "id": "ba4c630ef7194645ef6a992b1e8b30d2d7c0369c",
+                "type": "FIX",
+                "text": " FilterBar: suspend items binding of not visible controls"
+            }
+        ]
     }
 }

@@ -1,0 +1,38 @@
+{
+    "1.141.0": {
+        "date": "October 2025",
+        "notes": [
+            {
+                "id": "Ia2467347d73bd56901d5209dca66586030d6f338",
+                "type": "FIX",
+                "text": "We've resolved an issue where the chart measure wasn't visible in the Evening Horizon theme",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0091423"
+                    }
+                ]
+            },
+            {
+                "id": "I1cef07f8b72965d0aef450d4ff5c54f575d283b9",
+                "type": "FEATURE",
+                "text": "You can now configure the settings of related apps using the extension controller"
+            },
+            {
+                "id": "I669ed16148a2459c840c335296adff4ee800a461",
+                "type": "FIX",
+                "text": "We've resolved an issue where navigating back to the object page from a draft entity after activation using a determining action caused errors"
+            },
+            {
+                "id": "I737ff9b362fb05d4c86c32b67260a0d212191332",
+                "type": "FEATURE",
+                "text": "Delete button visibility on subobject page tables is now controlled by DeleteRestriction through NavigationRestriction"
+            },
+            {
+                "id": "I69739ed0c5e2f22d00b0bfcb5390008015847427",
+                "type": "FIX",
+                "text": "InvokeActions extension API now executes in strict mode and handles HTTP status code 412 (Precondition Failed) responses with a confirmation dialog"
+            }
+        ]
+    }
+}

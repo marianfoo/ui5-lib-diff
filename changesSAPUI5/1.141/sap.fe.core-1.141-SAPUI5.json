@@ -1,0 +1,42 @@
+{
+    "1.141.0": {
+        "date": "September 2025",
+        "notes": [
+            {
+                "id": "37ffbad46be2cf2830681920152409e3deee51d3",
+                "type": "FEATURE",
+                "text": " We’ve added additional export settings for columns"
+            },
+            {
+                "id": "62979b7346241a48903f2a512fbc810a482ffe10",
+                "type": "FEATURE",
+                "text": " We now provide an experimental API to support the collaborative draft in reuse components"
+            },
+            {
+                "id": "c2f950cf2dde27243c45f4d8e0cf520d84acefbc",
+                "type": "FEATURE",
+                "text": " You can now disable navigation on specific rows of a table"
+            },
+            {
+                "id": "944fa689c5e7b2c1c97c9ce5858dfe2282793f07",
+                "type": "FEATURE",
+                "text": " You can now preserve the exact decimal places returned from the back end for currency values"
+            },
+            {
+                "id": "9cd8e2060beb78feaf9ee4ce064241f0f63c476d",
+                "type": "FEATURE",
+                "text": " We now reduce the number of requests when discarding a draft"
+            },
+            {
+                "id": "6f6dfdebcfd3f58fd4877475cce3c462f9f73540",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where side effects didn’t trigger any messages related to changes made on the subobject page"
+            },
+            {
+                "id": "c1e1e7a87ebd7733717119aae8d81083827c3e7c",
+                "type": "FIX",
+                "text": " We now correctly handle errors that occur when creating content in building blocks at runtime"
+            }
+        ]
+    }
+}

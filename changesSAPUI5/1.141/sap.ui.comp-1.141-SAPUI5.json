@@ -1,0 +1,37 @@
+{
+    "1.141.0": {
+        "date": "September 2025",
+        "notes": [
+            {
+                "id": "b5fd097c7ef5461111e4cbb832fbfbcb612e6991",
+                "type": "FIX",
+                "text": " SmartFilterBar: prevent calling ensureFilterLoaded on each onBeforeRendering"
+            },
+            {
+                "id": "cabca578e8f0a6428f81fe102a8f94c983f68db0",
+                "type": "FIX",
+                "text": " SmartVariantManagement: Return persistencyKey default empty string for FilterBar"
+            },
+            {
+                "id": "e200830a245ad418ce201d097dbd6d4a1879668b",
+                "type": "FIX",
+                "text": " SmartTable: correct metadata retrieval when conditionTypeInfo is used"
+            },
+            {
+                "id": "ae44a201c6ea07e0312b65b3fd11ef5414cc84b4",
+                "type": "FIX",
+                "text": " FilterBar: suspend items binding of not visible controls"
+            },
+            {
+                "id": "230925cf7134e8c8923072b2112df0c7d13657a2",
+                "type": "FEATURE",
+                "text": " SmartChart: Notification is now provided when measures or dimensions are insufficient for the selected chart type"
+            },
+            {
+                "id": "533bbf2798d500318ce08a8bab363bafac999e50",
+                "type": "FIX",
+                "text": " SmartVariantManagement: Show default variant, if currently selected one is deleted"
+            }
+        ]
+    }
+}
