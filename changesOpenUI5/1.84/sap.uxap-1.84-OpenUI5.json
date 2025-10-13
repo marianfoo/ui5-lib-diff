@@ -47,5 +47,180 @@
                 ]
             }
         ]
+    },
+    "1.84.4": {
+        "date": "January 2021",
+        "notes": [
+            {
+                "id": "0d5412105f6ff06f5c6c1b8b795597a63a9f8d2e",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Prevent console error",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070494606"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2070496484"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.6": {
+        "date": "February 2021",
+        "notes": [
+            {
+                "id": "04623ddb37994841aea8b1e750b59b7fc045a007",
+                "type": "FIX",
+                "text": " sap.uxap.HierarchicalSelect: Fixed button's focus on all themes",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2070468666"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.10": {
+        "date": "April 2021",
+        "notes": [
+            {
+                "id": "36d23ca9e554bca892aea73c7dc4e0fd8decaafa",
+                "type": "FIX",
+                "text": " sap.uxap.BlockBase: Clean up obsolete promise",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170045500"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.11": {
+        "date": "April 2021",
+        "notes": [
+            {
+                "id": "7bdd00ea2e3bf695ff19903acc1e454dde6a41f8",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Corrected unstable qunit",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180046524"
+                    }
+                ]
+            },
+            {
+                "id": "d21fe581f38651718d08ab28917d4f59e8dc1fc3",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageSection: Expand option for all hidden sections",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170061627"
+                    }
+                ]
+            },
+            {
+                "id": "dac9fa2a50da849e61dab4540b62dbd170c9b1bc",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Stablized qunit",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180046524"
+                    }
+                ]
+            },
+            {
+                "id": "f1dc6b485aefb97e40d9daaeb23e3cdbaec03678",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Unset selected section of hidden page",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2180046524"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.21": {
+        "date": "January 2022",
+        "notes": [
+            {
+                "id": "9f1933b6e9a02ab8a10f78ec41b3895d3ae40fd5",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Removed redundant accessibility readout",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002028376700022310422021"
+                    }
+                ]
+            },
+            {
+                "id": "8a2d877bdbcef79f795ab168b0e43776b2e982cc",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Corrected media update",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2170272703"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.25": {
+        "date": "May 2022",
+        "notes": [
+            {
+                "id": "9721713137aff52db83d43903da3c6cc4eaa3200",
+                "type": "FIX",
+                "text": " sap.uxap.AnchorBar: Switch to HierarchicalSelect optimized",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400000511102022"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.27": {
+        "date": "August 2022",
+        "notes": [
+            {
+                "id": "6d7d068e7ccf4c1bf2e14feccf7b7896ffa6643b",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageSection: Generic section label restricted",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "2240323326"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.84.51": {
+        "date": "June 2025",
+        "notes": [
+            {
+                "id": "42e052ccf61d4e70554f9464c7ca1e07bc170817",
+                "type": "FIX",
+                "text": " sap.uxap.BlockBase: Error with duplicate ID prevented"
+            },
+            {
+                "id": "78f9f66697c0258c5d24e1f53d24f6d0a6e51191",
+                "type": "FIX",
+                "text": " sap.uxap.ObjectPageLayout: Remove restrictions for text size"
+            }
+        ]
     }
 }

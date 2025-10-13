@@ -174,6 +174,13 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.138.99&amp;versionTo=1.139.0</guid>
 </item>
 <item>
+<title>Version 1.139.1 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.139.0&amp;versionTo=1.139.1</link>
+<pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.139.1</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.ComboBox: qUnit tests are now stabilized</li><li>Type: FIX, Description:  sap.m.Tokenizer: first token is now not truncated when not needed</li><li>Type: FIX, Description:  core/Popup: Use activeElement of both light and shadow DOM to determine focus loss</li><li>Type: FIX, Description:  m.VariantManagement: add aria-expanded &amp; aria-haspopup</li><li>Type: FIX, Description:  sap.m.Avatar: Fix image not visible, when initials are incorrect</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FEATURE, Description:  sap.ui.core: make sap/ui/Device a standard AMD module</li><li>Type: FEATURE, Description:  sap/ui/base: enable static inheritance for UI5 classes</li><li>Type: FEATURE, Description:  Make the experimental new bootstrap the productive one</li><li>Type: FIX, Description:  core/Popup: Use activeElement of both light and shadow DOM to determine focus loss</li><li>Type: FIX, Description:  core/interaction: Cache failed requests to avoid retry attempts</li><li>Type: FIX, Description:  sap.base.config: fix logging for URL parameters</li><li>Type: FIX, Description:  sap/ui/core/AppCAcheBuster.js: Core.ready() does not resolve</li></ul></li><li><strong>Library: sap.ui.layout</strong><ul><li>Type: FEATURE, Description:  SimpleForm: use ColumnLayout as default</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageSection - hidden title aria-labelledby</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.139.0&amp;versionTo=1.139.1</guid>
+</item>
+<item>
 <title>Version 1.140.0 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.139.99&amp;versionTo=1.140.0</link>
 <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
@@ -188,6 +195,13 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.140.99&amp;versionTo=1.141.0</guid>
 </item>
 <item>
+<title>Version 1.141.1 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.141.0&amp;versionTo=1.141.1</link>
+<pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.141.1</h2><ul><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap/ui/core/Theming: Ensure to fully await ThemeManager</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.141.0&amp;versionTo=1.141.1</guid>
+</item>
+<item>
 <title>Version 1.38.65 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.38.64&amp;versionTo=1.38.65</link>
 <pubDate>Thu, 01 May 2025 00:00:00 GMT</pubDate>
@@ -200,6 +214,27 @@
 <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.71.72</h2><ul><li><strong>Library: sap.ui.commons</strong><ul><li>Type: FIX, Description:  sap.ui.commons.ToolbarRightItems: fix unstable tests</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.71.71&amp;versionTo=1.71.72</guid>
+</item>
+<item>
+<title>Version 1.84.51 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.50&amp;versionTo=1.84.51</link>
+<pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.84.51</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.ui.unified.calendar.Month: Improve day re-rendering peformance</li><li>Type: FIX, Description:  sap.m ScrollContainer: unstable QUnit tests are now skipped</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.core.qunit.i18n.UniversalDateUtils.qunit.js: Improve test stability for different time zones</li><li>Type: FIX, Description:  sap.ui.core.qunit.i18n.UniversalDateUtils.qunit.js: Fix failing tests</li><li>Type: FIX, Description:  sap/ui/model/odata/ODataMetadata#__getPropertyMetadata: fix nested complex type properties</li></ul></li><li><strong>Library: sap.ui.layout</strong><ul><li>Type: FIX, Description:  sap.ui.layout.PaneContainer: fix invalidation of nested panes</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.calendar.Month: Improve day re-rendering peformance</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.BlockBase: Error with duplicate ID prevented</li><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Remove restrictions for text size</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.50&amp;versionTo=1.84.51</guid>
+</item>
+<item>
+<title>Version 1.84.52 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.51&amp;versionTo=1.84.52</link>
+<pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.84.52</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We now ensure that a PDF loads irrespective of the contentType if isTrustedSource is set to true</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.51&amp;versionTo=1.84.52</guid>
+</item>
+<item>
+<title>Version 1.84.53 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.52&amp;versionTo=1.84.53</link>
+<pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.84.53</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We&apos;ve now fixed the SAP gateway issues for PDFViewer</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.52&amp;versionTo=1.84.53</guid>
 </item>
 
 </channel>

@@ -53,5 +53,20 @@
                 "text": " SmartField: isDigitalSequence ComboBox shows \"00\""
             }
         ]
+    },
+    "1.139.1": {
+        "date": "October 2025",
+        "notes": [
+            {
+                "id": "64b105f799329497ebc5058c2845978215c240a7",
+                "type": "FIX",
+                "text": " FilterBar: stop calling suspend on item bindings if it suspended"
+            },
+            {
+                "id": "bfd3d3d5a829a436cbb5bce3197a6211b9c45d8f",
+                "type": "FIX",
+                "text": " SmartFilterBar: prevent calling ensureFilterLoaded on each onBeforeRendering"
+            }
+        ]
     }
 }
