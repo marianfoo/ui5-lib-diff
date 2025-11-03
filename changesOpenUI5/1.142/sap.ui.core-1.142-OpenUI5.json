@@ -1,0 +1,57 @@
+{
+    "1.142.0": {
+        "date": "October 2025",
+        "notes": [
+            {
+                "id": "1c4d74b0da8c7988ea0544888ee9db268f4c7558",
+                "type": "FIX",
+                "text": " qunit/Ownstatics.qunit: enhance the error message check for Safari"
+            },
+            {
+                "id": "17df8d520f5abf0f5cd497e908deb75d33e8b332",
+                "type": "FIX",
+                "text": " core/Router: improve the type definition for component target"
+            },
+            {
+                "id": "92d0d7aa6d1bb1cc548aa9cc01460ba05c73d74e",
+                "type": "FIX",
+                "text": " sap/ui/model/odata/v2/ODataTreeBinding: $count requests must not contain $expand or $select"
+            },
+            {
+                "id": "dad8a245340df07f3d5f435577a42bc26e8651c3",
+                "type": "FIX",
+                "text": " sap/ui/core/Theming: Ensure to fully await ThemeManager"
+            },
+            {
+                "id": "dc418e963807d03a37cfb298d8e8169c89520efe",
+                "type": "FIX",
+                "text": " sap/ui/core/Theming: Fix order of library.css"
+            },
+            {
+                "id": "54e59ba3f6629da166c7ce0708aba078856cf887",
+                "type": "FEATURE",
+                "text": " sap/ui/test/starter: document configuration types"
+            },
+            {
+                "id": "67133b806604afc076ff48027bd565bcbdd3c67b",
+                "type": "FIX",
+                "text": " core/Popup: Use activeElement of both light and shadow DOM to determine focus loss"
+            },
+            {
+                "id": "4cfc1ff9849e637d6ba317aa4253c861bf7ea0c3",
+                "type": "FIX",
+                "text": " sap/ui/util/_URL: Resolve URL correctly absolut when host differs"
+            },
+            {
+                "id": "db40b2b3f8602a1dcbe2f4098f09ca69c06aa561",
+                "type": "FIX",
+                "text": " core/interaction: Cache failed requests to avoid retry attempts"
+            },
+            {
+                "id": "0977bd0d2c419bd3d5bbff13c40e67dbebe8c9eb",
+                "type": "FIX",
+                "text": " ManagedObjectModel: Use original binding's length if no filters are applied"
+            }
+        ]
+    }
+}

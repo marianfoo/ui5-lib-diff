@@ -780,5 +780,20 @@
                 "text": " We now ensure that duplicate parameters aren't passed to the filter bar"
             }
         ]
+    },
+    "1.120.31": {
+        "date": "October 2025",
+        "notes": [
+            {
+                "id": "ed1c8025a1ae238fd4b95fcefb0ce59812476e97",
+                "type": "FIX",
+                "text": " We've resolved an issue where the type-ahead suggestions weren't shown when focusing on a field for the first time"
+            },
+            {
+                "id": "cd6cb3b4121fd370469206d41f63b8f8fda36d53",
+                "type": "FIX",
+                "text": " We no longer trigger a search when unknown parameters are passed"
+            }
+        ]
     }
 }

@@ -176,5 +176,32 @@
                 ]
             }
         ]
+    },
+    "1.120.39": {
+        "date": "Oct 2025",
+        "notes": [
+            {
+                "id": "Ie8baff2fe12ee117989e627d29e2821cccf08e30",
+                "text": "Fixed shapes drag drop issue when row highlight is enabled in Gantt",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010632307"
+                    }
+                ]
+            },
+            {
+                "id": "I1f655b583b014cac332b5b1f4ba256dcf9161503",
+                "text": "We've now fixed the rendering error of gantt chart total horizon on larger screens",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009444112"
+                    }
+                ]
+            }
+        ]
     }
 }

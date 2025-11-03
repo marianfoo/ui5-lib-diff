@@ -1,0 +1,72 @@
+{
+    "1.142.0": {
+        "date": "October 2025",
+        "notes": [
+            {
+                "id": "I4552b620ab9877f485fc113f0cbdf880e2a79296",
+                "type": "FEATURE",
+                "text": "You can now prevent unintended navigation after executing an action in an object page table"
+            },
+            {
+                "id": "I7f4178b9708be3e19fe80317c9ab8a7aa5d8f387",
+                "type": "FEATURE",
+                "text": "We now show an illustrated message if there is no data in a table"
+            },
+            {
+                "id": "Iae65f98544d412b75a5e005b1a8a1899de88de41",
+                "type": "FIX",
+                "text": "We now support subsection-level loading behavior with the SubSectionId in the manifest.json file",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0619665"
+                    }
+                ]
+            },
+            {
+                "id": "I784a46f6f0486da66c93342c04c1e9b072531a2a",
+                "type": "FIX",
+                "text": "We've resolved an issue where application title and navigation were not consistent when object page was embedded in the My Inbox application",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250009701239"
+                    }
+                ]
+            },
+            {
+                "id": "I3817e72eabd3244c3bda51b7a46f8c31cfcada31",
+                "type": "FIX",
+                "text": "We've resolved an issue where the visibility of the file uploader button was not set correctly when dynamically controlled by a field control value",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0586257"
+                    }
+                ]
+            },
+            {
+                "id": "I31ed439a1b51f3c6278c35258cbe8373aa321d31",
+                "type": "FIX",
+                "text": "We've resolved an issue where selection in filter-selection lists did not reflect in the visual filter bar in analytical list page applications",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0582745"
+                    }
+                ]
+            },
+            {
+                "id": "I92ca71c37196e3fb8519209f6ce5412b1d1653c2",
+                "type": "FIX",
+                "text": "We've resolved an issue where the enablement state of table toolbar buttons on the list report page was not updated correctly after returning from the object page following a property change",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0600513"
+                    }
+                ]
+            }
+        ]
+    }
+}

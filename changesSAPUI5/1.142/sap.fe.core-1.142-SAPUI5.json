@@ -1,0 +1,57 @@
+{
+    "1.142.0": {
+        "date": "October 2025",
+        "notes": [
+            {
+                "id": "e30ba130eba91225ec1b1979fe816cfb4647a69e",
+                "type": "FEATURE",
+                "text": " You can now use separators for grouped actions"
+            },
+            {
+                "id": "47a61e514722f04fca048481781eeb15b41272fd",
+                "type": "FEATURE",
+                "text": " We now determine the table type based on the service definition"
+            },
+            {
+                "id": "16ce0db459189955d4032c73859e4a145a8869a0",
+                "type": "FEATURE",
+                "text": " We now provide the preferredAction startup parameter to automatically trigger the SmartSummary action on the object page"
+            },
+            {
+                "id": "22842bcfae4eabccf7242c187d7ac06f6fa2dfa5",
+                "type": "FEATURE",
+                "text": " We now use the OperationAvailable annotation to check if a user has the required permission to edit a collaborative draft"
+            },
+            {
+                "id": "1931079281ac95551c5bf91833b18069cfbd9a51",
+                "type": "FEATURE",
+                "text": " We now terminate ABAP draft sessions when users move away from the draft"
+            },
+            {
+                "id": "284662931e7eb3803044225d7d8a26d607e8f028",
+                "type": "FEATURE",
+                "text": " You can now use the colorPalette property in the Status building block"
+            },
+            {
+                "id": "1fc0f1568cd39e357506f63d9dc5f8f9f9609491",
+                "type": "FEATURE",
+                "text": " We now provide an API on the Table building block to select contexts or clear the selection"
+            },
+            {
+                "id": "09bbe7e886184ac97ca063e61542cefcb7be1496",
+                "type": "FEATURE",
+                "text": " You can now use semantically connected fields in tables"
+            },
+            {
+                "id": "4dc87daba926e97e8d1ef24f76ff63d89dc5ab64",
+                "type": "FIX",
+                "text": " You can now use the WebSocketBaseURL annotation with a relative path"
+            },
+            {
+                "id": "31ac5a60afa9ee70785039e72695fd1ccaaeee18",
+                "type": "FIX",
+                "text": " We now exclude hidden properties in an analytical table when using the Export feature in split mode"
+            }
+        ]
+    }
+}
