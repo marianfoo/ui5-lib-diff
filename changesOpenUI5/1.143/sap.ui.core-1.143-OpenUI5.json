@@ -1,0 +1,52 @@
+{
+    "1.143.0": {
+        "date": "November 2025",
+        "notes": [
+            {
+                "id": "c9768c9f1a02f669d5c129f6fd3af5a2badae377",
+                "type": "FIX",
+                "text": " sap/ui/model/ClientTreeBinding#cloneData: use a clone for this.oTreeData"
+            },
+            {
+                "id": "05315efa2c7ac18cde5bc321b133955986a6855a",
+                "type": "FIX",
+                "text": " core/routing: no usage of history state API in Safari"
+            },
+            {
+                "id": "dfdb09dabb7f6a572605a1370fe3451478bec0a4",
+                "type": "FIX",
+                "text": " sap/ui/model/ClientTreeBinding#checkUpdate: only fire change if data has changed"
+            },
+            {
+                "id": "a020c4c4d88809984c84892f4832f43d77cca305",
+                "type": "FIX",
+                "text": " core/LabelEnablement: Verify control existence before keeping DOM after destroy"
+            },
+            {
+                "id": "8507dfce5881f7f6fee110d36834f5093fc70187",
+                "type": "FIX",
+                "text": " sap/ui/thirdparty: bump RequireJS to 2.3.7"
+            },
+            {
+                "id": "316611004fa9ee5ddd855840208c2550104a3d09",
+                "type": "FIX",
+                "text": " sap/ui/performance/Measurement: Avoid multiple XHRInterceptor registrations"
+            },
+            {
+                "id": "918989b0b88f0234cd958ee8440028f209532bfe",
+                "type": "FIX",
+                "text": " sap/ui/test/: manually fire focus events when browser inactive"
+            },
+            {
+                "id": "140873979b13a7ca16c0abfc67c234ed3d13181f",
+                "type": "FIX",
+                "text": " core/Component: Propagate ownerId to onModelCreated hook"
+            },
+            {
+                "id": "d2080a6358ee7aa884fc422baaa2ffdac7f80026",
+                "type": "FIX",
+                "text": " sap/base/security/sanitizeHTML: Add support for `text-decoration-line` CSS property"
+            }
+        ]
+    }
+}

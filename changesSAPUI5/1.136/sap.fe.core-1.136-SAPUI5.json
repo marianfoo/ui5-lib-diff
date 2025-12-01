@@ -223,5 +223,25 @@
                 "text": " We now ensure that the busy indicator appears consistently for action parameter dialogs"
             }
         ]
+    },
+    "1.136.11": {
+        "date": "November 2025",
+        "notes": [
+            {
+                "id": "c81819e5c4574e8f7ed63cd7e50155feb0dad116",
+                "type": "FIX",
+                "text": " We now use the default hierarchy qualifier from the service definition if no hierarchyQualifier is defined for a tree table"
+            },
+            {
+                "id": "3440e4f22cdd048321d09587f25d10811fb1b323",
+                "type": "FIX",
+                "text": " We now correctly display a key property in the create dialog when the key has a text annotation and doesn't have a Core.Computed annotation"
+            },
+            {
+                "id": "d70fac0e87b829d4a7477fcfb1bd22aa46ed3ed2",
+                "type": "FEATURE",
+                "text": " We’re introducing the SAP Fiori development portal to offer guidance to developers when creating SAP Fiori elements apps"
+            }
+        ]
     }
 }

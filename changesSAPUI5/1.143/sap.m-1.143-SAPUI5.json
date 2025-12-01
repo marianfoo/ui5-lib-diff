@@ -1,0 +1,162 @@
+{
+    "1.143.0": {
+        "date": "November 2025",
+        "notes": [
+            {
+                "id": "7f58605b40941dadbe763fe55ca10da8a91f6418",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: fixed menuPosition functionality"
+            },
+            {
+                "id": "a6acddc06f93fde275423463ae59fcaae41b9a72",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: Remove custom shadow overwriting"
+            },
+            {
+                "id": "79075e911f590881d6ca42a63c4f30492652c379",
+                "type": "FIX",
+                "text": " sap.m.ComboBox: Group header announced only once"
+            },
+            {
+                "id": "dfdb09dabb7f6a572605a1370fe3451478bec0a4",
+                "type": "FIX",
+                "text": " sap/ui/model/ClientTreeBinding#checkUpdate: only fire change if data has changed"
+            },
+            {
+                "id": "62e65461243e87d87f6b6fc2de72f003a69caec0",
+                "type": "FIX",
+                "text": " sap.m.Menu: fixed context menu appearance in RTL"
+            },
+            {
+                "id": "53debfc2c94a8b9892bd66c85fe1444a6e8c5694",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: Add the browser event information to the UI5 event"
+            },
+            {
+                "id": "8dfbf713ff070df232d8acc6cef7753ac92f21e7",
+                "type": "FIX",
+                "text": " We've now removed the iframe content check while loading a PDF to display it"
+            },
+            {
+                "id": "db552e3375a6f87450cb861d2af0d7fcef1ec7dd",
+                "type": "FEATURE",
+                "text": " sap.m.MessageStrip: ColorSet and colorScheme properties are now added to customize appearances"
+            },
+            {
+                "id": "25d37f64df4adf6837635cb96af9d72899f6c0ac",
+                "type": "FIX",
+                "text": " sap.m.Switch: change state when space is clicked together with shift or espace is prevented."
+            },
+            {
+                "id": "32fad0484bd14dc2de81a37efb14252135521762",
+                "type": "FIX",
+                "text": " We've now removed the iframe content check while loading a PDF to display it"
+            },
+            {
+                "id": "845911582fc0bc9a61cd4386912fcedd2f94e07b",
+                "type": "FIX",
+                "text": " sap.m.CheckBox: Condensed layout corrected"
+            },
+            {
+                "id": "77268798a8fd8f312bc60e5b8ab42e5f17a9a245",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: Add the browser event information to the UI5 event"
+            },
+            {
+                "id": "083c03cee5ec701dfb9f23233ffe378bac56e0d6",
+                "type": "FIX",
+                "text": " sap.m.DateTimePicker: fix test about timezone failing in safari"
+            },
+            {
+                "id": "bc1eb6ffbabdcf6288b460b47fe2c151579415c5",
+                "type": "FEATURE",
+                "text": " sap.m.MultiInput: disable mobile multi-select button when no tokens"
+            },
+            {
+                "id": "a86deb067adc219ea98b536f345cb7d80655a95b",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: open menu with arrow down + alt is fixed"
+            },
+            {
+                "id": "dbe2b6d4e1df4b6c86d32b0fe6de67f7b5c003a6",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: Icon only status has correct aria and tooltip"
+            },
+            {
+                "id": "2a1ea24dbffcd54948dbcf35ec6345040ba5a435",
+                "type": "FIX",
+                "text": " We've now fixed the width of slideTile and genericTile when they are placed inside a ushell section"
+            },
+            {
+                "id": "48d395d740ccbb657b5e046cba2a9f36471a50a6",
+                "type": "FIX",
+                "text": " sap.m.StepInput: largerStep is working with floating point numbers now"
+            },
+            {
+                "id": "658a02778e2fec2d0e05c2988a8b88eab1cb2dd4",
+                "type": "FIX",
+                "text": " sap.m.MessagePopover: AriaLabelledBy element is now created"
+            },
+            {
+                "id": "77fdae672e3ba566ac0fcccc919159300e958ad2",
+                "type": "FIX",
+                "text": " SelectionPanel: Update count correctly when no filter is applied"
+            },
+            {
+                "id": "fc27cd50d2585f503d84de75bac1ee232e16f637",
+                "type": "FIX",
+                "text": " sap.m.StepInput: range validation is working properly now when there is binding for valueState but no value is provided"
+            },
+            {
+                "id": "b3557dad515a8e2ccbddae66c5fd3c0f7429204b",
+                "type": "FIX",
+                "text": " sap.m.ComboBox: Picker now closes on table scroll"
+            },
+            {
+                "id": "98fbe9f0751b23e4b370f30a1498bc3c2fd16c4b",
+                "type": "FIX",
+                "text": " sap.m.DatePicker: has correct placeholder"
+            },
+            {
+                "id": "4e3f4fe5bdfdc37c44982029cc67cc36be85e240",
+                "type": "FIX",
+                "text": " p13n.BasePanel: fix RangeSelect with keyboard handling"
+            },
+            {
+                "id": "8a9b61c0bc55f0a985505d494a8d1f7cd4f7a187",
+                "type": "FIX",
+                "text": " p13n.FilterPanel: add tooltip support for labels"
+            },
+            {
+                "id": "11ec5f3cde26b717cd5e167019e20739566de285",
+                "type": "FIX",
+                "text": " sap.m.DatePicker: close picker on context change"
+            },
+            {
+                "id": "ec811beba4d3495486ce69e990f6c81cfd4d9784",
+                "type": "FIX",
+                "text": " sap.m.Select: Correct dropdown width when wrapItemsText enabled"
+            },
+            {
+                "id": "116aac130838542f07a2d795a00624152404283f",
+                "type": "FIX",
+                "text": " sap.m.SegmentedButton: the build is fixed"
+            },
+            {
+                "id": "68f5cb39d5a0b265fe1101dc86ca8e0190cfac07",
+                "type": "FIX",
+                "text": " sap.m.ViewSettingsDialog: add a view settings dialog items active announcement"
+            },
+            {
+                "id": "3b28e36406ae8d7a45b93ff1e0148322ffca57b8",
+                "type": "FIX",
+                "text": " sap.m.Menu: Fixed Menu Title left padding in mobile view"
+            },
+            {
+                "id": "fde6970be65b141bbc6a3a0e8dfca46eba00d933",
+                "type": "FIX",
+                "text": " sap.m.ObjectAttribute: Empty indicator is displayed correctly"
+            }
+        ]
+    }
+}

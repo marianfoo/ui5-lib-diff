@@ -204,5 +204,60 @@
                 "text": " We've now fixed the issue of inconsistent decimal digits shown in the smart charts"
             }
         ]
+    },
+    "1.136.9": {
+        "date": "November 2025",
+        "notes": [
+            {
+                "id": "a9aeda1a96f1468b07f4746cede0ff990a0d1a50",
+                "type": "FIX",
+                "text": " Personalization/ColumnsController: column freeze is correctly preserved when comes from variant"
+            },
+            {
+                "id": "a85f5d38afd50c868778f909c1254fa4acd7845d",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Add Condition button now has correct text and ScreenReader announcement"
+            },
+            {
+                "id": "991d84eeef25139fdd1ecb6e6c9958485d2dc8f6",
+                "type": "FIX",
+                "text": " SmartFilterBar: validation for input is now correct and the value state is not overriden when not necessary"
+            },
+            {
+                "id": "2c558a35bf40f5d1c694eb28f0c2b52e7ab9113b",
+                "type": "FIX",
+                "text": " SmartForm: getConderserInfo method is now handles SmartForm control instance correctly"
+            },
+            {
+                "id": "d2c857fe5ef5afffde5575bfa6cd94a313cac88d",
+                "type": "FIX",
+                "text": " GroupElement's visibility property remains unchanged if its value is bound"
+            },
+            {
+                "id": "64b5c09e73f2f37e5c0b95b43cf7f2766082aebf",
+                "type": "FIX",
+                "text": " SmartFilterBar: validation for input is now correct when same invalid value is entered and no error is thrown"
+            },
+            {
+                "id": "4a9c9cf2688bdf7d6c0d846477cab038a4a3fbf7",
+                "type": "FIX",
+                "text": " SmartFilterBar: validation for input is now correct when same invalid value is entered and no error is thrown"
+            },
+            {
+                "id": "66ab2c42228664ff0722346d2f3cdca768d23061",
+                "type": "FIX",
+                "text": " SmartFilterBar: validation for input is now correct when same invalid value is entered"
+            },
+            {
+                "id": "ad978a18c54e7481fc03d92fb95fb051af728e6b",
+                "type": "FIX",
+                "text": " SmartFilterBar: Saving composite keys in the variant is now supported"
+            },
+            {
+                "id": "6e15833bd931edc5565fca3c33392bdc427e21c3",
+                "type": "FIX",
+                "text": " GroupElement is now hidden when there are no visible children"
+            }
+        ]
     }
 }
