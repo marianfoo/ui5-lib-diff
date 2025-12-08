@@ -886,5 +886,30 @@
                 "text": " SmartField: exception when changing binding context"
             }
         ]
+    },
+    "1.120.39": {
+        "date": "December 2025",
+        "notes": [
+            {
+                "id": "0ea2d0fa996e6cc02525b0bd85d99568e39edd3d",
+                "type": "FIX",
+                "text": " ColumnsController now works with the index from the table event"
+            },
+            {
+                "id": "47ea2ee5a933acd798b58d9f884cb9a9ee670722",
+                "type": "FIX",
+                "text": " Personalization/ColumnsController: column freeze is correctly preserved when comes from variant"
+            },
+            {
+                "id": "b14d1b9b9e2fa35dc7b686a0057b30bce2a8c3fc",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Add Condition button now has correct text and ScreenReader announcement"
+            },
+            {
+                "id": "598942a29fcd7543362bc10a9a32bffd89ed40f2",
+                "type": "FIX",
+                "text": " GroupElement's visibility property remains unchanged if its value is bound"
+            }
+        ]
     }
 }

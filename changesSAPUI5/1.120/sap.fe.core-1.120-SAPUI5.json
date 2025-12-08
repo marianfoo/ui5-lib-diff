@@ -1113,5 +1113,36 @@
                 "text": " We've resolved an issue where the type-ahead suggestions weren't shown when focusing on a field for the first time"
             }
         ]
+    },
+    "1.120.32": {
+        "date": "December 2025",
+        "notes": [
+            {
+                "id": "70e93ca37d1eddbf1cd9b162ce6a803c847ccf67",
+                "type": "FIX",
+                "text": " We now add the default value for an action parameter of type decimal"
+            },
+            {
+                "id": "08e0130e8d7281b21d6ea01fdd58abc9e71a2cc8",
+                "type": "FIX",
+                "text": " We've resolved an issue with duplicate control IDs"
+            },
+            {
+                "id": "e47c5b47dc09ab7a2820803c06f097717587a459",
+                "type": "FIX",
+                "text": " We have resolved an issue with rendering custom form elements when using the Form building block",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129400009290902023"
+                    }
+                ]
+            },
+            {
+                "id": "e7077eb0bb61d98dd487d9eb059988a6cbd596ad",
+                "type": "FIX",
+                "text": " We now correctly encode the hash used for email URLs"
+            }
+        ]
     }
 }

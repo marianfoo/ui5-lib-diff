@@ -1302,5 +1302,26 @@
                 ]
             }
         ]
+    },
+    "1.120.40": {
+        "date": "December 2025",
+        "notes": [
+            {
+                "id": "Ifb34fa62dd255bec187c63b66487130e55c97211",
+                "type": "FIX",
+                "text": "We no longer display the placeholder on the list report page when Apply Automatically is enabled for the variant but the required SmartFilterBar field contains invalid values",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010310297"
+                    }
+                ]
+            },
+            {
+                "id": "I669ed16148a2459c840c335296adff4ee800a461",
+                "type": "FIX",
+                "text": "We've resolved an issue where navigating back to the object page from a draft entity after activation using a determining action caused errors"
+            }
+        ]
     }
 }
