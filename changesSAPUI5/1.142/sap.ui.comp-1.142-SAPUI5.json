@@ -63,5 +63,40 @@
                 "text": " GroupElement is now hidden when there are no visible children"
             }
         ]
+    },
+    "1.142.1": {
+        "date": "December 2025",
+        "notes": [
+            {
+                "id": "1a22a8ce050348b8f3ba8f3dec97a7f60b57fb13",
+                "type": "FIX",
+                "text": " SmartField: Improvement of UoM format handling"
+            },
+            {
+                "id": "73ca85c9d836af8b31c79c40f4b06ed47886732c",
+                "type": "FIX",
+                "text": " SVMUI2: Rename delVariant to deleteVariant"
+            },
+            {
+                "id": "6044d17327298c8021d59b7e88b572f077dbf980",
+                "type": "FIX",
+                "text": " Personalization/ColumnsController: column freeze is correctly preserved when comes from variant"
+            },
+            {
+                "id": "4f5e0ca7a2d2913f4c10db7048631ad58b26fb22",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Add Condition button now has correct text and ScreenReader announcement"
+            },
+            {
+                "id": "89447dcb6e2e4907d88cdc40c9c5d4fc08d5b7c2",
+                "type": "FIX",
+                "text": " SmartForm: getConderserInfo method is now handles SmartForm control instance correctly"
+            },
+            {
+                "id": "f2953da71ebb0c1668f12fd45cf089c32005b2ac",
+                "type": "FIX",
+                "text": " GroupElement's visibility property remains unchanged if its value is bound"
+            }
+        ]
     }
 }

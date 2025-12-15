@@ -33,5 +33,25 @@
                 "text": " We now ensure that the setSelectionVariant API works correctly in tables"
             }
         ]
+    },
+    "1.142.1": {
+        "date": "December 2025",
+        "notes": [
+            {
+                "id": "703fa4127fb21f0186e056e2a68cd864bfdd22cc",
+                "type": "FIX",
+                "text": " You can now set menu items defined using DataActionForGroup to be navigable"
+            },
+            {
+                "id": "10eaff39b1248de549c9578d96fd062f5b2f32d9",
+                "type": "FIX",
+                "text": " We now correctly resolve action parameter values when the Common.Text annotation points to a property with the same name"
+            },
+            {
+                "id": "79aa24f52e4b95645810613c2c24435563e59852",
+                "type": "FIX",
+                "text": " We now ensure that the Enabled property of actions is bound correctly for grouped table actions in custom sections"
+            }
+        ]
     }
 }
