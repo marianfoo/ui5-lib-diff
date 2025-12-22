@@ -160,6 +160,13 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.8&amp;versionTo=1.136.9</guid>
 </item>
 <item>
+<title>Version 1.136.10 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.9&amp;versionTo=1.136.10</link>
+<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.136.10</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPage: Correct header repositioning in both directions</li></ul></li><li><strong>Library: sap.fe.core</strong><ul><li>Type: FIX, Description:  We now ensure that the busy indicator appears consistently for action parameter dialogs</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We now trigger a fetch call to load PDF content and determine PDF availability in the PDFViewer</li><li>Type: FIX, Description:  sap.m.SplitContainer: Fixed box-shadow parameter</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where application title and navigation were not consistent when object page was embedded in the My Inbox application</li><li>Type: FIX, Description: You can now configure the settings of related apps using the extension controller</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  FilterController: Selection from ValueHelp in single fields now works correctly</li><li>Type: FIX, Description:  SmartField: Improvement of UoM format handling</li><li>Type: FIX, Description:  SVMUI2: Rename delVariant to deleteVariant</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap/base/security/sanitizeHTML: Add support for modern CSS display values</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  Field: if ComboBox-Like wrong accessibility info</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Fix wrong title in AnchorBar</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.9&amp;versionTo=1.136.10</guid>
+</item>
+<item>
 <title>Version 1.136.2 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.1&amp;versionTo=1.136.2</link>
 <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
@@ -195,18 +202,18 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.7&amp;versionTo=1.136.8</guid>
 </item>
 <item>
-<title>Version 1.136.10 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.9&amp;versionTo=1.136.10</link>
-<pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.136.10</h2><ul><li><strong>Library: sap.fe.core</strong><ul><li>Type: FIX, Description:  We now ensure that the busy indicator appears consistently for action parameter dialogs</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where application title and navigation were not consistent when object page was embedded in the My Inbox application</li><li>Type: FIX, Description: You can now configure the settings of related apps using the extension controller</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.9&amp;versionTo=1.136.10</guid>
-</item>
-<item>
 <title>Version 1.136.11 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.10&amp;versionTo=1.136.11</link>
 <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.136.11</h2><ul><li><strong>Library: sap.fe.core</strong><ul><li>Type: FEATURE, Description:  We’re introducing the SAP Fiori development portal to offer guidance to developers when creating SAP Fiori elements apps</li><li>Type: FIX, Description:  We now use the default hierarchy qualifier from the service definition if no hierarchyQualifier is defined for a tree table</li><li>Type: FIX, Description:  We now correctly display a key property in the create dialog when the key has a text annotation and doesn&apos;t have a Core.Computed annotation</li></ul></li><li><strong>Library: sap.fe.macros</strong><ul><li>Type: FIX, Description:  We now ensure that custom fields are added correctly to variants</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue on the analytical list page where navigation failed after selecting a value from value help and pressing Enter</li></ul></li></ul>]]></description>
+<description><![CDATA[<h2>Changes in Version 1.136.11</h2><ul><li><strong>Library: sap.fe.core</strong><ul><li>Type: FEATURE, Description:  We’re introducing the SAP Fiori development portal to offer guidance to developers when creating SAP Fiori elements apps</li><li>Type: FIX, Description:  We now use the default hierarchy qualifier from the service definition if no hierarchyQualifier is defined for a tree table</li><li>Type: FIX, Description:  We now correctly display a key property in the create dialog when the key has a text annotation and doesn&apos;t have a Core.Computed annotation</li></ul></li><li><strong>Library: sap.fe.macros</strong><ul><li>Type: FIX, Description:  We now ensure that custom fields are added correctly to variants</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.ViewSettingsDialog: Remove redundant announcements from sort and group list items</li><li>Type: FIX, Description:  sap.m.Toolbar: exclude disabled controls from Toolbar navigation</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue on the analytical list page where navigation failed after selecting a value from value help and pressing Enter</li></ul></li><li><strong>Library: sap.ui.export</strong><ul><li>Type: FIX, Description:  ExportDialog: Apply file type only with actual type change</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.10&amp;versionTo=1.136.11</guid>
+</item>
+<item>
+<title>Version 1.136.12 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.11&amp;versionTo=1.136.12</link>
+<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.136.12</h2><ul><li><strong>Library: sap.fe.core</strong><ul><li>Type: FIX, Description:  We now add the default value for an action parameter of type decimal</li></ul></li><li><strong>Library: sap.fe.macros</strong><ul><li>Type: FIX, Description:  We now ensure that the Enabled property of actions is bound correctly for grouped table actions in custom sections</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where navigating back to the object page from a draft entity after activation using a determining action caused errors</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.11&amp;versionTo=1.136.12</guid>
 </item>
 <item>
 <title>Version 1.136.6 Changes</title>
@@ -216,11 +223,11 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.5&amp;versionTo=1.136.6</guid>
 </item>
 <item>
-<title>Version 1.136.12 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.11&amp;versionTo=1.136.12</link>
+<title>Version 1.136.13 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.12&amp;versionTo=1.136.13</link>
 <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.136.12</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where navigating back to the object page from a draft entity after activation using a determining action caused errors</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.11&amp;versionTo=1.136.12</guid>
+<description><![CDATA[<h2>Changes in Version 1.136.13</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: The AI-assisted easy filter now correctly handles semantic date fields when applying and resetting filters</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.12&amp;versionTo=1.136.13</guid>
 </item>
 <item>
 <title>Version 1.138.0 Changes</title>
@@ -347,6 +354,13 @@
 <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.71.73</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We&apos;ve now fixed the SAP gateway issues for PDFViewer</li></ul></li><li><strong>Library: sap.ui.richtexteditor</strong><ul><li>Type: FIX, Description:  sap.ui.richtexteditor.RichTextEditor: Make qUnit tests version specific</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageHeader: Improve responsive paddings</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.71.72&amp;versionTo=1.71.73</guid>
+</item>
+<item>
+<title>Version 1.71.75 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.71.74&amp;versionTo=1.71.75</link>
+<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.71.75</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We now trigger a fetch call to load PDF content and determine PDF availability in the PDFViewer</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.71.74&amp;versionTo=1.71.75</guid>
 </item>
 <item>
 <title>Version 1.71.74 Changes</title>
