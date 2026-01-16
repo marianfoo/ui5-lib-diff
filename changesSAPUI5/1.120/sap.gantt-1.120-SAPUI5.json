@@ -203,5 +203,32 @@
                 ]
             }
         ]
+    },
+    "1.120.41": {
+        "date": "Jan 2026",
+        "notes": [
+            {
+                "id": "Id573412afcba4a8a5277acc2014f3aafa675047a",
+                "text": "We've now fixed the zoom level issue for StepwiseZoomStrategy in gantt chart",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011092376"
+                    }
+                ]
+            },
+            {
+                "id": "Ib471ff64a9cc8218cfc826fb14b46f851b3e02ce",
+                "text": "We've now fixed the parameter ordering mismatch between dependency array and function parameters in ShapeManager for Gantt 1.0",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010865944"
+                    }
+                ]
+            }
+        ]
     }
 }
