@@ -1,17 +1,20 @@
 require('dotenv').config();
 const fs = require('fs');
+const zlib = require('zlib');
 
 const GITHUB_API_URL = 'https://api.github.com/repos/SAP/openui5/commits';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 if (!GITHUB_TOKEN) {
     throw new Error('GITHUB_TOKEN is not set in .env file');
 }
-const OUTPUT_FILE = 'openui5-commits.json';
+const OUTPUT_FILE = 'openui5-commits.json.gz';
 
 async function fetchCommits() {
     let commits = [];
     if (fs.existsSync(OUTPUT_FILE)) {
-        commits = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf8'));
+        // Read and decompress the gzipped file
+        const compressedData = fs.readFileSync(OUTPUT_FILE);
+        commits = JSON.parse(zlib.gunzipSync(compressedData).toString('utf8'));
         console.log(`Loaded ${commits.length} existing commits from ${OUTPUT_FILE}`);
     }
 
@@ -64,8 +67,9 @@ async function fetchCommits() {
                 // Add new commits to the beginning to maintain chronological order
                 commits = newCommits.concat(commits);
                 
-                // Save to file after each fetch if we have new commits
-                fs.writeFileSync(OUTPUT_FILE, JSON.stringify(commits, null, 2));
+                // Save to compressed file after each fetch if we have new commits
+                const compressedData = zlib.gzipSync(JSON.stringify(commits, null, 2));
+                fs.writeFileSync(OUTPUT_FILE, compressedData);
                 console.log(`Fetched page ${page} with ${newCommits.length} new commits. Total: ${commits.length} commits saved to ${OUTPUT_FILE}`);
             } else {
                 console.log(`Page ${page}: No new commits found`);

@@ -14,10 +14,11 @@
 
 const fs = require('fs');
 const path = require('path');
+const zlib = require('zlib');
 
 // Directories containing note JSON
 const changesDirs = ['changesSAPUI5', 'changesOpenUI5'];
-const commitsFilePath = './openui5-commits.json';
+const commitsFilePath = './openui5-commits.json.gz';
 const outputMatchFile = 'commits-changes-match.json';
 
 /**
@@ -173,7 +174,9 @@ async function run() {
   // More detailed timing for loading phase
   console.time('Reading commits');
   console.time('Parse commits JSON');
-  const commitsData = JSON.parse(fs.readFileSync(commitsFilePath, 'utf8'));
+  // Read and decompress the gzipped commits file
+  const compressedData = fs.readFileSync(commitsFilePath);
+  const commitsData = JSON.parse(zlib.gunzipSync(compressedData).toString('utf8'));
   console.timeEnd('Parse commits JSON');
   console.timeEnd('Reading commits');
 

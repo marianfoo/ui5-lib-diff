@@ -1,15 +1,18 @@
 const fs = require('fs');
 const path = require('path');
+const zlib = require('zlib');
 
 const changesDirs = ['changesSAPUI5', 'changesOpenUI5'];
 const outputDir = 'de.marianzeis.ui5libdiff/webapp/data';
 const outputFiles = ['consolidatedSAPUI5.json', 'consolidatedOpenUI5.json'];
-const commits = './openui5-commits.json';
+const commitsFile = './openui5-commits.json.gz';
 const matchesFile = './commits-changes-match.json';
 
 // Load files once at the start
 const matchesData = JSON.parse(fs.readFileSync(matchesFile, 'utf8'));
-const commitsData = JSON.parse(fs.readFileSync(commits, 'utf8'));
+// Read and decompress the gzipped commits file
+const compressedCommitsData = fs.readFileSync(commitsFile);
+const commitsData = JSON.parse(zlib.gunzipSync(compressedCommitsData).toString('utf8'));
 
 function findMatchingCommit(note, commits) {
     // Find the matching entry using note.id
