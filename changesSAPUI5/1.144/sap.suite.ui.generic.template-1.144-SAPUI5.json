@@ -1,0 +1,76 @@
+{
+    "1.144.0": {
+        "date": "January 2026",
+        "notes": [
+            {
+                "id": "I1ca5b035eaa604557c15f1eebe109de99bde57af",
+                "type": "FEATURE",
+                "text": "The AI-assisted easy filter now supports filter fields with 1:1 navigation properties"
+            },
+            {
+                "id": "I3cbd86ae2d7ebd42226986979311472c38ea873a",
+                "type": "FEATURE",
+                "text": "Table export now automatically excludes columns containing 1:N navigation properties to prevent export errors"
+            },
+            {
+                "id": "I2267fa7cea20332dfacacde0ab4a8b4015b48e31",
+                "type": "FEATURE",
+                "text": "We've improved the browser tab title format on object pages to be more concise by removing ancestor breadcrumbs"
+            },
+            {
+                "id": "Ifb34fa62dd255bec187c63b66487130e55c97211",
+                "type": "FIX",
+                "text": "We no longer display the placeholder on the list report page when Apply Automatically is enabled for the variant but the required SmartFilterBar field contains invalid values",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010310297"
+                    }
+                ]
+            },
+            {
+                "id": "Ie6873ee728a0ad6bc8fda0b8ee2ea9c5ea63a3bb",
+                "type": "FIX",
+                "text": "We've now resolved an issue where filter changes were not correctly tracked in iAppState on the list report and analytical list page"
+            },
+            {
+                "id": "Ic3c56600eddbc307ac4c67892698b5777999ef1f",
+                "type": "FIX",
+                "text": "We've set the ariaLabelledBy property for the RatingIndicator on the object page header so that screen readers correctly read its title",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0688913"
+                    }
+                ]
+            },
+            {
+                "id": "Ifb820c37d163dc6c59b715376d54145bb0fd6868",
+                "type": "FIX",
+                "text": "The AI-assisted easy filter now correctly handles semantic date fields when applying and resetting filters",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010853896"
+                    }
+                ]
+            },
+            {
+                "id": "I6cf7a614525a730f4da48a13cf3bf5ba1e110b80",
+                "type": "FIX",
+                "text": "We've resolved an issue where unbound actions were incorrectly displayed in table context menus",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0712788"
+                    }
+                ]
+            },
+            {
+                "id": "Ie5438484a56d9f94b6c7f2bf3be990e5a29ba6a0",
+                "type": "FIX",
+                "text": "We've resolved an issue where the Configuration menu option appeared twice in the UI Adaptation dialog for tables on the list report page and analytical list page"
+            }
+        ]
+    }
+}

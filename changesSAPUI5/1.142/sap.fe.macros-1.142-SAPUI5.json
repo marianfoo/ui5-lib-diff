@@ -53,5 +53,25 @@
                 "text": " We now ensure that the Enabled property of actions is bound correctly for grouped table actions in custom sections"
             }
         ]
+    },
+    "1.142.3": {
+        "date": "January 2026",
+        "notes": [
+            {
+                "id": "06da848ed4304cc12130df2a0453cad8bb99d723",
+                "type": "FIX",
+                "text": " We've resolved an issue where multiple dropdown rows were created because of too many data requests"
+            },
+            {
+                "id": "4aca5392ffad1542fd7495af25177aae7e3134fe",
+                "type": "FIX",
+                "text": " We have resolved an issue where horizontal scrollbars did not render correctly in tables after exiting full-screen mode"
+            },
+            {
+                "id": "cec9f80260ecdb6f6a65c502d8350fd8d17e3d9d",
+                "type": "FIX",
+                "text": " We now ensure that fields that share the same value help collection can have different values in action parameter dialogs"
+            }
+        ]
     }
 }

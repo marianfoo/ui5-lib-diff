@@ -1,0 +1,47 @@
+{
+    "1.144.0": {
+        "date": "January 2026",
+        "notes": [
+            {
+                "id": "90cdffbde5363f144b3ea2d590ccbbf0b55d6bf1",
+                "type": "FEATURE",
+                "text": " You can now enable the save and leave feature to allow users to save an object page and navigate back to the list report page"
+            },
+            {
+                "id": "28b6880f02782459800d83b7abe1d4a699c601b9",
+                "type": "FEATURE",
+                "text": " We now support pasting content into table columns using the Text_Only text arrangement"
+            },
+            {
+                "id": "02f1d368222c6b5956c3f838e6850614b3b0b51d",
+                "type": "FEATURE",
+                "text": " You can now use the `subSectionCreated` parameter to trigger a callback function when a subsection is created for the first time"
+            },
+            {
+                "id": "f8d152f622384e9476bc9cc6f52c98ece38f91c8",
+                "type": "FIX",
+                "text": " We now correctly resolve action parameter values when the Common.Text annotation points to a property with the same name"
+            },
+            {
+                "id": "e09fcf85eb069e756dda76bcfed500136f0fd6a0",
+                "type": "FIX",
+                "text": " You can now set menu items defined using DataActionForGroup to be navigable"
+            },
+            {
+                "id": "12c5009e5c878523aebcb882cd802fb1fb8daf39",
+                "type": "FIX",
+                "text": " We now ensure that the Enabled property of actions is bound correctly for grouped table actions in custom sections"
+            },
+            {
+                "id": "085edbe74586a0e7c14f9a94d9726ae7f0ffdfde",
+                "type": "FEATURE",
+                "text": " You can now use inclusive semantic date ranges, such as 'Last X Months to Date' and 'Next X Months to Date'"
+            },
+            {
+                "id": "dec9c8d1966e215f66fcf75f3d977172a1722702",
+                "type": "FEATURE",
+                "text": " You can now enable lazy loading for the entire application"
+            }
+        ]
+    }
+}

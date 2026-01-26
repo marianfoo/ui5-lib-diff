@@ -1,0 +1,87 @@
+{
+    "1.144.0": {
+        "date": "January 2026",
+        "notes": [
+            {
+                "id": "926262f04ca6918a2abb525c0e4fb8ec6acb2035",
+                "type": "FIX",
+                "text": " jquery/Focusable: consider scroll container as focus candidate"
+            },
+            {
+                "id": "d8cec6eed95f5e322b9237b25e916979c9d32b91",
+                "type": "FIX",
+                "text": " UI5 Diagnostics: avoid console errors when collecting class info"
+            },
+            {
+                "id": "52aa81894f293e2272ca0765f6f8e723167b9e6a",
+                "type": "FEATURE",
+                "text": " sap.m.StepInput: Flexible input precision is now allowed, and an error state is set"
+            },
+            {
+                "id": "4cf933d1f6511274af009ac58499160a617db814",
+                "type": "FIX",
+                "text": " XMLComposite: fix JSDoc for correct TypeScript constructor"
+            },
+            {
+                "id": "30d4578b48ac08b4275ae3cef18cfb23c5074c80",
+                "type": "FIX",
+                "text": " sap.ui.test.RecordReplay: Correct JSDoc type for clearTextFirst"
+            },
+            {
+                "id": "40f07d6bebaebbae626778887a54411664d43482",
+                "type": "FIX",
+                "text": " core/Icon: getAccessibilityInfo returns empty object for decorative"
+            },
+            {
+                "id": "68b3bd5d4a4182319e1d10f1f8c67c5f2840a304",
+                "type": "FIX",
+                "text": " OPA: Fix _promiseWaiter handling of null executors"
+            },
+            {
+                "id": "13d864ee1f510e64460c51309ae615fe3215f479",
+                "type": "FIX",
+                "text": " sap/ui/model/ClientTreeBinding#cloneData: Use wrapped structuredClone"
+            },
+            {
+                "id": "51206d2add1b677fc21729ae1fa91fe30ced93c8",
+                "type": "FEATURE",
+                "text": " Upgrade to CLDR version 48.0.0"
+            },
+            {
+                "id": "eb83016f50bb73536b34d1898ddc00cf3505ac96",
+                "type": "FIX",
+                "text": " test/sap/ui/core/qunit/i18n/UI5Date.qunit.js: Fix failing test for JS Date API \"toTemporalInstant\""
+            },
+            {
+                "id": "c4bec3aa4f51d00bea986edf2bd5c632e39cc7cd",
+                "type": "FIX",
+                "text": " sap.m.Button: Prevent duplicate shortcut announcements in screen readers"
+            },
+            {
+                "id": "9964c9a8507d919c7e7fc92bcf94091bc2088eca",
+                "type": "FIX",
+                "text": " sap/ui/model/ClientTreeBinding#cloneData: do not use structuredClone"
+            },
+            {
+                "id": "f1b8b843e145816dcedf29e91212498497d09b14",
+                "type": "FIX",
+                "text": " URLListValidator: Correctly handle URL with userinfo"
+            },
+            {
+                "id": "fd443517be269a58bae580baa7c765702f77c48f",
+                "type": "FIX",
+                "text": " sap.ui.core.support.techinfo: Tech Info Dialog now reopens after ESC close"
+            },
+            {
+                "id": "61530344df4de95f2f2dbe795ce7a8cb51ef4935",
+                "type": "FIX",
+                "text": " sap/ui/model/ClientTreeBinding#cloneData: use a clone for this.oTreeData"
+            },
+            {
+                "id": "f8e1194e2e711cb8dc17b46d0c6413fca01245bd",
+                "type": "FIX",
+                "text": " sap.ui.test.Opa: Fix Safari polling interval test failure"
+            }
+        ]
+    }
+}
