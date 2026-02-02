@@ -1,0 +1,29 @@
+{
+    "1.142.3": {
+        "date": "Jan 2026",
+        "notes": [
+            {
+                "id": "Ib471ff64a9cc8218cfc826fb14b46f851b3e02ce",
+                "text": "We've now fixed the parameter ordering mismatch between dependency array and function parameters in ShapeManager for Gantt 1.0",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010865944"
+                    }
+                ]
+            },
+            {
+                "id": "I4e7d5f743d55d799e9582c98812a6340677a4641",
+                "text": "We've now optimised shape sorting logic while expanding the gantt chart.",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011154602"
+                    }
+                ]
+            }
+        ]
+    }
+}

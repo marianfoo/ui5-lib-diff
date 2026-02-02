@@ -1,0 +1,297 @@
+{
+    "1.144.0": {
+        "date": "January 2026",
+        "notes": [
+            {
+                "id": "d8a92793e48d5b9559c8fcf1e5efae37d0fcc065",
+                "type": "FIX",
+                "text": " sap.m.Popover: Visual tests for scrollable popovers are provided"
+            },
+            {
+                "id": "cce2e68f67335c33d29cc6f35ab634741b6ce9bc",
+                "type": "FEATURE",
+                "text": " sap.m.SegmentedButton: Enable selection of an item as an"
+            },
+            {
+                "id": "e11f88ddd6c365cdc3b6f60ac33fa0171bb45c9f",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: aria-description attribute is added."
+            },
+            {
+                "id": "b1cd574f6d918bd45773ef836cb2e99524989cd0",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: menu is not opened on disabled MenuButton"
+            },
+            {
+                "id": "3801f4cd357dbfb6279b4b93b9c87d48ff8e00a7",
+                "type": "FIX",
+                "text": " Card Explorer: Focus is correctly aligned in the Table of Contents"
+            },
+            {
+                "id": "a9e33a6c80283512399229896a0b33d232440441",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: apply correct ARIA attributes to options"
+            },
+            {
+                "id": "382d78dd5a48c0825792bcb6586415c433eb11e6",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: Add the browser event information to the UI5 event"
+            },
+            {
+                "id": "630004062bd47ef3a46fdb6bb766c12b09b5d467",
+                "type": "FIX",
+                "text": "sap.m.MultiComboBox: Restore previous value state after selection"
+            },
+            {
+                "id": "3417c1fdc03c891e4d15508e44809e9b4a1e2fe4",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: Align token border with visual design"
+            },
+            {
+                "id": "e9865e3df99d28e54c4dc7824d301b5b65b4bc8f",
+                "type": "FIX",
+                "text": " sap.m.Input: InputBase getLabels is returning labels correctly (without duplicates)"
+            },
+            {
+                "id": "b991376439fc486f66493af53bf3bf84dcf80b53",
+                "type": "FIX",
+                "text": " sap.m.ObjectHeader: Remove deprecated API usage"
+            },
+            {
+                "id": "7d7ed90b8660c21a6bc96f089ab3e6bd61ddc37d",
+                "type": "FIX",
+                "text": " sap.m.QuickViewBase: NavContainer is added as an aggregation"
+            },
+            {
+                "id": "e5534e49a6bfe9798bf571420937bf9b44e97f4f",
+                "type": "FIX",
+                "text": " sap.m.SegmentedButton: remove uses of deprecated code"
+            },
+            {
+                "id": "2ce2132dd5659fc38c244c83eff6a48f7cde2095",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: Correct sap.m.MenuButton navigation"
+            },
+            {
+                "id": "926262f04ca6918a2abb525c0e4fb8ec6acb2035",
+                "type": "FIX",
+                "text": " jquery/Focusable: consider scroll container as focus candidate"
+            },
+            {
+                "id": "ebfb47c4f9fc9f6bc18f70a2cc049dc3a7e14cca",
+                "type": "FIX",
+                "text": " VariantManagement: \"expanded\" not announced"
+            },
+            {
+                "id": "8744ff17497970ab76d46bd461b5a939b1d4f951",
+                "type": "FIX",
+                "text": " sap.m.ObjectHeader: Remove deprecated API usage"
+            },
+            {
+                "id": "b6f48c99198b74f7a577facff888913f9260b5e8",
+                "type": "FIX",
+                "text": " sap.m.Panel: Expand on SPACE keydown"
+            },
+            {
+                "id": "d5eb213d062bd7563dec5460ebb90818e3d173b7",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: update view switch label visibility on resize"
+            },
+            {
+                "id": "7efadc6e094c9f5b989e9621624bc83fd6d4c51c",
+                "type": "FIX",
+                "text": " sap.m.ViewSettingsDialog: Remove redundant announcements from sort and group list items"
+            },
+            {
+                "id": "52aa81894f293e2272ca0765f6f8e723167b9e6a",
+                "type": "FEATURE",
+                "text": " sap.m.StepInput: Flexible input precision is now allowed, and an error state is set"
+            },
+            {
+                "id": "b513d37970dbd377d67af99a8efe9121d2460d3c",
+                "type": "FIX",
+                "text": " We've now added tooltips for the play/pause and the radio buttons of SlideTile control"
+            },
+            {
+                "id": "0a7a33537197ed262c2734b31857ea00cc2b0e62",
+                "type": "FIX",
+                "text": " sap.m.Menu: fix context menu positioning in RTA with keyboard"
+            },
+            {
+                "id": "a0dd70d07b4b5fcf9722b7045be598e5e4c4318c",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: state information is referenced in"
+            },
+            {
+                "id": "a60dac40326fcd9f05c8ae0b75c3c1c5cf3de38d",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Screen reader and focus handling are improved"
+            },
+            {
+                "id": "40f07d6bebaebbae626778887a54411664d43482",
+                "type": "FIX",
+                "text": " core/Icon: getAccessibilityInfo returns empty object for decorative"
+            },
+            {
+                "id": "c173ba793a19b31072b5c925683cc3121ab979db",
+                "type": "FIX",
+                "text": " sap.m.RadioButton: Order of the buttons in the same group is now determined by document order"
+            },
+            {
+                "id": "4257afeec79d7fb173048629ebd54cf5c484816f",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: Fix MenuButton menuPosition to handle viewport collision detection"
+            },
+            {
+                "id": "eec695418e127cee89923979b7f5c2a08584e152",
+                "type": "FIX",
+                "text": " sap.m.ComboBox: prevent picker from closing during loadItems."
+            },
+            {
+                "id": "ac1b91b820a0ab7a11d1f0fa0c5e80841aa99ba2",
+                "type": "FIX",
+                "text": " sap.m.MessageView: Sample adjustment"
+            },
+            {
+                "id": "ba8073b7b1648b781248218099aac3c9cbdc594a",
+                "type": "FIX",
+                "text": " sap.m.Avatar: prevent event bubbling when LightBox is present"
+            },
+            {
+                "id": "e1ad9bd76707a2f70519d1305e541f08e561770c",
+                "type": "FIX",
+                "text": " sap.m.ComboBox: Value state popup is now hidden when the picker is opened"
+            },
+            {
+                "id": "552a3c267fc1bf877a729d4ea0e6ba28924bec0b",
+                "type": "FIX",
+                "text": " We now trigger a fetch call to load PDF content and determine PDF availability in the PDFViewer"
+            },
+            {
+                "id": "3e4249a9922f04eeddd2fa6bcc4aa1d4f1261649",
+                "type": "FIX",
+                "text": " sap.m.StepInput: change validation behaviour of the StepInput when it has a binding model with Value State:"
+            },
+            {
+                "id": "74a610e9957a360f5db31514ac07983beacb165d",
+                "type": "FIX",
+                "text": " sap.m.StepInput: change validation behaviour of the StepInput when it has a binding model with Value State:\""
+            },
+            {
+                "id": "fc1451f459927df04654df737a627126fdca2755",
+                "type": "FIX",
+                "text": " sap.m.StepInput: change validation behaviour of the StepInput when it has a binding model with Value State:"
+            },
+            {
+                "id": "41702dbfa6e119cdb9b26ec4339dd919e01d37a8",
+                "type": "FIX",
+                "text": " xConfig: Reverts \"Remove correct value\""
+            },
+            {
+                "id": "c03cee33f2f3ac32c8d2922fb3d9d76473f1bf0f",
+                "type": "FIX",
+                "text": " We've now fixed an issue in FeedListItem where screen reader was not announcing the current item number and total count"
+            },
+            {
+                "id": "8f897d451a8498c9cc50992704a9e88ed4f9dbae",
+                "type": "FIX",
+                "text": " sap.m.SplitContainer: Fixed box-shadow parameter"
+            },
+            {
+                "id": "2ac42b96f6dde53c4c1b9b5d308bbf3c7744588f",
+                "type": "FIX",
+                "text": " We've now fixed two ActionTile issues, one where the focus was consistently on the header link, and second where pressing the Enter key was not opening the right dialog box"
+            },
+            {
+                "id": "c59e69192b8a3ca7a5a2af81d1c2f9bf983e3603",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: Tooltips are now cloned to the select list"
+            },
+            {
+                "id": "96d4984e374aa07cd2344fef701181e8d0598def",
+                "type": "FIX",
+                "text": " sap.m.DateTimeField: Update ValueStateHeader for mobile devices"
+            },
+            {
+                "id": "b7ac77dad17b0096ca77e60cebd218a9581a0d8a",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: Bound icon is updated correctly"
+            },
+            {
+                "id": "eaae231bdc8ac7e12d404842753942a0477c95c2",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: Replacing the onmouseup event handler with ontap"
+            },
+            {
+                "id": "d7ee2316ca900623b5422970a7333cdfffc1f729",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: fixed Dialog title on mobile devices"
+            },
+            {
+                "id": "7ee1c77f9c2b364132a7beea0144b3ff4762cefb",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: exclude disabled controls from Toolbar navigation"
+            },
+            {
+                "id": "55595f1b3d83004a227f0b91d29d17290c6af4f6",
+                "type": "FIX",
+                "text": " We've now resolved a loading issue for the vds file using the width configuration in the FilePreview dialog"
+            },
+            {
+                "id": "c26f467ad0f6db9d7c03caa0533011c1188af1be",
+                "type": "FIX",
+                "text": " We now ensure that the UploadSetWithTable plugin correctly handles file extraction while maintaining the original MIME type when you drag and drop files into the plugin"
+            },
+            {
+                "id": "de677d065980eca4104bafc991c63563c8ff673a",
+                "type": "FIX",
+                "text": " sap.m.SearchField: Fix Korean text display within OverflowToolbar"
+            },
+            {
+                "id": "f5aa4514ed4c7d8db05cc7b0fa1ef42b3d720987",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: KBH for nested sap.m.Tokenizer corrected"
+            },
+            {
+                "id": "1968f0c89f2b050d11eae164e7683fcb6c15d4cc",
+                "type": "FIX",
+                "text": " VariantManagement: Replace table MOM binding with cloned binding"
+            },
+            {
+                "id": "4e286a0f14a1b13ec203b66c3756579589b25423",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendarHeader: add visible label to the view switch"
+            },
+            {
+                "id": "5876a1f1a54a54ebb41c404d52519b0c3673b903",
+                "type": "FIX",
+                "text": " We now ensure that ItemRenameCanceled event is fired when the Rename dialog is closed by pressing the Esc key in UploadSetwithTable"
+            },
+            {
+                "id": "820345191114c3c45320dcdb15691ba4ba7e3d76",
+                "type": "FIX",
+                "text": " We now ensure that the focus is set on the uploaded item when the renaming action is canceled in UploadSet"
+            },
+            {
+                "id": "d26788ae480302c2ffa24d6051732cba1239c47f",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: state information is referenced in"
+            },
+            {
+                "id": "3d1e803aeb2a23af9344fe5a5edef55d272e29f3",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: correct value after clonning"
+            },
+            {
+                "id": "10044d9ccc8107ad9254b66657096d064ef1170c",
+                "type": "FIX",
+                "text": " sap.m.RadioButton: focus outline is now correctly aligned with wrapping"
+            },
+            {
+                "id": "eb69b0de7c6974628c4cdf143b72241786f2d8b5",
+                "type": "FIX",
+                "text": " sap.m.IllustrationPool: gracefully remove DOM pool assets"
+            }
+        ]
+    }
+}
