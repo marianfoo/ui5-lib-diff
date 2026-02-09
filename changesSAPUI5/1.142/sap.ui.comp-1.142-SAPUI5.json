@@ -138,5 +138,25 @@
                 "text": " FilterController: Selection from ValueHelp in single fields now works correctly"
             }
         ]
+    },
+    "1.142.4": {
+        "date": "February 2026",
+        "notes": [
+            {
+                "id": "fd68fb9e6de674a5d943db2cb1f3efec01dfc228",
+                "type": "FIX",
+                "text": " FilterBar: Remove premature initialise() call to fix race condition with external SVM"
+            },
+            {
+                "id": "7dc73489d637a5df3d55b24353b120429afac669",
+                "type": "FIX",
+                "text": " ValueListProvider: Correct firing of 'change' event when single text field is used with no description"
+            },
+            {
+                "id": "6cf1261a6b0a040192f00c470a718ab2e2576b74",
+                "type": "FIX",
+                "text": " FilterBar: resume binding of inner controls if FilterBar disabled it"
+            }
+        ]
     }
 }
