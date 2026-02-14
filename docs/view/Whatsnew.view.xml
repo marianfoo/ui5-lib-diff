@@ -1,0 +1,68 @@
+<mvc:View controllerName="de.marianzeis.ui5libdiff.controller.Whatsnew" height="100%"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:layout="sap.ui.layout"
+    xmlns:core="sap.ui.core">
+    <Page showHeader="false">
+        <layout:VerticalLayout width="100%">
+            <Button text="Back" press="onNavBack"/>
+            <Text text="Select your libraries you want to compare"/>
+            <ComboBox id="versionFromSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
+                <core:Item key="{select>value}" text="{select>key}" />
+            </ComboBox>
+            <ComboBox id="versionToSelect" items="{path: 'select>/', length:'10000'}" change="handleVersionChange">
+                <core:Item key="{select>value}" text="{select>key}" />
+            </ComboBox>
+            <Button text="Copy Link To Clipboard" press="copyLinkToClipboardWhatsnew"/>
+        </layout:VerticalLayout>
+        <Table id="idProductsTable" items="{path : 'whatsnew>/', length:'10000'}" autoPopinMode="true">
+            <headerToolbar>
+                <OverflowToolbar>
+                    <Title text="Whats New SAPUI5" level="H2"/>
+                    <ToolbarSpacer/>
+                    <Button tooltip="Sort" icon="sap-icon://sort" press="handleSortButtonPressed"/>
+                    <!-- <Button tooltip="Filter" icon="sap-icon://filter" press="handleFilterButtonPressed"/> -->
+                </OverflowToolbar>
+            </headerToolbar>
+            <infoToolbar>
+                <OverflowToolbar id="vsdFilterBar" visible="false">
+                    <Text id="vsdFilterLabel" />
+                </OverflowToolbar>
+            </infoToolbar>
+            <columns>
+                <Column width="7%" importance="High">
+                    <Text text="Version" />
+                </Column>
+                <Column width="8%" importance="High">
+                    <Text text="Type" />
+                </Column>
+                <Column width="8%" importance="Low">
+                    <Text text="Category" />
+                </Column>
+                <Column width="14%" importance="High">
+                    <Text text="Title" />
+                </Column>
+                <Column width="40%" importance="Medium">
+                    <Text text="Description" />
+                </Column>
+                <Column width="8%" importance="Low">
+                    <Text text="Action" />
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem vAlign="Middle">
+                    <cells>
+                        <Text text="{whatsnew>Version}"/>
+                        <Text text="{whatsnew>Type}"/>
+                        <Text text="{whatsnew>Category}"/>
+                        <FormattedText htmlText="{path:'whatsnew>Title'}"/>
+                        <FormattedText htmlText="{whatsnew>Description}"/>
+                        <Text text="{whatsnew>Action}"/>
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+    </Page>
+
+</mvc:View>
+
