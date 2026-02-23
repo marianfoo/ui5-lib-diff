@@ -1,0 +1,257 @@
+{
+    "1.145.0": {
+        "date": "February 2026",
+        "notes": [
+            {
+                "id": "a3eb7610019ec199f8210748d349974bfa9af5af",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: week numbering in Week and OneMonth view are shown again."
+            },
+            {
+                "id": "cd3b482c82c7330ec337e9b08a24b649547b7741",
+                "type": "FIX",
+                "text": " We've now removed redundant CSS attributes from the GenericTile header content to avoid the truncation of text in certain languages"
+            },
+            {
+                "id": "5b91546a197890210256128ece39376641f02959",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendarMonthGrid: Fix tab chain"
+            },
+            {
+                "id": "b28bcd6a9030581625ab88f404caa982e702e279",
+                "type": "FEATURE",
+                "text": " PlanningCalendar: Week numbers display is now enabled in the months view"
+            },
+            {
+                "id": "2b740083a9e87bf00d2e97846ca71cfb79c9f6e4",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: link is now clickable when in value state message"
+            },
+            {
+                "id": "f43335e0e4e4f0b1e0509165ee2fb33455f3948c",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: fixed menu close by Alt + ArrowDown/ArrowUp, F4"
+            },
+            {
+                "id": "29d5fa6cc7981985f014c0df7d1a2f3d20145e82",
+                "type": "FIX",
+                "text": " We've now updated the demokit samples to handle the preview of locally uploaded pdf files for upload set with table"
+            },
+            {
+                "id": "ff90197553c123f039739ffed10b431f942aba75",
+                "type": "FIX",
+                "text": " sap.m.DatePicker: improve dialog toggle trough keyboard"
+            },
+            {
+                "id": "cd6de2a7b8c7a8960edf61e19a89108d6576d57d",
+                "type": "FEATURE",
+                "text": " sap.m.SinglePlanningCalendarMonthGrid: Change in the rendering order of the moreLink"
+            },
+            {
+                "id": "c9c0d26cdaefab3a0a9a46646fdb703ef455632c",
+                "type": "FIX",
+                "text": " sap.m.DateTimePicker: Fix various bugs in the control"
+            },
+            {
+                "id": "04c03f95c06e2b825c75f41788a62d8210e46470",
+                "type": "FIX",
+                "text": " sap.m.RadioButton: Disabled radio buttons should be displayed as disabled only"
+            },
+            {
+                "id": "8c6139d7a648466156284d8bface3dd509566623",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: set limit to inputs in Today from/to option"
+            },
+            {
+                "id": "8b975193faf8d6c99c1e9e03e0b66f3979243d86",
+                "type": "FIX",
+                "text": ": sap.m.DynamicDateRange: highlight item after included option is selected"
+            },
+            {
+                "id": "253fe59b4e26c3b17925a542dcdb537f7cf9260b",
+                "type": "FIX",
+                "text": " sap.m.StepInput: format value when the front number is removed (e.g .50 -> 0.50) also, allow start typing a number with the decimal separator"
+            },
+            {
+                "id": "b50864f4ec40e9374107f5b54681d47c609d8f33",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Fixed dialog header overlapping focus outline in busy state"
+            },
+            {
+                "id": "ee9d8b983dad17b278391e7fd9858f44003ce063",
+                "type": "FIX",
+                "text": " sap.m.Token: Delete icon tooltip aligned with latest specification"
+            },
+            {
+                "id": "f6f24e160bcaa5288c1f9e640406bd373483259d",
+                "type": "FIX",
+                "text": " sap.m.RatingIndicator: Half icon in display only mode is properly visualised in compact mode"
+            },
+            {
+                "id": "2d5076e96506017a0714fcec5cbfc33e5e27e053",
+                "type": "FIX",
+                "text": " sap.m.DynamicDate: uses its own text for min and max validation"
+            },
+            {
+                "id": "21dba996ec239e4e3a2b184228beaf0e459589bf",
+                "type": "FIX",
+                "text": " sap.m.Input: fire change event correctly"
+            },
+            {
+                "id": "5aa14102d72bb549e2583f67dd41d8e3e78f6755",
+                "type": "FIX",
+                "text": " sap.m.Token: Adjust token selected bottom border and focus outline"
+            },
+            {
+                "id": "88f083595763738be3132558f17e31398d330add",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: ontap event is marked as handled"
+            },
+            {
+                "id": "c250d800b140ac7064a567ee3d0413daa9bf5201",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: Make TimePickerMaskMode.Enforce public"
+            },
+            {
+                "id": "32391210f889b37161e96fb7592221c0f7f400bb",
+                "type": "FIX",
+                "text": " sap.m.MessageItem: correct show more focus outline"
+            },
+            {
+                "id": "b222de2f9a52abf31f2398dbfe33104afd82845f",
+                "type": "FIX",
+                "text": " sap.m.Select/TableSelectDialog: Selection is not fired when text is being selected"
+            },
+            {
+                "id": "b04cbcba0ffa51965cd90d109e0ec51f409db353",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: The aria-labelledby attribute is now correctly set"
+            },
+            {
+                "id": "0dd0f37862941e791ed9658dea792f99cb05b65a",
+                "type": "FIX",
+                "text": "sap.m.MultiInput: Token addition is now reset on focusin"
+            },
+            {
+                "id": "c0f4ee52223949e78d838a815188b895471fef36",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: popup is resized when there are less"
+            },
+            {
+                "id": "b0b40a0209b3ad3802744aff0bf6541269971a35",
+                "type": "FIX",
+                "text": " sap.m.SearchField: Revert - Prevented unnecessary reopening of suggestions"
+            },
+            {
+                "id": "82e907bbb18f44693daed87c7b3772b480e6e5e0",
+                "type": "FIX",
+                "text": " P13nPopup: Filter with error state"
+            },
+            {
+                "id": "1fb800319ef06317ebeb13c90a66f77ebb5b3b15",
+                "type": "FIX",
+                "text": " sap.m.Link: Press event is fired correctly on pressing SPACE"
+            },
+            {
+                "id": "e7d6b87efb4e13cd957c2b3e9a018ecc50858163",
+                "type": "FIX",
+                "text": " sap.m.MultiComboBox: After deletion next focused token is announced with correct position"
+            },
+            {
+                "id": "df8675442489e47a8a54d40188f48b3e1ed0e7f6",
+                "type": "FIX",
+                "text": " sap.m.FacetFilter: adjust facet popover autoclose behavior"
+            },
+            {
+                "id": "773b799ed41bcd2018983244282ec2c4c11a3832",
+                "type": "FIX",
+                "text": "sap.m.ComboBox: clearIcon width distortion is now fixed"
+            },
+            {
+                "id": "c2f6e4b46addca2c31a9fda7d70b0a38d44ae6c7",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: Preserve arrow key behavior for sap.m.MultiComboBox"
+            },
+            {
+                "id": "c8d808514ef78925e7fc6e0c5009f91095c2a64b",
+                "type": "FIX",
+                "text": "sap.m.MultiComboBox: Resetting initial value state is now fixed"
+            },
+            {
+                "id": "e9a18a54020c525a0446728871b19ad6153228e1",
+                "type": "FIX",
+                "text": " sap.m.MessageStrip: apply CSS classes correctly"
+            },
+            {
+                "id": "b83356e4019a10f8f91238ece74a15247049932d",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: tokenizer is no more focusable in disabled state"
+            },
+            {
+                "id": "e316f948ebb4a21da1ed01b50ef2cb2ab04ba777",
+                "type": "FIX",
+                "text": "sap.m.MultiComboBox: change event is now fired correctly"
+            },
+            {
+                "id": "a3b62bac218f455b7e1cc193c377e4a3e3a6fe78",
+                "type": "FIX",
+                "text": " We've now fixed an issue where the slide tile content was not adjusting dynamically to the screen size"
+            },
+            {
+                "id": "5102adc0973bf4a2201ffe5a42b81dfed4774851",
+                "type": "FIX",
+                "text": " We now display placeholder text while renaming a file on the UploadSetItem"
+            },
+            {
+                "id": "338fe80ba9b27d04db0799d28ad47e21b0316b7d",
+                "type": "FIX",
+                "text": " sap.m Tokenizer: Ensure role \"listbox\" is applied to the correct container"
+            },
+            {
+                "id": "3845b663a729873dc86f7428e5faefbcd2a538a1",
+                "type": "FIX",
+                "text": " VariantManagement: Readjust order of destruction and creation of role contexts"
+            },
+            {
+                "id": "a6f8c0e694b0d77405641801649d9ad4e8afc209",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: open menu with correct button combination"
+            },
+            {
+                "id": "62b2796b72ac43815b534b1f250ddc7354f79b5d",
+                "type": "FEATURE",
+                "text": " sap.m.VariantManagement: Improve save dialog"
+            },
+            {
+                "id": "e08b9d6bc961bf53868720c324d235ceed86552b",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: align mobile dialog cancel button placement"
+            },
+            {
+                "id": "35a53b501e61754c7946ceb4e3553b1ba5b63896",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: improve grouping announcements for screen readers"
+            },
+            {
+                "id": "1f9d9b8ff2c635e14de5593fb0ab2648c5edeba0",
+                "type": "FIX",
+                "text": " sap.m.Link: enable context menu on iOS long press"
+            },
+            {
+                "id": "3f4fcd220dd29f37e2845a45f2c94d262e601b82",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: Remove deprecated API usage"
+            },
+            {
+                "id": "972ff7e8ebc2e8aef0eaaf44ef5fd44f344daa23",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: fix border color and background for token displayOnly and non-editable state"
+            },
+            {
+                "id": "e89c9984592570e38e88a014960ef680dba9196d",
+                "type": "FIX",
+                "text": " sap.m.SearchField: Prevented unnecessary reopening of suggestions"
+            }
+        ]
+    }
+}

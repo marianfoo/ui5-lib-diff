@@ -1,0 +1,77 @@
+{
+    "1.145.0": {
+        "date": "February 2026",
+        "notes": [
+            {
+                "id": "b29879b3dd7f9435f84ac9d7aa7a296e24ae98ab",
+                "type": "FEATURE",
+                "text": " FilterBar/SmartFilterBar Revert: 'Go' button aria-description is now added"
+            },
+            {
+                "id": "7b969103f4005d86b7026faf283f892aaa907c05",
+                "type": "FEATURE",
+                "text": " FilterBar/SmartFilterBar: 'Go' button aria-description is now added"
+            },
+            {
+                "id": "2e1060723778d0e1f2dd4f4acf48ef6619a86871",
+                "type": "FIX",
+                "text": " FilterBar: Remove premature initialise() call to fix race condition with external SVM"
+            },
+            {
+                "id": "f033123aebe50afc616efe9c55050de75df9e173",
+                "type": "FIX",
+                "text": " SmartChart: chart type button is now disabled when no available chart types"
+            },
+            {
+                "id": "cb57f51f36f81c4eb7f953b7ffa9334821898797",
+                "type": "FIX",
+                "text": " FilterBar: resume binding of inner controls if FilterBar disabled it"
+            },
+            {
+                "id": "9fdf073d3a13febdbcec043f6485af24485174de",
+                "type": "FEATURE",
+                "text": " FilterBar/SmartFilterBar: Field sequence preservation and filter change handling is now improved"
+            },
+            {
+                "id": "7b1551ee0c9a5324224c65a5f4ecde02da181c44",
+                "type": "FEATURE",
+                "text": " SmartField: Dynamic height for multi-line fields in SmartTable is now enabled"
+            },
+            {
+                "id": "c1b70ca7b8ded93da5b8051bc8c3f098784e8df1",
+                "type": "FIX",
+                "text": " SmartFilterBar unstable date related tests fixed"
+            },
+            {
+                "id": "29a0883f52976bd0b4a6c7c9a7a265057cbf6d63",
+                "type": "FIX",
+                "text": " ValueListProvider: Correct firing of 'change' event when single text field is used with no description"
+            },
+            {
+                "id": "83b4a75a8cc38cf7ba3089b0b79a5392f718ded2",
+                "type": "FIX",
+                "text": " SmartFilterBar: Suggestion selections are now handled correctly"
+            },
+            {
+                "id": "10f026476cfab6bfef8ef34c108c7bb0ce2f4019",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Table header now has correct aria-level"
+            },
+            {
+                "id": "e51802f49a17c79238eb556fdff144118fc59916",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Table is now properly aligned"
+            },
+            {
+                "id": "ca7d060a0bda88d173bd23bfea5803bf0547a295",
+                "type": "FIX",
+                "text": " ValueHelpDialog: column sort is now respected from SmartTable"
+            },
+            {
+                "id": "16f2b70a9e63cf86c1e7a9b634d8a6bbd278263e",
+                "type": "FIX",
+                "text": " SmartField handles TextArrangement DescriptionOnly correctly"
+            }
+        ]
+    }
+}

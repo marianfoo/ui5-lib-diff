@@ -1,0 +1,66 @@
+{
+    "1.145.0": {
+        "date": "February 2026",
+        "notes": [
+            {
+                "id": "I29679c7b5ccc89906bccddaaf3c190110cf0ae29",
+                "type": "FIX",
+                "text": "You can now remove action buttons from object page subsections in key user adaptation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011165969"
+                    }
+                ]
+            },
+            {
+                "id": "Icad67517eb024dd96194157ba6a3f00fd1ad09f9",
+                "type": "FIX",
+                "text": "The Configure dialog in key user adaptation now informs users to reload the application for changes to take effect",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0705117"
+                    }
+                ]
+            },
+            {
+                "id": "I82cf8e9f00ec6e358dd331b0e23e48a66e834a76",
+                "type": "FIX",
+                "text": "We've resolved an issue where placeholders were displayed instead of table column labels in popup messages",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0760044"
+                    }
+                ]
+            },
+            {
+                "id": "I3b7276b979b38e119b169e0ec87d7d9957c413ad",
+                "type": "FIX",
+                "text": "Missing behavior files no longer cause an HTTP status code 404 (Not Found) error when loading canvas pages",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010625360"
+                    }
+                ]
+            },
+            {
+                "id": "I7ffb86203763fc0248df6e50080cf33831cdae0b",
+                "type": "FIX",
+                "text": "The draft activation confirmation popup is no longer displayed when the navigation from an object page opens a new browser window or tab",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010977177"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010770760"
+                    }
+                ]
+            }
+        ]
+    }
+}
