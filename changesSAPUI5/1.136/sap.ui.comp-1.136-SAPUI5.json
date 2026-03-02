@@ -289,5 +289,40 @@
                 "text": " SmartField handles TextArrangement DescriptionOnly correctly"
             }
         ]
+    },
+    "1.136.13": {
+        "date": "February 2026",
+        "notes": [
+            {
+                "id": "bfa11de0854716e5d78c8795a0c9b88a2c8c6323",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Short string keys now correctly select the corresponding row"
+            },
+            {
+                "id": "fd355b792d22569aaa2eeeca90e1f2b89c18759a",
+                "type": "FIX",
+                "text": " FilterBar: resume binding of inner controls if FilterBar disabled it"
+            },
+            {
+                "id": "37243f1bc45f8b08fcbfe9a14d89c1bf85eaf581",
+                "type": "FIX",
+                "text": " ValueListProvider: Correct firing of 'change' event when single text field is used with no description"
+            },
+            {
+                "id": "1e8e3ab7ceb58ce733c068d195edcf55943800b7",
+                "type": "FIX",
+                "text": " SmartFilterBar: Suggestion selections are now handled correctly"
+            },
+            {
+                "id": "c0a79780ee2be58e133a87520c1473c1cd71f676",
+                "type": "FIX",
+                "text": " ColumnsController now works with the index from the table event"
+            },
+            {
+                "id": "ca09894a42ef5cea08be20317b8ec7a12efac5bc",
+                "type": "FIX",
+                "text": " SmartFilterBar: Saving composite keys in the variant is now supported"
+            }
+        ]
     }
 }

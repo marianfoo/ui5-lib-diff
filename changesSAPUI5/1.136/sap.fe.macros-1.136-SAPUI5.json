@@ -233,5 +233,25 @@
                 "text": " We now ensure that the Enabled property of actions is bound correctly for grouped table actions in custom sections"
             }
         ]
+    },
+    "1.136.14": {
+        "date": "February 2026",
+        "notes": [
+            {
+                "id": "1c4fb5a8d840101cd53bfeeee8e4a9d0e8c37a2b",
+                "type": "FIX",
+                "text": " We've resolved an issue where referenced IDs in custom columns were not passed correctly"
+            },
+            {
+                "id": "ba329f129e3b9d8cc3b14bbae520b78f97b60dc9",
+                "type": "FIX",
+                "text": " We've resolved an issue where multiple dropdown rows were created because of too many data requests"
+            },
+            {
+                "id": "4788f4cbdaaade0fb0dfe244d2ae0d569917af8a",
+                "type": "FIX",
+                "text": " We have resolved an issue where horizontal scrollbars did not render correctly in tables after exiting full-screen mode"
+            }
+        ]
     }
 }

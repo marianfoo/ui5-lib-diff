@@ -1323,5 +1323,63 @@
                 "text": "We've resolved an issue where navigating back to the object page from a draft entity after activation using a determining action caused errors"
             }
         ]
+    },
+    "1.120.42": {
+        "date": "February 2026",
+        "notes": [
+            {
+                "id": "I130580e658f654894b9baaae6df378d0b519ab2d",
+                "type": "FIX",
+                "text": "For the object page in the inline rows creation scenario, the DefaultValuesFunction is invoked after the smart table gets the binding context",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010961151"
+                    }
+                ]
+            },
+            {
+                "id": "I4b4351fa0fed413b766e7936d8bb66939b8b3a79",
+                "type": "FIX",
+                "text": "You can now remove action buttons from object page subsections in key user adaptation",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011165969"
+                    }
+                ]
+            },
+            {
+                "id": "I3b7276b979b38e119b169e0ec87d7d9957c413ad",
+                "type": "FIX",
+                "text": "Missing behavior files no longer cause an HTTP status code 404 (Not Found) error when loading canvas pages",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010625360"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.43": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "I7ffb86203763fc0248df6e50080cf33831cdae0b",
+                "type": "FIX",
+                "text": "The draft activation confirmation popup is no longer displayed when the navigation from an object page opens a new browser window or tab",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010977177"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010770760"
+                    }
+                ]
+            }
+        ]
     }
 }
