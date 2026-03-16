@@ -73,5 +73,30 @@
                 "text": " We now ensure that fields that share the same value help collection can have different values in action parameter dialogs"
             }
         ]
+    },
+    "1.142.7": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "71e2b625df1465ecf304aadf5460dd4aec2df306",
+                "type": "FIX",
+                "text": " We now display inline edit for empty fields in grid tables"
+            },
+            {
+                "id": "71a1821aeb24db34be06dd7035a0a67b6a6893e1",
+                "type": "FIX",
+                "text": " We've resolved an issue where duplicate filters were included in value help description requests"
+            },
+            {
+                "id": "dd246478235920edbbd9339f453a7c2f40e2130f",
+                "type": "FIX",
+                "text": " We've resolved an issue with the visibility of subsections by setting the binding context to null or undefined"
+            },
+            {
+                "id": "0a7d0b337e9872a193fd17504a945d98d04602e2",
+                "type": "FIX",
+                "text": " We've resolved an issue where referenced IDs in custom columns were not passed correctly"
+            }
+        ]
     }
 }
