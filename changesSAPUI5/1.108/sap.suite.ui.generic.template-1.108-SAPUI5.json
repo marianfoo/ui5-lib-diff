@@ -1193,5 +1193,75 @@
                 "text": "Navigating back to the object page from a draft entity after activation using a determining action no longer causes errors"
             }
         ]
+    },
+    "1.108.51": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "Icfb34d2c0d8f6176218eb169673371a9bf33ca8f",
+                "type": "FIX",
+                "text": "We've resolved an issue where navigating back from an analytical list page resulted in an unexpected error when the state of the browser history was undefined",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011061079"
+                    }
+                ]
+            },
+            {
+                "id": "I2f3106dae5f743617eb30009b7875c10922aebb6",
+                "type": "FIX",
+                "text": "We've resolved an issue where attachments could not be opened in readOnly mode by including the __metadata.media_src property in the conditions for the media source",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011324829"
+                    }
+                ]
+            },
+            {
+                "id": "I038c374a3c36f5ca1d9cdabfdbdd561b19154f59",
+                "type": "FIX",
+                "text": "We've resolved multiple issues with variant management and application state handling",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0659594"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0661212"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0014544"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011041379"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005534614"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005355552"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005671529"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005724765"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011145729"
+                    }
+                ]
+            }
+        ]
     }
 }

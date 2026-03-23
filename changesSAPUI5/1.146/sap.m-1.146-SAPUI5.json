@@ -1,0 +1,202 @@
+{
+    "1.146.0": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "b3a69d8e854f8ddcef16f1cdb27d13cdfa604917",
+                "type": "FIX",
+                "text": " sap.m.VariantManagement: Rename shortcut description"
+            },
+            {
+                "id": "bc50a68bb01ddaf0b4a7cfaecda91e52fae296d9",
+                "type": "FIX",
+                "text": " We've now fixed a jump issue in the header container by using an outline instead of a border"
+            },
+            {
+                "id": "7d035b1dd4219042b0f9f60f2f2d88c74638fc81",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: Keep n-more popover open on item delete"
+            },
+            {
+                "id": "7077ae4ee2b9e6b77b3b8bcc316a5b0fdd08efde",
+                "type": "FIX",
+                "text": " sap.m.SegmentedButton: add optional chain operator to clone method"
+            },
+            {
+                "id": "12f4b40fb5f26901c2152d4d81badbc7a902362f",
+                "type": "FIX",
+                "text": " VariantManagement: variant not deleted if text changed"
+            },
+            {
+                "id": "66dd3cb428a60ef0b90a912026fbefebc477fd6c",
+                "type": "FIX",
+                "text": " sap.ui.unified.Calendar: wrong aria-describedby attribute"
+            },
+            {
+                "id": "8438de05d4ea5c3bd1f85cbf28689c5289c8282b",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: fixed dialog displacement on mobile devices"
+            },
+            {
+                "id": "555955e9182971e7e526cac655dbf20540b1c931",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: Tokenizer is scrolled to the end on focus"
+            },
+            {
+                "id": "d69fa2cc7bf08bf253a6001c14e690e59d120490",
+                "type": "FIX",
+                "text": " sap.m.DateRangeSelection, DatePicker: onescape works correctly"
+            },
+            {
+                "id": "66687f110642b60444c50f073b93ec8e966c8742",
+                "type": "FIX",
+                "text": "p13n.SelectionPanel: fix hover buttons"
+            },
+            {
+                "id": "0b17045ddd21b3d73a4c20e31a1353210aef3bd2",
+                "type": "FIX",
+                "text": " sap.m.Breadcrumbs: Enable text wrapping in overflow popover"
+            },
+            {
+                "id": "d5490453e9d6eac605f5adbcbe106299ccac3877",
+                "type": "FIX",
+                "text": " xConfig: Use property-type specific comparison for removal"
+            },
+            {
+                "id": "21d632ce9252204a06018b83ae843ace22a00be4",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: Select all (ctrl+a) now selects the input text instead of all tokens"
+            },
+            {
+                "id": "884ac67e70cc89accb447c3f83a9ef48b3433fe7",
+                "type": "FIX",
+                "text": " sap.m.TableSelectDialog: Initial focus is now set to the correct item"
+            },
+            {
+                "id": "5faf42d57e2ab8b140ba79dd3c53ca1cd253c675",
+                "type": "FIX",
+                "text": " sap.m.Popover: The height of the control is now fixed in Safari"
+            },
+            {
+                "id": "6ce3285134dd41439195a1b405cd64d0093717a0",
+                "type": "FIX",
+                "text": " We've now fixed an issue in slide tile where the tile indicator buttons were not visible"
+            },
+            {
+                "id": "debf00a8f67d44ed0f8b80c5e7d801aeb304379a",
+                "type": "FIX",
+                "text": " sap.m.MultiInput:  Remove duplicate cut/copy handling to fix clipboard operations"
+            },
+            {
+                "id": "02a8957e04d5d758832a1c550e56b40802a6370d",
+                "type": "FIX",
+                "text": " sap.m.VariantManagement: copy items binding template into manage dialog"
+            },
+            {
+                "id": "ebf4f5161a54ac5926c05c7e9f0dbd470b0e631f",
+                "type": "FIX",
+                "text": " sap.m.MessagePopover: List view preserved after resize is now reverted"
+            },
+            {
+                "id": "66dad585ff4df2821255cf43bf59d19c8b189c7b",
+                "type": "FIX",
+                "text": " sap.ui.core.delegate.ScrollEnablement: prevent TypeError on null offsetParent"
+            },
+            {
+                "id": "04a5f0cd726d47c03ada19ba439d2fdbb01ba927",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: fixed focus of table rows in popin mode"
+            },
+            {
+                "id": "e05e40fa69b980baf534cf9e9a7e06a786ba8382",
+                "type": "FEATURE",
+                "text": " sap.m.Dialog: Focus goes on the entire dialog when we have drag or resize"
+            },
+            {
+                "id": "8e003605820668f1690f881fa226ba2071f227b6",
+                "type": "FIX",
+                "text": " sap.m.Input: resolve iPad Safari rendering issue"
+            },
+            {
+                "id": "ebe50905baf7a7e2c2d4fc158ac03706745b8389",
+                "type": "FIX",
+                "text": " sap.m.CheckBox: Fix state limitation for CheckBox"
+            },
+            {
+                "id": "c0c43571889c44f8aaf391ef73a4d18d68a64920",
+                "type": "FEATURE",
+                "text": " sap.m.Carousel: Responsive layout is now enabled"
+            },
+            {
+                "id": "edce80d60e87b18e3293e65faec37c5c534cb919",
+                "type": "FIX",
+                "text": " We've now fixed the width of slideTile and genericTile when they are placed inside a ushell section in sap_fiori_3 theme"
+            },
+            {
+                "id": "ccf79517ab3787850b5e8a710c2e6bf14d62c9fe",
+                "type": "FIX",
+                "text": " sap.m.MessagePopover: List view is now preserved after resize"
+            },
+            {
+                "id": "b02ef01901baf1a097e901896f985c4b8f72deb7",
+                "type": "FIX",
+                "text": " sap.m.OverflowToolbar: onfocusfail no longer throws an error"
+            },
+            {
+                "id": "bee933c9f78451fa479b8be910fa78ffd9ac181f",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: week numbering in Week and OneMonth view are shown again."
+            },
+            {
+                "id": "ebbf97d186e0cca2309599d66ec7d1012e213f1c",
+                "type": "FEATURE",
+                "text": " sap.m.Menu: introduce 'open' event"
+            },
+            {
+                "id": "abd71b5e77cd0637d4d613605b432383be11ff0b",
+                "type": "FEATURE",
+                "text": " sap.m.SinglePlanningCalendarGrid: Sort appointments by start date"
+            },
+            {
+                "id": "89149df71994e528d2dd69b386f36bda28450371",
+                "type": "FIX",
+                "text": " sap.m.Datepicker/DateTimePicker/DateRangeSelection: align with VD specification"
+            },
+            {
+                "id": "a904015cd0d61c295889c23c4a6118cd9576e3e4",
+                "type": "FEATURE",
+                "text": " sap.m.Tokenizer: Align Tokenizer mobile title with spec"
+            },
+            {
+                "id": "628506c075e4eb3227424200bbbb459bf95f15bf",
+                "type": "FIX",
+                "text": " Popups: Default popover padding is now removed"
+            },
+            {
+                "id": "db67627ed32d616279a0c205656c2c59e9e4b4c9",
+                "type": "FIX",
+                "text": " sap.m.MultiComboBox: MultiComboBox does not throw errors onAfterClose"
+            },
+            {
+                "id": "b9e90cc52f6f65025dafa93aef8173f48cf4266b",
+                "type": "FIX",
+                "text": " core/Control: Improve focus restoration for busy indicator"
+            },
+            {
+                "id": "75db4bcc4c9eff012152023edb51b448ca907f32",
+                "type": "FEATURE",
+                "text": " sap.m.FormattedText: added <S> tag support"
+            },
+            {
+                "id": "ec113e0f1f787a0999408210a657d53870a64f20",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: resize the popup depending on page"
+            },
+            {
+                "id": "d1233a80777f87e0dc1abb5e343ab05907b43dee",
+                "type": "FIX",
+                "text": " sap.m.StepInput: adapt to VD specs on mobile"
+            }
+        ]
+    }
+}

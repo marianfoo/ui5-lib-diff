@@ -1,0 +1,44 @@
+{
+    "1.146.0": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "Ie65e1cf214bc22707bfdfe9c297e683dac3910d0",
+                "type": "FEATURE",
+                "text": "We now provide the preferredAction startup parameter to automatically trigger the SmartSummary action on the object page"
+            },
+            {
+                "id": "If1715ca724b81c75a8a9440d51eae2b6fff9040d",
+                "type": "FEATURE",
+                "text": "When using key user adaptation on the object page, the Configure Table dialog now only displays create mode options specific for each table variant"
+            },
+            {
+                "id": "I58beb37211a0821201eda2425b997aa507836acf",
+                "type": "FEATURE",
+                "text": "We now show an illustrated message if there is no data in a chart"
+            },
+            {
+                "id": "I0a8f7237697c9bd2a7a7483939228a9e1746efa8",
+                "type": "FIX",
+                "text": "We've resolved an issue where an invalid application state during navigation caused errors when interacting with SAP Fiori launchpad",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0789511"
+                    }
+                ]
+            },
+            {
+                "id": "I930cacb8be9b6cb60c2f4ed24880d4df17588d07",
+                "type": "FIX",
+                "text": "We've resolved an issue where column personalization settings were applied to incorrect columns in a draft-enabled grid table due to the Edit Status column not being calculated into the column index",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0702071"
+                    }
+                ]
+            }
+        ]
+    }
+}
