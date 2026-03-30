@@ -324,5 +324,40 @@
                 "text": " SmartFilterBar: Saving composite keys in the variant is now supported"
             }
         ]
+    },
+    "1.136.14": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "c23de78de343171594e27c8cf0c1db676b48978f",
+                "type": "FIX",
+                "text": " SmartFilterBar: Skip onfocusin filtering after suggestion item selection for MultiComboBox"
+            },
+            {
+                "id": "1629ea91abed4227a0ed6d959908bf183e63b975",
+                "type": "FIX",
+                "text": " SmartFilterBar: missing token descriptions when setUiState is called after associateValueLists"
+            },
+            {
+                "id": "b3e717a68a88601a496b1f872c5814e46a238528",
+                "type": "FIX",
+                "text": " personalization/Controller: Store normalized data in alreadyKnownRuntimeData"
+            },
+            {
+                "id": "f207e74dc761653a267be4f8f9c5818df2c73a1f",
+                "type": "FIX",
+                "text": " P13nConditionPanel: Fixed issue with fiscal formatting"
+            },
+            {
+                "id": "be4d366c6c7252dd323951bd2eea1afafe5b8d16",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Numeric keys are no longer parsed"
+            },
+            {
+                "id": "a27c34c72b0dba429144359ec1cce2b8d4667c67",
+                "type": "FIX",
+                "text": " DateRangeType: Correct filtering from saved variant in P13n dialog"
+            }
+        ]
     }
 }

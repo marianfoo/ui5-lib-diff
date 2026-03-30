@@ -268,5 +268,35 @@
                 "text": " We now correctly manage the function import in the invokeAction method"
             }
         ]
+    },
+    "1.136.16": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "88dbb2fdf6eb6cd80181a22804e4632044b9fb81",
+                "type": "FIX",
+                "text": " We've resolved an issue when discarding a draft containing a DefaultValuesFunction by destroying the created context bindings"
+            },
+            {
+                "id": "62bc5974be2beff5bf84d8e434aa7c0f66d5a8e3",
+                "type": "FIX",
+                "text": " We now support side effects in the RichTextEditorWithMetadata building block"
+            },
+            {
+                "id": "861521298981110085cbc44a9ca30aa7e915f10a",
+                "type": "FIX",
+                "text": " We now ensure that the application can handle the SideEffects events when an action has been executed"
+            },
+            {
+                "id": "2d3d808f71b1d828bc5f449b7b4af62a2afb49a5",
+                "type": "FIX",
+                "text": " We've resolved an issue where the default value for an action parameter with the decimal type did not contain quotes around \"0\""
+            },
+            {
+                "id": "f9903d43605d12987942bbe336bb3a793e1b48d5",
+                "type": "FIX",
+                "text": " We now ensure that the triggerAction of SideEffects is executed using strict handling"
+            }
+        ]
     }
 }
