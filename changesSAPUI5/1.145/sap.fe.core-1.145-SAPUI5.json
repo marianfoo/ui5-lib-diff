@@ -43,5 +43,30 @@
                 "text": " You can now use the imageFitType property to specify how an image fits in the avatar"
             }
         ]
+    },
+    "1.145.1": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "ac53e96b0afca90a2ffb6e70b47c7d06ffec696c",
+                "type": "FIX",
+                "text": " We now support side effects in the RichTextEditorWithMetadata building block"
+            },
+            {
+                "id": "9af5bc032f6146ce41fe3ce7f47b804650f3ccb8",
+                "type": "FIX",
+                "text": " We now ensure that the application can handle the SideEffects events when an action has been executed"
+            },
+            {
+                "id": "29103e04a4d89b2159c10e98dfcc582fd8229045",
+                "type": "FIX",
+                "text": " We've resolved an issue where the default value for an action parameter with the decimal type did not contain quotes around \"0\""
+            },
+            {
+                "id": "311fd967e08cc5b6f87ffed3995377040fa4432e",
+                "type": "FIX",
+                "text": " We now ensure that the triggerAction of SideEffects is executed using strict handling"
+            }
+        ]
     }
 }

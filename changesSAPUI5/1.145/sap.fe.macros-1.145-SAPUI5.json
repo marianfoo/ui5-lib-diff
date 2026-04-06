@@ -63,5 +63,35 @@
                 "text": " You can now use the imageFitType property to specify how an image fits in the avatar"
             }
         ]
+    },
+    "1.145.1": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "faea8dd0ed32de404b4c2f7ddc29ca7558624995",
+                "type": "FIX",
+                "text": " We now correctly apply the defaultCreationMode manifest setting to the Table building block"
+            },
+            {
+                "id": "ac53e96b0afca90a2ffb6e70b47c7d06ffec696c",
+                "type": "FIX",
+                "text": " We now support side effects in the RichTextEditorWithMetadata building block"
+            },
+            {
+                "id": "36454ee5e3d634d738a352bb6585026ae96bba63",
+                "type": "FIX",
+                "text": " We now display inline edit for empty fields in grid tables"
+            },
+            {
+                "id": "8294669fee3143983fd02b08d5a1aac14432240e",
+                "type": "FIX",
+                "text": " We've resolved an issue where duplicate filters were included in value help description requests"
+            },
+            {
+                "id": "a778e3fa4e9fef39e1c009c1bf4f9dffca7c3409",
+                "type": "FIX",
+                "text": " We've resolved an issue with the visibility of subsections by setting the binding context to null or undefined"
+            }
+        ]
     }
 }

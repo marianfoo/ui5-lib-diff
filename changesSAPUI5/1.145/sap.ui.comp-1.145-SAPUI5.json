@@ -73,5 +73,45 @@
                 "text": " SmartField handles TextArrangement DescriptionOnly correctly"
             }
         ]
+    },
+    "1.145.1": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "0cad14f9d33cb2c934a6267445de9481f0c6b196",
+                "type": "FIX",
+                "text": " SmartFilterBar: Skip onfocusin filtering after suggestion item selection for MultiComboBox"
+            },
+            {
+                "id": "ac8e5fcee0af2e6487d3a115fb4dbd6254f8db7e",
+                "type": "FIX",
+                "text": " SmartFilterBar: missing token descriptions when setUiState is called after associateValueLists"
+            },
+            {
+                "id": "e3116a487f6781592b5708ad6379421555573899",
+                "type": "FIX",
+                "text": " P13nConditionPanel: Fixed issue with fiscal formatting"
+            },
+            {
+                "id": "7f14e3c5ce79ae1098077f6e7e02c6d45724ff7a",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Numeric keys are no longer parsed"
+            },
+            {
+                "id": "3223ddc62e5f169f964c992e9d85fda5c78c62f6",
+                "type": "FIX",
+                "text": " FilterController: DynamicDateRange can now correctly filter table"
+            },
+            {
+                "id": "400acad115af5c1e9c78d6c86976296f64f1c302",
+                "type": "FIX",
+                "text": " DateRangeType: Correct filtering from saved variant in P13n dialog"
+            },
+            {
+                "id": "a27695c4039861219a98e63ca24ccebd97d152b0",
+                "type": "FIX",
+                "text": " ValueHelpDialog: Short string keys now correctly select the corresponding row"
+            }
+        ]
     }
 }
