@@ -92,9 +92,16 @@
 <item>
 <title>Version 1.120.43 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.42&amp;versionTo=1.120.43</link>
-<pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.120.43</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: The draft activation confirmation popup is no longer displayed when the navigation from an object page opens a new browser window or tab</li></ul></li></ul>]]></description>
+<pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.43</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Avatar: prevent event bubbling when LightBox is present</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: The draft activation confirmation popup is no longer displayed when the navigation from an object page opens a new browser window or tab</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  SmartFilterBar: Focus is stolen from the first focusable element on the page</li><li>Type: FIX, Description:  SmartFilterBar: Skip onfocusin filtering after suggestion item selection for MultiComboBox</li><li>Type: FIX, Description:  SmartTable: DateRangeType Issues with Timezones</li><li>Type: FIX, Description:  SmartFilterBar: missing token descriptions when setUiState is called after associateValueLists</li><li>Type: FIX, Description:  personalization/Controller: Store normalized data in alreadyKnownRuntimeData</li><li>Type: FIX, Description:  P13nConditionPanel: Fixed issue with fiscal formatting</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.base.strings.formatMessage: Accept nullish arguments</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.CalendarDateInterval: shows correct year</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.42&amp;versionTo=1.120.43</guid>
+</item>
+<item>
+<title>Version 1.120.44 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.43&amp;versionTo=1.120.44</link>
+<pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.120.44</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We now ensure that the current object page context is always passed as a parameter while fetching the Related Apps</li><li>Type: FIX, Description: We&apos;ve resolved multiple issues with variant management and application state handling</li></ul></li><li><strong>Library: sap.ui.generic.app</strong><ul><li>Type: FIX, Description: We now ensure that the internal variable state is restored after the getDefaultValues call</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.43&amp;versionTo=1.120.44</guid>
 </item>
 <item>
 <title>Version 1.136.9 Changes</title>
@@ -298,6 +305,13 @@
 <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.84.54</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPageTitle: Fix flaky focus test in Safari</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap/ui/thirdparty: bump RequireJS to 2.3.7</li><li>Type: FIX, Description:  We&apos;ve now removed the iframe content check while loading a PDF to display it</li><li>Type: FIX, Description:  We&apos;ve now removed the iframe content check while loading a PDF to display it</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap/ui/thirdparty: bump RequireJS to 2.3.7</li></ul></li><li><strong>Library: sap.ui.documentation</strong><ul><li>Type: FIX, Description:  sap/ui/thirdparty: bump RequireJS to 2.3.7</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.53&amp;versionTo=1.84.54</guid>
+</item>
+<item>
+<title>Version 1.84.55 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.54&amp;versionTo=1.84.55</link>
+<pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.84.55</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We now trigger a fetch call to load PDF content and determine PDF availability in the PDFViewer</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.base.strings.formatMessage: Accept nullish arguments</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.54&amp;versionTo=1.84.55</guid>
 </item>
 <item>
 <title>Version 1.96.43 Changes</title>

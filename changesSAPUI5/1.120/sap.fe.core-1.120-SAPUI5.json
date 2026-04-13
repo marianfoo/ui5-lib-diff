@@ -1154,5 +1154,25 @@
                 "text": " We now ensure that the Discard Draft popover is shown correctly when the browser window is resized to a smaller size"
             }
         ]
+    },
+    "1.120.36": {
+        "date": "April 2026",
+        "notes": [
+            {
+                "id": "a2c7a0704eeea54c214b24a421b78685f58b84a7",
+                "type": "FIX",
+                "text": " We've resolved an issue where filter fields containing the UI.AdaptationHidden property with a navigation path weren't applied to the filter request even though they were added in the UI.SelectionFields annotation."
+            },
+            {
+                "id": "01325f9169c0dbc671a3dc9a37faa85ac4ccc75c",
+                "type": "FIX",
+                "text": " We've resolved an issue where the default value for an action parameter with the decimal type did not contain quotes around \"0\""
+            },
+            {
+                "id": "d2c7c11919c50b363bed83c1bd2f6228eca6d1d8",
+                "type": "FIX",
+                "text": " We've resolved an issue that occurred when the Edit button is clicked for non-draft entities in the right panel of a flexible column layout"
+            }
+        ]
     }
 }

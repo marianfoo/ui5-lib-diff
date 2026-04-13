@@ -810,5 +810,20 @@
                 "text": " We now ensure that the Discard Draft popover is shown correctly when the browser window is resized to a smaller size"
             }
         ]
+    },
+    "1.120.36": {
+        "date": "April 2026",
+        "notes": [
+            {
+                "id": "a2c7a0704eeea54c214b24a421b78685f58b84a7",
+                "type": "FIX",
+                "text": " We've resolved an issue where filter fields containing the UI.AdaptationHidden property with a navigation path weren't applied to the filter request even though they were added in the UI.SelectionFields annotation."
+            },
+            {
+                "id": "63fbfd952d16f812887139615a9d0b9ee54e85e6",
+                "type": "FIX",
+                "text": " We've resolved an issue where duplicate filters were included in value help description requests"
+            }
+        ]
     }
 }

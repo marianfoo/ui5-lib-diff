@@ -946,5 +946,40 @@
                 "text": " ValueListProvider: Correct firing of 'change' event when single text field is used with no description"
             }
         ]
+    },
+    "1.120.43": {
+        "date": "April 2026",
+        "notes": [
+            {
+                "id": "7c65d8a31414ad7ab0148a14c4f2086e541eb784",
+                "type": "FIX",
+                "text": " SmartFilterBar: Focus is stolen from the first focusable element on the page"
+            },
+            {
+                "id": "4a0d895e9a07f2d40cbaceb8d5c2b335828dfda3",
+                "type": "FIX",
+                "text": " SmartFilterBar: Skip onfocusin filtering after suggestion item selection for MultiComboBox"
+            },
+            {
+                "id": "7f17681c4e0b087332b1a6c3141ba3d999fff818",
+                "type": "FIX",
+                "text": " SmartTable: DateRangeType Issues with Timezones"
+            },
+            {
+                "id": "3c0a5a3e07abd7b2e46cbdcb262abd0774236d73",
+                "type": "FIX",
+                "text": " SmartFilterBar: missing token descriptions when setUiState is called after associateValueLists"
+            },
+            {
+                "id": "140d24cb01ef6e23db7ad2ee2221bae259192dd1",
+                "type": "FIX",
+                "text": " personalization/Controller: Store normalized data in alreadyKnownRuntimeData"
+            },
+            {
+                "id": "02777c90365d81df49feb7132a955f3f2879cf00",
+                "type": "FIX",
+                "text": " P13nConditionPanel: Fixed issue with fiscal formatting"
+            }
+        ]
     }
 }
