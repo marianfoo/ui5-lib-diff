@@ -1,0 +1,106 @@
+{
+    "1.147.0": {
+        "date": "April 2026",
+        "notes": [
+            {
+                "id": "I03f4860d6de11e3774c2ad0dc993069231b0777d",
+                "type": "FEATURE",
+                "text": "You can now use the  onListNavigationExtensionFromContextMenu extension API to enable the Open in New Tab or Window option from the context menu even when onListNavigation is implemented"
+            },
+            {
+                "id": "I82051e23267f67372e9f401233e53fe3a6364b7b",
+                "type": "FEATURE",
+                "text": "The order of filter fields in the smart filter bar in list report page apps is now stored in the iAppState"
+            },
+            {
+                "id": "I9bbe2bfc3e1b06d8fba7f57e3402729b0d5353ec",
+                "type": "FIX",
+                "text": "We've resolved an issue where export to PDF failed because 1:n navigation properties were incorrectly included in the OData request URL"
+            },
+            {
+                "id": "I9c4e70050e061b63547ff267337e6e477cb156f3",
+                "type": "FIX",
+                "text": "We've resolved multiple issues in the AI-assisted easy filter and the AI-assisted easy fill",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0791010"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0723421"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0704303"
+                    }
+                ]
+            },
+            {
+                "id": "I038c374a3c36f5ca1d9cdabfdbdd561b19154f59",
+                "type": "FIX",
+                "text": "We've resolved multiple issues with variant management and app state handling",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0659594"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0661212"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0014544"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011041379"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005534614"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005355552"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005671529"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005724765"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011145729"
+                    }
+                ]
+            },
+            {
+                "id": "I41c9afaec37b57a2a42534657c46e1055d024f45",
+                "type": "FIX",
+                "text": "We've resolved an issue where the insights card option wasn't shown on the object page when navigating in multi-entity-set scenarios",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0694430"
+                    }
+                ]
+            },
+            {
+                "id": "I4a9346209517f6faa22c41caaa81ab280aea3449",
+                "type": "FIX",
+                "text": "We've resolved an issue where the OData request didn't include list report page fields configured for mass editing when they weren't visible as table columns",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0527598"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -298,5 +298,20 @@
                 "text": " We now ensure that the triggerAction of SideEffects is executed using strict handling"
             }
         ]
+    },
+    "1.136.17": {
+        "date": "April 2026",
+        "notes": [
+            {
+                "id": "bcaf20139ea7ab98e5dada6fa58ba36fd6c14702",
+                "type": "FIX",
+                "text": " We now correctly recreate empty rows after executing side effects"
+            },
+            {
+                "id": "f6bc83b40f22478fd19e5aa3249cdd4c7f518cea",
+                "type": "FIX",
+                "text": " We now correctly access the environmentCapabilities service when starting an application"
+            }
+        ]
     }
 }

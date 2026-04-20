@@ -1,0 +1,77 @@
+{
+    "1.147.0": {
+        "date": "April 2026",
+        "notes": [
+            {
+                "id": "887aba91a706fe84480ff8624407f8f4918a78a5",
+                "type": "FIX",
+                "text": " We now correctly include the DATERANGE operator in the conditions for the setFilterValues API"
+            },
+            {
+                "id": "b9ab08b6f5e4b88e6552f9babb1343cc96af58a7",
+                "type": "FEATURE",
+                "text": "  We now use the multi-input field in the value help dialog"
+            },
+            {
+                "id": "bc92631e65b502afbfa5bcc84625a4fdefe55d0e",
+                "type": "FEATURE",
+                "text": " You can now request additional properties at the page or table level in the manifest.json file"
+            },
+            {
+                "id": "bdd556ae3d8cae53b0a19903ae12e199a1c46b22",
+                "type": "FEATURE",
+                "text": " We've introduced the AlwaysEditableField building block to specify a field as always editable"
+            },
+            {
+                "id": "3f88ba9334de150c8601911bdf9bd6db50c7800a",
+                "type": "FEATURE",
+                "text": " We now support the AI notice at the column level"
+            },
+            {
+                "id": "b6edeb58b615b4b70ed46a835b50ca123fb85437",
+                "type": "FIX",
+                "text": " We now correctly access the environmentCapabilities service when starting an application"
+            },
+            {
+                "id": "39e8b17d6fb90187bf74e266dcd60d6622913ce0",
+                "type": "FEATURE",
+                "text": " You can now use an emphasized button for any annotation-based or custom action in the header or footer of the page"
+            },
+            {
+                "id": "2ba5ea363707f46dbab2cc29d0e6f1597a9be44f",
+                "type": "FEATURE",
+                "text": " We've replaced the fixed FlexBox split with a ResponsiveSplitter layout"
+            },
+            {
+                "id": "39bf8668c2ad4b702c8161986b6fd036ec4dc140",
+                "type": "FEATURE",
+                "text": " You can now restrict key user adaptation in forms and sections using the designtime property"
+            },
+            {
+                "id": "54c5ebd6c32ec4177a8720a38a97f73f50596357",
+                "type": "FIX",
+                "text": " We now correctly apply the defaultCreationMode manifest setting to the Table building block"
+            },
+            {
+                "id": "d1fd5d48e8e2bf7697e86822196fdb2bc39b02ba",
+                "type": "FIX",
+                "text": " We now support side effects in the RichTextEditorWithMetadata building block"
+            },
+            {
+                "id": "79a2955c97681726c651712730ea6562c0259587",
+                "type": "FIX",
+                "text": " We now ensure that IsActiveEntity filters are correctly removed from draft chart queries"
+            },
+            {
+                "id": "2e320db0b39919b1f5f02e12d57125495d69b4a7",
+                "type": "FIX",
+                "text": " We now display inline edit for empty fields in grid tables"
+            },
+            {
+                "id": "01f71a49faa78b302fbdc2fdd8075e4ff32de844",
+                "type": "FIX",
+                "text": " We've resolved an issue where duplicate filters were included in value help description requests"
+            }
+        ]
+    }
+}

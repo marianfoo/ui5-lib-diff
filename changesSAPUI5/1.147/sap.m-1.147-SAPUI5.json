@@ -1,0 +1,263 @@
+{
+    "1.147.0": {
+        "date": "April 2026",
+        "notes": [
+            {
+                "id": "473c38f562d59baf597a210658362b2ca22b60b8",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: startDateChange is fired after updating"
+            },
+            {
+                "id": "6b97ecc958476d633a04867b92b732f8000e5880",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: Preserve raw input when formatting fails in TimePicker"
+            },
+            {
+                "id": "501cb42ffa7fe2b32ddfcc7b264cb8b1379b9cb3",
+                "type": "FIX",
+                "text": " sap.m.MenuButton: Sets 'button' type to the internal buttons"
+            },
+            {
+                "id": "7c8a1289f35750c72e369ba28601db1850d77e20",
+                "type": "FIX",
+                "text": " We've now added InvisibleMessage for screen reader navigation announcements in upload set with table"
+            },
+            {
+                "id": "384a0572d1083a100adcd42447c876dec3134cee",
+                "type": "FIX",
+                "text": " Added InvisibleMessage for screen reader navigation announcements"
+            },
+            {
+                "id": "82a13190e315d91eb2cf1a862f1ae2eb6f1ede75",
+                "type": "FIX",
+                "text": " Added InvisibleMessage for screen reader navigation announcements"
+            },
+            {
+                "id": "649bcb091a3ad1c14652917d8cf1214070856a92",
+                "type": "FIX",
+                "text": " sap.m.ViewSettingsDialog: Search field aria-labelledby"
+            },
+            {
+                "id": "de262b7fb1ddaad801538c46e4d53c535e81597d",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: Fix unstable qUnit tests"
+            },
+            {
+                "id": "0acf36a75184319a7177aba6098225539774e17a",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: render week numbers for custom view keys"
+            },
+            {
+                "id": "b82f977846a476b27a75643392fee2357218d637",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: Prevent tap event propagation to parent controls"
+            },
+            {
+                "id": "c3ad6d08d43067c298844a78a4b6e4f4ff2a5633",
+                "type": "FIX",
+                "text": " sap.m.LightBox: Focus is restored after image loading error"
+            },
+            {
+                "id": "058ee2a49a6cad6ff5eddbaef950d774516d9223",
+                "type": "FIX",
+                "text": " sap.m.Menu: focus parent menu item on F2 in EndContent"
+            },
+            {
+                "id": "503077cb695feedfb9e1b81d99ed90c01dd1f3b7",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendarHeader: has aria-labelledby for the views"
+            },
+            {
+                "id": "235b6239294a71903df93189d2e29b85454341f8",
+                "type": "FIX",
+                "text": " sap.m.MessageView: SegmentedButton icons color adjusted when active"
+            },
+            {
+                "id": "be1bd83f618d6e1618bd6c4b2642eb3918e2e957",
+                "type": "FIX",
+                "text": " sap.m.RadioButton: Disabled and Read-only radio buttons are now displayed as disabled only"
+            },
+            {
+                "id": "beec3face3ceb15bd4473ca2423e9dd0b6a69d8e",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: Remove focus outline of the control when focus goes to a token",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": ""
+                    }
+                ]
+            },
+            {
+                "id": "de58bd5e02193a2146808eca7044dddbc4cec941",
+                "type": "FIX",
+                "text": " sap.m.RadioButton: Documentation for 'select' event parameter is updated"
+            },
+            {
+                "id": "61c6e216fa5b936f8b07726ea40608ca0ed53962",
+                "type": "FIX",
+                "text": " sap.m.Link: fixed error message in icon and endIcon setters"
+            },
+            {
+                "id": "c4ebcfb12efcdd856f4b67cddc0e8c262aad6e4b",
+                "type": "FIX",
+                "text": " sap.m.Select: Update sample"
+            },
+            {
+                "id": "8b94f3958908f3de40dbd9892b158104b8389a35",
+                "type": "FIX",
+                "text": " sap.m.OverflowToolbar: Update sample"
+            },
+            {
+                "id": "d55d8e4f9d68cc9b7b177abf4c65a09f32286649",
+                "type": "FIX",
+                "text": " sap.m.Link: fixed endIcon reset/clear"
+            },
+            {
+                "id": "4006811b299adc07fa997163f0945b8f7790392f",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: Fix unstable qUnit test"
+            },
+            {
+                "id": "ccde3a9c51e4d8116ad46cc046681f2aac6aaa55",
+                "type": "FIX",
+                "text": " sap.m.MultiComboBox: qUnit test is now fixed for v2.x build"
+            },
+            {
+                "id": "3354954adf1e18e363a3a3b795e2af6a6351423e",
+                "type": "FEATURE",
+                "text": " sap.m.Switch: readonly mode"
+            },
+            {
+                "id": "db46d0c94d215accb16afb943e782efcb79e8af2",
+                "type": "FIX",
+                "text": " sap.m.StepInput: change event is fired when the value is changed and the precision isn't correct"
+            },
+            {
+                "id": "62997507e10b646c04c3246a81e52f0c1fc2325b",
+                "type": "FIX",
+                "text": " sap.m.MultiComboBox: qUnit test is now fixed for v2.x build"
+            },
+            {
+                "id": "1c8c1e363489ae1e5aa79ec2d4230753e970a323",
+                "type": "FIX",
+                "text": " sap.m.semantic.DetailPage: getAggregation returns null for unset aggregations"
+            },
+            {
+                "id": "9af8659988fd087077b6eb1eb6df207a4e76cd38",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: Update sample"
+            },
+            {
+                "id": "79d875300892f2d5a566df53c5f22a1ace258237",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: has correct tooltip for date/time options"
+            },
+            {
+                "id": "141d8c2dfadb705ef1845ecc072dbfc0b7ccb224",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: align height to content"
+            },
+            {
+                "id": "42cee4156eee974ab0f988e63c48554ac7679461",
+                "type": "FIX",
+                "text": " sap.m.ObjectListItem: invisible markers are not added to ARIA"
+            },
+            {
+                "id": "0f289312036e69f57c633422f353fcc7eb9bb727",
+                "type": "FIX",
+                "text": " sap.m.Image: inlineSVG mode now scopes IDs to prevent duplicates"
+            },
+            {
+                "id": "96f37a634f9868fbe06ca8bd8b3495d9ae8b5e58",
+                "type": "FIX",
+                "text": " We now ensure that ActionTile avoids the default link behaviour when the action buttons are clicked"
+            },
+            {
+                "id": "4fbb46f297363d9db2fa4e02717018ddaa545822",
+                "type": "FIX",
+                "text": " sap.m.ObjectMarker: focus of icon only marker is correct now"
+            },
+            {
+                "id": "a47fc8993e62504081c54f55cc8374ad79156179",
+                "type": "FIX",
+                "text": "sap.m.MultiInput: focus is now kept when icons are pressed"
+            },
+            {
+                "id": "76baa5c924655c7f8e75110e8a35a6549b89e0dc",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: remove redundant labelled by reference"
+            },
+            {
+                "id": "2673b552ac0595b298876ed059be84070f5bb5d0",
+                "type": "FIX",
+                "text": " sap.m.ProgressIndicator: Improve sample"
+            },
+            {
+                "id": "897737ea9f87caef48b96c083177624b4ee63d1f",
+                "type": "FIX",
+                "text": " sap.m.OverfloToolbar: Sample update"
+            },
+            {
+                "id": "a6ca436d6383f0e72afeac1fb1446ce0733d380d",
+                "type": "FIX",
+                "text": " sap.m.Avatar: Suppress warnings for empty initials"
+            },
+            {
+                "id": "09f035cfc24c903df4baa3c3f771ccf48599242b",
+                "type": "FIX",
+                "text": " sap.m.StepInput: formatting is improved."
+            },
+            {
+                "id": "2d507e3a9a72ca5295d0dd6bcb4e410b5b35a0c6",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: Prevent caret movement on Esc when value is already restored"
+            },
+            {
+                "id": "feb8b1fb79de2d5412dd6c470c72fda7c2e3990a",
+                "type": "FIX",
+                "text": "sap.m.Tokenizer: Tokens list items type is now 'Inactive'"
+            },
+            {
+                "id": "9c4772d3ef60a3a666b8f64d602a4f2698999223",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: Update sample"
+            },
+            {
+                "id": "48d160d88a8577320137e81ed8b98d0a7c9554ea",
+                "type": "FIX",
+                "text": " sap.m.Avatar: Sample tooltip is now corrected"
+            },
+            {
+                "id": "1daf9bd1b929511df5a98f1e91d7b36942c1e076",
+                "type": "FIX",
+                "text": " SelectionPanel: Don't hide selected descriptions"
+            },
+            {
+                "id": "b764867644efdffe0587295a4d0faecf668dacca",
+                "type": "FIX",
+                "text": " sap.m.DatePicker: user input is not overwritten when value is"
+            },
+            {
+                "id": "8c9a790c7cbd8593be955103eb35e6295854d0d4",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: Prevent focus on List dummy areas in tokens popup"
+            },
+            {
+                "id": "8680b4e01dc47939a40cff113fe6e455ec2c2d23",
+                "type": "FIX",
+                "text": " sap.m.RadioButtonGroup: useEntireWidth property behavior is fixed"
+            },
+            {
+                "id": "c851dce88f1b1168f4aed43c7cac5373b5e2930c",
+                "type": "FIX",
+                "text": " sap.m.Carousel: Fixed focus management when scrollMode is set to \"VisiblePages\""
+            },
+            {
+                "id": "93aa2a10e2aa9deed8bec687ecac8fd624859a19",
+                "type": "FIX",
+                "text": " sap.m.IconTabHeader: Restore focus to overflow button after changing from \"start\" to \"end\""
+            }
+        ]
+    }
+}

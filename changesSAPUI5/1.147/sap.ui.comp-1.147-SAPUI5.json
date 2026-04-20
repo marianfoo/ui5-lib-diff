@@ -1,0 +1,97 @@
+{
+    "1.147.0": {
+        "date": "April 2026",
+        "notes": [
+            {
+                "id": "29119af1bcfb472e44dffdfe2e98bc7823cadf36",
+                "type": "FIX",
+                "text": " ValueHelpDialog: single selection enhancement"
+            },
+            {
+                "id": "c06a53eb018520791c02c41d31b57300b58176a5",
+                "type": "FIX",
+                "text": " FilterBar: Adapt Filters now works properly when there is check box"
+            },
+            {
+                "id": "afa20cd32cf73011a50ae8610bd58d3f25f33d21",
+                "type": "FIX",
+                "text": " FilterBar: Filters that are hidden via ControlConfiguration are no longer visible in Adapt Filters dialog"
+            },
+            {
+                "id": "3432bd274272544ab7d8cacbf12c07bea0be4ac4",
+                "type": "FIX",
+                "text": " FilterBar: Adapt Filters dialog no longer clones the dependent ValueHelp of filters"
+            },
+            {
+                "id": "ef711f3ba766d78ec1e281f1af5e4afbf37a64c7",
+                "type": "FIX",
+                "text": " ValueListProvider: fallback to parent's bound value when control value falsy"
+            },
+            {
+                "id": "e83b15340bf372e67b4cc7a3f9255397cd483256",
+                "type": "FIX",
+                "text": " ValueHelpDialog sId of ariaLabelledBy enhancement"
+            },
+            {
+                "id": "0af9a6cd74d0911425afb419d0fddfae06cd8531",
+                "type": "FIX",
+                "text": " SmartFilterBar: Focus is stolen from the first focusable element on the page"
+            },
+            {
+                "id": "9c3c21feced77546174236853d4e327dd2b24401",
+                "type": "FIX",
+                "text": " FilterBar: Label not rendered when hiddenFilter is changed from true to false"
+            },
+            {
+                "id": "b836a6994f5ee550aa4188058e9d697bf41e021d",
+                "type": "FIX",
+                "text": " SmartChart: IllustratedMessage now has correct size"
+            },
+            {
+                "id": "525e9e681c1a154f17423bc51b226d4566e3e0f9",
+                "type": "FEATURE",
+                "text": " comp.FilterBar/SmartFilterBar: Adapt Filters dialog is now redesigned"
+            },
+            {
+                "id": "612e5818bb56919cba1496a50c2a90c0497c8204",
+                "type": "FIX",
+                "text": " SmartChart: navigation after changing view now works correctly"
+            },
+            {
+                "id": "403076ee1ec08fdaac16934efd4851a238edd352",
+                "type": "FIX",
+                "text": " SmartFilterBar: Skip onfocusin filtering after suggestion item selection for MultiComboBox"
+            },
+            {
+                "id": "b663b2329cb6640f20e51e00de16bdbd6901c430",
+                "type": "FIX",
+                "text": " SmartFilterBar: Backslash (\\) is no longer duplicated in filter tokens when the value contains a curly brace ({)"
+            },
+            {
+                "id": "ea077588ae3e78decb3bf8310f2ee7cc9c776221",
+                "type": "FIX",
+                "text": " SmartField: DateTimeWithTimezone type validation"
+            },
+            {
+                "id": "e227b34e85ca5078506361bc35bce63b0148f350",
+                "type": "FIX",
+                "text": " SmartFilterBar: missing token descriptions when setUiState is called after associateValueLists"
+            },
+            {
+                "id": "5df38c2ef3ed8a4858708104de6c3cb0f99e9e65",
+                "type": "FIX",
+                "text": " FilterBar: Clear stale adapt filter items before reordering on variant switch"
+            },
+            {
+                "id": "c2186b74109fbaca30267180eef0f7396074c815",
+                "type": "FIX",
+                "text": " personalization/Controller: Store normalized data in alreadyKnownRuntimeData"
+            },
+            {
+                "id": "e01e156a3dd346cd8aeae225b77108495e57ce46",
+                "type": "FIX",
+                "text": " P13nConditionPanel: Fixed issue with fiscal formatting"
+            }
+        ]
+    }
+}

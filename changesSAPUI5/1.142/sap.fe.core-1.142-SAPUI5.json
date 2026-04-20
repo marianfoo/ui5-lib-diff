@@ -118,5 +118,20 @@
                 "text": " We've resolved an issue when discarding a draft containing a DefaultValuesFunction by destroying the created context bindings"
             }
         ]
+    },
+    "1.142.9": {
+        "date": "April 2026",
+        "notes": [
+            {
+                "id": "b315dee0aea508d14612df0661330725185bc16d",
+                "type": "FIX",
+                "text": " We now correctly recreate empty rows after executing side effects"
+            },
+            {
+                "id": "b9f0647e3aca8d92b30653b601f6056e9f540c69",
+                "type": "FIX",
+                "text": " We now correctly access the environmentCapabilities service when starting an application"
+            }
+        ]
     }
 }

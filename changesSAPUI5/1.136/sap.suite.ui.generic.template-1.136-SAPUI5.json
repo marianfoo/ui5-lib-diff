@@ -443,5 +443,75 @@
                 ]
             }
         ]
+    },
+    "1.136.16": {
+        "date": "March 2026",
+        "notes": [
+            {
+                "id": "I6cf7a614525a730f4da48a13cf3bf5ba1e110b80",
+                "type": "FIX",
+                "text": "We've resolved an issue where unbound actions were incorrectly displayed in table context menus",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0712788"
+                    }
+                ]
+            },
+            {
+                "id": "I038c374a3c36f5ca1d9cdabfdbdd561b19154f59",
+                "type": "FIX",
+                "text": "We've resolved multiple issues with variant management and application state handling",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0659594"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0661212"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0014544"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011041379"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005534614"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005355552"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005671529"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20230005724765"
+                    },
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011145729"
+                    }
+                ]
+            },
+            {
+                "id": "I819c30c9873d31c135f26c0a93fb9f9f7bdd9a19",
+                "type": "FIX",
+                "text": "We now ensure that the current object page context is always passed as a parameter while fetching the Related Apps",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0794349"
+                    }
+                ]
+            }
+        ]
     }
 }
