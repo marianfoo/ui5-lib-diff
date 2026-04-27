@@ -27,5 +27,43 @@
                 "references": []
             }
         ]
+    },
+    "1.96.48": {
+        "date": "Apr 2026",
+        "notes": [
+            {
+                "id": "Ifc9449388aa7adaf7ea0d346387880da8026aee0",
+                "text": "We've now fixed the relationship rendering issue when a shapeID has multiple binding parts in the gantt chart",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260011470921"
+                    }
+                ]
+            },
+            {
+                "id": "Id573412afcba4a8a5277acc2014f3aafa675047a",
+                "text": "We've now fixed the zoom level issue for StepwiseZoomStrategy in Gantt chart",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011092376"
+                    }
+                ]
+            },
+            {
+                "id": "I4e7d5f743d55d799e9582c98812a6340677a4641",
+                "text": "We've now optimised shape sorting logic while expanding the gantt chart",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250011154602"
+                    }
+                ]
+            }
+        ]
     }
 }

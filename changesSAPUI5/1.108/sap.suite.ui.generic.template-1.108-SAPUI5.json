@@ -1263,5 +1263,32 @@
                 ]
             }
         ]
+    },
+    "1.108.52": {
+        "date": "April 2026",
+        "notes": [
+            {
+                "id": "I0304c828dbf0ca04d371fbf9f87d91c518b34658",
+                "type": "FIX",
+                "text": "The stability of navigateBasedOnStartupParameters when being called multiple times is now improved",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260011752799"
+                    }
+                ]
+            },
+            {
+                "id": "I819c30c9873d31c135f26c0a93fb9f9f7bdd9a19",
+                "type": "FIX",
+                "text": "We now ensure that the current object page context is always passed as a parameter while fetching the Related Apps",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0794349"
+                    }
+                ]
+            }
+        ]
     }
 }
