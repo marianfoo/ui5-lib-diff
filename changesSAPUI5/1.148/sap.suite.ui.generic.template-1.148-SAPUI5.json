@@ -1,0 +1,88 @@
+{
+    "1.148.0": {
+        "date": "May 2026",
+        "notes": [
+            {
+                "id": "I761cfab7d98cbb1929c9b6a497306cd2f71359a8",
+                "type": "FEATURE",
+                "text": "You can now enable the save and back feature to allow users to save an object page and navigate back to the list report page"
+            },
+            {
+                "id": "I15181ec264b412aaf5dcb0d304b611161897d314",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where the analytical list page flickered when users switched between views",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0698800"
+                    }
+                ]
+            },
+            {
+                "id": "I2bacd796a2d8107aa3ec62ba3a92fcbb2c22d750",
+                "type": "FIX",
+                "text": "We've resolved an issue where the Save and Next buttons didn't work on object pages in edit mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0844704"
+                    }
+                ]
+            },
+            {
+                "id": "Iddeef4a83d97963f5ef53914d3bf84652f9ff365",
+                "type": "FIX",
+                "text": "The context menu navigation is no longer disabled on list report pages configured with a creationEntitySet setting in the manifest.json file",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0757466"
+                    }
+                ]
+            },
+            {
+                "id": "I1e26a1040a6c9433ccf5ac14bc4dca8c829a6d24",
+                "type": "FIX",
+                "text": "We've resolved an issue where data was not correctly restored on nested object pages when navigating back using the browser back button",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0469809"
+                    }
+                ]
+            },
+            {
+                "id": "I9bbe2bfc3e1b06d8fba7f57e3402729b0d5353ec",
+                "type": "FIX",
+                "text": "We've resolved an issue where export to PDF failed because 1:n navigation properties were incorrectly included in the OData request URL"
+            },
+            {
+                "id": "I9c0344e6184da6a301d1f5ae8aaf8f0d4b8eb169",
+                "type": "FIX",
+                "text": "We’ve improved the loading speed of the list report page when a record is edited directly from an object page"
+            },
+            {
+                "id": "Iab75f0428c8ceb0fb48ec0238adee22aead036a9",
+                "type": "FIX",
+                "text": "We've resolved an issue where clicking Edit after a failed save on an object page repeatedly triggered the same error",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0841209"
+                    }
+                ]
+            },
+            {
+                "id": "I344bf58c9eadb289cbe9a8e2da227e39bde5dd07",
+                "type": "FIX",
+                "text": "We've resolved an issue where cross-application navigation using a SmartLink passed empty semantic attribute values as filters after navigating back to a list report from an object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260011771569"
+                    }
+                ]
+            }
+        ]
+    }
+}
