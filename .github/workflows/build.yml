@@ -24,6 +24,8 @@ jobs:
       - name: npm install
         run: |
           npm install
+      - name: Run Tests
+        run: npm test
       - name: Fetch Libraries
         run: npm run fetchLibraries
       - name: Get Changes
@@ -40,6 +42,8 @@ jobs:
         run: npm run parseChangesSelect
       - name: Check Deprecated
         run: npm run deprecated
+      - name: Create Static API Manifest
+        run: npm run createApiManifest
       - name: Fetch What's New
         run: npm run fetchWhatsNew
       - name: Create RSS Feed

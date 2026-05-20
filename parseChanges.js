@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
+const { createChangeFromNote } = require('./lib/ui5DiffData');
 
 const changesDirs = ['changesSAPUI5', 'changesOpenUI5'];
 const outputDir = 'de.marianzeis.ui5libdiff/webapp/data';
@@ -13,15 +14,13 @@ const matchesData = JSON.parse(fs.readFileSync(matchesFile, 'utf8'));
 // Read and decompress the gzipped commits file
 const compressedCommitsData = fs.readFileSync(commitsFile);
 const commitsData = JSON.parse(zlib.gunzipSync(compressedCommitsData).toString('utf8'));
+const noteIdToCommitSha = new Map(matchesData.map(match => [match.noteId, match.sha]));
+const commitBySha = new Map(commitsData.map(commit => [commit.sha, commit]));
 
-function findMatchingCommit(note, commits) {
-    // Find the matching entry using note.id
-    const match = matchesData.find(m => m.noteId === note.id);
-    if (!match) return null;
-    
-    // Find the corresponding commit using the sha
-    const commit = commits.find(c => c.sha === match.sha);
-    return commit || null;
+function findMatchingCommit(note) {
+    const sha = noteIdToCommitSha.get(note.id);
+    if (!sha) return null;
+    return commitBySha.get(sha) || null;
 }
 
 function extractDataFromFile(filePath) {
@@ -33,20 +32,13 @@ function extractDataFromFile(filePath) {
 
     for (const [key, value] of Object.entries(data)) {
         try {
-            const notes = value['notes'].map(note => {
-                let matchingCommit = undefined;
-                try {
-                    matchingCommit = findMatchingCommit(note, commitsData);
-                } catch (error) {
-                    console.error(`Error finding matching commit for note ${note.id}: ${error}`);
-                }
-                return {
-                    type: note.type,
-                    text: note.text,
-                    commit_url: matchingCommit ? matchingCommit.url : null,
-                    id: note.id || `${note.type}_${note.text.substring(0, 20).replace(/[^a-zA-Z0-9]/g, '_')}`
-                };
-            });
+            const notes = (Array.isArray(value?.notes) ? value.notes : [])
+                .map(note => createChangeFromNote(note, findMatchingCommit))
+                .filter(Boolean);
+
+            if (notes.length === 0) {
+                continue;
+            }
 
             if (!output[key]) {
                 output[key] = {

@@ -39,7 +39,7 @@ const fetchDataAndSave = (url, consolidatedPath) => {
             }
 
             // Save the updated data
-            fs.writeFileSync(consolidatedPath, JSON.stringify(consolidatedData, null, 2), 'utf8');
+            fs.writeFileSync(consolidatedPath, JSON.stringify(consolidatedData), 'utf8');
             console.log(`Data updated and saved to ${consolidatedPath}`);
         })
         .catch(error => {
