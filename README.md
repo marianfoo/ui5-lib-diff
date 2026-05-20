@@ -8,7 +8,7 @@ screenshot.jpg)
 
 
 ## Visit the App
-https://marianfoo.github.io/ui5-lib-diff/
+https://ui5-lib-diff.marianzeis.de/
 
 ## Blog Post
 
@@ -27,6 +27,20 @@ This is basically a the raw data coming from the API.
 After the data is fetched from the API, it is processed and moved to the [`data`](https://github.com/marianfoo/ui5-lib-diff/tree/main/de.marianzeis.ui5libdiff/webapp/data) Folder for the consumption in the UI5 Webapp.  
 The complete data (all changes) are in the [consolidatedSAPUI5.json](https://github.com/marianfoo/ui5-lib-diff/blob/main/de.marianzeis.ui5libdiff/webapp/data/consolidatedSAPUI5.json) and [consolidatedOpenUI5.json](https://github.com/marianfoo/ui5-lib-diff/blob/main/de.marianzeis.ui5libdiff/webapp/data/consolidatedOpenUI5.json) file.  
 For the dropdown fields the json files [selectVersionsSAPUI5.json](https://github.com/marianfoo/ui5-lib-diff/blob/main/de.marianzeis.ui5libdiff/webapp/data/selectVersionsSAPUI5.json) and [selectVersionsOpenUI5.json](https://github.com/marianfoo/ui5-lib-diff/blob/main/de.marianzeis.ui5libdiff/webapp/data/selectVersionsOpenUI5.json) are used.
+
+### Static API for tools and agents
+
+The hosted app also publishes static JSON files that can be consumed without loading the UI:
+
+- Manifest: https://ui5-lib-diff.marianzeis.de/api/v1/manifest.json
+- All changes bundle: https://ui5-lib-diff.marianzeis.de/api/v1/all-changes.json
+- SAPUI5 consolidated data: https://ui5-lib-diff.marianzeis.de/data/consolidatedSAPUI5.json
+- OpenUI5 consolidated data: https://ui5-lib-diff.marianzeis.de/data/consolidatedOpenUI5.json
+- What's New data: https://ui5-lib-diff.marianzeis.de/data/whatsnew.json
+
+The URL query parameters used by the browser app, for example `?versionFrom=1.146.0&versionTo=1.148.0&ui5Type=SAPUI5`, are a client-side UI route and not a server-side JSON API. MCP servers and other tools should download the all-changes bundle during setup, store it locally, and filter that local file by the range semantics `version > versionFrom && version <= versionTo`. The bundle contains both SAPUI5/OpenUI5 change datasets and SAPUI5 What's New entries.
+
+During data generation, change note types are normalized to `FEATURE`, `FIX`, or `DEPRECATED`. Internal and legacy note markers are omitted so downstream filters do not need to special-case historic casing or typo variants.
 
 ### Whats New
 

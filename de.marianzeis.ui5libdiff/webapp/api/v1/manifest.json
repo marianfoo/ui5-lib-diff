@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-20T15:54:24.501Z",
+  "baseUrl": "https://ui5-lib-diff.marianzeis.de",
+  "bundle": "/api/v1/all-changes.json",
+  "datasets": {
+    "SAPUI5": {
+      "consolidated": "/data/consolidatedSAPUI5.json",
+      "versions": "/data/selectVersionsSAPUI5.json",
+      "versionCount": 830,
+      "minVersion": "1.28.0",
+      "maxVersion": "1.148.0",
+      "totalChanges": 47960,
+      "changeTypeCounts": {
+        "FEATURE": 7546,
+        "FIX": 38194,
+        "DEPRECATED": 2220
+      },
+      "nonCanonicalTypes": {}
+    },
+    "OpenUI5": {
+      "consolidated": "/data/consolidatedOpenUI5.json",
+      "versions": "/data/selectVersionsOpenUI5.json",
+      "versionCount": 595,
+      "minVersion": "1.28.0",
+      "maxVersion": "1.148.0",
+      "totalChanges": 24517,
+      "changeTypeCounts": {
+        "FEATURE": 3630,
+        "FIX": 19801,
+        "DEPRECATED": 1086
+      },
+      "nonCanonicalTypes": {}
+    }
+  },
+  "whatsNew": {
+    "data": "/data/whatsnew.json",
+    "entryCount": 1782,
+    "minVersion": "1.38",
+    "maxVersion": "1.147",
+    "typeCounts": {
+      "Changed": 1545,
+      "New": 155,
+      "Deprecated": 54,
+      "Deleted": 8,
+      "UI Changed": 20
+    },
+    "categoryCounts": {
+      "Control": 1129,
+      "Feature": 414,
+      "SAP Fiori Elements": 159,
+      "User Documentation": 30,
+      "Announcement": 42,
+      "Analysis Path Framework (APF)": 8
+    }
+  },
+  "rangeSemantics": {
+    "description": "Diff ranges are exclusive at versionFrom and inclusive at versionTo.",
+    "expression": "version > versionFrom && version <= versionTo"
+  },
+  "recommendedConsumerFlow": [
+    "Download /api/v1/all-changes.json during setup when the consumer wants one local file with both SAPUI5 and OpenUI5 changes.",
+    "Fetch /api/v1/manifest.json when the consumer needs dataset URLs, version bounds, or range semantics before downloading.",
+    "If only one flavor is needed, fetch the matching consolidated JSON file.",
+    "Read the local JSON file at runtime and filter by version range, change type, UI5 library, query, and optional What's New entries in the consuming tool."
+  ],
+  "notes": [
+    "The browser URL with versionFrom/versionTo is a UI route, not a JSON API. Static consumers should use the dataset URLs above.",
+    "The current generator normalizes change types to FEATURE, FIX, or DEPRECATED and omits internal and legacy note markers. If a dataset reports nonCanonicalTypes, it was generated before this normalization shipped."
+  ],
+  "examples": {
+    "appUrl": "https://ui5-lib-diff.marianzeis.de/?versionFrom=1.146.0&versionTo=1.148.0&ui5Type=SAPUI5",
+    "manifestUrl": "https://ui5-lib-diff.marianzeis.de/api/v1/manifest.json",
+    "bundleUrl": "https://ui5-lib-diff.marianzeis.de/api/v1/all-changes.json",
+    "sapui5DataUrl": "https://ui5-lib-diff.marianzeis.de/data/consolidatedSAPUI5.json",
+    "openui5DataUrl": "https://ui5-lib-diff.marianzeis.de/data/consolidatedOpenUI5.json",
+    "whatsNewDataUrl": "https://ui5-lib-diff.marianzeis.de/data/whatsnew.json"
+  }
+}

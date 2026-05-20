@@ -40,6 +40,8 @@ jobs:
         run: npm run deprecated
       - name: Fetch What's New
         run: npm run fetchWhatsNew
+      - name: Create Static API Manifest
+        run: npm run createApiManifest
       - name: Create RSS Feed
         run: npm run createRSSFeed
       - name: Commit/Push build to docs branch
