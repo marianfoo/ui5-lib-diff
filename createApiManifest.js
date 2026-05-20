@@ -1,11 +1,16 @@
 const fs = require("fs");
 const path = require("path");
-const { normalizeDataset, summarizeDataset } = require("./lib/ui5DiffData");
+const {
+    normalizeDataset,
+    summarizeDataset,
+    summarizeWhatsNew
+} = require("./lib/ui5DiffData");
 
 const webappDir = path.join("de.marianzeis.ui5libdiff", "webapp");
 const apiDir = path.join(webappDir, "api", "v1");
 const bundleUrl = "/api/v1/all-changes.json";
 const bundlePath = path.join(apiDir, "all-changes.json");
+const whatsNewUrl = "/data/whatsnew.json";
 
 const datasets = {
     SAPUI5: {
@@ -26,6 +31,7 @@ function buildStaticApi() {
     const generatedAt = new Date().toISOString();
     const manifestDatasets = {};
     const bundleDatasets = {};
+    const whatsNew = readJson(whatsNewUrl);
 
     for (const [name, endpoints] of Object.entries(datasets)) {
         const consolidated = readJson(endpoints.consolidated);
@@ -40,7 +46,8 @@ function buildStaticApi() {
     const bundle = {
         schemaVersion: 1,
         generatedAt,
-        datasets: bundleDatasets
+        datasets: bundleDatasets,
+        whatsNew
     };
 
     const manifest = {
@@ -49,6 +56,10 @@ function buildStaticApi() {
         baseUrl: "https://ui5-lib-diff.marianzeis.de",
         bundle: bundleUrl,
         datasets: manifestDatasets,
+        whatsNew: {
+            data: whatsNewUrl,
+            ...summarizeWhatsNew(whatsNew)
+        },
         rangeSemantics: {
             description: "Diff ranges are exclusive at versionFrom and inclusive at versionTo.",
             expression: "version > versionFrom && version <= versionTo"
@@ -57,7 +68,7 @@ function buildStaticApi() {
             "Download /api/v1/all-changes.json during setup when the consumer wants one local file with both SAPUI5 and OpenUI5 changes.",
             "Fetch /api/v1/manifest.json when the consumer needs dataset URLs, version bounds, or range semantics before downloading.",
             "If only one flavor is needed, fetch the matching consolidated JSON file.",
-            "Read the local JSON file at runtime and filter by version range, change type, UI5 library, and query in the consuming tool."
+            "Read the local JSON file at runtime and filter by version range, change type, UI5 library, query, and optional What's New entries in the consuming tool."
         ],
         notes: [
             "The browser URL with versionFrom/versionTo is a UI route, not a JSON API. Static consumers should use the dataset URLs above.",
@@ -68,7 +79,8 @@ function buildStaticApi() {
             manifestUrl: "https://ui5-lib-diff.marianzeis.de/api/v1/manifest.json",
             bundleUrl: "https://ui5-lib-diff.marianzeis.de/api/v1/all-changes.json",
             sapui5DataUrl: "https://ui5-lib-diff.marianzeis.de/data/consolidatedSAPUI5.json",
-            openui5DataUrl: "https://ui5-lib-diff.marianzeis.de/data/consolidatedOpenUI5.json"
+            openui5DataUrl: "https://ui5-lib-diff.marianzeis.de/data/consolidatedOpenUI5.json",
+            whatsNewDataUrl: "https://ui5-lib-diff.marianzeis.de/data/whatsnew.json"
         }
     };
 

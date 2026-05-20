@@ -5,7 +5,8 @@ const {
     createChangeFromNote,
     compareVersions,
     normalizeDataset,
-    summarizeDataset
+    summarizeDataset,
+    summarizeWhatsNew
 } = require("../lib/ui5DiffData");
 
 test("normalizes supported change types and drops noisy markers", () => {
@@ -103,6 +104,28 @@ test("summarizes consolidated data for API consumers", () => {
         nonCanonicalTypes: {
             Fix: 1,
             INTERNAL: 1
+        }
+    });
+});
+
+test("summarizes What's New data for API consumers", () => {
+    const summary = summarizeWhatsNew([
+        { Version: "1.120", Type: "Changed", Category: "Control" },
+        { Version: "1.130", Type: "New", Category: "Feature" },
+        { Version: "1.108", Type: "Changed", Category: "Control" }
+    ]);
+
+    assert.deepEqual(summary, {
+        entryCount: 3,
+        minVersion: "1.108",
+        maxVersion: "1.130",
+        typeCounts: {
+            Changed: 2,
+            New: 1
+        },
+        categoryCounts: {
+            Control: 2,
+            Feature: 1
         }
     });
 });

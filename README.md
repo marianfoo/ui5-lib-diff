@@ -36,8 +36,9 @@ The hosted app also publishes static JSON files that can be consumed without loa
 - All changes bundle: https://ui5-lib-diff.marianzeis.de/api/v1/all-changes.json
 - SAPUI5 consolidated data: https://ui5-lib-diff.marianzeis.de/data/consolidatedSAPUI5.json
 - OpenUI5 consolidated data: https://ui5-lib-diff.marianzeis.de/data/consolidatedOpenUI5.json
+- What's New data: https://ui5-lib-diff.marianzeis.de/data/whatsnew.json
 
-The URL query parameters used by the browser app, for example `?versionFrom=1.146.0&versionTo=1.148.0&ui5Type=SAPUI5`, are a client-side UI route and not a server-side JSON API. MCP servers and other tools should download the all-changes bundle during setup, store it locally, and filter that local file by the range semantics `version > versionFrom && version <= versionTo`.
+The URL query parameters used by the browser app, for example `?versionFrom=1.146.0&versionTo=1.148.0&ui5Type=SAPUI5`, are a client-side UI route and not a server-side JSON API. MCP servers and other tools should download the all-changes bundle during setup, store it locally, and filter that local file by the range semantics `version > versionFrom && version <= versionTo`. The bundle contains both SAPUI5/OpenUI5 change datasets and SAPUI5 What's New entries.
 
 During data generation, change note types are normalized to `FEATURE`, `FIX`, or `DEPRECATED`. Internal and legacy note markers are omitted so downstream filters do not need to special-case historic casing or typo variants.
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-20T15:34:58.510Z",
+  "generatedAt": "2026-05-20T15:54:24.501Z",
   "baseUrl": "https://ui5-lib-diff.marianzeis.de",
   "bundle": "/api/v1/all-changes.json",
   "datasets": {
@@ -33,6 +33,27 @@
       "nonCanonicalTypes": {}
     }
   },
+  "whatsNew": {
+    "data": "/data/whatsnew.json",
+    "entryCount": 1782,
+    "minVersion": "1.38",
+    "maxVersion": "1.147",
+    "typeCounts": {
+      "Changed": 1545,
+      "New": 155,
+      "Deprecated": 54,
+      "Deleted": 8,
+      "UI Changed": 20
+    },
+    "categoryCounts": {
+      "Control": 1129,
+      "Feature": 414,
+      "SAP Fiori Elements": 159,
+      "User Documentation": 30,
+      "Announcement": 42,
+      "Analysis Path Framework (APF)": 8
+    }
+  },
   "rangeSemantics": {
     "description": "Diff ranges are exclusive at versionFrom and inclusive at versionTo.",
     "expression": "version > versionFrom && version <= versionTo"
@@ -41,7 +62,7 @@
     "Download /api/v1/all-changes.json during setup when the consumer wants one local file with both SAPUI5 and OpenUI5 changes.",
     "Fetch /api/v1/manifest.json when the consumer needs dataset URLs, version bounds, or range semantics before downloading.",
     "If only one flavor is needed, fetch the matching consolidated JSON file.",
-    "Read the local JSON file at runtime and filter by version range, change type, UI5 library, and query in the consuming tool."
+    "Read the local JSON file at runtime and filter by version range, change type, UI5 library, query, and optional What's New entries in the consuming tool."
   ],
   "notes": [
     "The browser URL with versionFrom/versionTo is a UI route, not a JSON API. Static consumers should use the dataset URLs above.",
@@ -52,6 +73,7 @@
     "manifestUrl": "https://ui5-lib-diff.marianzeis.de/api/v1/manifest.json",
     "bundleUrl": "https://ui5-lib-diff.marianzeis.de/api/v1/all-changes.json",
     "sapui5DataUrl": "https://ui5-lib-diff.marianzeis.de/data/consolidatedSAPUI5.json",
-    "openui5DataUrl": "https://ui5-lib-diff.marianzeis.de/data/consolidatedOpenUI5.json"
+    "openui5DataUrl": "https://ui5-lib-diff.marianzeis.de/data/consolidatedOpenUI5.json",
+    "whatsNewDataUrl": "https://ui5-lib-diff.marianzeis.de/data/whatsnew.json"
   }
 }
