@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-20T15:30:38.208Z",
+  "generatedAt": "2026-05-20T15:34:58.510Z",
   "baseUrl": "https://ui5-lib-diff.marianzeis.de",
   "bundle": "/api/v1/all-changes.json",
   "datasets": {
@@ -38,8 +38,8 @@
     "expression": "version > versionFrom && version <= versionTo"
   },
   "recommendedConsumerFlow": [
-    "Fetch /api/v1/manifest.json to discover the current dataset URLs and bounds.",
     "Download /api/v1/all-changes.json during setup when the consumer wants one local file with both SAPUI5 and OpenUI5 changes.",
+    "Fetch /api/v1/manifest.json when the consumer needs dataset URLs, version bounds, or range semantics before downloading.",
     "If only one flavor is needed, fetch the matching consolidated JSON file.",
     "Read the local JSON file at runtime and filter by version range, change type, UI5 library, and query in the consuming tool."
   ],

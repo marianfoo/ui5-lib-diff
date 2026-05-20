@@ -3,9 +3,9 @@ const path = require("path");
 const { normalizeDataset, summarizeDataset } = require("./lib/ui5DiffData");
 
 const webappDir = path.join("de.marianzeis.ui5libdiff", "webapp");
-const dataDir = path.join(webappDir, "data");
 const apiDir = path.join(webappDir, "api", "v1");
-const bundleFile = "/api/v1/all-changes.json";
+const bundleUrl = "/api/v1/all-changes.json";
+const bundlePath = path.join(apiDir, "all-changes.json");
 
 const datasets = {
     SAPUI5: {
@@ -47,15 +47,15 @@ function buildStaticApi() {
         schemaVersion: 1,
         generatedAt,
         baseUrl: "https://ui5-lib-diff.marianzeis.de",
-        bundle: bundleFile,
+        bundle: bundleUrl,
         datasets: manifestDatasets,
         rangeSemantics: {
             description: "Diff ranges are exclusive at versionFrom and inclusive at versionTo.",
             expression: "version > versionFrom && version <= versionTo"
         },
         recommendedConsumerFlow: [
-            "Fetch /api/v1/manifest.json to discover the current dataset URLs and bounds.",
             "Download /api/v1/all-changes.json during setup when the consumer wants one local file with both SAPUI5 and OpenUI5 changes.",
+            "Fetch /api/v1/manifest.json when the consumer needs dataset URLs, version bounds, or range semantics before downloading.",
             "If only one flavor is needed, fetch the matching consolidated JSON file.",
             "Read the local JSON file at runtime and filter by version range, change type, UI5 library, and query in the consuming tool."
         ],
@@ -83,9 +83,9 @@ fs.writeFileSync(
     "utf8"
 );
 fs.writeFileSync(
-    path.join(webappDir, bundleFile),
+    bundlePath,
     `${JSON.stringify(bundle)}\n`,
     "utf8"
 );
 console.log(`Wrote ${path.join(apiDir, "manifest.json")}`);
-console.log(`Wrote ${path.join(webappDir, bundleFile)}`);
+console.log(`Wrote ${bundlePath}`);
