@@ -6,11 +6,11 @@
 <description>Changes for each version of the software.</description>
 <atom:link href="https://marianfoo.github.io/ui5-lib-diff/" rel="self" type="application/rss+xml" />
 <item>
-<title>Version 1.108.47 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.46&amp;versionTo=1.108.47</link>
-<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.108.47</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPageTitle: Fix flaky focus test in Safari</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We now trigger a fetch call to load PDF content and determine PDF availability in the PDFViewer</li><li>Type: FIX, Description:  sap.m.DateTimePicker: fix test about timezone failing in safari</li><li>Type: FIX, Description:  We&apos;ve now removed the iframe content check while loading a PDF to display it</li><li>Type: FIX, Description:  We&apos;ve now removed the iframe content check while loading a PDF to display it</li><li>Type: FIX, Description:  sap.m.DatePicker: has correct placeholder</li><li>Type: FIX, Description:  sap.m.ComboBox: Picker now closes on table scroll</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap/ui/thirdparty: bump RequireJS to 2.3.7</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.Calendar: fixed weekday announcement in multi-month setup</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.46&amp;versionTo=1.108.47</guid>
+<title>Version 1.108.51 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.50&amp;versionTo=1.108.51</link>
+<pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.108.51</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPage: Cache scrollbar width to avoid excessive style recalculations</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  DemoKit: Hardened script loading in internal bootstrap processes for Card Explorer and Accessibility Guide applications</li><li>Type: FIX, Description:  sap.m.Text: Skip unstable test in Chrome</li></ul></li><li><strong>Library: sap.ui.commons</strong><ul><li>Type: FIX, Description:  sap.ui.commons.Tree: fix unstable test</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.core: Harden script loading in internal bootstrap scripts</li></ul></li><li><strong>Library: sap.ui.integration</strong><ul><li>Type: FIX, Description:  DemoKit: Hardened script loading in internal bootstrap processes for Card Explorer and Accessibility Guide applications</li></ul></li><li><strong>Library: sap.ui.ux3</strong><ul><li>Type: FIX, Description:  sap.ui.ux3.ThingInspector: stabilize tests</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.50&amp;versionTo=1.108.51</guid>
 </item>
 <item>
 <title>Version 1.108.48 Changes</title>
@@ -25,13 +25,6 @@
 <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.108.49</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Button: Press event is fired correctly on pressing SPACE</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.base.strings.formatMessage: Accept nullish arguments</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.CalendarDateInterval: shows correct year</li><li>Type: FIX, Description:  sap.ui.unified.Calendar: fix unstable test</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.m.Button: Press event is fired correctly on pressing SPACE</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.48&amp;versionTo=1.108.49</guid>
-</item>
-<item>
-<title>Version 1.120.39 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.38&amp;versionTo=1.120.39</link>
-<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.120.39</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPage: Correct header repositioning in both directions</li><li>Type: FIX, Description:  sap.f.DynamicPageTitle: Fix flaky focus test in Safari</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Page: Show footer after calling setShowFooter twice</li><li>Type: FIX, Description:  sap.m.SinglePlanningCalendar: Add the browser event information to the UI5 event</li><li>Type: FIX, Description:  m.p13n: integrate missing screen reader announcement for table filtering in SAP UI5 1.120</li><li>Type: FIX, Description:  We&apos;ve now removed the iframe content check while loading a PDF to display it</li><li>Type: FIX, Description:  We&apos;ve now removed the iframe content check while loading a PDF to display it</li><li>Type: FIX, Description:  sap.m.DateTimePicker: fix test about timezone failing in safari</li><li>Type: FIX, Description:  sap.m.DatePicker: has correct placeholder</li><li>Type: FIX, Description:  sap.m.DatePicker: close picker on context change</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.m.Button: Prevent duplicate shortcut announcements in screen readers</li><li>Type: FIX, Description:  sap/ui/thirdparty: bump RequireJS to 2.3.7</li></ul></li><li><strong>Library: sap.ui.layout</strong><ul><li>Type: FIX, Description:  SemanticFormElement: _updateDisplayText does no longer fail without available _displayField</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  Table: Remove renderWhitespace restriction</li></ul></li><li><strong>Library: sap.ui.table</strong><ul><li>Type: FIX, Description:  Table: Remove renderWhitespace restriction</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.38&amp;versionTo=1.120.39</guid>
 </item>
 <item>
 <title>Version 1.120.40 Changes</title>
@@ -69,20 +62,6 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.120.44&amp;versionTo=1.120.45</guid>
 </item>
 <item>
-<title>Version 1.136.10 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.9&amp;versionTo=1.136.10</link>
-<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.136.10</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPage: Correct header repositioning in both directions</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We now trigger a fetch call to load PDF content and determine PDF availability in the PDFViewer</li><li>Type: FIX, Description:  sap.m.SplitContainer: Fixed box-shadow parameter</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap/base/security/sanitizeHTML: Add support for modern CSS display values</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  Field: if ComboBox-Like wrong accessibility info</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Fix wrong title in AnchorBar</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.9&amp;versionTo=1.136.10</guid>
-</item>
-<item>
-<title>Version 1.136.11 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.10&amp;versionTo=1.136.11</link>
-<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.136.11</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.ViewSettingsDialog: Remove redundant announcements from sort and group list items</li><li>Type: FIX, Description:  sap.m.Toolbar: exclude disabled controls from Toolbar navigation</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.10&amp;versionTo=1.136.11</guid>
-</item>
-<item>
 <title>Version 1.136.12 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.11&amp;versionTo=1.136.12</link>
 <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
@@ -116,20 +95,6 @@
 <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.136.16</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  DemoKit: Hardened script loading in internal bootstrap processes for Card Explorer and Accessibility Guide applications</li><li>Type: FIX, Description:  IllustrationExplorer: Fix unstable OPA tests for size, set, and category selects</li><li>Type: FIX, Description:  sap.m.Text: Skip unstable test in Chrome</li></ul></li><li><strong>Library: sap.ui.commons</strong><ul><li>Type: FIX, Description:  sap.ui.commons.Tree: fix unstable test</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.core: Harden script loading in internal bootstrap scripts</li></ul></li><li><strong>Library: sap.ui.integration</strong><ul><li>Type: FIX, Description:  DemoKit: Hardened script loading in internal bootstrap processes for Card Explorer and Accessibility Guide applications</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  FieldBase: fix issue when searching for string including ().</li><li>Type: FIX, Description:  ui.Table: Column Freeze behavior and state</li></ul></li><li><strong>Library: sap.ui.table</strong><ul><li>Type: FIX, Description:  ui.Table: Column Freeze behavior and state</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.15&amp;versionTo=1.136.16</guid>
-</item>
-<item>
-<title>Version 1.139.3 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.139.2&amp;versionTo=1.139.3</link>
-<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.139.3</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPage: Correct header repositioning in both directions</li><li>Type: FIX, Description:  sap.f.DynamicPageTitle: Fix flaky focus test in Safari</li><li>Type: FIX, Description:  sap.f.DynamicPage: Header visibility issue fixed</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.SearchField: Fix Korean text display within OverflowToolbar</li><li>Type: FIX, Description:  sap.m.SinglePlanningCalendar: Add the browser event information to the UI5 event</li><li>Type: FIX, Description:  sap.m.TimePicker: Remove custom shadow overwriting</li><li>Type: FIX, Description:  sap.m.Popover: Set shadow style according to the &quot;showArrow&quot; property</li><li>Type: FIX, Description:  sap.m.DatePicker: close picker on context change</li><li>Type: FIX, Description:  sap.m.DateTimePicker: fix test about timezone failing in safari</li><li>Type: FIX, Description:  sap.m.DatePicker: has correct placeholder</li><li>Type: FIX, Description:  sap.m.Select: Correct dropdown width when wrapItemsText enabled</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap/ui/model/type/Unit.js: if quantity part is integer, decimals defaults to &apos;0&apos;, may be overwritten</li><li>Type: FIX, Description:  sap/base/security/sanitizeHTML: Add support for modern CSS display values</li><li>Type: FIX, Description:  sap.m.Button: Prevent duplicate shortcut announcements in screen readers</li><li>Type: FIX, Description:  sap.ui.test.Opa: Fix Safari polling interval test failure</li><li>Type: FIX, Description:  sap/ui/thirdparty: bump RequireJS to 2.3.7</li></ul></li><li><strong>Library: sap.ui.layout</strong><ul><li>Type: FIX, Description:  SemanticFormElement: _updateDisplayText does no longer fail without available _displayField</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  Field: if ComboBox-Like wrong accessibility info</li><li>Type: FIX, Description:  Table: Remove renderWhitespace restriction</li></ul></li><li><strong>Library: sap.ui.table</strong><ul><li>Type: FIX, Description:  Table: Remove renderWhitespace restriction</li></ul></li><li><strong>Library: sap.ui.unified</strong><ul><li>Type: FIX, Description:  sap.ui.unified.Month: removed redundant &quot;selected&quot; announce</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Fix wrong title in AnchorBar</li><li>Type: FIX, Description:  sap.uxap.ObjectPageSubSection: fix wrapping titles</li><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Fix wrong positioning</li><li>Type: FIX, Description:  sap.uxap.ObjectPageSubSection: prevent infinite rerendering loop</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.139.2&amp;versionTo=1.139.3</guid>
-</item>
-<item>
-<title>Version 1.142.1 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.142.0&amp;versionTo=1.142.1</link>
-<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.142.1</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPage: Correct header repositioning in both directions</li><li>Type: FIX, Description:  sap.f.DynamicPage: Issue with table sizing fixed</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.StepInput: change validation behaviour of the StepInput when it has a binding model with Value State:</li><li>Type: FIX, Description:  We now trigger a fetch call to load PDF content and determine PDF availability in the PDFViewer</li><li>Type: FIX, Description:  xConfig: Reverts &quot;Remove correct value&quot;</li><li>Type: FIX, Description:  sap.m.SplitContainer: Fixed box-shadow parameter</li><li>Type: FIX, Description:  sap.m.SearchField: Fix Korean text display within OverflowToolbar</li><li>Type: FIX, Description:  sap.m.StepInput: range validation is working properly now when there is binding for valueState but no value is provided</li><li>Type: FIX, Description:  sap.m.MessagePopover: AriaLabelledBy element is now created</li><li>Type: FIX, Description:  sap.m.SinglePlanningCalendar: Add the browser event information to the UI5 event</li><li>Type: FIX, Description:  sap.m.TimePicker: Remove custom shadow overwriting</li><li>Type: FIX, Description:  We&apos;ve now removed the iframe content check while loading a PDF to display it</li><li>Type: FIX, Description:  We&apos;ve now removed the iframe content check while loading a PDF to display it</li><li>Type: FIX, Description:  sap.m.DateTimePicker: fix test about timezone failing in safari</li><li>Type: FIX, Description:  SelectionPanel: Update count correctly when no filter is applied</li><li>Type: FIX, Description:  sap.m.DatePicker: has correct placeholder</li><li>Type: FIX, Description:  sap.m.Select: Correct dropdown width when wrapItemsText enabled</li><li>Type: FIX, Description:  sap.m.DatePicker: close picker on context change</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.m.Button: Prevent duplicate shortcut announcements in screen readers</li><li>Type: FIX, Description:  sap.ui.test.Opa: Fix Safari polling interval test failure</li><li>Type: FIX, Description:  sap/ui/thirdparty: bump RequireJS to 2.3.7</li><li>Type: FIX, Description:  sap/ui/test/: manually fire focus events when browser inactive</li></ul></li><li><strong>Library: sap.ui.layout</strong><ul><li>Type: FIX, Description:  SemanticFormElement: _updateDisplayText does no longer fail without available _displayField</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  Field: if ComboBox-Like wrong accessibility info</li><li>Type: FIX, Description:  SortFlex: Adjust customAggregation to include sort order</li><li>Type: FIX, Description:  Table: Remove renderWhitespace restriction</li></ul></li><li><strong>Library: sap.ui.table</strong><ul><li>Type: FIX, Description:  Table: Remove renderWhitespace restriction</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Fix wrong title in AnchorBar</li><li>Type: FIX, Description:  sap.uxap.ObjectPageSubSection: fix wrapping titles</li><li>Type: FIX, Description:  sap.uxap.ObjectPageSubSection: role region</li><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Fix wrong positioning</li><li>Type: FIX, Description:  sap.uxap.ObjectPageSubSection: prevent infinite rerendering loop</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.142.0&amp;versionTo=1.142.1</guid>
 </item>
 <item>
 <title>Version 1.142.2 Changes</title>
@@ -209,6 +174,20 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.145.0&amp;versionTo=1.145.1</guid>
 </item>
 <item>
+<title>Version 1.145.3 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.145.2&amp;versionTo=1.145.3</link>
+<pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.145.3</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We&apos;ve now fixed an issue where the image on the slide tile was disappearing on browser window resize</li><li>Type: FIX, Description:  sap.m.StandardDynamicDateOption: Fix default value for TODAYFROMTO operator</li><li>Type: FIX, Description:  DemoKit: Hardened script loading in internal bootstrap processes for Card Explorer and Accessibility Guide applications</li><li>Type: FIX, Description:  IllustrationExplorer: Fix unstable OPA tests for size, set, and checkbox actions</li><li>Type: FIX, Description:  sap.m.Text: Skip unstable test in Chrome</li></ul></li><li><strong>Library: sap.ui.integration</strong><ul><li>Type: FIX, Description:  DemoKit: Hardened script loading in internal bootstrap processes for Card Explorer and Accessibility Guide applications</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description:  ValueHelp: only 50 Tokens are shown</li><li>Type: FIX, Description:  FieldBase: fix issue when searching for string including ().</li></ul></li><li><strong>Library: sap.ui.table</strong><ul><li>Type: FIX, Description:  Table: Show busy indicator when selection plugins load data</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.145.2&amp;versionTo=1.145.3</guid>
+</item>
+<item>
+<title>Version 1.145.2 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.145.1&amp;versionTo=1.145.2</link>
+<pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.145.2</h2><ul><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  FESR: Fix excessive interaction recording on livechange events</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.145.1&amp;versionTo=1.145.2</guid>
+</item>
+<item>
 <title>Version 1.146.0 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.145.99&amp;versionTo=1.146.0</link>
 <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
@@ -237,13 +216,6 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.38.66&amp;versionTo=1.38.67</guid>
 </item>
 <item>
-<title>Version 1.71.75 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.71.74&amp;versionTo=1.71.75</link>
-<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.71.75</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We now trigger a fetch call to load PDF content and determine PDF availability in the PDFViewer</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.71.74&amp;versionTo=1.71.75</guid>
-</item>
-<item>
 <title>Version 1.71.77 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.71.76&amp;versionTo=1.71.77</link>
 <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
@@ -270,13 +242,6 @@
 <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.84.56</h2><ul><li><strong>Library: sap.ui.commons</strong><ul><li>Type: FIX, Description:  sap.ui.commons.Tree: fix unstable test</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.core: Harden script loading in internal bootstrap scripts</li></ul></li><li><strong>Library: sap.ui.ux3</strong><ul><li>Type: FIX, Description:  sap.ui.ux3.ThingInspector: stabilize tests</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.84.55&amp;versionTo=1.84.56</guid>
-</item>
-<item>
-<title>Version 1.96.43 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.42&amp;versionTo=1.96.43</link>
-<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.96.43</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.DynamicPageTitle: Fix flaky focus test in Safari</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  We&apos;ve now removed the iframe content check while loading a PDF to display it</li><li>Type: FIX, Description:  We&apos;ve now removed the iframe content check while loading a PDF to display it</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap/ui/thirdparty: bump RequireJS to 2.3.7</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.96.42&amp;versionTo=1.96.43</guid>
 </item>
 <item>
 <title>Version 1.96.44 Changes</title>

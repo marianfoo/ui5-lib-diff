@@ -1545,5 +1545,33 @@
                 "text": " SmartFilterBar: Skip onfocusin filtering after suggestion item selection for MultiComboBox"
             }
         ]
+    },
+    "1.108.51": {
+        "date": "May 2026",
+        "notes": [
+            {
+                "id": "aa813b7d58b2887a648264090130e05d2a0350b4",
+                "type": "FIX",
+                "text": " ValueListProvider: do not filter out suggestions returned from service",
+                "references": [
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500000597582023"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "002075129500008932302022"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2170013873"
+                    },
+                    {
+                        "type": "BCP",
+                        "reference": "2180093567"
+                    }
+                ]
+            }
+        ]
     }
 }
