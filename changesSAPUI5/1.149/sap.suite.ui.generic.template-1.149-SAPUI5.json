@@ -1,0 +1,67 @@
+{
+    "1.149.0": {
+        "date": "June 2026",
+        "notes": [
+            {
+                "id": "Ia8c65812b3f98b77e82d5422f1b5d8219db43b7e",
+                "type": "FEATURE",
+                "text": "Required field validation in inline creation rows now fires only when focus moves away from the row, not each time the user tabs between cells within the same row"
+            },
+            {
+                "id": "I970f0a75689a0d6cf6b9eb01c7a3e27ecd3b1b21",
+                "type": "FIX",
+                "text": "We've resolved an issue where copy, edit, or delete actions failed with an error after discarding a draft on the object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0878902"
+                    }
+                ]
+            },
+            {
+                "id": "I6416ac7d06b56986f579577c057461faaa4148b7",
+                "type": "FIX",
+                "text": "We've resolved an issue where cells hidden using the UI.Hidden annotation became visible after changing the table column layout",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0882567"
+                    }
+                ]
+            },
+            {
+                "id": "I557993cfbf751f8a98b443fa57206d836206171a",
+                "type": "FIX",
+                "text": "We've resolved an issue where browser refresh didn't restore table data on list report pages configured with mandatory filters and additional bindings",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012202990"
+                    }
+                ]
+            },
+            {
+                "id": "If5aa435ce516996a58b37b94376732eb5282fe23",
+                "type": "FIX",
+                "text": "We've resolved an issue where error messages from a failed save were lost on sub-object pages, preventing the message popover from showing the backend validation errors",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0902158"
+                    }
+                ]
+            },
+            {
+                "id": "I20ef218b3f5b46c9ed7483efab6a5bfcceaa8741",
+                "type": "FIX",
+                "text": "We've resolved an issue where navigating back from a full-page application displayed an empty table due to search queries executing before saved filter values were restored",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012112247"
+                    }
+                ]
+            }
+        ]
+    }
+}
