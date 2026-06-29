@@ -523,5 +523,32 @@
                 "text": "We’ve improved the loading speed of the list report page when a record is edited directly from an object page"
             }
         ]
+    },
+    "1.136.20": {
+        "date": "June 2026",
+        "notes": [
+            {
+                "id": "I20ef218b3f5b46c9ed7483efab6a5bfcceaa8741",
+                "type": "FIX",
+                "text": "We've resolved an issue where the table appeared empty after navigating back from a full-page application, caused by a race condition where data was loaded before filter values from iAppState were restored",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS2026001211224"
+                    }
+                ]
+            },
+            {
+                "id": "I557993cfbf751f8a98b443fa57206d836206171a",
+                "type": "FIX",
+                "text": "We've resolved an issue where table data was not restored after a browser refresh when mandatory filters were used together with additional bindings",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012202990"
+                    }
+                ]
+            }
+        ]
     }
 }

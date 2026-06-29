@@ -33,5 +33,45 @@
                 "text": " We've resolved an issue where intent-based navigation used an incorrect value for fields with the TextOnly text arrangement"
             }
         ]
+    },
+    "1.148.2": {
+        "date": "June 2026",
+        "notes": [
+            {
+                "id": "8cbfdc8e94bc94e63c32dca01f7895c45debe71c",
+                "type": "FIX",
+                "text": " We now ensure that the type-ahead functionality is correctly triggered after inline row creation when a message dialog is open"
+            },
+            {
+                "id": "cae383efabe1978b4c0cadfed463be383223589f",
+                "type": "FIX",
+                "text": " We now pass the openInNewTab property to the onBeforeNavigation hook to ensure correct navigation handling when users click 'Open in New Tab'"
+            },
+            {
+                "id": "1cf02160edb30afdffdc56270ef90b1b07a3e00c",
+                "type": "FIX",
+                "text": " Table sorting now works correctly when variantManagement is set to None"
+            },
+            {
+                "id": "de6e1f348a4ee1f492854922e736425de4967022",
+                "type": "FIX",
+                "text": " You can now override the inputFormat of date fields for data exports from the Table building block"
+            },
+            {
+                "id": "b1646c28166a06787bb715046d56126e852d4222",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where analytical tables failed to load when UpdateRestrictions pointed to a navigation property"
+            },
+            {
+                "id": "da839758d7ecc61153e96ada7f4544807ad5d3d3",
+                "type": "FIX",
+                "text": " We now correctly display error messages that occur during object creation"
+            },
+            {
+                "id": "f29d0c8ad8342f586568f469c25040422739466d",
+                "type": "FIX",
+                "text": " We've resolved an issue where clicking Create failed after navigating back from create mode to a list report page with inline edit"
+            }
+        ]
     }
 }

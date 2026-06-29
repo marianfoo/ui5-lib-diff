@@ -38,5 +38,40 @@
                 "text": " We've resolved an issue where intent-based navigation links in the header of an object page were incorrectly disabled"
             }
         ]
+    },
+    "1.148.2": {
+        "date": "June 2026",
+        "notes": [
+            {
+                "id": "1cf02160edb30afdffdc56270ef90b1b07a3e00c",
+                "type": "FIX",
+                "text": " Table sorting now works correctly when variantManagement is set to None"
+            },
+            {
+                "id": "de6e1f348a4ee1f492854922e736425de4967022",
+                "type": "FIX",
+                "text": " You can now override the inputFormat of date fields for data exports from the Table building block"
+            },
+            {
+                "id": "f1b3994fcf1fd213452c4aab4cb2dd43bef7b796",
+                "type": "FIX",
+                "text": " We've resolved an issue where pasting data from the clipboard into a table caused columns to incorrectly shift when a measure field referenced a virtual unit of measure"
+            },
+            {
+                "id": "b1646c28166a06787bb715046d56126e852d4222",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where analytical tables failed to load when UpdateRestrictions pointed to a navigation property"
+            },
+            {
+                "id": "490a4f37315d6975cbb1d0c7a451f257a38a61cd",
+                "type": "FIX",
+                "text": " We now correctly sort an amount column when there are multiple currencies"
+            },
+            {
+                "id": "e20efb7c75789e5c4c6a5ab9a190051e04cbbbd6",
+                "type": "FIX",
+                "text": " We've resolved an issue when pasting data into a date range field in a table by ensuring the field supports EditableDisplay"
+            }
+        ]
     }
 }

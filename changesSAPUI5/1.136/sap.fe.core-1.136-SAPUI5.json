@@ -333,5 +333,25 @@
                 "text": " We've resolved an issue where clicking Create failed after navigating back from create mode to a list report page with inline edit"
             }
         ]
+    },
+    "1.136.20": {
+        "date": "June 2026",
+        "notes": [
+            {
+                "id": "ba75ca395c7a9b13109df6b7c9918e0ad136ecac",
+                "type": "FIX",
+                "text": " We've resolved an issue where the UI.Hidden annotation was ignored in phone and email entries in the contact quick view"
+            },
+            {
+                "id": "609435f7557b1a56edfc7cde695b1dee9179a3f0",
+                "type": "FIX",
+                "text": " We now correctly display error messages that occur during object creation"
+            },
+            {
+                "id": "a1958c7e143720d5dcffe5cad294b565644c6771",
+                "type": "FIX",
+                "text": " We now pass the openInNewTab property to the onBeforeNavigation hook to ensure correct navigation handling when users click 'Open in New Tab'"
+            }
+        ]
     }
 }
