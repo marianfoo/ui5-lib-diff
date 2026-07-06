@@ -133,5 +133,30 @@
                 "text": " We now correctly access the environmentCapabilities service when starting an application"
             }
         ]
+    },
+    "1.142.12": {
+        "date": "June 2026",
+        "notes": [
+            {
+                "id": "c742d1f752061b77dd92a04bd3e1f163c0406081",
+                "type": "FIX",
+                "text": " We now pass the openInNewTab property to the onBeforeNavigation hook to ensure correct navigation handling when users click 'Open in New Tab'"
+            },
+            {
+                "id": "d3353679b34499a9bb24fde56212c0216c736e8a",
+                "type": "FIX",
+                "text": " We now correctly display error messages that occur during object creation"
+            },
+            {
+                "id": "efa5944966f02463cd90768c7a2a7f80289b7c44",
+                "type": "FIX",
+                "text": " We've resolved an issue where analytical tables failed to load when UpdateRestrictions pointed to a navigation property"
+            },
+            {
+                "id": "18dccac8f6413c669e0deb30b3aba8bbf6f536e5",
+                "type": "FIX",
+                "text": " We've resolved an issue where clicking Create failed after navigating back from create mode to a list report page with inline edit"
+            }
+        ]
     }
 }

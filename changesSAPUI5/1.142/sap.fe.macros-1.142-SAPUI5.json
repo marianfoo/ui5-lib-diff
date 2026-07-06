@@ -118,5 +118,30 @@
                 "text": " We now correctly access the environmentCapabilities service when starting an application"
             }
         ]
+    },
+    "1.142.12": {
+        "date": "June 2026",
+        "notes": [
+            {
+                "id": "cbd4f3e661aa1387f3062d0f4d07eeb0387f6311",
+                "type": "FIX",
+                "text": " Table sorting now works correctly when variantManagement is set to None"
+            },
+            {
+                "id": "962be03e8b1e69acfa5ffed7eac813ca2ac60ac5",
+                "type": "FIX",
+                "text": " We now correctly sort an amount column when there are multiple currencies"
+            },
+            {
+                "id": "efa5944966f02463cd90768c7a2a7f80289b7c44",
+                "type": "FIX",
+                "text": " We've resolved an issue where analytical tables failed to load when UpdateRestrictions pointed to a navigation property"
+            },
+            {
+                "id": "f8344edb35faa719dff5d9f7f959065d9248ccb9",
+                "type": "FIX",
+                "text": " We've resolved an issue where navigating back to a list report page with inline edit caused the app to terminate unexpectedly"
+            }
+        ]
     }
 }
