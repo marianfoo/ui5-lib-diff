@@ -1,55 +1,55 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T03:23:45.112Z",
+  "generatedAt": "2026-07-13T03:19:24.067Z",
   "baseUrl": "https://ui5-lib-diff.marianzeis.de",
   "bundle": "/api/v1/all-changes.json",
   "datasets": {
     "SAPUI5": {
       "consolidated": "/data/consolidatedSAPUI5.json",
       "versions": "/data/selectVersionsSAPUI5.json",
-      "versionCount": 844,
+      "versionCount": 846,
       "minVersion": "1.28.0",
-      "maxVersion": "1.149.1",
-      "totalChanges": 48321,
+      "maxVersion": "1.150.0",
+      "totalChanges": 48491,
       "changeTypeCounts": {
-        "FEATURE": 7600,
-        "FIX": 38500,
-        "DEPRECATED": 2221
+        "FEATURE": 7636,
+        "FIX": 38629,
+        "DEPRECATED": 2226
       },
       "nonCanonicalTypes": {}
     },
     "OpenUI5": {
       "consolidated": "/data/consolidatedOpenUI5.json",
       "versions": "/data/selectVersionsOpenUI5.json",
-      "versionCount": 610,
+      "versionCount": 612,
       "minVersion": "1.28.0",
-      "maxVersion": "1.149.1",
-      "totalChanges": 24723,
+      "maxVersion": "1.150.0",
+      "totalChanges": 24832,
       "changeTypeCounts": {
-        "FEATURE": 3643,
-        "FIX": 19993,
-        "DEPRECATED": 1087
+        "FEATURE": 3667,
+        "FIX": 20074,
+        "DEPRECATED": 1091
       },
       "nonCanonicalTypes": {}
     }
   },
   "whatsNew": {
     "data": "/data/whatsnew.json",
-    "entryCount": 1818,
-    "minVersion": "Upcoming",
-    "maxVersion": "1.149",
+    "entryCount": 1834,
+    "minVersion": "1.38",
+    "maxVersion": "1.150",
     "typeCounts": {
-      "Deleted": 9,
+      "Changed": 1590,
+      "Deprecated": 58,
       "New": 158,
-      "Deprecated": 56,
-      "Changed": 1575,
+      "Deleted": 8,
       "UI Changed": 20
     },
     "categoryCounts": {
-      "Announcement": 44,
-      "Control": 1150,
-      "Feature": 420,
-      "SAP Fiori Elements": 163,
+      "Control": 1160,
+      "Feature": 425,
+      "SAP Fiori Elements": 165,
+      "Announcement": 43,
       "User Documentation": 33,
       "Analysis Path Framework (APF)": 8
     }

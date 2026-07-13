@@ -1,0 +1,111 @@
+{
+    "1.150.0": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "I6450a784733e6bbd11ecd077f55bb498b6b18116",
+                "type": "FEATURE",
+                "text": "We now support pasting in object page table columns with TextArrangement set to TextOnly"
+            },
+            {
+                "id": "Icfe951cfbfd43dad13282208030afa1c897979bb",
+                "type": "FIX",
+                "text": "We've resolved an issue where back-end error messages were silently removed before the popover could display them, causing a form reset after a failed save",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0904534"
+                    }
+                ]
+            },
+            {
+                "id": "Ic17c504258625b7ae63022760c1542695441747a",
+                "type": "FIX",
+                "text": "We've resolved an issue where the object page didn't contain the Related Apps button after a key user had enabled it in UI adaptation mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0776618"
+                    }
+                ]
+            },
+            {
+                "id": "I2317ab258ba5f6dd7575eaa00a77a91a4bda6004",
+                "type": "FIX",
+                "text": "We've resolved an issue where data export failed when a search term was active in the filter bar",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0859508"
+                    }
+                ]
+            },
+            {
+                "id": "I2d13380303ad3472646444def91e30c31bc727db",
+                "type": "FIX",
+                "text": "We've resolved an issue where the Visual Filter dialog overflowed at 200% browser zoom, causing focus indicators to overlap filter labels",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0841945"
+                    }
+                ]
+            },
+            {
+                "id": "I8e42a76eec1403f72ae97dee69ee69a4ddec0b8c",
+                "type": "FIX",
+                "text": "Sharing a subobject page no longer causes a crash when the sibling context is unavailable",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0512473"
+                    }
+                ]
+            },
+            {
+                "id": "Ibb409d151206b7cdadf0f6d825464b66b9d3abe4",
+                "type": "FIX",
+                "text": "We've resolved an issue where custom filter settings weren't applied on the initial load when no previous application state was available",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0862952"
+                    }
+                ]
+            },
+            {
+                "id": "Ib2a1dcc1a6151b160ece25cd3ff772bc536dd2b2",
+                "type": "FIX",
+                "text": "The Change Configuration dialog now makes it clear that configuration changes are persistent across all variants, not just the current variant",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0729171"
+                    }
+                ]
+            },
+            {
+                "id": "I73b6b67e4a0eea94fb8c3f589efea303d61ef38b",
+                "type": "FIX",
+                "text": "Cells in grid tables are now correctly hidden when table columns are deactivated",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0920836"
+                    }
+                ]
+            },
+            {
+                "id": "I8732847618d36a1f85f74d50e991368dfff4b43b",
+                "type": "FIX",
+                "text": "We've resolved an issue where 412 (Precondition Failed) warning and error dialogs were not displayed after a failed save action",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0940573"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "1.150.0": {
+        "date": "June 2026",
+        "notes": [
+            {
+                "id": "7ca29fd376abc4f3439d939e375d74fa931474b8",
+                "type": "FEATURE",
+                "text": " You can now use value help with parameterized entity sets"
+            },
+            {
+                "id": "4eb1ae9c701a3de7d75c6c8498a5929a5b0d5846",
+                "type": "FEATURE",
+                "text": " You can now disable the selection of leaf nodes in tree tables"
+            },
+            {
+                "id": "799d95729be98036ec13ddeeb0b88af896fe5816",
+                "type": "FIX",
+                "text": " We now ensure that the type-ahead functionality is correctly triggered after inline row creation when a message dialog is open"
+            },
+            {
+                "id": "8a76d5730770df34fa3d1d02fb0f06f9803a6d9b",
+                "type": "FIX",
+                "text": " We've resolved an issue where the UI.Hidden annotation was ignored in phone and email entries in the contact quick view"
+            },
+            {
+                "id": "b6d55fa36fa43aaccc2413936c8f8ff94516e200",
+                "type": "FEATURE",
+                "text": " You can now suppress the thousands separator for integer fields using the formatOptions settings in the manifest.json file"
+            },
+            {
+                "id": "a8e6642320772e6b2b647a54da1855c79958cdc0",
+                "type": "FIX",
+                "text": " You can now override the inputFormat of date fields for data exports from the Table building block"
+            },
+            {
+                "id": "b740fc4bbe9e4c82f501e4193d90f7d9a0700be7",
+                "type": "FIX",
+                "text": " We now correctly handle table sorting when variantManagement is set to None"
+            },
+            {
+                "id": "f8295ec8689684492ef8e2802564aa8ef30f81de",
+                "type": "FIX",
+                "text": " We now pass the openInNewTab property to the onBeforeNavigation hook to ensure correct navigation handling when users click 'Open in New Tab'"
+            },
+            {
+                "id": "8ee1957fc1c653bfdf52a8ed39c38af61bd63f66",
+                "type": "FEATURE",
+                "text": " You can now use the sourceControl parameter from the adaptNavigationContext hook to identify which control triggered intent-based navigation"
+            },
+            {
+                "id": "e9268f7c69bc130dfe06eddd2c753659e2523334",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where analytical tables failed to load when UpdateRestrictions pointed to a navigation property"
+            }
+        ]
+    }
+}

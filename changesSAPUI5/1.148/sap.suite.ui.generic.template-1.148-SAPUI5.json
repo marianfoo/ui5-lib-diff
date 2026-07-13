@@ -100,5 +100,54 @@
                 ]
             }
         ]
+    },
+    "1.148.4": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "Ibb409d151206b7cdadf0f6d825464b66b9d3abe4",
+                "type": "FIX",
+                "text": "We've resolved an issue where custom filter settings weren't applied on the initial load when no previous application state was available",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0862952"
+                    }
+                ]
+            },
+            {
+                "id": "I8732847618d36a1f85f74d50e991368dfff4b43b",
+                "type": "FIX",
+                "text": "We've resolved an issue where 412 (Precondition Failed) warning and error dialogs were not displayed after a failed save action",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0940573"
+                    }
+                ]
+            },
+            {
+                "id": "I73b6b67e4a0eea94fb8c3f589efea303d61ef38b",
+                "type": "FIX",
+                "text": "Cells in grid tables are now correctly hidden when table columns are deactivated",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0920836"
+                    }
+                ]
+            },
+            {
+                "id": "I14b8150f0835fa3a23ccea38a458db153a5c3829",
+                "type": "FIX",
+                "text": "We've resolved an issue where SmartLink navigation landed on the wrong page when composite entity-key fields contained empty string values",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0932500"
+                    }
+                ]
+            }
+        ]
     }
 }

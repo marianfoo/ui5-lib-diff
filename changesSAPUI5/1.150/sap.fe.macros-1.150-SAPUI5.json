@@ -1,0 +1,67 @@
+{
+    "1.150.0": {
+        "date": "June 2026",
+        "notes": [
+            {
+                "id": "7ca29fd376abc4f3439d939e375d74fa931474b8",
+                "type": "FEATURE",
+                "text": " You can now use value help with parameterized entity sets"
+            },
+            {
+                "id": "4eb1ae9c701a3de7d75c6c8498a5929a5b0d5846",
+                "type": "FEATURE",
+                "text": " You can now disable the selection of leaf nodes in tree tables"
+            },
+            {
+                "id": "8a76d5730770df34fa3d1d02fb0f06f9803a6d9b",
+                "type": "FIX",
+                "text": " We've resolved an issue where the UI.Hidden annotation was ignored in phone and email entries in the contact quick view"
+            },
+            {
+                "id": "b6d55fa36fa43aaccc2413936c8f8ff94516e200",
+                "type": "FEATURE",
+                "text": " You can now suppress the thousands separator for integer fields using the formatOptions settings in the manifest.json file"
+            },
+            {
+                "id": "7c1d29cab07312218a1d440494ac7ebce65d6934",
+                "type": "FEATURE",
+                "text": " We now support semantic date operators in a parameterized service"
+            },
+            {
+                "id": "a8e6642320772e6b2b647a54da1855c79958cdc0",
+                "type": "FIX",
+                "text": " You can now override the inputFormat of date fields for data exports from the Table building block"
+            },
+            {
+                "id": "51b2040d8c2e066bb5e1939326ab42f0f735db66",
+                "type": "FIX",
+                "text": " We've resolved an issue where pasting data from the clipboard into a table caused columns to incorrectly shift when a measure field referenced a virtual unit of measure"
+            },
+            {
+                "id": "b740fc4bbe9e4c82f501e4193d90f7d9a0700be7",
+                "type": "FIX",
+                "text": " We now correctly handle table sorting when variantManagement is set to None"
+            },
+            {
+                "id": "8ee1957fc1c653bfdf52a8ed39c38af61bd63f66",
+                "type": "FEATURE",
+                "text": " You can now use the sourceControl parameter from the adaptNavigationContext hook to identify which control triggered intent-based navigation"
+            },
+            {
+                "id": "e9268f7c69bc130dfe06eddd2c753659e2523334",
+                "type": "FIX",
+                "text": " We’ve resolved an issue where analytical tables failed to load when UpdateRestrictions pointed to a navigation property"
+            },
+            {
+                "id": "7744d141bdfd1d10d1cc459d3423890c36e024c2",
+                "type": "FIX",
+                "text": " We now correctly sort an amount column when there are multiple currencies"
+            },
+            {
+                "id": "9801ac687e35dd980a519a217ade93c5d20634c1",
+                "type": "FIX",
+                "text": " We've resolved an issue when pasting data into a date range field in a table by ensuring the field supports EditableDisplay"
+            }
+        ]
+    }
+}

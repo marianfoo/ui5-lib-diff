@@ -1,0 +1,277 @@
+{
+    "1.150.0": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "e163f4ca60fcaf114df0c17e98226c3452859cd9",
+                "type": "FEATURE",
+                "text": " StandardListItem: Usage of ObjectStatus for info text/state"
+            },
+            {
+                "id": "57c8362e462a4cee349306fc6b08b458384d1ebf",
+                "type": "FIX",
+                "text": " sap.m.ObjectStatus: avoid duplicate SR output"
+            },
+            {
+                "id": "2fca593e7ed1301f9d050b3293a6d07b793af043",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: week number click does not populate footer dates and enable Apply button"
+            },
+            {
+                "id": "ecaf3e19409966c7563b2ee75b3a31ae7718d635",
+                "type": "FIX",
+                "text": " sap.m: Announce suggestions popover expanded/collapsed state"
+            },
+            {
+                "id": "0209ac3eb87739cf8d6dba8a15af4c265b7527eb",
+                "type": "FEATURE",
+                "text": " sap.m.ComboBoxBase: maxPickerHeight property is now added"
+            },
+            {
+                "id": "9e054fdb0af214622c4cc3162a14f805aa6795e6",
+                "type": "FIX",
+                "text": " We've now enabled video preview support for WebM, OGG, and MOV formats in the FilePreviewDialog"
+            },
+            {
+                "id": "3a5ac20b9e175ca6be0311cb56a4c5ee21f5cf24",
+                "type": "FIX",
+                "text": " sap.m.Popover: Screen reader and focus handling are improved"
+            },
+            {
+                "id": "78b8ce6279aa7aefa2913e18dfe89a30014d6475",
+                "type": "FEATURE",
+                "text": "sap.m Date & Time controls: changed the default placeholder text"
+            },
+            {
+                "id": "4ff3148e19de66a2f3a8a9367a8411b14d857012",
+                "type": "FIX",
+                "text": " We've fixed an issue where activating a Popover menu item with the keyboard caused the GenericTile to initiate an unintended press event"
+            },
+            {
+                "id": "b4e499f526101cae29450709cf5149bfab9a99c9",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendarHeader: Restore toolbar keyboard navigation in select mode"
+            },
+            {
+                "id": "f9e3a32d89376e3ce5462be5661b7f614fe72c4d",
+                "type": "FIX",
+                "text": " sap.m.MultiComboBox: Change event is now fired correctly"
+            },
+            {
+                "id": "4738a03f770ecc22b44b718807b785be3079eb69",
+                "type": "FIX",
+                "text": " m.VariantManagement: correctly bind sharing column in manage dialog"
+            },
+            {
+                "id": "b1dfa73cf43397cfe5c8fd76ec489035972bd339",
+                "type": "FIX",
+                "text": " We've now fixed an issue where GenericTile rendered role=\"listitem\" on <a> elements"
+            },
+            {
+                "id": "f008eb0d30f30baaa6a717e4b0e5a71bec2cf197",
+                "type": "FIX",
+                "text": " We've now fixed the FeedListItem icon size rendering by adding size-specific CSS classes and removing hardcoded avatar dimensions to support all icon sizes"
+            },
+            {
+                "id": "0726db744020a77c0030a4939d35bfa00e337a19",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar/PlanningCalendar: Fix NVDA appointment announcements"
+            },
+            {
+                "id": "645849dd92a63b42f96806bf9dc13ef7c8903736",
+                "type": "FEATURE",
+                "text": " sap.m Date & Time controls: changed the default placeholder text"
+            },
+            {
+                "id": "d68fcf00e9a14098884f85817ad6badcf2909d26",
+                "type": "FIX",
+                "text": " sap.m.TimePickerClock: Replace inline drag event attributes with addEventListener"
+            },
+            {
+                "id": "776814ef476ca3252319764adf02e390a2219d31",
+                "type": "FIX",
+                "text": "p13n.SelectionPanel: fix search field announcement"
+            },
+            {
+                "id": "60f2e676cf961fa4c61e4501f281fe68bbaa7b88",
+                "type": "FIX",
+                "text": " sap.m.ExpandableText: Prevent focus outline clipping in tables"
+            },
+            {
+                "id": "f2087696daeefd2eccb5db06f58c9d5c2cdac1ca",
+                "type": "FEATURE",
+                "text": " sap.m.Panel: add sample for background design"
+            },
+            {
+                "id": "f12d5758195fffd658a9202856156bcb92ff1d5c",
+                "type": "FIX",
+                "text": " sap.m.ComboBox: adjust failing tests in FF"
+            },
+            {
+                "id": "5ce7a72c240c14bc43c023e090c008b8f66aad12",
+                "type": "FIX",
+                "text": " sap.m.RatingIndicator: half-value icon in readonly, displayOnly and disabled state changed"
+            },
+            {
+                "id": "8ee7c7347765f9b83eae02c1b4fd1b2b0a6af0aa",
+                "type": "FIX",
+                "text": " sap.m.MaskInput: remove redundant placeholder announcement"
+            },
+            {
+                "id": "0534a2e79ab10085e46897d2f8cdb3520eb2320c",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateOption: stretch CustomMonthPicker to full width"
+            },
+            {
+                "id": "85bde9bb13640589a606f1937f8d25272e645bc4",
+                "type": "FIX",
+                "text": " We now display a label next to the input field when an uploaded file is renamed"
+            },
+            {
+                "id": "de6ebcc53fd92263ec28ad6ee5df16b1a30e2ea9",
+                "type": "FEATURE",
+                "text": " sap.m.PlanningCalendar: Add recurring appointments and non-working periods support"
+            },
+            {
+                "id": "5fd0e95adbe244e404a51f9ab7f64aea29c22ad4",
+                "type": "FIX",
+                "text": " We've now fixed an issue where backend error messages appeared while previewing an unsaved .txt file"
+            },
+            {
+                "id": "42e5864d4b9d4d7b5ec427520d3f78e48a01e49d",
+                "type": "FIX",
+                "text": " sap.m.Slider: focus outline added to the editable tooltips"
+            },
+            {
+                "id": "41cdade748e3479c1e47e25d3582919757db1c53",
+                "type": "FIX",
+                "text": " sap.m.Button: Prevent focus on right click in firefox"
+            },
+            {
+                "id": "9e40f44b6f96e74cddd3a0e29458d64f54e5a4a6",
+                "type": "FEATURE",
+                "text": " sap.m.DynamicDateRange: set footer type for custom options"
+            },
+            {
+                "id": "33e2b3b5450b748716160452364ec2e0161ba044",
+                "type": "FIX",
+                "text": " We now correctly apply the border-radius property to the ActionTile when focused"
+            },
+            {
+                "id": "fa2e1be47f566308705f2eca40a50235ee2a7b45",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: fix expand icon color overriding styles"
+            },
+            {
+                "id": "e59480af971122c075f022da79cc92a4c1ac3de0",
+                "type": "FIX",
+                "text": " sap.m.Select: move close button from header to footer on phone"
+            },
+            {
+                "id": "8af0d73ec3837e24746ddec78e3ca4526f8b6b40",
+                "type": "FIX",
+                "text": " sap.m.PullToRefresh: Refresh announced twice by screen reader"
+            },
+            {
+                "id": "4e108042853d8d39315ccfdf7cace51b27e19dba",
+                "type": "FEATURE",
+                "text": " sap.m.Panel: Add Contrast panel background design"
+            },
+            {
+                "id": "c8e63ac9897addc0ec2d27e7e907438b4789a4ec",
+                "type": "FEATURE",
+                "text": " sap.ui.unified.CalendarAppointment: add ariaHasPopup attribute for accessibility"
+            },
+            {
+                "id": "f5f3a94f10cabcbc04abdc121c5b40d3e48c7641",
+                "type": "FEATURE",
+                "text": "sap.m.InputBase: Value state is now announced without technical details"
+            },
+            {
+                "id": "31b8bf32e39390e75dbf09e19231f3d6f2d0b1c9",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: focus is retrieved correctly after close popover"
+            },
+            {
+                "id": "3b2af893403d2b67db95a635cc1df8ce812aad64",
+                "type": "FEATURE",
+                "text": " sap.m.Dialog: Fullscreen toggle support is now added"
+            },
+            {
+                "id": "0171af01ee8fd672d78baa4d2e476c97e2af7dcb",
+                "type": "FIX",
+                "text": " We've now fixed a VDS file preview error in uplaodsetwithtable plugin"
+            },
+            {
+                "id": "fb0ded5596c71269865170417e0d0c2730025ab6",
+                "type": "FIX",
+                "text": " sap.ui.demo.bulletinboard: stabilize OData reads in Safari OPA run"
+            },
+            {
+                "id": "e0b8732f3d5c099c286b12fd1e5b80634ded5f5c",
+                "type": "FIX",
+                "text": " We've now fixed the up and down arrow key navigation in SearchField inside the toolbar"
+            },
+            {
+                "id": "cf35a6bf78d2a9c06873e9c67921d9edb8c670e8",
+                "type": "FIX",
+                "text": " sap.m.TimePicker: add aria-description property"
+            },
+            {
+                "id": "c3d0be6ca4f88577f222039b59866b4f6f61c681",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: Now marker is not visible when today is outside of the visible date"
+            },
+            {
+                "id": "b979cfee88c8d0e7122886bd6b48390592ef7754",
+                "type": "FIX",
+                "text": " sap.m.NavContainer: Improve sample"
+            },
+            {
+                "id": "95bdc1648d3c6f0146dadd971f8a812f2f358445",
+                "type": "FIX",
+                "text": " sap.m.Link: fix focus on mobile"
+            },
+            {
+                "id": "99d90fb3efa8b5300bca07da564645be09ee084b",
+                "type": "FIX",
+                "text": " We've now fixed the text spillover issue for the no-data placeholder in UploadSet"
+            },
+            {
+                "id": "7e79a4e983e9f67fc24145c20bff0e2d4276e4ce",
+                "type": "FIX",
+                "text": " sap.m.BusyDialog: Escape key now closes the dialog when cancel button is shown"
+            },
+            {
+                "id": "6aab512e3b2a28235a0c155d0dd9998cdef0a5e4",
+                "type": "FIX",
+                "text": " We've now fixed the scroll arrow buttons not working when a single item is larger than the HeaderContainer"
+            },
+            {
+                "id": "a4c9970993ad0e662e9197696419668c46daa1b1",
+                "type": "FIX",
+                "text": " sap.m.Avatar: Improve Sample"
+            },
+            {
+                "id": "9271beb83261ff92bcf11dca8bd256e260bfafbe",
+                "type": "FEATURE",
+                "text": " sap.m.Panel: Revert focus for Scrollable Content Area"
+            },
+            {
+                "id": "414e05daf7dc6c082e6621023be8989af3b1271c",
+                "type": "FEATURE",
+                "text": " sap.m.Avatar: IFormContent interface is now implemented"
+            },
+            {
+                "id": "00097d2398ad7b2efd3209a4e29f43d03c161a90",
+                "type": "FIX",
+                "text": " sap.m.Avatar: Show fallback icon after clearing initials"
+            },
+            {
+                "id": "c22eb9265328244620f6d9903c4ac1ea55b63ccd",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Initial focus in Firefox is now fixed"
+            }
+        ]
+    }
+}
