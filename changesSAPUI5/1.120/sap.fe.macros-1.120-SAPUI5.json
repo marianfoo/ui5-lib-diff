@@ -825,5 +825,20 @@
                 "text": " We've resolved an issue where duplicate filters were included in value help description requests"
             }
         ]
+    },
+    "1.120.40": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "3ffccd3926fbc759d6f3faaa974dceb9fe88768c",
+                "type": "FIX",
+                "text": " Value help for field with simple Common.ExternalID path now shows external ID instead of internal UUID"
+            },
+            {
+                "id": "3204312c6319fbe941ad74f347ad69d37f433f60",
+                "type": "FIX",
+                "text": " Table sorting now works correctly when variantManagement is set to None"
+            }
+        ]
     }
 }

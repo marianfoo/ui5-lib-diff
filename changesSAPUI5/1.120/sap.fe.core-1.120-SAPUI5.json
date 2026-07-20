@@ -1174,5 +1174,20 @@
                 "text": " We've resolved an issue that occurred when the Edit button is clicked for non-draft entities in the right panel of a flexible column layout"
             }
         ]
+    },
+    "1.120.40": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "dd7dc27c50d717d201c0073bf915a0f5ba29d9dd",
+                "type": "FIX",
+                "text": " We now correctly apply SelectionVariant preset values in the filter bar to Edm.Decimal and Edm.Int64 properties"
+            },
+            {
+                "id": "06b1e1ec00966779042fcb23613b2f1c55458806",
+                "type": "FIX",
+                "text": " We now prevent duplicate error dialogs when a bound action fails without a parameter dialog"
+            }
+        ]
     }
 }

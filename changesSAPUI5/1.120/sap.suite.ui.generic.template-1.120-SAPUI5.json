@@ -1466,5 +1466,59 @@
                 "text": "We’ve improved the loading speed of the list report page when a record is edited directly from an object page"
             }
         ]
+    },
+    "1.120.47": {
+        "date": "June 2026",
+        "notes": [
+            {
+                "id": "I20ef218b3f5b46c9ed7483efab6a5bfcceaa8741",
+                "type": "FIX",
+                "text": "We've resolved an issue where navigating back from a full-page application displayed an empty table due to search queries executing before saved filter values were restored",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012112247"
+                    }
+                ]
+            },
+            {
+                "id": "I557993cfbf751f8a98b443fa57206d836206171a",
+                "type": "FIX",
+                "text": "We've resolved an issue where table data was not restored after a browser refresh on list report pages configured with mandatory filters and additional bindings",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012202990"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.48": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "I15181ec264b412aaf5dcb0d304b611161897d314",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where the analytical list page flickered when users switched between views",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012218123"
+                    }
+                ]
+            },
+            {
+                "id": "I313ab0a14e07db0fc1f321a311181bdcaf84f9cd",
+                "type": "FIX",
+                "text": "We've resolved an issue in the analytical list pages that occurred when adding a custom filter using the rebindVisualFilterExtension in the donut chart",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012227890"
+                    }
+                ]
+            }
+        ]
     }
 }
