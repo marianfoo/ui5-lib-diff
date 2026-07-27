@@ -68,5 +68,35 @@
                 "text": " SmartField: internal wait for flex changes sync when library is loaded"
             }
         ]
+    },
+    "1.148.4": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "fec6b0ad4333277062daafbc511313bc30803ffb",
+                "type": "FIX",
+                "text": " FilterBar: stable filter order across browsers in Adapt Filters"
+            },
+            {
+                "id": "2e7ffff31b66766745e3480f4e72807bb8e029f1",
+                "type": "FIX",
+                "text": " FilterBar: Hidden filter configuration not part of criteria for AdaptFilters"
+            },
+            {
+                "id": "a50ca752d0ff28aacad85a402b7db15ade07ba34",
+                "type": "FIX",
+                "text": " SmartField OPA test: keep suggestions popup open in Firefox"
+            },
+            {
+                "id": "87141301e6a93fb8535c8a744f21664ab16d4683",
+                "type": "FIX",
+                "text": " SmartChart OPA test: commit filter value in Firefox"
+            },
+            {
+                "id": "60765f7c8c30cd7de21dea53d6bdc82c92ad914c",
+                "type": "FIX",
+                "text": " We've now added a change event handler on the HBox item's binding that re-evaluates dash visibility in SmartMultiInput"
+            }
+        ]
     }
 }

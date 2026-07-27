@@ -83,5 +83,15 @@
                 "text": " We now ensure that RadioButtons correctly evaluate editable and enabled expressions in tables"
             }
         ]
+    },
+    "1.148.5": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "9ce7e3b9888058f0682c2c8a176b3298d3ffaf02",
+                "type": "FIX",
+                "text": " We've resolved an issue where create:mandatory and update:readonly fields were incorrectly displayed as read-only in tables with creationMode set to inlineCreationRows or EmptyRow"
+            }
+        ]
     }
 }

@@ -73,5 +73,25 @@
                 "text": " We've resolved an issue where clicking Create failed after navigating back from create mode to a list report page with inline edit"
             }
         ]
+    },
+    "1.148.5": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "fe0d119e95d46540f1a4c50453e477789eaf1ea4",
+                "type": "FIX",
+                "text": " We've resolved an issue where creating or editing a collaborative draft failed because the draft was incorrectly identified as being actively modified by another user"
+            },
+            {
+                "id": "32138e1725ba7c4799556ed00bd877d485a52482",
+                "type": "FIX",
+                "text": " We now correctly use the active binding context for intent-based navigation after discarding a draft"
+            },
+            {
+                "id": "9ce7e3b9888058f0682c2c8a176b3298d3ffaf02",
+                "type": "FIX",
+                "text": " We've resolved an issue where create:mandatory and update:readonly fields were incorrectly displayed as read-only in tables with creationMode set to inlineCreationRows or EmptyRow"
+            }
+        ]
     }
 }
