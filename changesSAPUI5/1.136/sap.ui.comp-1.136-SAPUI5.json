@@ -379,5 +379,45 @@
                 "text": " ValueHelpDialog: Table header now has correct aria-level"
             }
         ]
+    },
+    "1.136.19": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "010476733145958fa18d0020b2408f26bc8dd559",
+                "type": "FIX",
+                "text": " SmartField OPA test: keep suggestions popup open in Firefox"
+            },
+            {
+                "id": "4119a120797bde0f5475fe413c05f4a7971ab24b",
+                "type": "FIX",
+                "text": " SmartField OPA test: focusout fails in Firefox"
+            },
+            {
+                "id": "1d6d0d134ee1556b7b4d40dcce789919db8cd490",
+                "type": "FIX",
+                "text": " SmartChart: SmartLinks from details button now work correctly"
+            },
+            {
+                "id": "696612c4f25fb05f5f6a3ca878676caa7c9b3dd7",
+                "type": "FIX",
+                "text": " We've now added a change event handler on the HBox item's binding that re-evaluates dash visibility in SmartMultiInput"
+            },
+            {
+                "id": "b49183c2ad6999003e193940e209568ccf562582",
+                "type": "FIX",
+                "text": " SmartField: Error state is now shown when the value is empty and mandatory"
+            },
+            {
+                "id": "492cc172b8f7fac41429c8965a181b4e0efae29e",
+                "type": "FIX",
+                "text": " SmartField: internal wait for flex changes sync when library is loaded"
+            },
+            {
+                "id": "da46c845f672603ccbc711f2b4f804f41d4bce5d",
+                "type": "FIX",
+                "text": " SmartFilterBar: Backslash (\\) is no longer duplicated in filter tokens when the value contains a curly brace ({)"
+            }
+        ]
     }
 }

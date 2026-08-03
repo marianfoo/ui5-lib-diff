@@ -1,0 +1,73 @@
+{
+    "1.136.19": {
+        "date": "Jun 2026",
+        "notes": [
+            {
+                "id": "I5c71738aeb5904d286a7a290cb68875bd0a40afa",
+                "text": "We now support configurable element type labels in the search field and legend of the Network Graph",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0884046"
+                    }
+                ]
+            },
+            {
+                "id": "I156b0cd7d4e95e00cb26850cf20bd05f15a8b8ff",
+                "text": "We now prevent jQuery selector errors caused by special characters in grouped Timeline IDs",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012347312"
+                    }
+                ]
+            },
+            {
+                "id": "I996d56a9c7c0bd9b3a5b465ab5fca56056bd9bf2",
+                "text": "We've now fixed a jump issue in the Network Graph by using outline instead of border for nodes and action buttons",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0564334"
+                    }
+                ]
+            },
+            {
+                "id": "Iaa0ec421e0aaedd1200e8e8a7330e5f1a67b318c",
+                "text": "We've now fixed custom status colors not being applied to circular nodes by introducing outline-color semantic classes to match the border-to-outline rendering change",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0828544"
+                    }
+                ]
+            },
+            {
+                "id": "I9d8dc4671037d60b94d5f943d43d7eb7959f44f7",
+                "text": "We've now fixed the visible focus indicator being retained on the Node Details action button after the node details popup opens in the Network Graph",
+                "type": "FIX",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0718893"
+                    }
+                ]
+            },
+            {
+                "id": "Id96b64e0b7293b8a14a588341b711feb51718da9",
+                "text": "We now provide drag and drop functionality for the Network Graph",
+                "type": "FEATURE",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0889192"
+                    }
+                ]
+            }
+        ]
+    }
+}
