@@ -1,0 +1,77 @@
+{
+    "1.151.0": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "8e055b8a2b58d87141d043d18e0673dcf04ad654",
+                "type": "FIX",
+                "text": " sap.ui.core.KeyboardInteractionDisplay: handle browser focus restoration"
+            },
+            {
+                "id": "321b49f1af95b132b9f3afaec51846df12de4c9d",
+                "type": "FEATURE",
+                "text": " Message: add isValidation() to expose validation origin"
+            },
+            {
+                "id": "fe29900e9ab7becd0d38cf453e0d6f6a06f535b6",
+                "type": "FEATURE",
+                "text": " Messaging: add public getMessages() convenience API"
+            },
+            {
+                "id": "6a3ce6efd9dde6f76cb81724a233255087a0e5d5",
+                "type": "FIX",
+                "text": " sap/base/util/deepEqual: guard browser-global Node reference"
+            },
+            {
+                "id": "6601e5b2656723a6a89cbc5a3493dce575865b46",
+                "type": "FIX",
+                "text": " sap/base: avoid use of the browser-only global 'window'"
+            },
+            {
+                "id": "c3235a8750f9e91b935880e06912306bc6721907",
+                "type": "FEATURE",
+                "text": " sap.ui.core.ControlBehavior: Extended Keyboard Navigation switch"
+            },
+            {
+                "id": "0e9fafe48db35cd617120695a81f272441d4166a",
+                "type": "FIX",
+                "text": " message/MessageMixin: Fix additional text generation"
+            },
+            {
+                "id": "67abd96c3cdc212b3d833ece662319b76ffbbd4c",
+                "type": "FIX",
+                "text": " sap.ui.test: fix type signature of matcher modules that export factory functions"
+            },
+            {
+                "id": "1d686f8c575bb83bfeaff45bd2f08af9f138ff53",
+                "type": "FIX",
+                "text": " sap.ui.security.FrameOptions: Harden allowlist host matching"
+            },
+            {
+                "id": "fd0c1521b4a935f50348d355967fb1381e217e1a",
+                "type": "FIX",
+                "text": " OpaAction: Fix unstable OPA test for page scroll"
+            },
+            {
+                "id": "6f56ca4a3a52341a2582c402f014ced6e0fcca22",
+                "type": "FIX",
+                "text": " core/Element: Skip focus redirect on same-parent move"
+            },
+            {
+                "id": "108aa3b0aa89f079851a3adf6665f4894690a9c9",
+                "type": "FEATURE",
+                "text": " sap.tnt.SideNavigation: add search functionality"
+            },
+            {
+                "id": "f39d4767951f6fbb63104a7592146ff34f5e90fb",
+                "type": "FIX",
+                "text": " TestRunner: Fix test page discovery in Safari"
+            },
+            {
+                "id": "8d1d952b866e9de20bf5e5f55d4ff53fea7fa6b9",
+                "type": "FIX",
+                "text": " sap.ui.test: fix unstable _timeoutWaiter tests on Firefox"
+            }
+        ]
+    }
+}

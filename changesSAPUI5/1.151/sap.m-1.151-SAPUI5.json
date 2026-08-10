@@ -1,0 +1,227 @@
+{
+    "1.151.0": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "024cdb0e17d639e4f20934d99e478d2a84c39218",
+                "type": "FIX",
+                "text": "p13n.FilterPanel: fix import"
+            },
+            {
+                "id": "ee3e93692fd386d20a48672cea62ba8e820e2646",
+                "type": "FIX",
+                "text": " sap.m.DatePicker: not setting min/max date if there are no"
+            },
+            {
+                "id": "8b4acf962669dd98fdf7189b231c8b50a61c093c",
+                "type": "FIX",
+                "text": "p13n.FilterPanel: announcement missing on adding filter"
+            },
+            {
+                "id": "d2543cc867382f566b55f438af5515ec7231e5cb",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: \"1 Month\" view responsiveness"
+            },
+            {
+                "id": "7aa42dd7cb2c8bf1a5c4422f519f62b3524df3b3",
+                "type": "FIX",
+                "text": " sap.m.Dialog: min-width 100% on narrow viewports"
+            },
+            {
+                "id": "e0658796a4839b82168e59a89408edf668f76613",
+                "type": "FIX",
+                "text": "p13n.SelectionPanel: add anouncements for reordering"
+            },
+            {
+                "id": "ca6c999f9f018ac244007f22d295718c9a2dfac9",
+                "type": "FIX",
+                "text": " We've now improved the screen reader announcements for the Edit and Delete buttons on the UploadSet control"
+            },
+            {
+                "id": "940d07b74ef2af62e916c8ec15540cd46e2b1b06",
+                "type": "FIX",
+                "text": " sap.m.Token: Apply focus styles on mobile devices"
+            },
+            {
+                "id": "ef73e06db677d929fbdc5ad017d4aed3664923cf",
+                "type": "FIX",
+                "text": " sap.m.Dialog: avoid redundant screen reader announcement when title matches value state"
+            },
+            {
+                "id": "cc1582bc88d99d733faf33a4aea5dc1ca9988b00",
+                "type": "FIX",
+                "text": " sap.m.DatePicker: respects constrains set in the binding"
+            },
+            {
+                "id": "8e9c931d4f9d7cf5efa86ab70fdd0eb56e262611",
+                "type": "FIX",
+                "text": " sap.m/sap.ui.unified Menu: fix separator a11y tree"
+            },
+            {
+                "id": "3303967767db6742312a4c0c255ac75dfc4baca7",
+                "type": "FIX",
+                "text": " We've now added the title property of the PDFViewer to the iframe instance"
+            },
+            {
+                "id": "b095eb5efa9359d49a9d9408500409f646328c9e",
+                "type": "FEATURE",
+                "text": " TabContainer: Add support for zooming in TabStrip on mobile devices"
+            },
+            {
+                "id": "1b865c0c59056c7b36d3b5e0e51e66ad2570b924",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: overflow button focus outline now visible during mousedown"
+            },
+            {
+                "id": "cb4e0df4043996e6833f9995297d72470a189eae",
+                "type": "FIX",
+                "text": "p13n.Popup: Fix imports"
+            },
+            {
+                "id": "657e55e787522ff7db7f64939b79c8e99b8bfaf7",
+                "type": "FIX",
+                "text": " sap.m.InstanceManager: closeAllDialogs promise is now resolved when dialog is destroyed during closing"
+            },
+            {
+                "id": "823e8a24f5e4b73a0f77baa9be0facac72f91e7b",
+                "type": "FIX",
+                "text": "p13n panels: announcement on reset are missing"
+            },
+            {
+                "id": "8eef5331d8581ba0021dc1244d1f411afdf3430d",
+                "type": "FIX",
+                "text": " sap.m.Menu: context menu now opens when another menu is open"
+            },
+            {
+                "id": "efaf22c1dcb7b438074bc84624c09eea54171ebb",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: fix arrow-key navigation issue"
+            },
+            {
+                "id": "e0742165e64c242069e8a5e1f52b33f7db0eb0ac",
+                "type": "FIX",
+                "text": " sap.m.ColorPalette: fix buttons active state"
+            },
+            {
+                "id": "7f1e187150cf14f8557b04628db769c067a1a12c",
+                "type": "FIX",
+                "text": " mdc/SmartChart: 'View By' popover now have correct announcement."
+            },
+            {
+                "id": "9dd86eda46333d09f2d042e652af6b1845211cab",
+                "type": "FIX",
+                "text": " sap.m.MessageBox: Dialog role is now set based on the message type"
+            },
+            {
+                "id": "1143dab1826c2809ea8673b8463c90cab9b8f14a",
+                "type": "FIX",
+                "text": " sap.m.ObjectHeader: image is decorative if the alt is empty"
+            },
+            {
+                "id": "0b920cbe366268fa65aac039e83c001808821f25",
+                "type": "FIX",
+                "text": " sap.m.MessageView - Details view is now preserved after resize"
+            },
+            {
+                "id": "437026fccb4a774db7272b804250314009a2ce95",
+                "type": "FEATURE",
+                "text": " We've now introduced AdditionalPriority property for generic tile when ActionMode or Article Mode containing FrameType Stretch is enabled"
+            },
+            {
+                "id": "131805e5ffad57d2b77deb8950b81cc58a448c98",
+                "type": "FIX",
+                "text": " We've now fixed the validation issues that occurred when renaming a URL document in UploadSet"
+            },
+            {
+                "id": "119ab926ac1f01e886a3c4b82764e5897c8096f1",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Screen reader no longer announces the footer button before the link in content"
+            },
+            {
+                "id": "1c0c614b729c6ee9febb74328a4c819199bb7506",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: no change event on own Token focus"
+            },
+            {
+                "id": "5442fd8d7705c336d3178bd7bf727d040b7b28a4",
+                "type": "FIX",
+                "text": " sap.m.Select: Defer value state popup open() to complete setter chain"
+            },
+            {
+                "id": "bc0b2c666773a9b2a7fd026436a6ef4b95d82944",
+                "type": "FIX",
+                "text": " sap.m.DateRangeSelection: returns parameters based on validity"
+            },
+            {
+                "id": "b3bf4792c349f232dc21f42c8376e614f18e4088",
+                "type": "FIX",
+                "text": " sap.m.Menu: fix hover state for item with open submenu"
+            },
+            {
+                "id": "555f85c3781131af5e891f6f440c0c1540160c58",
+                "type": "FIX",
+                "text": " sap.m.IconTabHeader: End overflow tab now displays correct count on mobile devices"
+            },
+            {
+                "id": "b578ced7866d93f6b31e1f4187337009801f6dac",
+                "type": "FIX",
+                "text": " sap.m.MessagePopover: title level correctly set"
+            },
+            {
+                "id": "6f56ca4a3a52341a2582c402f014ced6e0fcca22",
+                "type": "FIX",
+                "text": " core/Element: Skip focus redirect on same-parent move"
+            },
+            {
+                "id": "1e5bb92b1198e93a4445dbab0769a8760d08cf2d",
+                "type": "FIX",
+                "text": " We've now fixed the invalid aria-label on GenericTile with role=\"presentation\""
+            },
+            {
+                "id": "4b2e60572f980f2bf3275915090b01c825ae7e32",
+                "type": "FIX",
+                "text": " We've now fixed the incorrect list roles in HeaderContainer that were causing incorrect screen reader announcements"
+            },
+            {
+                "id": "99a47c864387609ee50e08979eee2d9d2372355b",
+                "type": "FIX",
+                "text": " sap.m.DynamicDateRange: option value is not stripped if"
+            },
+            {
+                "id": "108aa3b0aa89f079851a3adf6665f4894690a9c9",
+                "type": "FEATURE",
+                "text": " sap.tnt.SideNavigation: add search functionality"
+            },
+            {
+                "id": "1341aa6ca3cea598091092f78928081c1c71e80a",
+                "type": "FIX",
+                "text": " We've fixed an issue where the JAWS screen reader launched an application instead of accessing the overflow menu when you pressed Enter on the More button"
+            },
+            {
+                "id": "9adce547e9fe6fb29a0e9d3cda7fa9864b8fb39e",
+                "type": "FIX",
+                "text": " sap.m.Toolbar: Fix arrow key navigation for Slider, RangeSlider and MultiInput"
+            },
+            {
+                "id": "5a2da6401b43038a5be02b9de2375f88ba32aaac",
+                "type": "FEATURE",
+                "text": " sap.m.Tokenizer: announce token deletion"
+            },
+            {
+                "id": "a562220e7967e4bba74841108487a3676e5ff94c",
+                "type": "FIX",
+                "text": " sap.m.MessageBox: box shadow of the header fixed"
+            },
+            {
+                "id": "e27b11c9fa4f3db9d8f785492bbc2ca743a25ab9",
+                "type": "FIX",
+                "text": " We've now fixed the validation issues that occurred when renaming a URL document in UploadSetwithTable"
+            },
+            {
+                "id": "183bcb2b0f5d3f23c23c3761f2bda34309dc4903",
+                "type": "FIX",
+                "text": " sap.m.Wizard: Progress navigator is properly updated"
+            }
+        ]
+    }
+}

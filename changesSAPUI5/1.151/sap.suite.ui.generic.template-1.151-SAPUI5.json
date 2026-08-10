@@ -1,0 +1,77 @@
+{
+    "1.151.0": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "I4c6ae54d3b69fcc43e5577202bb19c4adb17e348",
+                "type": "FIX",
+                "text": "We've resolved an issue where the Editing Status column in a grid table overlapped with adjacent columns on larger screens",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0881111"
+                    }
+                ]
+            },
+            {
+                "id": "I14b8150f0835fa3a23ccea38a458db153a5c3829",
+                "type": "FIX",
+                "text": "We've resolved an issue where SmartLink navigation landed on the wrong page when composite-entity key fields contained empty string values",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0932500"
+                    }
+                ]
+            },
+            {
+                "id": "I667d76600d7e0fd7d6ea421baa56851f0c0871c0",
+                "type": "FEATURE",
+                "text": "List report pages and analytical list pages now apply default filter values defined using settings from Fiori launchpad when the app is loading"
+            },
+            {
+                "id": "I7209e071cf9b954b093730f639e819d2aa8d9732",
+                "type": "FIX",
+                "text": "We've resolved an issue where custom filter values weren't restored when returning to a list report page after navigating away",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012194237"
+                    }
+                ]
+            },
+            {
+                "id": "Iec5dabba17764b264e036723fed50939e8676257",
+                "type": "FIX",
+                "text": "The required field validation is no longer triggered incorrectly in an inline creation row when a user opens a value help or a date picker is opened from a field in that row"
+            },
+            {
+                "id": "Id34556ffe4efb0d7c47d7262b471056ebd22cd7d",
+                "type": "FIX",
+                "text": "We've resolved an issue where clicking the Create button in a grid table in inline creation mode moved the focus to an existing row that included an error instead of moving it to the newly created empty row"
+            },
+            {
+                "id": "I8869f2177c2c38a76c64673eb452f88dd1c3c94b",
+                "type": "FIX",
+                "text": "We now ensure that the currency value and currency code fields in the visual filter bar are read correctly by the screen reader",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0913446"
+                    }
+                ]
+            },
+            {
+                "id": "I31378006869cd9d6bb68a300a5e9d412618b15ae",
+                "type": "FIX",
+                "text": "We now ensure that the Editing Status column in grid and tree tables is read correctly by the screen reader",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0873133"
+                    }
+                ]
+            }
+        ]
+    }
+}

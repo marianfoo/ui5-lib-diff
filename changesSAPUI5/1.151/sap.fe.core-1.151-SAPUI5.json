@@ -1,0 +1,27 @@
+{
+    "1.151.0": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "1098e76f5e64d5368418daf6ffaaf730f1addf46",
+                "type": "FEATURE",
+                "text": " You can now define visible and enabled properties for table standard actions via manifest"
+            },
+            {
+                "id": "b8ed133149ee8ed532ce59f7868090fe92fc58e5",
+                "type": "FIX",
+                "text": " We now correctly use the active binding context for intent-based navigation after discarding a draft"
+            },
+            {
+                "id": "388f492a40681d43d4374ef27e4929ed7cca54fc",
+                "type": "FIX",
+                "text": " We've resolved an issue where create:mandatory and update:readonly fields were incorrectly displayed as read-only in tables with creationMode set to inlineCreationRows or EmptyRow"
+            },
+            {
+                "id": "f45bebd6bf2c8c1a353afe1e5bd3b756398866bf",
+                "type": "FEATURE",
+                "text": " Introduce interval filter support (Common.Interval)"
+            }
+        ]
+    }
+}

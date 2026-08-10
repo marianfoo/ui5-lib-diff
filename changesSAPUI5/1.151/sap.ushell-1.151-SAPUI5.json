@@ -1,0 +1,77 @@
+{
+    "1.151.0": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "ad9c7de039577751c7837e9f47094b214c7dd6dc",
+                "type": "Fix",
+                "text": " MenuBar controller: Additional information announcement"
+            },
+            {
+                "id": "0b50a10232268caffe6d68ed1523b02f5972d08f",
+                "type": "FIX",
+                "text": " Trigger core-ext loading on cold start / refresh directly onto the search-results route"
+            },
+            {
+                "id": "1cdce95dac6d34ff5006b7542a308c182d3b1520",
+                "type": "FIX",
+                "text": " test/utils: remove stale ushellUtils.Error monkeypatch"
+            },
+            {
+                "id": "acf82cc0e3dffbcee5f600e0edf5c1a8df74a560",
+                "type": "FIX",
+                "text": " Fix AppStateSample to await createEmptyAppState"
+            },
+            {
+                "id": "a85eb4fcdd6a8cc26318314528ccfe46444e71a4",
+                "type": "FIX",
+                "text": " UserDefaultSetting: Use valid Date when Editing is cancelled"
+            },
+            {
+                "id": "90c75832fcfd6b47ceaaccad528bab8fc2487d7e",
+                "type": "FIX",
+                "text": " sap.ushell: Page Title and Section Title heading corrected"
+            },
+            {
+                "id": "091cf81d8d886d50b34335ffccae49c48bf64346",
+                "type": "FIX",
+                "text": " sap.ushell.components.shell.Notifications: Timestamp rendering improved"
+            },
+            {
+                "id": "1657f194440014726b091271fae0e32f01b10052",
+                "type": "FEATURE",
+                "text": " ShellBar: add /ushell/shellBar/showTitle config"
+            },
+            {
+                "id": "b8228fefc4c5fda6aac328305d4c2f374c5cffe8",
+                "type": "FIX",
+                "text": " Disable ShellBar initial expand handling for classic ESH search field"
+            },
+            {
+                "id": "81e930bf686a103f34c7e7d8d31e5718f8aafae8",
+                "type": "FIX",
+                "text": " CSR resolveHashFragment test: Force spaces=true"
+            },
+            {
+                "id": "259e359484b8f79abc076ac4f9e1c96ba17c8454",
+                "type": "FIX",
+                "text": " getInstance() on Workpage APIs allow multiple calls"
+            },
+            {
+                "id": "cb9867f91192b13d01d1c8c609917b31a5cbefbf",
+                "type": "FIX",
+                "text": " CrossApplicationNavigation: Fix getPrimaryIntent() in WorkZone scenarios"
+            },
+            {
+                "id": "b57a1ee0570ee255cf5422fdbfa3bbb903cdb4a9",
+                "type": "FIX",
+                "text": " Recent activity display of the last search term"
+            },
+            {
+                "id": "a6dc65c653aaffa06b66eddfea0d407b5f1e1307",
+                "type": "FIX",
+                "text": " ApplicationType.systemAlias: Adapt according to ABAP logic"
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "1.151.0": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "1832a4bd693833a06809c8e8ff9523171d18d3d7",
+                "type": "FEATURE",
+                "text": " You can now use IN mapping to pass parameter values from the entity to a parameterized value help entity set"
+            },
+            {
+                "id": "1098e76f5e64d5368418daf6ffaaf730f1addf46",
+                "type": "FEATURE",
+                "text": " You can now define visible and enabled properties for table standard actions via manifest"
+            },
+            {
+                "id": "361bd6e41e6a20a699da478a993975fff90a8de6",
+                "type": "FEATURE",
+                "text": " You can now specify that personalization changes are not persisted using the ignorePersonalizationChanges property in the Chart building block"
+            },
+            {
+                "id": "cd5cc83e83b34a2328468f88db47c280e86e0b15",
+                "type": "FEATURE",
+                "text": " You can now set predefined values for filter fields in the filter bar and Adapt Filters dialog"
+            },
+            {
+                "id": "388f492a40681d43d4374ef27e4929ed7cca54fc",
+                "type": "FIX",
+                "text": " We've resolved an issue where create:mandatory and update:readonly fields were incorrectly displayed as read-only in tables with creationMode set to inlineCreationRows or EmptyRow"
+            },
+            {
+                "id": "8422b593384d95ce40e9cbfa226c36e86e37be0a",
+                "type": "FEATURE",
+                "text": " You can now specify that personalization changes are not persisted using the ignorePersonalizationChanges property in the Table building block"
+            },
+            {
+                "id": "1dcbdc28a139b2dac257e0a6728e9e7d87746779",
+                "type": "FEATURE",
+                "text": " You can now define filter fields for which user default parameters are applied in a filter bar variant"
+            },
+            {
+                "id": "2b08001e0685172f8b1472e1fefee13f207080f7",
+                "type": "FIX",
+                "text": " RadioButtons building block now correctly evaluates editable and enabled expressions in tables"
+            },
+            {
+                "id": "f45bebd6bf2c8c1a353afe1e5bd3b756398866bf",
+                "type": "FEATURE",
+                "text": " Introduce interval filter support (Common.Interval)"
+            }
+        ]
+    }
+}
