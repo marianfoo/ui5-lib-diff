@@ -93,5 +93,20 @@
                 "text": " We've resolved an issue where create:mandatory and update:readonly fields were incorrectly displayed as read-only in tables with creationMode set to inlineCreationRows or EmptyRow"
             }
         ]
+    },
+    "1.148.6": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "d3d03bb26915db405952ff5841eef434bf63d47d",
+                "type": "FIX",
+                "text": " Apps using the flexible column layout now correctly navigate to an object that was recently modified by another user"
+            },
+            {
+                "id": "c10c58ba789d5d02ded1d75b6bf249683dbccf82",
+                "type": "FIX",
+                "text": " We now ensure that the @UI.Hidden annotation takes precedence over the @UI.SelectionField annotation when determining field availability in the Adapt Filters dialog"
+            }
+        ]
     }
 }

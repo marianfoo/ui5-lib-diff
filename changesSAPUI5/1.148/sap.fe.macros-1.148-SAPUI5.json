@@ -93,5 +93,25 @@
                 "text": " We've resolved an issue where create:mandatory and update:readonly fields were incorrectly displayed as read-only in tables with creationMode set to inlineCreationRows or EmptyRow"
             }
         ]
+    },
+    "1.148.6": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "ec74c30a0487be9f9d3066fe2d02403149bf0b9d",
+                "type": "FIX",
+                "text": " In the Form building block, FormContainer IDs are now correctly anchored to the enclosing fragment prefix when loaded using loadFragment"
+            },
+            {
+                "id": "d737144961b590f81f5ec4ae4e890e0249dffaa4",
+                "type": "FIX",
+                "text": " We've resolved an issue where table variants weren't displayed on a list report page in multi-view mode"
+            },
+            {
+                "id": "8e0f8f4c9292300ea39a8dcf2e9f5f42c9f75487",
+                "type": "FIX",
+                "text": " We've resolved an issue where the sort arrow wasn't displayed in headers of grid table columns when variantManagement was set to None"
+            }
+        ]
     }
 }
