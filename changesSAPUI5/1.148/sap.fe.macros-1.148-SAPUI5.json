@@ -113,5 +113,20 @@
                 "text": " We've resolved an issue where the sort arrow wasn't displayed in headers of grid table columns when variantManagement was set to None"
             }
         ]
+    },
+    "1.148.7": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "8b1bd025e4f29cb1d4aa85268281b8c40191061f",
+                "type": "FIX",
+                "text": " We now ensure that the table works correctly when a variant is applied on a list report page with multiple tabs"
+            },
+            {
+                "id": "2c02910c6af03be18db57e9f3af6a4f3e1fd1d8a",
+                "type": "FIX",
+                "text": " We now ensure that table contents are correctly refreshed when an entry needs to no longer be displayed after mass edit"
+            }
+        ]
     }
 }

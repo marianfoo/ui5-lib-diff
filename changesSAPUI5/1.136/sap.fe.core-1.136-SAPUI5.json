@@ -353,5 +353,25 @@
                 "text": " We now pass the openInNewTab property to the onBeforeNavigation hook to ensure correct navigation handling when users click 'Open in New Tab'"
             }
         ]
+    },
+    "1.136.22": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "62d1e6b25555f7114c73fbfde903e881890a7ae0",
+                "type": "FIX",
+                "text": " Apps using the flexible column layout now correctly navigate to an object that was recently modified by another user"
+            }
+        ]
+    },
+    "1.136.23": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "ddda7c83f1f8d07db058d8e1f286f241c87dd486",
+                "type": "FIX",
+                "text": " We now avoid redundant action enablement recalculations after a bound action with multiple contexts"
+            }
+        ]
     }
 }
