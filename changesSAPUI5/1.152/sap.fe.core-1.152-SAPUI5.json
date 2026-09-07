@@ -1,0 +1,37 @@
+{
+    "1.152.0": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "8ca4f877e6a9767557cd17c11cd7636927a827db",
+                "type": "FEATURE",
+                "text": " We now support triggering side effects when the source entity is created, updated, or deleted"
+            },
+            {
+                "id": "6c79f12dce3ac78784eca5afeed3440e0022c49a",
+                "type": "FIX",
+                "text": " We now correctly display error messages that occur during object creation"
+            },
+            {
+                "id": "5594c8d7730fa8e62bce2d88fa5417fea9433b36",
+                "type": "FIX",
+                "text": " Apps using the flexible column layout now correctly navigate to an object that was recently modified by another user"
+            },
+            {
+                "id": "00152f2a3cdfcd3f665b0ff37f81de71a2842565",
+                "type": "FEATURE",
+                "text": " You can now use the adaptNavigationTargets controller extension to modify the navigation targets that appear in the popover for semantic object links"
+            },
+            {
+                "id": "207594824e9f9e15008b88dca3c415b9579264e9",
+                "type": "FIX",
+                "text": " We now ensure that the @UI.Hidden annotation takes precedence over the @UI.SelectionField annotation when determining field availability in the Adapt Filters dialog"
+            },
+            {
+                "id": "8263f0470412a3d7d9355ab1d612003adb16b94c",
+                "type": "FIX",
+                "text": " We've resolved an issue where creating or editing a collaborative draft failed because the draft was incorrectly identified as being actively modified by another user"
+            }
+        ]
+    }
+}

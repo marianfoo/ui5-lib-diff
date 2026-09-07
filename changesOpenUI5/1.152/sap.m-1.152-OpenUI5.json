@@ -1,0 +1,192 @@
+{
+    "1.152.0": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "71de538f38340ff2211e1752580528efcd450124",
+                "type": "FIX",
+                "text": " sap.m.DateTimePicker: Clocks visibility after toggleInputMode on phone"
+            },
+            {
+                "id": "43729379b84f124eadf09d2982185e36e3460f3f",
+                "type": "FEATURE",
+                "text": " We now highlight the Download button as the primary action in the File Preview dialog"
+            },
+            {
+                "id": "b67eee565a0182742e7367ca836bdc174fb108c1",
+                "type": "FIX",
+                "text": " sap.m.Link: announce tooltip via aria-describedby when emphasized"
+            },
+            {
+                "id": "f7af44f9d2b27665c6e613f85f1f47070c56c436",
+                "type": "FIX",
+                "text": " We've now replaced sap.m.ActionSheet with sap.m.Menu component in the feed list item control"
+            },
+            {
+                "id": "eb8dbe2e0d180f212840590f1c271c46a3d48766",
+                "type": "FIX",
+                "text": " sap.m.ScrollContainer: fix focus outline visibility at container edges"
+            },
+            {
+                "id": "3d7a75d4271cfd725e3374e4a18e39163cd003bb",
+                "type": "FIX",
+                "text": " sap.m.Popover: Label custom header when showHeader is false"
+            },
+            {
+                "id": "039b2bf279739d8958d47c7f9083a42cebfa6884",
+                "type": "FEATURE",
+                "text": " mdc.Table: Add delegate validation hook for the P13n dialog"
+            },
+            {
+                "id": "d08a64f801121aacf7cc1d04ffc1cdc8ada3c453",
+                "type": "FIX",
+                "text": "sap.m.ComboBox: Dialog opens when tapping on mobile"
+            },
+            {
+                "id": "a346c9daddd4ec071e192bd4552025c64cce3738",
+                "type": "FIX",
+                "text": " We've now fixed the accessibility issue of FeedListItem control by preventing ariaLabelledBy duplication on re-render"
+            },
+            {
+                "id": "b29a9259718bfcc029f03e2814455fc321d5db17",
+                "type": "FIX",
+                "text": " sap.m.SinglePlanningCalendar: Show correct more link count"
+            },
+            {
+                "id": "4c338cd31749930ed9d9bd53b89c8538ec34f358",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: Correctly show NonWorking in Hours view"
+            },
+            {
+                "id": "8a4653b5419e8243b925a064e612049c9a8748c8",
+                "type": "FEATURE",
+                "text": " SimpleForm: use sap.m.Title for rendering"
+            },
+            {
+                "id": "48621eacdd8797db279e0253699fa8f39674f58b",
+                "type": "FIX",
+                "text": " sap.m.MultiComboBox: Custom value state message is now correctly restored"
+            },
+            {
+                "id": "fa9467a30a02fbcf7a4bd54f0ea4dfec0df81293",
+                "type": "FIX",
+                "text": " sap.m.MessageView: Details view is correctly updated on message update"
+            },
+            {
+                "id": "102cc17ede1aa39f824cbb905cd32df60e436cfc",
+                "type": "FIX",
+                "text": " m.Table: No columns message not visible"
+            },
+            {
+                "id": "dd468a78e443ff7c7291e071716e580d65ffaed1",
+                "type": "FIX",
+                "text": " sap.m.MultiInput:  Read-only focus outline in compact mode is now fixed"
+            },
+            {
+                "id": "8b53ffdd9b49163dc588b6d846ef4628c4cd4589",
+                "type": "FIX",
+                "text": " sap.m.IconTabBar: Focused child item is now visible in popover"
+            },
+            {
+                "id": "b899d3037a307d83890188a6aed4ca10f80bfbf8",
+                "type": "FIX",
+                "text": "sap.m.Tokenizer: Unstable legacy-free qunit is now fixed"
+            },
+            {
+                "id": "2c42f27ff040420c9b3493b35400a0fd1d0dcd83",
+                "type": "FIX",
+                "text": " GroupPanel, SortPanel: improve for small screens"
+            },
+            {
+                "id": "1d675f9b60698e2ef85e18226844404d3082ab18",
+                "type": "FEATURE",
+                "text": " sap.m.TimePicker: improve accessibility of TimePicker and DateTimePicker"
+            },
+            {
+                "id": "f214cfec497c04338b6e0bf79fe5d5330662bf9c",
+                "type": "FIX",
+                "text": " sap.m.StepInput: Fix increment/decrement on mobile with decimal values"
+            },
+            {
+                "id": "df50b74554806ef1b41ca8fcb419b43182245258",
+                "type": "FIX",
+                "text": " sap.m.TableSelectDialog: Test page sample is now fixed"
+            },
+            {
+                "id": "fcb73d2040fa9f5afb4b781657f19063fcb8a102",
+                "type": "FIX",
+                "text": " We've now fixed the multiselect checkbox size and the content gap within UploadSet to prevent the focus ring from overlapping the file icon"
+            },
+            {
+                "id": "13f06020c6e01b7a966cec41bb7edf2befbde6f3",
+                "type": "FIX",
+                "text": " sap.m.Popover: Properly flip when opener is close to the bottom"
+            },
+            {
+                "id": "aa9f891cc1dbfcc0cb1d341ef1428b92d4b339b0",
+                "type": "FIX",
+                "text": " Date and Time Pickers: Fix input width in responsive mode"
+            },
+            {
+                "id": "aeee39f79a50a4c5f2016e57d432e710df0fcd9a",
+                "type": "FIX",
+                "text": " core/RenderManager: function 'icon' extended with 'mStyles' parameter"
+            },
+            {
+                "id": "daf0aeaf6dbf583629c37d29fdefa9f2fc466176",
+                "type": "FIX",
+                "text": " sap.m.MultiInput: reset first token truncated state on updateTokens"
+            },
+            {
+                "id": "32abfa68866cdbefd2d2dab3c5db8485d2b755e0",
+                "type": "FEATURE",
+                "text": " sap.m.Menu: viewport-based PAGE_UP/PAGE_DOWN navigation"
+            },
+            {
+                "id": "848a0284fd4221a36ca0af07b5edda8cda165fc1",
+                "type": "FIX",
+                "text": " sap.m.DateHighZoomInputs: fix day-count overflow on day 31"
+            },
+            {
+                "id": "992434a8be1f95f2270435d742db8a3566007247",
+                "type": "FIX",
+                "text": " sap.m.Select: Fix aria-activeDescendant"
+            },
+            {
+                "id": "8a629418ac54d85007ac6642d493b942301653f7",
+                "type": "FIX",
+                "text": " sap.m.MessageView: Details page icon is now moved to the top for screen readers"
+            },
+            {
+                "id": "2ee90f5a6463de5ffe9cc036ea3f00d0ae36c134",
+                "type": "FIX",
+                "text": " sap.m.StepInput: Error state is cleared if correct value is set"
+            },
+            {
+                "id": "03231d54f29b336920f4e09183bbcb265e8a68e7",
+                "type": "FIX",
+                "text": "p13n.FilterPanel: fix import"
+            },
+            {
+                "id": "c804c6f12a44921a4ea966039b8dc70df9a0cb71",
+                "type": "FEATURE",
+                "text": " Date and Time: added new handling for high zoom levels."
+            },
+            {
+                "id": "63294d9721ac10758250fc919675fc404677c2ce",
+                "type": "FIX",
+                "text": " sap.m.DatePicker: not setting min/max date if there are no"
+            },
+            {
+                "id": "1e6a73c86bb14888dcdd399c35209808715bd94d",
+                "type": "FIX",
+                "text": "p13n.FilterPanel: announcement missing on adding filter"
+            },
+            {
+                "id": "f2cea2a6d83c844544c1ab6b4ab685856096af49",
+                "type": "FIX",
+                "text": " p13n.Popup: Cancel button is not disabled on disabled dialog"
+            }
+        ]
+    }
+}

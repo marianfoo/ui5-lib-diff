@@ -1,0 +1,37 @@
+{
+    "1.152.0": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "9b6a3be301fe1689bba7d0afc5b2496a9910c75c",
+                "type": "FIX",
+                "text": " We now ensure that table contents are correctly refreshed when an entry needs to no longer be displayed after mass edit"
+            },
+            {
+                "id": "5bdf9c4ffece9cdf767246cde852dfed8aae96f2",
+                "type": "FEATURE",
+                "text": " Value help now shows distinct values when the value list is annotated with DistinctValuesSupported"
+            },
+            {
+                "id": "70821cebed6a15bdcd06d608f9ef0976c0363609",
+                "type": "FIX",
+                "text": " In the Form building block, FormContainer IDs are now correctly anchored to the enclosing fragment prefix when loaded using loadFragment"
+            },
+            {
+                "id": "7176d25f46d83b5ec914ae75e09111022e24c91f",
+                "type": "FIX",
+                "text": " We've resolved an issue where table variants weren't displayed on a list report page in multi-view mode"
+            },
+            {
+                "id": "00152f2a3cdfcd3f665b0ff37f81de71a2842565",
+                "type": "FEATURE",
+                "text": " You can now use the adaptNavigationTargets controller extension to modify the navigation targets that appear in the popover for semantic object links"
+            },
+            {
+                "id": "d4bb427562f20bbd4e23a1da3d421f4b43f328aa",
+                "type": "FIX",
+                "text": " We've resolved an issue where the sort arrow wasn't displayed in headers of grid table columns when variantManagement was set to None"
+            }
+        ]
+    }
+}
