@@ -22,9 +22,16 @@
 <item>
 <title>Version 1.108.54 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.53&amp;versionTo=1.108.54</link>
-<pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.108.54</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where loading a saved variant and restoring extension filter values overwrote the saved variant</li></ul></li></ul>]]></description>
+<pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.108.54</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description: sap.m.ComboBox: Dialog opens when tapping on mobile</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where loading a saved variant and restoring extension filter values overwrote the saved variant</li></ul></li><li><strong>Library: sap.suite.ui.microchart</strong><ul><li>Type: FIX, Description:  We&apos;ve now fixed the missing selected state borders for interactive microcharts in non-high-contrast themes</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.AnchorBar: Fix failing QUnits</li><li>Type: FIX, Description:  sap.uxap.AnchorBar: Fix failing QUnit</li><li>Type: FIX, Description:  sap.uxap.AnchorBar: fix Firefox-flaky resize test</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.53&amp;versionTo=1.108.54</guid>
+</item>
+<item>
+<title>Version 1.108.55 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.54&amp;versionTo=1.108.55</link>
+<pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.108.55</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where navigating back to a list report page or launching it from a tile showed an empty table</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.54&amp;versionTo=1.108.55</guid>
 </item>
 <item>
 <title>Version 1.108.53 Changes</title>
@@ -249,6 +256,13 @@
 <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.148.4</h2><ul><li><strong>Library: sap.fe.macros</strong><ul><li>Type: FIX, Description:  We now ensure that RadioButtons correctly evaluate editable and enabled expressions in tables</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description: p13n.FilterPanel: announcement missing on adding filter</li><li>Type: FIX, Description:  sap.m.Dialog: min-width 100% on narrow viewports</li><li>Type: FIX, Description:  core/Element: Skip focus redirect on same-parent move</li><li>Type: FIX, Description:  mdc/SmartChart: &apos;View By&apos; popover now have correct announcement.</li><li>Type: FIX, Description:  sap.m.Toolbar: Fix arrow key navigation for Slider, RangeSlider and MultiInput</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where custom filter settings weren&apos;t applied on the initial load when no previous application state was available</li><li>Type: FIX, Description: We&apos;ve resolved an issue where 412 (Precondition Failed) warning and error dialogs were not displayed after a failed save action</li><li>Type: FIX, Description: Cells in grid tables are now correctly hidden when table columns are deactivated</li><li>Type: FIX, Description: We&apos;ve resolved an issue where SmartLink navigation landed on the wrong page when composite entity-key fields contained empty string values</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  FilterBar: stable filter order across browsers in Adapt Filters</li><li>Type: FIX, Description:  FilterBar: Hidden filter configuration not part of criteria for AdaptFilters</li><li>Type: FIX, Description:  SmartField OPA test: keep suggestions popup open in Firefox</li><li>Type: FIX, Description:  SmartChart OPA test: commit filter value in Firefox</li><li>Type: FIX, Description:  We&apos;ve now added a change event handler on the HBox item&apos;s binding that re-evaluates dash visibility in SmartMultiInput</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  core/Element: Skip focus redirect on same-parent move</li></ul></li><li><strong>Library: sap.ui.mdc</strong><ul><li>Type: FIX, Description: mdc.ValueHelp: Fix active filters count</li><li>Type: FIX, Description:  MDC OPA test utils: fix column personalization in Firefox</li><li>Type: FIX, Description:  mdc/SmartChart: &apos;View By&apos; popover now have correct announcement.</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.3&amp;versionTo=1.148.4</guid>
+</item>
+<item>
+<title>Version 1.148.8 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.7&amp;versionTo=1.148.8</link>
+<pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.148.8</h2><ul><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.Dialog: Screen reader no longer announces the footer button before the link in content</li><li>Type: FIX, Description:  sap.m.Popover: Screen reader and focus handling are improved</li><li>Type: FIX, Description: sap.m.ComboBox: Dialog opens when tapping on mobile</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  SmartField: getDropdownItemKeyType now returns null when binding is absent</li></ul></li><li><strong>Library: sap.ui.core</strong><ul><li>Type: FIX, Description:  sap.ui.test.actions.Action: fix focus issue on Firefox</li></ul></li><li><strong>Library: sap.ui.integration</strong><ul><li>Type: FIX, Description:  sap.ui.integration.widgets.Card: Stabilize PreventKeyboardScrolling test</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.7&amp;versionTo=1.148.8</guid>
 </item>
 <item>
 <title>Version 1.149.0 Changes</title>
