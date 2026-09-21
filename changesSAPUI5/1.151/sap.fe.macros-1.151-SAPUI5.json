@@ -48,5 +48,30 @@
                 "text": " Introduce interval filter support (Common.Interval)"
             }
         ]
+    },
+    "1.151.1": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "1982f3abecb5f8e1241c247c3bddd930757319f3",
+                "type": "FIX",
+                "text": " We now ensure that the table works correctly when a variant is applied on a list report page with multiple tabs"
+            },
+            {
+                "id": "4ab480c0c3c76e43e8e2070f314b03cff2cf5969",
+                "type": "FIX",
+                "text": " We now ensure that table contents are correctly refreshed when an entry needs to no longer be displayed after mass edit"
+            },
+            {
+                "id": "e4a5f0a4ec2f7d86db77f31177dfc082891b54a6",
+                "type": "FIX",
+                "text": " In the Form building block, FormContainer IDs are now correctly anchored to the enclosing fragment prefix when loaded using loadFragment"
+            },
+            {
+                "id": "e7b1534c88fcf12bfb4451c479c76c120f6c830c",
+                "type": "FIX",
+                "text": " We've resolved an issue where table variants weren't displayed on a list report page in multi-view mode"
+            }
+        ]
     }
 }

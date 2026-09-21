@@ -1520,5 +1520,32 @@
                 ]
             }
         ]
+    },
+    "1.120.50": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "I4d39750d1d250f7f034b728722e75ca78a97439f",
+                "type": "FIX",
+                "text": "We've resolved an issue where the list report loaded data with Standard variant filters instead of the saved custom variant when the page was opened via a tile click after a browser refresh",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260011571071"
+                    }
+                ]
+            },
+            {
+                "id": "I9f546770ed091ab20ae401dbd3de2c07ac08b6d2",
+                "type": "FIX",
+                "text": "We've resolved the issue for views caused by app variants",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0070216"
+                    }
+                ]
+            }
+        ]
     }
 }

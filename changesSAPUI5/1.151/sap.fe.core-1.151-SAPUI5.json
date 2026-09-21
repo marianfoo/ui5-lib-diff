@@ -23,5 +23,30 @@
                 "text": " Introduce interval filter support (Common.Interval)"
             }
         ]
+    },
+    "1.151.1": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "32908565b398244ea8b122a56a7d3c7c1d3fbdd0",
+                "type": "FIX",
+                "text": " We now correctly hide the Delete button for parameterized entity types"
+            },
+            {
+                "id": "3f324e5d2b42f2eb0cdb2a7c589def169fdf364b",
+                "type": "FIX",
+                "text": " We now avoid redundant action enablement recalculations after a bound action with multiple contexts"
+            },
+            {
+                "id": "e537de784c179a3e5f4e80a36097dc85fb7cfdb6",
+                "type": "FIX",
+                "text": " We now ensure that cross-application back navigation works correctly in the SAP Build Work Zone iframe"
+            },
+            {
+                "id": "c6ffdd3d06b073000d9e248be26f53226c2365c3",
+                "type": "FIX",
+                "text": " Apps using the flexible column layout now correctly navigate to an object that was recently modified by another user"
+            }
+        ]
     }
 }
