@@ -1547,5 +1547,32 @@
                 ]
             }
         ]
+    },
+    "1.120.51": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "Ia3eaab5a148c946e4ab0592b6e66e0a15b544b6d",
+                "type": "FIX",
+                "text": "We now ensure that navigation works correctly when the Edm.DateTime fields are present in an object page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC1010578"
+                    }
+                ]
+            },
+            {
+                "id": "I229a9484ec940dfe36bc22ddf6946edee8888f4d",
+                "type": "FIX",
+                "text": "We've resolved an issue with duplicate cross-app navigation requests that were triggered by rapidly double-clicking an intent-based navigation link",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010699200"
+                    }
+                ]
+            }
+        ]
     }
 }

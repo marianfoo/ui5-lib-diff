@@ -149,5 +149,113 @@
                 ]
             }
         ]
+    },
+    "1.148.7": {
+        "date": "July 2026",
+        "notes": [
+            {
+                "id": "Ia078fe45d1231e647f338f0620a69c13a43215ac",
+                "type": "FIX",
+                "text": "We've resolved an issue where default filter values in a variant were not restored during the initial loading of the object page when no prior navigation state was available",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0969078"
+                    }
+                ]
+            },
+            {
+                "id": "I26f6f26954ac312edbc3e86e62a7c0ff649ff68b",
+                "type": "FIX",
+                "text": "We now ensure that valid filterable fields are correctly recognised by the AI-assisted easy filter by prioritising the Capabilities.FilterRestrictions annotation over the sap:filterable annotation, aligning with the behavior of the smart filter bar",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012941891"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.148.9": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "Iab47a625bd4f142d94b8f83b6ab7af05b4018c70",
+                "type": "FIX",
+                "text": "The discard draft popup is no longer displayed when intent-based navigation links on the object page are opened in a new browser tab or window",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010977177"
+                    }
+                ]
+            },
+            {
+                "id": "I229a9484ec940dfe36bc22ddf6946edee8888f4d",
+                "type": "FIX",
+                "text": "We've resolved an issue with duplicate cross-app navigation requests that were triggered by rapidly double-clicking an intent-based navigation link",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010699200"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.148.10": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "I437bb477c976363b78525e9b1d4dc199b12301c7",
+                "type": "FIX",
+                "text": "We've resolved an issue in the analytical table where clicking a SmartLink inside an expanded row didn't open the popover with navigation links",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260013063140"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.148.11": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "I59c35c1fb89ebf5637eb9c5a23d6ede9fb57786b",
+                "type": "FIX",
+                "text": "We now ensure that cross-app navigation remains available after the first time the target application opens in a new browser tab",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC1029963"
+                    }
+                ]
+            },
+            {
+                "id": "I2317ab258ba5f6dd7575eaa00a77a91a4bda6004",
+                "type": "FIX",
+                "text": "We've resolved an issue where data export failed when a search term was active in the filter bar",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260013222066"
+                    }
+                ]
+            },
+            {
+                "id": "I514ecec166a6904ea17ccede5209e908839d1fdc",
+                "type": "FIX",
+                "text": "We now ensure that row selection on the object page is preserved when navigating to the subobject page in the three-column flexible layout",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260011574895"
+                    }
+                ]
+            }
+        ]
     }
 }

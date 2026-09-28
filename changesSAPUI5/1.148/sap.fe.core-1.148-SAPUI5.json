@@ -108,5 +108,25 @@
                 "text": " We now ensure that the @UI.Hidden annotation takes precedence over the @UI.SelectionField annotation when determining field availability in the Adapt Filters dialog"
             }
         ]
+    },
+    "1.148.8": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "2374c5051736bdcce33f42b975e280bb9829b331",
+                "type": "FIX",
+                "text": " We've resolved an issue where intent-based navigation used an incorrect value for fields with TextOnly text arrangement in header facets"
+            },
+            {
+                "id": "8f02bbb512235a3673121255b90ee792e1717bd8",
+                "type": "FIX",
+                "text": " We now correctly hide the Delete button for parameterized entity types"
+            },
+            {
+                "id": "5080bd3e4c140f0db40fb2c281408e12adac8615",
+                "type": "FIX",
+                "text": " We now ensure that cross-application back navigation works correctly in the SAP Build Work Zone iframe"
+            }
+        ]
     }
 }
