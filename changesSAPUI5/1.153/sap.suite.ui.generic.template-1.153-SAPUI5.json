@@ -1,0 +1,89 @@
+{
+    "1.153.0": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "I5e4079fe315d00cdfe28326c0cdc1040a504a665",
+                "type": "FEATURE",
+                "text": "You can now hide the Summarize button either at the application level or the object page level by configuring the hideSummarizationButton setting in the manifest.json file"
+            },
+            {
+                "id": "I80626b912130af90462182d917b8f1fdb25ed59a",
+                "type": "FIX",
+                "text": "We've resolved an issue where the message popover failed to open on the first click when a table on the object page contained columns bound to navigation property paths",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0913626"
+                    }
+                ]
+            },
+            {
+                "id": "I437bb477c976363b78525e9b1d4dc199b12301c7",
+                "type": "FIX",
+                "text": "We've resolved an issue in the analytical table where clicking a SmartLink inside an expanded row didn't open the popover with navigation links",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260013063140"
+                    }
+                ]
+            },
+            {
+                "id": "Id8b8d70bb645eca405947aaba794fe3bd1fe1f6e",
+                "type": "FIX",
+                "text": "We now correctly display the Related Apps button on the object page when it is opened using cross-app navigation or a direct URL",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0972688"
+                    }
+                ]
+            },
+            {
+                "id": "I6eb3e702e3fe2872af0212efda08d5964085de7b",
+                "type": "FIX",
+                "text": "We've resolved an issue where filter values were not restored correctly from a variant that contained default values when the user refreshed the page, navigated back, or opened an app tile",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0979754"
+                    }
+                ]
+            },
+            {
+                "id": "I59c35c1fb89ebf5637eb9c5a23d6ede9fb57786b",
+                "type": "FIX",
+                "text": "We've resolved an issue where cross-app navigation stopped working after the first successful navigation when the target application opened in a new browser tab",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC1029963"
+                    }
+                ]
+            },
+            {
+                "id": "Ieb688c8c7ef95cb068f724cba27ba32c164d1a99",
+                "type": "FIX",
+                "text": "We've resolved an issue where a missing translation file caused repeated 404 requests and slowed down the Adaptation Editor in SAP Business Application Studio",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0900436"
+                    }
+                ]
+            },
+            {
+                "id": "I40c954e1f6d539a4d340efc759850c641b0889d5",
+                "type": "FIX",
+                "text": "We now ensure that the AI-assisted easy filter loads correctly for filter fields with a fixed value list that originate from a navigation property",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC1020027"
+                    }
+                ]
+            }
+        ]
+    }
+}

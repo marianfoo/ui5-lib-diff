@@ -577,5 +577,103 @@
                 ]
             }
         ]
+    },
+    "1.136.22": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "Iab47a625bd4f142d94b8f83b6ab7af05b4018c70",
+                "type": "FIX",
+                "text": "The discard draft popup is no longer displayed when intent-based navigation links on the object page are opened in a new browser tab or window",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010977177"
+                    }
+                ]
+            },
+            {
+                "id": "I6cba353e8d4a27cc9f5beddbfac54aa503eb721b",
+                "type": "FIX",
+                "text": "We’ve resolved an issue where empty semantic values in the manifest.json file prevented the opening of related apps",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012846077"
+                    }
+                ]
+            },
+            {
+                "id": "I229a9484ec940dfe36bc22ddf6946edee8888f4d",
+                "type": "FIX",
+                "text": "We've resolved an issue with duplicate cross-app navigation requests that were triggered by rapidly double-clicking an intent-based navigation link",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010699200"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.136.23": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "I437bb477c976363b78525e9b1d4dc199b12301c7",
+                "type": "FIX",
+                "text": "We've resolved an issue in the analytical table where clicking a SmartLink inside an expanded row didn't open the popover with navigation links",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260013063140"
+                    }
+                ]
+            },
+            {
+                "id": "I26f6f26954ac312edbc3e86e62a7c0ff649ff68b",
+                "type": "FIX",
+                "text": "We now ensure that valid filterable fields are correctly recognised by the AI-assisted easy filter by prioritising the Capabilities.FilterRestrictions annotation over the sap:filterable annotation, aligning with the behavior of the smart filter bar",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012941891"
+                    }
+                ]
+            },
+            {
+                "id": "I59c35c1fb89ebf5637eb9c5a23d6ede9fb57786b",
+                "type": "FIX",
+                "text": "We now ensure that cross-app navigation remains available after the first time the target application opens in a new browser tab",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC1029963"
+                    }
+                ]
+            },
+            {
+                "id": "I514ecec166a6904ea17ccede5209e908839d1fdc",
+                "type": "FIX",
+                "text": "We now ensure that row selection on the object page is preserved when navigating to the subobject page in the three-column flexible layout",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260011574895"
+                    }
+                ]
+            },
+            {
+                "id": "I7209e071cf9b954b093730f639e819d2aa8d9732",
+                "type": "FIX",
+                "text": "We've resolved an issue where custom filter values weren't restored when returning to a list report page after navigating away",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012748502"
+                    }
+                ]
+            }
+        ]
     }
 }

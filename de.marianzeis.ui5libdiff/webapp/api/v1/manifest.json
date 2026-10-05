@@ -1,55 +1,55 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T02:37:39.436Z",
+  "generatedAt": "2026-10-05T02:41:36.609Z",
   "baseUrl": "https://ui5-lib-diff.marianzeis.de",
   "bundle": "/api/v1/all-changes.json",
   "datasets": {
     "SAPUI5": {
       "consolidated": "/data/consolidatedSAPUI5.json",
       "versions": "/data/selectVersionsSAPUI5.json",
-      "versionCount": 870,
+      "versionCount": 872,
       "minVersion": "1.28.0",
-      "maxVersion": "1.152.0",
-      "totalChanges": 48979,
+      "maxVersion": "1.153.0",
+      "totalChanges": 49117,
       "changeTypeCounts": {
-        "FEATURE": 7696,
-        "FIX": 39055,
-        "DEPRECATED": 2228
+        "FEATURE": 7729,
+        "FIX": 39156,
+        "DEPRECATED": 2232
       },
       "nonCanonicalTypes": {}
     },
     "OpenUI5": {
       "consolidated": "/data/consolidatedOpenUI5.json",
       "versions": "/data/selectVersionsOpenUI5.json",
-      "versionCount": 634,
+      "versionCount": 635,
       "minVersion": "1.28.0",
-      "maxVersion": "1.152.0",
-      "totalChanges": 25142,
+      "maxVersion": "1.153.0",
+      "totalChanges": 25208,
       "changeTypeCounts": {
-        "FEATURE": 3706,
-        "FIX": 20343,
-        "DEPRECATED": 1093
+        "FEATURE": 3722,
+        "FIX": 20389,
+        "DEPRECATED": 1097
       },
       "nonCanonicalTypes": {}
     }
   },
   "whatsNew": {
     "data": "/data/whatsnew.json",
-    "entryCount": 1865,
+    "entryCount": 1877,
     "minVersion": "Upcoming",
-    "maxVersion": "1.152",
+    "maxVersion": "1.153",
     "typeCounts": {
       "Deleted": 9,
+      "Changed": 1627,
+      "Deprecated": 61,
       "New": 160,
-      "Changed": 1616,
-      "Deprecated": 60,
       "UI Changed": 20
     },
     "categoryCounts": {
-      "Announcement": 44,
-      "Control": 1177,
-      "Feature": 431,
-      "SAP Fiori Elements": 169,
+      "Announcement": 45,
+      "Control": 1184,
+      "Feature": 434,
+      "SAP Fiori Elements": 170,
       "User Documentation": 36,
       "Analysis Path Framework (APF)": 8
     }

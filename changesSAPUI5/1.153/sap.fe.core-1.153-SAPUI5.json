@@ -1,0 +1,47 @@
+{
+    "1.153.0": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "121c4dc679924a0c916a7701f2bae62c3539f7c6",
+                "type": "FEATURE",
+                "text": " You can now use runtime APIs to activate or deactivate filter fields and update their labels from a controller extension"
+            },
+            {
+                "id": "2dfb28776ec2f46c2c249edd4726bafb092fd018",
+                "type": "FEATURE",
+                "text": " You can now use FieldControl to dynamically mark a child field as mandatory"
+            },
+            {
+                "id": "aad66df2fbba47d5618545d74166e170381271d4",
+                "type": "FIX",
+                "text": " We now correctly hide the Delete button for parameterized entity types"
+            },
+            {
+                "id": "4594fe36e94f143c5d4d243988f983ba61d31156",
+                "type": "FEATURE",
+                "text": " You can now use onBeforeExecuteAction in EditFlow to intercept action execution"
+            },
+            {
+                "id": "783cb82ade6d4b28bdcbed932cc6654fbc6e88d7",
+                "type": "FIX",
+                "text": " We now ensure that cross-application back navigation works correctly in the SAP Build Work Zone iframe"
+            },
+            {
+                "id": "68082ddb9c8aec11c148298f93e2d89119325c28",
+                "type": "FIX",
+                "text": " We now avoid redundant action enablement recalculations after a bound action with multiple contexts"
+            },
+            {
+                "id": "1ccce2974b7941009a519f46dc0a185367cfb5aa",
+                "type": "FEATURE",
+                "text": " You can now render images and full HTML in the display mode of fields by using the displayType property with the RichTextEditor building block"
+            },
+            {
+                "id": "1ee448b684e64d4c75d6a4df1dbc3d41951045bf",
+                "type": "FEATURE",
+                "text": " You can now navigate to a line item from a grid table cell by pressing Alt+Enter"
+            }
+        ]
+    }
+}

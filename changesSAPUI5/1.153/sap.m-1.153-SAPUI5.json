@@ -1,0 +1,157 @@
+{
+    "1.153.0": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "ba9b61a170a24884f2f0c9817ea8f892fcf629fc",
+                "type": "FIX",
+                "text": " m.ListItemAction: use direct shortcut definitions"
+            },
+            {
+                "id": "37f024ca50f24207fe93da63d3f64dd2944b8329",
+                "type": "FIX",
+                "text": " sap.m.ScrollPosition: fix intermittent QUnit test failures after navigation and re-render"
+            },
+            {
+                "id": "6e790c05a497516fdb4680398f754f593e6a407b",
+                "type": "FIX",
+                "text": " sap.m.FacetFilter: fix dialog paddings"
+            },
+            {
+                "id": "39d8ad5311d4200fc5aae7d8f37bb6aedbc656a0",
+                "type": "FIX",
+                "text": " sap.m.FacetFilter: has correct compact density"
+            },
+            {
+                "id": "62aaf81283dbdb19b96b37d584a93d7e1defaed5",
+                "type": "FEATURE",
+                "text": " sap.m.MenuButton: enable enhanced tooltip"
+            },
+            {
+                "id": "0135b54328a19b728b51e9e4531ef51587abdeee",
+                "type": "FIX",
+                "text": " sap.m.Tokenizer: add aria-hidden to the clip div"
+            },
+            {
+                "id": "2abc3a5d2fc4c5d9bb6e9ec79d4aeab89f6e4817",
+                "type": "FIX",
+                "text": " sap.m.Dialog: Buttons are no longer moved to the overflow area, when there is a space"
+            },
+            {
+                "id": "89fa571928f94a7ac782981d654ba57de02b2ea0",
+                "type": "FIX",
+                "text": " sap.m.SplitButton: paddings on hover"
+            },
+            {
+                "id": "e909f4acb23dc777fdfd0b021228a328b1ee739a",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: weeks row label is not shown when showHeaderRows is false"
+            },
+            {
+                "id": "70d3e87e1c415c62b45ba0338b0faf7dda9f3416",
+                "type": "FEATURE",
+                "text": " sap.m.RadioButtonGroup: required property and MessageMixin support are now added"
+            },
+            {
+                "id": "1866f57372681e50ae25fd354304150460a058dc",
+                "type": "FIX",
+                "text": " sap.m.Switch: fixed read-only and disabled control appearance"
+            },
+            {
+                "id": "7671942fa4779c9121fb5215f66c833b2287c918",
+                "type": "FIX",
+                "text": " sap.m.Title: visual test is now linked to control"
+            },
+            {
+                "id": "bd65353fc590e003bd3ccd80779b7db3c1864c38",
+                "type": "FEATURE",
+                "text": " sap.m.Input: Description is now alignable to the right via the new descriptionAlign property"
+            },
+            {
+                "id": "a3201226425d12322f10c29bd79c56d9f0072b4c",
+                "type": "FIX",
+                "text": " sap.m.Dialog: reserve vertical scrollbar space via scrollbar-gutter"
+            },
+            {
+                "id": "82107de19bc4348c01a4c32e4200b7aae421135d",
+                "type": "FEATURE",
+                "text": " sap.m.Link: add enhanced tooltip support"
+            },
+            {
+                "id": "eaab3f7fd74877fac7666b08694d1740d3f0f3b3",
+                "type": "FIX",
+                "text": " sap.m.Popover: Stay open on resize while opener is in the viewport"
+            },
+            {
+                "id": "bdcee8e2c438084eca10b9d122e62156cd0f5472",
+                "type": "FEATURE",
+                "text": " sap.m.Button: Introduce Tooltip Enablement"
+            },
+            {
+                "id": "9095fc80b494c4bda4a4bcdc1daac59b52f59fd9",
+                "type": "FIX",
+                "text": " sap.m.Select: Announce items with VoiceOver on macOS Chrome"
+            },
+            {
+                "id": "95b098f0fe0761358032d43a1b2952ec101b77c9",
+                "type": "FEATURE",
+                "text": " sap.m.Title: Enhanced Tooltip and Extended Keyboard Navigation enablement"
+            },
+            {
+                "id": "43581df2a7cf88908aedc96d2bc54dab33994bc1",
+                "type": "FIX",
+                "text": " sap.m.Table: Align ClearAll icon with the checkboxes"
+            },
+            {
+                "id": "1aaca0e66e595ed82e175d7be8d932a22d0cc96a",
+                "type": "FEATURE",
+                "text": " sap.m.Select: support grouped items via SeparatorItem"
+            },
+            {
+                "id": "48ae53d19d8931adbab9db93b041dab01fe2ef84",
+                "type": "FIX",
+                "text": " sap.m.DateTimePicker: Clocks visibility after toggleInputMode on phone"
+            },
+            {
+                "id": "d040850ffcdf84ffecf9d165e239b65f152ff77b",
+                "type": "FIX",
+                "text": " We've now fixed the accessibility and the re-rendering issues in the ImageContent control"
+            },
+            {
+                "id": "334ea727130ef70d2402fd9c2930bf9e1f8cf20f",
+                "type": "FIX",
+                "text": " Table: Selection Limit Popover heading level should be H1"
+            },
+            {
+                "id": "5ba3c4344fd28223b577385338f8f3664811e19d",
+                "type": "FIX",
+                "text": " sap.m.Link: fixed outlines of focused Link border in HC themes"
+            },
+            {
+                "id": "47d9cc875f3c9d309aa659c154dd528144f85543",
+                "type": "FIX",
+                "text": " sap.m.ScrollContainer: fix visual scrollContainer test"
+            },
+            {
+                "id": "005941b662c3f499ade705ec93f423193da07249",
+                "type": "FIX",
+                "text": " We've now fixed the MIME type mismatch error by ensuring that the mediaTypes are stored with the original case to avoid case-insensitive comparison in UploadSetwithTable"
+            },
+            {
+                "id": "a205b1f45753a5a2d7f9b686e796238c1056d08f",
+                "type": "FIX",
+                "text": " sap.m.PlanningCalendar: fixed date/time/weeks header in narrow screen width"
+            },
+            {
+                "id": "efd806bae9e403635e49cf33023076bea95bf1bd",
+                "type": "FEATURE",
+                "text": " Calendar related controls focus management for mobile devices accessed by keyboard"
+            },
+            {
+                "id": "bf76eca96196894765afc7db1b30ebeb0ef8f7bd",
+                "type": "FIX",
+                "text": " sap.m.ColorPalette: announce color count in palette region labels"
+            }
+        ]
+    }
+}

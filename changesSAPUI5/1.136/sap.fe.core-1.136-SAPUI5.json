@@ -373,5 +373,30 @@
                 "text": " We now avoid redundant action enablement recalculations after a bound action with multiple contexts"
             }
         ]
+    },
+    "1.136.24": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "41b8617b67ea280cfceefde2f655eecffc200a97",
+                "type": "FIX",
+                "text": " setActionEnablement no longer freezes the UI for large table selections"
+            },
+            {
+                "id": "e3008705004d68e2355b94b704f919859471107b",
+                "type": "FIX",
+                "text": " We've resolved an issue where two POST requests were sent when the user chose Create in a table in the flexible column layout"
+            },
+            {
+                "id": "38199f13029a2a55925aedad3333e97371d83c23",
+                "type": "FIX",
+                "text": " We now ensure that navigation context data is cached before draft dialogs are displayed"
+            },
+            {
+                "id": "1f23b98f7a2b01f63b79b07b4334e76f2dea815a",
+                "type": "FIX",
+                "text": " We now correctly hide the Delete button for parameterized entity types"
+            }
+        ]
     }
 }
