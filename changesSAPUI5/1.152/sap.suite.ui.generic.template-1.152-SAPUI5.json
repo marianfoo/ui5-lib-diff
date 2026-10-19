@@ -1,0 +1,84 @@
+{
+    "1.152.0": {
+        "date": "August 2026",
+        "notes": [
+            {
+                "id": "Ia078fe45d1231e647f338f0620a69c13a43215ac",
+                "type": "FIX",
+                "text": "We've resolved an issue where default filter values in a variant were not restored during the initial loading of the object page when no prior navigation state was available",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0969078"
+                    }
+                ]
+            },
+            {
+                "id": "Ib4ff7da58232c89c8853edabd0bff00a2678fce6",
+                "type": "FIX",
+                "text": "We now ensure that saved variants are applied only after the smart table is fully initialized on the initial launch of the list report page",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0975104"
+                    }
+                ]
+            },
+            {
+                "id": "I5fa7353c5c96e98b980e772cd5c03fc53fadd58f",
+                "type": "FIX",
+                "text": "We've now assigned a ContentInfo landmark role to the footer of the list report page to improve accessibility for screen reader users",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0962075"
+                    }
+                ]
+            },
+            {
+                "id": "Iec06b1c189082c7e2be4182595567495240a64a7",
+                "type": "FIX",
+                "text": "We've resolved an issue where the currency and unit columns in Insights cards generated from the list report page displayed unformatted values instead of locale-specific formatted numbers",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012672383"
+                    }
+                ]
+            },
+            {
+                "id": "Iab47a625bd4f142d94b8f83b6ab7af05b4018c70",
+                "type": "FIX",
+                "text": "The discard draft popup is no longer displayed when intent-based navigation links on the object page are opened in a new browser tab or window",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010977177"
+                    }
+                ]
+            },
+            {
+                "id": "I229a9484ec940dfe36bc22ddf6946edee8888f4d",
+                "type": "FIX",
+                "text": "We've resolved an issue with duplicate cross-app navigation requests that were triggered by rapidly double-clicking an intent-based navigation link",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010699200"
+                    }
+                ]
+            },
+            {
+                "id": "I5c13577ee712006548c46c1d7580caceb8254c6b",
+                "type": "FIX",
+                "text": "We've resolved an issue where an error could occur in the smart table or smart chart if the user navigated away from a page before its state was saved",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0990048"
+                    }
+                ]
+            }
+        ]
+    }
+}
