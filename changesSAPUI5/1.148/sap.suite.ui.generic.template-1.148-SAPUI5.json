@@ -257,5 +257,37 @@
                 ]
             }
         ]
+    },
+    "1.148.12": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "I76160cecda4f5c178bd2406ce4a697958bc124e0",
+                "type": "FIX",
+                "text": "We've resolved an issue where navigation between pages stopped working after the application page was refreshed",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260013303717"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.148.13": {
+        "date": "October 2026",
+        "notes": [
+            {
+                "id": "I557993cfbf751f8a98b443fa57206d836206171a",
+                "type": "FIX",
+                "text": "We've resolved an issue where browser refresh didn't restore table data on list report pages configured with mandatory filters and additional bindings",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012202990"
+                    }
+                ]
+            }
+        ]
     }
 }

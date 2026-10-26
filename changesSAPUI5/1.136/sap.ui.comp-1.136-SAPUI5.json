@@ -444,5 +444,25 @@
                 "text": " SmartField: getDropdownItemKeyType now returns null when binding is absent"
             }
         ]
+    },
+    "1.136.22": {
+        "date": "October 2026",
+        "notes": [
+            {
+                "id": "6314566f50fd025a901f95b9228710e87729109e",
+                "type": "FIX",
+                "text": " SmartLink: Link without navigation is now rendered as simple text instead of disabled link"
+            },
+            {
+                "id": "4e75c8ac43e049dc797ccec62c836de1dfde3f45",
+                "type": "FIX",
+                "text": " SemanticGroupElement: react to runtime FieldControl changes on nested SmartFields"
+            },
+            {
+                "id": "05c755e97662347bddd0b2c76a56373d4d1eb3ed",
+                "type": "FIX",
+                "text": "SmartFilterBar: expose _toolbar aggregation in design time to make SmartVariantManagement selectable in UI Adaptation"
+            }
+        ]
     }
 }

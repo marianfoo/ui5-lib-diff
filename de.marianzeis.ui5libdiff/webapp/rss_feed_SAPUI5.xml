@@ -30,7 +30,7 @@
 <title>Version 1.108.55 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.54&amp;versionTo=1.108.55</link>
 <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.108.55</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where navigating back to a list report page or launching it from a tile showed an empty table</li></ul></li></ul>]]></description>
+<description><![CDATA[<h2>Changes in Version 1.108.55</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where navigating back to a list report page or launching it from a tile showed an empty table</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: Improve screen-reader accessibility</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.108.54&amp;versionTo=1.108.55</guid>
 </item>
 <item>
@@ -111,6 +111,13 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.18&amp;versionTo=1.136.19</guid>
 </item>
 <item>
+<title>Version 1.136.22 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.21&amp;versionTo=1.136.22</link>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.136.22</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.GridContainer: Sentinel divs now have aria-hidden=&quot;true&quot;</li></ul></li><li><strong>Library: sap.fe.core</strong><ul><li>Type: FIX, Description:  Apps using the flexible column layout now correctly navigate to an object that was recently modified by another user</li></ul></li><li><strong>Library: sap.fe.macros</strong><ul><li>Type: FIX, Description:  We now ensure that table contents are correctly refreshed when an entry needs to no longer be displayed after mass edit</li><li>Type: FIX, Description:  We&apos;ve resolved an issue where the sort arrow wasn&apos;t displayed in headers of grid table columns when variantManagement was set to None</li></ul></li><li><strong>Library: sap.fe.templates</strong><ul><li>Type: FIX, Description:  We&apos;ve resolved an issue where the sort arrow wasn&apos;t displayed in headers of grid table columns when variantManagement was set to None</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.IconTabFilter: fix invalid role=&quot;separator&quot; inside role=&quot;tab&quot;</li><li>Type: FIX, Description:  We&apos;ve now fixed the visual clipping of the remove button in the ScopeActions scope on the sap_horizon and sap_horizon_dark themes in the slide tile control</li><li>Type: FIX, Description:  We&apos;ve now fixed the displacement of action buttons when they are incorrectly placed inside the content wrapper in generic tile</li><li>Type: FIX, Description:  We&apos;ve now fixed the overflow clipping and border-radius issues in generic tile and action tile controls</li><li>Type: FIX, Description:  sap.m.ScrollPosition: fix intermittent QUnit test failures after navigation and re-render</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: The discard draft popup is no longer displayed when intent-based navigation links on the object page are opened in a new browser tab or window</li><li>Type: FIX, Description: We’ve resolved an issue where empty semantic values in the manifest.json file prevented the opening of related apps</li><li>Type: FIX, Description: We&apos;ve resolved an issue with duplicate cross-app navigation requests that were triggered by rapidly double-clicking an intent-based navigation link</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  SmartLink: Link without navigation is now rendered as simple text instead of disabled link</li><li>Type: FIX, Description:  SemanticGroupElement: react to runtime FieldControl changes on nested SmartFields</li><li>Type: FIX, Description: SmartFilterBar: expose _toolbar aggregation in design time to make SmartVariantManagement selectable in UI Adaptation</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: no re-scroll when subSection in view</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.21&amp;versionTo=1.136.22</guid>
+</item>
+<item>
 <title>Version 1.136.20 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.19&amp;versionTo=1.136.20</link>
 <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
@@ -118,17 +125,10 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.19&amp;versionTo=1.136.20</guid>
 </item>
 <item>
-<title>Version 1.136.22 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.21&amp;versionTo=1.136.22</link>
-<pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.136.22</h2><ul><li><strong>Library: sap.fe.core</strong><ul><li>Type: FIX, Description:  Apps using the flexible column layout now correctly navigate to an object that was recently modified by another user</li></ul></li><li><strong>Library: sap.fe.macros</strong><ul><li>Type: FIX, Description:  We now ensure that table contents are correctly refreshed when an entry needs to no longer be displayed after mass edit</li><li>Type: FIX, Description:  We&apos;ve resolved an issue where the sort arrow wasn&apos;t displayed in headers of grid table columns when variantManagement was set to None</li></ul></li><li><strong>Library: sap.fe.templates</strong><ul><li>Type: FIX, Description:  We&apos;ve resolved an issue where the sort arrow wasn&apos;t displayed in headers of grid table columns when variantManagement was set to None</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: The discard draft popup is no longer displayed when intent-based navigation links on the object page are opened in a new browser tab or window</li><li>Type: FIX, Description: We’ve resolved an issue where empty semantic values in the manifest.json file prevented the opening of related apps</li><li>Type: FIX, Description: We&apos;ve resolved an issue with duplicate cross-app navigation requests that were triggered by rapidly double-clicking an intent-based navigation link</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.21&amp;versionTo=1.136.22</guid>
-</item>
-<item>
 <title>Version 1.136.23 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.22&amp;versionTo=1.136.23</link>
 <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.136.23</h2><ul><li><strong>Library: sap.fe.core</strong><ul><li>Type: FIX, Description:  We now avoid redundant action enablement recalculations after a bound action with multiple contexts</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue in the analytical table where clicking a SmartLink inside an expanded row didn&apos;t open the popover with navigation links</li><li>Type: FIX, Description: We now ensure that valid filterable fields are correctly recognised by the AI-assisted easy filter by prioritising the Capabilities.FilterRestrictions annotation over the sap:filterable annotation, aligning with the behavior of the smart filter bar</li><li>Type: FIX, Description: We now ensure that cross-app navigation remains available after the first time the target application opens in a new browser tab</li><li>Type: FIX, Description: We now ensure that row selection on the object page is preserved when navigating to the subobject page in the three-column flexible layout</li><li>Type: FIX, Description: We&apos;ve resolved an issue where custom filter values weren&apos;t restored when returning to a list report page after navigating away</li></ul></li></ul>]]></description>
+<description><![CDATA[<h2>Changes in Version 1.136.23</h2><ul><li><strong>Library: sap.fe.core</strong><ul><li>Type: FIX, Description:  We now avoid redundant action enablement recalculations after a bound action with multiple contexts</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue in the analytical table where clicking a SmartLink inside an expanded row didn&apos;t open the popover with navigation links</li><li>Type: FIX, Description: We now ensure that valid filterable fields are correctly recognised by the AI-assisted easy filter by prioritising the Capabilities.FilterRestrictions annotation over the sap:filterable annotation, aligning with the behavior of the smart filter bar</li><li>Type: FIX, Description: We now ensure that cross-app navigation remains available after the first time the target application opens in a new browser tab</li><li>Type: FIX, Description: We now ensure that row selection on the object page is preserved when navigating to the subobject page in the three-column flexible layout</li><li>Type: FIX, Description: We&apos;ve resolved an issue where custom filter values weren&apos;t restored when returning to a list report page after navigating away</li><li>Type: FIX, Description: We&apos;ve resolved an issue where clicking a row in an Insight Card navigated to an empty object page</li><li>Type: FIX, Description: We&apos;ve resolved an issue where navigation between pages stopped working after the application page was refreshed</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.22&amp;versionTo=1.136.23</guid>
 </item>
 <item>
@@ -137,6 +137,13 @@
 <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.136.24</h2><ul><li><strong>Library: sap.fe.core</strong><ul><li>Type: FIX, Description:  setActionEnablement no longer freezes the UI for large table selections</li><li>Type: FIX, Description:  We&apos;ve resolved an issue where two POST requests were sent when the user chose Create in a table in the flexible column layout</li><li>Type: FIX, Description:  We now ensure that navigation context data is cached before draft dialogs are displayed</li><li>Type: FIX, Description:  We now correctly hide the Delete button for parameterized entity types</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.23&amp;versionTo=1.136.24</guid>
+</item>
+<item>
+<title>Version 1.136.25 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.24&amp;versionTo=1.136.25</link>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.136.25</h2><ul><li><strong>Library: sap.fe.core</strong><ul><li>Type: FIX, Description:  We now scroll the focused table row back into view after a column-resize animation</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.136.24&amp;versionTo=1.136.25</guid>
 </item>
 <item>
 <title>Version 1.136.21 Changes</title>
@@ -195,6 +202,13 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.6&amp;versionTo=1.148.7</guid>
 </item>
 <item>
+<title>Version 1.148.10 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.9&amp;versionTo=1.148.10</link>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.148.10</h2><ul><li><strong>Library: sap.f</strong><ul><li>Type: FIX, Description:  sap.f.GridContainer: Sentinel divs now have aria-hidden=&quot;true&quot;</li></ul></li><li><strong>Library: sap.m</strong><ul><li>Type: FIX, Description:  sap.m.IconTabFilter: fix invalid role=&quot;separator&quot; inside role=&quot;tab&quot;</li><li>Type: FIX, Description:  We&apos;ve now fixed the visual clipping of the remove button in the ScopeActions scope on the sap_horizon and sap_horizon_dark themes in the slide tile control</li><li>Type: FIX, Description:  We&apos;ve now fixed the displacement of action buttons when they are incorrectly placed inside the content wrapper in generic tile</li><li>Type: FIX, Description:  We&apos;ve now fixed the overflow clipping and border-radius issues in generic tile and action tile controls</li><li>Type: FIX, Description:  m.ListItemAction: use direct shortcut definitions</li><li>Type: FIX, Description:  sap.m.p13n.FilterController: Editing existing filter condition fails</li><li>Type: FIX, Description:  sap.m.ScrollPosition: fix intermittent QUnit test failures after navigation and re-render</li></ul></li><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue in the analytical table where clicking a SmartLink inside an expanded row didn&apos;t open the popover with navigation links</li></ul></li><li><strong>Library: sap.ui.comp</strong><ul><li>Type: FIX, Description:  SmartLink: Link without navigation is now rendered as simple text instead of disabled link</li><li>Type: FIX, Description:  SemanticGroupElement: react to runtime FieldControl changes on nested SmartFields</li><li>Type: FIX, Description:  FilterBar: DateRangeSelection bricked on reset</li><li>Type: FIX, Description: SmartFilterBar: expose _toolbar aggregation in design time to make SmartVariantManagement selectable in UI Adaptation</li></ul></li><li><strong>Library: sap.uxap</strong><ul><li>Type: FIX, Description:  sap.uxap.ObjectPageLayout: no re-scroll when subSection in view</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.9&amp;versionTo=1.148.10</guid>
+</item>
+<item>
 <title>Version 1.148.2 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.1&amp;versionTo=1.148.2</link>
 <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
@@ -237,18 +251,25 @@
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.3&amp;versionTo=1.148.4</guid>
 </item>
 <item>
-<title>Version 1.148.10 Changes</title>
-<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.9&amp;versionTo=1.148.10</link>
-<pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-<description><![CDATA[<h2>Changes in Version 1.148.10</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue in the analytical table where clicking a SmartLink inside an expanded row didn&apos;t open the popover with navigation links</li></ul></li></ul>]]></description>
-<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.9&amp;versionTo=1.148.10</guid>
-</item>
-<item>
 <title>Version 1.148.11 Changes</title>
 <link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.10&amp;versionTo=1.148.11</link>
 <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
 <description><![CDATA[<h2>Changes in Version 1.148.11</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We now ensure that cross-app navigation remains available after the first time the target application opens in a new browser tab</li><li>Type: FIX, Description: We&apos;ve resolved an issue where data export failed when a search term was active in the filter bar</li><li>Type: FIX, Description: We now ensure that row selection on the object page is preserved when navigating to the subobject page in the three-column flexible layout</li></ul></li></ul>]]></description>
 <guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.10&amp;versionTo=1.148.11</guid>
+</item>
+<item>
+<title>Version 1.148.12 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.11&amp;versionTo=1.148.12</link>
+<pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.148.12</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where navigation between pages stopped working after the application page was refreshed</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.11&amp;versionTo=1.148.12</guid>
+</item>
+<item>
+<title>Version 1.148.13 Changes</title>
+<link>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.12&amp;versionTo=1.148.13</link>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<description><![CDATA[<h2>Changes in Version 1.148.13</h2><ul><li><strong>Library: sap.suite.ui.generic.template</strong><ul><li>Type: FIX, Description: We&apos;ve resolved an issue where browser refresh didn&apos;t restore table data on list report pages configured with mandatory filters and additional bindings</li></ul></li></ul>]]></description>
+<guid>https://marianfoo.github.io/ui5-lib-diff/?versionFrom=1.148.12&amp;versionTo=1.148.13</guid>
 </item>
 <item>
 <title>Version 1.149.0 Changes</title>
