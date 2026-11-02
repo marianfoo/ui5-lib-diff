@@ -1,0 +1,52 @@
+{
+    "1.154.0": {
+        "date": "October 2026",
+        "notes": [
+            {
+                "id": "39a9f2f44284eabd621c00c48a3edba401f6330d",
+                "type": "FIX",
+                "text": " We've ensured that new drafts are discarded correctly when navigating back from the object page"
+            },
+            {
+                "id": "eac784e3b41b9302f41c4d4ba2b8bc148c5702e5",
+                "type": "FEATURE",
+                "text": "  We've now ensured that inline creation row errors are displayed only when focus leaves the row"
+            },
+            {
+                "id": "2782744357e27c9e2e7d7597cfd40cb90014ed4f",
+                "type": "FEATURE",
+                "text": " You can now use the UI.PresentationVariant/GroupBy annotation to automatically group values in value help"
+            },
+            {
+                "id": "ec924c83aa8a792bfc1c059f888dfed4ad1b1f2d",
+                "type": "FEATURE",
+                "text": " We now support ALT+CTRL+N as a global Create shortcut and CTRL+Enter as a global Go shortcut on the list report page and the analytical list page"
+            },
+            {
+                "id": "bc63d93b99c29d7f27452d9d24f81b3d1b46f8d4",
+                "type": "FEATURE",
+                "text": " We now support inline row creation in editable analytical tables with active grouping"
+            },
+            {
+                "id": "254c03377400d7e5d0f8d56d7e73eea0da13d210",
+                "type": "FEATURE",
+                "text": " We've introduced AddViaValueHelp, a new table creation mode that lets users add existing rows to a table through the MDC value help dialog and remove them without a confirmation prompt"
+            },
+            {
+                "id": "1d35783f300dd5c01668223894dde9917dd6856b",
+                "type": "FIX",
+                "text": " We now scroll the focused table row back into view after a column-resize animation"
+            },
+            {
+                "id": "7a1044626b92bd858b11dccfcc15d6271a0293e1",
+                "type": "FIX",
+                "text": " We now ensure that navigation context data is cached before draft dialogs are displayed"
+            },
+            {
+                "id": "63c42b3aace9367a35beecbd70dd89da60204469",
+                "type": "FIX",
+                "text": " We've resolved an issue where intent-based navigation used an incorrect value for fields with TextOnly text arrangement in header facets"
+            }
+        ]
+    }
+}

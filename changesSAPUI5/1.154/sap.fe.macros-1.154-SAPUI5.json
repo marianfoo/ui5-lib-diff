@@ -1,0 +1,57 @@
+{
+    "1.154.0": {
+        "date": "October 2026",
+        "notes": [
+            {
+                "id": "3a08482d8ed2bd5aa030cd4161b4a20da5b86826",
+                "type": "FIX",
+                "text": " We've now fixed Upload and Delete buttons incorrectly appearing in display mode when FieldControl is set to Inapplicable"
+            },
+            {
+                "id": "6137dfbbfb2d74fd4f469dd0ae8a94539e22e784",
+                "type": "FIX",
+                "text": " We now correctly restore the filter bar state on back navigation from cross-app navigation"
+            },
+            {
+                "id": "eac784e3b41b9302f41c4d4ba2b8bc148c5702e5",
+                "type": "FEATURE",
+                "text": "  We've now ensured that inline creation row errors are displayed only when focus leaves the row"
+            },
+            {
+                "id": "2782744357e27c9e2e7d7597cfd40cb90014ed4f",
+                "type": "FEATURE",
+                "text": " You can now use the UI.PresentationVariant/GroupBy annotation to automatically group values in value help"
+            },
+            {
+                "id": "ec924c83aa8a792bfc1c059f888dfed4ad1b1f2d",
+                "type": "FEATURE",
+                "text": " We now support ALT+CTRL+N as a global Create shortcut and CTRL+Enter as a global Go shortcut on the list report page and the analytical list page"
+            },
+            {
+                "id": "bc63d93b99c29d7f27452d9d24f81b3d1b46f8d4",
+                "type": "FEATURE",
+                "text": " We now support inline row creation in editable analytical tables with active grouping"
+            },
+            {
+                "id": "1202a915c685f27cbba525ffda4f5ad422bdcbc2",
+                "type": "FIX",
+                "text": " The inline creation row now displays correctly when a grouping is applied on a responsive table"
+            },
+            {
+                "id": "254c03377400d7e5d0f8d56d7e73eea0da13d210",
+                "type": "FEATURE",
+                "text": " We've introduced AddViaValueHelp, a new table creation mode that lets users add existing rows to a table through the MDC value help dialog and remove them without a confirmation prompt"
+            },
+            {
+                "id": "eeb378e4429c0b4f01873d48368838b9afa09398",
+                "type": "FIX",
+                "text": " We now correctly link validation messages for radio button groups to their fields"
+            },
+            {
+                "id": "63c42b3aace9367a35beecbd70dd89da60204469",
+                "type": "FIX",
+                "text": " We've resolved an issue where intent-based navigation used an incorrect value for fields with TextOnly text arrangement in header facets"
+            }
+        ]
+    }
+}
