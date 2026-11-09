@@ -1574,5 +1574,92 @@
                 ]
             }
         ]
+    },
+    "1.120.52": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "I59c35c1fb89ebf5637eb9c5a23d6ede9fb57786b",
+                "type": "FIX",
+                "text": "We now ensure that cross-app navigation remains available after the first time the target application opens in a new browser tab",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC1029963"
+                    }
+                ]
+            },
+            {
+                "id": "I04478a7f62a857e516cb49cb3d6bc26432acd789",
+                "type": "FIX",
+                "text": "We've resolved an issue where navigating from a row in an Insights card generated from a list report opened an object page with no data",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012512063"
+                    }
+                ]
+            },
+            {
+                "id": "I514ecec166a6904ea17ccede5209e908839d1fdc",
+                "type": "FIX",
+                "text": "We've resolved an issue in apps using the flexible column layout where row selections in a table on the object page weren't retained when a subobject page was opened in the third column",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260011574895"
+                    }
+                ]
+            },
+            {
+                "id": "I7209e071cf9b954b093730f639e819d2aa8d9732",
+                "type": "FIX",
+                "text": "We've resolved an issue where custom filter values weren't restored when returning to a list report page after navigating away",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012748502"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.120.53": {
+        "date": "November 2026",
+        "notes": [
+            {
+                "id": "Ie3397495d21ce8669a1c8347c3b20fd556610aaa",
+                "type": "FIX",
+                "text": "We now ensure that the Back button works correctly when navigating between multiple apps that run in sap-keep-alive mode",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC1061773"
+                    }
+                ]
+            },
+            {
+                "id": "Iab85ba5e8080ee3fbe4f7f49ac783078df143f52",
+                "type": "FIX",
+                "text": "We've resolved an issue where the link of an object page shared using the Send Email option in the Share menu couldn't be opened in certain email clients when the URL contained single quotes",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260013386553"
+                    }
+                ]
+            },
+            {
+                "id": "I65f4fb4426a0c712533902707885c7e0d709073f",
+                "type": "FIX",
+                "text": "We've improved accessibility for screen reader users by providing text on the analytical list page to inform them that a table is available as an alternative to the chart",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012695775"
+                    }
+                ]
+            }
+        ]
     }
 }
