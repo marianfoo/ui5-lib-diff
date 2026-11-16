@@ -73,5 +73,158 @@
                 ]
             }
         ]
+    },
+    "1.151.1": {
+        "date": "September 2026",
+        "notes": [
+            {
+                "id": "I229a9484ec940dfe36bc22ddf6946edee8888f4d",
+                "type": "FIX",
+                "text": "We've resolved an issue with duplicate cross-app navigation requests that were triggered by rapidly double-clicking an intent-based navigation link",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010699200"
+                    }
+                ]
+            },
+            {
+                "id": "Iab47a625bd4f142d94b8f83b6ab7af05b4018c70",
+                "type": "FIX",
+                "text": "The discard draft popup is no longer displayed when intent-based navigation links on the object page are opened in a new browser tab or window",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20250010977177"
+                    }
+                ]
+            },
+            {
+                "id": "I5c13577ee712006548c46c1d7580caceb8254c6b",
+                "type": "FIX",
+                "text": "We've resolved an issue where an error could occur in the smart table or smart chart if the user navigated away from a page before its state was saved",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC0990048"
+                    }
+                ]
+            },
+            {
+                "id": "I437bb477c976363b78525e9b1d4dc199b12301c7",
+                "type": "FIX",
+                "text": "We've resolved an issue in the analytical table where clicking a SmartLink inside an expanded row didn't open the popover with navigation links",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260013063140"
+                    }
+                ]
+            },
+            {
+                "id": "I59c35c1fb89ebf5637eb9c5a23d6ede9fb57786b",
+                "type": "FIX",
+                "text": "We now ensure that cross-app navigation remains available after the first time the target application opens in a new browser tab",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC1029963"
+                    }
+                ]
+            }
+        ]
+    },
+    "1.151.2": {
+        "date": "November 2026",
+        "notes": [
+            {
+                "id": "I514ecec166a6904ea17ccede5209e908839d1fdc",
+                "type": "FIX",
+                "text": "We've resolved an issue in apps using the flexible column layout where row selections in a table on the object page weren't retained when a subobject page was opened in the third column",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260011574895"
+                    }
+                ]
+            },
+            {
+                "id": "I04478a7f62a857e516cb49cb3d6bc26432acd789",
+                "type": "FIX",
+                "text": "We've resolved an issue where navigating from a row in an Insights card generated from a list report opened an object page with no data",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012512063"
+                    }
+                ]
+            },
+            {
+                "id": "I76160cecda4f5c178bd2406ce4a697958bc124e0",
+                "type": "FIX",
+                "text": "We've resolved an issue where internal navigation stopped working after refreshing the browser on a page opened through a deep link",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260013303717"
+                    }
+                ]
+            },
+            {
+                "id": "I40c954e1f6d539a4d340efc759850c641b0889d5",
+                "type": "FIX",
+                "text": "We now ensure that the AI-assisted easy filter loads correctly for filter fields with a fixed value list that originate from a navigation property",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "DINC1020027"
+                    }
+                ]
+            },
+            {
+                "id": "Iab85ba5e8080ee3fbe4f7f49ac783078df143f52",
+                "type": "FIX",
+                "text": "We've resolved an issue where the link of an object page shared using the Send Email option in the Share menu couldn't be opened in certain email clients when the URL contained single quotes",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260013386553"
+                    }
+                ]
+            },
+            {
+                "id": "I65f4fb4426a0c712533902707885c7e0d709073f",
+                "type": "FIX",
+                "text": "We've improved accessibility for screen reader users by providing text on the analytical list page to inform them that a table is available as an alternative to the chart",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012695775"
+                    }
+                ]
+            },
+            {
+                "id": "I6f10ff66cab98cad20857ee68c529d89f7bd5701",
+                "type": "FIX",
+                "text": "We now ensure that primary actions such as Save in the footer remain visible on mobile devices when the draft status message is long",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260012261178"
+                    }
+                ]
+            },
+            {
+                "id": "I0be19ede6a0852bbf8cc7d5822bc91406014c03d",
+                "type": "FIX",
+                "text": "We've resolved an issue where a false warning about filters appeared on the list report page after reloading a saved view that included filters from a navigation property",
+                "references": [
+                    {
+                        "type": "SNOW",
+                        "reference": "CS20260013388658"
+                    }
+                ]
+            }
+        ]
     }
 }

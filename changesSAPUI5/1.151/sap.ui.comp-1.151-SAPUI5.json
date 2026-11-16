@@ -73,5 +73,25 @@
                 "text": " ValueHelpDialog: Fix unstable rowSelectionChanged test"
             }
         ]
+    },
+    "1.151.2": {
+        "date": "November 2026",
+        "notes": [
+            {
+                "id": "126636bab02ed8cb67df8034eb164adb92e72ec9",
+                "type": "FIX",
+                "text": " SmartFilterBar: suggestions now support textOnly for Guid type column"
+            },
+            {
+                "id": "6e86d52a9746f946984f4d5c669d01ebbc62d388",
+                "type": "FIX",
+                "text": " SmartLink: Link without navigation is now rendered as simple text instead of disabled link"
+            },
+            {
+                "id": "a978e5f6da5b9c242f4f6f968134236660ac9110",
+                "type": "FIX",
+                "text": " SemanticGroupElement: react to runtime FieldControl changes on nested SmartFields"
+            }
+        ]
     }
 }
